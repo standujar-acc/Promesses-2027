@@ -395,7 +395,13 @@ sp['famille']="Allocation unique de 350 €/mois par enfant dès le 1er enfant, 
 # si un paramètre clé manque, une note le dit. Mélenchon : allocations familiales et APL +10 % (note LFI d'octobre 2026).
 SQAF=D['statu_quo']['alloc_familiales']; sm=C['melenchon']['sim']; assert sm.get('alloc_familiales') is None
 sm['alloc_familiales']={**{n:round(SQAF[n]*1.1,2) for n in ('1','2','3','par_enfant_sup')},"note":"Allocations familiales +10 % (note LFI d'octobre 2026), hors de notre total"}
-sm.setdefault('tous',[]).append("APL +10 % (note LFI d'octobre 2026) : non calculé ici, le simulateur ne connaît pas votre loyer.")
+# logement (même règle S053) : APL calculées à partir du montant indiqué ; notes pour les mesures sans paramètre publié
+sm['apl_pct']=10; sm['apl_note']="APL +10 % (note LFI d'octobre 2026), hors de notre total"
+for cid,r in [('le-pen','nonfr'),('retailleau','lt5w'),('lisnard','lt5'),('zemmour','hors')]: C[cid]['sim']['etr']['apl']=r
+C['le-pen']['sim']['logement']=[{"when":["credit","proprio"],"t":"MaPrimeRénov' remplacée par un prêt à taux zéro « 100 % rénov » : conditions non publiées, non calculé ici."}]
+C['retailleau']['sim']['logement']=[{"when":["credit"],"kids":True,"t":"Intérêts d'emprunt de la résidence principale déductibles à 50, 75 ou 100 % selon le nombre d'enfants : forme et plafond non publiés, non calculé ici."},
+    {"when":["loc"],"t":"Fin de l'encadrement des loyers là où il s'applique (Paris, Lyon, Lille…) : effet sur votre loyer non chiffré."}]
+C['philippe']['sim']['logement']=[{"when":["loc","credit","proprio","heberge"],"kids":True,"t":"Prêt à taux zéro pour acheter plus grand à l'arrivée d'un enfant : montant et conditions non publiés, non calculé ici."}]
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
