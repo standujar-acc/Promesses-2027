@@ -464,6 +464,11 @@ for cid,mid,f in (('glucksmann','ecole',"Non chiffrable : ampleur des hausses de
 t0=C['attal']['claude_total']; assert 'salaires des enseignants, ' in t0['missing']; t0['missing']=t0['missing'].replace('salaires des enseignants, ','')
 t0=C['philippe']['claude_total']; assert "réduction d'impôt à la naissance, " in t0['missing']; t0['missing']=t0['missing'].replace("réduction d'impôt à la naissance, ","")
 
+# --- review 10 : simulateur, précision de l'impôt (27/10/2026) ; service-public F34328 (revenus 2025)
+# net imposable = net + CSG non déductible (2,4 %) et CRDS (0,5 %) sur 98,25 % du brut, brut ≈ net / 0,78 → ≈ net × 1,036
+SQ['ir'].update(net_imposable=1.036,plafond_demi_part=1807,plafond_parent_isole=4262)
+C['melenchon']['sim'].setdefault('tous',[]).append("Prix de l'alimentation et de l'énergie de base bloqués : produits et niveaux non publiés, effet sur vos dépenses non calculé ici (seul le carburant à 1,70 €/l l'est).")
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
