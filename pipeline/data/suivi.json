@@ -845,6 +845,24 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": null
+  },
+  {
+   "id": "S058",
+   "type": "a_verifier",
+   "candidats": [
+    "melenchon",
+    "glucksmann",
+    "philippe",
+    "retailleau"
+   ],
+   "mesure": "life:ecole",
+   "sujet": "Vie quotidienne, école : études de la fiche sans rapport avec certaines mesures",
+   "detail": "Relevé en rédigeant le quiz (27/10/2026) : les fiches citent la note DEPP sur le dédoublement pour l'école rurale (Mélenchon), le privé (Glucksmann) et l'amende aux parents (Philippe), et l'étude sur le redoublement pour les établissements autonomes (Retailleau). Reprendre les études du quiz (regroupements d'écoles, IPP 2021 sur le privé, évaluation galloise 2018, académies anglaises) avec la même lecture pour les mesures du même type.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
   }
  ]
 }

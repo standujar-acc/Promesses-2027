@@ -9477,6 +9477,331 @@
      "u": "https://artificialisation.developpement-durable.gouv.fr/sites/artificialisation/files/fichiers/2026/06/determinants_2011-2025.pdf"
     }
    ]
+  },
+  {
+   "c": "melenchon",
+   "id": "ecole.2",
+   "life": true,
+   "theme": "ecole",
+   "title": "Garder les écoles à classe unique et limiter le trajet scolaire à 15 minutes",
+   "quiz_text": "Garder les écoles à classe unique et limiter le trajet scolaire à 15 minutes",
+   "quiz_concret": "Les petites écoles de village restent ouvertes ; plus d'écoles et de collèges ruraux pour des trajets courts.",
+   "quiz_plus": "Fermer ou regrouper des écoles fait baisser les résultats à court terme, surtout chez les élèves venus de petites écoles (Danemark, 2018) ; les classes à plusieurs niveaux ne font ni mieux ni moins bien (synthèse de 56 études).",
+   "quiz_moins": "Aux Pays-Bas, regrouper les petites écoles a légèrement amélioré les résultats (2016) ; en France, les enseignants de classes à plusieurs niveaux jugent moins faisable d'aider à part les élèves en difficulté (DEPP 2026).",
+   "quiz_src": [
+    {
+     "l": "Beuchert, Humlum, Nielsen, Smith, regroupements d'écoles au Danemark (CESifo WP 6082, publié dans Economics of Education Review 2018)",
+     "a": 2018,
+     "u": "https://www.ifo.de/en/cesifo/publications/2016/working-paper/short-term-effects-school-consolidation-student-achievement"
+    },
+    {
+     "l": "Veenman, synthèse de 56 études sur les classes à plusieurs niveaux (Review of Educational Research, 1995), via Education Week",
+     "a": 1995,
+     "u": "https://www.edweek.org/education/ideas-findings-1/1996/05"
+    },
+    {
+     "l": "de Haan, Leuven, Oosterbeek, School consolidation and student achievement (Journal of Law, Economics and Organization)",
+     "a": 2016,
+     "u": "https://dare.uva.nl/id/e4bce2db-c078-4bfc-b20d-0cf53a47b7ba"
+    },
+    {
+     "l": "DEPP, Note d'information n° 26.30, Les classes multiniveaux dans le premier degré",
+     "a": 2026,
+     "u": "https://www.education.gouv.fr/sites/default/files/document/depp-ni-2026-30-classes-multiniveaux-518690.pdf"
+    }
+   ]
+  },
+  {
+   "c": "glucksmann",
+   "id": "ecole.2",
+   "life": true,
+   "theme": "ecole",
+   "title": "Conditionner l'argent public versé aux écoles privées à la mixité sociale",
+   "quiz_text": "Conditionner l'argent public versé aux écoles privées à la mixité sociale",
+   "quiz_concret": "Les écoles privées sous contrat devraient accueillir plus d'élèves modestes pour garder leurs financements.",
+   "quiz_plus": "Le privé sous contrat accueille 40 % d'élèves très favorisés (26 % en 2000) ; la Cour des comptes propose d'y moduler les moyens selon le profil social. À Paris, il fait près de la moitié de la ségrégation entre collèges (IPP).",
+   "quiz_moins": "La ségrégation vient aussi du public : à Paris, l'autre moitié tient aux écarts entre secteurs des collèges publics (IPP 2021). Le privé, payant, invoque des aides de cantine et de transport moindres pour les familles modestes.",
+   "quiz_src": [
+    {
+     "l": "Cour des comptes, L'enseignement privé sous contrat (via Banque des territoires)",
+     "a": 2023,
+     "u": "https://www.banquedesterritoires.fr/enseignement-prive-la-cour-des-comptes-veut-moduler-les-moyens-selon-la-composition-sociale-des"
+    },
+    {
+     "l": "IPP, Note n° 62, Secteurs multi-collèges à Paris : quel bilan après trois ans ? (Grenet, Souidi)",
+     "a": 2021,
+     "u": "https://halshs.archives-ouvertes.fr/halshs-03165725v1/file/n62-notesIPP-fevrier2021.pdf"
+    },
+    {
+     "l": "Protocole mixité de 2023 entre l'État et l'enseignement catholique (via Banque des territoires)",
+     "a": 2023,
+     "u": "https://www.banquedesterritoires.fr/mixite-sociale-dans-lenseignement-prive-la-balle-est-dans-le-camp-des-collectivites"
+    }
+   ]
+  },
+  {
+   "c": "philippe",
+   "id": "ecole.3",
+   "life": true,
+   "theme": "ecole",
+   "title": "Permettre au maire de mettre à l'amende les parents d'élèves absentéistes ou perturbateurs",
+   "quiz_text": "Permettre au maire de mettre à l'amende les parents d'élèves absentéistes ou perturbateurs",
+   "quiz_concret": "Sur proposition de l'école, les parents d'un élève absentéiste, harceleur ou perturbateur paient une amende.",
+   "quiz_plus": "Au pays de Galles, 56 % des professionnels jugent efficace l'amende aux parents pour absences, l'avertissement préalable étant vu comme dissuasif ; quelques petites études trouvent un effet des sanctions financières (2018).",
+   "quiz_moins": "Au pays de Galles, aucun lien visible entre amendes et niveau d'absences, et des parents paient l'amende plutôt que renoncer aux vacances (2018) ; en Angleterre, 93 % des amendes visent des vacances en période scolaire (EPI 2026).",
+   "quiz_src": [
+    {
+     "l": "Gouvernement gallois (ICF, Arad), Evaluation of Fixed Penalty Notices issued for regular non-attendance at school",
+     "a": 2018,
+     "u": "https://www.gov.wales/sites/default/files/statistics-and-research/2019-06/180508-evaluation-fixed-penalty-notices-issued-regular-non-attendance-school-en.pdf"
+    },
+    {
+     "l": "Education Policy Institute, The postcode lottery of absence fines",
+     "a": 2026,
+     "u": "https://epi.org.uk/publications-and-research/the-postcode-lottery-of-absence-fines/"
+    }
+   ]
+  },
+  {
+   "c": "retailleau",
+   "id": "ecole.1",
+   "life": true,
+   "theme": "ecole",
+   "title": "Rétablir un examen d'entrée en sixième",
+   "quiz_text": "Rétablir un examen d'entrée en sixième",
+   "quiz_concret": "Pour entrer au collège, il faudrait réussir un examen en fin de CM2.",
+   "quiz_plus": "Un examen commun à enjeu incite à travailler : en Allemagne, il fait gagner environ un tiers d'année en maths (Jürges 2005) ; en Floride, les élèves faibles retenus après un test progressent nettement à court terme.",
+   "quiz_moins": "Un échec fait refaire une année : le redoublement n'améliore pas les résultats à long terme et va de pair avec plus de décrochage (Cnesco 2014) ; échouer de peu à un examen-barrière réduit le diplôme des modestes (États-Unis).",
+   "quiz_src": [
+    {
+     "l": "Jürges, Schneider, Büchel, examens centraux et acquis des élèves (TIMSS Allemagne), CESifo WP 939, publié au JEEA en 2005",
+     "a": 2005,
+     "u": "https://www.ifo.de/DocDL/cesifo_wp939.pdf"
+    },
+    {
+     "l": "Schwerdt, West, Winters, redoublement sur test en Floride (NBER w21509)",
+     "a": 2015,
+     "u": "https://www.nber.org/papers/w21509"
+    },
+    {
+     "l": "Woessmann, Central exit exams improve student outcomes (IZA World of Labor)",
+     "a": 2018,
+     "u": "https://wol.iza.org/articles/central-exit-exams-improve-student-outcomes"
+    },
+    {
+     "l": "Cnesco, Lutter contre les difficultés scolaires : le redoublement et ses alternatives",
+     "a": 2014,
+     "u": "https://www.cnesco.fr/wp-content/uploads/2014/08/280814CNESCO_redoublement.pdf"
+    },
+    {
+     "l": "Papay, Murnane, Willett, examens-barrières au lycée dans le Massachusetts (NBER w14186, publié en 2010)",
+     "a": 2008,
+     "u": "https://www.nber.org/papers/w14186"
+    }
+   ]
+  },
+  {
+   "c": "retailleau",
+   "id": "ecole.2",
+   "life": true,
+   "theme": "ecole",
+   "title": "Supprimer le passage automatique en classe supérieure : les professeurs décident",
+   "quiz_text": "Supprimer le passage automatique en classe supérieure : les professeurs décident",
+   "quiz_concret": "Un élève au niveau jugé insuffisant peut redoubler, sur décision de ses professeurs.",
+   "quiz_plus": "En Floride, les élèves faibles retenus en fin de CE2 et soutenus progressent nettement à court terme, puis ont de meilleures notes au lycée (NBER 2015) ; au collège, les plus faibles peuvent en tirer un léger gain (Cnesco).",
+   "quiz_moins": "Selon les méta-analyses, le redoublement n'améliore pas les résultats à long terme et reste le meilleur prédicteur du décrochage ; une année de retard réduit d'environ 9 % le salaire des débuts de carrière (Cnesco 2014).",
+   "quiz_src": [
+    {
+     "l": "Schwerdt, West, Winters, redoublement sur test en Floride (NBER w21509)",
+     "a": 2015,
+     "u": "https://www.nber.org/papers/w21509"
+    },
+    {
+     "l": "Cnesco, Lutter contre les difficultés scolaires : le redoublement et ses alternatives",
+     "a": 2014,
+     "u": "https://www.cnesco.fr/wp-content/uploads/2014/08/280814CNESCO_redoublement.pdf"
+    }
+   ]
+  },
+  {
+   "c": "retailleau",
+   "id": "ecole.3",
+   "life": true,
+   "theme": "ecole",
+   "title": "Créer des établissements publics libres d'adapter programmes et calendrier",
+   "quiz_text": "Créer des établissements publics libres d'adapter programmes et calendrier",
+   "quiz_concret": "Des écoles publiques choisies par profs et familles adaptent programmes, rythme de travail et vacances.",
+   "quiz_plus": "En Angleterre, des collèges en difficulté devenus autonomes ont amélioré les résultats de leurs élèves, surtout là où l'autonomie gagnée était grande (2019) ; dans les pays développés, plus d'autonomie a amélioré les scores PISA.",
+   "quiz_moins": "Les écoles primaires anglaises devenues autonomes n'ont pas fait mieux (2017) ; en Suède, là où le choix de l'école s'est répandu, la ségrégation sociale et migratoire entre écoles a plus augmenté qu'ailleurs (IFAU 2015).",
+   "quiz_src": [
+    {
+     "l": "Eyles, Machin, The introduction of academy schools to England's education (JEEA)",
+     "a": 2019,
+     "u": "https://researchonline.lse.ac.uk/id/eprint/88581/"
+    },
+    {
+     "l": "Hanushek, Link, Woessmann, Does school autonomy make sense everywhere? Panel estimates from PISA (Journal of Development Economics)",
+     "a": 2013,
+     "u": "https://hanushek.stanford.edu/publications/does-school-autonomy-make-sense-everywhere-panel-estimates-pisa"
+    },
+    {
+     "l": "Eyles, Machin, McNally, Unexpected school reform: academisation of primary schools in England (CEP DP 1455, publié au Journal of Public Economics 2017)",
+     "a": 2017,
+     "u": "https://researchonline.lse.ac.uk/id/eprint/69027"
+    },
+    {
+     "l": "Böhlmark, Holmlund, Lindahl, School choice and segregation: evidence from Sweden (IFAU WP 2015:8)",
+     "a": 2015,
+     "u": "https://swopec.hhs.se/ifauwp/abs/ifauwp2015_008.htm"
+    }
+   ]
+  },
+  {
+   "c": "attal",
+   "id": "ecole.1",
+   "life": true,
+   "theme": "ecole",
+   "title": "Moins de 20 élèves par classe en primaire",
+   "quiz_text": "Moins de 20 élèves par classe en primaire",
+   "quiz_concret": "Les classes d'école passent sous 20 élèves ; la moyenne est aujourd'hui de 21 (24 dans le privé).",
+   "quiz_plus": "Sur données françaises, un élève de moins par classe en primaire améliore les scores d'environ 3 % d'écart-type, deux fois plus chez les élèves défavorisés (Piketty-Valdenaire 2006) ; la moyenne est de 21,3 élèves (DEPP).",
+   "quiz_moins": "L'effet est bien plus faible chez les élèves favorisés ; en français, les gains des CP-CE1 dédoublés ne se retrouvent plus à l'entrée en 6e (DEPP 2026). Il faut des salles : en 2017, 23 % des écoles REP+ ont dû en partager.",
+   "quiz_src": [
+    {
+     "l": "DEPP, Les Dossiers n° 173, L'impact de la taille des classes sur la réussite scolaire (Piketty, Valdenaire)",
+     "a": 2006,
+     "u": "https://media.education.gouv.fr/file/48/4/2484.pdf"
+    },
+    {
+     "l": "DEPP, Repères et références statistiques 2026, chapitre 2 (classes du premier degré)",
+     "a": 2026,
+     "u": "https://www.education.gouv.fr/sites/default/files/document/2-les-etablissementspdf-519279.pdf"
+    },
+    {
+     "l": "DEPP, Synthèse n° 8, Réduction de la taille de classe en éducation prioritaire",
+     "a": 2026,
+     "u": "https://www.education.gouv.fr/sites/default/files/document/r-duction-de-la-taille-de-classe-en-ducation-prioritaire-que-nous-apprennent-les-donn-es-de-la-depp--478949.pdf"
+    },
+    {
+     "l": "DEPP, effets à long terme (cohortes 2023-2024), via professeurs-des-ecoles.com",
+     "a": 2026,
+     "u": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+    }
+   ]
+  },
+  {
+   "c": "attal",
+   "id": "ecole.3",
+   "life": true,
+   "theme": "ecole",
+   "title": "Exiger le brevet pour entrer au lycée et un certificat d'études pour entrer au collège",
+   "quiz_text": "Exiger le brevet pour entrer au lycée et un certificat d'études pour entrer au collège",
+   "quiz_concret": "Sans ce diplôme, l'élève suit une année de transition avant d'entrer au collège ou au lycée.",
+   "quiz_plus": "Un examen commun à enjeu incite à travailler : en Allemagne, il fait gagner environ un tiers d'année en maths (Jürges 2005) ; en Floride, les élèves faibles retenus après un test progressent nettement à court terme.",
+   "quiz_moins": "En 2025, un quart des candidats d'origine défavorisée n'ont pas eu le brevet, contre 3 % des très favorisés (DEPP) ; aux États-Unis, échouer de peu à un examen-barrière réduit le diplôme des élèves modestes.",
+   "quiz_src": [
+    {
+     "l": "Jürges, Schneider, Büchel, examens centraux et acquis des élèves (TIMSS Allemagne), CESifo WP 939, publié au JEEA en 2005",
+     "a": 2005,
+     "u": "https://www.ifo.de/DocDL/cesifo_wp939.pdf"
+    },
+    {
+     "l": "Schwerdt, West, Winters, redoublement sur test en Floride (NBER w21509)",
+     "a": 2015,
+     "u": "https://www.nber.org/papers/w21509"
+    },
+    {
+     "l": "Woessmann, Central exit exams improve student outcomes (IZA World of Labor)",
+     "a": 2018,
+     "u": "https://wol.iza.org/articles/central-exit-exams-improve-student-outcomes"
+    },
+    {
+     "l": "DEPP, Note d'information n° 26.04, résultats définitifs du brevet 2025",
+     "a": 2026,
+     "u": "https://www.education.gouv.fr/sites/default/files/document/depp-ni-2026-04-corrige-le-040526pdf-516092.pdf"
+    },
+    {
+     "l": "Papay, Murnane, Willett, examens-barrières au lycée dans le Massachusetts (NBER w14186, publié en 2010)",
+     "a": 2008,
+     "u": "https://www.nber.org/papers/w14186"
+    }
+   ]
+  },
+  {
+   "c": "lisnard",
+   "id": "ecole.1",
+   "life": true,
+   "theme": "ecole",
+   "title": "Un certificat de fin de primaire obligatoire pour entrer au collège",
+   "quiz_text": "Un certificat de fin de primaire obligatoire pour entrer au collège",
+   "quiz_concret": "Pour entrer en sixième, il faudrait obtenir un certificat en fin de CM2.",
+   "quiz_plus": "Un examen commun à enjeu incite à travailler : en Allemagne, il fait gagner environ un tiers d'année en maths (Jürges 2005) ; en Floride, les élèves faibles retenus après un test progressent nettement à court terme.",
+   "quiz_moins": "Un échec fait refaire une année : le redoublement n'améliore pas les résultats à long terme et va de pair avec plus de décrochage (Cnesco 2014) ; échouer de peu à un examen-barrière réduit le diplôme des modestes (États-Unis).",
+   "quiz_src": [
+    {
+     "l": "Jürges, Schneider, Büchel, examens centraux et acquis des élèves (TIMSS Allemagne), CESifo WP 939, publié au JEEA en 2005",
+     "a": 2005,
+     "u": "https://www.ifo.de/DocDL/cesifo_wp939.pdf"
+    },
+    {
+     "l": "Schwerdt, West, Winters, redoublement sur test en Floride (NBER w21509)",
+     "a": 2015,
+     "u": "https://www.nber.org/papers/w21509"
+    },
+    {
+     "l": "Woessmann, Central exit exams improve student outcomes (IZA World of Labor)",
+     "a": 2018,
+     "u": "https://wol.iza.org/articles/central-exit-exams-improve-student-outcomes"
+    },
+    {
+     "l": "Cnesco, Lutter contre les difficultés scolaires : le redoublement et ses alternatives",
+     "a": 2014,
+     "u": "https://www.cnesco.fr/wp-content/uploads/2014/08/280814CNESCO_redoublement.pdf"
+    },
+    {
+     "l": "Papay, Murnane, Willett, examens-barrières au lycée dans le Massachusetts (NBER w14186, publié en 2010)",
+     "a": 2008,
+     "u": "https://www.nber.org/papers/w14186"
+    }
+   ]
+  },
+  {
+   "c": "lisnard",
+   "id": "ecole.3",
+   "life": true,
+   "theme": "ecole",
+   "title": "Supprimer la carte scolaire, qui affecte chaque élève à l'école de son quartier",
+   "quiz_text": "Supprimer la carte scolaire, qui affecte chaque élève à l'école de son quartier",
+   "quiz_concret": "L'école ou le collège ne dépend plus de l'adresse : chaque famille demande l'établissement de son choix.",
+   "quiz_plus": "La carte scolaire trie déjà par le logement : à Paris, un établissement public plus performant renchérit l'immobilier de 1,4 à 2,4 % (2010) ; en Suède, la concurrence entre écoles a amélioré les résultats moyens (IFAU 2012).",
+   "quiz_moins": "Après l'assouplissement de 2007, les collèges les plus défavorisés ont perdu au moins 9 % d'élèves de 6e et la ségrégation s'est accrue en ville (DEPP 2013) ; à Stockholm, l'admission sur notes l'a aussi accrue.",
+   "quiz_src": [
+    {
+     "l": "Fack, Grenet, When do better schools raise housing prices? Evidence from Paris public and private schools (Journal of Public Economics)",
+     "a": 2010,
+     "u": "https://researchonline.lse.ac.uk/id/eprint/30273"
+    },
+    {
+     "l": "Böhlmark, Lindahl, Independent schools and long-run educational outcomes (IFAU WP 2012:19, publié dans Economica)",
+     "a": 2012,
+     "u": "https://swopec.hhs.se/ifauwp/abs/ifauwp2012_019.htm"
+    },
+    {
+     "l": "IPP, Note n° 62, Secteurs multi-collèges à Paris : quel bilan après trois ans ? (Grenet, Souidi)",
+     "a": 2021,
+     "u": "https://halshs.archives-ouvertes.fr/halshs-03165725v1/file/n62-notesIPP-fevrier2021.pdf"
+    },
+    {
+     "l": "DEPP, Éducation & formations n° 83, Les effets de l'assouplissement de la carte scolaire",
+     "a": 2013,
+     "u": "https://cache.media.education.gouv.fr/file/2013/63/3/DEPP_EetF_2013_83_Effets_assouplissement_carte_scolaire_254633.pdf"
+    },
+    {
+     "l": "Söderström, Uusitalo, School choice and segregation: evidence from an admission reform (IFAU WP 2005:7)",
+     "a": 2005,
+     "u": "https://swopec.hhs.se/ifauwp/abs/ifauwp2005_007.htm"
+    }
+   ]
   }
  ]
 }
