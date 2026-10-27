@@ -218,6 +218,7 @@ textarea{resize:vertical;min-height:84px}
 .base b{font:700 1.6rem/1 var(--f-display)}
 .base span{font-size:.78rem;color:var(--band-muted)}
 .base a{color:var(--band-ink);font-size:.74rem}
+.base small{font-size:.72rem;color:var(--band-muted);font-style:italic}
 .vscore{font-size:.8rem;color:var(--muted)}
 .ev-tag{font:600 .64rem/1 var(--f-body);text-transform:uppercase;letter-spacing:.04em;padding:4px 7px;border-radius:5px;white-space:nowrap}
 .ev-prouvee{background:var(--ok-soft);color:var(--ok)} .ev-mitigee{background:var(--warn-soft);color:var(--warn)} .ev-non_demontree{background:var(--hard-soft);color:var(--hard)} .ev-pas_d_etude{background:var(--soft);color:var(--muted)}
@@ -442,6 +443,8 @@ table.grid td button{min-width:44px;min-height:44px;display:inline-grid;place-it
         <div class="field"><span class="lab">Enfants de moins de 20 ans</span><div class="stepper"><button id="k-minus" aria-label="Un enfant de moins">−</button><b id="s-kids-v">2</b><button id="k-plus" aria-label="Un enfant de plus">+</button></div></div>
         <div class="field"><span class="lab">Nationalité</span><div class="seg" id="s-nat" role="group" aria-label="Nationalité"></div></div>
       </div>
+      <div class="field"><span class="lab">Logement</span><div class="seg" id="s-home" role="group" aria-label="Logement"></div></div>
+      <div class="slider" id="f-apl"><span class="l1"><label for="s-apl" class="small muted">APL (aide au logement) perçues par mois</label><b id="s-apl-v"></b></span><input type="range" id="s-apl" min="0" max="600" step="10" value="0"></div>
       <label class="check" id="f-baby" hidden><input type="checkbox" id="s-baby"> Un enfant de moins de 3 ans</label>
       <label class="check" id="f-res" hidden><input type="checkbox" id="s-res"> En France depuis moins de 5 ans</label>
       <label class="check" id="f-work" hidden><input type="checkbox" id="s-work"> Moins de 5 ans de travail en France</label>
@@ -652,7 +655,7 @@ function wireCards(root){
 }
 function list(c){
   const el=document.getElementById('measures');
-  el.innerHTML = `<div class="legend"><span><i class="dot" style="background:var(--muted)"></i>notre chiffrage</span><span>trait : fourchette</span><span>◇ chiffre du camp</span><span>échelle −60 à +60 Md€</span></div>` + c.measures.filter(m=>theme==='all'||m.theme===theme).map(m=>measureCard(c,m)).join('');
+  el.innerHTML = (theme!=='all'?baseBox(theme):'') + `<div class="legend"><span><i class="dot" style="background:var(--muted)"></i>notre chiffrage</span><span>trait : fourchette</span><span>◇ chiffre du camp</span><span>échelle −60 à +60 Md€</span></div>` + c.measures.filter(m=>theme==='all'||m.theme===theme).map(m=>measureCard(c,m)).join('');
   wireCards(el);
 }
 function render(){ const c=cand(cur); picker(); head(c); themesBar(c); list(c); lifeFiche(c); applyTab(); }
@@ -673,8 +676,9 @@ const EVL={prouvee:'Études : effet prouvé',mitigee:'Études : effet mitigé',n
 const evTag=x=>x&&x.evidence_level&&EVL[x.evidence_level]?`<span class="ev-tag ev-${x.evidence_level}">${EVL[x.evidence_level]}</span>`:'';
 const plist=ps=>`<ul>${ps.map(prop).map(p=>`<li>${vtag(p)}${esc(p.text)}</li>`).join('')}</ul>`;
 function vcount(cid){ let n=0,v=0,o=0; ((D.life||{})[cid]||[]).forEach(x=>(x.proposals||[]).map(prop).forEach(p=>{n++; if(p.old) o++; else if(p.verifiable) v++;})); return {n,v,o}; }
+// repères officiels d'un thème (mêmes pour tous les candidats) : vie quotidienne et filtres par thème des fiches
 function baseBox(th){ const b=(D.baseline||{})[th]; if(!b||!b.length) return '';
-  return `<div class="base"><span class="eyebrow">Où en est la France aujourd'hui · ${esc(LT[th][0])}</span>${b.map(i=>`<div><b>${esc(i.value)}</b><span>${esc(i.label)}${i.trend?' · '+esc(i.trend):''}</span><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}${i.year?' '+esc(i.year):''}</a></div>`).join('')}</div>`; }
+  return `<div class="base"><span class="eyebrow">Où en est la France aujourd'hui · ${esc(LT[th]?LT[th][0]:(TH[th]||th))}</span>${b.map(i=>`<div><b>${esc(i.value)}</b><span>${esc(i.label)}${i.trend?' · '+esc(i.trend):''}</span>${i.note?`<small>${esc(i.note)}</small>`:''}<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}${i.year?' '+esc(i.year):''}</a></div>`).join('')}</div>`; }
 function lifeCard(x){ if(!x) return '';
   const bb=baseBox(x.theme);
   const [lab,ic]=LT[x.theme]||[x.theme,''];
@@ -795,13 +799,14 @@ const STATUS=[['prive','Salarié du privé'],['public','Agent public'],['enseign
 const NAT=[['fr','Française'],['ue','UE'],['hors','Hors UE']];
 const WEALTH=[[0,'< 300 k€'],[300000,'300 k€ – 1,3 M€'],[1300000,'1,3 – 10 M€'],[10000000,'10 – 100 M€'],[100000000,'> 100 M€']];
 const INH=[[0,'< 100 k€'],[100000,'100 – 500 k€'],[500000,'0,5 – 2 M€'],[2000000,'2 – 12 M€'],[12000000,'> 12 M€']];
-const S={status:'prive',nat:'fr',wealth:0,inh:0,kids:2};
+const S={status:'prive',nat:'fr',wealth:0,inh:0,kids:2,home:'loc'};
+const HOME=[['loc','Locataire'],['credit','Propriétaire avec crédit'],['proprio','Propriétaire sans crédit'],['heberge','Hébergé']];
 function seg(id, opts, key){ const el=document.getElementById(id); el.innerHTML=opts.map(([v,l])=>`<button data-v="${v}" aria-pressed="${String(S[key])===String(v)}">${l}</button>`).join('');
   el.querySelectorAll('button').forEach(b=>b.onclick=()=>{ S[key]=isNaN(+b.dataset.v)?b.dataset.v:+b.dataset.v; if(key==='status'||key==='nat') S[key]=b.dataset.v; el.querySelectorAll('button').forEach(z=>z.setAttribute('aria-pressed',z===b)); sim(); }); }
-seg('s-status',STATUS,'status'); seg('s-nat',NAT,'nat'); seg('s-wealth',WEALTH,'wealth'); seg('s-inh',INH,'inh');
+seg('s-status',STATUS,'status'); seg('s-nat',NAT,'nat'); seg('s-home',HOME,'home'); seg('s-wealth',WEALTH,'wealth'); seg('s-inh',INH,'inh');
 document.getElementById('k-minus').onclick=()=>{ S.kids=Math.max(0,S.kids-1); sim(); };
 document.getElementById('k-plus').onclick=()=>{ S.kids=Math.min(8,S.kids+1); sim(); };
-['s-year','s-salary','s-energy','s-fuel','s-cfe','s-ot','s-food','s-res','s-work','s-baby'].forEach(i=>document.getElementById(i).addEventListener('input',sim));
+['s-year','s-salary','s-energy','s-fuel','s-cfe','s-ot','s-food','s-res','s-work','s-baby','s-apl'].forEach(i=>document.getElementById(i).addEventListener('input',sim));
 const WORKERS=['prive','public','enseignant'];
 function allocOf(a, n, fb){ if(n<=0) return 0; if(!a) return fb?allocOf(fb,n):0; const k=n>=3?'3':String(n); if(a[k]==null) return fb?allocOf(fb,n):0; return n<=3 ? a[k] : a['3']+(n-3)*(a.par_enfant_sup ?? (fb?fb.par_enfant_sup:0)); }
 function sqAge(y){ const t=SQ.retraite.table; let a=t[0][1]; for(const [yy,aa] of t){ if(y>=yy) a=aa; } return a; }
@@ -822,6 +827,7 @@ function sim(){
   const g=id=>document.getElementById(id);
   const year=+g('s-year').value, st=S.status, kids=S.kids, en=+g('s-energy').value, nat=S.nat, wealth=S.wealth, inh=S.inh, ot=g('s-ot').checked, cfe=+g('s-cfe').value, food=+g('s-food').value, fuel=+g('s-fuel').value, lt5=nat!=='fr'&&g('s-res').checked, lt5w=lt5||(nat!=='fr'&&g('s-work').checked);
   g('f-res').hidden=nat==='fr'; g('f-work').hidden=nat==='fr'||lt5; g('s-fuel-v').textContent=eur(fuel,false)+'/mois'; const baby=kids>0&&g('s-baby').checked; g('f-baby').hidden=kids===0;
+  const home=S.home, apl=home==='loc'?+g('s-apl').value:0; g('f-apl').hidden=home!=='loc'; g('s-apl-v').textContent=eur(apl,false)+'/mois';
   g('s-year-v').textContent=year; g('s-energy-v').textContent=eur(en,false)+'/mois'; g('s-food-v').textContent=eur(food,false)+'/mois'; g('s-cfe-v').textContent=eur(cfe,false); g('s-kids-v').textContent=kids;
   if(st!==lastSt){ const sl=g('s-salary'); sl.max=MAXS[st]; sl.step=STEPS[st]||20; sl.value=DEF[st]; const ny=DEFY[st]||(DEFY[lastSt]?1990:null); if(ny) g('s-year').value=ny; lastSt=st;
     g('s-presets').innerHTML = (['prive','public','enseignant','independant'].includes(st)?[[SQ.smic_net,'SMIC'],[SQ.salaire_moyen||2733,'Salaire moyen']]:[]).map(([v,l])=>`<button data-v="${v}">${l} · ${eur(v,false)}</button>`).join('');
@@ -878,13 +884,18 @@ function sim(){
     const minLost = etr && st==='minima' && sal>0 && hit(etr.minima);
     if(etr && hit(etr.af) && sqAlloc>0) addAF('Allocations familiales',`${cond[etr.af][0].toUpperCase()+cond[etr.af].slice(1)} (si la révision de la Constitution passe)`,-sqAlloc);
     if(minLost) add('Minima sociaux',`RSA, prime d'activité et ASS ${cond[etr.minima]} (si la révision de la Constitution passe)`,-sal);
-    else if(etr && nat!=='fr' && !lt5w && /lt5/.test(etr.minima) && (st==='minima'||sqAlloc>0)) notes.push('Aides réservées aux étrangers installés ou ayant travaillé en France depuis au moins 5 ans : cochez la case qui vous correspond.');
+    else if(etr && nat!=='fr' && !lt5w && /lt5/.test(etr.minima) && (st==='minima'||sqAlloc>0||apl>0)) notes.push('Aides réservées aux étrangers installés ou ayant travaillé en France depuis au moins 5 ans : cochez la case qui vous correspond.');
     if(etr && nat==='hors' && st==='minima') notes.push('Hors Union européenne, le RSA et la prime d\'activité exigent déjà aujourd\'hui 5 ans de titre de séjour, sauf exceptions (réfugiés, carte de résident).');
     const bm = s.baisse_minima && st==='minima' && sal>0 && !minLost ? sal*s.baisse_minima.pct/100 : 0;
     if(bm) add('Minima sociaux',esc(s.baisse_minima.note),-bm);
     if(s.plafond_aides && st==='minima' && sal>0 && !minLost){ const pl=s.plafond_aides.pct*SQ.smic_net, over=sal-bm+sqAlloc+afD-pl; if(over>0.5) add('Minima sociaux',esc(s.plafond_aides.note),-Math.min(sal-bm,over)); else notes.push(s.plafond_aides.note+' : vos aides restent sous ce plafond.'); }
     if(st==='minima' && sal>0 && !minLost && Math.abs(afD)>0.5){ const adj = afD>0 ? -Math.min(afD,sal) : -afD; add('Ajustement du RSA','Les allocations familiales comptent dans le calcul du RSA : une hausse est en grande partie reprise, une baisse compensée (calcul simplifié)',adj); }
     if(s.jeunes_alloc && age>=18 && age<=25 && st==='etudiant'){ const v=Math.max(0,s.jeunes_alloc.montant-sal); if(v>0){ cap=v; rows.push(['Allocation jeunes', esc(s.jeunes_alloc.label)+' : montant maximal, sous conditions de ressources ; non compté dans le total', `jusqu'à ${eur(v)}/mois`]); } }
+    // logement : APL (perte si réservées selon la nationalité, sinon hausse publiée) ; notes pour les mesures sans paramètre publié
+    if(etr && etr.apl && apl>0 && hit(etr.apl)) add('Aide au logement',`APL ${cond[etr.apl]} (si la révision de la Constitution passe)`,-apl);
+    else if(s.apl_pct && apl>0) add('Aide au logement',esc(s.apl_note),apl*s.apl_pct/100);
+    else if(s.apl_pct && home==='loc') notes.push(s.apl_note+' : indiquez vos APL pour le calcul.');
+    (s.logement||[]).forEach(n=>{ if(n.when.includes(home) && (!n.kids||kids>0)) notes.push(n.t); });
     if(s.famille && kids>0) notes.push(s.famille);
     if(s.tva_courses && food>0) add('Courses',esc(s.tva_courses.note),food*(1-1/1.055)*s.tva_courses.part);
     if(s.tva_energie!=null && en+fuel>0) add('Énergie',`TVA à ${String(s.tva_energie).replace('.',',')} % sur l'électricité, le gaz et le carburant (si la baisse est répercutée)`,(en+fuel)*(1-(1+s.tva_energie/100)/1.2));
