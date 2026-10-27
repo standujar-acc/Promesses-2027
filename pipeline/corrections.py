@@ -286,6 +286,24 @@ m['estimates']=[{"source":"attalpresident.fr, travail et salaires","year":2026,"
  {"source":"Proposition de loi n° 1791 (cosignée par G. Attal)","year":2025,"value":"Affiliation 8 mois sur 20, durée maximale 15 mois : 3,6 Md€ d'économies (estimation 2024)","low_md":3.6,"high_md":3.6,"url":"https://www.assemblee-nationale.fr/dyn/17/textes/l17b1791_proposition-loi.pdf"}]
 m['claude'].update(note="Indicatif : si la réforme reprend la proposition de loi de 2025, ≈ +3,6 Md€ ; le programme n'en donne pas les paramètres. Au-delà de 220 h, les heures sup sont déjà possibles avec un repos compensateur",
  inputs=[{"label":"Contingent annuel d'heures supplémentaires","value":"220 h par salarié à défaut d'accord","source":"Service-public.fr","url":"https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"}])
+# --- review 5 : simulateur, pertes et gains manquants (27/10/2026)
+SQ=D['statu_quo']
+SQ['carence_public']=1; SQ['carence_url']="https://www.service-public.gouv.fr/particuliers/vosdroits/F13861"
+SQ['chomage_mois']=18; SQ['chomage_url']="https://www.service-public.gouv.fr/particuliers/vosdroits/F14860"
+SQ['courses_url']="https://www.insee.fr/fr/statistiques/5370353"
+SQ['rsa_etrangers_url']="https://www.service-public.gouv.fr/particuliers/vosdroits/F19778"
+# aides réservées : même règle de calcul pour les quatre candidats qui en proposent (perte des allocations familiales et des minima selon la condition propre à chacun)
+for cid,rule in (('le-pen',{"af":"nonfr","minima":"lt5"}),('zemmour',{"af":"hors","minima":"hors"}),('lisnard',{"af":"lt5","minima":"lt5"}),('retailleau',{"af":"lt5","minima":"lt5"})):
+    s=C[cid]['sim']; s.pop('alloc_perte_etrangers',None); s.pop('alloc_perte_scope',None); s['etr']=rule
+# enseignants : les hausses chiffrées dans nos totaux apparaissent aussi dans le simulateur
+C['lisnard']['sim']['enseignants_pct']=20; C['lisnard']['sim']['enseignants_note']="+20 % en cinq ans, en échange d'une réorganisation des missions"
+C['attal']['sim']['enseignants_eur']={"montant":200,"note":"+200 € net par mois, jusqu'à 500 € en milieu de carrière (montant minimal retenu)"}
+C['philippe']['sim']['enseignants_note']="+20 % d'ici la fin du mandat"
+# TVA supprimée sur les produits de première nécessité (comptée dans le total)
+C['le-pen']['sim']['tva_courses']={"part":0.75,"note":"TVA de 5,5 % supprimée sur une centaine de produits de première nécessité, soit environ les trois quarts du panier (notre chiffrage rapporté à la TVA sur l'alimentation à domicile), si la baisse est répercutée"}
+# jours de carence des agents publics, durée d'indemnisation du chômage
+C['philippe']['sim']['carence_jours']=2; C['retailleau']['sim']['carence_jours']=3; C['zemmour']['sim']['carence_jours']=3
+C['philippe']['sim']['chomage_duree']={"mois":12,"avant":50}
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
