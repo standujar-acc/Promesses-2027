@@ -955,6 +955,26 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": null
+  },
+  {
+   "id": "S064",
+   "type": "a_verifier",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "retailleau",
+    "lisnard",
+    "zemmour",
+    "philippe"
+   ],
+   "mesure": null,
+   "sujet": "Simulateur, logement : paramètres manquants à surveiller",
+   "detail": "Ajouté le 27/10/2026 (règle S053) : APL calculées à partir du montant indiqué (réservées selon la nationalité chez Le Pen, Retailleau, Lisnard et Zemmour ; +10 % chez Mélenchon). En note faute de paramètre publié : déduction des intérêts d'emprunt (Retailleau : forme et plafond), prêts à taux zéro (Philippe, Le Pen : montant, conditions), fin de l'encadrement des loyers (Retailleau : effet sur le loyer). À calculer dès que les paramètres sont publiés.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
   }
  ]
 }

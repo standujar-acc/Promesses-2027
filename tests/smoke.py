@@ -136,6 +136,13 @@ with sync_playwright() as p:
                 vals = pg.evaluate("[...document.querySelectorAll('#simres .srow .eur')].map(e=>+e.textContent.replace(/[^0-9−-]/g,'').replace('−','-')||0)")
                 worst = max(worst, *[abs(v) for v in vals])
     check(worst < 1500, f'simulateur : aucun gain ou perte mensuel absurde (max {worst} €)')
+    # logement : APL perdues si réservées selon la nationalité, +10 % chez qui le publie ; curseur caché hors location
+    pg.evaluate("""document.querySelector('#s-nat [data-v="hors"]').click(); document.querySelector('#s-home [data-v="loc"]').click();
+      document.getElementById('s-apl').value=200; D.candidates.forEach(c=>openSim.add(c.id)); sim()""")
+    vals = sorted(pg.evaluate("""[...document.querySelectorAll('#simres .srow')].map(r=>{ const m=r.innerText.replace(/\\s+/g,' ').match(/Aide au logement.*?([+−]\\d+) €\\/mois/); return m?m[1]:null; }).filter(Boolean)"""))
+    hidden = pg.evaluate("""(()=>{ document.querySelector('#s-home [data-v="proprio"]').click(); return document.getElementById('f-apl').hidden; })()""")
+    check(vals.count('−200') == 2 and '+20' in vals and hidden, f'simulateur : logement (APL réservées ou +10 %, curseur caché hors location) {vals}')
+    pg.evaluate("""document.querySelector('#s-nat [data-v="fr"]').click(); document.querySelector('#s-home [data-v="loc"]').click(); document.getElementById('s-apl').value=0; sim()""")
     # paramètre publié mais hors total : appliqué (allocations familiales +10 %, 2 enfants)
     pg.evaluate("document.querySelector('#s-status [data-v=\"prive\"]').click(); S.kids=2; document.getElementById('s-salary').value=1800; openSim.add('melenchon'); sim()")
     check(pg.evaluate("[...document.querySelectorAll('#simres .srow')].some(r=>/Allocations familiales \\+10 %/.test(r.textContent))"), 'simulateur : paramètre publié hors total appliqué (allocations familiales +10 %)')
