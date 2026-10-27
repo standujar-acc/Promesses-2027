@@ -1024,12 +1024,12 @@
    "candidats": [],
    "mesure": null,
    "sujet": "Simulateur : précisions restantes du second audit",
-   "detail": "Restent à traiter : impôt sur le revenu calculé sur le net et non le net imposable (environ −13 % d'impôt à 2 733 €), sans la demi-part de parent isolé ; âge légal des personnes nées de janvier à mars 1965 (62 ans et 9 mois) arrondi à l'année ; TVA à 0 % de Le Pen : produits d'hygiène taxés à 20 % et non 5,5 % ; notes manquantes (leasing social de Glucksmann et d'Attal, blocage des prix de l'alimentation et de l'énergie de Mélenchon) ; Lisnard : TVA unique « par exemple de 25 % » (non tranchée), quotient familial déplafonné et charges des employeurs à domicile, à traiter avec l'audit des programmes (tribune du 16/04/2026).",
+   "detail": "Restent à traiter : âge légal des personnes nées de janvier à mars 1965 (62 ans et 9 mois) arrondi à l'année ; TVA à 0 % de Le Pen : produits d'hygiène taxés à 20 % et non 5,5 % ; notes manquantes (leasing social de Glucksmann et d'Attal, blocage des prix de l'alimentation et de l'énergie de Mélenchon) ; Lisnard : TVA unique « par exemple de 25 % » (non tranchée), quotient familial déplafonné et charges des employeurs à domicile, à traiter avec l'audit des programmes (tribune du 16/04/2026).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": "En partie le 27/10 : heures sup sans gain fictif, allocations relevées reprises par le RSA, APL de Le Pen, règle et durée de cotisation des retraites, carence dans le privé (Retailleau), pension minimale (Mélenchon), cantine gratuite en note (Mélenchon), gel des APL (Attal), plafond des aides de Retailleau (APL comprises, note pour les familles, « durée non publiée » pour les ruptures conventionnelles), droit de l'UE pour les ressortissants européens, condition de la directive sur la TVA énergie, SMIC des agents publics, lien chômage, carburant supposé prolongé par la loi, mesures de 2022 de Zemmour signalées, libellé de la garantie d'autonomie."
+   "resolution": "En partie le 27/10 : heures sup sans gain fictif, allocations relevées reprises par le RSA, APL de Le Pen, règle et durée de cotisation des retraites, carence dans le privé (Retailleau), pension minimale (Mélenchon), cantine gratuite en note (Mélenchon), gel des APL (Attal), plafond des aides de Retailleau (APL comprises, note pour les familles, « durée non publiée » pour les ruptures conventionnelles), droit de l'UE pour les ressortissants européens, condition de la directive sur la TVA énergie, SMIC des agents publics, lien chômage, carburant supposé prolongé par la loi, mesures de 2022 de Zemmour signalées, libellé de la garantie d'autonomie. Puis : impôt sur le net imposable (≈ net × 1,036) et demi-part de parent isolé plafonnée à 4 262 € (service-public, revenus 2025) ; blocage des prix de Mélenchon signalé en note."
   },
   {
    "id": "S069",
