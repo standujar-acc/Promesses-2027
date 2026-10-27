@@ -346,29 +346,42 @@ C['attal']['sim']['jeunes']="Réseaux sociaux interdits aux moins de 15 ans."
 C['zemmour']['sim'].pop('carence_jours',None)
 # Le Pen : donations, droit actuel précisé
 C['le-pen']['sim']['heritage']=[{"seuil":100000,"effet":"Donations exonérées jusqu'à 100 000 € par enfant tous les 10 ans, contre tous les 15 ans aujourd'hui (version 2024)."}]
-# --- review 6 : arbitrages tranchés par les règles communes et les faits (27/10/2026)
+# --- review 6 : arbitrages tranchés par les règles communes et les faits (27/10/2026), relus par une relecture indépendante
 # Philippe, allocation unique : 350 € par enfant (source du camp), dégressivité et aides fusionnées non publiées
 # → paramètre clé non publié : non chiffrable, fourchette indicative en note (même règle que l'allocation unique de Lisnard)
-SET('philippe','famille',0,0,0,"Non chiffrable : 350 € par mois et par enfant, dégressifs selon le revenu (seuils non publiés), « à coût constant » en fusionnant des aides non toutes listées",
-    note="Indicatif : de 0 (coût constant annoncé par le camp) à au moins −17,5 Md€ (350 €/enfant, moitié de dégressivité supposée, familles de 1 et 2 enfants : 3,58 M × 4 200 € + 3,04 M × 548 € × 12, divisé par 2, sans déduire les aides fusionnées)",
-    proposal="350 €/mois par enfant dès le premier enfant, dégressive selon le revenu, à coût constant en fusionnant des aides existantes ; réduction d'impôt pour les jeunes parents ; PTZ à la naissance.")
-IFRAP=[i for i in M('retailleau','travail')['estimates'] if 'ifrap' in i['url']][0]['url']
-# Retailleau, fusion des minima : « −30 % » sans source retiré ; plafond publié (70 % du SMIC net par adulte)
-# → médiane des chiffrages crédibles : un seul, iFRAP (2024), scénario « plafond à 70 % du SMIC » = 34 Md€
-SET('retailleau','travail',34,12,34,"Plafond publié : total des aides non contributives à 70 % du SMIC net par adulte ; seul chiffrage de ce plafond : iFRAP (2024), 34 Md€ ; borne basse : scénario iFRAP au niveau du SMIC (12 Md€), un plafond « par adulte » étant moins strict pour les couples qu'un plafond par foyer",
-    note="Chiffrage iFRAP sur la base des dépenses de 2022 ; l'iFRAP ne précise pas si son plafond s'entend par adulte ou par foyer ; recoupement possible, non déduit, avec les aides réservées après 5 ans de travail (mesure immigration, 1,6 Md€ au plus)",
-    inputs=[{"label":"Plafond publié","value":"70 % du SMIC net par adulte","source":"LR, réponse aux Décodeurs (9/01/2026)","url":"https://republicains.fr/wp-content/uploads/2026/01/Reponse-aux-Decodeurs-090126.pdf"},
-            {"label":"Allocation unique plafonnée à 70 % du SMIC","value":"34 Md€ (12 Md€ au niveau du SMIC)","source":"iFRAP","url":IFRAP}])
-# Mélenchon, blocage des prix : médiane publiée de l'Institut Montaigne (24 Md€) ; l'hypothèse de prix en baisse (9 Md€)
-# est contredite par les prix de 2026 (relevé officiel du 23/10/2026 : SP95 2,18 €/l, gazole 2,35 €/l, Brent 119 $) ;
-# la note LFI range le blocage parmi les dépenses
+PHI="https://www.edouardphilippe.fr/actualites/trois-principales-annonces-dedouard-philippe-a-lheure-de-verite"
+SET('philippe','famille',0,0,0,"Non chiffrable : 350 € par mois et par enfant, dégressifs selon le revenu (seuils non publiés), « à coût constant » en fusionnant des aides existantes (liste non complète)",
+    note="Indicatif : de 0 (coût constant annoncé par le camp) à environ −17,5 Md€ : 350 € par enfant pour les familles d'un et deux enfants (3,58 M × 4 200 € + 3,04 M × (700 − 152 €) × 12, allocations familiales actuelles déduites), divisé par 2 pour la dégressivité (hypothèse) ; familles de 3 enfants et plus et autres aides fusionnées non comptées",
+    proposal="350 €/mois par enfant dès le premier enfant, dégressive selon le revenu, à coût constant en fusionnant des aides existantes.")
+m=M('philippe','famille'); m['claimed']="À coût constant, selon le camp"
+m['claude']['inputs'].append({"label":"Annonce du camp","value":"350 €/mois par enfant, dégressive avec le revenu, à coût constant","source":"Site d'Édouard Philippe (8/10/2026)","url":PHI})
+# Retailleau, fusion des minima : le « −30 % » est sourcé (présentation du camp, Public Sénat 7/01/2026) → calcul ascendant
+# inchangé (+5,5) ; il recoupe l'objectif du camp (30 Md€ sur 5 ans, chômage compris, ≈ 7 Md€ en 2030 par la règle 3,5/15).
+# Le plafond à 70 % du SMIC reste non compté : le seul chiffrage (iFRAP) porte sur un autre dispositif.
+PS1="https://www.publicsenat.fr/actualites/politique/la-fete-est-finie-bruno-retailleau-veut-supprimer-les-35-heures-inciter-a-la-reprise-dactivite-et-plafonner-les-aides-sociales-pour-relancer-lemploi"
+PS2="https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
+k=M('retailleau','travail')['claude']; assert k['central']==5.5 and k['method']=='ascendant'
+k['note']="Plafond à 70 % du SMIC non compté : son seul chiffrage (iFRAP, 12 à 34 Md€ selon le plafond) porte sur un autre dispositif, une allocation unique versée en crédit d'impôt qui s'éteint au 8e décile. Objectif du camp : 30 Md€ sur cinq ans pour le chômage et les prestations, soit ≈ 7 Md€ en 2030 selon la règle commune"
+k['inputs']+=[{"label":"Allocation fusionnée","value":"−30 %","source":"Public Sénat, présentation du plan (7/01/2026)","url":PS1},
+              {"label":"Objectif du camp, chômage et prestations","value":"30 Md€ sur cinq ans","source":"Public Sénat, plan de 197 Md€ (12/10/2026)","url":PS2}]
+sr=C['retailleau']['sim']
+sr['baisse_minima']={"pct":30,"note":"RSA, prime d'activité et ASS fusionnés et réduits de 30 % (présentation du camp)"}
+sr['minima_sociaux']="RSA, prime d'activité et ASS fusionnés et réduits de 30 %, avec 15 h d'activité ; total des aides non contributives plafonné à 70 % du SMIC net par adulte."
+# Mélenchon, blocage des prix : médiane des chiffrages publiés, Institut Montaigne (médiane 24 Md€) et Gouvernement (≈ 20 Md€),
+# soit 22 ; l'hypothèse basse de 9 Md€ (prix de l'énergie en baisse) est contredite par les prix pétroliers d'octobre 2026
 NPG="https://www.ecologie.gouv.fr/sites/default/files/documents/NPG-2026.10.23.pdf"
-k=M('melenchon','prix')['claude']
-k.update(central=-24,low=-38,high=0,method="médiane",formula="Institut Montaigne (mesure NFP, 2024) : 9 à 38 Md€/an, médiane 24 = moyenne des boucliers 2022-2024 ; retenu : la médiane publiée, les prix de 2026 (SP95 2,18 €/l, gazole 2,35 €/l, Brent 119 $ le baril) étant au niveau de la période de crise ; borne haute 0 si le blocage se fait sans compensation publique",
-    note="Carburant à 1,70 €/l par décret (note LFI d'octobre 2026), rangé parmi les dépenses du programme")
-k['inputs']=[i for i in k['inputs'] if '9 Md€' not in i.get('value','')]+[{"label":"Prix à la pompe, semaine du 23 octobre 2026","value":"SP95-E5 2,18 €/l ; gazole 2,35 €/l","source":"Ministère de la Transition écologique, prix et marges des produits pétroliers","url":NPG}]
+m=M('melenchon','prix'); k=m['claude']; MONT=k['inputs'][0]['url']; assert 'institutmontaigne' in MONT
+k.update(central=-22,low=-38,high=0,method="médiane",formula="Médiane des chiffrages publiés : Institut Montaigne (2024), médiane 24 Md€/an (moyenne des boucliers 2022-2024, « risque budgétaire en cas de résurgence d'une crise énergétique ») et Gouvernement (2024), ≈ 20 Md€/an, soit 22 ; hypothèse basse de 9 Md€ (prix en baisse) écartée, les prix pétroliers d'octobre 2026 étant au niveau de la crise de 2022 (SP95 2,18 €/l, gazole 2,35 €/l, Brent 119 $) ; borne haute 0 si le blocage se fait sans compensation publique",
+    note="Carburant à 1,70 €/l par décret (note LFI d'octobre 2026), rangé parmi les dépenses du programme ; prix de l'électricité et du gaz de 2026 non relevés ici")
+k['inputs']=[i for i in k['inputs'] if '9 Md€' not in i.get('value','')]+[
+    {"label":"Estimation du Gouvernement (2024)","value":"≈ 20 Md€/an","source":"Institut Montaigne, citant le Gouvernement","url":MONT},
+    {"label":"Prix à la pompe, semaine du 23 octobre 2026","value":"SP95-E5 2,18 €/l ; gazole 2,35 €/l ; Brent 119 $","source":"Ministère de la Transition écologique, prix et marges des produits pétroliers","url":NPG}]
+m['estimates'].append({"source":"Gouvernement (cité par l'Institut Montaigne)","year":2024,"value":"≈ 20 Md€/an","low_md":-20,"high_md":-20,"url":MONT})
 cb=C['melenchon']['sim']['carburant']; assert cb['actuel']==2.21
 cb.update(actuel=2.18,note="Prix du carburant bloqué à 1,70 €/l par décret, contre 2,18 €/l pour le SP95 la semaine du 23 octobre 2026 (relevé du ministère) ; blocage de 6 mois au plus par décret")
+# Le Pen, TVA sur l'énergie : même contexte de prix signalé (les chiffrages publiés datent des prix de 2024)
+k=M('le-pen','tva')['claude']; assert k['note'].startswith("Le périmètre")
+k['note']+=" ; chiffrages aux prix de 2024 : aux prix pétroliers d'octobre 2026, plus élevés (SP95 2,18 €/l), la part carburants coûterait davantage"
 # simulateur : plus de gain pour l'allocation de Philippe (mesure non chiffrable), une note à la place
 sp=C['philippe']['sim']; sp.pop('alloc_familiales',None)
 sp['famille']="Allocation unique de 350 €/mois par enfant dès le 1er enfant, dégressive selon le revenu, en remplacement d'aides existantes : non chiffrable (seuils et aides remplacées non publiés), donc non comptée ici."
@@ -401,10 +414,10 @@ for c0 in D['candidates']:
         k=m.get('claude')
         if k and k['central']==0 and k['low']==0 and k['high']==0: k['nc']=True
 # --- totaux
-random.seed(11)
 def draw(lo,c,hi):
     z=random.gauss(0,1); return c+z*((c-lo)/1.2816 if z<0 else (hi-c)/1.2816)
 for c0 in D['candidates']:
+    random.seed(c0['id'])  # tirage propre à chaque candidat : modifier une mesure ne déplace pas les fourchettes des autres
     ms=[m for m in c0['measures'] if m.get('claude') and not m['claude'].get('exclude') and not m.get('a_confirmer') and not m['claude'].get('nc')]
     def sim(real):
         xs=sorted(sum(draw(m['claude']['low'],m['claude']['central'],m['claude']['high']) for m in ms if not(real and m['verdict']=='bloque')) for _ in range(20000))

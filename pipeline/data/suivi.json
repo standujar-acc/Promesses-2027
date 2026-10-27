@@ -411,7 +411,7 @@
    "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": "Tranché par la règle « médiane des chiffrages crédibles » : 24 Md€ (médiane publiée de l'Institut Montaigne), bornes 38 et 0. L'hypothèse de prix en baisse (9 Md€) est contredite par les prix observés : relevé officiel du ministère, semaine du 23/10/2026, SP95 2,18 €/l, gazole 2,35 €/l, Brent 119 $. Simulateur aligné sur ce relevé (2,18 €/l). Bloc « review 6 » de corrections.py (27/10/2026)."
+   "resolution": "Tranché par la règle « médiane des chiffrages crédibles » : 22 Md€, médiane de l'Institut Montaigne (médiane 24 Md€, « risque budgétaire en cas de résurgence d'une crise énergétique ») et du Gouvernement (≈ 20 Md€, cité par l'Institut Montaigne) ; bornes 38 et 0. L'hypothèse basse de 9 Md€ (prix en baisse) est écartée : prix pétroliers d'octobre 2026 au niveau de la crise de 2022 (relevé officiel du ministère, semaine du 23/10/2026 : SP95 2,18 €/l, gazole 2,35 €/l, Brent 119 $). Même contexte de prix signalé sur la TVA énergie de Le Pen. Simulateur aligné sur ce relevé. Bloc « review 6 » de corrections.py (27/10/2026)."
   },
   {
    "id": "S029",
@@ -703,13 +703,13 @@
     "retailleau"
    ],
    "mesure": "travail",
-   "sujet": "Fusion des minima : le « −30 % » de notre chiffrage n'a pas de source",
+   "sujet": "Fusion des minima : le « −30 % » de notre chiffrage est-il sourcé ?",
    "detail": "Notre chiffrage (+5,5 Md€) applique −30 % au RSA et aux minima ; aucune source ne le mentionne (programme, réponse de LR au Monde du 9/01/2026, presse). La seule règle publiée est un plafond des aides non contributives à 70 % du SMIC net par adulte. Le simulateur applique désormais ce plafond. Options : chiffrer le plafond (scénario iFRAP « 70 % du SMIC » ≈ +34 Md€, sur un périmètre à vérifier) ou passer la mesure en « non chiffrable » faute d'étude du plafond tel que proposé.",
    "echeance": null,
    "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": "Tranché par la règle « médiane des chiffrages crédibles » : le « −30 % » sans source est retiré ; le plafond publié (70 % du SMIC net par adulte, réponse de LR aux Décodeurs du 9/01/2026) a un seul chiffrage, iFRAP (2024) : 34 Md€ ; borne basse 12 Md€ (scénario iFRAP au niveau du SMIC), l'iFRAP ne précisant pas « par adulte » ou « par foyer ». Même règle que pour l'allocation unique de Lisnard, qui reste non chiffrable faute de plafond publié. Bloc « review 6 » de corrections.py (27/10/2026)."
+   "resolution": "Le point reposait sur une erreur : le « −30 % » a une source, la présentation du plan rapportée par Public Sénat (7/01/2026 : « Il réduit au passage l'allocation de 30 % »). Calcul ascendant maintenu (+5,5 Md€, de 3,6 à 7,4), sources ajoutées ; il recoupe l'objectif du camp (30 Md€ sur cinq ans pour le chômage et les prestations, Public Sénat 12/10/2026, soit ≈ 7 Md€ en 2030 par la règle commune 3,5/15). Le plafond à 70 % du SMIC reste non compté : son seul chiffrage (iFRAP) porte sur un autre dispositif (allocation unique versée en crédit d'impôt, éteinte au 8e décile). Simulateur : la baisse de 30 % des minima est maintenant comptée, comme dans le chiffrage. Une première version de cette résolution (34 Md€) a été corrigée après relecture indépendante."
   },
   {
    "id": "S049",
@@ -722,7 +722,7 @@
    "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": "Tranché par la règle du simulateur « aucun gain pour une mesure non promise » : la part rendue aux agents est une hypothèse de chiffrage (coût net d'un poste supprimé), pas une promesse ; elle n'est donc pas affichée comme un gain. Règle commune inchangée, chez les six candidats concernés."
+   "resolution": "Tranché par la règle du simulateur (aucun gain pour une mesure que le camp n'a pas confirmée) : aucun candidat ne promet de rendre une part des économies aux agents ; c'est une hypothèse de chiffrage (coût net d'un poste supprimé), qui n'est donc pas affichée comme un gain. Règle commune inchangée, chez les six candidats concernés."
   },
   {
    "id": "S050",
@@ -747,7 +747,22 @@
    ],
    "mesure": null,
    "sujet": "« Revenu familial » de 240 € par enfant",
-   "detail": "Remplace 12 aides familiales ; non chiffré dans nos totaux, donc absent du simulateur (règle : aucun gain pour une mesure non chiffrée). À chiffrer comme l'allocation unique de Philippe.",
+   "detail": "Remplace 12 aides familiales ; non chiffré dans nos totaux, donc absent du simulateur (règle : aucun gain pour une mesure non chiffrée). Même règle que l'allocation unique de Philippe (non chiffrable tant que les aides remplacées et leur montant ne sont pas publiés) : chercher le détail des 12 aides.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S052",
+   "type": "non_chiffrable",
+   "candidats": [
+    "philippe"
+   ],
+   "mesure": "famille",
+   "sujet": "Allocation unique : seuils de dégressivité et aides remplacées non publiés",
+   "detail": "Mesure hors total (fourchette indicative en note : de 0 à environ −17,5 Md€) tant que le camp ne publie pas les seuils de revenu et la liste complète des aides fusionnées.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
