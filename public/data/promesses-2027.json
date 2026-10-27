@@ -112,7 +112,7 @@
      "quiz_text": "Revenir à la retraite à 62 ans, et à 60 ans pour ceux qui ont commencé à travailler avant 20 ans",
      "quiz_concret": "Vous pourriez partir plus tôt qu'aujourd'hui.",
      "quiz_plus": "Départ plus tôt qu'avec les règles actuelles, dès 60 ans pour les carrières commencées avant 20 ans.",
-     "quiz_moins": "Davantage de pensions versées, à financer par des cotisations, des impôts ou de la dette."
+     "quiz_moins": "Les carrières commencées après 20 ans restent à 62 ans et 42 annuités ; davantage de pensions à financer."
     },
     {
      "id": "immigration",
@@ -258,7 +258,7 @@
      "quiz_text": "Baisser fortement la taxe sur l'électricité, le gaz et l'essence",
      "quiz_concret": "Vos factures d'énergie et le plein baissent d'environ 12 %, si les fournisseurs répercutent la baisse.",
      "quiz_plus": "Prix de l'énergie et des carburants plus bas, si la baisse de taxe est répercutée.",
-     "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+     "quiz_moins": "Baisse plus forte en euros pour les ménages qui consomment le plus d'énergie ; moins de recettes de TVA."
     },
     {
      "id": "production",
@@ -326,7 +326,7 @@
      "quiz_text": "Supprimer trois impôts payés par les entreprises, quels que soient leurs bénéfices",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
      "quiz_plus": "Les entreprises paient moins d'impôts de production, qu'elles fassent des bénéfices ou non.",
-     "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+     "quiz_moins": "Les collectivités perdent la CFE, que l'État doit compenser ; moins de recettes publiques."
     },
     {
      "id": "ue",
@@ -530,7 +530,7 @@
      "quiz_text": "Supprimer la plupart des agences de l'État et beaucoup de postes publics",
      "quiz_concret": "Moins de fonctionnaires et de structures publiques.",
      "quiz_plus": "Moins de dépenses de personnel et d'agences publiques.",
-     "quiz_moins": "Moins d'agents publics ; agences supprimées, leurs missions arrêtées ou reprises ailleurs."
+     "quiz_moins": "Moins d'agents publics ; agences, intercommunalités et métropoles supprimées, leurs missions arrêtées ou reprises ailleurs."
     },
     {
      "id": "tva-produits-essentiels",
@@ -580,7 +580,7 @@
      "quiz_text": "Supprimer la TVA sur une centaine de produits de première nécessité",
      "quiz_concret": "Certains produits du quotidien coûtent un peu moins cher.",
      "quiz_plus": "Prix de ces produits plus bas, si la baisse de taxe est répercutée.",
-     "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+     "quiz_moins": "Baisse en partie gardée par les distributeurs plutôt que répercutée ; moins de recettes de TVA."
     },
     {
      "id": "ame",
@@ -812,7 +812,7 @@
      "quiz_text": "Revenir à la retraite à 62 ans dès 2027, puis à 60 ans",
      "quiz_concret": "Vous pourriez partir plus tôt qu'aujourd'hui.",
      "quiz_plus": "Départ plus tôt qu'avec les règles actuelles : 62 ans, puis 60 ans.",
-     "quiz_moins": "Davantage de pensions versées, à financer par des cotisations, des impôts ou de la dette."
+     "quiz_moins": "À 60 ans, pension versée environ trois ans plus tôt qu'aujourd'hui ; davantage de pensions à financer."
     },
     {
      "id": "smic",
@@ -868,7 +868,7 @@
      "quiz_text": "Porter le salaire minimum à 1 700 € net par mois",
      "quiz_concret": "Environ +220 € par mois au niveau du SMIC.",
      "quiz_plus": "Environ +220 € net par mois au niveau du SMIC.",
-     "quiz_moins": "Coût du travail plus élevé pour les employeurs et allègements de cotisations plus coûteux pour les finances publiques ; des études estiment des pertes d'emplois peu qualifiés."
+     "quiz_moins": "Coût du travail plus élevé pour les employeurs ; des études estiment des pertes d'emplois peu qualifiés."
     },
     {
      "id": "fiscalite",
@@ -994,7 +994,7 @@
      "quiz_text": "Une allocation pouvant dépasser 1 000 € par mois pour les jeunes en études ou en formation",
      "quiz_concret": "Un revenu garanti pour les jeunes, selon leurs ressources.",
      "quiz_plus": "Un revenu versé aux jeunes en études ou en formation, selon leurs ressources.",
-     "quiz_moins": "Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+     "quiz_moins": "Nouvelle prestation mensuelle pour l'État, dont le montant varie selon les ressources."
     },
     {
      "id": "prix",
@@ -1222,7 +1222,7 @@
      "quiz_text": "Augmenter de 10 % le salaire de base de tous les fonctionnaires",
      "quiz_concret": "Les agents publics gagnent plus.",
      "quiz_plus": "Salaire de base des agents publics en hausse de 10 %.",
-     "quiz_moins": "Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+     "quiz_moins": "Même hausse pour tous les agents ; s'applique aussi aux collectivités et aux hôpitaux, qui doivent la financer."
     },
     {
      "id": "niches",
@@ -1582,7 +1582,7 @@
      "quiz_text": "Revenir à la retraite à 62 ans, plus tôt pour les métiers pénibles",
      "quiz_concret": "Vous pourriez partir plus tôt qu'aujourd'hui.",
      "quiz_plus": "Départ plus tôt qu'avec les règles actuelles, encore plus tôt pour les métiers pénibles.",
-     "quiz_moins": "Davantage de pensions versées, à financer par des cotisations, des impôts ou de la dette."
+     "quiz_moins": "Âge de départ à fixer métier par métier selon la pénibilité ; davantage de pensions à financer."
     },
     {
      "id": "smic",
@@ -1638,7 +1638,7 @@
      "quiz_text": "Porter le salaire minimum à 1 600 € net en deux ans",
      "quiz_concret": "Environ +120 € par mois au niveau du SMIC.",
      "quiz_plus": "Environ +120 € net par mois au niveau du SMIC.",
-     "quiz_moins": "Coût du travail plus élevé pour les employeurs et allègements de cotisations plus coûteux pour les finances publiques ; des études estiment des pertes d'emplois peu qualifiés."
+     "quiz_moins": "Hausse étalée sur deux ans ; coût du travail plus élevé, des études estiment des pertes d'emplois peu qualifiés."
     },
     {
      "id": "defense",
@@ -1743,7 +1743,7 @@
      "quiz_text": "Une loi sur cinq ans pour l'école : salaires des profs, classes moins chargées, écoles rénovées",
      "quiz_concret": "Plus de moyens pour l'école.",
      "quiz_plus": "Plus de moyens pour l'école : salaires, élèves par classe, bâtiments.",
-     "quiz_moins": "Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+     "quiz_moins": "Moyens répartis entre salaires, effectifs et bâtiments sur cinq ans ; dépense supplémentaire pour l'État."
     },
     {
      "id": "industrie",
@@ -1856,7 +1856,7 @@
      "quiz_text": "Un service obligatoire de dix mois pour tous les jeunes",
      "quiz_concret": "Chaque jeune donne dix mois à une mission d'intérêt général, civile ou militaire.",
      "quiz_plus": "Des missions d'intérêt général, civiles ou militaires, assurées par chaque classe d'âge ; indemnité versée aux jeunes pendant dix mois.",
-     "quiz_moins": "Dix mois obligatoires pour chaque jeune ; dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+     "quiz_moins": "Dix mois obligatoires pour chaque jeune avant les études ou l'emploi ; indemnités et encadrement à financer."
     },
     {
      "id": "ukraine",
@@ -1921,7 +1921,7 @@
      "quiz_text": "Augmenter fortement l'aide militaire à l'Ukraine",
      "quiz_concret": "Plus d'armes livrées à l'Ukraine, financées en partie par des avoirs saisis.",
      "quiz_plus": "Davantage d'armes livrées à l'Ukraine.",
-     "quiz_moins": "Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+     "quiz_moins": "Dépense militaire supplémentaire pour l'État."
     }
    ],
    "total": {
@@ -2054,7 +2054,7 @@
      "quiz_text": "Repousser la retraite à 65 ans",
      "quiz_concret": "Vous partiriez plus tard qu'aujourd'hui.",
      "quiz_plus": "Davantage de cotisations et moins de pensions versées.",
-     "quiz_moins": "Départ plus tard qu'avec les règles actuelles, à 65 ans."
+     "quiz_moins": "Départ plus tard qu'avec les règles actuelles, à 65 ans et après 45 années de cotisation."
     },
     {
      "id": "fonction",
@@ -2122,7 +2122,7 @@
      "quiz_text": "Ne pas remplacer un fonctionnaire sur trois partant à la retraite",
      "quiz_concret": "Moins de postes publics au fil des départs.",
      "quiz_plus": "Moins de dépenses de personnel public.",
-     "quiz_moins": "Moins d'agents publics."
+     "quiz_moins": "Moins d'agents publics ; opérateurs de l'État regroupés."
     },
     {
      "id": "production",
@@ -2296,7 +2296,7 @@
      "quiz_text": "Une allocation familiale unique dès le premier enfant",
      "quiz_concret": "Les familles d'un ou deux enfants y gagnent ; moins pour les hauts revenus.",
      "quiz_plus": "Une allocation dès le premier enfant, et des avantages fiscaux pour les familles.",
-     "quiz_moins": "Allocation réduite pour les hauts revenus ; dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+     "quiz_moins": "Allocation réduite pour les hauts revenus ; nouvelle dépense pour l'État dès le premier enfant."
     },
     {
      "id": "immigration",
@@ -2396,7 +2396,7 @@
      "quiz_text": "Augmenter fortement le salaire des enseignants en cinq ans",
      "quiz_concret": "Les profs gagnent plus.",
      "quiz_plus": "Rémunération des enseignants en hausse sur cinq ans.",
-     "quiz_moins": "Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+     "quiz_moins": "Même hausse pour tous les enseignants, étalée sur cinq ans ; dépense supplémentaire pour l'État."
     },
     {
      "id": "heures_sup",
@@ -2446,7 +2446,7 @@
      "quiz_text": "Ne plus prélever d'impôt au-delà de 35 h, ni de cotisations au-delà de 37 h",
      "quiz_concret": "Plus de salaire net si vous faites des heures en plus.",
      "quiz_plus": "Plus de salaire net sur les heures travaillées au-delà de 35 h.",
-     "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+     "quiz_moins": "Gain réservé aux salariés qui font des heures sup ; moins de recettes d'impôt et de cotisations."
     },
     {
      "id": "fonds_climat",
@@ -2488,7 +2488,7 @@
      "quiz_text": "Un fonds annuel pour adapter le pays au réchauffement",
      "quiz_concret": "Plus d'argent contre les inondations, canicules et incendies.",
      "quiz_plus": "Un financement dédié à l'adaptation au changement climatique.",
-     "quiz_moins": "Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+     "quiz_moins": "Nouvelle enveloppe annuelle à financer sur le budget de l'État."
     },
     {
      "id": "jeunes_parents",
@@ -2530,7 +2530,7 @@
      "quiz_text": "Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents des classes moyennes",
      "quiz_concret": "Les nouveaux parents gardent davantage de leur salaire.",
      "quiz_plus": "Plus de revenu disponible pour les jeunes parents des classes moyennes pendant 3 ans.",
-     "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+     "quiz_moins": "Gain réservé aux parents imposables ; moins de recettes d'impôt sur le revenu."
     }
    ],
    "total": {
@@ -2881,7 +2881,7 @@
      "quiz_text": "Supprimer plusieurs impôts des entreprises et les cotisations sur les heures supplémentaires",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
      "quiz_plus": "Les entreprises paient moins d'impôts de production et de cotisations (forfait social, heures sup).",
-     "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+     "quiz_moins": "Heures sup moins chères pour les employeurs ; moins de recettes d'impôts et de cotisations."
     },
     {
      "id": "energie",
@@ -2987,7 +2987,7 @@
      "quiz_text": "Des peines de prison minimales obligatoires, inscrites dans la Constitution",
      "quiz_concret": "Le juge ne pourrait plus descendre sous un seuil pour certains délits.",
      "quiz_plus": "Peine au moins égale à un seuil fixé pour certains délits.",
-     "quiz_moins": "Le juge ne peut plus descendre sous le seuil ; davantage de détenus, dépense publique en plus à financer par des économies, des impôts ou de la dette."
+     "quiz_moins": "Le juge ne peut plus descendre sous le seuil ; davantage de détenus à loger."
     },
     {
      "id": "fin_maprimerenov",
@@ -3372,7 +3372,7 @@
      "quiz_text": "L'État place une somme pour la retraite de chaque nouveau-né",
      "quiz_concret": "Chaque bébé démarre avec une épargne retraite que la famille peut compléter.",
      "quiz_plus": "Une épargne retraite ouverte pour chaque nouveau-né, que la famille peut compléter.",
-     "quiz_moins": "Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+     "quiz_moins": "Épargne bloquée jusqu'à la retraite et placée sur les marchés ; nouvelle dépense pour l'État à chaque naissance."
     },
     {
      "id": "regle_or",
@@ -3576,7 +3576,7 @@
      "quiz_text": "Augmenter le salaire des enseignants de quelques centaines d'euros par mois",
      "quiz_concret": "Les profs gagnent plus, surtout en milieu de carrière.",
      "quiz_plus": "Rémunération des enseignants en hausse, surtout en milieu de carrière.",
-     "quiz_moins": "Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+     "quiz_moins": "Hausse plus forte en milieu de carrière qu'en début ; dépense supplémentaire pour l'État."
     }
    ],
    "total": {
@@ -3758,7 +3758,7 @@
      "quiz_text": "Ne pas remplacer une grande partie des fonctionnaires partant à la retraite",
      "quiz_concret": "Beaucoup moins de postes publics.",
      "quiz_plus": "Moins de dépenses de personnel et d'agences publiques.",
-     "quiz_moins": "Moins d'agents publics ; agences supprimées, leurs missions arrêtées ou reprises ailleurs."
+     "quiz_moins": "Moins d'agents publics ; agences, ARS et DREAL supprimées, leurs missions arrêtées ou reprises ailleurs."
     },
     {
      "id": "retraites",
@@ -3812,7 +3812,7 @@
      "quiz_text": "Repousser la retraite à 65 ans et développer l'épargne retraite individuelle",
      "quiz_concret": "Vous partez plus tard ; une partie de votre retraite dépend de votre épargne.",
      "quiz_plus": "Davantage de cotisations et moins de pensions versées.",
-     "quiz_moins": "Départ plus tard qu'avec les règles actuelles, à 65 ans."
+     "quiz_moins": "Départ plus tard qu'avec les règles actuelles, à 65 ans ; pension de base par répartition, complétée par l'épargne."
     },
     {
      "id": "impots",
@@ -3874,7 +3874,7 @@
      "quiz_text": "Supprimer des impôts sur la production des entreprises, dont la taxe sur le chiffre d'affaires",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
      "quiz_plus": "Les entreprises paient moins d'impôts de production.",
-     "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+     "quiz_moins": "Baisse aussi pour les entreprises sans bénéfices (taxe sur le chiffre d'affaires) ; moins de recettes publiques."
     },
     {
      "id": "allocation",
@@ -4065,7 +4065,7 @@
      "quiz_text": "Baisser les cotisations sur les salaires grâce aux économies de l'État",
      "quiz_concret": "Votre salaire net augmente, si les économies sont réalisées.",
      "quiz_plus": "Salaire net en hausse grâce à moins de cotisations.",
-     "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+     "quiz_moins": "Gain réservé aux actifs, proportionnel au salaire ; moins de recettes de cotisations."
     },
     {
      "id": "is20",
@@ -4121,7 +4121,7 @@
      "quiz_text": "Baisser l'impôt sur les bénéfices des entreprises",
      "quiz_concret": "Les entreprises rentables paient moins d'impôts.",
      "quiz_plus": "Les entreprises bénéficiaires paient moins d'impôt sur leurs bénéfices.",
-     "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+     "quiz_moins": "Gain proportionnel aux bénéfices, nul pour les entreprises déficitaires ; moins de recettes d'impôt sur les sociétés."
     },
     {
      "id": "profs",
@@ -4162,7 +4162,7 @@
      "quiz_text": "Augmenter fortement le salaire des enseignants en cinq ans, contre une réorganisation de leur travail",
      "quiz_concret": "Les profs gagnent plus, avec des obligations revues.",
      "quiz_plus": "Rémunération des enseignants en hausse sur cinq ans.",
-     "quiz_moins": "Missions des enseignants réorganisées ; dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+     "quiz_moins": "Hausse en échange d'une réorganisation des missions des enseignants ; dépense supplémentaire pour l'État."
     },
     {
      "id": "aides5",
@@ -4767,7 +4767,7 @@
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » viennent des statistiques publiques (SSMSI, Insee, DREES, DEPP, Citepa, Eurostat, OTAN, etc.). Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique les paramètres annoncés à votre situation, à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Ce sont des ordres de grandeur.",
-  "<b>Quiz.</b> 16 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 4 fois et aucune paire ne se répète. Chaque proposition est reformulée en langage courant, avec deux effets factuels : « + » ce qu'elle apporte, « − » sa contrepartie. Pas de nom de candidat, pas de coût, pas de faisabilité, pas de jugement ; une même formulation pour tous les cas du même type (dépense à financer, recettes en moins, pensions en plus).",
+  "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Chaque proposition est reformulée en langage courant, avec deux effets factuels : « + » ce qu'elle apporte, « − » sa contrepartie. Chaque ligne donne l'effet propre à la mesure (qui gagne le plus, qui est exclu, ce qui change), puis son effet sur le budget en quelques mots. Pas de nom de candidat, pas de coût, pas de faisabilité, pas de jugement ; la même règle pour tous.",
   "<b>Sondages et contexte.</b> Ipsos-BVA des 21-22 octobre 2026, masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
  ],
  "statu_quo": {
@@ -4867,6 +4867,14 @@
   {
    "date": "27/10/2026",
    "text": "Quiz : chaque proposition affiche deux effets factuels, ce qu'elle apporte et sa contrepartie, rédigés avec la même règle pour tous les candidats."
+  },
+  {
+   "date": "27/10/2026",
+   "text": "Quiz : les contreparties décrivent l'effet propre à chaque mesure au lieu d'une formule budgétaire commune."
+  },
+  {
+   "date": "27/10/2026",
+   "text": "Quiz : 20 duels au lieu de 16 ; chaque candidat apparaît 5 fois."
   },
   {
    "date": "27/10/2026",
