@@ -14,7 +14,7 @@ Lire d'abord `CLAUDE.md` (règles de neutralité et de chiffrage), `DEVELOPPER.m
 - Le site de campagne d'un candidat n'est une source que sur ses propres propositions. Agrégateurs et sites non officiels : signalés (`weak_domains`, mention « agrégateur » ou « non officiel » dans le libellé).
 - Pas d'adjectif de jugement, pas de formulation sévère réservée à un camp.
 - Ne jamais inventer un chiffre ou une URL : toute URL ajoutée est ouverte et vérifiée. Si une source manque, le point reste ouvert.
-- Un changement de **verdict**, de **total** ou de **règle commune** se fait seulement avec une source vérifiée. S'il demande un arbitrage (méthode, neutralité, interprétation), ne pas trancher : créer un point `a_trancher` et le signaler dans la PR.
+- Un changement de **verdict**, de **total** ou de **règle commune** se fait seulement avec une source vérifiée. S'il demande un arbitrage (méthode, neutralité, interprétation), le trancher en appliquant les règles communes aux faits vérifiés (délégation du porteur, 27/10/2026), noter la décision, la règle et les sources dans le registre et la signaler dans la PR ; seul un choix sans règle applicable ni fait décisif reste un point `a_trancher`.
 
 ## Déroulé
 1. **Préparer.** `git pull` sur `main`, puis créer la branche `revue/AAAA-MM-JJ`. Lancer `python3 pipeline/run.py` puis `python3 tests/smoke.py` : tout doit passer avant de commencer.

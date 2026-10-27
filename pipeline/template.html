@@ -1000,8 +1000,11 @@ function quizScore(s){
   const near=!any?[]:g1.length===1?(g2&&g2.length<=2?[...g1,...g2]:g1):g1.length<=3?g1:[];
   return {duels,rows,groups,head,then,near};
 }
+// effet sur le déficit des propositions retenues ; « Les deux » : la moyenne des effets chiffrés des deux propositions du duel
+function quizCost(s){ const fx=p=>has(p.m)&&!p.m.a_confirmer?p.m.claude.central:null;
+  return s.picks.reduce((t,p)=>{ const v=(p||[]).map(fx).filter(x=>x!=null); return t+(v.length?v.reduce((a,b)=>a+b,0)/v.length:0); },0); }
 function quizResult(el, s, msg){
-  const R=quizScore(s), {duels,rows,head,then,near}=R, chosen=s.picks.flat(), cost=chosen.reduce((t,p)=>t+(has(p.m)&&!p.m.a_confirmer?p.m.claude.central:0),0);
+  const R=quizScore(s), {duels,rows,head,then,near}=R, chosen=s.picks.flat(), cost=quizCost(s);
   const vc={}; chosen.forEach(o=>vc[o.m.verdict]=(vc[o.m.verdict]||0)+1);
   const nl=chosen.filter(o=>o.m.life).length, vtxt=Object.keys(QVP).filter(k=>vc[k]).map(k=>`${vc[k]} ${QVP[k][vc[k]>1?1:0]}`).join(', ');
   const both=s.picks.some(p=>p&&p.length===2);
@@ -1013,7 +1016,7 @@ function quizResult(el, s, msg){
   const dots=r=>[...r.x.marks].sort((a,b)=>QK.indexOf(a.k)-QK.indexOf(b.k)||b.w-a.w).map(m=>{ const x=m.w>1?' x2':''; return retained(m.k)?`<i class="k-ret${x}"></i>`:m.k==='rej'?`<i class="k-rej${x}">✕</i>`:`<i class="k-none${x}">–</i>`; }).join('');
   const counts=x=>[pl(x.n,'retenue'),pl(x.ko.filter(z=>z.k==='rej').length,'écartée'),`${x.ko.filter(z=>z.k==='none').length} sans choix`].filter(t=>!/^0 /.test(t)).join(' · ');
   const order=(a,b,ks)=>b.w-a.w||ks.indexOf(a.k)-ks.indexOf(b.k);
-  const defTxt=!chosen.length?'Aucun effet sur le déficit.':Math.abs(cost)<0.05?'Vos choix ne changent presque rien au déficit.':`Vos choix ${cost<0?'creusent':'réduisent'} le déficit de <b style="color:${cost<0?'#ff8a9a':'#7ee0ad'}">${mdAbs(cost)} Md€ par an</b>, soit ${eur(Math.abs(perHH(cost)),false)} par ménage${both?' (quand vous retenez les deux propositions d\'un duel, leurs effets s\'additionnent)':''}.`;
+  const defTxt=!chosen.length?'Aucun effet sur le déficit.':Math.abs(cost)<0.05?'Vos choix ne changent presque rien au déficit.':`Vos choix ${cost<0?'creusent':'réduisent'} le déficit de <b style="color:${cost<0?'#ff8a9a':'#7ee0ad'}">${mdAbs(cost)} Md€ par an</b>, soit ${eur(Math.abs(perHH(cost)),false)} par ménage${both?' (quand vous retenez les deux propositions d\'un duel, on compte la moyenne de leurs effets)':''}.`;
   el.innerHTML=`<div class="qstart"><span class="eyebrow" style="color:var(--band-muted)">Votre résultat</span><h2${head.length>30?' class="long"':''}>${esc(head)}</h2>${then?`<p class="qthen">${esc(then)}</p>`:''}
     <p>Sur ${s.qs.length} duels, vous avez retenu ${pl(chosen.length,'proposition')}${vtxt?`. Selon notre analyse : ${vtxt}`:''}${nl?`${vtxt?' ; ':'. '}${nl} de la vie quotidienne, sans verdict de faisabilité`:''}.</p>
     <p>${defTxt}</p></div>
