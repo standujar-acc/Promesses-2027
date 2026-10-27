@@ -878,7 +878,9 @@ function sim(){
     if(minLost) add('Minima sociaux',`RSA, prime d'activité et ASS ${cond[etr.minima]} (si la révision de la Constitution passe)`,-sal);
     else if(etr && nat!=='fr' && !lt5w && /lt5/.test(etr.minima) && (st==='minima'||sqAlloc>0)) notes.push('Aides réservées aux étrangers installés ou ayant travaillé en France depuis au moins 5 ans : cochez la case qui vous correspond.');
     if(etr && nat==='hors' && st==='minima') notes.push('Hors Union européenne, le RSA et la prime d\'activité exigent déjà aujourd\'hui 5 ans de titre de séjour, sauf exceptions (réfugiés, carte de résident).');
-    if(s.plafond_aides && st==='minima' && sal>0 && !minLost){ const pl=s.plafond_aides.pct*SQ.smic_net, over=sal+sqAlloc+afD-pl; if(over>0.5) add('Minima sociaux',esc(s.plafond_aides.note),-Math.min(sal,over)); else notes.push(s.plafond_aides.note+' : vos aides restent sous ce plafond.'); }
+    const bm = s.baisse_minima && st==='minima' && sal>0 && !minLost ? sal*s.baisse_minima.pct/100 : 0;
+    if(bm) add('Minima sociaux',esc(s.baisse_minima.note),-bm);
+    if(s.plafond_aides && st==='minima' && sal>0 && !minLost){ const pl=s.plafond_aides.pct*SQ.smic_net, over=sal-bm+sqAlloc+afD-pl; if(over>0.5) add('Minima sociaux',esc(s.plafond_aides.note),-Math.min(sal-bm,over)); else notes.push(s.plafond_aides.note+' : vos aides restent sous ce plafond.'); }
     if(st==='minima' && sal>0 && !minLost && Math.abs(afD)>0.5){ const adj = afD>0 ? -Math.min(afD,sal) : -afD; add('Ajustement du RSA','Les allocations familiales comptent dans le calcul du RSA : une hausse est en grande partie reprise, une baisse compensée (calcul simplifié)',adj); }
     if(s.jeunes_alloc && age>=18 && age<=25 && st==='etudiant'){ const v=Math.max(0,s.jeunes_alloc.montant-sal); if(v>0){ cap=v; rows.push(['Allocation jeunes', esc(s.jeunes_alloc.label)+' : montant maximal, sous conditions de ressources ; non compté dans le total', `jusqu'à ${eur(v)}/mois`]); } }
     if(s.famille && kids>0) notes.push(s.famille);

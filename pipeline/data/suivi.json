@@ -406,12 +406,12 @@
    ],
    "mesure": "prix",
    "sujet": "Blocage des prix : retenir 9 ou 24 Md€ ?",
-   "detail": "Institut Montaigne (2024) : 9 à 38 Md€, médiane 24 = moyenne des boucliers énergie 2022-2024 ; 9 = hypothèse de prix de l'énergie en baisse. Nous retenons 9 pour 2030 (borne basse 24). Passer à 24 creuserait le total de Mélenchon de 15 Md€. Règle à décider : médiane publiée ou hypothèse de prix 2030 ? Élément nouveau : la note LFI d'octobre 2026 précise un carburant bloqué à 1,70 €/l, alors que le SP95 est à ≈ 2,21 €/l et le gazole à ≈ 2,33 €/l (relevé du ministère, octobre 2026) : un contexte de prix élevés, plus proche de la médiane de crise (24 Md€) que de l'hypothèse de prix en baisse (9 Md€).",
+   "detail": "Institut Montaigne (2024) : 9 à 38 Md€, médiane 24 = moyenne des boucliers énergie 2022-2024 ; 9 = hypothèse de prix de l'énergie en baisse. Nous retenons 9 pour 2030 (borne basse 24). Passer à 24 creuserait le total de Mélenchon de 15 Md€. Règle à décider : médiane publiée ou hypothèse de prix 2030 ? Élément nouveau : la note LFI d'octobre 2026 précise un carburant bloqué à 1,70 €/l, alors que le SP95 est à 2,18 €/l et le gazole à 2,35 €/l (relevé du ministère, semaine du 23 octobre 2026) : un contexte de prix élevés, plus proche de la médiane de crise (24 Md€) que de l'hypothèse de prix en baisse (9 Md€).",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Tranché par la règle « médiane des chiffrages crédibles » : 22 Md€, médiane de l'Institut Montaigne (médiane 24 Md€, « risque budgétaire en cas de résurgence d'une crise énergétique ») et du Gouvernement (≈ 20 Md€, cité par l'Institut Montaigne) ; bornes 38 et 0. L'hypothèse basse de 9 Md€ (prix en baisse) est écartée : prix pétroliers d'octobre 2026 au niveau de la crise de 2022 (relevé officiel du ministère, semaine du 23/10/2026 : SP95 2,18 €/l, gazole 2,35 €/l, Brent 119 $). Même contexte de prix signalé sur la TVA énergie de Le Pen. Simulateur aligné sur ce relevé. Bloc « review 6 » de corrections.py (27/10/2026)."
   },
   {
    "id": "S029",
@@ -498,7 +498,7 @@
     "energie"
    ],
    "sujet": "Arrêt des soutiens aux ENR : ≈ 1 Md€ en 2030, est-ce trop prudent ?",
-   "detail": "Règle commune actuelle : contrats signés maintenus, seule la hausse future est évitée, ≈ 1 Md€/an en 2030. La CRE montre +1 Md€ par an (7,29 → 8,38 Md€ de 2026 à 2027), soit +3 à 4 Md€ en 2030 si la tendance continue ; mais une bonne part vient de projets déjà attribués. À trancher, pour les deux candidats ensemble.",
+   "detail": "Règle commune actuelle : contrats signés maintenus, seule la hausse future est évitée, ≈ 1 Md€/an en 2030. La CRE montre +1 Md€ par an (7,29 → 8,38 Md€ de 2026 à 2027), soit +3 à 4 Md€ en 2030 si la tendance continue ; mais une bonne part vient de projets déjà attribués. À trancher, pour les deux candidats ensemble. Les faits ne tranchent pas encore : il manque la part de la hausse 2027-2030 qui viendrait de contrats non encore signés (évitable selon la règle) et la lecture du chiffre du contre-budget RN (7,2 Md€ ≈ tout le soutien 2026, contrats en cours compris). À chercher : délibération de la CRE sur les charges de service public 2027 (ventilation par filière et par date d'attribution), calendrier des appels d'offres 2027-2029.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -515,10 +515,10 @@
    "sujet": "Réforme de l'assurance chômage : compter 3,6 Md€ ?",
    "detail": "Le programme ne donne pas de paramètres. La proposition de loi n° 1791 (2025, cosignée par G. Attal) chiffre 3,6 Md€. La compter supposerait que le programme la reprend : à confirmer par le camp ou à trancher.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Tranché par la règle « paramètre clé non publié → non chiffrable, fourchette indicative en note » : le programme ne reprend pas les paramètres de la proposition de loi de 2025 ; la mesure reste hors total (≈ +3,6 Md€ indiqué en note), comme avant. À rouvrir si le camp publie les paramètres."
   },
   {
    "id": "S036",
@@ -691,10 +691,10 @@
    "sujet": "Allocation unique : 350 € par enfant, pas par famille",
    "detail": "Le site du camp (8/10/2026) dit « 350 euros par mois et par enfant », « dégressive avec le revenu », « à coût constant en rationalisant les dispositifs existants » (allocations familiales, supplément familial de traitement, prime de naissance). Notre chiffrage (−12 Md€) compte 350 € par famille. Par enfant, avec la même hypothèse de dégressivité (−50 %) et sans déduire les aides fusionnées : ≈ −22 Md€. Le simulateur suit déjà la source (par enfant). Options : recalculer le chiffrage par enfant, ou passer la mesure en « non chiffrable » (dégressivité et aides fusionnées non publiées, même règle que l'allocation unique de Lisnard).",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Tranché par la règle « paramètre clé non publié → non chiffrable » (même règle que l'allocation unique de Lisnard) : 350 € par enfant (source du camp), mais seuils de dégressivité et liste des aides fusionnées non publiés. Hors total, fourchette indicative en note : de 0 (coût constant annoncé) à environ −17,5 Md€ (hypothèse de dégressivité). Simulateur : plus de gain, une note à la place. Bloc « review 6 » de corrections.py (27/10/2026)."
   },
   {
    "id": "S048",
@@ -703,13 +703,13 @@
     "retailleau"
    ],
    "mesure": "travail",
-   "sujet": "Fusion des minima : le « −30 % » de notre chiffrage n'a pas de source",
+   "sujet": "Fusion des minima : le « −30 % » de notre chiffrage est-il sourcé ?",
    "detail": "Notre chiffrage (+5,5 Md€) applique −30 % au RSA et aux minima ; aucune source ne le mentionne (programme, réponse de LR au Monde du 9/01/2026, presse). La seule règle publiée est un plafond des aides non contributives à 70 % du SMIC net par adulte. Le simulateur applique désormais ce plafond. Options : chiffrer le plafond (scénario iFRAP « 70 % du SMIC » ≈ +34 Md€, sur un périmètre à vérifier) ou passer la mesure en « non chiffrable » faute d'étude du plafond tel que proposé.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Le point reposait sur une erreur : le « −30 % » a une source, la présentation du plan rapportée par Public Sénat (7/01/2026 : « Il réduit au passage l'allocation de 30 % »). Calcul ascendant maintenu (+5,5 Md€, de 3,6 à 7,4), sources ajoutées ; il recoupe l'objectif du camp (30 Md€ sur cinq ans pour le chômage et les prestations, Public Sénat 12/10/2026, soit ≈ 7 Md€ en 2030 par la règle commune 3,5/15). Le plafond à 70 % du SMIC reste non compté : son seul chiffrage (iFRAP) porte sur un autre dispositif (allocation unique versée en crédit d'impôt, éteinte au 8e décile). Simulateur : la baisse de 30 % des minima est maintenant comptée, comme dans le chiffrage. Une première version de cette résolution (34 Md€) a été corrigée après relecture indépendante."
   },
   {
    "id": "S049",
@@ -719,10 +719,10 @@
    "sujet": "Part « rendue aux agents » dans la règle commune des suppressions de postes",
    "detail": "Notre règle commune suppose que la moitié des économies sur les postes supprimés revient aux agents restants (hausses de salaire). Ce n'est pas une promesse des candidats ; le simulateur ne l'affiche pas. À décider : l'afficher en note pour les agents publics chez les six candidats concernés, ou non.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Tranché par la règle du simulateur (aucun gain pour une mesure que le camp n'a pas confirmée) : aucun candidat ne promet de rendre une part des économies aux agents ; c'est une hypothèse de chiffrage (coût net d'un poste supprimé), qui n'est donc pas affichée comme un gain. Règle commune inchangée, chez les six candidats concernés."
   },
   {
    "id": "S050",
@@ -747,7 +747,7 @@
    ],
    "mesure": null,
    "sujet": "« Revenu familial » de 240 € par enfant",
-   "detail": "Remplace 12 aides familiales ; non chiffré dans nos totaux, donc absent du simulateur (règle : aucun gain pour une mesure non chiffrée). À chiffrer comme l'allocation unique de Philippe.",
+   "detail": "Remplace 12 aides familiales ; non chiffré dans nos totaux, donc absent du simulateur (règle : aucun gain pour une mesure non chiffrée). Même règle que l'allocation unique de Philippe (non chiffrable tant que les aides remplacées et leur montant ne sont pas publiés) : chercher le détail des 12 aides.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -756,6 +756,40 @@
   },
   {
    "id": "S052",
+   "type": "non_chiffrable",
+   "candidats": [
+    "philippe"
+   ],
+   "mesure": "famille",
+   "sujet": "Allocation unique : seuils de dégressivité et aides remplacées non publiés",
+   "detail": "Mesure hors total (fourchette indicative en note : de 0 à environ −17,5 Md€) tant que le camp ne publie pas les seuils de revenu et la liste complète des aides fusionnées.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S053",
+   "type": "a_trancher",
+   "candidats": [
+    "melenchon",
+    "retailleau"
+   ],
+   "mesure": [
+    "prix",
+    "travail"
+   ],
+   "sujet": "Simulateur : appliquer ou non une mesure publiée mais hors total",
+   "detail": "Le plafond des aides à 70 % du SMIC (Retailleau) est hors total (pas de chiffrage de ce dispositif) mais sa perte est affichée dans le simulateur ; la hausse de 10 % des allocations familiales et des APL (Mélenchon, S050) est hors total et son gain n'est pas affiché. Règle à fixer pour tous : le simulateur applique-t-il tout paramètre publié et confirmé, compté ou non dans le total ? (Relecture indépendante du 27/10/2026.)",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S054",
    "type": "a_ajouter",
    "candidats": [],
    "mesure": null,
