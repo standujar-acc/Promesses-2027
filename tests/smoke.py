@@ -40,6 +40,8 @@ with sync_playwright() as p:
         if len(set(txts)) < len(txts): rep += 1
     sans_effets = pg.evaluate("D.candidates.flatMap(c=>c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)&&!(m.quiz_plus&&m.quiz_moins)).map(m=>c.id+'.'+m.id)).concat((D.quiz_extra||[]).filter(m=>!(m.quiz_plus&&m.quiz_moins&&m.quiz_concret)).map(m=>m.c+'.'+m.id))")
     check(not sans_effets, f'quiz : chaque proposition a ses deux effets {sans_effets[:3]}')
+    sans_preuve = pg.evaluate("D.candidates.flatMap(c=>c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)).map(m=>({k:c.id+'.'+m.id,m}))).concat((D.quiz_extra||[]).map(m=>({k:m.c+'.'+m.id,m}))).filter(({m})=>!(m.quiz_preuve_pour&&m.quiz_preuve_contre&&m.quiz_cas_pour&&m.quiz_cas_contre)).map(x=>x.k)")
+    check(not sans_preuve, f'quiz : chaque proposition a son Pour et son Contre avec niveau de preuve et cas réels {sans_preuve[:3]}')
     check(bad == 0, f'quiz équilibré sur 50 tirages ({bad} écarts)')
     check(rep == 0, f'quiz : aucune proposition répétée dans une partie ({rep} parties sur 50)')
     # thèmes choisis à l'accueil : plus de duels sur ces thèmes, sans casser l'équilibre entre candidats
@@ -57,6 +59,13 @@ with sync_playwright() as p:
         pg.evaluate('quizStart()'); pg.evaluate(f"{pri}.forEach(t=>quizImp.add(t))"); n_base += share(); pg.evaluate("quizImp.clear()")
     check(bad == 0 and n_pri > n_base, f'quiz : thèmes choisis plus présents ({n_pri} contre {n_base} duels sur 30 parties), équilibre gardé ({bad} écarts)')
 
+    # duel : constat, Pour / Contre avec preuve, volet dépliable avec les cas et des sources numérotées valides
+    pg.evaluate('quizStart()')
+    r = pg.evaluate("""()=>{ const q=quizState.qs[0], el=document.getElementById('v-quiz');
+      return {pv:el.querySelectorAll('.duel .pv').length, cases:el.querySelectorAll('.qsrc .qx li.qc2').length,
+        want:q.opts.reduce((t,o)=>t+o.m.quiz_cas_pour.length+o.m.quiz_cas_contre.length+(o.m.quiz_complement?1:0),0),
+        refs:[...el.querySelectorAll('.qsrc .qx li a')].every(a=>/^https?:/.test(a.getAttribute('href'))), w:document.documentElement.scrollWidth}; }""")
+    check(r['pv'] == 4 and r['cases'] == r['want'] and r['refs'] and r['w'] <= 390, f"quiz : duel avec niveaux de preuve et cas réels dépliables ({r['pv']} preuves, {r['cases']}/{r['want']} cas)")
     # résultat du quiz : ce qui est affiché est ce qui est compté ; égalités jamais départagées ; thème marqué compté double
     pg.set_viewport_size({'width': 360, 'height': 800})
     def play(seq):
