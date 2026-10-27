@@ -88,17 +88,67 @@
 }
 ]
 ],
-"attal.fonctionnaires": [
-"École, armée, justice et police gardent leurs effectifs ; la Cour des comptes recommandait en 2015 de réduire les effectifs de l'État en supprimant les doublons et en numérisant les démarches.",
-"Ces quatre ministères emploient plus des deux tiers des agents de l'État : l'effort porte sur les autres services. La Cour des comptes notait en 2015 qu'exempter une large part des agents réduit fortement les gains.",
-[
+"attal.fonctionnaires": {
+"constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
+"constat_s": [
+3
+],
+"pour": "On réduit les postes au fil des départs, en épargnant l'école, l'armée, la justice et la police.",
+"preuve_pour": "mitigé",
+"contre": "Les services épargnés étant les plus gros, l'effort se concentre sur les autres et leurs usagers.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "Cour des comptes, masse salariale de l'État (via Acteurs publics)",
-"a": 2015,
-"u": "https://acteurspublics.fr/articles/la-cour-des-comptes-incite-le-gouvernement-a-reduire-les-effectifs-de-letat/"
+"t": "Le non-remplacement d'un départ sur deux a supprimé 150 000 emplois de l'État de 2008 à 2012 et regroupé des centaines de services (inspections générales, France, 2012).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "L'État local a perdu 14 % de ses effectifs en dix ans ; en préfecture, des contrats de quelques mois font 10 % des emplois (Cour des comptes, France, 2022).",
+"s": [
+1
+]
+},
+{
+"t": "Des postes ont été supprimés avant les gains de productivité attendus, freinant certaines réformes, surtout informatiques (inspections générales, France, 2012).",
+"s": [
+0
+]
+},
+{
+"t": "Après une baisse de près de 15 % de 1995 à 1999, l'emploi fédéral est remonté presque à son niveau de départ dès 2006 (Statistique Canada, Canada, 2007).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les bilans concordent : les effectifs baissent ; l'économie nette est discutée (près de 90 % reversée aux agents selon la Cour en 2010, enveloppe inchangée selon les inspections).",
+"src": [
+{
+"l": "IGA, IGF, IGAS, Bilan de la RGPP",
+"a": 2012,
+"u": "https://www.fonction-publique.gouv.fr/files/files/ArchivePortailFP/www.fonction-publique.gouv.fr/files/files/publications/hors_collections/20120925-rapport-bilan-RGPP_sans-annexes.pdf"
+},
+{
+"l": "Cour des comptes, Les effectifs de l'administration territoriale de l'État",
+"a": 2022,
+"u": "https://www.ccomptes.fr/sites/default/files/2023-10/20220531-S2022-0494-Effectifs-Etat-territorial.pdf"
+},
+{
+"l": "Statistique Canada, Tendances de l'emploi dans la fonction publique fédérale",
+"a": 2007,
+"u": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2007053-eng.htm"
+},
+{
+"l": "Insee Première n° 2094, L'emploi dans la fonction publique en 2024",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/8732435"
 }
 ]
-],
+},
 "attal.immigration": [
 "Au Canada, qui fixe chaque année ses admissions et sélectionne par points, les immigrés choisis pour leur expérience de travail gagnent environ deux fois plus que l'ensemble des immigrés récents (Statistique Canada).",
 "La commission Mazeaud (2008) jugeait des quotas de travail « sans réel objet » ; au Royaume-Uni, le plafond des visas qualifiés, atteint fin 2017, a fait refuser des places, médecins compris, jusqu'à leur exemption en 2018.",
@@ -125,27 +175,67 @@
 }
 ]
 ],
-"attal.profs": [
-"Le salaire des enseignants expérimentés a presque stagné en France de 2015 à 2024, contre +4 à +6 % en moyenne OCDE ; la prime de 2023 a surtout profité aux moins de 15 ans d'ancienneté.",
-"Le manque de candidats est très localisé (1,2 candidat par poste à Créteil contre 6,8 à Limoges en 2021) : la Cour des comptes (2023) préconise plutôt des salaires différenciés selon les territoires.",
-[
+"attal.profs": {
+"constat": "Salaire des enseignants expérimentés de 2015 à 2024 : +1 % au plus, contre +4 à +6 % en moyenne OCDE (OCDE).",
+"constat_s": [
+3,
+4
+],
+"pour": "Mieux payer attire plus de candidats au métier et retient les professeurs en poste.",
+"preuve_pour": "mitigé",
+"contre": "Une hausse générale ne vise pas les académies et les écoles où l'on manque de professeurs.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Après le doublement de la prime en éducation prioritaire renforcée, ces collèges sont 3 points plus souvent en premier vœu de mutation (Insee, Montpellier, 2023).",
+"s": [
+0
+]
+},
+{
+"t": "Une prime d'environ 10 % dans les écoles qui manquaient de professeurs a réduit de 6 points les départs volontaires d'enseignants (Falch, Norvège, 2011).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "À salaire national identique, le concours de professeur des écoles a eu 1,2 candidat par poste à Créteil en 2021, contre 6,8 à Limoges (Cour des comptes, France, 2023).",
+"s": [
+2
+]
+}
+],
+"etudes": "L'effet du salaire sur les vœux et les départs est établi pour des primes ciblées ; aucune évaluation d'une hausse générale en France ; le manque de candidats est très localisé.",
+"src": [
+{
+"l": "Insee Analyses n° 87, L'impact du doublement de l'indemnité REP+ sur les vœux de mobilité des enseignants",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/7658358"
+},
+{
+"l": "Falch, Teacher Mobility Responses to Wage Changes (American Economic Review)",
+"a": 2011,
+"u": "https://torbergf.folk.ntnu.no/Articles/aer.101.3.460.pdf"
+},
+{
+"l": "Cour des comptes, Devenir enseignant : la formation initiale et le recrutement des enseignants",
+"a": 2023,
+"u": "https://www.ccomptes.fr/system/files/2023-01/20230201-devenir-enseignant-recrutement-formation-initiale-enseignants.pdf"
+},
 {
 "l": "OCDE, Regards sur l'éducation 2025 (via L'Etudiant / Educpros)",
 "a": 2025,
 "u": "https://www.letudiant.fr/educpros/actualite/les-salaires-des-enseignants-de-locde-sont-peu-attractifs-en-particulier-en-france.html"
 },
 {
-"l": "Cour des comptes, attractivité du métier d'enseignant (via Banque des territoires)",
-"a": 2023,
-"u": "https://www.banquedesterritoires.fr/penurie-denseignants-la-cour-des-comptes-pour-des-solutions-territorialisees"
-},
-{
-"l": "Cour des comptes, attractivité du métier d'enseignant (via CIDJ)",
-"a": 2023,
-"u": "https://www.cidj.com/actualite/la-cour-des-comptes-preconise-d-elargir-les-voies-de-recrutement-au-metier-d-enseignant"
+"l": "OCDE, Regards sur l'éducation 2025 (via Acteurs publics)",
+"a": 2025,
+"u": "https://acteurspublics.fr/articles/penurie-denseignants-la-france-nest-finalement-pas-si-mal-lotie/"
 }
 ]
-],
+},
 "attal.regle_or": [
 "Sous le frein à l'endettement allemand, la dette est passée de 81 % à 58 % du PIB de 2010 à 2019, aidée par la croissance et des taux bas (Eurostat) ; les études publiées trouvent en général un effet modérateur des règles.",
 "La même méta-analyse note que cet effet faiblit une fois les biais corrigés ; une règle stricte limite la relance en récession, et l'Allemagne a assoupli son frein en 2025 (défense, infrastructures, climat).",
@@ -264,32 +354,73 @@
 }
 ]
 ],
-"glucksmann.ecole": [
-"Le dédoublement des CP en éducation prioritaire renforcée (REP+) a réduit de 12,5 % la part d'élèves en très grande difficulté en maths (DEPP 2019) ; les études françaises trouvent des effets plus nets pour les plus défavorisés.",
-"En français, les gains du dédoublement des CP-CE1 ne se retrouvent plus à l'entrée en 6e (DEPP 2026) ; réduire les classes demande beaucoup de postes et de salles alors que les concours peinent à recruter.",
-[
+"glucksmann.ecole": {
+"complement": "Le même programme prévoit aussi de rénover les écoles et de mieux payer les profs, sans en préciser l'ampleur.",
+"complement_ref": [
+"glucksmann.ecole",
+"glucksmann.ecole.1"
+],
+"constat": "Salaire des enseignants expérimentés de 2015 à 2024 : +1 % au plus, contre +4 à +6 % en moyenne OCDE (OCDE).",
+"constat_s": [
+3,
+4
+],
+"pour": "Des classes moins chargées et des profs mieux payés font progresser les élèves les plus fragiles.",
+"preuve_pour": "solide",
+"contre": "Les gains des petites classes s'estompent en partie avec les années, surtout en français.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "DEPP, première évaluation des CP dédoublés (via Banque des territoires)",
-"a": 2019,
-"u": "https://www.banquedesterritoires.fr/le-ministere-publie-un-premier-bilan-encourageant-du-dedoublement-des-classes-de-cp-en-rep"
+"t": "Deux ans de CP et CE1 dédoublés ont comblé 38 % du retard initial en maths et 16 % en français des élèves d'éducation prioritaire renforcée (DEPP, France, 2026).",
+"s": [
+0
+]
 },
+{
+"t": "Après le doublement de la prime en éducation prioritaire renforcée, ces collèges sont 3 points plus souvent en premier vœu de mutation (Insee, Montpellier, 2023).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "En français, les gains des CP et CE1 dédoublés n'apparaissent plus à l'entrée en 6e, pour la première génération comme pour les suivantes (DEPP, France, 2026).",
+"s": [
+0,
+2
+]
+}
+],
+"etudes": "Les évaluations françaises concordent sur un gain rapide des petites classes ; à l'entrée en 6e, il disparaît en français, une note de 2026 trouve un gain modeste en maths.",
+"src": [
 {
 "l": "DEPP, Synthèse n° 8, Réduction de la taille de classe en éducation prioritaire",
 "a": 2026,
 "u": "https://www.education.gouv.fr/sites/default/files/document/r-duction-de-la-taille-de-classe-en-ducation-prioritaire-que-nous-apprennent-les-donn-es-de-la-depp--478949.pdf"
 },
 {
-"l": "DEPP, effets à long terme (cohortes 2023-2024), via professeurs-des-ecoles.com",
+"l": "Insee Analyses n° 87, L'impact du doublement de l'indemnité REP+ sur les vœux de mobilité des enseignants",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/7658358"
+},
+{
+"l": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
 "a": 2026,
 "u": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
 },
 {
-"l": "Cour des comptes, attractivité du métier d'enseignant (via Banque des territoires)",
-"a": 2023,
-"u": "https://www.banquedesterritoires.fr/penurie-denseignants-la-cour-des-comptes-pour-des-solutions-territorialisees"
+"l": "OCDE, Regards sur l'éducation 2025 (via L'Etudiant / Educpros)",
+"a": 2025,
+"u": "https://www.letudiant.fr/educpros/actualite/les-salaires-des-enseignants-de-locde-sont-peu-attractifs-en-particulier-en-france.html"
+},
+{
+"l": "OCDE, Regards sur l'éducation 2025 (via Acteurs publics)",
+"a": 2025,
+"u": "https://acteurspublics.fr/articles/penurie-denseignants-la-france-nest-finalement-pas-si-mal-lotie/"
 }
 ]
-],
+},
 "glucksmann.heritages": [
 "60 % du patrimoine est désormais hérité, contre 35 % dans les années 1970, et les exonérations (assurance-vie, Dutreil) profitent surtout aux plus grosses transmissions (CAE 2021) ; la recette va au salaire net.",
 "L'OCDE (2021) note des départs à l'étranger limités, sauf tout en haut, et une forte optimisation des transmissions qui tient surtout aux règles en place ; effet sur les entreprises familiales : études partagées.",
@@ -532,32 +663,78 @@
 }
 ]
 ],
-"le-pen.etat": [
-"La France compte 89 emplois publics pour 1 000 habitants, dans le haut des pays riches (France Stratégie) ; selon une étude publiée en 2014, l'intercommunalité n'a pas réduit les dépenses des communes.",
-"Le Sénat (2025) n'attend que de faibles économies des agences sans arrêter de missions ; l'eau, les déchets ou les transports gérés par intercommunalités et métropoles seraient à confier ailleurs.",
-[
+"le-pen.etat": {
+"constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
+"constat_s": [
+4
+],
+"pour": "Moins d'agences et de postes, c'est moins de doublons et moins de salaires à payer.",
+"preuve_pour": "mitigé",
+"contre": "Les missions des agences supprimées restent à faire : il faut les reprendre ailleurs, avec un coût.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "France Stratégie, Comment la France se compare-t-elle en matière d'emploi public ?",
-"a": 2017,
-"u": "https://www.strategie-plan.gouv.fr/files/files/Presse/CP%202017/2017-12-19_Comment%20la%20France%20se%20compare-t-elle%20en%20mati%C3%A8re%20d%E2%80%99emploi%20public.pdf"
+"t": "Le non-remplacement d'un départ sur deux a supprimé 150 000 emplois de l'État de 2008 à 2012 et regroupé des centaines de services (inspections générales, France, 2012).",
+"s": [
+0
+]
 },
 {
-"l": "Frère, Leprince, Paty, The Impact of Intermunicipal Cooperation on Local Public Spending (Urban Studies)",
+"t": "Le nombre d'organismes publics a baissé de 283 en trois ans, avec une nette baisse de leurs dépenses de fonctionnement (Cour des comptes, Royaume-Uni, 2014).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "L'État local a perdu 14 % de ses effectifs en dix ans ; en préfecture, des contrats de quelques mois font 10 % des emplois (Cour des comptes, France, 2022).",
+"s": [
+2
+]
+},
+{
+"t": "Les économies affichées incluent des baisses sans lien avec la réforme ; 30 % des budgets des organismes visés vont aux ministères (Cour des comptes, Royaume-Uni, 2014).",
+"s": [
+1
+]
+},
+{
+"t": "Après une baisse de près de 15 % de 1995 à 1999, l'emploi fédéral est remonté presque à son niveau de départ dès 2006 (Statistique Canada, Canada, 2007).",
+"s": [
+3
+]
+}
+],
+"etudes": "Postes et organismes baissent bien ; l'économie nette reste discutée et dépend des missions arrêtées plutôt que transférées ailleurs.",
+"src": [
+{
+"l": "IGA, IGF, IGAS, Bilan de la RGPP",
+"a": 2012,
+"u": "https://www.fonction-publique.gouv.fr/files/files/ArchivePortailFP/www.fonction-publique.gouv.fr/files/files/publications/hors_collections/20120925-rapport-bilan-RGPP_sans-annexes.pdf"
+},
+{
+"l": "National Audit Office (Cour des comptes britannique), Progress on public bodies reform",
 "a": 2014,
-"u": "https://ideas.repec.org/p/hal/journl/halshs-00830249.html"
+"u": "https://www.nao.org.uk/wp-content/uploads/2014/02/Progress-on-public-bodies-reform-summary.pdf"
 },
 {
-"l": "Sénat, commission d'enquête sur les agences, avant-propos",
-"a": 2025,
-"u": "https://www.senat.fr/rap/r24-807-1/r24-807-10.html"
+"l": "Cour des comptes, Les effectifs de l'administration territoriale de l'État",
+"a": 2022,
+"u": "https://www.ccomptes.fr/sites/default/files/2023-10/20220531-S2022-0494-Effectifs-Etat-territorial.pdf"
 },
 {
-"l": "Sénat, commission d'enquête sur les agences et opérateurs de l'État (rapport n° 807)",
-"a": 2025,
-"u": "https://www.senat.fr/rap/r24-807-1/r24-807-122.html"
+"l": "Statistique Canada, Tendances de l'emploi dans la fonction publique fédérale",
+"a": 2007,
+"u": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2007053-eng.htm"
+},
+{
+"l": "Insee Première n° 2094, L'emploi dans la fonction publique en 2024",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/8732435"
 }
 ]
-],
+},
 "le-pen.fraude": [
 "La TVA due mais non perçue atteint environ 12 Md€ par an (6 % du dû, 2023). Selon une étude pour la Commission européenne, une TVA versée directement à l'État au paiement réduit cet écart de 27 à 56 %, surtout la fraude carrousel.",
 "Selon la même étude, ce prélèvement généralisé pèse sur la trésorerie des entreprises et alourdit leur gestion, au point que les coûts peuvent dépasser les gains ; l'écart de TVA inclut aussi faillites et erreurs, hors fraude.",
@@ -827,32 +1004,67 @@
 }
 ]
 ],
-"lisnard.fonction": [
-"La France compte 89 emplois publics pour 1 000 habitants, dans le haut des pays riches (France Stratégie) ; la Cour des comptes proposait en 2014 de ne pas remplacer une partie des départs.",
-"Avec le « un sur deux », près de 90 % des économies brutes étaient reversées aux agents (Cour des comptes, 2010) ; les inspections notent des postes supprimés avant les gains de productivité.",
-[
+"lisnard.fonction": {
+"constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
+"constat_s": [
+3
+],
+"pour": "Remplacer moins de départs réduit peu à peu les salaires à payer, sans licencier personne.",
+"preuve_pour": "mitigé",
+"contre": "Si les missions ne changent pas, l'économie nette est plus faible que prévu.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "France Stratégie, Comment la France se compare-t-elle en matière d'emploi public ?",
-"a": 2017,
-"u": "https://www.strategie-plan.gouv.fr/files/files/Presse/CP%202017/2017-12-19_Comment%20la%20France%20se%20compare-t-elle%20en%20mati%C3%A8re%20d%E2%80%99emploi%20public.pdf"
+"t": "Le non-remplacement d'un départ sur deux a supprimé 150 000 emplois de l'État de 2008 à 2012 et regroupé des centaines de services (inspections générales, France, 2012).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "L'État local a perdu 14 % de ses effectifs en dix ans ; en préfecture, des contrats de quelques mois font 10 % des emplois (Cour des comptes, France, 2022).",
+"s": [
+1
+]
 },
 {
-"l": "Cour des comptes, masse salariale de l'État (via Acteurs publics)",
-"a": 2015,
-"u": "https://acteurspublics.fr/articles/la-cour-des-comptes-incite-le-gouvernement-a-reduire-les-effectifs-de-letat/"
+"t": "Des postes ont été supprimés avant les gains de productivité attendus, freinant certaines réformes, surtout informatiques (inspections générales, France, 2012).",
+"s": [
+0
+]
 },
 {
-"l": "Cour des comptes, situation des finances publiques (via Acteurs publics)",
-"a": 2010,
-"u": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-peu/"
-},
+"t": "Après une baisse de près de 15 % de 1995 à 1999, l'emploi fédéral est remonté presque à son niveau de départ dès 2006 (Statistique Canada, Canada, 2007).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les bilans concordent : les effectifs baissent ; l'économie nette est discutée (près de 90 % reversée aux agents selon la Cour en 2010, enveloppe inchangée selon les inspections).",
+"src": [
 {
 "l": "IGA, IGF, IGAS, Bilan de la RGPP",
 "a": 2012,
 "u": "https://www.fonction-publique.gouv.fr/files/files/ArchivePortailFP/www.fonction-publique.gouv.fr/files/files/publications/hors_collections/20120925-rapport-bilan-RGPP_sans-annexes.pdf"
+},
+{
+"l": "Cour des comptes, Les effectifs de l'administration territoriale de l'État",
+"a": 2022,
+"u": "https://www.ccomptes.fr/sites/default/files/2023-10/20220531-S2022-0494-Effectifs-Etat-territorial.pdf"
+},
+{
+"l": "Statistique Canada, Tendances de l'emploi dans la fonction publique fédérale",
+"a": 2007,
+"u": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2007053-eng.htm"
+},
+{
+"l": "Insee Première n° 2094, L'emploi dans la fonction publique en 2024",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/8732435"
 }
 ]
-],
+},
 "lisnard.impots": [
 "Ces impôts sont dus même sans bénéfice : pour le CAE (2019), la C3S est celui qui fausse le plus la production (−1 % d'exportations, survie plus faible en crise) ; 3,6 % de la valeur ajoutée contre 0,5 % en Allemagne.",
 "La baisse de 10 Md€ de CVAE et de CFE en 2021 n'a pas eu d'effet robuste mesuré sur l'investissement, l'emploi ou les exportations (IPP 2025) ; les gains sont allés surtout aux grandes entreprises riches en capital.",
@@ -890,27 +1102,67 @@
 }
 ]
 ],
-"lisnard.profs": [
-"Les enseignants gagnent 26 % de moins que les autres diplômés en primaire (17 % en moyenne OCDE) ; payer des missions en plus a eu de premiers effets positifs sur le remplacement des absences courtes (Cour des comptes).",
-"Le Pacte de 2023, qui paie des missions en plus, n'a attiré qu'environ un tiers des enseignants, une adhésion « fragile » et inégale (Cour des comptes 2025) ; des pays qui paient mieux peinent aussi à recruter (Sénat 2022).",
-[
+"lisnard.profs": {
+"constat": "Salaire des enseignants expérimentés de 2015 à 2024 : +1 % au plus, contre +4 à +6 % en moyenne OCDE (OCDE).",
+"constat_s": [
+3,
+4
+],
+"pour": "Mieux payer, en revoyant les tâches, attire plus de candidats et retient les professeurs en poste.",
+"preuve_pour": "mitigé",
+"contre": "Une hausse générale ne vise pas les académies et les écoles où l'on manque de professeurs.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Après le doublement de la prime en éducation prioritaire renforcée, ces collèges sont 3 points plus souvent en premier vœu de mutation (Insee, Montpellier, 2023).",
+"s": [
+0
+]
+},
+{
+"t": "Une prime d'environ 10 % dans les écoles qui manquaient de professeurs a réduit de 6 points les départs volontaires d'enseignants (Falch, Norvège, 2011).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "À salaire national identique, le concours de professeur des écoles a eu 1,2 candidat par poste à Créteil en 2021, contre 6,8 à Limoges (Cour des comptes, France, 2023).",
+"s": [
+2
+]
+}
+],
+"etudes": "L'effet du salaire sur les vœux et les départs est établi pour des primes ciblées ; aucune évaluation d'une hausse générale en France ; le manque de candidats est très localisé.",
+"src": [
+{
+"l": "Insee Analyses n° 87, L'impact du doublement de l'indemnité REP+ sur les vœux de mobilité des enseignants",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/7658358"
+},
+{
+"l": "Falch, Teacher Mobility Responses to Wage Changes (American Economic Review)",
+"a": 2011,
+"u": "https://torbergf.folk.ntnu.no/Articles/aer.101.3.460.pdf"
+},
+{
+"l": "Cour des comptes, Devenir enseignant : la formation initiale et le recrutement des enseignants",
+"a": 2023,
+"u": "https://www.ccomptes.fr/system/files/2023-01/20230201-devenir-enseignant-recrutement-formation-initiale-enseignants.pdf"
+},
 {
 "l": "OCDE, Regards sur l'éducation 2025 (via L'Etudiant / Educpros)",
 "a": 2025,
 "u": "https://www.letudiant.fr/educpros/actualite/les-salaires-des-enseignants-de-locde-sont-peu-attractifs-en-particulier-en-france.html"
 },
 {
-"l": "Cour des comptes, audit flash sur le Pacte enseignant (via Weka)",
+"l": "OCDE, Regards sur l'éducation 2025 (via Acteurs publics)",
 "a": 2025,
-"u": "https://www.weka.fr/actualite/?p=201317"
-},
-{
-"l": "Sénat, rapport Longuet sur la pénurie d'enseignants (via Public Sénat)",
-"a": 2022,
-"u": "https://www.publicsenat.fr/actualites/education/face-a-la-penurie-d-enseignants-un-rapport-senatorial-montre-que-les"
+"u": "https://acteurspublics.fr/articles/penurie-denseignants-la-france-nest-finalement-pas-si-mal-lotie/"
 }
 ]
-],
+},
 "lisnard.referendum": [
 "En Suisse, les cantons où l'initiative populaire est plus facile affichent une satisfaction de vie plus élevée (Frey et Stutzer, 2000) ; 79 % des Français veulent plus de référendums (Cevipof, 2026).",
 "Cet effet n'est pas robuste selon des travaux suisses plus récents ; en Italie, seuls 2 des 10 référendums abrogatifs des trente dernières années ont atteint le quorum de participation (Padoue, 2025).",
@@ -1141,17 +1393,73 @@
 }
 ]
 ],
-"melenchon.point_indice": [
-"Le salaire net réel des agents de l'État a reculé en 2022 et 2023, avant +2,6 % en 2024 (Insee) ; une hausse du point d'indice relève tous les traitements de base, y compris en début de carrière.",
-"Une hausse uniforme ne cible pas les métiers en tension et s'applique aussi aux collectivités et aux hôpitaux, qui doivent la financer ; une partie de la hausse revient à l'État en impôts et cotisations.",
-[
+"melenchon.point_indice": {
+"constat": "Hors inflation, le salaire net moyen des agents de l'État est en 2024 presque au niveau de 2010 (Insee).",
+"constat_s": [
+0
+],
+"pour": "Relever le salaire de base de tous les agents rattrape la hausse des prix et aide à recruter.",
+"preuve_pour": "mitigé",
+"contre": "Une hausse pour tous pèse sur tous les employeurs publics sans viser les métiers en manque.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Porté en partie par la hausse du point, le salaire net moyen des agents de l'État a gagné 2,6 % sur les prix en 2024, après deux ans de baisse (Insee, France, 2026).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Les hausses de salaire décidées par l'État font près de 40 % de la hausse des dépenses de personnel des collectivités en 2024 (Cour des comptes, France, 2025).",
+"s": [
+1,
+2
+]
+},
+{
+"t": "À salaire national identique, le concours de professeur des écoles a eu 1,2 candidat par poste à Créteil en 2021, contre 6,8 à Limoges (Cour des comptes, France, 2023).",
+"s": [
+3
+]
+},
+{
+"t": "Avec une paie d'infirmière identique partout, les hôpitaux des régions où le privé paie mieux ont plus de décès après infarctus (Propper, Van Reenen, Angleterre, 2010).",
+"s": [
+4
+]
+}
+],
+"etudes": "Le rattrapage des prix est mécanique ; aucune évaluation française de l'effet sur le recrutement ; une paie identique partout laisse des manques locaux.",
+"src": [
 {
 "l": "Insee Première n° 2100, Les salaires dans la fonction publique de l'État en 2024",
 "a": 2026,
 "u": "https://www.insee.fr/fr/statistiques/8986474"
+},
+{
+"l": "Cour des comptes, Les finances publiques locales 2025, fascicule 1 (synthèse)",
+"a": 2025,
+"u": "https://www.ccomptes.fr/sites/default/files/2025-06/20250627-synthese-Finances-publiques-locales-2025.pdf"
+},
+{
+"l": "Cour des comptes, Les finances publiques locales 2025 (via Acteurs publics)",
+"a": 2025,
+"u": "https://acteurspublics.fr/articles/les-contractuels-un-cout-grandissant-pour-les-collectivites-les-finances-locales-impactees-par-les-mesures-salariales-nationales-et-le-recours-croissant-aux-contractuels/"
+},
+{
+"l": "Cour des comptes, Devenir enseignant : la formation initiale et le recrutement des enseignants",
+"a": 2023,
+"u": "https://www.ccomptes.fr/system/files/2023-01/20230201-devenir-enseignant-recrutement-formation-initiale-enseignants.pdf"
+},
+{
+"l": "Propper, Van Reenen, Can Pay Regulation Kill? (Journal of Political Economy), notice LSE",
+"a": 2010,
+"u": "https://researchonline.lse.ac.uk/id/eprint/35246"
 }
 ]
-],
+},
 "melenchon.prix": [
 "Effet immédiat sur l'inflation : en 2022, les boucliers sur l'énergie ont réduit de moitié la hausse des prix due à l'énergie (3,1 points d'inflation en moins), surtout pour les ménages modestes et âgés (Insee).",
 "En Hongrie, le blocage de produits alimentaires (2022-2023) n'a pas contenu l'inflation alimentaire, au-delà de 40 % pour la moitié des produits, et le plafond sur les carburants a pris fin sur des pénuries (OCDE, 2024).",
@@ -1316,32 +1624,67 @@
 }
 ]
 ],
-"philippe.fonction": [
-"La masse salariale pèse 40 % du budget de l'État ; la Cour des comptes proposait en 2014 de ne pas remplacer un départ sur trois et d'allonger la durée effective du travail pour la contenir.",
-"Avec le « un sur deux », près de 90 % des économies brutes étaient reversées aux agents (Cour des comptes, 2010) ; les inspections notent des postes supprimés avant les gains de productivité.",
-[
+"philippe.fonction": {
+"constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
+"constat_s": [
+3
+],
+"pour": "Remplacer moins de départs réduit peu à peu les salaires à payer, sans licencier personne.",
+"preuve_pour": "mitigé",
+"contre": "Si les missions ne changent pas, l'économie nette est plus faible que prévu.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "Cour des comptes, masse salariale de l'État (via Acteurs publics)",
-"a": 2015,
-"u": "https://acteurspublics.fr/articles/la-cour-des-comptes-incite-le-gouvernement-a-reduire-les-effectifs-de-letat/"
+"t": "Le non-remplacement d'un départ sur deux a supprimé 150 000 emplois de l'État de 2008 à 2012 et regroupé des centaines de services (inspections générales, France, 2012).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "L'État local a perdu 14 % de ses effectifs en dix ans ; en préfecture, des contrats de quelques mois font 10 % des emplois (Cour des comptes, France, 2022).",
+"s": [
+1
+]
 },
 {
-"l": "France Stratégie, Comment la France se compare-t-elle en matière d'emploi public ?",
-"a": 2017,
-"u": "https://www.strategie-plan.gouv.fr/files/files/Presse/CP%202017/2017-12-19_Comment%20la%20France%20se%20compare-t-elle%20en%20mati%C3%A8re%20d%E2%80%99emploi%20public.pdf"
+"t": "Des postes ont été supprimés avant les gains de productivité attendus, freinant certaines réformes, surtout informatiques (inspections générales, France, 2012).",
+"s": [
+0
+]
 },
 {
-"l": "Cour des comptes, situation des finances publiques (via Acteurs publics)",
-"a": 2010,
-"u": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-peu/"
-},
+"t": "Après une baisse de près de 15 % de 1995 à 1999, l'emploi fédéral est remonté presque à son niveau de départ dès 2006 (Statistique Canada, Canada, 2007).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les bilans concordent : les effectifs baissent ; l'économie nette est discutée (près de 90 % reversée aux agents selon la Cour en 2010, enveloppe inchangée selon les inspections).",
+"src": [
 {
 "l": "IGA, IGF, IGAS, Bilan de la RGPP",
 "a": 2012,
 "u": "https://www.fonction-publique.gouv.fr/files/files/ArchivePortailFP/www.fonction-publique.gouv.fr/files/files/publications/hors_collections/20120925-rapport-bilan-RGPP_sans-annexes.pdf"
+},
+{
+"l": "Cour des comptes, Les effectifs de l'administration territoriale de l'État",
+"a": 2022,
+"u": "https://www.ccomptes.fr/sites/default/files/2023-10/20220531-S2022-0494-Effectifs-Etat-territorial.pdf"
+},
+{
+"l": "Statistique Canada, Tendances de l'emploi dans la fonction publique fédérale",
+"a": 2007,
+"u": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2007053-eng.htm"
+},
+{
+"l": "Insee Première n° 2094, L'emploi dans la fonction publique en 2024",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/8732435"
 }
 ]
-],
+},
 "philippe.fonds_climat": [
 "L'inaction coûte déjà plusieurs milliards par an, surtout à l'État (I4CE, 2024) ; la Cour des comptes (2024) juge les besoins mal chiffrés et les réponses publiques peu coordonnées, faute de plan d'ensemble.",
 "Une enveloppe annuelle dépend des arbitrages budgétaires : le Fonds vert des collectivités a été divisé par trois en deux ans, de 2024 à 2026 (I4CE) ; le Haut Conseil pour le climat signale un risque d'adaptations mal conçues.",
@@ -1462,10 +1805,55 @@
 }
 ]
 ],
-"philippe.profs": [
-"Les enseignants français gagnent 26 % de moins que les autres diplômés du supérieur en primaire et 18 % en secondaire, contre 17 % et 13 % en moyenne OCDE (Regards sur l'éducation 2025).",
-"La Cour des comptes (2023) juge qu'une hausse de salaire seule n'enrayera pas la baisse d'attrait du métier ; l'Allemagne ou le Portugal paient mieux et peinent aussi à recruter (Sénat 2022).",
-[
+"philippe.profs": {
+"constat": "Salaire des enseignants expérimentés de 2015 à 2024 : +1 % au plus, contre +4 à +6 % en moyenne OCDE (OCDE).",
+"constat_s": [
+3,
+4
+],
+"pour": "Mieux payer attire plus de candidats au métier et retient les professeurs en poste.",
+"preuve_pour": "mitigé",
+"contre": "Une hausse générale ne vise pas les académies et les écoles où l'on manque de professeurs.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Après le doublement de la prime en éducation prioritaire renforcée, ces collèges sont 3 points plus souvent en premier vœu de mutation (Insee, Montpellier, 2023).",
+"s": [
+0
+]
+},
+{
+"t": "Une prime d'environ 10 % dans les écoles qui manquaient de professeurs a réduit de 6 points les départs volontaires d'enseignants (Falch, Norvège, 2011).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "À salaire national identique, le concours de professeur des écoles a eu 1,2 candidat par poste à Créteil en 2021, contre 6,8 à Limoges (Cour des comptes, France, 2023).",
+"s": [
+2
+]
+}
+],
+"etudes": "L'effet du salaire sur les vœux et les départs est établi pour des primes ciblées ; aucune évaluation d'une hausse générale en France ; le manque de candidats est très localisé.",
+"src": [
+{
+"l": "Insee Analyses n° 87, L'impact du doublement de l'indemnité REP+ sur les vœux de mobilité des enseignants",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/7658358"
+},
+{
+"l": "Falch, Teacher Mobility Responses to Wage Changes (American Economic Review)",
+"a": 2011,
+"u": "https://torbergf.folk.ntnu.no/Articles/aer.101.3.460.pdf"
+},
+{
+"l": "Cour des comptes, Devenir enseignant : la formation initiale et le recrutement des enseignants",
+"a": 2023,
+"u": "https://www.ccomptes.fr/system/files/2023-01/20230201-devenir-enseignant-recrutement-formation-initiale-enseignants.pdf"
+},
 {
 "l": "OCDE, Regards sur l'éducation 2025 (via L'Etudiant / Educpros)",
 "a": 2025,
@@ -1475,19 +1863,9 @@
 "l": "OCDE, Regards sur l'éducation 2025 (via Acteurs publics)",
 "a": 2025,
 "u": "https://acteurspublics.fr/articles/penurie-denseignants-la-france-nest-finalement-pas-si-mal-lotie/"
-},
-{
-"l": "Cour des comptes, attractivité du métier d'enseignant (via CIDJ)",
-"a": 2023,
-"u": "https://www.cidj.com/actualite/la-cour-des-comptes-preconise-d-elargir-les-voies-de-recrutement-au-metier-d-enseignant"
-},
-{
-"l": "Sénat, rapport Longuet sur la pénurie d'enseignants (via Public Sénat)",
-"a": 2022,
-"u": "https://www.publicsenat.fr/actualites/education/face-a-la-penurie-d-enseignants-un-rapport-senatorial-montre-que-les"
 }
 ]
-],
+},
 "philippe.retraites": {
 "complement": "Le même programme prévoit des exemptions au report, sans en préciser l'ampleur.",
 "complement_ref": [
@@ -1619,14 +1997,59 @@
 }
 ]
 ],
-"retailleau.etat": [
-"La Cour des comptes proposait en 2014 de remplacer moins de départs et d'allonger le temps de travail ; un jour de carence a réduit de 23 % le nombre d'arrêts maladie, de 6 % les jours d'absence, à l'Éducation nationale (Insee).",
-"Avec le « un sur deux », près de 90 % des économies brutes ont été reversées aux agents (Cour des comptes, 2010) ; le jour de carence de 2012 a accru d'environ 25 % les arrêts d'une semaine à trois mois (Insee 2017).",
-[
+"retailleau.etat": {
+"complement": "Le même programme prévoit aussi d'allonger le temps de travail annuel des agents publics.",
+"complement_ref": [
+"retailleau.etat"
+],
+"constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
+"constat_s": [
+5
+],
+"pour": "Moins de départs remplacés et plus d'heures travaillées : mêmes missions avec moins d'agents.",
+"preuve_pour": "mitigé",
+"contre": "Plus d'heures ne change pas les missions : l'économie nette peut rester plus faible que prévu.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "Cour des comptes, masse salariale de l'État (via Acteurs publics)",
-"a": 2015,
-"u": "https://acteurspublics.fr/articles/la-cour-des-comptes-incite-le-gouvernement-a-reduire-les-effectifs-de-letat/"
+"t": "Le non-remplacement d'un départ sur deux a supprimé 150 000 emplois de l'État de 2008 à 2012 et regroupé des centaines de services (inspections générales, France, 2012).",
+"s": [
+0
+]
+},
+{
+"t": "Les arrêts maladie des personnels de l'Éducation nationale ont baissé de 23 % en nombre et de 6 % en jours avec le jour de carence (Insee, France, 2023).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "L'État local a perdu 14 % de ses effectifs en dix ans ; en préfecture, des contrats de quelques mois font 10 % des emplois (Cour des comptes, France, 2022).",
+"s": [
+2
+]
+},
+{
+"t": "Les absences d'une semaine à trois mois des agents de l'État ont augmenté de 25 % pendant le jour de carence de 2012-2013 (Insee, France, 2017).",
+"s": [
+3
+]
+},
+{
+"t": "Après une baisse de près de 15 % de 1995 à 1999, l'emploi fédéral est remonté presque à son niveau de départ dès 2006 (Statistique Canada, Canada, 2007).",
+"s": [
+4
+]
+}
+],
+"etudes": "Les effectifs baissent ; l'économie nette est discutée. Le jour de carence réduit nettement les arrêts courts mais en allonge une partie : baisse faible du total des absences.",
+"src": [
+{
+"l": "IGA, IGF, IGAS, Bilan de la RGPP",
+"a": 2012,
+"u": "https://www.fonction-publique.gouv.fr/files/files/ArchivePortailFP/www.fonction-publique.gouv.fr/files/files/publications/hors_collections/20120925-rapport-bilan-RGPP_sans-annexes.pdf"
 },
 {
 "l": "Insee, Document de travail n° 2023-06 (Hillion, Maugendre), effet du jour de carence",
@@ -1634,17 +2057,27 @@
 "u": "https://www.insee.fr/fr/statistiques/6964865"
 },
 {
+"l": "Cour des comptes, Les effectifs de l'administration territoriale de l'État",
+"a": 2022,
+"u": "https://www.ccomptes.fr/sites/default/files/2023-10/20220531-S2022-0494-Effectifs-Etat-territorial.pdf"
+},
+{
 "l": "Insee Analyses n° 36, Le jour de carence dans la fonction publique de l'État",
 "a": 2017,
 "u": "https://www.insee.fr/fr/statistiques/3181789"
 },
 {
-"l": "Cour des comptes, situation des finances publiques (via Acteurs publics)",
-"a": 2010,
-"u": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-peu/"
+"l": "Statistique Canada, Tendances de l'emploi dans la fonction publique fédérale",
+"a": 2007,
+"u": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2007053-eng.htm"
+},
+{
+"l": "Insee Première n° 2094, L'emploi dans la fonction publique en 2024",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/8732435"
 }
 ]
-],
+},
 "retailleau.fin_maprimerenov": [
 "L'aide finance surtout des gestes isolés (73 % des dossiers début 2023) et peu de rénovations globales (1,7 %) ; son taux ne semble pas lié aux gains d'énergie par euro investi (France Stratégie 2024).",
 "Les aides évitent environ 1,8 Mt de CO2 par an, près de 4 % des émissions du résidentiel (estimation théorique), et vont à 81 % aux ménages modestes et très modestes (France Stratégie 2024).",
@@ -1872,27 +2305,67 @@
 }
 ]
 ],
-"zemmour.fonctionnaires": [
-"Enseignants, soignants, policiers et militaires gardent leurs effectifs ; la France compte 89 emplois publics pour 1 000 habitants, dans le haut des pays riches (France Stratégie).",
-"Les départs à la retraite (144 000 en 2025 dans toute la fonction publique, DGAFP) sont en bonne partie dans les métiers épargnés ; la Cour des comptes notait qu'exempter une large part des agents réduit les gains.",
-[
+"zemmour.fonctionnaires": {
+"constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
+"constat_s": [
+3
+],
+"pour": "On réduit les postes au fil des départs, en épargnant profs, soignants, policiers et militaires.",
+"preuve_pour": "mitigé",
+"contre": "Les services épargnés étant les plus gros, l'effort se concentre sur les autres et leurs usagers.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "France Stratégie, Comment la France se compare-t-elle en matière d'emploi public ?",
-"a": 2017,
-"u": "https://www.strategie-plan.gouv.fr/files/files/Presse/CP%202017/2017-12-19_Comment%20la%20France%20se%20compare-t-elle%20en%20mati%C3%A8re%20d%E2%80%99emploi%20public.pdf"
+"t": "Le non-remplacement d'un départ sur deux a supprimé 150 000 emplois de l'État de 2008 à 2012 et regroupé des centaines de services (inspections générales, France, 2012).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "L'État local a perdu 14 % de ses effectifs en dix ans ; en préfecture, des contrats de quelques mois font 10 % des emplois (Cour des comptes, France, 2022).",
+"s": [
+1
+]
 },
 {
-"l": "DGAFP, Les départs à la retraite dans la fonction publique en 2025",
+"t": "Des postes ont été supprimés avant les gains de productivité attendus, freinant certaines réformes, surtout informatiques (inspections générales, France, 2012).",
+"s": [
+0
+]
+},
+{
+"t": "Après une baisse de près de 15 % de 1995 à 1999, l'emploi fédéral est remonté presque à son niveau de départ dès 2006 (Statistique Canada, Canada, 2007).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les bilans concordent : les effectifs baissent ; l'économie nette est discutée (près de 90 % reversée aux agents selon la Cour en 2010, enveloppe inchangée selon les inspections).",
+"src": [
+{
+"l": "IGA, IGF, IGAS, Bilan de la RGPP",
+"a": 2012,
+"u": "https://www.fonction-publique.gouv.fr/files/files/ArchivePortailFP/www.fonction-publique.gouv.fr/files/files/publications/hors_collections/20120925-rapport-bilan-RGPP_sans-annexes.pdf"
+},
+{
+"l": "Cour des comptes, Les effectifs de l'administration territoriale de l'État",
+"a": 2022,
+"u": "https://www.ccomptes.fr/sites/default/files/2023-10/20220531-S2022-0494-Effectifs-Etat-territorial.pdf"
+},
+{
+"l": "Statistique Canada, Tendances de l'emploi dans la fonction publique fédérale",
+"a": 2007,
+"u": "https://www150.statcan.gc.ca/n1/pub/11-621-m/11-621-m2007053-eng.htm"
+},
+{
+"l": "Insee Première n° 2094, L'emploi dans la fonction publique en 2024",
 "a": 2026,
-"u": "https://www.fonction-publique.gouv.fr/toutes-les-publications/les-departs-la-retraite-dans-la-fonction-publique-en-2025"
-},
-{
-"l": "Cour des comptes, masse salariale de l'État (via Acteurs publics)",
-"a": 2015,
-"u": "https://acteurspublics.fr/articles/la-cour-des-comptes-incite-le-gouvernement-a-reduire-les-effectifs-de-letat/"
+"u": "https://www.insee.fr/fr/statistiques/8732435"
 }
 ]
-],
+},
 "zemmour.remigration": [
 "Les départs effectifs restent rares : seules 12 % des obligations de quitter le territoire sont exécutées (Cour des comptes, 2024) ; la mesure vise à les accroître et à réduire les dépenses d'indemnisation du chômage.",
 "Aux États-Unis, l'accélération des expulsions (Secure Communities) n'a pas eu d'effet mesurable sur la criminalité et a réduit l'emploi des natifs dans les secteurs qui employaient ces immigrés (études de 2014 et 2023).",
