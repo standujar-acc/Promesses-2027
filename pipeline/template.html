@@ -413,8 +413,13 @@ table.grid td button{min-width:44px;min-height:44px;display:inline-grid;place-it
         <div class="field"><span class="lab">Enfants de moins de 20 ans</span><div class="stepper"><button id="k-minus" aria-label="Un enfant de moins">−</button><b id="s-kids-v">2</b><button id="k-plus" aria-label="Un enfant de plus">+</button></div></div>
         <div class="field"><span class="lab">Nationalité</span><div class="seg" id="s-nat" role="group" aria-label="Nationalité"></div></div>
       </div>
+      <label class="check" id="f-baby" hidden><input type="checkbox" id="s-baby"> Un enfant de moins de 3 ans</label>
+      <label class="check" id="f-res" hidden><input type="checkbox" id="s-res"> En France depuis moins de 5 ans</label>
+      <label class="check" id="f-work" hidden><input type="checkbox" id="s-work"> Moins de 5 ans de travail en France</label>
       <details class="more"><summary>Affiner : énergie, heures sup, CFE, patrimoine</summary><div>
-        <div class="slider"><span class="l1"><label for="s-energy" class="small muted">Énergie par mois (électricité, gaz, carburant)</label><b id="s-energy-v"></b></span><input type="range" id="s-energy" min="0" max="800" step="10" value="220"></div>
+        <div class="slider"><span class="l1"><label for="s-energy" class="small muted">Électricité et gaz par mois</label><b id="s-energy-v"></b></span><input type="range" id="s-energy" min="0" max="800" step="10" value="150"></div>
+        <div class="slider"><span class="l1"><label for="s-fuel" class="small muted">Carburant par mois</label><b id="s-fuel-v"></b></span><input type="range" id="s-fuel" min="0" max="600" step="10" value="100"></div>
+        <div class="slider"><span class="l1"><label for="s-food" class="small muted">Courses par mois (alimentation, hygiène)</label><b id="s-food-v"></b></span><input type="range" id="s-food" min="0" max="1500" step="10" value="400"></div>
         <label class="check" id="f-ot"><input type="checkbox" id="s-ot"> Je fais des heures supplémentaires</label>
         <div class="slider" id="f-cfe" hidden><span class="l1"><label for="s-cfe" class="small muted">CFE payée par an</label><b id="s-cfe-v"></b></span><input type="range" id="s-cfe" min="0" max="3000" step="10" value="250"></div>
         <div class="field"><span class="lab">Patrimoine net du foyer</span><div class="seg" id="s-wealth" role="group" aria-label="Patrimoine"></div></div>
@@ -766,7 +771,7 @@ function seg(id, opts, key){ const el=document.getElementById(id); el.innerHTML=
 seg('s-status',STATUS,'status'); seg('s-nat',NAT,'nat'); seg('s-wealth',WEALTH,'wealth'); seg('s-inh',INH,'inh');
 document.getElementById('k-minus').onclick=()=>{ S.kids=Math.max(0,S.kids-1); sim(); };
 document.getElementById('k-plus').onclick=()=>{ S.kids=Math.min(8,S.kids+1); sim(); };
-['s-year','s-salary','s-energy','s-cfe','s-ot'].forEach(i=>document.getElementById(i).addEventListener('input',sim));
+['s-year','s-salary','s-energy','s-fuel','s-cfe','s-ot','s-food','s-res','s-work','s-baby'].forEach(i=>document.getElementById(i).addEventListener('input',sim));
 const WORKERS=['prive','public','enseignant'];
 function allocOf(a, n, fb){ if(n<=0) return 0; if(!a) return fb?allocOf(fb,n):0; const k=n>=3?'3':String(n); if(a[k]==null) return fb?allocOf(fb,n):0; return n<=3 ? a[k] : a['3']+(n-3)*(a.par_enfant_sup ?? (fb?fb.par_enfant_sup:0)); }
 function sqAge(y){ const t=SQ.retraite.table; let a=t[0][1]; for(const [yy,aa] of t){ if(y>=yy) a=aa; } return a; }
@@ -785,8 +790,9 @@ let simT=null;
 const openSim=new Set(); let presetVal=null;
 function sim(){
   const g=id=>document.getElementById(id);
-  const year=+g('s-year').value, st=S.status, kids=S.kids, en=+g('s-energy').value, nat=S.nat, wealth=S.wealth, inh=S.inh, ot=g('s-ot').checked, cfe=+g('s-cfe').value;
-  g('s-year-v').textContent=year; g('s-energy-v').textContent=eur(en,false)+'/mois'; g('s-cfe-v').textContent=eur(cfe,false); g('s-kids-v').textContent=kids;
+  const year=+g('s-year').value, st=S.status, kids=S.kids, en=+g('s-energy').value, nat=S.nat, wealth=S.wealth, inh=S.inh, ot=g('s-ot').checked, cfe=+g('s-cfe').value, food=+g('s-food').value, fuel=+g('s-fuel').value, lt5=nat!=='fr'&&g('s-res').checked, lt5w=lt5||(nat!=='fr'&&g('s-work').checked);
+  g('f-res').hidden=nat==='fr'; g('f-work').hidden=nat==='fr'||lt5; g('s-fuel-v').textContent=eur(fuel,false)+'/mois'; const baby=kids>0&&g('s-baby').checked; g('f-baby').hidden=kids===0;
+  g('s-year-v').textContent=year; g('s-energy-v').textContent=eur(en,false)+'/mois'; g('s-food-v').textContent=eur(food,false)+'/mois'; g('s-cfe-v').textContent=eur(cfe,false); g('s-kids-v').textContent=kids;
   if(st!==lastSt){ const sl=g('s-salary'); sl.max=MAXS[st]; sl.step=STEPS[st]||20; sl.value=DEF[st]; const ny=DEFY[st]||(DEFY[lastSt]?1990:null); if(ny) g('s-year').value=ny; lastSt=st;
     g('s-presets').innerHTML = (['prive','public','enseignant','independant'].includes(st)?[[SQ.smic_net,'SMIC'],[SQ.salaire_moyen||2733,'Salaire moyen']]:[]).map(([v,l])=>`<button data-v="${v}">${l} · ${eur(v,false)}</button>`).join('');
     g('s-presets').querySelectorAll('button').forEach(b=>b.onclick=()=>{ g('s-salary').value=b.dataset.v; presetVal=+b.dataset.v; sim(); });
@@ -807,7 +813,7 @@ function sim(){
         ret = all ? `Départ ${fmtD(d)} avec décote, sans décote ${fmtD(tp-sqA)}${tm}` : (Math.abs(d)<0.01?'Retraite inchangée':`Retraite ${fmtD(d)}`)+tm;
         rows.push(['Retraite',`Départ légal à ${ageTxt(a)}${tm} (aujourd'hui : ${ageTxt(sqA)})`, fmtD(d)]);
         if(tp && all) rows.push(['Sans décote',`À ${ageTxt(tp)} pour tous (aujourd'hui : ${ageTxt(sqA)} avec une carrière complète, ${SQ.retraite.taux_plein} ans sinon)`, fmtD(tp-sqA)]);
-        else if(tp) rows.push(['Taux plein automatique',`À ${ageTxt(tp)} sans condition de durée (aujourd'hui : ${SQ.retraite.taux_plein} ans)`, fmtD(tp-SQ.retraite.taux_plein)]);
+        else if(tp && Math.abs(tp-SQ.retraite.taux_plein)>=0.01) rows.push(['Taux plein automatique',`À ${ageTxt(tp)} sans condition de durée (aujourd'hui : ${SQ.retraite.taux_plein} ans)`, fmtD(tp-SQ.retraite.taux_plein)]);
         if(s.retraite.carriere_longue) notes.push(s.retraite.carriere_longue);
         if(year<1970 && Math.abs(d)>=0.01) notes.push("Votre génération est proche du départ : la transition peut réduire l'effet."); }
       else if(s.retraite && s.retraite.regle){ ret='Retraite : règles nouvelles'; rows.push(['Retraite',esc(s.retraite.regle),'variable']); }
@@ -818,21 +824,41 @@ function sim(){
       const promised = sn.prorata?sn.gain_mensuel*sal/sn.ref:sn.gain_mensuel;
       if(sn.promised_md && sn.measure){ const mm=c.measures.find(z=>z.id===sn.measure), ratio=mm&&has(mm)?Math.min(1,Math.abs(mm.claude.central)/sn.promised_md):1;
         add('Revenu net', `${esc(sn.note)}. Promesse du camp : ${eur(sn.gain_mensuel)}/mois pour ${eur(sn.ref,false)}${sal!==sn.ref?`, soit ${eur(promised)} pour vous au prorata (notre extrapolation)`:''}. Seule la part financée par des économies identifiées est comptée : ${Math.round(ratio*100)} %`, promised*ratio); }
-      else { const dg = sn.max && sal>sn.ref ? Math.max(0,(sn.max-sal)/(sn.max-sn.ref)) : 1; add('Revenu net', esc(sn.note||sn.public)+(sn.max&&sal>sn.ref?' (dégressif jusqu\'à '+eur(sn.max,false)+', hypothèse)':''), (sn.prorata?sn.gain_mensuel*Math.min(sal,sn.ref)/sn.ref:sn.gain_mensuel)*dg); } }
+      else { const dg = sn.max && sal>sn.ref ? Math.max(0,(sn.max-sal)/(sn.max-sn.ref)) : 1; add('Revenu net', esc(sn.note||sn.public)+(sn.max&&sal>sn.ref?' (dégressif jusqu\'à '+eur(sn.max,false)+', hypothèse)':''), (sn.prorata?sn.gain_mensuel*(sn.sans_plafond?sal:Math.min(sal,sn.ref))/sn.ref:sn.gain_mensuel)*dg); } }
     else if(sn && sn.max && sal>sn.max && active) notes.push(`${sn.note} : rien au-delà de ${eur(sn.max,false)} net dans la version publiée.`);
-    if(s.overtime && st==='prive'){ const so=Math.min(sal,2*SQ.smic_net); if(ot) add('Heures sup', s.overtime.label+' (gain plafonné au niveau de 2 SMIC, les heures sup étant déjà en partie exonérées)', s.overtime.annual_at_smic? s.overtime.annual_at_smic/12*so/SQ.smic_net : s.overtime.monthly*so/s.overtime.ref); else notes.push(`${s.overtime.label} : un gain si vous faites des heures supplémentaires.`); }
+    if(s.overtime && st==='prive'){ const brut=sal/0.7916, g2=2*52/12*1.25*brut/151.67*0.0953; if(ot) add('Heures sup', esc(s.overtime.label)+' : impôt et cotisations salariales déjà exonérés aujourd\'hui, il reste la CSG et la CRDS (9,7 %) ; 2 h par semaine supposées', g2); else notes.push(`${s.overtime.label} : un gain si vous faites des heures supplémentaires.`); }
     if(s.ir_exempt_under && age<s.ir_exempt_under && active){ if(ir>0) add('Impôt',`Moins de ${s.ir_exempt_under} ans exonérés d'impôt sur le revenu`,ir/12); else notes.push(`Moins de ${s.ir_exempt_under} ans exonérés d'impôt sur le revenu : vous n'en payez pas aujourd'hui.`); }
-    if((st==='public'||st==='enseignant') && s.point_indice_pct && sal>0) add('Point d\'indice',`≈ +${String(s.point_indice_pct).replace('.',',')} % sur la part indiciaire du salaire, supposée à 80 % (déduit du coût annoncé)`,sal*0.8*s.point_indice_pct/100);
-    if(st==='enseignant' && s.enseignants_pct && sal>0) add('Salaire enseignant',`+${s.enseignants_pct} % d'ici la fin du mandat`,sal*s.enseignants_pct/100);
+    if(s.ir_jeunes_parents && kids>0 && active){ const jp=s.ir_jeunes_parents;
+      if(!baby) notes.push(jp.note+' : cochez « un enfant de moins de 3 ans » si c\'est votre cas.');
+      else if(ir>0) add('Impôt',esc(jp.note)+` : impôt supprimé s'il est inférieur à ${eur(jp.plafond,false)} par an, sinon réduit de ${eur(jp.plafond,false)} (impôt estimé pour une personne seule)`,Math.min(ir,jp.plafond)/12);
+      else notes.push(jp.note+' : vous ne payez pas d\'impôt sur le revenu aujourd\'hui.'); }
+    if((st==='public'||st==='enseignant') && s.point_indice_pct && sal>0) add('Point d\'indice',`+${String(s.point_indice_pct).replace('.',',')} % sur la part indiciaire du salaire, supposée à 80 % du net`,sal*0.8*s.point_indice_pct/100);
+    if(st==='enseignant' && s.enseignants_pct && sal>0) add('Salaire enseignant',esc(s.enseignants_note||`+${s.enseignants_pct} % d'ici la fin du mandat`),sal*s.enseignants_pct/100);
+    if(st==='enseignant' && s.enseignants_eur) add('Salaire enseignant',esc(s.enseignants_eur.note),s.enseignants_eur.montant);
+    if((st==='public'||st==='enseignant') && s.carence_jours && sal>0){ const j=s.carence_jours-SQ.carence_public; if(j>0) rows.push(['Arrêt maladie',`${s.carence_jours} jours de carence non payés à chaque arrêt (aujourd'hui : ${SQ.carence_public}, puis 90 % du traitement) ; perte seulement si vous êtes arrêté`,`−${eur(j*0.9*sal*12/365,false)} par arrêt`]); }
+    if(st==='chomage' && s.chomage_duree && age<s.chomage_duree.avant && sal>0){ const m=SQ.chomage_mois-s.chomage_duree.mois; if(m>0) rows.push(['Durée du chômage',`Indemnisation limitée à ${s.chomage_duree.mois} mois avant ${s.chomage_duree.avant} ans (aujourd'hui : ${SQ.chomage_mois}) ; perte seulement si vous restez au chômage plus de ${s.chomage_duree.mois} mois (après une rupture conventionnelle, la durée actuelle est déjà de 15 mois)`,`jusqu'à −${eur(m*sal,false)}`]); }
     if(st==='independant' && s.cfe_suppr && cfe>0) add('CFE',esc(s.cfe_note),cfe/12);
+    let afD=0; const addAF=(l,d,v)=>{ add(l,d,v); afD+=v; };
+    if(s.bebe && baby) rows.push(['Naissance',esc(s.bebe),'+1 000 € une fois']);
+    if(s.gel_pct && kids>0 && sqAlloc>0) addAF('Allocations familiales',`Non revalorisées en 2028 (inflation prévue ${String(s.gel_pct).replace('.',',')} %, hypothèse du budget 2027)`,-sqAlloc*s.gel_pct/100);
     if(s.gel_pct && (s.gel_status||['retraite','minima']).includes(st) && sal>0){ if(st==='retraite' && s.gel_min && sal<s.gel_min) notes.push(s.gel_note+' : votre pension serait épargnée.'); else add('Revalorisation',esc(s.gel_note),-sal*s.gel_pct/100); }
-    if(s.alloc_familiales && s.alloc_familiales.unique && kids>0){ const af=s.alloc_familiales, k=Math.max(0,Math.min(1,(sal-af.degress_above)/1000)), f=1-(1-af.degress_factor)*k; let a=Math.max(af.unique*f,sqAlloc); const d=a-sqAlloc; if(d>0.5) add('Allocations',esc(af.note)+(k>0&&k<1?' ; réduction progressive entre 3 000 et 4 000 € (hypothèse)':''),d); else notes.push(af.note+'.'); if(sqAlloc>af.unique*f) notes.push('Vos allocations actuelles sont plus élevées que l\'allocation unique : on suppose qu\'elles sont maintenues (le camp ne l\'a pas précisé).'); }
+    if(s.alloc_familiales && s.alloc_familiales.unique && kids>0){ const af=s.alloc_familiales, k=Math.max(0,Math.min(1,(sal-af.degress_above)/1000)), f=1-(1-af.degress_factor)*k, nu=af.unique*(af.par_enfant?kids:1)*f; let a=Math.max(nu,sqAlloc); const d=a-sqAlloc; if(d>0.5) addAF('Allocations',esc(af.note)+(k>0&&k<1?' ; réduction progressive entre 3 000 et 4 000 € (hypothèse)':''),d); else notes.push(af.note+'.'); if(sqAlloc>nu) notes.push('Vos allocations actuelles sont plus élevées que l\'allocation unique : on suppose qu\'elles sont maintenues (le camp ne l\'a pas précisé).'); }
     else if(s.alloc_familiales && kids>0){ const a=allocOf(s.alloc_familiales,kids,SQ.alloc_familiales), d=a-sqAlloc; if(Math.abs(d)>0.5) add('Allocations',esc(s.alloc_familiales.note||''),d); else if(s.alloc_familiales.note) notes.push(s.alloc_familiales.note+'.'); }
-    if(s.alloc_perte_etrangers && (s.alloc_perte_scope==='hors'?nat==='hors':nat!=='fr') && sqAlloc>0) add('Allocations', nat==='ue'?'Réservées aux Français (exige de changer la Constitution et le droit européen)':'Réservées aux Français (si la révision de la Constitution passe)',-sqAlloc);
-    if(s.minima_cut && st==='minima' && sal>0) add('Minima sociaux', esc(s.minima_cut.label)+' (si vous touchez le RSA, la prime d\'activité ou l\'ASS)', -sal*s.minima_cut.pct/100);
+    const etr=s.etr, hit=r=>r==='nonfr'?nat!=='fr':r==='hors'?nat==='hors':r==='lt5'?lt5:r==='lt5w'?lt5w:false, cond={nonfr:'réservées aux foyers dont au moins un parent est français',hors:'réservées aux Français et aux Européens',lt5:'réservées aux étrangers installés depuis au moins 5 ans',lt5w:'réservées aux étrangers ayant au moins 5 ans de travail en France'};
+    const minLost = etr && st==='minima' && sal>0 && hit(etr.minima);
+    if(etr && hit(etr.af) && sqAlloc>0) addAF('Allocations familiales',`${cond[etr.af][0].toUpperCase()+cond[etr.af].slice(1)} (si la révision de la Constitution passe)`,-sqAlloc);
+    if(minLost) add('Minima sociaux',`RSA, prime d'activité et ASS ${cond[etr.minima]} (si la révision de la Constitution passe)`,-sal);
+    else if(etr && nat!=='fr' && !lt5w && /lt5/.test(etr.minima) && (st==='minima'||sqAlloc>0)) notes.push('Aides réservées aux étrangers installés ou ayant travaillé en France depuis au moins 5 ans : cochez la case qui vous correspond.');
+    if(etr && nat==='hors' && st==='minima') notes.push('Hors Union européenne, le RSA et la prime d\'activité exigent déjà aujourd\'hui 5 ans de titre de séjour, sauf exceptions (réfugiés, carte de résident).');
+    if(s.plafond_aides && st==='minima' && sal>0 && !minLost){ const pl=s.plafond_aides.pct*SQ.smic_net, over=sal+sqAlloc+afD-pl; if(over>0.5) add('Minima sociaux',esc(s.plafond_aides.note),-Math.min(sal,over)); else notes.push(s.plafond_aides.note+' : vos aides restent sous ce plafond.'); }
+    if(st==='minima' && sal>0 && !minLost && Math.abs(afD)>0.5){ const adj = afD>0 ? -Math.min(afD,sal) : -afD; add('Ajustement du RSA','Les allocations familiales comptent dans le calcul du RSA : une hausse est en grande partie reprise, une baisse compensée (calcul simplifié)',adj); }
     if(s.jeunes_alloc && age>=18 && age<=25 && st==='etudiant'){ const v=Math.max(0,s.jeunes_alloc.montant-sal); if(v>0){ cap=v; rows.push(['Allocation jeunes', esc(s.jeunes_alloc.label)+' : montant maximal, sous conditions de ressources ; non compté dans le total', `jusqu'à ${eur(v)}/mois`]); } }
     if(s.famille && kids>0) notes.push(s.famille);
-    if(s.tva_energie!=null && en>0) add('Énergie',`TVA à ${String(s.tva_energie).replace('.',',')} % (si la baisse est répercutée)`,en*(1-(1+s.tva_energie/100)/1.2));
+    if(s.tva_courses && food>0) add('Courses',esc(s.tva_courses.note),food*(1-1/1.055)*s.tva_courses.part);
+    if(s.tva_energie!=null && en+fuel>0) add('Énergie',`TVA à ${String(s.tva_energie).replace('.',',')} % sur l'électricité, le gaz et le carburant (si la baisse est répercutée)`,(en+fuel)*(1-(1+s.tva_energie/100)/1.2));
+    if(s.carburant && fuel>0) add('Carburant',esc(s.carburant.note),fuel*Math.max(0,1-s.carburant.prix/s.carburant.actuel));
+    if(s.service_jeunes && age>=17 && age<=25) rows.push(['Service obligatoire',esc(s.service_jeunes),'≈ 620 €/mois pendant 10 mois']);
+    (s.tous||[]).forEach(t=>notes.push(t));
     const q=[];
     if((st==='public'||st==='enseignant') && s.fonctionnaires) q.push(s.fonctionnaires);
     if(st==='chomage' && s.chomeurs) q.push(s.chomeurs);
@@ -847,9 +873,8 @@ function sim(){
     (s.heritage||[]).filter(p=>inh>=p.seuil).forEach(p=>q.push(p.effet));
     return {c,money,rows,q:[...q,...notes],ret,cap};
   });
-  const mx=Math.max(50,...out.map(o=>Math.abs(o.money)));
   if(!window._simObs && 'IntersectionObserver' in window){ window._simObs=new IntersectionObserver(es=>{ g('simbar').hidden=es[0].isIntersecting; },{threshold:0.05}); window._simObs.observe(g('simres')); }
-  g('simres').innerHTML = out.map(o=>{ const c=o.c, open=openSim.has(c.id), hh=perHH(c.claude_total.sum), w=Math.abs(o.money)/mx*50;
+  g('simres').innerHTML = out.map(o=>{ const c=o.c, open=openSim.has(c.id), hh=perHH(c.claude_total.sum), w=Math.min(1,Math.sqrt(Math.abs(o.money)/1000))*50;
     return `<div class="srow" data-c="${c.id}"><button aria-expanded="${open}">
       <span class="t1"><span class="nm">${esc(c.short)}</span><span class="eur ${o.money>0.5?'pos':o.money<-0.5?'neg':''}">${Math.abs(o.money)<0.5?'0 €':eur(o.money)}</span></span>
       <span class="track"><i class="zero" style="left:50%"></i><i class="bar" style="left:${o.money<0?50-w:50}%;width:${Math.max(w,.6)}%;background:${colorOf(o.money)};opacity:.75"></i></span>

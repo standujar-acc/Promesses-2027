@@ -36,7 +36,8 @@ Lire d'abord `CLAUDE.md` (règles de neutralité et de chiffrage) et `METHODOLOG
    - Vie quotidienne : `pipeline/data/life-*.json` et `pipeline/life.py` (`OVR`, `VFLIP`).
    - Quiz : `pipeline/data/quiz_plain.json` et `pipeline/data/quiz_effets.json`.
    - Texte de méthode : `D.method` dans `pipeline/build.py` et `METHODOLOGIE.md`.
-   - Tout changement visible sur le site : une entrée datée dans `D.changelog` (`pipeline/build.py`).
+   - Tout changement visible sur le site : une entrée datée dans `D.changelog` (`pipeline/build.py`), **ajoutée après les autres** (la dernière ajoutée s'affiche en haut) ; une seule entrée par sujet et par jour, à compléter plutôt qu'à empiler.
+   - Date « Mis à jour le » : `D['asof']` dans le bloc daté de `corrections.py`.
    - Jamais d'édition à la main de `public/`.
 6. **Mettre à jour le registre.** Passer en `resolu` les points réglés (avec `resolution` et `maj`), ajouter les nouveaux points (identifiant suivant), mettre `derniere_revue` à la date du jour.
 7. **Vérifier.** `python3 pipeline/run.py` puis `python3 tests/smoke.py` : tout passe. Relire le diff en cherchant toute asymétrie entre candidats.
