@@ -720,14 +720,14 @@
     "heritage": [
      {
       "seuil": 100000,
-      "effet": "Donations exonérées jusqu'à 100 000 € par enfant tous les 10 ans (version 2024)."
+      "effet": "Donations exonérées jusqu'à 100 000 € par enfant tous les 10 ans, contre tous les 15 ans aujourd'hui (version 2024)."
      }
     ],
     "cfe_suppr": true,
     "cfe_note": "Suppression de la CFE",
     "etr": {
      "af": "nonfr",
-     "minima": "lt5"
+     "minima": "lt5w"
     },
     "tva_courses": {
      "part": 0.75,
@@ -1006,7 +1006,7 @@
      "id": "prix",
      "theme": "social",
      "title": "Blocage des prix",
-     "proposal": "Bloquer les prix de l'alimentation et de l'énergie de base ; modalités non publiées.",
+     "proposal": "Bloquer les prix de l'alimentation et de l'énergie de base ; carburant ramené à 1,70 €/l par décret.",
      "claimed": "Non chiffré",
      "claimed_md": null,
      "estimates": [
@@ -1331,14 +1331,18 @@
     "salaire_net": null,
     "alloc_familiales": null,
     "tva_energie": null,
-    "fonctionnaires": "Hausse du point d'indice : ≈ +8 % d'après les 17 Md€ annoncés (taux non publié) ; 10 000 enseignants et 10 000 soignants recrutés.",
+    "fonctionnaires": "Hausse du point d'indice de 10 % ; 10 000 enseignants et 10 000 soignants recrutés.",
     "chomeurs": "Abrogation des réformes récentes de l'assurance chômage.",
-    "minima_sociaux": "Toutes les prestations indexées, APL +10 %, minimum vieillesse porté au seuil de pauvreté.",
+    "minima_sociaux": "Toutes les prestations indexées ; allocations familiales et APL +10 % (non comptés dans notre total) ; minimum vieillesse porté au seuil de pauvreté.",
     "jeunes": "Garantie d'autonomie jusqu'à 1 337 €/mois pour les 18-25 ans en formation, sous conditions.",
     "retraites_actuels": "Pensions indexées sur les salaires ; pension minimale au niveau du SMIC pour une carrière complète.",
     "independants": "Pas de mesure spécifique publiée ; concernés par le barème de l'impôt sur le revenu à 14 tranches.",
     "etrangers": null,
     "patrimoine": [
+     {
+      "seuil": 300000,
+      "effet": "Fin de la flat tax : dividendes et intérêts imposés au barème de l'impôt sur le revenu."
+     },
      {
       "seuil": 1300000,
       "effet": "Retour d'un ISF « climatique » (en 2022 : 1 % de 2 à 8 M€, 2 % jusqu'à 1 Md€, 3 % au-delà)."
@@ -1364,6 +1368,11 @@
     "jeunes_alloc": {
      "montant": 1337,
      "label": "Garantie d'autonomie jusqu'à 1 337 €/mois (18-25 ans en formation, sous conditions)"
+    },
+    "carburant": {
+     "prix": 1.7,
+     "actuel": 2.21,
+     "note": "Prix du carburant bloqué à 1,70 €/l par décret, contre ≈ 2,21 €/l en octobre 2026 (SP95, relevé du ministère) ; blocage de 6 mois au plus par décret"
     }
    },
    "promise": "Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines.",
@@ -1958,10 +1967,16 @@
      "regle": "Abrogation de la réforme 2023, retour à 62 ans, modulé selon l'espérance de vie en bonne santé."
     },
     "smic_net": 1600,
-    "salaire_net": null,
+    "salaire_net": {
+     "gain_mensuel": 46.4,
+     "ref": 2733,
+     "prorata": true,
+     "sans_plafond": true,
+     "public": "salariés",
+     "note": "Baisse de la CSG sur les salaires : 15 Md€ répartis au prorata des salaires (27 millions de salariés, Insee), soit ≈ 46 €/mois au salaire moyen (notre calcul)"
+    },
     "alloc_familiales": null,
     "tva_energie": null,
-    "salaire_note": "Baisse de CSG sur les salaires financée par l'impôt sur les héritages (15 Md€ au total) : gain par salarié non chiffré.",
     "fonctionnaires": "Enseignants : revalorisation « substantielle » sur 5 ans, sans montant ; moins d'élèves par classe en primaire.",
     "chomeurs": null,
     "minima_sociaux": null,
@@ -1980,7 +1995,8 @@
       "seuil": 2000000,
       "effet": "Hausse de la taxation des héritages au-delà de 2 M€ ; barème non publié."
      }
-    ]
+    ],
+    "service_jeunes": "Service obligatoire de 10 mois : indemnité supposée égale à celle du service civique actuel"
    },
    "promise": "Promet le retour à 62 ans, un SMIC à 1 600 € net, une taxe sur les très gros héritages et une défense européenne financée par emprunt commun.",
    "obstacle_main": "L'accord des autres pays européens, et le rendement de la taxe sur les héritages."
@@ -2570,7 +2586,8 @@
      "unique": 350,
      "degress_above": 3000,
      "degress_factor": 0.5,
-     "note": "Allocation unique de 350 €/mois dès le 1er enfant ; moitié supposée au-delà de 3 000 € net (dégressivité non publiée, même hypothèse que notre chiffrage)"
+     "note": "Allocation unique de 350 €/mois par enfant dès le 1er enfant ; moitié supposée au-delà de 3 000 € net (dégressivité non publiée) ; les aides qu'elle remplace (supplément familial, prime de naissance…) ne sont pas déduites",
+     "par_enfant": true
     },
     "tva_energie": null,
     "fonctionnaires": "Un départ en retraite sur trois non remplacé, deux jours de carence, enseignants payés +20 % sur le quinquennat.",
@@ -2583,8 +2600,7 @@
     "patrimoine": [],
     "heritage": [],
     "overtime": {
-     "label": "2 h sup par semaine exonérées (chiffre du camp : ≈1 000 €/an au SMIC)",
-     "annual_at_smic": 1000
+     "label": "Heures sup sans impôt ni cotisation"
     },
     "enseignants_pct": 20,
     "cfe_suppr": true,
@@ -2596,8 +2612,8 @@
      "avant": 50
     },
     "ir_jeunes_parents": {
-     "note": "Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents des classes moyennes",
-     "max": 5466
+     "note": "Pas d'impôt sur le revenu pendant les 3 premières années de l'enfant",
+     "plafond": 3000
     }
    },
    "promise": "Promet la retraite à 65 ans, un départ sur trois non remplacé dans la fonction publique, une allocation familiale dès le premier enfant et zéro impôt pour les jeunes parents.",
@@ -3128,7 +3144,7 @@
     "tva_energie": null,
     "fonctionnaires": "1 623 h/an au lieu de 1 607, trois jours de carence au lieu d'un, 400 000 départs en retraite non remplacés.",
     "chomeurs": "Fin des droits après 3 offres refusées ; ruptures conventionnelles limitées à 6 mois ; dégressivité au-delà de 3 000 € net.",
-    "minima_sociaux": "RSA, prime d'activité et ASS fusionnés (−30 %, 15 h d'activité) ; total des aides plafonné à 70 % du SMIC.",
+    "minima_sociaux": "RSA, prime d'activité et ASS fusionnés, avec 15 h d'activité ; total des aides non contributives plafonné à 70 % du SMIC net par adulte.",
     "jeunes": "Part de retraite par capitalisation (25-30 %) pour les nouveaux entrants.",
     "retraites_actuels": "Pas d'effet de la capitalisation ; cumul emploi-retraite réformé.",
     "independants": "Suppression de la C3S et de la part industrielle de la CFE (surtout les grandes entreprises) ; pas de mesure spécifique publiée.",
@@ -3136,19 +3152,21 @@
     "patrimoine": [],
     "heritage": [],
     "overtime": {
-     "label": "2 h sup par semaine exonérées (même base que Philippe, faute de chiffre comparable)",
-     "annual_at_smic": 1000
+     "label": "Heures sup sans cotisation (même calcul que Philippe, faute de précision)"
     },
     "famille": "« Revenu familial » de 240 € par enfant dès le 1er enfant, qui remplace 12 aides familiales : le gain ou la perte dépend des aides que vous touchez aujourd'hui ; non chiffré ici.",
-    "minima_cut": {
-     "pct": 30,
-     "label": "RSA, prime d'activité et ASS fusionnés en une allocation réduite de 30 %, avec 15 h d'activité"
-    },
     "etr": {
-     "af": "lt5",
-     "minima": "lt5"
+     "af": "lt5w",
+     "minima": "lt5w"
     },
-    "carence_jours": 3
+    "carence_jours": 3,
+    "plafond_aides": {
+     "pct": 0.7,
+     "note": "Total des aides non contributives plafonné à 70 % du SMIC net par adulte (foyer d'un adulte supposé)"
+    },
+    "tous": [
+     "Fin de MaPrimeRénov' : plus d'aide de l'État pour isoler un logement ou changer de chauffage."
+    ]
    },
    "promise": "Promet 197 Md€ d'économies cumulées d'ici 2032, un âge minimal de 63 ans, la fusion des aides sociales et un référendum sur l'immigration.",
    "obstacle_main": "La révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées."
@@ -3619,7 +3637,7 @@
     "fonctionnaires": "100 000 postes supprimés par départs volontaires et non-remplacements ; Éducation, Armées, Justice et Intérieur épargnés.",
     "chomeurs": "Réforme pour inciter au travail, non détaillée ; allocations probablement gelées en 2028.",
     "minima_sociaux": "Gelés en 2028 (année blanche).",
-    "jeunes": "1 000 € placés à la naissance sur un compte retraite ; réseaux sociaux interdits aux moins de 15 ans.",
+    "jeunes": "Réseaux sociaux interdits aux moins de 15 ans.",
     "retraites_actuels": "Pensions gelées en 2028, sauf les petites retraites (seuil non défini).",
     "independants": "Pas de mesure spécifique publiée.",
     "etrangers": "Regroupement familial plus restrictif ; quotas et système à points pour l'immigration de travail.",
@@ -3635,7 +3653,8 @@
     "enseignants_eur": {
      "montant": 200,
      "note": "+200 € net par mois, jusqu'à 500 € en milieu de carrière (montant minimal retenu)"
-    }
+    },
+    "bebe": "1 000 € placés par l'État sur un compte retraite à la naissance, bloqués jusqu'à la retraite"
    },
    "claude_total": {
     "sum": 4.0,
@@ -4767,8 +4786,7 @@
     "etr": {
      "af": "hors",
      "minima": "hors"
-    },
-    "carence_jours": 3
+    }
    },
    "claude_total": {
     "sum": 21.5,
@@ -4844,17 +4862,17 @@
      64
     ]
    ],
-   "url": "https://manouvellevie.groupama.fr/s-informer-retraite/tout-savoir-age-depart-retraite/suspension-reforme-des-retraites-beneficiaires",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14043",
    "taux_plein": 67
   },
   "smic_net": 1477.93,
-  "smic_url": "https://www.legisocial.fr/reperes-sociaux/montant-smic-2026-taux-horaire-net-brut.html",
+  "smic_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2300",
   "alloc_familiales": {
    "1": 0,
    "2": 152.25,
    "3": 347.32,
    "par_enfant_sup": 195.07,
-   "url": "https://www.previssima.fr/question-pratique/quel-est-le-montant-des-allocations-familiales.html"
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13213"
   },
   "menages": 30907000,
   "pib_2025": 2991.1,
@@ -4880,7 +4898,7 @@
    "decote_seul": 897,
    "decote_taux": 0.4525,
    "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18045?lang=fr",
-   "url_decote": "https://www.weblex.fr/chiffres-cles/impot-sur-le-revenu-et-decote-2026"
+   "url_decote": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34328"
   },
   "salaire_moyen": 2733,
   "salaire_moyen_url": "https://www.lafinancepourtous.com/2025/11/10/le-salaire-moyen-est-de-2-733-e-en-france-en-2024/",
@@ -4890,7 +4908,9 @@
   "chomage_mois": 18,
   "chomage_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14860",
   "courses_url": "https://www.insee.fr/fr/statistiques/5370353",
-  "rsa_etrangers_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19778"
+  "rsa_etrangers_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19778",
+  "salaries": 26965000,
+  "salaries_url": "https://www.insee.fr/fr/statistiques/8733039?sommaire=8733125"
  },
  "base_url": "https://claude.ai/artifact/WJ9R1g2Hyxkmrs7YbwVRZB",
  "blackout": [
@@ -4919,6 +4939,10 @@
   {
    "date": "27/10/2026",
    "text": "Simulateur : pertes et gains manquants ajoutés. Aides réservées aux Français ou aux étrangers installés depuis 5 ans calculées de la même façon pour les quatre candidats concernés (allocations familiales et minima) ; nouvelle case « en France depuis moins de 5 ans ». Hausses des enseignants (Attal, Lisnard), TVA sur les produits de première nécessité, gel des allocations familiales, jours de carence et durée du chômage, exonération d'impôt des jeunes parents (Philippe, nouvelle case « enfant de moins de 3 ans »). Barres à échelle fixe (pleine à 1 000 €) : une barre ne bouge que si son propre montant change."
+  },
+  {
+   "date": "27/10/2026",
+   "text": "Simulateur, après audit indépendant : heures sup ramenées au gain réel (seules la CSG et la CRDS restent dues aujourd'hui) ; jeunes parents selon la règle publiée (exonération sous 3 000 € d'impôt) ; allocation unique de 350 € par enfant ; baisse de 30 % des minima sans source retirée, remplacée par le plafond publié de 70 % du SMIC ; allocations familiales prises en compte dans le RSA ; ajout du blocage du carburant à 1,70 €/l, de la baisse de CSG financée par l'impôt sur les héritages, des 1 000 € à la naissance et de l'indemnité du service obligatoire ; deux cases distinctes pour 5 ans de résidence et 5 ans de travail ; sources officielles pour le droit actuel."
   },
   {
    "date": "27/10/2026",
