@@ -6135,7 +6135,7 @@
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » viennent des statistiques publiques (SSMSI, Insee, DREES, DEPP, Citepa, Eurostat, OTAN, etc.). Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique les paramètres annoncés à votre situation, à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe »), gel des prestations, baisse des minima ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années. Ce sont des ordres de grandeur.",
-  "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Chaque proposition est reformulée en langage courant, avec deux explications de même poids : « + » ce qu'elle apporte selon ceux qui la défendent, « − » sa contrepartie et ses risques selon ceux qui la critiquent. Chacune s'appuie sur des études vérifiées (sources dépliables sous chaque duel) et dit la force de la preuve ; les mesures du même type sont analysées avec les mêmes études. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement.",
+  "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Les duels portent sur les mesures chiffrées et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant, avec deux explications de même poids : « + » ce qu'elle apporte selon ceux qui la défendent, « − » sa contrepartie et ses risques selon ceux qui la critiquent. Chacune s'appuie sur des études vérifiées (sources dépliables sous chaque duel) et dit la force de la preuve ; les mesures du même type sont analysées avec les mêmes études. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
   "<b>Sondages et contexte.</b> Ipsos-BVA des 21-22 octobre 2026, masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
  ],
  "statu_quo": {
@@ -6246,7 +6246,7 @@
   },
   {
    "date": "27/10/2026",
-   "text": "Quiz : 20 duels au lieu de 16, chaque candidat apparaissant 5 fois ; sous chaque proposition, « + » et « − » donnent les arguments des deux côtés et les risques, fondés sur des études (228 sources vérifiées, consultables sous chaque duel) et rédigés thème par thème avec les mêmes études pour les mesures du même type ; une même proposition ne peut plus revenir dans une partie."
+   "text": "Quiz : 20 duels au lieu de 16, chaque candidat apparaissant 5 fois ; sous chaque proposition, « + » et « − » donnent les arguments des deux côtés et les risques, fondés sur des études (228 sources vérifiées, consultables sous chaque duel) et rédigés thème par thème avec les mêmes études pour les mesures du même type ; une même proposition ne peut plus revenir dans une partie. Résultat réorganisé : d'abord les candidats les plus proches et ce qu'impliquent vos choix, puis une pastille par proposition (la proximité est la part de propositions retenues, ce qui est affiché est ce qui est compté), la tendance par thème (les thèmes qui comptent pour vous peuvent compter double), ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels replié ; les égalités ne sont jamais départagées. Nouveaux duels sur l'école, la santé et le logement, à partir des propositions précises du volet « Vie quotidienne », avec leurs explications sourcées ; à l'accueil, on peut choisir les thèmes qui comptent pour soi."
   },
   {
    "date": "27/10/2026",
@@ -9158,5 +9158,876 @@
     ]
    }
   ]
- }
+ },
+ "quiz_extra": [
+  {
+   "c": "le-pen",
+   "id": "logement.2",
+   "life": true,
+   "theme": "logement",
+   "title": "Supprimer les quotas de logements sociaux et l'objectif de zéro artificialisation des sols",
+   "quiz_text": "Supprimer les quotas de logements sociaux et l'objectif de zéro artificialisation des sols",
+   "quiz_concret": "Plus d'obligation d'avoir 20 à 25 % de logements sociaux, ni de limite à la construction sur terres agricoles.",
+   "quiz_plus": "Le quota a fait bâtir du logement social sans guère accroître la part de ménages modestes (Chapelle et al. 2025) ; en Angleterre, sans contraintes d'urbanisme, les prix seraient d'un tiers plus bas (Hilber, Vermeulen 2016).",
+   "quiz_moins": "Le quota explique 61 % de la hausse du parc social des communes visées en 2000-2008 (même étude) ; 62 % des terres agricoles et naturelles consommées pour l'habitat l'étaient dans des communes peu tendues (Cerema 2026).",
+   "quiz_src": [
+    {
+     "l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE WP 2025-18)",
+     "a": 2025,
+     "u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
+    },
+    {
+     "l": "France Stratégie, logement social et ségrégation (via Banque des Territoires)",
+     "a": 2021,
+     "u": "https://www.banquedesterritoires.fr/des-logements-sociaux-mieux-repartis-sur-le-territoire-mais-sans-effet-sur-la-mixite-sociale"
+    },
+    {
+     "l": "Hilber et Vermeulen, The Impact of Supply Constraints on House Prices in England (Economic Journal), présentation des auteurs",
+     "a": 2016,
+     "u": "https://ec.europa.eu/economy_finance/events/2016/20161130-workshop/documents/wouter_vermeulen_en.pdf"
+    },
+    {
+     "l": "CGDD, Le Point sur n° 195, effet de la loi SRU (via Banque des Territoires)",
+     "a": 2014,
+     "u": "https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social"
+    },
+    {
+     "l": "Cerema, Analyse de la consommation d'espaces naturels, agricoles et forestiers 2011-2025",
+     "a": 2026,
+     "u": "https://artificialisation.developpement-durable.gouv.fr/sites/artificialisation/files/fichiers/2026/06/determinants_2011-2025.pdf"
+    }
+   ]
+  },
+  {
+   "c": "le-pen",
+   "id": "logement.3",
+   "life": true,
+   "theme": "logement",
+   "title": "Remplacer la prime à la rénovation énergétique par un prêt à taux zéro",
+   "quiz_text": "Remplacer la prime à la rénovation énergétique par un prêt à taux zéro",
+   "quiz_concret": "Pour isoler ou changer de chauffage, l'État prête sans intérêts au lieu de verser une prime.",
+   "quiz_plus": "La prime finance surtout des gestes isolés (73 % des dossiers), peu de rénovations complètes (1,7 %) (France Stratégie 2024) ; un prêt coûte moins à l'État, et l'éco-prêt est passé de 19 000 à 82 000 par an en 2018-2022.",
+   "quiz_moins": "Les ménages modestes, qui touchent 81 % des primes, paient encore 47 à 64 % des travaux (France Stratégie 2024) ; les plus fragiles accèdent peu au crédit, et le prêt gagé sur le logement n'a servi qu'une centaine de fois.",
+   "quiz_src": [
+    {
+     "l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov'",
+     "a": 2024,
+     "u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
+    },
+    {
+     "l": "Sénat, commission d'enquête sur la rénovation énergétique des logements, rapport n° 811",
+     "a": 2023,
+     "u": "https://www.senat.fr/rap/r22-811-1/r22-811-1_mono.html"
+    }
+   ]
+  },
+  {
+   "c": "melenchon",
+   "id": "logement.1",
+   "life": true,
+   "theme": "logement",
+   "title": "Rénover et isoler au moins 700 000 logements par an",
+   "quiz_text": "Rénover et isoler au moins 700 000 logements par an",
+   "quiz_concret": "Un service public finance l'isolation des logements, d'abord pour les ménages en précarité énergétique.",
+   "quiz_plus": "Isoler baisse la consommation réelle de 5 % (électricité) à 6,6 % (gaz), jusqu'à 13 % dans les logements les plus énergivores (Insee-SDES 2026) ; les travaux aidés en 2022 éviteraient 1,8 Mt de CO2 par an (estimation théorique).",
+   "quiz_moins": "Les économies réelles ne font qu'environ 42 % des gains calculés (Insee-SDES 2026) ; en 2021, l'objectif de dossiers aidés a été dépassé (644 000), surtout avec des gestes isolés plutôt que des rénovations complètes.",
+   "quiz_src": [
+    {
+     "l": "Insee-SDES, document de travail 2025-16, isolation et consommation réelle d'énergie",
+     "a": 2026,
+     "u": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+    },
+    {
+     "l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov'",
+     "a": 2024,
+     "u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
+    }
+   ]
+  },
+  {
+   "c": "philippe",
+   "id": "logement.1",
+   "life": true,
+   "theme": "logement",
+   "title": "Créer un prêt à taux zéro pour acheter plus grand à l'arrivée d'un enfant",
+   "quiz_text": "Créer un prêt à taux zéro pour acheter plus grand à l'arrivée d'un enfant",
+   "quiz_concret": "Une famille qui doit déménager parce qu'un enfant arrive peut emprunter sans intérêts pour acheter.",
+   "quiz_plus": "Le surpeuplement freine la scolarité : 60 % des jeunes de 15 ans vivant à deux enfants ou plus par chambre ont redoublé, un lien jugé causal (Goux, Maurin 2005) ; ces prêts aident à acheter un bien plus adapté (ANIL).",
+   "quiz_moins": "Effet d'aubaine : 85 % des bénéficiaires du prêt à taux zéro auraient acheté sans lui ; le prêt est associé à +7 % sur le prix des terrains, et un prêt plus élevé n'est pas lié à un logement plus grand (IPP 2016).",
+   "quiz_src": [
+    {
+     "l": "Goux et Maurin, The effect of overcrowded housing on children's performance at school (Journal of Public Economics)",
+     "a": 2005,
+     "u": "https://ideas.repec.org/a/eee/pubeco/v89y2005i5-6p797-819.html"
+    },
+    {
+     "l": "IPP, rapport n° 16, Analyse des dispositifs d'aide à l'accession à la propriété",
+     "a": 2016,
+     "u": "https://shs.hal.science/halshs-02514699v1/file/R16-accession-propriete-rapport-IPP-decembre2016.pdf"
+    }
+   ]
+  },
+  {
+   "c": "retailleau",
+   "id": "logement.1",
+   "life": true,
+   "theme": "logement",
+   "title": "Produire un million de logements de plus en cinq ans en accélérant les projets",
+   "quiz_text": "Produire un million de logements de plus en cinq ans en accélérant les projets",
+   "quiz_concret": "Urbanisme simplifié, projets plus rapides et une part de TVA reversée aux communes par logement neuf.",
+   "quiz_plus": "Construire fait baisser les loyers : en Allemagne, +1 % de logements neufs les réduit de 0,19 %, y compris pour les logements modestes (Mense 2025) ; aux États-Unis, un grand immeuble neuf baisse d'environ 6 % les loyers voisins.",
+   "quiz_moins": "La chute des chantiers (−31 % de 2022 à 2024) suit la remontée des taux d'intérêt, qui a réduit la capacité d'emprunt des ménages (Cour des comptes 2026) ; l'effet de procédures plus rapides sur ce frein n'est pas mesuré.",
+   "quiz_src": [
+    {
+     "l": "Mense, The impact of new housing supply on the distribution of rents (Journal of Political Economy Macroeconomics)",
+     "a": 2025,
+     "u": "https://researchonline.lse.ac.uk/id/eprint/127192"
+    },
+    {
+     "l": "Asquith, Mast, Reed, Local Effects of Large New Apartment Buildings in Low-Income Areas (Review of Economics and Statistics)",
+     "a": 2023,
+     "u": "https://ideas.repec.org/a/tpr/restat/v105y2023i2p359-375.html"
+    },
+    {
+     "l": "Cour des comptes, L'encadrement des loyers",
+     "a": 2026,
+     "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+    }
+   ]
+  },
+  {
+   "c": "retailleau",
+   "id": "logement.2",
+   "life": true,
+   "theme": "logement",
+   "title": "Déduire les intérêts du prêt immobilier, davantage selon le nombre d'enfants",
+   "quiz_text": "Déduire les intérêts du prêt immobilier, davantage selon le nombre d'enfants",
+   "quiz_concret": "Pour sa résidence principale, une famille déduit une part des intérêts de son prêt, plus grande avec plus d'enfants.",
+   "quiz_plus": "Un gain de pouvoir d'achat pour les familles qui empruntent : le crédit d'impôt de 2007 a touché 900 000 ménages dès 2009 (Sénat) ; au Danemark, la déduction a conduit à acheter des logements plus grands (Gruber et al.).",
+   "quiz_moins": "Peu d'effet sur l'accession : les banques n'en tenaient pas compte pour prêter (Sénat 2010) ; au Danemark, aucun effet sur le nombre de propriétaires mais plus de dette ; aux États-Unis, effet limité aux ménages aisés.",
+   "quiz_src": [
+    {
+     "l": "Sénat, avis sur le PLF 2011 (logement), crédit d'impôt sur les intérêts d'emprunt",
+     "a": 2010,
+     "u": "https://www.senat.fr/rap/a10-113-8/a10-113-81.html"
+    },
+    {
+     "l": "Gruber, Jensen, Kleven, Do People Respond to the Mortgage Interest Deduction? (NBER WP 23600, Danemark)",
+     "a": 2017,
+     "u": "https://www.nber.org/papers/w23600"
+    },
+    {
+     "l": "Hilber et Turner, The mortgage interest deduction and its impact on homeownership decisions (Review of Economics and Statistics)",
+     "a": 2014,
+     "u": "https://researchonline.lse.ac.uk/id/eprint/49843/"
+    }
+   ]
+  },
+  {
+   "c": "retailleau",
+   "id": "logement.3",
+   "life": true,
+   "theme": "logement",
+   "title": "Supprimer l'objectif de zéro artificialisation des sols et l'encadrement des loyers",
+   "quiz_text": "Supprimer l'objectif de zéro artificialisation des sols et l'encadrement des loyers",
+   "quiz_concret": "Plus de plafond de loyer à Paris, Lyon ou Lille, ni de limite à la construction sur terres agricoles.",
+   "quiz_plus": "Plus de terrains et de logements à louer : en Angleterre, sans contraintes d'urbanisme, les prix seraient d'un tiers plus bas ; à l'étranger, 12 études sur 16 trouvent que l'encadrement réduit l'offre locative (Cour des comptes).",
+   "quiz_moins": "L'encadrement a baissé les loyers de 2 à 4 % en moyenne pour 1,2 million de locataires (évaluation 2026) ; 62 % des terres agricoles et naturelles consommées pour l'habitat l'étaient dans des communes peu tendues (Cerema).",
+   "quiz_src": [
+    {
+     "l": "Hilber et Vermeulen, The Impact of Supply Constraints on House Prices in England (Economic Journal), présentation des auteurs",
+     "a": 2016,
+     "u": "https://ec.europa.eu/economy_finance/events/2016/20161130-workshop/documents/wouter_vermeulen_en.pdf"
+    },
+    {
+     "l": "Cour des comptes, L'encadrement des loyers",
+     "a": 2026,
+     "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+    },
+    {
+     "l": "Cerema, Analyse de la consommation d'espaces naturels, agricoles et forestiers 2011-2025",
+     "a": 2026,
+     "u": "https://artificialisation.developpement-durable.gouv.fr/sites/artificialisation/files/fichiers/2026/06/determinants_2011-2025.pdf"
+    }
+   ]
+  },
+  {
+   "c": "attal",
+   "id": "logement.1",
+   "life": true,
+   "theme": "logement",
+   "title": "Voter une loi fixant pour cinq ans les aides à la rénovation énergétique",
+   "quiz_text": "Voter une loi fixant pour cinq ans les aides à la rénovation énergétique",
+   "quiz_concret": "Ménages et artisans connaissent à l'avance les aides à la rénovation des cinq années suivantes.",
+   "quiz_plus": "Les changements de règles font attendre : au remplacement du crédit d'impôt par la prime, les dossiers ont chuté (181 000 en 2020, 698 000 en 2021) ; une commission d'enquête du Sénat (2023) demande des aides programmées.",
+   "quiz_moins": "On s'engage sur cinq ans de dépenses alors que les économies réelles de l'isolation ne font qu'environ 42 % des gains calculés (Insee-SDES 2026) et que la prime finance surtout des gestes isolés (France Stratégie 2024).",
+   "quiz_src": [
+    {
+     "l": "Sénat, commission d'enquête sur la rénovation énergétique des logements, rapport n° 811",
+     "a": 2023,
+     "u": "https://www.senat.fr/rap/r22-811-1/r22-811-1_mono.html"
+    },
+    {
+     "l": "Insee-SDES, document de travail 2025-16, isolation et consommation réelle d'énergie",
+     "a": 2026,
+     "u": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+    },
+    {
+     "l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov'",
+     "a": 2024,
+     "u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
+    }
+   ]
+  },
+  {
+   "c": "attal",
+   "id": "logement.2",
+   "life": true,
+   "theme": "logement",
+   "title": "Compter les logements à loyer intermédiaire dans les quotas de logements sociaux",
+   "quiz_text": "Compter les logements à loyer intermédiaire dans les quotas de logements sociaux",
+   "quiz_concret": "Des logements aux loyers entre social et marché comptent pour atteindre les 20 à 25 % de logements sociaux.",
+   "quiz_plus": "Le logement intermédiaire vise les revenus moyens qui ne peuvent payer les loyers libres en zone tendue : 320 000 à 560 000 ménages en attente selon l'IGF et le CGEDD (2021), pour qui le marché pourrait en financer 50 000 par an.",
+   "quiz_moins": "Les logements sociaux bâtis sous le quota sont déjà allés surtout à des revenus moyens, la part de ménages modestes a peu augmenté (Chapelle et al. 2025) ; compter l'intermédiaire réduit le nombre de logements sociaux à bâtir.",
+   "quiz_src": [
+    {
+     "l": "IGF-CGEDD, logement locatif intermédiaire (via Banque des Territoires)",
+     "a": 2021,
+     "u": "https://www.banquedesterritoires.fr/logement-intermediaire-ligf-et-le-cgedd-reviennent-la-charge-sur-le-pinel"
+    },
+    {
+     "l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE WP 2025-18)",
+     "a": 2025,
+     "u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
+    }
+   ]
+  },
+  {
+   "c": "lisnard",
+   "id": "logement.1",
+   "life": true,
+   "theme": "logement",
+   "title": "Supprimer l'obligation pour les communes d'avoir un quota de logements sociaux",
+   "quiz_text": "Supprimer l'obligation pour les communes d'avoir un quota de logements sociaux",
+   "quiz_concret": "Les maires ne sont plus tenus d'avoir 20 à 25 % de logements sociaux dans leur commune.",
+   "quiz_plus": "Le quota a fait bâtir du logement social sans guère changer la mixité : la part de ménages modestes a peu augmenté et la ségrégation des plus pauvres a à peine baissé (Chapelle et al. 2025 ; France Stratégie 2021).",
+   "quiz_moins": "Le quota explique 61 % de la hausse du parc social des communes visées en 2000-2008 (même étude), près de la moitié selon le CGDD ; 2,8 millions de ménages demandaient un logement social fin 2024 (Cour des comptes).",
+   "quiz_src": [
+    {
+     "l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE WP 2025-18)",
+     "a": 2025,
+     "u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
+    },
+    {
+     "l": "France Stratégie, logement social et ségrégation (via Banque des Territoires)",
+     "a": 2021,
+     "u": "https://www.banquedesterritoires.fr/des-logements-sociaux-mieux-repartis-sur-le-territoire-mais-sans-effet-sur-la-mixite-sociale"
+    },
+    {
+     "l": "Cour des comptes, article 55 de la loi SRU (via Banque des Territoires)",
+     "a": 2021,
+     "u": "https://www.banquedesterritoires.fr/la-cour-des-comptes-et-le-senat-daccord-pour-faire-evoluer-larticle-55-de-la-loi-sru"
+    },
+    {
+     "l": "CGDD, Le Point sur n° 195, effet de la loi SRU (via Banque des Territoires)",
+     "a": 2014,
+     "u": "https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social"
+    },
+    {
+     "l": "Cour des comptes, L'encadrement des loyers",
+     "a": 2026,
+     "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+    }
+   ]
+  },
+  {
+   "c": "lisnard",
+   "id": "logement.2",
+   "life": true,
+   "theme": "logement",
+   "title": "Supprimer l'objectif de zéro artificialisation des sols",
+   "quiz_text": "Supprimer l'objectif de zéro artificialisation des sols",
+   "quiz_concret": "Plus d'objectif national pour réduire puis stopper la construction sur les terres agricoles et naturelles.",
+   "quiz_plus": "Plus de terrain à bâtir : la Cour des comptes (2026) range cet objectif parmi les règles qui peuvent restreindre l'offre de logements ; en Angleterre, sans contraintes d'urbanisme, les prix seraient d'un tiers plus bas.",
+   "quiz_moins": "L'artificialisation est l'une des principales causes de perte de biodiversité (France Stratégie 2019) ; 62 % des terres consommées pour l'habitat l'étaient en communes peu tendues, la moitié à moins de 8 logements par hectare.",
+   "quiz_src": [
+    {
+     "l": "Cour des comptes, L'encadrement des loyers",
+     "a": 2026,
+     "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+    },
+    {
+     "l": "Hilber et Vermeulen, The Impact of Supply Constraints on House Prices in England (Economic Journal), présentation des auteurs",
+     "a": 2016,
+     "u": "https://ec.europa.eu/economy_finance/events/2016/20161130-workshop/documents/wouter_vermeulen_en.pdf"
+    },
+    {
+     "l": "Hilber et Vermeulen, Economic Journal 126(591)",
+     "a": 2016,
+     "u": "https://researchonline.lse.ac.uk/id/eprint/58017"
+    },
+    {
+     "l": "France Stratégie, Objectif « zéro artificialisation nette » : quels leviers pour protéger les sols ?",
+     "a": 2019,
+     "u": "https://www.strategie-plan.gouv.fr/en/publications/objectif-zero-artificialisation-nette-leviers-proteger-sols"
+    },
+    {
+     "l": "Cerema, Analyse de la consommation d'espaces naturels, agricoles et forestiers 2011-2025",
+     "a": 2026,
+     "u": "https://artificialisation.developpement-durable.gouv.fr/sites/artificialisation/files/fichiers/2026/06/determinants_2011-2025.pdf"
+    }
+   ]
+  },
+  {
+   "c": "melenchon",
+   "id": "ecole.2",
+   "life": true,
+   "theme": "ecole",
+   "title": "Garder les écoles à classe unique et limiter le trajet scolaire à 15 minutes",
+   "quiz_text": "Garder les écoles à classe unique et limiter le trajet scolaire à 15 minutes",
+   "quiz_concret": "Les petites écoles de village restent ouvertes ; plus d'écoles et de collèges ruraux pour des trajets courts.",
+   "quiz_plus": "Fermer ou regrouper des écoles fait baisser les résultats à court terme, surtout chez les élèves venus de petites écoles (Danemark, 2018) ; les classes à plusieurs niveaux ne font ni mieux ni moins bien (synthèse de 56 études).",
+   "quiz_moins": "Aux Pays-Bas, regrouper les petites écoles a légèrement amélioré les résultats (2016) ; en France, les enseignants de classes à plusieurs niveaux jugent moins faisable d'aider à part les élèves en difficulté (DEPP 2026).",
+   "quiz_src": [
+    {
+     "l": "Beuchert, Humlum, Nielsen, Smith, regroupements d'écoles au Danemark (CESifo WP 6082, publié dans Economics of Education Review 2018)",
+     "a": 2018,
+     "u": "https://www.ifo.de/en/cesifo/publications/2016/working-paper/short-term-effects-school-consolidation-student-achievement"
+    },
+    {
+     "l": "Veenman, synthèse de 56 études sur les classes à plusieurs niveaux (Review of Educational Research, 1995), via Education Week",
+     "a": 1995,
+     "u": "https://www.edweek.org/education/ideas-findings-1/1996/05"
+    },
+    {
+     "l": "de Haan, Leuven, Oosterbeek, School consolidation and student achievement (Journal of Law, Economics and Organization)",
+     "a": 2016,
+     "u": "https://dare.uva.nl/id/e4bce2db-c078-4bfc-b20d-0cf53a47b7ba"
+    },
+    {
+     "l": "DEPP, Note d'information n° 26.30, Les classes multiniveaux dans le premier degré",
+     "a": 2026,
+     "u": "https://www.education.gouv.fr/sites/default/files/document/depp-ni-2026-30-classes-multiniveaux-518690.pdf"
+    }
+   ]
+  },
+  {
+   "c": "glucksmann",
+   "id": "ecole.2",
+   "life": true,
+   "theme": "ecole",
+   "title": "Conditionner l'argent public versé aux écoles privées à la mixité sociale",
+   "quiz_text": "Conditionner l'argent public versé aux écoles privées à la mixité sociale",
+   "quiz_concret": "Les écoles privées sous contrat devraient accueillir plus d'élèves modestes pour garder leurs financements.",
+   "quiz_plus": "Le privé sous contrat accueille 40 % d'élèves très favorisés (26 % en 2000) ; la Cour des comptes propose d'y moduler les moyens selon le profil social. À Paris, il fait près de la moitié de la ségrégation entre collèges (IPP).",
+   "quiz_moins": "La ségrégation vient aussi du public : à Paris, l'autre moitié tient aux écarts entre secteurs des collèges publics (IPP 2021). Le privé, payant, invoque des aides de cantine et de transport moindres pour les familles modestes.",
+   "quiz_src": [
+    {
+     "l": "Cour des comptes, L'enseignement privé sous contrat (via Banque des territoires)",
+     "a": 2023,
+     "u": "https://www.banquedesterritoires.fr/enseignement-prive-la-cour-des-comptes-veut-moduler-les-moyens-selon-la-composition-sociale-des"
+    },
+    {
+     "l": "IPP, Note n° 62, Secteurs multi-collèges à Paris : quel bilan après trois ans ? (Grenet, Souidi)",
+     "a": 2021,
+     "u": "https://halshs.archives-ouvertes.fr/halshs-03165725v1/file/n62-notesIPP-fevrier2021.pdf"
+    },
+    {
+     "l": "Protocole mixité de 2023 entre l'État et l'enseignement catholique (via Banque des territoires)",
+     "a": 2023,
+     "u": "https://www.banquedesterritoires.fr/mixite-sociale-dans-lenseignement-prive-la-balle-est-dans-le-camp-des-collectivites"
+    }
+   ]
+  },
+  {
+   "c": "philippe",
+   "id": "ecole.3",
+   "life": true,
+   "theme": "ecole",
+   "title": "Permettre au maire de mettre à l'amende les parents d'élèves absentéistes ou perturbateurs",
+   "quiz_text": "Permettre au maire de mettre à l'amende les parents d'élèves absentéistes ou perturbateurs",
+   "quiz_concret": "Sur proposition de l'école, les parents d'un élève absentéiste, harceleur ou perturbateur paient une amende.",
+   "quiz_plus": "Au pays de Galles, 56 % des professionnels jugent efficace l'amende aux parents pour absences, l'avertissement préalable étant vu comme dissuasif ; quelques petites études trouvent un effet des sanctions financières (2018).",
+   "quiz_moins": "Au pays de Galles, aucun lien visible entre amendes et niveau d'absences, et des parents paient l'amende plutôt que renoncer aux vacances (2018) ; en Angleterre, 93 % des amendes visent des vacances en période scolaire (EPI 2026).",
+   "quiz_src": [
+    {
+     "l": "Gouvernement gallois (ICF, Arad), Evaluation of Fixed Penalty Notices issued for regular non-attendance at school",
+     "a": 2018,
+     "u": "https://www.gov.wales/sites/default/files/statistics-and-research/2019-06/180508-evaluation-fixed-penalty-notices-issued-regular-non-attendance-school-en.pdf"
+    },
+    {
+     "l": "Education Policy Institute, The postcode lottery of absence fines",
+     "a": 2026,
+     "u": "https://epi.org.uk/publications-and-research/the-postcode-lottery-of-absence-fines/"
+    }
+   ]
+  },
+  {
+   "c": "retailleau",
+   "id": "ecole.1",
+   "life": true,
+   "theme": "ecole",
+   "title": "Rétablir un examen d'entrée en sixième",
+   "quiz_text": "Rétablir un examen d'entrée en sixième",
+   "quiz_concret": "Pour entrer au collège, il faudrait réussir un examen en fin de CM2.",
+   "quiz_plus": "Un examen commun à enjeu incite à travailler : en Allemagne, il fait gagner environ un tiers d'année en maths (Jürges 2005) ; en Floride, les élèves faibles retenus après un test progressent nettement à court terme.",
+   "quiz_moins": "Un échec fait refaire une année : le redoublement n'améliore pas les résultats à long terme et va de pair avec plus de décrochage (Cnesco 2014) ; échouer de peu à un examen-barrière réduit le diplôme des modestes (États-Unis).",
+   "quiz_src": [
+    {
+     "l": "Jürges, Schneider, Büchel, examens centraux et acquis des élèves (TIMSS Allemagne), CESifo WP 939, publié au JEEA en 2005",
+     "a": 2005,
+     "u": "https://www.ifo.de/DocDL/cesifo_wp939.pdf"
+    },
+    {
+     "l": "Schwerdt, West, Winters, redoublement sur test en Floride (NBER w21509)",
+     "a": 2015,
+     "u": "https://www.nber.org/papers/w21509"
+    },
+    {
+     "l": "Woessmann, Central exit exams improve student outcomes (IZA World of Labor)",
+     "a": 2018,
+     "u": "https://wol.iza.org/articles/central-exit-exams-improve-student-outcomes"
+    },
+    {
+     "l": "Cnesco, Lutter contre les difficultés scolaires : le redoublement et ses alternatives",
+     "a": 2014,
+     "u": "https://www.cnesco.fr/wp-content/uploads/2014/08/280814CNESCO_redoublement.pdf"
+    },
+    {
+     "l": "Papay, Murnane, Willett, examens-barrières au lycée dans le Massachusetts (NBER w14186, publié en 2010)",
+     "a": 2008,
+     "u": "https://www.nber.org/papers/w14186"
+    }
+   ]
+  },
+  {
+   "c": "retailleau",
+   "id": "ecole.2",
+   "life": true,
+   "theme": "ecole",
+   "title": "Supprimer le passage automatique en classe supérieure : les professeurs décident",
+   "quiz_text": "Supprimer le passage automatique en classe supérieure : les professeurs décident",
+   "quiz_concret": "Un élève au niveau jugé insuffisant peut redoubler, sur décision de ses professeurs.",
+   "quiz_plus": "En Floride, les élèves faibles retenus en fin de CE2 et soutenus progressent nettement à court terme, puis ont de meilleures notes au lycée (NBER 2015) ; au collège, les plus faibles peuvent en tirer un léger gain (Cnesco).",
+   "quiz_moins": "Selon les méta-analyses, le redoublement n'améliore pas les résultats à long terme et reste le meilleur prédicteur du décrochage ; une année de retard réduit d'environ 9 % le salaire des débuts de carrière (Cnesco 2014).",
+   "quiz_src": [
+    {
+     "l": "Schwerdt, West, Winters, redoublement sur test en Floride (NBER w21509)",
+     "a": 2015,
+     "u": "https://www.nber.org/papers/w21509"
+    },
+    {
+     "l": "Cnesco, Lutter contre les difficultés scolaires : le redoublement et ses alternatives",
+     "a": 2014,
+     "u": "https://www.cnesco.fr/wp-content/uploads/2014/08/280814CNESCO_redoublement.pdf"
+    }
+   ]
+  },
+  {
+   "c": "retailleau",
+   "id": "ecole.3",
+   "life": true,
+   "theme": "ecole",
+   "title": "Créer des établissements publics libres d'adapter programmes et calendrier",
+   "quiz_text": "Créer des établissements publics libres d'adapter programmes et calendrier",
+   "quiz_concret": "Des écoles publiques choisies par profs et familles adaptent programmes, rythme de travail et vacances.",
+   "quiz_plus": "En Angleterre, des collèges en difficulté devenus autonomes ont amélioré les résultats de leurs élèves, surtout là où l'autonomie gagnée était grande (2019) ; dans les pays développés, plus d'autonomie a amélioré les scores PISA.",
+   "quiz_moins": "Les écoles primaires anglaises devenues autonomes n'ont pas fait mieux (2017) ; en Suède, là où le choix de l'école s'est répandu, la ségrégation sociale et migratoire entre écoles a plus augmenté qu'ailleurs (IFAU 2015).",
+   "quiz_src": [
+    {
+     "l": "Eyles, Machin, The introduction of academy schools to England's education (JEEA)",
+     "a": 2019,
+     "u": "https://researchonline.lse.ac.uk/id/eprint/88581/"
+    },
+    {
+     "l": "Hanushek, Link, Woessmann, Does school autonomy make sense everywhere? Panel estimates from PISA (Journal of Development Economics)",
+     "a": 2013,
+     "u": "https://hanushek.stanford.edu/publications/does-school-autonomy-make-sense-everywhere-panel-estimates-pisa"
+    },
+    {
+     "l": "Eyles, Machin, McNally, Unexpected school reform: academisation of primary schools in England (CEP DP 1455, publié au Journal of Public Economics 2017)",
+     "a": 2017,
+     "u": "https://researchonline.lse.ac.uk/id/eprint/69027"
+    },
+    {
+     "l": "Böhlmark, Holmlund, Lindahl, School choice and segregation: evidence from Sweden (IFAU WP 2015:8)",
+     "a": 2015,
+     "u": "https://swopec.hhs.se/ifauwp/abs/ifauwp2015_008.htm"
+    }
+   ]
+  },
+  {
+   "c": "attal",
+   "id": "ecole.1",
+   "life": true,
+   "theme": "ecole",
+   "title": "Moins de 20 élèves par classe en primaire",
+   "quiz_text": "Moins de 20 élèves par classe en primaire",
+   "quiz_concret": "Les classes d'école passent sous 20 élèves ; la moyenne est aujourd'hui de 21 (24 dans le privé).",
+   "quiz_plus": "Sur données françaises, un élève de moins par classe en primaire améliore les scores d'environ 3 % d'écart-type, deux fois plus chez les élèves défavorisés (Piketty-Valdenaire 2006) ; la moyenne est de 21,3 élèves (DEPP).",
+   "quiz_moins": "L'effet est bien plus faible chez les élèves favorisés ; en français, les gains des CP-CE1 dédoublés ne se retrouvent plus à l'entrée en 6e (DEPP 2026). Il faut des salles : en 2017, 23 % des écoles REP+ ont dû en partager.",
+   "quiz_src": [
+    {
+     "l": "DEPP, Les Dossiers n° 173, L'impact de la taille des classes sur la réussite scolaire (Piketty, Valdenaire)",
+     "a": 2006,
+     "u": "https://media.education.gouv.fr/file/48/4/2484.pdf"
+    },
+    {
+     "l": "DEPP, Repères et références statistiques 2026, chapitre 2 (classes du premier degré)",
+     "a": 2026,
+     "u": "https://www.education.gouv.fr/sites/default/files/document/2-les-etablissementspdf-519279.pdf"
+    },
+    {
+     "l": "DEPP, Synthèse n° 8, Réduction de la taille de classe en éducation prioritaire",
+     "a": 2026,
+     "u": "https://www.education.gouv.fr/sites/default/files/document/r-duction-de-la-taille-de-classe-en-ducation-prioritaire-que-nous-apprennent-les-donn-es-de-la-depp--478949.pdf"
+    },
+    {
+     "l": "DEPP, effets à long terme (cohortes 2023-2024), via professeurs-des-ecoles.com",
+     "a": 2026,
+     "u": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+    }
+   ]
+  },
+  {
+   "c": "attal",
+   "id": "ecole.3",
+   "life": true,
+   "theme": "ecole",
+   "title": "Exiger le brevet pour entrer au lycée et un certificat d'études pour entrer au collège",
+   "quiz_text": "Exiger le brevet pour entrer au lycée et un certificat d'études pour entrer au collège",
+   "quiz_concret": "Sans ce diplôme, l'élève suit une année de transition avant d'entrer au collège ou au lycée.",
+   "quiz_plus": "Un examen commun à enjeu incite à travailler : en Allemagne, il fait gagner environ un tiers d'année en maths (Jürges 2005) ; en Floride, les élèves faibles retenus après un test progressent nettement à court terme.",
+   "quiz_moins": "En 2025, un quart des candidats d'origine défavorisée n'ont pas eu le brevet, contre 3 % des très favorisés (DEPP) ; aux États-Unis, échouer de peu à un examen-barrière réduit le diplôme des élèves modestes.",
+   "quiz_src": [
+    {
+     "l": "Jürges, Schneider, Büchel, examens centraux et acquis des élèves (TIMSS Allemagne), CESifo WP 939, publié au JEEA en 2005",
+     "a": 2005,
+     "u": "https://www.ifo.de/DocDL/cesifo_wp939.pdf"
+    },
+    {
+     "l": "Schwerdt, West, Winters, redoublement sur test en Floride (NBER w21509)",
+     "a": 2015,
+     "u": "https://www.nber.org/papers/w21509"
+    },
+    {
+     "l": "Woessmann, Central exit exams improve student outcomes (IZA World of Labor)",
+     "a": 2018,
+     "u": "https://wol.iza.org/articles/central-exit-exams-improve-student-outcomes"
+    },
+    {
+     "l": "DEPP, Note d'information n° 26.04, résultats définitifs du brevet 2025",
+     "a": 2026,
+     "u": "https://www.education.gouv.fr/sites/default/files/document/depp-ni-2026-04-corrige-le-040526pdf-516092.pdf"
+    },
+    {
+     "l": "Papay, Murnane, Willett, examens-barrières au lycée dans le Massachusetts (NBER w14186, publié en 2010)",
+     "a": 2008,
+     "u": "https://www.nber.org/papers/w14186"
+    }
+   ]
+  },
+  {
+   "c": "lisnard",
+   "id": "ecole.1",
+   "life": true,
+   "theme": "ecole",
+   "title": "Un certificat de fin de primaire obligatoire pour entrer au collège",
+   "quiz_text": "Un certificat de fin de primaire obligatoire pour entrer au collège",
+   "quiz_concret": "Pour entrer en sixième, il faudrait obtenir un certificat en fin de CM2.",
+   "quiz_plus": "Un examen commun à enjeu incite à travailler : en Allemagne, il fait gagner environ un tiers d'année en maths (Jürges 2005) ; en Floride, les élèves faibles retenus après un test progressent nettement à court terme.",
+   "quiz_moins": "Un échec fait refaire une année : le redoublement n'améliore pas les résultats à long terme et va de pair avec plus de décrochage (Cnesco 2014) ; échouer de peu à un examen-barrière réduit le diplôme des modestes (États-Unis).",
+   "quiz_src": [
+    {
+     "l": "Jürges, Schneider, Büchel, examens centraux et acquis des élèves (TIMSS Allemagne), CESifo WP 939, publié au JEEA en 2005",
+     "a": 2005,
+     "u": "https://www.ifo.de/DocDL/cesifo_wp939.pdf"
+    },
+    {
+     "l": "Schwerdt, West, Winters, redoublement sur test en Floride (NBER w21509)",
+     "a": 2015,
+     "u": "https://www.nber.org/papers/w21509"
+    },
+    {
+     "l": "Woessmann, Central exit exams improve student outcomes (IZA World of Labor)",
+     "a": 2018,
+     "u": "https://wol.iza.org/articles/central-exit-exams-improve-student-outcomes"
+    },
+    {
+     "l": "Cnesco, Lutter contre les difficultés scolaires : le redoublement et ses alternatives",
+     "a": 2014,
+     "u": "https://www.cnesco.fr/wp-content/uploads/2014/08/280814CNESCO_redoublement.pdf"
+    },
+    {
+     "l": "Papay, Murnane, Willett, examens-barrières au lycée dans le Massachusetts (NBER w14186, publié en 2010)",
+     "a": 2008,
+     "u": "https://www.nber.org/papers/w14186"
+    }
+   ]
+  },
+  {
+   "c": "lisnard",
+   "id": "ecole.3",
+   "life": true,
+   "theme": "ecole",
+   "title": "Supprimer la carte scolaire, qui affecte chaque élève à l'école de son quartier",
+   "quiz_text": "Supprimer la carte scolaire, qui affecte chaque élève à l'école de son quartier",
+   "quiz_concret": "L'école ou le collège ne dépend plus de l'adresse : chaque famille demande l'établissement de son choix.",
+   "quiz_plus": "La carte scolaire trie déjà par le logement : à Paris, un établissement public plus performant renchérit l'immobilier de 1,4 à 2,4 % (2010) ; en Suède, la concurrence entre écoles a amélioré les résultats moyens (IFAU 2012).",
+   "quiz_moins": "Après l'assouplissement de 2007, les collèges les plus défavorisés ont perdu au moins 9 % d'élèves de 6e et la ségrégation s'est accrue en ville (DEPP 2013) ; à Stockholm, l'admission sur notes l'a aussi accrue.",
+   "quiz_src": [
+    {
+     "l": "Fack, Grenet, When do better schools raise housing prices? Evidence from Paris public and private schools (Journal of Public Economics)",
+     "a": 2010,
+     "u": "https://researchonline.lse.ac.uk/id/eprint/30273"
+    },
+    {
+     "l": "Böhlmark, Lindahl, Independent schools and long-run educational outcomes (IFAU WP 2012:19, publié dans Economica)",
+     "a": 2012,
+     "u": "https://swopec.hhs.se/ifauwp/abs/ifauwp2012_019.htm"
+    },
+    {
+     "l": "IPP, Note n° 62, Secteurs multi-collèges à Paris : quel bilan après trois ans ? (Grenet, Souidi)",
+     "a": 2021,
+     "u": "https://halshs.archives-ouvertes.fr/halshs-03165725v1/file/n62-notesIPP-fevrier2021.pdf"
+    },
+    {
+     "l": "DEPP, Éducation & formations n° 83, Les effets de l'assouplissement de la carte scolaire",
+     "a": 2013,
+     "u": "https://cache.media.education.gouv.fr/file/2013/63/3/DEPP_EetF_2013_83_Effets_assouplissement_carte_scolaire_254633.pdf"
+    },
+    {
+     "l": "Söderström, Uusitalo, School choice and segregation: evidence from an admission reform (IFAU WP 2005:7)",
+     "a": 2005,
+     "u": "https://swopec.hhs.se/ifauwp/abs/ifauwp2005_007.htm"
+    }
+   ]
+  },
+  {
+   "c": "melenchon",
+   "id": "sante.1",
+   "life": true,
+   "theme": "sante",
+   "title": "Réguler l'installation des médecins et recruter des médecins salariés publics",
+   "quiz_text": "Réguler l'installation des médecins et recruter des médecins salariés publics",
+   "quiz_concret": "Les médecins ne pourraient plus s'installer librement partout ; l'État en salarierait davantage.",
+   "quiz_plus": "Pour les infirmières, limiter les installations en zone très dotée a réduit les écarts entre zones (Irdes, 2022) ; la Cour des comptes (2024) propose de lier l'installation en zone dotée à un temps partiel en zone sous-dotée.",
+   "quiz_moins": "L'Irdes relève aussi des contournements (remplacements, installations en bordure) qui profitent surtout aux zones intermédiaires ; à l'étranger, la régulation répartit mieux sans éviter les pénuries (DREES, 2021).",
+   "quiz_src": [
+    {
+     "l": "Irdes, Questions d'économie de la santé n° 270 (Duchaine, Chevillard, Mousquès) : zonage des infirmières libérales",
+     "a": 2022,
+     "u": "https://www.irdes.fr/recherche/questions-d-economie-de-la-sante/270-inegalites-territoriales-de-repartition-des-infirmieres-liberales.pdf"
+    },
+    {
+     "l": "Cour des comptes, L'organisation territoriale des soins de premier recours (synthèse)",
+     "a": 2024,
+     "u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240513-synthese-Organisation-territoriale-soins-premier-recours.pdf"
+    },
+    {
+     "l": "DREES, Les dossiers n° 89 (Polton, Chaput, Portela), Remédier aux pénuries de médecins : leçons de la littérature internationale (via Maire-info)",
+     "a": 2021,
+     "u": "https://www.maire-info.com/sante-publique/les-strategies-des-pays-de-locde-pour-en-finir-avec-la-desertification-medicale-art26-25913"
+    }
+   ]
+  },
+  {
+   "c": "melenchon",
+   "id": "sante.2",
+   "life": true,
+   "theme": "sante",
+   "title": "Rouvrir urgences, maternités et maisons de retraite publiques à moins de 30 minutes de chez soi",
+   "quiz_text": "Rouvrir urgences, maternités et maisons de retraite publiques à moins de 30 minutes de chez soi",
+   "quiz_concret": "Des services d'urgences, de maternité et des maisons de retraite fermés rouvriraient près de chez vous.",
+   "quiz_plus": "Loin d'une maternité, on accouche plus souvent en dehors (×2,3 à 31-45 km, ×3,2 au-delà), avec plus de décès néonatals (Combier, 2020) ; en urgence, 10 km de plus ajoutent environ 1 point de mortalité (Angleterre, 2007).",
+   "quiz_moins": "75 % des maternités de moins de 1 000 naissances recourent à l'intérim et le risque maternel croît dans les plus petites (Académie de médecine, 2023) ; vivre loin d'une maternité n'accroît pas la mortalité totale (Inserm, 2014).",
+   "quiz_src": [
+    {
+     "l": "Combier, Roussot, Chabernaud, Cottenet, Rozenberg, Quantin, Out-of-maternity deliveries in France (PLoS One)",
+     "a": 2020,
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039464/"
+    },
+    {
+     "l": "Nicholl, West, Goodacre, Turner, The relationship between distance to hospital and patient mortality in emergencies (Emergency Medicine Journal)",
+     "a": 2007,
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2464671/"
+    },
+    {
+     "l": "Académie nationale de médecine, rapport 23-05 (Ville, Rudigoz, Hascoët), Planification d'une politique en matière de périnatalité",
+     "a": 2023,
+     "u": "https://www.academie-medecine.fr/wp-content/uploads/2023/03/Rapport-23-05-Planification-d-une-politique-en-mati-re_2023_Bulletin-de-l-A.pdf"
+    },
+    {
+     "l": "Pilkington, Blondel, Drewniak, Zeitlin (Université Paris 8, Inserm), Where does distance matter? (European Journal of Public Health)",
+     "a": 2014,
+     "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4245008/"
+    }
+   ]
+  },
+  {
+   "c": "retailleau",
+   "id": "sante.1",
+   "life": true,
+   "theme": "sante",
+   "title": "Rendre le premier jour d'arrêt maladie non payé pour tous les salariés du privé",
+   "quiz_text": "Rendre le premier jour d'arrêt maladie non payé pour tous les salariés du privé",
+   "quiz_concret": "Le 1er jour d'arrêt maladie, souvent payé aujourd'hui par l'employeur, ne pourrait plus l'être.",
+   "quiz_plus": "À l'Éducation nationale, le jour de carence a réduit de 23 % le nombre d'arrêts et de 6 % les jours d'absence, sans effet notable sur la santé perçue (Insee, 2023) ; la Cour des comptes le recommande pour le privé depuis 2019.",
+   "quiz_moins": "Dans le privé, les salariés dont l'employeur paie la carence ne s'arrêtent pas plus souvent, et moins longtemps (DREES, 2015) ; dans l'État, le jour de carence a accru de 25 % les arrêts d'une semaine à trois mois (Insee).",
+   "quiz_src": [
+    {
+     "l": "Insee, Document de travail n° 2023-06 (Hillion, Maugendre), effet du jour de carence",
+     "a": 2023,
+     "u": "https://www.insee.fr/fr/statistiques/6964865"
+    },
+    {
+     "l": "Cour des comptes, Sécurité sociale 2019, ch. III « Les indemnités journalières »",
+     "a": 2019,
+     "u": "https://www.ccomptes.fr/system/files/2019-10/RALFSS-2019-03-indemnites-journalieres.pdf"
+    },
+    {
+     "l": "DREES (C. Pollak), L'effet du délai de carence sur le recours aux arrêts maladie des salariés du secteur privé (fiche de la Cour des comptes)",
+     "a": 2015,
+     "u": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique/explorer-evaluations/leffet-du-0"
+    },
+    {
+     "l": "Insee Analyses n° 36, Le jour de carence dans la fonction publique de l'État",
+     "a": 2017,
+     "u": "https://www.insee.fr/fr/statistiques/3181789"
+    },
+    {
+     "l": "Cour des comptes, Sécurité sociale 2024, ch. V « L'indemnisation des arrêts de travail pour maladie du régime général »",
+     "a": 2024,
+     "u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240529-Ralfss-2024-Indemnisation-arrets-de-travail-pour-maladie-du-regime-general.pdf"
+    }
+   ]
+  },
+  {
+   "c": "retailleau",
+   "id": "sante.2",
+   "life": true,
+   "theme": "sante",
+   "title": "Réduire les arrêts maladie en surveillant les médecins qui en prescrivent beaucoup",
+   "quiz_text": "Réduire les arrêts maladie en surveillant les médecins qui en prescrivent beaucoup",
+   "quiz_concret": "Les arrêts seraient réexaminés régulièrement et les médecins qui en prescrivent beaucoup, plus surveillés.",
+   "quiz_plus": "Là où l'Assurance maladie contrôle plus les arrêts courts, on s'arrête moins (Irdes, 2011) ; la mise sous objectif des médecins prescrivant deux fois plus que la moyenne réduit leurs prescriptions d'environ 30 % (Sénat, 2025).",
+   "quiz_moins": "Pour la Cour des comptes (2024), la hausse des dépenses d'arrêts de 2017 à 2022 tient en grande partie aux salaires, à l'emploi et au covid ; les procédures visant les médecins sont lourdes, mal acceptées et rares.",
+   "quiz_src": [
+    {
+     "l": "Irdes, Document de travail n° 39 (Ben Halima, Debrand, Regaert), Arrêts maladie : comprendre les disparités départementales",
+     "a": 2011,
+     "u": "https://www.irdes.fr/EspaceRecherche/DocumentsDeTravail/DT39ArretsMaladieComprendreDisparitesDepartement.pdf"
+    },
+    {
+     "l": "Sénat, commission des affaires sociales, rapport n° 111 (2025-2026) sur le projet de loi contre les fraudes sociales et fiscales (examen en commission)",
+     "a": 2025,
+     "u": "https://www.senat.fr/rap/l25-111/l25-1119.html"
+    },
+    {
+     "l": "Cour des comptes, Sécurité sociale 2024, ch. V « L'indemnisation des arrêts de travail pour maladie du régime général »",
+     "a": 2024,
+     "u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240529-Ralfss-2024-Indemnisation-arrets-de-travail-pour-maladie-du-regime-general.pdf"
+    }
+   ]
+  },
+  {
+   "c": "lisnard",
+   "id": "sante.1",
+   "life": true,
+   "theme": "sante",
+   "title": "Doubler le nombre d'étudiants admis en médecine",
+   "quiz_text": "Doubler le nombre d'étudiants admis en médecine",
+   "quiz_concret": "Deux fois plus de jeunes pourraient entrer chaque année en études de médecine.",
+   "quiz_plus": "Rapportée aux besoins, la densité de médecins ne retrouvera son niveau de 2021 que dans plusieurs années (DREES) ; environ 1 600 non-admis par an partent étudier la santé à l'étranger (Cour des comptes, 2024).",
+   "quiz_moins": "La hausse déjà engagée des admis s'est faite sans renfort d'enseignants (Cour des comptes, 2026) ; un admis n'exerce qu'une dizaine d'années après, et à l'étranger former plus n'a pas réglé la répartition (DREES, 2021).",
+   "quiz_src": [
+    {
+     "l": "Cour des comptes, Les aides à l'installation des médecins libéraux",
+     "a": 2025,
+     "u": "https://www.ccomptes.fr/sites/default/files/2025-11/20251112-Aides-installation-des-medecins-liberaux.pdf"
+    },
+    {
+     "l": "Cour des comptes, L'accès aux études de santé, quatre ans après la réforme",
+     "a": 2024,
+     "u": "https://www.ccomptes.fr/sites/default/files/2024-12/20241211-Lacces-aux-%C3%A9tudes-de-sante.pdf"
+    },
+    {
+     "l": "Cour des comptes, Le troisième cycle des études de médecine",
+     "a": 2026,
+     "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-3e-cycle-etudes-de-medecine_0.pdf"
+    },
+    {
+     "l": "DREES, Les dossiers n° 89 (Polton, Chaput, Portela), Remédier aux pénuries de médecins : leçons de la littérature internationale (via Maire-info)",
+     "a": 2021,
+     "u": "https://www.maire-info.com/sante-publique/les-strategies-des-pays-de-locde-pour-en-finir-avec-la-desertification-medicale-art26-25913"
+    }
+   ]
+  },
+  {
+   "c": "lisnard",
+   "id": "sante.2",
+   "life": true,
+   "theme": "sante",
+   "title": "Supprimer les agences régionales de santé et confier leur rôle aux préfets et aux élus",
+   "quiz_text": "Supprimer les agences régionales de santé et confier leur rôle aux préfets et aux élus",
+   "quiz_concret": "L'organisation des hôpitaux et des soins dans les territoires reviendrait aux préfets, avec les élus.",
+   "quiz_plus": "Pendant le Covid, agences et préfets ont formé une « double chaîne de commandement » peu lisible ; le Sénat (2026) relève aussi des élus associés tardivement et des délégations départementales sans vrai pouvoir de décision.",
+   "quiz_moins": "Ces agences ont réuni hôpital, soins de ville, prévention et veille sanitaire, avec « des progrès réels » (Sénat, 2026) ; les préfectures, qui en hériteraient, ont perdu 14 % de leurs agents en dix ans (Cour des comptes).",
+   "quiz_src": [
+    {
+     "l": "Sénat, délégation aux collectivités territoriales, rapport d'information n° 657 (2025-2026), Réforme des ARS : construire la proximité (II-B, préfets)",
+     "a": 2026,
+     "u": "https://www.senat.fr/rap/r25-657/r25-6579.html"
+    },
+    {
+     "l": "Sénat, délégation aux collectivités territoriales, rapport d'information n° 657 (2025-2026), Réforme des ARS : construire la proximité (II-A, relations avec les élus)",
+     "a": 2026,
+     "u": "https://www.senat.fr/rap/r25-657/r25-6573.html"
+    },
+    {
+     "l": "Sénat, délégation aux collectivités territoriales, rapport d'information n° 657 (2025-2026), Réforme des ARS : construire la proximité (I-B, échelon départemental)",
+     "a": 2026,
+     "u": "https://www.senat.fr/rap/r25-657/r25-6572.html"
+    },
+    {
+     "l": "Sénat, délégation aux collectivités territoriales, rapport d'information n° 657 (2025-2026), Réforme des ARS : construire la proximité (introduction)",
+     "a": 2026,
+     "u": "https://www.senat.fr/rap/r25-657/r25-6571.html"
+    },
+    {
+     "l": "Cour des comptes, Les effectifs de l'administration territoriale de l'État (observations définitives)",
+     "a": 2022,
+     "u": "https://www.ccomptes.fr/system/files/2022-05/20220531-S2022-0494-Effectifs-Etat-territorial.pdf"
+    }
+   ]
+  },
+  {
+   "c": "lisnard",
+   "id": "sante.3",
+   "life": true,
+   "theme": "sante",
+   "title": "Laisser les médecins s'installer librement, exonérés d'impôt local dans les déserts médicaux",
+   "quiz_text": "Laisser les médecins s'installer librement, exonérés d'impôt local dans les déserts médicaux",
+   "quiz_concret": "Aucune règle sur le lieu d'installation ; en zone qui manque de médecins, pas de taxe locale d'entreprise.",
+   "quiz_plus": "Chez les infirmières, les aides aux zones très sous-dotées ont accru la densité, et la limitation ailleurs a été en partie contournée (Irdes, 2022) ; à l'étranger, la régulation n'évite pas les pénuries (DREES, 2021).",
+   "quiz_moins": "La Cour des comptes (2025) juge sans effet tangible sur les déserts médicaux les exonérations fiscales déjà offertes aux médecins des zones rurales ou franches ; isolées, les aides financières pèsent peu (DREES, 2021).",
+   "quiz_src": [
+    {
+     "l": "Irdes, Questions d'économie de la santé n° 270 (Duchaine, Chevillard, Mousquès) : zonage des infirmières libérales",
+     "a": 2022,
+     "u": "https://www.irdes.fr/recherche/questions-d-economie-de-la-sante/270-inegalites-territoriales-de-repartition-des-infirmieres-liberales.pdf"
+    },
+    {
+     "l": "DREES, Les dossiers n° 89 (Polton, Chaput, Portela), Remédier aux pénuries de médecins : leçons de la littérature internationale (via Maire-info)",
+     "a": 2021,
+     "u": "https://www.maire-info.com/sante-publique/les-strategies-des-pays-de-locde-pour-en-finir-avec-la-desertification-medicale-art26-25913"
+    },
+    {
+     "l": "Cour des comptes, Les aides à l'installation des médecins libéraux",
+     "a": 2025,
+     "u": "https://www.ccomptes.fr/sites/default/files/2025-11/20251112-Aides-installation-des-medecins-liberaux.pdf"
+    }
+   ]
+  }
+ ]
 }
