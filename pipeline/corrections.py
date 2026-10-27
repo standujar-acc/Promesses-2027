@@ -379,9 +379,14 @@ k['inputs']=[i for i in k['inputs'] if '9 Md€' not in i.get('value','')]+[
 m['estimates'].append({"source":"Gouvernement (cité par l'Institut Montaigne)","year":2024,"value":"≈ 20 Md€/an","low_md":-20,"high_md":-20,"url":MONT})
 cb=C['melenchon']['sim']['carburant']; assert cb['actuel']==2.21
 cb.update(actuel=2.18,note="Prix du carburant bloqué à 1,70 €/l par décret, contre 2,18 €/l pour le SP95 la semaine du 23 octobre 2026 (relevé du ministère) ; blocage de 6 mois au plus par décret")
-# Le Pen, TVA sur l'énergie : même contexte de prix signalé (les chiffrages publiés datent des prix de 2024)
-k=M('le-pen','tva')['claude']; assert k['note'].startswith("Le périmètre")
-k['note']+=" ; chiffrages aux prix de 2024 : aux prix pétroliers d'octobre 2026, plus élevés (SP95 2,18 €/l), la part carburants coûterait davantage"
+# Le Pen, TVA sur l'énergie : même règle que les héritages de Glucksmann (le chiffre du camp n'entre pas dans la médiane)
+# et que pour Mélenchon (chiffrages crédibles seulement : francebudget.fr est classé source faible) → médiane Bercy 16,8 / Montaigne 11,3
+k=M('le-pen','tva')['claude']; assert k['central']==-14.5 and k['note'].startswith("Le périmètre")
+IDEP=[i['url'] for i in k['inputs'] if 'institut-entreprise' in i['url']][0]
+k.update(central=-14.1,low=-16.8,high=-11.3,formula="Médiane des chiffrages indépendants : Bercy 16,8 et Institut Montaigne 11,3 Md€ = 14,1 Md€ (le chiffre du camp, 12,2 Md€, et le simulateur francebudget.fr, 17,4 Md€, source faible, n'entrent pas dans la médiane)")
+k['note']+=" ; Bercy et l'Institut Montaigne chiffrent aux prix de 2024 ; le coût « progresse avec les prix » (Institut de l'Entreprise, octobre 2026, Brent au-dessus de 100 $)"
+for i in k['inputs']:
+    if i['url']==IDEP: i.update(label="Chiffre du camp (contre-budget), repris par l'Institut de l'Entreprise",source="Institut de l'Entreprise (2026)")
 # simulateur : plus de gain pour l'allocation de Philippe (mesure non chiffrable), une note à la place
 sp=C['philippe']['sim']; sp.pop('alloc_familiales',None)
 sp['famille']="Allocation unique de 350 €/mois par enfant dès le 1er enfant, dégressive selon le revenu, en remplacement d'aides existantes : non chiffrable (seuils et aides remplacées non publiés), donc non comptée ici."
