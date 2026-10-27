@@ -135,7 +135,7 @@ D['candidates'].sort(key=lambda c:ORD.index(c['id']))
 sl=C['lisnard']['sim']['salaire_net']; sl.update(promised_md=120, measure='cotisations', note="Baisse des cotisations : +400 €/mois promis à terme pour un salaire moyen (2 733 €), au prorata du revenu")
 sr=C['retailleau']['sim']; sr['alloc_familiales']=None
 sr['famille']="« Revenu familial » de 240 € par enfant dès le 1er enfant, qui remplace 12 aides familiales : le gain ou la perte dépend des aides que vous touchez aujourd'hui ; non chiffré ici."
-sr['minima_cut']={"pct":30,"label":"RSA, prime d'activité et ASS fusionnés en une allocation réduite de 30 %, avec 15 h d'activité"}
+sr.pop('minima_cut',None)  # « −30 % » sans source : remplacé par le plafond publié (review 5)
 C['melenchon']['sim']['jeunes_alloc']={"montant":1337,"label":"Garantie d'autonomie jusqu'à 1 337 €/mois (18-25 ans en formation, sous conditions)"}
 C['philippe']['sim']['alloc_familiales']={"unique":350,"degress_above":3000,"degress_factor":0.5,"note":"Allocation unique de 350 €/mois dès le 1er enfant ; moitié supposée au-delà de 3 000 € net (dégressivité non publiée, même hypothèse que notre chiffrage)"}
 C['le-pen']['sim'].pop('ir_exempt_under',None)
@@ -286,6 +286,66 @@ m['estimates']=[{"source":"attalpresident.fr, travail et salaires","year":2026,"
  {"source":"Proposition de loi n° 1791 (cosignée par G. Attal)","year":2025,"value":"Affiliation 8 mois sur 20, durée maximale 15 mois : 3,6 Md€ d'économies (estimation 2024)","low_md":3.6,"high_md":3.6,"url":"https://www.assemblee-nationale.fr/dyn/17/textes/l17b1791_proposition-loi.pdf"}]
 m['claude'].update(note="Indicatif : si la réforme reprend la proposition de loi de 2025, ≈ +3,6 Md€ ; le programme n'en donne pas les paramètres. Au-delà de 220 h, les heures sup sont déjà possibles avec un repos compensateur",
  inputs=[{"label":"Contingent annuel d'heures supplémentaires","value":"220 h par salarié à défaut d'accord","source":"Service-public.fr","url":"https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"}])
+# --- review 5 : simulateur, pertes et gains manquants (27/10/2026)
+SQ=D['statu_quo']
+SQ['carence_public']=1; SQ['carence_url']="https://www.service-public.gouv.fr/particuliers/vosdroits/F13861"
+SQ['chomage_mois']=18; SQ['chomage_url']="https://www.service-public.gouv.fr/particuliers/vosdroits/F14860"
+SQ['courses_url']="https://www.insee.fr/fr/statistiques/5370353"
+SQ['rsa_etrangers_url']="https://www.service-public.gouv.fr/particuliers/vosdroits/F19778"
+# aides réservées : même règle de calcul pour les quatre candidats qui en proposent (perte des allocations familiales et des minima selon la condition propre à chacun)
+for cid,rule in (('le-pen',{"af":"nonfr","minima":"lt5"}),('zemmour',{"af":"hors","minima":"hors"}),('lisnard',{"af":"lt5","minima":"lt5"}),('retailleau',{"af":"lt5","minima":"lt5"})):
+    s=C[cid]['sim']; s.pop('alloc_perte_etrangers',None); s.pop('alloc_perte_scope',None); s['etr']=rule
+# enseignants : les hausses chiffrées dans nos totaux apparaissent aussi dans le simulateur
+C['lisnard']['sim']['enseignants_pct']=20; C['lisnard']['sim']['enseignants_note']="+20 % en cinq ans, en échange d'une réorganisation des missions"
+C['attal']['sim']['enseignants_eur']={"montant":200,"note":"+200 € net par mois, jusqu'à 500 € en milieu de carrière (montant minimal retenu)"}
+C['philippe']['sim']['enseignants_note']="+20 % d'ici la fin du mandat"
+# TVA supprimée sur les produits de première nécessité (comptée dans le total)
+C['le-pen']['sim']['tva_courses']={"part":0.75,"note":"TVA de 5,5 % supprimée sur une centaine de produits de première nécessité, soit environ les trois quarts du panier (notre chiffrage rapporté à la TVA sur l'alimentation à domicile), si la baisse est répercutée"}
+# jours de carence des agents publics, durée d'indemnisation du chômage
+C['philippe']['sim']['carence_jours']=2; C['retailleau']['sim']['carence_jours']=3; C['zemmour']['sim']['carence_jours']=3
+C['philippe']['sim']['chomage_duree']={"mois":12,"avant":50}
+# jeunes parents : mesure comptée dans le total (−3 Md€), absente du simulateur
+C['philippe']['sim']['ir_jeunes_parents']={"note":"Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents des classes moyennes","max":2*SQ.get('salaire_moyen',2733)}
+# simulateur, review 5 bis : audit indépendant du 27/10/2026
+D['asof']='27 octobre 2026'
+for k,v in (('smic_url',"https://www.service-public.gouv.fr/particuliers/vosdroits/F2300"),):
+    SQ[k]=v
+SQ['alloc_familiales']['url']="https://www.service-public.gouv.fr/particuliers/vosdroits/F13213"
+SQ['ir']['url_decote']="https://www.service-public.gouv.fr/particuliers/vosdroits/F34328"
+SQ['retraite']['url']="https://www.service-public.gouv.fr/particuliers/vosdroits/F14043"
+SQ['salaries']=26965000; SQ['salaries_url']="https://www.insee.fr/fr/statistiques/8733039?sommaire=8733125"
+# heures sup : seules la CSG et la CRDS restent dues (impôt et cotisations salariales déjà exonérés)
+C['philippe']['sim']['overtime']={"label":"Heures sup sans impôt ni cotisation"}
+C['retailleau']['sim']['overtime']={"label":"Heures sup sans cotisation (même calcul que Philippe, faute de précision)"}
+# jeunes parents : exonération sous 3 000 € d'impôt, réduction de 3 000 € au-delà (source du camp, 8/10/2026)
+C['philippe']['sim']['ir_jeunes_parents']={"note":"Pas d'impôt sur le revenu pendant les 3 premières années de l'enfant","plafond":3000}
+# allocation unique : 350 € par mois et par enfant, dégressive (source du camp) ; aides fusionnées non déduites
+af=C['philippe']['sim']['alloc_familiales']; af['par_enfant']=True
+af['note']="Allocation unique de 350 €/mois par enfant dès le 1er enfant ; moitié supposée au-delà de 3 000 € net (dégressivité non publiée) ; les aides qu'elle remplace (supplément familial, prime de naissance…) ne sont pas déduites"
+# Retailleau : plafond publié des aides non contributives (70 % du SMIC net par adulte)
+C['retailleau']['sim']['plafond_aides']={"pct":0.7,"note":"Total des aides non contributives plafonné à 70 % du SMIC net par adulte (foyer d'un adulte supposé)"}
+C['retailleau']['sim']['minima_sociaux']="RSA, prime d'activité et ASS fusionnés, avec 15 h d'activité ; total des aides non contributives plafonné à 70 % du SMIC net par adulte."
+C['retailleau']['sim']['tous']=["Fin de MaPrimeRénov' : plus d'aide de l'État pour isoler un logement ou changer de chauffage."]
+C['retailleau']['sim']['etr']={"af":"lt5w","minima":"lt5w"}
+C['le-pen']['sim']['etr']={"af":"nonfr","minima":"lt5w"}
+# Mélenchon : taux publiés (note LFI d'octobre 2026)
+C['melenchon']['sim']['fonctionnaires']="Hausse du point d'indice de 10 % ; 10 000 enseignants et 10 000 soignants recrutés."
+C['melenchon']['sim']['minima_sociaux']="Toutes les prestations indexées ; allocations familiales et APL +10 % (non comptés dans notre total) ; minimum vieillesse porté au seuil de pauvreté."
+C['melenchon']['sim']['carburant']={"prix":1.70,"actuel":2.21,"note":"Prix du carburant bloqué à 1,70 €/l par décret, contre ≈ 2,21 €/l en octobre 2026 (SP95, relevé du ministère) ; blocage de 6 mois au plus par décret"}
+C['melenchon']['sim']['patrimoine']=[{"seuil":300000,"effet":"Fin de la flat tax : dividendes et intérêts imposés au barème de l'impôt sur le revenu."}]+C['melenchon']['sim'].get('patrimoine',[])
+m=M('melenchon','prix'); m['proposal']="Bloquer les prix de l'alimentation et de l'énergie de base ; carburant ramené à 1,70 €/l par décret."
+# Glucksmann : baisse de CSG financée par l'impôt sur les héritages, entièrement comptée dans le total
+C['glucksmann']['sim']['salaire_net']={"gain_mensuel":round(15e9/SQ['salaries']/12,1),"ref":SQ.get('salaire_moyen',2733),"prorata":True,"sans_plafond":True,"public":"salariés",
+ "note":"Baisse de la CSG sur les salaires : 15 Md€ répartis au prorata des salaires (27 millions de salariés, Insee), soit ≈ 46 €/mois au salaire moyen (notre calcul)"}
+C['glucksmann']['sim'].pop('salaire_note',None)
+C['glucksmann']['sim']['service_jeunes']="Service obligatoire de 10 mois : indemnité supposée égale à celle du service civique actuel"
+# Attal : 1 000 € à la naissance (compté dans le total)
+C['attal']['sim']['bebe']="1 000 € placés par l'État sur un compte retraite à la naissance, bloqués jusqu'à la retraite"
+C['attal']['sim']['jeunes']="Réseaux sociaux interdits aux moins de 15 ans."
+# Zemmour : jours de carence hors de la mesure chiffrée, donc en note seulement (même règle que les ruptures conventionnelles de Retailleau)
+C['zemmour']['sim'].pop('carence_jours',None)
+# Le Pen : donations, droit actuel précisé
+C['le-pen']['sim']['heritage']=[{"seuil":100000,"effet":"Donations exonérées jusqu'à 100 000 € par enfant tous les 10 ans, contre tous les 15 ans aujourd'hui (version 2024)."}]
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:

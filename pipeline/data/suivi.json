@@ -406,7 +406,7 @@
    ],
    "mesure": "prix",
    "sujet": "Blocage des prix : retenir 9 ou 24 Md€ ?",
-   "detail": "Institut Montaigne (2024) : 9 à 38 Md€, médiane 24 = moyenne des boucliers énergie 2022-2024 ; 9 = hypothèse de prix de l'énergie en baisse. Nous retenons 9 pour 2030 (borne basse 24). Passer à 24 creuserait le total de Mélenchon de 15 Md€. Règle à décider : médiane publiée ou hypothèse de prix 2030 ?",
+   "detail": "Institut Montaigne (2024) : 9 à 38 Md€, médiane 24 = moyenne des boucliers énergie 2022-2024 ; 9 = hypothèse de prix de l'énergie en baisse. Nous retenons 9 pour 2030 (borne basse 24). Passer à 24 creuserait le total de Mélenchon de 15 Md€. Règle à décider : médiane publiée ou hypothèse de prix 2030 ? Élément nouveau : la note LFI d'octobre 2026 précise un carburant bloqué à 1,70 €/l, alors que le SP95 est à ≈ 2,21 €/l et le gazole à ≈ 2,33 €/l (relevé du ministère, octobre 2026) : un contexte de prix élevés, plus proche de la médiane de crise (24 Md€) que de l'hypothèse de prix en baisse (9 Md€).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -675,6 +675,79 @@
    "mesure": null,
    "sujet": "Réforme de l'assurance chômage non chiffrée",
    "detail": "Citée parmi les postes non chiffrés du total de Retailleau. Même traitement que le point sur Attal (S035) : chercher les paramètres et un chiffrage publié.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S047",
+   "type": "a_trancher",
+   "candidats": [
+    "philippe"
+   ],
+   "mesure": "famille",
+   "sujet": "Allocation unique : 350 € par enfant, pas par famille",
+   "detail": "Le site du camp (8/10/2026) dit « 350 euros par mois et par enfant », « dégressive avec le revenu », « à coût constant en rationalisant les dispositifs existants » (allocations familiales, supplément familial de traitement, prime de naissance). Notre chiffrage (−12 Md€) compte 350 € par famille. Par enfant, avec la même hypothèse de dégressivité (−50 %) et sans déduire les aides fusionnées : ≈ −22 Md€. Le simulateur suit déjà la source (par enfant). Options : recalculer le chiffrage par enfant, ou passer la mesure en « non chiffrable » (dégressivité et aides fusionnées non publiées, même règle que l'allocation unique de Lisnard).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S048",
+   "type": "a_trancher",
+   "candidats": [
+    "retailleau"
+   ],
+   "mesure": "travail",
+   "sujet": "Fusion des minima : le « −30 % » de notre chiffrage n'a pas de source",
+   "detail": "Notre chiffrage (+5,5 Md€) applique −30 % au RSA et aux minima ; aucune source ne le mentionne (programme, réponse de LR au Monde du 9/01/2026, presse). La seule règle publiée est un plafond des aides non contributives à 70 % du SMIC net par adulte. Le simulateur applique désormais ce plafond. Options : chiffrer le plafond (scénario iFRAP « 70 % du SMIC » ≈ +34 Md€, sur un périmètre à vérifier) ou passer la mesure en « non chiffrable » faute d'étude du plafond tel que proposé.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S049",
+   "type": "a_trancher",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Part « rendue aux agents » dans la règle commune des suppressions de postes",
+   "detail": "Notre règle commune suppose que la moitié des économies sur les postes supprimés revient aux agents restants (hausses de salaire). Ce n'est pas une promesse des candidats ; le simulateur ne l'affiche pas. À décider : l'afficher en note pour les agents publics chez les six candidats concernés, ou non.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S050",
+   "type": "a_verifier",
+   "candidats": [
+    "melenchon"
+   ],
+   "mesure": null,
+   "sujet": "Hausse de 10 % des allocations familiales et des APL, abrogation des réformes du chômage",
+   "detail": "Chiffrées par le camp (8 Md€ ; 3 Md€) dans la note d'octobre 2026, mais hors de notre total : à intégrer avec le même niveau de chiffrage que les autres mesures, puis au simulateur.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S051",
+   "type": "a_ajouter",
+   "candidats": [
+    "retailleau"
+   ],
+   "mesure": null,
+   "sujet": "« Revenu familial » de 240 € par enfant",
+   "detail": "Remplace 12 aides familiales ; non chiffré dans nos totaux, donc absent du simulateur (règle : aucun gain pour une mesure non chiffrée). À chiffrer comme l'allocation unique de Philippe.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
