@@ -1,7 +1,7 @@
 """Test de bout en bout de public/index.html (Playwright, Chromium).
 Usage : python3 tests/smoke.py   (après python3 pipeline/run.py)
 Vérifie : pas d'erreur JS, pas de débordement à 360 px (clair et sombre), navigation et retour,
-équilibre du quiz (16 duels, 4 apparitions par candidat), simulateur sur une matrice de profils."""
+équilibre du quiz (20 duels, 5 apparitions par candidat), simulateur sur une matrice de profils."""
 import os, sys
 from collections import Counter
 from playwright.sync_api import sync_playwright
@@ -35,7 +35,7 @@ with sync_playwright() as p:
     for _ in range(50):
         pg.evaluate('quizStart()')
         qs = pg.evaluate('quizState.qs.map(q=>q.opts.map(o=>o.c))'); c = Counter(x for q in qs for x in q)
-        if len(qs) != 16 or set(c.values()) != {4}: bad += 1
+        if len(qs) != 20 or set(c.values()) != {5}: bad += 1
     sans_effets = pg.evaluate("D.candidates.flatMap(c=>c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)&&!(m.quiz_plus&&m.quiz_moins)).map(m=>c.id+'.'+m.id))")
     check(not sans_effets, f'quiz : chaque proposition a ses deux effets {sans_effets[:3]}')
     check(bad == 0, f'quiz équilibré sur 50 tirages ({bad} écarts)')
