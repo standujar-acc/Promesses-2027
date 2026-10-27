@@ -800,6 +800,51 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": null
+  },
+  {
+   "id": "S055",
+   "type": "a_trancher",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Quiz : règle de proximité du résultat",
+   "detail": "Règle appliquée depuis le 27/10/2026, pour la lisibilité (ce qui est affiché est ce qui est compté) : proximité = part des propositions d'un candidat retenues (choisie ou « Les deux ») ; une proposition d'un thème marqué ★ compte deux fois ; égalités jamais départagées (ordre tiré au hasard). Remplace l'ancienne règle (+1, « Les deux » +½, « Aucune » 0, écartée −1), qui donnait des classements contraires aux chiffres affichés. Alternatives : garder une pénalité pour une proposition écartée ; « Les deux » à ½ ; poids ×2 ou autre. À confirmer par le porteur.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S056",
+   "type": "a_trancher",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Quiz : effet sur le déficit quand « Les deux » est choisi",
+   "detail": "Quand le lecteur retient les deux propositions d'un duel, leurs effets sur le déficit s'additionnent (ex. deux versions du retour à 62 ans : −15,8 et −11,8). Une note le signale sous le chiffre. Options : garder l'addition, compter la plus coûteuse, ou afficher une fourchette.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S057",
+   "type": "a_verifier",
+   "candidats": [
+    "le-pen",
+    "glucksmann",
+    "philippe",
+    "attal",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Quiz : candidats absents des duels école, santé ou logement",
+   "detail": "Seules les propositions « Vie quotidienne » précises et reconfirmées entrent au quiz. Absents faute de telles propositions : école (Le Pen, Zemmour), santé (Le Pen, Glucksmann, Philippe, Attal, Zemmour : propositions non reconfirmées ou intentions), logement (Glucksmann, Zemmour). À revoir à chaque programme publié (LFI 6/11, RN 17/11, Zemmour 2026) : une proposition qui devient précise et reconfirmée reçoit son texte et ses deux explications.",
+   "echeance": "2026-11-18",
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
   }
  ]
 }

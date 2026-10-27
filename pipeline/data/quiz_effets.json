@@ -1564,5 +1564,246 @@
 "u": "https://www.insee.fr/fr/statistiques/fichier/7941419/RPM2024-F25.pdf"
 }
 ]
+],
+"le-pen.logement.2": [
+"Le quota a fait bâtir du logement social sans guère accroître la part de ménages modestes (Chapelle et al. 2025) ; en Angleterre, sans contraintes d'urbanisme, les prix seraient d'un tiers plus bas (Hilber, Vermeulen 2016).",
+"Le quota explique 61 % de la hausse du parc social des communes visées en 2000-2008 (même étude) ; 62 % des terres agricoles et naturelles consommées pour l'habitat l'étaient dans des communes peu tendues (Cerema 2026).",
+[
+{
+"l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE WP 2025-18)",
+"a": 2025,
+"u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
+},
+{
+"l": "France Stratégie, logement social et ségrégation (via Banque des Territoires)",
+"a": 2021,
+"u": "https://www.banquedesterritoires.fr/des-logements-sociaux-mieux-repartis-sur-le-territoire-mais-sans-effet-sur-la-mixite-sociale"
+},
+{
+"l": "Hilber et Vermeulen, The Impact of Supply Constraints on House Prices in England (Economic Journal), présentation des auteurs",
+"a": 2016,
+"u": "https://ec.europa.eu/economy_finance/events/2016/20161130-workshop/documents/wouter_vermeulen_en.pdf"
+},
+{
+"l": "CGDD, Le Point sur n° 195, effet de la loi SRU (via Banque des Territoires)",
+"a": 2014,
+"u": "https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social"
+},
+{
+"l": "Cerema, Analyse de la consommation d'espaces naturels, agricoles et forestiers 2011-2025",
+"a": 2026,
+"u": "https://artificialisation.developpement-durable.gouv.fr/sites/artificialisation/files/fichiers/2026/06/determinants_2011-2025.pdf"
+}
+]
+],
+"le-pen.logement.3": [
+"La prime finance surtout des gestes isolés (73 % des dossiers), peu de rénovations complètes (1,7 %) (France Stratégie 2024) ; un prêt coûte moins à l'État, et l'éco-prêt est passé de 19 000 à 82 000 par an en 2018-2022.",
+"Les ménages modestes, qui touchent 81 % des primes, paient encore 47 à 64 % des travaux (France Stratégie 2024) ; les plus fragiles accèdent peu au crédit, et le prêt gagé sur le logement n'a servi qu'une centaine de fois.",
+[
+{
+"l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov'",
+"a": 2024,
+"u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
+},
+{
+"l": "Sénat, commission d'enquête sur la rénovation énergétique des logements, rapport n° 811",
+"a": 2023,
+"u": "https://www.senat.fr/rap/r22-811-1/r22-811-1_mono.html"
+}
+]
+],
+"melenchon.logement.1": [
+"Isoler baisse la consommation réelle de 5 % (électricité) à 6,6 % (gaz), jusqu'à 13 % dans les logements les plus énergivores (Insee-SDES 2026) ; les travaux aidés en 2022 éviteraient 1,8 Mt de CO2 par an (estimation théorique).",
+"Les économies réelles ne font qu'environ 42 % des gains calculés (Insee-SDES 2026) ; en 2021, l'objectif de dossiers aidés a été dépassé (644 000), surtout avec des gestes isolés plutôt que des rénovations complètes.",
+[
+{
+"l": "Insee-SDES, document de travail 2025-16, isolation et consommation réelle d'énergie",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+},
+{
+"l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov'",
+"a": 2024,
+"u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
+}
+]
+],
+"philippe.logement.1": [
+"Le surpeuplement freine la scolarité : 60 % des jeunes de 15 ans vivant à deux enfants ou plus par chambre ont redoublé, un lien jugé causal (Goux, Maurin 2005) ; ces prêts aident à acheter un bien plus adapté (ANIL).",
+"Effet d'aubaine : 85 % des bénéficiaires du prêt à taux zéro auraient acheté sans lui ; le prêt est associé à +7 % sur le prix des terrains, et un prêt plus élevé n'est pas lié à un logement plus grand (IPP 2016).",
+[
+{
+"l": "Goux et Maurin, The effect of overcrowded housing on children's performance at school (Journal of Public Economics)",
+"a": 2005,
+"u": "https://ideas.repec.org/a/eee/pubeco/v89y2005i5-6p797-819.html"
+},
+{
+"l": "IPP, rapport n° 16, Analyse des dispositifs d'aide à l'accession à la propriété",
+"a": 2016,
+"u": "https://shs.hal.science/halshs-02514699v1/file/R16-accession-propriete-rapport-IPP-decembre2016.pdf"
+}
+]
+],
+"retailleau.logement.1": [
+"Construire fait baisser les loyers : en Allemagne, +1 % de logements neufs les réduit de 0,19 %, y compris pour les logements modestes (Mense 2025) ; aux États-Unis, un grand immeuble neuf baisse d'environ 6 % les loyers voisins.",
+"La chute des chantiers (−31 % de 2022 à 2024) suit la remontée des taux d'intérêt, qui a réduit la capacité d'emprunt des ménages (Cour des comptes 2026) ; l'effet de procédures plus rapides sur ce frein n'est pas mesuré.",
+[
+{
+"l": "Mense, The impact of new housing supply on the distribution of rents (Journal of Political Economy Macroeconomics)",
+"a": 2025,
+"u": "https://researchonline.lse.ac.uk/id/eprint/127192"
+},
+{
+"l": "Asquith, Mast, Reed, Local Effects of Large New Apartment Buildings in Low-Income Areas (Review of Economics and Statistics)",
+"a": 2023,
+"u": "https://ideas.repec.org/a/tpr/restat/v105y2023i2p359-375.html"
+},
+{
+"l": "Cour des comptes, L'encadrement des loyers",
+"a": 2026,
+"u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+}
+]
+],
+"retailleau.logement.2": [
+"Un gain de pouvoir d'achat pour les familles qui empruntent : le crédit d'impôt de 2007 a touché 900 000 ménages dès 2009 (Sénat) ; au Danemark, la déduction a conduit à acheter des logements plus grands (Gruber et al.).",
+"Peu d'effet sur l'accession : les banques n'en tenaient pas compte pour prêter (Sénat 2010) ; au Danemark, aucun effet sur le nombre de propriétaires mais plus de dette ; aux États-Unis, effet limité aux ménages aisés.",
+[
+{
+"l": "Sénat, avis sur le PLF 2011 (logement), crédit d'impôt sur les intérêts d'emprunt",
+"a": 2010,
+"u": "https://www.senat.fr/rap/a10-113-8/a10-113-81.html"
+},
+{
+"l": "Gruber, Jensen, Kleven, Do People Respond to the Mortgage Interest Deduction? (NBER WP 23600, Danemark)",
+"a": 2017,
+"u": "https://www.nber.org/papers/w23600"
+},
+{
+"l": "Hilber et Turner, The mortgage interest deduction and its impact on homeownership decisions (Review of Economics and Statistics)",
+"a": 2014,
+"u": "https://researchonline.lse.ac.uk/id/eprint/49843/"
+}
+]
+],
+"retailleau.logement.3": [
+"Plus de terrains et de logements à louer : en Angleterre, sans contraintes d'urbanisme, les prix seraient d'un tiers plus bas ; à l'étranger, 12 études sur 16 trouvent que l'encadrement réduit l'offre locative (Cour des comptes).",
+"L'encadrement a baissé les loyers de 2 à 4 % en moyenne pour 1,2 million de locataires (évaluation 2026) ; 62 % des terres agricoles et naturelles consommées pour l'habitat l'étaient dans des communes peu tendues (Cerema).",
+[
+{
+"l": "Hilber et Vermeulen, The Impact of Supply Constraints on House Prices in England (Economic Journal), présentation des auteurs",
+"a": 2016,
+"u": "https://ec.europa.eu/economy_finance/events/2016/20161130-workshop/documents/wouter_vermeulen_en.pdf"
+},
+{
+"l": "Cour des comptes, L'encadrement des loyers",
+"a": 2026,
+"u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+},
+{
+"l": "Cerema, Analyse de la consommation d'espaces naturels, agricoles et forestiers 2011-2025",
+"a": 2026,
+"u": "https://artificialisation.developpement-durable.gouv.fr/sites/artificialisation/files/fichiers/2026/06/determinants_2011-2025.pdf"
+}
+]
+],
+"attal.logement.1": [
+"Les changements de règles font attendre : au remplacement du crédit d'impôt par la prime, les dossiers ont chuté (181 000 en 2020, 698 000 en 2021) ; une commission d'enquête du Sénat (2023) demande des aides programmées.",
+"On s'engage sur cinq ans de dépenses alors que les économies réelles de l'isolation ne font qu'environ 42 % des gains calculés (Insee-SDES 2026) et que la prime finance surtout des gestes isolés (France Stratégie 2024).",
+[
+{
+"l": "Sénat, commission d'enquête sur la rénovation énergétique des logements, rapport n° 811",
+"a": 2023,
+"u": "https://www.senat.fr/rap/r22-811-1/r22-811-1_mono.html"
+},
+{
+"l": "Insee-SDES, document de travail 2025-16, isolation et consommation réelle d'énergie",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+},
+{
+"l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov'",
+"a": 2024,
+"u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
+}
+]
+],
+"attal.logement.2": [
+"Le logement intermédiaire vise les revenus moyens qui ne peuvent payer les loyers libres en zone tendue : 320 000 à 560 000 ménages en attente selon l'IGF et le CGEDD (2021), pour qui le marché pourrait en financer 50 000 par an.",
+"Les logements sociaux bâtis sous le quota sont déjà allés surtout à des revenus moyens, la part de ménages modestes a peu augmenté (Chapelle et al. 2025) ; compter l'intermédiaire réduit le nombre de logements sociaux à bâtir.",
+[
+{
+"l": "IGF-CGEDD, logement locatif intermédiaire (via Banque des Territoires)",
+"a": 2021,
+"u": "https://www.banquedesterritoires.fr/logement-intermediaire-ligf-et-le-cgedd-reviennent-la-charge-sur-le-pinel"
+},
+{
+"l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE WP 2025-18)",
+"a": 2025,
+"u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
+}
+]
+],
+"lisnard.logement.1": [
+"Le quota a fait bâtir du logement social sans guère changer la mixité : la part de ménages modestes a peu augmenté et la ségrégation des plus pauvres a à peine baissé (Chapelle et al. 2025 ; France Stratégie 2021).",
+"Le quota explique 61 % de la hausse du parc social des communes visées en 2000-2008 (même étude), près de la moitié selon le CGDD ; 2,8 millions de ménages demandaient un logement social fin 2024 (Cour des comptes).",
+[
+{
+"l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE WP 2025-18)",
+"a": 2025,
+"u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
+},
+{
+"l": "France Stratégie, logement social et ségrégation (via Banque des Territoires)",
+"a": 2021,
+"u": "https://www.banquedesterritoires.fr/des-logements-sociaux-mieux-repartis-sur-le-territoire-mais-sans-effet-sur-la-mixite-sociale"
+},
+{
+"l": "Cour des comptes, article 55 de la loi SRU (via Banque des Territoires)",
+"a": 2021,
+"u": "https://www.banquedesterritoires.fr/la-cour-des-comptes-et-le-senat-daccord-pour-faire-evoluer-larticle-55-de-la-loi-sru"
+},
+{
+"l": "CGDD, Le Point sur n° 195, effet de la loi SRU (via Banque des Territoires)",
+"a": 2014,
+"u": "https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social"
+},
+{
+"l": "Cour des comptes, L'encadrement des loyers",
+"a": 2026,
+"u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+}
+]
+],
+"lisnard.logement.2": [
+"Plus de terrain à bâtir : la Cour des comptes (2026) range cet objectif parmi les règles qui peuvent restreindre l'offre de logements ; en Angleterre, sans contraintes d'urbanisme, les prix seraient d'un tiers plus bas.",
+"L'artificialisation est l'une des principales causes de perte de biodiversité (France Stratégie 2019) ; 62 % des terres consommées pour l'habitat l'étaient en communes peu tendues, la moitié à moins de 8 logements par hectare.",
+[
+{
+"l": "Cour des comptes, L'encadrement des loyers",
+"a": 2026,
+"u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+},
+{
+"l": "Hilber et Vermeulen, The Impact of Supply Constraints on House Prices in England (Economic Journal), présentation des auteurs",
+"a": 2016,
+"u": "https://ec.europa.eu/economy_finance/events/2016/20161130-workshop/documents/wouter_vermeulen_en.pdf"
+},
+{
+"l": "Hilber et Vermeulen, Economic Journal 126(591)",
+"a": 2016,
+"u": "https://researchonline.lse.ac.uk/id/eprint/58017"
+},
+{
+"l": "France Stratégie, Objectif « zéro artificialisation nette » : quels leviers pour protéger les sols ?",
+"a": 2019,
+"u": "https://www.strategie-plan.gouv.fr/en/publications/objectif-zero-artificialisation-nette-leviers-proteger-sols"
+},
+{
+"l": "Cerema, Analyse de la consommation d'espaces naturels, agricoles et forestiers 2011-2025",
+"a": 2026,
+"u": "https://artificialisation.developpement-durable.gouv.fr/sites/artificialisation/files/fichiers/2026/06/determinants_2011-2025.pdf"
+}
+]
 ]
 }
