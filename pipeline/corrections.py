@@ -302,7 +302,9 @@ QE={k:v for k,v in json.load(open('data/quiz_effets.json')).items() if not k.sta
 for c in D['candidates']:
     for m in c['measures']:
         k=c['id']+'.'+m['id']
-        if k in QE: m['quiz_plus'],m['quiz_moins']=QE[k]
+        if k in QE:
+            m['quiz_plus'],m['quiz_moins']=QE[k][0],QE[k][1]
+            if len(QE[k])>2: m['quiz_src']=QE[k][2]
 assert set(QE)<={c['id']+'.'+m['id'] for c in D['candidates'] for m in c['measures']}, "quiz_effets.json : mesure inconnue"
 for c0 in D['candidates']:
     for m in c0['measures']:
