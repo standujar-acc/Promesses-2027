@@ -43,6 +43,33 @@ with sync_playwright() as p:
     check(bad == 0, f'quiz équilibré sur 50 tirages ({bad} écarts)')
     check(rep == 0, f'quiz : aucune proposition répétée dans une partie ({rep} parties sur 50)')
 
+    # résultat du quiz : une pastille par proposition vue, classement selon le score, thème marqué compté double
+    pg.set_viewport_size({'width': 360, 'height': 800}); pg.evaluate('quizStart()')
+    for i in range(20):
+        pg.click(f'#v-quiz [data-k="{["0", "1", "both", "none", "0"][i % 5]}"]')
+    DU = "quizScore(quizState).duels.map(d=>({t:d.t,o:d.opts.map(o=>[o.c,o.k])}))"
+    def expected(duels, imp):
+        pts, w = Counter(), Counter()
+        for d in duels:
+            for c, k in d['o']:
+                x = 2 if d['t'] in imp else 1
+                w[c] += x; pts[c] += x * {'pick': 1, 'both': .5, 'none': 0, 'rej': -1}[k]
+        return {c: pts[c] / w[c] for c in w}
+    r = pg.evaluate("""()=>{ const sc=quizScore(quizState).score;
+      return {dots:[...document.querySelectorAll('.qc .qdots')].map(e=>e.children.length), apps:sc.map(x=>x.x.a), v:Object.fromEntries(sc.map(x=>[x.c.id,x.v])),
+        sorted:sc.every((x,i)=>!i||sc[i-1].v>=x.v), duels:document.querySelectorAll('.qdet .qd').length, near:document.querySelectorAll('[data-cand]').length,
+        ok:[...document.querySelectorAll('[data-cand]')].every(b=>b.closest('.card').querySelectorAll('.results button').length===quizScore(quizState).score.find(x=>x.c.id===b.dataset.cand).x.a),
+        w:document.documentElement.scrollWidth}; }""")
+    ex = expected(pg.evaluate(DU), set())
+    check(r['dots'] == r['apps'] and r['sorted'] and all(abs(r['v'][c] - ex[c]) < 1e-9 for c in ex), 'quiz résultat : une pastille par proposition vue, classement selon le score')
+    check(r['duels'] == 20 and r['near'] == 2 and r['ok'], 'quiz résultat : détail des 20 duels ; deux plus proches avec ce qui colle et ce qui colle moins')
+    check(r['w'] <= 360, 'quiz résultat : pas de débordement à 360 px')
+    t = pg.evaluate("document.querySelector('.star').dataset.t"); pg.click('.star >> nth=0')
+    v2 = pg.evaluate("Object.fromEntries(quizScore(quizState).score.map(x=>[x.c.id,x.v]))"); ex2 = expected(pg.evaluate(DU), {t})
+    check(pg.evaluate(f"document.querySelector('.star[data-t=\"{t}\"]').getAttribute('aria-pressed')") == 'true' and all(abs(v2[c] - ex2[c]) < 1e-9 for c in ex2),
+          'quiz résultat : un thème marqué compte double')
+    pg.click('.star >> nth=0'); pg.evaluate('quizImp.clear()'); pg.set_viewport_size({'width': 390, 'height': 844})
+
     pg.evaluate("go('moi')"); worst = 0
     for st in ('prive', 'public', 'enseignant', 'independant', 'chomage', 'minima', 'etudiant', 'retraite'):
         pg.evaluate(f"document.querySelector('#s-status [data-v=\"{st}\"]').click()")
