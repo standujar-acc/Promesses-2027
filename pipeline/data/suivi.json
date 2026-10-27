@@ -159,10 +159,10 @@
    "sujet": "Ampleur de la programmation pour l'école non publiée",
    "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Coût publié le 30/08/2026 (+10 % pour tous, jusqu'à +25 %, « près de 6 milliards », Capital) : mesure chiffrée avec la règle commune, 70 % en 2030, −4,2 (−6 à −2,3)."
   },
   {
    "id": "S012",
@@ -172,7 +172,7 @@
    ],
    "mesure": "ukraine",
    "sujet": "Montant de la hausse de l'aide à l'Ukraine non publié",
-   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp. 27/10 : saisie des avoirs russes proposée de nouveau (LCP, 9/10/2026) ; montant toujours non publié.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -264,10 +264,10 @@
    "sujet": "Publics et seuils des aides après 5 ans non précisés",
    "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Montaigne a chiffré exactement cette condition (5 ans de séjour régulier, 2022) : 2,1 Md€ (1,6 à 2,7), compté « si la révision passe » ; le camp annonce 8 Md€ (29/08/2026), hors médiane."
   },
   {
    "id": "S019",
@@ -436,10 +436,10 @@
    "sujet": "Chiffres du camp différents selon les documents",
    "detail": "51 Md€ cumulés contre 40 Md€ par an : vérifier lequel le camp retient dans son dernier document.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Plan du 12/10/2026 (Capital, iFRAP, Public Sénat) : 197 Md€ cumulés d'ici 2032 ; « entreprises » 30 Md€ par an (15 de cotisations patronales, 15 d'impôts de production, ce dernier montant égal au rendement annuel des taxes visées). Cotisations patronales ajoutées : −15 (baisse d'impôt sans calendrier comptée en entière, comme partout), heures sup comprises ; « ménages » 21 Md€ non chiffrable (instruments non publiés)."
   },
   {
    "id": "S031",
@@ -530,10 +530,10 @@
    "sujet": "Annonces du discours d'Orléans (25/10/2026)",
    "detail": "Part fiscale pleine dès le 2e enfant ; exonération d'impôt sur le revenu des moins de 30 ans (≈ 2 Md€/an selon LCP, cité par Capital) ; plafond des dons familiaux relevé ; fonds souverain ; frein à l'endettement et « communauté nationale » dans la Constitution par référendum ; minimum vieillesse à 1 000 € de 2022 non reconfirmé. Sources : Europe 1, Capital (25/10/2026). Non recoupé : suppression de la TVA sur une centaine de produits (Le Courrier des Stratèges). À vérifier : le simulateur affiche encore « mesure de 2022, non reconfirmée en 2026 » pour l'exonération des moins de 30 ans (corrections.py, sim['jeunes']) ; ne changer qu'après recoupement par une source primaire.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Contre-budget 2027 du groupe RN vérifié ligne à ligne : part fiscale dès le 2e enfant (−3,4, Montaigne), moins de 30 ans (−3,7, Montaigne ; camp 2,0), donations (−1,1) ajoutées ; simulateur : moins de 30 ans exonérés jusqu'à 4 SMIC, donations version 2026."
   },
   {
    "id": "S037",
@@ -543,7 +543,7 @@
    ],
    "mesure": null,
    "sujet": "Programme de 1 069 mesures annoncé le 6/11",
-   "detail": "Recoupe le point sur « L'avenir en commun » ; budget rectificatif du 14/10 (106,4 Md€ de recettes, 81,7 Md€ de dépenses) à rapprocher de nos totaux.",
+   "detail": "Recoupe le point sur « L'avenir en commun » ; budget rectificatif du 14/10 (106,4 Md€ de recettes, 81,7 Md€ de dépenses) à rapprocher de nos totaux. 27/10 : lignes de la note du 14/10 intégrées (coûts au montant annoncé ou à la médiane indépendante, recettes avec chiffrage indépendant : transactions financières, fraude ; les autres listées « non comptées »). Reste le programme du 6/11.",
    "echeance": "2026-11-06",
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -573,7 +573,7 @@
    ],
    "mesure": null,
    "sujet": "Site officiel mis à jour (≈ 15/10/2026) : 117 propositions",
-   "detail": "Mesures chiffrées visibles : 50 Md€ de baisse des impôts de production compensée par 50 Md€ d'aides en moins ; déficit à 2 % du PIB en fin de mandat ; 3 jours de carence privé et public ; 500 € versés sur un plan d'épargne retraite au premier emploi ; zéro cotisation patronale au-delà de 37 h. Rythmes scolaires (15/10), sans chiffre. Source : edouardphilippe.fr ; le décompte des ajouts vient de prisme.vote (non officiel).",
+   "detail": "Mesures chiffrées visibles : 50 Md€ de baisse des impôts de production compensée par 50 Md€ d'aides en moins ; déficit à 2 % du PIB en fin de mandat ; 3 jours de carence privé et public ; 500 € versés sur un plan d'épargne retraite au premier emploi ; zéro cotisation patronale au-delà de 37 h. Rythmes scolaires (15/10), sans chiffre. Source : edouardphilippe.fr ; le décompte des ajouts vient de prisme.vote (non officiel). 27/10 : 3 jours de carence (+0,1, même valeur que Retailleau), 500 € au premier emploi (−0,4), réservistes et volontaires (−0,8) et fonds climat net (−0,9) intégrés.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -605,10 +605,10 @@
    "sujet": "Lettre aux Français (15/10/2026) et annonces du 19/10",
    "detail": "150 Md€ d'économies sur le mandat, dont deux tiers sur le social ; « frein d'urgence » de 20 Md€ ; Sécurité sociale à l'équilibre en 3 ans ; comparution immédiate dès 16 ans pour les récidivistes ; convention de 150 jeunes tirés au sort. Sources : attalpresident.fr.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Textes du total mis à jour (150 Md€ sur le quinquennat, frein d'urgence de 20 Md€ non ventilé, listé « non compté ») ; engagement civique d'un mois ajouté (−0,5) ; plan IA et bâtiments scolaires non chiffrables."
   },
   {
    "id": "S042",
@@ -734,10 +734,10 @@
    "sujet": "Hausse de 10 % des allocations familiales et des APL, abrogation des réformes du chômage",
    "detail": "Chiffrées par le camp (8 Md€ ; 3 Md€) dans la note d'octobre 2026, mais hors de notre total : à intégrer avec le même niveau de chiffrage que les autres mesures, puis au simulateur.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Comptées : allocations familiales et APL +10 % −2,8 (APL Montaigne 1,5 + allocations ≈ 1,3), abrogation des réformes du chômage −3 (camp) ; le simulateur ne les dit plus « hors de notre total »."
   },
   {
    "id": "S051",
@@ -749,10 +749,10 @@
    "sujet": "« Revenu familial » de 240 € par enfant",
    "detail": "Remplace 12 aides familiales ; non chiffré dans nos totaux, donc absent du simulateur (règle : aucun gain pour une mesure non chiffrée). Même règle que l'allocation unique de Philippe (non chiffrable tant que les aides remplacées et leur montant ne sont pas publiés) : chercher le détail des 12 aides.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Mesure ajoutée en « non chiffrable » (liste des 12 aides remplacées non publiée), comme l'allocation unique de Philippe ; congé de naissance jusqu'aux 6 mois ajouté (−0,7, camp)."
   },
   {
    "id": "S052",
@@ -1011,7 +1011,7 @@
    ],
    "mesure": "heures_sup",
    "sujet": "Heures sup : ce que couvrent les ≈ 2 à 3 Md€ comptés",
-   "detail": "Second audit du simulateur (27/10/2026) : pour le salarié, impôt (jusqu'à 7 500 €/an) et cotisations sur les heures sup sont déjà exonérés ; Retailleau exclut la CSG et la CRDS (« zéro cotisation et zéro impôt… hormis CSG et CRDS », au-delà de 1 607 h, Public Sénat 7/01/2026), Philippe ne les mentionne pas. Le simulateur ne compte donc plus de gain pour le salarié (même règle pour les deux). Les ≈ 2 à 3 Md€ de Philippe (« extension des exonérations ») et les ≈ 2 Md€ de Retailleau (même valeur) doivent être sourcés : exonération des cotisations patronales sur les heures sup (volet S039) et fin du plafond de 7 500 €, sans CSG.",
+   "detail": "Second audit du simulateur (27/10/2026) : pour le salarié, impôt (jusqu'à 7 500 €/an) et cotisations sur les heures sup sont déjà exonérés ; Retailleau exclut la CSG et la CRDS (« zéro cotisation et zéro impôt… hormis CSG et CRDS », au-delà de 1 607 h, Public Sénat 7/01/2026), Philippe ne les mentionne pas. Le simulateur ne compte donc plus de gain pour le salarié (même règle pour les deux). Les ≈ 2 à 3 Md€ de Philippe (« extension des exonérations ») et les ≈ 2 Md€ de Retailleau (même valeur) doivent être sourcés : exonération des cotisations patronales sur les heures sup (volet S039) et fin du plafond de 7 500 €, sans CSG. 27/10 : chez Retailleau, l'exonération patronale des heures sup est comprise dans les 15 Md€ de cotisations patronales (retirée de « production ») ; reste à sourcer chez Philippe.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -1043,6 +1043,54 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": "Fait le 27/10 : Philippe, retraites 6,0 → 5,8 (1,8 + 4, même base que Lisnard et Zemmour ; total +2,8 → +2,6) ; Mélenchon, retraites : passage à 60 ans rendu reproductible ((54 − 13,6) / 2 ≈ 20,2 ; −32,2 → −32,0) ; Zemmour, production (hors total) 20,4 ; classes dédoublées : même lecture de la DEPP chez les cinq candidats (petit gain en maths pour les générations suivantes, aucun en français) ; peines planchers : IPP 2024 ajouté à la fiche de Retailleau, la phrase « effet sur la récidive non démontré » retirée ; quatre mesures non chiffrables avec la même formule « Non chiffrable : paramètre non publié » ; « non compté » sans mesure comptée (Attal, Philippe) ; Le Pen : note CVAE conforme à la règle commune, proposition UE alignée sur le chiffre du camp ; constats à la forme commune (immigrés, non-recours au RSA) ; méthode du quiz et des sources ; METHODOLOGIE.md généré par run.py et vérifié par la CI. Constats et repères dépassés : faits dans les PR des repères. Reste : une année d'âge de retraite chiffrée 5,8 (Attal, indicatif) ou 6,8 (Lisnard) ; gain promis par Lisnard (+250 € pour 2 500 € dans « Vie quotidienne », +400 € au salaire moyen dans la fiche) ; service civique 605 € (coût) et 620 € (versé au jeune) à expliciter ; départs dans la fonction publique (≈ 500 000 par an chez Lisnard, ≈ 720 000 en 5 ans chez Zemmour) ; borne basse de Lisnard (−48, promesse sans les économies) à trancher. La borne haute de l'AME (1,2) n'est pas changée : l'économie maximale est le coût de l'AME moins celui de l'aide d'urgence, donc inférieure à 1,47 Md€."
+  },
+  {
+   "id": "S070",
+   "type": "a_trancher",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Audit des programmes : arbitrages de méthode (budgets ligne à ligne, montée en charge, aides réservées)",
+   "detail": "Trois vérifications à la source (27/10/2026) des mesures publiées absentes des fiches : contre-budget RN (6/10, annexe du 13/10), note LFI (14/10), plan Retailleau (12/10), plan Zemmour-Knafo (budget2027.fr, repris le 17/09), tribune Lisnard (16/04), annonces de Glucksmann, Philippe, Attal. Effets potentiels de 0 à −35 Md€ selon les règles retenues.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Tranché le 27/10 sur délégation du porteur, par les règles communes appliquées aux faits : (1) reconfirmation jugée mesure par mesure (Zemmour : les 800 000 postes, repris le 17/09, restent comptés ; CSG et successions, absentes du plan, restent à confirmer) ; (2) budgets ligne à ligne : toute ligne ≥ 1 Md€ non couverte est ajoutée ; dépenses et baisses d'impôts au montant (médiane indépendante, sinon chiffre du camp ±50 %, enveloppe = montant), recettes et économies seulement avec un chiffrage indépendant ou un paramètre publié (comme partout ailleurs, Lisnard compris) ; (3) baisse d'impôt annoncée sans calendrier : entière en 2030 (Retailleau, cotisations patronales −15, comme ses impôts de production et les baisses des autres) ; hausses des enseignants : 70 % en 2030 pour tous (Attal −2,5 → −1,9) ; (4) postes publics : même calcul pour tous, sans décote de faisabilité (Zemmour 12 → 17,2) ; (5) suppression d'aide : part publique seulement (Retailleau, MaPrimeRénov' +4 → +2 ; Zemmour, Anah +2, borne haute 4) ; (6) aides réservées : étude de la même condition (Lisnard : 5 ans de séjour, Montaigne 2022, +2,1) ; (7) la règle des 60 % de Lisnard ne porte que sur les économies hors mesures « si la révision passe » (−3,9 inchangé) ; (8) prisons : fonctionnement seul (Le Pen −1,0, comme Retailleau) ; Dutreil : part restante seulement (−1,8). Totaux : Le Pen −31,2 → −66,8 ; Mélenchon −90,4 → −126,2 ; Glucksmann −36,5 → −44,7 ; Philippe +2,6 ; Retailleau +13,5 → −1,0 ; Attal +4,0 → +4,2 ; Lisnard −16,0 → −29,4 ; Zemmour +21,5 → +21,3. Le porteur peut revenir sur chacun de ces arbitrages."
+  },
+  {
+   "id": "S071",
+   "type": "a_verifier",
+   "candidats": [
+    "le-pen",
+    "zemmour",
+    "glucksmann",
+    "retailleau",
+    "lisnard",
+    "le-pen"
+   ],
+   "mesure": null,
+   "sujet": "Simulateur : mesures ajoutées le 27/10 encore en note",
+   "detail": "Taxe sur les carburants (Le Pen : niveau de 2017 ; Zemmour : −1/3) : tarifs 2017 et 2026 à relever sur la circulaire des douanes (DA 25-062, hausse au 1/1/2026 signalée) avant de calculer le prix à la pompe ; chèque énergie triplé (Glucksmann) : seuils non publiés ; part fiscale dès le 2e enfant (Le Pen) et congé de naissance (Retailleau) à calculer.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Calculés le 27/10 : quotient familial sans plafond et CSG déductible (Lisnard), moins de 30 ans jusqu'à 4 SMIC (Le Pen)."
+  },
+  {
+   "id": "S072",
+   "type": "a_verifier",
+   "candidats": [
+    "retailleau"
+   ],
+   "mesure": "immigration",
+   "sujet": "Retailleau : aides réservées et lecture du plan de 197 Md€",
+   "detail": "Règle (6) de S070 : chaque candidat reçoit l'étude de sa condition ; Retailleau (5 ans de résidence et de travail) est encore compté au chiffre cumulé de son camp (+1,6). Aligner sur l'étude Montaigne 2024 (condition de travail) après vérification. Par ailleurs, plusieurs montants du plan sont des niveaux annuels (postes, impôts de production) alors que les retraites (+2,8) et l'immigration sont lus comme des cumuls (3,5/15) : vérifier poste par poste.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
   }
  ]
 }

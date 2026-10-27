@@ -822,8 +822,8 @@ function allocOf(a, n, fb){ if(n<=0) return 0; if(!a) return fb?allocOf(fb,n):0;
 function sqAge(y){ const t=SQ.retraite.table; let a=t[0][1]; for(const [yy,aa] of t){ if(y>=yy) a=aa; } return a; }
 const ageTxt = a => { const y=Math.floor(a), mo=Math.round((a-y)*12), ys=y?`${y} an${y>1?'s':''}`:''; return mo?(ys?`${ys} et ${mo} mois`:`${mo} mois`):ys; };
 // personne seule : net imposable ≈ net + CSG non déductible et CRDS ; avec enfants, parent isolé (demi-part supplémentaire, plafond propre)
-function irAnnuel(net, kids){ const I=SQ.ir, R=net*I.net_imposable*12*0.9, parts=1+(kids>=1?1:0)+(kids>=2?0.5:0)+Math.max(0,kids-2), q=R/parts, T=I.tranches; let t=0;
-  T.forEach(([thr,rate],i)=>{ const up=i<T.length-1?T[i+1][0]:Infinity; if(q>thr) t+=(Math.min(q,up)-thr)*rate; }); t*=parts; const t1=bar(R), cap=kids>=1?I.plafond_parent_isole+(parts-2)*2*I.plafond_demi_part:0; t=Math.max(t,t1-cap); const dec=SQ.ir.decote_seul-SQ.ir.decote_taux*t; if(dec>0) t=Math.max(0,t-dec); return t; }
+function irAnnuel(net, kids, o={}){ const I=SQ.ir, R=net*(o.ni??I.net_imposable)*12*0.9, parts=1+(kids>=1?1:0)+(kids>=2?0.5:0)+Math.max(0,kids-2), q=R/parts, T=I.tranches; let t=0;
+  T.forEach(([thr,rate],i)=>{ const up=i<T.length-1?T[i+1][0]:Infinity; if(q>thr) t+=(Math.min(q,up)-thr)*rate; }); t*=parts; const t1=bar(R), cap=o.noCap?Infinity:kids>=1?I.plafond_parent_isole+(parts-2)*2*I.plafond_demi_part:0; t=Math.max(t,t1-cap); const dec=SQ.ir.decote_seul-SQ.ir.decote_taux*t; if(dec>0) t=Math.max(0,t-dec); return t; }
 function bar(q){ const T=SQ.ir.tranches; let t=0; T.forEach(([thr,rate],i)=>{ const up=i<T.length-1?T[i+1][0]:Infinity; if(q>thr) t+=(Math.min(q,up)-thr)*rate; }); return t; }
 const LABELS={prive:'Salaire net mensuel',public:'Salaire net mensuel',enseignant:'Salaire net mensuel',independant:"Revenu net d'activité",chomage:'Allocation chômage nette',minima:'Allocation nette (RSA, prime d\'activité, ASS)',etudiant:'Revenus nets mensuels',retraite:'Pension nette mensuelle'};
 const MAXS={prive:8000,public:8000,enseignant:6000,independant:10000,chomage:8800,minima:1500,etudiant:2000,retraite:6000};
@@ -877,7 +877,8 @@ function sim(){
       else { const dg = sn.max && sal>sn.ref ? Math.max(0,(sn.max-sal)/(sn.max-sn.ref)) : 1; add('Revenu net', esc(sn.note||sn.public)+(sn.max&&sal>sn.ref?' (dégressif jusqu\'à '+eur(sn.max,false)+', hypothèse)':''), (sn.prorata?sn.gain_mensuel*(sn.sans_plafond?sal:Math.min(sal,sn.ref))/sn.ref:sn.gain_mensuel)*dg); } }
     else if(sn && sn.max && sal>sn.max && active) notes.push(`${sn.note} : rien au-delà de ${eur(sn.max,false)} net dans la version publiée.`);
     if(s.overtime && st==='prive' && ot) notes.push(`${s.overtime.label} : pour le salarié, l'impôt (jusqu'à 7 500 € par an) et les cotisations sur les heures sup sont déjà supprimés aujourd'hui, et aucune baisse de la CSG ou de la CRDS n'est annoncée : pas de gain calculé ; la mesure baisse surtout le coût des heures pour l'employeur.`);
-    if(s.ir_exempt_under && age<s.ir_exempt_under && active){ if(ir>0) add('Impôt',`Moins de ${s.ir_exempt_under} ans exonérés d'impôt sur le revenu`,ir/12); else notes.push(`Moins de ${s.ir_exempt_under} ans exonérés d'impôt sur le revenu : vous n'en payez pas aujourd'hui.`); }
+    if(s.ir_exempt_under && age<s.ir_exempt_under && active && (!s.ir_exempt_max||sal<=s.ir_exempt_max)){ if(ir>0) add('Impôt',`Moins de ${s.ir_exempt_under} ans exonérés d'impôt sur le revenu`,ir/12); else notes.push(`Moins de ${s.ir_exempt_under} ans exonérés d'impôt sur le revenu : vous n'en payez pas aujourd'hui.`); }
+    if(s.ir_reforme && active && ir>0){ const r=s.ir_reforme, d=ir-irAnnuel(sal,kids,{ni:r.ni,noCap:r.noCap}); if(d>0.5) add('Impôt',esc(r.note),d/12); }
     if(s.ir_jeunes_parents && kids>0 && active){ const jp=s.ir_jeunes_parents;
       if(!baby) notes.push(jp.note+' : cochez « un enfant de moins de 3 ans » si c\'est votre cas.');
       else if(ir>0) add('Impôt',esc(jp.note)+` : impôt supprimé s'il est inférieur à ${eur(jp.plafond,false)} par an, sinon réduit de ${eur(jp.plafond,false)} (impôt estimé pour une personne seule)`,Math.min(ir,jp.plafond)/12);
