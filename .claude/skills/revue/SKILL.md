@@ -34,7 +34,7 @@ Lire d'abord `CLAUDE.md` (règles de neutralité et de chiffrage), `DEVELOPPER.m
    - Mesures, chiffrages, verdicts, sources : un **nouveau bloc daté** dans `pipeline/corrections.py`, `# --- review N : objet (JJ/MM/AAAA)`, placé avant `# --- quiz` (le texte du quiz est appliqué après toutes les corrections, pour que les mesures ajoutées y entrent). Ne rien écrire après `# --- totaux`, sauf dans le bloc `# --- résumés gabarit` pour mettre à jour un résumé.
    - Un remplacement de lien passe par `URLFIX` dans le bloc daté, avec le contrôle qui fait échouer le pipeline si un remplacement ne sert pas ; un remplacement de texte est précédé d'un `assert` sur le texte attendu.
    - Vie quotidienne : `pipeline/data/life-*.json` et `pipeline/life.py` (`OVR`, `VFLIP`).
-   - Quiz : `pipeline/data/quiz_plain.json` et `pipeline/data/quiz_effets.json`.
+   - Quiz : `pipeline/data/quiz_plain.json` et `pipeline/data/quiz_effets.json` (mesures : clé `candidat.mesure` ; propositions « Vie quotidienne » précises et reconfirmées : clé `candidat.thème.n`). Une proposition « Vie quotidienne » qui devient précise ou est reconfirmée sur l'école, la santé ou le logement reçoit son texte et ses deux explications.
    - Texte de méthode : `D.method` dans `pipeline/build.py` et `METHODOLOGIE.md`.
    - Tout changement visible sur le site : une entrée datée dans `D.changelog` (`pipeline/build.py`), **ajoutée après les autres** (la dernière ajoutée s'affiche en haut) ; une seule entrée par sujet et par jour, à compléter plutôt qu'à empiler.
    - Date « Mis à jour le » : `D['asof']` dans le bloc daté de `corrections.py`.

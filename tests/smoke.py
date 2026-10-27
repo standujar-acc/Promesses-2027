@@ -2,7 +2,7 @@
 Usage : python3 tests/smoke.py   (après python3 pipeline/run.py)
 Vérifie : pas d'erreur JS, pas de débordement à 360 px (clair et sombre), navigation et retour,
 équilibre du quiz (20 duels, 5 apparitions par candidat), simulateur sur une matrice de profils."""
-import os, sys
+import os, re, sys
 from collections import Counter
 from playwright.sync_api import sync_playwright
 
@@ -38,37 +38,82 @@ with sync_playwright() as p:
         if len(qs) != 20 or set(c.values()) != {5}: bad += 1
         txts = pg.evaluate('quizState.qs.flatMap(q=>q.opts.map(o=>(o.m.quiz_text||o.m.proposal).trim().toLowerCase()))')
         if len(set(txts)) < len(txts): rep += 1
-    sans_effets = pg.evaluate("D.candidates.flatMap(c=>c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)&&!(m.quiz_plus&&m.quiz_moins)).map(m=>c.id+'.'+m.id))")
+    sans_effets = pg.evaluate("D.candidates.flatMap(c=>c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)&&!(m.quiz_plus&&m.quiz_moins)).map(m=>c.id+'.'+m.id)).concat((D.quiz_extra||[]).filter(m=>!(m.quiz_plus&&m.quiz_moins&&m.quiz_concret)).map(m=>m.c+'.'+m.id))")
     check(not sans_effets, f'quiz : chaque proposition a ses deux effets {sans_effets[:3]}')
     check(bad == 0, f'quiz équilibré sur 50 tirages ({bad} écarts)')
     check(rep == 0, f'quiz : aucune proposition répétée dans une partie ({rep} parties sur 50)')
+    # thèmes choisis à l'accueil : plus de duels sur ces thèmes, sans casser l'équilibre entre candidats
+    pg.evaluate("quizIntro()")
+    check(pg.evaluate("document.querySelectorAll('.qchips button').length===quizThemes().length && quizThemes().length>=5"), "quiz : accueil, un bouton par thème jouable")
+    share = lambda: pg.evaluate("quizState.qs.filter(q=>quizImp.has(q.t)).length")
+    priL = pg.evaluate("['ecole','sante','logement'].filter(t=>quizThemes().includes(t))"); pri = priL or ['energie', 'institutions']
+    pg.evaluate(f"quizImp.clear(); {pri}.forEach(t=>quizImp.add(t))"); bad = 0; n_pri = 0
+    for _ in range(30):
+        pg.evaluate('quizStart()'); qs = pg.evaluate('quizState.qs.map(q=>q.opts.map(o=>o.c))'); c = Counter(x for q in qs for x in q)
+        if len(qs) != 20 or set(c.values()) != {5}: bad += 1
+        n_pri += share()
+    pg.evaluate("quizImp.clear()"); n_base = 0
+    for _ in range(30):
+        pg.evaluate('quizStart()'); pg.evaluate(f"{pri}.forEach(t=>quizImp.add(t))"); n_base += share(); pg.evaluate("quizImp.clear()")
+    check(bad == 0 and n_pri > n_base, f'quiz : thèmes choisis plus présents ({n_pri} contre {n_base} duels sur 30 parties), équilibre gardé ({bad} écarts)')
 
-    # résultat du quiz : une pastille par proposition vue, classement selon le score, thème marqué compté double
-    pg.set_viewport_size({'width': 360, 'height': 800}); pg.evaluate('quizStart()')
-    for i in range(20):
-        pg.click(f'#v-quiz [data-k="{["0", "1", "both", "none", "0"][i % 5]}"]')
+    # résultat du quiz : ce qui est affiché est ce qui est compté ; égalités jamais départagées ; thème marqué compté double
+    pg.set_viewport_size({'width': 360, 'height': 800})
+    def play(seq):
+        pg.evaluate('quizStart()')
+        for i in range(20):
+            pg.click(f'#v-quiz [data-k="{seq(i)}"]')
     DU = "quizScore(quizState).duels.map(d=>({t:d.t,o:d.opts.map(o=>[o.c,o.k])}))"
     def expected(duels, imp):
-        pts, w = Counter(), Counter()
+        acc, w = Counter(), Counter()
         for d in duels:
             for c, k in d['o']:
                 x = 2 if d['t'] in imp else 1
-                w[c] += x; pts[c] += x * {'pick': 1, 'both': .5, 'none': 0, 'rej': -1}[k]
-        return {c: pts[c] / w[c] for c in w}
-    r = pg.evaluate("""()=>{ const sc=quizScore(quizState).score;
-      return {dots:[...document.querySelectorAll('.qc .qdots')].map(e=>e.children.length), apps:sc.map(x=>x.x.a), v:Object.fromEntries(sc.map(x=>[x.c.id,x.v])),
-        sorted:sc.every((x,i)=>!i||sc[i-1].v>=x.v), duels:document.querySelectorAll('.qdet .qd').length, near:document.querySelectorAll('[data-cand]').length,
-        ok:[...document.querySelectorAll('[data-cand]')].every(b=>b.closest('.card').querySelectorAll('.results button').length===quizScore(quizState).score.find(x=>x.c.id===b.dataset.cand).x.a),
-        w:document.documentElement.scrollWidth}; }""")
-    ex = expected(pg.evaluate(DU), set())
-    check(r['dots'] == r['apps'] and r['sorted'] and all(abs(r['v'][c] - ex[c]) < 1e-9 for c in ex), 'quiz résultat : une pastille par proposition vue, classement selon le score')
-    check(r['duels'] == 20 and r['near'] == 2 and r['ok'], 'quiz résultat : détail des 20 duels ; deux plus proches avec ce qui colle et ce qui colle moins')
+                w[c] += x; acc[c] += x * (k in ('pick', 'both'))
+        return {c: acc[c] / w[c] for c in w}
+    STATE = """()=>{ const R=quizScore(quizState), rows=R.rows, v=r=>r.x.acc/r.x.w;
+      return {dots:[...document.querySelectorAll('.qc .qdots')].map(e=>e.children.length), ws:rows.map(r=>r.x.a), rings:document.querySelectorAll('.qc .qdots .x2').length, nstar:quizScore(quizState).duels.filter(d=>quizImp.has(d.t)).length*2, v:Object.fromEntries(rows.map(r=>[r.c.id,v(r)])),
+        nums:[...document.querySelectorAll('.qc .num')].map(e=>e.textContent), fr:rows.map(r=>r.x.acc+'/'+r.x.w),
+        sorted:rows.every((r,i)=>!i||v(rows[i-1])>=v(r)), duels:document.querySelectorAll('.qdet .qd').length,
+        cards:[...document.querySelectorAll('[data-cand]')].map(b=>b.dataset.cand), near:R.near.map(r=>r.c.id),
+        g1:R.groups[0].map(r=>r.c.id), g1acc:R.groups[0][0].x.acc, head:R.head, then:R.then,
+        headIn:R.near.length===0||R.near.some(r=>R.head.includes(r.c.short)), shorts:Object.fromEntries(D.candidates.map(c=>[c.id,c.short])),
+        ok:[...document.querySelectorAll('[data-cand]')].every(b=>b.closest('.card').querySelectorAll('.results button').length===rows.find(r=>r.c.id===b.dataset.cand).x.a),
+        txt:document.getElementById('v-quiz').innerText, w:document.documentElement.scrollWidth}; }"""
+    play(lambda i: ["0", "1", "both", "none", "0"][i % 5]); r = pg.evaluate(STATE); ex = expected(pg.evaluate(DU), set())
+    check(r['dots'] == r['ws'] and r['nums'] == r['fr'] and r['sorted'] and all(abs(r['v'][c] - ex[c]) < 1e-9 for c in ex),
+          'quiz résultat : une pastille par proposition vue, chiffre et classement identiques au calcul')
+    check(r['duels'] == 20 and r['cards'] == r['near'] and r['ok'] and r['headIn'] and not re.search(r'undefined|NaN', r['txt']),
+          'quiz résultat : détail des 20 duels ; cartes des plus proches cohérentes avec le titre')
     check(r['w'] <= 360, 'quiz résultat : pas de débordement à 360 px')
-    t = pg.evaluate("document.querySelector('.star').dataset.t"); pg.click('.star >> nth=0')
-    v2 = pg.evaluate("Object.fromEntries(quizScore(quizState).score.map(x=>[x.c.id,x.v]))"); ex2 = expected(pg.evaluate(DU), {t})
-    check(pg.evaluate(f"document.querySelector('.star[data-t=\"{t}\"]').getAttribute('aria-pressed')") == 'true' and all(abs(v2[c] - ex2[c]) < 1e-9 for c in ex2),
-          'quiz résultat : un thème marqué compte double')
-    pg.click('.star >> nth=0'); pg.evaluate('quizImp.clear()'); pg.set_viewport_size({'width': 390, 'height': 844})
+    t = pg.evaluate("document.querySelector('.star').dataset.t"); pg.click('.star >> nth=0'); r2 = pg.evaluate(STATE); ex2 = expected(pg.evaluate(DU), {t})
+    check(pg.evaluate(f"document.querySelector('.star[data-t=\"{t}\"]').getAttribute('aria-pressed')") == 'true' and all(abs(r2['v'][c] - ex2[c]) < 1e-9 for c in ex2)
+          and r2['dots'] == r2['ws'] and r2['rings'] == r2['nstar'] and pg.evaluate("document.getElementById('quiz-live').textContent.startsWith('Classement recalculé')"),
+          'quiz résultat : un thème marqué compte double (pastilles cerclées, annonce pour lecteur d\'écran)')
+    pg.click('.star >> nth=0'); pg.evaluate('quizImp.clear()')
+    # égalités : tout « Les deux » → personne ne se détache, aucune carte choisie par l'ordre ; tout « Aucune » → rien de retenu
+    play(lambda i: 'both'); r = pg.evaluate(STATE)
+    check(r['head'] == 'Aucun candidat ne se détache' and not r['cards'], 'quiz résultat : égalité générale, aucun candidat mis en avant')
+    play(lambda i: 'none'); r = pg.evaluate(STATE)
+    check(r['head'] == 'Aucune proposition retenue' and not r['cards'] and 'Aucun effet sur le déficit' in r['txt'], 'quiz résultat : aucune proposition retenue')
+    # parties au hasard : le titre nomme un candidat qui a des propositions retenues ; « puis » = groupe suivant ; égalités en tête jamais tranchées
+    import random as _r; _r.seed(5); bad = []
+    for n in range(25):
+        play(lambda i: _r.choice(['0', '1', 'both', 'none', 'none'])); r = pg.evaluate(STATE)
+        if r['g1acc'] > 0 and len(r['g1']) > 1 and len(r['g1']) <= 3 and set(r['cards']) != set(r['g1']): bad.append(('égalité', r['head']))
+        if r['g1acc'] > 0 and len(r['g1']) == 1 and r['shorts'][r['g1'][0]] not in r['head']: bad.append(('titre', r['head']))
+    check(not bad, f'quiz résultat : titres et cartes sans départage arbitraire sur 25 parties {bad[:2]}')
+    pg.evaluate("navigator.clipboard.writeText=t=>{window._cp=t;return Promise.resolve()}"); pg.click('#quiz-copy'); cp = pg.evaluate('window._cp')
+    check(cp.startswith('Mon quiz Promesses 2027 — ') and ('déficit :' not in cp) and not re.search(r'de [AEIOUÉ]', cp.split('—')[1].split('.')[0]),
+          f'quiz résultat : texte copié fidèle à la page ({cp[:90]})')
+    pg.set_viewport_size({'width': 390, 'height': 844})
+    if priL:
+        pg.evaluate(f"{priL}.forEach(t=>quizImp.add(t)); quizStart()")
+        for i in range(20):
+            pg.click(f'#v-quiz [data-k="{["0", "1", "both"][i % 3]}"]')
+        check(pg.evaluate("document.querySelectorAll('.qdet [data-life]').length>0 && !/undefined|NaN/.test(document.getElementById('v-quiz').innerText)"),
+              'quiz résultat : propositions « vie quotidienne » affichées, sans verdict ni coût')
+        pg.evaluate("quizImp.clear()")
 
     pg.evaluate("go('moi')"); worst = 0
     for st in ('prive', 'public', 'enseignant', 'independant', 'chomage', 'minima', 'etudiant', 'retraite'):
