@@ -274,15 +274,22 @@ details.more > div{margin-top:12px;display:flex;flex-direction:column;gap:14px}
 .q-alt{justify-content:center}
 .progress{height:6px;background:var(--soft);border-radius:3px;overflow:hidden}
 .progress i{display:block;height:100%;background:var(--accent);transition:width .2s}
+.qpri{display:flex;flex-direction:column;gap:8px}
+.qchips{display:flex;flex-wrap:wrap;gap:8px}
+.qchips button{border:1px solid var(--band-line);background:none;color:var(--band-ink);border-radius:999px;padding:8px 14px;min-height:40px;font-weight:600;font-size:.88rem}
+.qchips button[aria-pressed="true"]{background:var(--band-ink);border-color:var(--band-ink);color:var(--band)}
 .qthen{font:700 1.15rem/1.2 var(--f-display);text-transform:uppercase;color:var(--band-ink)!important;margin-top:-6px}
 .qcands{display:flex;flex-direction:column;gap:10px}
-.qc{display:grid;grid-template-columns:96px minmax(0,1fr);gap:10px;align-items:center;font-size:.88rem}
+.qcands{list-style:none;margin:0;padding:0}
+.qc{display:grid;grid-template-columns:22px 88px minmax(0,1fr) 36px;gap:8px;align-items:center;font-size:.88rem}
+.qrk{font:600 .78rem/1 var(--f-mono);color:var(--muted)}
+.qstart h2.long{font-size:1.7rem}
+.qnh h4{font:700 1.3rem/1.1 var(--f-display);text-transform:uppercase;margin:0}
 .qdots{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
 .qdots i,.qleg i{width:14px;height:14px;border-radius:50%;display:inline-block;box-sizing:border-box;flex:0 0 auto}
-i.k-pick{background:var(--accent)}
-i.k-both{background:linear-gradient(90deg,var(--accent) 50%,transparent 50%);border:2px solid var(--accent)}
-i.k-rej{border:2px solid var(--muted)}
-i.k-none{height:3px;border-radius:2px;background:var(--muted)}
+i.k-ret{background:var(--accent)}
+i.k-rej,i.k-none{font:700 .8rem/14px var(--f-body);font-style:normal;text-align:center;color:var(--muted)}
+.qdots i.x2,.qleg i.x2{box-shadow:0 0 0 2px var(--surface),0 0 0 3px var(--accent)}
 .qleg{display:flex;flex-wrap:wrap;gap:6px 14px}
 .qleg span{display:inline-flex;align-items:center;gap:6px}
 .qtr{display:grid;grid-template-columns:44px minmax(0,1fr);gap:10px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
@@ -291,11 +298,12 @@ i.k-none{height:3px;border-radius:2px;background:var(--muted)}
 .star{width:44px;height:44px;border-radius:10px;border:1px solid var(--line);background:var(--surface);font-size:1.25rem;line-height:1;color:var(--muted)}
 .star[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent)}
 .qnh{display:flex;flex-direction:column;gap:2px}
-.qnh b{font:700 1.3rem/1.1 var(--f-display);text-transform:uppercase}
 .qcol{display:flex;flex-direction:column;gap:6px}
 .qcol .eyebrow.ok{color:var(--ok)}
 .qdet summary{cursor:pointer;font-weight:600;min-height:44px;display:flex;align-items:center}
 .qdet .qcol{margin-top:12px}
+.results .qi{gap:6px}
+.qi2{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px}
 .qd{display:flex;flex-direction:column;gap:6px;background:var(--soft);border-radius:12px;padding:6px}
 
 /* grille faisabilité */
@@ -452,6 +460,7 @@ table.grid td button{min-width:44px;min-height:44px;display:inline-grid;place-it
   </section>
 
   <section class="view stack" id="v-quiz" hidden></section>
+  <p class="sr" id="quiz-live" aria-live="polite"></p>
 
   <section class="view stack" id="v-met" hidden>
     <div><span class="eyebrow">Transparence</span><h2>Méthode</h2></div>
@@ -907,14 +916,18 @@ function sim(){
 }
 
 /* ---------- quiz ---------- */
-let quizState=null; const QN=20;
+let quizState=null; const QN=20, quizImp=new Set();  // thèmes qui comptent pour le lecteur : plus de duels, poids double ; jamais enregistrés
 function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+const thName=t=>TH[t]||(LT[t]&&LT[t][0])||t;
+function quizPool(){ const pool={}; D.candidates.forEach(c=>{ pool[c.id]=c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)).concat((D.quiz_extra||[]).filter(x=>x.c===c.id)).map(m=>({c:c.id,m})); }); return pool; }
+function quizThemes(){ const by={}; Object.values(quizPool()).forEach(l=>l.forEach(o=>(by[o.m.theme]=by[o.m.theme]||new Set()).add(o.c)));
+  return [...new Set([...Object.keys(TH),...Object.keys(LT)])].filter(t=>by[t]&&by[t].size>1); }
 function quizBuild(){
-  const pool={}; D.candidates.forEach(c=>{ pool[c.id]=c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)).map(m=>({c:c.id,m})); });
+  const pool=quizPool(), pri=o=>quizImp.has(o.m.theme)?0:1;
   const cnt=Object.fromEntries(D.candidates.map(c=>[c.id,0])), used=new Set(), pairs=new Set(), qs=[], seen=new Set(), txt=o=>(o.m.quiz_text||o.m.proposal).trim().toLowerCase();
   for(let k=0;k<QN*4&&qs.length<QN;k++){
     const order=shuffle(D.candidates.map(c=>c.id)).sort((x,y)=>cnt[x]-cnt[y]); let done=false;
-    for(const a of order){ for(const oa of shuffle(pool[a].filter(o=>!used.has(a+o.m.id)&&!seen.has(txt(o))))){
+    for(const a of order){ for(const oa of shuffle(pool[a].filter(o=>!used.has(a+o.m.id)&&!seen.has(txt(o)))).sort((x,y)=>pri(x)-pri(y))){
       for(const bb of shuffle(order.filter(b=>b!==a&&!pairs.has([a,b].sort().join('|')))).sort((x,y)=>cnt[x]-cnt[y])){
         const ob=pool[bb].find(o=>!used.has(bb+o.m.id)&&o.m.theme===oa.m.theme&&!seen.has(txt(o))&&txt(o)!==txt(oa));
         if(ob){ qs.push({t:oa.m.theme,opts:shuffle([oa,ob])}); used.add(a+oa.m.id); used.add(bb+ob.m.id); seen.add(txt(oa)); seen.add(txt(ob)); pairs.add([a,bb].sort().join('|')); cnt[a]++; cnt[bb]++; done=true; break; } }
@@ -927,14 +940,17 @@ function quizStart(){ let best=null;
   for(let t=0;t<300;t++){ const r=quizBuild(), v=Object.values(r.cnt), sp=Math.max(...v)-Math.min(...v); if(!best||r.qs.length>best.qs.length||(r.qs.length===best.qs.length&&sp<best.sp)) best={...r,sp}; if(r.qs.length===QN&&sp===0) break; }
   quizState={qs:shuffle(best.qs),i:0,picks:[]}; quizRender(); }
 function quizIntro(){
-  document.getElementById('v-quiz').innerHTML=`<div class="qstart"><span class="eyebrow" style="color:var(--band-muted)">Quiz à l'aveugle</span><h2>De qui êtes-vous le plus proche ?</h2><p>20 duels de propositions réelles, sans les noms. Chaque candidat apparaît le même nombre de fois. Environ 3 minutes.</p><p><b>Vos réponses ne sont pas enregistrées</b> : elles restent sur votre appareil et disparaissent quand vous fermez la page.</p><div><button class="btn primary" id="q-go">Commencer</button></div></div>`;
+  document.getElementById('v-quiz').innerHTML=`<div class="qstart"><span class="eyebrow" style="color:var(--band-muted)">Quiz à l'aveugle</span><h2>De qui êtes-vous le plus proche ?</h2><p>20 duels de propositions réelles, sans les noms. Chaque candidat apparaît le même nombre de fois. Environ 3 minutes.</p><p><b>Vos réponses ne sont pas enregistrées</b> : elles restent sur votre appareil et disparaissent quand vous fermez la page.</p>
+    <div class="qpri"><p><b>Ce qui compte pour vous</b> (facultatif) : plus de duels sur ces thèmes, et ils comptent double dans le résultat.</p><div class="qchips">${quizThemes().map(t=>`<button data-t="${t}" aria-pressed="${quizImp.has(t)}">${esc(thName(t))}</button>`).join('')}</div></div>
+    <div><button class="btn primary" id="q-go">Commencer</button></div></div>`;
+  document.querySelectorAll('.qchips button').forEach(b=>b.onclick=()=>{ const t=b.dataset.t; quizImp.has(t)?quizImp.delete(t):quizImp.add(t); b.setAttribute('aria-pressed',quizImp.has(t)); });
   document.getElementById('q-go').onclick=quizStart;
 }
 function quizRender(){
   const el=document.getElementById('v-quiz'), s=quizState;
   if(s.i<s.qs.length){ const q=s.qs[s.i];
     el.innerHTML=`<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="${s.qs.length}" aria-valuenow="${s.i+1}" aria-label="Duel ${s.i+1} sur ${s.qs.length}"><i style="width:${(s.i+1)/s.qs.length*100}%"></i></div>
-      <div><span class="eyebrow">Duel ${s.i+1} sur ${s.qs.length} · ${esc(TH[q.t])}</span><h2 style="margin-top:6px">Laquelle préférez-vous ?</h2></div>
+      <div><span class="eyebrow">Duel ${s.i+1} sur ${s.qs.length} · ${esc(thName(q.t))}</span><h2 style="margin-top:6px">Laquelle préférez-vous ?</h2></div>
       <div class="duel">${q.opts.map((o,k)=>`<button data-k="${k}"><span class="ab">${'AB'[k]}</span><span class="qt"><b>${esc(o.m.quiz_text||o.m.proposal)}</b>${o.m.quiz_plus?`<span class="fx"><i aria-hidden="true">+</i><span><span class="sr">Ce que ça apporte : </span>${esc(o.m.quiz_plus)}</span><i aria-hidden="true">−</i><span><span class="sr">En contrepartie : </span>${esc(o.m.quiz_moins)}</span></span>`:o.m.quiz_concret?`<small>Concrètement : ${esc(o.m.quiz_concret)}</small>`:''}</span></button>`).join('')}</div>
       <div class="row-btns q-alt"><button class="btn" data-k="both">Les deux</button><button class="btn" data-k="none">Aucune</button>${s.i>0?'<button class="btn" data-k="back">Retour</button>':''}</div>
       ${q.opts.some(o=>o.m.quiz_src&&o.m.quiz_src.length)?`<details class="qsrc"><summary>Sur quoi s'appuient ces explications ?</summary>${q.opts.map((o,k)=>o.m.quiz_src&&o.m.quiz_src.length?`<p><b>${'AB'[k]}</b> · ${o.m.quiz_src.map(x=>`<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.l)}${x.a?` (${x.a})`:''}</a>`).join(' · ')}</p>`:'').join('')}</details>`:''}`;
@@ -943,59 +959,79 @@ function quizRender(){
     return; }
   quizResult(el, s);
 }
-/* résultat : le résumé d'abord (plus proches, ce qu'impliquent les choix), puis par candidat, par thème
-   (les thèmes marqués comptent double), les deux plus proches (ce qui colle, ce qui colle moins), enfin le détail */
-const QV={pick:1,both:.5,none:0,rej:-1}, QK=['pick','both','none','rej'];
-const QM={pick:'✓ Choisie',both:'✓ Les deux retenues',none:'– Aucune des deux',rej:'✕ Écartée'};
+/* résultat : ce qui est affiché est exactement ce qui est compté. Proximité = part des propositions d'un candidat
+   que le lecteur a retenues (choisie ou « Les deux ») ; une proposition d'un thème marqué ★ compte deux fois (pastille cerclée).
+   Les égalités ne sont jamais départagées : ordre d'affichage tiré au hasard une fois par partie, groupes d'ex æquo. */
+const QK=['pick','both','rej','none'];
+const QM={pick:'✓ Choisie',both:'✓ Les deux retenues',rej:'✕ Écartée pour l\'autre',none:'– Aucune des deux'};
 const QVP={faisable:['faisable','faisables'],sous_conditions:['sous conditions','sous conditions'],tres_difficile:['très difficile','très difficiles'],bloque:['exige une révision','exigent une révision']};
-const quizImp=new Set();
 const pl=(n,w,ws)=>`${n} ${n>1?(ws||w+'s'):w}`;
+const de=n=>/^[AEIOUYÉÈÊÂÎÔ]/i.test(n)?`d'${n}`:`de ${n}`;
+const andList=a=>a.length>1?a.slice(0,-1).join(', ')+' et '+a[a.length-1]:a.join('');
+const mdAbs=v=>Math.abs(v).toLocaleString('fr-FR',{maximumFractionDigits:1});
+const retained=k=>k==='pick'||k==='both';
 function quizScore(s){
-  const st=Object.fromEntries(D.candidates.map(c=>[c.id,{pts:0,w:0,a:0,n:0,r:0,marks:[],ok:[],ko:[]}]));
+  const tb=s.tb||(s.tb=Object.fromEntries(D.candidates.map(c=>[c.id,Math.random()])));
+  const st=Object.fromEntries(D.candidates.map(c=>[c.id,{acc:0,w:0,a:0,n:0,marks:[],ok:[],ko:[]}]));
   const duels=s.qs.map((q,i)=>{ const p=s.picks[i]||[], w=quizImp.has(q.t)?2:1;
     return {i,t:q.t,opts:q.opts.map(o=>{ const k=p.includes(o)?(p.length===2?'both':'pick'):p.length===1?'rej':'none', x=st[o.c];
-      x.a++; x.w+=w; x.pts+=w*QV[k]; x.marks.push(k);
-      if(k==='pick'||k==='both'){ x.n++; x.ok.push(o); } else { if(k==='rej') x.r++; x.ko.push({o,k,alt:k==='rej'?p[0]:null}); }
+      x.a++; x.w+=w; x.marks.push({k,w});
+      if(retained(k)){ x.acc+=w; x.n++; x.ok.push({o,k,w}); } else x.ko.push({o,k,w,alt:k==='rej'?p[0]:null});
       return {...o,k}; })}; });
-  const score=D.candidates.map(c=>{ const x=st[c.id]; return {c,x,v:x.w?x.pts/x.w:0}; }).sort((a,b)=>b.v-a.v||a.x.r-b.x.r);
-  return {duels,score};
+  const cmp=(a,b)=>b.x.acc*a.x.w-a.x.acc*b.x.w;
+  const rows=D.candidates.map(c=>({c,x:st[c.id]})).sort((a,b)=>cmp(a,b)||tb[a.c.id]-tb[b.c.id]);
+  const groups=[]; rows.forEach(r=>{ const g=groups[groups.length-1]; if(g&&!cmp(g[0],r)) g.push(r); else groups.push([r]); });
+  let rank=1; groups.forEach(g=>{ g.forEach(r=>{ r.rank=rank; r.tie=g.length>1; }); rank+=g.length; });
+  const pos=groups.filter(g=>g[0].x.acc>0), g1=pos[0], g2=pos[1], nm=g=>g.map(r=>r.c.short);
+  const any=s.picks.some(p=>p&&p.length);
+  const head=!any?'Aucune proposition retenue':g1.length===1?`Plus proche ${de(g1[0].c.short)}`:g1.length<=3?`À égalité : ${andList(nm(g1))}`:'Aucun candidat ne se détache';
+  const then=any&&g1.length===1&&g2?(g2.length===1?`puis ${g2[0].c.short}`:g2.length<=3?`puis ${andList(nm(g2))}, à égalité`:''):'';
+  const near=!any?[]:g1.length===1?(g2&&g2.length<=2?[...g1,...g2]:g1):g1.length<=3?g1:[];
+  return {duels,rows,groups,head,then,near};
 }
-function quizResult(el, s){
-  const {duels,score}=quizScore(s), chosen=s.picks.flat(), cost=chosen.reduce((t,p)=>t+(has(p.m)&&!p.m.a_confirmer?p.m.claude.central:0),0);
-  const top=score.filter(r=>r.v===score[0].v&&r.x.r===score[0].x.r&&r.x.n>0), near=score.filter(r=>r.x.n>0).slice(0,2);
-  const head=!chosen.length?'Aucune proposition retenue':top.length>1?`Égalité : ${top.map(r=>r.c.short).join(', ')}`:`Plus proche de ${score[0].c.short}`;
-  const then=top.length===1&&near[1]?`puis ${near[1].c.short}`:'';
+function quizResult(el, s, msg){
+  const R=quizScore(s), {duels,rows,head,then,near}=R, chosen=s.picks.flat(), cost=chosen.reduce((t,p)=>t+(has(p.m)&&!p.m.a_confirmer?p.m.claude.central:0),0);
   const vc={}; chosen.forEach(o=>vc[o.m.verdict]=(vc[o.m.verdict]||0)+1);
-  const vtxt=Object.keys(QVP).filter(k=>vc[k]).map(k=>`${vc[k]} ${QVP[k][vc[k]>1?1:0]}`).join(', ');
-  const themes=Object.keys(TH).filter(t=>duels.some(d=>d.t===t));
-  const costTxt=o=>has(o.m)&&!o.m.a_confirmer?`${md(o.m.claude.central)} Md€/an`:'non chiffrée';
-  const item=(o,sub)=>`<button data-c="${o.c}" data-m="${o.m.id}"><span class="r1"><b>${esc(o.m.title)}</b><span class="pill v-${o.m.verdict}">${V[o.m.verdict].l}</span></span><span class="small muted">${sub}</span></button>`;
-  const who=t=>{ const n={}; duels.filter(d=>d.t===t).forEach(d=>d.opts.forEach(o=>{ if(o.k==='pick'||o.k==='both') n[o.c]=(n[o.c]||0)+1; }));
-    const l=Object.entries(n).sort((a,b)=>b[1]-a[1]); return l.length?'→ '+l.map(([c,k])=>esc(cand(c).short)+(k>1?` ×${k}`:'')).join(', '):'aucune proposition retenue'; };
-  el.innerHTML=`<div class="qstart"><span class="eyebrow" style="color:var(--band-muted)">Votre résultat</span><h2>${esc(head)}</h2>${then?`<p class="qthen">${esc(then)}</p>`:''}
-    <p>Sur ${s.qs.length} duels, vous avez retenu ${pl(chosen.length,'proposition')}${vtxt?` : ${vtxt}`:''}.</p>
-    <p>${Math.abs(cost)<0.05?'Vos choix ne changent presque rien au déficit.':`Vos choix ${cost<0?'creusent':'réduisent'} le déficit de <b style="color:${cost<0?'#ff8a9a':'#7ee0ad'}">${md(Math.abs(cost)).replace('+','')} Md€ par an</b>, soit ${eur(Math.abs(perHH(cost)),false)} par ménage.`}</p></div>
+  const nl=chosen.filter(o=>o.m.life).length, vtxt=Object.keys(QVP).filter(k=>vc[k]).map(k=>`${vc[k]} ${QVP[k][vc[k]>1?1:0]}`).join(', ');
+  const both=s.picks.some(p=>p&&p.length===2);
+  const themes=[...new Set([...Object.keys(TH),...Object.keys(LT)])].filter(t=>duels.some(d=>d.t===t)), star=themes.filter(t=>quizImp.has(t));
+  const costTxt=o=>o.m.life?'vie quotidienne, sans chiffrage':has(o.m)&&!o.m.a_confirmer?(o.m.claude.central<0?`coûte ${mdAbs(o.m.claude.central)} Md€/an`:o.m.claude.central>0?`rapporte ${mdAbs(o.m.claude.central)} Md€/an`:'sans effet sur le solde'):'non chiffrée';
+  const item=(o,sub)=>`<button class="qi" data-c="${o.c}" data-m="${o.m.id}"${o.m.life?' data-life="1"':''}><b>${esc(o.m.quiz_text||o.m.title)}</b><span class="qi2">${o.m.verdict?`<span class="pill v-${o.m.verdict}">${V[o.m.verdict].l}</span>`:'<span class="tag">Vie quotidienne</span>'}<span class="small muted">${sub}</span></span></button>`;
+  const who=t=>{ const n={}; duels.filter(d=>d.t===t).forEach(d=>d.opts.forEach(o=>{ if(retained(o.k)) n[o.c]=(n[o.c]||0)+1; }));
+    const l=Object.entries(n).sort((a,b)=>b[1]-a[1]); return l.length?'Retenu : '+l.map(([c,k])=>esc(cand(c).short)+(k>1?` (${k} fois)`:'')).join(', '):'Aucune proposition retenue'; };
+  const dots=r=>[...r.x.marks].sort((a,b)=>QK.indexOf(a.k)-QK.indexOf(b.k)||b.w-a.w).map(m=>{ const x=m.w>1?' x2':''; return retained(m.k)?`<i class="k-ret${x}"></i>`:m.k==='rej'?`<i class="k-rej${x}">✕</i>`:`<i class="k-none${x}">–</i>`; }).join('');
+  const counts=x=>[pl(x.n,'retenue'),pl(x.ko.filter(z=>z.k==='rej').length,'écartée'),`${x.ko.filter(z=>z.k==='none').length} sans choix`].filter(t=>!/^0 /.test(t)).join(' · ');
+  const order=(a,b,ks)=>b.w-a.w||ks.indexOf(a.k)-ks.indexOf(b.k);
+  const defTxt=!chosen.length?'Aucun effet sur le déficit.':Math.abs(cost)<0.05?'Vos choix ne changent presque rien au déficit.':`Vos choix ${cost<0?'creusent':'réduisent'} le déficit de <b style="color:${cost<0?'#ff8a9a':'#7ee0ad'}">${mdAbs(cost)} Md€ par an</b>, soit ${eur(Math.abs(perHH(cost)),false)} par ménage${both?' (quand vous retenez les deux propositions d\'un duel, leurs effets s\'additionnent)':''}.`;
+  el.innerHTML=`<div class="qstart"><span class="eyebrow" style="color:var(--band-muted)">Votre résultat</span><h2${head.length>30?' class="long"':''}>${esc(head)}</h2>${then?`<p class="qthen">${esc(then)}</p>`:''}
+    <p>Sur ${s.qs.length} duels, vous avez retenu ${pl(chosen.length,'proposition')}${vtxt?`. Selon notre analyse : ${vtxt}`:''}${nl?`${vtxt?' ; ':'. '}${nl} de la vie quotidienne, sans verdict de faisabilité`:''}.</p>
+    <p>${defTxt}</p></div>
     <div class="card"><h3>Par candidat</h3>
-      <div class="qcands">${score.map(r=>`<div class="qc"><span>${esc(r.c.short)}</span><span class="qdots" aria-hidden="true">${QK.flatMap(k=>r.x.marks.filter(m=>m===k)).map(k=>`<i class="k-${k}"></i>`).join('')}</span><span class="sr">${QK.filter(k=>r.x.marks.includes(k)).map(k=>`${QM[k].slice(2).toLowerCase()} : ${r.x.marks.filter(m=>m===k).length}`).join(', ')}</span></div>`).join('')}</div>
-      <p class="small muted qleg" aria-hidden="true"><span><i class="k-pick"></i>choisie</span><span><i class="k-both"></i>les deux</span><span><i class="k-none"></i>aucune des deux</span><span><i class="k-rej"></i>écartée pour l'autre</span></p>
-      <p class="small muted">Classement : une proposition choisie compte +1, « Les deux » +½, « Aucune » 0, une proposition écartée au profit de l'autre −1${quizImp.size?' ; les thèmes marqués ★ comptent double':''}. Le quiz ne porte que sur une partie des mesures. Il ne dit pas pour qui voter : il montre de quelles idées vous êtes proche.</p></div>
+      <p class="small muted qleg" aria-hidden="true"><span><i class="k-ret"></i>retenue (choisie ou « les deux »)</span><span><i class="k-rej">✕</i>écartée pour l'autre</span><span><i class="k-none">–</i>aucune des deux</span>${star.length?'<span><i class="k-ret x2"></i>thème ★, compte deux fois</span>':''}</p>
+      <ol class="qcands">${rows.map(r=>`<li class="qc"><span class="qrk" aria-hidden="true">${r.tie?'=':''}${r.rank}</span><span>${esc(r.c.short)}</span><span class="qdots" aria-hidden="true">${dots(r)}</span><span class="num small" aria-hidden="true">${r.x.acc}/${r.x.w}</span><span class="sr">${r.tie?'ex æquo, ':''}${pl(r.x.n,'proposition retenue','propositions retenues')} sur ${r.x.a}${r.x.w>r.x.a?`, ${r.x.acc} sur ${r.x.w} en comptant deux fois les thèmes marqués`:''}</span></li>`).join('')}</ol>
+      <p class="small muted">Proximité : la part des propositions de chaque candidat que vous avez retenues${star.length?' ; une proposition d\'un thème marqué ★ compte deux fois (5/6 : 5 points sur 6 possibles)':''}. « = » signale une égalité, affichée dans un ordre tiré au hasard. Le quiz ne porte que sur une partie des propositions. Il ne dit pas pour qui voter : il montre de quelles idées vous êtes proche.</p></div>
     <div class="card"><h3>Par thème</h3><p class="small muted">Touchez l'étoile des thèmes qui comptent le plus pour vous : ils compteront double dans le classement. Rien n'est enregistré.</p>
-      <div>${themes.map(t=>{ const nd=duels.filter(d=>d.t===t).length; return `<div class="qtr"><button class="star" data-t="${t}" aria-pressed="${quizImp.has(t)}" aria-label="${esc(TH[t])} : compter double">${quizImp.has(t)?'★':'☆'}</button><span><b>${esc(TH[t])}</b> <span class="small muted">· ${pl(nd,'duel')}</span><span class="who">${who(t)}</span></span></div>`; }).join('')}</div>
-      ${quizImp.size?`<p class="status" role="status">Classement recalculé : ${[...quizImp].map(t=>esc(TH[t])).join(', ')} ${quizImp.size>1?'comptent':'compte'} double.</p>`:''}</div>
-    ${near.length?`<h3>${near.length>1?'Vos deux plus proches':'Votre plus proche'} : ce qui colle, ce qui colle moins</h3>
-    ${near.map(r=>`<div class="card"><div class="qnh"><b>${esc(r.c.name)}</b><span class="small muted">${esc(r.c.party)} · ${pl(r.x.n,'proposition retenue','propositions retenues')} sur ${r.x.a}</span></div>
-      <div class="qcol"><span class="eyebrow ok">Ce qui colle avec vos choix</span><div class="results">${r.x.ok.map(o=>item(o,costTxt(o))).join('')}</div></div>
-      <div class="qcol"><span class="eyebrow">Ce qui colle moins</span>${r.x.ko.length?`<div class="results">${r.x.ko.map(({o,k,alt})=>item(o,k==='rej'?`Vous avez préféré : ${esc(alt.m.title)} (${esc(cand(alt.c).short)})`:'Aucune des deux propositions retenue')).join('')}</div>`:'<p class="small muted">Aucune de ses propositions écartée dans ce quiz.</p>'}</div>
-      <p class="small muted">Le quiz a montré ${r.x.a} de ses ${r.c.measures.length} mesures.</p><div><button class="btn" data-cand="${r.c.id}">Voir toutes ses mesures</button></div></div>`).join('')}`:''}
+      <div>${themes.map(t=>{ const nd=duels.filter(d=>d.t===t).length; return `<div class="qtr"><button class="star" data-t="${t}" aria-pressed="${quizImp.has(t)}" aria-label="${esc(thName(t))} : compter double"><span aria-hidden="true">${quizImp.has(t)?'★':'☆'}</span></button><span><b>${esc(thName(t))}</b> <span class="small muted">· ${pl(nd,'duel')}</span><span class="who">${who(t)}</span></span></div>`; }).join('')}</div>
+      ${msg?`<p class="status">${esc(msg)}</p>`:star.length?`<p class="status">Comptent double : ${star.map(t=>esc(thName(t))).join(', ')}.</p>`:''}</div>
+    ${near.length?`<h3>${near.length>1?'Les plus proches de vos choix':'Le plus proche de vos choix'} : ce qui colle, ce qui colle moins</h3>
+    ${near.map(r=>`<div class="card"><div class="qnh"><h4>${esc(r.c.name)}</h4><span class="small muted">${esc(r.c.party)} · ${counts(r.x)}</span></div>
+      <div class="qcol"><span class="eyebrow ok">Ce qui colle avec vos choix</span><div class="results">${[...r.x.ok].sort((a,b)=>order(a,b,['pick','both'])).map(({o,k,w})=>item(o,`${QM[k].slice(2)}${w>1?' · thème ★':''} · ${costTxt(o)}`)).join('')}</div></div>
+      <div class="qcol"><span class="eyebrow">Ce qui colle moins</span>${r.x.ko.length?`<div class="results">${[...r.x.ko].sort((a,b)=>order(a,b,['rej','none'])).map(({o,k,alt})=>item(o,k==='rej'?`Vous avez préféré : « ${esc(alt.m.quiz_text||alt.m.title)} » (${esc(cand(alt.c).short)})`:'Aucune des deux propositions retenue')).join('')}</div>`:'<p class="small muted">Aucune de ses propositions écartée dans ce quiz.</p>'}</div>
+      <p class="small muted">Le quiz n'a montré que ${r.x.a} de ses propositions.</p><div><button class="btn" data-cand="${r.c.id}">Voir toutes ses mesures</button></div></div>`).join('')}`
+    :chosen.length?`<p class="small muted">${R.groups[0].length} candidats sont à égalité en tête : aucun ne se détache. Le détail par thème et par duel est ci-dessous.</p>`:''}
     <details class="card qdet"><summary>Le détail des ${s.qs.length} duels, par thème</summary>
-      ${themes.map(t=>`<div class="qcol"><span class="eyebrow">${esc(TH[t])}</span>${duels.filter(d=>d.t===t).map(d=>`<div class="qd results">${d.opts.map(o=>item(o,`${QM[o.k]} · ${esc(cand(o.c).name)} · ${costTxt(o)}`)).join('')}</div>`).join('')}</div>`).join('')}</details>
+      ${themes.map(t=>`<div class="qcol"><span class="eyebrow">${esc(thName(t))}</span>${duels.filter(d=>d.t===t).map(d=>`<div class="qd results">${d.opts.map(o=>item(o,`${QM[o.k]} · ${esc(cand(o.c).name)} · ${costTxt(o)}`)).join('')}</div>`).join('')}</div>`).join('')}</details>
     <div class="row-btns"><button class="btn primary" id="quiz-again">Rejouer</button><button class="btn" id="quiz-copy">Copier mon résultat</button></div><p class="status" id="quiz-st"></p>`;
-  el.querySelectorAll('.results button').forEach(b=>b.onclick=()=>openMeasure(b.dataset.c,b.dataset.m));
+  el.querySelectorAll('.results button').forEach(b=>b.onclick=()=>{ if(b.dataset.life){ cur=b.dataset.c; theme='all'; ftab='vie'; go('cand'); } else openMeasure(b.dataset.c,b.dataset.m); });
   el.querySelectorAll('[data-cand]').forEach(b=>b.onclick=()=>{ cur=b.dataset.cand; theme='all'; ftab='budget'; go('cand'); });
-  el.querySelectorAll('.star').forEach(b=>b.onclick=()=>{ const t=b.dataset.t, y=window.scrollY, open=el.querySelector('.qdet').open;
-    quizImp.has(t)?quizImp.delete(t):quizImp.add(t); quizResult(el,s); el.querySelector('.qdet').open=open; window.scrollTo(0,y); el.querySelector(`.star[data-t="${t}"]`).focus({preventScroll:true}); });
+  el.querySelectorAll('.star').forEach(b=>b.onclick=()=>{ const t=b.dataset.t, y0=b.getBoundingClientRect().top, open=el.querySelector('.qdet').open;
+    quizImp.has(t)?quizImp.delete(t):quizImp.add(t);
+    const r=quizScore(s), m=`Classement recalculé : ${r.head.charAt(0).toLowerCase()+r.head.slice(1)}${r.then?', '+r.then:''}.`;
+    quizResult(el,s,m); el.querySelector('.qdet').open=open; const nb=el.querySelector(`.star[data-t="${t}"]`);
+    window.scrollBy(0,nb.getBoundingClientRect().top-y0); nb.focus({preventScroll:true}); document.getElementById('quiz-live').textContent=m; });
   document.getElementById('quiz-again').onclick=quizStart;
-  document.getElementById('quiz-copy').onclick=()=>{ const txt=`Mon quiz Promesses 2027 : ${head}${then?', '+then:''}. Effet de mes choix sur le déficit : ${md(cost)} Md€/an. ${baseUrl()}#quiz`;
+  document.getElementById('quiz-copy').onclick=()=>{ const d=!chosen.length?'':Math.abs(cost)<0.05?' Mes choix ne changent presque rien au déficit.':` Mes choix ${cost<0?'creusent':'réduisent'} le déficit de ${mdAbs(cost)} Md€ par an.`;
+    const txt=`Mon quiz Promesses 2027 — ${head}${then?', '+then:''}.${d} ${baseUrl()}#quiz`;
     navigator.clipboard.writeText(txt).then(()=>document.getElementById('quiz-st').textContent='Résultat copié.').catch(()=>document.getElementById('quiz-st').textContent=txt); };
 }
 
