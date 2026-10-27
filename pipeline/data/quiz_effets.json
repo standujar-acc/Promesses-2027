@@ -1,7 +1,7 @@
 {
 "_regles": "Par proposition : « Pour » et « Contre », le meilleur argument réel de chaque côté (100 caractères environ, en mots simples, sans pays ni étude), la force des preuves de chacun (solide, mitigé, faible, pas d'étude), 0 à 3 cas réels sourcés par côté (le fait observé, puis source, lieu et année entre parenthèses), l'état des études et les sources (format dans pipeline/quizfx.py ; l'ancien format [plus, moins, sources] reste lu). Même méthode et même exigence pour toutes les mesures, sans fausse symétrie : rien d'inventé pour équilibrer. Mêmes cas pour les mesures du même type. Pas de nom, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement moral. Les sources dont le titre ou l'adresse nomme un candidat ne sont pas affichées (quiz à l'aveugle).",
 "attal.annee_blanche": {
-"constat": "La dette publique atteint 119 % du PIB mi-2026, contre 98 % fin 2019 (Insee).",
+"constat": "Dette publique : de 98 % du PIB fin 2019 à 119 % mi-2026 (Insee).",
 "constat_s": [
 1
 ],
@@ -170,7 +170,7 @@
 ]
 },
 "attal.fonctionnaires": {
-"constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
+"constat": "Effectifs de la fonction publique : +3 % de fin 2019 à fin 2024, à 5,9 millions d'agents (Insee).",
 "constat_s": [
 3
 ],
@@ -231,7 +231,7 @@
 ]
 },
 "attal.immigration": {
-"constat": "Les entrées d'immigrés en France sont passées de 259 000 en 2014 à 313 000 en 2024 (Insee).",
+"constat": "Entrées d'immigrés en France : +21 % de 2014 à 2024 (Insee).",
 "constat_s": [
 2
 ],
@@ -336,9 +336,10 @@
 ]
 },
 "attal.regle_or": {
-"constat": "Déficit public : 5,1 % du PIB en 2025 contre 2,4 % en 2019 ; dette : 115,7 % du PIB contre 98,2 % (Eurostat).",
+"constat": "Dette publique : de 98 % du PIB fin 2019 à 119 % mi-2026 (Insee) ; déficit : 5,1 % du PIB en 2025 (Eurostat).",
 "constat_s": [
-2
+2,
+3
 ],
 "pour": "Inscrite dans la Constitution, la règle oblige chaque majorité à équilibrer ses comptes.",
 "preuve_pour": "mitigé",
@@ -377,6 +378,11 @@
 "l": "Eurostat, dette et déficit publics (gov_10dd_edpt1), France",
 "a": 2026,
 "u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=FR&unit=PC_GDP&sector=S13&na_item=GD&na_item=B9&time=2019&time=2024&time=2025"
+},
+{
+"l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/010777608"
 }
 ]
 },
@@ -925,7 +931,7 @@
 ]
 },
 "le-pen.ame": {
-"constat": "Bénéficiaires de l'aide médicale d'État : 316 000 fin 2015, 439 000 mi-2023 (Assurance maladie).",
+"constat": "Bénéficiaires de l'aide médicale d'État : +39 % de fin 2015 à mi-2023 (Assurance maladie).",
 "constat_s": [
 4,
 5
@@ -1068,7 +1074,7 @@
 ]
 },
 "le-pen.etat": {
-"constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
+"constat": "Effectifs de la fonction publique : +3 % de fin 2019 à fin 2024, à 5,9 millions d'agents (Insee).",
 "constat_s": [
 4
 ],
@@ -1408,16 +1414,7 @@
 "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
 "a": 2026,
 "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
-},
-{
-"l": "DH (AFP), manifestations contre la vie chère, chiffre du ministère de l'Intérieur",
-"a": 2026,
-"u": "https://www.dhnet.be/dernieres-depeches/2026/10/17/manifestations-en-france-environ-550000-manifestants-en-france-400-interpellations-GTPRJOCSN5EG3AQLIP4AHRCEU4/"
 }
-],
-"actu": "Le 17 octobre 2026, environ 550 000 personnes ont manifesté contre la vie chère et le prix de l'essence (Intérieur).",
-"actu_s": [
-3
 ]
 },
 "le-pen.tva-produits-essentiels": {
@@ -1467,20 +1464,11 @@
 "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
 "a": 2026,
 "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
-},
-{
-"l": "DH (AFP), manifestations contre la vie chère, chiffre du ministère de l'Intérieur",
-"a": 2026,
-"u": "https://www.dhnet.be/dernieres-depeches/2026/10/17/manifestations-en-france-environ-550000-manifestants-en-france-400-interpellations-GTPRJOCSN5EG3AQLIP4AHRCEU4/"
 }
-],
-"actu": "Le 17 octobre 2026, environ 550 000 personnes ont manifesté contre la vie chère et le prix de l'essence (Intérieur).",
-"actu_s": [
-4
 ]
 },
 "le-pen.ue": {
-"constat": "Solde net avec le budget européen : -9,3 Md€ en 2023, contre -7,2 Md€ en 2018 et -2,1 Md€ en 2000 (Bercy).",
+"constat": "Contribution nette de la France au budget européen : +29 % de 2018 à 2023 (Bercy).",
 "constat_s": [
 0
 ],
@@ -1609,7 +1597,7 @@
 ]
 },
 "lisnard.ame": {
-"constat": "Bénéficiaires de l'aide médicale d'État : 316 000 fin 2015, 439 000 mi-2023 (Assurance maladie).",
+"constat": "Bénéficiaires de l'aide médicale d'État : +39 % de fin 2015 à mi-2023 (Assurance maladie).",
 "constat_s": [
 4,
 5
@@ -1742,7 +1730,7 @@
 ]
 },
 "lisnard.fonction": {
-"constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
+"constat": "Effectifs de la fonction publique : +3 % de fin 2019 à fin 2024, à 5,9 millions d'agents (Insee).",
 "constat_s": [
 3
 ],
@@ -1999,7 +1987,7 @@
 "complement_ref": [
 "lisnard.retraites"
 ],
-"constat": "1,8 cotisant par retraité en 2025, contre 2,1 en 2002 ; déficit des retraites : 0,2 % du PIB (COR).",
+"constat": "Cotisants par retraité : −14 % de 2002 à 2025 ; déficit des retraites : 0,2 % du PIB (COR).",
 "constat_s": [
 6
 ],
@@ -2118,10 +2106,11 @@
 ]
 },
 "melenchon.dette": {
-"constat": "Dette publique : 115,7 % du PIB en 2025 contre 98,2 % en 2019 ; intérêts : 2,2 % contre 1,5 % (Eurostat).",
+"constat": "Dette publique : de 98 % du PIB fin 2019 à 119 % mi-2026 (Insee) ; intérêts : 2,2 % du PIB en 2025, 1,5 % en 2019 (Eurostat).",
 "constat_s": [
 4,
-5
+5,
+6
 ],
 "pour": "Une banque centrale encaisse des pertes sans faillite : effacer sa part allège la dette publique.",
 "preuve_pour": "mitigé",
@@ -2181,6 +2170,11 @@
 "l": "Eurostat, intérêts versés par les administrations publiques (gov_10a_main, D41), France",
 "a": 2026,
 "u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10a_main?geo=FR&unit=PC_GDP&sector=S13&na_item=D41PAY&time=2015&time=2019&time=2025"
+},
+{
+"l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/010777608"
 }
 ]
 },
@@ -2467,16 +2461,7 @@
 "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
 "a": 2026,
 "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
-},
-{
-"l": "DH (AFP), manifestations contre la vie chère, chiffre du ministère de l'Intérieur",
-"a": 2026,
-"u": "https://www.dhnet.be/dernieres-depeches/2026/10/17/manifestations-en-france-environ-550000-manifestants-en-france-400-interpellations-GTPRJOCSN5EG3AQLIP4AHRCEU4/"
 }
-],
-"actu": "Le 17 octobre 2026, environ 550 000 personnes ont manifesté contre la vie chère et le prix de l'essence (Intérieur).",
-"actu_s": [
-3
 ]
 },
 "melenchon.retraites": {
@@ -2688,7 +2673,7 @@
 ]
 },
 "philippe.famille": {
-"constat": "La fécondité est passée de 1,83 enfant par femme en 2019 à 1,53 en 2025 (Insee, métropole).",
+"constat": "Fécondité : −16 % de 2019 à 2025, à 1,53 enfant par femme (Insee, métropole).",
 "constat_s": [
 2
 ],
@@ -2731,7 +2716,7 @@
 ]
 },
 "philippe.fonction": {
-"constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
+"constat": "Effectifs de la fonction publique : +3 % de fin 2019 à fin 2024, à 5,9 millions d'agents (Insee).",
 "constat_s": [
 3
 ],
@@ -2908,7 +2893,7 @@
 ]
 },
 "philippe.immigration": {
-"constat": "Les entrées d'immigrés en France sont passées de 259 000 en 2014 à 313 000 en 2024 (Insee).",
+"constat": "Entrées d'immigrés en France : +21 % de 2014 à 2024 (Insee).",
 "constat_s": [
 6
 ],
@@ -2990,7 +2975,7 @@
 "complement_ref": [
 "philippe.famille"
 ],
-"constat": "La fécondité est passée de 1,83 enfant par femme en 2019 à 1,53 en 2025 (Insee, métropole).",
+"constat": "Fécondité : −16 % de 2019 à 2025, à 1,53 enfant par femme (Insee, métropole).",
 "constat_s": [
 1
 ],
@@ -3154,7 +3139,7 @@
 "complement_ref": [
 "philippe.retraites"
 ],
-"constat": "1,8 cotisant par retraité en 2025, contre 2,1 en 2002 ; déficit des retraites : 0,2 % du PIB (COR).",
+"constat": "Cotisants par retraité : −14 % de 2002 à 2025 ; déficit des retraites : 0,2 % du PIB (COR).",
 "constat_s": [
 2
 ],
@@ -3234,7 +3219,7 @@
 ]
 },
 "retailleau.ame": {
-"constat": "Bénéficiaires de l'aide médicale d'État : 316 000 fin 2015, 439 000 mi-2023 (Assurance maladie).",
+"constat": "Bénéficiaires de l'aide médicale d'État : +39 % de fin 2015 à mi-2023 (Assurance maladie).",
 "constat_s": [
 4,
 5
@@ -3376,7 +3361,7 @@
 "complement_ref": [
 "retailleau.etat"
 ],
-"constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
+"constat": "Effectifs de la fonction publique : +3 % de fin 2019 à fin 2024, à 5,9 millions d'agents (Insee).",
 "constat_s": [
 5
 ],
@@ -3639,7 +3624,7 @@
 ]
 },
 "retailleau.retraites": {
-"constat": "1,8 cotisant par retraité en 2025, contre 2,1 en 2002 ; déficit des retraites : 0,2 % du PIB (COR).",
+"constat": "Cotisants par retraité : −14 % de 2002 à 2025 ; déficit des retraites : 0,2 % du PIB (COR).",
 "constat_s": [
 2
 ],
@@ -3792,22 +3777,7 @@
 "l": "SSMSI, base statistique régionale de la délinquance enregistrée (data.gouv.fr)",
 "a": 2026,
 "u": "https://static.data.gouv.fr/resources/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales/20260709-120055/donnee-reg-data.gouv-2025-geographie2026-produit-le2026-06-25.csv"
-},
-{
-"l": "ICI (AFP), bilan consolidé du ministère de l'Intérieur, violences du 17 octobre",
-"a": 2026,
-"u": "https://www.ici.fr/infos/faits-divers-justice/mobilisation-du-17-octobre-1-800-interpellations-en-france-indique-le-ministre-de-l-interieur-laurent-nunez-6459330"
-},
-{
-"l": "Sud Radio, chiffres de CCI France sur les commerces touchés les 17 et 24 octobre",
-"a": 2026,
-"u": "https://www.sudradio.fr/societe/plus-de-2-500-commerces-touches-par-les-violences-dont-un-millier-fortement-degrades-selon-cci-france"
 }
-],
-"actu": "Le 17 octobre 2026 : 997 policiers et gendarmes blessés, 2 397 interpellations, 1 161 commerces fortement dégradés.",
-"actu_s": [
-5,
-6
 ]
 },
 "retailleau.travail": {
@@ -3900,7 +3870,7 @@
 ]
 },
 "zemmour.cedh": {
-"constat": "Les entrées d'immigrés en France sont passées de 259 000 en 2014 à 313 000 en 2024 (Insee).",
+"constat": "Entrées d'immigrés en France : +21 % de 2014 à 2024 (Insee).",
 "constat_s": [
 5
 ],
@@ -3967,7 +3937,7 @@
 ]
 },
 "zemmour.fonctionnaires": {
-"constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
+"constat": "Effectifs de la fonction publique : +3 % de fin 2019 à fin 2024, à 5,9 millions d'agents (Insee).",
 "constat_s": [
 3
 ],
@@ -4071,7 +4041,7 @@
 ]
 },
 "zemmour.retraites": {
-"constat": "1,8 cotisant par retraité en 2025, contre 2,1 en 2002 ; déficit des retraites : 0,2 % du PIB (COR).",
+"constat": "Cotisants par retraité : −14 % de 2002 à 2025 ; déficit des retraites : 0,2 % du PIB (COR).",
 "constat_s": [
 6
 ],
@@ -4161,7 +4131,7 @@
 ]
 },
 "le-pen.logement.2": {
-"constat": "Les mises en chantier de logements reculent depuis 2017, jusqu'à 251 000 en 2024 (Cour des comptes).",
+"constat": "Mises en chantier de logements : −31 % de 2022 à 2024, au plus bas depuis le retournement de 2017 (Cour des comptes).",
 "constat_s": [
 6
 ],
@@ -4407,7 +4377,7 @@
 "complement_ref": [
 "retailleau.logement.2"
 ],
-"constat": "Les mises en chantier de logements reculent depuis 2017, jusqu'à 251 000 en 2024 (Cour des comptes).",
+"constat": "Mises en chantier de logements : −31 % de 2022 à 2024, au plus bas depuis le retournement de 2017 (Cour des comptes).",
 "constat_s": [
 1
 ],
@@ -4491,7 +4461,7 @@
 "complement_ref": [
 "retailleau.logement.1"
 ],
-"constat": "Les mises en chantier de logements reculent depuis 2017, jusqu'à 251 000 en 2024 (Cour des comptes).",
+"constat": "Mises en chantier de logements : −31 % de 2022 à 2024, au plus bas depuis le retournement de 2017 (Cour des comptes).",
 "constat_s": [
 3
 ],
@@ -4633,7 +4603,7 @@
 ]
 },
 "lisnard.logement.1": {
-"constat": "Les mises en chantier de logements reculent depuis 2017, jusqu'à 251 000 en 2024 (Cour des comptes).",
+"constat": "Mises en chantier de logements : −31 % de 2022 à 2024, au plus bas depuis le retournement de 2017 (Cour des comptes).",
 "constat_s": [
 3
 ],
@@ -4694,7 +4664,7 @@
 ]
 },
 "lisnard.logement.2": {
-"constat": "Les mises en chantier de logements reculent depuis 2017, jusqu'à 251 000 en 2024 (Cour des comptes).",
+"constat": "Mises en chantier de logements : −31 % de 2022 à 2024, au plus bas depuis le retournement de 2017 (Cour des comptes).",
 "constat_s": [
 3
 ],
@@ -4744,7 +4714,7 @@
 ]
 },
 "melenchon.ecole.2": {
-"constat": "Le nombre d'écoles publiques est passé de 45 877 en 2016 à 42 396 en 2025 ; 3 300 n'ont qu'une classe (DEPP).",
+"constat": "Écoles publiques : −8 % de 2016 à 2025 ; 3 300 n'ont qu'une classe (DEPP).",
 "constat_s": [
 3
 ],
@@ -5094,7 +5064,7 @@
 ]
 },
 "attal.ecole.1": {
-"constat": "Une classe d'école compte en moyenne 21,3 élèves en 2025, contre 24,0 en 2015 (24,4 dans le privé) (DEPP).",
+"constat": "Élèves par classe à l'école : −11 % de 2015 à 2025, 21,3 en moyenne (24,4 dans le privé) (DEPP).",
 "constat_s": [
 4
 ],
