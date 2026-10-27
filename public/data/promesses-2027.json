@@ -612,12 +612,20 @@
      "claimed_md": 5,
      "estimates": [
       {
-       "source": "Planète Grandes Écoles (contre-budget RN)",
+       "source": "Contre-budget 2027 du RN (Vert)",
        "year": 2026,
-       "value": "5 Md€ annoncés",
+       "value": "Plus de 5 Md€ dès la 1re année : fin des subventions, moratoire sur les nouveaux projets, surtaxe sur l'éolien",
        "low_md": 5,
        "high_md": 5,
-       "url": "https://www.planetegrandesecoles.com/budget-marine-le-pen-2027-mesures-contre-budget-rn"
+       "url": "https://vert.eco/chaleurs-actuelles/marine-le-pen-presente-le-contre-budget-du-rn-pour-2027-une-attaque-contre-les-renouvelables-et-les-agences-environnementales/"
+      },
+      {
+       "source": "Contre-budget 2026 du RN",
+       "year": 2025,
+       "value": "Fin des tarifs de rachat des énergies intermittentes : 7,2 Md€ en 2026",
+       "low_md": 7.2,
+       "high_md": 7.2,
+       "url": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf"
       }
      ],
      "consensus": "isolé",
@@ -630,7 +638,15 @@
       "high": 3,
       "method": "ascendant",
       "formula": "Même règle que Retailleau : hausse évitée du soutien aux ENR ≈ 1 Md€/an en 2030, les contrats signés étant maintenus",
-      "inputs": []
+      "inputs": [
+       {
+        "label": "Soutien aux ENR électriques (métropole)",
+        "value": "7,29 Md€ (2026) → 8,38 Md€ (2027), ≈ +1 Md€/an",
+        "source": "CRE, délibération n° 2026-149",
+        "url": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-149_CSPE_2026-2027.pdf"
+       }
+      ],
+      "note": "Les montants du camp (7,2 Md€ en 2026, plus de 5 Md€ en 2027) supposent d'arrêter aussi le soutien versé aux contrats en cours"
      }
     }
    ],
@@ -1790,38 +1806,46 @@
      "id": "ukraine",
      "theme": "europe",
      "title": "Plus d'aide à l'Ukraine",
-     "proposal": "Hausse « drastique » de l'aide militaire, financée par la saisie des avoirs russes.",
+     "proposal": "Hausse « drastique » des livraisons d'armes européennes à l'Ukraine, financée par la saisie des avoirs russes gelés (≈ 200 Md€ dans l'UE).",
      "claimed": "Financement par les avoirs russes",
      "claimed_md": null,
      "estimates": [
       {
-       "source": "Revue Conflits",
-       "year": 2026,
-       "value": "Aide militaire ≈3 Md€ en 2024, 0,94 Md€ livrés en 2025",
-       "low_md": -3,
-       "high_md": -0.94,
-       "url": "https://www.revueconflits.com/?p=65984"
+       "source": "R. Glucksmann, lettre « Cap clair »",
+       "year": 2025,
+       "value": "Armes européennes « drastiquement » augmentées ; saisir les 200 Md€ d'avoirs russes gelés",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://raphaelglucksmann.kessel.media/posts/pst_bde552542ce94673b5d60ad3fd1e33c3/je-vous-ecris-dukraine-la-ou-se-joue-lavenir-de-leurope"
+      },
+      {
+       "source": "Toute l'Europe",
+       "year": 2025,
+       "value": "Pas d'accord sur les avoirs ; prêt de 90 Md€ à taux zéro par emprunt commun pour 2026-2027",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.touteleurope.eu/l-ue-dans-le-monde/faute-d-accord-sur-les-avoirs-russes-les-vingt-sept-debloquent-un-pret-de-90-milliards-d-euros-pour-l-ukraine/"
       }
      ],
      "consensus": "isolé",
      "verdict": "tres_difficile",
-     "obstacle": "Saisie des avoirs russes contestée (Belgique, Euroclear)",
+     "obstacle": "Saisie des avoirs russes non décidée : l'UE a choisi en décembre 2025 un prêt de 90 Md€ financé par emprunt commun ; la Belgique (Euroclear) s'oppose à la saisie.",
      "claude": {
       "id": "ukraine",
       "central": 0,
       "low": 0,
       "high": 0,
       "method": "ascendant",
-      "formula": "+3 Md€/an (doublement de 2024), financés à 50 % par les avoirs russes",
+      "formula": "Non chiffrable : ampleur de la hausse non publiée ; pour ordre de grandeur, doubler les livraisons françaises de 2025 ≈ +0,9 Md€",
       "inputs": [
        {
-        "label": "Aide militaire française",
-        "value": "≈3 Md€ en 2024",
-        "source": "Revue Conflits",
-        "url": "https://www.revueconflits.com/?p=65984"
+        "label": "Matériels livrés à l'Ukraine",
+        "value": "0,86 Md€ (2024), 0,94 Md€ (2025)",
+        "source": "Ministère des Armées, rapport au Parlement 2026",
+        "url": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/Rapport%20au%20Parlement%202026%20sur%20les%20exportations%20d%E2%80%99armement%20de%20la%20France%20(12082026).pdf"
        }
       ],
-      "note": "Indicatif : doubler l'aide de 2024 ≈ 3 Md€, en partie financés par les avoirs russes ; ampleur non publiée",
+      "note": "Indicatif : matériels livrés 0,86 Md€ en 2024 et 0,94 Md€ en 2025 (ministère des Armées) ; les 3 Md€ de 2024 étaient un plafond d'engagement",
       "nc": true
      },
      "quiz_text": "Augmenter fortement l'aide militaire à l'Ukraine",
@@ -2798,6 +2822,12 @@
         "value": "9,1 Md€ (2026), 10,7 Md€ (2027)",
         "source": "CRE (Banque des Territoires)",
         "url": "https://www.banquedesterritoires.fr/vers-une-hausse-de-11-du-cout-du-soutien-public-aux-energies-renouvelables-en-2027"
+       },
+       {
+        "label": "Soutien aux ENR électriques (métropole)",
+        "value": "7,29 Md€ (2026) → 8,38 Md€ (2027), ≈ +1 Md€/an",
+        "source": "CRE, délibération n° 2026-149",
+        "url": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-149_CSPE_2026-2027.pdf"
        }
       ],
       "note": "Contrats existants intangibles"
@@ -3302,17 +3332,25 @@
      "id": "travail",
      "theme": "travail",
      "title": "Heures sup et chômage",
-     "proposal": "Supprimer le plafond légal d'heures supplémentaires (220 h/an) et réformer l'assurance chômage pour inciter au travail.",
+     "proposal": "Supprimer le contingent annuel d'heures supplémentaires (220 h par salarié à défaut d'accord) et réformer l'assurance chômage pour inciter au travail.",
      "claimed": "+100 000 emplois",
      "claimed_md": null,
      "estimates": [
       {
-       "source": "votons-2027.fr",
+       "source": "attalpresident.fr, travail et salaires",
        "year": 2026,
-       "value": "Mesure décrite, sans chiffrage",
+       "value": "Fin du plafond d'heures sup ; réforme de l'assurance chômage : +100 000 emplois, sans chiffrage en euros",
        "low_md": null,
        "high_md": null,
-       "url": "https://votons-2027.fr/candidats/attal/programme/economie"
+       "url": "https://attalpresident.fr/programme/travail-salaires"
+      },
+      {
+       "source": "Proposition de loi n° 1791 (cosignée par G. Attal)",
+       "year": 2025,
+       "value": "Affiliation 8 mois sur 20, durée maximale 15 mois : 3,6 Md€ d'économies (estimation 2024)",
+       "low_md": 3.6,
+       "high_md": 3.6,
+       "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b1791_proposition-loi.pdf"
       }
      ],
      "consensus": "isolé",
@@ -3324,12 +3362,19 @@
       "high": 0,
       "method": "ascendant",
       "formula": "Paramètres non publiés",
-      "inputs": [],
-      "note": "Les 100 000 emplois sont annoncés sans méthode",
+      "inputs": [
+       {
+        "label": "Contingent annuel d'heures supplémentaires",
+        "value": "220 h par salarié à défaut d'accord",
+        "source": "Service-public.fr",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"
+       }
+      ],
+      "note": "Indicatif : si la réforme reprend la proposition de loi de 2025, ≈ +3,6 Md€ ; le programme n'en donne pas les paramètres. Au-delà de 220 h, les heures sup sont déjà possibles avec un repos compensateur",
       "nc": true
      },
-     "quiz_text": "Supprimer la limite légale d'heures supplémentaires",
-     "quiz_concret": "Vous pourriez faire plus d'heures sup si votre employeur le propose."
+     "quiz_text": "Supprimer le plafond annuel d'heures supplémentaires",
+     "quiz_concret": "Plus de plafond annuel de 220 heures sup par salarié ; la durée maximale par semaine reste la même."
     },
     {
      "id": "europe",
@@ -4552,7 +4597,7 @@
   "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026 (marquées « À confirmer ») et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 162 sources distinctes. L'année de chaque source est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 168 sources distinctes. L'année de chaque source est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » viennent des statistiques publiques (SSMSI, Insee, DREES, DEPP, Citepa, Eurostat, OTAN, etc.). Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique les paramètres annoncés à votre situation, à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Ce sont des ordres de grandeur.",

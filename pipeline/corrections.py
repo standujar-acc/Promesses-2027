@@ -273,6 +273,28 @@ k=M('retailleau','production')['claude']
 if k.get('note','').startswith('Incohérence interne du camp'): k['note']="Chiffres du camp différents selon les documents (51 Md€ cumulés contre 40 Md€ par an)"
 # Attal, retraites : borne de retour à 62 ans = valeur commune
 k=M('attal','retraites')['claude']; k['formula']=k['formula'].replace("retour à 62 ans (−14,1)","retour à 62 ans (−11,8, valeur commune)")
+# sources primaires pour les trois mesures qui ne reposaient que sur des sources faibles
+CRE={"label":"Soutien aux ENR électriques (métropole)","value":"7,29 Md€ (2026) → 8,38 Md€ (2027), ≈ +1 Md€/an","source":"CRE, délibération n° 2026-149","url":"https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-149_CSPE_2026-2027.pdf"}
+for cid,mid in (('le-pen','enr'),('retailleau','energie')):
+    k=M(cid,mid)['claude']; k['inputs']=k.get('inputs',[])+[CRE]
+m=M('le-pen','enr')
+m['estimates']=[{"source":"Contre-budget 2027 du RN (Vert)","year":2026,"value":"Plus de 5 Md€ dès la 1re année : fin des subventions, moratoire sur les nouveaux projets, surtaxe sur l'éolien","low_md":5,"high_md":5,"url":"https://vert.eco/chaleurs-actuelles/marine-le-pen-presente-le-contre-budget-du-rn-pour-2027-une-attaque-contre-les-renouvelables-et-les-agences-environnementales/"},
+ {"source":"Contre-budget 2026 du RN","year":2025,"value":"Fin des tarifs de rachat des énergies intermittentes : 7,2 Md€ en 2026","low_md":7.2,"high_md":7.2,"url":"https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf"}]
+m['claude']['note']="Les montants du camp (7,2 Md€ en 2026, plus de 5 Md€ en 2027) supposent d'arrêter aussi le soutien versé aux contrats en cours"
+m=M('glucksmann','ukraine')
+m['proposal']="Hausse « drastique » des livraisons d'armes européennes à l'Ukraine, financée par la saisie des avoirs russes gelés (≈ 200 Md€ dans l'UE)."
+m['obstacle']="Saisie des avoirs russes non décidée : l'UE a choisi en décembre 2025 un prêt de 90 Md€ financé par emprunt commun ; la Belgique (Euroclear) s'oppose à la saisie."
+m['estimates']=[{"source":"R. Glucksmann, lettre « Cap clair »","year":2025,"value":"Armes européennes « drastiquement » augmentées ; saisir les 200 Md€ d'avoirs russes gelés","low_md":None,"high_md":None,"url":"https://raphaelglucksmann.kessel.media/posts/pst_bde552542ce94673b5d60ad3fd1e33c3/je-vous-ecris-dukraine-la-ou-se-joue-lavenir-de-leurope"},
+ {"source":"Toute l'Europe","year":2025,"value":"Pas d'accord sur les avoirs ; prêt de 90 Md€ à taux zéro par emprunt commun pour 2026-2027","low_md":None,"high_md":None,"url":"https://www.touteleurope.eu/l-ue-dans-le-monde/faute-d-accord-sur-les-avoirs-russes-les-vingt-sept-debloquent-un-pret-de-90-milliards-d-euros-pour-l-ukraine/"}]
+m['claude'].update(formula="Non chiffrable : ampleur de la hausse non publiée ; pour ordre de grandeur, doubler les livraisons françaises de 2025 ≈ +0,9 Md€",
+ note="Indicatif : matériels livrés 0,86 Md€ en 2024 et 0,94 Md€ en 2025 (ministère des Armées) ; les 3 Md€ de 2024 étaient un plafond d'engagement",
+ inputs=[{"label":"Matériels livrés à l'Ukraine","value":"0,86 Md€ (2024), 0,94 Md€ (2025)","source":"Ministère des Armées, rapport au Parlement 2026","url":"https://www.defense.gouv.fr/sites/default/files/ministere-armees/Rapport%20au%20Parlement%202026%20sur%20les%20exportations%20d%E2%80%99armement%20de%20la%20France%20(12082026).pdf"}])
+m=M('attal','travail')
+m['proposal']="Supprimer le contingent annuel d'heures supplémentaires (220 h par salarié à défaut d'accord) et réformer l'assurance chômage pour inciter au travail."
+m['estimates']=[{"source":"attalpresident.fr, travail et salaires","year":2026,"value":"Fin du plafond d'heures sup ; réforme de l'assurance chômage : +100 000 emplois, sans chiffrage en euros","low_md":None,"high_md":None,"url":"https://attalpresident.fr/programme/travail-salaires"},
+ {"source":"Proposition de loi n° 1791 (cosignée par G. Attal)","year":2025,"value":"Affiliation 8 mois sur 20, durée maximale 15 mois : 3,6 Md€ d'économies (estimation 2024)","low_md":3.6,"high_md":3.6,"url":"https://www.assemblee-nationale.fr/dyn/17/textes/l17b1791_proposition-loi.pdf"}]
+m['claude'].update(note="Indicatif : si la réforme reprend la proposition de loi de 2025, ≈ +3,6 Md€ ; le programme n'en donne pas les paramètres. Au-delà de 220 h, les heures sup sont déjà possibles avec un repos compensateur",
+ inputs=[{"label":"Contingent annuel d'heures supplémentaires","value":"220 h par salarié à défaut d'accord","source":"Service-public.fr","url":"https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"}])
 # --- non chiffrable
 for c0 in D['candidates']:
     for m in c0['measures']:
