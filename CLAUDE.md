@@ -10,9 +10,11 @@ Même traitement pour tous les candidats, toujours. Avant toute modification d'u
 python3 pipeline/run.py     # corrections → totaux → build → public/index.html, public/data/promesses-2027.json
 python3 tests/smoke.py      # Playwright + Chromium
 ```
-- Ne jamais éditer `public/` à la main ; la CI vérifie qu'ils correspondent aux sources.
+- Ne jamais éditer `public/` ni le tableau du README à la main (générés par `run.py`) ; la CI vérifie qu'ils correspondent aux sources.
+- **Guide de développement : [DEVELOPPER.md](DEVELOPPER.md)** (circuit d'une modification, où modifier quoi, liste de contrôle).
+- **À chaque changement**, dans le même commit : registre `pipeline/data/suivi.json` (ajouter les manques et points à trancher, fermer ce qui est réglé ; ne jamais supprimer un point), historique `D.changelog` (une entrée par sujet et par jour, ajoutée après les autres car la dernière s'affiche en haut), date `D['asof']` dans le bloc daté de `corrections.py`. Un arbitrage (méthode, interprétation, changement important d'un total) ne se tranche pas seul : point `a_trancher`, signalé dans la PR.
 - `pipeline/base.json` : base fusionnée d'origine. `corrections.py` : toutes les corrections, datées par bloc (« review 2 », « review 3 »…), puis **les totaux sont calculés en dernier** (ne rien modifier après le bloc `# --- totaux`).
-- `build.py` : textes de la méthode (`D.method`) et historique (`D.changelog`, ajouter une entrée datée à chaque changement visible).
+- `build.py` : textes de la méthode (`D.method`, à garder identique à METHODOLOGIE.md) et historique (`D.changelog`, voir ci-dessus).
 - `life.py` : volet vie quotidienne. `OVR` = même lecture d'une étude pour un même type de mesure ; `VFLIP` = même test « précis / intention ».
 - `data/quiz_plain.json` : textes du quiz en langage courant (`[texte, concrètement]`) ; pas de coût, pas de faisabilité, pas de chiffre qui trahit le candidat. Une mesure sans entrée n'apparaît pas dans le quiz.
 - `data/quiz_effets.json` : par proposition du quiz, `[« + » argument des défenseurs, « − » contrepartie et risques selon les critiques, sources]`, chaque ligne fondée sur des études vérifiées, même poids des deux côtés, mêmes études pour les mesures du même type ; sans nom, coût, faisabilité ni morale. Les sources qui nomment un candidat ne sont pas affichées. Le test vérifie que chaque proposition du quiz a ses deux effets.
