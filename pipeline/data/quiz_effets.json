@@ -1,13 +1,13 @@
 {
-"_regles": "Par proposition : « Pour » et « Contre », le meilleur argument réel de chaque côté (100 caractères environ, en mots simples, sans pays ni étude), la force des preuves de chacun (solide, mitigé, faible, pas d'étude), 0 à 3 cas réels sourcés par côté (le fait observé, puis source, lieu et année entre parenthèses), l'état des études et les sources (format dans pipeline/quizfx.py ; l'ancien format [plus, moins, sources] reste lu). Même méthode et même exigence pour toutes les mesures, sans fausse symétrie : rien d'inventé pour équilibrer. Mêmes cas pour les mesures du même type. Pas de nom, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement moral. Les sources dont le titre ou l'adresse nomme un candidat ne sont pas affichées (quiz à l'aveugle).",
+"_regles": "Par proposition : « Pour » et « Contre », le meilleur argument réel de chaque côté (100 caractères environ, en mots simples, sans pays ni étude) : un fait que la mesure ne dit pas d'elle-même (ce qui s'est passé quand elle a été appliquée : effet mesuré, ordre de grandeur, effet de bord), jamais la mesure redite à l'envers, même test pour les deux côtés, la force des preuves de chacun (solide, mitigé, faible, pas d'étude), 0 à 3 cas réels sourcés par côté (le fait observé, puis source, lieu et année entre parenthèses), l'état des études et les sources (format dans pipeline/quizfx.py ; l'ancien format [plus, moins, sources] reste lu). Même méthode et même exigence pour toutes les mesures, sans fausse symétrie : rien d'inventé pour équilibrer. Mêmes cas pour les mesures du même type. Pas de nom, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement moral. Les sources dont le titre ou l'adresse nomme un candidat ne sont pas affichées (quiz à l'aveugle).",
 "attal.annee_blanche": {
 "constat": "Dette publique : de 98 % du PIB fin 2019 à 119 % mi-2026 (Insee).",
 "constat_s": [
 1
 ],
-"pour": "L'effort est réparti sur tous les allocataires, avec une perte limitée pour chacun sur un an.",
+"pour": "Pour chaque ménage, la perte reste limitée : environ 90 € par an lors du quasi-gel de 2019.",
 "preuve_pour": "solide",
-"contre": "Rapportée au revenu, la perte pèse davantage sur les ménages modestes, qui vivent plus des aides.",
+"contre": "Les plus modestes perdent plus en part de revenu : le quasi-gel de 2019 a relevé la pauvreté de 0,2 point.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -44,9 +44,9 @@
 "constat_s": [
 2
 ],
-"pour": "Une somme placée dès la naissance a des décennies pour grossir, même sans épargne familiale.",
+"pour": "Sur trente ans, la retraite placée en fonds a rapporté 8,5 % par an, contre 3,4 % pour la répartition.",
 "preuve_pour": "solide",
-"contre": "Le capital final dépend des marchés et des ajouts des familles, plus fréquents chez les aisés.",
+"contre": "Les marchés peuvent chuter (−34 % en 2008), et les familles aisées ajoutent bien plus souvent leur épargne.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -101,9 +101,9 @@
 ]
 },
 "attal.europe": {
-"pour": "Un petit groupe de pays décidés avance plus vite qu'à vingt-sept, où un seul pays peut bloquer.",
+"pour": "Lancés à quelques pays, l'espace sans frontières et le Parquet européen ont abouti, puis attiré les autres.",
 "preuve_pour": "mitigé",
-"contre": "Une Europe à plusieurs cercles complique les règles et reste suspendue aux votes nationaux.",
+"contre": "À onze pays, la taxe sur les transactions financières n'a jamais abouti ; un vote national peut tout bloquer.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -174,7 +174,7 @@
 "constat_s": [
 3
 ],
-"pour": "On réduit les postes au fil des départs, en épargnant l'école, l'armée, la justice et la police.",
+"pour": "Au fil des départs, l'État a déjà supprimé 150 000 emplois en cinq ans et regroupé des centaines de services.",
 "preuve_pour": "mitigé",
 "contre": "Les services épargnés étant les plus gros, l'effort se concentre sur les autres et leurs usagers.",
 "preuve_contre": "mitigé",
@@ -206,7 +206,7 @@
 ]
 }
 ],
-"etudes": "Les bilans concordent : les effectifs baissent ; l'économie nette est discutée (près de 90 % reversée aux agents selon la Cour en 2010, enveloppe inchangée selon les inspections).",
+"etudes": "Les bilans concordent : les effectifs baissent ; l'économie nette est discutée (plus de 60 % reversée aux agents en 2009-2011 selon le Sénat).",
 "src": [
 {
 "l": "IGA, IGF, IGAS, Bilan de la RGPP",
@@ -341,9 +341,9 @@
 2,
 3
 ],
-"pour": "Inscrite dans la Constitution, la règle oblige chaque majorité à équilibrer ses comptes.",
+"pour": "Sous une règle de ce type, la dette d'un grand pays est passée de 81 % à 58 % du PIB en neuf ans.",
 "preuve_pour": "mitigé",
-"contre": "Une règle stricte empêche d'emprunter pour investir ou soutenir l'économie en pleine crise.",
+"contre": "Une règle stricte freine aussi l'investissement : un juge a annulé 60 Md€ d'emprunts prévus pour le climat.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -391,9 +391,9 @@
 "complement_ref": [
 "attal.retraites"
 ],
-"pour": "Chacun choisit son départ selon ses années de travail, la pension s'ajustant à ce choix.",
+"pour": "Quand la pension s'ajuste à l'âge de départ, laisser partir plus tôt ne fait presque pas travailler moins.",
 "preuve_pour": "mitigé",
-"contre": "L'âge légal guide les départs : sans lui, beaucoup partiraient tôt avec une pension réduite.",
+"contre": "Les gens partent surtout à l'âge fixé par la loi, bien plus que selon leur pension : ce repère disparaîtrait.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -437,19 +437,25 @@
 ]
 },
 "attal.travail": {
-"pour": "Les entreprises aux pics d'activité peuvent faire plus d'heures sup sans repos à accorder.",
-"preuve_pour": "faible",
-"contre": "Au-delà du seuil, les salariés qui font le plus d'heures perdent leur droit à un repos obligatoire.",
+"pour": "Par accord, une entreprise peut déjà fixer un seuil plus haut : la règle pèse surtout sur celles sans accord.",
+"preuve_pour": "pas d'étude",
+"contre": "Au-delà du seuil, chaque heure sup donne droit à 30 à 60 minutes de repos en plus : ce droit disparaîtrait.",
 "preuve_contre": "pas d'étude",
 "cas_pour": [],
 "cas_contre": [],
-"etudes": "Une seule estimation (OFCE 2017) : +5 à 14 % de recours aux heures sup après l'assouplissement du seuil en 2008 ; aucune étude sur les effets pour les salariés.",
-"src": []
+"etudes": "Pas d'évaluation trouvée de l'effet du seuil sur les heures travaillées ou la santé des salariés ; les règles décrites sont celles du Code du travail (seuil fixé par accord, sinon 220 h ; repos de 50 % ou 100 % au-delà).",
+"src": [
+{
+"l": "Service-public.gouv.fr, Heures supplémentaires d'un salarié du secteur privé (contingent annuel et contrepartie en repos)",
+"a": 2026,
+"u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"
+}
+]
 },
 "glucksmann.defense": {
 "pour": "Emprunter et acheter ensemble coûte moins cher que vingt-sept achats d'armes séparés.",
 "preuve_pour": "mitigé",
-"contre": "Une dette commune se rembourse longtemps, avec des intérêts qui peuvent dépasser les prévisions.",
+"contre": "Les intérêts d'un récent emprunt commun ont doublé sur les prévisions, et ses recettes promises manquent.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -577,7 +583,7 @@
 ],
 "pour": "Les très gros héritages paient peu d'impôt ; les taxer davantage permet d'alléger le travail.",
 "preuve_pour": "solide",
-"contre": "Taxer davantage les gros héritages peut fragiliser des entreprises familiales ou pousser au départ.",
+"contre": "Plus taxées à la transmission, des entreprises familiales sont plus souvent dissoutes : 10 % contre 6 %.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -648,9 +654,9 @@
 "constat_s": [
 2
 ],
-"pour": "Réserver des commandes publiques et taxer des importations donne des débouchés aux usines locales.",
+"pour": "Des droits sur les importations ont fait revenir une partie de la production de lave-linge dans le pays.",
 "preuve_pour": "mitigé",
-"contre": "Protéger fait payer plus cher ménages et contribuables, et attire des représailles.",
+"contre": "Les prix montent (+12 % sur les lave-linge) et, avec les représailles, l'emploi industriel a reculé de 1,4 %.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -774,11 +780,24 @@
 ]
 },
 "glucksmann.service_civique": {
-"pour": "Dix mois passés ensemble font se côtoyer des jeunes de milieux et de régions différents.",
-"preuve_pour": "faible",
+"pour": "Vivre des mois avec des jeunes d'autres origines, répartis au hasard, accroît la confiance envers eux.",
+"preuve_pour": "mitigé",
 "contre": "Dix mois retardent études et entrée dans l'emploi, sans gain de salaire mesuré ensuite.",
 "preuve_contre": "mitigé",
-"cas_pour": [],
+"cas_pour": [
+{
+"t": "Affectés au hasard dans une chambrée avec des soldats issus de minorités, les appelés leur ont ensuite accordé plus de confiance (Finseraas et al., Norvège, 2019).",
+"s": [
+2
+]
+},
+{
+"t": "Servir hors de sa région n'a pas changé en moyenne l'attachement au pays ; il l'a accru chez les appelés des régions les plus autonomistes (J-PAL, Espagne, 2021).",
+"s": [
+3
+]
+}
+],
 "cas_contre": [
 {
 "t": "L'avantage de salaire des anciens appelés du service militaire des années 1950 disparaît une fois pris en compte qui était appelé (Bauer et al., Allemagne, 2012).",
@@ -793,7 +812,7 @@
 ]
 }
 ],
-"etudes": "Les études portent sur des services militaires : pas de gain moyen de salaire, accès au supérieur un peu réduit ; une seule étude (Espagne) sur le rapprochement entre régions.",
+"etudes": "Les études portent sur des services militaires : contact entre jeunes d'origines différentes et confiance accrue (une expérience) ; pas de gain moyen de salaire, accès au supérieur un peu réduit.",
 "src": [
 {
 "l": "Bauer, Bender, Paloyo et Schmidt, European Economic Review (IZA DP 4535)",
@@ -804,6 +823,16 @@
 "l": "Keller, Poutvaara et Wagener, FinanzArchiv (IZA DP 4399)",
 "a": 2010,
 "u": "https://www.iza.org/publications/dp/4399"
+},
+{
+"l": "Finseraas, Hanson, Johnsen, Kotsadam, Torsvik, Trust, ethnic diversity, and personal contact: a field experiment (Journal of Public Economics ; CESifo WP 7515)",
+"a": 2019,
+"u": "https://www.cesifo.org/en/publications/2019/working-paper/trust-ethnic-diversity-and-personal-contact-field-experiment"
+},
+{
+"l": "Cáceres-Delpiano, De Moragas, Facchini, González, Intergroup contact and nation building: military service in Spain (Journal of Public Economics), résumé J-PAL",
+"a": 2021,
+"u": "https://www.povertyactionlab.org/evaluation/encouraging-interregional-contact-foster-national-identity-spain"
 }
 ]
 },
@@ -812,7 +841,7 @@
 "constat_s": [
 6
 ],
-"pour": "Le salaire des moins payés augmente, et la hausse se diffuse aux salaires juste au-dessus.",
+"pour": "La hausse se diffuse au-dessus : presque entière jusqu'à 1,1 SMIC, pour moitié vers 1,5 SMIC.",
 "preuve_pour": "solide",
 "contre": "Avec un SMIC déjà élevé, une forte hausse peut coûter des emplois aux salariés peu qualifiés.",
 "preuve_contre": "mitigé",
@@ -896,9 +925,9 @@
 "complement_ref": [
 "glucksmann.defense"
 ],
-"pour": "Livrer davantage d'armes aide l'armée qui se défend à tenir le front.",
+"pour": "Quand l'aide américaine s'est arrêtée en 2025, la hausse de l'aide européenne a presque comblé le manque.",
 "preuve_pour": "faible",
-"contre": "Les armes données manquent aux armées qui les cèdent tant que les usines ne les ont pas remplacées.",
+"contre": "Céder 30 canons sur 76 a affaibli l'artillerie française 18 à 36 mois, le temps d'en fabriquer d'autres.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -1078,9 +1107,9 @@
 "constat_s": [
 4
 ],
-"pour": "Moins d'agences et de postes, c'est moins de doublons et moins de salaires à payer.",
+"pour": "Fusionner et supprimer des organismes publics a nettement réduit leurs frais de fonctionnement en trois ans.",
 "preuve_pour": "mitigé",
-"contre": "Les missions des agences supprimées restent à faire : il faut les reprendre ailleurs, avec un coût.",
+"contre": "Les missions passent souvent aux ministères, et une part des économies affichées n'est pas due à la réforme.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -1152,7 +1181,7 @@
 ],
 "pour": "Faire verser la taxe par l'acheteur empêche les fraudeurs d'encaisser la TVA puis de disparaître.",
 "preuve_pour": "mitigé",
-"contre": "Des contrôles plus durs pèsent aussi sur ceux qui sont en règle : trésorerie, erreurs.",
+"contre": "Des contrôles durcis touchent aussi la bonne foi : 25 000 parents ont dû rendre leurs aides pour des erreurs.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -1194,9 +1223,9 @@
 "constat_s": [
 2
 ],
-"pour": "Des aides plus difficiles à obtenir pour les nouveaux venus réduisent le nombre d'arrivées.",
+"pour": "Des aides plus dures à obtenir réduisent les arrivées ; là où l'emploi abonde, les arrivants travaillent plus.",
 "preuve_pour": "solide",
-"contre": "Moins d'aides pour les nouveaux venus appauvrit des familles et pèse durablement sur les enfants.",
+"contre": "En moyenne, le gain d'emploi s'efface vite ; les enfants touchés font moins d'études et plus de délits.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -1204,11 +1233,17 @@
 "s": [
 0
 ]
+},
+{
+"t": "Là où l'emploi abondait, revenus du travail des réfugiés touchés en hausse de près de 40 % sur cinq ans ; ailleurs, gain d'emploi disparu en un an (RFBerlin, Danemark, 2024).",
+"s": [
+1
+]
 }
 ],
 "cas_contre": [
 {
-"t": "Six mois d'études en moins pour les enfants de réfugiés touchés par la baisse des aides ; condamnations d'adolescents en hausse de 12 points (AEJ, Danemark, 2024).",
+"t": "Six mois d'études en moins pour les enfants de réfugiés touchés par la baisse des aides ; condamnations d'adolescents +12 points, d'adultes +5 points (RFBerlin, Danemark, 2024).",
 "s": [
 1
 ]
@@ -1239,7 +1274,7 @@
 2,
 3
 ],
-"pour": "Ces impôts sont dus même sans bénéfice : les supprimer aide l'industrie et l'export.",
+"pour": "Ces impôts sont dus même sans bénéfice ; après leur baisse de 2010, les entreprises allégées ont embauché.",
 "preuve_pour": "mitigé",
 "contre": "Les baisses récentes n'ont pas eu d'effet net mesuré, et profitent surtout aux grands groupes.",
 "preuve_contre": "mitigé",
@@ -1378,9 +1413,9 @@
 "constat_s": [
 2
 ],
-"pour": "Moins de taxe sur l'énergie fait baisser tout de suite les factures et le prix du plein.",
+"pour": "Ces baisses passent bien dans les prix : en 2022, gel des tarifs et remise ont ôté 3,1 points à l'inflation.",
 "preuve_pour": "solide",
-"contre": "Ceux qui consomment le plus d'énergie, souvent plus aisés, y gagnent le plus en euros.",
+"contre": "Les plus aisés y gagnent le plus en euros : 64 à 115 €, contre 29 à 48 € pour les plus modestes en 2022.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -1422,9 +1457,9 @@
 "constat_s": [
 3
 ],
-"pour": "Sans taxe sur ces produits, les courses du quotidien coûtent moins cher, tout de suite.",
+"pour": "Pour des aliments de base vendus en magasin, la baisse de taxe est passée presque en entier dans les prix.",
 "preuve_pour": "mitigé",
-"contre": "Une partie de la baisse peut rester dans les marges des vendeurs au lieu de baisser les prix.",
+"contre": "Selon le secteur, une part reste chez les vendeurs : 56 % de la baisse de taxe dans la restauration en 2009.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -1472,7 +1507,7 @@
 "constat_s": [
 0
 ],
-"pour": "Payer moins à l'Union laisse plus d'argent pour les dépenses décidées au niveau national.",
+"pour": "La France verse 6,4 à 9,5 Md€ par an de plus qu'elle ne reçoit ; cinq pays ont obtenu un rabais fixe.",
 "preuve_pour": "solide",
 "contre": "Un budget européen réduit toucherait d'abord les aides agricoles, premier poste des fonds reçus.",
 "preuve_contre": "mitigé",
@@ -1481,6 +1516,12 @@
 "t": "Cinq pays ont obtenu pour 2021-2027 une baisse fixe de leur contribution, dont 1,9 Md€ par an pour les Pays-Bas et 3,7 Md€ pour l'Allemagne (Bercy, UE, 2024).",
 "s": [
 0
+]
+},
+{
+"t": "En 2025, la France a versé au budget européen 9,5 Md€ de plus qu'elle n'en a reçu ; 6,4 Md€ selon la méthode de la Commission (Bercy, France, 2026).",
+"s": [
+1
 ]
 }
 ],
@@ -1498,6 +1539,11 @@
 "l": "Bercy, annexe au PLF 2025 « Relations financières avec l'Union européenne »",
 "a": 2024,
 "u": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF2025-Jaunes/13-Jaune%20relations_financieres_UE.pdf"
+},
+{
+"l": "Bercy, annexe au PLF 2027 « Relations financières avec l'Union européenne »",
+"a": 2026,
+"u": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1129751/file/13-Jaune%202027%20-%20Relations%20financi%C3%A8res%20avec%20l'Union%20europ%C3%A9enne.pdf"
 }
 ]
 },
@@ -1506,9 +1552,9 @@
 "constat_s": [
 2
 ],
-"pour": "Des aides plus difficiles à obtenir pour les nouveaux venus réduisent le nombre d'arrivées.",
+"pour": "Des aides plus dures à obtenir réduisent les arrivées ; là où l'emploi abonde, les arrivants travaillent plus.",
 "preuve_pour": "solide",
-"contre": "Moins d'aides pour les nouveaux venus appauvrit des familles et pèse durablement sur les enfants.",
+"contre": "En moyenne, le gain d'emploi s'efface vite ; les enfants touchés font moins d'études et plus de délits.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -1516,11 +1562,17 @@
 "s": [
 0
 ]
+},
+{
+"t": "Là où l'emploi abondait, revenus du travail des réfugiés touchés en hausse de près de 40 % sur cinq ans ; ailleurs, gain d'emploi disparu en un an (RFBerlin, Danemark, 2024).",
+"s": [
+1
+]
 }
 ],
 "cas_contre": [
 {
-"t": "Six mois d'études en moins pour les enfants de réfugiés touchés par la baisse des aides ; condamnations d'adolescents en hausse de 12 points (AEJ, Danemark, 2024).",
+"t": "Six mois d'études en moins pour les enfants de réfugiés touchés par la baisse des aides ; condamnations d'adolescents +12 points, d'adultes +5 points (RFBerlin, Danemark, 2024).",
 "s": [
 1
 ]
@@ -1550,9 +1602,9 @@
 "constat_s": [
 0
 ],
-"pour": "Une aide unique est plus simple à demander, et son plafond rend la reprise d'emploi plus payante.",
+"pour": "Une aide fusionnée est plus demandée : après la fusion de 2016, le non-recours est tombé de 68 % à 30 %.",
 "preuve_pour": "mitigé",
-"contre": "Un plafond commun réduit l'aide des foyers qui cumulent des aides, souvent des familles nombreuses.",
+"contre": "Les foyers plafonnés sont surtout des familles nombreuses, et 77 % restent sans emploi un an après.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -1673,9 +1725,9 @@
 3,
 4
 ],
-"pour": "Rendre aux salariés l'argent économisé par l'État augmente le net sans coûter à l'employeur.",
+"pour": "Lors de la dernière baisse de ce type, en 2018, le net moyen a crû de 2,2 %, contre 1,7 % pour le brut.",
 "preuve_pour": "solide",
-"contre": "Le gain dépend d'économies encore à trouver ; par le passé, une part a été rendue aux agents.",
+"contre": "Le gain dépend d'économies à trouver ; par le passé, plus de la moitié a été rendue aux agents.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -1734,9 +1786,9 @@
 "constat_s": [
 3
 ],
-"pour": "Remplacer moins de départs réduit peu à peu les salaires à payer, sans licencier personne.",
+"pour": "Au fil des départs, l'État a déjà supprimé 150 000 emplois en cinq ans et regroupé des centaines de services.",
 "preuve_pour": "mitigé",
-"contre": "Si les missions ne changent pas, l'économie nette est plus faible que prévu.",
+"contre": "Plus de la moitié de l'économie a été rendue aux agents en primes : le gain net est bien plus faible.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -1754,19 +1806,19 @@
 ]
 },
 {
-"t": "Des postes ont été supprimés avant les gains de productivité attendus, freinant certaines réformes, surtout informatiques (inspections générales, France, 2012).",
-"s": [
-0
-]
-},
-{
 "t": "Après une baisse de près de 15 % de 1995 à 1999, l'emploi fédéral est remonté presque à son niveau de départ dès 2006 (Statistique Canada, Canada, 2007).",
 "s": [
 2
 ]
+},
+{
+"t": "Plus de 60 % des économies tirées des postes non remplacés en 2009-2011 ont été reversées aux agents en primes et revalorisations (Sénat, France, 2012).",
+"s": [
+4
+]
 }
 ],
-"etudes": "Les bilans concordent : les effectifs baissent ; l'économie nette est discutée (près de 90 % reversée aux agents selon la Cour en 2010, enveloppe inchangée selon les inspections).",
+"etudes": "Les bilans concordent : les effectifs baissent ; l'économie nette est discutée (plus de 60 % reversée aux agents en 2009-2011 selon le Sénat).",
 "src": [
 {
 "l": "IGA, IGF, IGAS, Bilan de la RGPP",
@@ -1787,6 +1839,11 @@
 "l": "Insee Première n° 2094, L'emploi dans la fonction publique en 2024",
 "a": 2026,
 "u": "https://www.insee.fr/fr/statistiques/8732435"
+},
+{
+"l": "Sénat, avis sur le projet de loi de finances pour 2013, « Modernisation de l'État » (bilan de la révision générale des politiques publiques)",
+"a": 2012,
+"u": "https://www.senat.fr/rap/a12-154-15/a12-154-154.html"
 }
 ]
 },
@@ -1796,7 +1853,7 @@
 2,
 3
 ],
-"pour": "Ces impôts sont dus même sans bénéfice : les supprimer aide l'industrie et l'export.",
+"pour": "Ces impôts sont dus même sans bénéfice ; après leur baisse de 2010, les entreprises allégées ont embauché.",
 "preuve_pour": "mitigé",
 "contre": "Les baisses récentes n'ont pas eu d'effet net mesuré, et profitent surtout aux grands groupes.",
 "preuve_contre": "mitigé",
@@ -1847,7 +1904,7 @@
 ]
 },
 "lisnard.is20": {
-"pour": "Moins d'impôt sur les bénéfices laisse plus d'argent pour créer, investir et payer les salariés.",
+"pour": "Environ la moitié de cet impôt retombe sur les salaires : le baisser peut les relever.",
 "preuve_pour": "mitigé",
 "contre": "Le gain va d'abord aux entreprises les plus rentables, pour un effet modeste sur l'emploi.",
 "preuve_contre": "mitigé",
@@ -1960,11 +2017,18 @@
 ]
 },
 "lisnard.referendum": {
-"pour": "Pouvoir lancer un vote donne aux citoyens une prise directe sur les décisions entre deux élections.",
-"preuve_pour": "faible",
-"contre": "Les votes d'initiative populaire attirent souvent peu d'électeurs, ce qui fragilise leur légitimité.",
+"pour": "Là où les citoyens peuvent lancer des votes, les lois suivent plus souvent l'avis de la majorité.",
+"preuve_pour": "mitigé",
+"contre": "Ces votes attirent souvent peu : sur dix votes de ce type en trente ans, deux ont atteint le quorum.",
 "preuve_contre": "mitigé",
-"cas_pour": [],
+"cas_pour": [
+{
+"t": "Sur dix grands sujets, les États où les citoyens peuvent lancer des votes ont 18 à 19 % de chances de plus d'avoir la loi voulue par la majorité (Matsusaka, États-Unis, 2010).",
+"s": [
+1
+]
+}
+],
 "cas_contre": [
 {
 "t": "Seuls 2 des 10 référendums abrogatifs organisés en trente ans ont atteint le quorum ; 30,6 % de votants en juin 2025 (Université de Padoue, Italie, 2025).",
@@ -1973,12 +2037,17 @@
 ]
 }
 ],
-"etudes": "Peu d'études causales : en Suisse, le lien entre démocratie directe et bien-être (Frey et Stutzer, 2000) disparaît dans des travaux récents ; un faible lien avec la satisfaction politique reste.",
+"etudes": "Peu d'études causales : la démocratie directe va avec des lois plus proches de l'avis majoritaire (États-Unis) ; en Suisse, le lien avec le bien-être disparaît dans des travaux récents ; participation souvent faible.",
 "src": [
 {
 "l": "Université de Padoue, Centre des droits humains, référendums de juin 2025",
 "a": 2025,
 "u": "https://unipd-centrodirittiumani.it/en/news/the-results-of-the-abrogative-referendum-on-labor-and-citizenship-held-on-june-8-and-9-2025-the-proposal-to-shorten-the-processing-time-for-granting-italian-citizenship-was-rejected"
+},
+{
+"l": "Matsusaka, Popular Control of Public Policy: A Quantitative Approach (Quarterly Journal of Political Science)",
+"a": 2010,
+"u": "https://gould.usc.edu/assets/docs/Matsusaka_Popular_Control.pdf"
 }
 ]
 },
@@ -2077,11 +2146,18 @@
 ]
 },
 "melenchon.constituante": {
-"pour": "Une assemblée élue pour réécrire la Constitution redonne aux citoyens la main sur les institutions.",
-"preuve_pour": "pas d'étude",
+"pour": "Là où les citoyens ont pris part à l'écriture, la démocratie a davantage progressé ensuite.",
+"preuve_pour": "faible",
 "contre": "Réécrire toute la Constitution prend des années, avec un résultat incertain au moment du vote final.",
 "preuve_contre": "faible",
-"cas_pour": [],
+"cas_pour": [
+{
+"t": "Sur 138 nouvelles Constitutions de 1974 à 2011, la démocratie a davantage progressé ensuite là où les citoyens avaient participé à la rédaction (APSR, 118 pays, 2015).",
+"s": [
+2
+]
+}
+],
 "cas_contre": [
 {
 "t": "Décidée par référendum en 2020 (78 %), la nouvelle Constitution a échoué : deux projets rejetés, en 2022 (61,9 %) et 2023 (55 %) (International IDEA, Chili, 2023).",
@@ -2091,7 +2167,7 @@
 ]
 }
 ],
-"etudes": "Peu de cas comparables et aucune étude sur l'effet d'une nouvelle Constitution sur la confiance des citoyens ; le Chili est le cas récent le plus proche, dans un régime différent.",
+"etudes": "Une étude sur 138 Constitutions lie la participation des citoyens à la rédaction à une démocratie qui progresse ensuite (données d'observation) ; le Chili est le cas récent le plus proche, dans un régime différent.",
 "src": [
 {
 "l": "International IDEA, Democracy Tracker, Chili, décembre 2023",
@@ -2102,6 +2178,11 @@
 "l": "Le Grand Continent, Chili, second projet de Constitution",
 "a": 2023,
 "u": "https://legrandcontinent.eu/fr/?p=207375"
+},
+{
+"l": "Eisenstadt, LeVan, Maboudi, When Talk Trumps Text: the democratizing effects of deliberation during constitution-making, 1974-2011 (American Political Science Review)",
+"a": 2015,
+"u": "https://carllevan.com/wp-content/uploads/2010/01/Eisenstadt-LeVan-Maboudi-on-constitutions-APSR-2015-accepted.pdf"
 }
 ]
 },
@@ -2185,7 +2266,7 @@
 ],
 "pour": "Au sommet, les plus riches paient proportionnellement moins d'impôt que les autres ménages aisés.",
 "preuve_pour": "solide",
-"contre": "Les plus grandes fortunes peuvent partir ou investir moins, avec un effet sur leurs entreprises.",
+"contre": "Les départs sont rares, mais quand l'actionnaire part, la masse salariale de son entreprise baisse de 25 %.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -2358,9 +2439,9 @@
 "constat_s": [
 0
 ],
-"pour": "Relever le salaire de base de tous les agents rattrape la hausse des prix et aide à recruter.",
+"pour": "Après deux ans de baisse sur les prix, le net moyen des agents de l'État a regagné 2,6 % en 2024.",
 "preuve_pour": "mitigé",
-"contre": "Une hausse pour tous pèse sur tous les employeurs publics sans viser les métiers en manque.",
+"contre": "À paie égale, les postes restent vides où la vie est chère : 1,2 candidat par poste à Créteil, 6,8 à Limoges.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -2425,9 +2506,9 @@
 "constat_s": [
 2
 ],
-"pour": "Bloquer les prix stoppe tout de suite leur hausse sur les produits du quotidien.",
+"pour": "Sur l'énergie, le gel des tarifs a retiré 3,1 points à l'inflation en 2022, surtout pour les plus modestes.",
 "preuve_pour": "mitigé",
-"contre": "Un prix bloqué sous le coût peut faire fuir les vendeurs et créer des pénuries.",
+"contre": "Avec sept aliments bloqués, la moitié des aliments a pris plus de 40 % en un an, et l'essence a manqué.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -2549,7 +2630,7 @@
 "constat_s": [
 6
 ],
-"pour": "Le salaire des moins payés augmente, et la hausse se diffuse aux salaires juste au-dessus.",
+"pour": "La hausse se diffuse au-dessus : presque entière jusqu'à 1,1 SMIC, pour moitié vers 1,5 SMIC.",
 "preuve_pour": "solide",
 "contre": "Avec un SMIC déjà élevé, une forte hausse peut coûter des emplois aux salariés peu qualifiés.",
 "preuve_contre": "mitigé",
@@ -2677,7 +2758,7 @@
 "constat_s": [
 2
 ],
-"pour": "Une aide dès le premier enfant soutient les jeunes familles et peut encourager les naissances.",
+"pour": "Des aides en argent à la naissance ont bien accru les naissances, surtout quand elles étaient fortes.",
 "preuve_pour": "mitigé",
 "contre": "L'effet des aides en argent sur les naissances reste modeste et surtout passager.",
 "preuve_contre": "mitigé",
@@ -2720,9 +2801,9 @@
 "constat_s": [
 3
 ],
-"pour": "Remplacer moins de départs réduit peu à peu les salaires à payer, sans licencier personne.",
+"pour": "Au fil des départs, l'État a déjà supprimé 150 000 emplois en cinq ans et regroupé des centaines de services.",
 "preuve_pour": "mitigé",
-"contre": "Si les missions ne changent pas, l'économie nette est plus faible que prévu.",
+"contre": "Plus de la moitié de l'économie a été rendue aux agents en primes : le gain net est bien plus faible.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -2740,19 +2821,19 @@
 ]
 },
 {
-"t": "Des postes ont été supprimés avant les gains de productivité attendus, freinant certaines réformes, surtout informatiques (inspections générales, France, 2012).",
-"s": [
-0
-]
-},
-{
 "t": "Après une baisse de près de 15 % de 1995 à 1999, l'emploi fédéral est remonté presque à son niveau de départ dès 2006 (Statistique Canada, Canada, 2007).",
 "s": [
 2
 ]
+},
+{
+"t": "Plus de 60 % des économies tirées des postes non remplacés en 2009-2011 ont été reversées aux agents en primes et revalorisations (Sénat, France, 2012).",
+"s": [
+4
+]
 }
 ],
-"etudes": "Les bilans concordent : les effectifs baissent ; l'économie nette est discutée (près de 90 % reversée aux agents selon la Cour en 2010, enveloppe inchangée selon les inspections).",
+"etudes": "Les bilans concordent : les effectifs baissent ; l'économie nette est discutée (plus de 60 % reversée aux agents en 2009-2011 selon le Sénat).",
 "src": [
 {
 "l": "IGA, IGF, IGAS, Bilan de la RGPP",
@@ -2773,6 +2854,11 @@
 "l": "Insee Première n° 2094, L'emploi dans la fonction publique en 2024",
 "a": 2026,
 "u": "https://www.insee.fr/fr/statistiques/8732435"
+},
+{
+"l": "Sénat, avis sur le projet de loi de finances pour 2013, « Modernisation de l'État » (bilan de la révision générale des politiques publiques)",
+"a": 2012,
+"u": "https://www.senat.fr/rap/a12-154-15/a12-154-154.html"
 }
 ]
 },
@@ -2781,9 +2867,9 @@
 "constat_s": [
 3
 ],
-"pour": "Préparer le pays avant les catastrophes coûte moins que réparer les dégâts après coup.",
+"pour": "Après le plan créé en 2003, la canicule de 2006 a fait environ 4 400 morts de moins que prévu.",
 "preuve_pour": "mitigé",
-"contre": "Une enveloppe annuelle peut être rabotée au budget ou financer des projets vite dépassés.",
+"contre": "Ce type d'enveloppe se rabote : le fonds vert des communes a été divisé par trois en deux ans.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -2836,7 +2922,7 @@
 "constat_s": [
 3
 ],
-"pour": "Les heures en plus rapportent davantage net au salarié et coûtent moins à l'employeur.",
+"pour": "Environ 500 € de plus par an pour plus de 9 millions de salariés lors de l'exonération de 2007-2012.",
 "preuve_pour": "solide",
 "contre": "Le temps de travail réel n'augmente guère : on déclare surtout autrement des heures déjà faites.",
 "preuve_contre": "solide",
@@ -2897,9 +2983,9 @@
 "constat_s": [
 6
 ],
-"pour": "Moins de venues familiales, c'est moins d'arrivées et une immigration plus tournée vers le travail.",
+"pour": "Avec des règles plus dures sur les conjoints, les jeunes immigrées se marient moins tôt et étudient plus.",
 "preuve_pour": "mitigé",
-"contre": "Un plafond bloque aussi des recrutements utiles ; séparer les familles pèse sur leur santé.",
+"contre": "Un plafond a bloqué des embauches, médecins compris ; les réfugiés séparés des leurs vont moins bien.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -2979,7 +3065,7 @@
 "constat_s": [
 1
 ],
-"pour": "Le revenu des familles baisse après une naissance ; moins d'impôt à ce moment les aide.",
+"pour": "Cinq ans après une naissance, le salaire des mères est inférieur de 20 % : l'aide arrive à ce moment.",
 "preuve_pour": "solide",
 "contre": "Le gain croît avec l'impôt payé, et son effet sur les naissances n'est pas établi.",
 "preuve_contre": "faible",
@@ -3012,7 +3098,7 @@
 3,
 4
 ],
-"pour": "Remplacer des aides par la fin d'impôts dus même sans bénéfice simplifie, à coût nul pour l'État.",
+"pour": "Après la baisse de 2010, les firmes allégées ont embauché ; une aide large, le CICE, a créé peu d'emplois.",
 "preuve_pour": "mitigé",
 "contre": "Les baisses récentes n'ont pas d'effet net mesuré, et les aides retirées peuvent soutenir l'emploi.",
 "preuve_contre": "mitigé",
@@ -3365,9 +3451,9 @@
 "constat_s": [
 5
 ],
-"pour": "Moins de départs remplacés et plus d'heures travaillées : mêmes missions avec moins d'agents.",
+"pour": "Au fil des départs, l'État a déjà supprimé 150 000 emplois en cinq ans et regroupé des centaines de services.",
 "preuve_pour": "mitigé",
-"contre": "Plus d'heures ne change pas les missions : l'économie nette peut rester plus faible que prévu.",
+"contre": "Plus de la moitié de l'économie a été rendue aux agents en primes : le gain net est bien plus faible.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -3397,9 +3483,9 @@
 ]
 },
 {
-"t": "Après une baisse de près de 15 % de 1995 à 1999, l'emploi fédéral est remonté presque à son niveau de départ dès 2006 (Statistique Canada, Canada, 2007).",
+"t": "Plus de 60 % des économies tirées des postes non remplacés en 2009-2011 ont été reversées aux agents en primes et revalorisations (Sénat, France, 2012).",
 "s": [
-4
+6
 ]
 }
 ],
@@ -3434,6 +3520,11 @@
 "l": "Insee Première n° 2094, L'emploi dans la fonction publique en 2024",
 "a": 2026,
 "u": "https://www.insee.fr/fr/statistiques/8732435"
+},
+{
+"l": "Sénat, avis sur le projet de loi de finances pour 2013, « Modernisation de l'État » (bilan de la révision générale des politiques publiques)",
+"a": 2012,
+"u": "https://www.senat.fr/rap/a12-154-15/a12-154-154.html"
 }
 ]
 },
@@ -3510,11 +3601,17 @@
 "s": [
 0
 ]
+},
+{
+"t": "Là où l'emploi abondait, revenus du travail des réfugiés touchés en hausse de près de 40 % sur cinq ans ; ailleurs, gain d'emploi disparu en un an (RFBerlin, Danemark, 2024).",
+"s": [
+1
+]
 }
 ],
 "cas_contre": [
 {
-"t": "Six mois d'études en moins pour les enfants de réfugiés touchés par la baisse des aides ; condamnations d'adolescents en hausse de 12 points (AEJ, Danemark, 2024).",
+"t": "Six mois d'études en moins pour les enfants de réfugiés touchés par la baisse des aides ; condamnations d'adolescents +12 points, d'adultes +5 points (RFBerlin, Danemark, 2024).",
 "s": [
 1
 ]
@@ -3556,7 +3653,7 @@
 4,
 5
 ],
-"pour": "Ces impôts sont dus même sans bénéfice, et les heures sup sans cotisations paient mieux.",
+"pour": "Après la baisse de 2010, les entreprises allégées ont investi et embauché ; les heures sup paient plus.",
 "preuve_pour": "mitigé",
 "contre": "Les baisses passées n'ont accru de façon mesurable ni l'investissement ni le temps de travail.",
 "preuve_contre": "mitigé",
@@ -3830,9 +3927,9 @@
 "constat_s": [
 2
 ],
-"pour": "Des aides plus difficiles à obtenir pour les nouveaux venus réduisent le nombre d'arrivées.",
+"pour": "Des aides plus dures à obtenir réduisent les arrivées ; là où l'emploi abonde, les arrivants travaillent plus.",
 "preuve_pour": "solide",
-"contre": "Moins d'aides pour les nouveaux venus appauvrit des familles et pèse durablement sur les enfants.",
+"contre": "En moyenne, le gain d'emploi s'efface vite ; les enfants touchés font moins d'études et plus de délits.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -3840,11 +3937,17 @@
 "s": [
 0
 ]
+},
+{
+"t": "Là où l'emploi abondait, revenus du travail des réfugiés touchés en hausse de près de 40 % sur cinq ans ; ailleurs, gain d'emploi disparu en un an (RFBerlin, Danemark, 2024).",
+"s": [
+1
+]
 }
 ],
 "cas_contre": [
 {
-"t": "Six mois d'études en moins pour les enfants de réfugiés touchés par la baisse des aides ; condamnations d'adolescents en hausse de 12 points (AEJ, Danemark, 2024).",
+"t": "Six mois d'études en moins pour les enfants de réfugiés touchés par la baisse des aides ; condamnations d'adolescents +12 points, d'adultes +5 points (RFBerlin, Danemark, 2024).",
 "s": [
 1
 ]
@@ -3874,9 +3977,9 @@
 "constat_s": [
 5
 ],
-"pour": "Moins de venues familiales, c'est moins d'arrivées et une immigration plus tournée vers le travail.",
+"pour": "Avec des règles plus dures sur les conjoints, les jeunes immigrées se marient moins tôt et étudient plus.",
 "preuve_pour": "mitigé",
-"contre": "Empêcher la venue de la famille sépare durablement des proches et pèse sur leur santé.",
+"contre": "Les réfugiés rejoints par leur famille vont mieux psychiquement que ceux qui en restent séparés.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -3941,7 +4044,7 @@
 "constat_s": [
 3
 ],
-"pour": "On réduit les postes au fil des départs, en épargnant profs, soignants, policiers et militaires.",
+"pour": "Au fil des départs, l'État a déjà supprimé 150 000 emplois en cinq ans et regroupé des centaines de services.",
 "preuve_pour": "mitigé",
 "contre": "Les services épargnés étant les plus gros, l'effort se concentre sur les autres et leurs usagers.",
 "preuve_contre": "mitigé",
@@ -3973,7 +4076,7 @@
 ]
 }
 ],
-"etudes": "Les bilans concordent : les effectifs baissent ; l'économie nette est discutée (près de 90 % reversée aux agents selon la Cour en 2010, enveloppe inchangée selon les inspections).",
+"etudes": "Les bilans concordent : les effectifs baissent ; l'économie nette est discutée (plus de 60 % reversée aux agents en 2009-2011 selon le Sénat).",
 "src": [
 {
 "l": "IGA, IGF, IGAS, Bilan de la RGPP",
@@ -4326,9 +4429,9 @@
 ]
 },
 "philippe.logement.1": {
-"pour": "Un prêt sans intérêts aide les familles qui s'agrandissent à quitter un logement trop petit.",
+"pour": "Le prêt à taux zéro a surtout permis d'acheter plus tôt, sans attendre d'avoir épargné un apport.",
 "preuve_pour": "mitigé",
-"contre": "L'aide va surtout à des familles qui auraient acheté de toute façon, et renchérit les terrains.",
+"contre": "85 % des ménages aidés auraient acheté sans lui, et le prix des terrains a monté d'environ 7 %.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -4416,9 +4519,9 @@
 ]
 },
 "retailleau.logement.2": {
-"pour": "Déduire les intérêts rend du pouvoir d'achat aux familles qui remboursent un prêt immobilier.",
+"pour": "Les familles aidées achètent des logements plus grands, ce que vise l'avantage qui croît avec les enfants.",
 "preuve_pour": "solide",
-"contre": "L'avantage pousse à emprunter plus et à acheter plus grand, sans créer plus de propriétaires.",
+"contre": "Aucun propriétaire de plus, même à long terme : l'avantage gonfle surtout la taille des prêts.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -4545,7 +4648,7 @@
 ],
 "pour": "Des aides connues cinq ans à l'avance évitent que ménages et artisans reportent les travaux.",
 "preuve_pour": "faible",
-"contre": "Peu de critiques sur le principe ; la réserve porte sur l'efficacité réelle des aides garanties.",
+"contre": "Les aides restent peu efficaces : une isolation n'économise qu'environ 42 % de l'énergie prévue sur plan.",
 "preuve_contre": "solide",
 "cas_pour": [],
 "cas_contre": [
@@ -4670,7 +4773,7 @@
 ],
 "pour": "Limiter les terrains à bâtir rend le foncier plus rare et fait monter le prix des logements.",
 "preuve_pour": "mitigé",
-"contre": "Bâtir d'abord sur des terrains déjà urbanisés évite de perdre des terres agricoles.",
+"contre": "Une règle de ce type a porté de 56 % à 80 % la part des logements neufs bâtis sur des terrains déjà urbanisés.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -4866,9 +4969,9 @@
 "constat_s": [
 5
 ],
-"pour": "Un examen à réussir oblige à maîtriser les bases avant de passer au cycle suivant.",
+"pour": "Avec un examen commun en fin de cycle, les élèves gagnent environ un tiers d'année en maths.",
 "preuve_pour": "mitigé",
-"contre": "Un échec fait perdre une année, ce qui améliore rarement le niveau à long terme.",
+"contre": "Un échec fait redoubler : une année de retard réduit les chances de diplôme et de 9 % les premiers salaires.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -4944,9 +5047,9 @@
 "constat_s": [
 4
 ],
-"pour": "Refaire une année permet à un élève trop en retard de consolider ses bases.",
+"pour": "Avec un soutien intensif, les élèves faibles qui refont l'année progressent, surtout les plus jeunes.",
 "preuve_pour": "mitigé",
-"contre": "Refaire une année améliore rarement le niveau à long terme et peut mener au décrochage.",
+"contre": "Refaire une année à l'adolescence accroît d'environ 8 points le risque de décrochage, sans gain durable.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -5012,9 +5115,9 @@
 ]
 },
 "retailleau.ecole.3": {
-"pour": "Des équipes libres d'adapter programmes et horaires répondent mieux aux besoins de leurs élèves.",
+"pour": "Des collèges en difficulté rendus autonomes ont progressé, d'autant plus que leur autonomie était grande.",
 "preuve_pour": "mitigé",
-"contre": "Plus de liberté ne suffit pas à elle seule à améliorer les résultats des élèves.",
+"contre": "Des écoles publiques libres de leurs programmes et horaires n'ont pas fait mieux que les écoles ordinaires.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -5136,9 +5239,9 @@
 "constat_s": [
 5
 ],
-"pour": "Un examen à réussir oblige à maîtriser les bases avant de passer au cycle suivant.",
+"pour": "Avec un examen commun en fin de cycle, les élèves gagnent environ un tiers d'année en maths.",
 "preuve_pour": "mitigé",
-"contre": "Un échec fait perdre une année, ce qui améliore rarement le niveau à long terme.",
+"contre": "Un échec fait redoubler : une année de retard réduit les chances de diplôme et de 9 % les premiers salaires.",
 "preuve_contre": "solide",
 "cas_pour": [
 {
@@ -5214,9 +5317,9 @@
 "constat_s": [
 5
 ],
-"pour": "Un examen à réussir oblige à maîtriser les bases avant de passer au cycle suivant.",
+"pour": "Avec un examen commun en fin de cycle, les élèves gagnent environ un tiers d'année en maths.",
 "preuve_pour": "mitigé",
-"contre": "Un échec fait perdre une année, ce qui améliore rarement le niveau à long terme.",
+"contre": "Un échec fait redoubler : une année de retard réduit les chances de diplôme et de 9 % les premiers salaires.",
 "preuve_contre": "solide",
 "cas_pour": [
 {

@@ -975,6 +975,19 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": null
+  },
+  {
+   "id": "S065",
+   "type": "a_corriger",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Quiz : des « Pour » et « Contre » qui redisaient la mesure",
+   "detail": "Retour du porteur (27/10/2026, capture du duel sur les aides réservées aux étrangers résidant depuis 5 ans) : le « Contre » « Moins d'aides pour les nouveaux venus appauvrit des familles et pèse durablement sur les enfants » redit la mesure à l'envers et n'apprend rien. Même défaut des deux côtés ailleurs (« Payer moins à l'Union laisse plus d'argent… », « Bloquer les prix stoppe tout de suite leur hausse… », « Les heures en plus rapportent davantage… »).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Règle ajoutée (CLAUDE.md, DEVELOPPER.md, méthode, revue, _regles) : chaque ligne apporte un fait que la mesure ne dit pas d'elle-même (effet mesuré, ordre de grandeur, effet de bord), même test pour le Pour et le Contre. 53 propositions relues et réécrites à partir des cas vérifiés de leur fiche, mêmes lignes pour les mesures du même type (aides réservées : arrivées en baisse, emploi en hausse là où il abonde / gain d'emploi bref, enfants moins scolarisés et plus de délits, RFBerlin 2024 ; postes non remplacés : 150 000 emplois supprimés 2008-2012 / plus de la moitié de l'économie rendue aux agents, Sénat 2012 ; impôts de production : baisse de 2010, Banque de France 2021 ; examens : Jürges 2005 / redoublement, Cnesco). Sources ajoutées et ouvertes : Finseraas et al. 2019 (service et confiance), J-PAL sur Cáceres-Delpiano et al. 2021, Eisenstadt-LeVan-Maboudi 2015 (participation à l'écriture d'une Constitution), Matsusaka 2010 (initiative citoyenne), service-public.gouv.fr (contingent d'heures sup), jaune budgétaire 2027 (solde net avec l'UE). Niveaux de preuve revus : service civique (mitigé), Constituante (faible), référendum (mitigé), seuil d'heures sup (pas d'étude, l'estimation OFCE citée sans source étant retirée)."
   }
  ]
 }
