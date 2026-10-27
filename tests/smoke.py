@@ -175,6 +175,11 @@ with sync_playwright() as p:
             prev = vals
     check(jumps < 150, f'simulateur : pas de saut brutal pour +100 € de salaire (max {jumps} €)')
     check(invalid == 0, f'simulateur : aucun texte invalide (NaN, undefined) [{invalid}]')
+    # repères officiels : chaque thème des fiches a les siens ; 4 visibles, les autres se déplient ; les faits sensibles y sont
+    th = pg.evaluate("[...new Set(D.candidates.flatMap(c=>c.measures.map(m=>m.theme)))].filter(t=>!((D.baseline||{})[t]||[]).length)")
+    check(not set(th) - {'institutions'}, f'repères : chaque thème des fiches a ses repères officiels {th}')  # institutions : lot en cours (S066)
+    r = pg.evaluate("(()=>{ const d=document.createElement('div'); d.innerHTML=baseBox('securite'); return [d.querySelectorAll('.base > div').length, d.querySelectorAll('.bmore .bin > div').length, D.baseline.securite.length, /Viols/.test(d.textContent)]; })()")
+    check(r[0] == 4 and r[1] == r[2] - 4 and r[3], f'repères : 4 visibles, {r[1]} dépliables, viols compris {r}')
     check(not errs, f'aucune erreur JS {errs[:1]}')
     b.close()
 sys.exit(1 if fail else 0)

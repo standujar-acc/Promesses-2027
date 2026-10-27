@@ -837,8 +837,9 @@
 ]
 },
 "glucksmann.smic": {
-"constat": "La hausse du SMIC a concerné 14,6 % des salariés en 2024, contre 10,5 % en 2016 (Insee, Dares).",
+"constat": "La hausse du SMIC a concerné 12,4 % des salariés fin 2024, contre 10,5 % en 2016 et 17,3 % début 2023 (Dares).",
 "constat_s": [
+7,
 6
 ],
 "pour": "La hausse se diffuse au-dessus : presque entière jusqu'à 1,1 SMIC, pour moitié vers 1,5 SMIC.",
@@ -917,6 +918,11 @@
 "l": "Insee Références, Salaire minimum de croissance (données Dares, Acemo)",
 "a": 2025,
 "u": "https://www.insee.fr/fr/statistiques/8376870"
+},
+{
+"l": "Groupe d'experts sur le SMIC, rapport du 25 novembre 2025 (données Dares, Acemo)",
+"a": 2025,
+"u": "https://www.tresor.economie.gouv.fr/Articles/284b121f-b187-4280-b327-05f18064c3fa/files/1d1d1848-48bb-40a9-a14f-585b8072e716"
 }
 ]
 },
@@ -960,10 +966,10 @@
 ]
 },
 "le-pen.ame": {
-"constat": "Bénéficiaires de l'aide médicale d'État : +39 % de fin 2015 à mi-2023 (Assurance maladie).",
+"constat": "Bénéficiaires de l'aide médicale d'État : +47 % de 2017 à 2024, puis −1,5 % sur un an fin septembre 2025 (Sénat).",
 "constat_s": [
-4,
-5
+6,
+7
 ],
 "pour": "Couvrir seulement les soins urgents réduit l'intérêt de venir pour se faire soigner.",
 "preuve_pour": "faible",
@@ -1022,6 +1028,16 @@
 "l": "Cour des comptes, La politique de lutte contre l'immigration irrégulière",
 "a": 2024,
 "u": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere"
+},
+{
+"l": "Sénat, rapport général n° 139 (2025-2026), annexe Santé",
+"a": 2025,
+"u": "https://www.senat.fr/rap/l25-139-327/l25-139-3271.pdf"
+},
+{
+"l": "Sénat, rapport n° 736 (2025-2026), annexe Santé, et rapport général n° 139, aide médicale de l'État",
+"a": 2026,
+"u": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf"
 }
 ]
 },
@@ -1030,9 +1046,9 @@
 "complement_ref": [
 "le-pen.environnement.2"
 ],
-"constat": "Électricité consommée : 449 TWh en 2024, environ 6 % sous la moyenne 2014-2019 ; exportations record (RTE).",
+"constat": "Électricité consommée : 451 TWh en 2025, environ 6 % sous 2014-2019 ; exportations record de 92,3 TWh (RTE).",
 "constat_s": [
-2
+4
 ],
 "pour": "Les aides au solaire et à l'éolien coûtent cher alors que la production dépasse déjà la demande.",
 "preuve_pour": "solide",
@@ -1099,6 +1115,11 @@
 "l": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
 "a": 2025,
 "u": "https://www.ccomptes.fr/sites/default/files/2025-01/20250114-La-filiere-EPR--une-dynamique-nouvelle-des-risques-persistants_0.pdf"
+},
+{
+"l": "RTE, Bilan électrique 2025 (rapport complet)",
+"a": 2026,
+"u": "https://assets.rte-france.com/analyse-et-donnees/2026-03/BE2025%20-%20Rapport%20Complet.pdf"
 }
 ]
 },
@@ -1503,11 +1524,11 @@
 ]
 },
 "le-pen.ue": {
-"constat": "Contribution nette de la France au budget européen : +29 % de 2018 à 2023 (Bercy).",
+"constat": "La France verse 9,5 Md€ de plus qu'elle ne reçoit du budget européen en 2025, 8,8 Md€ par an en moyenne depuis 2016 (Bercy).",
 "constat_s": [
-0
+1
 ],
-"pour": "La France verse 6,4 à 9,5 Md€ par an de plus qu'elle ne reçoit ; cinq pays ont obtenu un rabais fixe.",
+"pour": "D'autres gros contributeurs ont obtenu un rabais fixe, jusqu'à 3,7 Md€ par an ; la France n'en a pas.",
 "preuve_pour": "solide",
 "contre": "Un budget européen réduit toucherait d'abord les aides agricoles, premier poste des fonds reçus.",
 "preuve_contre": "mitigé",
@@ -1516,12 +1537,6 @@
 "t": "Cinq pays ont obtenu pour 2021-2027 une baisse fixe de leur contribution, dont 1,9 Md€ par an pour les Pays-Bas et 3,7 Md€ pour l'Allemagne (Bercy, UE, 2024).",
 "s": [
 0
-]
-},
-{
-"t": "En 2025, la France a versé au budget européen 9,5 Md€ de plus qu'elle n'en a reçu ; 6,4 Md€ selon la méthode de la Commission (Bercy, France, 2026).",
-"s": [
-1
 ]
 }
 ],
@@ -1649,10 +1664,10 @@
 ]
 },
 "lisnard.ame": {
-"constat": "Bénéficiaires de l'aide médicale d'État : +39 % de fin 2015 à mi-2023 (Assurance maladie).",
+"constat": "Bénéficiaires de l'aide médicale d'État : +47 % de 2017 à 2024, puis −1,5 % sur un an fin septembre 2025 (Sénat).",
 "constat_s": [
-4,
-5
+6,
+7
 ],
 "pour": "Couvrir seulement les soins urgents réduit l'intérêt de venir pour se faire soigner.",
 "preuve_pour": "faible",
@@ -1711,6 +1726,16 @@
 "l": "Cour des comptes, La politique de lutte contre l'immigration irrégulière",
 "a": 2024,
 "u": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere"
+},
+{
+"l": "Sénat, rapport général n° 139 (2025-2026), annexe Santé",
+"a": 2025,
+"u": "https://www.senat.fr/rap/l25-139-327/l25-139-3271.pdf"
+},
+{
+"l": "Sénat, rapport n° 736 (2025-2026), annexe Santé, et rapport général n° 139, aide médicale de l'État",
+"a": 2026,
+"u": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf"
 }
 ]
 },
@@ -2333,10 +2358,9 @@
 ]
 },
 "melenchon.jeunes": {
-"constat": "17,5 % des 18-29 ans vivaient sous le seuil de pauvreté en 2023 (20,1 % en 2017), 15,4 % au total (Insee).",
+"constat": "18,6 % des 18-29 ans vivaient sous le seuil de pauvreté en 2024 (17,5 % en 2023), 15,4 % au total (Insee).",
 "constat_s": [
-1,
-2
+3
 ],
 "pour": "Un revenu pendant les études permet aux jeunes modestes de faire et de finir des études.",
 "preuve_pour": "solide",
@@ -2367,6 +2391,11 @@
 "l": "Insee, taux de pauvreté monétaire (seuil à 60 %), ensemble (série 010594446)",
 "a": 2025,
 "u": "https://www.insee.fr/fr/statistiques/serie/010594446"
+},
+{
+"l": "Insee, taux de pauvreté selon l'âge (tableau, seuil à 60 %)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/3565548"
 }
 ]
 },
@@ -2626,8 +2655,9 @@
 ]
 },
 "melenchon.smic": {
-"constat": "La hausse du SMIC a concerné 14,6 % des salariés en 2024, contre 10,5 % en 2016 (Insee, Dares).",
+"constat": "La hausse du SMIC a concerné 12,4 % des salariés fin 2024, contre 10,5 % en 2016 et 17,3 % début 2023 (Dares).",
 "constat_s": [
+7,
 6
 ],
 "pour": "La hausse se diffuse au-dessus : presque entière jusqu'à 1,1 SMIC, pour moitié vers 1,5 SMIC.",
@@ -2706,6 +2736,11 @@
 "l": "Insee Références, Salaire minimum de croissance (données Dares, Acemo)",
 "a": 2025,
 "u": "https://www.insee.fr/fr/statistiques/8376870"
+},
+{
+"l": "Groupe d'experts sur le SMIC, rapport du 25 novembre 2025 (données Dares, Acemo)",
+"a": 2025,
+"u": "https://www.tresor.economie.gouv.fr/Articles/284b121f-b187-4280-b327-05f18064c3fa/files/1d1d1848-48bb-40a9-a14f-585b8072e716"
 }
 ]
 },
@@ -3305,10 +3340,10 @@
 ]
 },
 "retailleau.ame": {
-"constat": "Bénéficiaires de l'aide médicale d'État : +39 % de fin 2015 à mi-2023 (Assurance maladie).",
+"constat": "Bénéficiaires de l'aide médicale d'État : +47 % de 2017 à 2024, puis −1,5 % sur un an fin septembre 2025 (Sénat).",
 "constat_s": [
-4,
-5
+6,
+7
 ],
 "pour": "Couvrir seulement les soins urgents réduit l'intérêt de venir pour se faire soigner.",
 "preuve_pour": "faible",
@@ -3367,6 +3402,16 @@
 "l": "Cour des comptes, La politique de lutte contre l'immigration irrégulière",
 "a": 2024,
 "u": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere"
+},
+{
+"l": "Sénat, rapport général n° 139 (2025-2026), annexe Santé",
+"a": 2025,
+"u": "https://www.senat.fr/rap/l25-139-327/l25-139-3271.pdf"
+},
+{
+"l": "Sénat, rapport n° 736 (2025-2026), annexe Santé, et rapport général n° 139, aide médicale de l'État",
+"a": 2026,
+"u": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf"
 }
 ]
 },
@@ -3375,9 +3420,9 @@
 "complement_ref": [
 "retailleau.environnement.3"
 ],
-"constat": "Électricité consommée : 449 TWh en 2024, environ 6 % sous la moyenne 2014-2019 ; exportations record (RTE).",
+"constat": "Électricité consommée : 451 TWh en 2025, environ 6 % sous 2014-2019 ; exportations record de 92,3 TWh (RTE).",
 "constat_s": [
-0
+3
 ],
 "pour": "Les réacteurs produisent en continu une électricité bas carbone, sans dépendre du vent ni du soleil.",
 "preuve_pour": "solide",
@@ -3439,6 +3484,11 @@
 "l": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
 "a": 2025,
 "u": "https://www.ccomptes.fr/sites/default/files/2025-01/20250114-La-filiere-EPR--une-dynamique-nouvelle-des-risques-persistants_0.pdf"
+},
+{
+"l": "RTE, Bilan électrique 2025 (rapport complet)",
+"a": 2026,
+"u": "https://assets.rte-france.com/analyse-et-donnees/2026-03/BE2025%20-%20Rapport%20Complet.pdf"
 }
 ]
 },
@@ -3806,9 +3856,9 @@
 "retailleau.securite",
 "retailleau.securite.2"
 ],
-"constat": "Violences physiques hors famille : +32 % de 2016 à 2025 ; vols violents sans arme : -48 % (SSMSI).",
+"constat": "Violences physiques hors famille +32 %, viols et tentatives +239 % de 2016 à 2025 ; vols violents −46 % (SSMSI).",
 "constat_s": [
-4
+5
 ],
 "pour": "Une peine minimale connue d'avance dissuade la récidive et écarte plus longtemps les récidivistes.",
 "preuve_pour": "mitigé",
@@ -3874,6 +3924,11 @@
 "l": "SSMSI, base statistique régionale de la délinquance enregistrée (data.gouv.fr)",
 "a": 2026,
 "u": "https://static.data.gouv.fr/resources/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales/20260709-120055/donnee-reg-data.gouv-2025-geographie2026-produit-le2026-06-25.csv"
+},
+{
+"l": "SSMSI, Insécurité et délinquance en 2025 : bilan statistique (édition 2026)",
+"a": 2026,
+"u": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-07/Ins%C3%A9curit%C3%A9%20et%20d%C3%A9linquance%20en%202025%20-%20Bilan%20statistique%20-%20%C3%A9dition%202026%20-%20SSMSI.pdf"
 }
 ]
 },
@@ -4101,9 +4156,9 @@
 ]
 },
 "zemmour.remigration": {
-"constat": "Obligations de quitter le territoire : +60 % de 2017 à 2022 ; 12 % sont exécutées (Cour des comptes, 2024).",
+"constat": "Décisions d'éloignement d'étrangers hors UE : +70 % de 2016 à 2025, à 137 550 ; 18 930 retours effectués (Eurostat).",
 "constat_s": [
-2
+3
 ],
 "pour": "Exécuter les expulsions décidées éloigne des délinquants et fait respecter les décisions de justice.",
 "preuve_pour": "pas d'étude",
@@ -4140,6 +4195,11 @@
 "l": "Cour des comptes, La politique de lutte contre l'immigration irrégulière",
 "a": 2024,
 "u": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere"
+},
+{
+"l": "Eurostat, décisions d'éloignement et retours de ressortissants de pays tiers (migr_eiord, migr_eirtn)",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/databrowser/view/migr_eiord/default/table?lang=fr"
 }
 ]
 },
@@ -5454,10 +5514,9 @@
 ]
 },
 "melenchon.sante.1": {
-"constat": "Environ 11 % des habitants n'ont pas de médecin traitant, une part en hausse (Cour des comptes).",
+"constat": "Sans médecin traitant en 2025 : 11,4 % des 16 ans et plus (11,5 % en 2022), 3,9 % des malades chroniques (6 %) (Sécurité sociale).",
 "constat_s": [
-1,
-2
+3
 ],
 "pour": "Fermer les zones déjà bien pourvues oriente les nouveaux médecins vers celles qui en manquent.",
 "preuve_pour": "mitigé",
@@ -5495,6 +5554,11 @@
 "l": "Cour des comptes, L'organisation territoriale des soins de premier recours (synthèse)",
 "a": 2024,
 "u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240513-synthese-Organisation-territoriale-soins-premier-recours.pdf"
+},
+{
+"l": "Sécurité sociale, rapport d'évaluation (REPSS Maladie), fiche 2.7.4 « Assurer l'accès à un médecin traitant »",
+"a": 2026,
+"u": "https://evaluation.securite-sociale.fr/home/maladie/2-7-4-assurer-l-acces-a-un-medecin-traitant.html"
 }
 ]
 },
@@ -5557,9 +5621,9 @@
 "complement_ref": [
 "retailleau.sante.2"
 ],
-"constat": "Les indemnités d'arrêt maladie du régime général ont augmenté de 40 % de 2017 à 2023 (Cour des comptes).",
+"constat": "Indemnités d'arrêt maladie : +66 % de 2014 à 2025, à 11,3 Md€ (Sécurité sociale, hors crise sanitaire).",
 "constat_s": [
-3
+4
 ],
 "pour": "Un jour non payé fait réfléchir avant de s'arrêter pour un mal bénin.",
 "preuve_pour": "solide",
@@ -5615,13 +5679,18 @@
 "l": "Cour des comptes, Sécurité sociale 2024, ch. V « L'indemnisation des arrêts de travail pour maladie du régime général »",
 "a": 2024,
 "u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240529-Ralfss-2024-Indemnisation-arrets-de-travail-pour-maladie-du-regime-general.pdf"
+},
+{
+"l": "Sécurité sociale, rapport d'évaluation (REPSS Maladie), fiche 2.13.1 « Dynamique des indemnités journalières »",
+"a": 2026,
+"u": "https://evaluation.securite-sociale.fr/home/maladie/2121-dynamique-des-indemnites-jo.html"
 }
 ]
 },
 "retailleau.sante.2": {
-"constat": "Les indemnités d'arrêt maladie du régime général ont augmenté de 40 % de 2017 à 2023 (Cour des comptes).",
+"constat": "Indemnités d'arrêt maladie : +66 % de 2014 à 2025, à 11,3 Md€ (Sécurité sociale, hors crise sanitaire).",
 "constat_s": [
-2
+4
 ],
 "pour": "Contrôler davantage les arrêts et les plus gros prescripteurs réduit les arrêts évitables.",
 "preuve_pour": "mitigé",
@@ -5676,6 +5745,11 @@
 "l": "Cnam-CEET, Connaissance de l'emploi n° 187 (Ben Halima, Ciriez, Koubi, Skalli), Âge légal de départ en retraite et absences maladie",
 "a": 2023,
 "u": "https://ceet.cnam.fr/medias/fichier/cde-187-age-legal-de-depart-en-retraite-et-absences-maladie_1676365652326-pdf"
+},
+{
+"l": "Sécurité sociale, rapport d'évaluation (REPSS Maladie), fiche 2.13.1 « Dynamique des indemnités journalières »",
+"a": 2026,
+"u": "https://evaluation.securite-sociale.fr/home/maladie/2121-dynamique-des-indemnites-jo.html"
 }
 ]
 },
@@ -5684,10 +5758,9 @@
 "complement_ref": [
 "lisnard.sante.3"
 ],
-"constat": "Environ 11 % des habitants n'ont pas de médecin traitant, une part en hausse (Cour des comptes).",
+"constat": "Sans médecin traitant en 2025 : 11,4 % des 16 ans et plus (11,5 % en 2022), 3,9 % des malades chroniques (6 %) (Sécurité sociale).",
 "constat_s": [
-1,
-2
+3
 ],
 "pour": "Former un médecin prend dix ans : ouvrir des places aujourd'hui prépare la relève de demain.",
 "preuve_pour": "solide",
@@ -5733,6 +5806,11 @@
 "l": "Cour des comptes, L'organisation territoriale des soins de premier recours (synthèse)",
 "a": 2024,
 "u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240513-synthese-Organisation-territoriale-soins-premier-recours.pdf"
+},
+{
+"l": "Sécurité sociale, rapport d'évaluation (REPSS Maladie), fiche 2.7.4 « Assurer l'accès à un médecin traitant »",
+"a": 2026,
+"u": "https://evaluation.securite-sociale.fr/home/maladie/2-7-4-assurer-l-acces-a-un-medecin-traitant.html"
 }
 ]
 },
@@ -5751,10 +5829,9 @@
 "complement_ref": [
 "lisnard.sante.1"
 ],
-"constat": "Environ 11 % des habitants n'ont pas de médecin traitant, une part en hausse (Cour des comptes).",
+"constat": "Sans médecin traitant en 2025 : 11,4 % des 16 ans et plus (11,5 % en 2022), 3,9 % des malades chroniques (6 %) (Sécurité sociale).",
 "constat_s": [
-1,
-3
+4
 ],
 "pour": "Une contrainte se contourne ; mieux vaut rendre les zones délaissées plus attirantes.",
 "preuve_pour": "faible",
@@ -5810,6 +5887,11 @@
 "l": "Cour des comptes, L'organisation territoriale des soins de premier recours (synthèse)",
 "a": 2024,
 "u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240513-synthese-Organisation-territoriale-soins-premier-recours.pdf"
+},
+{
+"l": "Sécurité sociale, rapport d'évaluation (REPSS Maladie), fiche 2.7.4 « Assurer l'accès à un médecin traitant »",
+"a": 2026,
+"u": "https://evaluation.securite-sociale.fr/home/maladie/2-7-4-assurer-l-acces-a-un-medecin-traitant.html"
 }
 ]
 }
