@@ -115,6 +115,9 @@ with sync_playwright() as p:
     pg.evaluate("navigator.clipboard.writeText=t=>{window._cp=t;return Promise.resolve()}"); pg.click('#quiz-copy'); cp = pg.evaluate('window._cp')
     check(cp.startswith('Mon quiz Promesses 2027 — ') and ('déficit :' not in cp) and not re.search(r'de [AEIOUÉ]', cp.split('—')[1].split('.')[0]),
           f'quiz résultat : texte copié fidèle à la page ({cp[:90]})')
+    c = pg.evaluate("""()=>{ const all=D.candidates.flatMap(c=>c.measures.map(m=>({c:c.id,m}))).filter(o=>has(o.m)&&!o.m.a_confirmer), a=all[0], b=all[1];
+      return [quizCost({picks:[[a,b],[a]]}), (a.m.claude.central+b.m.claude.central)/2+a.m.claude.central]; }""")
+    check(abs(c[0] - c[1]) < 1e-9, 'quiz résultat : « Les deux » compte la moyenne des deux effets sur le déficit')
     pg.set_viewport_size({'width': 390, 'height': 844})
     if priL:
         pg.evaluate(f"{priL}.forEach(t=>quizImp.add(t)); quizStart()")
@@ -133,6 +136,9 @@ with sync_playwright() as p:
                 vals = pg.evaluate("[...document.querySelectorAll('#simres .srow .eur')].map(e=>+e.textContent.replace(/[^0-9−-]/g,'').replace('−','-')||0)")
                 worst = max(worst, *[abs(v) for v in vals])
     check(worst < 1500, f'simulateur : aucun gain ou perte mensuel absurde (max {worst} €)')
+    # paramètre publié mais hors total : appliqué (allocations familiales +10 %, 2 enfants)
+    pg.evaluate("document.querySelector('#s-status [data-v=\"prive\"]').click(); S.kids=2; document.getElementById('s-salary').value=1800; openSim.add('melenchon'); sim()")
+    check(pg.evaluate("[...document.querySelectorAll('#simres .srow')].some(r=>/Allocations familiales \\+10 %/.test(r.textContent))"), 'simulateur : paramètre publié hors total appliqué (allocations familiales +10 %)')
     # chaque réglage du simulateur doit changer le résultat d'au moins un candidat, sans texte invalide
     SET = """(p)=>{ document.querySelector(`#s-status [data-v="${p.st}"]`).click(); document.querySelector(`#s-nat [data-v="${p.nat}"]`).click();
       S.kids=p.kids; S.wealth=p.w; S.inh=p.inh; const g=id=>document.getElementById(id);
