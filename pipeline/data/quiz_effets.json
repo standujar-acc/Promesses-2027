@@ -1408,7 +1408,16 @@
 "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
 "a": 2026,
 "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
+},
+{
+"l": "DH (AFP), manifestations contre la vie chère, chiffre du ministère de l'Intérieur",
+"a": 2026,
+"u": "https://www.dhnet.be/dernieres-depeches/2026/10/17/manifestations-en-france-environ-550000-manifestants-en-france-400-interpellations-GTPRJOCSN5EG3AQLIP4AHRCEU4/"
 }
+],
+"actu": "Le 17 octobre 2026, environ 550 000 personnes ont manifesté contre la vie chère et le prix de l'essence (Intérieur).",
+"actu_s": [
+3
 ]
 },
 "le-pen.tva-produits-essentiels": {
@@ -1458,7 +1467,16 @@
 "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
 "a": 2026,
 "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
+},
+{
+"l": "DH (AFP), manifestations contre la vie chère, chiffre du ministère de l'Intérieur",
+"a": 2026,
+"u": "https://www.dhnet.be/dernieres-depeches/2026/10/17/manifestations-en-france-environ-550000-manifestants-en-france-400-interpellations-GTPRJOCSN5EG3AQLIP4AHRCEU4/"
 }
+],
+"actu": "Le 17 octobre 2026, environ 550 000 personnes ont manifesté contre la vie chère et le prix de l'essence (Intérieur).",
+"actu_s": [
+4
 ]
 },
 "le-pen.ue": {
@@ -2449,7 +2467,16 @@
 "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
 "a": 2026,
 "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
+},
+{
+"l": "DH (AFP), manifestations contre la vie chère, chiffre du ministère de l'Intérieur",
+"a": 2026,
+"u": "https://www.dhnet.be/dernieres-depeches/2026/10/17/manifestations-en-france-environ-550000-manifestants-en-france-400-interpellations-GTPRJOCSN5EG3AQLIP4AHRCEU4/"
 }
+],
+"actu": "Le 17 octobre 2026, environ 550 000 personnes ont manifesté contre la vie chère et le prix de l'essence (Intérieur).",
+"actu_s": [
+3
 ]
 },
 "melenchon.retraites": {
@@ -3765,7 +3792,22 @@
 "l": "SSMSI, base statistique régionale de la délinquance enregistrée (data.gouv.fr)",
 "a": 2026,
 "u": "https://static.data.gouv.fr/resources/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales/20260709-120055/donnee-reg-data.gouv-2025-geographie2026-produit-le2026-06-25.csv"
+},
+{
+"l": "ICI (AFP), bilan consolidé du ministère de l'Intérieur, violences du 17 octobre",
+"a": 2026,
+"u": "https://www.ici.fr/infos/faits-divers-justice/mobilisation-du-17-octobre-1-800-interpellations-en-france-indique-le-ministre-de-l-interieur-laurent-nunez-6459330"
+},
+{
+"l": "Sud Radio, chiffres de CCI France sur les commerces touchés les 17 et 24 octobre",
+"a": 2026,
+"u": "https://www.sudradio.fr/societe/plus-de-2-500-commerces-touches-par-les-violences-dont-un-millier-fortement-degrades-selon-cci-france"
 }
+],
+"actu": "Le 17 octobre 2026 : 997 policiers et gendarmes blessés, 2 397 interpellations, 1 161 commerces fortement dégradés.",
+"actu_s": [
+5,
+6
 ]
 },
 "retailleau.travail": {
