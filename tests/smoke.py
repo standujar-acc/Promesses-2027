@@ -31,14 +31,17 @@ with sync_playwright() as p:
     pg.click('nav.bottom [data-go="moi"]'); pg.click('nav.bottom [data-go="quiz"]'); pg.go_back(); pg.wait_for_timeout(150)
     check(pg.evaluate('view') == 'moi', 'retour arrière : revient à la vue précédente')
 
-    pg.evaluate("go('quiz')"); bad = 0
+    pg.evaluate("go('quiz')"); bad = 0; rep = 0
     for _ in range(50):
         pg.evaluate('quizStart()')
         qs = pg.evaluate('quizState.qs.map(q=>q.opts.map(o=>o.c))'); c = Counter(x for q in qs for x in q)
         if len(qs) != 20 or set(c.values()) != {5}: bad += 1
+        txts = pg.evaluate('quizState.qs.flatMap(q=>q.opts.map(o=>(o.m.quiz_text||o.m.proposal).trim().toLowerCase()))')
+        if len(set(txts)) < len(txts): rep += 1
     sans_effets = pg.evaluate("D.candidates.flatMap(c=>c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)&&!(m.quiz_plus&&m.quiz_moins)).map(m=>c.id+'.'+m.id))")
     check(not sans_effets, f'quiz : chaque proposition a ses deux effets {sans_effets[:3]}')
     check(bad == 0, f'quiz équilibré sur 50 tirages ({bad} écarts)')
+    check(rep == 0, f'quiz : aucune proposition répétée dans une partie ({rep} parties sur 50)')
 
     pg.evaluate("go('moi')"); worst = 0
     for st in ('prive', 'public', 'enseignant', 'independant', 'chomage', 'minima', 'etudiant', 'retraite'):
