@@ -4557,7 +4557,6 @@
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » viennent des statistiques publiques (SSMSI, Insee, DREES, DEPP, Citepa, Eurostat, OTAN, etc.). Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique les paramètres annoncés à votre situation, à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Ce sont des ordres de grandeur.",
   "<b>Quiz.</b> 16 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 4 fois et aucune paire ne se répète. Chaque proposition est reformulée en langage courant, avec une ligne « Concrètement » qui dit ce qu'elle change, sans nom de candidat ni coût, pour ne pas orienter le choix.",
-  "<b>Assistant.</b> Réponses générées par Claude à partir des seules données de l'app, avec la consigne de rester neutre et de citer les fiches.",
   "<b>Sondages et contexte.</b> Ipsos-BVA des 21-22 octobre 2026, masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
  ],
  "statu_quo": {
@@ -4650,6 +4649,10 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "27/10/2026",
+   "text": "Retrait de l'onglet « Demander » : plus de réponses générées par une IA, seules restent les fiches, le simulateur et le quiz."
+  },
   {
    "date": "26/10/2026",
    "text": "Revue complète : règles de calcul communes à tous les candidats, SMIC et CVAE corrigés, verdicts alignés, mesures non confirmées sorties des totaux, résumés réécrits sur un même gabarit. Nouvelle interface pensée pour le mobile. Nouvel onglet « Vie quotidienne » : propositions, test vérifiable/intention, efficacité selon les études et repères officiels."

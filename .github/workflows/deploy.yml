@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
       - name: Le site versionné doit être à jour
-        run: python3 pipeline/run.py && git diff --exit-code -- public lib/context.js
+        run: python3 pipeline/run.py && git diff --exit-code -- public
       - uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}

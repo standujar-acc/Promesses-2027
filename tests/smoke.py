@@ -19,7 +19,7 @@ with sync_playwright() as p:
         pg = b.new_page(viewport={'width': 360, 'height': 800}, color_scheme=scheme); errs = []
         pg.on('pageerror', lambda e: errs.append(str(e)))
         pg.goto(URL); pg.wait_for_timeout(400)
-        for v in ('accueil', 'cand', 'moi', 'quiz', 'ask', 'methode'):
+        for v in ('accueil', 'cand', 'moi', 'quiz', 'methode'):
             pg.evaluate(f"go('{v}')"); pg.wait_for_timeout(80)
             check(pg.evaluate('document.documentElement.scrollWidth') <= 360, f'{scheme} · {v} : pas de débordement horizontal')
         check(not errs, f'{scheme} : aucune erreur JS {errs[:1]}')

@@ -11,4 +11,4 @@ jobs:
         run: python3 pipeline/run.py
       - name: Le site versionné doit être à jour
         run: |
-          git diff --stat --exit-code -- public lib/context.js || (echo "::error::Lancez python3 pipeline/run.py et versionnez public/ et lib/context.js" && exit 1)
+          git diff --stat --exit-code -- public || (echo "::error::Lancez python3 pipeline/run.py et versionnez public/" && exit 1)
