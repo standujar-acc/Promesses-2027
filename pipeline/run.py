@@ -43,4 +43,14 @@ shutil.copytree('fonts', os.path.join(ROOT, 'public', 'fonts'), ignore=shutil.ig
 open(os.path.join(ROOT, 'public', 'index.html'), 'w').write(page)
 json.dump(D, open(os.path.join(ROOT, 'public', 'data', 'promesses-2027.json'), 'w'), ensure_ascii=False, indent=1)
 
+# README : date et tableau des totaux, régénérés à chaque passage
+def fr(x, sign=True):
+    s = f"{abs(x):.1f}".replace('.', ',')
+    return ('+' if x > 0 else '−' if x < 0 else '') + s if sign else s
+rows = [f"| {c['name']} | {c['party']} | {c['claude_total']['n']} | {fr(c['claude_total']['sum'])} | {fr(c['claude_total']['p10'])} à {fr(c['claude_total']['p90'])} |" for c in D['candidates']]
+tab = (f"Données à jour au {D['asof']} : {len(D['candidates'])} candidats, {sum(len(c['measures']) for c in D['candidates'])} mesures.\n\n"
+       "| Candidat | Parti | Mesures chiffrées | Effet sur le déficit en 2030 (Md€/an) | Fourchette à 80 % |\n| --- | --- | --- | --- | --- |\n" + "\n".join(rows))
+rp = os.path.join(ROOT, 'README.md'); rd = open(rp).read()
+rd = re.sub(r"(<!-- totaux:debut[^>]*-->\n).*?(<!-- totaux:fin -->)", lambda m: m.group(1) + tab + "\n" + m.group(2), rd, flags=re.S)
+open(rp, 'w').write(rd)
 print('ok :', len(page)//1024, 'Ko ;', sum(len(c['measures']) for c in D['candidates']), 'mesures')
