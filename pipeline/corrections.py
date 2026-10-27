@@ -304,6 +304,8 @@ C['le-pen']['sim']['tva_courses']={"part":0.75,"note":"TVA de 5,5 % supprimée s
 # jours de carence des agents publics, durée d'indemnisation du chômage
 C['philippe']['sim']['carence_jours']=2; C['retailleau']['sim']['carence_jours']=3; C['zemmour']['sim']['carence_jours']=3
 C['philippe']['sim']['chomage_duree']={"mois":12,"avant":50}
+# jeunes parents : mesure comptée dans le total (−3 Md€), absente du simulateur
+C['philippe']['sim']['ir_jeunes_parents']={"note":"Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents des classes moyennes","max":2*SQ.get('salaire_moyen',2733)}
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:

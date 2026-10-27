@@ -2594,6 +2594,10 @@
     "chomage_duree": {
      "mois": 12,
      "avant": 50
+    },
+    "ir_jeunes_parents": {
+     "note": "Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents des classes moyennes",
+     "max": 5466
     }
    },
    "promise": "Promet la retraite à 65 ans, un départ sur trois non remplacé dans la fonction publique, une allocation familiale dès le premier enfant et zéro impôt pour les jeunes parents.",
@@ -4914,7 +4918,7 @@
   },
   {
    "date": "27/10/2026",
-   "text": "Simulateur : pertes et gains manquants ajoutés. Aides réservées aux Français ou aux étrangers installés depuis 5 ans calculées de la même façon pour les quatre candidats concernés (allocations familiales et minima) ; nouvelle case « en France depuis moins de 5 ans ». Hausses des enseignants (Attal, Lisnard), TVA sur les produits de première nécessité, gel des allocations familiales, jours de carence et durée du chômage."
+   "text": "Simulateur : pertes et gains manquants ajoutés. Aides réservées aux Français ou aux étrangers installés depuis 5 ans calculées de la même façon pour les quatre candidats concernés (allocations familiales et minima) ; nouvelle case « en France depuis moins de 5 ans ». Hausses des enseignants (Attal, Lisnard), TVA sur les produits de première nécessité, gel des allocations familiales, jours de carence et durée du chômage, exonération d'impôt des jeunes parents (Philippe, nouvelle case « enfant de moins de 3 ans »). Barres à échelle fixe (pleine à 1 000 €) : une barre ne bouge que si son propre montant change."
   },
   {
    "date": "27/10/2026",
