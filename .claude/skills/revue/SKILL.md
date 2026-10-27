@@ -26,7 +26,7 @@ Lire d'abord `CLAUDE.md` (règles de neutralité et de chiffrage) et `METHODOLOG
    - site de campagne cité chez un autre candidat (domaines : rassemblementnational.fr ; melenchon2027.fr, lafranceinsoumise.fr ; place-publique.eu, raphaelglucksmann.kessel.media ; edouardphilippe.fr, horizonsleparti.fr ; republicains.fr ; attalpresident.fr, parti-renaissance.fr ; unenouvelleenergie.fr, lisnard.cards ; parti-reconquete.fr — compléter si besoin) ;
    - mesures `a_confirmer` et non chiffrables faute de paramètre (`claude.nc`) ;
    - totaux recalculés à partir des mesures comptées ;
-   - quiz (`data/quiz_plain.json`) : pas de coût, pas de verdict, pas de chiffre qui trahit le candidat.
+   - quiz (`data/quiz_plain.json`, `data/quiz_effets.json`) : pas de coût, pas de verdict, pas de chiffre qui trahit le candidat ; deux effets factuels, sans morale, avec les formulations communes ; toute mesure ajoutée au quiz reçoit ses deux effets.
    Chaque problème nouveau devient un point du registre.
    Une annonce nouvelle qui demande un chiffrage devient un point `a_ajouter` (pour chaque candidat, même s'il n'y a « rien de nouveau ») ; elle n'entre dans les données qu'avec le même niveau de chiffrage pour tous.
 4. **Veille.** Pour chaque candidat, chercher depuis `derniere_revue` : nouvelles mesures, chiffres modifiés, mesures abandonnées, documents de programme, nouveaux chiffrages indépendants (Institut Montaigne, iFRAP, IPP, OFCE, Fipeco, Cour des comptes, CAE…). Noter aussi tout nouveau sondage national (ne mettre à jour `poll` qu'avec un institut et une date).
@@ -34,7 +34,7 @@ Lire d'abord `CLAUDE.md` (règles de neutralité et de chiffrage) et `METHODOLOG
    - Mesures, chiffrages, verdicts, sources : un **nouveau bloc daté** dans `pipeline/corrections.py`, `# --- review N : objet (JJ/MM/AAAA)`, placé avant `# --- quiz` (le texte du quiz est appliqué après toutes les corrections, pour que les mesures ajoutées y entrent). Ne rien écrire après `# --- totaux`, sauf dans le bloc `# --- résumés gabarit` pour mettre à jour un résumé.
    - Un remplacement de lien passe par `URLFIX` dans le bloc daté, avec le contrôle qui fait échouer le pipeline si un remplacement ne sert pas ; un remplacement de texte est précédé d'un `assert` sur le texte attendu.
    - Vie quotidienne : `pipeline/data/life-*.json` et `pipeline/life.py` (`OVR`, `VFLIP`).
-   - Quiz : `pipeline/data/quiz_plain.json`.
+   - Quiz : `pipeline/data/quiz_plain.json` et `pipeline/data/quiz_effets.json`.
    - Texte de méthode : `D.method` dans `pipeline/build.py` et `METHODOLOGIE.md`.
    - Tout changement visible sur le site : une entrée datée dans `D.changelog` (`pipeline/build.py`).
    - Jamais d'édition à la main de `public/`.
