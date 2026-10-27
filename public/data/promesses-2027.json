@@ -4767,7 +4767,7 @@
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » viennent des statistiques publiques (SSMSI, Insee, DREES, DEPP, Citepa, Eurostat, OTAN, etc.). Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique les paramètres annoncés à votre situation, à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Ce sont des ordres de grandeur.",
-  "<b>Quiz.</b> 16 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 4 fois et aucune paire ne se répète. Chaque proposition est reformulée en langage courant, avec deux effets factuels : « + » ce qu'elle apporte, « − » sa contrepartie. Chaque ligne donne l'effet propre à la mesure (qui gagne le plus, qui est exclu, ce qui change), puis son effet sur le budget en quelques mots. Pas de nom de candidat, pas de coût, pas de faisabilité, pas de jugement ; la même règle pour tous.",
+  "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Chaque proposition est reformulée en langage courant, avec deux effets factuels : « + » ce qu'elle apporte, « − » sa contrepartie. Chaque ligne donne l'effet propre à la mesure (qui gagne le plus, qui est exclu, ce qui change), puis son effet sur le budget en quelques mots. Pas de nom de candidat, pas de coût, pas de faisabilité, pas de jugement ; la même règle pour tous.",
   "<b>Sondages et contexte.</b> Ipsos-BVA des 21-22 octobre 2026, masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
  ],
  "statu_quo": {
@@ -4871,6 +4871,10 @@
   {
    "date": "27/10/2026",
    "text": "Quiz : les contreparties décrivent l'effet propre à chaque mesure au lieu d'une formule budgétaire commune."
+  },
+  {
+   "date": "27/10/2026",
+   "text": "Quiz : 20 duels au lieu de 16 ; chaque candidat apparaît 5 fois."
   },
   {
    "date": "27/10/2026",

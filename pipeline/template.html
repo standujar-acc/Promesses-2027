@@ -375,7 +375,7 @@ table.grid td button{min-width:44px;min-height:44px;display:inline-grid;place-it
     </div>
     <div class="ctas">
       <button class="cta a" data-go="moi"><b>Et pour moi ?</b><span>Ce que chaque programme change pour votre retraite, votre salaire, vos allocations.</span><span class="go">Faire le calcul →</span></button>
-      <button class="cta b" data-go="quiz"><b>Quiz à l'aveugle</b><span>16 duels de propositions, sans les noms. De qui êtes-vous le plus proche ?</span><span class="go">Commencer →</span></button>
+      <button class="cta b" data-go="quiz"><b>Quiz à l'aveugle</b><span>20 duels de propositions, sans les noms. De qui êtes-vous le plus proche ?</span><span class="go">Commencer →</span></button>
     </div>
     <div class="stack" style="gap:10px" id="life-home">
       <div><span class="eyebrow">Au-delà des chiffres</span><h2>Ce qui change dans la vie</h2></div>
@@ -863,7 +863,7 @@ function sim(){
 }
 
 /* ---------- quiz ---------- */
-let quizState=null; const QN=16;
+let quizState=null; const QN=20;
 function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 function quizBuild(){
   const pool={}; D.candidates.forEach(c=>{ pool[c.id]=c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)).map(m=>({c:c.id,m})); });
@@ -883,7 +883,7 @@ function quizStart(){ let best=null;
   for(let t=0;t<300;t++){ const r=quizBuild(), v=Object.values(r.cnt), sp=Math.max(...v)-Math.min(...v); if(!best||r.qs.length>best.qs.length||(r.qs.length===best.qs.length&&sp<best.sp)) best={...r,sp}; if(r.qs.length===QN&&sp===0) break; }
   quizState={qs:shuffle(best.qs),i:0,picks:[]}; quizRender(); }
 function quizIntro(){
-  document.getElementById('v-quiz').innerHTML=`<div class="qstart"><span class="eyebrow" style="color:var(--band-muted)">Quiz à l'aveugle</span><h2>De qui êtes-vous le plus proche ?</h2><p>16 duels de propositions réelles, sans les noms. Chaque candidat apparaît le même nombre de fois. Environ 2 minutes.</p><p><b>Vos réponses ne sont pas enregistrées</b> : elles restent sur votre appareil et disparaissent quand vous fermez la page.</p><div><button class="btn primary" id="q-go">Commencer</button></div></div>`;
+  document.getElementById('v-quiz').innerHTML=`<div class="qstart"><span class="eyebrow" style="color:var(--band-muted)">Quiz à l'aveugle</span><h2>De qui êtes-vous le plus proche ?</h2><p>20 duels de propositions réelles, sans les noms. Chaque candidat apparaît le même nombre de fois. Environ 3 minutes.</p><p><b>Vos réponses ne sont pas enregistrées</b> : elles restent sur votre appareil et disparaissent quand vous fermez la page.</p><div><button class="btn primary" id="q-go">Commencer</button></div></div>`;
   document.getElementById('q-go').onclick=quizStart;
 }
 function quizRender(){
