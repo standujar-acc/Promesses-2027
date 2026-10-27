@@ -949,7 +949,7 @@
    "candidats": [],
    "mesure": null,
    "sujet": "Quiz et repères : mettre à jour les constats avec les nouvelles statistiques officielles",
-   "detail": "Règle : dernier chiffre officiel disponible, évolution en %, même forme pour toutes les propositions. Prochaines publications : SSMSI (Interstats Conjoncture, données d'octobre 2026, vers la mi-novembre ; bilan annuel 2026 en janvier 2027) pour le constat de sécurité, qui intégrera les violences du 17 octobre ; Insee (chômage du 3e trimestre mi-novembre, dette du 3e trimestre fin décembre) ; DREES, DEPP et COR à leurs dates habituelles. Le site interieur.gouv.fr refuse l'accès automatique : vérifier dans un navigateur.",
+   "detail": "Règle : dernier chiffre officiel disponible, évolution en %, même forme pour toutes les propositions. Prochaines publications : SSMSI (Interstats Conjoncture, données d'octobre 2026, vers la mi-novembre ; bilan annuel 2026 en janvier 2027) pour le constat de sécurité, qui intégrera les violences du 17 octobre ; Insee (chômage du 3e trimestre mi-novembre, dette du 3e trimestre fin décembre) ; DREES, DEPP et COR à leurs dates habituelles. Le site interieur.gouv.fr refuse l'accès automatique : vérifier dans un navigateur. Le 27/10 : 16 constats mis au dernier chiffre officiel (sécurité avec les viols, SSMSI bilan 2025 ; AME, Sénat ; électricité, RTE 2025 ; médecin traitant, Sécurité sociale ; arrêts maladie ; SMIC, groupe d'experts ; pauvreté des 18-29 ans 2024 ; éloignements, Eurostat ; solde avec l'UE, jaune 2027). Reste : logement (passoires, mises en chantier, demandeurs), en attente du lot de repères logement. Non vérifié à la source, donc non repris : part de salariés au SMIC au 1/1/2026 (11,8 % selon la presse).",
    "echeance": "2026-11-20",
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -988,6 +988,19 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": "Règle ajoutée (CLAUDE.md, DEVELOPPER.md, méthode, revue, _regles) : chaque ligne apporte un fait que la mesure ne dit pas d'elle-même (effet mesuré, ordre de grandeur, effet de bord), même test pour le Pour et le Contre. 53 propositions relues et réécrites à partir des cas vérifiés de leur fiche, mêmes lignes pour les mesures du même type (aides réservées : arrivées en baisse, emploi en hausse là où il abonde / gain d'emploi bref, enfants moins scolarisés et plus de délits, RFBerlin 2024 ; postes non remplacés : 150 000 emplois supprimés 2008-2012 / plus de la moitié de l'économie rendue aux agents, Sénat 2012 ; impôts de production : baisse de 2010, Banque de France 2021 ; examens : Jürges 2005 / redoublement, Cnesco). Sources ajoutées et ouvertes : Finseraas et al. 2019 (service et confiance), J-PAL sur Cáceres-Delpiano et al. 2021, Eisenstadt-LeVan-Maboudi 2015 (participation à l'écriture d'une Constitution), Matsusaka 2010 (initiative citoyenne), service-public.gouv.fr (contingent d'heures sup), jaune budgétaire 2027 (solde net avec l'UE). Niveaux de preuve revus : service civique (mitigé), Constituante (faible), référendum (mitigé), seuil d'heures sup (pas d'étude, l'estimation OFCE citée sans source étant retirée)."
+  },
+  {
+   "id": "S066",
+   "type": "a_ajouter",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Repères officiels « Où en est la France » pour chaque thème",
+   "detail": "Demande du porteur (27/10/2026) : « chaque thème doit être blindé », sécurité et immigration en tête (viols, etc.). Il n'y avait que 2 repères par thème « Vie quotidienne » et aucun pour les thèmes des fiches budgétaires.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "En cours. Intégré le 27/10 : 110 repères officiels, relus à la source, pour 12 thèmes (sécurité 14 dont viols et violences sexuelles, plaintes, étrangers parmi les mis en cause et les écroués avec la définition officielle ; immigration 10 ; retraites 7 ; travail 7 ; social 8 ; fiscalité 8 ; dépense 8 ; Europe 8 ; santé 8 ; école 8 avec PISA 2025 ; énergie 8 ; environnement 8). Sources : SSMSI, ministère de la Justice, Insee, Eurostat, Ofpra, OFII, Sénat, COR, Cnaf, DREES, DGFiP, jaune budgétaire 2027, Sécurité sociale (REPSS), ATIH, Santé publique France, DEPP, OCDE, RTE, SDES, CRE, Citepa, Cerema, CCR. Quatre affichés, les autres dépliables ; une précaution commune (« délinquance enregistrée ») dite une fois. Reste : logement, libertés, institutions, économie, rayonnement (lot en cours)."
   }
  ]
 }
