@@ -2,7 +2,32 @@
 
 Le site est statique (`public/`), avec trois petites fonctions (`functions/api/`). Aucun build côté Cloudflare : le site est déjà construit et versionné.
 
-## 1. Créer le projet (une fois)
+## Option A : tout en ligne de commande (Claude Code peut le faire seul)
+
+```
+npx wrangler login                                   # une fois, ouvre le navigateur
+npx wrangler pages project create promesses-2027 --production-branch main
+npx wrangler kv namespace create promesses-limits    # noter l'id
+npx wrangler kv namespace create promesses-reports   # noter l'id
+npx wrangler pages deploy public --project-name promesses-2027 --branch main
+```
+Puis, dans le tableau de bord du projet (Paramètres → Liaisons), lier `LIMITS` et `REPORTS` aux deux espaces KV, et ajouter les secrets :
+```
+npx wrangler pages secret put ADMIN_TOKEN --project-name promesses-2027
+npx wrangler pages secret put SALT --project-name promesses-2027
+npx wrangler pages secret put ANTHROPIC_API_KEY --project-name promesses-2027   # facultatif
+```
+Déploiement automatique à chaque push : créer un jeton API Cloudflare (modèle « Cloudflare Pages : modifier »), puis
+```
+gh secret set CLOUDFLARE_API_TOKEN
+gh secret set CLOUDFLARE_ACCOUNT_ID
+gh variable set CF_PAGES_PROJECT --body promesses-2027
+```
+Le workflow `.github/workflows/deploy.yml` prend alors le relais.
+
+## Option B : depuis le tableau de bord
+
+### 1. Créer le projet (une fois)
 
 1. Cloudflare → **Workers & Pages** → **Créer** → onglet **Pages** → **Connecter à Git**.
 2. Choisir le dépôt `promesses-2027`.
@@ -12,7 +37,7 @@ Le site est statique (`public/`), avec trois petites fonctions (`functions/api/`
    - Répertoire de sortie : `public`
 4. **Enregistrer et déployer.** Le site est en ligne sur `promesses-2027.pages.dev`. Chaque push sur `main` redéploie ; chaque branche a son aperçu.
 
-## 2. Activer les signalements et les quotas (recommandé)
+### 2. Activer les signalements et les quotas (recommandé)
 
 1. **Workers & Pages → KV** → créer deux espaces : `promesses-limits` et `promesses-reports`.
 2. Projet Pages → **Paramètres → Liaisons** → ajouter :
@@ -29,7 +54,7 @@ curl -H "Authorization: Bearer <ADMIN_TOKEN>" https://promesses-2027.pages.dev/a
 ```
 Sans la liaison `REPORTS`, l'app copie le signalement dans le presse-papiers à la place.
 
-## 3. Activer l'assistant (facultatif, payant à l'usage)
+### 3. Activer l'assistant (facultatif, payant à l'usage)
 
 1. Créer une clé sur console.anthropic.com, avec une **limite de dépense mensuelle** sur le compte.
 2. Ajouter le secret `ANTHROPIC_API_KEY`.
@@ -41,7 +66,7 @@ Sans la liaison `REPORTS`, l'app copie le signalement dans le presse-papiers à 
 
 Le contexte (toutes les mesures) est mis en cache côté API : chaque question coûte surtout les tokens de la réponse.
 
-## 4. Nom de domaine (facultatif)
+### 4. Nom de domaine (facultatif)
 
 Projet Pages → **Domaines personnalisés** → ajouter le domaine. Les liens de partage s'adaptent tout seuls au domaine.
 

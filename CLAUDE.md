@@ -32,4 +32,4 @@ python3 tests/smoke.py      # Playwright + Chromium
 - Sondages (`poll`) : Ipsos-BVA 21-22/10/2026 ; masqués automatiquement les 17-18 avril et 1er-2 mai 2027 (`D.blackout`).
 
 ## Déploiement
-Cloudflare Pages relié au dépôt (sortie `public/`, pas de build). Voir DEPLOY.md. Secrets : `ANTHROPIC_API_KEY`, `ADMIN_TOKEN`, `SALT` ; KV : `LIMITS`, `REPORTS`.
+Cloudflare Pages, sortie `public/` + `functions/`, pas de build côté Cloudflare, pas de wrangler.toml (liaisons et secrets réglés dans le tableau de bord). Déploiement : `npx wrangler pages deploy public --project-name promesses-2027`, ou automatique via `.github/workflows/deploy.yml` une fois les secrets posés. Voir DEPLOY.md. Secrets : `ANTHROPIC_API_KEY`, `ADMIN_TOKEN`, `SALT` ; KV : `LIMITS`, `REPORTS`.

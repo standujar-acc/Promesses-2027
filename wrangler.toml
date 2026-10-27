@@ -1,5 +1,0 @@
-# Cloudflare Pages : site statique dans public/, fonctions dans functions/.
-# Les liaisons KV (LIMITS, REPORTS) et les secrets se règlent dans le tableau de bord : voir DEPLOY.md.
-name = "promesses-2027"
-pages_build_output_dir = "public"
-compatibility_date = "2026-10-01"
