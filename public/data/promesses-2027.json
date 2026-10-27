@@ -111,8 +111,8 @@
      },
      "quiz_text": "Revenir à la retraite à 62 ans, et à 60 ans pour ceux qui ont commencé à travailler avant 20 ans",
      "quiz_concret": "Vous pourriez partir plus tôt qu'aujourd'hui.",
-     "quiz_plus": "Plus d'années de retraite pour ceux qui ont commencé tôt : un ouvrier peut espérer 3,5 ans de retraite de moins qu'un cadre, et 4,9 ans de moins sans incapacité ; partir plus tôt réduit l'écart (Insee, 2025).",
-     "quiz_moins": "Moins d'emploi après 60 ans : le report de 60 à 62 ans l'avait accru de 20 à 25 points (IPP, 2025). Les départs pour carrière longue concernent surtout des hommes, à la mortalité proche de la moyenne (COR, Cour des comptes).",
+     "quiz_plus": "Plus d'années de retraite pour ceux qui ont commencé tôt : un homme ouvrier peut espérer 3,5 ans de retraite de moins qu'un cadre, et 4,9 ans de moins sans incapacité ; partir plus tôt réduit l'écart (Insee, 2025).",
+     "quiz_moins": "Moins d'emploi après 60 ans : le report de 60 à 62 ans l'avait accru de 20 à 25 points (IPP, 2025). Les carrières longues sont surtout des hommes, à la mortalité proche de la moyenne, hors santé (COR, Cour des comptes).",
      "quiz_src": [
       {
        "l": "Économie et statistique n°549 (Insee), Blasco et Lojkine : durée de retraite avec et sans incapacité",
@@ -313,6 +313,11 @@
        "l": "CAE Focus n° 98 / Insee Analyses n° 86 (Bonnet, Loisel, Wilner, Fize)",
        "a": 2023,
        "u": "https://cae-eco.fr/static/pdf/focus-98-carburants-230706.pdf"
+      },
+      {
+       "l": "Insee Analyses n° 75, la flambée des prix de l'énergie et le bouclier tarifaire",
+       "a": 2022,
+       "u": "https://www.insee.fr/fr/statistiques/6524161"
       }
      ]
     },
@@ -381,7 +386,7 @@
      },
      "quiz_text": "Supprimer trois impôts payés par les entreprises, quels que soient leurs bénéfices",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
-     "quiz_plus": "Ces impôts sont dus même sans bénéfice : pour le CAE (2019), ils faussent la production, la C3S réduisant les exportations d'environ 1 % ; ils pèsent 3,6 % de la valeur ajoutée contre 0,5 % en Allemagne.",
+     "quiz_plus": "Ces impôts sont dus même sans bénéfice : selon le CAE (2019), ils faussent la production, la taxe sur le chiffre d'affaires réduisant les exportations d'environ 1 % ; ils pèsent 3,6 % de la valeur ajoutée, 0,5 % en Allemagne.",
      "quiz_moins": "La baisse de 10 Md€ de CVAE et de CFE en 2021 n'a pas eu d'effet robuste mesuré sur l'investissement ni l'emploi (IPP 2025) ; le CAE ne trouve pas de distorsion majeure due à la CFE, qui finance les intercommunalités.",
      "quiz_src": [
       {
@@ -698,7 +703,7 @@
      },
      "quiz_text": "Supprimer la TVA sur une centaine de produits de première nécessité",
      "quiz_concret": "Certains produits du quotidien coûtent un peu moins cher.",
-     "quiz_plus": "Baisse directe du prix des courses : au Portugal en 2023, la suppression de la TVA sur 46 produits alimentaires a été répercutée presque en totalité (−5,7 % sur les prix), et durablement (Banco de Portugal).",
+     "quiz_plus": "Baisse directe du prix des courses : au Portugal en 2023, la suppression temporaire de la TVA sur 46 produits alimentaires a été répercutée presque en totalité (−5,7 % sur les prix) pendant toute la mesure (Banco de Portugal).",
      "quiz_moins": "La répercussion n'est pas garantie : après la baisse de TVA en restauration en 2009, les prix n'ont baissé que de 2 % et les restaurateurs ont gardé 56 % du gain ; les hausses suivantes ont été 4 à 5 fois plus répercutées (IPP).",
      "quiz_src": [
       {
@@ -756,7 +761,7 @@
      },
      "quiz_text": "Remplacer la couverture santé des sans-papiers par une aide aux seuls soins urgents",
      "quiz_concret": "Les sans-papiers ne seraient soignés qu'en cas d'urgence.",
-     "quiz_plus": "Sept des huit pays voisins étudiés distinguent les soins urgents ou essentiels des autres soins ; l'IGAS-IGF (2019) soupçonnait une migration pour soins chez 43 % des patients AME dialysés d'un échantillon.",
+     "quiz_plus": "Sept des huit pays européens étudiés distinguent les soins urgents ou essentiels des autres soins ; l'IGAS-IGF (2019) soupçonnait une migration pour soins chez 43 % des patients dialysés couverts par l'AME d'un échantillon.",
      "quiz_moins": "Les rapports IGAS-IGF (2019) et Évin-Stefanini (2023) prévoient plus de renoncement aux soins et des malades vus plus tard à l'hôpital ; en Espagne, la restriction de 2012 a ajouté environ 80 décès par an.",
      "quiz_src": [
       {
@@ -823,7 +828,7 @@
      },
      "quiz_text": "Arrêter les subventions aux éoliennes et panneaux solaires",
      "quiz_concret": "Moins de nouveaux parcs éoliens et solaires.",
-     "quiz_plus": "Le soutien public aux renouvelables électriques a presque triplé entre 2024 et 2027 selon la CRE, surtout pour le solaire ; RTE prévoit une production supérieure à la consommation jusqu'en 2027-2028.",
+     "quiz_plus": "Le soutien public aux renouvelables électriques a presque triplé de 2024 à 2027, avec la baisse des prix de gros et la hausse des volumes (CRE) ; RTE prévoit une production supérieure à la consommation jusqu'en 2027-2028.",
      "quiz_moins": "RTE juge la neutralité carbone impossible sans fort développement des renouvelables, les nouveaux réacteurs n'arrivant qu'après 2035 ; ces contrats ont aussi rapporté des recettes à l'État en 2022-2023 (CRE).",
      "quiz_src": [
       {
@@ -986,7 +991,7 @@
      },
      "quiz_text": "Revenir à la retraite à 62 ans dès 2027, puis à 60 ans",
      "quiz_concret": "Vous pourriez partir plus tôt qu'aujourd'hui.",
-     "quiz_plus": "Plus d'années de retraite, surtout pour les ouvriers, qui en vivent 3,5 de moins qu'un cadre et 4,9 de moins sans incapacité (Insee, 2025) ; les premières années de retraite sont un répit pour la santé ressentie (Cepremap, 2026).",
+     "quiz_plus": "Plus d'années de retraite, surtout pour les ouvriers : un homme ouvrier en vit 3,5 de moins qu'un cadre, 4,9 de moins sans incapacité (Insee) ; les premières années de retraite sont un répit pour la santé ressentie (Cepremap).",
      "quiz_moins": "Moins d'actifs : le report de 60 à 62 ans avait accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). Financer ces départs par plus de cotisations ou des pensions plus basses freine l'activité (modèles réunis par le COR, 2026).",
      "quiz_src": [
       {
@@ -1373,18 +1378,23 @@
      },
      "quiz_text": "Annuler la dette de la France détenue par la Banque centrale européenne",
      "quiz_concret": "L'État rembourserait moins à la banque centrale.",
-     "quiz_plus": "Pour plus de 100 économistes européens (tribune de 2021), une banque centrale peut fonctionner avec des fonds propres négatifs : effacer cette dette libérerait des marges pour la transition écologique.",
-     "quiz_moins": "Ces intérêts reviennent déjà en partie à l'État par les bénéfices de la Banque de France ; la commission Arthuis (2021) redoute une perte de confiance des prêteurs et des taux d'intérêt plus élevés.",
+     "quiz_plus": "Pour plus de 100 économistes européens (tribune de 2021), une banque centrale peut fonctionner même avec des pertes durables : effacer cette dette libérerait des marges pour la transition écologique.",
+     "quiz_moins": "Les intérêts versés à la banque centrale reviennent en partie aux États sous forme de dividendes : l'effacement les supprimerait aussi, sans gain net (BNP Paribas) ; aucun dividende versé à l'État au titre de 2022 et 2023.",
      "quiz_src": [
-      {
-       "l": "Le Grand Continent, « Comprendre le débat sur la dette publique » (tribune du Monde, février 2021)",
-       "a": 2021,
-       "u": "https://legrandcontinent.eu/fr/2021/11/16/comprendre-le-debat-sur-la-dette-publique-par-la-mode-10-points/"
-      },
       {
        "l": "Banque de France, A. Bénassy-Quéré, « Comptes des banques centrales : le trou d'air était attendu »",
        "a": 2024,
        "u": "https://www.banque-france.fr/fr/interventions-gouverneur/comptes-des-banques-centrales-le-trou-dair-etait-attendu"
+      },
+      {
+       "l": "Tribune « Annuler les dettes publiques détenues par la BCE » (La Libre Belgique)",
+       "a": 2021,
+       "u": "https://www.lalibre.be/debats/opinions/annuler-les-dettes-publiques-detenues-par-la-bce-pour-reprendre-en-main-notre-destin-601c38c17b50a652f79d741d"
+      },
+      {
+       "l": "BNP Paribas, « Le coût de l'annulation de la dette publique »",
+       "a": 2021,
+       "u": "https://economic-research.bnpparibas.com/pdf/fr-FR/cout-annulation-dette-publique-debat-suscite-19/02/2021,41805"
       }
      ]
     },
@@ -1422,7 +1432,7 @@
      "quiz_text": "Faire écrire une nouvelle Constitution",
      "quiz_concret": "Les règles de la République changeraient : référendums citoyens, vote proportionnel.",
      "quiz_plus": "Seuls 20 % des Français font confiance à l'Assemblée (Cevipof, 2026) ; en Islande, un projet rédigé par un conseil de citoyens élus a été approuvé comme base par deux tiers des votants en 2012.",
-     "quiz_moins": "Les précédents montrent un risque d'enlisement : au Chili, deux projets ont été rejetés par référendum (62 % en 2022, 55 % en 2023) ; en Islande, le texte n'a jamais été voté par le Parlement.",
+     "quiz_moins": "Les précédents montrent des processus longs à l'issue incertaine : au Chili, quatre ans de travaux se sont conclus par le rejet de deux projets par référendum (62 % en 2022, 55 % en 2023).",
      "quiz_src": [
       {
        "l": "Cevipof, Baromètre de la confiance politique, vague 17",
@@ -1520,14 +1530,9 @@
      },
      "quiz_text": "Augmenter de 10 % le salaire de base de tous les fonctionnaires",
      "quiz_concret": "Les agents publics gagnent plus.",
-     "quiz_plus": "Le point d'indice net a perdu environ 19 % de pouvoir d'achat depuis 2000 (OFCE), surtout sensible en début de carrière, et le salaire net réel des agents de l'État a reculé en 2022 et 2023 (Insee).",
-     "quiz_moins": "Le salaire moyen réel des services non marchands a crû de 15 % depuis 2000 grâce aux avancements et primes (OFCE) ; une hausse uniforme ne cible pas les métiers en tension et pèse sur collectivités et hôpitaux.",
+     "quiz_plus": "Le salaire net réel des agents de l'État a reculé en 2022 et 2023, avant +2,6 % en 2024 (Insee) ; une hausse du point d'indice relève tous les traitements de base, y compris en début de carrière.",
+     "quiz_moins": "Une hausse uniforme ne cible pas les métiers en tension et s'applique aussi aux collectivités et aux hôpitaux, qui doivent la financer ; une partie de la hausse revient à l'État en impôts et cotisations.",
      "quiz_src": [
-      {
-       "l": "OFCE (Geerolf, Plane), Hausse du point d'indice",
-       "a": 2024,
-       "u": "https://www.ofce-legislatives2024.fr/analyses/Indice_FP.html"
-      },
       {
        "l": "Insee Première n° 2100, Les salaires dans la fonction publique de l'État en 2024",
        "a": 2026,
@@ -1603,7 +1608,7 @@
      },
      "quiz_text": "Supprimer une partie des avantages fiscaux, dont celui pour l'emploi à domicile",
      "quiz_concret": "Ceux qui emploient une aide à domicile ou transmettent une entreprise paient plus.",
-     "quiz_plus": "Peu d'effet mesuré pour le coût : CIR sans effet significatif au-delà de 250 salariés, pacte Dutreil sans gain d'investissement ni d'emploi (IPP 2025), aide à domicile surtout utilisée par les 20 % les plus aisés.",
+     "quiz_plus": "Peu d'effet mesuré : crédit d'impôt recherche sans effet au-delà de 250 salariés, pacte Dutreil (transmission d'entreprise) sans gain d'investissement ni d'emploi (IPP), aide à domicile surtout prise par les 20 % les plus aisés.",
      "quiz_moins": "Le CIR fait monter la R&D d'environ 1 € par euro d'aide (DG Trésor) ; hors Dutreil, les entreprises transmises sont plus souvent dissoutes (10 % contre 6 % en 9 ans, IPP 2025) ; risque de retour du travail non déclaré à domicile.",
      "quiz_src": [
       {
@@ -1845,7 +1850,7 @@
      "quiz_text": "Taxer les 1 % plus gros héritages pour augmenter les salaires nets",
      "quiz_concret": "Les très gros héritages sont plus taxés ; les salariés gagnent un peu plus.",
      "quiz_plus": "60 % du patrimoine est désormais hérité, contre 35 % dans les années 1970, et les exonérations (assurance-vie, Dutreil) profitent surtout aux plus grosses transmissions (CAE 2021) ; la recette va au salaire net.",
-     "quiz_moins": "L'OCDE (2021) relève que les gros patrimoines optimisent beaucoup leurs transmissions et que les départs à l'étranger se concentrent tout en haut ; effet sur les entreprises familiales : études partagées. Rendement incertain.",
+     "quiz_moins": "L'OCDE (2021) note des départs à l'étranger limités, sauf tout en haut, et une forte optimisation des transmissions qui tient surtout aux règles en place ; effet sur les entreprises familiales : études partagées.",
      "quiz_src": [
       {
        "l": "CAE, note n° 69 « Repenser l'héritage » (Dherbécourt, Fack, Landais, Stantcheva)",
@@ -2153,7 +2158,7 @@
      },
      "quiz_text": "Une loi sur cinq ans pour l'école : salaires des profs, classes moins chargées, écoles rénovées",
      "quiz_concret": "Plus de moyens pour l'école.",
-     "quiz_plus": "Le dédoublement des CP en REP+ a réduit de 12,5 % la part d'élèves en très grande difficulté en maths (DEPP 2019) ; les études françaises trouvent des effets plus nets pour les élèves défavorisés.",
+     "quiz_plus": "Le dédoublement des CP en éducation prioritaire renforcée (REP+) a réduit de 12,5 % la part d'élèves en très grande difficulté en maths (DEPP 2019) ; les études françaises trouvent des effets plus nets pour les plus défavorisés.",
      "quiz_moins": "En français, les gains du dédoublement des CP-CE1 ne se retrouvent plus à l'entrée en 6e (DEPP 2026) ; réduire les classes demande beaucoup de postes et de salles alors que les concours peinent à recruter.",
      "quiz_src": [
       {
@@ -2305,7 +2310,7 @@
      },
      "quiz_text": "Un service obligatoire de dix mois pour tous les jeunes",
      "quiz_concret": "Chaque jeune donne dix mois à une mission d'intérêt général, civile ou militaire.",
-     "quiz_plus": "L'ancien service militaire espagnol a durablement accru la confiance envers les habitants d'autres régions (Bagues et Roth, 2023) ; au Portugal, il a relevé de 4 à 5 points le salaire ultérieur des moins diplômés.",
+     "quiz_plus": "En Espagne, faire son service hors de sa région a durablement amélioré l'opinion envers les habitants des autres régions (Bagues et Roth, 2023) ; au Portugal, il a relevé de 4 à 5 points le salaire des moins diplômés.",
      "quiz_moins": "Dix mois retardent études et emploi : en Allemagne, aucun effet sur les salaires ultérieurs ; dans l'OCDE, un service plus long réduit l'accès au supérieur ; la Cour des comptes note les difficultés d'accueil du SNU.",
      "quiz_src": [
       {
@@ -2807,11 +2812,6 @@
        "u": "https://s3.eusc-de-east-1.amazonaws.eu/unedic-eks-prod-cms/2026/06/10/la-reprise-d-emploi-dans-les-derniers-mois-du-droit-chomage_uid_6a29b5d029883.pdf"
       },
       {
-       "l": "Unédic (via Public Sénat), passage de 18 à 12 mois avant 53 ans",
-       "a": 2024,
-       "u": "https://www.publicsenat.fr/actualites/emploi/assurance-chomage-la-reforme-pourrait-affecter-jusqua-un-tiers-des-allocataires-selon-lunedic"
-      },
-      {
        "l": "Euzénat, Économie et Statistique n° 503-504 (Insee)",
        "a": 2018,
        "u": "https://www.insee.fr/fr/statistiques/fichier/3652253/503-504_Euzenat-FR.pdf"
@@ -2882,7 +2882,7 @@
      },
      "quiz_text": "Une allocation familiale unique dès le premier enfant",
      "quiz_concret": "Les familles d'un ou deux enfants y gagnent ; moins pour les hauts revenus.",
-     "quiz_plus": "En France, les aides financières pèsent sur la décision d'avoir un enfant, y compris le premier : une allocation familiale sans condition relèverait la fécondité d'environ 0,3 point d'indice (Laroque et Salanié).",
+     "quiz_plus": "En France, les aides financières pèsent sur la décision d'avoir un enfant, y compris le premier : une allocation familiale importante versée sans condition relèverait l'indice de fécondité d'environ 0,3 point (Laroque et Salanié).",
      "quiz_moins": "Une revue des études quasi-expérimentales conclut que l'effet des aides en argent sur la natalité est surtout temporaire, alors que le développement des crèches a un effet durable (Bergsvik et al., 2021).",
      "quiz_src": [
       {
@@ -2938,7 +2938,7 @@
      },
      "quiz_text": "Limiter les titres de séjour à moins de 200 000 par an et suspendre le regroupement familial",
      "quiz_concret": "Moins d'étrangers autorisés à s'installer en France.",
-     "quiz_plus": "Selon le CEPII, à court terme, une part d'immigrés 10 % plus élevée à diplôme et expérience égaux réduit d'environ 3 % l'emploi des natifs concernés ; les entrées familiales travaillent moins que celles pour travail (Insee).",
+     "quiz_plus": "Les entrées familiales travaillent moins que celles pour travail (Insee) ; au Danemark, durcir la venue des conjoints en 2002 a retardé les mariages et allongé d'environ six mois les études des jeunes immigrées.",
      "quiz_moins": "Certains métiers dépendent des immigrés : 17 % des médecins hospitaliers, plus de 60 % des agents de propreté et aides à domicile en Île-de-France (CEPII) ; la séparation des familles est associée à une moins bonne santé mentale.",
      "quiz_src": [
       {
@@ -2960,6 +2960,11 @@
        "l": "Löbel et Jacobsen, Waiting for kin (Journal of Ethnic and Migration Studies)",
        "a": 2021,
        "u": "https://edoc.hu-berlin.de/18452/29920"
+      },
+      {
+       "l": "Cuzulan, Schultz-Nielsen, Fallesen (Demography, 2025), résumé Rockwool Foundation",
+       "a": 2025,
+       "u": "https://en.rockwoolfonden.dk/scientific-article/the-demographic-and-socioeconomic-consequences-of-restricting-access-to-marriage-for-young-immigrants-in-denmark/"
       }
      ]
     },
@@ -3143,7 +3148,7 @@
      "quiz_text": "Un fonds annuel pour adapter le pays au réchauffement",
      "quiz_concret": "Plus d'argent contre les inondations, canicules et incendies.",
      "quiz_plus": "L'inaction coûte déjà plusieurs milliards par an, surtout à l'État (I4CE, 2024) ; la Cour des comptes (2024) juge les besoins mal chiffrés et les réponses publiques peu coordonnées, faute de plan d'ensemble.",
-     "quiz_moins": "Une enveloppe annuelle dépend des arbitrages budgétaires : le Fonds vert a été divisé par trois en un an (I4CE, 2026) ; le Haut Conseil pour le climat signale aussi un risque de « maladaptation ».",
+     "quiz_moins": "Une enveloppe annuelle dépend des arbitrages budgétaires : le Fonds vert des collectivités a été divisé par trois en deux ans, de 2024 à 2026 (I4CE) ; le Haut Conseil pour le climat signale un risque d'adaptations mal conçues.",
      "quiz_src": [
       {
        "l": "I4CE, « Anticiper les effets d'un réchauffement de +4 °C : quels coûts de l'adaptation ? » (Banque des Territoires)",
@@ -3206,7 +3211,7 @@
      },
      "quiz_text": "Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents des classes moyennes",
      "quiz_concret": "Les nouveaux parents gardent davantage de leur salaire.",
-     "quiz_plus": "Un soutien au moment où le revenu baisse : cinq ans après une naissance, les revenus salariaux des mères sont inférieurs d'environ 25 % à ce qu'ils auraient été sans enfant, et jusqu'à 38 % pour les moins payées (Insee 2019).",
+     "quiz_plus": "Un soutien au moment où le revenu baisse : cinq ans après une naissance, les revenus salariaux des mères restent inférieurs d'environ 25 % à ce qu'ils auraient été sans enfant, ceux des pères quasi inchangés (Insee 2019).",
      "quiz_moins": "Seuls les foyers imposables y gagnent (46 % en 2025, DGFiP), d'autant plus que leur impôt est élevé ; l'effet des avantages fiscaux sur la natalité est positif mais « extrêmement faible » (Landais 2003).",
      "quiz_src": [
       {
@@ -3367,8 +3372,8 @@
      },
      "quiz_text": "Ne pas remplacer une grande partie des fonctionnaires partant à la retraite, et les faire travailler plus",
      "quiz_concret": "Beaucoup moins de postes publics.",
-     "quiz_plus": "La Cour des comptes proposait en 2014 de remplacer moins de départs et d'allonger le temps de travail ; un jour de carence a réduit de 23 % les arrêts maladie à l'Éducation nationale (Insee 2023).",
-     "quiz_moins": "Selon les inspections, la réforme de 2007-2012 a été mal vécue par de nombreux agents ; le jour de carence de 2012 a accru d'environ 25 % les arrêts d'une semaine à trois mois (Insee 2017).",
+     "quiz_plus": "La Cour des comptes proposait en 2014 de remplacer moins de départs et d'allonger le temps de travail ; un jour de carence a réduit de 23 % le nombre d'arrêts maladie, de 6 % les jours d'absence, à l'Éducation nationale (Insee).",
+     "quiz_moins": "Avec le « un sur deux », près de 90 % des économies brutes ont été reversées aux agents (Cour des comptes, 2010) ; le jour de carence de 2012 a accru d'environ 25 % les arrêts d'une semaine à trois mois (Insee 2017).",
      "quiz_src": [
       {
        "l": "Cour des comptes, masse salariale de l'État (via Acteurs publics)",
@@ -3381,14 +3386,14 @@
        "u": "https://www.insee.fr/fr/statistiques/6964865"
       },
       {
-       "l": "IGA, IGF, IGAS, Bilan de la RGPP",
-       "a": 2012,
-       "u": "https://www.fonction-publique.gouv.fr/files/files/ArchivePortailFP/www.fonction-publique.gouv.fr/files/files/publications/hors_collections/20120925-rapport-bilan-RGPP_sans-annexes.pdf"
-      },
-      {
        "l": "Insee Analyses n° 36, Le jour de carence dans la fonction publique de l'État",
        "a": 2017,
        "u": "https://www.insee.fr/fr/statistiques/3181789"
+      },
+      {
+       "l": "Cour des comptes, situation des finances publiques (via Acteurs publics)",
+       "a": 2010,
+       "u": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-peu/"
       }
      ]
     },
@@ -3508,7 +3513,7 @@
      },
      "quiz_text": "Retraite possible dès 63 ans avec une pension réduite, pleine à 65 ans",
      "quiz_concret": "Vous choisissez : partir plus tôt en touchant moins, ou attendre 65 ans.",
-     "quiz_plus": "Départ possible plus tôt, avec une décote qui incite à rester : éviter une minoration a pesé pour 56 % des retraités partis plus tard que possible (DREES) ; au Japon et aux États-Unis, où la décote est forte, on part vers 67 ans.",
+     "quiz_plus": "Partir tôt reste possible, mais la décote incite à rester : éviter une pension réduite a pesé pour 56 % des retraités partis plus tard que possible (DREES) ; au Japon et aux États-Unis, à forte décote, l'emploi cesse vers 67 ans.",
      "quiz_moins": "Pension réduite pour qui part avant le taux plein, souvent faute d'emploi ou de santé : 29 % des seniors ni en emploi ni en retraite se disent en mauvaise santé (DREES). Taux plein plus tard pour les carrières complètes.",
      "quiz_src": [
       {
@@ -3730,7 +3735,7 @@
      },
      "quiz_text": "Arrêter les nouveaux parcs solaires et éoliens en mer, construire 8 réacteurs nucléaires",
      "quiz_concret": "Plus de nucléaire, moins de renouvelables ; fin des zones à faibles émissions en ville.",
-     "quiz_plus": "Pour RTE (2021), les scénarios avec nouveaux réacteurs sont les moins coûteux pour le système électrique ; le soutien public aux renouvelables a presque triplé entre 2024 et 2027 (CRE).",
+     "quiz_plus": "Pour RTE (2021), les scénarios avec nouveaux réacteurs sont les moins coûteux pour le système électrique ; le soutien aux renouvelables a presque triplé de 2024 à 2027, baisse des prix de gros comprise (CRE).",
      "quiz_moins": "Le premier EPR a eu 12 ans de retard et le coût du programme EPR2 a déjà augmenté de 30 % (Cour des comptes, 2025) ; RTE juge la neutralité carbone impossible sans fort développement des renouvelables.",
      "quiz_src": [
       {
@@ -3912,7 +3917,7 @@
      },
      "quiz_text": "Remplacer la couverture santé des sans-papiers par une aide aux seuls soins urgents",
      "quiz_concret": "Les sans-papiers ne seraient soignés qu'en cas d'urgence.",
-     "quiz_plus": "Sept des huit pays voisins étudiés distinguent les soins urgents ou essentiels des autres soins ; l'IGAS-IGF (2019) soupçonnait une migration pour soins chez 43 % des patients AME dialysés d'un échantillon.",
+     "quiz_plus": "Sept des huit pays européens étudiés distinguent les soins urgents ou essentiels des autres soins ; l'IGAS-IGF (2019) soupçonnait une migration pour soins chez 43 % des patients dialysés couverts par l'AME d'un échantillon.",
      "quiz_moins": "Les rapports IGAS-IGF (2019) et Évin-Stefanini (2023) prévoient plus de renoncement aux soins et des malades vus plus tard à l'hôpital ; en Espagne, la restriction de 2012 a ajouté environ 80 décès par an.",
      "quiz_src": [
       {
@@ -4052,8 +4057,8 @@
      },
      "quiz_text": "Supprimer l'âge légal de la retraite : chacun part quand il veut selon ses années de travail",
      "quiz_concret": "Partir tôt réduit la pension, partir tard l'augmente.",
-     "quiz_plus": "Départ selon les années cotisées : qui a commencé tôt part plus tôt, qui veut une pension plus haute reste. Aujourd'hui, l'âge légal a pesé pour 78 % des nouveaux retraités (DREES), au-delà des seules incitations financières.",
-     "quiz_moins": "Plus de départs tôt à pension réduite : la Suède, où l'on part librement après un âge minimal, a relevé celui-ci en 2023 pour augmenter les pensions. Les carrières heurtées, plus souvent féminines, y sont plus exposées (COR).",
+     "quiz_plus": "Chacun part selon ses années cotisées : qui a commencé tôt peut partir plus tôt, qui veut une pension plus haute reste. Aujourd'hui, 78 % des nouveaux retraités citent l'âge légal parmi les raisons de leur départ (DREES).",
+     "quiz_moins": "Plus de départs tôt à pension réduite : la Suède, où l'on part librement après un âge minimal, a relevé cet âge en 2023 pour augmenter les pensions. Les carrières incomplètes, souvent féminines, seraient les plus touchées (COR).",
      "quiz_src": [
       {
        "l": "DREES, enquête Motivations de départ à la retraite 2021 (séance COR du 24 mars 2022)",
@@ -4205,7 +4210,7 @@
      },
      "quiz_text": "Geler toutes les aides sociales pendant un an, sauf les petites retraites",
      "quiz_concret": "Vos allocations ne suivraient pas les prix pendant un an.",
-     "quiz_plus": "L'effort est réparti sur un grand nombre de bénéficiaires, avec une perte limitée pour chacun : avec environ 1 % d'inflation, 3,2 % des ménages perdraient au moins 1 % de niveau de vie (IPP) ; les petites retraites sont épargnées.",
+     "quiz_plus": "L'effort est réparti sur un grand nombre de bénéficiaires, avec une perte limitée pour chacun : avec 1,3 % d'inflation, 3,2 % des ménages perdraient au moins 1 % de niveau de vie (IPP) ; les petites retraites sont épargnées.",
      "quiz_moins": "Rapportée au revenu, la perte est plus forte en bas de l'échelle : près de 1 % pour les 5 % les plus modestes, moins de 0,3 % pour les 5 % les plus aisés (OFCE, 2025) ; elle grandit avec l'inflation et dure sans rattrapage.",
      "quiz_src": [
       {
@@ -4326,7 +4331,7 @@
      },
      "quiz_text": "Inscrire dans la Constitution l'obligation d'un budget sans déficit",
      "quiz_concret": "L'État ne pourrait plus dépenser plus qu'il ne gagne, à terme.",
-     "quiz_plus": "Sous le frein à l'endettement allemand, la dette publique est passée de 81 % à 58 % du PIB entre 2010 et 2019 (Eurostat) ; une méta-analyse (ZEW, 2018) trouve en général un effet modérateur des règles chiffrées.",
+     "quiz_plus": "Sous le frein à l'endettement allemand, la dette est passée de 81 % à 58 % du PIB de 2010 à 2019, aidée par la croissance et des taux bas (Eurostat) ; les études publiées trouvent en général un effet modérateur des règles.",
      "quiz_moins": "La même méta-analyse note que cet effet faiblit une fois les biais corrigés ; une règle stricte limite la relance en récession, et l'Allemagne a assoupli son frein en 2025 (défense, infrastructures, climat).",
      "quiz_src": [
       {
@@ -4464,7 +4469,7 @@
      "quiz_text": "Supprimer le seuil annuel de 220 heures supplémentaires",
      "quiz_concret": "Au-delà de 220 heures sup par an, plus de repos compensateur obligatoire.",
      "quiz_plus": "Les heures sup concernent 53 % des salariés à temps complet du privé (Dares, 2023) ; sans contingent, celles au-delà de 220 h restent payées majorées sans repos obligatoire à accorder, ce qui facilite les pics d'activité.",
-     "quiz_moins": "Au-delà de 220 h, les salariés perdent la contrepartie en repos (100 % de ces heures au-delà de 20 salariés) ; avec environ 16 h sup par trimestre en moyenne (Dares), la mesure concerne surtout de longues durées.",
+     "quiz_moins": "Au-delà de 220 h, les salariés perdent le repos obligatoire en plus (1 h de repos par heure sup au-delà de 20 salariés) ; avec environ 16 h sup par trimestre en moyenne (Dares), la plupart restent loin de ce seuil.",
      "quiz_src": [
       {
        "l": "Dares (via AEF info), heures supplémentaires en 2023",
@@ -4515,7 +4520,7 @@
      },
      "quiz_text": "Une Europe plus unie autour de 8 à 10 pays, avec un président élu par les citoyens",
      "quiz_concret": "Plus de décisions prises au niveau européen.",
-     "quiz_plus": "Pour un groupe d'experts franco-allemand (2023), une Union à plus de 30 membres a besoin d'un « cercle intérieur » plus intégré pour garder sa capacité d'agir, avec un budget propre aux pays participants.",
+     "quiz_plus": "Pour un groupe d'experts franco-allemand (2023), une Union à plus de 30 membres a besoin d'un « cercle intérieur » plus intégré pour garder sa capacité d'agir, avec des coûts partagés entre pays participants.",
      "quiz_moins": "Les mêmes experts notent que cette différenciation crée une complexité institutionnelle et un risque pour la cohérence de l'Union ; aucun président européen élu n'existe, donc aucune évaluation.",
      "quiz_src": [
       {
@@ -4838,7 +4843,7 @@
      },
      "quiz_text": "Repousser la retraite à 65 ans et développer l'épargne retraite individuelle",
      "quiz_concret": "Vous partez plus tard ; une partie de votre retraite dépend de votre épargne.",
-     "quiz_plus": "Plus d'actifs : le report de 60 à 62 ans a accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). L'épargne placée est moins exposée aux chocs démographiques et rapporte souvent plus que la croissance (COR, 2025).",
+     "quiz_plus": "Plus d'actifs : le report de 60 à 62 ans a accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). L'épargne placée dépend moins de la démographie et rapporte souvent plus que la croissance, avec des aléas de marché (COR, 2025).",
      "quiz_moins": "Ce report a aussi accru chômage indemnisé et arrêts maladie (IPP ; Insee). L'épargne retraite suit les marchés et reste concentrée : 34 % des ménages cadres en ont une, contre 10 à 12 % des employés et ouvriers (Insee, 2024).",
      "quiz_src": [
       {
@@ -4989,7 +4994,7 @@
      "quiz_text": "Fusionner les aides sociales en une seule, plafonnée",
      "quiz_concret": "Plus simple, mais certains toucheraient moins qu'aujourd'hui.",
      "quiz_plus": "Au Royaume-Uni, la fusion de six aides en un crédit unique a été suivie de reprises d'emploi plus fréquentes (+4 points à six mois, NAO 2018) ; en France, un tiers des éligibles ne demandent pas le RSA.",
-     "quiz_moins": "Le même bilan relève que 4 allocataires sur 10 du crédit unique déclaraient des difficultés financières ; un plafond commun réduit les aides des foyers qui en cumulent plusieurs, comme les familles nombreuses.",
+     "quiz_moins": "Le NAO doute que ce gain d'emploi précoce se généralise et relève que 4 allocataires sur 10 déclaraient des difficultés financières ; un plafond commun réduit les aides des foyers qui en cumulent plusieurs.",
      "quiz_src": [
       {
        "l": "National Audit Office, Rolling out Universal Credit",
@@ -5055,7 +5060,7 @@
      },
      "quiz_text": "Remplacer la couverture santé des sans-papiers par une aide aux seuls soins urgents",
      "quiz_concret": "Les sans-papiers ne seraient soignés qu'en cas d'urgence.",
-     "quiz_plus": "Sept des huit pays voisins étudiés distinguent les soins urgents ou essentiels des autres soins ; l'IGAS-IGF (2019) soupçonnait une migration pour soins chez 43 % des patients AME dialysés d'un échantillon.",
+     "quiz_plus": "Sept des huit pays européens étudiés distinguent les soins urgents ou essentiels des autres soins ; l'IGAS-IGF (2019) soupçonnait une migration pour soins chez 43 % des patients dialysés couverts par l'AME d'un échantillon.",
      "quiz_moins": "Les rapports IGAS-IGF (2019) et Évin-Stefanini (2023) prévoient plus de renoncement aux soins et des malades vus plus tard à l'hôpital ; en Espagne, la restriction de 2012 a ajouté environ 80 décès par an.",
      "quiz_src": [
       {
@@ -5351,7 +5356,7 @@
      "quiz_text": "Réserver les aides sociales non liées aux cotisations aux étrangers résidant depuis plus de 5 ans",
      "quiz_concret": "Un étranger arrivé récemment n'aurait plus droit à ces aides.",
      "quiz_plus": "Conditionner les aides à la durée de séjour vise à réduire l'attrait du pays : au Danemark, des aides réduites de moitié pour les immigrés hors UE ont diminué les arrivées nettes d'environ 5 000 par an.",
-     "quiz_moins": "30,6 % des immigrés sont pauvres, contre 12,7 % des autres (Insee, 2021) ; selon le CEPII, limiter leur accès aux minima sociaux peut leur faire accepter de moins bonnes conditions d'emploi et évincer des natifs de même profil.",
+     "quiz_moins": "30,6 % des immigrés sont pauvres, contre 12,7 % des autres (Insee, 2021) ; au Danemark, la baisse des aides aux réfugiés nouvellement installés a réduit la scolarité des enfants et accru la délinquance des adolescents.",
      "quiz_src": [
       {
        "l": "Agersnap, Jensen, Kleven, The Welfare Magnet Hypothesis (AER: Insights ; NBER w26454)",
@@ -5364,9 +5369,9 @@
        "u": "https://www.insee.fr/fr/statistiques/7941405"
       },
       {
-       "l": "CEPII (Edo et Toubal), L'immigration en France, quelles réactions des salaires et de l'emploi ? (Lettre n° 347)",
-       "a": 2014,
-       "u": "https://www.cepii.fr/PDF_PUB/lettre/2014/let347.pdf"
+       "l": "Dustmann, Andersen, Landersø, Intended and Unintended Consequences of Welfare Cuts for Refugees (synthèse RFBerlin de deux articles 2024)",
+       "a": 2024,
+       "u": "https://rfberlin.com/wp-content/uploads/2024/08/Intended-and-Unintended-Consequences-of-Welfare-Cuts-for-Refugees.pdf"
       }
      ]
     }
@@ -5662,7 +5667,7 @@
      },
      "quiz_text": "Retraite maintenue à 64 ans ou portée à 65 ans, et plus d'épargne retraite",
      "quiz_concret": "Vous partiriez au même âge ou un an plus tard.",
-     "quiz_plus": "À 65 ans, plus d'actifs : le report de 60 à 62 ans a accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). L'épargne placée est moins exposée aux chocs démographiques et rapporte souvent plus que la croissance (COR, 2025).",
+     "quiz_plus": "Plus d'actifs : le report de 60 à 62 ans a accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). L'épargne placée dépend moins de la démographie et rapporte souvent plus que la croissance, avec des aléas de marché (COR, 2025).",
      "quiz_moins": "Ce report a aussi accru chômage indemnisé et arrêts maladie (IPP ; Insee). L'épargne retraite suit les marchés et reste concentrée : 34 % des ménages cadres en ont une, contre 10 à 12 % des employés et ouvriers (Insee, 2024).",
      "quiz_src": [
       {
