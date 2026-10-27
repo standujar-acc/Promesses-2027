@@ -20,7 +20,7 @@ Texte identique à l'onglet « Méthode » de l'app (généré depuis `pipeline/
 
 **Simulateur.** Il applique les paramètres annoncés à votre situation, à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Ce sont des ordres de grandeur.
 
-**Quiz.** 16 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 4 fois et aucune paire ne se répète. Chaque proposition est reformulée en langage courant, avec deux effets factuels : « + » ce qu'elle apporte, « − » sa contrepartie. Pas de nom de candidat, pas de coût, pas de faisabilité, pas de jugement ; une même formulation pour tous les cas du même type (dépense à financer, recettes en moins, pensions en plus).
+**Quiz.** 16 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 4 fois et aucune paire ne se répète. Chaque proposition est reformulée en langage courant, avec deux effets factuels : « + » ce qu'elle apporte, « − » sa contrepartie. Chaque ligne donne l'effet propre à la mesure (qui gagne le plus, qui est exclu, ce qui change), puis son effet sur le budget en quelques mots. Pas de nom de candidat, pas de coût, pas de faisabilité, pas de jugement ; la même règle pour tous.
 
 **Assistant.** Réponses générées par Claude à partir des seules données de l'app, avec la consigne de rester neutre et de citer les fiches.
 
