@@ -409,7 +409,8 @@ for c in D['candidates']:
         if k in QE:
             m['quiz_plus'],m['quiz_moins']=QE[k][0],QE[k][1]
             if len(QE[k])>2: m['quiz_src']=QE[k][2]
-assert set(QE)<={c['id']+'.'+m['id'] for c in D['candidates'] for m in c['measures']}, "quiz_effets.json : mesure inconnue"
+assert {k for k in QE if k.count('.')==1}<={c['id']+'.'+m['id'] for c in D['candidates'] for m in c['measures']}, "quiz_effets.json : mesure inconnue"
+# (les clés candidat.thème.n sont des propositions « vie quotidienne », reprises par build.py après la fusion du volet)
 for c0 in D['candidates']:
     for m in c0['measures']:
         if m.get('quiz_text'): m['quiz_text']=re.sub(r"\s+\.$",".",m['quiz_text']).replace(' .','.')
