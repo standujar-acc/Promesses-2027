@@ -28,7 +28,7 @@ C'est la liste de ce qui manque, reste incertain ou attend une décision. Une ro
 
 Types : `lien_mort`, `source_faible`, `a_confirmer`, `non_chiffrable`, `annonce_attendue`, `a_ajouter`, `a_verifier`, `a_trancher`. Format complet : section « Format du registre » de la [skill revue](.claude/skills/revue/SKILL.md).
 
-Règle d'or : **un changement qui demande un arbitrage** (méthode, interprétation, neutralité, changement important d'un total) **ne se tranche pas seul** : il devient un point `a_trancher`, signalé dans la PR, et le porteur du projet décide.
+Règle d'or : **un changement qui demande un arbitrage** (méthode, interprétation, neutralité, changement important d'un total) **se tranche en appliquant les règles communes aux faits vérifiés** (délégation du porteur du projet, 27/10/2026). La décision, la règle appliquée et les sources sont notées dans le registre (`resolution`) et signalées dans la PR. Seul un choix sans règle applicable ni fait décisif reste un point `a_trancher`.
 
 ### Historique affiché sur le site : `D['changelog']` dans `pipeline/build.py`
 - Tout changement **visible** sur le site (chiffre, texte, fonctionnalité) a une entrée.

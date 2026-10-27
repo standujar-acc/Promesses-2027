@@ -390,6 +390,12 @@ for i in k['inputs']:
 # simulateur : plus de gain pour l'allocation de Philippe (mesure non chiffrable), une note à la place
 sp=C['philippe']['sim']; sp.pop('alloc_familiales',None)
 sp['famille']="Allocation unique de 350 €/mois par enfant dès le 1er enfant, dégressive selon le revenu, en remplacement d'aides existantes : non chiffrable (seuils et aides remplacées non publiés), donc non comptée ici."
+# --- review 7 : décisions prises sur délégation du porteur du projet (27/10/2026)
+# S053 : le simulateur applique tout paramètre publié et confirmé, compté ou non dans le total (pertes comme gains) ;
+# si un paramètre clé manque, une note le dit. Mélenchon : allocations familiales et APL +10 % (note LFI d'octobre 2026).
+SQAF=D['statu_quo']['alloc_familiales']; sm=C['melenchon']['sim']; assert sm.get('alloc_familiales') is None
+sm['alloc_familiales']={**{n:round(SQAF[n]*1.1,2) for n in ('1','2','3','par_enfant_sup')},"note":"Allocations familiales +10 % (note LFI d'octobre 2026), hors de notre total"}
+sm.setdefault('tous',[]).append("APL +10 % (note LFI d'octobre 2026) : non calculé ici, le simulateur ne connaît pas votre loyer.")
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
