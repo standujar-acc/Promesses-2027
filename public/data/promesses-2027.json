@@ -353,25 +353,50 @@
      },
      "quiz_text": "Baisser fortement la taxe sur l'électricité, le gaz et l'essence",
      "quiz_concret": "Vos factures d'énergie et le plein baissent d'environ 12 %, si les fournisseurs répercutent la baisse.",
-     "quiz_plus": "Prix de l'énergie plus bas pour tous les ménages : en 2021-2022, les mesures de baisse des prix ont évité environ 3 points d'inflation et soutenu davantage, en part du revenu, les 30 % les plus modestes (Insee).",
-     "quiz_moins": "Gain plus élevé en euros pour les gros consommateurs : la remise carburant de 2022 a rapporté 64 à 115 € au quart le plus aisé, 29 à 48 € au plus modeste ; une énergie moins chère fait aussi monter la consommation (CAE, Insee).",
+     "quiz_plus": "Moins de taxe sur l'énergie fait baisser tout de suite les factures et le prix du plein.",
+     "quiz_moins": "Ceux qui consomment le plus d'énergie, souvent plus aisés, y gagnent le plus en euros.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "solide",
+     "quiz_cas_pour": [
+      {
+       "t": "Le gel des tarifs du gaz et de l'électricité et la remise à la pompe ont réduit l'inflation de 3,1 points en un an, surtout pour les plus modestes (Insee, France, 2022).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "La remise à la pompe de 2022 a rapporté 64 à 115 € aux 25 % les plus aisés, 29 à 48 € aux plus modestes, une part plus forte de leur revenu (CAE, France, 2023).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Les évaluations concordent : ces baisses réduisent vite les prix de l'énergie et rapportent plus en euros aux gros consommateurs, plus en part de revenu aux ménages modestes.",
      "quiz_src": [
       {
-       "l": "Insee Analyses n° 78 (Cornuet)",
+       "l": "Insee Analyses n° 75, « La flambée des prix de l'énergie : un effet sur l'inflation réduit de moitié par le bouclier tarifaire »",
        "a": 2022,
-       "u": "https://www.insee.fr/fr/statistiques/6655850"
+       "u": "https://insee.fr/fr/statistiques/fichier/6524161/ia75.pdf"
       },
       {
-       "l": "CAE Focus n° 98 / Insee Analyses n° 86 (Bonnet, Loisel, Wilner, Fize)",
+       "l": "CAE Focus n° 98 / Insee Analyses n° 86, « Comment les automobilistes ajustent leur consommation de carburant aux variations de prix » (Bonnet, Loisel, Wilner, Fize)",
        "a": 2023,
        "u": "https://cae-eco.fr/static/pdf/focus-98-carburants-230706.pdf"
       },
       {
-       "l": "Insee Analyses n° 75, la flambée des prix de l'énergie et le bouclier tarifaire",
-       "a": 2022,
-       "u": "https://www.insee.fr/fr/statistiques/6524161"
+       "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Les prix de l'énergie des ménages ont augmenté de 31 % de 2019 à 2025, contre 19 % pour l'ensemble (Eurostat).",
+      "s": [
+       2
+      ]
+     }
     },
     {
      "id": "production",
@@ -438,20 +463,62 @@
      },
      "quiz_text": "Supprimer trois impôts payés par les entreprises, quels que soient leurs bénéfices",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
-     "quiz_plus": "Ces impôts sont dus même sans bénéfice : selon le CAE (2019), ils faussent la production, la taxe sur le chiffre d'affaires réduisant les exportations d'environ 1 % ; ils pèsent 3,6 % de la valeur ajoutée, 0,5 % en Allemagne.",
-     "quiz_moins": "La baisse de 10 Md€ de CVAE et de CFE en 2021 n'a pas eu d'effet robuste mesuré sur l'investissement ni l'emploi (IPP 2025) ; le CAE ne trouve pas de distorsion majeure due à la CFE, qui finance les intercommunalités.",
-     "quiz_src": [
+     "quiz_plus": "Ces impôts sont dus même sans bénéfice : les supprimer aide l'industrie et l'export.",
+     "quiz_moins": "Les baisses récentes n'ont pas eu d'effet net mesuré, et profitent surtout aux grands groupes.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
       {
-       "l": "CAE, note n° 53 « Les impôts sur (ou contre) la production » (Martin, Trannoy)",
-       "a": 2019,
-       "u": "https://cae-eco.fr/static/pdf/cae-note053.pdf"
+       "t": "Après la fin en 2010 de la taxe professionnelle sur les machines, les entreprises les plus allégées ont accru ventes, capital et emploi (Banque de France, France, 2021).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Après la baisse de moitié de plusieurs impôts de production en 2021, aucun effet robuste n'a été mesuré sur l'investissement (IPP, France, 2025).",
+       "s": [
+        1
+       ]
       },
       {
-       "l": "IPP, rapport n° 60 « La baisse des impôts de production : ciblage et évaluation » (avec France Stratégie)",
+       "t": "La baisse de 2021 a surtout profité aux grandes entreprises et à celles qui ont beaucoup de machines et de bâtiments, dont l'industrie (IPP, France, 2025).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Effet positif mesuré pour la réforme de 2010, pas d'effet robuste pour celle de 2021 ; une étude préliminaire lie la fin de la taxe sur le chiffre d'affaires des petites entreprises à +1 % d'export.",
+     "quiz_src": [
+      {
+       "l": "Banque de France, Bulletin n° 238/4, « Dix ans après la réforme de la taxe professionnelle » (Bergeaud, Jousselin, Malgouyres)",
+       "a": 2021,
+       "u": "https://www.banque-france.fr/system/files/2023-01/bulletin-banque-de-france_238-4_taxe_professionnelle.pdf"
+      },
+      {
+       "l": "IPP, rapport n° 60, « La baisse des impôts de production : ciblage et évaluation » (pour France Stratégie)",
        "a": 2025,
        "u": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+      },
+      {
+       "l": "Eurostat, comptes non financiers par secteur (nasa_10_nf_tr), calcul : impôts sur la production (D29) payés par les sociétés non financières / leur valeur ajoutée brute",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/databrowser/view/nasa_10_nf_tr/default/table"
+      },
+      {
+       "l": "CAE, note n° 53, « Les impôts sur (ou contre) la production » (Martin, Trannoy)",
+       "a": 2019,
+       "u": "https://cae-eco.fr/static/pdf/cae-note053.pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Les impôts de production font 5 % de la valeur ajoutée des sociétés en 2024 (5,4 % en 2015 ; Allemagne 1,2 %).",
+      "s": [
+       2,
+       3
+      ]
+     }
     },
     {
      "id": "ue",
@@ -595,20 +662,50 @@
      },
      "quiz_text": "Lutter plus durement contre la fraude fiscale et la fraude aux aides",
      "quiz_concret": "Rien ne change pour vous si vous êtes en règle.",
-     "quiz_plus": "La TVA due mais non perçue atteint environ 12 Md€ par an (6 % du dû, 2023). Selon une étude pour la Commission européenne, une TVA versée directement à l'État au paiement réduit cet écart de 27 à 56 %, surtout la fraude carrousel.",
-     "quiz_moins": "Selon la même étude, ce prélèvement généralisé pèse sur la trésorerie des entreprises et alourdit leur gestion, au point que les coûts peuvent dépasser les gains ; l'écart de TVA inclut aussi faillites et erreurs, hors fraude.",
+     "quiz_plus": "Faire verser la taxe par l'acheteur empêche les fraudeurs d'encaisser la TVA puis de disparaître.",
+     "quiz_moins": "Des contrôles plus durs pèsent aussi sur ceux qui sont en règle : trésorerie, erreurs.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Une fraude à la TVA sur les quotas de carbone (1,6 milliard) a cessé dès que le vendeur n'a plus encaissé la taxe, en juin 2009 (Cour des comptes, France, 2012).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Plus de 25 000 parents ont dû rembourser en bloc leurs aides de garde d'enfants, de simples erreurs étant traitées comme des fraudes (Parlement, Pays-Bas, 2024).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Mécanisme efficace sur des marchés ciblés ; généralisé, une étude pour la Commission (2017) estime −27 à −56 % de TVA non perçue, sans preuve que les gains dépassent les coûts.",
      "quiz_src": [
       {
-       "l": "Conseil de l'UE, fiche France sur les écarts de conformité fiscale",
-       "a": 2025,
-       "u": "https://data.consilium.europa.eu/doc/document/ST-16801-2025-ADD-10/en/pdf"
+       "l": "Cour des comptes, rapport public annuel 2012, « La fraude à la TVA sur les quotas de carbone »",
+       "a": 2012,
+       "u": "https://www.ccomptes.fr/sites/default/files/EzPublish/Fraude_TVA_sur_quotas_carbone.pdf"
       },
       {
-       "l": "Commission européenne, étude sur le paiement scindé de la TVA (Deloitte, synthèse)",
-       "a": 2017,
-       "u": "https://taxation-customs.ec.europa.eu/system/files/2018-01/split_payment_report_execsummary_2017_en.pdf"
+       "l": "Parlementair Documentatie Centrum (université de Leyde), « Parlementaire enquête Fraudebeleid en Dienstverlening (2021-2024) »",
+       "a": 2024,
+       "u": "https://www.parlement.com/parlementaire-enquete-fraudebeleid-en-dienstverlening-2021-2024"
+      },
+      {
+       "l": "Conseil de l'UE / Commission européenne, « Mind the Gap » 2025, fiche France (SWD(2025) 421)",
+       "a": 2025,
+       "u": "https://data.consilium.europa.eu/doc/document/ST-16801-2025-ADD-10/en/pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "La TVA non perçue atteint 6 % du montant dû en 2023, contre plus de 7 % en 2019 (Commission européenne).",
+      "s": [
+       2
+      ]
+     }
     },
     {
      "id": "etat",
@@ -803,25 +900,56 @@
      },
      "quiz_text": "Supprimer la TVA sur une centaine de produits de première nécessité",
      "quiz_concret": "Certains produits du quotidien coûtent un peu moins cher.",
-     "quiz_plus": "Baisse directe du prix des courses : au Portugal en 2023, la suppression temporaire de la TVA sur 46 produits alimentaires a été répercutée presque en totalité (−5,7 % sur les prix) pendant toute la mesure (Banco de Portugal).",
-     "quiz_moins": "La répercussion n'est pas garantie : après la baisse de TVA en restauration en 2009, les prix n'ont baissé que de 2 % et les restaurateurs ont gardé 56 % du gain ; les hausses suivantes ont été 4 à 5 fois plus répercutées (IPP).",
+     "quiz_plus": "Sans taxe sur ces produits, les courses du quotidien coûtent moins cher, tout de suite.",
+     "quiz_moins": "Une partie de la baisse peut rester dans les marges des vendeurs au lieu de baisser les prix.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Les prix de 46 aliments de base ont baissé de 5,7 %, soit la quasi-totalité de la taxe supprimée, jusqu'à la fin de la mesure (Banque du Portugal, Portugal, 2024).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Après la baisse de la taxe dans les restaurants en 2009, les prix n'ont baissé que d'environ 2 % et les patrons ont gardé 56 % du gain (IPP, France, 2018).",
+       "s": [
+        1,
+        2
+       ]
+      }
+     ],
+     "quiz_etudes": "Les études divergent selon le secteur : baisse presque entière des prix pour des aliments en supermarché, faible dans la restauration ; les hausses suivantes sont plus répercutées que les baisses.",
      "quiz_src": [
       {
-       "l": "SUERF Policy Brief n° 963 / Banco de Portugal WP 04/2024 (Bernardino, Duque Gabriel, Quelhas, Silva-Pereira)",
+       "l": "SUERF Policy Brief n° 963 / Banco de Portugal WP 04/2024, « Can a temporary VAT cut bring down inflation? » (Bernardino, Duque Gabriel, Quelhas, Silva-Pereira)",
        "a": 2024,
        "u": "https://suerf.org/publications/suerf-policy-notes-and-briefs/can-a-temporary-vat-cut-bring-down-inflation"
       },
       {
-       "l": "IPP, note n° 32 « Qui a bénéficié de la baisse de la TVA dans la restauration en 2009 ? » (Benzarti, Carloni)",
+       "l": "IPP, note n° 32, « Qui a bénéficié de la baisse de la TVA dans la restauration en 2009 ? » (Benzarti, Carloni)",
        "a": 2018,
        "u": "https://www.ipp.eu/wp-content/uploads/2018/05/n32-notesIPP-mai2018.pdf"
       },
       {
-       "l": "Insee, document de travail F1404 (Sillard, Lafféter)",
+       "l": "Insee, document de travail F1404, « L'addition est-elle moins salée ? » (Sillard, Lafféter)",
        "a": 2014,
        "u": "https://www.insee.fr/fr/statistiques/1381057"
+      },
+      {
+       "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Les prix de l'alimentation ont augmenté de 27 % de 2019 à 2025, contre 19 % pour l'ensemble (Eurostat).",
+      "s": [
+       3
+      ]
+     }
     },
     {
      "id": "ame",
@@ -1329,20 +1457,79 @@
      },
      "quiz_text": "Taxer davantage les plus grandes fortunes et les gros héritages",
      "quiz_concret": "Les très riches paient plus ; la plupart des gens ne sont pas concernés.",
-     "quiz_plus": "Au sommet, l'impôt devient dégressif : les 0,1 % les plus riches paient 46 % de leur revenu en impôts directs, les milliardaires 26 %, leurs revenus restant surtout dans leurs sociétés (IPP 2023).",
-     "quiz_moins": "Les départs à l'étranger sont rares (0,2 % par an), mais celui d'un actionnaire de référence fait baisser de 25 % la masse salariale de son entreprise ; la flat tax est associée à plus de créations d'entreprises (IPP 2023).",
+     "quiz_plus": "Au sommet, les plus riches paient proportionnellement moins d'impôt que les autres ménages aisés.",
+     "quiz_moins": "Les plus grandes fortunes peuvent partir ou investir moins, avec un effet sur leurs entreprises.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Les milliardaires paient 26 % de leur revenu en impôts directs, contre 46 % pour les 0,1 % les plus riches, leurs revenus restant dans leurs sociétés (IPP, France, 2023).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Le 0,1 % des plus gros héritiers, environ 13 millions d'euros reçus, ne paie qu'à peine 10 % de droits, loin du taux affiché de 45 % (CAE, France, 2021).",
+       "s": [
+        1
+       ]
+      },
+      {
+       "t": "Sous l'impôt sur la fortune, à peine 0,15 à 0,2 % des grands actionnaires d'entreprises partaient chaque année à l'étranger (IPP, France, 2023).",
+       "s": [
+        2
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Quand un actionnaire principal part à l'étranger, la masse salariale de son entreprise baisse de 25 % ; ces départs restent rares (IPP, France, 2023).",
+       "s": [
+        2
+       ]
+      },
+      {
+       "t": "Après la baisse de la taxation des dividendes en 2018, les créations d'entreprises ont davantage augmenté dans les secteurs les plus concernés (IPP, France, 2023).",
+       "s": [
+        2
+       ]
+      },
+      {
+       "t": "Les entreprises transmises sans l'exonération Dutreil sont plus souvent dissoutes : 10 % au bout de 9 ans, contre 6 % avec (IPP, France, 2025).",
+       "s": [
+        3
+       ]
+      }
+     ],
+     "quiz_etudes": "Les études concordent : au sommet, l'impôt pèse moins ; départs et effets sur l'investissement existent mais restent limités en France.",
      "quiz_src": [
       {
-       "l": "IPP, note n° 92 « Quels impôts les milliardaires paient-ils ? » (Bach, Bozio, Guillouzouic, Malgouyres)",
+       "l": "IPP, note n° 92, « Quels impôts les milliardaires paient-ils ? » (Bach, Bozio, Guillouzouic, Malgouyres)",
        "a": 2023,
        "u": "https://www.ipp.eu/wp-content/uploads/2023/06/Note_IPP_Billionaires-version-actualisee.pdf"
       },
       {
-       "l": "IPP, rapport n° 47 « Évaluation des réformes de la fiscalité du capital » (pour France Stratégie)",
+       "l": "CAE, note n° 69, « Repenser l'héritage » (Dherbécourt, Fack, Landais, Stantcheva)",
+       "a": 2021,
+       "u": "https://cae-eco.fr/static/pdf/cae-note069.pdf"
+      },
+      {
+       "l": "IPP, rapport n° 47, « Évaluation des réformes de la fiscalité du capital » (pour France Stratégie)",
        "a": 2023,
        "u": "https://halshs.archives-ouvertes.fr/halshs-04439415v1/file/Rapport_IPP_47_ISFcrea_compressed.pdf"
+      },
+      {
+       "l": "IPP, rapport n° 62, « L'impact économique des transmissions d'entreprises réalisées avec un pacte Dutreil » (pour la Cour des comptes)",
+       "a": 2025,
+       "u": "https://www.ipp.eu/wp-content/uploads/2025/11/Dutreil_CourDesComptes-6_compressed.pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "La part du patrimoine hérité est passée de 35 % du patrimoine total au début des années 1970 à 60 % (CAE).",
+      "s": [
+       1
+      ]
+     }
     },
     {
      "id": "jeunes",
@@ -1473,20 +1660,50 @@
      },
      "quiz_text": "Bloquer les prix de l'alimentation et de l'énergie de base",
      "quiz_concret": "Les prix de ces produits ne montent plus, pour une durée limitée.",
-     "quiz_plus": "Effet immédiat sur l'inflation : en 2022, les boucliers sur l'énergie ont réduit de moitié la hausse des prix due à l'énergie (3,1 points d'inflation en moins), surtout pour les ménages modestes et âgés (Insee).",
-     "quiz_moins": "En Hongrie, le blocage de produits alimentaires (2022-2023) n'a pas contenu l'inflation alimentaire, au-delà de 40 % pour la moitié des produits, et le plafond sur les carburants a pris fin sur des pénuries (OCDE, 2024).",
+     "quiz_plus": "Bloquer les prix stoppe tout de suite leur hausse sur les produits du quotidien.",
+     "quiz_moins": "Un prix bloqué sous le coût peut faire fuir les vendeurs et créer des pénuries.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Le gel des tarifs du gaz et de l'électricité et la remise à la pompe ont réduit l'inflation de 3,1 points en un an, surtout pour les plus modestes (Insee, France, 2022).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Malgré sept aliments bloqués, la moitié des aliments a pris plus de 40 % sur un an fin 2022 ; le plafond sur l'essence a pris fin sur des pénuries (OCDE, Hongrie, 2024).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Le gel des tarifs de l'énergie a nettement freiné l'inflation en France ; le blocage de prix alimentaires ne l'a pas contenue en Hongrie ; peu d'autres évaluations récentes.",
      "quiz_src": [
       {
-       "l": "Insee Analyses n° 75, bouclier tarifaire",
+       "l": "Insee Analyses n° 75, « La flambée des prix de l'énergie : un effet sur l'inflation réduit de moitié par le bouclier tarifaire »",
        "a": 2022,
        "u": "https://insee.fr/fr/statistiques/fichier/6524161/ia75.pdf"
       },
       {
-       "l": "OCDE, Études économiques : Hongrie 2024",
+       "l": "OCDE, Études économiques : Hongrie 2024 (chapitre 1 et encadré 2.2)",
        "a": 2024,
        "u": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/oecd-economic-surveys-hungary-2024_aa6e8628/795451e5-en.pdf"
+      },
+      {
+       "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "De 2019 à 2025, les prix ont augmenté de 27 % pour l'alimentation et de 31 % pour l'énergie (Eurostat).",
+      "s": [
+       2
+      ]
+     }
     },
     {
      "id": "dette",
@@ -1837,28 +2054,66 @@
      },
      "quiz_text": "Supprimer une partie des avantages fiscaux, dont celui pour l'emploi à domicile",
      "quiz_concret": "Ceux qui emploient une aide à domicile ou transmettent une entreprise paient plus.",
-     "quiz_plus": "Peu d'effet mesuré : crédit d'impôt recherche sans effet au-delà de 250 salariés, pacte Dutreil (transmission d'entreprise) sans gain d'investissement ni d'emploi (IPP), aide à domicile surtout prise par les 20 % les plus aisés.",
-     "quiz_moins": "Le CIR fait monter la R&D d'environ 1 € par euro d'aide (DG Trésor) ; hors Dutreil, les entreprises transmises sont plus souvent dissoutes (10 % contre 6 % en 9 ans, IPP 2025) ; risque de retour du travail non déclaré à domicile.",
+     "quiz_plus": "Ces avantages fiscaux ont peu d'effet mesuré pour leurs plus grands bénéficiaires.",
+     "quiz_moins": "Certaines niches marchent : le crédit recherche fait chercher les PME, moins d'entreprises transmises ferment.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Le relèvement du plafond de l'avantage pour l'emploi à domicile en 2003 n'aurait créé qu'environ 500 emplois à temps plein (Assemblée nationale, France, 2014).",
+       "s": [
+        0,
+        1
+       ]
+      },
+      {
+       "t": "Le crédit d'impôt recherche n'a pas d'effet significatif sur la recherche des entreprises de plus de 250 salariés (France Stratégie, France, 2021).",
+       "s": [
+        2
+       ]
+      },
+      {
+       "t": "Les entreprises transmises avec l'exonération Dutreil n'investissent pas plus et ne se développent pas plus à l'étranger que les autres (IPP, France, 2025).",
+       "s": [
+        3
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Chaque euro de crédit d'impôt recherche a entraîné environ un euro de recherche privée en plus, effet net surtout sous 250 salariés (France Stratégie, France, 2021).",
+       "s": [
+        2
+       ]
+      },
+      {
+       "t": "Les entreprises transmises sans l'exonération Dutreil sont plus souvent dissoutes : 10 % au bout de 9 ans, contre 6 % avec (IPP, France, 2025).",
+       "s": [
+        3
+       ]
+      }
+     ],
+     "quiz_etudes": "Évaluations officielles concordantes : effet limité pour les grandes entreprises et les plafonds élevés ; effet réel du crédit d'impôt recherche pour les plus petites.",
      "quiz_src": [
       {
-       "l": "DG Trésor, « Évaluation de la réforme du crédit d'impôt recherche de 2008 »",
+       "l": "Assemblée nationale, Comité d'évaluation et de contrôle, « Les services à la personne » (Pinville, Poletti), synthèse",
+       "a": 2014,
+       "u": "https://www.assemblee-nationale.fr/14/controle/com_cec/services_personne_synthese.pdf"
+      },
+      {
+       "l": "DGTPE, Cahier n° 2008-05, « Analyse des conséquences incitatives et redistributives de la dépense fiscale pour l'emploi à domicile » (Carbonnier)",
+       "a": 2008,
+       "u": "https://www.tresor.economie.gouv.fr/Articles/3dc4cef0-bee5-4065-a92d-4d82c4eb1569/files/1325b26d-286e-46f4-8b9b-28508a948337"
+      },
+      {
+       "l": "DG Trésor, Trésor-Éco n° 290, « Évaluation de la réforme du crédit d'impôt recherche de 2008 » (d'après la CNEPI, France Stratégie)",
        "a": 2021,
        "u": "https://www.tresor.economie.gouv.fr/Articles/2021/09/20/evaluation-de-la-reforme-du-credit-impot-recherche-de-2008"
       },
       {
-       "l": "IPP, rapport n° 62 « L'impact économique des transmissions d'entreprises réalisées avec un pacte Dutreil » (pour la Cour des comptes)",
+       "l": "IPP, rapport n° 62, « L'impact économique des transmissions d'entreprises réalisées avec un pacte Dutreil » (pour la Cour des comptes)",
        "a": 2025,
        "u": "https://www.ipp.eu/wp-content/uploads/2025/11/Dutreil_CourDesComptes-6_compressed.pdf"
-      },
-      {
-       "l": "Cour des comptes, « Le soutien de l'État aux services à la personne » (via Banque des Territoires)",
-       "a": 2024,
-       "u": "https://www.banquedesterritoires.fr/services-la-personne-la-cour-des-comptes-preconise-un-grand-menage"
-      },
-      {
-       "l": "DGTPE, Cahier n° 2008-05 (Carbonnier)",
-       "a": 2008,
-       "u": "https://www.tresor.economie.gouv.fr/Articles/3dc4cef0-bee5-4065-a92d-4d82c4eb1569/files/1325b26d-286e-46f4-8b9b-28508a948337"
       }
      ]
     }
@@ -2087,25 +2342,79 @@
      },
      "quiz_text": "Taxer les 1 % plus gros héritages pour augmenter les salaires nets",
      "quiz_concret": "Les très gros héritages sont plus taxés ; les salariés gagnent un peu plus.",
-     "quiz_plus": "60 % du patrimoine est désormais hérité, contre 35 % dans les années 1970, et les exonérations (assurance-vie, Dutreil) profitent surtout aux plus grosses transmissions (CAE 2021) ; la recette va au salaire net.",
-     "quiz_moins": "L'OCDE (2021) note des départs à l'étranger limités, sauf tout en haut, et une forte optimisation des transmissions qui tient surtout aux règles en place ; effet sur les entreprises familiales : études partagées.",
+     "quiz_plus": "Les très gros héritages paient peu d'impôt ; les taxer davantage permet d'alléger le travail.",
+     "quiz_moins": "Taxer davantage les gros héritages peut fragiliser des entreprises familiales ou pousser au départ.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Le 0,1 % des plus gros héritiers, environ 13 millions d'euros reçus, ne paie qu'à peine 10 % de droits, loin du taux affiché de 45 % (CAE, France, 2021).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Les entreprises transmises avec l'exonération Dutreil n'investissent pas plus et ne se développent pas plus à l'étranger que les autres (IPP, France, 2025).",
+       "s": [
+        1
+       ]
+      },
+      {
+       "t": "En 2018, la suppression de cotisations des salariés a fait croître le salaire net moyen du privé de 2,2 %, contre 1,7 % pour le brut (Insee, France, 2020).",
+       "s": [
+        2,
+        3
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Les entreprises transmises sans l'exonération Dutreil sont plus souvent dissoutes : 10 % au bout de 9 ans, contre 6 % avec (IPP, France, 2025).",
+       "s": [
+        1
+       ]
+      },
+      {
+       "t": "Quand un actionnaire principal part à l'étranger, la masse salariale de son entreprise baisse de 25 % ; ces départs restent rares (IPP, France, 2023).",
+       "s": [
+        4
+       ]
+      }
+     ],
+     "quiz_etudes": "Les études concordent : les plus grosses transmissions sont peu taxées en pratique ; les effets d'une hausse sur les entreprises et les départs existent mais restent limités en France.",
      "quiz_src": [
       {
-       "l": "CAE, note n° 69 « Repenser l'héritage » (Dherbécourt, Fack, Landais, Stantcheva)",
+       "l": "CAE, note n° 69, « Repenser l'héritage » (Dherbécourt, Fack, Landais, Stantcheva)",
        "a": 2021,
        "u": "https://cae-eco.fr/static/pdf/cae-note069.pdf"
       },
       {
-       "l": "OCDE, « Inheritance Taxation in OECD Countries » (présentation du rapport)",
-       "a": 2021,
-       "u": "https://www.oecd.org/tax/tax-policy/inheritance-taxation-in-oecd-countries-presentation-may-2021.pdf"
-      },
-      {
-       "l": "IPP, rapport n° 62 « L'impact économique des transmissions d'entreprises réalisées avec un pacte Dutreil » (pour la Cour des comptes)",
+       "l": "IPP, rapport n° 62, « L'impact économique des transmissions d'entreprises réalisées avec un pacte Dutreil » (pour la Cour des comptes)",
        "a": 2025,
        "u": "https://www.ipp.eu/wp-content/uploads/2025/11/Dutreil_CourDesComptes-6_compressed.pdf"
+      },
+      {
+       "l": "Insee Première n° 1828, « En 2018, le salaire net moyen dans le secteur privé augmente de 0,4 % en euros constants »",
+       "a": 2020,
+       "u": "https://www.insee.fr/fr/statistiques/4990766"
+      },
+      {
+       "l": "Insee, France portrait social 2019, dossier sur les mesures socio-fiscales de 2018 (Biotteau et al.)",
+       "a": 2019,
+       "u": "https://www.insee.fr/fr/statistiques/4238451"
+      },
+      {
+       "l": "IPP, rapport n° 47, « Évaluation des réformes de la fiscalité du capital » (pour France Stratégie)",
+       "a": 2023,
+       "u": "https://halshs.archives-ouvertes.fr/halshs-04439415v1/file/Rapport_IPP_47_ISFcrea_compressed.pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "La part du patrimoine hérité est passée de 35 % du patrimoine total au début des années 1970 à 60 % (CAE).",
+      "s": [
+       0
+      ]
+     }
     },
     {
      "id": "retraites",
@@ -3154,30 +3463,73 @@
      },
      "quiz_text": "Baisser fortement les impôts des entreprises, en échange de moins d'aides publiques",
      "quiz_concret": "Les entreprises paient moins d'impôts mais reçoivent moins de subventions.",
-     "quiz_plus": "Ces impôts sont dus même sans bénéfice : pour le CAE (2019), ils faussent la production et pèsent 3,6 % de la valeur ajoutée contre 0,5 % en Allemagne. L'échange contre moins d'aides vise un effet neutre sur le déficit.",
-     "quiz_moins": "La baisse de 10 Md€ d'impôts de production en 2021 n'a pas eu d'effet robuste mesuré (IPP 2025) ; si les aides supprimées incluent des baisses de cotisations sur les bas salaires, l'emploi peu qualifié y est sensible (CAE 2019).",
+     "quiz_plus": "Remplacer des aides par la fin d'impôts dus même sans bénéfice simplifie, à coût nul pour l'État.",
+     "quiz_moins": "Les baisses récentes n'ont pas d'effet net mesuré, et les aides retirées peuvent soutenir l'emploi.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Après la fin en 2010 de la taxe professionnelle sur les machines, les entreprises les plus allégées ont accru ventes, capital et emploi (Banque de France, France, 2021).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Le crédit d'impôt compétitivité, aide large jusqu'à 2,5 fois le salaire minimum, a créé peu d'emplois selon ses évaluations (CAE, France, 2019).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Après la baisse de moitié de plusieurs impôts de production en 2021, aucun effet robuste n'a été mesuré sur l'investissement (IPP, France, 2025).",
+       "s": [
+        2
+       ]
+      },
+      {
+       "t": "Après les baisses de charges sur les bas salaires des années 1990, 1 % de coût du travail en moins a accru l'emploi industriel de 1,7 % (CAE, France, 2019).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Effet positif mesuré pour la réforme de 2010, pas d'effet robuste pour celle de 2021 ; une étude préliminaire lie la fin de la taxe sur le chiffre d'affaires des petites entreprises à +1 % d'export.",
      "quiz_src": [
       {
-       "l": "CAE, note n° 53 « Les impôts sur (ou contre) la production » (Martin, Trannoy)",
-       "a": 2019,
-       "u": "https://cae-eco.fr/static/pdf/cae-note053.pdf"
+       "l": "Banque de France, Bulletin n° 238/4, « Dix ans après la réforme de la taxe professionnelle » (Bergeaud, Jousselin, Malgouyres)",
+       "a": 2021,
+       "u": "https://www.banque-france.fr/system/files/2023-01/bulletin-banque-de-france_238-4_taxe_professionnelle.pdf"
       },
       {
-       "l": "IPP, rapport n° 60 « La baisse des impôts de production : ciblage et évaluation » (avec France Stratégie)",
-       "a": 2025,
-       "u": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
-      },
-      {
-       "l": "CAE, note n° 49 « Baisses de charges : stop ou encore ? » (L'Horty, Martin, Mayer)",
+       "l": "CAE, note n° 49, « Baisses de charges : stop ou encore ? » (L'Horty, Martin, Mayer)",
        "a": 2019,
        "u": "https://cae-eco.fr/static/pdf/cae-note049v4.pdf"
       },
       {
-       "l": "iFRAP, « Aides aux entreprises : 211 milliards d'euros par an ou 18,5 milliards ? »",
+       "l": "IPP, rapport n° 60, « La baisse des impôts de production : ciblage et évaluation » (pour France Stratégie)",
        "a": 2025,
-       "u": "https://www.ifrap.org/budget-et-fiscalite/aides-aux-entreprises-211-milliards-deuros-par-ou-185-milliards"
+       "u": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+      },
+      {
+       "l": "Eurostat, comptes non financiers par secteur (nasa_10_nf_tr), calcul : impôts sur la production (D29) payés par les sociétés non financières / leur valeur ajoutée brute",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/databrowser/view/nasa_10_nf_tr/default/table"
+      },
+      {
+       "l": "CAE, note n° 53, « Les impôts sur (ou contre) la production » (Martin, Trannoy)",
+       "a": 2019,
+       "u": "https://cae-eco.fr/static/pdf/cae-note053.pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Les impôts de production font 5 % de la valeur ajoutée des sociétés en 2024 (5,4 % en 2015 ; Allemagne 1,2 %).",
+      "s": [
+       3,
+       4
+      ]
+     }
     },
     {
      "id": "chomage",
@@ -3695,25 +4047,44 @@
      },
      "quiz_text": "Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents des classes moyennes",
      "quiz_concret": "Les nouveaux parents gardent davantage de leur salaire.",
-     "quiz_plus": "Un soutien au moment où le revenu baisse : cinq ans après une naissance, les revenus salariaux des mères restent inférieurs d'environ 25 % à ce qu'ils auraient été sans enfant, ceux des pères quasi inchangés (Insee 2019).",
-     "quiz_moins": "Seuls les foyers imposables y gagnent (46 % en 2025, DGFiP), d'autant plus que leur impôt est élevé ; l'effet des avantages fiscaux sur la natalité est positif mais « extrêmement faible » (Landais 2003).",
+     "quiz_plus": "Le revenu des familles baisse après une naissance ; moins d'impôt à ce moment les aide.",
+     "quiz_moins": "Le gain croît avec l'impôt payé, et son effet sur les naissances n'est pas établi.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "faible",
+     "quiz_cas_pour": [
+      {
+       "t": "Cinq ans après une naissance, le revenu salarial des mères est inférieur d'environ 20 % à ce qu'il aurait été ; celui des pères bouge peu (Insee, France, 2019).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [],
+     "quiz_etudes": "Les études divergent sur l'effet des avantages fiscaux sur les naissances : très faible pour le quotient familial (Landais 2003), notable pour l'ensemble des aides (Laroque-Salanié 2008).",
      "quiz_src": [
       {
-       "l": "Insee Analyses n° 48 (Pora, Wilner)",
+       "l": "Insee Analyses n° 48, « Les trajectoires professionnelles des femmes les moins bien rémunérées sont les plus affectées par l'arrivée d'un enfant » (Pora, Wilner)",
        "a": 2019,
        "u": "https://www.insee.fr/fr/statistiques/4226475"
       },
       {
-       "l": "Moneyvox, d'après le rapport d'activité 2025 de la DGFiP",
+       "l": "Eurostat, indicateur conjoncturel de fécondité, France (demo_find)",
        "a": 2026,
-       "u": "https://www.moneyvox.fr/impot/actualites/108717/46-des-francais-paient-un-impot-sur-le-revenu-919-425-foyers-de-plus-en-un-an"
-      },
-      {
-       "l": "Landais, « Le quotient familial a-t-il stimulé la natalité française ? », Économie publique n° 13",
-       "a": 2003,
-       "u": "https://journals.openedition.org/economiepublique/279"
+       "u": "https://ec.europa.eu/eurostat/databrowser/view/demo_find/default/table"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "La fécondité est passée de 2,03 enfants par femme en 2010 à 1,61 en 2024 (Eurostat).",
+      "s": [
+       1
+      ]
+     },
+     "quiz_complement": {
+      "t": "Le même programme prévoit aussi une allocation dès le premier enfant, plus forte pour les foyers peu imposés.",
+      "ref": [
+       "philippe.famille"
+      ]
+     }
     }
    ],
    "total": {
@@ -4277,30 +4648,79 @@
      },
      "quiz_text": "Supprimer plusieurs impôts des entreprises et les cotisations sur les heures supplémentaires",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
-     "quiz_plus": "Pour le CAE (2019), la C3S, taxe sur le chiffre d'affaires, est l'impôt qui fausse le plus la production (−1 % d'exportations) ; l'exonération des heures sup de 2007 a rapporté environ 500 €/an à 9 millions de salariés.",
-     "quiz_moins": "La baisse de 10 Md€ d'impôts de production en 2021 n'a pas eu d'effet robuste mesuré sur l'investissement (IPP 2025) ; en 2007-2012, les heures sup exonérées n'ont pas accru le temps de travail réel (Cahuc-Carcillo).",
-     "quiz_src": [
+     "quiz_plus": "Ces impôts sont dus même sans bénéfice, et les heures sup sans cotisations paient mieux.",
+     "quiz_moins": "Les baisses passées n'ont accru de façon mesurable ni l'investissement ni le temps de travail.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
       {
-       "l": "CAE, note n° 53 « Les impôts sur (ou contre) la production » (Martin, Trannoy)",
-       "a": 2019,
-       "u": "https://cae-eco.fr/static/pdf/cae-note053.pdf"
+       "t": "Après la fin en 2010 de la taxe professionnelle sur les machines, les entreprises les plus allégées ont accru ventes, capital et emploi (Banque de France, France, 2021).",
+       "s": [
+        0
+       ]
       },
       {
-       "l": "Assemblée nationale, CEC, rapport Gorges-Mallot sur la loi TEPA (synthèse)",
+       "t": "Plus de 9 millions de salariés ont gagné en moyenne environ 500 € par an avec les heures sup exonérées de 2007 à 2012 (Assemblée nationale, France, 2011).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Après la baisse de moitié de plusieurs impôts de production en 2021, aucun effet robuste n'a été mesuré sur l'investissement (IPP, France, 2025).",
+       "s": [
+        2
+       ]
+      },
+      {
+       "t": "Les heures sup exonérées de 2007 à 2012 n'ont pas accru le temps de travail réel, mais les heures déclarées des plus qualifiés (Cahuc et Carcillo, France, 2011).",
+       "s": [
+        3,
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Effet positif mesuré pour la réforme de 2010, pas d'effet robuste pour celle de 2021 ; une étude préliminaire lie la fin de la taxe sur le chiffre d'affaires des petites entreprises à +1 % d'export.",
+     "quiz_src": [
+      {
+       "l": "Banque de France, Bulletin n° 238/4, « Dix ans après la réforme de la taxe professionnelle » (Bergeaud, Jousselin, Malgouyres)",
+       "a": 2021,
+       "u": "https://www.banque-france.fr/system/files/2023-01/bulletin-banque-de-france_238-4_taxe_professionnelle.pdf"
+      },
+      {
+       "l": "Assemblée nationale, Comité d'évaluation et de contrôle, rapport Gorges-Mallot sur la loi TEPA (synthèse)",
        "a": 2011,
        "u": "https://www.assemblee-nationale.fr/13/controle/com_cec/cec-pdf/s3615.pdf"
       },
       {
-       "l": "IPP, rapport n° 60 « La baisse des impôts de production : ciblage et évaluation » (avec France Stratégie)",
+       "l": "IPP, rapport n° 60, « La baisse des impôts de production : ciblage et évaluation » (pour France Stratégie)",
        "a": 2025,
        "u": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
       },
       {
-       "l": "Cahuc, Carcillo, « The Detaxation of Overtime Hours: Lessons from the French Experiment » (IZA DP 5439 ; J. of Labor Economics 2014)",
+       "l": "Cahuc, Carcillo, « The Detaxation of Overtime Hours: Lessons from the French Experiment » (IZA DP 5439 ; Journal of Labor Economics 2014)",
        "a": 2011,
        "u": "https://docs.iza.org/dp5439.pdf"
+      },
+      {
+       "l": "Eurostat, comptes non financiers par secteur (nasa_10_nf_tr), calcul : impôts sur la production (D29) payés par les sociétés non financières / leur valeur ajoutée brute",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/databrowser/view/nasa_10_nf_tr/default/table"
+      },
+      {
+       "l": "CAE, note n° 53, « Les impôts sur (ou contre) la production » (Martin, Trannoy)",
+       "a": 2019,
+       "u": "https://cae-eco.fr/static/pdf/cae-note053.pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Les impôts de production font 5 % de la valeur ajoutée des sociétés en 2024 (5,4 % en 2015 ; Allemagne 1,2 %).",
+      "s": [
+       4,
+       5
+      ]
+     }
     },
     {
      "id": "energie",
@@ -5866,20 +6286,62 @@
      },
      "quiz_text": "Supprimer des impôts sur la production des entreprises, dont la taxe sur le chiffre d'affaires",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
-     "quiz_plus": "Ces impôts sont dus même sans bénéfice : pour le CAE (2019), la C3S est celui qui fausse le plus la production (−1 % d'exportations, survie plus faible en crise) ; 3,6 % de la valeur ajoutée contre 0,5 % en Allemagne.",
-     "quiz_moins": "La baisse de 10 Md€ de CVAE et de CFE en 2021 n'a pas eu d'effet robuste mesuré sur l'investissement, l'emploi ou les exportations (IPP 2025) ; les gains sont allés surtout aux grandes entreprises riches en capital.",
-     "quiz_src": [
+     "quiz_plus": "Ces impôts sont dus même sans bénéfice : les supprimer aide l'industrie et l'export.",
+     "quiz_moins": "Les baisses récentes n'ont pas eu d'effet net mesuré, et profitent surtout aux grands groupes.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
       {
-       "l": "CAE, note n° 53 « Les impôts sur (ou contre) la production » (Martin, Trannoy)",
-       "a": 2019,
-       "u": "https://cae-eco.fr/static/pdf/cae-note053.pdf"
+       "t": "Après la fin en 2010 de la taxe professionnelle sur les machines, les entreprises les plus allégées ont accru ventes, capital et emploi (Banque de France, France, 2021).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Après la baisse de moitié de plusieurs impôts de production en 2021, aucun effet robuste n'a été mesuré sur l'investissement (IPP, France, 2025).",
+       "s": [
+        1
+       ]
       },
       {
-       "l": "IPP, rapport n° 60 « La baisse des impôts de production : ciblage et évaluation » (avec France Stratégie)",
+       "t": "La baisse de 2021 a surtout profité aux grandes entreprises et à celles qui ont beaucoup de machines et de bâtiments, dont l'industrie (IPP, France, 2025).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Effet positif mesuré pour la réforme de 2010, pas d'effet robuste pour celle de 2021 ; une étude préliminaire lie la fin de la taxe sur le chiffre d'affaires des petites entreprises à +1 % d'export.",
+     "quiz_src": [
+      {
+       "l": "Banque de France, Bulletin n° 238/4, « Dix ans après la réforme de la taxe professionnelle » (Bergeaud, Jousselin, Malgouyres)",
+       "a": 2021,
+       "u": "https://www.banque-france.fr/system/files/2023-01/bulletin-banque-de-france_238-4_taxe_professionnelle.pdf"
+      },
+      {
+       "l": "IPP, rapport n° 60, « La baisse des impôts de production : ciblage et évaluation » (pour France Stratégie)",
        "a": 2025,
        "u": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+      },
+      {
+       "l": "Eurostat, comptes non financiers par secteur (nasa_10_nf_tr), calcul : impôts sur la production (D29) payés par les sociétés non financières / leur valeur ajoutée brute",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/databrowser/view/nasa_10_nf_tr/default/table"
+      },
+      {
+       "l": "CAE, note n° 53, « Les impôts sur (ou contre) la production » (Martin, Trannoy)",
+       "a": 2019,
+       "u": "https://cae-eco.fr/static/pdf/cae-note053.pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Les impôts de production font 5 % de la valeur ajoutée des sociétés en 2024 (5,4 % en 2015 ; Allemagne 1,2 %).",
+      "s": [
+       2,
+       3
+      ]
+     }
     },
     {
      "id": "allocation",
@@ -6125,15 +6587,75 @@
      },
      "quiz_text": "Baisser les cotisations sur les salaires grâce aux économies de l'État",
      "quiz_concret": "Votre salaire net augmente, si les économies sont réalisées.",
-     "quiz_plus": "Le salaire net augmente sans coût en plus pour l'employeur, ce qui rend le travail plus rémunérateur : en 2018, la baisse des cotisations salariales a accru le pouvoir d'achat des salariés du privé (OFCE).",
-     "quiz_moins": "Le gain dépend des économies faites ailleurs et croît avec le salaire : en 2018, la même baisse, financée par la CSG, a réduit le pouvoir d'achat des retraités (OFCE) ; ici, ce sont des dépenses publiques qui baissent.",
+     "quiz_plus": "Rendre aux salariés l'argent économisé par l'État augmente le net sans coûter à l'employeur.",
+     "quiz_moins": "Le gain dépend d'économies encore à trouver ; par le passé, une part a été rendue aux agents.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "En 2018, la suppression de cotisations des salariés a fait croître le salaire net moyen du privé de 2,2 %, contre 1,7 % pour le brut (Insee, France, 2020).",
+       "s": [
+        0,
+        1
+       ]
+      },
+      {
+       "t": "Les emplois de l'État ont baissé de 5,4 % en 2009-2012, et la revue des dépenses a dégagé près de 12 milliards d'économies estimées (Sénat, France, 2012).",
+       "s": [
+        2
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Plus de 60 % des économies tirées des postes non remplacés en 2009-2011 ont été reversées aux agents en primes et revalorisations (Sénat, France, 2012).",
+       "s": [
+        2
+       ]
+      }
+     ],
+     "quiz_etudes": "Les données concordent : une baisse des cotisations salariales augmente le net ; les économies sur l'État ont été réelles en 2009-2012, mais en partie reversées aux agents.",
      "quiz_src": [
       {
-       "l": "OFCE, L'économie française 2019, chap. III (Madec, Plane, Sampognaro)",
-       "a": 2018,
-       "u": "https://www.ofce.sciences-po.fr/pdf/ouvrage/2019-EF-08.pdf"
+       "l": "Insee Première n° 1828, « En 2018, le salaire net moyen dans le secteur privé augmente de 0,4 % en euros constants »",
+       "a": 2020,
+       "u": "https://www.insee.fr/fr/statistiques/4990766"
+      },
+      {
+       "l": "Insee, France portrait social 2019, dossier sur les mesures socio-fiscales de 2018 (Biotteau et al.)",
+       "a": 2019,
+       "u": "https://www.insee.fr/fr/statistiques/4238451"
+      },
+      {
+       "l": "Sénat, avis sur le projet de loi de finances pour 2013, « Modernisation de l'État » (bilan de la révision générale des politiques publiques)",
+       "a": 2012,
+       "u": "https://www.senat.fr/rap/a12-154-15/a12-154-154.html"
+      },
+      {
+       "l": "Eurostat, gains nets annuels, célibataire sans enfant au salaire moyen, France (earn_nt_net)",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table"
+      },
+      {
+       "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Le salaire net au salaire moyen a augmenté de 15 % de 2019 à 2025, moins que les prix (+19 %) (Eurostat).",
+      "s": [
+       3,
+       4
+      ]
+     },
+     "quiz_complement": {
+      "t": "Le même programme la finance par des économies sur l'État (postes, agences), sans toutes les détailler.",
+      "ref": [
+       "lisnard.depense",
+       "lisnard.fonction"
+      ]
+     }
     },
     {
      "id": "is20",
@@ -6188,21 +6710,52 @@
      },
      "quiz_text": "Baisser l'impôt sur les bénéfices des entreprises",
      "quiz_concret": "Les entreprises rentables paient moins d'impôts.",
-     "quiz_plus": "Une partie de l'impôt sur les bénéfices pèse sur les salaires (environ la moitié en Allemagne, Fuest et al. 2018) ; en France, la baisse de 2018-2022 est associée à plus de créations d'entreprises (IPP 2023).",
-     "quiz_moins": "Cet impôt pèse surtout sur les entreprises les plus rentables, qui versent le plus de dividendes (IPP 2025) et gagnent donc le plus ; pondéré par l'emploi, l'effet mesuré sur les créations d'entreprises reste faible (IPP 2023).",
-     "quiz_src": [
+     "quiz_plus": "Moins d'impôt sur les bénéfices laisse plus d'argent pour créer, investir et payer les salariés.",
+     "quiz_moins": "Le gain va d'abord aux entreprises les plus rentables, pour un effet modeste sur l'emploi.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
       {
-       "l": "Fuest, Peichl, Siegloch, « Do Higher Corporate Taxes Reduce Wages? », American Economic Review",
-       "a": 2018,
-       "u": "https://www.aeaweb.org/articles?id=10.1257/aer.20130570"
+       "t": "Après la baisse de l'impôt sur les bénéfices engagée en 2018, les créations d'entreprises ont davantage crû dans les secteurs les plus concernés (IPP, France, 2023).",
+       "s": [
+        0
+       ]
       },
       {
-       "l": "IPP, rapport n° 47 « Évaluation des réformes de la fiscalité du capital » (pour France Stratégie)",
+       "t": "Quand les communes relèvent leur impôt local sur les bénéfices, les salariés en supportent environ la moitié par des salaires plus bas (Fuest et al., Allemagne, 2018).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Pondéré par l'emploi des entreprises créées après 2018, cet effet sur les créations est environ huit fois plus faible : elles emploient peu (IPP, France, 2023).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "L'impôt sur les bénéfices pèse surtout sur les entreprises les plus rentables et celles qui versent le plus de dividendes (IPP, France, 2025).",
+       "s": [
+        2
+       ]
+      }
+     ],
+     "quiz_etudes": "Les études trouvent un effet positif mais modeste des baisses de 2018 sur les créations d'entreprises ; une part de cet impôt pèse sur les salaires, part variable selon les études.",
+     "quiz_src": [
+      {
+       "l": "IPP, rapport n° 47, « Évaluation des réformes de la fiscalité du capital » (pour France Stratégie)",
        "a": 2023,
        "u": "https://halshs.archives-ouvertes.fr/halshs-04439415v1/file/Rapport_IPP_47_ISFcrea_compressed.pdf"
       },
       {
-       "l": "IPP, rapport n° 60 (chapitre ciblage)",
+       "l": "Fuest, Peichl, Siegloch, « Do Higher Corporate Taxes Reduce Wages? Micro Evidence from Germany », American Economic Review",
+       "a": 2018,
+       "u": "https://www.aeaweb.org/articles?id=10.1257/aer.20130570"
+      },
+      {
+       "l": "IPP, rapport n° 60, chapitre 1 « Ciblage de la réforme » (pour France Stratégie)",
        "a": 2025,
        "u": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
       }
