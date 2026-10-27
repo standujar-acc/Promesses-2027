@@ -419,12 +419,23 @@
        "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
        "a": 2026,
        "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
+      },
+      {
+       "l": "DH (AFP), manifestations contre la vie chère, chiffre du ministère de l'Intérieur",
+       "a": 2026,
+       "u": "https://www.dhnet.be/dernieres-depeches/2026/10/17/manifestations-en-france-environ-550000-manifestants-en-france-400-interpellations-GTPRJOCSN5EG3AQLIP4AHRCEU4/"
       }
      ],
      "quiz_constat": {
       "t": "Les prix de l'énergie des ménages ont augmenté de 31 % de 2019 à 2025, contre 19 % pour l'ensemble (Eurostat).",
       "s": [
        2
+      ]
+     },
+     "quiz_actu": {
+      "t": "Le 17 octobre 2026, environ 550 000 personnes ont manifesté contre la vie chère et le prix de l'essence (Intérieur).",
+      "s": [
+       3
       ]
      }
     },
@@ -987,12 +998,23 @@
        "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
        "a": 2026,
        "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
+      },
+      {
+       "l": "DH (AFP), manifestations contre la vie chère, chiffre du ministère de l'Intérieur",
+       "a": 2026,
+       "u": "https://www.dhnet.be/dernieres-depeches/2026/10/17/manifestations-en-france-environ-550000-manifestants-en-france-400-interpellations-GTPRJOCSN5EG3AQLIP4AHRCEU4/"
       }
      ],
      "quiz_constat": {
       "t": "Les prix de l'alimentation ont augmenté de 27 % de 2019 à 2025, contre 19 % pour l'ensemble (Eurostat).",
       "s": [
        3
+      ]
+     },
+     "quiz_actu": {
+      "t": "Le 17 octobre 2026, environ 550 000 personnes ont manifesté contre la vie chère et le prix de l'essence (Intérieur).",
+      "s": [
+       4
       ]
      }
     },
@@ -1927,12 +1949,23 @@
        "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
        "a": 2026,
        "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
+      },
+      {
+       "l": "DH (AFP), manifestations contre la vie chère, chiffre du ministère de l'Intérieur",
+       "a": 2026,
+       "u": "https://www.dhnet.be/dernieres-depeches/2026/10/17/manifestations-en-france-environ-550000-manifestants-en-france-400-interpellations-GTPRJOCSN5EG3AQLIP4AHRCEU4/"
       }
      ],
      "quiz_constat": {
       "t": "De 2019 à 2025, les prix ont augmenté de 27 % pour l'alimentation et de 31 % pour l'énergie (Eurostat).",
       "s": [
        2
+      ]
+     },
+     "quiz_actu": {
+      "t": "Le 17 octobre 2026, environ 550 000 personnes ont manifesté contre la vie chère et le prix de l'essence (Intérieur).",
+      "s": [
+       3
       ]
      }
     },
@@ -5626,6 +5659,16 @@
        "l": "SSMSI, base statistique régionale de la délinquance enregistrée (data.gouv.fr)",
        "a": 2026,
        "u": "https://static.data.gouv.fr/resources/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales/20260709-120055/donnee-reg-data.gouv-2025-geographie2026-produit-le2026-06-25.csv"
+      },
+      {
+       "l": "ICI (AFP), bilan consolidé du ministère de l'Intérieur, violences du 17 octobre",
+       "a": 2026,
+       "u": "https://www.ici.fr/infos/faits-divers-justice/mobilisation-du-17-octobre-1-800-interpellations-en-france-indique-le-ministre-de-l-interieur-laurent-nunez-6459330"
+      },
+      {
+       "l": "Sud Radio, chiffres de CCI France sur les commerces touchés les 17 et 24 octobre",
+       "a": 2026,
+       "u": "https://www.sudradio.fr/societe/plus-de-2-500-commerces-touches-par-les-violences-dont-un-millier-fortement-degrades-selon-cci-france"
       }
      ],
      "quiz_constat": {
@@ -5639,6 +5682,13 @@
       "ref": [
        "retailleau.securite",
        "retailleau.securite.2"
+      ]
+     },
+     "quiz_actu": {
+      "t": "Le 17 octobre 2026 : 997 policiers et gendarmes blessés, 2 397 interpellations, 1 161 commerces fortement dégradés.",
+      "s": [
+       5,
+       6
       ]
      }
     },
@@ -8830,7 +8880,7 @@
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » viennent des statistiques publiques (SSMSI, Insee, DREES, DEPP, Citepa, Eurostat, OTAN, etc.). Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique les paramètres annoncés à votre situation, à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe »), gel des prestations, baisse des minima ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années. Ce sont des ordres de grandeur.",
-  "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Les duels portent sur les mesures chiffrées et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant. Dessous, un constat : la réalité française que la proposition veut traiter, avec le chiffre officiel (les problèmes réels sont dits clairement, sans cause ni jugement). Puis « Pour » et « Contre » donnent en une ligne le meilleur argument réel de ceux qui la défendent et de ceux qui la critiquent, avec la force des preuves de chacun (solides, mitigées, faibles, pas d'étude). Sous le duel, des cas réels sourcés (en France d'abord) et l'état des études. Même méthode pour toutes les mesures, sans fausse symétrie : on n'invente ni argument ni exemple pour équilibrer, et un exemple n'est retenu que s'il est pertinent, observé et de source reconnue ; on montre où penchent les faits et le lecteur juge ; les mesures du même type ont les mêmes cas et les mêmes niveaux de preuve. Le « Contre » tient compte du reste du programme : si une autre mesure du même candidat répond à la critique, elle est signalée. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
+  "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Les duels portent sur les mesures chiffrées et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant. Dessous, un constat : la réalité française que la proposition veut traiter, avec le chiffre officiel (les problèmes réels sont dits clairement, sans cause ni jugement) et, s'il y a lieu, un fait récent majeur lié à ce problème (chiffres officiels consolidés). Puis « Pour » et « Contre » donnent en une ligne le meilleur argument réel de ceux qui la défendent et de ceux qui la critiquent, avec la force des preuves de chacun (solides, mitigées, faibles, pas d'étude). Sous le duel, des cas réels sourcés (en France d'abord) et l'état des études. Même méthode pour toutes les mesures, sans fausse symétrie : on n'invente ni argument ni exemple pour équilibrer, et un exemple n'est retenu que s'il est pertinent, observé et de source reconnue ; on montre où penchent les faits et le lecteur juge ; les mesures du même type ont les mêmes cas et les mêmes niveaux de preuve. Le « Contre » tient compte du reste du programme : si une autre mesure du même candidat répond à la critique, elle est signalée. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
   "<b>Sondages et contexte.</b> Ipsos-BVA des 21-22 octobre 2026, masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
  ],
  "statu_quo": {
@@ -8941,7 +8991,7 @@
   },
   {
    "date": "27/10/2026",
-   "text": "Quiz : 20 duels au lieu de 16, chaque candidat apparaissant 5 fois ; sous chaque proposition, « + » et « − » donnent les arguments des deux côtés et les risques, fondés sur des études (228 sources vérifiées, consultables sous chaque duel) et rédigés thème par thème avec les mêmes études pour les mesures du même type ; une même proposition ne peut plus revenir dans une partie. Résultat réorganisé : d'abord les candidats les plus proches et ce qu'impliquent vos choix, puis une pastille par proposition (la proximité est la part de propositions retenues, ce qui est affiché est ce qui est compté), la tendance par thème (les thèmes qui comptent pour vous peuvent compter double), ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels replié ; les égalités ne sont jamais départagées. Nouveaux duels sur l'école, la santé et le logement, à partir des propositions précises du volet « Vie quotidienne », avec leurs explications sourcées ; à l'accueil, on peut choisir les thèmes qui comptent pour soi. Sous chaque proposition : un constat chiffré de la réalité française visée, puis « Pour » et « Contre » en une ligne chacun, avec la force des preuves de chacun et, si le même programme répond à la critique, ce qu'il prévoit ; sous le duel, des cas réels sourcés, en France d'abord, sans symétrie forcée."
+   "text": "Quiz : 20 duels au lieu de 16, chaque candidat apparaissant 5 fois ; sous chaque proposition, « + » et « − » donnent les arguments des deux côtés et les risques, fondés sur des études (228 sources vérifiées, consultables sous chaque duel) et rédigés thème par thème avec les mêmes études pour les mesures du même type ; une même proposition ne peut plus revenir dans une partie. Résultat réorganisé : d'abord les candidats les plus proches et ce qu'impliquent vos choix, puis une pastille par proposition (la proximité est la part de propositions retenues, ce qui est affiché est ce qui est compté), la tendance par thème (les thèmes qui comptent pour vous peuvent compter double), ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels replié ; les égalités ne sont jamais départagées. Nouveaux duels sur l'école, la santé et le logement, à partir des propositions précises du volet « Vie quotidienne », avec leurs explications sourcées ; à l'accueil, on peut choisir les thèmes qui comptent pour soi. Sous chaque proposition : un constat chiffré de la réalité française visée, puis « Pour » et « Contre » en une ligne chacun, avec la force des preuves de chacun et, si le même programme répond à la critique, ce qu'il prévoit ; sous le duel, des cas réels sourcés, en France d'abord, sans symétrie forcée. Journée du 17 octobre 2026 ajoutée en actualité (violences et dégâts pour la sécurité, mobilisation contre la vie chère pour les mesures sur les prix) et dans les repères « sécurité »."
   },
   {
    "date": "27/10/2026",
@@ -9022,6 +9072,22 @@
     "year": 2025,
     "source": "SSMSI",
     "url": "https://www.interieur.gouv.fr/actualites/communiques-de-presse/insecurite-et-delinquance-en-2025-bilan-statistique-et-atlas-departemental"
+   },
+   {
+    "label": "Policiers et gendarmes blessés lors des violences du 17 octobre 2026",
+    "value": "997",
+    "trend": "dont 7 grièvement ; 2 397 interpellations",
+    "year": 2026,
+    "source": "Ministère de l'Intérieur (via ICI/AFP)",
+    "url": "https://www.ici.fr/infos/faits-divers-justice/mobilisation-du-17-octobre-1-800-interpellations-en-france-indique-le-ministre-de-l-interieur-laurent-nunez-6459330"
+   },
+   {
+    "label": "Commerces fortement dégradés (pillage, saccage, incendie) le 17 octobre 2026",
+    "value": "1 161",
+    "trend": "2 488 touchés",
+    "year": 2026,
+    "source": "CCI France (via Sud Radio)",
+    "url": "https://www.sudradio.fr/societe/plus-de-2-500-commerces-touches-par-les-violences-dont-un-millier-fortement-degrades-selon-cci-france"
    }
   ],
   "sante": [
