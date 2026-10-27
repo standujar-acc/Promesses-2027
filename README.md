@@ -7,14 +7,14 @@ Données à jour au 27 octobre 2026 : 8 candidats, 76 mesures.
 
 | Candidat | Parti | Mesures chiffrées | Effet sur le déficit en 2030 (Md€/an) | Fourchette à 80 % |
 | --- | --- | --- | --- | --- |
-| Marine Le Pen | RN | 10 | −31,7 | −50,3 à −11,2 |
-| Jean-Luc Mélenchon | LFI | 7 | −92,6 | −121,3 à −52,0 |
-| Raphaël Glucksmann | PS-Place publique | 5 | −36,5 | −44,4 à −30,2 |
-| Édouard Philippe | Horizons | 8 | +2,8 | −29,2 à +7,1 |
-| Bruno Retailleau | LR | 9 | +42,0 | +18,6 à +49,4 |
-| Gabriel Attal | Renaissance | 4 | +4,0 | +0,6 à +6,4 |
-| David Lisnard | Nouvelle Énergie | 6 | −16,0 | −60,0 à −11,4 |
-| Éric Zemmour | Reconquête | 4 | +21,5 | +13,8 à +27,0 |
+| Marine Le Pen | RN | 10 | −31,7 | −50,2 à −11,1 |
+| Jean-Luc Mélenchon | LFI | 7 | −90,6 | −120,7 à −51,4 |
+| Raphaël Glucksmann | PS-Place publique | 5 | −36,5 | −44,4 à −30,1 |
+| Édouard Philippe | Horizons | 8 | +2,8 | −28,7 à +7,0 |
+| Bruno Retailleau | LR | 9 | +13,5 | +4,2 à +23,7 |
+| Gabriel Attal | Renaissance | 4 | +4,0 | +0,6 à +6,3 |
+| David Lisnard | Nouvelle Énergie | 6 | −16,0 | −60,3 à −11,4 |
+| Éric Zemmour | Reconquête | 4 | +21,5 | +13,8 à +27,3 |
 <!-- totaux:fin -->
 
 Un montant négatif creuse le déficit. Ces totaux supposent que toutes les mesures passent, y compris celles qui exigent une révision de la Constitution ou des traités. Les mesures non reconfirmées en 2026 et celles dont un paramètre clé n'est pas publié sont hors total.
