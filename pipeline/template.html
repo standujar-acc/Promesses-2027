@@ -336,6 +336,8 @@ footer.foot p{flex-basis:100%;margin:0}
 .duel .qt{display:flex;flex-direction:column;gap:6px;text-align:left}.duel .qt b{font-weight:600;line-height:1.3}.duel .qt small{font-size:.84rem;line-height:1.35;color:var(--muted);font-weight:400}
 .qsrc{font-size:.84rem;color:var(--muted)}.qsrc summary{cursor:pointer;font-weight:600;color:var(--accent);min-height:44px;display:flex;align-items:center}.qsrc p{margin:6px 0;line-height:1.5}
 .duel .fx{display:grid;grid-template-columns:14px 1fr;gap:2px 6px;font-size:.84rem;line-height:1.35;color:var(--muted)}.duel .fx i{font-style:normal;font-weight:700;color:var(--ink)}
+.duel .fx{gap:8px 6px}.duel .fx .fxl{color:var(--ink);font-weight:600}.duel .fx .pv{display:inline-block;font-size:.72rem;line-height:1;padding:3px 6px;border-radius:5px;background:var(--soft);color:var(--muted);white-space:nowrap}.qx li.qc2{padding-left:20px}.duel .qcmp{display:block;margin-top:3px;font-size:.8rem;border-left:2px solid var(--line);padding-left:8px}.duel .qcst{display:block;font-size:.84rem;line-height:1.35;color:var(--muted)}.duel .qcst b{color:var(--ink);font-weight:600}
+.qx{display:flex;flex-direction:column;gap:6px;padding:10px 0;border-top:1px solid var(--line)}.qx b{color:var(--ink)}.qx ul{margin:0;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:6px;line-height:1.45}.qx ul span{font-weight:700;color:var(--ink);display:inline-block;width:12px}.qx p{margin:0}.qx ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:3px;font-size:.8rem}.qx a{overflow-wrap:anywhere}
 [hidden]{display:none!important}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .seg button,.themes button,.lthemes button,.segtab button,footer.foot button,details summary,.q-alt .btn{min-height:44px}
@@ -948,14 +950,21 @@ function quizIntro(){
   document.querySelectorAll('.qchips button').forEach(b=>b.onclick=()=>{ const t=b.dataset.t; quizImp.has(t)?quizImp.delete(t):quizImp.add(t); b.setAttribute('aria-pressed',quizImp.has(t)); });
   document.getElementById('q-go').onclick=quizStart;
 }
+// « Pour » et « Contre » : une ligne courte chacun, la logique de chaque côté ; les cas réels, l'état des études et les sources sont dépliables sous le duel
+const PV={'solide':'preuves solides','mitigé':'preuves mitigées','faible':'preuves faibles',"pas d'étude":"pas d'étude"};
+const fxLine=(sign,lab,logic,pv,cmp)=>`<i aria-hidden="true">${sign}</i><span><b class="fxl">${lab} :</b> ${esc(logic)}${pv?` <span class="pv">${PV[pv]}</span>`:''}${cmp?`<small class="qcmp">${esc(cmp.t)}</small>`:''}</span>`;
+function quizMore(m,L){ const src=m.quiz_src||[]; if(!src.length) return '';
+  const ref=c=>(c.s||[]).map(i=>`<a href="${esc(src[i].u)}" target="_blank" rel="noopener" aria-label="source : ${esc(src[i].l)}">[${i+1}]</a>`).join('');
+  const cas=(sign,lab,l,pv)=>`<li><span aria-hidden="true">${sign}</span> <i>${lab} (${PV[pv]}) :</i> ${l.length?'':'pas de cas observé.'}</li>`+l.map(c=>`<li class="qc2">${esc(c.t)} ${ref(c)}</li>`).join('');
+  return `<div class="qx"><b>${L} · ${esc(m.quiz_text||m.title)}</b>${m.quiz_constat?`<p><i>Constat :</i> ${esc(m.quiz_constat.t)} ${ref(m.quiz_constat)}</p>`:''}${m.quiz_cas_pour?`<ul>${cas('+','Pour',m.quiz_cas_pour,m.quiz_preuve_pour)}${cas('−','Contre',m.quiz_cas_contre,m.quiz_preuve_contre)}${m.quiz_complement?`<li class="qc2">${esc(m.quiz_complement.t)}</li>`:''}</ul>`:''}${m.quiz_etudes?`<p><i>Ce que disent les études :</i> ${esc(m.quiz_etudes)}</p>`:''}<ol>${src.map(x=>`<li><a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.l)}${x.a?` (${x.a})`:''}</a></li>`).join('')}</ol></div>`; }
 function quizRender(){
   const el=document.getElementById('v-quiz'), s=quizState;
   if(s.i<s.qs.length){ const q=s.qs[s.i];
     el.innerHTML=`<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="${s.qs.length}" aria-valuenow="${s.i+1}" aria-label="Duel ${s.i+1} sur ${s.qs.length}"><i style="width:${(s.i+1)/s.qs.length*100}%"></i></div>
       <div><span class="eyebrow">Duel ${s.i+1} sur ${s.qs.length} · ${esc(thName(q.t))}</span><h2 style="margin-top:6px">Laquelle préférez-vous ?</h2></div>
-      <div class="duel">${q.opts.map((o,k)=>`<button data-k="${k}"><span class="ab">${'AB'[k]}</span><span class="qt"><b>${esc(o.m.quiz_text||o.m.proposal)}</b>${o.m.quiz_plus?`<span class="fx"><i aria-hidden="true">+</i><span><span class="sr">Ce que ça apporte : </span>${esc(o.m.quiz_plus)}</span><i aria-hidden="true">−</i><span><span class="sr">En contrepartie : </span>${esc(o.m.quiz_moins)}</span></span>`:o.m.quiz_concret?`<small>Concrètement : ${esc(o.m.quiz_concret)}</small>`:''}</span></button>`).join('')}</div>
+      <div class="duel">${q.opts.map((o,k)=>`<button data-k="${k}"><span class="ab">${'AB'[k]}</span><span class="qt"><b>${esc(o.m.quiz_text||o.m.proposal)}</b>${o.m.quiz_plus?`${o.m.quiz_constat?`<small class="qcst"><b>Constat :</b> ${esc(o.m.quiz_constat.t)}</small>`:''}<span class="fx">${fxLine('+','Pour',o.m.quiz_plus,o.m.quiz_preuve_pour)}${fxLine('−','Contre',o.m.quiz_moins,o.m.quiz_preuve_contre,o.m.quiz_complement)}</span>`:o.m.quiz_concret?`<small>Concrètement : ${esc(o.m.quiz_concret)}</small>`:''}</span></button>`).join('')}</div>
       <div class="row-btns q-alt"><button class="btn" data-k="both">Les deux</button><button class="btn" data-k="none">Aucune</button>${s.i>0?'<button class="btn" data-k="back">Retour</button>':''}</div>
-      ${q.opts.some(o=>o.m.quiz_src&&o.m.quiz_src.length)?`<details class="qsrc"><summary>Sur quoi s'appuient ces explications ?</summary>${q.opts.map((o,k)=>o.m.quiz_src&&o.m.quiz_src.length?`<p><b>${'AB'[k]}</b> · ${o.m.quiz_src.map(x=>`<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.l)}${x.a?` (${x.a})`:''}</a>`).join(' · ')}</p>`:'').join('')}</details>`:''}`;
+      ${q.opts.some(o=>o.m.quiz_src&&o.m.quiz_src.length)?`<details class="qsrc"><summary>${q.opts.some(o=>o.m.quiz_cas_pour)?'Plus d\'exemples réels et les sources':'Sur quoi s\'appuient ces explications ?'}</summary>${q.opts.map((o,k)=>quizMore(o.m,'AB'[k])).join('')}</details>`:''}`;
     el.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>{ const k=b.dataset.k; if(k==='back'){ s.i--; s.picks.pop(); quizRender(); return; }
       s.picks.push(k==='none'?[]:k==='both'?q.opts:[q.opts[+k]]); s.i++; quizRender(); window.scrollTo({top:0}); });
     return; }

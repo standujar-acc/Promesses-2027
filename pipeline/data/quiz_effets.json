@@ -1,5 +1,5 @@
 {
-"_regles": "Deux lignes par proposition : [« + » ce qu'elle apporte selon ceux qui la défendent, « − » sa contrepartie et ses risques selon ceux qui la critiquent, sources]. Chaque ligne s'appuie sur des études vérifiées, dit la force de la preuve, et a le même poids que l'autre. Pas de nom, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement moral ; mêmes études pour les mesures du même type. Les sources dont le titre ou l'adresse nomme un candidat ne sont pas affichées (quiz à l'aveugle).",
+"_regles": "Par proposition : « Pour » et « Contre », le meilleur argument réel de chaque côté (100 caractères environ, en mots simples, sans pays ni étude), la force des preuves de chacun (solide, mitigé, faible, pas d'étude), 0 à 3 cas réels sourcés par côté (le fait observé, puis source, lieu et année entre parenthèses), l'état des études et les sources (format dans pipeline/quizfx.py ; l'ancien format [plus, moins, sources] reste lu). Même méthode et même exigence pour toutes les mesures, sans fausse symétrie : rien d'inventé pour équilibrer. Mêmes cas pour les mesures du même type. Pas de nom, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement moral. Les sources dont le titre ou l'adresse nomme un candidat ne sont pas affichées (quiz à l'aveugle).",
 "attal.annee_blanche": [
 "L'effort est réparti sur un grand nombre de bénéficiaires, avec une perte limitée pour chacun : avec 1,3 % d'inflation, 3,2 % des ménages perdraient au moins 1 % de niveau de vie (IPP) ; les petites retraites sont épargnées.",
 "Rapportée au revenu, la perte est plus forte en bas de l'échelle : près de 1 % pour les 5 % les plus modestes, moins de 0,3 % pour les 5 % les plus aisés (OFCE, 2025) ; elle grandit avec l'inflation et dure sans rattrapage.",
@@ -16,19 +16,54 @@
 }
 ]
 ],
-"attal.bebe": [
-"Un capital pour chaque enfant, même sans épargne familiale : dans une expérience aléatoire en Oklahoma, le dépôt initial a presque doublé en dix ans et les parents ont ouvert 5 fois plus souvent leur propre compte.",
-"Gains liés aux marchés et aux versements des familles, plus fréquents chez les aisés (épargne retraite : 34 % des cadres, 12 % des ouvriers, Insee). Au Royaume-Uni, 22 % des comptes de naissance échus restent non réclamés.",
-[
+"attal.bebe": {
+"constat": "16 % des ménages détiennent une épargne retraite en 2021, une part stable depuis 2010 (Insee).",
+"constat_s": [
+2
+],
+"pour": "Une somme placée dès la naissance a des décennies pour grossir, même sans épargne familiale.",
+"preuve_pour": "solide",
+"contre": "Le capital final dépend des marchés et des ajouts des familles, plus fréquents chez les aisés.",
+"preuve_contre": "solide",
+"cas_pour": [
 {
-"l": "Washington University (Brown School), expérience aléatoire SEED for Oklahoma Kids",
-"a": 2021,
-"u": "https://brownschool.washu.edu/?p=2946"
+"t": "Le régime additionnel des fonctionnaires, placé sur les marchés depuis 2005, a rapporté 4,7 % par an en moyenne (ERAFP, France, 2026).",
+"s": [
+0
+]
 },
 {
-"l": "Washington University / JAMA Pediatrics : SEED OK et développement socio-émotionnel",
-"a": 2014,
-"u": "https://source.washu.edu/2014/01/child-savings-accounts-promote-positive-socialemotional-development-study-finds/"
+"t": "La part de retraite placée en fonds a rapporté 8,5 % par an de 1995 à 2025, contre 3,4 % pour la part financée par les cotisations (Pensionsmyndigheten, Suède, 2026).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Une épargne retraite est détenue par 34 % des ménages de cadres, contre 12 % des ménages d'ouvriers et 10 % des ménages d'employés (Insee, France, 2024).",
+"s": [
+2
+]
+},
+{
+"t": "La part de retraite placée en fonds a perdu 34 % en 2008 ; fin 2008, elle rapportait moins que la part financée par les cotisations (Pensionsmyndigheten, Suède, 2009).",
+"s": [
+3
+]
+}
+],
+"etudes": "Rendements de long terme bien documentés, comme les pertes certaines années ; sur un compte versé à la naissance, une seule expérience aléatoire (États-Unis, épargne pour les études).",
+"src": [
+{
+"l": "ERAFP, rapport annuel 2025 du régime de retraite additionnelle de la fonction publique",
+"a": 2026,
+"u": "https://media.rafp.fr/s3fs-public/2026-06/RAFP-RA2025-V6_0.pdf"
+},
+{
+"l": "Pensionsmyndigheten (agence suédoise des retraites), « Le système de pension par capitalisation atteint-il les objectifs du Parlement ? »",
+"a": 2026,
+"u": "https://www.pensionsmyndigheten.se/content/dam/pensionsmyndigheten/blanketter---broschyrer---faktablad/publikationer/rapporter/2026/nar_premiepensionssystemet_riksdagens_mal_2026.pdf"
 },
 {
 "l": "Insee, Revenus et patrimoine des ménages 2024, fiche taux de détention",
@@ -36,17 +71,12 @@
 "u": "https://www.insee.fr/fr/statistiques/fichier/7941419/RPM2024-F25.pdf"
 },
 {
-"l": "Oklahoma Policy Institute : premiers résultats de SEED OK",
-"a": 2011,
-"u": "https://okpolicy.org/experimenting-with-savings-the-seed-for-oklahoma-kids-study/"
-},
-{
-"l": "HMRC (gov.uk), statistiques annuelles de l'épargne, septembre 2026 : Child Trust Funds",
-"a": 2026,
-"u": "https://www.gov.uk/government/statistics/annual-savings-statistics-2026/commentary-for-annual-savings-statistics-september-2026"
+"l": "Pensionsmyndigheten, Orange Report 2009 (rapport annuel du système suédois, données 2008)",
+"a": 2009,
+"u": "https://www.pensionsmyndigheten.se/content/dam/pensionsmyndigheten/blanketter---broschyrer---faktablad/publikationer/%C3%A5rsredovisningar/annual-reports-of-the-swedish-pension-system/Orange%2BReport%2B2009%2Benglish.pdf"
 }
 ]
-],
+},
 "attal.europe": [
 "Pour un groupe d'experts franco-allemand (2023), une Union à plus de 30 membres a besoin d'un « cercle intérieur » plus intégré pour garder sa capacité d'agir, avec des coûts partagés entre pays participants.",
 "Les mêmes experts notent que cette différenciation crée une complexité institutionnelle et un risque pour la cohérence de l'Union ; aucun président européen élu n'existe, donc aucune évaluation.",
@@ -142,32 +172,56 @@
 }
 ]
 ],
-"attal.retraites": [
-"Chacun part selon ses années cotisées : qui a commencé tôt peut partir plus tôt, qui veut une pension plus haute reste. Aujourd'hui, 78 % des nouveaux retraités citent l'âge légal parmi les raisons de leur départ (DREES).",
-"Plus de départs tôt à pension réduite : la Suède, où l'on part librement après un âge minimal, a relevé cet âge en 2023 pour augmenter les pensions. Les carrières incomplètes, souvent féminines, seraient les plus touchées (COR).",
-[
+"attal.retraites": {
+"complement": "Le même programme prévoit une pension minimale, sans en préciser le niveau.",
+"complement_ref": [
+"attal.retraites"
+],
+"pour": "Chacun choisit son départ selon ses années de travail, la pension s'ajustant à ce choix.",
+"preuve_pour": "mitigé",
+"contre": "L'âge légal guide les départs : sans lui, beaucoup partiraient tôt avec une pension réduite.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "DREES, enquête Motivations de départ à la retraite 2021 (séance COR du 24 mars 2022)",
-"a": 2022,
-"u": "https://www.cor-retraites.fr/sites/default/files/2022-03/Pr%C3%A9sentation%20DREES%20MDR5_COR.pdf"
+"t": "Avec une pension ajustée à l'âge de départ, avancer l'âge d'accès n'a presque pas réduit le travail des seniors (Journal of Public Economics, Norvège, 2016).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Les départs à la retraite se concentrent aux âges fixés par les règles : 60 ans pour carrière longue, 62 ans et 67 ans, âge sans décote (COR, France, 2026).",
+"s": [
+1
+]
+},
+{
+"t": "Les départs se concentrent aux âges fixés par la loi, bien plus que ne l'expliquent les gains ou pertes de pension (American Economic Review, Allemagne, 2021).",
+"s": [
+2
+]
+}
+],
+"etudes": "Aucune évaluation d'un système sans âge légal ; les pensions ajustées freinent peu le travail (une étude, Norvège), mais l'âge légal guide fortement les départs (Allemagne, France).",
+"src": [
+{
+"l": "Journal of Public Economics (Hernæs, Markussen, Piggott, Røed) : réforme des retraites anticipées de 2011 en Norvège",
+"a": 2016,
+"u": "https://ideas.repec.org/a/eee/pubeco/v142y2016icp39-55.html"
+},
+{
+"l": "COR, rapport annuel juin 2026, partie 4 (conditions du passage à la retraite)",
+"a": 2026,
+"u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
 },
 {
 "l": "American Economic Review (Seibold) : âges légaux comme points de référence, Allemagne",
 "a": 2021,
 "u": "https://www.aeaweb.org/doi/10.1257/aer.20191136"
-},
-{
-"l": "Commission européenne, Instrument d'appui technique : réforme des retraites en Suède",
-"a": 2023,
-"u": "https://reforms-investments.ec.europa.eu/projects/pension-reform_en"
-},
-{
-"l": "COR, rapport annuel 2026, partie 4 (âges de départ, p. 216-219)",
-"a": 2026,
-"u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
 }
 ]
-],
+},
 "attal.travail": [
 "Les heures sup concernent 53 % des salariés à temps complet du privé (Dares, 2023) ; sans contingent, celles au-delà de 220 h restent payées majorées sans repos obligatoire à accorder, ce qui facilite les pics d'activité.",
 "Au-delà de 220 h, les salariés perdent le repos obligatoire en plus (1 h de repos par heure sup au-delà de 20 salariés) ; avec environ 16 h sup par trimestre en moyenne (Dares), la plupart restent loin de ce seuil.",
@@ -278,32 +332,86 @@
 }
 ]
 ],
-"glucksmann.retraites": [
-"15 % des hommes ouvriers meurent entre 35 et 65 ans, contre 6 % des cadres (Insee, 2024) : un âge de départ modulé selon la pénibilité vise ces écarts, en plus du retour à 62 ans pour tous.",
-"Moins d'emploi après 60 ans : le report à 62 ans l'avait accru de 20 à 25 points (IPP, 2025). La pénibilité est difficile à mesurer : sa prise en compte a été redéfinie quatre fois de 2003 à 2017 (Cour des comptes, 2019).",
-[
+"glucksmann.retraites": {
+"constat": "L'âge moyen de départ à la retraite atteint 63,1 ans en 2025, en hausse depuis 2010 (COR).",
+"constat_s": [
+4
+],
+"pour": "Partir plus tôt évite à ceux qui ne peuvent plus travailler d'attendre au chômage ou malades.",
+"preuve_pour": "solide",
+"contre": "Partir plus tôt réduit le nombre de seniors au travail, donc de cotisants pour les pensions.",
+"preuve_contre": "solide",
+"cas_pour": [
 {
-"l": "Insee Première n°2005 : écarts d'espérance de vie entre cadres et ouvriers",
-"a": 2024,
-"u": "https://www.insee.fr/fr/statistiques/8220688"
+"t": "Le chômage indemnisé entre 60 et 62 ans a augmenté de 12 à 15 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
 },
 {
-"l": "Économie et statistique n°549 (Insee), Blasco et Lojkine : durée de retraite avec et sans incapacité",
-"a": 2025,
-"u": "https://www.insee.fr/fr/statistiques/fichier/9008717/ES549_web_FR.pdf"
+"t": "Les assurés touchés par le report d'âge de 2010 ont plus souvent eu au moins un arrêt maladie, dans tous les groupes étudiés (Insee, France, 2023).",
+"s": [
+2
+]
 },
+{
+"t": "Le chômage des seniors concernés a augmenté d'environ 12 points quand l'âge de départ anticipé a été relevé de 2 à 3 ans (Journal of Public Economics, Autriche, 2013).",
+"s": [
+3
+]
+}
+],
+"cas_contre": [
+{
+"t": "L'emploi entre 60 et 62 ans a augmenté de 20 à 25 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
+},
+{
+"t": "Le taux d'emploi des 60-64 ans a gagné 5,4 points en deux ans, à 44,4 % en 2025, pendant la montée du report à 64 ans lancé en 2023 (COR, France, 2026).",
+"s": [
+4
+]
+},
+{
+"t": "L'emploi des seniors concernés a augmenté d'environ 10 points quand l'âge de départ anticipé a été relevé de 2 à 3 ans (Journal of Public Economics, Autriche, 2013).",
+"s": [
+3
+]
+}
+],
+"etudes": "Reculer l'âge accroît l'emploi des seniors mais aussi leur chômage et leurs arrêts maladie (évaluations concordantes) ; départs pour pénibilité peu évalués, pénibilité difficile à définir.",
+"src": [
 {
 "l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
 "a": 2025,
 "u": "https://www.ipp.eu/publication/impact-de-la-reforme-des-retraites-de-2010-sur-lequilibre-financier-de-lassurance-chomage/"
 },
 {
-"l": "Cour des comptes, Sécurité sociale 2019, ch. V « Partir plus tôt à la retraite »",
-"a": 2019,
-"u": "https://www.ccomptes.fr/system/files/2019-10/RALFSS-2019-05-depart-retraite-anticipe.pdf"
+"l": "Insee Analyses n°30 (Dubois et Koubi) : report de l'âge et emploi des seniors, réforme de 2010",
+"a": 2017,
+"u": "https://www.insee.fr/fr/statistiques/2546882"
+},
+{
+"l": "Économie et statistique n°538 (Insee), Caroli, Pollak et Roger : report de l'âge et consommation de soins",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/7615292"
+},
+{
+"l": "Journal of Public Economics (Staubli et Zweimüller) : relèvement de l'âge de départ anticipé en Autriche",
+"a": 2013,
+"u": "https://ideas.repec.org/a/eee/pubeco/v108y2013icp17-32.html"
+},
+{
+"l": "COR, rapport annuel juin 2026, partie 4 (conditions du passage à la retraite)",
+"a": 2026,
+"u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
 }
 ]
-],
+},
 "glucksmann.service_civique": [
 "En Espagne, faire son service hors de sa région a durablement amélioré l'opinion envers les habitants des autres régions (Bagues et Roth, 2023) ; au Portugal, il a relevé de 4 à 5 points le salaire des moins diplômés.",
 "Dix mois retardent études et emploi : en Allemagne, aucun effet sur les salaires ultérieurs ; dans l'OCDE, un service plus long réduit l'accès au supérieur ; la Cour des comptes note les difficultés d'accueil du SNU.",
@@ -498,42 +606,90 @@
 }
 ]
 ],
-"le-pen.retraites": [
-"Plus d'années de retraite pour ceux qui ont commencé tôt : un homme ouvrier peut espérer 3,5 ans de retraite de moins qu'un cadre, et 4,9 ans de moins sans incapacité ; partir plus tôt réduit l'écart (Insee, 2025).",
-"Moins d'emploi après 60 ans : le report de 60 à 62 ans l'avait accru de 20 à 25 points (IPP, 2025). Les carrières longues sont surtout des hommes, à la mortalité proche de la moyenne, hors santé (COR, Cour des comptes).",
-[
+"le-pen.retraites": {
+"complement": "Le même programme annonce des mesures de financement des retraites, sans les détailler à ce jour.",
+"complement_ref": [
+"le-pen.retraites"
+],
+"constat": "L'âge moyen de départ à la retraite atteint 63,1 ans en 2025, en hausse depuis 2010 (COR).",
+"constat_s": [
+4
+],
+"pour": "Partir plus tôt évite à ceux qui ne peuvent plus travailler d'attendre au chômage ou malades.",
+"preuve_pour": "solide",
+"contre": "Partir plus tôt réduit le nombre de seniors au travail, donc de cotisants pour les pensions.",
+"preuve_contre": "solide",
+"cas_pour": [
 {
-"l": "Économie et statistique n°549 (Insee), Blasco et Lojkine : durée de retraite avec et sans incapacité",
-"a": 2025,
-"u": "https://www.insee.fr/fr/statistiques/fichier/9008717/ES549_web_FR.pdf"
+"t": "Le chômage indemnisé entre 60 et 62 ans a augmenté de 12 à 15 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
 },
 {
-"l": "Cepremap, Observatoire du bien-être n°2026-06 (Martinez et Perona) : « Est-on plus heureux à la retraite ? »",
-"a": 2026,
-"u": "https://www.cepremap.fr/depot/2026/03/2026-06-Est_on_plus_heureux_a_la_retraite.pdf"
+"t": "Les assurés touchés par le report d'âge de 2010 ont plus souvent eu au moins un arrêt maladie, dans tous les groupes étudiés (Insee, France, 2023).",
+"s": [
+2
+]
 },
+{
+"t": "Le chômage des seniors concernés a augmenté d'environ 12 points quand l'âge de départ anticipé a été relevé de 2 à 3 ans (Journal of Public Economics, Autriche, 2013).",
+"s": [
+3
+]
+}
+],
+"cas_contre": [
+{
+"t": "L'emploi entre 60 et 62 ans a augmenté de 20 à 25 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
+},
+{
+"t": "Le taux d'emploi des 60-64 ans a gagné 5,4 points en deux ans, à 44,4 % en 2025, pendant la montée du report à 64 ans lancé en 2023 (COR, France, 2026).",
+"s": [
+4
+]
+},
+{
+"t": "L'emploi des seniors concernés a augmenté d'environ 10 points quand l'âge de départ anticipé a été relevé de 2 à 3 ans (Journal of Public Economics, Autriche, 2013).",
+"s": [
+3
+]
+}
+],
+"etudes": "Reculer l'âge accroît l'emploi des seniors mais aussi leur chômage et leurs arrêts maladie (évaluations concordantes) ; les partants pour carrière longue ont une mortalité proche des autres (COR).",
+"src": [
 {
 "l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
 "a": 2025,
 "u": "https://www.ipp.eu/publication/impact-de-la-reforme-des-retraites-de-2010-sur-lequilibre-financier-de-lassurance-chomage/"
 },
 {
-"l": "COR, rapport annuel 2026, partie 4 (âges de départ, p. 216-219)",
+"l": "Insee Analyses n°30 (Dubois et Koubi) : report de l'âge et emploi des seniors, réforme de 2010",
+"a": 2017,
+"u": "https://www.insee.fr/fr/statistiques/2546882"
+},
+{
+"l": "Économie et statistique n°538 (Insee), Caroli, Pollak et Roger : report de l'âge et consommation de soins",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/7615292"
+},
+{
+"l": "Journal of Public Economics (Staubli et Zweimüller) : relèvement de l'âge de départ anticipé en Autriche",
+"a": 2013,
+"u": "https://ideas.repec.org/a/eee/pubeco/v108y2013icp17-32.html"
+},
+{
+"l": "COR, rapport annuel juin 2026, partie 4 (conditions du passage à la retraite)",
 "a": 2026,
 "u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
-},
-{
-"l": "COR, séance du 14 mars 2024, dossier « Départs anticipés »",
-"a": 2024,
-"u": "https://www.cor-retraites.fr/sites/default/files/2024-03/2024_03_14_Dossier%20en%20bref.pdf"
-},
-{
-"l": "Cour des comptes, Sécurité sociale 2019, ch. V « Partir plus tôt à la retraite »",
-"a": 2019,
-"u": "https://www.ccomptes.fr/system/files/2019-10/RALFSS-2019-05-depart-retraite-anticipe.pdf"
 }
 ]
-],
+},
 "le-pen.tva": [
 "Prix de l'énergie plus bas pour tous les ménages : en 2021-2022, les mesures de baisse des prix ont évité environ 3 points d'inflation et soutenu davantage, en part du revenu, les 30 % les plus modestes (Insee).",
 "Gain plus élevé en euros pour les gros consommateurs : la remise carburant de 2022 a rapporté 64 à 115 € au quart le plus aisé, 29 à 48 € au plus modeste ; une énergie moins chère fait aussi monter la consommation (CAE, Insee).",
@@ -781,24 +937,82 @@
 }
 ]
 ],
-"lisnard.retraites": [
-"Plus d'actifs : le report de 60 à 62 ans a accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). L'épargne placée dépend moins de la démographie et rapporte souvent plus que la croissance, avec des aléas de marché (COR, 2025).",
-"Ce report a aussi accru chômage indemnisé et arrêts maladie (IPP ; Insee). L'épargne retraite suit les marchés et reste concentrée : 34 % des ménages cadres en ont une, contre 10 à 12 % des employés et ouvriers (Insee, 2024).",
-[
+"lisnard.retraites": {
+"complement": "Le même programme prévoit aussi un socle de pension minimal versé par répartition.",
+"complement_ref": [
+"lisnard.retraites"
+],
+"constat": "1,8 cotisant par retraité en 2025, contre 2,1 en 2002 ; déficit des retraites : 0,2 % du PIB (COR).",
+"constat_s": [
+6
+],
+"pour": "Plus de seniors au travail et une épargne placée, souvent plus rentable, financent les pensions.",
+"preuve_pour": "solide",
+"contre": "Reculer l'âge allonge l'attente de ceux qui ne peuvent plus travailler, au chômage ou malades.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "L'emploi entre 60 et 62 ans a augmenté de 20 à 25 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
+},
+{
+"t": "Le régime additionnel des fonctionnaires, placé sur les marchés depuis 2005, a rapporté 4,7 % par an en moyenne (ERAFP, France, 2026).",
+"s": [
+2
+]
+},
+{
+"t": "La part de retraite placée en fonds a rapporté 8,5 % par an de 1995 à 2025, contre 3,4 % pour la part financée par les cotisations (Pensionsmyndigheten, Suède, 2026).",
+"s": [
+3
+]
+}
+],
+"cas_contre": [
+{
+"t": "Le chômage indemnisé entre 60 et 62 ans a augmenté de 12 à 15 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
+},
+{
+"t": "Les assurés touchés par le report d'âge de 2010 ont plus souvent eu au moins un arrêt maladie, dans tous les groupes étudiés (Insee, France, 2023).",
+"s": [
+4
+]
+},
+{
+"t": "Le chômage des seniors concernés a augmenté d'environ 12 points quand l'âge de départ anticipé a été relevé de 2 à 3 ans (Journal of Public Economics, Autriche, 2013).",
+"s": [
+5
+]
+}
+],
+"etudes": "Report d'âge : effets bien mesurés, dans les deux sens. Capitalisation : rendements souvent supérieurs à long terme, pertes certaines années ; la bascule impose un double financement (COR).",
+"src": [
 {
 "l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
 "a": 2025,
 "u": "https://www.ipp.eu/publication/impact-de-la-reforme-des-retraites-de-2010-sur-lequilibre-financier-de-lassurance-chomage/"
 },
 {
-"l": "COR, séance du 18 décembre 2025, « Répartition, réserves et capitalisation »",
-"a": 2025,
-"u": "https://www.cor-retraites.fr/sites/default/files/2025-12/Dossier%20en%20bref_18.12.2025.pdf"
+"l": "Insee Analyses n°30 (Dubois et Koubi) : report de l'âge et emploi des seniors, réforme de 2010",
+"a": 2017,
+"u": "https://www.insee.fr/fr/statistiques/2546882"
 },
 {
-"l": "La Grande Conversation (B. Martinot, Institut Montaigne) : capitalisation obligatoire et transition",
-"a": 2025,
-"u": "https://www.lagrandeconversation.com/app/uploads/2025/05/la-retraite-par-capitalisation-obligatoire-quelques-pistes-pour-gerer-la-difficile-periode-de-transition-la-grande-conversation.pdf"
+"l": "ERAFP, rapport annuel 2025 du régime de retraite additionnelle de la fonction publique",
+"a": 2026,
+"u": "https://media.rafp.fr/s3fs-public/2026-06/RAFP-RA2025-V6_0.pdf"
+},
+{
+"l": "Pensionsmyndigheten (agence suédoise des retraites), « Le système de pension par capitalisation atteint-il les objectifs du Parlement ? »",
+"a": 2026,
+"u": "https://www.pensionsmyndigheten.se/content/dam/pensionsmyndigheten/blanketter---broschyrer---faktablad/publikationer/rapporter/2026/nar_premiepensionssystemet_riksdagens_mal_2026.pdf"
 },
 {
 "l": "Économie et statistique n°538 (Insee), Caroli, Pollak et Roger : report de l'âge et consommation de soins",
@@ -806,12 +1020,17 @@
 "u": "https://www.insee.fr/fr/statistiques/7615292"
 },
 {
-"l": "Insee, Revenus et patrimoine des ménages 2024, fiche taux de détention",
-"a": 2024,
-"u": "https://www.insee.fr/fr/statistiques/fichier/7941419/RPM2024-F25.pdf"
+"l": "Journal of Public Economics (Staubli et Zweimüller) : relèvement de l'âge de départ anticipé en Autriche",
+"a": 2013,
+"u": "https://ideas.repec.org/a/eee/pubeco/v108y2013icp17-32.html"
+},
+{
+"l": "COR, rapport annuel juin 2026, partie 4 (conditions du passage à la retraite)",
+"a": 2026,
+"u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
 }
 ]
-],
+},
 "melenchon.constituante": [
 "Seuls 20 % des Français font confiance à l'Assemblée (Cevipof, 2026) ; en Islande, un projet rédigé par un conseil de citoyens élus a été approuvé comme base par deux tiers des votants en 2012.",
 "Les précédents montrent des processus longs à l'issue incertaine : au Chili, quatre ans de travaux se sont conclus par le rejet de deux projets par référendum (62 % en 2022, 55 % en 2023).",
@@ -949,20 +1168,59 @@
 }
 ]
 ],
-"melenchon.retraites": [
-"Plus d'années de retraite, surtout pour les ouvriers : un homme ouvrier en vit 3,5 de moins qu'un cadre, 4,9 de moins sans incapacité (Insee) ; les premières années de retraite sont un répit pour la santé ressentie (Cepremap).",
-"Moins d'actifs : le report de 60 à 62 ans avait accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). Financer ces départs par plus de cotisations ou des pensions plus basses freine l'activité (modèles réunis par le COR, 2026).",
-[
+"melenchon.retraites": {
+"constat": "L'âge moyen de départ à la retraite atteint 63,1 ans en 2025, en hausse depuis 2010 (COR).",
+"constat_s": [
+4
+],
+"pour": "Partir plus tôt évite à ceux qui ne peuvent plus travailler d'attendre au chômage ou malades.",
+"preuve_pour": "solide",
+"contre": "Partir plus tôt réduit le nombre de seniors au travail, donc de cotisants pour les pensions.",
+"preuve_contre": "solide",
+"cas_pour": [
 {
-"l": "Économie et statistique n°549 (Insee), Blasco et Lojkine : durée de retraite avec et sans incapacité",
-"a": 2025,
-"u": "https://www.insee.fr/fr/statistiques/fichier/9008717/ES549_web_FR.pdf"
+"t": "Le chômage indemnisé entre 60 et 62 ans a augmenté de 12 à 15 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
 },
 {
-"l": "Cepremap, Observatoire du bien-être n°2026-06 (Martinez et Perona) : « Est-on plus heureux à la retraite ? »",
-"a": 2026,
-"u": "https://www.cepremap.fr/depot/2026/03/2026-06-Est_on_plus_heureux_a_la_retraite.pdf"
+"t": "Les assurés touchés par le report d'âge de 2010 ont plus souvent eu au moins un arrêt maladie, dans tous les groupes étudiés (Insee, France, 2023).",
+"s": [
+2
+]
 },
+{
+"t": "Le chômage des seniors concernés a augmenté d'environ 12 points quand l'âge de départ anticipé a été relevé de 2 à 3 ans (Journal of Public Economics, Autriche, 2013).",
+"s": [
+3
+]
+}
+],
+"cas_contre": [
+{
+"t": "L'emploi entre 60 et 62 ans a augmenté de 20 à 25 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
+},
+{
+"t": "Le taux d'emploi des 60-64 ans a gagné 5,4 points en deux ans, à 44,4 % en 2025, pendant la montée du report à 64 ans lancé en 2023 (COR, France, 2026).",
+"s": [
+4
+]
+},
+{
+"t": "L'emploi des seniors concernés a augmenté d'environ 10 points quand l'âge de départ anticipé a été relevé de 2 à 3 ans (Journal of Public Economics, Autriche, 2013).",
+"s": [
+3
+]
+}
+],
+"etudes": "Reculer l'âge accroît l'emploi des seniors mais aussi leur chômage et leurs arrêts maladie (évaluations concordantes) ; aucune évaluation d'un retour à 60 ans pour tous.",
+"src": [
 {
 "l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
 "a": 2025,
@@ -974,12 +1232,22 @@
 "u": "https://www.insee.fr/fr/statistiques/2546882"
 },
 {
-"l": "COR, rapport annuel 2026, synthèse (leviers et effets macroéconomiques, p. 19-20)",
+"l": "Économie et statistique n°538 (Insee), Caroli, Pollak et Roger : report de l'âge et consommation de soins",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/7615292"
+},
+{
+"l": "Journal of Public Economics (Staubli et Zweimüller) : relèvement de l'âge de départ anticipé en Autriche",
+"a": 2013,
+"u": "https://ideas.repec.org/a/eee/pubeco/v108y2013icp17-32.html"
+},
+{
+"l": "COR, rapport annuel juin 2026, partie 4 (conditions du passage à la retraite)",
 "a": 2026,
 "u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
 }
 ]
-],
+},
 "melenchon.smic": [
 "Hausse directe du salaire au bas de l'échelle. En Allemagne, le salaire minimum de 2015 (15 % des salariés) a relevé les salaires sans baisse mesurable de l'emploi (Dustmann et al., 2022), comme au Royaume-Uni.",
 "Le SMIC est déjà le plus élevé d'Europe rapporté au salaire médian (62,5 %, groupe d'experts 2025). En Espagne, la hausse de 22 % de 2019 a accru de 2 à 3 points le risque de perte d'emploi des salariés concernés.",
@@ -1220,10 +1488,63 @@
 }
 ]
 ],
-"philippe.retraites": [
-"Plus d'actifs : le report de 60 à 62 ans a accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). Selon le COR (2026), reculer l'âge soutient l'activité et améliore les comptes publics au-delà des seules retraites.",
-"Ce report a aussi accru le chômage indemnisé de 12 à 15 points et les arrêts maladie (IPP, 2025 ; Insee, 2023). Les ouvriers, qui vivent moins longtemps, ont déjà 3,5 ans de retraite de moins qu'un cadre (Insee, 2025).",
-[
+"philippe.retraites": {
+"complement": "Le même programme prévoit des exemptions au report, sans en préciser l'ampleur.",
+"complement_ref": [
+"philippe.retraites"
+],
+"constat": "1,8 cotisant par retraité en 2025, contre 2,1 en 2002 ; déficit des retraites : 0,2 % du PIB (COR).",
+"constat_s": [
+2
+],
+"pour": "Reculer l'âge garde plus de seniors au travail, donc plus de cotisants pour payer les pensions.",
+"preuve_pour": "solide",
+"contre": "Reculer l'âge allonge l'attente de ceux qui ne peuvent plus travailler, au chômage ou malades.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "L'emploi entre 60 et 62 ans a augmenté de 20 à 25 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
+},
+{
+"t": "Le taux d'emploi des 60-64 ans a gagné 5,4 points en deux ans, à 44,4 % en 2025, pendant la montée du report à 64 ans lancé en 2023 (COR, France, 2026).",
+"s": [
+2
+]
+},
+{
+"t": "L'emploi des seniors concernés a augmenté d'environ 10 points quand l'âge de départ anticipé a été relevé de 2 à 3 ans (Journal of Public Economics, Autriche, 2013).",
+"s": [
+3
+]
+}
+],
+"cas_contre": [
+{
+"t": "Le chômage indemnisé entre 60 et 62 ans a augmenté de 12 à 15 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
+},
+{
+"t": "Les assurés touchés par le report d'âge de 2010 ont plus souvent eu au moins un arrêt maladie, dans tous les groupes étudiés (Insee, France, 2023).",
+"s": [
+4
+]
+},
+{
+"t": "Le chômage des seniors concernés a augmenté d'environ 12 points quand l'âge de départ anticipé a été relevé de 2 à 3 ans (Journal of Public Economics, Autriche, 2013).",
+"s": [
+3
+]
+}
+],
+"etudes": "Les évaluations concordent : reculer l'âge accroît l'emploi des seniors, mais aussi leur chômage et leurs arrêts maladie ; sur la santé, les études divergent.",
+"src": [
 {
 "l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
 "a": 2025,
@@ -1235,22 +1556,22 @@
 "u": "https://www.insee.fr/fr/statistiques/2546882"
 },
 {
-"l": "COR, rapport annuel 2026, synthèse (leviers et effets macroéconomiques, p. 19-20)",
+"l": "COR, rapport annuel juin 2026, partie 4 (conditions du passage à la retraite)",
 "a": 2026,
 "u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
+},
+{
+"l": "Journal of Public Economics (Staubli et Zweimüller) : relèvement de l'âge de départ anticipé en Autriche",
+"a": 2013,
+"u": "https://ideas.repec.org/a/eee/pubeco/v108y2013icp17-32.html"
 },
 {
 "l": "Économie et statistique n°538 (Insee), Caroli, Pollak et Roger : report de l'âge et consommation de soins",
 "a": 2023,
 "u": "https://www.insee.fr/fr/statistiques/7615292"
-},
-{
-"l": "Économie et statistique n°549 (Insee), Blasco et Lojkine : durée de retraite avec et sans incapacité",
-"a": 2025,
-"u": "https://www.insee.fr/fr/statistiques/fichier/9008717/ES549_web_FR.pdf"
 }
 ]
-],
+},
 "retailleau.ame": [
 "Sept des huit pays européens étudiés distinguent les soins urgents ou essentiels des autres soins ; l'IGAS-IGF (2019) soupçonnait une migration pour soins chez 43 % des patients dialysés couverts par l'AME d'un échantillon.",
 "Les rapports IGAS-IGF (2019) et Évin-Stefanini (2023) prévoient plus de renoncement aux soins et des malades vus plus tard à l'hôpital ; en Espagne, la restriction de 2012 a ajouté environ 80 décès par an.",
@@ -1392,27 +1713,86 @@
 }
 ]
 ],
-"retailleau.retraites": [
-"Partir tôt reste possible, mais la décote incite à rester : éviter une pension réduite a pesé pour 56 % des retraités partis plus tard que possible (DREES) ; au Japon et aux États-Unis, à forte décote, l'emploi cesse vers 67 ans.",
-"Pension réduite pour qui part avant le taux plein, souvent faute d'emploi ou de santé : 29 % des seniors ni en emploi ni en retraite se disent en mauvaise santé (DREES). Taux plein plus tard pour les carrières complètes.",
-[
+"retailleau.retraites": {
+"constat": "1,8 cotisant par retraité en 2025, contre 2,1 en 2002 ; déficit des retraites : 0,2 % du PIB (COR).",
+"constat_s": [
+2
+],
+"pour": "Reculer l'âge garde plus de seniors au travail, donc plus de cotisants pour payer les pensions.",
+"preuve_pour": "solide",
+"contre": "Ceux qui ne peuvent plus travailler partent avec une pension réduite ou attendent plus longtemps.",
+"preuve_contre": "solide",
+"cas_pour": [
 {
-"l": "DREES, enquête Motivations de départ à la retraite 2021 (séance COR du 24 mars 2022)",
-"a": 2022,
-"u": "https://www.cor-retraites.fr/sites/default/files/2022-03/Pr%C3%A9sentation%20DREES%20MDR5_COR.pdf"
+"t": "L'emploi entre 60 et 62 ans a augmenté de 20 à 25 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
 },
 {
-"l": "COR, rapport annuel 2026, partie 4 (âges de départ, p. 216-219)",
+"t": "Le taux d'emploi des 60-64 ans a gagné 5,4 points en deux ans, à 44,4 % en 2025, pendant la montée du report à 64 ans lancé en 2023 (COR, France, 2026).",
+"s": [
+2
+]
+},
+{
+"t": "L'emploi des seniors concernés a augmenté d'environ 10 points quand l'âge de départ anticipé a été relevé de 2 à 3 ans (Journal of Public Economics, Autriche, 2013).",
+"s": [
+3
+]
+}
+],
+"cas_contre": [
+{
+"t": "Le chômage indemnisé entre 60 et 62 ans a augmenté de 12 à 15 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
+},
+{
+"t": "Les assurés touchés par le report d'âge de 2010 ont plus souvent eu au moins un arrêt maladie, dans tous les groupes étudiés (Insee, France, 2023).",
+"s": [
+4
+]
+},
+{
+"t": "Le chômage des seniors concernés a augmenté d'environ 12 points quand l'âge de départ anticipé a été relevé de 2 à 3 ans (Journal of Public Economics, Autriche, 2013).",
+"s": [
+3
+]
+}
+],
+"etudes": "Reculer l'âge accroît l'emploi des seniors mais aussi leur chômage et leurs arrêts maladie (évaluations concordantes) ; l'effet propre d'une forte décote est peu évalué.",
+"src": [
+{
+"l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
+"a": 2025,
+"u": "https://www.ipp.eu/publication/impact-de-la-reforme-des-retraites-de-2010-sur-lequilibre-financier-de-lassurance-chomage/"
+},
+{
+"l": "Insee Analyses n°30 (Dubois et Koubi) : report de l'âge et emploi des seniors, réforme de 2010",
+"a": 2017,
+"u": "https://www.insee.fr/fr/statistiques/2546882"
+},
+{
+"l": "COR, rapport annuel juin 2026, partie 4 (conditions du passage à la retraite)",
 "a": 2026,
 "u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
 },
 {
-"l": "DREES, Études et résultats n°1079 (via Banque des Territoires) : seniors ni en emploi ni en retraite",
-"a": 2018,
-"u": "https://www.banquedesterritoires.fr/14-million-de-seniors-nont-ni-emploi-ni-retraite"
+"l": "Journal of Public Economics (Staubli et Zweimüller) : relèvement de l'âge de départ anticipé en Autriche",
+"a": 2013,
+"u": "https://ideas.repec.org/a/eee/pubeco/v108y2013icp17-32.html"
+},
+{
+"l": "Économie et statistique n°538 (Insee), Caroli, Pollak et Roger : report de l'âge et consommation de soins",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/7615292"
 }
 ]
-],
+},
 "retailleau.securite": [
 "Après la loi de 2007 sur les peines planchers, les récidivistes condamnés ont commis 13 % de délits visés en moins dans les quatre ans suivant leur sortie de prison (IPP, 2024).",
 "Les peines des récidivistes ont presque doublé (230 à 430 jours), sans effet dissuasif à court terme ni baisse des autres délits (IPP, 2024) : plus de détenus pour un effet « de faible ampleur ».",
@@ -1534,37 +1914,96 @@
 }
 ]
 ],
-"zemmour.retraites": [
-"Plus d'actifs : le report de 60 à 62 ans a accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). L'épargne placée dépend moins de la démographie et rapporte souvent plus que la croissance, avec des aléas de marché (COR, 2025).",
-"Ce report a aussi accru chômage indemnisé et arrêts maladie (IPP ; Insee). L'épargne retraite suit les marchés et reste concentrée : 34 % des ménages cadres en ont une, contre 10 à 12 % des employés et ouvriers (Insee, 2024).",
-[
+"zemmour.retraites": {
+"constat": "1,8 cotisant par retraité en 2025, contre 2,1 en 2002 ; déficit des retraites : 0,2 % du PIB (COR).",
+"constat_s": [
+6
+],
+"pour": "Plus de seniors au travail et une épargne placée, souvent plus rentable, financent les pensions.",
+"preuve_pour": "solide",
+"contre": "Une retraite plus tardive et en partie placée est plus incertaine, surtout pour les petits salaires.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "L'emploi entre 60 et 62 ans a augmenté de 20 à 25 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
+},
+{
+"t": "Le régime additionnel des fonctionnaires, placé sur les marchés depuis 2005, a rapporté 4,7 % par an en moyenne (ERAFP, France, 2026).",
+"s": [
+2
+]
+},
+{
+"t": "La part de retraite placée en fonds a rapporté 8,5 % par an de 1995 à 2025, contre 3,4 % pour la part financée par les cotisations (Pensionsmyndigheten, Suède, 2026).",
+"s": [
+3
+]
+}
+],
+"cas_contre": [
+{
+"t": "Le chômage indemnisé entre 60 et 62 ans a augmenté de 12 à 15 points chez les assurés touchés par le report de 60 à 62 ans voté en 2010 (IPP, France, 2025).",
+"s": [
+0,
+1
+]
+},
+{
+"t": "Une épargne retraite est détenue par 34 % des ménages de cadres, contre 12 % des ménages d'ouvriers et 10 % des ménages d'employés (Insee, France, 2024).",
+"s": [
+4
+]
+},
+{
+"t": "La part de retraite placée en fonds a perdu 34 % en 2008 ; fin 2008, elle rapportait moins que la part financée par les cotisations (Pensionsmyndigheten, Suède, 2009).",
+"s": [
+5
+]
+}
+],
+"etudes": "Report d'âge : effets bien mesurés, dans les deux sens. Capitalisation : rendements souvent supérieurs sur longue période, mais fortes pertes certaines années et épargne concentrée chez les aisés.",
+"src": [
 {
 "l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
 "a": 2025,
 "u": "https://www.ipp.eu/publication/impact-de-la-reforme-des-retraites-de-2010-sur-lequilibre-financier-de-lassurance-chomage/"
 },
 {
-"l": "COR, séance du 18 décembre 2025, « Répartition, réserves et capitalisation »",
-"a": 2025,
-"u": "https://www.cor-retraites.fr/sites/default/files/2025-12/Dossier%20en%20bref_18.12.2025.pdf"
+"l": "Insee Analyses n°30 (Dubois et Koubi) : report de l'âge et emploi des seniors, réforme de 2010",
+"a": 2017,
+"u": "https://www.insee.fr/fr/statistiques/2546882"
 },
 {
-"l": "La Grande Conversation (B. Martinot, Institut Montaigne) : capitalisation obligatoire et transition",
-"a": 2025,
-"u": "https://www.lagrandeconversation.com/app/uploads/2025/05/la-retraite-par-capitalisation-obligatoire-quelques-pistes-pour-gerer-la-difficile-periode-de-transition-la-grande-conversation.pdf"
+"l": "ERAFP, rapport annuel 2025 du régime de retraite additionnelle de la fonction publique",
+"a": 2026,
+"u": "https://media.rafp.fr/s3fs-public/2026-06/RAFP-RA2025-V6_0.pdf"
 },
 {
-"l": "Économie et statistique n°538 (Insee), Caroli, Pollak et Roger : report de l'âge et consommation de soins",
-"a": 2023,
-"u": "https://www.insee.fr/fr/statistiques/7615292"
+"l": "Pensionsmyndigheten (agence suédoise des retraites), « Le système de pension par capitalisation atteint-il les objectifs du Parlement ? »",
+"a": 2026,
+"u": "https://www.pensionsmyndigheten.se/content/dam/pensionsmyndigheten/blanketter---broschyrer---faktablad/publikationer/rapporter/2026/nar_premiepensionssystemet_riksdagens_mal_2026.pdf"
 },
 {
 "l": "Insee, Revenus et patrimoine des ménages 2024, fiche taux de détention",
 "a": 2024,
 "u": "https://www.insee.fr/fr/statistiques/fichier/7941419/RPM2024-F25.pdf"
+},
+{
+"l": "Pensionsmyndigheten, Orange Report 2009 (rapport annuel du système suédois, données 2008)",
+"a": 2009,
+"u": "https://www.pensionsmyndigheten.se/content/dam/pensionsmyndigheten/blanketter---broschyrer---faktablad/publikationer/%C3%A5rsredovisningar/annual-reports-of-the-swedish-pension-system/Orange%2BReport%2B2009%2Benglish.pdf"
+},
+{
+"l": "COR, rapport annuel juin 2026, partie 4 (conditions du passage à la retraite)",
+"a": 2026,
+"u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
 }
 ]
-],
+},
 "le-pen.logement.2": [
 "Le quota a fait bâtir du logement social sans guère accroître la part de ménages modestes (Chapelle et al. 2025) ; en Angleterre, sans contraintes d'urbanisme, les prix seraient d'un tiers plus bas (Hilber, Vermeulen 2016).",
 "Le quota explique 61 % de la hausse du parc social des communes visées en 2000-2008 (même étude) ; 62 % des terres agricoles et naturelles consommées pour l'habitat l'étaient dans des communes peu tendues (Cerema 2026).",
