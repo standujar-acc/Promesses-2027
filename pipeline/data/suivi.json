@@ -344,7 +344,7 @@
    "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": "Revue du 27/10/2026 : copie archivée (web.archive.org), signalée comme telle."
+   "resolution": "Revue du 27/10/2026 : copie archivée (web.archive.org), signalée comme telle ; clé corrigée après relecture (suffixe ?print=pdf) et contrôle ajouté : le pipeline échoue si un remplacement de lien ne sert pas."
   },
   {
    "id": "S024",
@@ -415,16 +415,16 @@
   },
   {
    "id": "S029",
-   "type": "a_trancher",
+   "type": "a_verifier",
    "candidats": [],
    "mesure": null,
-   "sujet": "Quiz : mesures identiques chez plusieurs candidats",
-   "detail": "AME : seule la version Lisnard est dans le quiz (pas Le Pen ni Retailleau) ; enseignants : seule Philippe (pas Attal ni Lisnard) ; éolien : Retailleau, pas Le Pen. Choix de dédoublonnage à confirmer ou à faire tourner, pour un traitement égal.",
+   "sujet": "Quiz : six entrées de quiz_plain.json jamais appliquées",
+   "detail": "Le texte du quiz était appliqué avant les mesures ajoutées par les corrections : Le Pen (AME, renouvelables), Retailleau (AME), Attal (enseignants), Lisnard (enseignants, aides après 5 ans) manquaient au quiz.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": null
+   "resolution": "Revue du 27/10/2026 : application du quiz déplacée après tous les blocs de corrections ; les six propositions entrent dans le quiz (équilibre vérifié par le test)."
   },
   {
    "id": "S030",
@@ -493,7 +493,10 @@
     "le-pen",
     "retailleau"
    ],
-   "mesure": "enr / energie",
+   "mesure": [
+    "enr",
+    "energie"
+   ],
    "sujet": "Arrêt des soutiens aux ENR : ≈ 1 Md€ en 2030, est-ce trop prudent ?",
    "detail": "Règle commune actuelle : contrats signés maintenus, seule la hausse future est évitée, ≈ 1 Md€/an en 2030. La CRE montre +1 Md€ par an (7,29 → 8,38 Md€ de 2026 à 2027), soit +3 à 4 Md€ en 2030 si la tendance continue ; mais une bonne part vient de projets déjà attribués. À trancher, pour les deux candidats ensemble.",
    "echeance": null,
@@ -525,7 +528,7 @@
    ],
    "mesure": null,
    "sujet": "Annonces du discours d'Orléans (25/10/2026)",
-   "detail": "Part fiscale pleine dès le 2e enfant ; exonération d'impôt sur le revenu des moins de 30 ans (≈ 2 Md€/an selon LCP, cité par Capital) ; plafond des dons familiaux relevé ; fonds souverain ; frein à l'endettement et « communauté nationale » dans la Constitution par référendum ; minimum vieillesse à 1 000 € de 2022 non reconfirmé. Sources : Europe 1, Capital (25/10/2026). Non recoupé : suppression de la TVA sur une centaine de produits (Le Courrier des Stratèges).",
+   "detail": "Part fiscale pleine dès le 2e enfant ; exonération d'impôt sur le revenu des moins de 30 ans (≈ 2 Md€/an selon LCP, cité par Capital) ; plafond des dons familiaux relevé ; fonds souverain ; frein à l'endettement et « communauté nationale » dans la Constitution par référendum ; minimum vieillesse à 1 000 € de 2022 non reconfirmé. Sources : Europe 1, Capital (25/10/2026). Non recoupé : suppression de la TVA sur une centaine de produits (Le Courrier des Stratèges). À vérifier : le simulateur affiche encore « mesure de 2022, non reconfirmée en 2026 » pour l'exonération des moins de 30 ans (corrections.py, sim['jeunes']) ; ne changer qu'après recoupement par une source primaire.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -658,6 +661,21 @@
    "sujet": "Chiffrage des programmes par l'Institut Montaigne",
    "detail": "Annoncé pour le 1er trimestre 2027 (communiqué du 6/10/2026) : à intégrer comme estimation pour tous les candidats.",
    "echeance": "2027-01-15",
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S046",
+   "type": "non_chiffrable",
+   "candidats": [
+    "retailleau"
+   ],
+   "mesure": null,
+   "sujet": "Réforme de l'assurance chômage non chiffrée",
+   "detail": "Citée parmi les postes non chiffrés du total de Retailleau. Même traitement que le point sur Attal (S035) : chercher les paramètres et un chiffrage publié.",
+   "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
    "maj": "2026-10-27",

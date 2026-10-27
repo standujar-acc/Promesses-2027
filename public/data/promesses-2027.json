@@ -601,7 +601,9 @@
         "url": "https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-les-conditions-de-laide-medicale-detat-et-vote-une-baisse-de-ses-credits-de-200-millions"
        }
       ]
-     }
+     },
+     "quiz_text": "Remplacer la couverture santé des sans-papiers par une aide aux seuls soins urgents",
+     "quiz_concret": "Les sans-papiers ne seraient soignés qu'en cas d'urgence."
     },
     {
      "id": "enr",
@@ -646,8 +648,10 @@
         "url": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-149_CSPE_2026-2027.pdf"
        }
       ],
-      "note": "Les montants du camp (7,2 Md€ en 2026, plus de 5 Md€ en 2027) supposent d'arrêter aussi le soutien versé aux contrats en cours"
-     }
+      "note": "Les 7,2 Md€ du contre-budget 2026 ≈ tout le soutien 2026 aux ENR électriques en métropole (7,29 Md€, CRE), contrats en cours compris"
+     },
+     "quiz_text": "Arrêter les subventions aux éoliennes et panneaux solaires",
+     "quiz_concret": "Moins de nouveaux parcs éoliens et solaires."
     }
    ],
    "total": {
@@ -975,7 +979,7 @@
       {
        "source": "Institut Montaigne (NFP)",
        "year": 2024,
-       "value": "9 à 38 Md€/an selon les prix de l'énergie, médiane 24 (moyenne des boucliers 2022-2024) ; alimentation sans compensation : neutre",
+       "value": "9 à 38 Md€/an selon les prix de l'énergie, médiane 24 (moyenne des boucliers 2022-2024) ; sans compensation aux producteurs et distributeurs, « neutre pour les finances publiques »",
        "low_md": -38,
        "high_md": -9,
        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/bloquer-les-prix-des-produits-de-premiere-necessite/"
@@ -1179,7 +1183,7 @@
         "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
        }
       ],
-      "note": "Taux de hausse non publié ; les 17 Md€ de LFI ≈ +8 %"
+      "note": "Le camp chiffre +10 % à 17 Md€, soit ≈ +8 % au coût de la Cour des comptes"
      },
      "quiz_text": "Augmenter de 10 % le salaire de base de tous les fonctionnaires",
      "quiz_concret": "Les agents publics gagnent plus."
@@ -1806,10 +1810,18 @@
      "id": "ukraine",
      "theme": "europe",
      "title": "Plus d'aide à l'Ukraine",
-     "proposal": "Hausse « drastique » des livraisons d'armes européennes à l'Ukraine, financée par la saisie des avoirs russes gelés (≈ 200 Md€ dans l'UE).",
+     "proposal": "Augmenter « drastiquement » l'aide militaire à l'Ukraine ; financement par la saisie des avoirs russes gelés proposé en 2025, non repris dans le programme.",
      "claimed": "Financement par les avoirs russes",
      "claimed_md": null,
      "estimates": [
+      {
+       "source": "Place publique, projet « Acte I »",
+       "year": 2025,
+       "value": "« Augmenter drastiquement l'aide militaire à l'Ukraine » ; montant non précisé",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+      },
       {
        "source": "R. Glucksmann, lettre « Cap clair »",
        "year": 2025,
@@ -1821,7 +1833,7 @@
       {
        "source": "Toute l'Europe",
        "year": 2025,
-       "value": "Pas d'accord sur les avoirs ; prêt de 90 Md€ à taux zéro par emprunt commun pour 2026-2027",
+       "value": "Pas d'accord sur un prêt adossé aux avoirs ; prêt de 90 Md€ à taux zéro par emprunt commun pour 2026-2027",
        "low_md": null,
        "high_md": null,
        "url": "https://www.touteleurope.eu/l-ue-dans-le-monde/faute-d-accord-sur-les-avoirs-russes-les-vingt-sept-debloquent-un-pret-de-90-milliards-d-euros-pour-l-ukraine/"
@@ -1829,23 +1841,29 @@
      ],
      "consensus": "isolé",
      "verdict": "tres_difficile",
-     "obstacle": "Saisie des avoirs russes non décidée : l'UE a choisi en décembre 2025 un prêt de 90 Md€ financé par emprunt commun ; la Belgique (Euroclear) s'oppose à la saisie.",
+     "obstacle": "Saisie des avoirs russes non décidée : faute d'accord, notamment avec la Belgique où Euroclear détient l'essentiel des avoirs, l'UE a choisi en décembre 2025 un prêt de 90 Md€ financé par emprunt commun.",
      "claude": {
       "id": "ukraine",
       "central": 0,
       "low": 0,
       "high": 0,
       "method": "ascendant",
-      "formula": "Non chiffrable : ampleur de la hausse non publiée ; pour ordre de grandeur, doubler les livraisons françaises de 2025 ≈ +0,9 Md€",
+      "formula": "Non chiffrable : ampleur de la hausse non publiée ; pour ordre de grandeur, doubler les livraisons françaises de 2025 ≈ −0,9 Md€",
       "inputs": [
        {
-        "label": "Matériels livrés à l'Ukraine",
-        "value": "0,86 Md€ (2024), 0,94 Md€ (2025)",
+        "label": "Matériels livrés à l'Ukraine ; soutien militaire 2022-2025",
+        "value": "0,86 Md€ (2024), 0,94 Md€ (2025) ; 6,5 Md€ au total",
         "source": "Ministère des Armées, rapport au Parlement 2026",
         "url": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/Rapport%20au%20Parlement%202026%20sur%20les%20exportations%20d%E2%80%99armement%20de%20la%20France%20(12082026).pdf"
+       },
+       {
+        "label": "Accord de sécurité France-Ukraine",
+        "value": "Jusqu'à 3 Md€ d'aide militaire supplémentaire en 2024",
+        "source": "Élysée",
+        "url": "https://www.elysee.fr/emmanuel-macron/2024/02/16/visite-de-volodymyr-zelensky-president-de-lukraine"
        }
       ],
-      "note": "Indicatif : matériels livrés 0,86 Md€ en 2024 et 0,94 Md€ en 2025 (ministère des Armées) ; les 3 Md€ de 2024 étaient un plafond d'engagement",
+      "note": "Indicatif : matériels livrés 0,86 Md€ en 2024 et 0,94 Md€ en 2025, soutien militaire total 6,5 Md€ de 2022 à 2025 (ministère des Armées) ; l'accord de février 2024 prévoyait « jusqu'à 3 Md€ » pour 2024",
       "nc": true
      },
      "quiz_text": "Augmenter fortement l'aide militaire à l'Ukraine",
@@ -2966,7 +2984,9 @@
         "url": "https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-les-conditions-de-laide-medicale-detat-et-vote-une-baisse-de-ses-credits-de-200-millions"
        }
       ]
-     }
+     },
+     "quiz_text": "Remplacer la couverture santé des sans-papiers par une aide aux seuls soins urgents",
+     "quiz_concret": "Les sans-papiers ne seraient soignés qu'en cas d'urgence."
     }
    ],
    "total": {
@@ -3374,7 +3394,7 @@
       "nc": true
      },
      "quiz_text": "Supprimer le plafond annuel d'heures supplémentaires",
-     "quiz_concret": "Plus de plafond annuel de 220 heures sup par salarié ; la durée maximale par semaine reste la même."
+     "quiz_concret": "Plus de plafond annuel d'heures sup (aujourd'hui 220 h par salarié sans accord)."
     },
     {
      "id": "europe",
@@ -3444,7 +3464,9 @@
         "url": "https://www.institutmontaigne.org/presidentielle-2022/legislatives-2022/ensemble/revaloriser-les-salaires-des-enseignants-de-10"
        }
       ]
-     }
+     },
+     "quiz_text": "Augmenter le salaire des enseignants de quelques centaines d'euros par mois",
+     "quiz_concret": "Les profs gagnent plus, surtout en milieu de carrière."
     }
    ],
    "total": {
@@ -3519,12 +3541,12 @@
        "url": "https://lessentieldeleco.fr/8893-david-lisnard-la-surprise-de-la-course-a-lelysee/"
       },
       {
-       "source": "OFCE (multiplicateurs)",
+       "source": "OFCE (multiplicateurs) (copie archivée)",
        "year": 2012,
        "value": "En basse conjoncture, 1 € de dépense coupée retire 1,6 à 2,6 € d'activité ; consolidation graduelle préférable",
        "low_md": null,
        "high_md": null,
-       "url": "https://ofce.sciences-po.fr/blog/une-revue-recente-de-la-litterature-sur-les-multiplicateurs-budgetaires-la-taille-compte/?print=pdf"
+       "url": "https://web.archive.org/web/20251007054924/https://www.ofce.sciences-po.fr/blog/une-revue-recente-de-la-litterature-sur-les-multiplicateurs-budgetaires-la-taille-compte/"
       }
      ],
      "consensus": "isolé",
@@ -4010,7 +4032,9 @@
         "url": "https://www.institutmontaigne.org/presidentielle-2022/legislatives-2022/ensemble/revaloriser-les-salaires-des-enseignants-de-10"
        }
       ]
-     }
+     },
+     "quiz_text": "Augmenter fortement le salaire des enseignants en cinq ans, contre une réorganisation de leur travail",
+     "quiz_concret": "Les profs gagnent plus, avec des obligations revues."
     },
     {
      "id": "aides5",
@@ -4032,7 +4056,9 @@
       "formula": "Non chiffrable : publics et seuils non précisés",
       "inputs": [],
       "nc": true
-     }
+     },
+     "quiz_text": "Réserver les aides sociales non liées aux cotisations aux étrangers résidant depuis plus de 5 ans",
+     "quiz_concret": "Un étranger arrivé récemment n'aurait plus droit à ces aides."
     }
    ],
    "total": {
@@ -4597,7 +4623,7 @@
   "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026 (marquées « À confirmer ») et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 168 sources distinctes. L'année de chaque source est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 169 sources distinctes. L'année de chaque source est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » viennent des statistiques publiques (SSMSI, Insee, DREES, DEPP, Citepa, Eurostat, OTAN, etc.). Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique les paramètres annoncés à votre situation, à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Ce sont des ordres de grandeur.",
@@ -4696,7 +4722,7 @@
  "changelog": [
   {
    "date": "27/10/2026",
-   "text": "Revue des sources : 8 liens morts remplacés (même document à une nouvelle adresse, copie archivée signalée, ou source équivalente), chiffrage OFCE ajouté pour le point d'indice, formule du blocage des prix précisée, deux formulations rendues neutres."
+   "text": "Revue des sources : 8 liens morts remplacés (même document à une nouvelle adresse, copie archivée signalée, ou source équivalente) ; sources primaires pour trois mesures (Le Pen, renouvelables ; Glucksmann, Ukraine ; Attal, heures sup et chômage), avec proposition et obstacle précisés ; chiffrage OFCE pour le point d'indice (Mélenchon) ; formule du blocage des prix fidèle à l'Institut Montaigne ; borne « retour à 62 ans » alignée sur la valeur commune (Attal) ; une note reformulée (Retailleau). Quiz : six propositions qui n'apparaissaient pas par erreur y entrent (Le Pen, Retailleau, Attal, Lisnard)."
   },
   {
    "date": "27/10/2026",

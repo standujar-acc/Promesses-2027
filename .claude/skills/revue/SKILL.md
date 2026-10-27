@@ -18,12 +18,12 @@ Lire d'abord `CLAUDE.md` (règles de neutralité et de chiffrage) et `METHODOLOG
 
 ## Déroulé
 1. **Préparer.** `git pull` sur `main`, puis créer la branche `revue/AAAA-MM-JJ`. Lancer `python3 pipeline/run.py` puis `python3 tests/smoke.py` : tout doit passer avant de commencer.
-   Dans un conteneur Claude Code où Playwright Python manque : `pip install playwright==<version du Playwright Node préinstallé>`, puis lancer avec `PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers`.
+   Dans un conteneur Claude Code où Playwright Python manque : `pip install playwright==$(node -e "console.log(require('playwright/package.json').version)")`, puis lancer avec `PLAYWRIGHT_BROWSERS_PATH=/opt/pw-browsers`.
 2. **Lire le registre.** Dans `pipeline/data/suivi.json`, traiter d'abord les points dont l'`echeance` est passée ou proche, puis les autres points `ouvert`.
 3. **Contrôles.** Sur `pipeline/promesses-2027-data.json` (généré par le pipeline) :
    - liens morts (404/410 ; un 403 ou une connexion coupée est souvent une protection anti-robots, à revérifier dans un navigateur avant de conclure) ;
    - mesures dont toutes les sources sont faibles ;
-   - site de campagne cité chez un autre candidat ;
+   - site de campagne cité chez un autre candidat (domaines : rassemblementnational.fr ; melenchon2027.fr, lafranceinsoumise.fr ; place-publique.eu, raphaelglucksmann.kessel.media ; edouardphilippe.fr, horizonsleparti.fr ; republicains.fr ; attalpresident.fr, parti-renaissance.fr ; unenouvelleenergie.fr, lisnard.cards ; parti-reconquete.fr — compléter si besoin) ;
    - mesures `a_confirmer` et non chiffrables faute de paramètre (`claude.nc`) ;
    - totaux recalculés à partir des mesures comptées ;
    - quiz (`data/quiz_plain.json`) : pas de coût, pas de verdict, pas de chiffre qui trahit le candidat.
@@ -31,7 +31,8 @@ Lire d'abord `CLAUDE.md` (règles de neutralité et de chiffrage) et `METHODOLOG
    Une annonce nouvelle qui demande un chiffrage devient un point `a_ajouter` (pour chaque candidat, même s'il n'y a « rien de nouveau ») ; elle n'entre dans les données qu'avec le même niveau de chiffrage pour tous.
 4. **Veille.** Pour chaque candidat, chercher depuis `derniere_revue` : nouvelles mesures, chiffres modifiés, mesures abandonnées, documents de programme, nouveaux chiffrages indépendants (Institut Montaigne, iFRAP, IPP, OFCE, Fipeco, Cour des comptes, CAE…). Noter aussi tout nouveau sondage national (ne mettre à jour `poll` qu'avec un institut et une date).
 5. **Corriger ou compléter.**
-   - Mesures, chiffrages, verdicts, sources : un **nouveau bloc daté** dans `pipeline/corrections.py`, `# --- review N : objet (JJ/MM/AAAA)`, placé avant `# --- non chiffrable`. Ne rien écrire après `# --- totaux`.
+   - Mesures, chiffrages, verdicts, sources : un **nouveau bloc daté** dans `pipeline/corrections.py`, `# --- review N : objet (JJ/MM/AAAA)`, placé avant `# --- quiz` (le texte du quiz est appliqué après toutes les corrections, pour que les mesures ajoutées y entrent). Ne rien écrire après `# --- totaux`, sauf dans le bloc `# --- résumés gabarit` pour mettre à jour un résumé.
+   - Un remplacement de lien passe par `URLFIX` dans le bloc daté, avec le contrôle qui fait échouer le pipeline si un remplacement ne sert pas ; un remplacement de texte est précédé d'un `assert` sur le texte attendu.
    - Vie quotidienne : `pipeline/data/life-*.json` et `pipeline/life.py` (`OVR`, `VFLIP`).
    - Quiz : `pipeline/data/quiz_plain.json`.
    - Texte de méthode : `D.method` dans `pipeline/build.py` et `METHODOLOGIE.md`.
@@ -52,7 +53,7 @@ Si rien n'a changé, la PR ne contient que la mise à jour de `derniere_revue` e
       "id": "S001",
       "type": "lien_mort | source_faible | a_confirmer | non_chiffrable | annonce_attendue | a_ajouter | a_verifier | a_trancher",
       "candidats": ["le-pen"],
-      "mesure": "enr",
+      "mesure": "enr ou [\"enr\", \"energie\"]",
       "sujet": "Une phrase : ce qui manque ou reste incertain",
       "detail": "Ce qu'on sait, ce qu'il faut trouver, où chercher",
       "echeance": "AAAA-MM-JJ ou null",
@@ -65,5 +66,5 @@ Si rien n'a changé, la PR ne contient que la mise à jour de `derniere_revue` e
 }
 ```
 - `candidats` : liste vide pour un point général ; tous les candidats concernés pour une règle commune.
-- `mesure` : l'`id` de la mesure, `life:<thème>` pour la vie quotidienne, ou `null`.
+- `mesure` : l'`id` de la mesure (ou une liste d'`id` quand le point vise plusieurs candidats), `life:<thème>` pour la vie quotidienne, ou `null`.
 - On ne supprime pas un point : on le passe en `resolu` ou `abandonne`, pour garder l'historique.
