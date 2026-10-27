@@ -49,6 +49,25 @@ with sync_playwright() as p:
                 vals = pg.evaluate("[...document.querySelectorAll('#simres .srow .eur')].map(e=>+e.textContent.replace(/[^0-9−-]/g,'').replace('−','-')||0)")
                 worst = max(worst, *[abs(v) for v in vals])
     check(worst < 1500, f'simulateur : aucun gain ou perte mensuel absurde (max {worst} €)')
+    # chaque réglage du simulateur doit changer le résultat d'au moins un candidat, sans texte invalide
+    SET = """(p)=>{ document.querySelector(`#s-status [data-v="${p.st}"]`).click(); document.querySelector(`#s-nat [data-v="${p.nat}"]`).click();
+      S.kids=p.kids; S.wealth=p.w; S.inh=p.inh; const g=id=>document.getElementById(id);
+      g('s-salary').value=p.sal; g('s-year').value=p.year; g('s-res').checked=p.lt5; g('s-energy').value=p.en; g('s-food').value=p.food; g('s-ot').checked=p.ot; g('s-cfe').value=p.cfe;
+      openSim.clear(); D.candidates.forEach(c=>openSim.add(c.id)); sim(); return document.getElementById('simres').innerHTML; }"""
+    base = dict(st='prive', nat='fr', kids=2, w=0, inh=0, sal=1800, year=1990, lt5=False, en=220, food=400, ot=False, cfe=250)
+    starts = [base, dict(base, st='minima', sal=600, nat='hors'), dict(base, st='enseignant', sal=2400), dict(base, st='independant'), dict(base, st='retraite', year=1958, sal=1500)]
+    grid = dict(st=['prive', 'public', 'chomage', 'minima', 'etudiant', 'retraite'], nat=['fr', 'ue', 'hors'], kids=[0, 3], sal=[0, 4500], year=[1960, 2005],
+                w=[0, 100000000], inh=[0, 12000000], lt5=[False, True], ot=[False, True], en=[0, 400], food=[0, 800], cfe=[0, 2000])
+    inert, invalid = [], 0
+    for k, vals in grid.items():
+        moved = False
+        for s0 in starts:
+            outs = {pg.evaluate(SET, dict(s0, **{k: v})) for v in vals}
+            invalid += sum(1 for h in outs if any(x in h for x in ('NaN', 'undefined', 'Infinity')))
+            moved = moved or len(outs) > 1
+        if not moved: inert.append(k)
+    check(not inert, f'simulateur : chaque réglage change au moins un résultat {inert}')
+    check(invalid == 0, f'simulateur : aucun texte invalide (NaN, undefined) [{invalid}]')
     check(not errs, f'aucune erreur JS {errs[:1]}')
     b.close()
 sys.exit(1 if fail else 0)
