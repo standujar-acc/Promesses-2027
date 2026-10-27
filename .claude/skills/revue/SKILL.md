@@ -28,6 +28,7 @@ Lire d'abord `CLAUDE.md` (règles de neutralité et de chiffrage) et `METHODOLOG
    - totaux recalculés à partir des mesures comptées ;
    - quiz (`data/quiz_plain.json`) : pas de coût, pas de verdict, pas de chiffre qui trahit le candidat.
    Chaque problème nouveau devient un point du registre.
+   Une annonce nouvelle qui demande un chiffrage devient un point `a_ajouter` (pour chaque candidat, même s'il n'y a « rien de nouveau ») ; elle n'entre dans les données qu'avec le même niveau de chiffrage pour tous.
 4. **Veille.** Pour chaque candidat, chercher depuis `derniere_revue` : nouvelles mesures, chiffres modifiés, mesures abandonnées, documents de programme, nouveaux chiffrages indépendants (Institut Montaigne, iFRAP, IPP, OFCE, Fipeco, Cour des comptes, CAE…). Noter aussi tout nouveau sondage national (ne mettre à jour `poll` qu'avec un institut et une date).
 5. **Corriger ou compléter.**
    - Mesures, chiffrages, verdicts, sources : un **nouveau bloc daté** dans `pipeline/corrections.py`, `# --- review N : objet (JJ/MM/AAAA)`, placé avant `# --- non chiffrable`. Ne rien écrire après `# --- totaux`.
@@ -49,7 +50,7 @@ Si rien n'a changé, la PR ne contient que la mise à jour de `derniere_revue` e
   "points": [
     {
       "id": "S001",
-      "type": "lien_mort | source_faible | a_confirmer | non_chiffrable | annonce_attendue | a_verifier | a_trancher",
+      "type": "lien_mort | source_faible | a_confirmer | non_chiffrable | annonce_attendue | a_ajouter | a_verifier | a_trancher",
       "candidats": ["le-pen"],
       "mesure": "enr",
       "sujet": "Une phrase : ce qui manque ou reste incertain",

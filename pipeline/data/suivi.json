@@ -516,6 +516,152 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": null
+  },
+  {
+   "id": "S036",
+   "type": "a_ajouter",
+   "candidats": [
+    "le-pen"
+   ],
+   "mesure": null,
+   "sujet": "Annonces du discours d'Orléans (25/10/2026)",
+   "detail": "Part fiscale pleine dès le 2e enfant ; exonération d'impôt sur le revenu des moins de 30 ans (≈ 2 Md€/an selon LCP, cité par Capital) ; plafond des dons familiaux relevé ; fonds souverain ; frein à l'endettement et « communauté nationale » dans la Constitution par référendum ; minimum vieillesse à 1 000 € de 2022 non reconfirmé. Sources : Europe 1, Capital (25/10/2026). Non recoupé : suppression de la TVA sur une centaine de produits (Le Courrier des Stratèges).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S037",
+   "type": "a_ajouter",
+   "candidats": [
+    "melenchon"
+   ],
+   "mesure": null,
+   "sujet": "Programme de 1 069 mesures annoncé le 6/11",
+   "detail": "Recoupe le point sur « L'avenir en commun » ; budget rectificatif du 14/10 (106,4 Md€ de recettes, 81,7 Md€ de dépenses) à rapprocher de nos totaux.",
+   "echeance": "2026-11-06",
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S038",
+   "type": "a_ajouter",
+   "candidats": [
+    "glucksmann"
+   ],
+   "mesure": null,
+   "sujet": "Stages rémunérés 1 000 €/mois (15/10/2026)",
+   "detail": "Stages de plus de 2 mois, par décret dès 2027 ; coût non publié (franceinfo, 15/10/2026). « 100 jours de la révolution écologique » annoncés, pas encore publiés.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S039",
+   "type": "a_ajouter",
+   "candidats": [
+    "philippe"
+   ],
+   "mesure": null,
+   "sujet": "Site officiel mis à jour (≈ 15/10/2026) : 117 propositions",
+   "detail": "Mesures chiffrées visibles : 50 Md€ de baisse des impôts de production compensée par 50 Md€ d'aides en moins ; déficit à 2 % du PIB en fin de mandat ; 3 jours de carence privé et public ; 500 € versés sur un plan d'épargne retraite au premier emploi ; zéro cotisation patronale au-delà de 37 h. Rythmes scolaires (15/10), sans chiffre. Source : edouardphilippe.fr ; le décompte des ajouts vient de prisme.vote (non officiel).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S040",
+   "type": "a_ajouter",
+   "candidats": [
+    "retailleau"
+   ],
+   "mesure": null,
+   "sujet": "Annonces du 19/10/2026, sans chiffre",
+   "detail": "État d'urgence ; déchéance de nationalité pour des binationaux condamnés pour pillage (une loi serait nécessaire) ; immigration. Pas d'effet budgétaire chiffrable ; volet vie quotidienne (sécurité).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S041",
+   "type": "a_ajouter",
+   "candidats": [
+    "attal"
+   ],
+   "mesure": null,
+   "sujet": "Lettre aux Français (15/10/2026) et annonces du 19/10",
+   "detail": "150 Md€ d'économies sur le mandat, dont deux tiers sur le social ; « frein d'urgence » de 20 Md€ ; Sécurité sociale à l'équilibre en 3 ans ; comparution immédiate dès 16 ans pour les récidivistes ; convention de 150 jeunes tirés au sort. Sources : attalpresident.fr.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S042",
+   "type": "a_ajouter",
+   "candidats": [
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Page « économies » mise à jour (16/10/2026)",
+   "detail": "Au moins 200 Md€ d'économies, dont 80 la 1re année ; désindexation des pensions au-dessus d'≈ 2 000 €/mois ; plafonnement de prestations. Analyse externe : Génération Libre via Atlantico (23/10), pas un institut de la liste.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S043",
+   "type": "a_ajouter",
+   "candidats": [
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Rien de nouveau du candidat (15-27/10/2026)",
+   "detail": "Pas de programme ni de déclaration ; succession : propos prêtés à S. Knafo (16/10) non recoupés. Voir le point sur le programme 2026.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S044",
+   "type": "a_verifier",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Nouveaux sondages après le 22/10/2026",
+   "detail": "Toluna Harris Interactive (terrain 19-21/10), Cluster17 pour Politico (19-22/10, publié le 26/10), OpinionWay pour CNews (21-22/10). La règle actuelle n'affiche qu'Ipsos-BVA (21-22/10) : décider si on garde un seul institut ou une moyenne, et mettre à jour l'ordre (`ORD`) en conséquence.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S045",
+   "type": "annonce_attendue",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Chiffrage des programmes par l'Institut Montaigne",
+   "detail": "Annoncé pour le 1er trimestre 2027 (communiqué du 6/10/2026) : à intégrer comme estimation pour tous les candidats.",
+   "echeance": "2027-01-15",
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
   }
  ]
 }
