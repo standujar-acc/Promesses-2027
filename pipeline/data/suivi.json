@@ -880,6 +880,49 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": null
+  },
+  {
+   "id": "S060",
+   "type": "a_verifier",
+   "candidats": [],
+   "mesure": [
+    "attal.europe",
+    "attal.retraites",
+    "attal.travail",
+    "glucksmann.defense",
+    "glucksmann.service_civique",
+    "glucksmann.ukraine",
+    "lisnard.is20",
+    "lisnard.referendum",
+    "melenchon.constituante",
+    "melenchon.niches",
+    "retailleau.fin_maprimerenov",
+    "philippe.logement.1",
+    "retailleau.logement.2",
+    "retailleau.ecole.3",
+    "lisnard.ecole.3",
+    "lisnard.sante.2"
+   ],
+   "sujet": "Quiz : propositions sans constat chiffré",
+   "detail": "Mesures institutionnelles ou de principe (constat vide à juste titre) et quelques mesures pour lesquelles aucune série officielle n'a été vérifiée le 27/10/2026 (ex. surpeuplement des familles, accès à la propriété, impôt sur les sociétés). Chercher une série officielle sur 5 ans au moins ; laisser vide s'il n'y a pas de problème mesurable.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S061",
+   "type": "a_verifier",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Quiz : côtés sans cas réel et pistes non vérifiées",
+   "detail": "Côtés sans cas (preuve faible ou pas d'étude, conforme à la règle) : attal.travail (pour/contre), glucksmann.service_civique (pour), le-pen.ame (pour), lisnard.ame (pour), lisnard.referendum (pour), melenchon.constituante (pour), melenchon.jeunes (contre), philippe.famille (contre), philippe.jeunes_parents (contre), retailleau.ame (pour), zemmour.remigration (pour), attal.logement.1 (pour), attal.logement.2 (pour), philippe.ecole.3 (pour), lisnard.sante.2 (pour/contre). Pistes non vérifiées faute de recherche web (quota épuisé le 27/10/2026), à reprendre : droit du sol restreint à Mayotte (2018), quotas annuels italiens, part du regroupement familial dans les titres, évaluation du RSA de 2011, Garantie jeunes, gel des prestations au Royaume-Uni, bilan 2011 de la loi sur l'absentéisme scolaire, effet du prêt à taux zéro sur les prix (article original), série DREES sur les médecins traitants, effets à long terme des CP dédoublés (note DEPP 2026, accès refusé). Une source ne devient un cas que si elle passe les 4 critères (pertinent, observé, reconnu, non isolé).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
   }
  ]
 }
