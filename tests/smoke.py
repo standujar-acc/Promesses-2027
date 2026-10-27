@@ -52,7 +52,7 @@ with sync_playwright() as p:
     # chaque réglage du simulateur doit changer le résultat d'au moins un candidat, sans texte invalide
     SET = """(p)=>{ document.querySelector(`#s-status [data-v="${p.st}"]`).click(); document.querySelector(`#s-nat [data-v="${p.nat}"]`).click();
       S.kids=p.kids; S.wealth=p.w; S.inh=p.inh; const g=id=>document.getElementById(id);
-      g('s-salary').value=p.sal; g('s-year').value=p.year; g('s-res').checked=p.lt5; g('s-energy').value=p.en; g('s-food').value=p.food; g('s-ot').checked=p.ot; g('s-cfe').value=p.cfe;
+      g('s-salary').value=p.sal; g('s-year').value=p.year; g('s-res').checked=p.lt5; g('s-baby').checked=true; g('s-energy').value=p.en; g('s-food').value=p.food; g('s-ot').checked=p.ot; g('s-cfe').value=p.cfe;
       openSim.clear(); D.candidates.forEach(c=>openSim.add(c.id)); sim(); return document.getElementById('simres').innerHTML; }"""
     base = dict(st='prive', nat='fr', kids=2, w=0, inh=0, sal=1800, year=1990, lt5=False, en=220, food=400, ot=False, cfe=250)
     starts = [base, dict(base, st='minima', sal=600, nat='hors'), dict(base, st='enseignant', sal=2400), dict(base, st='independant'), dict(base, st='retraite', year=1958, sal=1500)]
@@ -67,6 +67,16 @@ with sync_playwright() as p:
             moved = moved or len(outs) > 1
         if not moved: inert.append(k)
     check(not inert, f'simulateur : chaque réglage change au moins un résultat {inert}')
+    # pas de saut brutal quand le salaire augmente de 100 € (effets de seuil), impôt des jeunes parents plafonné
+    jumps = 0
+    for st in ('prive', 'public', 'enseignant'):
+        prev = None
+        for sal in range(0, 8001, 100):
+            h = pg.evaluate(SET, dict(base, st=st, sal=sal, kids=2))
+            vals = pg.evaluate("[...document.querySelectorAll('#simres .srow .eur')].map(e=>+e.textContent.replace(/[^0-9−-]/g,'').replace('−','-')||0)")
+            if prev: jumps = max(jumps, *[abs(a - b) for a, b in zip(vals, prev)])
+            prev = vals
+    check(jumps < 150, f'simulateur : pas de saut brutal pour +100 € de salaire (max {jumps} €)')
     check(invalid == 0, f'simulateur : aucun texte invalide (NaN, undefined) [{invalid}]')
     check(not errs, f'aucune erreur JS {errs[:1]}')
     b.close()
