@@ -5,7 +5,8 @@ def quiz_fx(v, k):
     """Ancien format : [plus, moins, sources]. Nouveau : {constat, constat_s, pour, preuve_pour, contre, preuve_contre,
     complement, complement_ref, cas_pour, cas_contre, etudes, src} :
     le constat (la réalité française que la proposition veut traiter : dernier chiffre officiel et évolution en %, même forme pour toutes),
-    le meilleur argument réel de chaque côté avec la force de ses preuves, le complément (une autre mesure du même programme qui répond
+    le meilleur argument réel de chaque côté avec la force de ses preuves (un fait que la mesure ne dit pas d'elle-même :
+    effet mesuré, ordre de grandeur ; jamais la mesure redite à l'envers, même test des deux côtés), le complément (une autre mesure du même programme qui répond
     à la critique principale ; le « Contre » porte alors sur ce qui reste) et 0 à 3 cas réels sourcés par côté.
     Même méthode pour toutes les mesures, sans fausse symétrie : aucun cas ajouté pour équilibrer.
     Pas d'« actualité » au cas par cas : un événement récent compte quand il entre dans les statistiques officielles."""
