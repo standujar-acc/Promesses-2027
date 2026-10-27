@@ -146,6 +146,18 @@ with sync_playwright() as p:
     # paramètre publié mais hors total : appliqué (allocations familiales +10 %, 2 enfants)
     pg.evaluate("document.querySelector('#s-status [data-v=\"prive\"]').click(); S.kids=2; document.getElementById('s-salary').value=1800; openSim.add('melenchon'); sim()")
     check(pg.evaluate("[...document.querySelectorAll('#simres .srow')].some(r=>/Allocations familiales \\+10 %/.test(r.textContent))"), 'simulateur : paramètre publié hors total appliqué (allocations familiales +10 %)')
+    # second audit du simulateur : heures sup sans gain fictif, hausse des allocations reprise par le RSA, durée de cotisation, APL réservées
+    rows = pg.evaluate("""(()=>{ document.querySelector('#s-status [data-v="prive"]').click(); S.kids=0; document.getElementById('s-salary').value=4500; document.getElementById('s-year').value=1990; document.getElementById('s-ot').checked=true;
+      D.candidates.forEach(c=>openSim.add(c.id)); sim(); const t=document.getElementById('simres').innerText.replace(/\\s+/g,' ');
+      document.getElementById('s-ot').checked=false; return t; })()""")
+    check('Heures sup' not in re.sub(r'Heures sup sans[^:]*:', '', rows) and 'pas de gain calculé' in rows, 'simulateur : heures sup sans gain fictif de CSG (Philippe, Retailleau)')
+    check(re.search(r'Durée pour le taux plein.{0,120}\+2 ans', rows) and re.search(r'Durée pour le taux plein.{0,120}−3 ans', rows), 'simulateur : durée de cotisation affichée (Philippe +2 ans, Mélenchon −3 ans)')
+    t = pg.evaluate("""(()=>{ document.querySelector('#s-status [data-v="minima"]').click(); S.kids=3; document.getElementById('s-salary').value=1300; sim();
+      const r=[...document.querySelectorAll('#simres .srow')].find(x=>x.dataset.c==='melenchon'); return r.innerText.replace(/\\s+/g,' '); })()""")
+    check('Ajustement du RSA' in t, 'simulateur : hausse des allocations reprise par le RSA (Mélenchon)')
+    t = pg.evaluate("""(()=>{ document.querySelector('#s-nat [data-v="hors"]').click(); document.querySelector('#s-home [data-v="loc"]').click(); document.getElementById('s-apl').value=200; sim();
+      const t=document.getElementById('simres').innerText.replace(/\\s+/g,' '); document.querySelector('#s-nat [data-v="fr"]').click(); document.getElementById('s-apl').value=0; S.kids=0; sim(); return t; })()""")
+    check('APL réservées aux Français' in t, 'simulateur : APL de Le Pen « réservées aux Français »')
     # chaque réglage du simulateur doit changer le résultat d'au moins un candidat, sans texte invalide
     SET = """(p)=>{ document.querySelector(`#s-status [data-v="${p.st}"]`).click(); document.querySelector(`#s-nat [data-v="${p.nat}"]`).click();
       S.kids=p.kids; S.wealth=p.w; S.inh=p.inh; const g=id=>document.getElementById(id);

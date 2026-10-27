@@ -1001,6 +1001,35 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": "En cours. Intégré le 27/10 : 110 repères officiels, relus à la source, pour 12 thèmes (sécurité 14 dont viols et violences sexuelles, plaintes, étrangers parmi les mis en cause et les écroués avec la définition officielle ; immigration 10 ; retraites 7 ; travail 7 ; social 8 ; fiscalité 8 ; dépense 8 ; Europe 8 ; santé 8 ; école 8 avec PISA 2025 ; énergie 8 ; environnement 8). Sources : SSMSI, ministère de la Justice, Insee, Eurostat, Ofpra, OFII, Sénat, COR, Cnaf, DREES, DGFiP, jaune budgétaire 2027, Sécurité sociale (REPSS), ATIH, Santé publique France, DEPP, OCDE, RTE, SDES, CRE, Citepa, Cerema, CCR. Quatre affichés, les autres dépliables ; une précaution commune (« délinquance enregistrée ») dite une fois. Puis 39 repères pour logement, libertés, institutions, économie et rayonnement (Insee, SDES, Ancols, Commission européenne, OCDE, CEDH, Défenseur des droits, ministère de la Justice, Conseil constitutionnel, ministère de l'Intérieur via data.gouv.fr, Assemblée nationale, Sénat, Eurostat, Douanes, Banque de France, OTAN, ministères des Affaires étrangères, de l'Enseignement supérieur et des Armées, Business France, PLF 2027) : les repères non officiels (Fondation pour le logement, USH, Toute l'Europe, News Tank, EY) sont remplacés ; RSF reste, signalé comme ONG. 149 repères pour 17 thèmes, test : chaque thème des fiches et de la « Vie quotidienne » a les siens. À suivre : 49.3 (116 au 9/09/2025 selon le tableau de l'Assemblée, 119 ou 120 avec 2026 : décompte à fixer), enquête Insee sans-domicile (fin 2026), parc DPE au 1/1/2026 (novembre), PIB du 3e trimestre (30/10)."
+  },
+  {
+   "id": "S067",
+   "type": "a_verifier",
+   "candidats": [
+    "philippe",
+    "retailleau"
+   ],
+   "mesure": "heures_sup",
+   "sujet": "Heures sup : ce que couvrent les ≈ 2 à 3 Md€ comptés",
+   "detail": "Second audit du simulateur (27/10/2026) : pour le salarié, impôt (jusqu'à 7 500 €/an) et cotisations sur les heures sup sont déjà exonérés ; Retailleau exclut la CSG et la CRDS (« zéro cotisation et zéro impôt… hormis CSG et CRDS », au-delà de 1 607 h, Public Sénat 7/01/2026), Philippe ne les mentionne pas. Le simulateur ne compte donc plus de gain pour le salarié (même règle pour les deux). Les ≈ 2 à 3 Md€ de Philippe (« extension des exonérations ») et les ≈ 2 Md€ de Retailleau (même valeur) doivent être sourcés : exonération des cotisations patronales sur les heures sup (volet S039) et fin du plafond de 7 500 €, sans CSG.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S068",
+   "type": "a_verifier",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Simulateur : précisions restantes du second audit",
+   "detail": "Restent à traiter : impôt sur le revenu calculé sur le net et non le net imposable (environ −13 % d'impôt à 2 733 €), sans la demi-part de parent isolé ; âge légal des personnes nées de janvier à mars 1965 (62 ans et 9 mois) arrondi à l'année ; TVA à 0 % de Le Pen : produits d'hygiène taxés à 20 % et non 5,5 % ; notes manquantes (leasing social de Glucksmann et d'Attal, blocage des prix de l'alimentation et de l'énergie de Mélenchon) ; Lisnard : TVA unique « par exemple de 25 % » (non tranchée), quotient familial déplafonné et charges des employeurs à domicile, à traiter avec l'audit des programmes (tribune du 16/04/2026).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "En partie le 27/10 : heures sup sans gain fictif, allocations relevées reprises par le RSA, APL de Le Pen, règle et durée de cotisation des retraites, carence dans le privé (Retailleau), pension minimale (Mélenchon), cantine gratuite en note (Mélenchon), gel des APL (Attal), plafond des aides de Retailleau (APL comprises, note pour les familles, « durée non publiée » pour les ruptures conventionnelles), droit de l'UE pour les ressortissants européens, condition de la directive sur la TVA énergie, SMIC des agents publics, lien chômage, carburant supposé prolongé par la loi, mesures de 2022 de Zemmour signalées, libellé de la garantie d'autonomie."
   }
  ]
 }
