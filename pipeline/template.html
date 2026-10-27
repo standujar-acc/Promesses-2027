@@ -867,13 +867,13 @@ let quizState=null; const QN=20;
 function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 function quizBuild(){
   const pool={}; D.candidates.forEach(c=>{ pool[c.id]=c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)).map(m=>({c:c.id,m})); });
-  const cnt=Object.fromEntries(D.candidates.map(c=>[c.id,0])), used=new Set(), pairs=new Set(), qs=[];
+  const cnt=Object.fromEntries(D.candidates.map(c=>[c.id,0])), used=new Set(), pairs=new Set(), qs=[], seen=new Set(), txt=o=>(o.m.quiz_text||o.m.proposal).trim().toLowerCase();
   for(let k=0;k<QN*4&&qs.length<QN;k++){
     const order=shuffle(D.candidates.map(c=>c.id)).sort((x,y)=>cnt[x]-cnt[y]); let done=false;
-    for(const a of order){ for(const oa of shuffle(pool[a].filter(o=>!used.has(a+o.m.id)))){
+    for(const a of order){ for(const oa of shuffle(pool[a].filter(o=>!used.has(a+o.m.id)&&!seen.has(txt(o))))){
       for(const bb of shuffle(order.filter(b=>b!==a&&!pairs.has([a,b].sort().join('|')))).sort((x,y)=>cnt[x]-cnt[y])){
-        const ob=pool[bb].find(o=>!used.has(bb+o.m.id)&&o.m.theme===oa.m.theme);
-        if(ob){ qs.push({t:oa.m.theme,opts:shuffle([oa,ob])}); used.add(a+oa.m.id); used.add(bb+ob.m.id); pairs.add([a,bb].sort().join('|')); cnt[a]++; cnt[bb]++; done=true; break; } }
+        const ob=pool[bb].find(o=>!used.has(bb+o.m.id)&&o.m.theme===oa.m.theme&&!seen.has(txt(o))&&txt(o)!==txt(oa));
+        if(ob){ qs.push({t:oa.m.theme,opts:shuffle([oa,ob])}); used.add(a+oa.m.id); used.add(bb+ob.m.id); seen.add(txt(oa)); seen.add(txt(ob)); pairs.add([a,bb].sort().join('|')); cnt[a]++; cnt[bb]++; done=true; break; } }
       if(done) break; } if(done) break; }
     if(!done) break;
   }
