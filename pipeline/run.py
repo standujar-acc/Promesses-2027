@@ -5,7 +5,7 @@ Sorties :
   public/data/promesses-2027.json données ouvertes
   pipeline/promesses-2027.html    version artifact claude.ai (non versionnée)
 """
-import json, os, runpy, re, html
+import json, os, runpy, re, html, shutil
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 os.chdir(HERE)
 runpy.run_path('corrections.py', run_name='__main__')
@@ -13,8 +13,10 @@ runpy.run_path('build.py', run_name='__main__')
 D = json.load(open('promesses-2027-data.json'))
 art = open('promesses-2027.html').read()
 
-# page web complète : <title> et polices dans <head>
+# page web complète : <title> et polices dans <head> ; polices servies par le site (pas d'appel à Google Fonts)
 head, body = art.split('<style>', 1)
+head = re.sub(r'<link rel="(preconnect|stylesheet)" href="https://fonts\.(googleapis|gstatic)\.com[^>]*>\n?', '', head)
+head += '<link rel="preload" href="fonts/ibm-plex-sans.woff2" as="font" type="font/woff2" crossorigin>\n<style>' + open('fonts/fonts.css').read() + '</style>\n'
 title = re.search(r'<title>(.*?)</title>', head).group(1)
 desc = "Les programmes des candidats à la présidentielle 2027 chiffrés mesure par mesure, avec la même méthode pour tous et les sources à l'appui. Simulateur, quiz à l'aveugle, faisabilité."
 page = f'''<!doctype html>
@@ -36,6 +38,8 @@ page = f'''<!doctype html>
 </html>
 '''
 os.makedirs(os.path.join(ROOT, 'public', 'data'), exist_ok=True)
+shutil.rmtree(os.path.join(ROOT, 'public', 'fonts'), ignore_errors=True)
+shutil.copytree('fonts', os.path.join(ROOT, 'public', 'fonts'), ignore=shutil.ignore_patterns('fonts.css'))
 open(os.path.join(ROOT, 'public', 'index.html'), 'w').write(page)
 json.dump(D, open(os.path.join(ROOT, 'public', 'data', 'promesses-2027.json'), 'w'), ensure_ascii=False, indent=1)
 

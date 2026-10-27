@@ -7,6 +7,9 @@
 /index.html
   Cache-Control: public, max-age=300
 
+/fonts/*
+  Cache-Control: public, max-age=2592000
+
 /data/*
   Access-Control-Allow-Origin: *
   Cache-Control: public, max-age=3600
