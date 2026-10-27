@@ -36,7 +36,7 @@
    "name": "Marine Le Pen",
    "party": "RN",
    "poll": "32-33,5 %",
-   "summary": "Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie. Notre chiffrage : −31,7 Md€ par an en 2030, soit −1 026 € par ménage. Principal obstacle : la priorité nationale et le référendum exigent une révision de la Constitution.",
+   "summary": "Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie. Notre chiffrage : −31,2 Md€ par an en 2030, soit −1 009 € par ménage. Principal obstacle : la priorité nationale et le référendum exigent une révision de la Constitution.",
    "measures": [
     {
      "id": "retraites",
@@ -266,11 +266,11 @@
      "obstacle": "Électricité : possible par la loi. Gaz, fioul et carburants : la directive 2022/542 interdit les taux réduits sur les énergies fossiles à partir de 2030 ; il faudrait l'unanimité des 27 pour la changer.",
      "claude": {
       "id": "tva",
-      "central": -14.5,
-      "low": -17.4,
+      "central": -14.1,
+      "low": -16.8,
       "high": -11.3,
       "method": "médiane",
-      "formula": "Médiane de 11,3 ; 12,2 ; 16,8 ; 17,4 Md€ = 14,5 Md€",
+      "formula": "Médiane des chiffrages indépendants : Bercy 16,8 et Institut Montaigne 11,3 Md€ = 14,1 Md€ (le chiffre du camp, 12,2 Md€, et le simulateur francebudget.fr, 17,4 Md€, source faible, n'entrent pas dans la médiane)",
       "inputs": [
        {
         "label": "Électricité 4,5 + gaz 2,3 + carburants 10",
@@ -285,9 +285,9 @@
         "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"
        },
        {
-        "label": "Chiffrage 2026",
+        "label": "Chiffre du camp (contre-budget), repris par l'Institut de l'Entreprise",
         "value": "12,2 Md€",
-        "source": "Institut de l'Entreprise",
+        "source": "Institut de l'Entreprise (2026)",
         "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
        },
        {
@@ -297,7 +297,7 @@
         "url": "https://francebudget.fr/scenarios/rn-2027"
        }
       ],
-      "note": "Le périmètre (avec ou sans carburants) fait varier le coût de 10 Md€"
+      "note": "Le périmètre (avec ou sans carburants) fait varier le coût de 10 Md€ ; Bercy et l'Institut Montaigne chiffrent aux prix de 2024 ; le coût « progresse avec les prix » (Institut de l'Entreprise, octobre 2026, Brent au-dessus de 100 $)"
      },
      "quiz_text": "Baisser fortement la taxe sur l'électricité, le gaz et l'essence",
      "quiz_concret": "Vos factures d'énergie et le plein baissent d'environ 12 %, si les fournisseurs répercutent la baisse.",
@@ -861,13 +861,13 @@
     "high_md": 50
    },
    "claude_total": {
-    "sum": -31.7,
-    "p10": -50.3,
-    "p90": -11.2,
-    "realsum": -39.2,
+    "sum": -31.2,
+    "p10": -49.8,
+    "p90": -10.8,
+    "realsum": -38.9,
     "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, impôt sur la fortune financière à la place de l'IFI, donations tous les 10 ans, prêt à taux zéro à la place de MaPrimeRénov'",
     "n": 10,
-    "cost": -50.0,
+    "cost": -49.6,
     "gain": 18.4,
     "confirm": []
    },
@@ -922,7 +922,7 @@
    "name": "Jean-Luc Mélenchon",
    "party": "LFI",
    "poll": "17 %",
-   "summary": "Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines. Notre chiffrage : −77,6 Md€ par an en 2030, soit −2 511 € par ménage. Principal obstacle : le rendement réel des nouveaux impôts, et les traités européens pour l'annulation de la dette.",
+   "summary": "Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines. Notre chiffrage : −90,6 Md€ par an en 2030, soit −2 931 € par ménage. Principal obstacle : le rendement réel des nouveaux impôts, et les traités européens pour l'annulation de la dette.",
    "measures": [
     {
      "id": "retraites",
@@ -1278,6 +1278,14 @@
        "low_md": null,
        "high_md": null,
        "url": "https://www.leclubdesjuristes.com/economie/le-blocage-des-prix-sur-les-produits-de-premiere-necessite-oui-mais-6385/"
+      },
+      {
+       "source": "Gouvernement (cité par l'Institut Montaigne)",
+       "year": 2024,
+       "value": "≈ 20 Md€/an",
+       "low_md": -20,
+       "high_md": -20,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/bloquer-les-prix-des-produits-de-premiere-necessite/"
       }
      ],
      "consensus": "divergent",
@@ -1285,26 +1293,32 @@
      "obstacle": "Décret limité à 6 mois ; liberté d'entreprendre",
      "claude": {
       "id": "prix",
-      "central": -9,
-      "low": -24,
+      "central": -22,
+      "low": -38,
       "high": 0,
       "method": "médiane",
-      "formula": "Institut Montaigne (mesure NFP, 2024) : 9 à 38 Md€/an selon les prix de l'énergie, médiane 24 = moyenne des boucliers 2022-2024 ; retenu : 9 Md€, hypothèse de prix de l'énergie en baisse ; borne basse : la médiane de crise (24)",
+      "formula": "Médiane des chiffrages publiés : Institut Montaigne (2024), médiane 24 Md€/an (moyenne des boucliers 2022-2024, « risque budgétaire en cas de résurgence d'une crise énergétique ») et Gouvernement (2024), ≈ 20 Md€/an, soit 22 ; hypothèse basse de 9 Md€ (prix en baisse) écartée, les prix pétroliers d'octobre 2026 étant au niveau de la crise de 2022 (SP95 2,18 €/l, gazole 2,35 €/l, Brent 119 $) ; borne haute 0 si le blocage se fait sans compensation publique",
       "inputs": [
-       {
-        "label": "Blocage des prix de l'énergie, prix en baisse",
-        "value": "9 Md€/an",
-        "source": "Institut Montaigne",
-        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/bloquer-les-prix-des-produits-de-premiere-necessite/"
-       },
        {
         "label": "Blocage des prix de l'énergie, médiane 2022-2024",
         "value": "24 Md€/an",
         "source": "Institut Montaigne",
         "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/bloquer-les-prix-des-produits-de-premiere-necessite/"
+       },
+       {
+        "label": "Estimation du Gouvernement (2024)",
+        "value": "≈ 20 Md€/an",
+        "source": "Institut Montaigne, citant le Gouvernement",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/bloquer-les-prix-des-produits-de-premiere-necessite/"
+       },
+       {
+        "label": "Prix à la pompe, semaine du 23 octobre 2026",
+        "value": "SP95-E5 2,18 €/l ; gazole 2,35 €/l ; Brent 119 $",
+        "source": "Ministère de la Transition écologique, prix et marges des produits pétroliers",
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/NPG-2026.10.23.pdf"
        }
       ],
-      "note": "Coût nul si le blocage se fait sans compensation publique"
+      "note": "Carburant à 1,70 €/l par décret (note LFI d'octobre 2026), rangé parmi les dépenses du programme ; prix de l'électricité et du gaz de 2026 non relevés ici"
      },
      "quiz_text": "Bloquer les prix de l'alimentation et de l'énergie de base",
      "quiz_concret": "Les prix de ces produits ne montent plus, pour une durée limitée.",
@@ -1647,13 +1661,13 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -77.6,
-    "p10": -108.3,
-    "p90": -46.3,
-    "realsum": -77.6,
+    "sum": -90.6,
+    "p10": -120.7,
+    "p90": -51.4,
+    "realsum": -90.6,
     "missing": "planification écologique, IS progressif, taxe sur les transactions financières, 10 000 enseignants et 10 000 soignants, pension minimale au niveau du SMIC, indexation des pensions sur les salaires, APL +10 %, minimum vieillesse au seuil de pauvreté, abrogation des réformes de l'assurance chômage",
     "n": 7,
-    "cost": -99.0,
+    "cost": -112.0,
     "gain": 21.4,
     "confirm": []
    },
@@ -1709,8 +1723,8 @@
     },
     "carburant": {
      "prix": 1.7,
-     "actuel": 2.21,
-     "note": "Prix du carburant bloqué à 1,70 €/l par décret, contre ≈ 2,21 €/l en octobre 2026 (SP95, relevé du ministère) ; blocage de 6 mois au plus par décret"
+     "actuel": 2.18,
+     "note": "Prix du carburant bloqué à 1,70 €/l par décret, contre 2,18 €/l pour le SP95 la semaine du 23 octobre 2026 (relevé du ministère) ; blocage de 6 mois au plus par décret"
     }
    },
    "promise": "Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines.",
@@ -2442,7 +2456,7 @@
    "claude_total": {
     "sum": -36.5,
     "p10": -44.4,
-    "p90": -30.2,
+    "p90": -30.1,
     "realsum": -36.5,
     "missing": "transition écologique, hôpital, baisse des effectifs par classe, leasing social d'un million de voitures (≈6 Md€ selon le camp)",
     "n": 5,
@@ -2500,7 +2514,7 @@
    "name": "Édouard Philippe",
    "party": "Horizons",
    "poll": "13-15 %",
-   "summary": "Promet la retraite à 65 ans, un départ sur trois non remplacé dans la fonction publique, une allocation familiale dès le premier enfant et zéro impôt pour les jeunes parents. Notre chiffrage : −9,2 Md€ par an en 2030, soit −298 € par ménage. Principal obstacle : l'acceptation d'un nouveau report de l'âge, et le financement de l'allocation familiale unique.",
+   "summary": "Promet la retraite à 65 ans, un départ sur trois non remplacé dans la fonction publique, une allocation familiale dès le premier enfant et zéro impôt pour les jeunes parents. Notre chiffrage : +2,8 Md€ par an en 2030, soit +91 € par ménage. Principal obstacle : l'acceptation d'un nouveau report de l'âge, et le financement de l'allocation familiale unique.",
    "measures": [
     {
      "id": "retraites",
@@ -2849,8 +2863,8 @@
      "id": "famille",
      "theme": "social",
      "title": "Allocation de 350 €",
-     "proposal": "350 €/mois dès le premier enfant, dégressive selon l'impôt ; réduction d'impôt ≈3 000 € ; PTZ à la naissance.",
-     "claimed": "Aucun coût annoncé",
+     "proposal": "350 €/mois par enfant dès le premier enfant, dégressive selon le revenu, à coût constant en fusionnant des aides existantes.",
+     "claimed": "À coût constant, selon le camp",
      "claimed_md": null,
      "estimates": [
       {
@@ -2875,11 +2889,11 @@
      "obstacle": "Coût inconnu, potentiellement élevé",
      "claude": {
       "id": "famille",
-      "central": -12,
-      "low": -24,
-      "high": -4,
+      "central": 0,
+      "low": 0,
+      "high": 0,
       "method": "ascendant",
-      "formula": "1 enfant : 3,58 M × 4 200 € = 15 ; 2 enfants : 3,04 M × 199 € × 12 = 7,3 ; ≈22 Md€ brut, divisé par 2 pour la dégressivité",
+      "formula": "Non chiffrable : 350 € par mois et par enfant, dégressifs selon le revenu (seuils non publiés), « à coût constant » en fusionnant des aides existantes (liste non complète)",
       "inputs": [
        {
         "label": "Familles par nombre d'enfants",
@@ -2898,12 +2912,19 @@
         "value": "≈644 000",
         "source": "UNAF / Insee",
         "url": "https://www.unaf.fr/app/uploads/sites/3/2026/07/chiffres-clefs-des-familles-2026.pdf"
+       },
+       {
+        "label": "Annonce du camp",
+        "value": "350 €/mois par enfant, dégressive avec le revenu, à coût constant",
+        "source": "Site d'Édouard Philippe (8/10/2026)",
+        "url": "https://www.edouardphilippe.fr/actualites/trois-principales-annonces-dedouard-philippe-a-lheure-de-verite"
        }
       ],
-      "note": "Dégressivité de 50 % supposée"
+      "note": "Indicatif : de 0 (coût constant annoncé par le camp) à environ −17,5 Md€ : 350 € par enfant pour les familles d'un et deux enfants (3,58 M × 4 200 € + 3,04 M × (700 − 152 €) × 12, allocations familiales actuelles déduites), divisé par 2 pour la dégressivité (hypothèse) ; familles de 3 enfants et plus et autres aides fusionnées non comptées",
+      "nc": true
      },
      "quiz_text": "Une allocation familiale unique dès le premier enfant",
-     "quiz_concret": "Les familles d'un ou deux enfants y gagnent ; moins pour les hauts revenus.",
+     "quiz_concret": "La même allocation pour chaque enfant dès le premier, plus faible pour les hauts revenus, à la place de plusieurs aides.",
      "quiz_plus": "En France, les aides financières pèsent sur la décision d'avoir un enfant, y compris le premier : une allocation familiale importante versée sans condition relèverait l'indice de fécondité d'environ 0,3 point (Laroque et Salanié).",
      "quiz_moins": "Une revue des études quasi-expérimentales conclut que l'effet des aides en argent sur la natalité est surtout temporaire, alors que le développement des crèches a un effet durable (Bergsvik et al., 2021).",
      "quiz_src": [
@@ -3261,13 +3282,13 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -9.2,
-    "p10": -43.2,
-    "p90": -2.0,
-    "realsum": -9.2,
+    "sum": 2.8,
+    "p10": -28.7,
+    "p90": 7.0,
+    "realsum": 2.8,
     "missing": "défense, passage à 45 annuités, capitalisation, abondement de 500 € au premier contrat, réduction d'impôt à la naissance, deux jours de carence",
-    "n": 9,
-    "cost": -23.6,
+    "n": 8,
+    "cost": -11.6,
     "gain": 14.4,
     "confirm": []
    },
@@ -3281,13 +3302,6 @@
     },
     "smic_net": null,
     "salaire_net": null,
-    "alloc_familiales": {
-     "unique": 350,
-     "degress_above": 3000,
-     "degress_factor": 0.5,
-     "note": "Allocation unique de 350 €/mois par enfant dès le 1er enfant ; moitié supposée au-delà de 3 000 € net (dégressivité non publiée) ; les aides qu'elle remplace (supplément familial, prime de naissance…) ne sont pas déduites",
-     "par_enfant": true
-    },
     "tva_energie": null,
     "fonctionnaires": "Un départ en retraite sur trois non remplacé, deux jours de carence, enseignants payés +20 % sur le quinquennat.",
     "chomeurs": "Indemnisation plafonnée à 12 mois pour les moins de 50 ans (18 aujourd'hui).",
@@ -3313,7 +3327,8 @@
     "ir_jeunes_parents": {
      "note": "Pas d'impôt sur le revenu pendant les 3 premières années de l'enfant",
      "plafond": 3000
-    }
+    },
+    "famille": "Allocation unique de 350 €/mois par enfant dès le 1er enfant, dégressive selon le revenu, en remplacement d'aides existantes : non chiffrable (seuils et aides remplacées non publiés), donc non comptée ici."
    },
    "promise": "Promet la retraite à 65 ans, un départ sur trois non remplacé dans la fonction publique, une allocation familiale dès le premier enfant et zéro impôt pour les jeunes parents.",
    "obstacle_main": "L'acceptation d'un nouveau report de l'âge, et le financement de l'allocation familiale unique."
@@ -3604,9 +3619,21 @@
         "value": "2,06 Md€",
         "source": "Sénat",
         "url": "https://www.senat.fr/rap/a25-142-6/a25-142-6-syn.pdf"
+       },
+       {
+        "label": "Allocation fusionnée",
+        "value": "−30 %",
+        "source": "Public Sénat, présentation du plan (7/01/2026)",
+        "url": "https://www.publicsenat.fr/actualites/politique/la-fete-est-finie-bruno-retailleau-veut-supprimer-les-35-heures-inciter-a-la-reprise-dactivite-et-plafonner-les-aides-sociales-pour-relancer-lemploi"
+       },
+       {
+        "label": "Objectif du camp, chômage et prestations",
+        "value": "30 Md€ sur cinq ans",
+        "source": "Public Sénat, plan de 197 Md€ (12/10/2026)",
+        "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
        }
       ],
-      "note": "Indicatif : +12 à +34 Md€ selon le plafond (scénarios iFRAP) ; même règle que pour Lisnard"
+      "note": "Plafond à 70 % du SMIC non compté : son seul chiffrage (iFRAP, 12 à 34 Md€ selon le plafond) porte sur un autre dispositif, une allocation unique versée en crédit d'impôt qui s'éteint au 8e décile. Objectif du camp : 30 Md€ sur cinq ans pour le chômage et les prestations, soit ≈ 7 Md€ en 2030 selon la règle commune"
      },
      "quiz_text": "Fusionner les aides sociales et demander 15 heures d'activité par semaine en échange",
      "quiz_concret": "Toucher le RSA impliquerait de travailler ou se former 15 heures par semaine.",
@@ -4001,7 +4028,7 @@
     "tva_energie": null,
     "fonctionnaires": "1 623 h/an au lieu de 1 607, trois jours de carence au lieu d'un, 400 000 départs en retraite non remplacés.",
     "chomeurs": "Fin des droits après 3 offres refusées ; ruptures conventionnelles limitées à 6 mois ; dégressivité au-delà de 3 000 € net.",
-    "minima_sociaux": "RSA, prime d'activité et ASS fusionnés, avec 15 h d'activité ; total des aides non contributives plafonné à 70 % du SMIC net par adulte.",
+    "minima_sociaux": "RSA, prime d'activité et ASS fusionnés et réduits de 30 %, avec 15 h d'activité ; total des aides non contributives plafonné à 70 % du SMIC net par adulte.",
     "jeunes": "Part de retraite par capitalisation (25-30 %) pour les nouveaux entrants.",
     "retraites_actuels": "Pas d'effet de la capitalisation ; cumul emploi-retraite réformé.",
     "independants": "Suppression de la C3S et de la part industrielle de la CFE (surtout les grandes entreprises) ; pas de mesure spécifique publiée.",
@@ -4023,7 +4050,11 @@
     },
     "tous": [
      "Fin de MaPrimeRénov' : plus d'aide de l'État pour isoler un logement ou changer de chauffage."
-    ]
+    ],
+    "baisse_minima": {
+     "pct": 30,
+     "note": "RSA, prime d'activité et ASS fusionnés et réduits de 30 % (présentation du camp)"
+    }
    },
    "promise": "Promet 197 Md€ d'économies cumulées d'ici 2032, un âge minimal de 63 ans, la fusion des aides sociales et un référendum sur l'immigration.",
    "obstacle_main": "La révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées."
@@ -4668,7 +4699,7 @@
    },
    "claude_total": {
     "sum": 4.0,
-    "p10": 0.7,
+    "p10": 0.6,
     "p90": 6.3,
     "realsum": 4.0,
     "missing": "classes de moins de 20 élèves, salaires des enseignants, baisse des charges salariales, arrêts maladie, défense",
@@ -5428,7 +5459,7 @@
    },
    "claude_total": {
     "sum": -16.0,
-    "p10": -59.9,
+    "p10": -60.3,
     "p90": -11.4,
     "realsum": -16.0,
     "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, TVA unique à 25 %, 20 000 places de prison",
@@ -6076,7 +6107,7 @@
    "claude_total": {
     "sum": 21.5,
     "p10": 13.8,
-    "p90": 27.0,
+    "p90": 27.3,
     "realsum": 14.8,
     "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, suppression de l'aide au développement, reste du plan de 130 Md€",
     "n": 4,
@@ -6095,12 +6126,12 @@
   }
  ],
  "method": [
-  "<b>Notre chiffrage.</b> 76 mesures analysées, dont 54 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
+  "<b>Notre chiffrage.</b> 76 mesures analysées, dont 53 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
   "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,3 Md€ par tranche de +10 % ; AME remplacée par une aide d'urgence +0,7 Md€ ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; le SMIC de référence est celui de juin 2026.",
   "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026 (marquées « À confirmer ») et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés.",
-  "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages).",
+  "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 169 sources distinctes. L'année de chaque source est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 171 sources distinctes. L'année de chaque source est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » viennent des statistiques publiques (SSMSI, Insee, DREES, DEPP, Citepa, Eurostat, OTAN, etc.). Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique les paramètres annoncés à votre situation, à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe »), gel des prestations, baisse des minima ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années. Ce sont des ordres de grandeur.",
@@ -6207,6 +6238,10 @@
  "changelog": [
   {
    "date": "27/10/2026",
+   "text": "Chiffrages revus en appliquant les règles communes aux sources : allocation unique de Philippe (350 € par enfant, seuils et aides remplacées non publiés) passée en « non chiffrable », comme celle de Lisnard, et retirée du simulateur ; blocage des prix de Mélenchon à la médiane des chiffrages publiés (Institut Montaigne 24 Md€, Gouvernement 20 Md€, soit 22 Md€), les prix pétroliers d'octobre 2026 écartant l'hypothèse de prix en baisse ; TVA sur l'énergie de Le Pen à la médiane des chiffrages indépendants (Bercy, Institut Montaigne : 14,1 Md€), sans le chiffre du camp, comme pour les autres candidats ; fusion des minima de Retailleau : baisse de 30 % désormais sourcée, chiffrage inchangé, et comptée dans le simulateur. Fourchettes probables calculées séparément pour chaque candidat."
+  },
+  {
+   "date": "27/10/2026",
    "text": "Simulateur revu après audit indépendant : les pertes sont comptées comme les gains (aides réservées selon la nationalité ou la durée de séjour, même calcul pour les quatre candidats concernés ; gel des prestations ; plafond des aides) ; gains oubliés ajoutés (enseignants, TVA sur les courses, carburant à 1,70 €/l, baisse de CSG, jeunes parents, 1 000 € à la naissance) ; heures sup ramenées au gain réel ; allocations familiales prises en compte dans le RSA ; jours de carence et durée du chômage affichés à part ; barres à échelle fixe ; droit actuel sourcé sur service-public.gouv.fr."
   },
   {
@@ -6215,7 +6250,7 @@
   },
   {
    "date": "27/10/2026",
-   "text": "Revue des sources : 8 liens morts remplacés (même document à une nouvelle adresse, copie archivée signalée, ou source équivalente) ; sources primaires pour trois mesures (Le Pen, renouvelables ; Glucksmann, Ukraine ; Attal, heures sup et chômage), avec proposition et obstacle précisés ; chiffrage OFCE pour le point d'indice (Mélenchon) ; formule du blocage des prix fidèle à l'Institut Montaigne ; borne « retour à 62 ans » alignée sur la valeur commune (Attal) ; une note reformulée (Retailleau). Quiz : six propositions qui n'apparaissaient pas par erreur y entrent (Le Pen, Retailleau, Attal, Lisnard)."
+   "text": "Revue des sources : 8 liens morts remplacés (même document à une nouvelle adresse, copie archivée signalée, ou source équivalente) ; sources primaires pour trois mesures (Le Pen, renouvelables ; Glucksmann, Ukraine ; Attal, heures sup et chômage), avec proposition et obstacle précisés ; chiffrage OFCE pour le point d'indice (Mélenchon) ; borne « retour à 62 ans » alignée sur la valeur commune (Attal) ; une note reformulée (Retailleau). Quiz : six propositions qui n'apparaissaient pas par erreur y entrent (Le Pen, Retailleau, Attal, Lisnard)."
   },
   {
    "date": "27/10/2026",
