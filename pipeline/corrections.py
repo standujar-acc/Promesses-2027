@@ -128,18 +128,7 @@ m=M('lisnard','allocation'); m['proposal']="Allocation sociale unique plafonnée
 m=M('lisnard','ame'); m['verdict']='bloque'; m['proposal']="AME remplacée par une aide d'urgence ; titres de séjour divisés par 8 ; aides non contributives réservées aux résidents de plus de 5 ans."
 m['obstacle']="Chemin : révision de la Constitution (égalité devant les aides, censurée en 2024) et renégociation de la CEDH et du droit de l'UE."
 k=M('le-pen','immigration')['claude']; k.update(central=8.3,low=2.6,high=15,formula="Si la mesure passe : allocations familiales 3,8 + RSA 2,6 + asile 1,2 + AME 0,7 = 8,3 Md€ (Montaigne) ; borne basse 2,6 (variante restreinte), haute 15 (montant 2027 du RN)",note="Même règle que pour Zemmour : comptée si elle passe ; bloquée en l'état du droit (voir le total « si les révisions sont bloquées »)")
-for c0 in D['candidates']:
-    for m in c0['measures']:
-        q=m['proposal']
-        q=re.sub(r"\s*\([^)]*\)","",q); q=re.sub(r";\s*absente d'Acte I[^.;]*","",q)
-        q=q.replace('réforme Borne','réforme de 2023').replace(' ; statut 2027 incertain','')
-        m['quiz_text']=q.strip().rstrip(';').strip()
 k=M('lisnard','cotisations')['claude']; k['formula']=k['formula'].replace('.',',',1) if False else k['formula']
-QP=json.load(open('data/quiz_plain.json'))
-for c in D['candidates']:
-    for m in c['measures']:
-        k=c['id']+'.'+m['id']
-        if k in QP: m['quiz_text'],m['quiz_concret']=QP[k]
 ORD=['le-pen','melenchon','glucksmann','philippe','retailleau','attal','lisnard','zemmour']
 D['candidates'].sort(key=lambda c:ORD.index(c['id']))
 # --- simulateur : cohérence avec le chiffrage
@@ -237,6 +226,78 @@ ADDM={'le-pen':"exonération des hausses de salaire jusqu'à 10 %, impôt sur la
  'retailleau':"baisses d'impôts des ménages (21 Md€ cumulés selon le camp), intérêts d'emprunt déductibles"}
 for cid,txt in ADDM.items():
     t0=C[cid]['claude_total']; t0['missing']=(t0.get('missing','')+', '+txt).strip(', ')
+# --- review 4 : liens morts, sources et formulations (27/10/2026)
+FIG="https://www.ofce.sciences-po.fr/pdf-articles/actu/Le-Figaroel.pdf"
+URLFIX={
+ "https://place-publique.eu/wp-content/uploads/2025/06/20250623_Projet_placepublique_acte1_BAT_BaDef.pdf":"https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf",
+ "https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-l-aide-medicale-d-etat":"https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-les-conditions-de-laide-medicale-detat-et-vote-une-baisse-de-ses-credits-de-200-millions",
+ "https://ofce.sciences-po.fr/blog/une-revue-recente-de-la-litterature-sur-les-multiplicateurs-budgetaires-la-taille-compte/?print=pdf":"https://web.archive.org/web/20251007054924/https://www.ofce.sciences-po.fr/blog/une-revue-recente-de-la-litterature-sur-les-multiplicateurs-budgetaires-la-taille-compte/",
+}
+USED=set()
+def fix_urls(o):
+    if isinstance(o,dict):
+        if o.get('url') in URLFIX:
+            USED.add(o['url']); o['url']=URLFIX[o['url']]
+            if 'web.archive.org' in o['url']: o['source']=o.get('source','')+' (copie archivée)'
+        for v in o.values(): fix_urls(v)
+    elif isinstance(o,list):
+        for v in o: fix_urls(v)
+fix_urls(D)
+assert USED==set(URLFIX), f"URLFIX sans effet : {set(URLFIX)-USED}"
+# Mélenchon, point d'indice : la coupure de presse archivée par l'OFCE n'existe plus ; chiffrage OFCE à la place
+m=M('melenchon','point_indice')
+m['estimates']=[e for e in m['estimates'] if e['url']!=FIG]+[{"source":"OFCE (Geerolf et Plane)","year":2024,"value":"+10 % : ≈ 23 Md€/an, dont 7 Md€ pour les collectivités","low_md":-23,"high_md":-23,"url":"https://www.ofce-legislatives2024.fr/analyses/Indice_FP.html"}]
+m['claude'].update(low=-23,note="Le camp chiffre +10 % à 17 Md€, soit ≈ +8 % au coût de la Cour des comptes",formula="+1 % de point d'indice = 2,07 Md€ (Cour des comptes) ; +10 % (publié) ≈ −20,7 Md€ ; fourchette de 17 (camp) à 23 Md€ (OFCE) ; Montaigne 20")
+# Mélenchon, blocage des prix : formule fidèle au chiffrage Montaigne (9 à 38 Md€, médiane 24 sur 2022-2024)
+m=M('melenchon','prix'); MP="https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/bloquer-les-prix-des-produits-de-premiere-necessite/"
+for e in m['estimates']:
+    if e['source'].startswith('Institut Montaigne'): e.update(value="9 à 38 Md€/an selon les prix de l'énergie, médiane 24 (moyenne des boucliers 2022-2024) ; sans compensation aux producteurs et distributeurs, « neutre pour les finances publiques »",low_md=-38,high_md=-9,url=MP)
+k=m['claude']; k['inputs']=[i for i in k['inputs'] if i['url']!=FIG]
+for i in k['inputs']:
+    if i['source']=='Institut Montaigne': i.update(label="Blocage des prix de l'énergie, prix en baisse",value="9 Md€/an",url=MP)
+k['inputs'].append({"label":"Blocage des prix de l'énergie, médiane 2022-2024","value":"24 Md€/an","source":"Institut Montaigne","url":MP})
+k['formula']="Institut Montaigne (mesure NFP, 2024) : 9 à 38 Md€/an selon les prix de l'énergie, médiane 24 = moyenne des boucliers 2022-2024 ; retenu : 9 Md€, hypothèse de prix de l'énergie en baisse ; borne basse : la médiane de crise (24)"
+# Retailleau : formulation neutre
+k=M('retailleau','production')['claude']
+assert k.get('note','').startswith('Incohérence interne du camp'); k['note']="Chiffres du camp différents selon les documents (51 Md€ cumulés contre 40 Md€ par an)"
+# Attal, retraites : borne de retour à 62 ans = valeur commune
+k=M('attal','retraites')['claude']; assert "retour à 62 ans (−14,1)" in k['formula']; k['formula']=k['formula'].replace("retour à 62 ans (−14,1)","retour à 62 ans (−11,8, valeur commune)")
+# sources primaires pour les trois mesures qui ne reposaient que sur des sources faibles
+CRE={"label":"Soutien aux ENR électriques (métropole)","value":"7,29 Md€ (2026) → 8,38 Md€ (2027), ≈ +1 Md€/an","source":"CRE, délibération n° 2026-149","url":"https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-149_CSPE_2026-2027.pdf"}
+for cid,mid in (('le-pen','enr'),('retailleau','energie')):
+    k=M(cid,mid)['claude']; k['inputs']=k.get('inputs',[])+[CRE]
+m=M('le-pen','enr')
+m['estimates']=[{"source":"Contre-budget 2027 du RN (Vert)","year":2026,"value":"Plus de 5 Md€ dès la 1re année : fin des subventions, moratoire sur les nouveaux projets, surtaxe sur l'éolien","low_md":5,"high_md":5,"url":"https://vert.eco/chaleurs-actuelles/marine-le-pen-presente-le-contre-budget-du-rn-pour-2027-une-attaque-contre-les-renouvelables-et-les-agences-environnementales/"},
+ {"source":"Contre-budget 2026 du RN","year":2025,"value":"Fin des tarifs de rachat des énergies intermittentes : 7,2 Md€ en 2026","low_md":7.2,"high_md":7.2,"url":"https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf"}]
+m['claude']['note']="Les 7,2 Md€ du contre-budget 2026 ≈ tout le soutien 2026 aux ENR électriques en métropole (7,29 Md€, CRE), contrats en cours compris"
+m=M('glucksmann','ukraine'); PP="https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+m['proposal']="Augmenter « drastiquement » l'aide militaire à l'Ukraine ; financement par la saisie des avoirs russes gelés proposé en 2025, non repris dans le programme."
+m['obstacle']="Saisie des avoirs russes non décidée : faute d'accord, notamment avec la Belgique où Euroclear détient l'essentiel des avoirs, l'UE a choisi en décembre 2025 un prêt de 90 Md€ financé par emprunt commun."
+m['estimates']=[{"source":"Place publique, projet « Acte I »","year":2025,"value":"« Augmenter drastiquement l'aide militaire à l'Ukraine » ; montant non précisé","low_md":None,"high_md":None,"url":PP},
+ {"source":"R. Glucksmann, lettre « Cap clair »","year":2025,"value":"Armes européennes « drastiquement » augmentées ; saisir les 200 Md€ d'avoirs russes gelés","low_md":None,"high_md":None,"url":"https://raphaelglucksmann.kessel.media/posts/pst_bde552542ce94673b5d60ad3fd1e33c3/je-vous-ecris-dukraine-la-ou-se-joue-lavenir-de-leurope"},
+ {"source":"Toute l'Europe","year":2025,"value":"Pas d'accord sur un prêt adossé aux avoirs ; prêt de 90 Md€ à taux zéro par emprunt commun pour 2026-2027","low_md":None,"high_md":None,"url":"https://www.touteleurope.eu/l-ue-dans-le-monde/faute-d-accord-sur-les-avoirs-russes-les-vingt-sept-debloquent-un-pret-de-90-milliards-d-euros-pour-l-ukraine/"}]
+m['claude'].update(formula="Non chiffrable : ampleur de la hausse non publiée ; pour ordre de grandeur, doubler les livraisons françaises de 2025 ≈ −0,9 Md€",
+ note="Indicatif : matériels livrés 0,86 Md€ en 2024 et 0,94 Md€ en 2025, soutien militaire total 6,5 Md€ de 2022 à 2025 (ministère des Armées) ; l'accord de février 2024 prévoyait « jusqu'à 3 Md€ » pour 2024",
+ inputs=[{"label":"Matériels livrés à l'Ukraine ; soutien militaire 2022-2025","value":"0,86 Md€ (2024), 0,94 Md€ (2025) ; 6,5 Md€ au total","source":"Ministère des Armées, rapport au Parlement 2026","url":"https://www.defense.gouv.fr/sites/default/files/ministere-armees/Rapport%20au%20Parlement%202026%20sur%20les%20exportations%20d%E2%80%99armement%20de%20la%20France%20(12082026).pdf"},
+ {"label":"Accord de sécurité France-Ukraine","value":"Jusqu'à 3 Md€ d'aide militaire supplémentaire en 2024","source":"Élysée","url":"https://www.elysee.fr/emmanuel-macron/2024/02/16/visite-de-volodymyr-zelensky-president-de-lukraine"}])
+m=M('attal','travail')
+m['proposal']="Supprimer le contingent annuel d'heures supplémentaires (220 h par salarié à défaut d'accord) et réformer l'assurance chômage pour inciter au travail."
+m['estimates']=[{"source":"attalpresident.fr, travail et salaires","year":2026,"value":"Fin du plafond d'heures sup ; réforme de l'assurance chômage : +100 000 emplois, sans chiffrage en euros","low_md":None,"high_md":None,"url":"https://attalpresident.fr/programme/travail-salaires"},
+ {"source":"Proposition de loi n° 1791 (cosignée par G. Attal)","year":2025,"value":"Affiliation 8 mois sur 20, durée maximale 15 mois : 3,6 Md€ d'économies (estimation 2024)","low_md":3.6,"high_md":3.6,"url":"https://www.assemblee-nationale.fr/dyn/17/textes/l17b1791_proposition-loi.pdf"}]
+m['claude'].update(note="Indicatif : si la réforme reprend la proposition de loi de 2025, ≈ +3,6 Md€ ; le programme n'en donne pas les paramètres. Au-delà de 220 h, les heures sup sont déjà possibles avec un repos compensateur",
+ inputs=[{"label":"Contingent annuel d'heures supplémentaires","value":"220 h par salarié à défaut d'accord","source":"Service-public.fr","url":"https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"}])
+# --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
+for c0 in D['candidates']:
+    for m in c0['measures']:
+        q=m['proposal']
+        q=re.sub(r"\s*\([^)]*\)","",q); q=re.sub(r";\s*absente d'Acte I[^.;]*","",q)
+        q=q.replace('réforme Borne','réforme de 2023').replace(' ; statut 2027 incertain','')
+        m['quiz_text']=q.strip().rstrip(';').strip()
+QP=json.load(open('data/quiz_plain.json'))
+for c in D['candidates']:
+    for m in c['measures']:
+        k=c['id']+'.'+m['id']
+        if k in QP: m['quiz_text'],m['quiz_concret']=QP[k]
 for c0 in D['candidates']:
     for m in c0['measures']:
         if m.get('quiz_text'): m['quiz_text']=re.sub(r"\s+\.$",".",m['quiz_text']).replace(' .','.')
