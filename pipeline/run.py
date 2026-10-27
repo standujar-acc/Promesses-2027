@@ -53,4 +53,8 @@ tab = (f"Données à jour au {D['asof']} : {len(D['candidates'])} candidats, {su
 rp = os.path.join(ROOT, 'README.md'); rd = open(rp).read()
 rd = re.sub(r"(<!-- totaux:debut[^>]*-->\n).*?(<!-- totaux:fin -->)", lambda m: m.group(1) + tab + "\n" + m.group(2), rd, flags=re.S)
 open(rp, 'w').write(rd)
+# METHODOLOGIE.md : même texte que l'onglet « Méthode », régénéré à chaque passage
+md = lambda s: html.unescape(re.sub(r'<[^>]+>', '', re.sub(r'</?b>', '**', s)))
+open(os.path.join(ROOT, 'METHODOLOGIE.md'), 'w').write("# Méthode\n\nTexte identique à l'onglet « Méthode » de l'app, généré par `pipeline/run.py` depuis `pipeline/build.py`, à jour au "
+    + D['asof'] + ".\n\n" + "\n\n".join(md(p) for p in D['method']) + "\n")
 print('ok :', len(page)//1024, 'Ko ;', sum(len(c['measures']) for c in D['candidates']), 'mesures')
