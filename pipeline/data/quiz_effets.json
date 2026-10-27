@@ -4294,9 +4294,9 @@
 ]
 },
 "le-pen.logement.2": {
-"constat": "Mises en chantier de logements : −31 % de 2022 à 2024, au plus bas depuis le retournement de 2017 (Cour des comptes).",
+"constat": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
 "constat_s": [
-6
+7
 ],
 "pour": "Le quota change peu la mixité, et limiter les terrains à bâtir fait monter les prix.",
 "preuve_pour": "mitigé",
@@ -4379,13 +4379,18 @@
 "l": "Cour des comptes, L'encadrement des loyers",
 "a": 2026,
 "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+},
+{
+"l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+"a": 2026,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
 }
 ]
 },
 "le-pen.logement.3": {
-"constat": "Début 2023, 15,7 % des résidences principales étaient des passoires énergétiques, 17 % un an avant (SDES).",
+"constat": "Passoires énergétiques : 12,7 % des résidences principales au 1/1/2025 (15,7 % en 2023), baisse en partie due au calcul (SDES).",
 "constat_s": [
-3
+4
 ],
 "pour": "Un prêt sans intérêts suffit à beaucoup de ménages, et l'argent prêté revient à l'État.",
 "preuve_pour": "mitigé",
@@ -4440,13 +4445,18 @@
 "l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov' (calculs SDES)",
 "a": 2024,
 "u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
+},
+{
+"l": "SDES, Le parc de logements par classe de performance énergétique au 1er janvier 2025",
+"a": 2025,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025"
 }
 ]
 },
 "melenchon.logement.1": {
-"constat": "Début 2023, 15,7 % des résidences principales étaient des passoires énergétiques, 17 % un an avant (SDES).",
+"constat": "Passoires énergétiques : 12,7 % des résidences principales au 1/1/2025 (15,7 % en 2023), baisse en partie due au calcul (SDES).",
 "constat_s": [
-1
+2
 ],
 "pour": "Isoler les logements mal chauffés baisse leur consommation, surtout dans les plus énergivores.",
 "preuve_pour": "solide",
@@ -4485,6 +4495,11 @@
 "l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov'",
 "a": 2024,
 "u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
+},
+{
+"l": "SDES, Le parc de logements par classe de performance énergétique au 1er janvier 2025",
+"a": 2025,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025"
 }
 ]
 },
@@ -4540,9 +4555,9 @@
 "complement_ref": [
 "retailleau.logement.2"
 ],
-"constat": "Mises en chantier de logements : −31 % de 2022 à 2024, au plus bas depuis le retournement de 2017 (Cour des comptes).",
+"constat": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
 "constat_s": [
-1
+2
 ],
 "pour": "Construire davantage de logements augmente l'offre et freine la hausse des loyers.",
 "preuve_pour": "solide",
@@ -4575,6 +4590,11 @@
 "l": "Cour des comptes, L'encadrement des loyers",
 "a": 2026,
 "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+},
+{
+"l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+"a": 2026,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
 }
 ]
 },
@@ -4624,9 +4644,9 @@
 "complement_ref": [
 "retailleau.logement.1"
 ],
-"constat": "Mises en chantier de logements : −31 % de 2022 à 2024, au plus bas depuis le retournement de 2017 (Cour des comptes).",
+"constat": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
 "constat_s": [
-3
+6
 ],
 "pour": "Plafonner les loyers et limiter les terrains découragent de louer et de construire.",
 "preuve_pour": "mitigé",
@@ -4698,13 +4718,18 @@
 "l": "Department for Communities and Local Government, Land Use Change Statistics (England) 2009",
 "a": 2010,
 "u": "https://assets.publishing.service.gov.uk/media/5a79bbbced915d042206aa45/1558850.pdf"
+},
+{
+"l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+"a": 2026,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
 }
 ]
 },
 "attal.logement.1": {
-"constat": "Début 2023, 15,7 % des résidences principales étaient des passoires énergétiques, 17 % un an avant (SDES).",
+"constat": "Passoires énergétiques : 12,7 % des résidences principales au 1/1/2025 (15,7 % en 2023), baisse en partie due au calcul (SDES).",
 "constat_s": [
-1
+2
 ],
 "pour": "Des aides connues cinq ans à l'avance évitent que ménages et artisans reportent les travaux.",
 "preuve_pour": "faible",
@@ -4730,13 +4755,18 @@
 "l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov' (calculs SDES)",
 "a": 2024,
 "u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
+},
+{
+"l": "SDES, Le parc de logements par classe de performance énergétique au 1er janvier 2025",
+"a": 2025,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025"
 }
 ]
 },
 "attal.logement.2": {
-"constat": "Fin 2024, 2,8 millions de ménages demandaient un logement social, 28 % de plus qu'en 2019 (Cour des comptes).",
+"constat": "Demandes de logement social actives : 4,1 millions en 2025, +18 % depuis 2019, pour 394 000 attributions (Ancols).",
 "constat_s": [
-1
+2
 ],
 "pour": "Les revenus moyens des villes chères, trop aisés pour le logement social, auraient plus d'offre.",
 "preuve_pour": "faible",
@@ -4762,13 +4792,18 @@
 "l": "Cour des comptes, L'encadrement des loyers (d'après l'Union sociale pour l'habitat)",
 "a": 2026,
 "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+},
+{
+"l": "Ancols, les attributions de logements sociaux (tableau de bord 2025) et Panorama du logement social 2025",
+"a": 2026,
+"u": "https://www.ancols.fr/publications/statistiques-etudes/les-attributions-de-logements-sociaux1"
 }
 ]
 },
 "lisnard.logement.1": {
-"constat": "Mises en chantier de logements : −31 % de 2022 à 2024, au plus bas depuis le retournement de 2017 (Cour des comptes).",
+"constat": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
 "constat_s": [
-3
+4
 ],
 "pour": "Imposer un quota change peu la part de ménages modestes dans les communes visées.",
 "preuve_pour": "solide",
@@ -4823,13 +4858,18 @@
 "l": "Cour des comptes, L'encadrement des loyers",
 "a": 2026,
 "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+},
+{
+"l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+"a": 2026,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
 }
 ]
 },
 "lisnard.logement.2": {
-"constat": "Mises en chantier de logements : −31 % de 2022 à 2024, au plus bas depuis le retournement de 2017 (Cour des comptes).",
+"constat": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
 "constat_s": [
-3
+4
 ],
 "pour": "Limiter les terrains à bâtir rend le foncier plus rare et fait monter le prix des logements.",
 "preuve_pour": "mitigé",
@@ -4873,6 +4913,11 @@
 "l": "Cour des comptes, L'encadrement des loyers",
 "a": 2026,
 "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+},
+{
+"l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+"a": 2026,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
 }
 ]
 },

@@ -615,43 +615,5 @@
     ]
    }
   ]
- },
- "baseline": {
-  "economie": [
-   {
-    "label": "Taux de chômage (BIT)",
-    "value": "8,3 %",
-    "trend": "+0,7 pt sur un an, plus haut depuis 2020",
-    "year": 2026,
-    "source": "Insee, T2 2026",
-    "url": "https://www.insee.fr/fr/statistiques/9032359"
-   },
-   {
-    "label": "Dépense de R&D en % du PIB",
-    "value": "2,18 %",
-    "trend": "Stable, sous la moyenne UE et l'objectif 3 %",
-    "year": 2024,
-    "source": "Eurostat via News Tank",
-    "url": "https://education.newstank.fr/article/view/425350/63-6-md-investis-r-france-2024-soit-2-18-pib-juste-moyenne-ue-eurostat.html"
-   }
-  ],
-  "rayonnement": [
-   {
-    "label": "Budget de la défense en % du PIB",
-    "value": "2,05 %",
-    "trend": "Juste au-dessus de 2 % ; cible OTAN 3,5 % en 2035",
-    "year": 2025,
-    "source": "OTAN via Toute l'Europe",
-    "url": "https://www.touteleurope.eu/l-ue-dans-le-monde/depenses-militaires-quels-pays-europeens-respectent-la-regle-de-l-otan-des-2-du-pib/"
-   },
-   {
-    "label": "Rang au baromètre EY de l'attractivité",
-    "value": "1er en Europe (852 projets)",
-    "trend": "7e année en tête, mais projets en baisse de 17 %",
-    "year": 2025,
-    "source": "EY 2026",
-    "url": "https://www.ey.com/fr_fr/newsroom/2026/05/barometre-ey-de-l-attractivite-de-la-france-2026"
-   }
-  ]
  }
 }

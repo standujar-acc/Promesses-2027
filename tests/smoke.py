@@ -177,7 +177,9 @@ with sync_playwright() as p:
     check(invalid == 0, f'simulateur : aucun texte invalide (NaN, undefined) [{invalid}]')
     # repères officiels : chaque thème des fiches a les siens ; 4 visibles, les autres se déplient ; les faits sensibles y sont
     th = pg.evaluate("[...new Set(D.candidates.flatMap(c=>c.measures.map(m=>m.theme)))].filter(t=>!((D.baseline||{})[t]||[]).length)")
-    check(not set(th) - {'institutions'}, f'repères : chaque thème des fiches a ses repères officiels {th}')  # institutions : lot en cours (S066)
+    check(not th, f'repères : chaque thème des fiches a ses repères officiels {th}')
+    lt = pg.evaluate("(D.life_themes||Object.keys(LT)).filter(t=>!((D.baseline||{})[t]||[]).length)")
+    check(not lt, f'repères : chaque thème « Vie quotidienne » a ses repères officiels {lt}')
     r = pg.evaluate("(()=>{ const d=document.createElement('div'); d.innerHTML=baseBox('securite'); return [d.querySelectorAll('.base > div').length, d.querySelectorAll('.bmore .bin > div').length, D.baseline.securite.length, /Viols/.test(d.textContent)]; })()")
     check(r[0] == 4 and r[1] == r[2] - 4 and r[3], f'repères : 4 visibles, {r[1]} dépliables, viols compris {r}')
     check(not errs, f'aucune erreur JS {errs[:1]}')
