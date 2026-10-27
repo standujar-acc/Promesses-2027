@@ -402,6 +402,41 @@ C['le-pen']['sim']['logement']=[{"when":["credit","proprio"],"t":"MaPrimeRénov'
 C['retailleau']['sim']['logement']=[{"when":["credit"],"kids":True,"t":"Intérêts d'emprunt de la résidence principale déductibles à 50, 75 ou 100 % selon le nombre d'enfants : forme et plafond non publiés, non calculé ici."},
     {"when":["loc"],"t":"Fin de l'encadrement des loyers là où il s'applique (Paris, Lyon, Lille…) : effet sur votre loyer non chiffré."}]
 C['philippe']['sim']['logement']=[{"when":["loc","credit","proprio","heberge"],"kids":True,"t":"Prêt à taux zéro pour acheter plus grand à l'arrivée d'un enfant : montant et conditions non publiés, non calculé ici."}]
+# --- review 8 : simulateur, second audit indépendant (27/10/2026) ; sources relues
+SQ['retraite'].update(duree=43,duree_des=1966,duree_url="https://www.cor-retraites.fr/sites/default/files/2026-06/RA_Part1_Chap2.pdf")
+SQ['chomage_url']="https://www.service-public.gouv.fr/particuliers/vosdroits/F14860"
+# heures sup : « zéro cotisation et zéro impôt… hormis CSG et CRDS » (Retailleau, Public Sénat 7/01/2026) ; « défiscalisées et exonérées de cotisation » (Philippe) :
+# pour le salarié, impôt et cotisations sont déjà exonérés, aucune baisse de CSG n'est annoncée → plus de gain calculé (même règle pour les deux)
+C['philippe']['sim']['overtime']={"label":"Heures sup sans impôt au-delà de 35 h et sans cotisation au-delà de 37 h"}
+C['retailleau']['sim']['overtime']={"label":"Heures sup sans cotisation ni impôt, hors CSG et CRDS, au-delà de 1 607 h par an"}
+# APL « réservées » aux Français (Sud Radio, discours d'Hénin-Beaumont, 13/09/2026)
+e=C['le-pen']['sim']['etrangers']; assert "AAH et APL après 5 ans de travail ; allocations familiales réservées aux foyers avec un parent français ;" in e
+C['le-pen']['sim']['etrangers']=e.replace("AAH et APL après 5 ans de travail ; allocations familiales réservées aux foyers avec un parent français ;","AAH après 5 ans de travail ; allocations familiales réservées aux foyers avec un parent français ; APL réservées aux Français ;")
+# durée de cotisation publiée pour le taux plein
+for cid,n in (('le-pen',42),('melenchon',40),('philippe',45)): C[cid]['sim']['retraite']['duree']=n
+# jour de carence « d'ordre public » dans le privé (Public Sénat, 12/10/2026)
+C['retailleau']['sim']['carence_prive']="1 jour de carence « d'ordre public » que l'employeur ne pourra plus prendre en charge ; perte seulement si votre employeur couvre aujourd'hui la carence et si vous êtes arrêté"
+# plafond : « le total des aides non contributives qu'un Français peut percevoir » ; modulation familiale non publiée
+C['retailleau']['sim']['plafond_aides']={"pct":0.7,"note":"Total des aides non contributives (minima et APL) plafonné à 70 % du SMIC net, calculé pour une personne seule",
+  "famille":"Total des aides non contributives plafonné à 70 % du SMIC : modulation selon la famille non publiée (exemple du camp : un couple avec deux enfants passerait de 2 375 à 1 685 € d'aides) ; non calculé ici"}
+ch=C['retailleau']['sim']['chomeurs']; assert "ruptures conventionnelles limitées à 6 mois" in ch
+C['retailleau']['sim']['chomeurs']=ch.replace("ruptures conventionnelles limitées à 6 mois","indemnisation limitée et plafonnée après une rupture conventionnelle (durée non publiée)")
+# Mélenchon (note LFI d'octobre 2026) : pension minimale au niveau du SMIC pour une carrière complète ; cantine scolaire gratuite (3,6 Md€)
+sm=C['melenchon']['sim']; sm['pension_min']={"montant":sm['smic_net'],"note":"Pension minimale au niveau du SMIC pour une carrière complète (note LFI d'octobre 2026), hors de notre total"}
+sm['famille']="Cantine scolaire gratuite (note LFI d'octobre 2026, 3,6 Md€) : gain selon vos frais de cantine, non calculé ici ; hors de notre total."
+sm['retraites_actuels']+=" Minimum vieillesse porté au seuil de pauvreté."
+C['le-pen']['sim']['retraites_actuels']+=" Minimum vieillesse à 1 000 €/mois (il est déjà de 1 043,59 € en 2026)."
+cb=sm['carburant']; cb['note']=cb['note'].replace("blocage de 6 mois au plus par décret","blocage de 6 mois au plus par décret, supposé prolongé par la loi comme dans notre chiffrage")
+# Le Pen : TVA à 5,5 % sur le gaz et le carburant contraire à la directive 2022/542 après 2030 (notre obstacle)
+sr=C['retailleau']['sim']; sr['minima_sociaux']=sr['minima_sociaux'].replace('plafonné à 70 % du SMIC net par adulte','plafonné à 70 % du SMIC net par personne')
+C['le-pen']['sim']['tva_energie_cond']="si la baisse est répercutée ; pour le gaz et le carburant, au-delà de 2030, seulement si les 27 changent la directive"
+# Zemmour : mesures de 2022 non reconfirmées, signalées comme telles
+sz=C['zemmour']['sim']
+sz['fonctionnaires']=sz['fonctionnaires'].replace("trois jours de carence.","trois jours de carence (programme 2022, non reconfirmé).")
+sz['minima_sociaux']=sz['minima_sociaux'].replace("RSA limité à 3 ans pour les personnes aptes au travail ;","RSA limité à 3 ans pour les personnes aptes au travail (programme 2022, non reconfirmé) ;")
+sz['independants']=sz['independants'].replace("(paramètres 2022).","(programme 2022, non reconfirmée en 2026, non comptée).")
+assert 'non reconfirmé' in sz['fonctionnaires'] and 'non reconfirmé' in sz['minima_sociaux'] and 'non comptée' in sz['independants']
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
