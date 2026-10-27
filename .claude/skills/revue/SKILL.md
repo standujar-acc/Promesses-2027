@@ -7,7 +7,7 @@ description: Passage de revue de Promesses 2027 — traite le registre de suivi 
 
 Un passage de revue fait avancer le registre `pipeline/data/suivi.json` et met les données à jour. Il ne publie jamais directement : il se termine par une **PR** que le porteur du projet relit et fusionne (la fusion sur `main` redéploie le site).
 
-Lire d'abord `CLAUDE.md` (règles de neutralité et de chiffrage) et `METHODOLOGIE.md`.
+Lire d'abord `CLAUDE.md` (règles de neutralité et de chiffrage), `DEVELOPPER.md` (où modifier quoi, liste de contrôle) et `METHODOLOGIE.md`.
 
 ## Règles non négociables
 - **Même traitement pour les 8 candidats**, dans l'ordre de `ORD` (`pipeline/corrections.py`). Même effort de recherche pour chacun. Avant de changer une mesure, chercher les mesures du même type chez les autres et appliquer la même règle.
