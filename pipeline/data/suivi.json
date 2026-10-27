@@ -863,6 +863,23 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": null
+  },
+  {
+   "id": "S059",
+   "type": "annonce_attendue",
+   "candidats": [
+    "melenchon",
+    "le-pen",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Quiz : revoir les « Contre » et leurs compléments à chaque programme publié",
+   "detail": "Le « Contre » d'une proposition tient compte du reste du programme : une mesure du même candidat qui répond à la critique est signalée (complément). Notre base peut être incomplète tant que des programmes ne sont pas publiés (LFI 6/11, RN 17/11, Zemmour) : à chaque publication, relire les « Contre » du candidat et ajouter les compléments nouveaux. On n'écrit jamais « aucune réponse prévue » : l'absence dans notre base n'est pas une preuve d'absence dans le programme.",
+   "echeance": "2026-11-18",
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
   }
  ]
 }

@@ -403,12 +403,12 @@ for c in D['candidates']:
         k=c['id']+'.'+m['id']
         if k in QP: m['quiz_text'],m['quiz_concret']=QP[k]
 QE={k:v for k,v in json.load(open('data/quiz_effets.json')).items() if not k.startswith('_')}
+from quizfx import quiz_fx
 for c in D['candidates']:
     for m in c['measures']:
         k=c['id']+'.'+m['id']
         if k in QE:
-            m['quiz_plus'],m['quiz_moins']=QE[k][0],QE[k][1]
-            if len(QE[k])>2: m['quiz_src']=QE[k][2]
+            m.update(quiz_fx(QE[k],k))
 assert {k for k in QE if k.count('.')==1}<={c['id']+'.'+m['id'] for c in D['candidates'] for m in c['measures']}, "quiz_effets.json : mesure inconnue"
 # (les clés candidat.thème.n sont des propositions « vie quotidienne », reprises par build.py après la fusion du volet)
 for c0 in D['candidates']:
