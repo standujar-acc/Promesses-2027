@@ -346,6 +346,32 @@ C['attal']['sim']['jeunes']="Réseaux sociaux interdits aux moins de 15 ans."
 C['zemmour']['sim'].pop('carence_jours',None)
 # Le Pen : donations, droit actuel précisé
 C['le-pen']['sim']['heritage']=[{"seuil":100000,"effet":"Donations exonérées jusqu'à 100 000 € par enfant tous les 10 ans, contre tous les 15 ans aujourd'hui (version 2024)."}]
+# --- review 6 : arbitrages tranchés par les règles communes et les faits (27/10/2026)
+# Philippe, allocation unique : 350 € par enfant (source du camp), dégressivité et aides fusionnées non publiées
+# → paramètre clé non publié : non chiffrable, fourchette indicative en note (même règle que l'allocation unique de Lisnard)
+SET('philippe','famille',0,0,0,"Non chiffrable : 350 € par mois et par enfant, dégressifs selon le revenu (seuils non publiés), « à coût constant » en fusionnant des aides non toutes listées",
+    note="Indicatif : de 0 (coût constant annoncé par le camp) à au moins −17,5 Md€ (350 €/enfant, moitié de dégressivité supposée, familles de 1 et 2 enfants : 3,58 M × 4 200 € + 3,04 M × 548 € × 12, divisé par 2, sans déduire les aides fusionnées)",
+    proposal="350 €/mois par enfant dès le premier enfant, dégressive selon le revenu, à coût constant en fusionnant des aides existantes ; réduction d'impôt pour les jeunes parents ; PTZ à la naissance.")
+IFRAP=[i for i in M('retailleau','travail')['estimates'] if 'ifrap' in i['url']][0]['url']
+# Retailleau, fusion des minima : « −30 % » sans source retiré ; plafond publié (70 % du SMIC net par adulte)
+# → médiane des chiffrages crédibles : un seul, iFRAP (2024), scénario « plafond à 70 % du SMIC » = 34 Md€
+SET('retailleau','travail',34,12,34,"Plafond publié : total des aides non contributives à 70 % du SMIC net par adulte ; seul chiffrage de ce plafond : iFRAP (2024), 34 Md€ ; borne basse : scénario iFRAP au niveau du SMIC (12 Md€), un plafond « par adulte » étant moins strict pour les couples qu'un plafond par foyer",
+    note="Chiffrage iFRAP sur la base des dépenses de 2022 ; l'iFRAP ne précise pas si son plafond s'entend par adulte ou par foyer ; recoupement possible, non déduit, avec les aides réservées après 5 ans de travail (mesure immigration, 1,6 Md€ au plus)",
+    inputs=[{"label":"Plafond publié","value":"70 % du SMIC net par adulte","source":"LR, réponse aux Décodeurs (9/01/2026)","url":"https://republicains.fr/wp-content/uploads/2026/01/Reponse-aux-Decodeurs-090126.pdf"},
+            {"label":"Allocation unique plafonnée à 70 % du SMIC","value":"34 Md€ (12 Md€ au niveau du SMIC)","source":"iFRAP","url":IFRAP}])
+# Mélenchon, blocage des prix : médiane publiée de l'Institut Montaigne (24 Md€) ; l'hypothèse de prix en baisse (9 Md€)
+# est contredite par les prix de 2026 (relevé officiel du 23/10/2026 : SP95 2,18 €/l, gazole 2,35 €/l, Brent 119 $) ;
+# la note LFI range le blocage parmi les dépenses
+NPG="https://www.ecologie.gouv.fr/sites/default/files/documents/NPG-2026.10.23.pdf"
+k=M('melenchon','prix')['claude']
+k.update(central=-24,low=-38,high=0,method="médiane",formula="Institut Montaigne (mesure NFP, 2024) : 9 à 38 Md€/an, médiane 24 = moyenne des boucliers 2022-2024 ; retenu : la médiane publiée, les prix de 2026 (SP95 2,18 €/l, gazole 2,35 €/l, Brent 119 $ le baril) étant au niveau de la période de crise ; borne haute 0 si le blocage se fait sans compensation publique",
+    note="Carburant à 1,70 €/l par décret (note LFI d'octobre 2026), rangé parmi les dépenses du programme")
+k['inputs']=[i for i in k['inputs'] if '9 Md€' not in i.get('value','')]+[{"label":"Prix à la pompe, semaine du 23 octobre 2026","value":"SP95-E5 2,18 €/l ; gazole 2,35 €/l","source":"Ministère de la Transition écologique, prix et marges des produits pétroliers","url":NPG}]
+cb=C['melenchon']['sim']['carburant']; assert cb['actuel']==2.21
+cb.update(actuel=2.18,note="Prix du carburant bloqué à 1,70 €/l par décret, contre 2,18 €/l pour le SP95 la semaine du 23 octobre 2026 (relevé du ministère) ; blocage de 6 mois au plus par décret")
+# simulateur : plus de gain pour l'allocation de Philippe (mesure non chiffrable), une note à la place
+sp=C['philippe']['sim']; sp.pop('alloc_familiales',None)
+sp['famille']="Allocation unique de 350 €/mois par enfant dès le 1er enfant, dégressive selon le revenu, en remplacement d'aides existantes : non chiffrable (seuils et aides remplacées non publiés), donc non comptée ici."
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
