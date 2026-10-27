@@ -58,6 +58,15 @@ OVR.update({
  ('philippe', 'logement'): {'evidence_level': 'non_demontree'},
  ('philippe', 'sante'): {'evidence_level': 'pas_d_etude'},
 })
+DD = "Petites classes en CP-CE1 : gains nets en CP ; à l'entrée en 6e, plus rien pour la 1re génération, un petit gain en maths pour les suivantes, aucun en français (DEPP, 2026)."
+DD_S = {'label': 'DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com', 'year': 2026, 'url': 'https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif'}
+OVR.update({
+ ('le-pen', 'ecole'): {'evidence': "Uniforme : climat amélioré selon 36% des directeurs, effet quasi nul sur les résultats (ministère, 2026). " + DD, 'add': [DD_S]},
+ ('melenchon', 'ecole'): {'evidence': DD, 'add': [DD_S]},
+ ('philippe', 'ecole'): {'evidence': DD + " Hausse salariale et amende parentale : pas d'évaluation française identifiée.", 'add': [DD_S]},
+ ('glucksmann', 'ecole'): {'evidence': DD + " Mixité imposée à Paris : objectifs atteints dans 2 secteurs sur 3 (IPP, 2021).", 'add': [DD_S]},
+ ('attal', 'ecole'): {'evidence': DD, 'add': [DD_S]},
+})
 # même test « précis » pour une même formulation
 VFLIP = {'Bloquer temporairement': False, 'Assistant médical fondé sur l': False, 'Contrôle du Conseil constitutionnel limité': False, 'Police de proximité modernisée': False, "Fonds national d'acquisition foncière": False,
          "commandement intégré de l'OTAN": True, "Sortir de l'OTAN": True}

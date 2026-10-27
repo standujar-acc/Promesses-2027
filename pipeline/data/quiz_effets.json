@@ -1613,8 +1613,9 @@
 ]
 },
 "lisnard.allocation": {
-"constat": "Un tiers des foyers éligibles au RSA ne le demandent pas, comme en 2010-2011 (Drees, Cour des comptes).",
+"constat": "33 à 37 % des foyers éligibles au RSA ne le touchaient pas fin 2021, environ un tiers déjà en 2010-2011 (Drees).",
 "constat_s": [
+3,
 0
 ],
 "pour": "Une aide fusionnée est plus demandée : après la fusion de 2016, le non-recours est tombé de 68 % à 30 %.",
@@ -1660,6 +1661,11 @@
 "l": "Department for Work and Pensions, Evaluation of the lower benefit cap (enquête NatCen en deux vagues)",
 "a": 2023,
 "u": "https://www.gov.uk/government/publications/lower-benefit-cap-quantitative-analysis-of-outcomes-of-capped-households/evaluation-of-the-lower-benefit-cap"
+},
+{
+"l": "DREES, Études et résultats n° 1370, non-recours au RSA fin 2021",
+"a": 2026,
+"u": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260506-non-recours-au-rsa-fin-2021"
 }
 ]
 },
@@ -3637,7 +3643,7 @@
 ]
 },
 "retailleau.immigration": {
-"constat": "Les immigrés forment 11,6 % de la population en 2025, contre 7,3 % en 1999 (Insee).",
+"constat": "Les immigrés forment 11,6 % de la population en 2025, +59 % depuis 1999 (7,3 %) (Insee).",
 "constat_s": [
 3
 ],
@@ -3933,8 +3939,9 @@
 ]
 },
 "retailleau.travail": {
-"constat": "Un tiers des foyers éligibles au RSA ne le demandent pas, comme en 2010-2011 (Drees, Cour des comptes).",
+"constat": "33 à 37 % des foyers éligibles au RSA ne le touchaient pas fin 2021, environ un tiers déjà en 2010-2011 (Drees).",
 "constat_s": [
+2,
 1
 ],
 "pour": "Un accompagnement avec des heures d'activité fait reprendre un emploi plus vite aux allocataires.",
@@ -3974,6 +3981,11 @@
 "l": "Cour des comptes, La prime d'activité (communication à la commission des finances du Sénat)",
 "a": 2026,
 "u": "https://www.vie-publique.fr/files/rapport/pdf/303828.pdf"
+},
+{
+"l": "DREES, Études et résultats n° 1370, non-recours au RSA fin 2021",
+"a": 2026,
+"u": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260506-non-recours-au-rsa-fin-2021"
 }
 ]
 },
