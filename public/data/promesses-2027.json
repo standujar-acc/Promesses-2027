@@ -598,7 +598,7 @@
         "label": "Crédits AME 2026",
         "value": "1,21 Md€",
         "source": "Public Sénat",
-        "url": "https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-l-aide-medicale-d-etat"
+        "url": "https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-les-conditions-de-laide-medicale-detat-et-vote-une-baisse-de-ses-credits-de-200-millions"
        }
       ]
      }
@@ -959,10 +959,10 @@
       {
        "source": "Institut Montaigne (NFP)",
        "year": 2024,
-       "value": "9 Md€/an",
-       "low_md": -9,
+       "value": "9 à 38 Md€/an selon les prix de l'énergie, médiane 24 (moyenne des boucliers 2022-2024) ; alimentation sans compensation : neutre",
+       "low_md": -38,
        "high_md": -9,
-       "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
+       "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/bloquer-les-prix-des-produits-de-premiere-necessite/"
       },
       {
        "source": "Club des juristes",
@@ -982,19 +982,19 @@
       "low": -24,
       "high": 0,
       "method": "médiane",
-      "formula": "Chiffrage Montaigne de la mesure NFP : 9 Md€/an ; une estimation de presse à 24 Md€ en borne basse",
+      "formula": "Institut Montaigne (mesure NFP, 2024) : 9 à 38 Md€/an selon les prix de l'énergie, médiane 24 = moyenne des boucliers 2022-2024 ; retenu : 9 Md€, hypothèse de prix de l'énergie en baisse ; borne basse : la médiane de crise (24)",
       "inputs": [
        {
-        "label": "Blocage des prix (NFP)",
+        "label": "Blocage des prix de l'énergie, prix en baisse",
         "value": "9 Md€/an",
         "source": "Institut Montaigne",
-        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
+        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/bloquer-les-prix-des-produits-de-premiere-necessite/"
        },
        {
-        "label": "Variante haute",
-        "value": "≈24 Md€",
-        "source": "Le Figaro (Montaigne)",
-        "url": "https://www.ofce.sciences-po.fr/pdf-articles/actu/Le-Figaroel.pdf"
+        "label": "Blocage des prix de l'énergie, médiane 2022-2024",
+        "value": "24 Md€/an",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/bloquer-les-prix-des-produits-de-premiere-necessite/"
        }
       ],
       "note": "Coût nul si le blocage se fait sans compensation publique"
@@ -1131,12 +1131,12 @@
        "url": "https://acteurspublics.fr/articles/1-2-ou-3-de-hausse-du-point-dindice-quel-impact-sur-les-finances-publiques"
       },
       {
-       "source": "Le Figaro (Allianz, S. Catherine)",
+       "source": "OFCE (Geerolf et Plane)",
        "year": 2024,
-       "value": "+10 % : 7 à 22 Md€",
-       "low_md": -22,
-       "high_md": -7,
-       "url": "https://www.ofce.sciences-po.fr/pdf-articles/actu/Le-Figaroel.pdf"
+       "value": "+10 % : ≈ 23 Md€/an, dont 7 Md€ pour les collectivités",
+       "low_md": -23,
+       "high_md": -23,
+       "url": "https://www.ofce-legislatives2024.fr/analyses/Indice_FP.html"
       }
      ],
      "consensus": "concordant",
@@ -1145,10 +1145,10 @@
      "claude": {
       "id": "point_indice",
       "central": -20.7,
-      "low": -22,
+      "low": -23,
       "high": -17,
       "method": "médiane",
-      "formula": "+1 % de point d'indice = 2,07 Md€ ; +10 % (publié) ≈ −20,7 Md€ ; le camp annonce 17 Md€",
+      "formula": "+1 % de point d'indice = 2,07 Md€ (Cour des comptes) ; +10 % (publié) ≈ −20,7 Md€ ; fourchette de 17 (camp) à 23 Md€ (OFCE) ; Montaigne 20",
       "inputs": [
        {
         "label": "Coût de +1 % (3 versants)",
@@ -1246,8 +1246,8 @@
    },
    "claude_total": {
     "sum": -77.6,
-    "p10": -108.0,
-    "p90": -46.0,
+    "p10": -108.3,
+    "p90": -46.3,
     "realsum": -77.6,
     "missing": "planification écologique, IS progressif, taxe sur les transactions financières, 10 000 enseignants et 10 000 soignants, pension minimale au niveau du SMIC, indexation des pensions sur les salaires, APL +10 %, minimum vieillesse au seuil de pauvreté, abrogation des réformes de l'assurance chômage",
     "n": 7,
@@ -1616,7 +1616,7 @@
         "label": "Fonds européen de défense",
         "value": "500 Md€ d'emprunt commun",
         "source": "Place publique, Acte I",
-        "url": "https://place-publique.eu/wp-content/uploads/2025/06/20250623_Projet_placepublique_acte1_BAT_BaDef.pdf"
+        "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
        },
        {
         "label": "Contribution française au budget UE",
@@ -2752,7 +2752,7 @@
         "url": "https://www.legifiscal.fr/actualites-fiscales/4401-plf-2026-49-3-baisse-cvae-2026.html"
        }
       ],
-      "note": "Incohérence interne du camp (51 cumulés contre 40 par an)"
+      "note": "Chiffres du camp différents selon les documents (51 Md€ cumulés contre 40 Md€ par an)"
      },
      "quiz_text": "Supprimer plusieurs impôts des entreprises et les cotisations sur les heures supplémentaires",
      "quiz_concret": "Les entreprises paient moins d'impôts."
@@ -2933,7 +2933,7 @@
         "label": "Crédits AME 2026",
         "value": "1,21 Md€",
         "source": "Public Sénat",
-        "url": "https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-l-aide-medicale-d-etat"
+        "url": "https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-les-conditions-de-laide-medicale-detat-et-vote-une-baisse-de-ses-credits-de-200-millions"
        }
       ]
      }
@@ -3038,7 +3038,7 @@
       "low": 0,
       "high": 0,
       "method": "ascendant",
-      "formula": "Hypothèse : départs avancés d'un an en moyenne ≈ coût du passage de 64 à 63 ans (5,8 Md€) ; bornes : retour à 62 ans (−14,1) et décote neutre (0)",
+      "formula": "Hypothèse : départs avancés d'un an en moyenne ≈ coût du passage de 64 à 63 ans (5,8 Md€) ; bornes : retour à 62 ans (−11,8, valeur commune) et décote neutre (0)",
       "inputs": [
        {
         "label": "Âge 64 → 63 ans",
@@ -3780,7 +3780,7 @@
         "label": "Crédits AME 2026",
         "value": "1,21 Md€",
         "source": "Public Sénat",
-        "url": "https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-l-aide-medicale-d-etat"
+        "url": "https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-les-conditions-de-laide-medicale-detat-et-vote-une-baisse-de-ses-credits-de-200-millions"
        }
       ],
       "note": "Report vers les urgences déduit"
@@ -4651,6 +4651,10 @@
  "changelog": [
   {
    "date": "27/10/2026",
+   "text": "Revue des sources : 8 liens morts remplacés (même document à une nouvelle adresse, copie archivée signalée, ou source équivalente), chiffrage OFCE ajouté pour le point d'indice, formule du blocage des prix précisée, deux formulations rendues neutres."
+  },
+  {
+   "date": "27/10/2026",
    "text": "« Rien n'est enregistré » affiché sur l'accueil et le quiz. Polices servies par le site : plus aucun appel à Google Fonts."
   },
   {
@@ -5114,9 +5118,9 @@
       "url": "https://votons-2027.fr/candidats/le-pen/programme"
      },
      {
-      "label": "La Croix/AMU, le référendum",
+      "label": "La Croix/AMU, le référendum (copie archivée)",
       "year": 2024,
-      "url": "https://dice.univ-amu.fr/sites/dice.univ-amu.fr/files/article/article_marthe.pdf"
+      "url": "https://web.archive.org/web/20241104170231/https://dice.univ-amu.fr/sites/dice.univ-amu.fr/files/article/article_marthe.pdf"
      }
     ]
    },
@@ -5471,9 +5475,9 @@
       "url": "https://melenchon2027.fr/?p=17872"
      },
      {
-      "label": "La Croix/AMU, le référendum",
+      "label": "La Croix/AMU, le référendum (copie archivée)",
       "year": 2024,
-      "url": "https://dice.univ-amu.fr/sites/dice.univ-amu.fr/files/article/article_marthe.pdf"
+      "url": "https://web.archive.org/web/20241104170231/https://dice.univ-amu.fr/sites/dice.univ-amu.fr/files/article/article_marthe.pdf"
      }
     ]
    },
@@ -6077,7 +6081,7 @@
      {
       "label": "IPP, aides à l'accession",
       "year": 2016,
-      "url": "https://www.ipp.eu/wp-content/uploads/2016/12/accession-propriete-rapport-IPP-decembre2016.pdf"
+      "url": "https://shs.hal.science/halshs-02514699v1/file/R16-accession-propriete-rapport-IPP-decembre2016.pdf"
      }
     ]
    },
@@ -6464,7 +6468,7 @@
      {
       "label": "Stadelmann-Steffen & Vatter, Political Behavior",
       "year": 2012,
-      "url": "https://doc.rero.ch/record/312064?ln=fr"
+      "url": "https://doi.org/10.1007/s11109-011-9164-y"
      }
     ]
    },
@@ -6806,7 +6810,7 @@
      {
       "label": "Stadelmann-Steffen & Vatter, Political Behavior",
       "year": 2012,
-      "url": "https://doc.rero.ch/record/312064?ln=fr"
+      "url": "https://doi.org/10.1007/s11109-011-9164-y"
      }
     ]
    },
@@ -7148,7 +7152,7 @@
      {
       "label": "Stadelmann-Steffen & Vatter, Political Behavior",
       "year": 2012,
-      "url": "https://doc.rero.ch/record/312064?ln=fr"
+      "url": "https://doi.org/10.1007/s11109-011-9164-y"
      }
     ]
    },

@@ -203,7 +203,7 @@ R35="montée en charge : 3,5/15 du cumulé (règle commune, 70 % en 2030)"
 SET('retailleau','retraites',2.8,0,9.8,f"Décote : 12 Md€ cumulés sur 5 ans, {R35} → +2,8 Md€ en 2030 ; plan complet 42 Md€ → 9,8 au maximum")
 SET('retailleau','immigration',1.6,0,1.6,f"10 Md€ cumulés, {R35} ≈ 2,3 en 2030, comptés si la mesure passe (même règle que Le Pen et Zemmour), dont AME 0,7 comptée à part → 1,6")
 SET('le-pen','immigration',7.6,1.9,14.3,"Si la mesure passe : allocations familiales 3,8 + RSA 2,6 + asile 1,2 = 7,6 Md€ (Montaigne) ; AME comptée à part ; bornes 1,9 et 14,3 (montant 2027 du RN, hors AME)")
-AME_IN=[{"label":"Crédits AME 2026","value":"1,21 Md€","source":"Public Sénat","url":"https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-l-aide-medicale-d-etat"}]
+AME_IN=[{"label":"Crédits AME 2026","value":"1,21 Md€","source":"Public Sénat","url":"https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-les-conditions-de-laide-medicale-detat-et-vote-une-baisse-de-ses-credits-de-200-millions"}]
 for cid in ('le-pen','retailleau'):
     ADD(cid,{"id":"ame","theme":"immigration","title":"AME remplacée par une aide d'urgence","proposal":"Remplacer l'aide médicale d'État par une aide médicale d'urgence.","claimed":"Inclus dans le volet immigration","claimed_md":None,
       "estimates":[{"source":"Institut Montaigne","year":2024,"value":"≈0,7 Md€/an","low_md":0.7,"high_md":0.7,"url":"https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"}],"consensus":"concordant","verdict":"sous_conditions","obstacle":"Une loi suffit ; report de dépenses vers l'hôpital (soins urgents).",
@@ -240,6 +240,39 @@ for cid,txt in ADDM.items():
 for c0 in D['candidates']:
     for m in c0['measures']:
         if m.get('quiz_text'): m['quiz_text']=re.sub(r"\s+\.$",".",m['quiz_text']).replace(' .','.')
+# --- review 4 : liens morts, sources et formulations (27/10/2026)
+FIG="https://www.ofce.sciences-po.fr/pdf-articles/actu/Le-Figaroel.pdf"
+URLFIX={
+ "https://place-publique.eu/wp-content/uploads/2025/06/20250623_Projet_placepublique_acte1_BAT_BaDef.pdf":"https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf",
+ "https://ofce.sciences-po.fr/blog/une-revue-recente-de-la-litterature-sur-les-multiplicateurs-budgetaires-la-taille-compte/":"https://web.archive.org/web/20251007054924/https://www.ofce.sciences-po.fr/blog/une-revue-recente-de-la-litterature-sur-les-multiplicateurs-budgetaires-la-taille-compte/",
+}
+def fix_urls(o):
+    if isinstance(o,dict):
+        if o.get('url') in URLFIX:
+            o['url']=URLFIX[o['url']]
+            if 'web.archive.org' in o['url']: o['source']=o.get('source','')+', copie archivée'
+        for v in o.values(): fix_urls(v)
+    elif isinstance(o,list):
+        for v in o: fix_urls(v)
+fix_urls(D)
+# Mélenchon, point d'indice : la coupure de presse archivée par l'OFCE n'existe plus ; chiffrage OFCE à la place
+m=M('melenchon','point_indice')
+m['estimates']=[e for e in m['estimates'] if e['url']!=FIG]+[{"source":"OFCE (Geerolf et Plane)","year":2024,"value":"+10 % : ≈ 23 Md€/an, dont 7 Md€ pour les collectivités","low_md":-23,"high_md":-23,"url":"https://www.ofce-legislatives2024.fr/analyses/Indice_FP.html"}]
+m['claude'].update(low=-23,formula="+1 % de point d'indice = 2,07 Md€ (Cour des comptes) ; +10 % (publié) ≈ −20,7 Md€ ; fourchette de 17 (camp) à 23 Md€ (OFCE) ; Montaigne 20")
+# Mélenchon, blocage des prix : formule fidèle au chiffrage Montaigne (9 à 38 Md€, médiane 24 sur 2022-2024)
+m=M('melenchon','prix'); MP="https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/bloquer-les-prix-des-produits-de-premiere-necessite/"
+for e in m['estimates']:
+    if e['source'].startswith('Institut Montaigne'): e.update(value="9 à 38 Md€/an selon les prix de l'énergie, médiane 24 (moyenne des boucliers 2022-2024) ; alimentation sans compensation : neutre",low_md=-38,high_md=-9,url=MP)
+k=m['claude']; k['inputs']=[i for i in k['inputs'] if i['url']!=FIG]
+for i in k['inputs']:
+    if i['source']=='Institut Montaigne': i.update(label="Blocage des prix de l'énergie, prix en baisse",value="9 Md€/an",url=MP)
+k['inputs'].append({"label":"Blocage des prix de l'énergie, médiane 2022-2024","value":"24 Md€/an","source":"Institut Montaigne","url":MP})
+k['formula']="Institut Montaigne (mesure NFP, 2024) : 9 à 38 Md€/an selon les prix de l'énergie, médiane 24 = moyenne des boucliers 2022-2024 ; retenu : 9 Md€, hypothèse de prix de l'énergie en baisse ; borne basse : la médiane de crise (24)"
+# Retailleau : formulation neutre
+k=M('retailleau','production')['claude']
+if k.get('note','').startswith('Incohérence interne du camp'): k['note']="Chiffres du camp différents selon les documents (51 Md€ cumulés contre 40 Md€ par an)"
+# Attal, retraites : borne de retour à 62 ans = valeur commune
+k=M('attal','retraites')['claude']; k['formula']=k['formula'].replace("retour à 62 ans (−14,1)","retour à 62 ans (−11,8, valeur commune)")
 # --- non chiffrable
 for c0 in D['candidates']:
     for m in c0['measures']:

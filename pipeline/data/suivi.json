@@ -268,6 +268,178 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": null
+  },
+  {
+   "id": "S019",
+   "type": "lien_mort",
+   "candidats": [
+    "le-pen",
+    "retailleau",
+    "lisnard"
+   ],
+   "mesure": "ame",
+   "sujet": "Public Sénat, crédits AME 2026 : 404",
+   "detail": "Article déplacé.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Revue du 27/10/2026 : nouvelle adresse du même article."
+  },
+  {
+   "id": "S020",
+   "type": "lien_mort",
+   "candidats": [
+    "glucksmann"
+   ],
+   "mesure": "defense",
+   "sujet": "Place publique, projet « Acte I » : 404",
+   "detail": "PDF officiel déplacé.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Revue du 27/10/2026 : nouvelle adresse sur place-publique.eu (PDF réenregistré le 15/10/2026, même titre)."
+  },
+  {
+   "id": "S021",
+   "type": "lien_mort",
+   "candidats": [
+    "melenchon"
+   ],
+   "mesure": "point_indice",
+   "sujet": "Coupure du Figaro archivée par l'OFCE : 404",
+   "detail": "Économiste cité introuvable.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Revue du 27/10/2026 : remplacée par le chiffrage OFCE (Geerolf et Plane, 2024) : +10 % ≈ 23 Md€ ; borne basse −23."
+  },
+  {
+   "id": "S022",
+   "type": "lien_mort",
+   "candidats": [
+    "melenchon"
+   ],
+   "mesure": "prix",
+   "sujet": "Coupure du Figaro (variante haute Montaigne) : 404",
+   "detail": "",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Revue du 27/10/2026 : remplacée par la page de l'Institut Montaigne ; formule réécrite (9 à 38 Md€, médiane 24)."
+  },
+  {
+   "id": "S023",
+   "type": "lien_mort",
+   "candidats": [
+    "lisnard"
+   ],
+   "mesure": "depense",
+   "sujet": "Billet OFCE sur les multiplicateurs : 404",
+   "detail": "Absent du nouveau site ofce.fr.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Revue du 27/10/2026 : copie archivée (web.archive.org), signalée comme telle."
+  },
+  {
+   "id": "S024",
+   "type": "lien_mort",
+   "candidats": [],
+   "mesure": "life:institutions",
+   "sujet": "« La Croix/AMU, le référendum » : 404",
+   "detail": "",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Revue du 27/10/2026 : copie archivée du même PDF, signalée comme telle. Remplaçant possible : article HAL de M. Fatin-Rouge Stefanini (halshs-01676468)."
+  },
+  {
+   "id": "S025",
+   "type": "lien_mort",
+   "candidats": [],
+   "mesure": "life:logement",
+   "sujet": "Rapport IPP 2016 sur les aides à l'accession : 404",
+   "detail": "",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Revue du 27/10/2026 : même rapport sur HAL (halshs-02514699)."
+  },
+  {
+   "id": "S026",
+   "type": "lien_mort",
+   "candidats": [],
+   "mesure": "life:institutions",
+   "sujet": "Stadelmann-Steffen & Vatter (RERO DOC fermé) : 410",
+   "detail": "",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Revue du 27/10/2026 : remplacé par le DOI de l'article."
+  },
+  {
+   "id": "S027",
+   "type": "a_verifier",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Liens en 403 ou connexion coupée (≈ 30)",
+   "detail": "Protections anti-robots probables (connaissancedesenergies.org, fipeco.fr, police.be, interieur.gouv.fr, education.gouv.fr…) : vérifier dans un navigateur ; ne pas remplacer sans preuve qu'ils sont morts.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S028",
+   "type": "a_trancher",
+   "candidats": [
+    "melenchon"
+   ],
+   "mesure": "prix",
+   "sujet": "Blocage des prix : retenir 9 ou 24 Md€ ?",
+   "detail": "Institut Montaigne (2024) : 9 à 38 Md€, médiane 24 = moyenne des boucliers énergie 2022-2024 ; 9 = hypothèse de prix de l'énergie en baisse. Nous retenons 9 pour 2030 (borne basse 24). Passer à 24 creuserait le total de Mélenchon de 15 Md€. Règle à décider : médiane publiée ou hypothèse de prix 2030 ?",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S029",
+   "type": "a_trancher",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Quiz : mesures identiques chez plusieurs candidats",
+   "detail": "AME : seule la version Lisnard est dans le quiz (pas Le Pen ni Retailleau) ; enseignants : seule Philippe (pas Attal ni Lisnard) ; éolien : Retailleau, pas Le Pen. Choix de dédoublonnage à confirmer ou à faire tourner, pour un traitement égal.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S030",
+   "type": "a_verifier",
+   "candidats": [
+    "retailleau"
+   ],
+   "mesure": "production",
+   "sujet": "Chiffres du camp différents selon les documents",
+   "detail": "51 Md€ cumulés contre 40 Md€ par an : vérifier lequel le camp retient dans son dernier document.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
   }
  ]
 }

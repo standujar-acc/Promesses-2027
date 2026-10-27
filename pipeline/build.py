@@ -27,6 +27,7 @@ D['changelog'].insert(0,{'date':'26/10/2026','text':"Revue complète : règles d
 D['changelog'].insert(0,{'date':'27/10/2026','text':"Retrait de l'onglet « Demander » : plus de réponses générées par une IA, seules restent les fiches, le simulateur et le quiz."})
 D['changelog'].insert(0,{'date':'27/10/2026','text':"Nouvelle rubrique « Vos données » : les réponses au quiz et au simulateur ne sont ni enregistrées ni envoyées. Lien vers le code source (open source) en bas de chaque page."})
 D['changelog'].insert(0,{'date':'27/10/2026','text':"« Rien n'est enregistré » affiché sur l'accueil et le quiz. Polices servies par le site : plus aucun appel à Google Fonts."})
+D['changelog'].insert(0,{'date':'27/10/2026','text':"Revue des sources : 8 liens morts remplacés (même document à une nouvelle adresse, copie archivée signalée, ou source équivalente), chiffrage OFCE ajouté pour le point d'indice, formule du blocage des prix précisée, deux formulations rendues neutres."})
 json.dump(D,open('promesses-2027-data.json','w'),ensure_ascii=False,indent=1)
 t=open('template.html').read().replace('/*__DATA__*/', json.dumps(D,ensure_ascii=False).replace('</','<\\/'))
 open('promesses-2027.html','w').write(t)
