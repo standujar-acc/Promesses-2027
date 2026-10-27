@@ -27,6 +27,7 @@ D['changelog'].insert(0,{'date':'26/10/2026','text':"Revue complète : règles d
 D['changelog'].insert(0,{'date':'27/10/2026','text':"Retrait de l'onglet « Demander » : plus de réponses générées par une IA, seules restent les fiches, le simulateur et le quiz."})
 D['changelog'].insert(0,{'date':'27/10/2026','text':"Nouvelle rubrique « Vos données » : les réponses au quiz et au simulateur ne sont ni enregistrées ni envoyées. Lien vers le code source (open source) en bas de chaque page."})
 D['changelog'].insert(0,{'date':'27/10/2026','text':"« Rien n'est enregistré » affiché sur l'accueil et le quiz. Polices servies par le site : plus aucun appel à Google Fonts."})
+D['changelog'].insert(0,{'date':'27/10/2026','text':"Quiz : une même proposition (identique chez plusieurs candidats, comme l'AME) ne peut plus apparaître deux fois dans une partie ni s'opposer à elle-même."})
 D['changelog'].insert(0,{'date':'27/10/2026','text':"Quiz : les « + » et « − » deviennent des explications fondées sur des études (228 sources vérifiées), avec les arguments des deux côtés et les risques ; sources consultables sous chaque duel."})
 D['changelog'].insert(0,{'date':'27/10/2026','text':"Quiz : 20 duels au lieu de 16 ; chaque candidat apparaît 5 fois."})
 D['changelog'].insert(0,{'date':'27/10/2026','text':"Quiz : les contreparties décrivent l'effet propre à chaque mesure au lieu d'une formule budgétaire commune."})
