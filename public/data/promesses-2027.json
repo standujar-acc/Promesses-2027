@@ -1282,12 +1282,22 @@
     "cfe_note": "Suppression de la CFE",
     "etr": {
      "af": "nonfr",
-     "minima": "lt5w"
+     "minima": "lt5w",
+     "apl": "nonfr"
     },
     "tva_courses": {
      "part": 0.75,
      "note": "TVA de 5,5 % supprimée sur une centaine de produits de première nécessité, soit environ les trois quarts du panier (notre chiffrage rapporté à la TVA sur l'alimentation à domicile), si la baisse est répercutée"
-    }
+    },
+    "logement": [
+     {
+      "when": [
+       "credit",
+       "proprio"
+      ],
+      "t": "MaPrimeRénov' remplacée par un prêt à taux zéro « 100 % rénov » : conditions non publiées, non calculé ici."
+     }
+    ]
    },
    "promise": "Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie.",
    "obstacle_main": "La priorité nationale et le référendum exigent une révision de la Constitution."
@@ -2479,9 +2489,8 @@
      "actuel": 2.18,
      "note": "Prix du carburant bloqué à 1,70 €/l par décret, contre 2,18 €/l pour le SP95 la semaine du 23 octobre 2026 (relevé du ministère) ; blocage de 6 mois au plus par décret"
     },
-    "tous": [
-     "APL +10 % (note LFI d'octobre 2026) : non calculé ici, le simulateur ne connaît pas votre loyer."
-    ]
+    "apl_pct": 10,
+    "apl_note": "APL +10 % (note LFI d'octobre 2026), hors de notre total"
    },
    "promise": "Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines.",
    "obstacle_main": "Le rendement réel des nouveaux impôts, et les traités européens pour l'annulation de la dette."
@@ -4763,7 +4772,19 @@
      "note": "Pas d'impôt sur le revenu pendant les 3 premières années de l'enfant",
      "plafond": 3000
     },
-    "famille": "Allocation unique de 350 €/mois par enfant dès le 1er enfant, dégressive selon le revenu, en remplacement d'aides existantes : non chiffrable (seuils et aides remplacées non publiés), donc non comptée ici."
+    "famille": "Allocation unique de 350 €/mois par enfant dès le 1er enfant, dégressive selon le revenu, en remplacement d'aides existantes : non chiffrable (seuils et aides remplacées non publiés), donc non comptée ici.",
+    "logement": [
+     {
+      "when": [
+       "loc",
+       "credit",
+       "proprio",
+       "heberge"
+      ],
+      "kids": true,
+      "t": "Prêt à taux zéro pour acheter plus grand à l'arrivée d'un enfant : montant et conditions non publiés, non calculé ici."
+     }
+    ]
    },
    "promise": "Promet la retraite à 65 ans, un départ sur trois non remplacé dans la fonction publique, une allocation familiale dès le premier enfant et zéro impôt pour les jeunes parents.",
    "obstacle_main": "L'acceptation d'un nouveau report de l'âge, et le financement de l'allocation familiale unique."
@@ -5911,7 +5932,8 @@
     "famille": "« Revenu familial » de 240 € par enfant dès le 1er enfant, qui remplace 12 aides familiales : le gain ou la perte dépend des aides que vous touchez aujourd'hui ; non chiffré ici.",
     "etr": {
      "af": "lt5w",
-     "minima": "lt5w"
+     "minima": "lt5w",
+     "apl": "lt5w"
     },
     "carence_jours": 3,
     "plafond_aides": {
@@ -5924,7 +5946,22 @@
     "baisse_minima": {
      "pct": 30,
      "note": "RSA, prime d'activité et ASS fusionnés et réduits de 30 % (présentation du camp)"
-    }
+    },
+    "logement": [
+     {
+      "when": [
+       "credit"
+      ],
+      "kids": true,
+      "t": "Intérêts d'emprunt de la résidence principale déductibles à 50, 75 ou 100 % selon le nombre d'enfants : forme et plafond non publiés, non calculé ici."
+     },
+     {
+      "when": [
+       "loc"
+      ],
+      "t": "Fin de l'encadrement des loyers là où il s'applique (Paris, Lyon, Lille…) : effet sur votre loyer non chiffré."
+     }
+    ]
    },
    "promise": "Promet 197 Md€ d'économies cumulées d'ici 2032, un âge minimal de 63 ans, la fusion des aides sociales et un référendum sur l'immigration.",
    "obstacle_main": "La révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées."
@@ -8021,7 +8058,8 @@
     "heritage": [],
     "etr": {
      "af": "lt5",
-     "minima": "lt5"
+     "minima": "lt5",
+     "apl": "lt5"
     },
     "enseignants_pct": 20,
     "enseignants_note": "+20 % en cinq ans, en échange d'une réorganisation des missions"
@@ -8817,7 +8855,8 @@
     "salaire_note": "Baisse de la CSG sur les salaires jusqu'à 2 000 € net (programme 2022, non reconfirmée en 2026) : non comptée ici.",
     "etr": {
      "af": "hors",
-     "minima": "hors"
+     "minima": "hors",
+     "apl": "hors"
     }
    },
    "claude_total": {
@@ -8850,7 +8889,7 @@
   "<b>Sources.</b> 171 sources distinctes. L'année de chaque source est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » viennent des statistiques publiques (SSMSI, Insee, DREES, DEPP, Citepa, Eurostat, OTAN, etc.). Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
-  "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe »), gel des prestations, baisse des minima ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années. Ce sont des ordres de grandeur.",
+  "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, ou relevées de 10 %, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années. Ce sont des ordres de grandeur.",
   "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Les duels portent sur les mesures chiffrées et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant. Dessous, un constat : la réalité française que la proposition veut traiter, avec le chiffre officiel (le dernier chiffre officiel et son évolution en %, même forme pour toutes ; les problèmes réels sont dits clairement, sans cause ni jugement). Puis « Pour » et « Contre » donnent en une ligne le meilleur argument réel de ceux qui la défendent et de ceux qui la critiquent, avec la force des preuves de chacun (solides, mitigées, faibles, pas d'étude). Sous le duel, des cas réels sourcés (en France d'abord) et l'état des études. Même méthode pour toutes les mesures, sans fausse symétrie : on n'invente ni argument ni exemple pour équilibrer, et un exemple n'est retenu que s'il est pertinent, observé et de source reconnue ; on montre où penchent les faits et le lecteur juge ; les mesures du même type ont les mêmes cas et les mêmes niveaux de preuve. Le « Contre » tient compte du reste du programme : si une autre mesure du même candidat répond à la critique, elle est signalée. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit ; « Les deux » compte la moyenne des deux effets), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
   "<b>Sondages et contexte.</b> Ipsos-BVA des 21-22 octobre 2026, masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
  ],
@@ -8958,7 +8997,7 @@
   },
   {
    "date": "27/10/2026",
-   "text": "Simulateur revu après audit indépendant : les pertes sont comptées comme les gains (aides réservées selon la nationalité ou la durée de séjour, même calcul pour les quatre candidats concernés ; gel des prestations ; plafond des aides) ; gains oubliés ajoutés (enseignants, TVA sur les courses, carburant à 1,70 €/l, baisse de CSG, jeunes parents, 1 000 € à la naissance) ; heures sup ramenées au gain réel ; allocations familiales prises en compte dans le RSA ; jours de carence et durée du chômage affichés à part ; barres à échelle fixe ; droit actuel sourcé sur service-public.gouv.fr. Le simulateur applique désormais tout paramètre publié et confirmé, compté ou non dans le total (allocations familiales +10 % de Mélenchon)."
+   "text": "Simulateur revu après audit indépendant : les pertes sont comptées comme les gains (aides réservées selon la nationalité ou la durée de séjour, même calcul pour les quatre candidats concernés ; gel des prestations ; plafond des aides) ; gains oubliés ajoutés (enseignants, TVA sur les courses, carburant à 1,70 €/l, baisse de CSG, jeunes parents, 1 000 € à la naissance) ; heures sup ramenées au gain réel ; allocations familiales prises en compte dans le RSA ; jours de carence et durée du chômage affichés à part ; barres à échelle fixe ; droit actuel sourcé sur service-public.gouv.fr. Le simulateur applique désormais tout paramètre publié et confirmé, compté ou non dans le total (allocations familiales +10 % de Mélenchon). Nouveau réglage « Logement » : statut (locataire, propriétaire avec ou sans crédit, hébergé) et APL perçues ; APL réservées selon la nationalité ou relevées de 10 % selon les programmes ; notes sur la déduction des intérêts d'emprunt, les prêts à taux zéro et l'encadrement des loyers."
   },
   {
    "date": "27/10/2026",
