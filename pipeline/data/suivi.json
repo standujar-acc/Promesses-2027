@@ -440,6 +440,82 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": null
+  },
+  {
+   "id": "S031",
+   "type": "source_faible",
+   "candidats": [
+    "le-pen"
+   ],
+   "mesure": "enr",
+   "sujet": "Seule source : Planète Grandes Écoles",
+   "detail": "",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Revue du 27/10/2026 : contre-budgets RN 2026 (7,2 Md€) et 2027 (plus de 5 Md€, via Vert) ; délibération CRE 2026-149 ajoutée chez Le Pen et Retailleau."
+  },
+  {
+   "id": "S032",
+   "type": "source_faible",
+   "candidats": [
+    "glucksmann"
+   ],
+   "mesure": "ukraine",
+   "sujet": "Seule source : Revue Conflits (≈ 3 Md€ en 2024)",
+   "detail": "",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Revue du 27/10/2026 : lettre de R. Glucksmann (2025), ministère des Armées (0,86 Md€ livrés en 2024, 0,94 en 2025 ; les 3 Md€ étaient un plafond), Toute l'Europe (pas de saisie, prêt de 90 Md€). Proposition et obstacle mis à jour."
+  },
+  {
+   "id": "S033",
+   "type": "source_faible",
+   "candidats": [
+    "attal"
+   ],
+   "mesure": "travail",
+   "sujet": "Seule source : votons-2027.fr",
+   "detail": "",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": "Revue du 27/10/2026 : attalpresident.fr, proposition de loi n° 1791, service-public.fr (contingent de 220 h). Proposition et quiz précisés."
+  },
+  {
+   "id": "S034",
+   "type": "a_trancher",
+   "candidats": [
+    "le-pen",
+    "retailleau"
+   ],
+   "mesure": "enr / energie",
+   "sujet": "Arrêt des soutiens aux ENR : ≈ 1 Md€ en 2030, est-ce trop prudent ?",
+   "detail": "Règle commune actuelle : contrats signés maintenus, seule la hausse future est évitée, ≈ 1 Md€/an en 2030. La CRE montre +1 Md€ par an (7,29 → 8,38 Md€ de 2026 à 2027), soit +3 à 4 Md€ en 2030 si la tendance continue ; mais une bonne part vient de projets déjà attribués. À trancher, pour les deux candidats ensemble.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S035",
+   "type": "a_trancher",
+   "candidats": [
+    "attal"
+   ],
+   "mesure": "travail",
+   "sujet": "Réforme de l'assurance chômage : compter 3,6 Md€ ?",
+   "detail": "Le programme ne donne pas de paramètres. La proposition de loi n° 1791 (2025, cosignée par G. Attal) chiffre 3,6 Md€. La compter supposerait que le programme la reprend : à confirmer par le camp ou à trancher.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
   }
  ]
 }
