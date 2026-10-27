@@ -4651,6 +4651,10 @@
  "changelog": [
   {
    "date": "27/10/2026",
+   "text": "Nouvelle rubrique « Vos données » : les réponses au quiz et au simulateur ne sont ni enregistrées ni envoyées. Lien vers le code source (open source) en bas de chaque page."
+  },
+  {
+   "date": "27/10/2026",
    "text": "Retrait de l'onglet « Demander » : plus de réponses générées par une IA, seules restent les fiches, le simulateur et le quiz."
   },
   {
@@ -4678,7 +4682,7 @@
    "text": "Mise à jour après le programme complet de LFI (6 novembre) et le détail des retraites du RN (17 novembre)."
   }
  ],
- "opendata": "Toutes les données de l'app (mesures, calculs, données d'entrée et sources) sont dans un fichier JSON ouvert, sous licence CC BY 4.0 ; le code est sous licence MIT. Chacun peut refaire les calculs, les contester ou les réutiliser.",
+ "opendata": "Le projet est open source : le code est public sous licence MIT, et toutes les données de l'app (mesures, calculs, données d'entrée et sources) sont dans un fichier JSON ouvert, sous licence CC BY 4.0. Chacun peut refaire les calculs, les contester, proposer une correction ou les réutiliser.",
  "weak_domains": [
   "francebudget.fr",
   "dettedelafrance.fr",
@@ -4698,6 +4702,7 @@
   "wikiglucksmann"
  ],
  "repo_url": "https://github.com/standujar-acc/Promesses-2027",
+ "privacy": "Pas de compte, pas de publicité, pas de mesure d'audience. Vos réponses au quiz et les informations saisies dans le simulateur restent dans votre navigateur : elles ne sont ni enregistrées ni envoyées. Seul le dernier onglet consulté est gardé sur votre appareil. Un signalement d'erreur envoie uniquement ce que vous écrivez dans le formulaire, sans votre adresse IP ; les quotas anti-abus utilisent une empreinte de l'adresse IP, effacée sous 48 heures. Le site est hébergé par Cloudflare ; les polices de caractères viennent de Google Fonts, qui reçoit donc votre adresse IP lors du chargement de la page.",
  "baseline": {
   "securite": [
    {
