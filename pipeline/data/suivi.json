@@ -1,0 +1,273 @@
+{
+ "derniere_revue": "2026-10-27",
+ "points": [
+  {
+   "id": "S001",
+   "type": "annonce_attendue",
+   "candidats": [
+    "melenchon"
+   ],
+   "mesure": null,
+   "sujet": "Programme « L'avenir en commun » 2027",
+   "detail": "Publication annoncée le 6 novembre 2026, convention le 7 : revoir toutes les mesures LFI (chiffres, mesures ajoutées ou abandonnées).",
+   "echeance": "2026-11-06",
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S002",
+   "type": "annonce_attendue",
+   "candidats": [
+    "le-pen"
+   ],
+   "mesure": "retraites",
+   "sujet": "Détail de la réforme des retraites du RN",
+   "detail": "Annoncé pour le 17 novembre 2026 : paramètres (âge, annuités, capitalisation) et chiffrage du camp ; appliquer la valeur commune du retour à 62 ans.",
+   "echeance": "2026-11-17",
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S003",
+   "type": "annonce_attendue",
+   "candidats": [
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Programme 2026 de Reconquête",
+   "detail": "CSG, successions, impôts de production et quotient familial sont hors total faute de reconfirmation en 2026 : les réintégrer ou les retirer selon le programme.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S004",
+   "type": "a_verifier",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Sondages",
+   "detail": "Dernier sondage pris en compte : Ipsos-BVA des 21-22/10/2026. Mettre à jour `poll` avec institut et date à chaque nouvelle vague nationale.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S005",
+   "type": "a_confirmer",
+   "candidats": [
+    "glucksmann"
+   ],
+   "mesure": "zucman",
+   "sujet": "Impôt plancher sur les ultra-riches : reprise en 2027 ?",
+   "detail": "Défendu en 2025 ; reprise dans le programme 2027 non confirmée, donc hors total.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S006",
+   "type": "a_confirmer",
+   "candidats": [
+    "zemmour"
+   ],
+   "mesure": "csg",
+   "sujet": "Baisse de la CSG des actifs : reconfirmée en 2026 ?",
+   "detail": "Mesure de 2022 non reconfirmée en 2026, hors total (voir le point sur le programme 2026).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S007",
+   "type": "a_confirmer",
+   "candidats": [
+    "zemmour"
+   ],
+   "mesure": "succession",
+   "sujet": "Fin des droits de succession : reconfirmée en 2026 ?",
+   "detail": "Mesure de 2022 non reconfirmée en 2026, hors total (voir le point sur le programme 2026).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S008",
+   "type": "a_confirmer",
+   "candidats": [
+    "zemmour"
+   ],
+   "mesure": "production",
+   "sujet": "Baisse des impôts de production : reconfirmée en 2026 ?",
+   "detail": "Mesure de 2022 non reconfirmée en 2026, hors total (voir le point sur le programme 2026).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S009",
+   "type": "a_confirmer",
+   "candidats": [
+    "zemmour"
+   ],
+   "mesure": "famille",
+   "sujet": "Quotient familial doublé : reconfirmée en 2026 ?",
+   "detail": "Mesure de 2022 non reconfirmée en 2026, hors total (voir le point sur le programme 2026).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S010",
+   "type": "non_chiffrable",
+   "candidats": [
+    "melenchon"
+   ],
+   "mesure": "niches",
+   "sujet": "Taux du rabot des niches fiscales non publié",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S011",
+   "type": "non_chiffrable",
+   "candidats": [
+    "glucksmann"
+   ],
+   "mesure": "ecole",
+   "sujet": "Ampleur de la programmation pour l'école non publiée",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S012",
+   "type": "non_chiffrable",
+   "candidats": [
+    "glucksmann"
+   ],
+   "mesure": "ukraine",
+   "sujet": "Montant de la hausse de l'aide à l'Ukraine non publié",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S013",
+   "type": "non_chiffrable",
+   "candidats": [
+    "attal"
+   ],
+   "mesure": "retraites",
+   "sujet": "Paramètres de la fin de l'âge légal (décotes) non publiés",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S014",
+   "type": "non_chiffrable",
+   "candidats": [
+    "attal"
+   ],
+   "mesure": "immigration",
+   "sujet": "Niveau des quotas non précisé",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S015",
+   "type": "non_chiffrable",
+   "candidats": [
+    "attal"
+   ],
+   "mesure": "travail",
+   "sujet": "Paramètres de la réforme de l'assurance chômage non publiés",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S016",
+   "type": "non_chiffrable",
+   "candidats": [
+    "lisnard"
+   ],
+   "mesure": "fonction",
+   "sujet": "Proportion de départs non remplacés non publiée",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S017",
+   "type": "non_chiffrable",
+   "candidats": [
+    "lisnard"
+   ],
+   "mesure": "allocation",
+   "sujet": "Plafond de l'allocation sociale unique non publié",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S018",
+   "type": "non_chiffrable",
+   "candidats": [
+    "lisnard"
+   ],
+   "mesure": "aides5",
+   "sujet": "Publics et seuils des aides après 5 ans non précisés",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  }
+ ]
+}
