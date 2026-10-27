@@ -1,6 +1,6 @@
 # Déployer sur Cloudflare Pages
 
-Le site est statique (`public/`), avec trois petites fonctions (`functions/api/`). Aucun build côté Cloudflare : le site est déjà construit et versionné.
+Le site est statique (`public/`), avec deux petites fonctions (`functions/api/`). Aucun build côté Cloudflare : le site est déjà construit et versionné.
 
 ## Option A : tout en ligne de commande (Claude Code peut le faire seul)
 
@@ -15,7 +15,6 @@ Puis, dans le tableau de bord du projet (Paramètres → Liaisons), lier `LIMITS
 ```
 npx wrangler pages secret put ADMIN_TOKEN --project-name promesses-2027
 npx wrangler pages secret put SALT --project-name promesses-2027
-npx wrangler pages secret put ANTHROPIC_API_KEY --project-name promesses-2027   # facultatif
 ```
 Déploiement automatique à chaque push : créer un jeton API Cloudflare (modèle « Cloudflare Pages : modifier »), puis
 ```
@@ -54,19 +53,7 @@ curl -H "Authorization: Bearer <ADMIN_TOKEN>" https://promesses-2027.pages.dev/a
 ```
 Sans la liaison `REPORTS`, l'app copie le signalement dans le presse-papiers à la place.
 
-### 3. Activer l'assistant (facultatif, payant à l'usage)
-
-1. Créer une clé sur console.anthropic.com, avec une **limite de dépense mensuelle** sur le compte.
-2. Ajouter le secret `ANTHROPIC_API_KEY`.
-3. Réglages facultatifs (variables) :
-   - `ASK_MODEL` : modèle utilisé (défaut `claude-haiku-5-5`).
-   - `ASK_PER_DAY` : questions par visiteur et par jour (défaut 15).
-   - `ASK_GLOBAL_PER_DAY` : plafond global par jour (défaut 1500).
-4. Redéployer. Sans clé, l'onglet « Demander » affiche simplement que l'assistant n'est pas disponible.
-
-Le contexte (toutes les mesures) est mis en cache côté API : chaque question coûte surtout les tokens de la réponse.
-
-### 4. Nom de domaine (facultatif)
+### 3. Nom de domaine (facultatif)
 
 Projet Pages → **Domaines personnalisés** → ajouter le domaine. Les liens de partage s'adaptent tout seuls au domaine.
 
@@ -76,8 +63,6 @@ Projet Pages → **Domaines personnalisés** → ajouter le domaine. Les liens d
 python3 pipeline/run.py
 npx wrangler pages dev public --kv LIMITS --kv REPORTS --binding ADMIN_TOKEN=test
 ```
-Pour l'assistant en local, mettre `ANTHROPIC_API_KEY=...` dans un fichier `.dev.vars` (ignoré par git).
-
 ## Rappel légal
 
 La loi interdit la publication de sondages la veille et le jour de chaque tour : l'app les masque automatiquement les 17-18 avril et 1er-2 mai 2027 (heure de Paris).

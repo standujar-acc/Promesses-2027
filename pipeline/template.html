@@ -70,7 +70,7 @@ button{cursor:pointer}
 .ctx span{font-size:.74rem;color:var(--band-muted);line-height:1.3}
 
 /* navigation */
-nav.bottom{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:6px max(6px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(6px,env(safe-area-inset-left,0px))}
+nav.bottom{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,1fr);padding:6px max(6px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(6px,env(safe-area-inset-left,0px))}
 nav.bottom button{border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 2px;border-radius:10px;font-size:.7rem;font-weight:600;color:var(--muted)}
 nav.bottom svg{width:22px;height:22px}
 nav.bottom button[aria-current="page"]{color:var(--accent);background:var(--accent-soft)}
@@ -279,12 +279,6 @@ details.more > div{margin-top:12px;display:flex;flex-direction:column;gap:14px}
 .bar2 .tr{height:12px;background:var(--soft);border-radius:6px;overflow:hidden}
 .bar2 .tr i{display:block;height:100%;background:var(--accent)}
 
-/* assistant */
-.chips{display:flex;gap:6px;flex-wrap:wrap}
-.chips button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 12px;font-size:.84rem;text-align:left}
-.answer{white-space:pre-wrap;line-height:1.6}
-.answer .ref{border:0;background:var(--accent-soft);color:var(--accent);border-radius:5px;padding:0 6px;font-size:.84em;font-weight:600}
-
 /* grille faisabilité */
 .grid-wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:14px}
 table.grid{border-collapse:collapse;width:100%;min-width:620px;font-size:.82rem}
@@ -313,7 +307,7 @@ footer.foot button{border:0;background:none;color:var(--accent);padding:0;font-w
 .duel .qt{display:flex;flex-direction:column;gap:6px;text-align:left}.duel .qt b{font-weight:600;line-height:1.3}.duel .qt small{font-size:.84rem;line-height:1.35;color:var(--muted);font-weight:400}
 [hidden]{display:none!important}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-.seg button,.themes button,.lthemes button,.segtab button,footer.foot button,details summary,.chips button,.q-alt .btn{min-height:44px}
+.seg button,.themes button,.lthemes button,.segtab button,footer.foot button,details summary,.q-alt .btn{min-height:44px}
 .stepper button{width:44px;height:44px}
 input[type=range]{height:44px}
 .check{min-height:44px}.check input{width:24px;height:24px}
@@ -430,15 +424,6 @@ table.grid td button{min-width:44px;min-height:44px;display:inline-grid;place-it
 
   <section class="view stack" id="v-quiz" hidden></section>
 
-  <section class="view stack" id="v-ask" hidden>
-    <div><span class="eyebrow">Assistant</span><h2>Posez votre question</h2><p class="muted small">Claude répond à partir des fiches et des chiffrages de l'app, et renvoie vers les mesures citées.</p></div>
-    <div class="chips" id="ask-chips"></div>
-    <div class="field"><label for="ask-q">Votre question</label><textarea id="ask-q" placeholder="Ex. : qui propose de revenir sur la réforme des retraites, et combien ça coûte ?"></textarea></div>
-    <div class="row-btns"><button class="btn primary" id="ask-go">Demander</button><button class="btn" id="ask-stop" hidden>Arrêter</button></div>
-    <div class="card" id="ask-out" hidden><div class="answer" id="ask-answer"></div><p class="small muted">Réponse générée par Claude à partir des données de l'app. Vérifiez les chiffres dans les fiches citées.</p></div>
-    <p class="small muted" id="ask-off">L'assistant n'est pas disponible dans cette vue.</p>
-  </section>
-
   <section class="view stack" id="v-met" hidden>
     <div><span class="eyebrow">Transparence</span><h2>Méthode</h2></div>
     <div class="notes" id="notes"></div>
@@ -504,12 +489,11 @@ const ICON = {
   accueil:'<path d="M3 11 12 4l9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/>',
   cand:'<circle cx="9" cy="8" r="3.2"/><path d="M3 20c.6-3.4 3-5.5 6-5.5s5.4 2.1 6 5.5"/><path d="M16 5.2a3 3 0 0 1 0 5.6M18 14.8c1.7.8 2.8 2.6 3 5.2"/>',
   moi:'<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M8 18h8"/>',
-  quiz:'<path d="M4 6h7v12H4zM13 6h7v12h-7z"/><path d="M7.5 10v4M16.5 10v4"/>',
-  ask:'<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/>'
+  quiz:'<path d="M4 6h7v12H4zM13 6h7v12h-7z"/><path d="M7.5 10v4M16.5 10v4"/>'
 };
-const NAV=[['accueil','Accueil'],['cand','Candidats'],['moi','Pour moi'],['quiz','Quiz'],['ask','Demander']];
-const VIEWS={accueil:'v-accueil',cand:'v-cand',moi:'v-moi',quiz:'v-quiz',ask:'v-ask',methode:'v-met'};
-const TOK={accueil:'accueil',candidats:'cand',moi:'moi',quiz:'quiz',demander:'ask',methode:'methode'};
+const NAV=[['accueil','Accueil'],['cand','Candidats'],['moi','Pour moi'],['quiz','Quiz']];
+const VIEWS={accueil:'v-accueil',cand:'v-cand',moi:'v-moi',quiz:'v-quiz',methode:'v-met'};
+const TOK={accueil:'accueil',candidats:'cand',moi:'moi',quiz:'quiz',methode:'methode'};
 document.getElementById('bottomnav').innerHTML = NAV.map(([k,l])=>`<button data-go="${k}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[k]}</svg>${l}</button>`).join('');
 document.getElementById('topnav').innerHTML = NAV.map(([k,l])=>`<button data-go="${k}">${l}</button>`).join('');
 let view='accueil';
@@ -925,43 +909,6 @@ function quizRender(){
     navigator.clipboard.writeText(txt).then(()=>document.getElementById('quiz-st').textContent='Résultat copié.').catch(()=>document.getElementById('quiz-st').textContent=txt); };
 }
 
-/* ---------- assistant ---------- */
-const EXAMPLES=["Qui propose de revenir sur la réforme des retraites, et combien ça coûte ?","Quelles mesures exigent une révision de la Constitution ?","Que propose chaque candidat sur l'immigration ?","Quel programme creuse le moins le déficit ?"];
-document.getElementById('ask-chips').innerHTML=EXAMPLES.map(e=>`<button>${esc(e)}</button>`).join('');
-document.querySelectorAll('#ask-chips button').forEach(b=>b.onclick=()=>{ document.getElementById('ask-q').value=b.textContent; ask(); });
-function contextText(){
-  return D.candidates.map(c=>`## ${c.name} (${c.party}) · notre total ${md(c.claude_total.sum)} Md€/an en 2030 (fourchette ${md(c.claude_total.p10)} à ${md(c.claude_total.p90)}) · camp : ${c.total.claimed} · non chiffré : ${c.claude_total.missing}\n`+
-    c.measures.map(m=>`- [${c.id}.${m.id}] ${m.title} (${TH[m.theme]}) : ${m.proposal} | camp : ${m.claimed} | notre chiffrage : ${has(m)?md(m.claude.central)+' Md€/an ('+md(m.claude.low)+' à '+md(m.claude.high)+')':'non chiffrable'}${m.a_confirmer?' | non confirmé en 2026, hors total':''} | verdict : ${V[m.verdict].l} | ${m.verdict==='bloque'?'chemin':'obstacle'} : ${m.obstacle}`).join('\n')).join('\n\n');
-}
-let askCtl=null;
-async function ask(){
-  const q=document.getElementById('ask-q').value.trim(); if(q.length<4) return;
-  const out=document.getElementById('ask-out'), ans=document.getElementById('ask-answer'), gob=document.getElementById('ask-go'), stop=document.getElementById('ask-stop');
-  if(!caps.sample){ document.getElementById('ask-off').hidden=false; return; }
-  out.hidden=false; ans.textContent='Réflexion…'; gob.disabled=true; stop.hidden=false; askCtl=new AbortController();
-  const prompt=`Tu es l'assistant de l'app « Promesses 2027 », qui chiffre les programmes de la présidentielle française 2027. Réponds UNIQUEMENT à partir des données ci-dessous. Si la réponse n'y est pas, dis-le simplement.
-Règles : français, phrases courtes, 150 mots maximum, pas de titre. Pour une question comparative, couvre tous les candidats concernés. Reste strictement neutre : ne recommande jamais un vote, traite chaque candidat de la même manière, n'emploie pas d'adjectifs de jugement. Cite chaque mesure utilisée avec son identifiant entre crochets, par exemple [le-pen.retraites]. Les montants sont en Md€ par an à l'horizon 2030 ; un nombre négatif creuse le déficit. Notre chiffrage suppose que toutes les mesures passent ; « Exige une révision » signifie impossible en l'état du droit sans réviser la Constitution ou les traités.
-
-Contexte budgétaire : ${D.context.map(c=>c.v+' '+c.l).join(' ; ')}.
-
-DONNÉES
-${contextText()}
-
-QUESTION : ${q}`;
-  if(caps.web){ try{ const r=await fetch('/api/ask',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({q:q.slice(0,600)}),signal:askCtl.signal});
-      const j=await r.json().catch(()=>({})); if(r.status===429) ans.textContent=j.error||'Limite de questions atteinte pour aujourd\'hui. Réessayez demain.'; else if(!r.ok) ans.textContent=j.error||'La réponse n\'a pas pu être générée.'; else renderAnswer(j.text||''); }
-    catch(e){ ans.textContent = e&&e.name==='AbortError' ? 'Question annulée.' : 'La réponse n\'a pas pu être générée.'; }
-    finally{ gob.disabled=false; stop.hidden=true; } return; }
-  try{ const r=await caps.sample(prompt,{signal:askCtl.signal,cache:false,onText:({text})=>{ ans.textContent=text; }}); renderAnswer(r.text); }
-  catch(e){ if(e&&e.code==='not_granted'){ out.hidden=true; document.getElementById('ask-off').hidden=false; } else if(e&&e.code==='rate_limited') ans.textContent='Trop de questions d\'un coup. Réessayez dans un moment.'; else if(e&&e.text) renderAnswer(e.text); else ans.textContent='La réponse n\'a pas pu être générée.'; }
-  finally{ gob.disabled=false; stop.hidden=true; }
-}
-function renderAnswer(t){ const ans=document.getElementById('ask-answer');
-  ans.innerHTML=esc(t).replace(/\[([a-z-]+)\.([a-z0-9_-]+)\]/g,(all,c,m)=>{ const cc=cand(c), mm=cc&&cc.measures.find(z=>z.id===m); return mm?`<button class="ref" data-c="${c}" data-m="${m}">${esc(cc.short)} · ${esc(mm.title)}</button>`:all; });
-  ans.querySelectorAll('.ref').forEach(b=>b.onclick=()=>openMeasure(b.dataset.c,b.dataset.m)); }
-document.getElementById('ask-go').onclick=ask; document.getElementById('ask-go').disabled=true;
-document.getElementById('ask-stop').onclick=()=>askCtl&&askCtl.abort();
-
 /* ---------- méthode ---------- */
 document.getElementById('notes').innerHTML = D.method.map(t=>`<p>${t}</p>`).join('') + (blackout?'<p><b>Sondages masqués</b> : la loi interdit leur publication la veille et le jour du scrutin.</p>':'');
 document.getElementById('log').innerHTML = (D.changelog||[]).map(l=>`<li><span class="num muted">${esc(l.date)}</span><span>${esc(l.text)}</span></li>`).join('');
@@ -971,17 +918,15 @@ document.getElementById('opendata').innerHTML = D.opendata;
 board(); grid(); lifeHome(); render();
 route(); if(!location.hash) setHash('accueil',true);
 addEventListener('popstate',route); addEventListener('hashchange',route);
-if(!(window.claude&&window.claude.use)) {} else document.getElementById('ask-off').hidden=true;
 if(WEB){
   caps.downloads={ save: async ({filename,data}) => { const a=document.createElement('a'); a.href=URL.createObjectURL(data); a.download=filename; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },1000); } };
   caps.report = async doc => { const r=await fetch('/api/report',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(doc)}); if(!r.ok) throw {code:'unavailable'}; };
-  fetch('/api/ask').then(r=>r.ok?r.json():{enabled:false}).then(j=>{ if(j.enabled){ caps.web=true; caps.sample=true; document.getElementById('ask-off').hidden=true; document.getElementById('ask-go').disabled=false; } }).catch(()=>{});
   if(D.repo_url) document.getElementById('opendata').innerHTML = D.opendata + ` <a href="data/promesses-2027.json" download>Télécharger les données (JSON)</a> · <a href="${esc(D.repo_url)}" target="_blank" rel="noopener">Code et méthode sur GitHub</a>`;
 }
 (async () => {
   if(!window.claude || !window.claude.use) return;
-  const [db,user,sample,downloads] = await Promise.all(['db','user','sample','downloads'].map(n=>window.claude.use(n).catch(()=>null)));
-  caps.db=db; caps.sample=sample; caps.downloads=downloads; document.getElementById('ask-off').hidden=!!sample; document.getElementById('ask-go').disabled=!sample;
+  const [db,user,downloads] = await Promise.all(['db','user','downloads'].map(n=>window.claude.use(n).catch(()=>null)));
+  caps.db=db; caps.downloads=downloads;
   if(user){ try{ caps.uid=await user.id(); }catch(e){} }
   if(!document.getElementById('modal').hidden) document.getElementById('card-save').hidden=!downloads;
 })();

@@ -7,15 +7,15 @@ Même traitement pour tous les candidats, toujours. Avant toute modification d'u
 
 ## Pipeline (source de vérité : `pipeline/`)
 ```
-python3 pipeline/run.py     # corrections → totaux → build → public/index.html, public/data/promesses-2027.json, lib/context.js
+python3 pipeline/run.py     # corrections → totaux → build → public/index.html, public/data/promesses-2027.json
 python3 tests/smoke.py      # Playwright + Chromium
 ```
-- Ne jamais éditer `public/` ni `lib/context.js` à la main ; la CI vérifie qu'ils correspondent aux sources.
+- Ne jamais éditer `public/` à la main ; la CI vérifie qu'ils correspondent aux sources.
 - `pipeline/base.json` : base fusionnée d'origine. `corrections.py` : toutes les corrections, datées par bloc (« review 2 », « review 3 »…), puis **les totaux sont calculés en dernier** (ne rien modifier après le bloc `# --- totaux`).
 - `build.py` : textes de la méthode (`D.method`) et historique (`D.changelog`, ajouter une entrée datée à chaque changement visible).
 - `life.py` : volet vie quotidienne. `OVR` = même lecture d'une étude pour un même type de mesure ; `VFLIP` = même test « précis / intention ».
 - `data/quiz_plain.json` : textes du quiz en langage courant (`[texte, concrètement]`) ; pas de coût, pas de faisabilité, pas de chiffre qui trahit le candidat. Une mesure sans entrée n'apparaît pas dans le quiz.
-- `template.html` : toute l'app (HTML/CSS/JS sans dépendance). Fonctionne en artifact claude.ai (`window.claude`) et en site autonome (`WEB` : fonctions `/api/*`).
+- `template.html` : toute l'app (HTML/CSS/JS sans dépendance). Fonctionne en artifact claude.ai (`window.claude`) et en site autonome (`WEB` : fonctions `/api/report`, `/api/reports`).
 
 ## Règles de chiffrage (résumé ; détail dans `D.method` et METHODOLOGIE.md)
 - Md€/an, effet sur le solde public, année pleine 2030, euros 2026 ; + améliore le solde.
@@ -32,4 +32,4 @@ python3 tests/smoke.py      # Playwright + Chromium
 - Sondages (`poll`) : Ipsos-BVA 21-22/10/2026 ; masqués automatiquement les 17-18 avril et 1er-2 mai 2027 (`D.blackout`).
 
 ## Déploiement
-Cloudflare Pages, sortie `public/` + `functions/`, pas de build côté Cloudflare, pas de wrangler.toml (liaisons et secrets réglés dans le tableau de bord). Déploiement : `npx wrangler pages deploy public --project-name promesses-2027`, ou automatique via `.github/workflows/deploy.yml` une fois les secrets posés. Voir DEPLOY.md. Secrets : `ANTHROPIC_API_KEY`, `ADMIN_TOKEN`, `SALT` ; KV : `LIMITS`, `REPORTS`.
+Cloudflare Pages, sortie `public/` + `functions/`, pas de build côté Cloudflare, pas de wrangler.toml (liaisons et secrets réglés dans le tableau de bord). Déploiement : `npx wrangler pages deploy public --project-name promesses-2027`, ou automatique via `.github/workflows/deploy.yml` une fois les secrets posés. Voir DEPLOY.md. Pas d'assistant IA (retiré le 27/10/2026). Secrets : `ADMIN_TOKEN`, `SALT` ; KV : `LIMITS`, `REPORTS`.

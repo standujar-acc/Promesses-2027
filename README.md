@@ -21,8 +21,8 @@ Un montant négatif creuse le déficit. Ces totaux supposent que toutes les mesu
 
 ```
 public/            le site, tel qu'il est servi (index.html autonome + data/promesses-2027.json)
-functions/api/     fonctions Cloudflare Pages : ask (assistant), report (signalements), reports (lecture admin)
-lib/               code partagé des fonctions ; lib/context.js est généré
+functions/api/     fonctions Cloudflare Pages : report (signalements), reports (lecture admin)
+lib/               code partagé des fonctions
 pipeline/          la source de vérité
   base.json        base fusionnée des programmes (avant corrections)
   corrections.py   règles communes, corrections datées, totaux (simulation à 20 000 tirages), résumés
@@ -30,18 +30,18 @@ pipeline/          la source de vérité
   build.py         méthode, historique, injection des données dans le gabarit
   template.html    l'app (HTML, CSS, JS sans dépendance)
   data/            fichiers de travail par candidat, vie quotidienne, quiz, repères officiels
-  run.py           lance tout et écrit public/ et lib/context.js
+  run.py           lance tout et écrit public/
 tests/smoke.py     test de bout en bout (Playwright)
 ```
 
 ## Construire
 
 ```
-python3 pipeline/run.py        # reconstruit public/ et lib/context.js
+python3 pipeline/run.py        # reconstruit public/
 python3 tests/smoke.py         # vérifie l'app (Playwright + Chromium)
 ```
 
-Rien n'est à modifier à la main dans `public/` ni dans `lib/context.js` : on modifie `pipeline/`, puis on relance `run.py`. La CI GitHub vérifie que le site versionné correspond aux sources.
+Rien n'est à modifier à la main dans `public/` : on modifie `pipeline/`, puis on relance `run.py`. La CI GitHub vérifie que le site versionné correspond aux sources.
 
 ## Déployer
 
