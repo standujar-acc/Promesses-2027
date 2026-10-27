@@ -413,6 +413,7 @@ table.grid td button{min-width:44px;min-height:44px;display:inline-grid;place-it
         <div class="field"><span class="lab">Enfants de moins de 20 ans</span><div class="stepper"><button id="k-minus" aria-label="Un enfant de moins">−</button><b id="s-kids-v">2</b><button id="k-plus" aria-label="Un enfant de plus">+</button></div></div>
         <div class="field"><span class="lab">Nationalité</span><div class="seg" id="s-nat" role="group" aria-label="Nationalité"></div></div>
       </div>
+      <label class="check" id="f-baby" hidden><input type="checkbox" id="s-baby"> Un enfant de moins de 3 ans</label>
       <label class="check" id="f-res" hidden><input type="checkbox" id="s-res"> En France depuis moins de 5 ans (ou moins de 5 ans de travail)</label>
       <details class="more"><summary>Affiner : énergie, heures sup, CFE, patrimoine</summary><div>
         <div class="slider"><span class="l1"><label for="s-energy" class="small muted">Énergie par mois (électricité, gaz, carburant)</label><b id="s-energy-v"></b></span><input type="range" id="s-energy" min="0" max="800" step="10" value="220"></div>
@@ -768,7 +769,7 @@ function seg(id, opts, key){ const el=document.getElementById(id); el.innerHTML=
 seg('s-status',STATUS,'status'); seg('s-nat',NAT,'nat'); seg('s-wealth',WEALTH,'wealth'); seg('s-inh',INH,'inh');
 document.getElementById('k-minus').onclick=()=>{ S.kids=Math.max(0,S.kids-1); sim(); };
 document.getElementById('k-plus').onclick=()=>{ S.kids=Math.min(8,S.kids+1); sim(); };
-['s-year','s-salary','s-energy','s-cfe','s-ot','s-food','s-res'].forEach(i=>document.getElementById(i).addEventListener('input',sim));
+['s-year','s-salary','s-energy','s-cfe','s-ot','s-food','s-res','s-baby'].forEach(i=>document.getElementById(i).addEventListener('input',sim));
 const WORKERS=['prive','public','enseignant'];
 function allocOf(a, n, fb){ if(n<=0) return 0; if(!a) return fb?allocOf(fb,n):0; const k=n>=3?'3':String(n); if(a[k]==null) return fb?allocOf(fb,n):0; return n<=3 ? a[k] : a['3']+(n-3)*(a.par_enfant_sup ?? (fb?fb.par_enfant_sup:0)); }
 function sqAge(y){ const t=SQ.retraite.table; let a=t[0][1]; for(const [yy,aa] of t){ if(y>=yy) a=aa; } return a; }
@@ -788,7 +789,7 @@ const openSim=new Set(); let presetVal=null;
 function sim(){
   const g=id=>document.getElementById(id);
   const year=+g('s-year').value, st=S.status, kids=S.kids, en=+g('s-energy').value, nat=S.nat, wealth=S.wealth, inh=S.inh, ot=g('s-ot').checked, cfe=+g('s-cfe').value, food=+g('s-food').value, lt5=nat!=='fr'&&g('s-res').checked;
-  g('f-res').hidden=nat==='fr';
+  g('f-res').hidden=nat==='fr'; const baby=kids>0&&g('s-baby').checked; g('f-baby').hidden=kids===0;
   g('s-year-v').textContent=year; g('s-energy-v').textContent=eur(en,false)+'/mois'; g('s-food-v').textContent=eur(food,false)+'/mois'; g('s-cfe-v').textContent=eur(cfe,false); g('s-kids-v').textContent=kids;
   if(st!==lastSt){ const sl=g('s-salary'); sl.max=MAXS[st]; sl.step=STEPS[st]||20; sl.value=DEF[st]; const ny=DEFY[st]||(DEFY[lastSt]?1990:null); if(ny) g('s-year').value=ny; lastSt=st;
     g('s-presets').innerHTML = (['prive','public','enseignant','independant'].includes(st)?[[SQ.smic_net,'SMIC'],[SQ.salaire_moyen||2733,'Salaire moyen']]:[]).map(([v,l])=>`<button data-v="${v}">${l} · ${eur(v,false)}</button>`).join('');
@@ -825,6 +826,11 @@ function sim(){
     else if(sn && sn.max && sal>sn.max && active) notes.push(`${sn.note} : rien au-delà de ${eur(sn.max,false)} net dans la version publiée.`);
     if(s.overtime && st==='prive'){ const so=Math.min(sal,2*SQ.smic_net); if(ot) add('Heures sup', s.overtime.label+' (gain plafonné au niveau de 2 SMIC, les heures sup étant déjà en partie exonérées)', s.overtime.annual_at_smic? s.overtime.annual_at_smic/12*so/SQ.smic_net : s.overtime.monthly*so/s.overtime.ref); else notes.push(`${s.overtime.label} : un gain si vous faites des heures supplémentaires.`); }
     if(s.ir_exempt_under && age<s.ir_exempt_under && active){ if(ir>0) add('Impôt',`Moins de ${s.ir_exempt_under} ans exonérés d'impôt sur le revenu`,ir/12); else notes.push(`Moins de ${s.ir_exempt_under} ans exonérés d'impôt sur le revenu : vous n'en payez pas aujourd'hui.`); }
+    if(s.ir_jeunes_parents && kids>0 && active){ const jp=s.ir_jeunes_parents;
+      if(!baby) notes.push(jp.note+' : cochez « un enfant de moins de 3 ans » si c\'est votre cas.');
+      else if(sal>jp.max) notes.push(jp.note+` : au-delà de ${eur(jp.max,false)} net, vous êtes supposé hors des « classes moyennes » visées (plafond non publié).`);
+      else if(ir>0) add('Impôt',esc(jp.note)+` (plafond « classes moyennes » non publié, supposé à ${eur(jp.max,false)} net)`,ir/12);
+      else notes.push(jp.note+' : vous ne payez pas d\'impôt sur le revenu aujourd\'hui.'); }
     if((st==='public'||st==='enseignant') && s.point_indice_pct && sal>0) add('Point d\'indice',`≈ +${String(s.point_indice_pct).replace('.',',')} % sur la part indiciaire du salaire, supposée à 80 % (déduit du coût annoncé)`,sal*0.8*s.point_indice_pct/100);
     if(st==='enseignant' && s.enseignants_pct && sal>0) add('Salaire enseignant',esc(s.enseignants_note||`+${s.enseignants_pct} % d'ici la fin du mandat`),sal*s.enseignants_pct/100);
     if(st==='enseignant' && s.enseignants_eur) add('Salaire enseignant',esc(s.enseignants_eur.note),s.enseignants_eur.montant);
@@ -859,9 +865,8 @@ function sim(){
     (s.heritage||[]).filter(p=>inh>=p.seuil).forEach(p=>q.push(p.effet));
     return {c,money,rows,q:[...q,...notes],ret,cap};
   });
-  const mx=Math.max(50,...out.map(o=>Math.abs(o.money)));
   if(!window._simObs && 'IntersectionObserver' in window){ window._simObs=new IntersectionObserver(es=>{ g('simbar').hidden=es[0].isIntersecting; },{threshold:0.05}); window._simObs.observe(g('simres')); }
-  g('simres').innerHTML = out.map(o=>{ const c=o.c, open=openSim.has(c.id), hh=perHH(c.claude_total.sum), w=Math.abs(o.money)/mx*50;
+  g('simres').innerHTML = out.map(o=>{ const c=o.c, open=openSim.has(c.id), hh=perHH(c.claude_total.sum), w=Math.min(1,Math.sqrt(Math.abs(o.money)/1000))*50;
     return `<div class="srow" data-c="${c.id}"><button aria-expanded="${open}">
       <span class="t1"><span class="nm">${esc(c.short)}</span><span class="eur ${o.money>0.5?'pos':o.money<-0.5?'neg':''}">${Math.abs(o.money)<0.5?'0 €':eur(o.money)}</span></span>
       <span class="track"><i class="zero" style="left:50%"></i><i class="bar" style="left:${o.money<0?50-w:50}%;width:${Math.max(w,.6)}%;background:${colorOf(o.money)};opacity:.75"></i></span>
