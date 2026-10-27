@@ -4484,18 +4484,60 @@
      },
      "quiz_text": "Supprimer l'aide publique à la rénovation énergétique des logements",
      "quiz_concret": "Fin de l'aide de l'État pour isoler ou changer de chauffage.",
-     "quiz_plus": "L'aide finance surtout des gestes isolés (73 % des dossiers début 2023) et peu de rénovations globales (1,7 %) ; son taux ne semble pas lié aux gains d'énergie par euro investi (France Stratégie 2024).",
-     "quiz_moins": "Les aides évitent environ 1,8 Mt de CO2 par an, près de 4 % des émissions du résidentiel (estimation théorique), et vont à 81 % aux ménages modestes et très modestes (France Stratégie 2024).",
+     "quiz_plus": "Une part des travaux aidés se ferait sans aide, et les économies réelles restent modestes.",
+     "quiz_moins": "Sans aide, moins de ménages isoleraient leur logement, et leur consommation resterait haute.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Avec le crédit d'impôt pour isoler, 40 à 85 % des ménages aidés auraient fait les travaux sans aide (Nauleau, France, 2014).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Les économies d'énergie mesurées après isolation n'atteignent qu'environ 42 % de celles calculées sur plan (Insee-SDES, France, 2026).",
+       "s": [
+        1
+       ]
+      },
+      {
+       "t": "Début 2023, 73 % des dossiers aidés finançaient un seul geste de travaux, et 1,7 % une rénovation complète (France Stratégie, France, 2024).",
+       "s": [
+        2
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Le crédit d'impôt a fait augmenter les travaux d'isolation à partir de 2007, d'autant plus que son taux était élevé (Nauleau, France, 2014).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Après des travaux d'isolation aidés, les maisons chauffées au gaz ont consommé 6,6 % de moins, et 12,7 % de moins pour les plus énergivores (Insee-SDES, France, 2026).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "L'aide fait réaliser des travaux qui réduisent la consommation, avec un effet d'aubaine important (mesuré sur l'ancien crédit d'impôt) et des gains inférieurs aux calculs.",
      "quiz_src": [
+      {
+       "l": "Nauleau, Free-riding on tax credits for home insulation in France (Energy Economics)",
+       "a": 2014,
+       "u": "https://ideas.repec.org/a/eee/eneeco/v46y2014icp78-92.html"
+      },
+      {
+       "l": "Insee-SDES, document de travail 2025-16, isolation et consommation réelle d'énergie",
+       "a": 2026,
+       "u": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+      },
       {
        "l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov'",
        "a": 2024,
        "u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
-      },
-      {
-       "l": "iFRAP, Rénovation énergétique : l'impact très limité des primes (d'après Cour des comptes 2023)",
-       "a": 2024,
-       "u": "https://www.ifrap.org/agriculture-et-energie/renovation-energetique-limpact-tres-limite-des-7-milliards-de-primes"
       }
      ]
     },
@@ -10130,18 +10172,57 @@
    "title": "Supprimer les quotas de logements sociaux et l'objectif de zéro artificialisation des sols",
    "quiz_text": "Supprimer les quotas de logements sociaux et l'objectif de zéro artificialisation des sols",
    "quiz_concret": "Plus d'obligation d'avoir 20 à 25 % de logements sociaux, ni de limite à la construction sur terres agricoles.",
-   "quiz_plus": "Le quota a fait bâtir du logement social sans guère accroître la part de ménages modestes (Chapelle et al. 2025) ; en Angleterre, sans contraintes d'urbanisme, les prix seraient d'un tiers plus bas (Hilber, Vermeulen 2016).",
-   "quiz_moins": "Le quota explique 61 % de la hausse du parc social des communes visées en 2000-2008 (même étude) ; 62 % des terres agricoles et naturelles consommées pour l'habitat l'étaient dans des communes peu tendues (Cerema 2026).",
-   "quiz_src": [
+   "quiz_plus": "Le quota change peu la mixité, et limiter les terrains à bâtir fait monter les prix.",
+   "quiz_moins": "Sans ces règles, on bâtirait moins de logements sociaux et plus sur les terres agricoles.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "mitigé",
+   "quiz_cas_pour": [
     {
-     "l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE WP 2025-18)",
-     "a": 2025,
-     "u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
+     "t": "Le quota a fait monter la part de logements sociaux des communes visées, mais à peine celle des ménages pauvres qui y vivent (Chapelle et al., France, 2025).",
+     "s": [
+      0
+     ]
     },
     {
-     "l": "France Stratégie, logement social et ségrégation (via Banque des Territoires)",
-     "a": 2021,
-     "u": "https://www.banquedesterritoires.fr/des-logements-sociaux-mieux-repartis-sur-le-territoire-mais-sans-effet-sur-la-mixite-sociale"
+     "t": "Les règles qui freinent la construction ont fait monter les prix : sans elles, les logements coûteraient un tiers de moins (Hilber et Vermeulen, Angleterre, 2016).",
+     "s": [
+      1,
+      2
+     ]
+    },
+    {
+     "t": "Les logements sociaux sont mieux répartis, mais les 20 % de ménages les plus modestes restent aussi concentrés par quartier depuis 2012 (France Stratégie, France, 2021).",
+     "s": [
+      3
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Le quota explique 61 % de la hausse du nombre de logements sociaux dans les communes visées entre 2000 et 2008 (Chapelle et al., France, 2025).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "La part des logements neufs bâtis sur des terrains déjà urbanisés est passée de 56 % à 80 % de 1997 à 2009 (ministère du Logement, Angleterre, 2010).",
+     "s": [
+      4
+     ]
+    },
+    {
+     "t": "De 1999 à 2011, le parc social a crû de 12,7 % dans les communes en retard sur le quota, contre 6 % dans les communes non concernées (CGDD, France, 2014).",
+     "s": [
+      5
+     ]
+    }
+   ],
+   "quiz_etudes": "Quota : effets bien mesurés, plus de logements sociaux mais peu de mixité. Objectif foncier trop récent pour être évalué ; les limites à bâtir font monter les prix ailleurs.",
+   "quiz_src": [
+    {
+     "l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE, document de travail 2025-18)",
+     "a": 2025,
+     "u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
     },
     {
      "l": "Hilber et Vermeulen, The Impact of Supply Constraints on House Prices in England (Economic Journal), présentation des auteurs",
@@ -10149,16 +10230,37 @@
      "u": "https://ec.europa.eu/economy_finance/events/2016/20161130-workshop/documents/wouter_vermeulen_en.pdf"
     },
     {
-     "l": "CGDD, Le Point sur n° 195, effet de la loi SRU (via Banque des Territoires)",
+     "l": "Hilber et Vermeulen, Economic Journal 126(591), résumé",
+     "a": 2016,
+     "u": "https://researchonline.lse.ac.uk/id/eprint/58017"
+    },
+    {
+     "l": "France Stratégie, La meilleure répartition des logements sociaux a-t-elle fait progresser la mixité sociale ? (via Banque des Territoires)",
+     "a": 2021,
+     "u": "https://www.banquedesterritoires.fr/des-logements-sociaux-mieux-repartis-sur-le-territoire-mais-sans-effet-sur-la-mixite-sociale"
+    },
+    {
+     "l": "Department for Communities and Local Government, Land Use Change Statistics (England) 2009",
+     "a": 2010,
+     "u": "https://assets.publishing.service.gov.uk/media/5a79bbbced915d042206aa45/1558850.pdf"
+    },
+    {
+     "l": "CGDD, Le Point sur n° 195, les dynamiques locales du logement social 1999-2011 : l'effet de la loi SRU (via Banque des Territoires)",
      "a": 2014,
      "u": "https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social"
     },
     {
-     "l": "Cerema, Analyse de la consommation d'espaces naturels, agricoles et forestiers 2011-2025",
+     "l": "Cour des comptes, L'encadrement des loyers",
      "a": 2026,
-     "u": "https://artificialisation.developpement-durable.gouv.fr/sites/artificialisation/files/fichiers/2026/06/determinants_2011-2025.pdf"
+     "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
     }
-   ]
+   ],
+   "quiz_constat": {
+    "t": "Les mises en chantier de logements reculent depuis 2017, jusqu'à 251 000 en 2024 (Cour des comptes).",
+    "s": [
+     6
+    ]
+   }
   },
   {
    "c": "le-pen",
@@ -10168,20 +10270,67 @@
    "title": "Remplacer la prime à la rénovation énergétique par un prêt à taux zéro",
    "quiz_text": "Remplacer la prime à la rénovation énergétique par un prêt à taux zéro",
    "quiz_concret": "Pour isoler ou changer de chauffage, l'État prête sans intérêts au lieu de verser une prime.",
-   "quiz_plus": "La prime finance surtout des gestes isolés (73 % des dossiers), peu de rénovations complètes (1,7 %) (France Stratégie 2024) ; un prêt coûte moins à l'État, et l'éco-prêt est passé de 19 000 à 82 000 par an en 2018-2022.",
-   "quiz_moins": "Les ménages modestes, qui touchent 81 % des primes, paient encore 47 à 64 % des travaux (France Stratégie 2024) ; les plus fragiles accèdent peu au crédit, et le prêt gagé sur le logement n'a servi qu'une centaine de fois.",
-   "quiz_src": [
+   "quiz_plus": "Un prêt sans intérêts suffit à beaucoup de ménages, et l'argent prêté revient à l'État.",
+   "quiz_moins": "Les ménages modestes empruntent peu : sans prime, beaucoup renonceraient aux travaux.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "mitigé",
+   "quiz_cas_pour": [
     {
-     "l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov'",
-     "a": 2024,
-     "u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
+     "t": "Le prêt à taux zéro pour rénover, ouvert aux travaux d'un seul geste en 2019, est passé de 18 755 prêts en 2018 à 82 000 en 2022, avec les primes (Sénat, France, 2023).",
+     "s": [
+      0
+     ]
     },
+    {
+     "t": "Avec le crédit d'impôt pour isoler, 40 à 85 % des ménages aidés auraient fait les travaux sans aide (Nauleau, France, 2014).",
+     "s": [
+      1
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Le prêt public pour isoler n'a attiré que 14 000 ménages en trois ans, contre 1,4 million de logements aidés par les fournisseurs d'énergie (NAO, Royaume-Uni, 2016).",
+     "s": [
+      2
+     ]
+    },
+    {
+     "t": "Le crédit d'impôt a fait augmenter les travaux d'isolation à partir de 2007, d'autant plus que son taux était élevé (Nauleau, France, 2014).",
+     "s": [
+      1
+     ]
+    }
+   ],
+   "quiz_etudes": "Pas d'évaluation d'une prime remplacée par un prêt. L'effet d'aubaine des aides est mesuré (ancien crédit d'impôt) ; un prêt seul a peu attiré au Royaume-Uni.",
+   "quiz_src": [
     {
      "l": "Sénat, commission d'enquête sur la rénovation énergétique des logements, rapport n° 811",
      "a": 2023,
      "u": "https://www.senat.fr/rap/r22-811-1/r22-811-1_mono.html"
+    },
+    {
+     "l": "Nauleau, Free-riding on tax credits for home insulation in France (Energy Economics)",
+     "a": 2014,
+     "u": "https://ideas.repec.org/a/eee/eneeco/v46y2014icp78-92.html"
+    },
+    {
+     "l": "National Audit Office (Cour des comptes britannique), Green Deal and Energy Company Obligation",
+     "a": 2016,
+     "u": "https://www.nao.org.uk/wp-content/uploads/2016/04/Green-Deal-and-Energy-Company-Obligation.pdf"
+    },
+    {
+     "l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov' (calculs SDES)",
+     "a": 2024,
+     "u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
     }
-   ]
+   ],
+   "quiz_constat": {
+    "t": "Début 2023, 15,7 % des résidences principales étaient des passoires énergétiques, 17 % un an avant (SDES).",
+    "s": [
+     3
+    ]
+   }
   },
   {
    "c": "melenchon",
@@ -10191,8 +10340,33 @@
    "title": "Rénover et isoler au moins 700 000 logements par an",
    "quiz_text": "Rénover et isoler au moins 700 000 logements par an",
    "quiz_concret": "Un service public finance l'isolation des logements, d'abord pour les ménages en précarité énergétique.",
-   "quiz_plus": "Isoler baisse la consommation réelle de 5 % (électricité) à 6,6 % (gaz), jusqu'à 13 % dans les logements les plus énergivores (Insee-SDES 2026) ; les travaux aidés en 2022 éviteraient 1,8 Mt de CO2 par an (estimation théorique).",
-   "quiz_moins": "Les économies réelles ne font qu'environ 42 % des gains calculés (Insee-SDES 2026) ; en 2021, l'objectif de dossiers aidés a été dépassé (644 000), surtout avec des gestes isolés plutôt que des rénovations complètes.",
+   "quiz_plus": "Isoler les logements mal chauffés baisse leur consommation, surtout dans les plus énergivores.",
+   "quiz_moins": "Viser beaucoup de chantiers favorise des petits travaux qui économisent moins que prévu.",
+   "quiz_preuve_pour": "solide",
+   "quiz_preuve_contre": "solide",
+   "quiz_cas_pour": [
+    {
+     "t": "Après des travaux d'isolation aidés, les maisons chauffées au gaz ont consommé 6,6 % de moins, et 12,7 % de moins pour les plus énergivores (Insee-SDES, France, 2026).",
+     "s": [
+      0
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "644 000 dossiers aidés en 2021, au-delà de l'objectif ; début 2023, 73 % finançaient un seul geste et 1,7 % une rénovation complète (France Stratégie, France, 2024).",
+     "s": [
+      1
+     ]
+    },
+    {
+     "t": "Les économies d'énergie mesurées après isolation n'atteignent qu'environ 42 % de celles calculées sur plan (Insee-SDES, France, 2026).",
+     "s": [
+      0
+     ]
+    }
+   ],
+   "quiz_etudes": "Les mesures sur compteurs concordent : l'isolation réduit la consommation, mais bien moins que les calculs (environ 42 % des gains prévus), en France comme à l'étranger.",
    "quiz_src": [
     {
      "l": "Insee-SDES, document de travail 2025-16, isolation et consommation réelle d'énergie",
@@ -10204,7 +10378,13 @@
      "a": 2024,
      "u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
     }
-   ]
+   ],
+   "quiz_constat": {
+    "t": "Début 2023, 15,7 % des résidences principales étaient des passoires énergétiques, 17 % un an avant (SDES).",
+    "s": [
+     1
+    ]
+   }
   },
   {
    "c": "philippe",
@@ -10214,13 +10394,44 @@
    "title": "Créer un prêt à taux zéro pour acheter plus grand à l'arrivée d'un enfant",
    "quiz_text": "Créer un prêt à taux zéro pour acheter plus grand à l'arrivée d'un enfant",
    "quiz_concret": "Une famille qui doit déménager parce qu'un enfant arrive peut emprunter sans intérêts pour acheter.",
-   "quiz_plus": "Le surpeuplement freine la scolarité : 60 % des jeunes de 15 ans vivant à deux enfants ou plus par chambre ont redoublé, un lien jugé causal (Goux, Maurin 2005) ; ces prêts aident à acheter un bien plus adapté (ANIL).",
-   "quiz_moins": "Effet d'aubaine : 85 % des bénéficiaires du prêt à taux zéro auraient acheté sans lui ; le prêt est associé à +7 % sur le prix des terrains, et un prêt plus élevé n'est pas lié à un logement plus grand (IPP 2016).",
+   "quiz_plus": "Un prêt sans intérêts aide les familles qui s'agrandissent à quitter un logement trop petit.",
+   "quiz_moins": "L'aide va surtout à des familles qui auraient acheté de toute façon, et renchérit les terrains.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "solide",
+   "quiz_cas_pour": [
+    {
+     "t": "Le prêt à taux zéro a surtout permis à des ménages modestes d'acheter sans attendre d'avoir épargné un apport (Gobillon et Le Blanc, France, 2005).",
+     "s": [
+      0
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "85 % des ménages aidés par le prêt à taux zéro auraient acheté même sans lui (Gobillon et Le Blanc, France, 2005).",
+     "s": [
+      0,
+      1
+     ]
+    },
+    {
+     "t": "Le prêt à taux zéro a fait monter d'environ 7 % le prix des terrains à bâtir (IPP, France, 2016).",
+     "s": [
+      2
+     ]
+    }
+   ],
+   "quiz_etudes": "Les évaluations du prêt à taux zéro concordent : effet déclencheur réel mais faible, aubaine forte, prix des terrains en hausse. Le surpeuplement nuit à la scolarité.",
    "quiz_src": [
     {
-     "l": "Goux et Maurin, The effect of overcrowded housing on children's performance at school (Journal of Public Economics)",
+     "l": "Gobillon et Le Blanc, Quelques effets économiques du prêt à taux zéro (Insee, Économie et Statistique n° 381-382)",
      "a": 2005,
-     "u": "https://ideas.repec.org/a/eee/pubeco/v89y2005i5-6p797-819.html"
+     "u": "https://insee.fr/fr/statistiques/fichier/1376577/es381-382d.pdf"
+    },
+    {
+     "l": "Gobillon et Le Blanc, Economic effects of upfront subsidies to ownership: the Prêt à Taux Zéro (Journal of Housing Economics)",
+     "a": 2008,
+     "u": "https://ideas.repec.org/a/eee/jhouse/v17y2008i1p1-33.html"
     },
     {
      "l": "IPP, rapport n° 16, Analyse des dispositifs d'aide à l'accession à la propriété",
@@ -10237,8 +10448,27 @@
    "title": "Produire un million de logements de plus en cinq ans en accélérant les projets",
    "quiz_text": "Produire un million de logements de plus en cinq ans en accélérant les projets",
    "quiz_concret": "Urbanisme simplifié, projets plus rapides et une part de TVA reversée aux communes par logement neuf.",
-   "quiz_plus": "Construire fait baisser les loyers : en Allemagne, +1 % de logements neufs les réduit de 0,19 %, y compris pour les logements modestes (Mense 2025) ; aux États-Unis, un grand immeuble neuf baisse d'environ 6 % les loyers voisins.",
-   "quiz_moins": "La chute des chantiers (−31 % de 2022 à 2024) suit la remontée des taux d'intérêt, qui a réduit la capacité d'emprunt des ménages (Cour des comptes 2026) ; l'effet de procédures plus rapides sur ce frein n'est pas mesuré.",
+   "quiz_plus": "Construire davantage de logements augmente l'offre et freine la hausse des loyers.",
+   "quiz_moins": "Les chantiers suivent surtout les taux d'intérêt, sur lesquels une déduction d'impôt pèse peu.",
+   "quiz_preuve_pour": "solide",
+   "quiz_preuve_contre": "mitigé",
+   "quiz_cas_pour": [
+    {
+     "t": "Chaque hausse de 1 % des logements neufs a baissé les loyers de 0,19 %, y compris pour les logements de moindre qualité (Mense, Allemagne, 2025).",
+     "s": [
+      0
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Avec la remontée des taux d'intérêt, les mises en chantier ont chuté de 31 % entre 2022 et 2024 (Cour des comptes, France, 2026).",
+     "s": [
+      1
+     ]
+    }
+   ],
+   "quiz_etudes": "Les études concordent : plus de logements neufs modèrent les loyers. L'effet de procédures plus rapides sur le nombre de chantiers n'est pas mesuré en France.",
    "quiz_src": [
     {
      "l": "Mense, The impact of new housing supply on the distribution of rents (Journal of Political Economy Macroeconomics)",
@@ -10246,16 +10476,23 @@
      "u": "https://researchonline.lse.ac.uk/id/eprint/127192"
     },
     {
-     "l": "Asquith, Mast, Reed, Local Effects of Large New Apartment Buildings in Low-Income Areas (Review of Economics and Statistics)",
-     "a": 2023,
-     "u": "https://ideas.repec.org/a/tpr/restat/v105y2023i2p359-375.html"
-    },
-    {
      "l": "Cour des comptes, L'encadrement des loyers",
      "a": 2026,
      "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
     }
-   ]
+   ],
+   "quiz_constat": {
+    "t": "Les mises en chantier de logements reculent depuis 2017, jusqu'à 251 000 en 2024 (Cour des comptes).",
+    "s": [
+     1
+    ]
+   },
+   "quiz_complement": {
+    "t": "Le même programme prévoit aussi de déduire les intérêts d'emprunt des familles qui achètent.",
+    "ref": [
+     "retailleau.logement.2"
+    ]
+   }
   },
   {
    "c": "retailleau",
@@ -10265,23 +10502,43 @@
    "title": "Déduire les intérêts du prêt immobilier, davantage selon le nombre d'enfants",
    "quiz_text": "Déduire les intérêts du prêt immobilier, davantage selon le nombre d'enfants",
    "quiz_concret": "Pour sa résidence principale, une famille déduit une part des intérêts de son prêt, plus grande avec plus d'enfants.",
-   "quiz_plus": "Un gain de pouvoir d'achat pour les familles qui empruntent : le crédit d'impôt de 2007 a touché 900 000 ménages dès 2009 (Sénat) ; au Danemark, la déduction a conduit à acheter des logements plus grands (Gruber et al.).",
-   "quiz_moins": "Peu d'effet sur l'accession : les banques n'en tenaient pas compte pour prêter (Sénat 2010) ; au Danemark, aucun effet sur le nombre de propriétaires mais plus de dette ; aux États-Unis, effet limité aux ménages aisés.",
+   "quiz_plus": "Déduire les intérêts rend du pouvoir d'achat aux familles qui remboursent un prêt immobilier.",
+   "quiz_moins": "L'avantage pousse à emprunter plus et à acheter plus grand, sans créer plus de propriétaires.",
+   "quiz_preuve_pour": "solide",
+   "quiz_preuve_contre": "solide",
+   "quiz_cas_pour": [
+    {
+     "t": "En 2009, 900 000 ménages ont touché le crédit d'impôt sur les intérêts de leur prêt immobilier, un gain de pouvoir d'achat (Sénat, France, 2010).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Une déduction des intérêts plus forte a conduit les propriétaires à acheter des logements plus grands et plus chers (Gruber et al., Danemark, 2017).",
+     "s": [
+      1
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "La déduction des intérêts n'a eu aucun effet sur le nombre de propriétaires, même à long terme, mais a accru l'endettement (Gruber et al., Danemark, 2017).",
+     "s": [
+      1
+     ]
+    }
+   ],
+   "quiz_etudes": "Les études concordent : la déduction des intérêts accroît la taille des logements achetés et l'endettement, sans effet sur le nombre de propriétaires.",
    "quiz_src": [
     {
-     "l": "Sénat, avis sur le PLF 2011 (logement), crédit d'impôt sur les intérêts d'emprunt",
+     "l": "Sénat, avis sur le projet de loi de finances 2011 (logement), crédit d'impôt sur les intérêts d'emprunt",
      "a": 2010,
      "u": "https://www.senat.fr/rap/a10-113-8/a10-113-81.html"
     },
     {
-     "l": "Gruber, Jensen, Kleven, Do People Respond to the Mortgage Interest Deduction? (NBER WP 23600, Danemark)",
+     "l": "Gruber, Jensen, Kleven, Do People Respond to the Mortgage Interest Deduction? (NBER WP 23600)",
      "a": 2017,
      "u": "https://www.nber.org/papers/w23600"
-    },
-    {
-     "l": "Hilber et Turner, The mortgage interest deduction and its impact on homeownership decisions (Review of Economics and Statistics)",
-     "a": 2014,
-     "u": "https://researchonline.lse.ac.uk/id/eprint/49843/"
     }
    ]
   },
@@ -10293,25 +10550,90 @@
    "title": "Supprimer l'objectif de zéro artificialisation des sols et l'encadrement des loyers",
    "quiz_text": "Supprimer l'objectif de zéro artificialisation des sols et l'encadrement des loyers",
    "quiz_concret": "Plus de plafond de loyer à Paris, Lyon ou Lille, ni de limite à la construction sur terres agricoles.",
-   "quiz_plus": "Plus de terrains et de logements à louer : en Angleterre, sans contraintes d'urbanisme, les prix seraient d'un tiers plus bas ; à l'étranger, 12 études sur 16 trouvent que l'encadrement réduit l'offre locative (Cour des comptes).",
-   "quiz_moins": "L'encadrement a baissé les loyers de 2 à 4 % en moyenne pour 1,2 million de locataires (évaluation 2026) ; 62 % des terres agricoles et naturelles consommées pour l'habitat l'étaient dans des communes peu tendues (Cerema).",
+   "quiz_plus": "Plafonner les loyers et limiter les terrains découragent de louer et de construire.",
+   "quiz_moins": "Les loyers remonteraient avant l'arrivée de logements neufs, et plus de terres seraient bâties.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "mitigé",
+   "quiz_cas_pour": [
+    {
+     "t": "Après le gel des loyers de 2020, le nombre d'annonces de logements à louer a été divisé par deux (DIW, Berlin, 2021).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Les règles qui freinent la construction ont fait monter les prix : sans elles, les logements coûteraient un tiers de moins (Hilber et Vermeulen, Angleterre, 2016).",
+     "s": [
+      1,
+      2
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "L'encadrement a baissé les loyers de 2 à 4 % en moyenne dans les villes concernées, qui comptent 1,2 million de locataires (Cour des comptes, France, 2026).",
+     "s": [
+      3
+     ]
+    },
+    {
+     "t": "Le nombre d'annonces de location n'a pas baissé durablement depuis l'encadrement de 2019 (APUR, Paris, 2025).",
+     "s": [
+      4
+     ]
+    },
+    {
+     "t": "La part des logements neufs bâtis sur des terrains déjà urbanisés est passée de 56 % à 80 % de 1997 à 2009 (ministère du Logement, Angleterre, 2010).",
+     "s": [
+      5
+     ]
+    }
+   ],
+   "quiz_etudes": "Encadrement : baisse des loyers de 2 à 4 % établie en France ; baisse de l'offre nette à l'étranger, non démontrée en France. Objectif foncier pas encore évalué.",
    "quiz_src": [
+    {
+     "l": "DIW Berlin, Wochenbericht 8/2021, effets immédiats du gel des loyers berlinois",
+     "a": 2021,
+     "u": "https://www.diw.de/de/diw_01.c.811698.de/publikationen/wochenberichte/2021_08_3/die_unmittelbaren_auswirkungen_des_berliner_mietendeckels__wohnungen_guenstiger__aber_schwieriger_zu_finden.html"
+    },
     {
      "l": "Hilber et Vermeulen, The Impact of Supply Constraints on House Prices in England (Economic Journal), présentation des auteurs",
      "a": 2016,
      "u": "https://ec.europa.eu/economy_finance/events/2016/20161130-workshop/documents/wouter_vermeulen_en.pdf"
     },
     {
-     "l": "Cour des comptes, L'encadrement des loyers",
+     "l": "Hilber et Vermeulen, Economic Journal 126(591), résumé",
+     "a": 2016,
+     "u": "https://researchonline.lse.ac.uk/id/eprint/58017"
+    },
+    {
+     "l": "Cour des comptes, L'encadrement des loyers (évaluation Fack et Chapelle remise au Premier ministre, mai 2026)",
      "a": 2026,
      "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
     },
     {
-     "l": "Cerema, Analyse de la consommation d'espaces naturels, agricoles et forestiers 2011-2025",
-     "a": 2026,
-     "u": "https://artificialisation.developpement-durable.gouv.fr/sites/artificialisation/files/fichiers/2026/06/determinants_2011-2025.pdf"
+     "l": "APUR, Breuillé et al., Impact de l'encadrement des loyers à Paris : actualisation et extension à 5 autres villes",
+     "a": 2025,
+     "u": "https://www.apur.org/sites/default/files/2025-06/rapport-impact_encadrement_loyers_paris.pdf"
+    },
+    {
+     "l": "Department for Communities and Local Government, Land Use Change Statistics (England) 2009",
+     "a": 2010,
+     "u": "https://assets.publishing.service.gov.uk/media/5a79bbbced915d042206aa45/1558850.pdf"
     }
-   ]
+   ],
+   "quiz_constat": {
+    "t": "Les mises en chantier de logements reculent depuis 2017, jusqu'à 251 000 en 2024 (Cour des comptes).",
+    "s": [
+     3
+    ]
+   },
+   "quiz_complement": {
+    "t": "Le même programme prévoit aussi un million de logements supplémentaires en cinq ans.",
+    "ref": [
+     "retailleau.logement.1"
+    ]
+   }
   },
   {
    "c": "attal",
@@ -10321,25 +10643,38 @@
    "title": "Voter une loi fixant pour cinq ans les aides à la rénovation énergétique",
    "quiz_text": "Voter une loi fixant pour cinq ans les aides à la rénovation énergétique",
    "quiz_concret": "Ménages et artisans connaissent à l'avance les aides à la rénovation des cinq années suivantes.",
-   "quiz_plus": "Les changements de règles font attendre : au remplacement du crédit d'impôt par la prime, les dossiers ont chuté (181 000 en 2020, 698 000 en 2021) ; une commission d'enquête du Sénat (2023) demande des aides programmées.",
-   "quiz_moins": "On s'engage sur cinq ans de dépenses alors que les économies réelles de l'isolation ne font qu'environ 42 % des gains calculés (Insee-SDES 2026) et que la prime finance surtout des gestes isolés (France Stratégie 2024).",
-   "quiz_src": [
+   "quiz_plus": "Des aides connues cinq ans à l'avance évitent que ménages et artisans reportent les travaux.",
+   "quiz_moins": "Peu de critiques sur le principe ; la réserve porte sur l'efficacité réelle des aides garanties.",
+   "quiz_preuve_pour": "faible",
+   "quiz_preuve_contre": "solide",
+   "quiz_cas_pour": [],
+   "quiz_cas_contre": [
     {
-     "l": "Sénat, commission d'enquête sur la rénovation énergétique des logements, rapport n° 811",
-     "a": 2023,
-     "u": "https://www.senat.fr/rap/r22-811-1/r22-811-1_mono.html"
-    },
+     "t": "Les économies d'énergie mesurées après isolation n'atteignent qu'environ 42 % de celles calculées sur plan (Insee-SDES, France, 2026).",
+     "s": [
+      0
+     ]
+    }
+   ],
+   "quiz_etudes": "Aucune étude ne mesure l'effet d'une programmation sur cinq ans ; les changements de règles sont souvent cités, et les économies réelles des aides sont plus faibles que prévu.",
+   "quiz_src": [
     {
      "l": "Insee-SDES, document de travail 2025-16, isolation et consommation réelle d'énergie",
      "a": 2026,
      "u": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
     },
     {
-     "l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov'",
+     "l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov' (calculs SDES)",
      "a": 2024,
      "u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
     }
-   ]
+   ],
+   "quiz_constat": {
+    "t": "Début 2023, 15,7 % des résidences principales étaient des passoires énergétiques, 17 % un an avant (SDES).",
+    "s": [
+     1
+    ]
+   }
   },
   {
    "c": "attal",
@@ -10349,20 +10684,38 @@
    "title": "Compter les logements à loyer intermédiaire dans les quotas de logements sociaux",
    "quiz_text": "Compter les logements à loyer intermédiaire dans les quotas de logements sociaux",
    "quiz_concret": "Des logements aux loyers entre social et marché comptent pour atteindre les 20 à 25 % de logements sociaux.",
-   "quiz_plus": "Le logement intermédiaire vise les revenus moyens qui ne peuvent payer les loyers libres en zone tendue : 320 000 à 560 000 ménages en attente selon l'IGF et le CGEDD (2021), pour qui le marché pourrait en financer 50 000 par an.",
-   "quiz_moins": "Les logements sociaux bâtis sous le quota sont déjà allés surtout à des revenus moyens, la part de ménages modestes a peu augmenté (Chapelle et al. 2025) ; compter l'intermédiaire réduit le nombre de logements sociaux à bâtir.",
+   "quiz_plus": "Les revenus moyens des villes chères, trop aisés pour le logement social, auraient plus d'offre.",
+   "quiz_moins": "Les communes rempliraient le quota avec moins de logements pour les ménages les plus modestes.",
+   "quiz_preuve_pour": "faible",
+   "quiz_preuve_contre": "mitigé",
+   "quiz_cas_pour": [],
+   "quiz_cas_contre": [
+    {
+     "t": "Sous le quota, les communes ont surtout bâti des logements ouverts aux revenus moyens, et la présence des ménages pauvres a peu augmenté (Chapelle et al., France, 2025).",
+     "s": [
+      0
+     ]
+    }
+   ],
+   "quiz_etudes": "Aucune étude sur l'ajout du logement intermédiaire au quota. Le besoin des revenus moyens est estimé (IGF 2021) ; le quota a déjà surtout servi des revenus moyens.",
    "quiz_src": [
     {
-     "l": "IGF-CGEDD, logement locatif intermédiaire (via Banque des Territoires)",
-     "a": 2021,
-     "u": "https://www.banquedesterritoires.fr/logement-intermediaire-ligf-et-le-cgedd-reviennent-la-charge-sur-le-pinel"
-    },
-    {
-     "l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE WP 2025-18)",
+     "l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE, document de travail 2025-18)",
      "a": 2025,
      "u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
+    },
+    {
+     "l": "Cour des comptes, L'encadrement des loyers (d'après l'Union sociale pour l'habitat)",
+     "a": 2026,
+     "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
     }
-   ]
+   ],
+   "quiz_constat": {
+    "t": "Fin 2024, 2,8 millions de ménages demandaient un logement social, 28 % de plus qu'en 2019 (Cour des comptes).",
+    "s": [
+     1
+    ]
+   }
   },
   {
    "c": "lisnard",
@@ -10372,26 +10725,52 @@
    "title": "Supprimer l'obligation pour les communes d'avoir un quota de logements sociaux",
    "quiz_text": "Supprimer l'obligation pour les communes d'avoir un quota de logements sociaux",
    "quiz_concret": "Les maires ne sont plus tenus d'avoir 20 à 25 % de logements sociaux dans leur commune.",
-   "quiz_plus": "Le quota a fait bâtir du logement social sans guère changer la mixité : la part de ménages modestes a peu augmenté et la ségrégation des plus pauvres a à peine baissé (Chapelle et al. 2025 ; France Stratégie 2021).",
-   "quiz_moins": "Le quota explique 61 % de la hausse du parc social des communes visées en 2000-2008 (même étude), près de la moitié selon le CGDD ; 2,8 millions de ménages demandaient un logement social fin 2024 (Cour des comptes).",
+   "quiz_plus": "Imposer un quota change peu la part de ménages modestes dans les communes visées.",
+   "quiz_moins": "Sans obligation, les communes qui en ont peu construiraient moins de logements sociaux.",
+   "quiz_preuve_pour": "solide",
+   "quiz_preuve_contre": "solide",
+   "quiz_cas_pour": [
+    {
+     "t": "Le quota a fait monter la part de logements sociaux des communes visées, mais à peine celle des ménages pauvres qui y vivent (Chapelle et al., France, 2025).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Les logements sociaux sont mieux répartis, mais les 20 % de ménages les plus modestes restent aussi concentrés par quartier depuis 2012 (France Stratégie, France, 2021).",
+     "s": [
+      1
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Le quota explique 61 % de la hausse du nombre de logements sociaux dans les communes visées entre 2000 et 2008 (Chapelle et al., France, 2025).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "De 1999 à 2011, le parc social a crû de 12,7 % dans les communes en retard sur le quota, contre 6 % dans les communes non concernées (CGDD, France, 2014).",
+     "s": [
+      2
+     ]
+    }
+   ],
+   "quiz_etudes": "Les évaluations concordent : le quota a nettement accru le logement social dans les communes visées, mais a peu changé la place des ménages modestes.",
    "quiz_src": [
     {
-     "l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE WP 2025-18)",
+     "l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE, document de travail 2025-18)",
      "a": 2025,
      "u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
     },
     {
-     "l": "France Stratégie, logement social et ségrégation (via Banque des Territoires)",
+     "l": "France Stratégie, La meilleure répartition des logements sociaux a-t-elle fait progresser la mixité sociale ? (via Banque des Territoires)",
      "a": 2021,
      "u": "https://www.banquedesterritoires.fr/des-logements-sociaux-mieux-repartis-sur-le-territoire-mais-sans-effet-sur-la-mixite-sociale"
     },
     {
-     "l": "Cour des comptes, article 55 de la loi SRU (via Banque des Territoires)",
-     "a": 2021,
-     "u": "https://www.banquedesterritoires.fr/la-cour-des-comptes-et-le-senat-daccord-pour-faire-evoluer-larticle-55-de-la-loi-sru"
-    },
-    {
-     "l": "CGDD, Le Point sur n° 195, effet de la loi SRU (via Banque des Territoires)",
+     "l": "CGDD, Le Point sur n° 195, les dynamiques locales du logement social 1999-2011 : l'effet de la loi SRU (via Banque des Territoires)",
      "a": 2014,
      "u": "https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social"
     },
@@ -10400,7 +10779,13 @@
      "a": 2026,
      "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
     }
-   ]
+   ],
+   "quiz_constat": {
+    "t": "Les mises en chantier de logements reculent depuis 2017, jusqu'à 251 000 en 2024 (Cour des comptes).",
+    "s": [
+     3
+    ]
+   }
   },
   {
    "c": "lisnard",
@@ -10410,35 +10795,56 @@
    "title": "Supprimer l'objectif de zéro artificialisation des sols",
    "quiz_text": "Supprimer l'objectif de zéro artificialisation des sols",
    "quiz_concret": "Plus d'objectif national pour réduire puis stopper la construction sur les terres agricoles et naturelles.",
-   "quiz_plus": "Plus de terrain à bâtir : la Cour des comptes (2026) range cet objectif parmi les règles qui peuvent restreindre l'offre de logements ; en Angleterre, sans contraintes d'urbanisme, les prix seraient d'un tiers plus bas.",
-   "quiz_moins": "L'artificialisation est l'une des principales causes de perte de biodiversité (France Stratégie 2019) ; 62 % des terres consommées pour l'habitat l'étaient en communes peu tendues, la moitié à moins de 8 logements par hectare.",
-   "quiz_src": [
+   "quiz_plus": "Limiter les terrains à bâtir rend le foncier plus rare et fait monter le prix des logements.",
+   "quiz_moins": "Bâtir d'abord sur des terrains déjà urbanisés évite de perdre des terres agricoles.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "mitigé",
+   "quiz_cas_pour": [
     {
-     "l": "Cour des comptes, L'encadrement des loyers",
-     "a": 2026,
-     "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
-    },
+     "t": "Les règles qui freinent la construction ont fait monter les prix : sans elles, les logements coûteraient un tiers de moins (Hilber et Vermeulen, Angleterre, 2016).",
+     "s": [
+      0,
+      1
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "La part des logements neufs bâtis sur des terrains déjà urbanisés est passée de 56 % à 80 % de 1997 à 2009 (ministère du Logement, Angleterre, 2010).",
+     "s": [
+      2
+     ]
+    }
+   ],
+   "quiz_etudes": "Objectif trop récent pour être évalué. En France, 62 % des terres prises par l'habitat l'ont été là où le logement est peu demandé (Cerema 2026).",
+   "quiz_src": [
     {
      "l": "Hilber et Vermeulen, The Impact of Supply Constraints on House Prices in England (Economic Journal), présentation des auteurs",
      "a": 2016,
      "u": "https://ec.europa.eu/economy_finance/events/2016/20161130-workshop/documents/wouter_vermeulen_en.pdf"
     },
     {
-     "l": "Hilber et Vermeulen, Economic Journal 126(591)",
+     "l": "Hilber et Vermeulen, Economic Journal 126(591), résumé",
      "a": 2016,
      "u": "https://researchonline.lse.ac.uk/id/eprint/58017"
     },
     {
-     "l": "France Stratégie, Objectif « zéro artificialisation nette » : quels leviers pour protéger les sols ?",
-     "a": 2019,
-     "u": "https://www.strategie-plan.gouv.fr/en/publications/objectif-zero-artificialisation-nette-leviers-proteger-sols"
+     "l": "Department for Communities and Local Government, Land Use Change Statistics (England) 2009",
+     "a": 2010,
+     "u": "https://assets.publishing.service.gov.uk/media/5a79bbbced915d042206aa45/1558850.pdf"
     },
     {
-     "l": "Cerema, Analyse de la consommation d'espaces naturels, agricoles et forestiers 2011-2025",
+     "l": "Cour des comptes, L'encadrement des loyers",
      "a": 2026,
-     "u": "https://artificialisation.developpement-durable.gouv.fr/sites/artificialisation/files/fichiers/2026/06/determinants_2011-2025.pdf"
+     "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
     }
-   ]
+   ],
+   "quiz_constat": {
+    "t": "Les mises en chantier de logements reculent depuis 2017, jusqu'à 251 000 en 2024 (Cour des comptes).",
+    "s": [
+     3
+    ]
+   }
   },
   {
    "c": "melenchon",
