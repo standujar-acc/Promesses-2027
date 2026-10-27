@@ -1,283 +1,1568 @@
 {
-"_regles": "Deux effets factuels par proposition : [ce que ça apporte, en contrepartie]. L'effet propre à la mesure (qui gagne le plus, qui est exclu, ce qui change), puis son effet budgétaire en quelques mots s'il y en a un. Pas de coût en euros, pas de faisabilité, pas de jugement moral, pas de chiffre propre à un candidat ; une même règle pour tous.",
+"_regles": "Deux lignes par proposition : [« + » ce qu'elle apporte selon ceux qui la défendent, « − » sa contrepartie et ses risques selon ceux qui la critiquent, sources]. Chaque ligne s'appuie sur des études vérifiées, dit la force de la preuve, et a le même poids que l'autre. Pas de nom, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement moral ; mêmes études pour les mesures du même type. Les sources dont le titre ou l'adresse nomme un candidat ne sont pas affichées (quiz à l'aveugle).",
 "attal.annee_blanche": [
-"Moins de dépenses de prestations sociales.",
-"Prestations et retraites non revalorisées pendant un an, sauf les petites retraites."
+"L'effort est réparti sur un grand nombre de bénéficiaires, avec une perte limitée pour chacun : avec 1,3 % d'inflation, 3,2 % des ménages perdraient au moins 1 % de niveau de vie (IPP) ; les petites retraites sont épargnées.",
+"Rapportée au revenu, la perte est plus forte en bas de l'échelle : près de 1 % pour les 5 % les plus modestes, moins de 0,3 % pour les 5 % les plus aisés (OFCE, 2025) ; elle grandit avec l'inflation et dure sans rattrapage.",
+[
+{
+"l": "IPP (via Journal de l'économie), année blanche 2026",
+"a": 2025,
+"u": "https://www.journaldeleconomie.fr/budget-une-annee-blanche-permettrait-57-milliards-deuros-deconomies-en-2026/"
+},
+{
+"l": "OFCE (P. Madec), Quels effets attendre d'une « année blanche » ?",
+"a": 2025,
+"u": "https://www.ofce.fr/blog2024/fr/2025/20250630_PIM/"
+}
+]
 ],
 "attal.bebe": [
-"Une épargne retraite ouverte pour chaque nouveau-né, que la famille peut compléter.",
-"Épargne bloquée jusqu'à la retraite et placée sur les marchés ; nouvelle dépense pour l'État à chaque naissance."
+"Un capital pour chaque enfant, même sans épargne familiale : dans une expérience aléatoire en Oklahoma, le dépôt initial a presque doublé en dix ans et les parents ont ouvert 5 fois plus souvent leur propre compte.",
+"Gains liés aux marchés et aux versements des familles, plus fréquents chez les aisés (épargne retraite : 34 % des cadres, 12 % des ouvriers, Insee). Au Royaume-Uni, 22 % des comptes de naissance échus restent non réclamés.",
+[
+{
+"l": "Washington University (Brown School), expérience aléatoire SEED for Oklahoma Kids",
+"a": 2021,
+"u": "https://brownschool.washu.edu/?p=2946"
+},
+{
+"l": "Washington University / JAMA Pediatrics : SEED OK et développement socio-émotionnel",
+"a": 2014,
+"u": "https://source.washu.edu/2014/01/child-savings-accounts-promote-positive-socialemotional-development-study-finds/"
+},
+{
+"l": "Insee, Revenus et patrimoine des ménages 2024, fiche taux de détention",
+"a": 2024,
+"u": "https://www.insee.fr/fr/statistiques/fichier/7941419/RPM2024-F25.pdf"
+},
+{
+"l": "Oklahoma Policy Institute : premiers résultats de SEED OK",
+"a": 2011,
+"u": "https://okpolicy.org/experimenting-with-savings-the-seed-for-oklahoma-kids-study/"
+},
+{
+"l": "HMRC (gov.uk), statistiques annuelles de l'épargne, septembre 2026 : Child Trust Funds",
+"a": 2026,
+"u": "https://www.gov.uk/government/statistics/annual-savings-statistics-2026/commentary-for-annual-savings-statistics-september-2026"
+}
+]
 ],
 "attal.europe": [
-"Davantage de décisions et de budget communs entre les pays du noyau, avec un président élu.",
-"Moins de décisions prises au seul niveau national ; budget commun à alimenter par les États ou par de nouvelles ressources propres."
+"Pour un groupe d'experts franco-allemand (2023), une Union à plus de 30 membres a besoin d'un « cercle intérieur » plus intégré pour garder sa capacité d'agir, avec des coûts partagés entre pays participants.",
+"Les mêmes experts notent que cette différenciation crée une complexité institutionnelle et un risque pour la cohérence de l'Union ; aucun président européen élu n'existe, donc aucune évaluation.",
+[
+{
+"l": "Groupe des Douze (franco-allemand), « Sailing on High Seas »",
+"a": 2023,
+"u": "https://www.auswaertiges-amt.de/resource/blob/2617322/4d0e0010ffcd8c0079e21329bbbb3332/230919-rfaa-deu-fra-bericht-data.pdf"
+}
+]
 ],
 "attal.fonctionnaires": [
-"Moins de dépenses de personnel public.",
-"Moins d'agents dans les services autres que l'école, l'armée, la justice et la police."
+"École, armée, justice et police gardent leurs effectifs ; la Cour des comptes recommandait en 2015 de réduire les effectifs de l'État en supprimant les doublons et en numérisant les démarches.",
+"Ces quatre ministères emploient plus des deux tiers des agents de l'État : l'effort porte sur les autres services. La Cour des comptes notait en 2015 qu'exempter une large part des agents réduit fortement les gains.",
+[
+{
+"l": "Cour des comptes, masse salariale de l'État (via Acteurs publics)",
+"a": 2015,
+"u": "https://acteurspublics.fr/articles/la-cour-des-comptes-incite-le-gouvernement-a-reduire-les-effectifs-de-letat/"
+}
+]
 ],
 "attal.immigration": [
-"Entrées pour le travail plafonnées par un quota voté chaque année par le Parlement.",
-"Regroupement familial soumis à des conditions plus strictes."
+"Au Canada, qui fixe chaque année ses admissions et sélectionne par points, les immigrés choisis pour leur expérience de travail gagnent environ deux fois plus que l'ensemble des immigrés récents (Statistique Canada).",
+"La commission Mazeaud (2008) jugeait des quotas de travail « sans réel objet » ; au Royaume-Uni, le plafond des visas qualifiés, atteint fin 2017, a fait refuser des places, médecins compris, jusqu'à leur exemption en 2018.",
+[
+{
+"l": "Statistique Canada, Income and mobility of immigrants, 2014 (Le Quotidien)",
+"a": 2016,
+"u": "https://www150.statcan.gc.ca/n1/daily-quotidien/161212/dq161212b-eng.pdf"
+},
+{
+"l": "Insee, L'insertion professionnelle des immigrés primo-arrivants (Immigrés et descendants d'immigrés, éd. 2023 ; enquête Elipa 2)",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/6793312"
+},
+{
+"l": "Commission Mazeaud, Pour une politique des migrations transparente, simple et solidaire",
+"a": 2008,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/084000446.pdf"
+},
+{
+"l": "Home Office, lettre de la ministre de l'Intérieur au Migration Advisory Committee",
+"a": 2018,
+"u": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/747553/Home_Secretary_to_Prof_Alan_Manning__002_.pdf"
+}
+]
 ],
 "attal.profs": [
-"Rémunération des enseignants en hausse, surtout en milieu de carrière.",
-"Hausse plus forte en milieu de carrière qu'en début ; dépense supplémentaire pour l'État."
+"Le salaire des enseignants expérimentés a presque stagné en France de 2015 à 2024, contre +4 à +6 % en moyenne OCDE ; la prime de 2023 a surtout profité aux moins de 15 ans d'ancienneté.",
+"Le manque de candidats est très localisé (1,2 candidat par poste à Créteil contre 6,8 à Limoges en 2021) : la Cour des comptes (2023) préconise plutôt des salaires différenciés selon les territoires.",
+[
+{
+"l": "OCDE, Regards sur l'éducation 2025 (via L'Etudiant / Educpros)",
+"a": 2025,
+"u": "https://www.letudiant.fr/educpros/actualite/les-salaires-des-enseignants-de-locde-sont-peu-attractifs-en-particulier-en-france.html"
+},
+{
+"l": "Cour des comptes, attractivité du métier d'enseignant (via Banque des territoires)",
+"a": 2023,
+"u": "https://www.banquedesterritoires.fr/penurie-denseignants-la-cour-des-comptes-pour-des-solutions-territorialisees"
+},
+{
+"l": "Cour des comptes, attractivité du métier d'enseignant (via CIDJ)",
+"a": 2023,
+"u": "https://www.cidj.com/actualite/la-cour-des-comptes-preconise-d-elargir-les-voies-de-recrutement-au-metier-d-enseignant"
+}
+]
 ],
 "attal.regle_or": [
-"À terme, budgets votés sans déficit : la dette publique cesse d'augmenter.",
-"Chaque budget doit trouver des économies ou des recettes pour respecter la règle."
+"Sous le frein à l'endettement allemand, la dette est passée de 81 % à 58 % du PIB de 2010 à 2019, aidée par la croissance et des taux bas (Eurostat) ; les études publiées trouvent en général un effet modérateur des règles.",
+"La même méta-analyse note que cet effet faiblit une fois les biais corrigés ; une règle stricte limite la relance en récession, et l'Allemagne a assoupli son frein en 2025 (défense, infrastructures, climat).",
+[
+{
+"l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=DE&unit=PC_GDP&sector=S13&na_item=GD&time=2010&time=2019&time=2024"
+},
+{
+"l": "Heinemann, Moessinger, Yeter, « Do Fiscal Rules Constrain Fiscal Policy? » (ZEW, EJPE)",
+"a": 2018,
+"u": "https://www.zew.de/PU78875"
+},
+{
+"l": "Bofinger et Horn (IMK), appel contre le frein à l'endettement",
+"a": 2009,
+"u": "https://www.boeckler.de/pdf/imk_appell_schuldenbremse.pdf"
+},
+{
+"l": "Verfassungsblog, « Grundlegende Reform oder Schnellschuss? »",
+"a": 2025,
+"u": "https://verfassungsblog.de/grundlegende-reform-oder-schnellschuss/"
+}
+]
 ],
 "attal.retraites": [
-"Départ au moment choisi, selon la durée cotisée ; pension plus haute en cas de départ tard.",
-"Pension plus basse en cas de départ tôt."
+"Chacun part selon ses années cotisées : qui a commencé tôt peut partir plus tôt, qui veut une pension plus haute reste. Aujourd'hui, 78 % des nouveaux retraités citent l'âge légal parmi les raisons de leur départ (DREES).",
+"Plus de départs tôt à pension réduite : la Suède, où l'on part librement après un âge minimal, a relevé cet âge en 2023 pour augmenter les pensions. Les carrières incomplètes, souvent féminines, seraient les plus touchées (COR).",
+[
+{
+"l": "DREES, enquête Motivations de départ à la retraite 2021 (séance COR du 24 mars 2022)",
+"a": 2022,
+"u": "https://www.cor-retraites.fr/sites/default/files/2022-03/Pr%C3%A9sentation%20DREES%20MDR5_COR.pdf"
+},
+{
+"l": "American Economic Review (Seibold) : âges légaux comme points de référence, Allemagne",
+"a": 2021,
+"u": "https://www.aeaweb.org/doi/10.1257/aer.20191136"
+},
+{
+"l": "Commission européenne, Instrument d'appui technique : réforme des retraites en Suède",
+"a": 2023,
+"u": "https://reforms-investments.ec.europa.eu/projects/pension-reform_en"
+},
+{
+"l": "COR, rapport annuel 2026, partie 4 (âges de départ, p. 216-219)",
+"a": 2026,
+"u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
+}
+]
 ],
 "attal.travail": [
-"Les entreprises peuvent faire faire des heures sup au-delà de 220 h par an sans repos compensateur.",
-"Les salariés concernés perdent le repos compensateur dû aujourd'hui au-delà de 220 h."
+"Les heures sup concernent 53 % des salariés à temps complet du privé (Dares, 2023) ; sans contingent, celles au-delà de 220 h restent payées majorées sans repos obligatoire à accorder, ce qui facilite les pics d'activité.",
+"Au-delà de 220 h, les salariés perdent le repos obligatoire en plus (1 h de repos par heure sup au-delà de 20 salariés) ; avec environ 16 h sup par trimestre en moyenne (Dares), la plupart restent loin de ce seuil.",
+[
+{
+"l": "Dares (via AEF info), heures supplémentaires en 2023",
+"a": 2025,
+"u": "https://www.aefinfo.fr/depeche/733691-en-2023-53-des-salaries-du-secteur-prive-effectuent-des-heures-supplementaires-remunerees-dares"
+},
+{
+"l": "Service-public.fr, contingent d'heures supplémentaires",
+"a": 2026,
+"u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"
+},
+{
+"l": "Dares (via News Tank RH), indicateur trimestriel",
+"a": 2026,
+"u": "https://rh.newstank.fr/article/view/426802/heures-supplementaires-15-8-heures-salarie-temps-complet-3e-trimestre-2025.html"
+}
+]
 ],
 "glucksmann.defense": [
-"Équipements de défense européens financés en commun.",
-"Dette européenne commune, à rembourser par les États ou par des ressources propres de l'Union."
+"Le rapport Draghi (2024) relève que 78 % des achats d'armement européens sont allés hors de l'UE en 2022-2023 et recommande un emprunt commun pour financer des achats groupés, à plus grande échelle.",
+"Le précédent du plan de relance montre un risque de coût : la Cour des comptes européenne prévoit des intérêts environ deux fois plus élevés que prévu, à payer par les États ou par de nouvelles taxes.",
+[
+{
+"l": "M. Draghi, « The future of European competitiveness », partie A",
+"a": 2024,
+"u": "https://commission.europa.eu/document/download/97e481fd-2dc3-412d-be4c-f152a8232961_en?filename=The%20future%20of%20European%20competitiveness%20_%20A%20competitiveness%20strategy%20for%20Europe.pdf"
+},
+{
+"l": "Cour des comptes européenne, rapport annuel 2024",
+"a": 2025,
+"u": "https://www.eca.europa.eu/ECAPublications/AR-2024-AIB/AR-2024-AIB_FR.pdf"
+},
+{
+"l": "Sénat, commission des finances, PSR-UE (PLF 2026)",
+"a": 2025,
+"u": "https://www.senat.fr/fileadmin/cru-1762483659/Commissions/Finances/2025-2026/PLF_2026/Essentiel/Mission_Affaires_europeennes_Essentiel_post-commission.pdf"
+}
+]
 ],
 "glucksmann.ecole": [
-"Plus de moyens pour l'école : salaires, élèves par classe, bâtiments.",
-"Moyens répartis entre salaires, effectifs et bâtiments sur cinq ans ; dépense supplémentaire pour l'État."
+"Le dédoublement des CP en éducation prioritaire renforcée (REP+) a réduit de 12,5 % la part d'élèves en très grande difficulté en maths (DEPP 2019) ; les études françaises trouvent des effets plus nets pour les plus défavorisés.",
+"En français, les gains du dédoublement des CP-CE1 ne se retrouvent plus à l'entrée en 6e (DEPP 2026) ; réduire les classes demande beaucoup de postes et de salles alors que les concours peinent à recruter.",
+[
+{
+"l": "DEPP, première évaluation des CP dédoublés (via Banque des territoires)",
+"a": 2019,
+"u": "https://www.banquedesterritoires.fr/le-ministere-publie-un-premier-bilan-encourageant-du-dedoublement-des-classes-de-cp-en-rep"
+},
+{
+"l": "DEPP, Synthèse n° 8, Réduction de la taille de classe en éducation prioritaire",
+"a": 2026,
+"u": "https://www.education.gouv.fr/sites/default/files/document/r-duction-de-la-taille-de-classe-en-ducation-prioritaire-que-nous-apprennent-les-donn-es-de-la-depp--478949.pdf"
+},
+{
+"l": "DEPP, effets à long terme (cohortes 2023-2024), via professeurs-des-ecoles.com",
+"a": 2026,
+"u": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+},
+{
+"l": "Cour des comptes, attractivité du métier d'enseignant (via Banque des territoires)",
+"a": 2023,
+"u": "https://www.banquedesterritoires.fr/penurie-denseignants-la-cour-des-comptes-pour-des-solutions-territorialisees"
+}
+]
 ],
 "glucksmann.heritages": [
-"Salaires nets en hausse, financés par la taxe.",
-"Les 1 % plus gros héritages sont davantage taxés."
+"60 % du patrimoine est désormais hérité, contre 35 % dans les années 1970, et les exonérations (assurance-vie, Dutreil) profitent surtout aux plus grosses transmissions (CAE 2021) ; la recette va au salaire net.",
+"L'OCDE (2021) note des départs à l'étranger limités, sauf tout en haut, et une forte optimisation des transmissions qui tient surtout aux règles en place ; effet sur les entreprises familiales : études partagées.",
+[
+{
+"l": "CAE, note n° 69 « Repenser l'héritage » (Dherbécourt, Fack, Landais, Stantcheva)",
+"a": 2021,
+"u": "https://cae-eco.fr/static/pdf/cae-note069.pdf"
+},
+{
+"l": "OCDE, « Inheritance Taxation in OECD Countries » (présentation du rapport)",
+"a": 2021,
+"u": "https://www.oecd.org/tax/tax-policy/inheritance-taxation-in-oecd-countries-presentation-may-2021.pdf"
+},
+{
+"l": "IPP, rapport n° 62 « L'impact économique des transmissions d'entreprises réalisées avec un pacte Dutreil » (pour la Cour des comptes)",
+"a": 2025,
+"u": "https://www.ipp.eu/wp-content/uploads/2025/11/Dutreil_CourDesComptes-6_compressed.pdf"
+}
+]
 ],
 "glucksmann.industrie": [
-"Les entreprises européennes sont favorisées dans les achats publics.",
-"Certains achats publics et produits importés peuvent coûter plus cher."
+"Aux États-Unis, la préférence nationale dans les achats publics a créé jusqu'à 100 000 emplois (NBER, 2024) ; des droits sur les voitures électriques chinoises réduiraient ces importations de 42 % (Kiel, 2024).",
+"Ces emplois coûtent 111 000 à 138 000 $ chacun et les auteurs y voient un outil industriel peu efficace (NBER, 2024) ; la préférence nationale a renchéri les achats publics américains de 5,6 % (PIIE).",
+[
+{
+"l": "Bombardini et al., « The Increasing Cost of Buying American » (NBER)",
+"a": 2024,
+"u": "https://conference.nber.org/conf_papers/f210457/f210457.pdf"
+},
+{
+"l": "Kiel Institute / WIFO / ASCII, droits compensateurs sur les véhicules électriques chinois",
+"a": 2024,
+"u": "https://www.wifo.ac.at/en/news/countervailing-duties-on-chinese-electric-vehicles/"
+},
+{
+"l": "Hufbauer et Jung, PIIE",
+"a": 2020,
+"u": "https://www.piie.com/research/piie-charts/buy-american-and-similar-domestic-purchase-policies-impose-high-costs-taxpayers"
+}
+]
 ],
 "glucksmann.retraites": [
-"Départ plus tôt qu'avec les règles actuelles, encore plus tôt pour les métiers pénibles.",
-"Âge de départ à fixer métier par métier selon la pénibilité ; davantage de pensions à financer."
+"15 % des hommes ouvriers meurent entre 35 et 65 ans, contre 6 % des cadres (Insee, 2024) : un âge de départ modulé selon la pénibilité vise ces écarts, en plus du retour à 62 ans pour tous.",
+"Moins d'emploi après 60 ans : le report à 62 ans l'avait accru de 20 à 25 points (IPP, 2025). La pénibilité est difficile à mesurer : sa prise en compte a été redéfinie quatre fois de 2003 à 2017 (Cour des comptes, 2019).",
+[
+{
+"l": "Insee Première n°2005 : écarts d'espérance de vie entre cadres et ouvriers",
+"a": 2024,
+"u": "https://www.insee.fr/fr/statistiques/8220688"
+},
+{
+"l": "Économie et statistique n°549 (Insee), Blasco et Lojkine : durée de retraite avec et sans incapacité",
+"a": 2025,
+"u": "https://www.insee.fr/fr/statistiques/fichier/9008717/ES549_web_FR.pdf"
+},
+{
+"l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
+"a": 2025,
+"u": "https://www.ipp.eu/publication/impact-de-la-reforme-des-retraites-de-2010-sur-lequilibre-financier-de-lassurance-chomage/"
+},
+{
+"l": "Cour des comptes, Sécurité sociale 2019, ch. V « Partir plus tôt à la retraite »",
+"a": 2019,
+"u": "https://www.ccomptes.fr/system/files/2019-10/RALFSS-2019-05-depart-retraite-anticipe.pdf"
+}
+]
 ],
 "glucksmann.service_civique": [
-"Des missions d'intérêt général, civiles ou militaires, assurées par chaque classe d'âge ; indemnité versée aux jeunes pendant dix mois.",
-"Dix mois obligatoires pour chaque jeune avant les études ou l'emploi ; indemnités et encadrement à financer."
+"En Espagne, faire son service hors de sa région a durablement amélioré l'opinion envers les habitants des autres régions (Bagues et Roth, 2023) ; au Portugal, il a relevé de 4 à 5 points le salaire des moins diplômés.",
+"Dix mois retardent études et emploi : en Allemagne, aucun effet sur les salaires ultérieurs ; dans l'OCDE, un service plus long réduit l'accès au supérieur ; la Cour des comptes note les difficultés d'accueil du SNU.",
+[
+{
+"l": "Bagues et Roth, AEJ: Economic Policy (résumé J-PAL)",
+"a": 2023,
+"u": "https://www.povertyactionlab.org/print/pdf/node/7015764?lang=fr"
+},
+{
+"l": "Card et Cardoso, AEJ Applied (NBER w17694)",
+"a": 2012,
+"u": "https://www.nber.org/papers/w17694"
+},
+{
+"l": "Bauer, Bender, Paloyo et Schmidt, European Economic Review (IZA DP 4535)",
+"a": 2012,
+"u": "https://www.iza.org/publications/dp/4535"
+},
+{
+"l": "Keller, Poutvaara et Wagener, FinanzArchiv (IZA DP 4399)",
+"a": 2010,
+"u": "https://www.iza.org/publications/dp/4399"
+},
+{
+"l": "Cour des comptes (via Weka), SNU",
+"a": 2024,
+"u": "https://www.weka.fr/actualite/?p=184391"
+}
+]
 ],
 "glucksmann.smic": [
-"Environ +120 € net par mois au niveau du SMIC.",
-"Hausse étalée sur deux ans ; coût du travail plus élevé, des études estiment des pertes d'emplois peu qualifiés."
+"Hausse du salaire au bas de l'échelle, étalée sur deux ans. En Allemagne, le salaire minimum de 2015 (15 % des salariés) a relevé les salaires sans baisse mesurable de l'emploi (Dustmann et al., 2022), comme au Royaume-Uni.",
+"Le SMIC est déjà le plus élevé d'Europe rapporté au salaire médian (62,5 %, groupe d'experts 2025). En Espagne, la hausse de 22 % de 2019 a accru de 2 à 3 points le risque de perte d'emploi des salariés concernés.",
+[
+{
+"l": "Dustmann et al., Reallocation Effects of the Minimum Wage, QJE",
+"a": 2022,
+"u": "https://ideas.repec.org/a/oup/qjecon/v137y2022i1p267-328..html"
+},
+{
+"l": "A. Dube, revue pour le gouvernement britannique (Impacts of minimum wages)",
+"a": 2019,
+"u": "https://www.gov.uk/government/publications/impacts-of-minimum-wages-review-of-the-international-evidence"
+},
+{
+"l": "Groupe d'experts sur le SMIC, rapport 2025",
+"a": 2025,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/301429_0.pdf"
+},
+{
+"l": "Banque d'Espagne, Documento Ocasional 2113 (Barceló et al.)",
+"a": 2021,
+"u": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/21/Fich/do2113.pdf"
+}
+]
 ],
 "glucksmann.ukraine": [
-"Davantage d'armes livrées à l'Ukraine.",
-"Dépense militaire supplémentaire pour l'État."
+"En 2025, l'aide américaine à l'Ukraine a chuté de 99 % et l'Europe l'a presque compensée seule (Kiel Institute, 2026) ; une hausse française renforce cet effort et les commandes à l'industrie d'armement.",
+"La France n'a pas de stocks inutilisés : céder 30 canons Caesar a réduit « significativement » son artillerie le temps de les remplacer (Assemblée nationale, 2023) ; produire un canon prend 18 à 36 mois.",
+[
+{
+"l": "Kiel Institute, Policy Brief n° 203 « Europe Steps Up »",
+"a": 2026,
+"u": "https://assets.ctfassets.net/mj324dykhxwi/4lI3lGjlJWbRhgU4T8QoQR/b594ceaf1b7472a674917fbf8c8ca7c9/Kiel_Institute_KPB_Ukraine_Support_Tracker.pdf"
+},
+{
+"l": "Assemblée nationale, rapport d'information n° 1840 sur le soutien militaire à l'Ukraine",
+"a": 2023,
+"u": "https://www.assemblee-nationale.fr/dyn/16/rapports/cion_def/l16b1840_rapport-information.pdf"
+}
+]
 ],
 "le-pen.ame": [
-"Moins de dépenses d'aide médicale d'État.",
-"Les étrangers sans titre de séjour ne sont pris en charge que pour les soins urgents."
+"Sept des huit pays européens étudiés distinguent les soins urgents ou essentiels des autres soins ; l'IGAS-IGF (2019) soupçonnait une migration pour soins chez 43 % des patients dialysés couverts par l'AME d'un échantillon.",
+"Les rapports IGAS-IGF (2019) et Évin-Stefanini (2023) prévoient plus de renoncement aux soins et des malades vus plus tard à l'hôpital ; en Espagne, la restriction de 2012 a ajouté environ 80 décès par an.",
+[
+{
+"l": "IGAS-IGF, L'aide médicale de l'État : diagnostic et propositions",
+"a": 2019,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/271649.pdf"
+},
+{
+"l": "Évin-Stefanini, Rapport sur l'aide médicale de l'État",
+"a": 2023,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/292122.pdf"
+},
+{
+"l": "Juanmarti Mestres, López Casasnovas, Vall Castelló, The deadly effects of losing health insurance (European Economic Review)",
+"a": 2021,
+"u": "https://ideas.repec.org/a/eee/eecrev/v131y2021ics0014292120302385.html"
+}
+]
 ],
 "le-pen.enr": [
-"Moins de dépenses publiques de soutien aux nouveaux parcs éoliens et solaires.",
-"Moins de nouvelle production d'électricité éolienne et solaire."
+"Le soutien public aux renouvelables électriques a presque triplé de 2024 à 2027, avec la baisse des prix de gros et la hausse des volumes (CRE) ; RTE prévoit une production supérieure à la consommation jusqu'en 2027-2028.",
+"RTE juge la neutralité carbone impossible sans fort développement des renouvelables, les nouveaux réacteurs n'arrivant qu'après 2035 ; ces contrats ont aussi rapporté des recettes à l'État en 2022-2023 (CRE).",
+[
+{
+"l": "CRE, délibération n° 2026-149 (charges de service public de l'énergie)",
+"a": 2026,
+"u": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-149_CSPE_2026-2027.pdf"
+},
+{
+"l": "RTE, Bilan prévisionnel 2025-2035 (résumé Enerdata)",
+"a": 2025,
+"u": "https://www.enerdata.net/publications/daily-energy-news/rte-warns-prolonged-power-overcapacity-france-through-2028.html"
+},
+{
+"l": "RTE, Futurs énergétiques 2050 (Banque des Territoires)",
+"a": 2021,
+"u": "https://www.banquedesterritoires.fr/futur-energetique-de-la-france-nucleaire-et-renouvelables-le-en-meme-temps-de-rte"
+},
+{
+"l": "RTE, Bilan prévisionnel 2023-2035 (Banque des Territoires)",
+"a": 2023,
+"u": "https://www.banquedesterritoires.fr/transition-energetique-rte-affine-ses-scenarios-horizon-2035"
+}
+]
 ],
 "le-pen.etat": [
-"Moins de dépenses de personnel et d'agences publiques.",
-"Moins d'agents publics ; agences, intercommunalités et métropoles supprimées, leurs missions arrêtées ou reprises ailleurs."
+"La France compte 89 emplois publics pour 1 000 habitants, dans le haut des pays riches (France Stratégie) ; selon une étude publiée en 2014, l'intercommunalité n'a pas réduit les dépenses des communes.",
+"Le Sénat (2025) n'attend que de faibles économies des agences sans arrêter de missions ; l'eau, les déchets ou les transports gérés par intercommunalités et métropoles seraient à confier ailleurs.",
+[
+{
+"l": "France Stratégie, Comment la France se compare-t-elle en matière d'emploi public ?",
+"a": 2017,
+"u": "https://www.strategie-plan.gouv.fr/files/files/Presse/CP%202017/2017-12-19_Comment%20la%20France%20se%20compare-t-elle%20en%20mati%C3%A8re%20d%E2%80%99emploi%20public.pdf"
+},
+{
+"l": "Frère, Leprince, Paty, The Impact of Intermunicipal Cooperation on Local Public Spending (Urban Studies)",
+"a": 2014,
+"u": "https://ideas.repec.org/p/hal/journl/halshs-00830249.html"
+},
+{
+"l": "Sénat, commission d'enquête sur les agences, avant-propos",
+"a": 2025,
+"u": "https://www.senat.fr/rap/r24-807-1/r24-807-10.html"
+},
+{
+"l": "Sénat, commission d'enquête sur les agences et opérateurs de l'État (rapport n° 807)",
+"a": 2025,
+"u": "https://www.senat.fr/rap/r24-807-1/r24-807-122.html"
+}
+]
 ],
 "le-pen.fraude": [
-"Davantage de TVA due réellement encaissée ; moins d'aides versées à tort.",
-"Plus de contrôles et de démarches pour les entreprises et les bénéficiaires d'aides."
+"La TVA due mais non perçue atteint environ 12 Md€ par an (6 % du dû, 2023). Selon une étude pour la Commission européenne, une TVA versée directement à l'État au paiement réduit cet écart de 27 à 56 %, surtout la fraude carrousel.",
+"Selon la même étude, ce prélèvement généralisé pèse sur la trésorerie des entreprises et alourdit leur gestion, au point que les coûts peuvent dépasser les gains ; l'écart de TVA inclut aussi faillites et erreurs, hors fraude.",
+[
+{
+"l": "Conseil de l'UE, fiche France sur les écarts de conformité fiscale",
+"a": 2025,
+"u": "https://data.consilium.europa.eu/doc/document/ST-16801-2025-ADD-10/en/pdf"
+},
+{
+"l": "Commission européenne, étude sur le paiement scindé de la TVA (Deloitte, synthèse)",
+"a": 2017,
+"u": "https://taxation-customs.ec.europa.eu/system/files/2018-01/split_payment_report_execsummary_2017_en.pdf"
+}
+]
 ],
 "le-pen.immigration": [
-"Moins de dépenses d'allocations familiales et de RSA.",
-"Les étrangers ayant moins de 5 ans de travail en France ne touchent plus ces aides."
+"Au Danemark, réduire de moitié les aides aux immigrés hors UE a diminué les arrivées nettes d'environ 5 000 par an (étude de 2020) et, dans un premier temps, augmenté l'emploi des réfugiés concernés.",
+"La mesure vise surtout des familles avec enfants : au Danemark, la baisse des aides a réduit la scolarité des enfants d'environ six mois et accru la délinquance des adolescents ; l'effet sur l'emploi avait disparu en cinq ans.",
+[
+{
+"l": "Agersnap, Jensen, Kleven, The Welfare Magnet Hypothesis (AER: Insights ; NBER w26454)",
+"a": 2020,
+"u": "https://www.nber.org/papers/w26454"
+},
+{
+"l": "Dustmann, Andersen, Landersø, Intended and Unintended Consequences of Welfare Cuts for Refugees (synthèse RFBerlin de deux articles 2024)",
+"a": 2024,
+"u": "https://rfberlin.com/wp-content/uploads/2024/08/Intended-and-Unintended-Consequences-of-Welfare-Cuts-for-Refugees.pdf"
+}
+]
 ],
 "le-pen.production": [
-"Les entreprises paient moins d'impôts de production, qu'elles fassent des bénéfices ou non.",
-"Les collectivités perdent la CFE, que l'État doit compenser ; moins de recettes publiques."
+"Ces impôts sont dus même sans bénéfice : selon le CAE (2019), ils faussent la production, la taxe sur le chiffre d'affaires réduisant les exportations d'environ 1 % ; ils pèsent 3,6 % de la valeur ajoutée, 0,5 % en Allemagne.",
+"La baisse de 10 Md€ de CVAE et de CFE en 2021 n'a pas eu d'effet robuste mesuré sur l'investissement ni l'emploi (IPP 2025) ; le CAE ne trouve pas de distorsion majeure due à la CFE, qui finance les intercommunalités.",
+[
+{
+"l": "CAE, note n° 53 « Les impôts sur (ou contre) la production » (Martin, Trannoy)",
+"a": 2019,
+"u": "https://cae-eco.fr/static/pdf/cae-note053.pdf"
+},
+{
+"l": "IPP, rapport n° 60 « La baisse des impôts de production : ciblage et évaluation » (avec France Stratégie)",
+"a": 2025,
+"u": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+}
+]
 ],
 "le-pen.retraites": [
-"Départ plus tôt qu'avec les règles actuelles, dès 60 ans pour les carrières commencées avant 20 ans.",
-"Les carrières commencées après 20 ans restent à 62 ans et 42 annuités ; davantage de pensions à financer."
+"Plus d'années de retraite pour ceux qui ont commencé tôt : un homme ouvrier peut espérer 3,5 ans de retraite de moins qu'un cadre, et 4,9 ans de moins sans incapacité ; partir plus tôt réduit l'écart (Insee, 2025).",
+"Moins d'emploi après 60 ans : le report de 60 à 62 ans l'avait accru de 20 à 25 points (IPP, 2025). Les carrières longues sont surtout des hommes, à la mortalité proche de la moyenne, hors santé (COR, Cour des comptes).",
+[
+{
+"l": "Économie et statistique n°549 (Insee), Blasco et Lojkine : durée de retraite avec et sans incapacité",
+"a": 2025,
+"u": "https://www.insee.fr/fr/statistiques/fichier/9008717/ES549_web_FR.pdf"
+},
+{
+"l": "Cepremap, Observatoire du bien-être n°2026-06 (Martinez et Perona) : « Est-on plus heureux à la retraite ? »",
+"a": 2026,
+"u": "https://www.cepremap.fr/depot/2026/03/2026-06-Est_on_plus_heureux_a_la_retraite.pdf"
+},
+{
+"l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
+"a": 2025,
+"u": "https://www.ipp.eu/publication/impact-de-la-reforme-des-retraites-de-2010-sur-lequilibre-financier-de-lassurance-chomage/"
+},
+{
+"l": "COR, rapport annuel 2026, partie 4 (âges de départ, p. 216-219)",
+"a": 2026,
+"u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
+},
+{
+"l": "COR, séance du 14 mars 2024, dossier « Départs anticipés »",
+"a": 2024,
+"u": "https://www.cor-retraites.fr/sites/default/files/2024-03/2024_03_14_Dossier%20en%20bref.pdf"
+},
+{
+"l": "Cour des comptes, Sécurité sociale 2019, ch. V « Partir plus tôt à la retraite »",
+"a": 2019,
+"u": "https://www.ccomptes.fr/system/files/2019-10/RALFSS-2019-05-depart-retraite-anticipe.pdf"
+}
+]
 ],
 "le-pen.tva": [
-"Prix de l'énergie et des carburants plus bas, si la baisse de taxe est répercutée.",
-"Baisse plus forte en euros pour les ménages qui consomment le plus d'énergie ; moins de recettes de TVA."
+"Prix de l'énergie plus bas pour tous les ménages : en 2021-2022, les mesures de baisse des prix ont évité environ 3 points d'inflation et soutenu davantage, en part du revenu, les 30 % les plus modestes (Insee).",
+"Gain plus élevé en euros pour les gros consommateurs : la remise carburant de 2022 a rapporté 64 à 115 € au quart le plus aisé, 29 à 48 € au plus modeste ; une énergie moins chère fait aussi monter la consommation (CAE, Insee).",
+[
+{
+"l": "Insee Analyses n° 78 (Cornuet)",
+"a": 2022,
+"u": "https://www.insee.fr/fr/statistiques/6655850"
+},
+{
+"l": "CAE Focus n° 98 / Insee Analyses n° 86 (Bonnet, Loisel, Wilner, Fize)",
+"a": 2023,
+"u": "https://cae-eco.fr/static/pdf/focus-98-carburants-230706.pdf"
+},
+{
+"l": "Insee Analyses n° 75, la flambée des prix de l'énergie et le bouclier tarifaire",
+"a": 2022,
+"u": "https://www.insee.fr/fr/statistiques/6524161"
+}
+]
 ],
 "le-pen.tva-produits-essentiels": [
-"Prix de ces produits plus bas, si la baisse de taxe est répercutée.",
-"Baisse en partie gardée par les distributeurs plutôt que répercutée ; moins de recettes de TVA."
+"Baisse directe du prix des courses : au Portugal en 2023, la suppression temporaire de la TVA sur 46 produits alimentaires a été répercutée presque en totalité (−5,7 % sur les prix) pendant toute la mesure (Banco de Portugal).",
+"La répercussion n'est pas garantie : après la baisse de TVA en restauration en 2009, les prix n'ont baissé que de 2 % et les restaurateurs ont gardé 56 % du gain ; les hausses suivantes ont été 4 à 5 fois plus répercutées (IPP).",
+[
+{
+"l": "SUERF Policy Brief n° 963 / Banco de Portugal WP 04/2024 (Bernardino, Duque Gabriel, Quelhas, Silva-Pereira)",
+"a": 2024,
+"u": "https://suerf.org/publications/suerf-policy-notes-and-briefs/can-a-temporary-vat-cut-bring-down-inflation"
+},
+{
+"l": "IPP, note n° 32 « Qui a bénéficié de la baisse de la TVA dans la restauration en 2009 ? » (Benzarti, Carloni)",
+"a": 2018,
+"u": "https://www.ipp.eu/wp-content/uploads/2018/05/n32-notesIPP-mai2018.pdf"
+},
+{
+"l": "Insee, document de travail F1404 (Sillard, Lafféter)",
+"a": 2014,
+"u": "https://www.insee.fr/fr/statistiques/1381057"
+}
+]
 ],
 "le-pen.ue": [
-"La France verse moins au budget européen.",
-"Moins de crédits européens à répartir, dont une partie revient en France (agriculture, régions)."
+"La France est le 2e contributeur net au budget européen et reçoit 238 € par habitant (21e rang, Bercy) ; sa contribution augmente avec le remboursement du plan de relance européen (Sénat, 2025).",
+"57 % des fonds européens reçus par la France viennent de la PAC : un budget réduit touche d'abord agriculteurs et régions ; le solde net ignore aussi les gains du marché unique (4,4 % de revenu en moyenne, CEPII).",
+[
+{
+"l": "Bercy, annexe budgétaire « jaune » sur l'UE (Banque des Territoires)",
+"a": 2026,
+"u": "https://www.banquedesterritoires.fr/budget-2027-la-facture-europeenne-continue-de-gonfler"
+},
+{
+"l": "Sénat, commission des finances, PSR-UE (PLF 2026)",
+"a": 2025,
+"u": "https://www.senat.fr/fileadmin/cru-1762483659/Commissions/Finances/2025-2026/PLF_2026/Essentiel/Mission_Affaires_europeennes_Essentiel_post-commission.pdf"
+},
+{
+"l": "Mayer, Vicard, Zignago, « Les coûts de la non-Europe revisités » (Banque de France / CEPII)",
+"a": 2018,
+"u": "https://www.banque-france.fr/fr/publications-et-statistiques/publications/les-couts-de-la-non-europe-revisites"
+}
+]
 ],
 "lisnard.aides5": [
-"Moins de dépenses d'aides non liées aux cotisations.",
-"Les étrangers résidant depuis moins de 5 ans ne touchent plus ces aides."
+"Conditionner les aides à la durée de séjour vise à réduire l'attrait du pays : au Danemark, des aides réduites de moitié pour les immigrés hors UE ont diminué les arrivées nettes d'environ 5 000 par an.",
+"30,6 % des immigrés sont pauvres, contre 12,7 % des autres (Insee, 2021) ; au Danemark, la baisse des aides aux réfugiés nouvellement installés a réduit la scolarité des enfants et accru la délinquance des adolescents.",
+[
+{
+"l": "Agersnap, Jensen, Kleven, The Welfare Magnet Hypothesis (AER: Insights ; NBER w26454)",
+"a": 2020,
+"u": "https://www.nber.org/papers/w26454"
+},
+{
+"l": "Insee, Niveau de vie et pauvreté des immigrés (Insee Références 2024)",
+"a": 2024,
+"u": "https://www.insee.fr/fr/statistiques/7941405"
+},
+{
+"l": "Dustmann, Andersen, Landersø, Intended and Unintended Consequences of Welfare Cuts for Refugees (synthèse RFBerlin de deux articles 2024)",
+"a": 2024,
+"u": "https://rfberlin.com/wp-content/uploads/2024/08/Intended-and-Unintended-Consequences-of-Welfare-Cuts-for-Refugees.pdf"
+}
+]
 ],
 "lisnard.allocation": [
-"Une seule aide au lieu de plusieurs.",
-"Montant total plafonné : certains bénéficiaires touchent moins qu'aujourd'hui."
+"Au Royaume-Uni, la fusion de six aides en un crédit unique a été suivie de reprises d'emploi plus fréquentes (+4 points à six mois, NAO 2018) ; en France, un tiers des éligibles ne demandent pas le RSA.",
+"Le NAO doute que ce gain d'emploi précoce se généralise et relève que 4 allocataires sur 10 déclaraient des difficultés financières ; un plafond commun réduit les aides des foyers qui en cumulent plusieurs.",
+[
+{
+"l": "National Audit Office, Rolling out Universal Credit",
+"a": 2018,
+"u": "https://www.nao.org.uk/wp-content/uploads/2018/06/Rolling-out-Universal-Credit-Summary.pdf"
+},
+{
+"l": "Drees (via Maire-info), non-recours au RSA",
+"a": 2022,
+"u": "https://www.maire-info.com/aide-sociale/precarite-un-tiers-des-foyers-eligibles-au-rsa-nen-fait-toujours-pas-la-demande-art26-26116"
+},
+{
+"l": "iFRAP, scénarios de plafonnement d'une allocation unique",
+"a": 2024,
+"u": "https://www.ifrap.org/emploi-et-politiques-sociales/12-34-milliards-deuros-deconomies-les-differents-scenarios-dun-plafonnement-dune-allocation-sociale-unique-par-rapport"
+}
+]
 ],
 "lisnard.ame": [
-"Moins de dépenses d'aide médicale d'État.",
-"Les étrangers sans titre de séjour ne sont pris en charge que pour les soins urgents."
+"Sept des huit pays européens étudiés distinguent les soins urgents ou essentiels des autres soins ; l'IGAS-IGF (2019) soupçonnait une migration pour soins chez 43 % des patients dialysés couverts par l'AME d'un échantillon.",
+"Les rapports IGAS-IGF (2019) et Évin-Stefanini (2023) prévoient plus de renoncement aux soins et des malades vus plus tard à l'hôpital ; en Espagne, la restriction de 2012 a ajouté environ 80 décès par an.",
+[
+{
+"l": "IGAS-IGF, L'aide médicale de l'État : diagnostic et propositions",
+"a": 2019,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/271649.pdf"
+},
+{
+"l": "Évin-Stefanini, Rapport sur l'aide médicale de l'État",
+"a": 2023,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/292122.pdf"
+},
+{
+"l": "Juanmarti Mestres, López Casasnovas, Vall Castelló, The deadly effects of losing health insurance (European Economic Review)",
+"a": 2021,
+"u": "https://ideas.repec.org/a/eee/eecrev/v131y2021ics0014292120302385.html"
+}
+]
 ],
 "lisnard.cotisations": [
-"Salaire net en hausse grâce à moins de cotisations.",
-"Gain réservé aux actifs, proportionnel au salaire ; moins de recettes de cotisations."
+"Le salaire net augmente sans coût en plus pour l'employeur, ce qui rend le travail plus rémunérateur : en 2018, la baisse des cotisations salariales a accru le pouvoir d'achat des salariés du privé (OFCE).",
+"Le gain dépend des économies faites ailleurs et croît avec le salaire : en 2018, la même baisse, financée par la CSG, a réduit le pouvoir d'achat des retraités (OFCE) ; ici, ce sont des dépenses publiques qui baissent.",
+[
+{
+"l": "OFCE, L'économie française 2019, chap. III (Madec, Plane, Sampognaro)",
+"a": 2018,
+"u": "https://www.ofce.sciences-po.fr/pdf/ouvrage/2019-EF-08.pdf"
+}
+]
 ],
 "lisnard.fonction": [
-"Moins de dépenses de personnel et d'agences publiques.",
-"Moins d'agents publics ; agences, ARS et DREAL supprimées, leurs missions arrêtées ou reprises ailleurs."
+"La France compte 89 emplois publics pour 1 000 habitants, dans le haut des pays riches (France Stratégie) ; la Cour des comptes proposait en 2014 de ne pas remplacer une partie des départs.",
+"Avec le « un sur deux », près de 90 % des économies brutes étaient reversées aux agents (Cour des comptes, 2010) ; les inspections notent des postes supprimés avant les gains de productivité.",
+[
+{
+"l": "France Stratégie, Comment la France se compare-t-elle en matière d'emploi public ?",
+"a": 2017,
+"u": "https://www.strategie-plan.gouv.fr/files/files/Presse/CP%202017/2017-12-19_Comment%20la%20France%20se%20compare-t-elle%20en%20mati%C3%A8re%20d%E2%80%99emploi%20public.pdf"
+},
+{
+"l": "Cour des comptes, masse salariale de l'État (via Acteurs publics)",
+"a": 2015,
+"u": "https://acteurspublics.fr/articles/la-cour-des-comptes-incite-le-gouvernement-a-reduire-les-effectifs-de-letat/"
+},
+{
+"l": "Cour des comptes, situation des finances publiques (via Acteurs publics)",
+"a": 2010,
+"u": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-peu/"
+},
+{
+"l": "IGA, IGF, IGAS, Bilan de la RGPP",
+"a": 2012,
+"u": "https://www.fonction-publique.gouv.fr/files/files/ArchivePortailFP/www.fonction-publique.gouv.fr/files/files/publications/hors_collections/20120925-rapport-bilan-RGPP_sans-annexes.pdf"
+}
+]
 ],
 "lisnard.impots": [
-"Les entreprises paient moins d'impôts de production.",
-"Baisse aussi pour les entreprises sans bénéfices (taxe sur le chiffre d'affaires) ; moins de recettes publiques."
+"Ces impôts sont dus même sans bénéfice : pour le CAE (2019), la C3S est celui qui fausse le plus la production (−1 % d'exportations, survie plus faible en crise) ; 3,6 % de la valeur ajoutée contre 0,5 % en Allemagne.",
+"La baisse de 10 Md€ de CVAE et de CFE en 2021 n'a pas eu d'effet robuste mesuré sur l'investissement, l'emploi ou les exportations (IPP 2025) ; les gains sont allés surtout aux grandes entreprises riches en capital.",
+[
+{
+"l": "CAE, note n° 53 « Les impôts sur (ou contre) la production » (Martin, Trannoy)",
+"a": 2019,
+"u": "https://cae-eco.fr/static/pdf/cae-note053.pdf"
+},
+{
+"l": "IPP, rapport n° 60 « La baisse des impôts de production : ciblage et évaluation » (avec France Stratégie)",
+"a": 2025,
+"u": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+}
+]
 ],
 "lisnard.is20": [
-"Les entreprises bénéficiaires paient moins d'impôt sur leurs bénéfices.",
-"Gain proportionnel aux bénéfices, nul pour les entreprises déficitaires ; moins de recettes d'impôt sur les sociétés."
+"Une partie de l'impôt sur les bénéfices pèse sur les salaires (environ la moitié en Allemagne, Fuest et al. 2018) ; en France, la baisse de 2018-2022 est associée à plus de créations d'entreprises (IPP 2023).",
+"Cet impôt pèse surtout sur les entreprises les plus rentables, qui versent le plus de dividendes (IPP 2025) et gagnent donc le plus ; pondéré par l'emploi, l'effet mesuré sur les créations d'entreprises reste faible (IPP 2023).",
+[
+{
+"l": "Fuest, Peichl, Siegloch, « Do Higher Corporate Taxes Reduce Wages? », American Economic Review",
+"a": 2018,
+"u": "https://www.aeaweb.org/articles?id=10.1257/aer.20130570"
+},
+{
+"l": "IPP, rapport n° 47 « Évaluation des réformes de la fiscalité du capital » (pour France Stratégie)",
+"a": 2023,
+"u": "https://halshs.archives-ouvertes.fr/halshs-04439415v1/file/Rapport_IPP_47_ISFcrea_compressed.pdf"
+},
+{
+"l": "IPP, rapport n° 60 (chapitre ciblage)",
+"a": 2025,
+"u": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+}
+]
 ],
 "lisnard.profs": [
-"Rémunération des enseignants en hausse sur cinq ans.",
-"Hausse en échange d'une réorganisation des missions des enseignants ; dépense supplémentaire pour l'État."
+"Les enseignants gagnent 26 % de moins que les autres diplômés en primaire (17 % en moyenne OCDE) ; payer des missions en plus a eu de premiers effets positifs sur le remplacement des absences courtes (Cour des comptes).",
+"Le Pacte de 2023, qui paie des missions en plus, n'a attiré qu'environ un tiers des enseignants, une adhésion « fragile » et inégale (Cour des comptes 2025) ; des pays qui paient mieux peinent aussi à recruter (Sénat 2022).",
+[
+{
+"l": "OCDE, Regards sur l'éducation 2025 (via L'Etudiant / Educpros)",
+"a": 2025,
+"u": "https://www.letudiant.fr/educpros/actualite/les-salaires-des-enseignants-de-locde-sont-peu-attractifs-en-particulier-en-france.html"
+},
+{
+"l": "Cour des comptes, audit flash sur le Pacte enseignant (via Weka)",
+"a": 2025,
+"u": "https://www.weka.fr/actualite/?p=201317"
+},
+{
+"l": "Sénat, rapport Longuet sur la pénurie d'enseignants (via Public Sénat)",
+"a": 2022,
+"u": "https://www.publicsenat.fr/actualites/education/face-a-la-penurie-d-enseignants-un-rapport-senatorial-montre-que-les"
+}
+]
 ],
 "lisnard.referendum": [
-"Les citoyens peuvent déclencher des référendums sur davantage de sujets.",
-"Davantage de décisions prises par référendum plutôt que par le Parlement."
+"En Suisse, les cantons où l'initiative populaire est plus facile affichent une satisfaction de vie plus élevée (Frey et Stutzer, 2000) ; 79 % des Français veulent plus de référendums (Cevipof, 2026).",
+"Cet effet n'est pas robuste selon des travaux suisses plus récents ; en Italie, seuls 2 des 10 référendums abrogatifs des trente dernières années ont atteint le quorum de participation (Padoue, 2025).",
+[
+{
+"l": "Frey et Stutzer, « Happiness, Economy and Institutions », Economic Journal",
+"a": 2000,
+"u": "https://webspace.qmul.ac.uk/fcornaglia/institutions.pdf"
+},
+{
+"l": "Cevipof, Baromètre de la confiance politique, vague 17",
+"a": 2026,
+"u": "https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-cevipof-2026-la-confiance-s-effondre-en-politique-la-proximite-fait-figure-de-refuge/"
+},
+{
+"l": "Swissinfo, entretien avec I. Stadelmann-Steffen (Univ. de Berne)",
+"a": 2017,
+"u": "https://www.swissinfo.ch/eng/directdemocracy/political-participation_does-democracy-make-people-happy/43010132"
+},
+{
+"l": "Université de Padoue, Centre des droits humains, référendums de juin 2025",
+"a": 2025,
+"u": "https://unipd-centrodirittiumani.it/en/news/the-results-of-the-abrogative-referendum-on-labor-and-citizenship-held-on-june-8-and-9-2025-the-proposal-to-shorten-the-processing-time-for-granting-italian-citizenship-was-rejected"
+}
+]
 ],
 "lisnard.retraites": [
-"Davantage de cotisations et moins de pensions versées.",
-"Départ plus tard qu'avec les règles actuelles, à 65 ans ; pension de base par répartition, complétée par l'épargne."
+"Plus d'actifs : le report de 60 à 62 ans a accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). L'épargne placée dépend moins de la démographie et rapporte souvent plus que la croissance, avec des aléas de marché (COR, 2025).",
+"Ce report a aussi accru chômage indemnisé et arrêts maladie (IPP ; Insee). L'épargne retraite suit les marchés et reste concentrée : 34 % des ménages cadres en ont une, contre 10 à 12 % des employés et ouvriers (Insee, 2024).",
+[
+{
+"l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
+"a": 2025,
+"u": "https://www.ipp.eu/publication/impact-de-la-reforme-des-retraites-de-2010-sur-lequilibre-financier-de-lassurance-chomage/"
+},
+{
+"l": "COR, séance du 18 décembre 2025, « Répartition, réserves et capitalisation »",
+"a": 2025,
+"u": "https://www.cor-retraites.fr/sites/default/files/2025-12/Dossier%20en%20bref_18.12.2025.pdf"
+},
+{
+"l": "La Grande Conversation (B. Martinot, Institut Montaigne) : capitalisation obligatoire et transition",
+"a": 2025,
+"u": "https://www.lagrandeconversation.com/app/uploads/2025/05/la-retraite-par-capitalisation-obligatoire-quelques-pistes-pour-gerer-la-difficile-periode-de-transition-la-grande-conversation.pdf"
+},
+{
+"l": "Économie et statistique n°538 (Insee), Caroli, Pollak et Roger : report de l'âge et consommation de soins",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/7615292"
+},
+{
+"l": "Insee, Revenus et patrimoine des ménages 2024, fiche taux de détention",
+"a": 2024,
+"u": "https://www.insee.fr/fr/statistiques/fichier/7941419/RPM2024-F25.pdf"
+}
+]
 ],
 "melenchon.constituante": [
-"Nouvelles règles : référendums d'initiative citoyenne, vote à la proportionnelle.",
-"Davantage de décisions prises par référendum plutôt que par le Parlement ; fin de l'adoption d'un texte sans vote (49.3)."
+"Seuls 20 % des Français font confiance à l'Assemblée (Cevipof, 2026) ; en Islande, un projet rédigé par un conseil de citoyens élus a été approuvé comme base par deux tiers des votants en 2012.",
+"Les précédents montrent des processus longs à l'issue incertaine : au Chili, quatre ans de travaux se sont conclus par le rejet de deux projets par référendum (62 % en 2022, 55 % en 2023).",
+[
+{
+"l": "Cevipof, Baromètre de la confiance politique, vague 17",
+"a": 2026,
+"u": "https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-cevipof-2026-la-confiance-s-effondre-en-politique-la-proximite-fait-figure-de-refuge/"
+},
+{
+"l": "openDemocracy, « The Icelandic constitutional experiment »",
+"a": 2012,
+"u": "https://www.opendemocracy.net/en/icelandic-constitutional-experiment/"
+},
+{
+"l": "Le Grand Continent, Chili (premier projet)",
+"a": 2023,
+"u": "https://legrandcontinent.eu/fr/?p=207375"
+},
+{
+"l": "International IDEA, Democracy Tracker Chile, décembre 2023",
+"a": 2023,
+"u": "https://www.idea.int/democracytracker/report/chile/december-2023"
+},
+{
+"l": "openDemocracy, « When politics strike back »",
+"a": 2013,
+"u": "https://www.opendemocracy.net/giulia-dessi/when-politics-strike-back-end-of-icelandic-constitutional-experiment"
+}
+]
 ],
 "melenchon.dette": [
-"Moins de dette publique à rembourser à la banque centrale.",
-"Les intérêts de cette dette, qui revenaient déjà à l'État par la banque centrale, disparaissent aussi ; les prêteurs peuvent demander des taux plus élevés."
+"Pour plus de 100 économistes européens (tribune de 2021), une banque centrale peut fonctionner même avec des pertes durables : effacer cette dette libérerait des marges pour la transition écologique.",
+"Les intérêts versés à la banque centrale reviennent en partie aux États sous forme de dividendes : l'effacement les supprimerait aussi, sans gain net (BNP Paribas) ; aucun dividende versé à l'État au titre de 2022 et 2023.",
+[
+{
+"l": "Banque de France, A. Bénassy-Quéré, « Comptes des banques centrales : le trou d'air était attendu »",
+"a": 2024,
+"u": "https://www.banque-france.fr/fr/interventions-gouverneur/comptes-des-banques-centrales-le-trou-dair-etait-attendu"
+},
+{
+"l": "Tribune « Annuler les dettes publiques détenues par la BCE » (La Libre Belgique)",
+"a": 2021,
+"u": "https://www.lalibre.be/debats/opinions/annuler-les-dettes-publiques-detenues-par-la-bce-pour-reprendre-en-main-notre-destin-601c38c17b50a652f79d741d"
+},
+{
+"l": "BNP Paribas, « Le coût de l'annulation de la dette publique »",
+"a": 2021,
+"u": "https://economic-research.bnpparibas.com/pdf/fr-FR/cout-annulation-dette-publique-debat-suscite-19/02/2021,41805"
+}
+]
 ],
 "melenchon.fiscalite": [
-"Recettes publiques en plus.",
-"Les plus hauts patrimoines, les gros héritages et les revenus du capital paient davantage."
+"Au sommet, l'impôt devient dégressif : les 0,1 % les plus riches paient 46 % de leur revenu en impôts directs, les milliardaires 26 %, leurs revenus restant surtout dans leurs sociétés (IPP 2023).",
+"Les départs à l'étranger sont rares (0,2 % par an), mais celui d'un actionnaire de référence fait baisser de 25 % la masse salariale de son entreprise ; la flat tax est associée à plus de créations d'entreprises (IPP 2023).",
+[
+{
+"l": "IPP, note n° 92 « Quels impôts les milliardaires paient-ils ? » (Bach, Bozio, Guillouzouic, Malgouyres)",
+"a": 2023,
+"u": "https://www.ipp.eu/wp-content/uploads/2023/06/Note_IPP_Billionaires-version-actualisee.pdf"
+},
+{
+"l": "IPP, rapport n° 47 « Évaluation des réformes de la fiscalité du capital » (pour France Stratégie)",
+"a": 2023,
+"u": "https://halshs.archives-ouvertes.fr/halshs-04439415v1/file/Rapport_IPP_47_ISFcrea_compressed.pdf"
+}
+]
 ],
 "melenchon.jeunes": [
-"Un revenu versé aux jeunes en études ou en formation, selon leurs ressources.",
-"Nouvelle prestation mensuelle pour l'État, dont le montant varie selon les ressources."
+"Les aides aux étudiants modestes augmentent les études : en France, une bourse de 1 500 € par an relève de 5 à 7 % l'inscription dans le supérieur et améliore la poursuite et l'obtention du diplôme (Fack et Grenet, 2015).",
+"Un revenu garanti aux jeunes peut freiner l'entrée en emploi : l'accès au RMI à 25 ans réduisait de 7 à 10 % l'activité des hommes seuls peu diplômés (Bargain et Doorley, 2011) ; l'effet dépend de la condition de formation.",
+[
+{
+"l": "Fack et Grenet, AEJ Applied (via PSE)",
+"a": 2015,
+"u": "https://www.parisschoolofeconomics.eu/en/publications-hal/improving-college-access-and-success-for-low-income-students-evidence-from-a-large-need-based-grant-program"
+},
+{
+"l": "Bargain et Doorley, Journal of Public Economics",
+"a": 2011,
+"u": "https://liser.elsevierpure.com/en/publications/caught-in-the-trap-welfares-disincentive-and-the-labor-supply-of-"
+}
+]
 ],
 "melenchon.niches": [
-"Recettes publiques en plus.",
-"Les ménages qui emploient à domicile, les entreprises qui font de la recherche et ceux qui transmettent une entreprise paient plus."
+"Peu d'effet mesuré : crédit d'impôt recherche sans effet au-delà de 250 salariés, pacte Dutreil (transmission d'entreprise) sans gain d'investissement ni d'emploi (IPP), aide à domicile surtout prise par les 20 % les plus aisés.",
+"Le CIR fait monter la R&D d'environ 1 € par euro d'aide (DG Trésor) ; hors Dutreil, les entreprises transmises sont plus souvent dissoutes (10 % contre 6 % en 9 ans, IPP 2025) ; risque de retour du travail non déclaré à domicile.",
+[
+{
+"l": "DG Trésor, « Évaluation de la réforme du crédit d'impôt recherche de 2008 »",
+"a": 2021,
+"u": "https://www.tresor.economie.gouv.fr/Articles/2021/09/20/evaluation-de-la-reforme-du-credit-impot-recherche-de-2008"
+},
+{
+"l": "IPP, rapport n° 62 « L'impact économique des transmissions d'entreprises réalisées avec un pacte Dutreil » (pour la Cour des comptes)",
+"a": 2025,
+"u": "https://www.ipp.eu/wp-content/uploads/2025/11/Dutreil_CourDesComptes-6_compressed.pdf"
+},
+{
+"l": "Cour des comptes, « Le soutien de l'État aux services à la personne » (via Banque des Territoires)",
+"a": 2024,
+"u": "https://www.banquedesterritoires.fr/services-la-personne-la-cour-des-comptes-preconise-un-grand-menage"
+},
+{
+"l": "DGTPE, Cahier n° 2008-05 (Carbonnier)",
+"a": 2008,
+"u": "https://www.tresor.economie.gouv.fr/Articles/3dc4cef0-bee5-4065-a92d-4d82c4eb1569/files/1325b26d-286e-46f4-8b9b-28508a948337"
+}
+]
 ],
 "melenchon.point_indice": [
-"Salaire de base des agents publics en hausse de 10 %.",
-"Même hausse pour tous les agents ; s'applique aussi aux collectivités et aux hôpitaux, qui doivent la financer."
+"Le salaire net réel des agents de l'État a reculé en 2022 et 2023, avant +2,6 % en 2024 (Insee) ; une hausse du point d'indice relève tous les traitements de base, y compris en début de carrière.",
+"Une hausse uniforme ne cible pas les métiers en tension et s'applique aussi aux collectivités et aux hôpitaux, qui doivent la financer ; une partie de la hausse revient à l'État en impôts et cotisations.",
+[
+{
+"l": "Insee Première n° 2100, Les salaires dans la fonction publique de l'État en 2024",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/8986474"
+}
+]
 ],
 "melenchon.prix": [
-"Prix de l'alimentation et de l'énergie de base bloqués.",
-"Marges réduites pour producteurs et distributeurs, ou dépense publique en plus pour les compenser."
+"Effet immédiat sur l'inflation : en 2022, les boucliers sur l'énergie ont réduit de moitié la hausse des prix due à l'énergie (3,1 points d'inflation en moins), surtout pour les ménages modestes et âgés (Insee).",
+"En Hongrie, le blocage de produits alimentaires (2022-2023) n'a pas contenu l'inflation alimentaire, au-delà de 40 % pour la moitié des produits, et le plafond sur les carburants a pris fin sur des pénuries (OCDE, 2024).",
+[
+{
+"l": "Insee Analyses n° 75, bouclier tarifaire",
+"a": 2022,
+"u": "https://insee.fr/fr/statistiques/fichier/6524161/ia75.pdf"
+},
+{
+"l": "OCDE, Études économiques : Hongrie 2024",
+"a": 2024,
+"u": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/oecd-economic-surveys-hungary-2024_aa6e8628/795451e5-en.pdf"
+}
+]
 ],
 "melenchon.retraites": [
-"Départ plus tôt qu'avec les règles actuelles : 62 ans, puis 60 ans.",
-"À 60 ans, pension versée environ trois ans plus tôt qu'aujourd'hui ; davantage de pensions à financer."
+"Plus d'années de retraite, surtout pour les ouvriers : un homme ouvrier en vit 3,5 de moins qu'un cadre, 4,9 de moins sans incapacité (Insee) ; les premières années de retraite sont un répit pour la santé ressentie (Cepremap).",
+"Moins d'actifs : le report de 60 à 62 ans avait accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). Financer ces départs par plus de cotisations ou des pensions plus basses freine l'activité (modèles réunis par le COR, 2026).",
+[
+{
+"l": "Économie et statistique n°549 (Insee), Blasco et Lojkine : durée de retraite avec et sans incapacité",
+"a": 2025,
+"u": "https://www.insee.fr/fr/statistiques/fichier/9008717/ES549_web_FR.pdf"
+},
+{
+"l": "Cepremap, Observatoire du bien-être n°2026-06 (Martinez et Perona) : « Est-on plus heureux à la retraite ? »",
+"a": 2026,
+"u": "https://www.cepremap.fr/depot/2026/03/2026-06-Est_on_plus_heureux_a_la_retraite.pdf"
+},
+{
+"l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
+"a": 2025,
+"u": "https://www.ipp.eu/publication/impact-de-la-reforme-des-retraites-de-2010-sur-lequilibre-financier-de-lassurance-chomage/"
+},
+{
+"l": "Insee Analyses n°30 (Dubois et Koubi) : report de l'âge et emploi des seniors, réforme de 2010",
+"a": 2017,
+"u": "https://www.insee.fr/fr/statistiques/2546882"
+},
+{
+"l": "COR, rapport annuel 2026, synthèse (leviers et effets macroéconomiques, p. 19-20)",
+"a": 2026,
+"u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
+}
+]
 ],
 "melenchon.smic": [
-"Environ +220 € net par mois au niveau du SMIC.",
-"Coût du travail plus élevé pour les employeurs ; des études estiment des pertes d'emplois peu qualifiés."
+"Hausse directe du salaire au bas de l'échelle. En Allemagne, le salaire minimum de 2015 (15 % des salariés) a relevé les salaires sans baisse mesurable de l'emploi (Dustmann et al., 2022), comme au Royaume-Uni.",
+"Le SMIC est déjà le plus élevé d'Europe rapporté au salaire médian (62,5 %, groupe d'experts 2025). En Espagne, la hausse de 22 % de 2019 a accru de 2 à 3 points le risque de perte d'emploi des salariés concernés.",
+[
+{
+"l": "Dustmann et al., Reallocation Effects of the Minimum Wage, QJE",
+"a": 2022,
+"u": "https://ideas.repec.org/a/oup/qjecon/v137y2022i1p267-328..html"
+},
+{
+"l": "A. Dube, revue pour le gouvernement britannique (Impacts of minimum wages)",
+"a": 2019,
+"u": "https://www.gov.uk/government/publications/impacts-of-minimum-wages-review-of-the-international-evidence"
+},
+{
+"l": "Groupe d'experts sur le SMIC, rapport 2025",
+"a": 2025,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/301429_0.pdf"
+},
+{
+"l": "Banque d'Espagne, Documento Ocasional 2113 (Barceló et al.)",
+"a": 2021,
+"u": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/21/Fich/do2113.pdf"
+}
+]
 ],
 "philippe.chomage": [
-"Moins de dépenses d'assurance chômage.",
-"Les chômeurs de moins de 50 ans sont indemnisés 12 mois au plus, contre 18."
+"Les études françaises montrent qu'une durée d'indemnisation plus courte accélère le retour à l'emploi : passer de 7 à 15 mois de droits allongeait le chômage d'environ deux mois et demi, sans meilleur emploi retrouvé (IPP).",
+"Selon l'Unédic, une limite proche toucherait 45 % des allocataires ; les emplois repris après la fin des droits satisfont moins (Insee, 2018) et, en Autriche, des droits plus longs améliorent le salaire retrouvé.",
+[
+{
+"l": "IPP, note n° 5 (T. Le Barbanchon)",
+"a": 2013,
+"u": "https://www.ipp.eu/wp-content/uploads/2013/04/cp-22avril2013-ipp.pdf"
+},
+{
+"l": "Unédic, La reprise d'emploi dans les derniers mois du droit",
+"a": 2026,
+"u": "https://s3.eusc-de-east-1.amazonaws.eu/unedic-eks-prod-cms/2026/06/10/la-reprise-d-emploi-dans-les-derniers-mois-du-droit-chomage_uid_6a29b5d029883.pdf"
+},
+{
+"l": "Euzénat, Économie et Statistique n° 503-504 (Insee)",
+"a": 2018,
+"u": "https://www.insee.fr/fr/statistiques/fichier/3652253/503-504_Euzenat-FR.pdf"
+},
+{
+"l": "Nekoei et Weber, American Economic Review (IZA DP 9034)",
+"a": 2017,
+"u": "https://www.iza.org/publications/dp/9034"
+}
+]
 ],
 "philippe.famille": [
-"Une allocation dès le premier enfant, et des avantages fiscaux pour les familles.",
-"Allocation réduite pour les hauts revenus ; nouvelle dépense pour l'État dès le premier enfant."
+"En France, les aides financières pèsent sur la décision d'avoir un enfant, y compris le premier : une allocation familiale importante versée sans condition relèverait l'indice de fécondité d'environ 0,3 point (Laroque et Salanié).",
+"Une revue des études quasi-expérimentales conclut que l'effet des aides en argent sur la natalité est surtout temporaire, alors que le développement des crèches a un effet durable (Bergsvik et al., 2021).",
+[
+{
+"l": "Laroque et Salanié, Does Fertility Respond to Financial Incentives? (CESifo WP 2339)",
+"a": 2008,
+"u": "https://ideas.repec.org/p/ces/ceswps/_2339.html"
+},
+{
+"l": "Bergsvik, Fauske et Hart, Population and Development Review (résumé Population Europe)",
+"a": 2021,
+"u": "https://population-europe.eu/node/19476"
+}
+]
 ],
 "philippe.fonction": [
-"Moins de dépenses de personnel public.",
-"Moins d'agents publics ; opérateurs de l'État regroupés."
+"La masse salariale pèse 40 % du budget de l'État ; la Cour des comptes proposait en 2014 de ne pas remplacer un départ sur trois et d'allonger la durée effective du travail pour la contenir.",
+"Avec le « un sur deux », près de 90 % des économies brutes étaient reversées aux agents (Cour des comptes, 2010) ; les inspections notent des postes supprimés avant les gains de productivité.",
+[
+{
+"l": "Cour des comptes, masse salariale de l'État (via Acteurs publics)",
+"a": 2015,
+"u": "https://acteurspublics.fr/articles/la-cour-des-comptes-incite-le-gouvernement-a-reduire-les-effectifs-de-letat/"
+},
+{
+"l": "France Stratégie, Comment la France se compare-t-elle en matière d'emploi public ?",
+"a": 2017,
+"u": "https://www.strategie-plan.gouv.fr/files/files/Presse/CP%202017/2017-12-19_Comment%20la%20France%20se%20compare-t-elle%20en%20mati%C3%A8re%20d%E2%80%99emploi%20public.pdf"
+},
+{
+"l": "Cour des comptes, situation des finances publiques (via Acteurs publics)",
+"a": 2010,
+"u": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-peu/"
+},
+{
+"l": "IGA, IGF, IGAS, Bilan de la RGPP",
+"a": 2012,
+"u": "https://www.fonction-publique.gouv.fr/files/files/ArchivePortailFP/www.fonction-publique.gouv.fr/files/files/publications/hors_collections/20120925-rapport-bilan-RGPP_sans-annexes.pdf"
+}
+]
 ],
 "philippe.fonds_climat": [
-"Un financement dédié à l'adaptation au changement climatique.",
-"Nouvelle enveloppe annuelle à financer sur le budget de l'État."
+"L'inaction coûte déjà plusieurs milliards par an, surtout à l'État (I4CE, 2024) ; la Cour des comptes (2024) juge les besoins mal chiffrés et les réponses publiques peu coordonnées, faute de plan d'ensemble.",
+"Une enveloppe annuelle dépend des arbitrages budgétaires : le Fonds vert des collectivités a été divisé par trois en deux ans, de 2024 à 2026 (I4CE) ; le Haut Conseil pour le climat signale un risque d'adaptations mal conçues.",
+[
+{
+"l": "I4CE, « Anticiper les effets d'un réchauffement de +4 °C : quels coûts de l'adaptation ? » (Banque des Territoires)",
+"a": 2024,
+"u": "https://www.banquedesterritoires.fr/adaptation-aux-effets-dun-rechauffement-de-de-4degc-un-certain-cout-et-un-cout-certain"
+},
+{
+"l": "Cour des comptes, rapport public annuel 2024 sur l'adaptation (Maire-info)",
+"a": 2024,
+"u": "https://www.maire-info.com/adaptation-au-changement-climatique-la-cour-des-comptes-demande-une-strategie-claire-face-au-mur-dinvestissements-article2-28402"
+},
+{
+"l": "I4CE sur le Fonds vert (Maire-info)",
+"a": 2026,
+"u": "https://www.maire-info.com/transition-ecologique/action-climatique-les-collectivites-bien-plus-fragilisees-par-les-ponctions-de-tva-et-du-dilico-que-par-le-rabotage-du-fonds-vert-selon-li4ce-art26-30943"
+},
+{
+"l": "Haut Conseil pour le climat, rapport annuel 2026 (AFP)",
+"a": 2026,
+"u": "https://www.connaissancedesenergies.org/afp/climat-la-france-nest-pas-prete-il-faut-changer-dechelle-juge-le-haut-conseil-pour-le-climat-260709"
+}
+]
 ],
 "philippe.heures_sup": [
-"Plus de salaire net sur les heures travaillées au-delà de 35 h.",
-"Gain réservé aux salariés qui font des heures sup ; moins de recettes d'impôt et de cotisations."
+"Plus de salaire net pour ceux qui font des heures sup : l'exonération de 2007-2012 a profité à plus de 9 millions de salariés, pour un gain moyen d'environ 500 € par an (médian 350 €), selon l'Assemblée nationale (2011).",
+"En 2007-2012, pas de hausse mesurée du temps de travail réel, mais plus d'heures déclarées par les salariés très qualifiés pour réduire leur impôt (Cahuc-Carcillo) et un fort effet d'aubaine (Assemblée 2011).",
+[
+{
+"l": "Assemblée nationale, CEC, rapport Gorges-Mallot sur la loi TEPA (synthèse)",
+"a": 2011,
+"u": "https://www.assemblee-nationale.fr/13/controle/com_cec/cec-pdf/s3615.pdf"
+},
+{
+"l": "Cahuc, Carcillo, « The Detaxation of Overtime Hours: Lessons from the French Experiment » (IZA DP 5439 ; J. of Labor Economics 2014)",
+"a": 2011,
+"u": "https://docs.iza.org/dp5439.pdf"
+}
+]
 ],
 "philippe.immigration": [
-"Moins de titres de séjour délivrés chaque année.",
-"Les étrangers installés ne peuvent plus faire venir leur famille pendant le moratoire."
+"Les entrées familiales travaillent moins que celles pour travail (Insee) ; au Danemark, durcir la venue des conjoints en 2002 a retardé les mariages et allongé d'environ six mois les études des jeunes immigrées.",
+"Certains métiers dépendent des immigrés : 17 % des médecins hospitaliers, plus de 60 % des agents de propreté et aides à domicile en Île-de-France (CEPII) ; la séparation des familles est associée à une moins bonne santé mentale.",
+[
+{
+"l": "CEPII (Edo et Toubal), L'immigration en France, quelles réactions des salaires et de l'emploi ? (Lettre n° 347)",
+"a": 2014,
+"u": "https://www.cepii.fr/PDF_PUB/lettre/2014/let347.pdf"
+},
+{
+"l": "Insee, L'insertion professionnelle des immigrés primo-arrivants (Immigrés et descendants d'immigrés, éd. 2023 ; enquête Elipa 2)",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/6793312"
+},
+{
+"l": "CEPII (Edo, Louhab, Ragot), Métiers essentiels : quelle contribution des travailleurs immigrés ? (Lettre n° 424)",
+"a": 2022,
+"u": "https://www.cepii.fr/PDF_PUB/lettre/2022/let424.pdf"
+},
+{
+"l": "Löbel et Jacobsen, Waiting for kin (Journal of Ethnic and Migration Studies)",
+"a": 2021,
+"u": "https://edoc.hu-berlin.de/18452/29920"
+},
+{
+"l": "Cuzulan, Schultz-Nielsen, Fallesen (Demography, 2025), résumé Rockwool Foundation",
+"a": 2025,
+"u": "https://en.rockwoolfonden.dk/scientific-article/the-demographic-and-socioeconomic-consequences-of-restricting-access-to-marriage-for-young-immigrants-in-denmark/"
+}
+]
 ],
 "philippe.jeunes_parents": [
-"Plus de revenu disponible pour les jeunes parents des classes moyennes pendant 3 ans.",
-"Gain réservé aux parents imposables ; moins de recettes d'impôt sur le revenu."
+"Un soutien au moment où le revenu baisse : cinq ans après une naissance, les revenus salariaux des mères restent inférieurs d'environ 25 % à ce qu'ils auraient été sans enfant, ceux des pères quasi inchangés (Insee 2019).",
+"Seuls les foyers imposables y gagnent (46 % en 2025, DGFiP), d'autant plus que leur impôt est élevé ; l'effet des avantages fiscaux sur la natalité est positif mais « extrêmement faible » (Landais 2003).",
+[
+{
+"l": "Insee Analyses n° 48 (Pora, Wilner)",
+"a": 2019,
+"u": "https://www.insee.fr/fr/statistiques/4226475"
+},
+{
+"l": "Moneyvox, d'après le rapport d'activité 2025 de la DGFiP",
+"a": 2026,
+"u": "https://www.moneyvox.fr/impot/actualites/108717/46-des-francais-paient-un-impot-sur-le-revenu-919-425-foyers-de-plus-en-un-an"
+},
+{
+"l": "Landais, « Le quotient familial a-t-il stimulé la natalité française ? », Économie publique n° 13",
+"a": 2003,
+"u": "https://journals.openedition.org/economiepublique/279"
+}
+]
 ],
 "philippe.production": [
-"Les entreprises paient moins d'impôts de production.",
-"Les entreprises reçoivent moins d'aides publiques."
+"Ces impôts sont dus même sans bénéfice : pour le CAE (2019), ils faussent la production et pèsent 3,6 % de la valeur ajoutée contre 0,5 % en Allemagne. L'échange contre moins d'aides vise un effet neutre sur le déficit.",
+"La baisse de 10 Md€ d'impôts de production en 2021 n'a pas eu d'effet robuste mesuré (IPP 2025) ; si les aides supprimées incluent des baisses de cotisations sur les bas salaires, l'emploi peu qualifié y est sensible (CAE 2019).",
+[
+{
+"l": "CAE, note n° 53 « Les impôts sur (ou contre) la production » (Martin, Trannoy)",
+"a": 2019,
+"u": "https://cae-eco.fr/static/pdf/cae-note053.pdf"
+},
+{
+"l": "IPP, rapport n° 60 « La baisse des impôts de production : ciblage et évaluation » (avec France Stratégie)",
+"a": 2025,
+"u": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+},
+{
+"l": "CAE, note n° 49 « Baisses de charges : stop ou encore ? » (L'Horty, Martin, Mayer)",
+"a": 2019,
+"u": "https://cae-eco.fr/static/pdf/cae-note049v4.pdf"
+},
+{
+"l": "iFRAP, « Aides aux entreprises : 211 milliards d'euros par an ou 18,5 milliards ? »",
+"a": 2025,
+"u": "https://www.ifrap.org/budget-et-fiscalite/aides-aux-entreprises-211-milliards-deuros-par-ou-185-milliards"
+}
+]
 ],
 "philippe.profs": [
-"Rémunération des enseignants en hausse sur cinq ans.",
-"Même hausse pour tous les enseignants, étalée sur cinq ans ; dépense supplémentaire pour l'État."
+"Les enseignants français gagnent 26 % de moins que les autres diplômés du supérieur en primaire et 18 % en secondaire, contre 17 % et 13 % en moyenne OCDE (Regards sur l'éducation 2025).",
+"La Cour des comptes (2023) juge qu'une hausse de salaire seule n'enrayera pas la baisse d'attrait du métier ; l'Allemagne ou le Portugal paient mieux et peinent aussi à recruter (Sénat 2022).",
+[
+{
+"l": "OCDE, Regards sur l'éducation 2025 (via L'Etudiant / Educpros)",
+"a": 2025,
+"u": "https://www.letudiant.fr/educpros/actualite/les-salaires-des-enseignants-de-locde-sont-peu-attractifs-en-particulier-en-france.html"
+},
+{
+"l": "OCDE, Regards sur l'éducation 2025 (via Acteurs publics)",
+"a": 2025,
+"u": "https://acteurspublics.fr/articles/penurie-denseignants-la-france-nest-finalement-pas-si-mal-lotie/"
+},
+{
+"l": "Cour des comptes, attractivité du métier d'enseignant (via CIDJ)",
+"a": 2023,
+"u": "https://www.cidj.com/actualite/la-cour-des-comptes-preconise-d-elargir-les-voies-de-recrutement-au-metier-d-enseignant"
+},
+{
+"l": "Sénat, rapport Longuet sur la pénurie d'enseignants (via Public Sénat)",
+"a": 2022,
+"u": "https://www.publicsenat.fr/actualites/education/face-a-la-penurie-d-enseignants-un-rapport-senatorial-montre-que-les"
+}
+]
 ],
 "philippe.retraites": [
-"Davantage de cotisations et moins de pensions versées.",
-"Départ plus tard qu'avec les règles actuelles, à 65 ans et après 45 années de cotisation."
+"Plus d'actifs : le report de 60 à 62 ans a accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). Selon le COR (2026), reculer l'âge soutient l'activité et améliore les comptes publics au-delà des seules retraites.",
+"Ce report a aussi accru le chômage indemnisé de 12 à 15 points et les arrêts maladie (IPP, 2025 ; Insee, 2023). Les ouvriers, qui vivent moins longtemps, ont déjà 3,5 ans de retraite de moins qu'un cadre (Insee, 2025).",
+[
+{
+"l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
+"a": 2025,
+"u": "https://www.ipp.eu/publication/impact-de-la-reforme-des-retraites-de-2010-sur-lequilibre-financier-de-lassurance-chomage/"
+},
+{
+"l": "Insee Analyses n°30 (Dubois et Koubi) : report de l'âge et emploi des seniors, réforme de 2010",
+"a": 2017,
+"u": "https://www.insee.fr/fr/statistiques/2546882"
+},
+{
+"l": "COR, rapport annuel 2026, synthèse (leviers et effets macroéconomiques, p. 19-20)",
+"a": 2026,
+"u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
+},
+{
+"l": "Économie et statistique n°538 (Insee), Caroli, Pollak et Roger : report de l'âge et consommation de soins",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/7615292"
+},
+{
+"l": "Économie et statistique n°549 (Insee), Blasco et Lojkine : durée de retraite avec et sans incapacité",
+"a": 2025,
+"u": "https://www.insee.fr/fr/statistiques/fichier/9008717/ES549_web_FR.pdf"
+}
+]
 ],
 "retailleau.ame": [
-"Moins de dépenses d'aide médicale d'État.",
-"Les étrangers sans titre de séjour ne sont pris en charge que pour les soins urgents."
+"Sept des huit pays européens étudiés distinguent les soins urgents ou essentiels des autres soins ; l'IGAS-IGF (2019) soupçonnait une migration pour soins chez 43 % des patients dialysés couverts par l'AME d'un échantillon.",
+"Les rapports IGAS-IGF (2019) et Évin-Stefanini (2023) prévoient plus de renoncement aux soins et des malades vus plus tard à l'hôpital ; en Espagne, la restriction de 2012 a ajouté environ 80 décès par an.",
+[
+{
+"l": "IGAS-IGF, L'aide médicale de l'État : diagnostic et propositions",
+"a": 2019,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/271649.pdf"
+},
+{
+"l": "Évin-Stefanini, Rapport sur l'aide médicale de l'État",
+"a": 2023,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/292122.pdf"
+},
+{
+"l": "Juanmarti Mestres, López Casasnovas, Vall Castelló, The deadly effects of losing health insurance (European Economic Review)",
+"a": 2021,
+"u": "https://ideas.repec.org/a/eee/eecrev/v131y2021ics0014292120302385.html"
+}
+]
 ],
 "retailleau.energie": [
-"Moins de dépenses publiques de soutien aux nouveaux parcs solaires et éoliens en mer ; davantage de production nucléaire à terme.",
-"Moins de nouvelle production d'électricité solaire et éolienne en mer ; 8 réacteurs à construire et à financer."
+"Pour RTE (2021), les scénarios avec nouveaux réacteurs sont les moins coûteux pour le système électrique ; le soutien aux renouvelables a presque triplé de 2024 à 2027, baisse des prix de gros comprise (CRE).",
+"Le premier EPR a eu 12 ans de retard et le coût du programme EPR2 a déjà augmenté de 30 % (Cour des comptes, 2025) ; RTE juge la neutralité carbone impossible sans fort développement des renouvelables.",
+[
+{
+"l": "RTE, Futurs énergétiques 2050 (Banque des Territoires)",
+"a": 2021,
+"u": "https://www.banquedesterritoires.fr/futur-energetique-de-la-france-nucleaire-et-renouvelables-le-en-meme-temps-de-rte"
+},
+{
+"l": "CRE, délibération n° 2026-149 (charges de service public de l'énergie)",
+"a": 2026,
+"u": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-149_CSPE_2026-2027.pdf"
+},
+{
+"l": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants » (AFP)",
+"a": 2025,
+"u": "https://www.connaissancedesenergies.org/afp/programme-depr-la-cour-des-comptes-publie-un-rapport-critique-et-recalcule-le-cout-de-flamanville-3-250114"
+},
+{
+"l": "RTE, Bilan prévisionnel 2023-2035 (Banque des Territoires)",
+"a": 2023,
+"u": "https://www.banquedesterritoires.fr/transition-energetique-rte-affine-ses-scenarios-horizon-2035"
+}
+]
 ],
 "retailleau.etat": [
-"Moins de dépenses de personnel et d'agences publiques.",
-"Moins d'agents publics ; agences supprimées, leurs missions arrêtées ou reprises ailleurs ; temps de travail allongé et jours de carence en plus pour les agents."
+"La Cour des comptes proposait en 2014 de remplacer moins de départs et d'allonger le temps de travail ; un jour de carence a réduit de 23 % le nombre d'arrêts maladie, de 6 % les jours d'absence, à l'Éducation nationale (Insee).",
+"Avec le « un sur deux », près de 90 % des économies brutes ont été reversées aux agents (Cour des comptes, 2010) ; le jour de carence de 2012 a accru d'environ 25 % les arrêts d'une semaine à trois mois (Insee 2017).",
+[
+{
+"l": "Cour des comptes, masse salariale de l'État (via Acteurs publics)",
+"a": 2015,
+"u": "https://acteurspublics.fr/articles/la-cour-des-comptes-incite-le-gouvernement-a-reduire-les-effectifs-de-letat/"
+},
+{
+"l": "Insee, Document de travail n° 2023-06 (Hillion, Maugendre), effet du jour de carence",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/6964865"
+},
+{
+"l": "Insee Analyses n° 36, Le jour de carence dans la fonction publique de l'État",
+"a": 2017,
+"u": "https://www.insee.fr/fr/statistiques/3181789"
+},
+{
+"l": "Cour des comptes, situation des finances publiques (via Acteurs publics)",
+"a": 2010,
+"u": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-peu/"
+}
+]
 ],
 "retailleau.fin_maprimerenov": [
-"Moins de dépenses d'aide à la rénovation énergétique.",
-"Fin de l'aide de l'État pour isoler un logement ou changer de chauffage."
+"L'aide finance surtout des gestes isolés (73 % des dossiers début 2023) et peu de rénovations globales (1,7 %) ; son taux ne semble pas lié aux gains d'énergie par euro investi (France Stratégie 2024).",
+"Les aides évitent environ 1,8 Mt de CO2 par an, près de 4 % des émissions du résidentiel (estimation théorique), et vont à 81 % aux ménages modestes et très modestes (France Stratégie 2024).",
+[
+{
+"l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov'",
+"a": 2024,
+"u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
+},
+{
+"l": "iFRAP, Rénovation énergétique : l'impact très limité des primes (d'après Cour des comptes 2023)",
+"a": 2024,
+"u": "https://www.ifrap.org/agriculture-et-energie/renovation-energetique-limpact-tres-limite-des-7-milliards-de-primes"
+}
+]
 ],
 "retailleau.immigration": [
-"Moins d'acquisitions de la nationalité et moins de dépenses d'aides sociales.",
-"Naître en France ne donne plus droit à la nationalité ; les étrangers ayant moins de 5 ans de travail en France ne touchent plus les aides sociales."
+"Au Danemark, réduire de moitié les aides aux immigrés hors UE a diminué les arrivées nettes d'environ 5 000 par an ; en France, l'emploi un an après le titre est plus faible pour les entrées familiales que pour le travail (Insee).",
+"Au Danemark, la baisse des aides a réduit la scolarité des enfants et accru la délinquance des adolescents ; en Allemagne, l'ouverture du droit du sol en 2000 a amélioré la scolarité des enfants d'immigrés concernés.",
+[
+{
+"l": "Agersnap, Jensen, Kleven, The Welfare Magnet Hypothesis (AER: Insights ; NBER w26454)",
+"a": 2020,
+"u": "https://www.nber.org/papers/w26454"
+},
+{
+"l": "Insee, L'insertion professionnelle des immigrés primo-arrivants (Immigrés et descendants d'immigrés, éd. 2023 ; enquête Elipa 2)",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/6793312"
+},
+{
+"l": "Dustmann, Andersen, Landersø, Intended and Unintended Consequences of Welfare Cuts for Refugees (synthèse RFBerlin de deux articles 2024)",
+"a": 2024,
+"u": "https://rfberlin.com/wp-content/uploads/2024/08/Intended-and-Unintended-Consequences-of-Welfare-Cuts-for-Refugees.pdf"
+},
+{
+"l": "Felfe, Rainer, Saurer, Why Birthright Citizenship Matters for Immigrant Children (Journal of Labor Economics)",
+"a": 2020,
+"u": "https://ideas.repec.org/a/ucp/jlabec/doi10.1086-704570.html"
+}
+]
 ],
 "retailleau.production": [
-"Les entreprises paient moins d'impôts de production et de cotisations (forfait social, heures sup).",
-"Heures sup moins chères pour les employeurs ; moins de recettes d'impôts et de cotisations."
+"Pour le CAE (2019), la C3S, taxe sur le chiffre d'affaires, est l'impôt qui fausse le plus la production (−1 % d'exportations) ; l'exonération des heures sup de 2007 a rapporté environ 500 €/an à 9 millions de salariés.",
+"La baisse de 10 Md€ d'impôts de production en 2021 n'a pas eu d'effet robuste mesuré sur l'investissement (IPP 2025) ; en 2007-2012, les heures sup exonérées n'ont pas accru le temps de travail réel (Cahuc-Carcillo).",
+[
+{
+"l": "CAE, note n° 53 « Les impôts sur (ou contre) la production » (Martin, Trannoy)",
+"a": 2019,
+"u": "https://cae-eco.fr/static/pdf/cae-note053.pdf"
+},
+{
+"l": "Assemblée nationale, CEC, rapport Gorges-Mallot sur la loi TEPA (synthèse)",
+"a": 2011,
+"u": "https://www.assemblee-nationale.fr/13/controle/com_cec/cec-pdf/s3615.pdf"
+},
+{
+"l": "IPP, rapport n° 60 « La baisse des impôts de production : ciblage et évaluation » (avec France Stratégie)",
+"a": 2025,
+"u": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+},
+{
+"l": "Cahuc, Carcillo, « The Detaxation of Overtime Hours: Lessons from the French Experiment » (IZA DP 5439 ; J. of Labor Economics 2014)",
+"a": 2011,
+"u": "https://docs.iza.org/dp5439.pdf"
+}
+]
 ],
 "retailleau.retraites": [
-"Départ possible dès 63 ans ; moins de pensions versées du fait de la décote.",
-"Pension réduite pour tout départ avant 65 ans ; pension pleine plus tard qu'avec les règles actuelles."
+"Partir tôt reste possible, mais la décote incite à rester : éviter une pension réduite a pesé pour 56 % des retraités partis plus tard que possible (DREES) ; au Japon et aux États-Unis, à forte décote, l'emploi cesse vers 67 ans.",
+"Pension réduite pour qui part avant le taux plein, souvent faute d'emploi ou de santé : 29 % des seniors ni en emploi ni en retraite se disent en mauvaise santé (DREES). Taux plein plus tard pour les carrières complètes.",
+[
+{
+"l": "DREES, enquête Motivations de départ à la retraite 2021 (séance COR du 24 mars 2022)",
+"a": 2022,
+"u": "https://www.cor-retraites.fr/sites/default/files/2022-03/Pr%C3%A9sentation%20DREES%20MDR5_COR.pdf"
+},
+{
+"l": "COR, rapport annuel 2026, partie 4 (âges de départ, p. 216-219)",
+"a": 2026,
+"u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
+},
+{
+"l": "DREES, Études et résultats n°1079 (via Banque des Territoires) : seniors ni en emploi ni en retraite",
+"a": 2018,
+"u": "https://www.banquedesterritoires.fr/14-million-de-seniors-nont-ni-emploi-ni-retraite"
+}
+]
 ],
 "retailleau.securite": [
-"Peine au moins égale à un seuil fixé pour certains délits.",
-"Le juge ne peut plus descendre sous le seuil ; davantage de détenus à loger."
+"Après la loi de 2007 sur les peines planchers, les récidivistes condamnés ont commis 13 % de délits visés en moins dans les quatre ans suivant leur sortie de prison (IPP, 2024).",
+"Les peines des récidivistes ont presque doublé (230 à 430 jours), sans effet dissuasif à court terme ni baisse des autres délits (IPP, 2024) : plus de détenus pour un effet « de faible ampleur ».",
+[
+{
+"l": "IPP, note n° 105 « Les peines planchers sont-elles un outil efficace pour éviter la récidive ? »",
+"a": 2024,
+"u": "https://www.ipp.eu/wp-content/uploads/2024/03/Note_IPP_105_peines_planchers.pdf"
+}
+]
 ],
 "retailleau.travail": [
-"Une seule aide au lieu de plusieurs.",
-"15 heures d'activité par semaine exigées ; montant total plafonné : certains bénéficiaires touchent moins qu'aujourd'hui."
+"Pendant l'expérimentation 2023-2024 du RSA avec heures d'activité et suivi renforcé, l'emploi salarié des participants a augmenté d'environ 3 points en un an (Dares-IPP, 2026) ; une aide unique simplifie aussi les démarches.",
+"Le même bilan ne trouve pas d'effet net sur l'emploi local, les gains étant compensés chez d'autres allocataires ; le plafond commun réduit les aides des foyers qui en cumulent plusieurs, comme les familles nombreuses.",
+[
+{
+"l": "Dares-IPP, évaluation de l'accompagnement rénové du RSA (rapport IPP n° 68)",
+"a": 2026,
+"u": "https://www.ipp.eu/wp-content/uploads/2026/07/Synthese_Rapport_IPP_evaluation_accompagnement_renove_bRSA-1.pdf"
+},
+{
+"l": "Drees (via Maire-info), non-recours au RSA",
+"a": 2022,
+"u": "https://www.maire-info.com/aide-sociale/precarite-un-tiers-des-foyers-eligibles-au-rsa-nen-fait-toujours-pas-la-demande-art26-26116"
+},
+{
+"l": "iFRAP, scénarios de plafonnement d'une allocation unique",
+"a": 2024,
+"u": "https://www.ifrap.org/emploi-et-politiques-sociales/12-34-milliards-deuros-deconomies-les-differents-scenarios-dun-plafonnement-dune-allocation-sociale-unique-par-rapport"
+}
+]
 ],
 "zemmour.aides": [
-"Moins de dépenses d'aides non liées aux cotisations.",
-"Les étrangers hors Union européenne ne touchent plus que les aides liées à leurs cotisations."
+"Moins de dépenses et moins d'arrivées : au Danemark, réduire de moitié les aides aux immigrés hors UE a diminué les arrivées nettes d'environ 5 000 par an, soit 4 % des immigrés hors UE présents.",
+"Les prestations font 11 % du niveau de vie des immigrés, dont 30,6 % sont pauvres (Insee, 2021) ; au Danemark, une baisse moindre des aides a accru la délinquance des adolescents et réduit la scolarité des enfants.",
+[
+{
+"l": "Agersnap, Jensen, Kleven, The Welfare Magnet Hypothesis (AER: Insights ; NBER w26454)",
+"a": 2020,
+"u": "https://www.nber.org/papers/w26454"
+},
+{
+"l": "Insee, Niveau de vie et pauvreté des immigrés (Insee Références 2024)",
+"a": 2024,
+"u": "https://www.insee.fr/fr/statistiques/7941405"
+},
+{
+"l": "Dustmann, Andersen, Landersø, Intended and Unintended Consequences of Welfare Cuts for Refugees (synthèse RFBerlin de deux articles 2024)",
+"a": 2024,
+"u": "https://rfberlin.com/wp-content/uploads/2024/08/Intended-and-Unintended-Consequences-of-Welfare-Cuts-for-Refugees.pdf"
+}
+]
 ],
 "zemmour.cedh": [
-"Moins d'arrivées au titre du regroupement familial.",
-"Les étrangers installés ne peuvent plus faire venir leur famille ; plus de recours possible devant la Cour européenne des droits de l'homme."
+"Au Danemark, durcir la venue des conjoints (2002) a retardé les mariages et allongé d'environ six mois les études des jeunes immigrées ; neuf gouvernements européens jugent que la Cour limite l'expulsion d'étrangers condamnés.",
+"En Allemagne, la venue de la famille est associée à une meilleure santé mentale des réfugiés (étude de 2021) ; sortir de la Convention retire aux personnes en France le recours devant la Cour européenne des droits de l'homme.",
+[
+{
+"l": "Cuzulan, Schultz-Nielsen, Fallesen (Demography, 2025), résumé Rockwool Foundation",
+"a": 2025,
+"u": "https://en.rockwoolfonden.dk/scientific-article/the-demographic-and-socioeconomic-consequences-of-restricting-access-to-marriage-for-young-immigrants-in-denmark/"
+},
+{
+"l": "N-IUSSP, Marriage market restrictions and immigrant family change in Denmark (par les auteurs)",
+"a": 2025,
+"u": "https://www.niussp.org/migration-and-foreigners/marriage-market-restrictions-and-immigrant-family-change-in-denmark/"
+},
+{
+"l": "VRT/Belga, lettre ouverte de neuf chefs de gouvernement européens sur la Convention",
+"a": 2025,
+"u": "https://www.vrt.be/vrtnws/fr/2025/05/23/neuf-pays-dont-la-belgique-demandent-a-lue-de-faciliter-lexpul/"
+},
+{
+"l": "Löbel et Jacobsen, Waiting for kin (Journal of Ethnic and Migration Studies)",
+"a": 2021,
+"u": "https://edoc.hu-berlin.de/18452/29920"
+}
+]
 ],
 "zemmour.fonctionnaires": [
-"Moins de dépenses de personnel public.",
-"Moins d'agents dans les services autres que l'enseignement, la santé, la police et l'armée."
+"Enseignants, soignants, policiers et militaires gardent leurs effectifs ; la France compte 89 emplois publics pour 1 000 habitants, dans le haut des pays riches (France Stratégie).",
+"Les départs à la retraite (144 000 en 2025 dans toute la fonction publique, DGAFP) sont en bonne partie dans les métiers épargnés ; la Cour des comptes notait qu'exempter une large part des agents réduit les gains.",
+[
+{
+"l": "France Stratégie, Comment la France se compare-t-elle en matière d'emploi public ?",
+"a": 2017,
+"u": "https://www.strategie-plan.gouv.fr/files/files/Presse/CP%202017/2017-12-19_Comment%20la%20France%20se%20compare-t-elle%20en%20mati%C3%A8re%20d%E2%80%99emploi%20public.pdf"
+},
+{
+"l": "DGAFP, Les départs à la retraite dans la fonction publique en 2025",
+"a": 2026,
+"u": "https://www.fonction-publique.gouv.fr/toutes-les-publications/les-departs-la-retraite-dans-la-fonction-publique-en-2025"
+},
+{
+"l": "Cour des comptes, masse salariale de l'État (via Acteurs publics)",
+"a": 2015,
+"u": "https://acteurspublics.fr/articles/la-cour-des-comptes-incite-le-gouvernement-a-reduire-les-effectifs-de-letat/"
+}
+]
 ],
 "zemmour.remigration": [
-"Moins d'étrangers sans emploi, condamnés ou sans titre sur le territoire.",
-"Les étrangers en règle au chômage depuis un an perdent leur droit au séjour."
+"Les départs effectifs restent rares : seules 12 % des obligations de quitter le territoire sont exécutées (Cour des comptes, 2024) ; la mesure vise à les accroître et à réduire les dépenses d'indemnisation du chômage.",
+"Aux États-Unis, l'accélération des expulsions (Secure Communities) n'a pas eu d'effet mesurable sur la criminalité et a réduit l'emploi des natifs dans les secteurs qui employaient ces immigrés (études de 2014 et 2023).",
+[
+{
+"l": "Cour des comptes, La politique de lutte contre l'immigration irrégulière",
+"a": 2024,
+"u": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere"
+},
+{
+"l": "Miles et Cox, Does Immigration Enforcement Reduce Crime? (Journal of Law and Economics)",
+"a": 2014,
+"u": "https://chicagounbound.uchicago.edu/jle/vol57/iss4/3/"
+},
+{
+"l": "East, Hines, Luck, Mansour, Velásquez, The Labor Market Effects of Immigration Enforcement (version 2020 ; publié au Journal of Labor Economics, 2023)",
+"a": 2020,
+"u": "https://conference.nber.org/conf_papers/f146251/f146251.pdf"
+}
+]
 ],
 "zemmour.retraites": [
-"Davantage de cotisations et moins de pensions versées, davantage encore si l'âge passe à 65 ans.",
-"Départ plus tard qu'avec les règles actuelles, à 64 ou 65 ans."
+"Plus d'actifs : le report de 60 à 62 ans a accru l'emploi à ces âges de 20 à 25 points (IPP, 2025). L'épargne placée dépend moins de la démographie et rapporte souvent plus que la croissance, avec des aléas de marché (COR, 2025).",
+"Ce report a aussi accru chômage indemnisé et arrêts maladie (IPP ; Insee). L'épargne retraite suit les marchés et reste concentrée : 34 % des ménages cadres en ont une, contre 10 à 12 % des employés et ouvriers (Insee, 2024).",
+[
+{
+"l": "IPP, rapport n°61 (Aubert, Bozio, Pedrono, Tô) : réforme de 2010 et assurance chômage",
+"a": 2025,
+"u": "https://www.ipp.eu/publication/impact-de-la-reforme-des-retraites-de-2010-sur-lequilibre-financier-de-lassurance-chomage/"
+},
+{
+"l": "COR, séance du 18 décembre 2025, « Répartition, réserves et capitalisation »",
+"a": 2025,
+"u": "https://www.cor-retraites.fr/sites/default/files/2025-12/Dossier%20en%20bref_18.12.2025.pdf"
+},
+{
+"l": "La Grande Conversation (B. Martinot, Institut Montaigne) : capitalisation obligatoire et transition",
+"a": 2025,
+"u": "https://www.lagrandeconversation.com/app/uploads/2025/05/la-retraite-par-capitalisation-obligatoire-quelques-pistes-pour-gerer-la-difficile-periode-de-transition-la-grande-conversation.pdf"
+},
+{
+"l": "Économie et statistique n°538 (Insee), Caroli, Pollak et Roger : report de l'âge et consommation de soins",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/7615292"
+},
+{
+"l": "Insee, Revenus et patrimoine des ménages 2024, fiche taux de détention",
+"a": 2024,
+"u": "https://www.insee.fr/fr/statistiques/fichier/7941419/RPM2024-F25.pdf"
+}
+]
 ]
 }
