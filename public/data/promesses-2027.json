@@ -495,7 +495,7 @@
         "url": "https://www.legifiscal.fr/actualites-fiscales/4401-plf-2026-49-3-baisse-cvae-2026.html"
        }
       ],
-      "note": "Suppose la CFE incluse ; la CVAE pourrait déjà baisser d'ici 2030"
+      "note": "Suppose la CFE incluse ; CVAE retirée, déjà supprimée par la loi en 2030 (règle commune)"
      },
      "quiz_text": "Supprimer trois impôts payés par les entreprises, quels que soient leurs bénéfices",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
@@ -560,7 +560,7 @@
      "id": "ue",
      "theme": "europe",
      "title": "Moins payer à l'UE",
-     "proposal": "Réduire la contribution française au budget européen, autour de 5 Md€ net.",
+     "proposal": "Réduire la contribution française au budget européen (9 Md€ en 2027, 13 Md€ en 2031 selon le contre-budget).",
      "claimed": "9 Md€ en 2027, 13 Md€ en 2031",
      "claimed_md": 9,
      "estimates": [
@@ -1335,7 +1335,7 @@
    "name": "Jean-Luc Mélenchon",
    "party": "LFI",
    "poll": "17 %",
-   "summary": "Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines. Notre chiffrage : −90,6 Md€ par an en 2030, soit −2 931 € par ménage. Principal obstacle : le rendement réel des nouveaux impôts, et les traités européens pour l'annulation de la dette.",
+   "summary": "Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines. Notre chiffrage : −90,4 Md€ par an en 2030, soit −2 925 € par ménage. Principal obstacle : le rendement réel des nouveaux impôts, et les traités européens pour l'annulation de la dette.",
    "measures": [
     {
      "id": "retraites",
@@ -1375,11 +1375,11 @@
      "obstacle": "62 ans faisable avec majorité ; 60 ans coûte 50 à 58 Md€/an",
      "claude": {
       "id": "retraites",
-      "central": -32.2,
+      "central": -32.0,
       "low": -56.2,
       "high": -11.8,
       "method": "médiane",
-      "formula": "Retour à 62 ans en 2030 : 11,8 Md€, valeur commune à tous (rendement de la réforme 2023 en 2030 : 13,6 Md€, médiane Montaigne 11,8 / CNAV 13,6 / étude d'impact 14,1 ; moins 1,8 Md€ déjà perdus par la suspension votée en 2025) ; passage à 60 ans « plus tard dans le mandat » : moitié du surcoût en 2030 (50 à 58 Md€ à pleine charge), ≈ 20,4 ; total ≈ −32,2",
+      "formula": "Retour à 62 ans en 2030 : 11,8 Md€, valeur commune à tous (rendement de la réforme 2023 en 2030 : 13,6 Md€, médiane Montaigne 11,8 / CNAV 13,6 / étude d'impact 14,1 ; moins 1,8 Md€ déjà perdus par la suspension votée en 2025) ; passage à 60 ans « plus tard dans le mandat » : moitié du surcoût au-delà de 62 ans en 2030 : (54 − 13,6) / 2 ≈ 20,2 (retour à 60 ans : 50 à 58 Md€ à pleine charge, médiane 54 ; 13,6 déjà rendus par le retour à 62 ans) ; total ≈ −32,0",
       "inputs": [
        {
         "label": "Rendement de la réforme 2023 en 2030",
@@ -2371,7 +2371,7 @@
       "low": 0,
       "high": 0,
       "method": "ascendant",
-      "formula": "CIR 7,65 + Dutreil ≈5,3 + emploi à domicile 6,86 ≈ 20 Md€ ; rabot de 50 % supposé = +10 Md€",
+      "formula": "Non chiffrable : taux de rabot non publié (les trois niches visées pèsent ≈ 20 Md€ : crédit d'impôt recherche 7,65, Dutreil ≈ 5,3, emploi à domicile 6,86)",
       "inputs": [
        {
         "label": "Coût du CIR",
@@ -2468,13 +2468,13 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -90.6,
-    "p10": -120.7,
-    "p90": -51.4,
-    "realsum": -90.6,
+    "sum": -90.4,
+    "p10": -120.6,
+    "p90": -51.3,
+    "realsum": -90.4,
     "missing": "planification écologique, IS progressif, taxe sur les transactions financières, 10 000 enseignants et 10 000 soignants, pension minimale au niveau du SMIC, indexation des pensions sur les salaires, APL +10 %, minimum vieillesse au seuil de pauvreté, abrogation des réformes de l'assurance chômage",
     "n": 7,
-    "cost": -112.0,
+    "cost": -111.8,
     "gain": 21.4,
     "confirm": []
    },
@@ -3200,7 +3200,7 @@
       "low": 0,
       "high": 0,
       "method": "ascendant",
-      "formula": "Masse salariale ≈ 59,3 Md€ hors pensions ; +10 % ≈ −5,9 Md€",
+      "formula": "Non chiffrable : ampleur des hausses de salaire et des recrutements non publiée (règle commune : 3,3 Md€ par tranche de +10 % de salaire des enseignants)",
       "inputs": [
        {
         "label": "Mission Enseignement scolaire 2026",
@@ -3674,7 +3674,7 @@
    "name": "Édouard Philippe",
    "party": "Horizons",
    "poll": "13-15 %",
-   "summary": "Promet la retraite à 65 ans, un départ sur trois non remplacé dans la fonction publique, une allocation familiale dès le premier enfant et zéro impôt pour les jeunes parents. Notre chiffrage : +2,8 Md€ par an en 2030, soit +91 € par ménage. Principal obstacle : l'acceptation d'un nouveau report de l'âge, et le financement de l'allocation familiale unique.",
+   "summary": "Promet la retraite à 65 ans, un départ sur trois non remplacé dans la fonction publique, une allocation familiale dès le premier enfant et zéro impôt pour les jeunes parents. Notre chiffrage : +2,6 Md€ par an en 2030, soit +84 € par ménage. Principal obstacle : l'acceptation d'un nouveau report de l'âge, et le financement de l'allocation familiale unique.",
    "measures": [
     {
      "id": "retraites",
@@ -3714,11 +3714,11 @@
      "obstacle": "Rejet social en 2023, majorité incertaine, exemptions non chiffrées",
      "claude": {
       "id": "retraites",
-      "central": 6,
+      "central": 5.8,
       "low": 3,
       "high": 10,
       "method": "ascendant",
-      "formula": "Fin de la suspension ≈ +1,8 Md€ + 65 ans au lieu de 64 en 2030 (17,6 − 13,6 = +4) = +6 Md€",
+      "formula": "Fin de la suspension ≈ +1,8 Md€ + 65 ans au lieu de 64 en 2030 (17,6 − 13,6 = +4) = +5,8 Md€",
       "inputs": [
        {
         "label": "Coût de la suspension de la réforme 2023",
@@ -4816,14 +4816,14 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": 2.8,
-    "p10": -28.7,
-    "p90": 7.0,
-    "realsum": 2.8,
-    "missing": "défense, passage à 45 annuités, capitalisation, abondement de 500 € au premier contrat, réduction d'impôt à la naissance, deux jours de carence",
+    "sum": 2.6,
+    "p10": -28.8,
+    "p90": 6.9,
+    "realsum": 2.6,
+    "missing": "défense, passage à 45 annuités, capitalisation, abondement de 500 € au premier contrat, deux jours de carence",
     "n": 8,
     "cost": -11.6,
-    "gain": 14.4,
+    "gain": 14.2,
     "confirm": []
    },
    "short": "Philippe",
@@ -5166,7 +5166,7 @@
       }
      ],
      "quiz_constat": {
-      "t": "Les immigrés forment 11,6 % de la population en 2025, contre 7,3 % en 1999 (Insee).",
+      "t": "Les immigrés forment 11,6 % de la population en 2025, +59 % depuis 1999 (7,3 %) (Insee).",
       "s": [
        3
       ]
@@ -5383,11 +5383,17 @@
        "l": "Cour des comptes, La prime d'activité (communication à la commission des finances du Sénat)",
        "a": 2026,
        "u": "https://www.vie-publique.fr/files/rapport/pdf/303828.pdf"
+      },
+      {
+       "l": "DREES, Études et résultats n° 1370, non-recours au RSA fin 2021",
+       "a": 2026,
+       "u": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260506-non-recours-au-rsa-fin-2021"
       }
      ],
      "quiz_constat": {
-      "t": "Un tiers des foyers éligibles au RSA ne le demandent pas, comme en 2010-2011 (Drees, Cour des comptes).",
+      "t": "33 à 37 % des foyers éligibles au RSA ne le touchaient pas fin 2021, environ un tiers déjà en 2010-2011 (Drees).",
       "s": [
+       2,
        1
       ]
      }
@@ -5669,10 +5675,18 @@
       {
        "source": "Terra Nova (via CNAPE)",
        "year": 2014,
-       "value": "2007-2014 : ≈4 000 années de détention de plus par an ; effet sur la récidive non démontré",
+       "value": "2007-2014 : ≈4 000 années de détention de plus par an",
        "low_md": null,
        "high_md": null,
        "url": "https://www.cnape.fr/documents/pour-en-finir-avec-les-peines-plancher"
+      },
+      {
+       "source": "IPP (note n° 105)",
+       "year": 2024,
+       "value": "Peines planchers de 2007 : récidive ciblée −13 % à quatre ans ; prononcées dans 38 % des cas possibles",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.ipp.eu/wp-content/uploads/2024/03/Note_IPP_105_peines_planchers.pdf"
       },
       {
        "source": "Public Sénat (juristes)",
@@ -7010,7 +7024,7 @@
     "p10": 0.6,
     "p90": 6.3,
     "realsum": 4.0,
-    "missing": "classes de moins de 20 élèves, salaires des enseignants, baisse des charges salariales, arrêts maladie, défense",
+    "missing": "classes de moins de 20 élèves, baisse des charges salariales, arrêts maladie, défense",
     "n": 4,
     "cost": -3.1,
     "gain": 7.2,
@@ -7118,7 +7132,7 @@
       "low": 0,
       "high": 0,
       "method": "ascendant",
-      "formula": "Règle commune : 61,6 k€ par poste (362,1 Md€ / 5,88 M d'agents), moitié rendue aux agents, 70 % du plan réalisé en 2030 (3,5 ans sur 5) ; 1 départ sur 3 non remplacé (hypothèse) : 160 000 postes × 30,8 k€ = 4,9 + agences ≈ 1 → +5,9 Md€",
+      "formula": "Non chiffrable : part des départs non remplacés non publiée (règle commune : 61,6 k€ par poste, moitié rendue aux agents, 70 % du plan en 2030)",
       "inputs": [
        {
         "label": "Masse salariale et effectifs publics",
@@ -7507,7 +7521,7 @@
       "low": 0,
       "high": 0,
       "method": "médiane",
-      "formula": "Médiane des scénarios iFRAP 12 ; 18 ; 26 ; 34 Md€ selon le plafond",
+      "formula": "Non chiffrable : plafond non publié (scénarios iFRAP : 12 à 34 Md€ selon le plafond)",
       "inputs": [
        {
         "label": "Économies selon le plafond",
@@ -7570,11 +7584,17 @@
        "l": "Department for Work and Pensions, Evaluation of the lower benefit cap (enquête NatCen en deux vagues)",
        "a": 2023,
        "u": "https://www.gov.uk/government/publications/lower-benefit-cap-quantitative-analysis-of-outcomes-of-capped-households/evaluation-of-the-lower-benefit-cap"
+      },
+      {
+       "l": "DREES, Études et résultats n° 1370, non-recours au RSA fin 2021",
+       "a": 2026,
+       "u": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/260506-non-recours-au-rsa-fin-2021"
       }
      ],
      "quiz_constat": {
-      "t": "Un tiers des foyers éligibles au RSA ne le demandent pas, comme en 2010-2011 (Drees, Cour des comptes).",
+      "t": "33 à 37 % des foyers éligibles au RSA ne le touchaient pas fin 2021, environ un tiers déjà en 2010-2011 (Drees).",
       "s": [
+       3,
        0
       ]
      }
@@ -8805,11 +8825,11 @@
      "verdict": "faisable",
      "obstacle": "Impôts visés non désignés ; compensation des collectivités et de la Sécurité sociale.",
      "claude": {
-      "central": -21,
+      "central": -20.4,
       "low": -26,
       "high": -19.8,
       "method": "médiane",
-      "formula": "30,4 Md€ − 6 Md€ d'IS récupéré − CVAE déjà supprimée (≈4) ≈ −21 Md€",
+      "formula": "30,4 Md€ − 6 Md€ d'IS récupéré − CVAE déjà supprimée (≈4) = −20,4 Md€",
       "inputs": [
        {
         "label": "Impôts visés",
@@ -9060,11 +9080,11 @@
   "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026 (marquées « À confirmer ») et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 171 sources distinctes. L'année de chaque source est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 172 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). Ce sont des ordres de grandeur.",
-  "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Les duels portent sur les mesures chiffrées et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant. Dessous, un constat : la réalité française que la proposition veut traiter, avec le chiffre officiel (le dernier chiffre officiel et son évolution en %, même forme pour toutes ; les problèmes réels sont dits clairement, sans cause ni jugement). Puis « Pour » et « Contre » donnent en une ligne le meilleur argument réel de ceux qui la défendent et de ceux qui la critiquent : un fait que la proposition ne dit pas d'elle-même (ce qui s'est passé quand elle a été appliquée, un ordre de grandeur), jamais la proposition redite autrement ; avec la force des preuves de chacun (solides, mitigées, faibles, pas d'étude). Sous le duel, des cas réels sourcés (en France d'abord) et l'état des études. Même méthode pour toutes les mesures, sans fausse symétrie : on n'invente ni argument ni exemple pour équilibrer, et un exemple n'est retenu que s'il est pertinent, observé et de source reconnue ; on montre où penchent les faits et le lecteur juge ; les mesures du même type ont les mêmes cas et les mêmes niveaux de preuve. Le « Contre » tient compte du reste du programme : si une autre mesure du même candidat répond à la critique, elle est signalée. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit ; « Les deux » compte la moyenne des deux effets), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
+  "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Les duels portent sur les mesures des fiches (chiffrées ou non chiffrables) et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant. Dessous, un constat : la réalité française que la proposition veut traiter, avec le chiffre officiel (le dernier chiffre officiel et son évolution en %, même forme pour toutes ; les problèmes réels sont dits clairement, sans cause ni jugement). Puis « Pour » et « Contre » donnent en une ligne le meilleur argument réel de ceux qui la défendent et de ceux qui la critiquent : un fait que la proposition ne dit pas d'elle-même (ce qui s'est passé quand elle a été appliquée, un ordre de grandeur), jamais la proposition redite autrement ; avec la force des preuves de chacun (solides, mitigées, faibles, pas d'étude). Sous le duel, des cas réels sourcés (en France d'abord) et l'état des études. Même méthode pour toutes les mesures, sans fausse symétrie : on n'invente ni argument ni exemple pour équilibrer, et un exemple n'est retenu que s'il est pertinent, observé et de source reconnue ; on montre où penchent les faits et le lecteur juge ; les mesures du même type ont les mêmes cas et les mêmes niveaux de preuve. Le « Contre » tient compte du reste du programme : si une autre mesure du même candidat répond à la critique, elle est signalée. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit ; « Les deux » compte la moyenne des deux effets), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
   "<b>Sondages et contexte.</b> Ipsos-BVA des 21-22 octobre 2026, masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
  ],
  "statu_quo": {
@@ -9168,6 +9188,10 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "27/10/2026",
+   "text": "Cohérence des chiffres revue par un audit indépendant : retraites de Philippe ramenées à 5,8 Md€ (1,8 + 4, même base que Lisnard et Zemmour), total de +2,8 à +2,6 Md€ ; passage à 60 ans de Mélenchon rendu reproductible (−32,0 au lieu de −32,2) ; classes dédoublées lues de la même façon chez les cinq candidats concernés ; peines planchers : étude IPP de 2024 dans la fiche ; même formule pour toutes les mesures non chiffrables ; textes de méthode corrigés ; le fichier METHODOLOGIE.md est désormais généré à partir de l'onglet Méthode."
+  },
   {
    "date": "27/10/2026",
    "text": "Repères « Où en est la France » pour chaque thème, les mêmes pour tous les candidats : 7 à 14 chiffres officiels par thème (sécurité, dont viols et violences sexuelles, immigration, retraites, travail, social, fiscalité, dépense, Europe, santé, école avec PISA 2025, énergie, environnement, logement, libertés, institutions, économie, rayonnement), avec l'évolution sur au moins cinq ans et la précaution de lecture de la source ; quatre affichés, les autres dépliables. Constats du quiz mis au dernier chiffre officiel (sécurité, aide médicale d'État, électricité, médecin traitant, arrêts maladie, SMIC, pauvreté des jeunes, éloignements, solde avec l'Union européenne, logement). Thèmes logement, libertés, institutions, économie et rayonnement : les repères non officiels (fondation, fédération HLM, cabinet privé, médias) sont remplacés par des sources publiques."
@@ -9373,7 +9397,7 @@
      }
     ],
     "indicator": "Salaires enseignants +3 % par an sur le quinquennat (2022)",
-    "evidence": "Uniforme : climat amélioré selon 36% des directeurs, effet quasi nul sur les résultats (ministère, 2026). Dédoublement : gains en CP disparus en 6e (DEPP, 2026).",
+    "evidence": "Uniforme : climat amélioré selon 36% des directeurs, effet quasi nul sur les résultats (ministère, 2026). Petites classes en CP-CE1 : gains nets en CP ; à l'entrée en 6e, plus rien pour la 1re génération, un petit gain en maths pour les suivantes, aucun en français (DEPP, 2026).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -9395,6 +9419,11 @@
       "label": "AEF, note DEPP dédoublement",
       "year": 2026,
       "url": "https://media.ac-normandie.fr/-/communication/revue-presse/2026/02/04/AEF_nat_cri_National_Le%20d%e9doublement%20en%20%e9ducation%20prioritaire%20semble%20sans%20effet%20%e0%20long%20terme%20sur%20les%20performances%20des%20%e9l%e8ves%20(Depp).pdf"
+     },
+     {
+      "label": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+      "year": 2026,
+      "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif"
      }
     ]
    },
@@ -9720,7 +9749,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Petites classes : effet positif en CP (REP+), disparu à l'entrée en 6e (DEPP, 2026). Une seule cohorte évaluée.",
+    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; à l'entrée en 6e, plus rien pour la 1re génération, un petit gain en maths pour les suivantes, aucun en français (DEPP, 2026).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -9737,6 +9766,11 @@
       "label": "AEF, note DEPP dédoublement",
       "year": 2026,
       "url": "https://media.ac-normandie.fr/-/communication/revue-presse/2026/02/04/AEF_nat_cri_National_Le%20d%e9doublement%20en%20%e9ducation%20prioritaire%20semble%20sans%20effet%20%e0%20long%20terme%20sur%20les%20performances%20des%20%e9l%e8ves%20(Depp).pdf"
+     },
+     {
+      "label": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+      "year": 2026,
+      "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif"
      }
     ]
    },
@@ -10057,7 +10091,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Petites classes : gains en CP disparus en 6e (DEPP, 2026). Mixité imposée à Paris : objectifs atteints dans 2 secteurs sur 3 (IPP, 2021).",
+    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; à l'entrée en 6e, plus rien pour la 1re génération, un petit gain en maths pour les suivantes, aucun en français (DEPP, 2026). Mixité imposée à Paris : objectifs atteints dans 2 secteurs sur 3 (IPP, 2021).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -10079,6 +10113,11 @@
       "label": "Le Monde, mixité sociale (IPP)",
       "year": 2022,
       "url": "https://media.ac-normandie.fr/-/communication/revue-presse/2022/11/18/Le%20Monde_nat_actu_La%20mixit%e9%20sociale%20%e0%20l'%e9cole%20fait%20ses%20preuves.pdf"
+     },
+     {
+      "label": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+      "year": 2026,
+      "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif"
      }
     ]
    },
@@ -10384,7 +10423,7 @@
      }
     ],
     "indicator": "+20 % de salaire enseignant, vers la moyenne européenne",
-    "evidence": "Baisse des effectifs : gains en CP, non visibles en 6e (DEPP, 2026). Hausse salariale et amende parentale : pas d'évaluation française identifiée.",
+    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; à l'entrée en 6e, plus rien pour la 1re génération, un petit gain en maths pour les suivantes, aucun en français (DEPP, 2026). Hausse salariale et amende parentale : pas d'évaluation française identifiée.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -10401,6 +10440,11 @@
       "label": "AEF, note DEPP dédoublement",
       "year": 2026,
       "url": "https://media.ac-normandie.fr/-/communication/revue-presse/2026/02/04/AEF_nat_cri_National_Le%20d%e9doublement%20en%20%e9ducation%20prioritaire%20semble%20sans%20effet%20%e0%20long%20terme%20sur%20les%20performances%20des%20%e9l%e8ves%20(Depp).pdf"
+     },
+     {
+      "label": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+      "year": 2026,
+      "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif"
      }
     ]
    },
@@ -11053,7 +11097,7 @@
      }
     ],
     "indicator": "Revalorisation chiffrée à 2,5 Md€ par son équipe",
-    "evidence": "Dédoublement des classes en REP+ : progrès nets en CP, mais plus aucune différence significative à l'entrée en sixième (DEPP, février 2026).",
+    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; à l'entrée en 6e, plus rien pour la 1re génération, un petit gain en maths pour les suivantes, aucun en français (DEPP, 2026).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -11075,6 +11119,11 @@
       "label": "AEF/DEPP – dédoublement",
       "year": 2026,
       "url": "https://media.ac-normandie.fr/-/communication/revue-presse/2026/02/04/AEF_nat_cri_National_Le%20d%e9doublement%20en%20%e9ducation%20prioritaire%20semble%20sans%20effet%20%e0%20long%20terme%20sur%20les%20performances%20des%20%e9l%e8ves%20(Depp).pdf"
+     },
+     {
+      "label": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+      "year": 2026,
+      "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif"
      }
     ]
    },
