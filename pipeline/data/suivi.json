@@ -694,7 +694,7 @@
    "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-27",
-   "resolution": "Tranché par la règle « paramètre clé non publié → non chiffrable » (même règle que l'allocation unique de Lisnard) : 350 € par enfant (source du camp), mais seuils de dégressivité et liste des aides fusionnées non publiés. Hors total, fourchette indicative en note : de 0 (coût constant annoncé) à au moins −17,5 Md€. Simulateur : plus de gain, une note à la place. Bloc « review 6 » de corrections.py (27/10/2026)."
+   "resolution": "Tranché par la règle « paramètre clé non publié → non chiffrable » (même règle que l'allocation unique de Lisnard) : 350 € par enfant (source du camp), mais seuils de dégressivité et liste des aides fusionnées non publiés. Hors total, fourchette indicative en note : de 0 (coût constant annoncé) à environ −17,5 Md€ (hypothèse de dégressivité). Simulateur : plus de gain, une note à la place. Bloc « review 6 » de corrections.py (27/10/2026)."
   },
   {
    "id": "S048",
@@ -763,6 +763,25 @@
    "mesure": "famille",
    "sujet": "Allocation unique : seuils de dégressivité et aides remplacées non publiés",
    "detail": "Mesure hors total (fourchette indicative en note : de 0 à environ −17,5 Md€) tant que le camp ne publie pas les seuils de revenu et la liste complète des aides fusionnées.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-27",
+   "maj": "2026-10-27",
+   "resolution": null
+  },
+  {
+   "id": "S053",
+   "type": "a_trancher",
+   "candidats": [
+    "melenchon",
+    "retailleau"
+   ],
+   "mesure": [
+    "prix",
+    "travail"
+   ],
+   "sujet": "Simulateur : appliquer ou non une mesure publiée mais hors total",
+   "detail": "Le plafond des aides à 70 % du SMIC (Retailleau) est hors total (pas de chiffrage de ce dispositif) mais sa perte est affichée dans le simulateur ; la hausse de 10 % des allocations familiales et des APL (Mélenchon, S050) est hors total et son gain n'est pas affiché. Règle à fixer pour tous : le simulateur applique-t-il tout paramètre publié et confirmé, compté ou non dans le total ? (Relecture indépendante du 27/10/2026.)",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",

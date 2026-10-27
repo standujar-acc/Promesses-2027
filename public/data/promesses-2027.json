@@ -36,7 +36,7 @@
    "name": "Marine Le Pen",
    "party": "RN",
    "poll": "32-33,5 %",
-   "summary": "Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie. Notre chiffrage : −31,7 Md€ par an en 2030, soit −1 026 € par ménage. Principal obstacle : la priorité nationale et le référendum exigent une révision de la Constitution.",
+   "summary": "Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie. Notre chiffrage : −31,2 Md€ par an en 2030, soit −1 009 € par ménage. Principal obstacle : la priorité nationale et le référendum exigent une révision de la Constitution.",
    "measures": [
     {
      "id": "retraites",
@@ -266,11 +266,11 @@
      "obstacle": "Électricité : possible par la loi. Gaz, fioul et carburants : la directive 2022/542 interdit les taux réduits sur les énergies fossiles à partir de 2030 ; il faudrait l'unanimité des 27 pour la changer.",
      "claude": {
       "id": "tva",
-      "central": -14.5,
-      "low": -17.4,
+      "central": -14.1,
+      "low": -16.8,
       "high": -11.3,
       "method": "médiane",
-      "formula": "Médiane de 11,3 ; 12,2 ; 16,8 ; 17,4 Md€ = 14,5 Md€",
+      "formula": "Médiane des chiffrages indépendants : Bercy 16,8 et Institut Montaigne 11,3 Md€ = 14,1 Md€ (le chiffre du camp, 12,2 Md€, et le simulateur francebudget.fr, 17,4 Md€, source faible, n'entrent pas dans la médiane)",
       "inputs": [
        {
         "label": "Électricité 4,5 + gaz 2,3 + carburants 10",
@@ -285,9 +285,9 @@
         "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"
        },
        {
-        "label": "Chiffrage 2026",
+        "label": "Chiffre du camp (contre-budget), repris par l'Institut de l'Entreprise",
         "value": "12,2 Md€",
-        "source": "Institut de l'Entreprise",
+        "source": "Institut de l'Entreprise (2026)",
         "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
        },
        {
@@ -297,7 +297,7 @@
         "url": "https://francebudget.fr/scenarios/rn-2027"
        }
       ],
-      "note": "Le périmètre (avec ou sans carburants) fait varier le coût de 10 Md€ ; chiffrages aux prix de 2024 : aux prix pétroliers d'octobre 2026, plus élevés (SP95 2,18 €/l), la part carburants coûterait davantage"
+      "note": "Le périmètre (avec ou sans carburants) fait varier le coût de 10 Md€ ; Bercy et l'Institut Montaigne chiffrent aux prix de 2024 ; le coût « progresse avec les prix » (Institut de l'Entreprise, octobre 2026, Brent au-dessus de 100 $)"
      },
      "quiz_text": "Baisser fortement la taxe sur l'électricité, le gaz et l'essence",
      "quiz_concret": "Vos factures d'énergie et le plein baissent d'environ 12 %, si les fournisseurs répercutent la baisse.",
@@ -861,13 +861,13 @@
     "high_md": 50
    },
    "claude_total": {
-    "sum": -31.7,
-    "p10": -50.2,
-    "p90": -11.1,
-    "realsum": -39.2,
+    "sum": -31.2,
+    "p10": -49.8,
+    "p90": -10.8,
+    "realsum": -38.9,
     "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, impôt sur la fortune financière à la place de l'IFI, donations tous les 10 ans, prêt à taux zéro à la place de MaPrimeRénov'",
     "n": 10,
-    "cost": -50.0,
+    "cost": -49.6,
     "gain": 18.4,
     "confirm": []
    },
@@ -6238,7 +6238,7 @@
  "changelog": [
   {
    "date": "27/10/2026",
-   "text": "Chiffrages revus en appliquant les règles communes aux sources : allocation unique de Philippe (350 € par enfant, seuils et aides remplacées non publiés) passée en « non chiffrable », comme celle de Lisnard, et retirée du simulateur ; blocage des prix de Mélenchon à la médiane des chiffrages publiés (Institut Montaigne 24 Md€, Gouvernement 20 Md€, soit 22 Md€), les prix pétroliers de 2026 écartant l'hypothèse de prix en baisse ; fusion des minima de Retailleau : baisse de 30 % désormais sourcée, chiffrage inchangé, et comptée dans le simulateur. Fourchettes probables calculées séparément pour chaque candidat."
+   "text": "Chiffrages revus en appliquant les règles communes aux sources : allocation unique de Philippe (350 € par enfant, seuils et aides remplacées non publiés) passée en « non chiffrable », comme celle de Lisnard, et retirée du simulateur ; blocage des prix de Mélenchon à la médiane des chiffrages publiés (Institut Montaigne 24 Md€, Gouvernement 20 Md€, soit 22 Md€), les prix pétroliers d'octobre 2026 écartant l'hypothèse de prix en baisse ; TVA sur l'énergie de Le Pen à la médiane des chiffrages indépendants (Bercy, Institut Montaigne : 14,1 Md€), sans le chiffre du camp, comme pour les autres candidats ; fusion des minima de Retailleau : baisse de 30 % désormais sourcée, chiffrage inchangé, et comptée dans le simulateur. Fourchettes probables calculées séparément pour chaque candidat."
   },
   {
    "date": "27/10/2026",
