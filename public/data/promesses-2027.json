@@ -702,7 +702,6 @@
     "smic_net": null,
     "salaire_net": null,
     "alloc_familiales": null,
-    "alloc_perte_etrangers": true,
     "tva_energie": 5.5,
     "salaire_note": "Hausses de salaire jusqu'à 10 % exonérées de cotisations patronales (jusqu'à 3 SMIC) : gain net non chiffré.",
     "fonctionnaires": "Au moins 200 000 postes supprimés en cinq ans (collectivités, agences, organismes).",
@@ -724,9 +723,16 @@
       "effet": "Donations exonérées jusqu'à 100 000 € par enfant tous les 10 ans (version 2024)."
      }
     ],
-    "alloc_perte_scope": "all",
     "cfe_suppr": true,
-    "cfe_note": "Suppression de la CFE"
+    "cfe_note": "Suppression de la CFE",
+    "etr": {
+     "af": "nonfr",
+     "minima": "lt5"
+    },
+    "tva_courses": {
+     "part": 0.75,
+     "note": "TVA de 5,5 % supprimée sur une centaine de produits de première nécessité, soit environ les trois quarts du panier (notre chiffrage rapporté à la TVA sur l'alimentation à domicile), si la baisse est répercutée"
+    }
    },
    "promise": "Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie.",
    "obstacle_main": "La priorité nationale et le référendum exigent une révision de la Constitution."
@@ -2582,7 +2588,13 @@
     },
     "enseignants_pct": 20,
     "cfe_suppr": true,
-    "cfe_note": "Suppression de la CFE, compensée par 50 Md€ d'aides aux entreprises en moins"
+    "cfe_note": "Suppression de la CFE, compensée par 50 Md€ d'aides aux entreprises en moins",
+    "enseignants_note": "+20 % d'ici la fin du mandat",
+    "carence_jours": 2,
+    "chomage_duree": {
+     "mois": 12,
+     "avant": 50
+    }
    },
    "promise": "Promet la retraite à 65 ans, un départ sur trois non remplacé dans la fonction publique, une allocation familiale dès le premier enfant et zéro impôt pour les jeunes parents.",
    "obstacle_main": "L'acceptation d'un nouveau report de l'âge, et le financement de l'allocation familiale unique."
@@ -3127,7 +3139,12 @@
     "minima_cut": {
      "pct": 30,
      "label": "RSA, prime d'activité et ASS fusionnés en une allocation réduite de 30 %, avec 15 h d'activité"
-    }
+    },
+    "etr": {
+     "af": "lt5",
+     "minima": "lt5"
+    },
+    "carence_jours": 3
    },
    "promise": "Promet 197 Md€ d'économies cumulées d'ici 2032, un âge minimal de 63 ans, la fusion des aides sociales et un référendum sur l'immigration.",
    "obstacle_main": "La révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées."
@@ -3610,7 +3627,11 @@
     "gel_status": [
      "retraite",
      "minima"
-    ]
+    ],
+    "enseignants_eur": {
+     "montant": 200,
+     "note": "+200 € net par mois, jusqu'à 500 € en milieu de carrière (montant minimal retenu)"
+    }
    },
    "claude_total": {
     "sum": 4.0,
@@ -4237,7 +4258,13 @@
     "independants": "Concernés par la baisse des cotisations ; pas d'autre mesure spécifique publiée.",
     "etrangers": "Prestations non contributives réservées aux résidents réguliers depuis au moins 5 ans ; AME remplacée par une aide d'urgence.",
     "patrimoine": [],
-    "heritage": []
+    "heritage": [],
+    "etr": {
+     "af": "lt5",
+     "minima": "lt5"
+    },
+    "enseignants_pct": 20,
+    "enseignants_note": "+20 % en cinq ans, en échange d'une réorganisation des missions"
    },
    "promise": "Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations.",
    "obstacle_main": "L'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend."
@@ -4717,7 +4744,6 @@
     "smic_net": null,
     "salaire_net": null,
     "alloc_familiales": null,
-    "alloc_perte_etrangers": true,
     "tva_energie": null,
     "fonctionnaires": "800 000 départs non remplacés en 5 ans, hors enseignants, soignants, policiers et militaires ; trois jours de carence.",
     "chomeurs": "Pas de mesure annoncée pour les chômeurs français ; un étranger au chômage depuis un an serait expulsé.",
@@ -4733,8 +4759,12 @@
       "effet": "Abolition des droits de succession (programme 2022, non reconfirmée en 2026) ; la plupart des héritages en ligne directe sous 100 000 € par enfant ne sont déjà pas taxés."
      }
     ],
-    "alloc_perte_scope": "hors",
-    "salaire_note": "Baisse de la CSG sur les salaires jusqu'à 2 000 € net (programme 2022, non reconfirmée en 2026) : non comptée ici."
+    "salaire_note": "Baisse de la CSG sur les salaires jusqu'à 2 000 € net (programme 2022, non reconfirmée en 2026) : non comptée ici.",
+    "etr": {
+     "af": "hors",
+     "minima": "hors"
+    },
+    "carence_jours": 3
    },
    "claude_total": {
     "sum": 21.5,
@@ -4766,7 +4796,7 @@
   "<b>Sources.</b> 169 sources distinctes. L'année de chaque source est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » viennent des statistiques publiques (SSMSI, Insee, DREES, DEPP, Citepa, Eurostat, OTAN, etc.). Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
-  "<b>Simulateur.</b> Il applique les paramètres annoncés à votre situation, à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Ce sont des ordres de grandeur.",
+  "<b>Simulateur.</b> Il applique les paramètres annoncés à votre situation, à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe »), gel des prestations, baisse des minima ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années. Ce sont des ordres de grandeur.",
   "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Chaque proposition est reformulée en langage courant, avec deux effets factuels : « + » ce qu'elle apporte, « − » sa contrepartie. Chaque ligne donne l'effet propre à la mesure (qui gagne le plus, qui est exclu, ce qui change), puis son effet sur le budget en quelques mots. Pas de nom de candidat, pas de coût, pas de faisabilité, pas de jugement ; la même règle pour tous.",
   "<b>Sondages et contexte.</b> Ipsos-BVA des 21-22 octobre 2026, masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
  ],
@@ -4850,7 +4880,13 @@
   },
   "salaire_moyen": 2733,
   "salaire_moyen_url": "https://www.lafinancepourtous.com/2025/11/10/le-salaire-moyen-est-de-2-733-e-en-france-en-2024/",
-  "cfe_url": "https://moicombien.fr/blog/cfe-entreprise-2026-calcul-exoneration-base-minimum"
+  "cfe_url": "https://moicombien.fr/blog/cfe-entreprise-2026-calcul-exoneration-base-minimum",
+  "carence_public": 1,
+  "carence_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13861",
+  "chomage_mois": 18,
+  "chomage_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14860",
+  "courses_url": "https://www.insee.fr/fr/statistiques/5370353",
+  "rsa_etrangers_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19778"
  },
  "base_url": "https://claude.ai/artifact/WJ9R1g2Hyxkmrs7YbwVRZB",
  "blackout": [
@@ -4875,6 +4911,10 @@
   {
    "date": "27/10/2026",
    "text": "Quiz : 20 duels au lieu de 16 ; chaque candidat apparaît 5 fois."
+  },
+  {
+   "date": "27/10/2026",
+   "text": "Simulateur : pertes et gains manquants ajoutés. Aides réservées aux Français ou aux étrangers installés depuis 5 ans calculées de la même façon pour les quatre candidats concernés (allocations familiales et minima) ; nouvelle case « en France depuis moins de 5 ans ». Hausses des enseignants (Attal, Lisnard), TVA sur les produits de première nécessité, gel des allocations familiales, jours de carence et durée du chômage."
   },
   {
    "date": "27/10/2026",
