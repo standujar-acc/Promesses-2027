@@ -611,25 +611,40 @@
      },
      "quiz_text": "Verser moins d'argent au budget de l'Union européenne",
      "quiz_concret": "La France paierait moins à l'Europe.",
-     "quiz_plus": "La France est le 2e contributeur net au budget européen et reçoit 238 € par habitant (21e rang, Bercy) ; sa contribution augmente avec le remboursement du plan de relance européen (Sénat, 2025).",
-     "quiz_moins": "57 % des fonds européens reçus par la France viennent de la PAC : un budget réduit touche d'abord agriculteurs et régions ; le solde net ignore aussi les gains du marché unique (4,4 % de revenu en moyenne, CEPII).",
+     "quiz_plus": "Payer moins à l'Union laisse plus d'argent pour les dépenses décidées au niveau national.",
+     "quiz_moins": "Un budget européen réduit toucherait d'abord les aides agricoles, premier poste des fonds reçus.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Cinq pays ont obtenu pour 2021-2027 une baisse fixe de leur contribution, dont 1,9 Md€ par an pour les Pays-Bas et 3,7 Md€ pour l'Allemagne (Bercy, UE, 2024).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Premier pays bénéficiaire des dépenses de l'Union, la France a reçu 16,5 Md€ en 2023, dont près de 58 % au titre de la politique agricole commune (Bercy, France, 2024).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_etudes": "Peu d'études : les comptes de Bercy décrivent bien les flux (versements, retours) ; aucune évaluation de l'effet d'une contribution réduite sur l'économie française.",
      "quiz_src": [
       {
-       "l": "Bercy, annexe budgétaire « jaune » sur l'UE (Banque des Territoires)",
-       "a": 2026,
-       "u": "https://www.banquedesterritoires.fr/budget-2027-la-facture-europeenne-continue-de-gonfler"
-      },
-      {
-       "l": "Sénat, commission des finances, PSR-UE (PLF 2026)",
-       "a": 2025,
-       "u": "https://www.senat.fr/fileadmin/cru-1762483659/Commissions/Finances/2025-2026/PLF_2026/Essentiel/Mission_Affaires_europeennes_Essentiel_post-commission.pdf"
-      },
-      {
-       "l": "Mayer, Vicard, Zignago, « Les coûts de la non-Europe revisités » (Banque de France / CEPII)",
-       "a": 2018,
-       "u": "https://www.banque-france.fr/fr/publications-et-statistiques/publications/les-couts-de-la-non-europe-revisites"
+       "l": "Bercy, annexe au PLF 2025 « Relations financières avec l'Union européenne »",
+       "a": 2024,
+       "u": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF2025-Jaunes/13-Jaune%20relations_financieres_UE.pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Solde net avec le budget européen : -9,3 Md€ en 2023, contre -7,2 Md€ en 2018 et -2,1 Md€ en 2000 (Bercy).",
+      "s": [
+       0
+      ]
+     }
     },
     {
      "id": "fraude",
@@ -1133,30 +1148,85 @@
      },
      "quiz_text": "Arrêter les subventions aux éoliennes et panneaux solaires",
      "quiz_concret": "Moins de nouveaux parcs éoliens et solaires.",
-     "quiz_plus": "Le soutien public aux renouvelables électriques a presque triplé de 2024 à 2027, avec la baisse des prix de gros et la hausse des volumes (CRE) ; RTE prévoit une production supérieure à la consommation jusqu'en 2027-2028.",
-     "quiz_moins": "RTE juge la neutralité carbone impossible sans fort développement des renouvelables, les nouveaux réacteurs n'arrivant qu'après 2035 ; ces contrats ont aussi rapporté des recettes à l'État en 2022-2023 (CRE).",
+     "quiz_plus": "Les aides au solaire et à l'éolien coûtent cher alors que la production dépasse déjà la demande.",
+     "quiz_moins": "Les réacteurs neufs arriveront tard, et stopper solaire et éolien prive de production d'ici là.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "solide",
+     "quiz_cas_pour": [
+      {
+       "t": "Les contrats solaires signés avant 2011 pesaient 30 % des charges de soutien aux renouvelables en 2018, pour 0,7 % de l'électricité (Cour des comptes, France, 2018).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Le soutien public aux renouvelables électriques a plus que doublé de 2024 à 2025, surtout pour le solaire, avec la baisse des prix de gros (CRE, France, 2026).",
+       "s": [
+        1
+       ]
+      },
+      {
+       "t": "Record d'exportations nettes d'électricité en 2024 (89 TWh), avec deux fois plus d'heures à prix négatifs qu'en 2023 (RTE, France, 2025).",
+       "s": [
+        2
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Après l'arrêt des tarifs garantis au solaire fin 2010, la filière a connu quatre ans d'incertitude, faillites et désinvestissements (Cour des comptes, France, 2018).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Prévu pour 2012, le réacteur de Flamanville 3 n'a été raccordé qu'en décembre 2024, pour un coût environ sept fois supérieur au devis (Cour des comptes, France, 2025).",
+       "s": [
+        3
+       ]
+      },
+      {
+       "t": "Avec une production nucléaire au plus bas (279 TWh), le pays a importé plus d'électricité qu'il n'en a exporté en 2022, une première depuis 1980 (RTE, France, 2025).",
+       "s": [
+        2
+       ]
+      }
+     ],
+     "quiz_etudes": "Coûts du soutien bien documentés (CRE, Cour des comptes) et variables selon les prix ; pour RTE, la neutralité carbone exige un fort essor des renouvelables, même avec du nucléaire neuf.",
      "quiz_src": [
+      {
+       "l": "Cour des comptes, « Le soutien aux énergies renouvelables »",
+       "a": 2018,
+       "u": "https://www.ccomptes.fr/sites/default/files/2018-04/20180418-rapport-soutien-energies-renouvelables.pdf"
+      },
       {
        "l": "CRE, délibération n° 2026-149 (charges de service public de l'énergie)",
        "a": 2026,
        "u": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-149_CSPE_2026-2027.pdf"
       },
       {
-       "l": "RTE, Bilan prévisionnel 2025-2035 (résumé Enerdata)",
+       "l": "RTE, Bilan électrique 2024 (synthèse)",
        "a": 2025,
-       "u": "https://www.enerdata.net/publications/daily-energy-news/rte-warns-prolonged-power-overcapacity-france-through-2028.html"
+       "u": "https://analysesetdonnees.rte-france.com/bilan-electrique-2024/synthese"
       },
       {
-       "l": "RTE, Futurs énergétiques 2050 (Banque des Territoires)",
-       "a": 2021,
-       "u": "https://www.banquedesterritoires.fr/futur-energetique-de-la-france-nucleaire-et-renouvelables-le-en-meme-temps-de-rte"
-      },
-      {
-       "l": "RTE, Bilan prévisionnel 2023-2035 (Banque des Territoires)",
-       "a": 2023,
-       "u": "https://www.banquedesterritoires.fr/transition-energetique-rte-affine-ses-scenarios-horizon-2035"
+       "l": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
+       "a": 2025,
+       "u": "https://www.ccomptes.fr/sites/default/files/2025-01/20250114-La-filiere-EPR--une-dynamique-nouvelle-des-risques-persistants_0.pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Électricité consommée : 449 TWh en 2024, environ 6 % sous la moyenne 2014-2019 ; exportations record (RTE).",
+      "s": [
+       2
+      ]
+     },
+     "quiz_complement": {
+      "t": "Le même programme prévoit aussi de relancer le nucléaire et l'hydroélectricité.",
+      "ref": [
+       "le-pen.environnement.2"
+      ]
+     }
     }
    ],
    "total": {
@@ -1927,25 +1997,73 @@
      },
      "quiz_text": "Annuler la dette de la France détenue par la Banque centrale européenne",
      "quiz_concret": "L'État rembourserait moins à la banque centrale.",
-     "quiz_plus": "Pour plus de 100 économistes européens (tribune de 2021), une banque centrale peut fonctionner même avec des pertes durables : effacer cette dette libérerait des marges pour la transition écologique.",
-     "quiz_moins": "Les intérêts versés à la banque centrale reviennent en partie aux États sous forme de dividendes : l'effacement les supprimerait aussi, sans gain net (BNP Paribas) ; aucun dividende versé à l'État au titre de 2022 et 2023.",
+     "quiz_plus": "Une banque centrale encaisse des pertes sans faillite : effacer sa part allège la dette publique.",
+     "quiz_moins": "Les intérêts payés à la banque centrale reviennent déjà à l'État ; effacer la dette les supprime.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "solide",
+     "quiz_cas_pour": [
+      {
+       "t": "La Banque centrale européenne a perdu 1,3 Md€ en 2023 et 7,9 Md€ en 2024, reportés sur ses profits futurs, sans cesser sa politique monétaire (BCE, zone euro, 2025).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "La Banque de France a versé près de 32 Md€ à l'État de 2015 à 2022, puis aucun dividende au titre de 2022 et 2023, après des pertes (Banque de France, France, 2024).",
+       "s": [
+        1,
+        2
+       ]
+      },
+      {
+       "t": "Après une perte de 132 milliards de francs en 2022, la banque centrale n'a rien pu verser à la Confédération ni aux cantons (Banque nationale suisse, Suisse, 2023).",
+       "s": [
+        3
+       ]
+      }
+     ],
+     "quiz_etudes": "Les analyses (Banque de France, BNP Paribas) concordent : pas de gain net, les dividendes disparaissant avec les intérêts ; une tribune d'économistes (2021) soutient l'inverse.",
      "quiz_src": [
+      {
+       "l": "BCE, « Financial statements of the ECB for 2024 » (communiqué)",
+       "a": 2025,
+       "u": "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.pr250220~eca25e4e21.en.html"
+      },
       {
        "l": "Banque de France, A. Bénassy-Quéré, « Comptes des banques centrales : le trou d'air était attendu »",
        "a": 2024,
        "u": "https://www.banque-france.fr/fr/interventions-gouverneur/comptes-des-banques-centrales-le-trou-dair-etait-attendu"
       },
       {
-       "l": "Tribune « Annuler les dettes publiques détenues par la BCE » (La Libre Belgique)",
-       "a": 2021,
-       "u": "https://www.lalibre.be/debats/opinions/annuler-les-dettes-publiques-detenues-par-la-bce-pour-reprendre-en-main-notre-destin-601c38c17b50a652f79d741d"
-      },
-      {
        "l": "BNP Paribas, « Le coût de l'annulation de la dette publique »",
        "a": 2021,
        "u": "https://economic-research.bnpparibas.com/pdf/fr-FR/cout-annulation-dette-publique-debat-suscite-19/02/2021,41805"
+      },
+      {
+       "l": "Banque nationale suisse, communiqué du 9 janvier 2023",
+       "a": 2023,
+       "u": "https://www.snb.ch/fr/publications/communication/press-releases/2023/pre_20230109"
+      },
+      {
+       "l": "Eurostat, dette et déficit publics (gov_10dd_edpt1), France",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=FR&unit=PC_GDP&sector=S13&na_item=GD&na_item=B9&time=2019&time=2024&time=2025"
+      },
+      {
+       "l": "Eurostat, intérêts versés par les administrations publiques (gov_10a_main, D41), France",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10a_main?geo=FR&unit=PC_GDP&sector=S13&na_item=D41PAY&time=2015&time=2019&time=2025"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Dette publique : 115,7 % du PIB en 2025 contre 98,2 % en 2019 ; intérêts : 2,2 % contre 1,5 % (Eurostat).",
+      "s": [
+       4,
+       5
+      ]
+     }
     },
     {
      "id": "constituante",
@@ -1980,33 +2098,31 @@
      },
      "quiz_text": "Faire écrire une nouvelle Constitution",
      "quiz_concret": "Les règles de la République changeraient : référendums citoyens, vote proportionnel.",
-     "quiz_plus": "Seuls 20 % des Français font confiance à l'Assemblée (Cevipof, 2026) ; en Islande, un projet rédigé par un conseil de citoyens élus a été approuvé comme base par deux tiers des votants en 2012.",
-     "quiz_moins": "Les précédents montrent des processus longs à l'issue incertaine : au Chili, quatre ans de travaux se sont conclus par le rejet de deux projets par référendum (62 % en 2022, 55 % en 2023).",
+     "quiz_plus": "Une assemblée élue pour réécrire la Constitution redonne aux citoyens la main sur les institutions.",
+     "quiz_moins": "Réécrire toute la Constitution prend des années, avec un résultat incertain au moment du vote final.",
+     "quiz_preuve_pour": "pas d'étude",
+     "quiz_preuve_contre": "faible",
+     "quiz_cas_pour": [],
+     "quiz_cas_contre": [
+      {
+       "t": "Décidée par référendum en 2020 (78 %), la nouvelle Constitution a échoué : deux projets rejetés, en 2022 (61,9 %) et 2023 (55 %) (International IDEA, Chili, 2023).",
+       "s": [
+        0,
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Peu de cas comparables et aucune étude sur l'effet d'une nouvelle Constitution sur la confiance des citoyens ; le Chili est le cas récent le plus proche, dans un régime différent.",
      "quiz_src": [
       {
-       "l": "Cevipof, Baromètre de la confiance politique, vague 17",
-       "a": 2026,
-       "u": "https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-cevipof-2026-la-confiance-s-effondre-en-politique-la-proximite-fait-figure-de-refuge/"
-      },
-      {
-       "l": "openDemocracy, « The Icelandic constitutional experiment »",
-       "a": 2012,
-       "u": "https://www.opendemocracy.net/en/icelandic-constitutional-experiment/"
-      },
-      {
-       "l": "Le Grand Continent, Chili (premier projet)",
-       "a": 2023,
-       "u": "https://legrandcontinent.eu/fr/?p=207375"
-      },
-      {
-       "l": "International IDEA, Democracy Tracker Chile, décembre 2023",
+       "l": "International IDEA, Democracy Tracker, Chili, décembre 2023",
        "a": 2023,
        "u": "https://www.idea.int/democracytracker/report/chile/december-2023"
       },
       {
-       "l": "openDemocracy, « When politics strike back »",
-       "a": 2013,
-       "u": "https://www.opendemocracy.net/giulia-dessi/when-politics-strike-back-end-of-icelandic-constitutional-experiment"
+       "l": "Le Grand Continent, Chili, second projet de Constitution",
+       "a": 2023,
+       "u": "https://legrandcontinent.eu/fr/?p=207375"
       }
      ]
     },
@@ -2916,9 +3032,45 @@
      },
      "quiz_text": "Un grand fonds européen de défense financé par un emprunt commun",
      "quiz_concret": "Les pays européens s'arment ensemble.",
-     "quiz_plus": "Le rapport Draghi (2024) relève que 78 % des achats d'armement européens sont allés hors de l'UE en 2022-2023 et recommande un emprunt commun pour financer des achats groupés, à plus grande échelle.",
-     "quiz_moins": "Le précédent du plan de relance montre un risque de coût : la Cour des comptes européenne prévoit des intérêts environ deux fois plus élevés que prévu, à payer par les États ou par de nouvelles taxes.",
+     "quiz_plus": "Emprunter et acheter ensemble coûte moins cher que vingt-sept achats d'armes séparés.",
+     "quiz_moins": "Une dette commune se rembourse longtemps, avec des intérêts qui peuvent dépasser les prévisions.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "solide",
+     "quiz_cas_pour": [
+      {
+       "t": "Un emprunt commun pour le chômage partiel en 2020-2022 a fait économiser environ 9 Md€ d'intérêts aux dix-neuf pays emprunteurs (Commission européenne, UE, 2023).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "De mi-2022 à mi-2023, 78 % des achats d'armement des pays de l'Union sont allés hors de l'Union, faute de commandes groupées (rapport Draghi, UE, 2024).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Les intérêts de l'emprunt commun du plan de relance européen dus d'ici 2027 sont estimés au double de la prévision de 2020 (Cour des comptes européenne, UE, 2025).",
+       "s": [
+        2
+       ]
+      },
+      {
+       "t": "Promises en 2020 pour rembourser cet emprunt, de nouvelles recettes européennes n'étaient toujours pas adoptées en 2025, après trois propositions (Sénat, UE, 2025).",
+       "s": [
+        3
+       ]
+      }
+     ],
+     "quiz_etudes": "Peu d'évaluations des achats d'armes groupés ; l'emprunt commun a réduit le coût du crédit de plusieurs pays (SURE), mais ses intérêts ont dépassé les prévisions quand les taux ont monté.",
      "quiz_src": [
+      {
+       "l": "Commission européenne, instrument SURE (page de l'instrument, rapport final de 2023)",
+       "a": 2023,
+       "u": "https://economy-finance.ec.europa.eu/eu-financial-assistance/sure_en"
+      },
       {
        "l": "M. Draghi, « The future of European competitiveness », partie A",
        "a": 2024,
@@ -2930,7 +3082,7 @@
        "u": "https://www.eca.europa.eu/ECAPublications/AR-2024-AIB/AR-2024-AIB_FR.pdf"
       },
       {
-       "l": "Sénat, commission des finances, PSR-UE (PLF 2026)",
+       "l": "Sénat, commission des finances, « L'essentiel » sur le prélèvement au profit de l'UE (PLF 2026)",
        "a": 2025,
        "u": "https://www.senat.fr/fileadmin/cru-1762483659/Commissions/Finances/2025-2026/PLF_2026/Essentiel/Mission_Affaires_europeennes_Essentiel_post-commission.pdf"
       }
@@ -3100,25 +3252,56 @@
      },
      "quiz_text": "Favoriser les produits européens dans les achats publics et taxer certaines importations",
      "quiz_concret": "Les entreprises européennes sont avantagées.",
-     "quiz_plus": "Aux États-Unis, la préférence nationale dans les achats publics a créé jusqu'à 100 000 emplois (NBER, 2024) ; des droits sur les voitures électriques chinoises réduiraient ces importations de 42 % (Kiel, 2024).",
-     "quiz_moins": "Ces emplois coûtent 111 000 à 138 000 $ chacun et les auteurs y voient un outil industriel peu efficace (NBER, 2024) ; la préférence nationale a renchéri les achats publics américains de 5,6 % (PIIE).",
+     "quiz_plus": "Réserver des commandes publiques et taxer des importations donne des débouchés aux usines locales.",
+     "quiz_moins": "Protéger fait payer plus cher ménages et contribuables, et attire des représailles.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "solide",
+     "quiz_cas_pour": [
+      {
+       "t": "Après des droits sur tous les lave-linge importés en 2018, une partie de leur production a été relocalisée aux États-Unis (Université de Chicago, États-Unis, 2019).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Ces droits ont fait monter le prix des lave-linge d'environ 12 %, soit 820 000 dollars payés par les ménages par emploi créé (Université de Chicago, États-Unis, 2019).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Les droits de 2018-2019 ont protégé des usines, mais composants plus chers et représailles ont réduit l'emploi industriel de 1,4 % (Réserve fédérale, États-Unis, 2019).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Les études sur les droits de douane américains de 2018 concordent : prix plus hauts, peu d'emplois protégés ; pour les achats publics réservés, une étude (NBER, 2024) : 110 000 $ par emploi.",
      "quiz_src": [
       {
-       "l": "Bombardini et al., « The Increasing Cost of Buying American » (NBER)",
-       "a": 2024,
-       "u": "https://conference.nber.org/conf_papers/f210457/f210457.pdf"
+       "l": "Université de Chicago, sur Flaaen, Hortaçsu et Tintelnot (étude publiée dans l'American Economic Review, 2020)",
+       "a": 2019,
+       "u": "https://news.uchicago.edu/story/what-washing-machines-can-teach-us-about-cost-tariffs"
       },
       {
-       "l": "Kiel Institute / WIFO / ASCII, droits compensateurs sur les véhicules électriques chinois",
-       "a": 2024,
-       "u": "https://www.wifo.ac.at/en/news/countervailing-duties-on-chinese-electric-vehicles/"
+       "l": "Flaaen et Pierce, Réserve fédérale, FEDS n° 2019-086",
+       "a": 2019,
+       "u": "https://www.federalreserve.gov/econres/feds/files/2019086pap.pdf"
       },
       {
-       "l": "Hufbauer et Jung, PIIE",
-       "a": 2020,
-       "u": "https://www.piie.com/research/piie-charts/buy-american-and-similar-domestic-purchase-policies-impose-high-costs-taxpayers"
+       "l": "Eurostat, valeur ajoutée par branche (nama_10_a10), France",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_a10?geo=FR&unit=CP_MEUR&na_item=B1G&nace_r2=C&nace_r2=TOTAL&time=2000&time=2014&time=2019&time=2024&time=2025"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Industrie manufacturière : 11,2 % de la valeur ajoutée en 2025, 11,4 % en 2014, 16,1 % en 2000 (Eurostat).",
+      "s": [
+       2
+      ]
+     }
     },
     {
      "id": "service_civique",
@@ -3274,8 +3457,27 @@
      },
      "quiz_text": "Augmenter fortement l'aide militaire à l'Ukraine",
      "quiz_concret": "Plus d'armes livrées à l'Ukraine, financées en partie par des avoirs saisis.",
-     "quiz_plus": "En 2025, l'aide américaine à l'Ukraine a chuté de 99 % et l'Europe l'a presque compensée seule (Kiel Institute, 2026) ; une hausse française renforce cet effort et les commandes à l'industrie d'armement.",
-     "quiz_moins": "La France n'a pas de stocks inutilisés : céder 30 canons Caesar a réduit « significativement » son artillerie le temps de les remplacer (Assemblée nationale, 2023) ; produire un canon prend 18 à 36 mois.",
+     "quiz_plus": "Livrer davantage d'armes aide l'armée qui se défend à tenir le front.",
+     "quiz_moins": "Les armes données manquent aux armées qui les cèdent tant que les usines ne les ont pas remplacées.",
+     "quiz_preuve_pour": "faible",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "En 2025, la hausse de l'aide militaire européenne (+67 %) a presque compensé l'arrêt de l'aide américaine, en baisse de 99 % (Kiel Institute, Europe, 2026).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Céder 30 de ses 76 canons Caesar a nettement réduit l'artillerie française, le temps d'en fabriquer de neufs, en 18 à 36 mois (Assemblée nationale, France, 2023).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Les suivis (Kiel Institute) mesurent les volumes livrés, pas leur effet sur le front ; les rapports parlementaires décrivent un affaiblissement temporaire des stocks des pays donateurs.",
      "quiz_src": [
       {
        "l": "Kiel Institute, Policy Brief n° 203 « Europe Steps Up »",
@@ -3287,7 +3489,13 @@
        "a": 2023,
        "u": "https://www.assemblee-nationale.fr/dyn/16/rapports/cion_def/l16b1840_rapport-information.pdf"
       }
-     ]
+     ],
+     "quiz_complement": {
+      "t": "Le même programme prévoit aussi un fonds européen de défense par emprunt, sans part fléchée vers les stocks.",
+      "ref": [
+       "glucksmann.defense"
+      ]
+     }
     }
    ],
    "total": {
@@ -4352,30 +4560,61 @@
      },
      "quiz_text": "Un fonds annuel pour adapter le pays au réchauffement",
      "quiz_concret": "Plus d'argent contre les inondations, canicules et incendies.",
-     "quiz_plus": "L'inaction coûte déjà plusieurs milliards par an, surtout à l'État (I4CE, 2024) ; la Cour des comptes (2024) juge les besoins mal chiffrés et les réponses publiques peu coordonnées, faute de plan d'ensemble.",
-     "quiz_moins": "Une enveloppe annuelle dépend des arbitrages budgétaires : le Fonds vert des collectivités a été divisé par trois en deux ans, de 2024 à 2026 (I4CE) ; le Haut Conseil pour le climat signale un risque d'adaptations mal conçues.",
+     "quiz_plus": "Préparer le pays avant les catastrophes coûte moins que réparer les dégâts après coup.",
+     "quiz_moins": "Une enveloppe annuelle peut être rabotée au budget ou financer des projets vite dépassés.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Après les alertes et mesures de prévention créées à la suite de 2003, la canicule de 2006 a causé environ 4 400 décès de moins que prévu (Fouillet et al., France, 2008).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Le Fonds vert des collectivités, qui finance aussi l'adaptation, a été divisé par trois de 2024 à 2026, raboté à chaque étape budgétaire (I4CE, France, 2026).",
+       "s": [
+        1
+       ]
+      },
+      {
+       "t": "Les communes de montagne subventionnent surtout la neige de culture, protection « relative et transitoire » de moins en moins efficace (Cour des comptes, France, 2024).",
+       "s": [
+        2
+       ]
+      }
+     ],
+     "quiz_etudes": "La prévention des canicules a un effet mesuré en France ; aucune évaluation d'un fonds unique d'adaptation ; la Cour des comptes juge les coûts de l'adaptation mal chiffrés.",
      "quiz_src": [
       {
-       "l": "I4CE, « Anticiper les effets d'un réchauffement de +4 °C : quels coûts de l'adaptation ? » (Banque des Territoires)",
-       "a": 2024,
-       "u": "https://www.banquedesterritoires.fr/adaptation-aux-effets-dun-rechauffement-de-de-4degc-un-certain-cout-et-un-cout-certain"
+       "l": "Fouillet et al., International Journal of Epidemiology",
+       "a": 2008,
+       "u": "https://doi.org/10.1093/ije/dym253"
       },
       {
-       "l": "Cour des comptes, rapport public annuel 2024 sur l'adaptation (Maire-info)",
-       "a": 2024,
-       "u": "https://www.maire-info.com/adaptation-au-changement-climatique-la-cour-des-comptes-demande-une-strategie-claire-face-au-mur-dinvestissements-article2-28402"
-      },
-      {
-       "l": "I4CE sur le Fonds vert (Maire-info)",
+       "l": "I4CE, « Qu'attendre (vraiment) du Fonds vert ? »",
        "a": 2026,
-       "u": "https://www.maire-info.com/transition-ecologique/action-climatique-les-collectivites-bien-plus-fragilisees-par-les-ponctions-de-tva-et-du-dilico-que-par-le-rabotage-du-fonds-vert-selon-li4ce-art26-30943"
+       "u": "https://www.i4ce.org/adaptation-changement-climatique-attendre-fonds-vert/"
       },
       {
-       "l": "Haut Conseil pour le climat, rapport annuel 2026 (AFP)",
-       "a": 2026,
-       "u": "https://www.connaissancedesenergies.org/afp/climat-la-france-nest-pas-prete-il-faut-changer-dechelle-juge-le-haut-conseil-pour-le-climat-260709"
+       "l": "Cour des comptes, synthèses du rapport public annuel 2024, « Les stations de montagne face au changement climatique »",
+       "a": 2024,
+       "u": "https://www.ccomptes.fr/sites/default/files/2024-03/20240312-syntheses-RPA-2024.pdf"
+      },
+      {
+       "l": "Cour des comptes, rapport public annuel 2024 (vol. 1), « L'adaptation des logements au changement climatique »",
+       "a": 2024,
+       "u": "https://www.ccomptes.fr/sites/default/files/2024-03/RPA-2024-volume-1-reduit.pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Dégâts aux maisons dus à la sécheresse des sols : record en 2022, 2,4 à 2,9 Md€ (Cour des comptes).",
+      "s": [
+       3
+      ]
+     }
     },
     {
      "id": "jeunes_parents",
@@ -5201,30 +5440,80 @@
      },
      "quiz_text": "Arrêter les nouveaux parcs solaires et éoliens en mer, construire 8 réacteurs nucléaires",
      "quiz_concret": "Plus de nucléaire, moins de renouvelables ; fin des zones à faibles émissions en ville.",
-     "quiz_plus": "Pour RTE (2021), les scénarios avec nouveaux réacteurs sont les moins coûteux pour le système électrique ; le soutien aux renouvelables a presque triplé de 2024 à 2027, baisse des prix de gros comprise (CRE).",
-     "quiz_moins": "Le premier EPR a eu 12 ans de retard et le coût du programme EPR2 a déjà augmenté de 30 % (Cour des comptes, 2025) ; RTE juge la neutralité carbone impossible sans fort développement des renouvelables.",
+     "quiz_plus": "Les réacteurs produisent en continu une électricité bas carbone, sans dépendre du vent ni du soleil.",
+     "quiz_moins": "Les réacteurs neufs arriveront tard, et stopper solaire et éolien prive de production d'ici là.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "solide",
+     "quiz_cas_pour": [
+      {
+       "t": "Le parc nucléaire a produit 361,7 TWh en 2024, et 95 % de l'électricité produite était décarbonée (RTE, France, 2025).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Les contrats solaires signés avant 2011 pesaient 30 % des charges de soutien aux renouvelables en 2018, pour 0,7 % de l'électricité (Cour des comptes, France, 2018).",
+       "s": [
+        1
+       ]
+      },
+      {
+       "t": "Record d'exportations nettes d'électricité en 2024 (89 TWh), avec deux fois plus d'heures à prix négatifs qu'en 2023 (RTE, France, 2025).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Prévu pour 2012, le réacteur de Flamanville 3 n'a été raccordé qu'en décembre 2024, pour un coût environ sept fois supérieur au devis (Cour des comptes, France, 2025).",
+       "s": [
+        2
+       ]
+      },
+      {
+       "t": "Après l'arrêt des tarifs garantis au solaire fin 2010, la filière a connu quatre ans d'incertitude, faillites et désinvestissements (Cour des comptes, France, 2018).",
+       "s": [
+        1
+       ]
+      },
+      {
+       "t": "Avec une production nucléaire au plus bas (279 TWh), le pays a importé plus d'électricité qu'il n'en a exporté en 2022, une première depuis 1980 (RTE, France, 2025).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_etudes": "Coûts du soutien bien documentés (CRE, Cour des comptes) ; pour RTE, la neutralité carbone exige aussi des renouvelables ; coût des six premiers réacteurs neufs en hausse de 30 % (Cour des comptes).",
      "quiz_src": [
       {
-       "l": "RTE, Futurs énergétiques 2050 (Banque des Territoires)",
-       "a": 2021,
-       "u": "https://www.banquedesterritoires.fr/futur-energetique-de-la-france-nucleaire-et-renouvelables-le-en-meme-temps-de-rte"
-      },
-      {
-       "l": "CRE, délibération n° 2026-149 (charges de service public de l'énergie)",
-       "a": 2026,
-       "u": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-149_CSPE_2026-2027.pdf"
-      },
-      {
-       "l": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants » (AFP)",
+       "l": "RTE, Bilan électrique 2024 (synthèse)",
        "a": 2025,
-       "u": "https://www.connaissancedesenergies.org/afp/programme-depr-la-cour-des-comptes-publie-un-rapport-critique-et-recalcule-le-cout-de-flamanville-3-250114"
+       "u": "https://analysesetdonnees.rte-france.com/bilan-electrique-2024/synthese"
       },
       {
-       "l": "RTE, Bilan prévisionnel 2023-2035 (Banque des Territoires)",
-       "a": 2023,
-       "u": "https://www.banquedesterritoires.fr/transition-energetique-rte-affine-ses-scenarios-horizon-2035"
+       "l": "Cour des comptes, « Le soutien aux énergies renouvelables »",
+       "a": 2018,
+       "u": "https://www.ccomptes.fr/sites/default/files/2018-04/20180418-rapport-soutien-energies-renouvelables.pdf"
+      },
+      {
+       "l": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
+       "a": 2025,
+       "u": "https://www.ccomptes.fr/sites/default/files/2025-01/20250114-La-filiere-EPR--une-dynamique-nouvelle-des-risques-persistants_0.pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Électricité consommée : 449 TWh en 2024, environ 6 % sous la moyenne 2014-2019 ; exportations record (RTE).",
+      "s": [
+       0
+      ]
+     },
+     "quiz_complement": {
+      "t": "Le même programme prévoit aussi jusqu'à 4 GW de nouvelles capacités hydroélectriques.",
+      "ref": [
+       "retailleau.environnement.3"
+      ]
+     }
     },
     {
      "id": "securite",
@@ -5273,15 +5562,85 @@
      },
      "quiz_text": "Des peines de prison minimales obligatoires, inscrites dans la Constitution",
      "quiz_concret": "Le juge ne pourrait plus descendre sous un seuil pour certains délits.",
-     "quiz_plus": "Après la loi de 2007 sur les peines planchers, les récidivistes condamnés ont commis 13 % de délits visés en moins dans les quatre ans suivant leur sortie de prison (IPP, 2024).",
-     "quiz_moins": "Les peines des récidivistes ont presque doublé (230 à 430 jours), sans effet dissuasif à court terme ni baisse des autres délits (IPP, 2024) : plus de détenus pour un effet « de faible ampleur ».",
+     "quiz_plus": "Une peine minimale connue d'avance dissuade la récidive et écarte plus longtemps les récidivistes.",
+     "quiz_moins": "L'effet dissuasif observé est faible, alors que les places de prison se construisent lentement.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "solide",
+     "quiz_cas_pour": [
+      {
+       "t": "Après la loi de 2007 sur les peines planchers, les récidivistes ont commis 13 % de délits visés en moins dans les quatre ans suivant leur sortie (IPP, France, 2024).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Les peines planchers de 2007 n'étaient prononcées que dans 38 % des cas possibles en 2010, les juges pouvant y déroger (ministère de la Justice, France, 2012).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Avec les peines planchers, la peine des récidivistes a presque doublé (230 à 430 jours), sans dissuasion à court terme ni baisse des autres délits (IPP, France, 2024).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Le plan de 15 000 places de prison n'en avait livré que 2 771 à mi-2023, et la population carcérale suit le rythme des places créées (Sénat, France, 2023).",
+       "s": [
+        2
+       ]
+      },
+      {
+       "t": "Purger sa peine sous bracelet électronique plutôt qu'en prison réduit de 6 à 7 points le risque d'une nouvelle condamnation à cinq ans (Henneguelle et al., France, 2016).",
+       "s": [
+        3
+       ]
+      }
+     ],
+     "quiz_etudes": "Une évaluation française rigoureuse (IPP, 2024) : moins de récidive ciblée à quatre ans, pas de dissuasion à court terme, nettement plus d'incarcération.",
      "quiz_src": [
       {
        "l": "IPP, note n° 105 « Les peines planchers sont-elles un outil efficace pour éviter la récidive ? »",
        "a": 2024,
        "u": "https://www.ipp.eu/wp-content/uploads/2024/03/Note_IPP_105_peines_planchers.pdf"
+      },
+      {
+       "l": "Ministère de la Justice, Infostat Justice n° 118 « Peines planchers : application et impact de la loi du 10 août 2007 »",
+       "a": 2012,
+       "u": "https://www.justice.gouv.fr/sites/default/files/migrations/portail/art_pix/stat_infostat_118_20121017.pdf"
+      },
+      {
+       "l": "Sénat, commission des finances, rapport d'information n° 37 (2023-2024), plan 15 000 places (synthèse)",
+       "a": 2023,
+       "u": "https://www.senat.fr/rap/r23-037/r23-0370.html"
+      },
+      {
+       "l": "Henneguelle, Monnery et Kensey, Journal of Law and Economics",
+       "a": 2016,
+       "u": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
+      },
+      {
+       "l": "SSMSI, base statistique régionale de la délinquance enregistrée (data.gouv.fr)",
+       "a": 2026,
+       "u": "https://static.data.gouv.fr/resources/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales/20260709-120055/donnee-reg-data.gouv-2025-geographie2026-produit-le2026-06-25.csv"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Violences physiques hors famille : +32 % de 2016 à 2025 ; vols violents sans arme : -48 % (SSMSI).",
+      "s": [
+       4
+      ]
+     },
+     "quiz_complement": {
+      "t": "Le même programme prévoit aussi des places de prison et des centres pour courtes peines, sans chiffre.",
+      "ref": [
+       "retailleau.securite",
+       "retailleau.securite.2"
+      ]
+     }
     },
     {
      "id": "fin_maprimerenov",
@@ -6032,8 +6391,28 @@
      },
      "quiz_text": "Inscrire dans la Constitution l'obligation d'un budget sans déficit",
      "quiz_concret": "L'État ne pourrait plus dépenser plus qu'il ne gagne, à terme.",
-     "quiz_plus": "Sous le frein à l'endettement allemand, la dette est passée de 81 % à 58 % du PIB de 2010 à 2019, aidée par la croissance et des taux bas (Eurostat) ; les études publiées trouvent en général un effet modérateur des règles.",
-     "quiz_moins": "La même méta-analyse note que cet effet faiblit une fois les biais corrigés ; une règle stricte limite la relance en récession, et l'Allemagne a assoupli son frein en 2025 (défense, infrastructures, climat).",
+     "quiz_plus": "Inscrite dans la Constitution, la règle oblige chaque majorité à équilibrer ses comptes.",
+     "quiz_moins": "Une règle stricte empêche d'emprunter pour investir ou soutenir l'économie en pleine crise.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Sous le frein à l'endettement inscrit dans la Constitution allemande, la dette publique est passée de 81 % du PIB en 2010 à 58,3 % en 2019 (Eurostat, Allemagne, 2026).",
+       "s": [
+        0,
+        1
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Au nom du frein à l'endettement, la Cour constitutionnelle a annulé le transfert de 60 Md€ d'emprunts vers un fonds climat (Cour constitutionnelle, Allemagne, 2023).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Une méta-analyse de 30 études (ZEW, 2018) trouve un effet modérateur des règles budgétaires sur les déficits, qui faiblit nettement une fois corrigés les biais.",
      "quiz_src": [
       {
        "l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
@@ -6041,21 +6420,22 @@
        "u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=DE&unit=PC_GDP&sector=S13&na_item=GD&time=2010&time=2019&time=2024"
       },
       {
-       "l": "Heinemann, Moessinger, Yeter, « Do Fiscal Rules Constrain Fiscal Policy? » (ZEW, EJPE)",
-       "a": 2018,
-       "u": "https://www.zew.de/PU78875"
+       "l": "Cour constitutionnelle fédérale allemande, communiqué n° 101/2023",
+       "a": 2023,
+       "u": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/EN/2023/bvg23-101.html"
       },
       {
-       "l": "Bofinger et Horn (IMK), appel contre le frein à l'endettement",
-       "a": 2009,
-       "u": "https://www.boeckler.de/pdf/imk_appell_schuldenbremse.pdf"
-      },
-      {
-       "l": "Verfassungsblog, « Grundlegende Reform oder Schnellschuss? »",
-       "a": 2025,
-       "u": "https://verfassungsblog.de/grundlegende-reform-oder-schnellschuss/"
+       "l": "Eurostat, dette et déficit publics (gov_10dd_edpt1), France",
+       "a": 2026,
+       "u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=FR&unit=PC_GDP&sector=S13&na_item=GD&na_item=B9&time=2019&time=2024&time=2025"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Déficit public : 5,1 % du PIB en 2025 contre 2,4 % en 2019 ; dette : 115,7 % du PIB contre 98,2 % (Eurostat).",
+      "s": [
+       2
+      ]
+     }
     },
     {
      "id": "immigration",
@@ -6230,13 +6610,71 @@
      },
      "quiz_text": "Une Europe plus unie autour de 8 à 10 pays, avec un président élu par les citoyens",
      "quiz_concret": "Plus de décisions prises au niveau européen.",
-     "quiz_plus": "Pour un groupe d'experts franco-allemand (2023), une Union à plus de 30 membres a besoin d'un « cercle intérieur » plus intégré pour garder sa capacité d'agir, avec des coûts partagés entre pays participants.",
-     "quiz_moins": "Les mêmes experts notent que cette différenciation crée une complexité institutionnelle et un risque pour la cohérence de l'Union ; aucun président européen élu n'existe, donc aucune évaluation.",
+     "quiz_plus": "Un petit groupe de pays décidés avance plus vite qu'à vingt-sept, où un seul pays peut bloquer.",
+     "quiz_moins": "Une Europe à plusieurs cercles complique les règles et reste suspendue aux votes nationaux.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Créé en 2017 par une partie des pays seulement, le Parquet européen menait 2 666 enquêtes de fraude fin 2024 ; d'autres pays l'ont rejoint (Parquet européen, UE, 2025).",
+       "s": [
+        0,
+        1
+       ]
+      },
+      {
+       "t": "Lancée en 1985 par cinq pays dont la France, la suppression des contrôles aux frontières intérieures couvre aujourd'hui 29 pays (Parlement européen, Europe, 2025).",
+       "s": [
+        2
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Lancée en 2013 par onze pays faute d'accord à vingt-sept, la taxe sur les transactions financières n'a jamais abouti (Commission européenne, UE, 2026).",
+       "s": [
+        3,
+        4
+       ]
+      },
+      {
+       "t": "Le traité constitutionnel européen a été rejeté par référendum en 2005, par près de 55 % des votants en France et 61,7 % aux Pays-Bas (Sénat, France, 2008).",
+       "s": [
+        5
+       ]
+      }
+     ],
+     "quiz_etudes": "Un groupe d'experts franco-allemand (2023) juge un cercle restreint utile dans une Union à plus de 30 pays, mais source de complexité ; aucun président européen élu, donc aucune évaluation.",
      "quiz_src": [
       {
-       "l": "Groupe des Douze (franco-allemand), « Sailing on High Seas »",
-       "a": 2023,
-       "u": "https://www.auswaertiges-amt.de/resource/blob/2617322/4d0e0010ffcd8c0079e21329bbbb3332/230919-rfaa-deu-fra-bericht-data.pdf"
+       "l": "Parquet européen, historique (« Background »)",
+       "a": 2026,
+       "u": "https://www.eppo.europa.eu/en/about/background"
+      },
+      {
+       "l": "Parquet européen, rapport annuel 2024 (communiqué)",
+       "a": 2025,
+       "u": "https://www.eppo.europa.eu/en/media/news/2024-annual-report-eppo-leading-charge-against-eu-fraud"
+      },
+      {
+       "l": "Parlement européen, fiche thématique « L'espace Schengen »",
+       "a": 2025,
+       "u": "https://www.europarl.europa.eu/factsheets/fr/sheet/153/l-espace-schengen"
+      },
+      {
+       "l": "Commission européenne, « Financial Transaction Tax »",
+       "a": 2026,
+       "u": "https://taxation-customs.ec.europa.eu/taxation/other-taxes/financial-transaction-tax_en"
+      },
+      {
+       "l": "Parlement européen, « Legislative Train », taxe sur les transactions financières",
+       "a": 2026,
+       "u": "https://www.europarl.europa.eu/legislative-train/theme-an-economy-that-works-for-people/file-financial-transaction-tax"
+      },
+      {
+       "l": "Sénat, rapport d'information n° 188 (2007-2008) sur le traité de Lisbonne",
+       "a": 2008,
+       "u": "https://www.senat.fr/rap/r07-188/r07-1881.html"
       }
      ]
     },
@@ -7095,24 +7533,21 @@
      },
      "quiz_text": "Permettre aux citoyens de déclencher des référendums, y compris sur l'immigration",
      "quiz_concret": "Les Français pourraient voter directement sur plus de sujets.",
-     "quiz_plus": "En Suisse, les cantons où l'initiative populaire est plus facile affichent une satisfaction de vie plus élevée (Frey et Stutzer, 2000) ; 79 % des Français veulent plus de référendums (Cevipof, 2026).",
-     "quiz_moins": "Cet effet n'est pas robuste selon des travaux suisses plus récents ; en Italie, seuls 2 des 10 référendums abrogatifs des trente dernières années ont atteint le quorum de participation (Padoue, 2025).",
+     "quiz_plus": "Pouvoir lancer un vote donne aux citoyens une prise directe sur les décisions entre deux élections.",
+     "quiz_moins": "Les votes d'initiative populaire attirent souvent peu d'électeurs, ce qui fragilise leur légitimité.",
+     "quiz_preuve_pour": "faible",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [],
+     "quiz_cas_contre": [
+      {
+       "t": "Seuls 2 des 10 référendums abrogatifs organisés en trente ans ont atteint le quorum ; 30,6 % de votants en juin 2025 (Université de Padoue, Italie, 2025).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_etudes": "Peu d'études causales : en Suisse, le lien entre démocratie directe et bien-être (Frey et Stutzer, 2000) disparaît dans des travaux récents ; un faible lien avec la satisfaction politique reste.",
      "quiz_src": [
-      {
-       "l": "Frey et Stutzer, « Happiness, Economy and Institutions », Economic Journal",
-       "a": 2000,
-       "u": "https://webspace.qmul.ac.uk/fcornaglia/institutions.pdf"
-      },
-      {
-       "l": "Cevipof, Baromètre de la confiance politique, vague 17",
-       "a": 2026,
-       "u": "https://www.sciencespo.fr/cevipof/fr/actualites/barometre-de-la-confiance-politique-cevipof-2026-la-confiance-s-effondre-en-politique-la-proximite-fait-figure-de-refuge/"
-      },
-      {
-       "l": "Swissinfo, entretien avec I. Stadelmann-Steffen (Univ. de Berne)",
-       "a": 2017,
-       "u": "https://www.swissinfo.ch/eng/directdemocracy/political-participation_does-democracy-make-people-happy/43010132"
-      },
       {
        "l": "Université de Padoue, Centre des droits humains, référendums de juin 2025",
        "a": 2025,
@@ -8506,7 +8941,7 @@
   },
   {
    "date": "27/10/2026",
-   "text": "Quiz : 20 duels au lieu de 16, chaque candidat apparaissant 5 fois ; sous chaque proposition, « + » et « − » donnent les arguments des deux côtés et les risques, fondés sur des études (228 sources vérifiées, consultables sous chaque duel) et rédigés thème par thème avec les mêmes études pour les mesures du même type ; une même proposition ne peut plus revenir dans une partie. Résultat réorganisé : d'abord les candidats les plus proches et ce qu'impliquent vos choix, puis une pastille par proposition (la proximité est la part de propositions retenues, ce qui est affiché est ce qui est compté), la tendance par thème (les thèmes qui comptent pour vous peuvent compter double), ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels replié ; les égalités ne sont jamais départagées. Nouveaux duels sur l'école, la santé et le logement, à partir des propositions précises du volet « Vie quotidienne », avec leurs explications sourcées ; à l'accueil, on peut choisir les thèmes qui comptent pour soi."
+   "text": "Quiz : 20 duels au lieu de 16, chaque candidat apparaissant 5 fois ; sous chaque proposition, « + » et « − » donnent les arguments des deux côtés et les risques, fondés sur des études (228 sources vérifiées, consultables sous chaque duel) et rédigés thème par thème avec les mêmes études pour les mesures du même type ; une même proposition ne peut plus revenir dans une partie. Résultat réorganisé : d'abord les candidats les plus proches et ce qu'impliquent vos choix, puis une pastille par proposition (la proximité est la part de propositions retenues, ce qui est affiché est ce qui est compté), la tendance par thème (les thèmes qui comptent pour vous peuvent compter double), ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels replié ; les égalités ne sont jamais départagées. Nouveaux duels sur l'école, la santé et le logement, à partir des propositions précises du volet « Vie quotidienne », avec leurs explications sourcées ; à l'accueil, on peut choisir les thèmes qui comptent pour soi. Sous chaque proposition : un constat chiffré de la réalité française visée, puis « Pour » et « Contre » en une ligne chacun, avec la force des preuves de chacun et, si le même programme répond à la critique, ce qu'il prévoit ; sous le duel, des cas réels sourcés, en France d'abord, sans symétrie forcée."
   },
   {
    "date": "27/10/2026",
