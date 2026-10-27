@@ -303,6 +303,8 @@ table.grid .dot{width:14px;height:14px}
 .log li{display:grid;grid-template-columns:88px minmax(0,1fr);gap:10px}
 footer.foot{border-top:1px solid var(--line);padding-block:18px 24px;display:flex;gap:16px;flex-wrap:wrap;font-size:.86rem}
 footer.foot button{border:0;background:none;color:var(--accent);padding:0;font-weight:600}
+footer.foot a{color:var(--accent);font-weight:600;display:inline-flex;align-items:center;min-height:44px}
+footer.foot p{flex-basis:100%;margin:0}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 .duel .qt{display:flex;flex-direction:column;gap:6px;text-align:left}.duel .qt b{font-weight:600;line-height:1.3}.duel .qt small{font-size:.84rem;line-height:1.35;color:var(--muted);font-weight:400}
 [hidden]{display:none!important}
@@ -429,11 +431,13 @@ table.grid td button{min-width:44px;min-height:44px;display:inline-grid;place-it
     <div class="notes" id="notes"></div>
     <h2>Historique</h2>
     <ul class="log" id="log"></ul>
-    <h2>Données ouvertes</h2>
+    <h2>Open source et données ouvertes</h2>
     <p class="notes" id="opendata"></p>
+    <h2>Vos données</h2>
+    <p class="notes" id="privacy"></p>
   </section>
 
-  <footer class="foot"><button data-go="methode">Méthode</button><button data-go="methode" data-anchor="log">Historique des mises à jour</button><button data-go="methode" data-anchor="opendata">Données ouvertes</button></footer>
+  <footer class="foot"><button data-go="methode">Méthode</button><button data-go="methode" data-anchor="log">Historique des mises à jour</button><button data-go="methode" data-anchor="opendata">Open source</button><button data-go="methode" data-anchor="privacy">Vos données</button><a id="foot-src" target="_blank" rel="noopener" hidden>Code source sur GitHub</a><p class="small muted">Projet open source. Vos réponses au quiz et au simulateur ne sont ni enregistrées ni envoyées.</p></footer>
 </main>
 
 <nav class="bottom" id="bottomnav" aria-label="Navigation"></nav>
@@ -913,6 +917,8 @@ function quizRender(){
 document.getElementById('notes').innerHTML = D.method.map(t=>`<p>${t}</p>`).join('') + (blackout?'<p><b>Sondages masqués</b> : la loi interdit leur publication la veille et le jour du scrutin.</p>':'');
 document.getElementById('log').innerHTML = (D.changelog||[]).map(l=>`<li><span class="num muted">${esc(l.date)}</span><span>${esc(l.text)}</span></li>`).join('');
 document.getElementById('opendata').innerHTML = D.opendata;
+document.getElementById('privacy').innerHTML = D.privacy;
+if(D.repo_url){ const a=document.getElementById('foot-src'); a.href=D.repo_url; a.hidden=false; }
 
 /* ---------- démarrage ---------- */
 board(); grid(); lifeHome(); render();

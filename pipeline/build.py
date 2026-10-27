@@ -2,7 +2,8 @@ import json,re
 D=json.load(open('promesses-2027-data.json'))
 import os
 D['repo_url']=os.environ.get('REPO_URL','https://github.com/standujar-acc/Promesses-2027')
-D['opendata']="Toutes les données de l'app (mesures, calculs, données d'entrée et sources) sont dans un fichier JSON ouvert, sous licence CC BY 4.0 ; le code est sous licence MIT. Chacun peut refaire les calculs, les contester ou les réutiliser."
+D['opendata']="Le projet est open source : le code est public sous licence MIT, et toutes les données de l'app (mesures, calculs, données d'entrée et sources) sont dans un fichier JSON ouvert, sous licence CC BY 4.0. Chacun peut refaire les calculs, les contester, proposer une correction ou les réutiliser."
+D['privacy']="Pas de compte, pas de publicité, pas de mesure d'audience. Vos réponses au quiz et les informations saisies dans le simulateur restent dans votre navigateur : elles ne sont ni enregistrées ni envoyées. Seul le dernier onglet consulté est gardé sur votre appareil. Un signalement d'erreur envoie uniquement ce que vous écrivez dans le formulaire, sans votre adresse IP ; les quotas anti-abus utilisent une empreinte de l'adresse IP, effacée sous 48 heures. Le site est hébergé par Cloudflare ; les polices de caractères viennent de Google Fonts, qui reçoit donc votre adresse IP lors du chargement de la page."
 from life import merge; D=merge(D)
 n=sum(c['claude_total']['n'] for c in D['candidates']); tot=sum(len(c['measures']) for c in D['candidates'])
 urls=set()
@@ -24,6 +25,7 @@ D['method']=[
  "<b>Sondages et contexte.</b> Ipsos-BVA des 21-22 octobre 2026, masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."]
 D['changelog'].insert(0,{'date':'26/10/2026','text':"Revue complète : règles de calcul communes à tous les candidats, SMIC et CVAE corrigés, verdicts alignés, mesures non confirmées sorties des totaux, résumés réécrits sur un même gabarit. Nouvelle interface pensée pour le mobile. Nouvel onglet « Vie quotidienne » : propositions, test vérifiable/intention, efficacité selon les études et repères officiels."})
 D['changelog'].insert(0,{'date':'27/10/2026','text':"Retrait de l'onglet « Demander » : plus de réponses générées par une IA, seules restent les fiches, le simulateur et le quiz."})
+D['changelog'].insert(0,{'date':'27/10/2026','text':"Nouvelle rubrique « Vos données » : les réponses au quiz et au simulateur ne sont ni enregistrées ni envoyées. Lien vers le code source (open source) en bas de chaque page."})
 json.dump(D,open('promesses-2027-data.json','w'),ensure_ascii=False,indent=1)
 t=open('template.html').read().replace('/*__DATA__*/', json.dumps(D,ensure_ascii=False).replace('</','<\\/'))
 open('promesses-2027.html','w').write(t)
