@@ -2500,40 +2500,92 @@
 }
 ]
 ],
-"melenchon.sante.1": [
-"Pour les infirmières, limiter les installations en zone très dotée a réduit les écarts entre zones (Irdes, 2022) ; la Cour des comptes (2024) propose de lier l'installation en zone dotée à un temps partiel en zone sous-dotée.",
-"L'Irdes relève aussi des contournements (remplacements, installations en bordure) qui profitent surtout aux zones intermédiaires ; à l'étranger, la régulation répartit mieux sans éviter les pénuries (DREES, 2021).",
-[
+"melenchon.sante.1": {
+"constat": "Environ 11 % des habitants n'ont pas de médecin traitant, une part en hausse (Cour des comptes).",
+"constat_s": [
+1,
+2
+],
+"pour": "Fermer les zones déjà bien pourvues oriente les nouveaux médecins vers celles qui en manquent.",
+"preuve_pour": "mitigé",
+"contre": "Encadrer les installations ne crée pas de médecins : la pénurie se contourne ou se déplace.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "Irdes, Questions d'économie de la santé n° 270 (Duchaine, Chevillard, Mousquès) : zonage des infirmières libérales",
+"t": "L'écart de densité d'infirmières libérales entre zones sur-dotées et très sous-dotées s'est réduit de moitié avec la limitation des installations (Irdes, France, 2022).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "La limitation des installations d'infirmières a été en partie contournée par des remplacements et des installations en bordure des zones fermées (Irdes, France, 2022).",
+"s": [
+0
+]
+}
+],
+"etudes": "Une évaluation française, chez les infirmières : la limitation rapproche les densités mais est en partie contournée ; selon la DREES, ailleurs elle n'évite pas les pénuries.",
+"src": [
+{
+"l": "Irdes, Questions d'économie de la santé n° 270 (Duchaine, Chevillard, Mousquès), zonage des infirmières libérales",
 "a": 2022,
 "u": "https://www.irdes.fr/recherche/questions-d-economie-de-la-sante/270-inegalites-territoriales-de-repartition-des-infirmieres-liberales.pdf"
+},
+{
+"l": "Cour des comptes, Les aides à l'installation des médecins libéraux",
+"a": 2025,
+"u": "https://www.ccomptes.fr/sites/default/files/2025-11/20251112-Aides-installation-des-medecins-liberaux.pdf"
 },
 {
 "l": "Cour des comptes, L'organisation territoriale des soins de premier recours (synthèse)",
 "a": 2024,
 "u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240513-synthese-Organisation-territoriale-soins-premier-recours.pdf"
-},
-{
-"l": "DREES, Les dossiers n° 89 (Polton, Chaput, Portela), Remédier aux pénuries de médecins : leçons de la littérature internationale (via Maire-info)",
-"a": 2021,
-"u": "https://www.maire-info.com/sante-publique/les-strategies-des-pays-de-locde-pour-en-finir-avec-la-desertification-medicale-art26-25913"
 }
 ]
+},
+"melenchon.sante.2": {
+"complement": "Le même programme prévoit aussi de recruter des médecins salariés publics, sans en préciser le nombre.",
+"complement_ref": [
+"melenchon.sante.1"
 ],
-"melenchon.sante.2": [
-"Loin d'une maternité, on accouche plus souvent en dehors (×2,3 à 31-45 km, ×3,2 au-delà), avec plus de décès néonatals (Combier, 2020) ; en urgence, 10 km de plus ajoutent environ 1 point de mortalité (Angleterre, 2007).",
-"75 % des maternités de moins de 1 000 naissances recourent à l'intérim et le risque maternel croît dans les plus petites (Académie de médecine, 2023) ; vivre loin d'une maternité n'accroît pas la mortalité totale (Inserm, 2014).",
-[
+"constat": "En 20 ans, plus de 40 % des maternités sans néonatologie ont fermé ; 6,4 % des mères à plus de 30 min (2021).",
+"constat_s": [
+1
+],
+"pour": "Plus la maternité ou les urgences sont loin, plus les soins arrivent tard, parfois trop tard.",
+"preuve_pour": "mitigé",
+"contre": "Les soignants manquent ; un petit service voit peu de cas graves et peine à rester complet.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "Combier, Roussot, Chabernaud, Cottenet, Rozenberg, Quantin, Out-of-maternity deliveries in France (PLoS One)",
-"a": 2020,
-"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039464/"
+"t": "Les accouchements imprévus hors maternité sont 2,3 fois plus fréquents à 30-45 km qu'à moins de 15 km, avec plus de décès de nouveau-nés (Combier et al., France, 2020).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "75 % des maternités de moins de 1 000 naissances recourent régulièrement à l'intérim, avec des fermetures temporaires répétées (Académie de médecine, France, 2023).",
+"s": [
+1
+]
 },
 {
-"l": "Nicholl, West, Goodacre, Turner, The relationship between distance to hospital and patient mortality in emergencies (Emergency Medicine Journal)",
-"a": 2007,
-"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2464671/"
+"t": "Vivre loin d'une maternité n'est pas associé, après ajustement, à une mortalité plus élevée des bébés autour de la naissance (Inserm, France, 2001-2008).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les études divergent : l'éloignement accroît les accouchements hors maternité, mais pas la mortalité globale en France ; une étude anglaise lie distance et décès en urgence.",
+"src": [
+{
+"l": "Combier, Roussot, Chabernaud, Cottenet, Rozenberg, Quantin, Out-of-maternity deliveries in France: a nationwide population-based study (PLoS One)",
+"a": 2020,
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7039464/"
 },
 {
 "l": "Académie nationale de médecine, rapport 23-05 (Ville, Rudigoz, Hascoët), Planification d'une politique en matière de périnatalité",
@@ -2541,25 +2593,65 @@
 "u": "https://www.academie-medecine.fr/wp-content/uploads/2023/03/Rapport-23-05-Planification-d-une-politique-en-mati-re_2023_Bulletin-de-l-A.pdf"
 },
 {
-"l": "Pilkington, Blondel, Drewniak, Zeitlin (Université Paris 8, Inserm), Where does distance matter? (European Journal of Public Health)",
+"l": "Pilkington, Blondel, Drewniak, Zeitlin (Inserm), Where does distance matter? Distance to the closest maternity unit and risk of foetal and neonatal mortality in France (European Journal of Public Health)",
 "a": 2014,
 "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4245008/"
 }
 ]
+},
+"retailleau.sante.1": {
+"complement": "Le même programme prévoit aussi un réexamen régulier des arrêts maladie, sans en préciser les modalités.",
+"complement_ref": [
+"retailleau.sante.2"
 ],
-"retailleau.sante.1": [
-"À l'Éducation nationale, le jour de carence a réduit de 23 % le nombre d'arrêts et de 6 % les jours d'absence, sans effet notable sur la santé perçue (Insee, 2023) ; la Cour des comptes le recommande pour le privé depuis 2019.",
-"Dans le privé, les salariés dont l'employeur paie la carence ne s'arrêtent pas plus souvent, et moins longtemps (DREES, 2015) ; dans l'État, le jour de carence a accru de 25 % les arrêts d'une semaine à trois mois (Insee).",
-[
+"constat": "Les indemnités d'arrêt maladie du régime général ont augmenté de 40 % de 2017 à 2023 (Cour des comptes).",
+"constat_s": [
+3
+],
+"pour": "Un jour non payé fait réfléchir avant de s'arrêter pour un mal bénin.",
+"preuve_pour": "solide",
+"contre": "Les arrêts courts évités sont en partie remplacés par des arrêts plus longs : le total baisse peu.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "Insee, Document de travail n° 2023-06 (Hillion, Maugendre), effet du jour de carence",
+"t": "Les arrêts maladie des personnels de l'Éducation nationale ont baissé de 23 % en nombre et de 6 % en jours, sans effet mesuré sur la santé perçue (Insee, France, 2023).",
+"s": [
+0
+]
+},
+{
+"t": "Les absences de deux jours des agents de l'État ont baissé de plus de moitié pendant le jour de carence de 2012-2013 (Insee, France, 2017).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Les absences d'une semaine à trois mois des agents de l'État ont augmenté de 25 % pendant le jour de carence de 2012-2013 (Insee, France, 2017).",
+"s": [
+1
+]
+},
+{
+"t": "Les salariés du privé sans jour de carence, payé par l'employeur ou en Alsace-Moselle, ne cumulent pas plus de jours d'arrêt par an (DREES ; Insee, France, 2015-2017).",
+"s": [
+2,
+1
+]
+}
+],
+"etudes": "Les évaluations concordent : un jour de carence réduit nettement les arrêts courts mais allonge une partie des autres ; la baisse du total des jours d'absence est faible.",
+"src": [
+{
+"l": "Insee, Document de travail n° 2023-06 (Hillion, Maugendre), L'effet du « jour de carence » sur les absences pour maladie ordinaire, la santé perçue et le recours aux soins",
 "a": 2023,
 "u": "https://www.insee.fr/fr/statistiques/6964865"
 },
 {
-"l": "Cour des comptes, Sécurité sociale 2019, ch. III « Les indemnités journalières »",
-"a": 2019,
-"u": "https://www.ccomptes.fr/system/files/2019-10/RALFSS-2019-03-indemnites-journalieres.pdf"
+"l": "Insee Analyses n° 36 (Cazenave-Lacroutz, Godzinski), Le jour de carence dans la fonction publique de l'État",
+"a": 2017,
+"u": "https://www.insee.fr/fr/statistiques/3181789"
 },
 {
 "l": "DREES (C. Pollak), L'effet du délai de carence sur le recours aux arrêts maladie des salariés du secteur privé (fiche de la Cour des comptes)",
@@ -2567,42 +2659,190 @@
 "u": "https://www.ccomptes.fr/fr/plateformes-citoyennes/plateforme-evaluations-politique-publique/explorer-evaluations/leffet-du-0"
 },
 {
-"l": "Insee Analyses n° 36, Le jour de carence dans la fonction publique de l'État",
-"a": 2017,
-"u": "https://www.insee.fr/fr/statistiques/3181789"
-},
-{
 "l": "Cour des comptes, Sécurité sociale 2024, ch. V « L'indemnisation des arrêts de travail pour maladie du régime général »",
 "a": 2024,
 "u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240529-Ralfss-2024-Indemnisation-arrets-de-travail-pour-maladie-du-regime-general.pdf"
 }
 ]
+},
+"retailleau.sante.2": {
+"constat": "Les indemnités d'arrêt maladie du régime général ont augmenté de 40 % de 2017 à 2023 (Cour des comptes).",
+"constat_s": [
+2
 ],
-"retailleau.sante.2": [
-"Là où l'Assurance maladie contrôle plus les arrêts courts, on s'arrête moins (Irdes, 2011) ; la mise sous objectif des médecins prescrivant deux fois plus que la moyenne réduit leurs prescriptions d'environ 30 % (Sénat, 2025).",
-"Pour la Cour des comptes (2024), la hausse des dépenses d'arrêts de 2017 à 2022 tient en grande partie aux salaires, à l'emploi et au covid ; les procédures visant les médecins sont lourdes, mal acceptées et rares.",
-[
+"pour": "Contrôler davantage les arrêts et les plus gros prescripteurs réduit les arrêts évitables.",
+"preuve_pour": "mitigé",
+"contre": "La hausse des arrêts suit surtout les salaires, l'emploi et l'âge des salariés, peu les médecins.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Dans les départements où l'Assurance maladie contrôle davantage les arrêts courts, les salariés du privé s'arrêtent moins souvent (Irdes, France, 2011).",
+"s": [
+0
+]
+},
+{
+"t": "Les arrêts maladie se sont allongés de 6,6 % quand le certificat médical n'a plus été exigé qu'au 15e jour au lieu du 8e (expérience tirée au sort, IFAU, Suède, 1988).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "La hausse des dépenses d'arrêts maladie de 2017 à 2022 s'explique en grande partie par les salaires, la hausse de l'emploi et le Covid (Cour des comptes, France, 2024).",
+"s": [
+2
+]
+},
+{
+"t": "Après le recul de l'âge de départ de 60 à 62 ans en 2010, les arrêts maladie des salariés concernés ont augmenté de façon significative (Cnam-CEET, France, 2023).",
+"s": [
+3
+]
+}
+],
+"etudes": "Les études montrent qu'un contrôle plus serré réduit un peu les arrêts ; la baisse de 30 % des prescriptions des médecins mis sous objectif n'est pas évaluée de façon indépendante.",
+"src": [
 {
 "l": "Irdes, Document de travail n° 39 (Ben Halima, Debrand, Regaert), Arrêts maladie : comprendre les disparités départementales",
 "a": 2011,
 "u": "https://www.irdes.fr/EspaceRecherche/DocumentsDeTravail/DT39ArretsMaladieComprendreDisparitesDepartement.pdf"
 },
 {
-"l": "Sénat, commission des affaires sociales, rapport n° 111 (2025-2026) sur le projet de loi contre les fraudes sociales et fiscales (examen en commission)",
-"a": 2025,
-"u": "https://www.senat.fr/rap/l25-111/l25-1119.html"
+"l": "IFAU, Working paper 2005:15 (Hesselius, Johansson, Larsson), Monitoring sickness insurance claimants: evidence from a social experiment",
+"a": 2005,
+"u": "https://www.ifau.se/globalassets/pdf/se/2005/wp05-15.pdf"
 },
 {
 "l": "Cour des comptes, Sécurité sociale 2024, ch. V « L'indemnisation des arrêts de travail pour maladie du régime général »",
 "a": 2024,
 "u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240529-Ralfss-2024-Indemnisation-arrets-de-travail-pour-maladie-du-regime-general.pdf"
+},
+{
+"l": "Cnam-CEET, Connaissance de l'emploi n° 187 (Ben Halima, Ciriez, Koubi, Skalli), Âge légal de départ en retraite et absences maladie",
+"a": 2023,
+"u": "https://ceet.cnam.fr/medias/fichier/cde-187-age-legal-de-depart-en-retraite-et-absences-maladie_1676365652326-pdf"
 }
 ]
+},
+"lisnard.sante.1": {
+"complement": "Le même programme prévoit aussi une exonération de taxe locale pour les médecins en zone sous-dense.",
+"complement_ref": [
+"lisnard.sante.3"
 ],
-"lisnard.sante.1": [
-"Rapportée aux besoins, la densité de médecins ne retrouvera son niveau de 2021 que dans plusieurs années (DREES) ; environ 1 600 non-admis par an partent étudier la santé à l'étranger (Cour des comptes, 2024).",
-"La hausse déjà engagée des admis s'est faite sans renfort d'enseignants (Cour des comptes, 2026) ; un admis n'exerce qu'une dizaine d'années après, et à l'étranger former plus n'a pas réglé la répartition (DREES, 2021).",
-[
+"constat": "Environ 11 % des habitants n'ont pas de médecin traitant, une part en hausse (Cour des comptes).",
+"constat_s": [
+1,
+2
+],
+"pour": "Former un médecin prend dix ans : ouvrir des places aujourd'hui prépare la relève de demain.",
+"preuve_pour": "solide",
+"contre": "Former plus n'envoie pas les médecins où ils manquent, et l'aide fiscale prévue y change peu.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Les places en médecine, tombées à 3 500 en 1993, remontent depuis 2000 ; les jeunes médecins issus de cette hausse arrivent en activité (Cour des comptes, France, 2025).",
+"s": [
+0,
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Dans la région la moins dotée, l'arrivée de jeunes médecins issue de la hausse des places est moins marquée qu'ailleurs (Cour des comptes, Centre-Val de Loire, 2025).",
+"s": [
+1,
+0
+]
+},
+{
+"t": "Les exonérations d'impôt des médecins en zone rurale n'ont pas, seules, accru le nombre de jeunes généralistes sur place (Irdes-EHESP, France, 2005-2022).",
+"s": [
+1
+]
+}
+],
+"etudes": "Les travaux concordent (DREES, Cour des comptes) : former plus accroît l'offre de médecins après une dizaine d'années, sans corriger seule leur répartition.",
+"src": [
+{
+"l": "Cour des comptes, L'accès aux études de santé, quatre ans après la réforme",
+"a": 2024,
+"u": "https://www.ccomptes.fr/sites/default/files/2024-12/20241211-Lacces-aux-%C3%A9tudes-de-sante.pdf"
+},
+{
+"l": "Cour des comptes, Les aides à l'installation des médecins libéraux",
+"a": 2025,
+"u": "https://www.ccomptes.fr/sites/default/files/2025-11/20251112-Aides-installation-des-medecins-liberaux.pdf"
+},
+{
+"l": "Cour des comptes, L'organisation territoriale des soins de premier recours (synthèse)",
+"a": 2024,
+"u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240513-synthese-Organisation-territoriale-soins-premier-recours.pdf"
+}
+]
+},
+"lisnard.sante.2": {
+"pour": "Préfets et élus connaissent le terrain et répondent de leurs choix devant les habitants.",
+"preuve_pour": "faible",
+"contre": "Une seule agence relie hôpital, médecine de ville et prévention ; la supprimer disperse les choix.",
+"preuve_contre": "faible",
+"cas_pour": [],
+"cas_contre": [],
+"etudes": "Pas d'évaluation : les rapports du Sénat et de la Cour des comptes décrivent les limites des agences comme celles des préfectures, sans comparer les deux organisations.",
+"src": []
+},
+"lisnard.sante.3": {
+"complement": "Le même programme prévoit aussi de doubler le nombre d'étudiants en médecine d'ici 2030.",
+"complement_ref": [
+"lisnard.sante.1"
+],
+"constat": "Environ 11 % des habitants n'ont pas de médecin traitant, une part en hausse (Cour des comptes).",
+"constat_s": [
+1,
+3
+],
+"pour": "Une contrainte se contourne ; mieux vaut rendre les zones délaissées plus attirantes.",
+"preuve_pour": "faible",
+"contre": "Sans règle, les médecins ne vont pas d'eux-mêmes où ils manquent ; les aides fiscales ont eu peu d'effet.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "La limitation des installations d'infirmières a été en partie contournée par des remplacements et des installations en bordure des zones fermées (Irdes, France, 2022).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Les exonérations d'impôt des médecins en zone rurale n'ont pas, seules, accru le nombre de jeunes généralistes sur place (Irdes-EHESP, France, 2005-2022).",
+"s": [
+1
+]
+},
+{
+"t": "L'écart de densité d'infirmières libérales entre zones sur-dotées et très sous-dotées s'est réduit de moitié avec la limitation des installations (Irdes, France, 2022).",
+"s": [
+0
+]
+},
+{
+"t": "Dans la région la moins dotée, l'arrivée de jeunes médecins issue de la hausse des places est moins marquée qu'ailleurs (Cour des comptes, Centre-Val de Loire, 2025).",
+"s": [
+1,
+2
+]
+}
+],
+"etudes": "Les évaluations concordent : les avantages fiscaux seuls n'attirent pas de médecins ; la limitation des installations rapproche les densités mais est en partie contournée.",
+"src": [
+{
+"l": "Irdes, Questions d'économie de la santé n° 270 (Duchaine, Chevillard, Mousquès), zonage des infirmières libérales",
+"a": 2022,
+"u": "https://www.irdes.fr/recherche/questions-d-economie-de-la-sante/270-inegalites-territoriales-de-repartition-des-infirmieres-liberales.pdf"
+},
 {
 "l": "Cour des comptes, Les aides à l'installation des médecins libéraux",
 "a": 2025,
@@ -2614,67 +2854,10 @@
 "u": "https://www.ccomptes.fr/sites/default/files/2024-12/20241211-Lacces-aux-%C3%A9tudes-de-sante.pdf"
 },
 {
-"l": "Cour des comptes, Le troisième cycle des études de médecine",
-"a": 2026,
-"u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-3e-cycle-etudes-de-medecine_0.pdf"
-},
-{
-"l": "DREES, Les dossiers n° 89 (Polton, Chaput, Portela), Remédier aux pénuries de médecins : leçons de la littérature internationale (via Maire-info)",
-"a": 2021,
-"u": "https://www.maire-info.com/sante-publique/les-strategies-des-pays-de-locde-pour-en-finir-avec-la-desertification-medicale-art26-25913"
+"l": "Cour des comptes, L'organisation territoriale des soins de premier recours (synthèse)",
+"a": 2024,
+"u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240513-synthese-Organisation-territoriale-soins-premier-recours.pdf"
 }
 ]
-],
-"lisnard.sante.2": [
-"Pendant le Covid, agences et préfets ont formé une « double chaîne de commandement » peu lisible ; le Sénat (2026) relève aussi des élus associés tardivement et des délégations départementales sans vrai pouvoir de décision.",
-"Ces agences ont réuni hôpital, soins de ville, prévention et veille sanitaire, avec « des progrès réels » (Sénat, 2026) ; les préfectures, qui en hériteraient, ont perdu 14 % de leurs agents en dix ans (Cour des comptes).",
-[
-{
-"l": "Sénat, délégation aux collectivités territoriales, rapport d'information n° 657 (2025-2026), Réforme des ARS : construire la proximité (II-B, préfets)",
-"a": 2026,
-"u": "https://www.senat.fr/rap/r25-657/r25-6579.html"
-},
-{
-"l": "Sénat, délégation aux collectivités territoriales, rapport d'information n° 657 (2025-2026), Réforme des ARS : construire la proximité (II-A, relations avec les élus)",
-"a": 2026,
-"u": "https://www.senat.fr/rap/r25-657/r25-6573.html"
-},
-{
-"l": "Sénat, délégation aux collectivités territoriales, rapport d'information n° 657 (2025-2026), Réforme des ARS : construire la proximité (I-B, échelon départemental)",
-"a": 2026,
-"u": "https://www.senat.fr/rap/r25-657/r25-6572.html"
-},
-{
-"l": "Sénat, délégation aux collectivités territoriales, rapport d'information n° 657 (2025-2026), Réforme des ARS : construire la proximité (introduction)",
-"a": 2026,
-"u": "https://www.senat.fr/rap/r25-657/r25-6571.html"
-},
-{
-"l": "Cour des comptes, Les effectifs de l'administration territoriale de l'État (observations définitives)",
-"a": 2022,
-"u": "https://www.ccomptes.fr/system/files/2022-05/20220531-S2022-0494-Effectifs-Etat-territorial.pdf"
 }
-]
-],
-"lisnard.sante.3": [
-"Chez les infirmières, les aides aux zones très sous-dotées ont accru la densité, et la limitation ailleurs a été en partie contournée (Irdes, 2022) ; à l'étranger, la régulation n'évite pas les pénuries (DREES, 2021).",
-"La Cour des comptes (2025) juge sans effet tangible sur les déserts médicaux les exonérations fiscales déjà offertes aux médecins des zones rurales ou franches ; isolées, les aides financières pèsent peu (DREES, 2021).",
-[
-{
-"l": "Irdes, Questions d'économie de la santé n° 270 (Duchaine, Chevillard, Mousquès) : zonage des infirmières libérales",
-"a": 2022,
-"u": "https://www.irdes.fr/recherche/questions-d-economie-de-la-sante/270-inegalites-territoriales-de-repartition-des-infirmieres-liberales.pdf"
-},
-{
-"l": "DREES, Les dossiers n° 89 (Polton, Chaput, Portela), Remédier aux pénuries de médecins : leçons de la littérature internationale (via Maire-info)",
-"a": 2021,
-"u": "https://www.maire-info.com/sante-publique/les-strategies-des-pays-de-locde-pour-en-finir-avec-la-desertification-medicale-art26-25913"
-},
-{
-"l": "Cour des comptes, Les aides à l'installation des médecins libéraux",
-"a": 2025,
-"u": "https://www.ccomptes.fr/sites/default/files/2025-11/20251112-Aides-installation-des-medecins-liberaux.pdf"
-}
-]
-]
 }
