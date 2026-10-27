@@ -325,8 +325,8 @@
      },
      "quiz_text": "Supprimer trois impôts payés par les entreprises, quels que soient leurs bénéfices",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
-     "quiz_plus": "Les entreprises paient moins d'impôts, qu'elles fassent des bénéfices ou non.",
-     "quiz_moins": "Recettes en moins pour l'État et les collectivités, à compenser par des économies, des impôts ou de la dette."
+     "quiz_plus": "Les entreprises paient moins d'impôts de production, qu'elles fassent des bénéfices ou non.",
+     "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
     },
     {
      "id": "ue",
@@ -453,8 +453,8 @@
      },
      "quiz_text": "Lutter plus durement contre la fraude fiscale et la fraude aux aides",
      "quiz_concret": "Rien ne change pour vous si vous êtes en règle.",
-     "quiz_plus": "Davantage d'impôts et de cotisations dus réellement encaissés.",
-     "quiz_moins": "Plus de contrôles et d'obligations déclaratives pour les entreprises."
+     "quiz_plus": "Davantage de TVA due réellement encaissée ; moins d'aides versées à tort.",
+     "quiz_moins": "Plus de contrôles et de démarches pour les entreprises et les bénéficiaires d'aides."
     },
     {
      "id": "etat",
@@ -529,8 +529,8 @@
      },
      "quiz_text": "Supprimer la plupart des agences de l'État et beaucoup de postes publics",
      "quiz_concret": "Moins de fonctionnaires et de structures publiques.",
-     "quiz_plus": "Moins de dépenses de fonctionnement publiques.",
-     "quiz_moins": "Moins d'agents publics et de structures ; leurs missions sont supprimées ou reprises ailleurs."
+     "quiz_plus": "Moins de dépenses de personnel et d'agences publiques.",
+     "quiz_moins": "Moins d'agents publics ; agences supprimées, leurs missions arrêtées ou reprises ailleurs."
     },
     {
      "id": "tva-produits-essentiels",
@@ -811,7 +811,7 @@
      },
      "quiz_text": "Revenir à la retraite à 62 ans dès 2027, puis à 60 ans",
      "quiz_concret": "Vous pourriez partir plus tôt qu'aujourd'hui.",
-     "quiz_plus": "Départ plus tôt qu'avec les règles actuelles.",
+     "quiz_plus": "Départ plus tôt qu'avec les règles actuelles : 62 ans, puis 60 ans.",
      "quiz_moins": "Davantage de pensions versées, à financer par des cotisations, des impôts ou de la dette."
     },
     {
@@ -868,7 +868,7 @@
      "quiz_text": "Porter le salaire minimum à 1 700 € net par mois",
      "quiz_concret": "Environ +220 € par mois au niveau du SMIC.",
      "quiz_plus": "Environ +220 € net par mois au niveau du SMIC.",
-     "quiz_moins": "Coût du travail plus élevé pour les employeurs ; effet sur l'emploi peu qualifié discuté par les études."
+     "quiz_moins": "Coût du travail plus élevé pour les employeurs et allègements de cotisations plus coûteux pour les finances publiques ; des études estiment des pertes d'emplois peu qualifiés."
     },
     {
      "id": "fiscalite",
@@ -943,8 +943,8 @@
      },
      "quiz_text": "Taxer davantage les plus grandes fortunes et les gros héritages",
      "quiz_concret": "Les très riches paient plus ; la plupart des gens ne sont pas concernés.",
-     "quiz_plus": "Recettes publiques en plus, payées par les plus hauts patrimoines et héritages.",
-     "quiz_moins": "Les très hauts patrimoines et héritages paient davantage ; certains contribuables peuvent s'installer à l'étranger."
+     "quiz_plus": "Recettes publiques en plus.",
+     "quiz_moins": "Les plus hauts patrimoines, les gros héritages et les revenus du capital paient davantage."
     },
     {
      "id": "jeunes",
@@ -1049,8 +1049,8 @@
      },
      "quiz_text": "Bloquer les prix de l'alimentation et de l'énergie de base",
      "quiz_concret": "Les prix de ces produits ne montent plus, pour une durée limitée.",
-     "quiz_plus": "Prix de l'alimentation et de l'énergie de base gelés, pour une durée limitée.",
-     "quiz_moins": "Marges réduites pour producteurs et distributeurs, ou compensation versée par l'État."
+     "quiz_plus": "Prix de l'alimentation et de l'énergie de base bloqués.",
+     "quiz_moins": "Marges réduites pour producteurs et distributeurs, ou dépense publique en plus pour les compenser."
     },
     {
      "id": "dette",
@@ -1114,7 +1114,7 @@
      "quiz_text": "Annuler la dette de la France détenue par la Banque centrale européenne",
      "quiz_concret": "L'État rembourserait moins à la banque centrale.",
      "quiz_plus": "Moins de dette publique à rembourser à la banque centrale.",
-     "quiz_moins": "Les prêteurs peuvent demander des taux d'intérêt plus élevés sur la nouvelle dette."
+     "quiz_moins": "Les intérêts de cette dette, qui revenaient déjà à l'État par la banque centrale, disparaissent aussi ; les prêteurs peuvent demander des taux plus élevés."
     },
     {
      "id": "constituante",
@@ -1150,7 +1150,7 @@
      "quiz_text": "Faire écrire une nouvelle Constitution",
      "quiz_concret": "Les règles de la République changeraient : référendums citoyens, vote proportionnel.",
      "quiz_plus": "Nouvelles règles : référendums d'initiative citoyenne, vote à la proportionnelle.",
-     "quiz_moins": "Plusieurs années de travail constituant avant l'entrée en vigueur des nouvelles règles."
+     "quiz_moins": "Davantage de décisions prises par référendum plutôt que par le Parlement ; fin de l'adoption d'un texte sans vote (49.3)."
     },
     {
      "id": "point_indice",
@@ -1293,7 +1293,7 @@
      "quiz_text": "Supprimer une partie des avantages fiscaux, dont celui pour l'emploi à domicile",
      "quiz_concret": "Ceux qui emploient une aide à domicile ou transmettent une entreprise paient plus.",
      "quiz_plus": "Recettes publiques en plus.",
-     "quiz_moins": "Ceux qui emploient à domicile, financent de la recherche ou transmettent une entreprise paient plus."
+     "quiz_moins": "Les ménages qui emploient à domicile, les entreprises qui font de la recherche et ceux qui transmettent une entreprise paient plus."
     }
    ],
    "total": {
@@ -1638,7 +1638,7 @@
      "quiz_text": "Porter le salaire minimum à 1 600 € net en deux ans",
      "quiz_concret": "Environ +120 € par mois au niveau du SMIC.",
      "quiz_plus": "Environ +120 € net par mois au niveau du SMIC.",
-     "quiz_moins": "Coût du travail plus élevé pour les employeurs ; effet sur l'emploi peu qualifié discuté par les études."
+     "quiz_moins": "Coût du travail plus élevé pour les employeurs et allègements de cotisations plus coûteux pour les finances publiques ; des études estiment des pertes d'emplois peu qualifiés."
     },
     {
      "id": "defense",
@@ -1855,8 +1855,8 @@
      },
      "quiz_text": "Un service obligatoire de dix mois pour tous les jeunes",
      "quiz_concret": "Chaque jeune donne dix mois à une mission d'intérêt général, civile ou militaire.",
-     "quiz_plus": "Chaque classe d'âge effectue dix mois de mission d'intérêt général.",
-     "quiz_moins": "Dix mois obligatoires pour chaque jeune ; accueil à organiser pour environ 800 000 jeunes par an."
+     "quiz_plus": "Des missions d'intérêt général, civiles ou militaires, assurées par chaque classe d'âge ; indemnité versée aux jeunes pendant dix mois.",
+     "quiz_moins": "Dix mois obligatoires pour chaque jeune ; dépense publique en plus, à financer par des économies, des impôts ou de la dette."
     },
     {
      "id": "ukraine",
@@ -1921,7 +1921,7 @@
      "quiz_text": "Augmenter fortement l'aide militaire à l'Ukraine",
      "quiz_concret": "Plus d'armes livrées à l'Ukraine, financées en partie par des avoirs saisis.",
      "quiz_plus": "Davantage d'armes livrées à l'Ukraine.",
-     "quiz_moins": "Dépense publique en plus, sauf financement par les avoirs russes gelés."
+     "quiz_moins": "Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
     }
    ],
    "total": {
@@ -2122,7 +2122,7 @@
      "quiz_text": "Ne pas remplacer un fonctionnaire sur trois partant à la retraite",
      "quiz_concret": "Moins de postes publics au fil des départs.",
      "quiz_plus": "Moins de dépenses de personnel public.",
-     "quiz_moins": "Moins d'agents publics au fil des départs à la retraite."
+     "quiz_moins": "Moins d'agents publics."
     },
     {
      "id": "production",
@@ -2296,7 +2296,7 @@
      "quiz_text": "Une allocation familiale unique dès le premier enfant",
      "quiz_concret": "Les familles d'un ou deux enfants y gagnent ; moins pour les hauts revenus.",
      "quiz_plus": "Une allocation dès le premier enfant, et des avantages fiscaux pour les familles.",
-     "quiz_moins": "Allocation réduite pour les hauts revenus ; dépense publique en plus à financer."
+     "quiz_moins": "Allocation réduite pour les hauts revenus ; dépense publique en plus, à financer par des économies, des impôts ou de la dette."
     },
     {
      "id": "immigration",
@@ -2487,8 +2487,8 @@
      },
      "quiz_text": "Un fonds annuel pour adapter le pays au réchauffement",
      "quiz_concret": "Plus d'argent contre les inondations, canicules et incendies.",
-     "quiz_plus": "Un financement dédié contre les inondations, canicules et incendies.",
-     "quiz_moins": "Crédits pris sur d'autres dépenses, ou dépense publique en plus."
+     "quiz_plus": "Un financement dédié à l'adaptation au changement climatique.",
+     "quiz_moins": "Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
     },
     {
      "id": "jeunes_parents",
@@ -2529,7 +2529,7 @@
      },
      "quiz_text": "Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents des classes moyennes",
      "quiz_concret": "Les nouveaux parents gardent davantage de leur salaire.",
-     "quiz_plus": "Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents concernés.",
+     "quiz_plus": "Plus de revenu disponible pour les jeunes parents des classes moyennes pendant 3 ans.",
      "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
     }
    ],
@@ -2674,7 +2674,7 @@
      "quiz_text": "Ne pas remplacer une grande partie des fonctionnaires partant à la retraite, et les faire travailler plus",
      "quiz_concret": "Beaucoup moins de postes publics.",
      "quiz_plus": "Moins de dépenses de personnel et d'agences publiques.",
-     "quiz_moins": "Moins d'agents publics ; temps de travail allongé et 3 jours de carence pour ceux qui restent."
+     "quiz_moins": "Moins d'agents publics ; agences supprimées, leurs missions arrêtées ou reprises ailleurs ; temps de travail allongé et jours de carence en plus pour les agents."
     },
     {
      "id": "immigration",
@@ -2732,7 +2732,7 @@
      "quiz_text": "Un référendum sur l'immigration : fin du droit du sol, aides après 5 ans de travail",
      "quiz_concret": "Naître en France ne rendrait plus automatiquement Français.",
      "quiz_plus": "Moins d'acquisitions de la nationalité et moins de dépenses d'aides sociales.",
-     "quiz_moins": "Naître en France ne donne plus droit à la nationalité ; aides versées après 5 ans de travail."
+     "quiz_moins": "Naître en France ne donne plus droit à la nationalité ; les étrangers ayant moins de 5 ans de travail en France ne touchent plus les aides sociales."
     },
     {
      "id": "retraites",
@@ -2770,8 +2770,8 @@
      },
      "quiz_text": "Retraite possible dès 63 ans avec une pension réduite, pleine à 65 ans",
      "quiz_concret": "Vous choisissez : partir plus tôt en touchant moins, ou attendre 65 ans.",
-     "quiz_plus": "Départ possible dès 63 ans.",
-     "quiz_moins": "Pension réduite pour tout départ avant 65 ans."
+     "quiz_plus": "Départ possible dès 63 ans ; moins de pensions versées du fait de la décote.",
+     "quiz_moins": "Pension réduite pour tout départ avant 65 ans ; pension pleine plus tard qu'avec les règles actuelles."
     },
     {
      "id": "travail",
@@ -2818,8 +2818,8 @@
      },
      "quiz_text": "Fusionner les aides sociales et demander 15 heures d'activité par semaine en échange",
      "quiz_concret": "Toucher le RSA impliquerait de travailler ou se former 15 heures par semaine.",
-     "quiz_plus": "Une seule aide au lieu de trois.",
-     "quiz_moins": "Les bénéficiaires doivent 15 heures d'activité par semaine ; montant total des aides plafonné."
+     "quiz_plus": "Une seule aide au lieu de plusieurs.",
+     "quiz_moins": "15 heures d'activité par semaine exigées ; montant total plafonné : certains bénéficiaires touchent moins qu'aujourd'hui."
     },
     {
      "id": "production",
@@ -2880,7 +2880,7 @@
      },
      "quiz_text": "Supprimer plusieurs impôts des entreprises et les cotisations sur les heures supplémentaires",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
-     "quiz_plus": "Les entreprises paient moins d'impôts ; heures sup sans cotisations.",
+     "quiz_plus": "Les entreprises paient moins d'impôts de production et de cotisations (forfait social, heures sup).",
      "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
     },
     {
@@ -2936,8 +2936,8 @@
      },
      "quiz_text": "Arrêter les nouveaux parcs solaires et éoliens en mer, construire 8 réacteurs nucléaires",
      "quiz_concret": "Plus de nucléaire, moins de renouvelables ; fin des zones à faibles émissions en ville.",
-     "quiz_plus": "Davantage de production nucléaire ; véhicules anciens à nouveau autorisés en ville.",
-     "quiz_moins": "Moins de nouvelle production solaire et éolienne en mer ; investissement public dans 8 réacteurs."
+     "quiz_plus": "Moins de dépenses publiques de soutien aux nouveaux parcs solaires et éoliens en mer ; davantage de production nucléaire à terme.",
+     "quiz_moins": "Moins de nouvelle production d'électricité solaire et éolienne en mer ; 8 réacteurs à construire et à financer."
     },
     {
      "id": "securite",
@@ -2986,8 +2986,8 @@
      },
      "quiz_text": "Des peines de prison minimales obligatoires, inscrites dans la Constitution",
      "quiz_concret": "Le juge ne pourrait plus descendre sous un seuil pour certains délits.",
-     "quiz_plus": "Peines minimales garanties pour certains délits.",
-     "quiz_moins": "Le juge ne peut plus descendre sous le seuil ; davantage de détenus à loger."
+     "quiz_plus": "Peine au moins égale à un seuil fixé pour certains délits.",
+     "quiz_moins": "Le juge ne peut plus descendre sous le seuil ; davantage de détenus, dépense publique en plus à financer par des économies, des impôts ou de la dette."
     },
     {
      "id": "fin_maprimerenov",
@@ -3036,8 +3036,8 @@
      },
      "quiz_text": "Supprimer l'aide publique à la rénovation énergétique des logements",
      "quiz_concret": "Fin de l'aide de l'État pour isoler ou changer de chauffage.",
-     "quiz_plus": "Moins de dépenses publiques.",
-     "quiz_moins": "Plus d'aide de l'État pour isoler un logement ou changer de chauffage."
+     "quiz_plus": "Moins de dépenses d'aide à la rénovation énergétique.",
+     "quiz_moins": "Fin de l'aide de l'État pour isoler un logement ou changer de chauffage."
     },
     {
      "id": "ame",
@@ -3200,8 +3200,8 @@
      },
      "quiz_text": "Supprimer l'âge légal de la retraite : chacun part quand il veut selon ses années de travail",
      "quiz_concret": "Partir tôt réduit la pension, partir tard l'augmente.",
-     "quiz_plus": "Départ au moment choisi, selon la durée cotisée.",
-     "quiz_moins": "Pension plus basse en cas de départ tôt, plus haute en cas de départ tard."
+     "quiz_plus": "Départ au moment choisi, selon la durée cotisée ; pension plus haute en cas de départ tard.",
+     "quiz_moins": "Pension plus basse en cas de départ tôt."
     },
     {
      "id": "fonctionnaires",
@@ -3324,8 +3324,8 @@
      },
      "quiz_text": "Geler toutes les aides sociales pendant un an, sauf les petites retraites",
      "quiz_concret": "Vos allocations ne suivraient pas les prix pendant un an.",
-     "quiz_plus": "Moins de dépenses de prestations sociales en 2028.",
-     "quiz_moins": "Prestations non revalorisées pendant un an, sauf les petites retraites."
+     "quiz_plus": "Moins de dépenses de prestations sociales.",
+     "quiz_moins": "Prestations et retraites non revalorisées pendant un an, sauf les petites retraites."
     },
     {
      "id": "bebe",
@@ -3406,7 +3406,7 @@
      },
      "quiz_text": "Inscrire dans la Constitution l'obligation d'un budget sans déficit",
      "quiz_concret": "L'État ne pourrait plus dépenser plus qu'il ne gagne, à terme.",
-     "quiz_plus": "Équilibre du budget inscrit dans la Constitution.",
+     "quiz_plus": "À terme, budgets votés sans déficit : la dette publique cesse d'augmenter.",
      "quiz_moins": "Chaque budget doit trouver des économies ou des recettes pour respecter la règle."
     },
     {
@@ -3449,8 +3449,8 @@
      },
      "quiz_text": "Des quotas d'immigration de travail votés chaque année par le Parlement",
      "quiz_concret": "Le nombre d'étrangers venant travailler serait fixé selon les besoins.",
-     "quiz_plus": "Immigration de travail fixée chaque année par le Parlement selon les besoins.",
-     "quiz_moins": "Nombre d'entrées plafonné ; regroupement familial plus restreint."
+     "quiz_plus": "Entrées pour le travail plafonnées par un quota voté chaque année par le Parlement.",
+     "quiz_moins": "Regroupement familial soumis à des conditions plus strictes."
     },
     {
      "id": "travail",
@@ -3497,10 +3497,10 @@
       "note": "Indicatif : si la réforme reprend la proposition de loi de 2025, ≈ +3,6 Md€ ; le programme n'en donne pas les paramètres. Au-delà de 220 h, les heures sup sont déjà possibles avec un repos compensateur",
       "nc": true
      },
-     "quiz_text": "Supprimer le plafond annuel d'heures supplémentaires",
-     "quiz_concret": "Plus de plafond annuel d'heures sup (aujourd'hui 220 h par salarié sans accord).",
-     "quiz_plus": "Les salariés peuvent faire davantage d'heures sup dans l'année.",
-     "quiz_moins": "Le seuil de 220 h, qui déclenche aujourd'hui un repos compensateur, disparaît."
+     "quiz_text": "Supprimer le seuil annuel de 220 heures supplémentaires",
+     "quiz_concret": "Au-delà de 220 heures sup par an, plus de repos compensateur obligatoire.",
+     "quiz_plus": "Les entreprises peuvent faire faire des heures sup au-delà de 220 h par an sans repos compensateur.",
+     "quiz_moins": "Les salariés concernés perdent le repos compensateur dû aujourd'hui au-delà de 220 h."
     },
     {
      "id": "europe",
@@ -3534,8 +3534,8 @@
      },
      "quiz_text": "Une Europe plus unie autour de 8 à 10 pays, avec un président élu par les citoyens",
      "quiz_concret": "Plus de décisions prises au niveau européen.",
-     "quiz_plus": "Davantage de décisions et de budget au niveau européen, avec un président élu.",
-     "quiz_moins": "Davantage de compétences transférées de la France à l'Union."
+     "quiz_plus": "Davantage de décisions et de budget communs entre les pays du noyau, avec un président élu.",
+     "quiz_moins": "Moins de décisions prises au seul niveau national ; budget commun à alimenter par les États ou par de nouvelles ressources propres."
     },
     {
      "id": "profs",
@@ -3758,7 +3758,7 @@
      "quiz_text": "Ne pas remplacer une grande partie des fonctionnaires partant à la retraite",
      "quiz_concret": "Beaucoup moins de postes publics.",
      "quiz_plus": "Moins de dépenses de personnel et d'agences publiques.",
-     "quiz_moins": "Moins d'agents publics ; agences supprimées."
+     "quiz_moins": "Moins d'agents publics ; agences supprimées, leurs missions arrêtées ou reprises ailleurs."
     },
     {
      "id": "retraites",
@@ -3811,8 +3811,8 @@
      },
      "quiz_text": "Repousser la retraite à 65 ans et développer l'épargne retraite individuelle",
      "quiz_concret": "Vous partez plus tard ; une partie de votre retraite dépend de votre épargne.",
-     "quiz_plus": "Davantage de cotisations et moins de pensions versées ; épargne retraite individuelle.",
-     "quiz_moins": "Départ plus tard, à 65 ans ; une partie de la pension dépend du rendement de l'épargne."
+     "quiz_plus": "Davantage de cotisations et moins de pensions versées.",
+     "quiz_moins": "Départ plus tard qu'avec les règles actuelles, à 65 ans."
     },
     {
      "id": "impots",
@@ -3922,8 +3922,8 @@
      },
      "quiz_text": "Fusionner les aides sociales en une seule, plafonnée",
      "quiz_concret": "Plus simple, mais certains toucheraient moins qu'aujourd'hui.",
-     "quiz_plus": "Une seule aide, plus simple.",
-     "quiz_moins": "Montant plafonné : certains bénéficiaires touchent moins qu'aujourd'hui."
+     "quiz_plus": "Une seule aide au lieu de plusieurs.",
+     "quiz_moins": "Montant total plafonné : certains bénéficiaires touchent moins qu'aujourd'hui."
     },
     {
      "id": "ame",
@@ -4065,7 +4065,7 @@
      "quiz_text": "Baisser les cotisations sur les salaires grâce aux économies de l'État",
      "quiz_concret": "Votre salaire net augmente, si les économies sont réalisées.",
      "quiz_plus": "Salaire net en hausse grâce à moins de cotisations.",
-     "quiz_moins": "Montant dépendant des économies réalisées par l'État."
+     "quiz_moins": "Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
     },
     {
      "id": "is20",
@@ -4162,7 +4162,7 @@
      "quiz_text": "Augmenter fortement le salaire des enseignants en cinq ans, contre une réorganisation de leur travail",
      "quiz_concret": "Les profs gagnent plus, avec des obligations revues.",
      "quiz_plus": "Rémunération des enseignants en hausse sur cinq ans.",
-     "quiz_moins": "Missions des enseignants réorganisées ; dépense publique en plus à financer."
+     "quiz_moins": "Missions des enseignants réorganisées ; dépense publique en plus, à financer par des économies, des impôts ou de la dette."
     },
     {
      "id": "aides5",
@@ -4187,7 +4187,7 @@
      },
      "quiz_text": "Réserver les aides sociales non liées aux cotisations aux étrangers résidant depuis plus de 5 ans",
      "quiz_concret": "Un étranger arrivé récemment n'aurait plus droit à ces aides.",
-     "quiz_plus": "Moins de dépenses d'aides non contributives.",
+     "quiz_plus": "Moins de dépenses d'aides non liées aux cotisations.",
      "quiz_moins": "Les étrangers résidant depuis moins de 5 ans ne touchent plus ces aides."
     }
    ],
@@ -4342,7 +4342,7 @@
      },
      "quiz_text": "Supprimer les aides sociales pour les étrangers hors Union européenne",
      "quiz_concret": "Ils n'auraient droit qu'aux aides pour lesquelles ils ont cotisé.",
-     "quiz_plus": "Moins de dépenses de prestations sociales.",
+     "quiz_plus": "Moins de dépenses d'aides non liées aux cotisations.",
      "quiz_moins": "Les étrangers hors Union européenne ne touchent plus que les aides liées à leurs cotisations."
     },
     {
@@ -4378,7 +4378,7 @@
      "quiz_text": "Sortir de la Convention européenne des droits de l'homme et supprimer le regroupement familial",
      "quiz_concret": "Un étranger installé ne pourrait plus faire venir sa famille.",
      "quiz_plus": "Moins d'arrivées au titre du regroupement familial.",
-     "quiz_moins": "Les étrangers installés ne peuvent plus faire venir leur famille ; la France quitte la CEDH."
+     "quiz_moins": "Les étrangers installés ne peuvent plus faire venir leur famille ; plus de recours possible devant la Cour européenne des droits de l'homme."
     },
     {
      "id": "retraites",
@@ -4426,8 +4426,8 @@
      },
      "quiz_text": "Retraite maintenue à 64 ans ou portée à 65 ans, et plus d'épargne retraite",
      "quiz_concret": "Vous partiriez au même âge ou un an plus tard.",
-     "quiz_plus": "Davantage de cotisations et moins de pensions versées si l'âge passe à 65 ans.",
-     "quiz_moins": "Départ à 64 ou 65 ans."
+     "quiz_plus": "Davantage de cotisations et moins de pensions versées, davantage encore si l'âge passe à 65 ans.",
+     "quiz_moins": "Départ plus tard qu'avec les règles actuelles, à 64 ou 65 ans."
     },
     {
      "id": "csg",
