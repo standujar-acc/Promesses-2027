@@ -1436,18 +1436,57 @@
      },
      "quiz_text": "Porter le salaire minimum à 1 700 € net par mois",
      "quiz_concret": "Environ +220 € par mois au niveau du SMIC.",
-     "quiz_plus": "Hausse directe du salaire au bas de l'échelle. En Allemagne, le salaire minimum de 2015 (15 % des salariés) a relevé les salaires sans baisse mesurable de l'emploi (Dustmann et al., 2022), comme au Royaume-Uni.",
-     "quiz_moins": "Le SMIC est déjà le plus élevé d'Europe rapporté au salaire médian (62,5 %, groupe d'experts 2025). En Espagne, la hausse de 22 % de 2019 a accru de 2 à 3 points le risque de perte d'emploi des salariés concernés.",
-     "quiz_src": [
+     "quiz_plus": "Le salaire des moins payés augmente, et la hausse se diffuse aux salaires juste au-dessus.",
+     "quiz_moins": "Avec un SMIC déjà élevé, une forte hausse peut coûter des emplois aux salariés peu qualifiés.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
       {
-       "l": "Dustmann et al., Reallocation Effects of the Minimum Wage, QJE",
-       "a": 2022,
-       "u": "https://ideas.repec.org/a/oup/qjecon/v137y2022i1p267-328..html"
+       "t": "De 2000 à 2005, 1 % de hausse du SMIC s'est répercuté en un an presque en entier sur les salaires jusqu'à 1,1 SMIC, à 0,5 % vers 1,5 SMIC (Dares-Insee, France, 2007).",
+       "s": [
+        0
+       ]
       },
       {
-       "l": "A. Dube, revue pour le gouvernement britannique (Impacts of minimum wages)",
-       "a": 2019,
-       "u": "https://www.gov.uk/government/publications/impacts-of-minimum-wages-review-of-the-international-evidence"
+       "t": "Le salaire minimum créé en 2015, qui touchait 15 % des salariés, a relevé leurs salaires sans baisse mesurable de l'emploi total (Dustmann et al., Allemagne, 2022).",
+       "s": [
+        1,
+        2
+       ]
+      },
+      {
+       "t": "Les hausses récentes et fortes du salaire minimum ont nettement relevé la paie des bas salaires, avec un effet très faible sur l'emploi (revue Dube, Royaume-Uni, 2019).",
+       "s": [
+        3
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "De 1990 à 1998, chaque 1 % de coût du travail en plus au niveau du SMIC a accru d'environ 1,5 % le risque de perdre son emploi (Kramarz-Philippon, France, 2001).",
+       "s": [
+        4
+       ]
+      },
+      {
+       "t": "La hausse de 22 % du salaire minimum en 2019 a accru de 2 à 3 points le risque de perdre son emploi pour les salariés concernés (Banque d'Espagne, Espagne, 2021).",
+       "s": [
+        5,
+        2
+       ]
+      }
+     ],
+     "quiz_etudes": "Les études divergent : hausse nette des bas salaires partout, effet sur l'emploi nul à négatif selon l'ampleur de la hausse et le niveau de départ du salaire minimum.",
+     "quiz_src": [
+      {
+       "l": "Dares-Insee (Koubi, Lhommeau), Les effets de diffusion de court terme des hausses du Smic, Les salaires en France 2007",
+       "a": 2007,
+       "u": "https://insee.fr/fr/statistiques/fichier/1373191/salfra07ae.pdf"
+      },
+      {
+       "l": "Dustmann et al., Reallocation Effects of the Minimum Wage, Quarterly Journal of Economics",
+       "a": 2022,
+       "u": "https://ideas.repec.org/a/oup/qjecon/v137y2022i1p267-328..html"
       },
       {
        "l": "Groupe d'experts sur le SMIC, rapport 2025",
@@ -1455,11 +1494,32 @@
        "u": "https://www.vie-publique.fr/files/rapport/pdf/301429_0.pdf"
       },
       {
+       "l": "A. Dube, revue des effets des salaires minimums pour le Trésor britannique",
+       "a": 2019,
+       "u": "https://www.gov.uk/government/publications/impacts-of-minimum-wages-review-of-the-international-evidence"
+      },
+      {
+       "l": "Kramarz et Philippon, The impact of differential payroll tax subsidies on minimum wage employment, Journal of Public Economics",
+       "a": 2001,
+       "u": "https://ideas.repec.org/a/eee/pubeco/v82y2001i1p115-146.html"
+      },
+      {
        "l": "Banque d'Espagne, Documento Ocasional 2113 (Barceló et al.)",
        "a": 2021,
        "u": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/21/Fich/do2113.pdf"
+      },
+      {
+       "l": "Insee Références, Salaire minimum de croissance (données Dares, Acemo)",
+       "a": 2025,
+       "u": "https://www.insee.fr/fr/statistiques/8376870"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "La hausse du SMIC a concerné 14,6 % des salariés en 2024, contre 10,5 % en 2016 (Insee, Dares).",
+      "s": [
+       6
+      ]
+     }
     },
     {
      "id": "fiscalite",
@@ -1655,20 +1715,44 @@
      },
      "quiz_text": "Une allocation pouvant dépasser 1 000 € par mois pour les jeunes en études ou en formation",
      "quiz_concret": "Un revenu garanti pour les jeunes, selon leurs ressources.",
-     "quiz_plus": "Les aides aux étudiants modestes augmentent les études : en France, une bourse de 1 500 € par an relève de 5 à 7 % l'inscription dans le supérieur et améliore la poursuite et l'obtention du diplôme (Fack et Grenet, 2015).",
-     "quiz_moins": "Un revenu garanti aux jeunes peut freiner l'entrée en emploi : l'accès au RMI à 25 ans réduisait de 7 à 10 % l'activité des hommes seuls peu diplômés (Bargain et Doorley, 2011) ; l'effet dépend de la condition de formation.",
+     "quiz_plus": "Un revenu pendant les études permet aux jeunes modestes de faire et de finir des études.",
+     "quiz_moins": "Une large part de l'aide irait à des jeunes qui auraient fait les mêmes études sans elle.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Une bourse de 1 500 € par an a relevé de 5 à 7 % l'inscription des étudiants modestes dans le supérieur et amélioré la réussite au diplôme (Fack et Grenet, France, 2015).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [],
+     "quiz_etudes": "Les études sur les bourses concordent : effet net sur l'accès et la réussite, mais de quelques points ; aucune évaluation d'une aide de ce montant pour tous les jeunes en formation.",
      "quiz_src": [
       {
-       "l": "Fack et Grenet, AEJ Applied (via PSE)",
+       "l": "Fack et Grenet, Improving College Access and Success for Low-Income Students, AEJ Applied (via PSE)",
        "a": 2015,
        "u": "https://www.parisschoolofeconomics.eu/en/publications-hal/improving-college-access-and-success-for-low-income-students-evidence-from-a-large-need-based-grant-program"
       },
       {
-       "l": "Bargain et Doorley, Journal of Public Economics",
-       "a": 2011,
-       "u": "https://liser.elsevierpure.com/en/publications/caught-in-the-trap-welfares-disincentive-and-the-labor-supply-of-"
+       "l": "Insee, taux de pauvreté monétaire (seuil à 60 %) des 18-29 ans (série 010594450)",
+       "a": 2025,
+       "u": "https://www.insee.fr/fr/statistiques/serie/010594450"
+      },
+      {
+       "l": "Insee, taux de pauvreté monétaire (seuil à 60 %), ensemble (série 010594446)",
+       "a": 2025,
+       "u": "https://www.insee.fr/fr/statistiques/serie/010594446"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "17,5 % des 18-29 ans vivaient sous le seuil de pauvreté en 2023 (20,1 % en 2017), 15,4 % au total (Insee).",
+      "s": [
+       1,
+       2
+      ]
+     }
     },
     {
      "id": "prix",
@@ -2694,18 +2778,57 @@
      },
      "quiz_text": "Porter le salaire minimum à 1 600 € net en deux ans",
      "quiz_concret": "Environ +120 € par mois au niveau du SMIC.",
-     "quiz_plus": "Hausse du salaire au bas de l'échelle, étalée sur deux ans. En Allemagne, le salaire minimum de 2015 (15 % des salariés) a relevé les salaires sans baisse mesurable de l'emploi (Dustmann et al., 2022), comme au Royaume-Uni.",
-     "quiz_moins": "Le SMIC est déjà le plus élevé d'Europe rapporté au salaire médian (62,5 %, groupe d'experts 2025). En Espagne, la hausse de 22 % de 2019 a accru de 2 à 3 points le risque de perte d'emploi des salariés concernés.",
-     "quiz_src": [
+     "quiz_plus": "Le salaire des moins payés augmente, et la hausse se diffuse aux salaires juste au-dessus.",
+     "quiz_moins": "Avec un SMIC déjà élevé, une forte hausse peut coûter des emplois aux salariés peu qualifiés.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
       {
-       "l": "Dustmann et al., Reallocation Effects of the Minimum Wage, QJE",
-       "a": 2022,
-       "u": "https://ideas.repec.org/a/oup/qjecon/v137y2022i1p267-328..html"
+       "t": "De 2000 à 2005, 1 % de hausse du SMIC s'est répercuté en un an presque en entier sur les salaires jusqu'à 1,1 SMIC, à 0,5 % vers 1,5 SMIC (Dares-Insee, France, 2007).",
+       "s": [
+        0
+       ]
       },
       {
-       "l": "A. Dube, revue pour le gouvernement britannique (Impacts of minimum wages)",
-       "a": 2019,
-       "u": "https://www.gov.uk/government/publications/impacts-of-minimum-wages-review-of-the-international-evidence"
+       "t": "Le salaire minimum créé en 2015, qui touchait 15 % des salariés, a relevé leurs salaires sans baisse mesurable de l'emploi total (Dustmann et al., Allemagne, 2022).",
+       "s": [
+        1,
+        2
+       ]
+      },
+      {
+       "t": "Les hausses récentes et fortes du salaire minimum ont nettement relevé la paie des bas salaires, avec un effet très faible sur l'emploi (revue Dube, Royaume-Uni, 2019).",
+       "s": [
+        3
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "De 1990 à 1998, chaque 1 % de coût du travail en plus au niveau du SMIC a accru d'environ 1,5 % le risque de perdre son emploi (Kramarz-Philippon, France, 2001).",
+       "s": [
+        4
+       ]
+      },
+      {
+       "t": "La hausse de 22 % du salaire minimum en 2019 a accru de 2 à 3 points le risque de perdre son emploi pour les salariés concernés (Banque d'Espagne, Espagne, 2021).",
+       "s": [
+        5,
+        2
+       ]
+      }
+     ],
+     "quiz_etudes": "Les études divergent : hausse nette des bas salaires partout, effet sur l'emploi nul à négatif selon l'ampleur de la hausse et le niveau de départ du salaire minimum.",
+     "quiz_src": [
+      {
+       "l": "Dares-Insee (Koubi, Lhommeau), Les effets de diffusion de court terme des hausses du Smic, Les salaires en France 2007",
+       "a": 2007,
+       "u": "https://insee.fr/fr/statistiques/fichier/1373191/salfra07ae.pdf"
+      },
+      {
+       "l": "Dustmann et al., Reallocation Effects of the Minimum Wage, Quarterly Journal of Economics",
+       "a": 2022,
+       "u": "https://ideas.repec.org/a/oup/qjecon/v137y2022i1p267-328..html"
       },
       {
        "l": "Groupe d'experts sur le SMIC, rapport 2025",
@@ -2713,11 +2836,32 @@
        "u": "https://www.vie-publique.fr/files/rapport/pdf/301429_0.pdf"
       },
       {
+       "l": "A. Dube, revue des effets des salaires minimums pour le Trésor britannique",
+       "a": 2019,
+       "u": "https://www.gov.uk/government/publications/impacts-of-minimum-wages-review-of-the-international-evidence"
+      },
+      {
+       "l": "Kramarz et Philippon, The impact of differential payroll tax subsidies on minimum wage employment, Journal of Public Economics",
+       "a": 2001,
+       "u": "https://ideas.repec.org/a/eee/pubeco/v82y2001i1p115-146.html"
+      },
+      {
        "l": "Banque d'Espagne, Documento Ocasional 2113 (Barceló et al.)",
        "a": 2021,
        "u": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/21/Fich/do2113.pdf"
+      },
+      {
+       "l": "Insee Références, Salaire minimum de croissance (données Dares, Acemo)",
+       "a": 2025,
+       "u": "https://www.insee.fr/fr/statistiques/8376870"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "La hausse du SMIC a concerné 14,6 % des salariés en 2024, contre 10,5 % en 2016 (Insee, Dares).",
+      "s": [
+       6
+      ]
+     }
     },
     {
      "id": "defense",
@@ -3035,19 +3179,27 @@
      },
      "quiz_text": "Un service obligatoire de dix mois pour tous les jeunes",
      "quiz_concret": "Chaque jeune donne dix mois à une mission d'intérêt général, civile ou militaire.",
-     "quiz_plus": "En Espagne, faire son service hors de sa région a durablement amélioré l'opinion envers les habitants des autres régions (Bagues et Roth, 2023) ; au Portugal, il a relevé de 4 à 5 points le salaire des moins diplômés.",
-     "quiz_moins": "Dix mois retardent études et emploi : en Allemagne, aucun effet sur les salaires ultérieurs ; dans l'OCDE, un service plus long réduit l'accès au supérieur ; la Cour des comptes note les difficultés d'accueil du SNU.",
+     "quiz_plus": "Dix mois passés ensemble font se côtoyer des jeunes de milieux et de régions différents.",
+     "quiz_moins": "Dix mois retardent études et entrée dans l'emploi, sans gain de salaire mesuré ensuite.",
+     "quiz_preuve_pour": "faible",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [],
+     "quiz_cas_contre": [
+      {
+       "t": "L'avantage de salaire des anciens appelés du service militaire des années 1950 disparaît une fois pris en compte qui était appelé (Bauer et al., Allemagne, 2012).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "De 1960 à 2000, plus le service militaire était long et étendu, plus l'inscription dans l'enseignement supérieur baissait (Keller et al., pays de l'OCDE, 2010).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Les études portent sur des services militaires : pas de gain moyen de salaire, accès au supérieur un peu réduit ; une seule étude (Espagne) sur le rapprochement entre régions.",
      "quiz_src": [
-      {
-       "l": "Bagues et Roth, AEJ: Economic Policy (résumé J-PAL)",
-       "a": 2023,
-       "u": "https://www.povertyactionlab.org/print/pdf/node/7015764?lang=fr"
-      },
-      {
-       "l": "Card et Cardoso, AEJ Applied (NBER w17694)",
-       "a": 2012,
-       "u": "https://www.nber.org/papers/w17694"
-      },
       {
        "l": "Bauer, Bender, Paloyo et Schmidt, European Economic Review (IZA DP 4535)",
        "a": 2012,
@@ -3057,11 +3209,6 @@
        "l": "Keller, Poutvaara et Wagener, FinanzArchiv (IZA DP 4399)",
        "a": 2010,
        "u": "https://www.iza.org/publications/dp/4399"
-      },
-      {
-       "l": "Cour des comptes (via Weka), SNU",
-       "a": 2024,
-       "u": "https://www.weka.fr/actualite/?p=184391"
       }
      ]
     },
@@ -3667,30 +3814,50 @@
      },
      "quiz_text": "Limiter l'allocation chômage à 12 mois avant 50 ans",
      "quiz_concret": "Les chômeurs de moins de 50 ans sont indemnisés moins longtemps.",
-     "quiz_plus": "Les études françaises montrent qu'une durée d'indemnisation plus courte accélère le retour à l'emploi : passer de 7 à 15 mois de droits allongeait le chômage d'environ deux mois et demi, sans meilleur emploi retrouvé (IPP).",
-     "quiz_moins": "Selon l'Unédic, une limite proche toucherait 45 % des allocataires ; les emplois repris après la fin des droits satisfont moins (Insee, 2018) et, en Autriche, des droits plus longs améliorent le salaire retrouvé.",
+     "quiz_plus": "Des droits plus courts font reprendre un emploi plus tôt, ce qui raccourcit le chômage.",
+     "quiz_moins": "Plus de chômeurs arrivent en fin de droits sans emploi et passent aux minima sociaux.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Passer la durée maximale d'indemnisation de 7 à 15 mois a allongé le chômage d'environ deux mois et demi, sans meilleur emploi retrouvé (IPP, France, 2013).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Trois mois après la fin de leurs droits, 31 % des chômeurs étaient salariés, 18 % au RSA et 11 % à l'allocation spécifique de solidarité (Trésor, France, 2025).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_etudes": "Les évaluations concordent : des droits plus courts réduisent la durée du chômage ; l'effet sur la qualité de l'emploi retrouvé est discuté (nul en France, positif en Autriche).",
      "quiz_src": [
       {
-       "l": "IPP, note n° 5 (T. Le Barbanchon)",
+       "l": "IPP, note n° 5 (T. Le Barbanchon), impact de la générosité de l'assurance chômage",
        "a": 2013,
        "u": "https://www.ipp.eu/wp-content/uploads/2013/04/cp-22avril2013-ipp.pdf"
       },
       {
-       "l": "Unédic, La reprise d'emploi dans les derniers mois du droit",
+       "l": "Trésor-Éco n° 373, Comprendre les trajectoires après la fin de droit au régime de l'assurance chômage",
+       "a": 2025,
+       "u": "https://www.tresor.economie.gouv.fr/Articles/2025/10/30/comprendre-les-trajectoires-apres-la-fin-de-droit-au-regime-de-l-assurance-chomage"
+      },
+      {
+       "l": "Insee, taux de chômage au sens du BIT, France hors Mayotte, données CVS (série 001688527)",
        "a": 2026,
-       "u": "https://s3.eusc-de-east-1.amazonaws.eu/unedic-eks-prod-cms/2026/06/10/la-reprise-d-emploi-dans-les-derniers-mois-du-droit-chomage_uid_6a29b5d029883.pdf"
-      },
-      {
-       "l": "Euzénat, Économie et Statistique n° 503-504 (Insee)",
-       "a": 2018,
-       "u": "https://www.insee.fr/fr/statistiques/fichier/3652253/503-504_Euzenat-FR.pdf"
-      },
-      {
-       "l": "Nekoei et Weber, American Economic Review (IZA DP 9034)",
-       "a": 2017,
-       "u": "https://www.iza.org/publications/dp/9034"
+       "u": "https://www.insee.fr/fr/statistiques/serie/001688527"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Le taux de chômage est de 8,3 % au 2e trimestre 2026, contre 7,1 % début 2023 et 8,4 % mi-2019 (Insee).",
+      "s": [
+       2
+      ]
+     }
     },
     {
      "id": "famille",
@@ -3758,20 +3925,49 @@
      },
      "quiz_text": "Une allocation familiale unique dès le premier enfant",
      "quiz_concret": "La même allocation pour chaque enfant dès le premier, plus faible pour les hauts revenus, à la place de plusieurs aides.",
-     "quiz_plus": "En France, les aides financières pèsent sur la décision d'avoir un enfant, y compris le premier : une allocation familiale importante versée sans condition relèverait l'indice de fécondité d'environ 0,3 point (Laroque et Salanié).",
-     "quiz_moins": "Une revue des études quasi-expérimentales conclut que l'effet des aides en argent sur la natalité est surtout temporaire, alors que le développement des crèches a un effet durable (Bergsvik et al., 2021).",
-     "quiz_src": [
+     "quiz_plus": "Une aide dès le premier enfant soutient les jeunes familles et peut encourager les naissances.",
+     "quiz_moins": "L'effet des aides en argent sur les naissances reste modeste et surtout passager.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
       {
-       "l": "Laroque et Salanié, Does Fertility Respond to Financial Incentives? (CESifo WP 2339)",
-       "a": 2008,
-       "u": "https://ideas.repec.org/p/ces/ceswps/_2339.html"
+       "t": "La prime universelle à la naissance de 2007 a accru les naissances, en partie via moins d'avortements, et retardé la reprise d'emploi des mères (González, Espagne, 2013).",
+       "s": [
+        0
+       ]
       },
       {
-       "l": "Bergsvik, Fauske et Hart, Population and Development Review (résumé Population Europe)",
-       "a": 2021,
-       "u": "https://population-europe.eu/node/19476"
+       "t": "L'aide versée aux familles à chaque naissance, jusqu'à 8 000 dollars par enfant, a eu un effet fort sur la fécondité (Milligan, Québec, 2005).",
+       "s": [
+        1
+       ]
       }
-     ]
+     ],
+     "quiz_cas_contre": [],
+     "quiz_etudes": "Les études quasi-expérimentales trouvent un effet positif mais modeste des aides en argent, souvent un avancement des naissances ; les places de crèche ont un effet plus durable.",
+     "quiz_src": [
+      {
+       "l": "L. González, The Effect of a Universal Child Benefit on Conceptions, Abortions, and Early Maternal Labor Supply, AEJ: Economic Policy",
+       "a": 2013,
+       "u": "https://ideas.repec.org/a/aea/aejpol/v5y2013i3p160-88.html"
+      },
+      {
+       "l": "K. Milligan, Subsidizing the Stork: New Evidence on Tax Incentives and Fertility, Review of Economics and Statistics",
+       "a": 2005,
+       "u": "https://ideas.repec.org/a/tpr/restat/v87y2005i3p539-555.html"
+      },
+      {
+       "l": "Insee, indicateur conjoncturel de fécondité, France métropolitaine (série 001686825)",
+       "a": 2026,
+       "u": "https://www.insee.fr/fr/statistiques/serie/001686825"
+      }
+     ],
+     "quiz_constat": {
+      "t": "La fécondité est passée de 1,83 enfant par femme en 2019 à 1,53 en 2025 (Insee, métropole).",
+      "s": [
+       2
+      ]
+     }
     },
     {
      "id": "immigration",
@@ -4055,20 +4251,67 @@
      },
      "quiz_text": "Ne plus prélever d'impôt au-delà de 35 h, ni de cotisations au-delà de 37 h",
      "quiz_concret": "Plus de salaire net si vous faites des heures en plus.",
-     "quiz_plus": "Plus de salaire net pour ceux qui font des heures sup : l'exonération de 2007-2012 a profité à plus de 9 millions de salariés, pour un gain moyen d'environ 500 € par an (médian 350 €), selon l'Assemblée nationale (2011).",
-     "quiz_moins": "En 2007-2012, pas de hausse mesurée du temps de travail réel, mais plus d'heures déclarées par les salariés très qualifiés pour réduire leur impôt (Cahuc-Carcillo) et un fort effet d'aubaine (Assemblée 2011).",
+     "quiz_plus": "Les heures en plus rapportent davantage net au salarié et coûtent moins à l'employeur.",
+     "quiz_moins": "Le temps de travail réel n'augmente guère : on déclare surtout autrement des heures déjà faites.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "solide",
+     "quiz_cas_pour": [
+      {
+       "t": "L'exonération des heures sup de 2007 à 2012 a profité à plus de 9 millions de salariés, pour un gain moyen d'environ 500 € par an (Assemblée nationale, France, 2011).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "L'exonération de cotisations sur les heures sup rétablie en 2019 a augmenté le revenu de 11,2 millions de ménages, de 140 € par an en moyenne (Insee, France, 2020).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Après 2007, les heures réellement travaillées n'ont pas augmenté ; les salariés très qualifiés ont surtout déclaré plus d'heures sup (Cahuc-Carcillo, France, 2011).",
+       "s": [
+        2
+       ]
+      },
+      {
+       "t": "La durée effective du travail n'a pas nettement augmenté ; des heures déjà faites mais non déclarées avant 2007 ont été exonérées (Assemblée nationale, France, 2011).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_etudes": "Les évaluations de 2007-2012 concordent : gain de revenu net pour les salariés concernés, pas de hausse mesurable du temps de travail ; pas d'évaluation trouvée sur ce point pour 2019.",
      "quiz_src": [
       {
-       "l": "Assemblée nationale, CEC, rapport Gorges-Mallot sur la loi TEPA (synthèse)",
+       "l": "Assemblée nationale, Comité d'évaluation et de contrôle, rapport n° 3615 sur les heures supplémentaires (synthèse)",
        "a": 2011,
        "u": "https://www.assemblee-nationale.fr/13/controle/com_cec/cec-pdf/s3615.pdf"
       },
       {
-       "l": "Cahuc, Carcillo, « The Detaxation of Overtime Hours: Lessons from the French Experiment » (IZA DP 5439 ; J. of Labor Economics 2014)",
+       "l": "Insee, France portrait social 2020, dossier sur les mesures socio-fiscales de 2019",
+       "a": 2020,
+       "u": "https://insee.fr/fr/statistiques/fichier/4797668/FPS2020-D2.pdf"
+      },
+      {
+       "l": "Cahuc et Carcillo, The Detaxation of Overtime Hours: Lessons from the French Experiment (IZA DP 5439 ; Journal of Labor Economics 2014)",
        "a": 2011,
        "u": "https://docs.iza.org/dp5439.pdf"
+      },
+      {
+       "l": "Insee, note pour le Groupe d'experts sur le SMIC (annexe 1 du rapport 2025)",
+       "a": 2025,
+       "u": "https://www.vie-publique.fr/files/rapport/pdf/301429_0.pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Le salaire net moyen réel du privé a reculé de 1,8 % en 2022-2023, puis gagné 0,9 % en 2024 (Insee).",
+      "s": [
+       3
+      ]
+     }
     },
     {
      "id": "fonds_climat",
@@ -4194,13 +4437,13 @@
        "u": "https://www.insee.fr/fr/statistiques/4226475"
       },
       {
-       "l": "Eurostat, indicateur conjoncturel de fécondité, France (demo_find)",
+       "l": "Insee, indicateur conjoncturel de fécondité, France métropolitaine (série 001686825)",
        "a": 2026,
-       "u": "https://ec.europa.eu/eurostat/databrowser/view/demo_find/default/table"
+       "u": "https://www.insee.fr/fr/statistiques/serie/001686825"
       }
      ],
      "quiz_constat": {
-      "t": "La fécondité est passée de 2,03 enfants par femme en 2010 à 1,61 en 2024 (Eurostat).",
+      "t": "La fécondité est passée de 1,83 enfant par femme en 2019 à 1,53 en 2025 (Insee, métropole).",
       "s": [
        1
       ]
@@ -4726,25 +4969,51 @@
      },
      "quiz_text": "Fusionner les aides sociales et demander 15 heures d'activité par semaine en échange",
      "quiz_concret": "Toucher le RSA impliquerait de travailler ou se former 15 heures par semaine.",
-     "quiz_plus": "Pendant l'expérimentation 2023-2024 du RSA avec heures d'activité et suivi renforcé, l'emploi salarié des participants a augmenté d'environ 3 points en un an (Dares-IPP, 2026) ; une aide unique simplifie aussi les démarches.",
-     "quiz_moins": "Le même bilan ne trouve pas d'effet net sur l'emploi local, les gains étant compensés chez d'autres allocataires ; le plafond commun réduit les aides des foyers qui en cumulent plusieurs, comme les familles nombreuses.",
+     "quiz_plus": "Un accompagnement avec des heures d'activité fait reprendre un emploi plus vite aux allocataires.",
+     "quiz_moins": "Les emplois trouvés par les participants sont pris à d'autres allocataires, sans création nette.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Avec 15 heures d'activité et un suivi renforcé, l'emploi salarié des allocataires du RSA participants a augmenté d'environ 3 points en un an (Dares-IPP, France, 2026).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Après la fusion de 2016 dans la prime d'activité, le non-recours est passé de 68 % pour l'ancien RSA activité à un peu moins de 30 % (Cour des comptes, France, 2026).",
+       "s": [
+        1
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Pas d'effet net sur l'emploi : les gains des participants sont compensés par des pertes chez les autres allocataires de la zone (Dares-IPP, France, 2026).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_etudes": "Une grande évaluation française : plus d'emploi pour les participants, pas d'effet net à court terme. La fusion de 2016 a nettement amélioré le recours à l'aide.",
      "quiz_src": [
       {
-       "l": "Dares-IPP, évaluation de l'accompagnement rénové du RSA (rapport IPP n° 68)",
+       "l": "Dares-IPP, évaluation de l'accompagnement rénové des bénéficiaires du RSA (rapport IPP n° 68, synthèse)",
        "a": 2026,
        "u": "https://www.ipp.eu/wp-content/uploads/2026/07/Synthese_Rapport_IPP_evaluation_accompagnement_renove_bRSA-1.pdf"
       },
       {
-       "l": "Drees (via Maire-info), non-recours au RSA",
-       "a": 2022,
-       "u": "https://www.maire-info.com/aide-sociale/precarite-un-tiers-des-foyers-eligibles-au-rsa-nen-fait-toujours-pas-la-demande-art26-26116"
-      },
-      {
-       "l": "iFRAP, scénarios de plafonnement d'une allocation unique",
-       "a": 2024,
-       "u": "https://www.ifrap.org/emploi-et-politiques-sociales/12-34-milliards-deuros-deconomies-les-differents-scenarios-dun-plafonnement-dune-allocation-sociale-unique-par-rapport"
+       "l": "Cour des comptes, La prime d'activité (communication à la commission des finances du Sénat)",
+       "a": 2026,
+       "u": "https://www.vie-publique.fr/files/rapport/pdf/303828.pdf"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Un tiers des foyers éligibles au RSA ne le demandent pas, comme en 2010-2011 (Drees, Cour des comptes).",
+      "s": [
+       1
+      ]
+     }
     },
     {
      "id": "production",
@@ -5585,20 +5854,45 @@
      },
      "quiz_text": "Geler toutes les aides sociales pendant un an, sauf les petites retraites",
      "quiz_concret": "Vos allocations ne suivraient pas les prix pendant un an.",
-     "quiz_plus": "L'effort est réparti sur un grand nombre de bénéficiaires, avec une perte limitée pour chacun : avec 1,3 % d'inflation, 3,2 % des ménages perdraient au moins 1 % de niveau de vie (IPP) ; les petites retraites sont épargnées.",
-     "quiz_moins": "Rapportée au revenu, la perte est plus forte en bas de l'échelle : près de 1 % pour les 5 % les plus modestes, moins de 0,3 % pour les 5 % les plus aisés (OFCE, 2025) ; elle grandit avec l'inflation et dure sans rattrapage.",
+     "quiz_plus": "L'effort est réparti sur tous les allocataires, avec une perte limitée pour chacun sur un an.",
+     "quiz_moins": "Rapportée au revenu, la perte pèse davantage sur les ménages modestes, qui vivent plus des aides.",
+     "quiz_preuve_pour": "solide",
+     "quiz_preuve_contre": "solide",
+     "quiz_cas_pour": [
+      {
+       "t": "Revaloriser de 0,3 % au lieu d'environ 1,5 % plusieurs aides en 2019 a réduit de 90 € par an le revenu des 11,2 millions de ménages concernés (Insee, France, 2020).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Cette sous-revalorisation a surtout touché les 40 % les plus modestes (30 à 70 € par personne et par an) et relevé de 0,2 point le taux de pauvreté (Insee, France, 2020).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_etudes": "Les simulations concordent (Insee, IPP, OFCE) : perte faible en moyenne, plus forte en part du revenu pour les plus modestes, et d'autant plus grande que l'inflation est forte.",
      "quiz_src": [
       {
-       "l": "IPP (via Journal de l'économie), année blanche 2026",
-       "a": 2025,
-       "u": "https://www.journaldeleconomie.fr/budget-une-annee-blanche-permettrait-57-milliards-deuros-deconomies-en-2026/"
+       "l": "Insee, France portrait social 2020, dossier sur les mesures socio-fiscales de 2019",
+       "a": 2020,
+       "u": "https://insee.fr/fr/statistiques/fichier/4797668/FPS2020-D2.pdf"
       },
       {
-       "l": "OFCE (P. Madec), Quels effets attendre d'une « année blanche » ?",
-       "a": 2025,
-       "u": "https://www.ofce.fr/blog2024/fr/2025/20250630_PIM/"
+       "l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
+       "a": 2026,
+       "u": "https://www.insee.fr/fr/statistiques/serie/010777608"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "La dette publique atteint 119 % du PIB mi-2026, contre 98 % fin 2019 (Insee).",
+      "s": [
+       1
+      ]
+     }
     },
     {
      "id": "bebe",
@@ -5895,25 +6189,14 @@
      },
      "quiz_text": "Supprimer le seuil annuel de 220 heures supplémentaires",
      "quiz_concret": "Au-delà de 220 heures sup par an, plus de repos compensateur obligatoire.",
-     "quiz_plus": "Les heures sup concernent 53 % des salariés à temps complet du privé (Dares, 2023) ; sans contingent, celles au-delà de 220 h restent payées majorées sans repos obligatoire à accorder, ce qui facilite les pics d'activité.",
-     "quiz_moins": "Au-delà de 220 h, les salariés perdent le repos obligatoire en plus (1 h de repos par heure sup au-delà de 20 salariés) ; avec environ 16 h sup par trimestre en moyenne (Dares), la plupart restent loin de ce seuil.",
-     "quiz_src": [
-      {
-       "l": "Dares (via AEF info), heures supplémentaires en 2023",
-       "a": 2025,
-       "u": "https://www.aefinfo.fr/depeche/733691-en-2023-53-des-salaries-du-secteur-prive-effectuent-des-heures-supplementaires-remunerees-dares"
-      },
-      {
-       "l": "Service-public.fr, contingent d'heures supplémentaires",
-       "a": 2026,
-       "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"
-      },
-      {
-       "l": "Dares (via News Tank RH), indicateur trimestriel",
-       "a": 2026,
-       "u": "https://rh.newstank.fr/article/view/426802/heures-supplementaires-15-8-heures-salarie-temps-complet-3e-trimestre-2025.html"
-      }
-     ]
+     "quiz_plus": "Les entreprises aux pics d'activité peuvent faire plus d'heures sup sans repos à accorder.",
+     "quiz_moins": "Au-delà du seuil, les salariés qui font le plus d'heures perdent leur droit à un repos obligatoire.",
+     "quiz_preuve_pour": "faible",
+     "quiz_preuve_contre": "pas d'étude",
+     "quiz_cas_pour": [],
+     "quiz_cas_contre": [],
+     "quiz_etudes": "Une seule estimation (OFCE 2017) : +5 à 14 % de recours aux heures sup après l'assouplissement du seuil en 2008 ; aucune étude sur les effets pour les salariés.",
+     "quiz_src": []
     },
     {
      "id": "europe",
@@ -6613,25 +6896,57 @@
      },
      "quiz_text": "Fusionner les aides sociales en une seule, plafonnée",
      "quiz_concret": "Plus simple, mais certains toucheraient moins qu'aujourd'hui.",
-     "quiz_plus": "Au Royaume-Uni, la fusion de six aides en un crédit unique a été suivie de reprises d'emploi plus fréquentes (+4 points à six mois, NAO 2018) ; en France, un tiers des éligibles ne demandent pas le RSA.",
-     "quiz_moins": "Le NAO doute que ce gain d'emploi précoce se généralise et relève que 4 allocataires sur 10 déclaraient des difficultés financières ; un plafond commun réduit les aides des foyers qui en cumulent plusieurs.",
+     "quiz_plus": "Une aide unique est plus simple à demander, et son plafond rend la reprise d'emploi plus payante.",
+     "quiz_moins": "Un plafond commun réduit l'aide des foyers qui cumulent des aides, souvent des familles nombreuses.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "solide",
+     "quiz_cas_pour": [
+      {
+       "t": "Après la fusion de 2016 dans la prime d'activité, le non-recours est passé de 68 % pour l'ancien RSA activité à un peu moins de 30 % (Cour des comptes, France, 2026).",
+       "s": [
+        0
+       ]
+      },
+      {
+       "t": "Le plafond global des aides, abaissé en 2016, a accru de 5,1 points la part des foyers visés reprenant un emploi en un an (ministère du Travail, Royaume-Uni, 2023).",
+       "s": [
+        1,
+        2
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Parmi les foyers plafonnés, 36 % avaient au moins quatre enfants et 77 % restaient sans emploi un an après (ministère du Travail, Royaume-Uni, 2023).",
+       "s": [
+        2
+       ]
+      }
+     ],
+     "quiz_etudes": "Peu d'évaluations d'une aide unique plafonnée : la fusion de 2016 a amélioré le recours ; au Royaume-Uni, le plafond a un peu accru l'emploi et visé surtout des familles nombreuses.",
      "quiz_src": [
       {
-       "l": "National Audit Office, Rolling out Universal Credit",
-       "a": 2018,
-       "u": "https://www.nao.org.uk/wp-content/uploads/2018/06/Rolling-out-Universal-Credit-Summary.pdf"
+       "l": "Cour des comptes, La prime d'activité (communication à la commission des finances du Sénat)",
+       "a": 2026,
+       "u": "https://www.vie-publique.fr/files/rapport/pdf/303828.pdf"
       },
       {
-       "l": "Drees (via Maire-info), non-recours au RSA",
-       "a": 2022,
-       "u": "https://www.maire-info.com/aide-sociale/precarite-un-tiers-des-foyers-eligibles-au-rsa-nen-fait-toujours-pas-la-demande-art26-26116"
+       "l": "Department for Work and Pensions, Lower benefit cap: quantitative analysis of outcomes of capped households",
+       "a": 2023,
+       "u": "https://www.gov.uk/government/publications/lower-benefit-cap-quantitative-analysis-of-outcomes-of-capped-households/lower-benefit-cap-quantitative-analysis-of-outcomes-of-capped-households"
       },
       {
-       "l": "iFRAP, scénarios de plafonnement d'une allocation unique",
-       "a": 2024,
-       "u": "https://www.ifrap.org/emploi-et-politiques-sociales/12-34-milliards-deuros-deconomies-les-differents-scenarios-dun-plafonnement-dune-allocation-sociale-unique-par-rapport"
+       "l": "Department for Work and Pensions, Evaluation of the lower benefit cap (enquête NatCen en deux vagues)",
+       "a": 2023,
+       "u": "https://www.gov.uk/government/publications/lower-benefit-cap-quantitative-analysis-of-outcomes-of-capped-households/evaluation-of-the-lower-benefit-cap"
       }
-     ]
+     ],
+     "quiz_constat": {
+      "t": "Un tiers des foyers éligibles au RSA ne le demandent pas, comme en 2010-2011 (Drees, Cour des comptes).",
+      "s": [
+       0
+      ]
+     }
     },
     {
      "id": "ame",

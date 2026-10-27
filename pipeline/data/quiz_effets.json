@@ -1,21 +1,44 @@
 {
 "_regles": "Par proposition : « Pour » et « Contre », le meilleur argument réel de chaque côté (100 caractères environ, en mots simples, sans pays ni étude), la force des preuves de chacun (solide, mitigé, faible, pas d'étude), 0 à 3 cas réels sourcés par côté (le fait observé, puis source, lieu et année entre parenthèses), l'état des études et les sources (format dans pipeline/quizfx.py ; l'ancien format [plus, moins, sources] reste lu). Même méthode et même exigence pour toutes les mesures, sans fausse symétrie : rien d'inventé pour équilibrer. Mêmes cas pour les mesures du même type. Pas de nom, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement moral. Les sources dont le titre ou l'adresse nomme un candidat ne sont pas affichées (quiz à l'aveugle).",
-"attal.annee_blanche": [
-"L'effort est réparti sur un grand nombre de bénéficiaires, avec une perte limitée pour chacun : avec 1,3 % d'inflation, 3,2 % des ménages perdraient au moins 1 % de niveau de vie (IPP) ; les petites retraites sont épargnées.",
-"Rapportée au revenu, la perte est plus forte en bas de l'échelle : près de 1 % pour les 5 % les plus modestes, moins de 0,3 % pour les 5 % les plus aisés (OFCE, 2025) ; elle grandit avec l'inflation et dure sans rattrapage.",
-[
+"attal.annee_blanche": {
+"constat": "La dette publique atteint 119 % du PIB mi-2026, contre 98 % fin 2019 (Insee).",
+"constat_s": [
+1
+],
+"pour": "L'effort est réparti sur tous les allocataires, avec une perte limitée pour chacun sur un an.",
+"preuve_pour": "solide",
+"contre": "Rapportée au revenu, la perte pèse davantage sur les ménages modestes, qui vivent plus des aides.",
+"preuve_contre": "solide",
+"cas_pour": [
 {
-"l": "IPP (via Journal de l'économie), année blanche 2026",
-"a": 2025,
-"u": "https://www.journaldeleconomie.fr/budget-une-annee-blanche-permettrait-57-milliards-deuros-deconomies-en-2026/"
+"t": "Revaloriser de 0,3 % au lieu d'environ 1,5 % plusieurs aides en 2019 a réduit de 90 € par an le revenu des 11,2 millions de ménages concernés (Insee, France, 2020).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Cette sous-revalorisation a surtout touché les 40 % les plus modestes (30 à 70 € par personne et par an) et relevé de 0,2 point le taux de pauvreté (Insee, France, 2020).",
+"s": [
+0
+]
+}
+],
+"etudes": "Les simulations concordent (Insee, IPP, OFCE) : perte faible en moyenne, plus forte en part du revenu pour les plus modestes, et d'autant plus grande que l'inflation est forte.",
+"src": [
+{
+"l": "Insee, France portrait social 2020, dossier sur les mesures socio-fiscales de 2019",
+"a": 2020,
+"u": "https://insee.fr/fr/statistiques/fichier/4797668/FPS2020-D2.pdf"
 },
 {
-"l": "OFCE (P. Madec), Quels effets attendre d'une « année blanche » ?",
-"a": 2025,
-"u": "https://www.ofce.fr/blog2024/fr/2025/20250630_PIM/"
+"l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/010777608"
 }
 ]
-],
+},
 "attal.bebe": {
 "constat": "16 % des ménages détiennent une épargne retraite en 2021, une part stable depuis 2010 (Insee).",
 "constat_s": [
@@ -330,27 +353,16 @@
 }
 ]
 },
-"attal.travail": [
-"Les heures sup concernent 53 % des salariés à temps complet du privé (Dares, 2023) ; sans contingent, celles au-delà de 220 h restent payées majorées sans repos obligatoire à accorder, ce qui facilite les pics d'activité.",
-"Au-delà de 220 h, les salariés perdent le repos obligatoire en plus (1 h de repos par heure sup au-delà de 20 salariés) ; avec environ 16 h sup par trimestre en moyenne (Dares), la plupart restent loin de ce seuil.",
-[
-{
-"l": "Dares (via AEF info), heures supplémentaires en 2023",
-"a": 2025,
-"u": "https://www.aefinfo.fr/depeche/733691-en-2023-53-des-salaries-du-secteur-prive-effectuent-des-heures-supplementaires-remunerees-dares"
+"attal.travail": {
+"pour": "Les entreprises aux pics d'activité peuvent faire plus d'heures sup sans repos à accorder.",
+"preuve_pour": "faible",
+"contre": "Au-delà du seuil, les salariés qui font le plus d'heures perdent leur droit à un repos obligatoire.",
+"preuve_contre": "pas d'étude",
+"cas_pour": [],
+"cas_contre": [],
+"etudes": "Une seule estimation (OFCE 2017) : +5 à 14 % de recours aux heures sup après l'assouplissement du seuil en 2008 ; aucune étude sur les effets pour les salariés.",
+"src": []
 },
-{
-"l": "Service-public.fr, contingent d'heures supplémentaires",
-"a": 2026,
-"u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"
-},
-{
-"l": "Dares (via News Tank RH), indicateur trimestriel",
-"a": 2026,
-"u": "https://rh.newstank.fr/article/view/426802/heures-supplementaires-15-8-heures-salarie-temps-complet-3e-trimestre-2025.html"
-}
-]
-],
 "glucksmann.defense": [
 "Le rapport Draghi (2024) relève que 78 % des achats d'armement européens sont allés hors de l'UE en 2022-2023 et recommande un emprunt commun pour financer des achats groupés, à plus grande échelle.",
 "Le précédent du plan de relance montre un risque de coût : la Cour des comptes européenne prévoit des intérêts environ deux fois plus élevés que prévu, à payer par les États ou par de nouvelles taxes.",
@@ -613,20 +625,28 @@
 }
 ]
 },
-"glucksmann.service_civique": [
-"En Espagne, faire son service hors de sa région a durablement amélioré l'opinion envers les habitants des autres régions (Bagues et Roth, 2023) ; au Portugal, il a relevé de 4 à 5 points le salaire des moins diplômés.",
-"Dix mois retardent études et emploi : en Allemagne, aucun effet sur les salaires ultérieurs ; dans l'OCDE, un service plus long réduit l'accès au supérieur ; la Cour des comptes note les difficultés d'accueil du SNU.",
-[
+"glucksmann.service_civique": {
+"pour": "Dix mois passés ensemble font se côtoyer des jeunes de milieux et de régions différents.",
+"preuve_pour": "faible",
+"contre": "Dix mois retardent études et entrée dans l'emploi, sans gain de salaire mesuré ensuite.",
+"preuve_contre": "mitigé",
+"cas_pour": [],
+"cas_contre": [
 {
-"l": "Bagues et Roth, AEJ: Economic Policy (résumé J-PAL)",
-"a": 2023,
-"u": "https://www.povertyactionlab.org/print/pdf/node/7015764?lang=fr"
+"t": "L'avantage de salaire des anciens appelés du service militaire des années 1950 disparaît une fois pris en compte qui était appelé (Bauer et al., Allemagne, 2012).",
+"s": [
+0
+]
 },
 {
-"l": "Card et Cardoso, AEJ Applied (NBER w17694)",
-"a": 2012,
-"u": "https://www.nber.org/papers/w17694"
-},
+"t": "De 1960 à 2000, plus le service militaire était long et étendu, plus l'inscription dans l'enseignement supérieur baissait (Keller et al., pays de l'OCDE, 2010).",
+"s": [
+1
+]
+}
+],
+"etudes": "Les études portent sur des services militaires : pas de gain moyen de salaire, accès au supérieur un peu réduit ; une seule étude (Espagne) sur le rapprochement entre régions.",
+"src": [
 {
 "l": "Bauer, Bender, Paloyo et Schmidt, European Economic Review (IZA DP 4535)",
 "a": 2012,
@@ -636,27 +656,65 @@
 "l": "Keller, Poutvaara et Wagener, FinanzArchiv (IZA DP 4399)",
 "a": 2010,
 "u": "https://www.iza.org/publications/dp/4399"
-},
-{
-"l": "Cour des comptes (via Weka), SNU",
-"a": 2024,
-"u": "https://www.weka.fr/actualite/?p=184391"
 }
 ]
+},
+"glucksmann.smic": {
+"constat": "La hausse du SMIC a concerné 14,6 % des salariés en 2024, contre 10,5 % en 2016 (Insee, Dares).",
+"constat_s": [
+6
 ],
-"glucksmann.smic": [
-"Hausse du salaire au bas de l'échelle, étalée sur deux ans. En Allemagne, le salaire minimum de 2015 (15 % des salariés) a relevé les salaires sans baisse mesurable de l'emploi (Dustmann et al., 2022), comme au Royaume-Uni.",
-"Le SMIC est déjà le plus élevé d'Europe rapporté au salaire médian (62,5 %, groupe d'experts 2025). En Espagne, la hausse de 22 % de 2019 a accru de 2 à 3 points le risque de perte d'emploi des salariés concernés.",
-[
+"pour": "Le salaire des moins payés augmente, et la hausse se diffuse aux salaires juste au-dessus.",
+"preuve_pour": "solide",
+"contre": "Avec un SMIC déjà élevé, une forte hausse peut coûter des emplois aux salariés peu qualifiés.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "Dustmann et al., Reallocation Effects of the Minimum Wage, QJE",
-"a": 2022,
-"u": "https://ideas.repec.org/a/oup/qjecon/v137y2022i1p267-328..html"
+"t": "De 2000 à 2005, 1 % de hausse du SMIC s'est répercuté en un an presque en entier sur les salaires jusqu'à 1,1 SMIC, à 0,5 % vers 1,5 SMIC (Dares-Insee, France, 2007).",
+"s": [
+0
+]
 },
 {
-"l": "A. Dube, revue pour le gouvernement britannique (Impacts of minimum wages)",
-"a": 2019,
-"u": "https://www.gov.uk/government/publications/impacts-of-minimum-wages-review-of-the-international-evidence"
+"t": "Le salaire minimum créé en 2015, qui touchait 15 % des salariés, a relevé leurs salaires sans baisse mesurable de l'emploi total (Dustmann et al., Allemagne, 2022).",
+"s": [
+1,
+2
+]
+},
+{
+"t": "Les hausses récentes et fortes du salaire minimum ont nettement relevé la paie des bas salaires, avec un effet très faible sur l'emploi (revue Dube, Royaume-Uni, 2019).",
+"s": [
+3
+]
+}
+],
+"cas_contre": [
+{
+"t": "De 1990 à 1998, chaque 1 % de coût du travail en plus au niveau du SMIC a accru d'environ 1,5 % le risque de perdre son emploi (Kramarz-Philippon, France, 2001).",
+"s": [
+4
+]
+},
+{
+"t": "La hausse de 22 % du salaire minimum en 2019 a accru de 2 à 3 points le risque de perdre son emploi pour les salariés concernés (Banque d'Espagne, Espagne, 2021).",
+"s": [
+5,
+2
+]
+}
+],
+"etudes": "Les études divergent : hausse nette des bas salaires partout, effet sur l'emploi nul à négatif selon l'ampleur de la hausse et le niveau de départ du salaire minimum.",
+"src": [
+{
+"l": "Dares-Insee (Koubi, Lhommeau), Les effets de diffusion de court terme des hausses du Smic, Les salaires en France 2007",
+"a": 2007,
+"u": "https://insee.fr/fr/statistiques/fichier/1373191/salfra07ae.pdf"
+},
+{
+"l": "Dustmann et al., Reallocation Effects of the Minimum Wage, Quarterly Journal of Economics",
+"a": 2022,
+"u": "https://ideas.repec.org/a/oup/qjecon/v137y2022i1p267-328..html"
 },
 {
 "l": "Groupe d'experts sur le SMIC, rapport 2025",
@@ -664,12 +722,27 @@
 "u": "https://www.vie-publique.fr/files/rapport/pdf/301429_0.pdf"
 },
 {
+"l": "A. Dube, revue des effets des salaires minimums pour le Trésor britannique",
+"a": 2019,
+"u": "https://www.gov.uk/government/publications/impacts-of-minimum-wages-review-of-the-international-evidence"
+},
+{
+"l": "Kramarz et Philippon, The impact of differential payroll tax subsidies on minimum wage employment, Journal of Public Economics",
+"a": 2001,
+"u": "https://ideas.repec.org/a/eee/pubeco/v82y2001i1p115-146.html"
+},
+{
 "l": "Banque d'Espagne, Documento Ocasional 2113 (Barceló et al.)",
 "a": 2021,
 "u": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/21/Fich/do2113.pdf"
+},
+{
+"l": "Insee Références, Salaire minimum de croissance (données Dares, Acemo)",
+"a": 2025,
+"u": "https://www.insee.fr/fr/statistiques/8376870"
 }
 ]
-],
+},
 "glucksmann.ukraine": [
 "En 2025, l'aide américaine à l'Ukraine a chuté de 99 % et l'Europe l'a presque compensée seule (Kiel Institute, 2026) ; une hausse française renforce cet effort et les commandes à l'industrie d'armement.",
 "La France n'a pas de stocks inutilisés : céder 30 canons Caesar a réduit « significativement » son artillerie le temps de les remplacer (Assemblée nationale, 2023) ; produire un canon prend 18 à 36 mois.",
@@ -1237,27 +1310,57 @@
 }
 ]
 },
-"lisnard.allocation": [
-"Au Royaume-Uni, la fusion de six aides en un crédit unique a été suivie de reprises d'emploi plus fréquentes (+4 points à six mois, NAO 2018) ; en France, un tiers des éligibles ne demandent pas le RSA.",
-"Le NAO doute que ce gain d'emploi précoce se généralise et relève que 4 allocataires sur 10 déclaraient des difficultés financières ; un plafond commun réduit les aides des foyers qui en cumulent plusieurs.",
-[
+"lisnard.allocation": {
+"constat": "Un tiers des foyers éligibles au RSA ne le demandent pas, comme en 2010-2011 (Drees, Cour des comptes).",
+"constat_s": [
+0
+],
+"pour": "Une aide unique est plus simple à demander, et son plafond rend la reprise d'emploi plus payante.",
+"preuve_pour": "mitigé",
+"contre": "Un plafond commun réduit l'aide des foyers qui cumulent des aides, souvent des familles nombreuses.",
+"preuve_contre": "solide",
+"cas_pour": [
 {
-"l": "National Audit Office, Rolling out Universal Credit",
-"a": 2018,
-"u": "https://www.nao.org.uk/wp-content/uploads/2018/06/Rolling-out-Universal-Credit-Summary.pdf"
+"t": "Après la fusion de 2016 dans la prime d'activité, le non-recours est passé de 68 % pour l'ancien RSA activité à un peu moins de 30 % (Cour des comptes, France, 2026).",
+"s": [
+0
+]
 },
 {
-"l": "Drees (via Maire-info), non-recours au RSA",
-"a": 2022,
-"u": "https://www.maire-info.com/aide-sociale/precarite-un-tiers-des-foyers-eligibles-au-rsa-nen-fait-toujours-pas-la-demande-art26-26116"
+"t": "Le plafond global des aides, abaissé en 2016, a accru de 5,1 points la part des foyers visés reprenant un emploi en un an (ministère du Travail, Royaume-Uni, 2023).",
+"s": [
+1,
+2
+]
+}
+],
+"cas_contre": [
+{
+"t": "Parmi les foyers plafonnés, 36 % avaient au moins quatre enfants et 77 % restaient sans emploi un an après (ministère du Travail, Royaume-Uni, 2023).",
+"s": [
+2
+]
+}
+],
+"etudes": "Peu d'évaluations d'une aide unique plafonnée : la fusion de 2016 a amélioré le recours ; au Royaume-Uni, le plafond a un peu accru l'emploi et visé surtout des familles nombreuses.",
+"src": [
+{
+"l": "Cour des comptes, La prime d'activité (communication à la commission des finances du Sénat)",
+"a": 2026,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/303828.pdf"
 },
 {
-"l": "iFRAP, scénarios de plafonnement d'une allocation unique",
-"a": 2024,
-"u": "https://www.ifrap.org/emploi-et-politiques-sociales/12-34-milliards-deuros-deconomies-les-differents-scenarios-dun-plafonnement-dune-allocation-sociale-unique-par-rapport"
+"l": "Department for Work and Pensions, Lower benefit cap: quantitative analysis of outcomes of capped households",
+"a": 2023,
+"u": "https://www.gov.uk/government/publications/lower-benefit-cap-quantitative-analysis-of-outcomes-of-capped-households/lower-benefit-cap-quantitative-analysis-of-outcomes-of-capped-households"
+},
+{
+"l": "Department for Work and Pensions, Evaluation of the lower benefit cap (enquête NatCen en deux vagues)",
+"a": 2023,
+"u": "https://www.gov.uk/government/publications/lower-benefit-cap-quantitative-analysis-of-outcomes-of-capped-households/evaluation-of-the-lower-benefit-cap"
 }
 ]
-],
+},
 "lisnard.ame": {
 "constat": "Bénéficiaires de l'aide médicale d'État : 316 000 fin 2015, 439 000 mi-2023 (Assurance maladie).",
 "constat_s": [
@@ -1866,22 +1969,44 @@
 }
 ]
 },
-"melenchon.jeunes": [
-"Les aides aux étudiants modestes augmentent les études : en France, une bourse de 1 500 € par an relève de 5 à 7 % l'inscription dans le supérieur et améliore la poursuite et l'obtention du diplôme (Fack et Grenet, 2015).",
-"Un revenu garanti aux jeunes peut freiner l'entrée en emploi : l'accès au RMI à 25 ans réduisait de 7 à 10 % l'activité des hommes seuls peu diplômés (Bargain et Doorley, 2011) ; l'effet dépend de la condition de formation.",
-[
+"melenchon.jeunes": {
+"constat": "17,5 % des 18-29 ans vivaient sous le seuil de pauvreté en 2023 (20,1 % en 2017), 15,4 % au total (Insee).",
+"constat_s": [
+1,
+2
+],
+"pour": "Un revenu pendant les études permet aux jeunes modestes de faire et de finir des études.",
+"preuve_pour": "solide",
+"contre": "Une large part de l'aide irait à des jeunes qui auraient fait les mêmes études sans elle.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "Fack et Grenet, AEJ Applied (via PSE)",
+"t": "Une bourse de 1 500 € par an a relevé de 5 à 7 % l'inscription des étudiants modestes dans le supérieur et amélioré la réussite au diplôme (Fack et Grenet, France, 2015).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [],
+"etudes": "Les études sur les bourses concordent : effet net sur l'accès et la réussite, mais de quelques points ; aucune évaluation d'une aide de ce montant pour tous les jeunes en formation.",
+"src": [
+{
+"l": "Fack et Grenet, Improving College Access and Success for Low-Income Students, AEJ Applied (via PSE)",
 "a": 2015,
 "u": "https://www.parisschoolofeconomics.eu/en/publications-hal/improving-college-access-and-success-for-low-income-students-evidence-from-a-large-need-based-grant-program"
 },
 {
-"l": "Bargain et Doorley, Journal of Public Economics",
-"a": 2011,
-"u": "https://liser.elsevierpure.com/en/publications/caught-in-the-trap-welfares-disincentive-and-the-labor-supply-of-"
+"l": "Insee, taux de pauvreté monétaire (seuil à 60 %) des 18-29 ans (série 010594450)",
+"a": 2025,
+"u": "https://www.insee.fr/fr/statistiques/serie/010594450"
+},
+{
+"l": "Insee, taux de pauvreté monétaire (seuil à 60 %), ensemble (série 010594446)",
+"a": 2025,
+"u": "https://www.insee.fr/fr/statistiques/serie/010594446"
 }
 ]
-],
+},
 "melenchon.niches": {
 "pour": "Ces avantages fiscaux ont peu d'effet mesuré pour leurs plus grands bénéficiaires.",
 "preuve_pour": "solide",
@@ -2137,19 +2262,62 @@
 }
 ]
 },
-"melenchon.smic": [
-"Hausse directe du salaire au bas de l'échelle. En Allemagne, le salaire minimum de 2015 (15 % des salariés) a relevé les salaires sans baisse mesurable de l'emploi (Dustmann et al., 2022), comme au Royaume-Uni.",
-"Le SMIC est déjà le plus élevé d'Europe rapporté au salaire médian (62,5 %, groupe d'experts 2025). En Espagne, la hausse de 22 % de 2019 a accru de 2 à 3 points le risque de perte d'emploi des salariés concernés.",
-[
+"melenchon.smic": {
+"constat": "La hausse du SMIC a concerné 14,6 % des salariés en 2024, contre 10,5 % en 2016 (Insee, Dares).",
+"constat_s": [
+6
+],
+"pour": "Le salaire des moins payés augmente, et la hausse se diffuse aux salaires juste au-dessus.",
+"preuve_pour": "solide",
+"contre": "Avec un SMIC déjà élevé, une forte hausse peut coûter des emplois aux salariés peu qualifiés.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "Dustmann et al., Reallocation Effects of the Minimum Wage, QJE",
-"a": 2022,
-"u": "https://ideas.repec.org/a/oup/qjecon/v137y2022i1p267-328..html"
+"t": "De 2000 à 2005, 1 % de hausse du SMIC s'est répercuté en un an presque en entier sur les salaires jusqu'à 1,1 SMIC, à 0,5 % vers 1,5 SMIC (Dares-Insee, France, 2007).",
+"s": [
+0
+]
 },
 {
-"l": "A. Dube, revue pour le gouvernement britannique (Impacts of minimum wages)",
-"a": 2019,
-"u": "https://www.gov.uk/government/publications/impacts-of-minimum-wages-review-of-the-international-evidence"
+"t": "Le salaire minimum créé en 2015, qui touchait 15 % des salariés, a relevé leurs salaires sans baisse mesurable de l'emploi total (Dustmann et al., Allemagne, 2022).",
+"s": [
+1,
+2
+]
+},
+{
+"t": "Les hausses récentes et fortes du salaire minimum ont nettement relevé la paie des bas salaires, avec un effet très faible sur l'emploi (revue Dube, Royaume-Uni, 2019).",
+"s": [
+3
+]
+}
+],
+"cas_contre": [
+{
+"t": "De 1990 à 1998, chaque 1 % de coût du travail en plus au niveau du SMIC a accru d'environ 1,5 % le risque de perdre son emploi (Kramarz-Philippon, France, 2001).",
+"s": [
+4
+]
+},
+{
+"t": "La hausse de 22 % du salaire minimum en 2019 a accru de 2 à 3 points le risque de perdre son emploi pour les salariés concernés (Banque d'Espagne, Espagne, 2021).",
+"s": [
+5,
+2
+]
+}
+],
+"etudes": "Les études divergent : hausse nette des bas salaires partout, effet sur l'emploi nul à négatif selon l'ampleur de la hausse et le niveau de départ du salaire minimum.",
+"src": [
+{
+"l": "Dares-Insee (Koubi, Lhommeau), Les effets de diffusion de court terme des hausses du Smic, Les salaires en France 2007",
+"a": 2007,
+"u": "https://insee.fr/fr/statistiques/fichier/1373191/salfra07ae.pdf"
+},
+{
+"l": "Dustmann et al., Reallocation Effects of the Minimum Wage, Quarterly Journal of Economics",
+"a": 2022,
+"u": "https://ideas.repec.org/a/oup/qjecon/v137y2022i1p267-328..html"
 },
 {
 "l": "Groupe d'experts sur le SMIC, rapport 2025",
@@ -2157,54 +2325,114 @@
 "u": "https://www.vie-publique.fr/files/rapport/pdf/301429_0.pdf"
 },
 {
+"l": "A. Dube, revue des effets des salaires minimums pour le Trésor britannique",
+"a": 2019,
+"u": "https://www.gov.uk/government/publications/impacts-of-minimum-wages-review-of-the-international-evidence"
+},
+{
+"l": "Kramarz et Philippon, The impact of differential payroll tax subsidies on minimum wage employment, Journal of Public Economics",
+"a": 2001,
+"u": "https://ideas.repec.org/a/eee/pubeco/v82y2001i1p115-146.html"
+},
+{
 "l": "Banque d'Espagne, Documento Ocasional 2113 (Barceló et al.)",
 "a": 2021,
 "u": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/21/Fich/do2113.pdf"
+},
+{
+"l": "Insee Références, Salaire minimum de croissance (données Dares, Acemo)",
+"a": 2025,
+"u": "https://www.insee.fr/fr/statistiques/8376870"
 }
 ]
+},
+"philippe.chomage": {
+"constat": "Le taux de chômage est de 8,3 % au 2e trimestre 2026, contre 7,1 % début 2023 et 8,4 % mi-2019 (Insee).",
+"constat_s": [
+2
 ],
-"philippe.chomage": [
-"Les études françaises montrent qu'une durée d'indemnisation plus courte accélère le retour à l'emploi : passer de 7 à 15 mois de droits allongeait le chômage d'environ deux mois et demi, sans meilleur emploi retrouvé (IPP).",
-"Selon l'Unédic, une limite proche toucherait 45 % des allocataires ; les emplois repris après la fin des droits satisfont moins (Insee, 2018) et, en Autriche, des droits plus longs améliorent le salaire retrouvé.",
-[
+"pour": "Des droits plus courts font reprendre un emploi plus tôt, ce qui raccourcit le chômage.",
+"preuve_pour": "solide",
+"contre": "Plus de chômeurs arrivent en fin de droits sans emploi et passent aux minima sociaux.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "IPP, note n° 5 (T. Le Barbanchon)",
+"t": "Passer la durée maximale d'indemnisation de 7 à 15 mois a allongé le chômage d'environ deux mois et demi, sans meilleur emploi retrouvé (IPP, France, 2013).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Trois mois après la fin de leurs droits, 31 % des chômeurs étaient salariés, 18 % au RSA et 11 % à l'allocation spécifique de solidarité (Trésor, France, 2025).",
+"s": [
+1
+]
+}
+],
+"etudes": "Les évaluations concordent : des droits plus courts réduisent la durée du chômage ; l'effet sur la qualité de l'emploi retrouvé est discuté (nul en France, positif en Autriche).",
+"src": [
+{
+"l": "IPP, note n° 5 (T. Le Barbanchon), impact de la générosité de l'assurance chômage",
 "a": 2013,
 "u": "https://www.ipp.eu/wp-content/uploads/2013/04/cp-22avril2013-ipp.pdf"
 },
 {
-"l": "Unédic, La reprise d'emploi dans les derniers mois du droit",
+"l": "Trésor-Éco n° 373, Comprendre les trajectoires après la fin de droit au régime de l'assurance chômage",
+"a": 2025,
+"u": "https://www.tresor.economie.gouv.fr/Articles/2025/10/30/comprendre-les-trajectoires-apres-la-fin-de-droit-au-regime-de-l-assurance-chomage"
+},
+{
+"l": "Insee, taux de chômage au sens du BIT, France hors Mayotte, données CVS (série 001688527)",
 "a": 2026,
-"u": "https://s3.eusc-de-east-1.amazonaws.eu/unedic-eks-prod-cms/2026/06/10/la-reprise-d-emploi-dans-les-derniers-mois-du-droit-chomage_uid_6a29b5d029883.pdf"
-},
-{
-"l": "Euzénat, Économie et Statistique n° 503-504 (Insee)",
-"a": 2018,
-"u": "https://www.insee.fr/fr/statistiques/fichier/3652253/503-504_Euzenat-FR.pdf"
-},
-{
-"l": "Nekoei et Weber, American Economic Review (IZA DP 9034)",
-"a": 2017,
-"u": "https://www.iza.org/publications/dp/9034"
+"u": "https://www.insee.fr/fr/statistiques/serie/001688527"
 }
 ]
+},
+"philippe.famille": {
+"constat": "La fécondité est passée de 1,83 enfant par femme en 2019 à 1,53 en 2025 (Insee, métropole).",
+"constat_s": [
+2
 ],
-"philippe.famille": [
-"En France, les aides financières pèsent sur la décision d'avoir un enfant, y compris le premier : une allocation familiale importante versée sans condition relèverait l'indice de fécondité d'environ 0,3 point (Laroque et Salanié).",
-"Une revue des études quasi-expérimentales conclut que l'effet des aides en argent sur la natalité est surtout temporaire, alors que le développement des crèches a un effet durable (Bergsvik et al., 2021).",
-[
+"pour": "Une aide dès le premier enfant soutient les jeunes familles et peut encourager les naissances.",
+"preuve_pour": "mitigé",
+"contre": "L'effet des aides en argent sur les naissances reste modeste et surtout passager.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "Laroque et Salanié, Does Fertility Respond to Financial Incentives? (CESifo WP 2339)",
-"a": 2008,
-"u": "https://ideas.repec.org/p/ces/ceswps/_2339.html"
+"t": "La prime universelle à la naissance de 2007 a accru les naissances, en partie via moins d'avortements, et retardé la reprise d'emploi des mères (González, Espagne, 2013).",
+"s": [
+0
+]
 },
 {
-"l": "Bergsvik, Fauske et Hart, Population and Development Review (résumé Population Europe)",
-"a": 2021,
-"u": "https://population-europe.eu/node/19476"
+"t": "L'aide versée aux familles à chaque naissance, jusqu'à 8 000 dollars par enfant, a eu un effet fort sur la fécondité (Milligan, Québec, 2005).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [],
+"etudes": "Les études quasi-expérimentales trouvent un effet positif mais modeste des aides en argent, souvent un avancement des naissances ; les places de crèche ont un effet plus durable.",
+"src": [
+{
+"l": "L. González, The Effect of a Universal Child Benefit on Conceptions, Abortions, and Early Maternal Labor Supply, AEJ: Economic Policy",
+"a": 2013,
+"u": "https://ideas.repec.org/a/aea/aejpol/v5y2013i3p160-88.html"
+},
+{
+"l": "K. Milligan, Subsidizing the Stork: New Evidence on Tax Incentives and Fertility, Review of Economics and Statistics",
+"a": 2005,
+"u": "https://ideas.repec.org/a/tpr/restat/v87y2005i3p539-555.html"
+},
+{
+"l": "Insee, indicateur conjoncturel de fécondité, France métropolitaine (série 001686825)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/001686825"
 }
 ]
-],
+},
 "philippe.fonction": {
 "constat": "La fonction publique emploie 5,9 millions d'agents fin 2024, environ 3 % de plus que fin 2019 (Insee).",
 "constat_s": [
@@ -2292,22 +2520,67 @@
 }
 ]
 ],
-"philippe.heures_sup": [
-"Plus de salaire net pour ceux qui font des heures sup : l'exonération de 2007-2012 a profité à plus de 9 millions de salariés, pour un gain moyen d'environ 500 € par an (médian 350 €), selon l'Assemblée nationale (2011).",
-"En 2007-2012, pas de hausse mesurée du temps de travail réel, mais plus d'heures déclarées par les salariés très qualifiés pour réduire leur impôt (Cahuc-Carcillo) et un fort effet d'aubaine (Assemblée 2011).",
-[
+"philippe.heures_sup": {
+"constat": "Le salaire net moyen réel du privé a reculé de 1,8 % en 2022-2023, puis gagné 0,9 % en 2024 (Insee).",
+"constat_s": [
+3
+],
+"pour": "Les heures en plus rapportent davantage net au salarié et coûtent moins à l'employeur.",
+"preuve_pour": "solide",
+"contre": "Le temps de travail réel n'augmente guère : on déclare surtout autrement des heures déjà faites.",
+"preuve_contre": "solide",
+"cas_pour": [
 {
-"l": "Assemblée nationale, CEC, rapport Gorges-Mallot sur la loi TEPA (synthèse)",
+"t": "L'exonération des heures sup de 2007 à 2012 a profité à plus de 9 millions de salariés, pour un gain moyen d'environ 500 € par an (Assemblée nationale, France, 2011).",
+"s": [
+0
+]
+},
+{
+"t": "L'exonération de cotisations sur les heures sup rétablie en 2019 a augmenté le revenu de 11,2 millions de ménages, de 140 € par an en moyenne (Insee, France, 2020).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Après 2007, les heures réellement travaillées n'ont pas augmenté ; les salariés très qualifiés ont surtout déclaré plus d'heures sup (Cahuc-Carcillo, France, 2011).",
+"s": [
+2
+]
+},
+{
+"t": "La durée effective du travail n'a pas nettement augmenté ; des heures déjà faites mais non déclarées avant 2007 ont été exonérées (Assemblée nationale, France, 2011).",
+"s": [
+0
+]
+}
+],
+"etudes": "Les évaluations de 2007-2012 concordent : gain de revenu net pour les salariés concernés, pas de hausse mesurable du temps de travail ; pas d'évaluation trouvée sur ce point pour 2019.",
+"src": [
+{
+"l": "Assemblée nationale, Comité d'évaluation et de contrôle, rapport n° 3615 sur les heures supplémentaires (synthèse)",
 "a": 2011,
 "u": "https://www.assemblee-nationale.fr/13/controle/com_cec/cec-pdf/s3615.pdf"
 },
 {
-"l": "Cahuc, Carcillo, « The Detaxation of Overtime Hours: Lessons from the French Experiment » (IZA DP 5439 ; J. of Labor Economics 2014)",
+"l": "Insee, France portrait social 2020, dossier sur les mesures socio-fiscales de 2019",
+"a": 2020,
+"u": "https://insee.fr/fr/statistiques/fichier/4797668/FPS2020-D2.pdf"
+},
+{
+"l": "Cahuc et Carcillo, The Detaxation of Overtime Hours: Lessons from the French Experiment (IZA DP 5439 ; Journal of Labor Economics 2014)",
 "a": 2011,
 "u": "https://docs.iza.org/dp5439.pdf"
+},
+{
+"l": "Insee, note pour le Groupe d'experts sur le SMIC (annexe 1 du rapport 2025)",
+"a": 2025,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/301429_0.pdf"
 }
 ]
-],
+},
 "philippe.immigration": {
 "constat": "Les entrées d'immigrés en France sont passées de 259 000 en 2014 à 313 000 en 2024 (Insee).",
 "constat_s": [
@@ -2391,7 +2664,7 @@
 "complement_ref": [
 "philippe.famille"
 ],
-"constat": "La fécondité est passée de 2,03 enfants par femme en 2010 à 1,61 en 2024 (Eurostat).",
+"constat": "La fécondité est passée de 1,83 enfant par femme en 2019 à 1,53 en 2025 (Insee, métropole).",
 "constat_s": [
 1
 ],
@@ -2416,9 +2689,9 @@
 "u": "https://www.insee.fr/fr/statistiques/4226475"
 },
 {
-"l": "Eurostat, indicateur conjoncturel de fécondité, France (demo_find)",
+"l": "Insee, indicateur conjoncturel de fécondité, France métropolitaine (série 001686825)",
 "a": 2026,
-"u": "https://ec.europa.eu/eurostat/databrowser/view/demo_find/default/table"
+"u": "https://www.insee.fr/fr/statistiques/serie/001686825"
 }
 ]
 },
@@ -3084,27 +3357,51 @@
 }
 ]
 ],
-"retailleau.travail": [
-"Pendant l'expérimentation 2023-2024 du RSA avec heures d'activité et suivi renforcé, l'emploi salarié des participants a augmenté d'environ 3 points en un an (Dares-IPP, 2026) ; une aide unique simplifie aussi les démarches.",
-"Le même bilan ne trouve pas d'effet net sur l'emploi local, les gains étant compensés chez d'autres allocataires ; le plafond commun réduit les aides des foyers qui en cumulent plusieurs, comme les familles nombreuses.",
-[
+"retailleau.travail": {
+"constat": "Un tiers des foyers éligibles au RSA ne le demandent pas, comme en 2010-2011 (Drees, Cour des comptes).",
+"constat_s": [
+1
+],
+"pour": "Un accompagnement avec des heures d'activité fait reprendre un emploi plus vite aux allocataires.",
+"preuve_pour": "mitigé",
+"contre": "Les emplois trouvés par les participants sont pris à d'autres allocataires, sans création nette.",
+"preuve_contre": "mitigé",
+"cas_pour": [
 {
-"l": "Dares-IPP, évaluation de l'accompagnement rénové du RSA (rapport IPP n° 68)",
+"t": "Avec 15 heures d'activité et un suivi renforcé, l'emploi salarié des allocataires du RSA participants a augmenté d'environ 3 points en un an (Dares-IPP, France, 2026).",
+"s": [
+0
+]
+},
+{
+"t": "Après la fusion de 2016 dans la prime d'activité, le non-recours est passé de 68 % pour l'ancien RSA activité à un peu moins de 30 % (Cour des comptes, France, 2026).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Pas d'effet net sur l'emploi : les gains des participants sont compensés par des pertes chez les autres allocataires de la zone (Dares-IPP, France, 2026).",
+"s": [
+0
+]
+}
+],
+"etudes": "Une grande évaluation française : plus d'emploi pour les participants, pas d'effet net à court terme. La fusion de 2016 a nettement amélioré le recours à l'aide.",
+"src": [
+{
+"l": "Dares-IPP, évaluation de l'accompagnement rénové des bénéficiaires du RSA (rapport IPP n° 68, synthèse)",
 "a": 2026,
 "u": "https://www.ipp.eu/wp-content/uploads/2026/07/Synthese_Rapport_IPP_evaluation_accompagnement_renove_bRSA-1.pdf"
 },
 {
-"l": "Drees (via Maire-info), non-recours au RSA",
-"a": 2022,
-"u": "https://www.maire-info.com/aide-sociale/precarite-un-tiers-des-foyers-eligibles-au-rsa-nen-fait-toujours-pas-la-demande-art26-26116"
-},
-{
-"l": "iFRAP, scénarios de plafonnement d'une allocation unique",
-"a": 2024,
-"u": "https://www.ifrap.org/emploi-et-politiques-sociales/12-34-milliards-deuros-deconomies-les-differents-scenarios-dun-plafonnement-dune-allocation-sociale-unique-par-rapport"
+"l": "Cour des comptes, La prime d'activité (communication à la commission des finances du Sénat)",
+"a": 2026,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/303828.pdf"
 }
 ]
-],
+},
 "zemmour.aides": {
 "constat": "Les prestations sociales font 11 % du niveau de vie des immigrés, 6 % de celui des non-immigrés (Insee, 2021).",
 "constat_s": [
