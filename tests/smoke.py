@@ -36,6 +36,8 @@ with sync_playwright() as p:
         pg.evaluate('quizStart()')
         qs = pg.evaluate('quizState.qs.map(q=>q.opts.map(o=>o.c))'); c = Counter(x for q in qs for x in q)
         if len(qs) != 16 or set(c.values()) != {4}: bad += 1
+    sans_effets = pg.evaluate("D.candidates.flatMap(c=>c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)&&!(m.quiz_plus&&m.quiz_moins)).map(m=>c.id+'.'+m.id))")
+    check(not sans_effets, f'quiz : chaque proposition a ses deux effets {sans_effets[:3]}')
     check(bad == 0, f'quiz équilibré sur 50 tirages ({bad} écarts)')
 
     pg.evaluate("go('moi')"); worst = 0

@@ -1,0 +1,283 @@
+{
+"_regles": "Deux effets factuels par proposition : [ce que ça apporte, en contrepartie]. Pas de coût en euros pour les finances publiques, pas de faisabilité, pas de jugement moral, pas de chiffre propre à un candidat. Formulations communes pour les dépenses, les baisses d'impôt et les retraites.",
+"attal.annee_blanche": [
+"Moins de dépenses de prestations sociales en 2028.",
+"Prestations non revalorisées pendant un an, sauf les petites retraites."
+],
+"attal.bebe": [
+"Une épargne retraite ouverte pour chaque nouveau-né, que la famille peut compléter.",
+"Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+],
+"attal.europe": [
+"Davantage de décisions et de budget au niveau européen, avec un président élu.",
+"Davantage de compétences transférées de la France à l'Union."
+],
+"attal.fonctionnaires": [
+"Moins de dépenses de personnel public.",
+"Moins d'agents dans les services autres que l'école, l'armée, la justice et la police."
+],
+"attal.immigration": [
+"Immigration de travail fixée chaque année par le Parlement selon les besoins.",
+"Nombre d'entrées plafonné ; regroupement familial plus restreint."
+],
+"attal.profs": [
+"Rémunération des enseignants en hausse, surtout en milieu de carrière.",
+"Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+],
+"attal.regle_or": [
+"Équilibre du budget inscrit dans la Constitution.",
+"Chaque budget doit trouver des économies ou des recettes pour respecter la règle."
+],
+"attal.retraites": [
+"Départ au moment choisi, selon la durée cotisée.",
+"Pension plus basse en cas de départ tôt, plus haute en cas de départ tard."
+],
+"attal.travail": [
+"Les salariés peuvent faire davantage d'heures sup dans l'année.",
+"Le seuil de 220 h, qui déclenche aujourd'hui un repos compensateur, disparaît."
+],
+"glucksmann.defense": [
+"Équipements de défense européens financés en commun.",
+"Dette européenne commune, à rembourser par les États ou par des ressources propres de l'Union."
+],
+"glucksmann.ecole": [
+"Plus de moyens pour l'école : salaires, élèves par classe, bâtiments.",
+"Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+],
+"glucksmann.heritages": [
+"Salaires nets en hausse, financés par la taxe.",
+"Les 1 % plus gros héritages sont davantage taxés."
+],
+"glucksmann.industrie": [
+"Les entreprises européennes sont favorisées dans les achats publics.",
+"Certains achats publics et produits importés peuvent coûter plus cher."
+],
+"glucksmann.retraites": [
+"Départ plus tôt qu'avec les règles actuelles, encore plus tôt pour les métiers pénibles.",
+"Davantage de pensions versées, à financer par des cotisations, des impôts ou de la dette."
+],
+"glucksmann.service_civique": [
+"Chaque classe d'âge effectue dix mois de mission d'intérêt général.",
+"Dix mois obligatoires pour chaque jeune ; accueil à organiser pour environ 800 000 jeunes par an."
+],
+"glucksmann.smic": [
+"Environ +120 € net par mois au niveau du SMIC.",
+"Coût du travail plus élevé pour les employeurs ; effet sur l'emploi peu qualifié discuté par les études."
+],
+"glucksmann.ukraine": [
+"Davantage d'armes livrées à l'Ukraine.",
+"Dépense publique en plus, sauf financement par les avoirs russes gelés."
+],
+"le-pen.ame": [
+"Moins de dépenses d'aide médicale d'État.",
+"Les étrangers sans titre de séjour ne sont pris en charge que pour les soins urgents."
+],
+"le-pen.enr": [
+"Moins de dépenses publiques de soutien aux nouveaux parcs éoliens et solaires.",
+"Moins de nouvelle production d'électricité éolienne et solaire."
+],
+"le-pen.etat": [
+"Moins de dépenses de fonctionnement publiques.",
+"Moins d'agents publics et de structures ; leurs missions sont supprimées ou reprises ailleurs."
+],
+"le-pen.fraude": [
+"Davantage d'impôts et de cotisations dus réellement encaissés.",
+"Plus de contrôles et d'obligations déclaratives pour les entreprises."
+],
+"le-pen.immigration": [
+"Moins de dépenses d'allocations familiales et de RSA.",
+"Les étrangers ayant moins de 5 ans de travail en France ne touchent plus ces aides."
+],
+"le-pen.production": [
+"Les entreprises paient moins d'impôts, qu'elles fassent des bénéfices ou non.",
+"Recettes en moins pour l'État et les collectivités, à compenser par des économies, des impôts ou de la dette."
+],
+"le-pen.retraites": [
+"Départ plus tôt qu'avec les règles actuelles, dès 60 ans pour les carrières commencées avant 20 ans.",
+"Davantage de pensions versées, à financer par des cotisations, des impôts ou de la dette."
+],
+"le-pen.tva": [
+"Prix de l'énergie et des carburants plus bas, si la baisse de taxe est répercutée.",
+"Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+],
+"le-pen.tva-produits-essentiels": [
+"Prix de ces produits plus bas, si la baisse de taxe est répercutée.",
+"Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+],
+"le-pen.ue": [
+"La France verse moins au budget européen.",
+"Moins de crédits européens à répartir, dont une partie revient en France (agriculture, régions)."
+],
+"lisnard.aides5": [
+"Moins de dépenses d'aides non contributives.",
+"Les étrangers résidant depuis moins de 5 ans ne touchent plus ces aides."
+],
+"lisnard.allocation": [
+"Une seule aide, plus simple.",
+"Montant plafonné : certains bénéficiaires touchent moins qu'aujourd'hui."
+],
+"lisnard.ame": [
+"Moins de dépenses d'aide médicale d'État.",
+"Les étrangers sans titre de séjour ne sont pris en charge que pour les soins urgents."
+],
+"lisnard.cotisations": [
+"Salaire net en hausse grâce à moins de cotisations.",
+"Montant dépendant des économies réalisées par l'État."
+],
+"lisnard.fonction": [
+"Moins de dépenses de personnel et d'agences publiques.",
+"Moins d'agents publics ; agences supprimées."
+],
+"lisnard.impots": [
+"Les entreprises paient moins d'impôts de production.",
+"Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+],
+"lisnard.is20": [
+"Les entreprises bénéficiaires paient moins d'impôt sur leurs bénéfices.",
+"Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+],
+"lisnard.profs": [
+"Rémunération des enseignants en hausse sur cinq ans.",
+"Missions des enseignants réorganisées ; dépense publique en plus à financer."
+],
+"lisnard.referendum": [
+"Les citoyens peuvent déclencher des référendums sur davantage de sujets.",
+"Davantage de décisions prises par référendum plutôt que par le Parlement."
+],
+"lisnard.retraites": [
+"Davantage de cotisations et moins de pensions versées ; épargne retraite individuelle.",
+"Départ plus tard, à 65 ans ; une partie de la pension dépend du rendement de l'épargne."
+],
+"melenchon.constituante": [
+"Nouvelles règles : référendums d'initiative citoyenne, vote à la proportionnelle.",
+"Plusieurs années de travail constituant avant l'entrée en vigueur des nouvelles règles."
+],
+"melenchon.dette": [
+"Moins de dette publique à rembourser à la banque centrale.",
+"Les prêteurs peuvent demander des taux d'intérêt plus élevés sur la nouvelle dette."
+],
+"melenchon.fiscalite": [
+"Recettes publiques en plus, payées par les plus hauts patrimoines et héritages.",
+"Les très hauts patrimoines et héritages paient davantage ; certains contribuables peuvent s'installer à l'étranger."
+],
+"melenchon.jeunes": [
+"Un revenu versé aux jeunes en études ou en formation, selon leurs ressources.",
+"Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+],
+"melenchon.niches": [
+"Recettes publiques en plus.",
+"Ceux qui emploient à domicile, financent de la recherche ou transmettent une entreprise paient plus."
+],
+"melenchon.point_indice": [
+"Salaire de base des agents publics en hausse de 10 %.",
+"Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+],
+"melenchon.prix": [
+"Prix de l'alimentation et de l'énergie de base gelés, pour une durée limitée.",
+"Marges réduites pour producteurs et distributeurs, ou compensation versée par l'État."
+],
+"melenchon.retraites": [
+"Départ plus tôt qu'avec les règles actuelles.",
+"Davantage de pensions versées, à financer par des cotisations, des impôts ou de la dette."
+],
+"melenchon.smic": [
+"Environ +220 € net par mois au niveau du SMIC.",
+"Coût du travail plus élevé pour les employeurs ; effet sur l'emploi peu qualifié discuté par les études."
+],
+"philippe.chomage": [
+"Moins de dépenses d'assurance chômage.",
+"Les chômeurs de moins de 50 ans sont indemnisés 12 mois au plus, contre 18."
+],
+"philippe.famille": [
+"Une allocation dès le premier enfant, et des avantages fiscaux pour les familles.",
+"Allocation réduite pour les hauts revenus ; dépense publique en plus à financer."
+],
+"philippe.fonction": [
+"Moins de dépenses de personnel public.",
+"Moins d'agents publics au fil des départs à la retraite."
+],
+"philippe.fonds_climat": [
+"Un financement dédié contre les inondations, canicules et incendies.",
+"Crédits pris sur d'autres dépenses, ou dépense publique en plus."
+],
+"philippe.heures_sup": [
+"Plus de salaire net sur les heures travaillées au-delà de 35 h.",
+"Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+],
+"philippe.immigration": [
+"Moins de titres de séjour délivrés chaque année.",
+"Les étrangers installés ne peuvent plus faire venir leur famille pendant le moratoire."
+],
+"philippe.jeunes_parents": [
+"Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents concernés.",
+"Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+],
+"philippe.production": [
+"Les entreprises paient moins d'impôts de production.",
+"Les entreprises reçoivent moins d'aides publiques."
+],
+"philippe.profs": [
+"Rémunération des enseignants en hausse sur cinq ans.",
+"Dépense publique en plus, à financer par des économies, des impôts ou de la dette."
+],
+"philippe.retraites": [
+"Davantage de cotisations et moins de pensions versées.",
+"Départ plus tard qu'avec les règles actuelles, à 65 ans."
+],
+"retailleau.ame": [
+"Moins de dépenses d'aide médicale d'État.",
+"Les étrangers sans titre de séjour ne sont pris en charge que pour les soins urgents."
+],
+"retailleau.energie": [
+"Davantage de production nucléaire ; véhicules anciens à nouveau autorisés en ville.",
+"Moins de nouvelle production solaire et éolienne en mer ; investissement public dans 8 réacteurs."
+],
+"retailleau.etat": [
+"Moins de dépenses de personnel et d'agences publiques.",
+"Moins d'agents publics ; temps de travail allongé et 3 jours de carence pour ceux qui restent."
+],
+"retailleau.fin_maprimerenov": [
+"Moins de dépenses publiques.",
+"Plus d'aide de l'État pour isoler un logement ou changer de chauffage."
+],
+"retailleau.immigration": [
+"Moins d'acquisitions de la nationalité et moins de dépenses d'aides sociales.",
+"Naître en France ne donne plus droit à la nationalité ; aides versées après 5 ans de travail."
+],
+"retailleau.production": [
+"Les entreprises paient moins d'impôts ; heures sup sans cotisations.",
+"Recettes publiques en moins, à compenser par des économies, des impôts ou de la dette."
+],
+"retailleau.retraites": [
+"Départ possible dès 63 ans.",
+"Pension réduite pour tout départ avant 65 ans."
+],
+"retailleau.securite": [
+"Peines minimales garanties pour certains délits.",
+"Le juge ne peut plus descendre sous le seuil ; davantage de détenus à loger."
+],
+"retailleau.travail": [
+"Une seule aide au lieu de trois.",
+"Les bénéficiaires doivent 15 heures d'activité par semaine ; montant total des aides plafonné."
+],
+"zemmour.aides": [
+"Moins de dépenses de prestations sociales.",
+"Les étrangers hors Union européenne ne touchent plus que les aides liées à leurs cotisations."
+],
+"zemmour.cedh": [
+"Moins d'arrivées au titre du regroupement familial.",
+"Les étrangers installés ne peuvent plus faire venir leur famille ; la France quitte la CEDH."
+],
+"zemmour.fonctionnaires": [
+"Moins de dépenses de personnel public.",
+"Moins d'agents dans les services autres que l'enseignement, la santé, la police et l'armée."
+],
+"zemmour.remigration": [
+"Moins d'étrangers sans emploi, condamnés ou sans titre sur le territoire.",
+"Les étrangers en règle au chômage depuis un an perdent leur droit au séjour."
+],
+"zemmour.retraites": [
+"Davantage de cotisations et moins de pensions versées si l'âge passe à 65 ans.",
+"Départ à 64 ou 65 ans."
+]
+}

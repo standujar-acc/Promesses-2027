@@ -15,6 +15,7 @@ python3 tests/smoke.py      # Playwright + Chromium
 - `build.py` : textes de la méthode (`D.method`) et historique (`D.changelog`, ajouter une entrée datée à chaque changement visible).
 - `life.py` : volet vie quotidienne. `OVR` = même lecture d'une étude pour un même type de mesure ; `VFLIP` = même test « précis / intention ».
 - `data/quiz_plain.json` : textes du quiz en langage courant (`[texte, concrètement]`) ; pas de coût, pas de faisabilité, pas de chiffre qui trahit le candidat. Une mesure sans entrée n'apparaît pas dans le quiz.
+- `data/quiz_effets.json` : deux effets factuels par proposition du quiz (`[ce que ça apporte, en contrepartie]`), sans morale ni coût ; formulations communes pour les dépenses, les baisses d'impôt et les retraites. Le test vérifie que chaque proposition du quiz a ses deux effets.
 - `template.html` : toute l'app (HTML/CSS/JS sans dépendance). Fonctionne en artifact claude.ai (`window.claude`) et en site autonome (`WEB` : fonctions `/api/report`, `/api/reports`).
 
 ## Règles de chiffrage (résumé ; détail dans `D.method` et METHODOLOGIE.md)

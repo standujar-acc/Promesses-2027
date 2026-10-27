@@ -298,6 +298,12 @@ for c in D['candidates']:
     for m in c['measures']:
         k=c['id']+'.'+m['id']
         if k in QP: m['quiz_text'],m['quiz_concret']=QP[k]
+QE={k:v for k,v in json.load(open('data/quiz_effets.json')).items() if not k.startswith('_')}
+for c in D['candidates']:
+    for m in c['measures']:
+        k=c['id']+'.'+m['id']
+        if k in QE: m['quiz_plus'],m['quiz_moins']=QE[k]
+assert set(QE)<={c['id']+'.'+m['id'] for c in D['candidates'] for m in c['measures']}, "quiz_effets.json : mesure inconnue"
 for c0 in D['candidates']:
     for m in c0['measures']:
         if m.get('quiz_text'): m['quiz_text']=re.sub(r"\s+\.$",".",m['quiz_text']).replace(' .','.')
