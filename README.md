@@ -3,18 +3,18 @@
 Les programmes des candidats à la présidentielle française de 2027 (1er tour le 18 avril 2027), chiffrés mesure par mesure avec une méthode unique, confrontés aux estimations indépendantes publiées et aux obstacles juridiques. Simulateur personnel, quiz à l'aveugle, faisabilité, et un volet « vie quotidienne » (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement).
 
 <!-- totaux:debut (généré par pipeline/run.py, ne pas modifier à la main) -->
-Données à jour au 27 octobre 2026 : 8 candidats, 76 mesures.
+Données à jour au 27 octobre 2026 : 8 candidats, 125 mesures.
 
 | Candidat | Parti | Mesures chiffrées | Effet sur le déficit en 2030 (Md€/an) | Fourchette à 80 % |
 | --- | --- | --- | --- | --- |
-| Marine Le Pen | RN | 10 | −31,2 | −49,8 à −10,8 |
-| Jean-Luc Mélenchon | LFI | 7 | −90,4 | −120,6 à −51,3 |
-| Raphaël Glucksmann | PS-Place publique | 5 | −36,5 | −44,4 à −30,1 |
-| Édouard Philippe | Horizons | 8 | +2,6 | −28,8 à +6,9 |
-| Bruno Retailleau | LR | 9 | +13,5 | +4,2 à +23,7 |
-| Gabriel Attal | Renaissance | 4 | +4,0 | +0,6 à +6,3 |
-| David Lisnard | Nouvelle Énergie | 6 | −16,0 | −60,3 à −11,4 |
-| Éric Zemmour | Reconquête | 4 | +21,5 | +13,8 à +27,3 |
+| Marine Le Pen | RN | 26 | −66,8 | −88,4 à −47,3 |
+| Jean-Luc Mélenchon | LFI | 19 | −126,2 | −156,6 à −87,2 |
+| Raphaël Glucksmann | PS-Place publique | 7 | −44,7 | −52,9 à −37,7 |
+| Édouard Philippe | Horizons | 10 | +2,6 | −28,5 à +6,9 |
+| Bruno Retailleau | LR | 12 | −1,0 | −9,0 à +10,9 |
+| Gabriel Attal | Renaissance | 5 | +4,2 | −1,5 à +5,9 |
+| David Lisnard | Nouvelle Énergie | 10 | −29,4 | −76,5 à −26,3 |
+| Éric Zemmour | Reconquête | 9 | +21,3 | +14,0 à +34,0 |
 <!-- totaux:fin -->
 
 Un montant négatif creuse le déficit. Ces totaux supposent que toutes les mesures passent, y compris celles qui exigent une révision de la Constitution ou des traités. Les mesures non reconfirmées en 2026 et celles dont un paramètre clé n'est pas publié sont hors total.
