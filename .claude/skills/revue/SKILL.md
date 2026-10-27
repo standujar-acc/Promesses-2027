@@ -35,7 +35,7 @@ Lire d'abord `CLAUDE.md` (règles de neutralité et de chiffrage), `DEVELOPPER.m
    - Un remplacement de lien passe par `URLFIX` dans le bloc daté, avec le contrôle qui fait échouer le pipeline si un remplacement ne sert pas ; un remplacement de texte est précédé d'un `assert` sur le texte attendu.
    - Vie quotidienne : `pipeline/data/life-*.json` et `pipeline/life.py` (`OVR`, `VFLIP`).
    - Quiz : `pipeline/data/quiz_plain.json` et `pipeline/data/quiz_effets.json` (mesures : clé `candidat.mesure` ; propositions « Vie quotidienne » précises et reconfirmées : clé `candidat.thème.n`). Une proposition « Vie quotidienne » qui devient précise ou est reconfirmée sur l'école, la santé ou le logement reçoit son texte et ses deux explications.
-   - Texte de méthode : `D.method` dans `pipeline/build.py` et `METHODOLOGIE.md`.
+   - Texte de méthode : `D.method` dans `pipeline/build.py` (METHODOLOGIE.md en est généré par `run.py`).
    - Tout changement visible sur le site : une entrée datée dans `D.changelog` (`pipeline/build.py`), **ajoutée après les autres** (la dernière ajoutée s'affiche en haut) ; une seule entrée par sujet et par jour, à compléter plutôt qu'à empiler.
    - Date « Mis à jour le » : `D['asof']` dans le bloc daté de `corrections.py`.
    - Jamais d'édition à la main de `public/`.

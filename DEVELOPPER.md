@@ -51,7 +51,7 @@ Règle d'or : **un changement qui demande un arbitrage** (méthode, interprétat
 | Simulateur : paramètres d'un candidat | clé `sim` du candidat, dans `pipeline/corrections.py` (blocs « simulateur ») | Aucun gain pour une mesure non chiffrée ou non confirmée ; mêmes hypothèses pour une même mesure ; les pertes comptées comme les gains. |
 | Simulateur : droit actuel | `D['statu_quo']` (`SQ`) dans `pipeline/corrections.py` | Valeur et source officielle (service-public.gouv.fr, Insee…). |
 | Simulateur ou quiz : calcul, affichage | `pipeline/template.html` | Ajouter un contrôle dans `tests/smoke.py` pour tout nouveau réglage ou toute nouvelle règle. |
-| Texte de méthode | `D['method']` dans `pipeline/build.py` **et** `METHODOLOGIE.md` | Les deux disent la même chose. |
+| Texte de méthode | `D['method']` dans `pipeline/build.py` | `METHODOLOGIE.md` en est généré par `run.py` (ne pas l'éditer à la main ; la CI vérifie qu'il est à jour). |
 | Déploiement | `DEPLOY.md` | — |
 
 ## 4. Avant de pousser : liste de contrôle
@@ -61,7 +61,7 @@ Règle d'or : **un changement qui demande un arbitrage** (méthode, interprétat
 - [ ] Toute URL ajoutée a été ouverte et dit bien ce qu'on lui fait dire.
 - [ ] Registre `suivi.json` à jour (points ouverts, résolus, à trancher).
 - [ ] Entrée d'historique (une par sujet et par jour, ajoutée en dernier) et date `asof` à jour.
-- [ ] Méthode (site et METHODOLOGIE.md) à jour si une règle change.
+- [ ] Méthode (`D['method']`, d'où METHODOLOGIE.md est généré) à jour si une règle change.
 - [ ] Rien d'édité à la main dans `public/` ni dans le tableau du README.
 
 ## 5. Tests automatiques (`tests/smoke.py`)

@@ -437,6 +437,33 @@ sz['minima_sociaux']=sz['minima_sociaux'].replace("RSA limité à 3 ans pour les
 sz['independants']=sz['independants'].replace("(paramètres 2022).","(programme 2022, non reconfirmée en 2026, non comptée).")
 assert 'non reconfirmé' in sz['fonctionnaires'] and 'non reconfirmé' in sz['minima_sociaux'] and 'non comptée' in sz['independants']
 
+# --- review 9 : audit de cohérence des chiffres (27/10/2026) ; corrections vérifiées
+# Philippe, retraites : la formule donne 1,8 + 4 = 5,8 (même base que Lisnard et Zemmour), pas 6
+k=M('philippe','retraites')['claude']; assert k['central']==6; k['central']=5.8
+k['formula']="Fin de la suspension ≈ +1,8 Md€ + 65 ans au lieu de 64 en 2030 (17,6 − 13,6 = +4) = +5,8 Md€"
+# Mélenchon, retraites : passage à 60 ans rendu reproductible (moitié du surcoût au-delà de 62 ans en 2030)
+k=M('melenchon','retraites')['claude']; assert k['central']==-32.2; k['central']=-32.0
+k['formula']=k['formula'].replace("moitié du surcoût en 2030 (50 à 58 Md€ à pleine charge), ≈ 20,4 ; total ≈ −32,2","moitié du surcoût au-delà de 62 ans en 2030 : (54 − 13,6) / 2 ≈ 20,2 (retour à 60 ans : 50 à 58 Md€ à pleine charge, médiane 54 ; 13,6 déjà rendus par le retour à 62 ans) ; total ≈ −32,0")
+assert '−32,0' in k['formula']
+# Zemmour, impôts de production (hors total) : 30,4 − 6 − 4 = 20,4
+k=M('zemmour','production')['claude']; assert k['central']==-21; k['central']=-20.4; k['formula']="30,4 Md€ − 6 Md€ d'IS récupéré − CVAE déjà supprimée (≈4) = −20,4 Md€"
+# Le Pen : note contraire à la règle commune (CVAE déjà supprimée) ; proposition alignée sur le chiffre du camp affiché
+k=M('le-pen','production')['claude']; assert 'CVAE pourrait' in k['note']; k['note']="Suppose la CFE incluse ; CVAE retirée, déjà supprimée par la loi en 2030 (règle commune)"
+m=M('le-pen','ue'); assert 'autour de 5 Md€' in m['proposal']; m['proposal']="Réduire la contribution française au budget européen (9 Md€ en 2027, 13 Md€ en 2031 selon le contre-budget)."
+# Retailleau, peines planchers : même lecture que le quiz et le volet Vie quotidienne (IPP 2024)
+m=M('retailleau','securite'); e=m['estimates'][0]; assert e['source'].startswith('Terra Nova')
+e['value']="2007-2014 : ≈4 000 années de détention de plus par an"
+m['estimates'].insert(1,{"source":"IPP (note n° 105)","year":2024,"value":"Peines planchers de 2007 : récidive ciblée −13 % à quatre ans ; prononcées dans 38 % des cas possibles","low_md":None,"high_md":None,"url":"https://www.ipp.eu/wp-content/uploads/2024/03/Note_IPP_105_peines_planchers.pdf"})
+# mesures non chiffrables : même formule pour toutes (« Non chiffrable : paramètre non publié »), l'ordre de grandeur reste en note
+for cid,mid,f in (('glucksmann','ecole',"Non chiffrable : ampleur des hausses de salaire et des recrutements non publiée (règle commune : 3,3 Md€ par tranche de +10 % de salaire des enseignants)"),
+                  ('melenchon','niches',"Non chiffrable : taux de rabot non publié (les trois niches visées pèsent ≈ 20 Md€ : crédit d'impôt recherche 7,65, Dutreil ≈ 5,3, emploi à domicile 6,86)"),
+                  ('lisnard','fonction',"Non chiffrable : part des départs non remplacés non publiée (règle commune : 61,6 k€ par poste, moitié rendue aux agents, 70 % du plan en 2030)"),
+                  ('lisnard','allocation',"Non chiffrable : plafond non publié (scénarios iFRAP : 12 à 34 Md€ selon le plafond)")):
+    k=M(cid,mid)['claude']; assert k.get('nc'), (cid,mid); k['formula']=f
+# « Ce qui n'est pas compté » : pas de mesure comptée dans la liste
+t0=C['attal']['claude_total']; assert 'salaires des enseignants, ' in t0['missing']; t0['missing']=t0['missing'].replace('salaires des enseignants, ','')
+t0=C['philippe']['claude_total']; assert "réduction d'impôt à la naissance, " in t0['missing']; t0['missing']=t0['missing'].replace("réduction d'impôt à la naissance, ","")
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
