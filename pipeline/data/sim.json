@@ -1,0 +1,206 @@
+{
+ "le-pen": {
+  "retraite": {
+   "age_legal": 62,
+   "age_taux_plein": null,
+   "carriere_longue": "Départ à 60 ans avec 40 annuités pour ceux qui ont commencé avant 20 ans.",
+   "regle": "Retour progressif à 62 ans avec 42 annuités ; pilier de capitalisation ; détail promis le 17 novembre."
+  },
+  "smic_net": null,
+  "salaire_net": null,
+  "alloc_familiales": null,
+  "alloc_perte_etrangers": true,
+  "tva_energie": 5.5,
+  "salaire_note": "Hausses de salaire jusqu'à 10 % exonérées de cotisations patronales (jusqu'à 3 SMIC) : gain net non chiffré.",
+  "fonctionnaires": "Au moins 200 000 postes supprimés en cinq ans (collectivités, agences, organismes).",
+  "chomeurs": null,
+  "minima_sociaux": "Prestations réindexées ; minimum vieillesse à 1 000 €/mois ; aides de solidarité réservées en priorité aux Français.",
+  "jeunes": "Moins de 30 ans exonérés d'impôt sur le revenu (gain moyen estimé à 374 €/an en 2022).",
+  "retraites_actuels": "Pensions indexées sur l'inflation ; petites retraites revalorisées.",
+  "independants": "Suppression de la CFE et des autres impôts de production ; priorité aux PME dans les marchés publics.",
+  "etrangers": "RSA, prime d'activité, AAH et APL après 5 ans de travail ; allocations familiales réservées aux foyers avec un parent français ; AME remplacée par une aide d'urgence. Exige une révision de la Constitution.",
+  "patrimoine": [
+   {
+    "seuil": 1300000,
+    "effet": "IFI supprimé, remplacé par un impôt sur la fortune financière (seuil inconnu)."
+   }
+  ],
+  "heritage": [
+   {
+    "seuil": 100000,
+    "effet": "Donations exonérées jusqu'à 100 000 € par enfant tous les 10 ans (version 2024)."
+   }
+  ],
+  "alloc_perte_scope": "all",
+  "ir_exempt_under": 30,
+  "cfe_suppr": true,
+  "cfe_note": "Suppression de la CFE"
+ },
+ "melenchon": {
+  "retraite": {
+   "age_legal": 60,
+   "age_taux_plein": null,
+   "carriere_longue": null,
+   "regle": "60 ans à taux plein après 40 annuités ; 62 ans dès 2027, 60 ans plus tard dans le mandat."
+  },
+  "smic_net": 1700,
+  "salaire_net": null,
+  "alloc_familiales": null,
+  "tva_energie": null,
+  "fonctionnaires": "Hausse du point d'indice : ≈ +8 % d'après les 17 Md€ annoncés (taux non publié) ; 10 000 enseignants et 10 000 soignants recrutés.",
+  "chomeurs": "Abrogation des réformes récentes de l'assurance chômage.",
+  "minima_sociaux": "Toutes les prestations indexées, APL +10 %, minimum vieillesse porté au seuil de pauvreté.",
+  "jeunes": "Garantie d'autonomie jusqu'à 1 337 €/mois pour les 18-25 ans en formation, sous conditions.",
+  "retraites_actuels": "Pensions indexées sur les salaires ; pension minimale au niveau du SMIC pour une carrière complète.",
+  "independants": "Pas de mesure spécifique publiée ; concernés par le barème de l'impôt sur le revenu à 14 tranches.",
+  "etrangers": null,
+  "patrimoine": [
+   {
+    "seuil": 1300000,
+    "effet": "Retour d'un ISF « climatique » (en 2022 : 1 % de 2 à 8 M€, 2 % jusqu'à 1 Md€, 3 % au-delà)."
+   },
+   {
+    "seuil": 100000000,
+    "effet": "Taxe Zucman : impôt plancher de 2 % au-delà de 100 M€."
+   }
+  ],
+  "heritage": [
+   {
+    "seuil": 2000000,
+    "effet": "Droits de succession relevés sur les gros héritages."
+   },
+   {
+    "seuil": 12000000,
+    "effet": "Part de l'héritage au-delà de 12 M€ prélevée à 100 %."
+   }
+  ],
+  "extra": "Impôt sur le revenu à 14 tranches : hausse annoncée pour les hauts revenus, seuils non publiés.",
+  "point_indice_pct": 8.2
+ },
+ "philippe": {
+  "retraite": {
+   "age_legal": 65,
+   "age_taux_plein": 67,
+   "carriere_longue": "Environ un actif sur trois pourrait partir entre 60 et 64 ans (carrières longues, pénibilité, santé).",
+   "regle": "Rétablir 64 ans, puis 65 ans et 45 annuités en moins de dix ans ; capitalisation obligatoire."
+  },
+  "smic_net": null,
+  "salaire_net": null,
+  "alloc_familiales": {
+   "1": 350,
+   "2": null,
+   "3": null,
+   "par_enfant_sup": null,
+   "note": "Allocation unique de 350 €/mois dès le premier enfant, dégressive selon les revenus"
+  },
+  "tva_energie": null,
+  "fonctionnaires": "Un départ en retraite sur trois non remplacé, deux jours de carence, enseignants payés +20 % sur le quinquennat.",
+  "chomeurs": "Indemnisation plafonnée à 12 mois pour les moins de 50 ans (18 aujourd'hui).",
+  "minima_sociaux": null,
+  "jeunes": "500 € versés par l'État sur un plan d'épargne retraite au premier contrat de travail.",
+  "retraites_actuels": "Économies sur les retraités « qui le peuvent » jugées légitimes ; mesure non précisée.",
+  "independants": "Suppression des impôts de production (dont la CFE) contre 50 Md€ d'aides aux entreprises en moins ; moratoire sur les nouvelles normes.",
+  "etrangers": "Immigration légale divisée par deux, moratoire sur le regroupement familial.",
+  "patrimoine": [],
+  "heritage": [],
+  "overtime": {
+   "annual_at_smic": 1000,
+   "label": "2 heures sup par semaine sans cotisations"
+  },
+  "enseignants_pct": 20,
+  "cfe_suppr": true,
+  "cfe_note": "Suppression de la CFE, compensée par 50 Md€ d'aides aux entreprises en moins"
+ },
+ "glucksmann": {
+  "retraite": {
+   "age_legal": 62,
+   "age_taux_plein": null,
+   "carriere_longue": "Départ plus tôt, jusqu'à 60 ans, pour les carrières hachées et métiers pénibles ; plus tard pour les cadres.",
+   "regle": "Abrogation de la réforme 2023, retour à 62 ans, modulé selon l'espérance de vie en bonne santé."
+  },
+  "smic_net": 1600,
+  "salaire_net": null,
+  "alloc_familiales": null,
+  "tva_energie": null,
+  "salaire_note": "Baisse de CSG sur les salaires financée par l'impôt sur les héritages (15 Md€ au total) : gain par salarié non chiffré.",
+  "fonctionnaires": "Enseignants : revalorisation « substantielle » sur 5 ans, sans montant ; moins d'élèves par classe en primaire.",
+  "chomeurs": null,
+  "minima_sociaux": null,
+  "jeunes": "Service civique obligatoire de 10 mois, volet militaire volontaire.",
+  "retraites_actuels": null,
+  "independants": "Pas de mesure spécifique publiée.",
+  "etrangers": "Régularisation des travailleurs sans papiers ; abrogation de la loi immigration 2024 ; vote aux élections locales pour les non-Européens.",
+  "patrimoine": [
+   {
+    "seuil": 100000000,
+    "effet": "Taxe Zucman (2 % au-delà de 100 M€) soutenue en 2025, reprise en 2027 non confirmée."
+   }
+  ],
+  "heritage": [
+   {
+    "seuil": 2000000,
+    "effet": "Hausse de la taxation des héritages au-delà de 2 M€ ; barème non publié."
+   }
+  ]
+ },
+ "retailleau": {
+  "retraite": {
+   "age_legal": 63,
+   "age_taux_plein": 65,
+   "carriere_longue": "Départ possible dès 63 ans avec 7 % de décote par année manquante ; taux plein automatique à 65 ans.",
+   "regle": "Âge minimal 63 ans, taux plein à 65 ans indexé ensuite sur l'espérance de vie ; part de capitalisation pour les jeunes."
+  },
+  "smic_net": null,
+  "salaire_net": null,
+  "alloc_familiales": {
+   "1": 240,
+   "2": 480,
+   "3": 720,
+   "par_enfant_sup": 240,
+   "note": "« Revenu familial » de 240 € par enfant, remplace 12 aides (comparé ici aux seules allocations familiales)"
+  },
+  "tva_energie": null,
+  "fonctionnaires": "1 623 h/an au lieu de 1 607, trois jours de carence au lieu d'un, 400 000 départs en retraite non remplacés.",
+  "chomeurs": "Fin des droits après 3 offres refusées ; ruptures conventionnelles limitées à 6 mois ; dégressivité au-delà de 3 000 € net.",
+  "minima_sociaux": "RSA, prime d'activité et ASS fusionnés (−30 %, 15 h d'activité) ; total des aides plafonné à 70 % du SMIC.",
+  "jeunes": "Part de retraite par capitalisation (25-30 %) pour les nouveaux entrants.",
+  "retraites_actuels": "Pas d'effet de la capitalisation ; cumul emploi-retraite réformé.",
+  "independants": "Suppression de la C3S et de la part industrielle de la CFE (surtout les grandes entreprises) ; pas de mesure spécifique publiée.",
+  "etrangers": "Revenu familial, aides familiales et hébergement d'urgence soumis à 5 ans de résidence et d'activité.",
+  "patrimoine": [],
+  "heritage": [],
+  "overtime": {
+   "monthly": 230,
+   "ref": 2115,
+   "label": "Heures au-delà de 1 607 h/an sans cotisations ni impôt"
+  }
+ },
+ "lisnard": {
+  "retraite": {
+   "age_legal": 65,
+   "age_taux_plein": null,
+   "carriere_longue": null,
+   "regle": "Âge légal 65 ans ; socle par répartition, minimum de 1 000 €/mois ; bascule progressive vers la capitalisation."
+  },
+  "smic_net": null,
+  "salaire_net": {
+   "gain_mensuel": 400,
+   "ref": 2733,
+   "prorata": true,
+   "independants": true,
+   "public": "actifs",
+   "note": "Baisse des cotisations : +400 € par mois à terme pour un salaire moyen (2 733 €), réparti ici au prorata du revenu (hypothèse)"
+  },
+  "alloc_familiales": null,
+  "tva_energie": null,
+  "fonctionnaires": "Une grande partie des ~500 000 départs annuels non remplacés ; ARS et DREAL supprimées.",
+  "chomeurs": "Contrat de travail unique fusionnant CDI et CDD.",
+  "minima_sociaux": "Allocation sociale unique plafonnée à un pourcentage du SMIC (non précisé).",
+  "jeunes": "Âge limite de l'apprentissage abaissé.",
+  "retraites_actuels": "Minimum vieillesse annoncé à 1 000 €/mois (il est déjà de 1 043,59 € en 2026).",
+  "independants": "Concernés par la baisse des cotisations ; pas d'autre mesure spécifique publiée.",
+  "etrangers": "Prestations non contributives réservées aux résidents réguliers depuis au moins 5 ans ; AME remplacée par une aide d'urgence.",
+  "patrimoine": [],
+  "heritage": []
+ }
+}

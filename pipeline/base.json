@@ -1,0 +1,4193 @@
+{
+ "asof": "26 octobre 2026",
+ "context": [
+  {
+   "v": "5,4 %",
+   "l": "déficit public 2026, en % du PIB"
+  },
+  {
+   "v": "121,7 %",
+   "l": "dette publique fin 2027"
+  },
+  {
+   "v": "4,92 %",
+   "l": "taux d'emprunt à 10 ans, plus haut depuis 2002"
+  },
+  {
+   "v": "0,4 %",
+   "l": "croissance 2026 (Insee)"
+  }
+ ],
+ "themes": {
+  "retraites": "Retraites",
+  "fiscalite": "Impôts",
+  "depense": "Dépense publique",
+  "travail": "Travail",
+  "social": "Social",
+  "immigration": "Immigration",
+  "energie": "Énergie",
+  "europe": "Europe",
+  "institutions": "Institutions",
+  "securite": "Sécurité"
+ },
+ "candidates": [
+  {
+   "id": "le-pen",
+   "name": "Marine Le Pen",
+   "party": "RN",
+   "poll": "33,5 %",
+   "summary": "Promet 140 Md€ d'économies d'ici 2032 et 30 Md€ de baisses d'impôts. L'Institut de l'Entreprise n'en juge crédibles que 3 à 7,5 Md€ ; le cœur du financement se heurte au Conseil constitutionnel.",
+   "measures": [
+    {
+     "id": "retraites",
+     "theme": "retraites",
+     "title": "Retour à 62 ans",
+     "proposal": "60 ans avec 40 annuités si début avant 20 ans ; sinon 62 ans et 42 annuités ; pilier de capitalisation.",
+     "claimed": "9 Md€/an pour 62 ans ; le RN affiche aussi 15-20 Md€ d'économies non détaillées",
+     "claimed_md": -9,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2024,
+       "value": "Version 60 ans pour carrières longues : 34,7 Md€/an",
+       "low_md": -44.7,
+       "high_md": -31.5,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/abroger-la-reforme-des-retraites-et-pour-ceux-ayant-commence-a-travailler-avant-20-ans-partir-a-40-annuites-de-cotisations"
+      },
+      {
+       "source": "francebudget.fr",
+       "year": 2026,
+       "value": "10 Md€ en 2030, 12,8 Md€/an dès 2032",
+       "low_md": -12.8,
+       "high_md": -10,
+       "url": "https://francebudget.fr/scenarios/rn-2027"
+      },
+      {
+       "source": "La Grande Conversation (Terra Nova)",
+       "year": 2026,
+       "value": "Coût affiché par le RN jugé sous-estimé ; « réparations » non détaillées",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.lagrandeconversation.com/politique/rn-les-mauvais-comptes-dun-budget-dope-a-lia/"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Majorité incertaine ; financement exigé par Bruxelles ; détails le 17/11",
+     "claude": {
+      "id": "retraites",
+      "central": -20,
+      "low": -35,
+      "high": -10,
+      "method": "médiane",
+      "formula": "Annulation du report à 64 ans : −11,8 Md€ en 2030 ; départ à 60 ans pour les carrières précoces : jusqu'à −26,5 Md€, réduit car 42 annuités pour les autres ; total ≈ −20",
+      "inputs": [
+       {
+        "label": "Rendement de la réforme 2023 en 2030",
+        "value": "11,8 Md€",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/ensemble-majorite-presidentielle/repousser-lage-de-depart-a-la-retraite-a-64-ans-avec-des-exemptions-pour-les-situations-de-penibilite-et-de-carrieres-longues"
+       },
+       {
+        "label": "Version RN 2024 (60 ans/40 annuités)",
+        "value": "34,7 Md€, dont 26,5 pour les carrières précoces",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/abroger-la-reforme-des-retraites-et-pour-ceux-ayant-commence-a-travailler-avant-20-ans-partir-a-40-annuites-de-cotisations"
+       },
+       {
+        "label": "Retour à 62 ans",
+        "value": "10 Md€ en 2030",
+        "source": "francebudget.fr",
+        "url": "https://francebudget.fr/scenarios/rn-2027"
+       }
+      ],
+      "note": "Les 15-20 Md€ de « corrections » annoncées par le RN, non détaillées, ne sont pas comptées"
+     }
+    },
+    {
+     "id": "immigration",
+     "theme": "immigration",
+     "title": "Priorité nationale",
+     "proposal": "Aides réservées aux Français ou après 5 ans de travail, AME remplacée, fin du droit du sol, par référendum.",
+     "claimed": "15 Md€ en 2027, 29 Md€ en année pleine",
+     "claimed_md": 29,
+     "estimates": [
+      {
+       "source": "Institut de l'Entreprise",
+       "year": 2026,
+       "value": "92 % du poste jugé fragile ; 18,1 Md€ écartés car juridiquement fragiles",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+      },
+      {
+       "source": "Institut Montaigne",
+       "year": 2024,
+       "value": "Volet immigration 2024 : ≈8 Md€/an",
+       "low_md": 8,
+       "high_md": 8,
+       "url": "https://institutmontaigne.org/communiques-de-presse/legislatives-2024-chiffrage-global-des-programmes"
+      },
+      {
+       "source": "Conseil constitutionnel (Ferrand, via La Gazette)",
+       "year": 2026,
+       "value": "Une révision par l'article 11 « n'existe pas »",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.lagazettefrance.fr/article/referendum-le-president-du-conseil-constitutionnel-s-oppose-aux-projets-de-le-pen-colere-au-rn"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "bloque",
+     "obstacle": "Chemin : réviser la Constitution. Par l'article 89, il faut l'accord du Sénat puis un référendum ou 3/5 du Congrès. Par l'article 11, référendum direct contesté par le Conseil constitutionnel, comme en 1962.",
+     "claude": {
+      "id": "immigration",
+      "central": 5,
+      "low": 0,
+      "high": 8.3,
+      "method": "médiane",
+      "formula": "Allocations familiales 3,8 + RSA 2,6 + asile 1,2 + AME 0,7 = 8,3 Md€ ; ≈ 60 % retenus vu le risque de censure",
+      "inputs": [
+       {
+        "label": "Détail par mesure (2024)",
+        "value": "3,8 / 2,6 / 1,2 / 0,7 Md€",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"
+       },
+       {
+        "label": "Crédits AME 2026",
+        "value": "1,21 Md€",
+        "source": "Public Sénat",
+        "url": "https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-les-conditions-de-laide-medicale-detat-et-vote-une-baisse-de-ses-credits-de-200-millions"
+       },
+       {
+        "label": "Part juridiquement fragile du montant RN",
+        "value": "92 % de 29 Md€",
+        "source": "Institut de l'Entreprise",
+        "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+       }
+      ],
+      "note": "Si appliquée telle quelle ; bloquée juridiquement en l'état"
+     }
+    },
+    {
+     "id": "tva",
+     "theme": "energie",
+     "title": "TVA énergie à 5,5 %",
+     "proposal": "TVA de 20 % à 5,5 % sur électricité, gaz, fioul et carburants.",
+     "claimed": "12,2 Md€/an",
+     "claimed_md": -12.2,
+     "estimates": [
+      {
+       "source": "Bercy",
+       "year": 2024,
+       "value": "16,8 Md€/an, dont 10 Md€ pour les carburants",
+       "low_md": -16.8,
+       "high_md": -16.8,
+       "url": "https://www.publicsenat.fr/actualites/politique/baisse-de-la-tva-sur-lenergie-proposee-par-le-rn-une-mesure-chiffree-a-17-milliards-selon-bercy"
+      },
+      {
+       "source": "Institut Montaigne",
+       "year": 2024,
+       "value": "11,3 Md€/an",
+       "low_md": -11.3,
+       "high_md": -11.3,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"
+      },
+      {
+       "source": "francebudget.fr",
+       "year": 2026,
+       "value": "17,4 Md€/an",
+       "low_md": -17.4,
+       "high_md": -17.4,
+       "url": "https://francebudget.fr/scenarios/rn-2027"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "faisable",
+     "obstacle": "Coût élevé à financer ; risque de captation par les distributeurs",
+     "claude": {
+      "id": "tva",
+      "central": -14.5,
+      "low": -17.4,
+      "high": -11.3,
+      "method": "médiane",
+      "formula": "Médiane de 11,3 ; 12,2 ; 16,8 ; 17,4 Md€ = 14,5 Md€",
+      "inputs": [
+       {
+        "label": "Électricité 4,5 + gaz 2,3 + carburants 10",
+        "value": "16,8 Md€",
+        "source": "Bercy (Public Sénat)",
+        "url": "https://www.publicsenat.fr/actualites/politique/baisse-de-la-tva-sur-lenergie-proposee-par-le-rn-une-mesure-chiffree-a-17-milliards-selon-bercy"
+       },
+       {
+        "label": "Chiffrage 2024",
+        "value": "11,3 Md€",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"
+       },
+       {
+        "label": "Chiffrage 2026",
+        "value": "12,2 Md€",
+        "source": "Institut de l'Entreprise",
+        "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+       },
+       {
+        "label": "Simulateur",
+        "value": "17,4 Md€",
+        "source": "francebudget.fr",
+        "url": "https://francebudget.fr/scenarios/rn-2027"
+       }
+      ],
+      "note": "Le périmètre (avec ou sans carburants) fait varier le coût de 10 Md€"
+     }
+    },
+    {
+     "id": "production",
+     "theme": "fiscalite",
+     "title": "Fin des impôts de production",
+     "proposal": "Supprimer CFE, CVAE et C3S ; 30 Md€ de baisses nettes d'impôts au total.",
+     "claimed": "≈20 Md€",
+     "claimed_md": -20,
+     "estimates": [
+      {
+       "source": "Institut de l'Entreprise",
+       "year": 2026,
+       "value": "17,1 Md€ (21 Md€ avec les autres allègements)",
+       "low_md": -21,
+       "high_md": -17.1,
+       "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+      },
+      {
+       "source": "francebudget.fr",
+       "year": 2026,
+       "value": "17 Md€/an",
+       "low_md": -17,
+       "high_md": -17,
+       "url": "https://francebudget.fr/scenarios/rn-2027"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "faisable",
+     "obstacle": "Compensation des collectivités pour la CFE",
+     "claude": {
+      "id": "production",
+      "central": -17,
+      "low": -21,
+      "high": -5.1,
+      "method": "médiane",
+      "formula": "CFE + CVAE + C3S : 17,1 Md€ (Institut de l'Entreprise) ≈ 17 Md€ (francebudget)",
+      "inputs": [
+       {
+        "label": "Suppression CFE, CVAE, C3S",
+        "value": "17,1 Md€",
+        "source": "Institut de l'Entreprise",
+        "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+       },
+       {
+        "label": "Suppression CFE, CVAE, C3S",
+        "value": "17 Md€",
+        "source": "francebudget.fr",
+        "url": "https://francebudget.fr/scenarios/rn-2027"
+       },
+       {
+        "label": "CVAE + C3S seules",
+        "value": "5,1 Md€",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"
+       }
+      ],
+      "note": "Suppose la CFE incluse ; la CVAE pourrait déjà baisser d'ici 2030"
+     }
+    },
+    {
+     "id": "ue",
+     "theme": "europe",
+     "title": "Moins payer à l'UE",
+     "proposal": "Réduire la contribution française au budget européen, autour de 5 Md€ net.",
+     "claimed": "9 Md€ en 2027, 13 Md€ en 2031",
+     "claimed_md": 9,
+     "estimates": [
+      {
+       "source": "Institut de l'Entreprise",
+       "year": 2026,
+       "value": "Gain retenu : 0 (renégociation à l'unanimité)",
+       "low_md": 0,
+       "high_md": 0,
+       "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+      },
+      {
+       "source": "La Grande Conversation (Terra Nova)",
+       "year": 2026,
+       "value": "Contribution 2027 figée ; 13 Md€ dépassent la contribution nette de 2024 (7,9 Md€)",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.lagrandeconversation.com/politique/rn-les-mauvais-comptes-dun-budget-dope-a-lia/"
+      },
+      {
+       "source": "Gouvernement (Euronews)",
+       "year": 2026,
+       "value": "Exige l'accord des 26 autres États",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://fr.euronews.com/2026/10/07/france-le-gouvernement-tire-a-boulets-rouges-sur-le-contre-budget-de-marine-le-pen"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "tres_difficile",
+     "obstacle": "Unanimité des 27 ; budget européen déjà fixé jusqu'en 2027",
+     "claude": {
+      "id": "ue",
+      "central": 0,
+      "low": 0,
+      "high": 9,
+      "method": "médiane",
+      "formula": "Contribution 2027 de 30,9 Md€ fixée par le cadre européen : baisse unilatérale impossible → 0",
+      "inputs": [
+       {
+        "label": "Prélèvement UE 2027",
+        "value": "30,9 Md€ ; solde net −9,5 Md€",
+        "source": "Banque des Territoires",
+        "url": "https://www.banquedesterritoires.fr/budget-2027-la-facture-europeenne-continue-de-gonfler"
+       },
+       {
+        "label": "Part retenue",
+        "value": "0 % des 13,1 Md€",
+        "source": "Institut de l'Entreprise",
+        "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+       }
+      ],
+      "note": "Unanimité des 27 requise"
+     }
+    },
+    {
+     "id": "fraude",
+     "theme": "fiscalite",
+     "title": "Lutte contre la fraude",
+     "proposal": "TVA prélevée à la source, fraude aux marchés publics et aux prestations.",
+     "claimed": "23,8 Md€ en 2031",
+     "claimed_md": 23.8,
+     "estimates": [
+      {
+       "source": "CAE (via La Grande Conversation)",
+       "year": 2026,
+       "value": "≈4,1 Md€/an réalistes ; écart de TVA total de 12,1 Md€",
+       "low_md": 4.1,
+       "high_md": 4.1,
+       "url": "https://www.lagrandeconversation.com/politique/rn-les-mauvais-comptes-dun-budget-dope-a-lia/"
+      },
+      {
+       "source": "Institut de l'Entreprise",
+       "year": 2026,
+       "value": "100 % du montant jugé fragile",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+      },
+      {
+       "source": "HCFP (via Public Sénat)",
+       "year": 2025,
+       "value": "Chiffre fraude du contre-budget 2026 « pas crédible »",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.publicsenat.fr/actualites/economie/contre-budget-du-rn-des-propositions-qui-manquent-de-credibilite-economique-mais-trahissent-une-veritable-coherence-doctrinale"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "tres_difficile",
+     "obstacle": "Gain visé supérieur à toute la fraude à la TVA estimée",
+     "claude": {
+      "id": "fraude",
+      "central": 4.1,
+      "low": 1.1,
+      "high": 12.1,
+      "method": "médiane",
+      "formula": "Cinq leviers du CAE ≈ 4,1 Md€/an ; plafond = tout l'écart de TVA (12,1 Md€)",
+      "inputs": [
+       {
+        "label": "Leviers anti-fraude",
+        "value": "≈4,1 Md€/an",
+        "source": "CAE (La Grande Conversation)",
+        "url": "https://www.lagrandeconversation.com/politique/rn-les-mauvais-comptes-dun-budget-dope-a-lia/"
+       },
+       {
+        "label": "Écart de TVA",
+        "value": "9,5 Md€ (2021)",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/budget-et-fiscalite/le-non-respect-des-regles-de-tva-coute-95-milliards-deuros"
+       }
+      ],
+      "note": "18 Md€ visés sur la TVA, plus que toute la fraude estimée"
+     }
+    },
+    {
+     "id": "etat",
+     "theme": "depense",
+     "title": "État, agences, collectivités",
+     "proposal": "Supprimer la plupart des agences, ~200 000 postes publics, fin des intercommunalités et métropoles.",
+     "claimed": "20,7 Md€ dès 2027 (État) + 8,2 Md€ (collectivités)",
+     "claimed_md": 20.7,
+     "estimates": [
+      {
+       "source": "Institut de l'Entreprise",
+       "year": 2026,
+       "value": "58 % du poste jugé fragile ; agences sans mode opératoire",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+      },
+      {
+       "source": "Commission d'enquête du Sénat",
+       "year": 2026,
+       "value": "Agences : ≈0,5 Md€ d'économies sans supprimer de politiques",
+       "low_md": 0.5,
+       "high_md": 0.5,
+       "url": "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f"
+      },
+      {
+       "source": "francebudget.fr",
+       "year": 2026,
+       "value": "201 000 postes non renouvelés : ≈13,5 Md€ en 2032",
+       "low_md": 13.5,
+       "high_md": 13.5,
+       "url": "https://francebudget.fr/scenarios/rn-2027"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Libre administration des collectivités ; agences sans plan précis",
+     "claude": {
+      "id": "etat",
+      "central": 7,
+      "low": 0.5,
+      "high": 13.5,
+      "method": "médiane",
+      "formula": "Médiane de 0,54 ; 2,2 ; 12,2 ; 13,5 Md€ ≈ 7 Md€",
+      "inputs": [
+       {
+        "label": "Agences à missions constantes / −8 %",
+        "value": "0,54 / 2,2 Md€",
+        "source": "Sénat (commission d'enquête)",
+        "url": "https://www.senat.fr/rap/r24-807-1/r24-807-122.html"
+       },
+       {
+        "label": "201 000 postes non renouvelés",
+        "value": "≈13,5 Md€ en 2032",
+        "source": "francebudget.fr",
+        "url": "https://francebudget.fr/scenarios/rn-2027"
+       },
+       {
+        "label": "Part non fragile du poste",
+        "value": "42 % de 29 Md€",
+        "source": "Institut de l'Entreprise",
+        "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+       }
+      ],
+      "note": "Suppose une vraie baisse d'effectifs"
+     }
+    },
+    {
+     "id": "tva-produits-essentiels",
+     "theme": "fiscalite",
+     "title": "TVA 0 % produits essentiels",
+     "proposal": "Supprimer la TVA sur une centaine de produits de première nécessité (alimentation, hygiène).",
+     "claimed": "Pas de montant séparé",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2024,
+       "value": "6,75 Md€/an (4,7-8,8)",
+       "low_md": -8.8,
+       "high_md": -4.7,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/supprimer-la-tva-sur-les-produits-de-premiere-necessite"
+      },
+      {
+       "source": "Bercy (via Public Sénat)",
+       "year": 2024,
+       "value": "Version 2022, plus large : 24 Md€",
+       "low_md": -24,
+       "high_md": -24,
+       "url": "https://www.publicsenat.fr/actualites/politique/baisse-de-la-tva-sur-lenergie-proposee-par-le-rn-une-mesure-chiffree-a-17-milliards-selon-bercy"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "faisable",
+     "obstacle": "Coût ; baisse en partie captée par les distributeurs ; directive TVA",
+     "claude": {
+      "id": "tva-produits-essentiels",
+      "central": -6.75,
+      "low": -8.8,
+      "high": -4.7,
+      "method": "médiane",
+      "formula": "Chiffrage 2024 de la mesure : 6,75 Md€ (4,7 à 8,8)",
+      "inputs": [
+       {
+        "label": "TVA 0 % sur produits essentiels",
+        "value": "6,75 Md€/an",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/supprimer-la-tva-sur-les-produits-de-premiere-necessite"
+       }
+      ],
+      "note": "Version 2022 plus large (24 Md€ selon Bercy) écartée"
+     }
+    }
+   ],
+   "total": {
+    "claimed": "140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, déficit < 3 % en 2030",
+    "independent": "Institut de l'Entreprise : seulement +3 à +7,5 Md€ crédibles (fourchette −25 à +50) ; programmes 2022/2024 : −29 à −102 Md€/an",
+    "low_md": -25,
+    "high_md": 50
+   },
+   "claude_total": {
+    "sum": -42.1,
+    "p10": -56.0,
+    "p50": -37.3,
+    "p90": -18.4,
+    "realsum": -47.1,
+    "r10": -60.4,
+    "r50": -41.7,
+    "r90": -23.4,
+    "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions",
+    "n": 8,
+    "cost": -58.2,
+    "gain": 16.1
+   },
+   "short": "Le Pen",
+   "sim": {
+    "retraite": {
+     "age_legal": 62,
+     "age_taux_plein": null,
+     "carriere_longue": "Départ à 60 ans avec 40 annuités pour ceux qui ont commencé avant 20 ans.",
+     "regle": "Retour progressif à 62 ans avec 42 annuités ; pilier de capitalisation ; détail promis le 17 novembre."
+    },
+    "smic_net": null,
+    "salaire_net": null,
+    "alloc_familiales": null,
+    "alloc_perte_etrangers": true,
+    "tva_energie": 5.5,
+    "salaire_note": "Hausses de salaire jusqu'à 10 % exonérées de cotisations patronales (jusqu'à 3 SMIC) : gain net non chiffré.",
+    "fonctionnaires": "Au moins 200 000 postes supprimés en cinq ans (collectivités, agences, organismes).",
+    "chomeurs": null,
+    "minima_sociaux": "Prestations réindexées ; minimum vieillesse à 1 000 €/mois ; aides de solidarité réservées en priorité aux Français.",
+    "jeunes": "Moins de 30 ans exonérés d'impôt sur le revenu (gain moyen estimé à 374 €/an en 2022).",
+    "retraites_actuels": "Pensions indexées sur l'inflation ; petites retraites revalorisées.",
+    "independants": "Suppression de la CFE et des autres impôts de production ; priorité aux PME dans les marchés publics.",
+    "etrangers": "RSA, prime d'activité, AAH et APL après 5 ans de travail ; allocations familiales réservées aux foyers avec un parent français ; AME remplacée par une aide d'urgence. Exige une révision de la Constitution.",
+    "patrimoine": [
+     {
+      "seuil": 1300000,
+      "effet": "IFI supprimé, remplacé par un impôt sur la fortune financière (seuil inconnu)."
+     }
+    ],
+    "heritage": [
+     {
+      "seuil": 100000,
+      "effet": "Donations exonérées jusqu'à 100 000 € par enfant tous les 10 ans (version 2024)."
+     }
+    ],
+    "alloc_perte_scope": "all",
+    "ir_exempt_under": 30,
+    "cfe_suppr": true,
+    "cfe_note": "Suppression de la CFE"
+   }
+  },
+  {
+   "id": "melenchon",
+   "name": "Jean-Luc Mélenchon",
+   "party": "LFI",
+   "poll": "17 %",
+   "summary": "Promet 106 Md€ de recettes nouvelles pour 82 Md€ de dépenses en 2027. Les mesures les plus chères (60 ans, SMIC, investissements) ne sont pas encore chiffrées ; l'annulation de dette est bloquée par les traités.",
+   "measures": [
+    {
+     "id": "retraites",
+     "theme": "retraites",
+     "title": "Retour à 62 puis 60 ans",
+     "proposal": "Abroger la réforme Borne (62 ans) dès 2027, puis passer à 60 ans plus tard dans le mandat.",
+     "claimed": "9 Md€/an pour 62 ans ; 60 ans non chiffré",
+     "claimed_md": -9,
+     "estimates": [
+      {
+       "source": "Cour des comptes (via Public Sénat)",
+       "year": 2025,
+       "value": "Retour à 62 ans : +10,4 Md€ de déficit en 2035",
+       "low_md": -10.4,
+       "high_md": -10.4,
+       "url": "https://www.publicsenat.fr/actualites/emploi/retraites-si-vous-abrogez-la-reforme-de-2023-cest-10-milliards-deuros-de-plus-quil-faut-trouver-souligne-pierre-moscovici"
+      },
+      {
+       "source": "iFRAP",
+       "year": 2024,
+       "value": "62 ans ≈ 10 Md€ ; 60 ans ≈ 50 Md€/an",
+       "low_md": -50,
+       "high_md": -10,
+       "url": "https://www.ifrap.org/retraite/retraites-et-si-lon-arretait-de-mentir-aux-francais"
+      },
+      {
+       "source": "Institut Montaigne (NFP)",
+       "year": 2024,
+       "value": "Retour à 60 ans : 58 Md€/an",
+       "low_md": -58,
+       "high_md": -58,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "62 ans faisable avec majorité ; 60 ans coûte 50 à 58 Md€/an",
+     "claude": {
+      "id": "retraites",
+      "central": -54,
+      "low": -58,
+      "high": -10.4,
+      "method": "médiane",
+      "formula": "Retour à 60 ans : médiane de 50 (iFRAP) et 58 (Montaigne) = −54 Md€ ; 62 ans seul ≈ −10",
+      "inputs": [
+       {
+        "label": "Retour à 62 ans",
+        "value": "10,4 Md€ en 2035",
+        "source": "Cour des comptes",
+        "url": "https://www.publicsenat.fr/actualites/emploi/retraites-si-vous-abrogez-la-reforme-de-2023-cest-10-milliards-deuros-de-plus-quil-faut-trouver-souligne-pierre-moscovici"
+       },
+       {
+        "label": "Retour à 60 ans",
+        "value": "≈50 Md€/an",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/retraite/retraites-et-si-lon-arretait-de-mentir-aux-francais"
+       },
+       {
+        "label": "Retour à 60 ans",
+        "value": "58 Md€/an",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
+       }
+      ],
+      "note": "Suppose 60 ans en vigueur en 2030"
+     }
+    },
+    {
+     "id": "smic",
+     "theme": "travail",
+     "title": "SMIC à 1 700 € net",
+     "proposal": "SMIC à 1 700 € net (1 600 € dans la version de juin 2026), par décret.",
+     "claimed": "Non chiffré par LFI",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Institut Montaigne (SMIC 1 600 €)",
+       "year": 2024,
+       "value": "19 Md€/an (17-21) ; 230 000 à 380 000 emplois perdus",
+       "low_md": -21,
+       "high_md": -17,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net"
+      },
+      {
+       "source": "iFRAP (SMIC 1 600 €)",
+       "year": 2024,
+       "value": "+36,5 Md€ de coût employeur ; ≈236 500 emplois détruits",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.ifrap.org/emploi-et-politiques-sociales/laugmentation-du-smic-1-600-euros-detruirait-240-000-emplois"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "faisable",
+     "obstacle": "Un décret suffit ; coût pour les PME et pertes d'emplois",
+     "claude": {
+      "id": "smic",
+      "central": -23.3,
+      "low": -25.7,
+      "high": -4.4,
+      "method": "ascendant",
+      "formula": "19 Md€ pour +15,1 % de brut ; 1 700 € net = +18,5 % → 19 × 18,5/15,1 = −23,3 Md€",
+      "inputs": [
+       {
+        "label": "SMIC à 1 600 € net",
+        "value": "19 Md€",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net"
+       },
+       {
+        "label": "SMIC brut 2026",
+        "value": "1 823 €",
+        "source": "Éditions Tissot",
+        "url": "https://www.editions-tissot.fr/actualite/droit-du-travail/smic-au-1er-janvier-2026-une-hausse-de-1-18"
+       },
+       {
+        "label": "1 600 € net = +15,1 % de brut",
+        "value": "2 034 € brut",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/emploi-et-politiques-sociales/laugmentation-du-smic-1-600-euros-detruirait-240-000-emplois"
+       }
+      ],
+      "note": "Proportionnalité linéaire supposée"
+     }
+    },
+    {
+     "id": "fiscalite",
+     "theme": "fiscalite",
+     "title": "ISF, Zucman, héritages",
+     "proposal": "ISF climatique, taxe Zucman (>100 M€), taxe sur les héritages, suppression de la flat tax.",
+     "claimed": "+54 Md€/an (sur 106 Md€ de recettes au total)",
+     "claimed_md": 54,
+     "estimates": [
+      {
+       "source": "Institut Montaigne (NFP)",
+       "year": 2024,
+       "value": "ISF climatique +3,5 Md€ ; héritages +9 Md€",
+       "low_md": 12.5,
+       "high_md": 12.5,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
+      },
+      {
+       "source": "Zucman (via Public Sénat)",
+       "year": 2025,
+       "value": "Taxe Zucman ≈ 20 Md€/an ± 5",
+       "low_md": 15,
+       "high_md": 25,
+       "url": "https://www.publicsenat.fr/actualites/economie/taxe-zucman-quels-sont-les-arguments-pour-et-les-arguments-contre"
+      },
+      {
+       "source": "AFP (Trannoy, Plane, Bersinger)",
+       "year": 2026,
+       "value": "Recettes « sur le papier », réduites par les réactions des contribuables",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://bourse.fortuneo.fr/actualites/des-economistes-jugent-peu-detaille-et-optimiste-le-contre-budget-de-lfi-9369230"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Seuil confiscatoire au Conseil constitutionnel ; exil fiscal",
+     "claude": {
+      "id": "fiscalite",
+      "central": 31.4,
+      "low": 14.3,
+      "high": 44.6,
+      "method": "ascendant",
+      "formula": "ISF 4 + Zucman 15 (20 × 75 % après exil) + héritages 9 + flat tax 3,4 = +31,4 Md€",
+      "inputs": [
+       {
+        "label": "Rendement d'un ISF rétabli",
+        "value": "3,4 à 6 Md€",
+        "source": "Terra Nova",
+        "url": "https://tnova.fr/site/assets/files/67145/terra_nova_-_quel_rendement_peut-on_reellement_attendre_de_la_taxation_des_plus_fortunes.pdf?1kkund"
+       },
+       {
+        "label": "Taxe Zucman : érosion par l'exil",
+        "value": "≈25 % (14 à 34 %)",
+        "source": "Institut de l'Entreprise",
+        "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/06/TCT_Taxe-Zucman-2026.pdf"
+       },
+       {
+        "label": "Héritages",
+        "value": "9 Md€",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
+       },
+       {
+        "label": "Fin de la flat tax",
+        "value": "3,2 à 3,6 Md€",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/supprimer-la-flat-tax-et-retablir-lexit-tax"
+       }
+      ],
+      "note": "LFI annonce 54 Md€ ; écart surtout sur Zucman et les héritages"
+     }
+    },
+    {
+     "id": "jeunes",
+     "theme": "social",
+     "title": "Garantie d'autonomie jeunes",
+     "proposal": "Allocation jusqu'à 1 337 €/mois pour les jeunes.",
+     "claimed": "9,5 Md€/an",
+     "claimed_md": -9.5,
+     "estimates": [
+      {
+       "source": "Institut Montaigne (NFP)",
+       "year": 2024,
+       "value": "12,3 Md€/an",
+       "low_md": -12.3,
+       "high_md": -12.3,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
+      },
+      {
+       "source": "Institut Montaigne (version 2022)",
+       "year": 2022,
+       "value": "12,3 Md€ central ; 21 à 38 Md€ en hypothèse haute",
+       "low_md": -37.7,
+       "high_md": -12.3,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/creer-une-garantie-dautonomie-de-trois-ans-sous-reserve-dune-formation-qualifiante-et-sous-conditions-de-ressources-pour-les-18-25-ans/"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "faisable",
+     "obstacle": "Coût probablement sous-estimé ; une seule source indépendante",
+     "claude": {
+      "id": "jeunes",
+      "central": -15.5,
+      "low": -26.9,
+      "high": -9.5,
+      "method": "ascendant",
+      "formula": "12,3 Md€ (pour 1 063 €) × 1 337/1 063 = −15,5 Md€",
+      "inputs": [
+       {
+        "label": "Garantie à 1 063 €",
+        "value": "12,3 Md€ (21,4 en élargi)",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/creer-une-garantie-dautonomie-de-trois-ans-sous-reserve-dune-formation-qualifiante-et-sous-conditions-de-ressources-pour-les-18-25-ans/"
+       }
+      ],
+      "note": "Mise à l'échelle linéaire"
+     }
+    },
+    {
+     "id": "prix",
+     "theme": "social",
+     "title": "Blocage des prix",
+     "proposal": "Bloquer les prix de l'alimentation et de l'énergie de base ; modalités non publiées.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Institut Montaigne (NFP)",
+       "year": 2024,
+       "value": "9 Md€/an",
+       "low_md": -9,
+       "high_md": -9,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
+      },
+      {
+       "source": "Club des juristes",
+       "year": 2024,
+       "value": "Par décret, 6 mois maximum ; limites du droit UE",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.leclubdesjuristes.com/economie/le-blocage-des-prix-sur-les-produits-de-premiere-necessite-oui-mais-6385/"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Décret limité à 6 mois ; liberté d'entreprendre",
+     "claude": {
+      "id": "prix",
+      "central": -16.5,
+      "low": -24,
+      "high": 0,
+      "method": "médiane",
+      "formula": "Médiane de 9 et 24 Md€ = −16,5 Md€",
+      "inputs": [
+       {
+        "label": "Blocage des prix (NFP)",
+        "value": "9 Md€/an",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
+       },
+       {
+        "label": "Variante haute",
+        "value": "≈24 Md€",
+        "source": "Le Figaro (Montaigne)",
+        "url": "https://www.ofce.sciences-po.fr/pdf-articles/actu/Le-Figaroel.pdf"
+       }
+      ],
+      "note": "Coût nul si le blocage se fait sans compensation publique"
+     }
+    },
+    {
+     "id": "dette",
+     "theme": "europe",
+     "title": "Annuler la dette BCE",
+     "proposal": "Annuler ou geler la dette française détenue par l'Eurosystème (≈ 640 Md€).",
+     "claimed": "Non chiffré par LFI",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "dettedelafrance.fr",
+       "year": 2026,
+       "value": "12 à 15 Md€/an d'intérêts évités, effet net proche de zéro",
+       "low_md": 0,
+       "high_md": 15,
+       "url": "https://dettedelafrance.fr/actualites/annuler-la-dette-detenue-par-la-bce-mecanismes-ordres-de-grandeur-et"
+      },
+      {
+       "source": "iFRAP",
+       "year": 2026,
+       "value": "Aucun gain réel ; contraire à l'article 123 du TFUE",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.ifrap.org/budget-et-fiscalite/annuler-la-dette-pourquoi-cest-impossible-et-dangereux"
+      },
+      {
+       "source": "Euronews (Lagarde)",
+       "year": 2026,
+       "value": "« Violation pure du traité »",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://fr.euronews.com/my-europe/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "bloque",
+     "obstacle": "Chemin : modifier l'article 123 du traité européen, à l'unanimité des 27, ou sortir de l'euro. Même appliquée, l'effet net reste proche de zéro.",
+     "claude": {
+      "id": "dette",
+      "central": 0,
+      "low": 0,
+      "high": 15,
+      "method": "médiane",
+      "formula": "Les intérêts reviennent déjà à l'État : effet net ≈ 0",
+      "inputs": [
+       {
+        "label": "Intérêts évités, effet net",
+        "value": "12 à 15 Md€ ; net ≈ 0",
+        "source": "dettedelafrance.fr",
+        "url": "https://dettedelafrance.fr/actualites/annuler-la-dette-detenue-par-la-bce-mecanismes-ordres-de-grandeur-et"
+       },
+       {
+        "label": "Gain réel",
+        "value": "aucun",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/budget-et-fiscalite/annuler-la-dette-pourquoi-cest-impossible-et-dangereux"
+       }
+      ],
+      "note": "Hausse des taux possible non chiffrée"
+     }
+    },
+    {
+     "id": "constituante",
+     "theme": "institutions",
+     "title": "VIe République",
+     "proposal": "Référendum (art. 11) pour convoquer une Constituante ; RIC, proportionnelle, fin du 49.3.",
+     "claimed": "Pas de coût annoncé",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Public Sénat (constitutionnalistes)",
+       "year": 2017,
+       "value": "Rousseau : art. 11 inutilisable ; d'autres : voie de l'art. 89",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.publicsenat.fr/actualites/non-classe/l-assemblee-constituante-voulue-par-jean-luc-melenchon-est-elle-possible-58777"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "tres_difficile",
+     "obstacle": "L'article 89 exige l'accord du Sénat",
+     "claude": {
+      "id": "constituante",
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "Réforme institutionnelle sans coût significatif",
+      "inputs": [],
+      "note": "Coût d'organisation négligeable"
+     }
+    },
+    {
+     "id": "point_indice",
+     "theme": "depense",
+     "title": "Hausse du point d'indice",
+     "proposal": "Revaloriser le point d'indice des fonctionnaires des trois versants (taux non publié).",
+     "claimed": "17 Md€/an",
+     "claimed_md": -17,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2024,
+       "value": "+10 % : 20 Md€/an",
+       "low_md": -20,
+       "high_md": -20,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
+      },
+      {
+       "source": "Cour des comptes (Acteurs publics)",
+       "year": 2022,
+       "value": "2,07 Md€ par point de hausse",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://acteurspublics.fr/articles/1-2-ou-3-de-hausse-du-point-dindice-quel-impact-sur-les-finances-publiques"
+      },
+      {
+       "source": "Le Figaro (Allianz, S. Catherine)",
+       "year": 2024,
+       "value": "+10 % : 7 à 22 Md€",
+       "low_md": -22,
+       "high_md": -7,
+       "url": "https://www.ofce.sciences-po.fr/pdf-articles/actu/Le-Figaroel.pdf"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "faisable",
+     "obstacle": "Décret suffit ; coût récurrent",
+     "claude": {
+      "id": "point_indice",
+      "central": -20,
+      "low": -22,
+      "high": -7,
+      "method": "médiane",
+      "formula": "+1 % de point d'indice = 2,07 Md€ ; +10 % ≈ −20 Md€",
+      "inputs": [
+       {
+        "label": "Coût de +1 % (3 versants)",
+        "value": "2,07 Md€",
+        "source": "Cour des comptes (Acteurs publics)",
+        "url": "https://acteurspublics.fr/articles/1-2-ou-3-de-hausse-du-point-dindice-quel-impact-sur-les-finances-publiques"
+       },
+       {
+        "label": "+10 %",
+        "value": "20 Md€",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
+       }
+      ],
+      "note": "Taux de hausse non publié ; les 17 Md€ de LFI ≈ +8 %"
+     }
+    },
+    {
+     "id": "niches",
+     "theme": "fiscalite",
+     "title": "Rabot des niches fiscales",
+     "proposal": "Raboter le crédit d'impôt recherche, le pacte Dutreil et le crédit d'impôt emploi à domicile.",
+     "claimed": "+22 Md€/an",
+     "claimed_md": 22,
+     "estimates": [
+      {
+       "source": "Légifiscal (CIR)",
+       "year": 2024,
+       "value": "CIR : 7,65 Md€",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.legifiscal.fr/actualites-fiscales/3881-plf-2025-credit-impot-recherche-rabote.html"
+      },
+      {
+       "source": "IPP / Cour des comptes",
+       "year": 2025,
+       "value": "Dutreil : 4,85 à 5,7 Md€",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.ipp.eu/wp-content/uploads/2025/11/Dutreil_CourDesComptes-6_compressed.pdf"
+      },
+      {
+       "source": "Moneyvox",
+       "year": 2025,
+       "value": "Emploi à domicile : 6,86 Md€",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.moneyvox.fr/impot/actualites/100196/impot-sur-le-revenu-le-top-5-des-niches-fiscales-les-plus-couteuses-en-2025"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Les trois niches pèsent ≈20 Md€ : 22 Md€ suppose de tout supprimer",
+     "claude": {
+      "id": "niches",
+      "central": 10,
+      "low": 5,
+      "high": 20.2,
+      "method": "ascendant",
+      "formula": "CIR 7,65 + Dutreil ≈5,3 + emploi à domicile 6,86 ≈ 20 Md€ ; rabot de 50 % supposé = +10 Md€",
+      "inputs": [
+       {
+        "label": "Coût du CIR",
+        "value": "7,65 Md€",
+        "source": "Légifiscal",
+        "url": "https://www.legifiscal.fr/actualites-fiscales/3881-plf-2025-credit-impot-recherche-rabote.html"
+       },
+       {
+        "label": "Coût du pacte Dutreil",
+        "value": "4,85 à 5,7 Md€",
+        "source": "IPP / Cour des comptes",
+        "url": "https://www.ipp.eu/wp-content/uploads/2025/11/Dutreil_CourDesComptes-6_compressed.pdf"
+       },
+       {
+        "label": "Crédit d'impôt emploi à domicile",
+        "value": "6,86 Md€",
+        "source": "Moneyvox",
+        "url": "https://www.moneyvox.fr/impot/actualites/100196/impot-sur-le-revenu-le-top-5-des-niches-fiscales-les-plus-couteuses-en-2025"
+       }
+      ],
+      "note": "Ampleur du rabot non précisée"
+     }
+    }
+   ],
+   "total": {
+    "claimed": "+25 Md€ de solde en 2027 (106 Md€ de recettes, 82 Md€ de dépenses), hors SMIC, 60 ans et investissements",
+    "independent": "aucun chiffrage 2027 ; programmes antérieurs : −179 à −219 Md€/an (Montaigne)",
+    "low_md": -218.9,
+    "high_md": -179
+   },
+   "claude_total": {
+    "sum": -87.9,
+    "p10": -97.1,
+    "p50": -64.2,
+    "p90": -20.4,
+    "realsum": -87.9,
+    "r10": -100.4,
+    "r50": -68.9,
+    "r90": -25.4,
+    "missing": "planification écologique, IS progressif, taxe sur les transactions financières, 10 000 enseignants et 10 000 soignants",
+    "n": 9,
+    "cost": -129.3,
+    "gain": 41.4
+   },
+   "short": "Mélenchon",
+   "sim": {
+    "retraite": {
+     "age_legal": 60,
+     "age_taux_plein": null,
+     "carriere_longue": null,
+     "regle": "60 ans à taux plein après 40 annuités ; 62 ans dès 2027, 60 ans plus tard dans le mandat."
+    },
+    "smic_net": 1700,
+    "salaire_net": null,
+    "alloc_familiales": null,
+    "tva_energie": null,
+    "fonctionnaires": "Hausse du point d'indice : ≈ +8 % d'après les 17 Md€ annoncés (taux non publié) ; 10 000 enseignants et 10 000 soignants recrutés.",
+    "chomeurs": "Abrogation des réformes récentes de l'assurance chômage.",
+    "minima_sociaux": "Toutes les prestations indexées, APL +10 %, minimum vieillesse porté au seuil de pauvreté.",
+    "jeunes": "Garantie d'autonomie jusqu'à 1 337 €/mois pour les 18-25 ans en formation, sous conditions.",
+    "retraites_actuels": "Pensions indexées sur les salaires ; pension minimale au niveau du SMIC pour une carrière complète.",
+    "independants": "Pas de mesure spécifique publiée ; concernés par le barème de l'impôt sur le revenu à 14 tranches.",
+    "etrangers": null,
+    "patrimoine": [
+     {
+      "seuil": 1300000,
+      "effet": "Retour d'un ISF « climatique » (en 2022 : 1 % de 2 à 8 M€, 2 % jusqu'à 1 Md€, 3 % au-delà)."
+     },
+     {
+      "seuil": 100000000,
+      "effet": "Taxe Zucman : impôt plancher de 2 % au-delà de 100 M€."
+     }
+    ],
+    "heritage": [
+     {
+      "seuil": 2000000,
+      "effet": "Droits de succession relevés sur les gros héritages."
+     },
+     {
+      "seuil": 12000000,
+      "effet": "Part de l'héritage au-delà de 12 M€ prélevée à 100 %."
+     }
+    ],
+    "extra": "Impôt sur le revenu à 14 tranches : hausse annoncée pour les hauts revenus, seuils non publiés.",
+    "point_indice_pct": 8.2
+   }
+  },
+  {
+   "id": "philippe",
+   "name": "Édouard Philippe",
+   "party": "Horizons",
+   "poll": "13-15 %",
+   "summary": "Mise sur la retraite à 65 ans, dont le rendement annoncé (≈30 Md€/an) concorde avec le Trésor. Plusieurs dépenses nouvelles (famille, enseignants) ne sont pas chiffrées.",
+   "measures": [
+    {
+     "id": "retraites",
+     "theme": "retraites",
+     "title": "Retraite à 65 ans",
+     "proposal": "Rétablir 64 ans et 43 annuités, puis 65 ans et 45 annuités en moins de dix ans ; capitalisation obligatoire.",
+     "claimed": "≈30 Md€/an à pleine charge",
+     "claimed_md": 30,
+     "estimates": [
+      {
+       "source": "Trésor (via Public Sénat)",
+       "year": 2022,
+       "value": "65 ans : ≈32 Md€/an brut en 2035, avant mesures d'accompagnement",
+       "low_md": 32,
+       "high_md": 32,
+       "url": "https://www.publicsenat.fr/actualites/politique/reforme-des-retraites-combien-pourrait-rapporter-le-report-de-l-age-legal-a-65"
+      },
+      {
+       "source": "Fipeco",
+       "year": 2022,
+       "value": "Recul de 2 ans : ≈10 Md€ à 10 ans, ≈22 Md€ à 15-20 ans",
+       "low_md": 10,
+       "high_md": 22,
+       "url": "https://fipeco.fr/pdf/ReculAgeRetraite.pdf"
+      },
+      {
+       "source": "iFRAP",
+       "year": 2023,
+       "value": "65 ans : 17 Md€ d'ici 2030",
+       "low_md": 17,
+       "high_md": 17,
+       "url": "https://www.ifrap.org/retraite/si-les-65-ans-doivent-rester-un-totem"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Rejet social en 2023, majorité incertaine, exemptions non chiffrées",
+     "claude": {
+      "id": "retraites",
+      "central": 6,
+      "low": 3,
+      "high": 10,
+      "method": "ascendant",
+      "formula": "Fin de la suspension ≈ +1,8 Md€ + 65 ans au lieu de 64 en 2030 (17,6 − 13,6 = +4) = +6 Md€",
+      "inputs": [
+       {
+        "label": "Coût de la suspension de la réforme 2023",
+        "value": "≈1,8 Md€/an",
+        "source": "COR 2026",
+        "url": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def.pdf"
+       },
+       {
+        "label": "Rendement en 2030 : 64 contre 65 ans",
+        "value": "13,6 contre 17,6 Md€",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/retraite/mise-en-garde-ceux-qui-veulent-revenir-sur-la-reforme-des-retraites"
+       },
+       {
+        "label": "Recul de 2 ans",
+        "value": "≈10 Md€ à 10 ans",
+        "source": "Fipeco",
+        "url": "https://fipeco.fr/pdf/ReculAgeRetraite.pdf"
+       }
+      ],
+      "note": "Montée en charge partielle en 2030 ; ≈30 Md€ vers 2035-2036"
+     }
+    },
+    {
+     "id": "fonction",
+     "theme": "depense",
+     "title": "1 fonctionnaire sur 3",
+     "proposal": "Remplacer un départ à la retraite sur trois, ≈250 000 postes en moins sur 5 ans ; regrouper les opérateurs.",
+     "claimed": "Aucun montant annoncé",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Cour des comptes (via Acteurs publics)",
+       "year": 2010,
+       "value": "Règle du 1 sur 2 : 0,8 Md€ brut, ≈0,1 Md€ net",
+       "low_md": 0.1,
+       "high_md": 0.8,
+       "url": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-peu/"
+      },
+      {
+       "source": "iFRAP",
+       "year": 2011,
+       "value": "Règle du 1 sur 2 : 100 M€/an au lieu de 500 M€ prévus",
+       "low_md": 0.1,
+       "high_md": 0.1,
+       "url": "https://www.ifrap.org/fonction-publique-et-administration/combien-rapporte-vraiment-le-non-remplacement-dun-fonctionnaire"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Économies nettes historiquement faibles",
+     "claude": {
+      "id": "fonction",
+      "central": 4,
+      "low": 1,
+      "high": 7,
+      "method": "ascendant",
+      "formula": "144 000 départs ÷ 3 = 48 000 postes/an × 3,5 ans × 36 k€ ≈ 6,2 Md€ brut, 50 à 88 % rendus aux agents",
+      "inputs": [
+       {
+        "label": "Départs à la retraite",
+        "value": "144 000 en 2025",
+        "source": "DGAFP",
+        "url": "https://www.fonction-publique.gouv.fr/toutes-les-publications/les-departs-la-retraite-dans-la-fonction-publique-en-2025"
+       },
+       {
+        "label": "Salaire net moyen (État)",
+        "value": "3 018 €/mois",
+        "source": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques/8986474"
+       },
+       {
+        "label": "Règle du 1 sur 2 (2009)",
+        "value": "0,8 Md€ brut, 0,7 reversés",
+        "source": "Cour des comptes (Acteurs publics)",
+        "url": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-peu/"
+       }
+      ],
+      "note": "Collectivités et hôpitaux hors contrôle de l'État"
+     }
+    },
+    {
+     "id": "production",
+     "theme": "fiscalite",
+     "title": "Deal 50 Md€ entreprises",
+     "proposal": "Supprimer 50 Md€ d'impôts de production contre 50 Md€ d'aides aux entreprises en moins.",
+     "claimed": "Neutre pour le budget",
+     "claimed_md": 0,
+     "estimates": [
+      {
+       "source": "Public Sénat / Rexecode",
+       "year": 2025,
+       "value": "Pas de solde calculé ; aides à supprimer non identifiées",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.publicsenat.fr/actualites/economie/entreprises-un-deal-a-250-milliards-deuros-sur-un-quinquennat-que-represente-la-proposition-dedouard-philippe"
+      },
+      {
+       "source": "dettedelafrance.fr",
+       "year": 2026,
+       "value": "« Aucun solde net indépendant établi »",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://dettedelafrance.fr/presidentielle-2027/horizons"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Aides non identifiées ; CVAE déjà reportée à 2030",
+     "claude": {
+      "id": "production",
+      "central": 0,
+      "low": -31.5,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "−50 + 50 = 0 ; si seules 18,5 Md€ d'aides sont supprimables : −31,5",
+      "inputs": [
+       {
+        "label": "Aides aux entreprises",
+        "value": "18,5 Md€ (périmètre resserré) à 211 Md€ (Sénat)",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/budget-et-fiscalite/aides-aux-entreprises-211-milliards-deuros-par-ou-185-milliards"
+       }
+      ],
+      "note": "Neutre seulement si 50 Md€ d'aides sont identifiés"
+     }
+    },
+    {
+     "id": "chomage",
+     "theme": "travail",
+     "title": "Chômage limité à 12 mois",
+     "proposal": "Indemnisation maximale de 12 mois (contre 18) avant 50 ans ; deux jours de carence pour les arrêts maladie.",
+     "claimed": "Aucun chiffre",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Unédic (via Public Sénat)",
+       "year": 2024,
+       "value": "18 → 12 mois pour les moins de 53 ans : près de 6 Md€",
+       "low_md": 6,
+       "high_md": 6,
+       "url": "https://www.publicsenat.fr/actualites/emploi/assurance-chomage-la-reforme-pourrait-affecter-jusqua-un-tiers-des-allocataires-selon-lunedic"
+      },
+      {
+       "source": "iFRAP",
+       "year": 2016,
+       "value": "Passage progressif à 12 mois avant 50 ans : ≈1 Md€/an",
+       "low_md": 1,
+       "high_md": 1,
+       "url": "https://www.ifrap.org/emploi-et-politiques-sociales/indemnites-chomage-la-proposition-pour-economiser-4-milliards"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Règles fixées par les partenaires sociaux",
+     "claude": {
+      "id": "chomage",
+      "central": 3,
+      "low": 1,
+      "high": 6,
+      "method": "médiane",
+      "formula": "Entre iFRAP (≈1) et Unédic (≈6), ajusté des réductions déjà votées ≈ +3 Md€",
+      "inputs": [
+       {
+        "label": "18 → 12 mois",
+        "value": "≈6 Md€",
+        "source": "Unédic (Public Sénat)",
+        "url": "https://www.publicsenat.fr/actualites/emploi/assurance-chomage-la-reforme-pourrait-affecter-jusqua-un-tiers-des-allocataires-selon-lunedic"
+       },
+       {
+        "label": "Version moins de 50 ans",
+        "value": "≈1 Md€",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/emploi-et-politiques-sociales/indemnites-chomage-la-proposition-pour-economiser-4-milliards"
+       },
+       {
+        "label": "Dépenses d'indemnisation",
+        "value": "9 Md€ au T3 2025",
+        "source": "Unédic",
+        "url": "https://www.unedic.org/publications/les-indicateurs-de-l-assurance-chomage-mars-2026"
+       }
+      ],
+      "note": "Passe par les comptes de l'Unédic"
+     }
+    },
+    {
+     "id": "famille",
+     "theme": "social",
+     "title": "Allocation de 350 €",
+     "proposal": "350 €/mois dès le premier enfant, dégressive selon l'impôt ; réduction d'impôt ≈3 000 € ; PTZ à la naissance.",
+     "claimed": "Aucun coût annoncé",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Public Sénat",
+       "year": 2026,
+       "value": "Aucun chiffrage, ni du camp ni indépendant",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.publicsenat.fr/actualites/politique/politique-familiale-allocations-creches-que-proposent-les-candidats-a-la-presidentielle"
+      },
+      {
+       "source": "Institut Montaigne (repère)",
+       "year": 2022,
+       "value": "75 €/mois dès le 1er enfant ≈ 1,2 Md€/an : 350 € coûterait bien plus",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/attribuer-des-allocations-familiales-dun-montant-de-900-e-par-an-des-le-premier-enfant/"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Coût inconnu, potentiellement élevé",
+     "claude": {
+      "id": "famille",
+      "central": -12,
+      "low": -24,
+      "high": -4,
+      "method": "ascendant",
+      "formula": "1 enfant : 3,58 M × 4 200 € = 15 ; 2 enfants : 3,04 M × 199 € × 12 = 7,3 ; ≈22 Md€ brut, divisé par 2 pour la dégressivité",
+      "inputs": [
+       {
+        "label": "Familles par nombre d'enfants",
+        "value": "1 : 3,58 M ; 2 : 3,04 M",
+        "source": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques/2381506"
+       },
+       {
+        "label": "Allocations actuelles",
+        "value": "151 € (2 enfants)",
+        "source": "Journal de l'économie",
+        "url": "https://www.journaldeleconomie.fr/?p=37289"
+       },
+       {
+        "label": "Naissances 2025",
+        "value": "≈644 000",
+        "source": "UNAF / Insee",
+        "url": "https://www.unaf.fr/app/uploads/sites/3/2026/07/chiffres-clefs-des-familles-2026.pdf"
+       }
+      ],
+      "note": "Dégressivité de 50 % supposée"
+     }
+    },
+    {
+     "id": "immigration",
+     "theme": "immigration",
+     "title": "Immigration légale ÷ 2",
+     "proposal": "Moins de 200 000 titres/an, moratoire sur le regroupement familial, protocole CEDH, liste UE de pays sûrs.",
+     "claimed": "Cible « largement inférieure à 200 000 » titres/an",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Ministère de l'Intérieur (via Public Sénat)",
+       "year": 2026,
+       "value": "384 230 premiers titres délivrés en 2025",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025"
+      },
+      {
+       "source": "AFP (via La Gazette)",
+       "year": 2026,
+       "value": "Restreindre le regroupement familial suppose de revoir l'art. 8 CEDH ou la Constitution",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.lagazettefrance.fr/article/l-immigration-est-necessaire-mais-doit-etre-controlee-dit-edouard-philippe"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "tres_difficile",
+     "obstacle": "Article 8 CEDH, directive UE, accord des autres États",
+     "claude": {
+      "id": "immigration",
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "Pas d'effet budgétaire direct chiffrable",
+      "inputs": [],
+      "note": "Mesure surtout juridique"
+     }
+    },
+    {
+     "id": "profs",
+     "theme": "social",
+     "title": "Enseignants +20 %",
+     "proposal": "+20 % de rémunération moyenne des enseignants sur le quinquennat.",
+     "claimed": "Financé par la baisse d'un million d'élèves",
+     "claimed_md": 0,
+     "estimates": [
+      {
+       "source": "Institut Montaigne (repère)",
+       "year": 2022,
+       "value": "+10 % pour tous les enseignants ≈ 3,3 Md€/an : +20 % ≈ 6-7 Md€",
+       "low_md": -7,
+       "high_md": -6,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/legislatives-2022/ensemble/revaloriser-les-salaires-des-enseignants-de-10"
+      },
+      {
+       "source": "dettedelafrance.fr",
+       "year": 2026,
+       "value": "Dépense récurrente, montant « non établi »",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://dettedelafrance.fr/presidentielle-2027/horizons"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Neutralité budgétaire non démontrée",
+     "claude": {
+      "id": "profs",
+      "central": -5.3,
+      "low": -6.6,
+      "high": -2.6,
+      "method": "ascendant",
+      "formula": "+10 % = 3,3 Md€ ; +20 % = 6,6 Md€ ; 80 % en vigueur en 2030 = −5,3",
+      "inputs": [
+       {
+        "label": "+10 % pour tous les enseignants",
+        "value": "≈3,3 Md€/an",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/legislatives-2022/ensemble/revaloriser-les-salaires-des-enseignants-de-10"
+       },
+       {
+        "label": "Enseignement scolaire 2026",
+        "value": "64,5 Md€ hors pensions",
+        "source": "Sénat",
+        "url": "https://www.senat.fr/rap/l25-139-313/l25-139-3131.html"
+       }
+      ],
+      "note": "Compensation démographique non chiffrée"
+     }
+    },
+    {
+     "id": "heures_sup",
+     "theme": "travail",
+     "title": "Heures sup désocialisées",
+     "proposal": "Exonération de cotisations pour 2 heures supplémentaires par semaine, ≈1 000 €/an de plus au SMIC.",
+     "claimed": "Coût non annoncé",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Rapporteur PLFSS",
+       "year": 2025,
+       "value": "Extension CSG/CRDS : ≈2 Md€",
+       "low_md": -2,
+       "high_md": -2,
+       "url": "https://www.economiematin.fr/?p=206428"
+      },
+      {
+       "source": "PLF 2018 (Previssima)",
+       "year": 2018,
+       "value": "Désocialisation existante : 3,5 Md€",
+       "low_md": -3.5,
+       "high_md": -3.5,
+       "url": "https://www.previssima.fr/actualite/les-heures-sup-ne-seront-pas-defiscalisees-mais-desocialisees.html"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "faisable",
+     "obstacle": "Recoupe l'exonération existante",
+     "claude": {
+      "id": "heures_sup",
+      "central": -2,
+      "low": -3,
+      "high": -2,
+      "method": "médiane",
+      "formula": "Extension des exonérations : 2 à 3 Md€",
+      "inputs": [
+       {
+        "label": "Extension CSG/CRDS",
+        "value": "≈2 à 3 Md€",
+        "source": "Économie Matin",
+        "url": "https://www.economiematin.fr/?p=206428"
+       }
+      ],
+      "note": "Périmètre exact non précisé"
+     }
+    },
+    {
+     "id": "fonds_climat",
+     "theme": "energie",
+     "title": "Fonds d'adaptation climat",
+     "proposal": "Fonds unique d'adaptation au changement climatique de 2 Md€ par an.",
+     "claimed": "2 Md€/an",
+     "claimed_md": -2,
+     "estimates": [
+      {
+       "source": "Euronews",
+       "year": 2026,
+       "value": "2 Md€/an (chiffre du camp)",
+       "low_md": -2,
+       "high_md": -2,
+       "url": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "faisable",
+     "obstacle": "Financement par redéploiement non précisé",
+     "claude": {
+      "id": "fonds_climat",
+      "central": -2,
+      "low": -2,
+      "high": -2,
+      "method": "ascendant",
+      "formula": "Montant annoncé : 2 Md€/an",
+      "inputs": [
+       {
+        "label": "Fonds d'adaptation",
+        "value": "2 Md€/an",
+        "source": "Euronews",
+        "url": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ"
+       }
+      ],
+      "note": "Part de redéploiement inconnue"
+     }
+    }
+   ],
+   "total": {
+    "claimed": "retraites ≈ +30 Md€/an à terme, déficit à 2 % du PIB en fin de mandat",
+    "independent": "aucun chiffrage global ; retraites +10 à +32 Md€/an selon l'horizon ; famille et profs non chiffrés",
+    "low_md": null,
+    "high_md": null
+   },
+   "claude_total": {
+    "sum": -8.3,
+    "p10": -42.3,
+    "p50": -15.2,
+    "p90": -0.8,
+    "realsum": -8.3,
+    "r10": -42.6,
+    "r50": -15.2,
+    "r90": -0.6,
+    "missing": "défense, passage à 45 annuités, capitalisation, abondement de 500 € au premier contrat",
+    "n": 9,
+    "cost": -21.3,
+    "gain": 13
+   },
+   "short": "Philippe",
+   "sim": {
+    "retraite": {
+     "age_legal": 65,
+     "age_taux_plein": 67,
+     "carriere_longue": "Environ un actif sur trois pourrait partir entre 60 et 64 ans (carrières longues, pénibilité, santé).",
+     "regle": "Rétablir 64 ans, puis 65 ans et 45 annuités en moins de dix ans ; capitalisation obligatoire."
+    },
+    "smic_net": null,
+    "salaire_net": null,
+    "alloc_familiales": {
+     "1": 350,
+     "2": null,
+     "3": null,
+     "par_enfant_sup": null,
+     "note": "Allocation unique de 350 €/mois dès le premier enfant, dégressive selon les revenus"
+    },
+    "tva_energie": null,
+    "fonctionnaires": "Un départ en retraite sur trois non remplacé, deux jours de carence, enseignants payés +20 % sur le quinquennat.",
+    "chomeurs": "Indemnisation plafonnée à 12 mois pour les moins de 50 ans (18 aujourd'hui).",
+    "minima_sociaux": null,
+    "jeunes": "500 € versés par l'État sur un plan d'épargne retraite au premier contrat de travail.",
+    "retraites_actuels": "Économies sur les retraités « qui le peuvent » jugées légitimes ; mesure non précisée.",
+    "independants": "Suppression des impôts de production (dont la CFE) contre 50 Md€ d'aides aux entreprises en moins ; moratoire sur les nouvelles normes.",
+    "etrangers": "Immigration légale divisée par deux, moratoire sur le regroupement familial.",
+    "patrimoine": [],
+    "heritage": [],
+    "overtime": {
+     "annual_at_smic": 1000,
+     "label": "2 heures sup par semaine sans cotisations"
+    },
+    "enseignants_pct": 20,
+    "cfe_suppr": true,
+    "cfe_note": "Suppression de la CFE, compensée par 50 Md€ d'aides aux entreprises en moins"
+   }
+  },
+  {
+   "id": "glucksmann",
+   "name": "Raphaël Glucksmann",
+   "party": "PS-Place publique",
+   "poll": "13-15,5 %",
+   "summary": "Programme en cours d'écriture. Seule la taxe sur les très gros héritages est chiffrée (15 Md€), et elle est redistribuée aux salariés ; ses mesures phares dépendent de l'accord européen.",
+   "measures": [
+    {
+     "id": "zucman",
+     "theme": "fiscalite",
+     "title": "Impôt plancher ultra-riches",
+     "proposal": "Taxe Zucman (2 % au-delà de 100 M€) défendue en 2025 ; absente d'Acte I, statut 2027 incertain.",
+     "claimed": "Aucun chiffre du camp ; Zucman avance environ 20 Md€/an",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Zucman via Public Sénat",
+       "year": 2025,
+       "value": "≈20 Md€/an ±5",
+       "low_md": 15,
+       "high_md": 25,
+       "url": "https://www.publicsenat.fr/actualites/economie/taxe-zucman-quels-sont-les-arguments-pour-et-les-arguments-contre"
+      },
+      {
+       "source": "Brut (7 économistes)",
+       "year": 2025,
+       "value": "≈5 Md€ selon d'autres économistes",
+       "low_md": 5,
+       "high_md": 5,
+       "url": "https://www.brut.media/fr/articles/taxe-zucman-cest-non-pour-larcher-la-base-de-tout-accord-pour-glucksmann"
+      },
+      {
+       "source": "Institut de l'Entreprise (Trop c'est trop)",
+       "year": 2026,
+       "value": "5,5 Md€ central ; 1,25 si IS imputé ; jusqu'à -22,75 avec effets macro",
+       "low_md": -22.75,
+       "high_md": 5.5,
+       "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/06/TCT_Taxe-Zucman-2026.pdf"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "tres_difficile",
+     "obstacle": "Avis défavorable du Conseil d'État, risque confiscatoire, rejet à l'Assemblée (228-172)",
+     "claude": {
+      "id": "zucman",
+      "central": 5,
+      "low": 1.25,
+      "high": 20,
+      "method": "médiane",
+      "formula": "Médiane de 20 (Zucman) ; 5 (sept économistes) ; 5,5 et 1,25 (Institut de l'Entreprise) ≈ +5 Md€",
+      "inputs": [
+       {
+        "label": "Rendement selon Zucman",
+        "value": "20 Md€ ± 5",
+        "source": "Public Sénat",
+        "url": "https://www.publicsenat.fr/actualites/economie/taxe-zucman-quels-sont-les-arguments-pour-et-les-arguments-contre"
+       },
+       {
+        "label": "Estimation critique",
+        "value": "≈5 Md€",
+        "source": "Brut",
+        "url": "https://www.brut.media/fr/articles/taxe-zucman-cest-non-pour-larcher-la-base-de-tout-accord-pour-glucksmann"
+       },
+       {
+        "label": "Net de l'IS et des comportements",
+        "value": "5,5 Md€ ; 1,25 si IS imputé en totalité",
+        "source": "Institut de l'Entreprise",
+        "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/06/TCT_Taxe-Zucman-2026.pdf"
+       }
+      ],
+      "note": "Reprise dans le programme 2027 non confirmée"
+     }
+    },
+    {
+     "id": "heritages",
+     "theme": "fiscalite",
+     "title": "Taxer les méga-héritages",
+     "proposal": "Taxer le 1 % des plus gros héritages (>2 M€) pour hausser les salaires nets / baisser la CSG.",
+     "claimed": "15 Md€/an, intégralement redistribués aux salariés",
+     "claimed_md": 15,
+     "estimates": [
+      {
+       "source": "CAE note 69",
+       "year": 2021,
+       "value": "Réforme d'assiette : +9 à +19 Md€ selon scénario",
+       "low_md": 9,
+       "high_md": 19,
+       "url": "https://cae-eco.fr/static/pdf/cae-note069.pdf"
+      },
+      {
+       "source": "iFRAP",
+       "year": 2026,
+       "value": "Successions actuelles ≈21 Md€ ; 15 Md€ = +70 %, non vérifié",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.ifrap.org/budget-et-fiscalite/tout-prendre-larme-fiscale-de-ceux-qui-ne-savent-pas-creer-de-richesses"
+      },
+      {
+       "source": "iFRAP (mesure comparable 2022)",
+       "year": 2022,
+       "value": "≈13,8 à 14,3 Md€",
+       "low_md": 13.8,
+       "high_md": 14.3,
+       "url": "https://www.ifrap.org/budget-et-fiscalite/droits-de-succession-44-milliards-dimpots-en-moins-ou-14-milliards-de-taxes-en-plus"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Seuil >2 M€ seul insuffisant : exige une réforme d'assiette (Dutreil, assurance-vie)",
+     "claude": {
+      "id": "heritages",
+      "central": -1.2,
+      "low": -8,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "Recette médiane 13,8 Md€ (7 ; 9 ; 13,8 ; 15 ; 19) − 15 Md€ de baisse de CSG promise = −1,2 Md€",
+      "inputs": [
+       {
+        "label": "Rendement annoncé, redistribué",
+        "value": "15 Md€",
+        "source": "Public Sénat",
+        "url": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"
+       },
+       {
+        "label": "Réforme d'assiette des successions",
+        "value": "+9 à +19 Md€",
+        "source": "CAE",
+        "url": "https://cae-eco.fr/static/pdf/cae-note069.pdf"
+       },
+       {
+        "label": "Mesure comparable 2022",
+        "value": "13,8 à 14,3 Md€",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/budget-et-fiscalite/droits-de-succession-44-milliards-dimpots-en-moins-ou-14-milliards-de-taxes-en-plus"
+       },
+       {
+        "label": "Niches sur les très gros héritages",
+        "value": "≈7 Md€/an",
+        "source": "Fipeco (Alternatives Économiques)",
+        "url": "https://fipeco.fr/pdf/Alter%20Eco%2017.09.2024.pdf"
+       }
+      ],
+      "note": "Conçue neutre ; le risque est un rendement inférieur aux 15 Md€ déjà promis aux salariés"
+     }
+    },
+    {
+     "id": "retraites",
+     "theme": "retraites",
+     "title": "Abroger la réforme 2023",
+     "proposal": "Abroger la réforme de 2023, retour à 62 ans, départs modulés selon la pénibilité.",
+     "claimed": "Non chiffré par le camp",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Cour des comptes (via Public Sénat)",
+       "year": 2025,
+       "value": "Retour à 62 ans : +10,4 Md€ de déficit en 2035",
+       "low_md": -10.4,
+       "high_md": -10.4,
+       "url": "https://www.publicsenat.fr/actualites/emploi/retraites-si-vous-abrogez-la-reforme-de-2023-cest-10-milliards-deuros-de-plus-quil-faut-trouver-souligne-pierre-moscovici"
+      },
+      {
+       "source": "Institut Montaigne / gouvernement (AFP)",
+       "year": 2024,
+       "value": "8,2 Md€ en 2027 ; 14,1 Md€ en 2030",
+       "low_md": -14.1,
+       "high_md": -8.2,
+       "url": "https://www.moneyvox.fr/retraite/actualites/98707/abroger-la-reforme-des-retraites-et-le-depart-a-64-ans-combien-ca-coute"
+      },
+      {
+       "source": "iFRAP (suspension seule)",
+       "year": 2025,
+       "value": "Suspension : 1,8 Md€ en 2027 ; 16,5 Md€ en 2035",
+       "low_md": -16.5,
+       "high_md": -1.8,
+       "url": "https://www.ifrap.org/retraite/retraites-la-suspension-va-couter-des-milliards"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Financement non précisé ; régime déjà déficitaire",
+     "claude": {
+      "id": "retraites",
+      "central": -10.4,
+      "low": -14.1,
+      "high": -8.2,
+      "method": "médiane",
+      "formula": "Médiane de 8,2 (Montaigne) ; 10,4 (Cour des comptes) ; 14,1 (étude d'impact) = −10,4 Md€",
+      "inputs": [
+       {
+        "label": "Retour à 62 ans, déficit en 2035",
+        "value": "10,4 Md€",
+        "source": "Cour des comptes",
+        "url": "https://www.publicsenat.fr/actualites/emploi/retraites-si-vous-abrogez-la-reforme-de-2023-cest-10-milliards-deuros-de-plus-quil-faut-trouver-souligne-pierre-moscovici"
+       },
+       {
+        "label": "Abrogation en 2027 / en 2030",
+        "value": "8,2 Md€ (Montaigne) ; 14,1 Md€ (gouvernement)",
+        "source": "MoneyVox / AFP",
+        "url": "https://www.moneyvox.fr/retraite/actualites/98707/abroger-la-reforme-des-retraites-et-le-depart-a-64-ans-combien-ca-coute"
+       }
+      ],
+      "note": "Départs anticipés pour pénibilité non chiffrés : coût sans doute plus élevé"
+     }
+    },
+    {
+     "id": "smic",
+     "theme": "travail",
+     "title": "SMIC à 1 600 € net",
+     "proposal": "Porter le SMIC à 1 600 € net en deux ans, conférences salariales.",
+     "claimed": "Non chiffré par le camp",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Institut Montaigne (version immédiate)",
+       "year": 2024,
+       "value": "≈19 Md€/an (17-21) ; 230 000 à 380 000 emplois menacés",
+       "low_md": -21,
+       "high_md": -17,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net"
+      },
+      {
+       "source": "iFRAP",
+       "year": 2024,
+       "value": "+32,5 Md€ d'allègements de charges ; ≈240 000 emplois détruits",
+       "low_md": -32.5,
+       "high_md": -32.5,
+       "url": "https://www.ifrap.org/emploi-et-politiques-sociales/laugmentation-du-smic-1-600-euros-detruirait-240-000-emplois"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Coût des allègements et emplois ; chiffrages faits pour une hausse immédiate",
+     "claude": {
+      "id": "smic",
+      "central": -19,
+      "low": -32.5,
+      "high": -3.5,
+      "method": "médiane",
+      "formula": "Montaigne central ≈ −19 Md€ ; bornes : allègements iFRAP (−32,5) et effet immédiat (−3,5)",
+      "inputs": [
+       {
+        "label": "Coût net public",
+        "value": "≈19 Md€ (17 à 21)",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net"
+       },
+       {
+        "label": "Hausse des allègements",
+        "value": "+32,5 Md€",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/emploi-et-politiques-sociales/laugmentation-du-smic-1-600-euros-detruirait-240-000-emplois"
+       },
+       {
+        "label": "Salariés au SMIC",
+        "value": "2,7 millions (2024)",
+        "source": "Dares",
+        "url": "https://www.echodumardi.com/economie/marche-du-travail-plus-de-14-des-salaries-du-prive-touchent-le-smic/?print=pdf"
+       }
+      ],
+      "note": "Calculé sur le SMIC de 2024 ; l'indexation d'ici 2030 réduirait l'écart"
+     }
+    },
+    {
+     "id": "defense",
+     "theme": "europe",
+     "title": "Défense européenne 500 Md€",
+     "proposal": "Fonds européen de défense de 500 Md€ par emprunt commun ; aide à l'Ukraine via les avoirs russes.",
+     "claimed": "500 Md€ au niveau UE, part française non chiffrée",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Euronews",
+       "year": 2026,
+       "value": "Merz : nouvelle dette commune « hors de question » (avril 2026)",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://fr.euronews.com/2026/04/28/euronews-explique-quest-ce-que-les-euro-obligations-pourquoi-divisent-elles-et-ont-elles-u"
+      },
+      {
+       "source": "ABC Bourse (SAFE)",
+       "year": 2025,
+       "value": "Précédent SAFE : 150 Md€ de prêts, 26 États sur 27",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.abcbourse.com/marches/l-europe-lance-safe-un-plan-d-armement-commun-de-150-milliards-d-euros_665231"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "tres_difficile",
+     "obstacle": "Veto allemand et des pays frugaux sur la dette commune",
+     "claude": {
+      "id": "defense",
+      "central": -4.4,
+      "low": -8.75,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "500 Md€ × 17,5 % (part française) = 87,5 Md€, remboursés sur 20 ans ≈ −4,4 Md€/an",
+      "inputs": [
+       {
+        "label": "Fonds européen de défense",
+        "value": "500 Md€ d'emprunt commun",
+        "source": "Place publique, Acte I",
+        "url": "https://place-publique.eu/wp-content/uploads/2025/06/20250623_Projet_placepublique_acte1_BAT_BaDef.pdf"
+       },
+       {
+        "label": "Contribution française au budget UE",
+        "value": "≈30,3 Md€ en 2026",
+        "source": "Public Sénat",
+        "url": "https://www.publicsenat.fr/actualites/economie/budget-2026-pourquoi-la-france-a-obtenu-une-hausse-moins-importante-de-sa-contribution-a-lunion-europeenne"
+       }
+      ],
+      "note": "Durée de remboursement supposée (10 à 20 ans)"
+     }
+    },
+    {
+     "id": "ecole",
+     "theme": "depense",
+     "title": "Programmation pour l'école",
+     "proposal": "Loi quinquennale : salaires des enseignants, moins d'élèves par classe, rénovation des écoles.",
+     "claimed": "Non chiffré par le camp",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Institut Montaigne (mesure voisine, +30 %)",
+       "year": 2022,
+       "value": "13,4 Md€/an (12,2-16) pour +30 % ; mesure non identique",
+       "low_md": -16,
+       "high_md": -12.2,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/rattraper-le-gel-du-point-dindice-depuis-2010-et-revaloriser-les-grilles-salariales-des-enseignants/"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Ampleur non précisée, financement non identifié",
+     "claude": {
+      "id": "ecole",
+      "central": -6,
+      "low": -13.4,
+      "high": -3,
+      "method": "ascendant",
+      "formula": "Masse salariale ≈ 59,3 Md€ hors pensions ; +10 % ≈ −5,9 Md€",
+      "inputs": [
+       {
+        "label": "Mission Enseignement scolaire 2026",
+        "value": "64,5 Md€ hors pensions, dont 5,2 hors salaires",
+        "source": "Sénat",
+        "url": "https://www.senat.fr/rap/l25-139-313/l25-139-3131.html"
+       },
+       {
+        "label": "Revalorisation de 30 %",
+        "value": "13,4 Md€/an",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/rattraper-le-gel-du-point-dindice-depuis-2010-et-revaloriser-les-grilles-salariales-des-enseignants/"
+       }
+      ],
+      "note": "Ampleur non annoncée : +10 % supposés"
+     }
+    },
+    {
+     "id": "industrie",
+     "theme": "europe",
+     "title": "Préférence européenne",
+     "proposal": "Buy European Act dans les marchés publics, droits sur les batteries chinoises, non au Mercosur.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Euronews",
+       "year": 2026,
+       "value": "Projet UE de mars 2026 non adopté ; France isolée sur une préférence stricte",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://fr.euronews.com/2026/09/24/que-signifie-vraiment-made-in-europe-la-france-lallemagne-et-lespagne-divisees"
+      },
+      {
+       "source": "Acteurs publics",
+       "year": 2024,
+       "value": "Non-discrimination UE et accord OMC limitent la préférence",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://acteurspublics.fr/articles/souverainete-numerique-et-achats-publics-que-peuvent-vraiment-les-europeens/"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Compétence UE, accord OMC, divisions Allemagne-Espagne",
+     "claude": {
+      "id": "industrie",
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "Mesure réglementaire, sans dépense directe identifiée",
+      "inputs": [
+       {
+        "label": "État du projet européen",
+        "value": "Proposé en mars 2026",
+        "source": "Euronews",
+        "url": "https://fr.euronews.com/2026/09/24/que-signifie-vraiment-made-in-europe-la-france-lallemagne-et-lespagne-divisees"
+       }
+      ],
+      "note": "Surcoûts possibles des achats publics non documentés"
+     }
+    },
+    {
+     "id": "service_civique",
+     "theme": "social",
+     "title": "Service civique de 10 mois",
+     "proposal": "Service obligatoire de dix mois pour chaque classe d'âge, volet militaire volontaire.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Calcul (Maire-info + Insee)",
+       "year": 2026,
+       "value": "≈790 000 jeunes × 10 mois × 605 € ≈ 4,8 Md€",
+       "low_md": -4.8,
+       "high_md": -4,
+       "url": "https://www.maire-info.com/jeunesse/plus-de-80-000-jeunes-sengagent-dans-un-service-civique-chaque-annee-article-29901"
+      },
+      {
+       "source": "Cour des comptes (SNU, via Weka)",
+       "year": 2024,
+       "value": "SNU généralisé de 12 jours : 3,5 à 5 Md€/an",
+       "low_md": -5,
+       "high_md": -3.5,
+       "url": "https://www.weka.fr/actualite/?p=184391"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Capacités d'accueil pour environ 800 000 jeunes par an",
+     "claude": {
+      "id": "service_civique",
+      "central": -4.8,
+      "low": -9.8,
+      "high": -4,
+      "method": "ascendant",
+      "formula": "790 000 jeunes × 10 mois × 605 € ≈ −4,8 Md€",
+      "inputs": [
+       {
+        "label": "Indemnité et coût mensuels",
+        "value": "505 € + 100 €",
+        "source": "Maire-info",
+        "url": "https://www.maire-info.com/jeunesse/plus-de-80-000-jeunes-sengagent-dans-un-service-civique-chaque-annee-article-29901"
+       },
+       {
+        "label": "Taille d'une génération",
+        "value": "≈790 000",
+        "source": "Insee",
+        "url": "https://www.insee.fr/fr/statistiques/1906667"
+       },
+       {
+        "label": "SNU généralisé (12 jours)",
+        "value": "3,5 à 5 Md€/an",
+        "source": "Cour des comptes (Weka)",
+        "url": "https://www.weka.fr/actualite/?p=184391"
+       }
+      ],
+      "note": "Logistique d'accueil de 800 000 jeunes en sus"
+     }
+    },
+    {
+     "id": "ukraine",
+     "theme": "europe",
+     "title": "Plus d'aide à l'Ukraine",
+     "proposal": "Hausse « drastique » de l'aide militaire, financée par la saisie des avoirs russes.",
+     "claimed": "Financement par les avoirs russes",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Revue Conflits",
+       "year": 2026,
+       "value": "Aide militaire ≈3 Md€ en 2024, 0,94 Md€ livrés en 2025",
+       "low_md": -3,
+       "high_md": -0.94,
+       "url": "https://www.revueconflits.com/?p=65984"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "tres_difficile",
+     "obstacle": "Saisie des avoirs russes contestée (Belgique, Euroclear)",
+     "claude": {
+      "id": "ukraine",
+      "central": -1.5,
+      "low": -3,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "+3 Md€/an (doublement de 2024), financés à 50 % par les avoirs russes",
+      "inputs": [
+       {
+        "label": "Aide militaire française",
+        "value": "≈3 Md€ en 2024",
+        "source": "Revue Conflits",
+        "url": "https://www.revueconflits.com/?p=65984"
+       }
+      ],
+      "note": "Ampleur de la hausse supposée"
+     }
+    }
+   ],
+   "total": {
+    "claimed": "aucun chiffrage global ; 15 Md€ d'héritages redistribués (neutre)",
+    "independent": "≈ −34 à −1 Md€/an selon les mesures connues (agrégation de travail)",
+    "low_md": -34,
+    "high_md": -1
+   },
+   "claude_total": {
+    "sum": -42.3,
+    "p10": -62.7,
+    "p50": -43.7,
+    "p90": -22.6,
+    "realsum": -42.3,
+    "r10": -62.5,
+    "r50": -43.5,
+    "r90": -22.8,
+    "missing": "transition écologique, hôpital, baisse des effectifs par classe",
+    "n": 9,
+    "cost": -47.3,
+    "gain": 5
+   },
+   "short": "Glucksmann",
+   "sim": {
+    "retraite": {
+     "age_legal": 62,
+     "age_taux_plein": null,
+     "carriere_longue": "Départ plus tôt, jusqu'à 60 ans, pour les carrières hachées et métiers pénibles ; plus tard pour les cadres.",
+     "regle": "Abrogation de la réforme 2023, retour à 62 ans, modulé selon l'espérance de vie en bonne santé."
+    },
+    "smic_net": 1600,
+    "salaire_net": null,
+    "alloc_familiales": null,
+    "tva_energie": null,
+    "salaire_note": "Baisse de CSG sur les salaires financée par l'impôt sur les héritages (15 Md€ au total) : gain par salarié non chiffré.",
+    "fonctionnaires": "Enseignants : revalorisation « substantielle » sur 5 ans, sans montant ; moins d'élèves par classe en primaire.",
+    "chomeurs": null,
+    "minima_sociaux": null,
+    "jeunes": "Service civique obligatoire de 10 mois, volet militaire volontaire.",
+    "retraites_actuels": null,
+    "independants": "Pas de mesure spécifique publiée.",
+    "etrangers": "Régularisation des travailleurs sans papiers ; abrogation de la loi immigration 2024 ; vote aux élections locales pour les non-Européens.",
+    "patrimoine": [
+     {
+      "seuil": 100000000,
+      "effet": "Taxe Zucman (2 % au-delà de 100 M€) soutenue en 2025, reprise en 2027 non confirmée."
+     }
+    ],
+    "heritage": [
+     {
+      "seuil": 2000000,
+      "effet": "Hausse de la taxation des héritages au-delà de 2 M€ ; barème non publié."
+     }
+    ]
+   }
+  },
+  {
+   "id": "retailleau",
+   "name": "Bruno Retailleau",
+   "party": "LR",
+   "poll": "5,5-11,5 %",
+   "summary": "Promet 197 Md€ d'économies cumulées d'ici 2032. Les postes vérifiables (agences, AME) rapportent nettement moins qu'annoncé ; le volet immigration exige une révision constitutionnelle.",
+   "measures": [
+    {
+     "id": "etat",
+     "theme": "depense",
+     "title": "Fonctionnaires et agences",
+     "proposal": "400 000 départs non remplacés, 1 623 h/an, 3 jours de carence, suppression de la quasi-totalité des agences.",
+     "claimed": "40,5 Md€ cumulés d'ici 2032, dont 12,5 Md€ sur les agences",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Commission d'enquête du Sénat (AFP)",
+       "year": 2025,
+       "value": "Mutualiser les opérateurs : ≈0,54 Md€ en 2-3 ans",
+       "low_md": 0.54,
+       "high_md": 0.54,
+       "url": "https://medias24.com/agence-presse/une-commission-parlementaire-deplore-labsence-de-vision-de-letat-sur-le-cout-des-agences/"
+      },
+      {
+       "source": "Sénatrice Lavarde (Public Sénat)",
+       "year": 2025,
+       "value": "Doute d'atteindre 1 Md€ sur les agences",
+       "low_md": null,
+       "high_md": 1,
+       "url": "https://www.publicsenat.fr/actualites/politique/2-a-3-milliards-deconomies-sur-les-agences-de-letat-pourquoi-le-chiffre-de-la-ministre-interroge-la-commission-denquete-du-senat"
+      },
+      {
+       "source": "Gouvernement (Banque des territoires)",
+       "year": 2025,
+       "value": "Objectif officiel de 2 à 3 Md€, contesté par le Sénat",
+       "low_md": 2,
+       "high_md": 3,
+       "url": "https://www.banquedesterritoires.fr/fusions-ou-suppressions-doperateurs-amelie-de-montchalin-bousculee-au-senat-sur-ses-annonces"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Agences : moins de 1 à 3 Md€ réels contre 12,5 annoncés",
+     "claude": {
+      "id": "etat",
+      "central": 8.8,
+      "low": 4,
+      "high": 20.9,
+      "method": "ascendant",
+      "formula": "280 000 postes en 2030 × 51 k€ × 50 % net de rétrocession = 7,1 + agences 1,6 + carence 0,1 ≈ +8,8 Md€",
+      "inputs": [
+       {
+        "label": "Départs à la retraite",
+        "value": "144 000/an",
+        "source": "DGAFP",
+        "url": "https://www.fonction-publique.gouv.fr/toutes-les-publications/les-departs-la-retraite-dans-la-fonction-publique-en-2025"
+       },
+       {
+        "label": "Rétrocession aux agents",
+        "value": "50 %",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/etat-et-collectivites/ne-pas-remplacer-un-fonctionnaire-sur-deux-ne-suffira-pas-realiser-les-economies-necessaires"
+       },
+       {
+        "label": "Agences",
+        "value": "0,54 à 3 Md€",
+        "source": "iFRAP / Sénat",
+        "url": "https://www.ifrap.org/etat-et-collectivites/rapport-de-la-commission-denquete-sur-les-operateurs-peut-aller-encore-plus-loin"
+       },
+       {
+        "label": "3 jours de carence",
+        "value": "+0,11 Md€",
+        "source": "Public Sénat",
+        "url": "https://www.publicsenat.fr/actualites/economie/arrets-maladie-les-senateurs-augmentent-a-trois-jours-le-delai-de-carence-dans-la-fonction-publique"
+       }
+      ],
+      "note": "Camp : 8,1 Md€/an ; carence surévaluée (3 Md€ annoncés, 0,1 mesuré)"
+     }
+    },
+    {
+     "id": "immigration",
+     "theme": "immigration",
+     "title": "Référendum immigration",
+     "proposal": "Référendum, fin du droit du sol, regroupement familial réduit, aides sociales après 5 ans de travail.",
+     "claimed": "10 Md€ cumulés, dont 4,5 Md€ suspendus au référendum",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Assemblée nationale (rapport PLF 2026)",
+       "year": 2025,
+       "value": "AME : ≈1,41 Md€ en 2026, 1,55 Md€ tous dispositifs = plafond d'économie",
+       "low_md": null,
+       "high_md": 1.55,
+       "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion_fin/l17b1996-tiii-a40_rapport-fond.pdf"
+      },
+      {
+       "source": "Sénat (exécution 2025)",
+       "year": 2026,
+       "value": "AME : coût réel 1,47 Md€ en 2025",
+       "low_md": null,
+       "high_md": 1.47,
+       "url": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf"
+      },
+      {
+       "source": "Public Sénat (constitutionnalistes)",
+       "year": 2026,
+       "value": "Article 11 impossible en l'état ; article 89 nécessaire",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.publicsenat.fr/actualites/politique/referendum-sur-limmigration-primaute-du-droit-national-le-projet-de-bruno-retailleau-est-il-faisable"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "tres_difficile",
+     "obstacle": "Article 89 : vote identique des deux chambres ; échec LR en 2023",
+     "claude": {
+      "id": "immigration",
+      "central": 1.1,
+      "low": 0,
+      "high": 2,
+      "method": "ascendant",
+      "formula": "10 Md€ cumulés / 5 = 2 ; hors part liée au référendum = 1,1",
+      "inputs": [
+       {
+        "label": "AME, coût réel 2025",
+        "value": "1,47 Md€",
+        "source": "Sénat",
+        "url": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf"
+       }
+      ],
+      "note": "Aucune donnée indépendante sur le regroupement familial"
+     }
+    },
+    {
+     "id": "retraites",
+     "theme": "retraites",
+     "title": "Départ à 63, taux plein à 65",
+     "proposal": "Départ dès 63 ans avec décote de 7 %/an, taux plein à 65 ans, 25-30 % de capitalisation pour les jeunes.",
+     "claimed": "42 Md€ sur 5 ans, dont 12 Md€ par la décote",
+     "claimed_md": null,
+     "estimates": [],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Capitalisation : coût de transition non chiffré",
+     "claude": {
+      "id": "retraites",
+      "central": 2.4,
+      "low": 0,
+      "high": 8.4,
+      "method": "ascendant",
+      "formula": "Décote : 12 Md€ / 5 = 2,4 ; plan complet 42 / 5 = 8,4 ; 0 si le taux plein à 65 ans annule l'effet",
+      "inputs": [
+       {
+        "label": "Paramètres",
+        "value": "63 ans, décote 7 %, taux plein à 65 ans",
+        "source": "LCP",
+        "url": "https://lcp.fr/actualites/retraites-bruno-retailleau-veut-un-age-minimal-de-depart-a-63-ans-et-un-taux-plein-a-65"
+       },
+       {
+        "label": "Repère : 64 ans en 2030",
+        "value": "+13,6 Md€",
+        "source": "CNAV (Public Sénat)",
+        "url": "https://www.publicsenat.fr/article/parlementaire/reforme-des-retraites-combien-pourrait-rapporter-le-report-de-l-age-legal-a-65"
+       }
+      ],
+      "note": "Capitalisation : coût de transition non chiffré"
+     }
+    },
+    {
+     "id": "travail",
+     "theme": "travail",
+     "title": "Aides plafonnées, RIA",
+     "proposal": "RSA, prime d'activité et ASS fusionnés avec 15 h d'activité ; aides plafonnées à 70 % du SMIC.",
+     "claimed": "30 Md€ (chômage et prestations)",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "iFRAP (scénarios de plafonnement)",
+       "year": 2024,
+       "value": "Allocation unique plafonnée à 70 % du SMIC : ~34 Md€",
+       "low_md": 34,
+       "high_md": 34,
+       "url": "https://www.ifrap.org/emploi-et-politiques-sociales/12-34-milliards-deuros-deconomies-les-differents-scenarios-dun-plafonnement-dune-allocation-sociale-unique-par-rapport"
+      },
+      {
+       "source": "Le Monde (Décodeurs), via la réponse de LR",
+       "year": 2026,
+       "value": "Argumentaire sur l'assistanat qualifié de « calcul acrobatique »",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://republicains.fr/wp-content/uploads/2026/01/Reponse-aux-Decodeurs-090126.pdf"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Aucun chiffrage du plan lui-même ; forte contestation probable",
+     "claude": {
+      "id": "travail",
+      "central": 5.5,
+      "low": 3.6,
+      "high": 7.4,
+      "method": "ascendant",
+      "formula": "−30 % sur le RSA (12 Md€) = 3,6 ; sur RSA + prime d'activité + ASS (24,7 Md€) = 7,4",
+      "inputs": [
+       {
+        "label": "RSA / prime d'activité 2024",
+        "value": "12,0 / 10,6 Md€",
+        "source": "DREES",
+        "url": "https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-12/CPS2025%20-%20Fiche%2011%20-%20Le%20risque%20pauvret%C3%A9%20et%20exclusion%20sociale.pdf"
+       },
+       {
+        "label": "ASS 2026",
+        "value": "2,06 Md€",
+        "source": "Sénat",
+        "url": "https://www.senat.fr/rap/a25-142-6/a25-142-6-syn.pdf"
+       }
+      ],
+      "note": "Chômage et plafond à 70 % du SMIC non chiffrables"
+     }
+    },
+    {
+     "id": "production",
+     "theme": "fiscalite",
+     "title": "Moins d'impôts de production",
+     "proposal": "Supprimer C3S, CVAE, forfait social, part industrielle de la CFE ; heures sup sans cotisations.",
+     "claimed": "51 Md€ rendus d'ici 2032 (21 ménages, 30 entreprises)",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "IPP (via Maire-info)",
+       "year": 2025,
+       "value": "La baisse de 10 Md€ de CVAE et CFE n'a pas eu d'effet significatif sur l'activité",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.maire-info.com/finances-et-fiscalite/la-baisse-de-la-cvae-na-produit-aucun-effet-significatif-sur-leconomie-selon-un-rapport-art26-30108"
+      },
+      {
+       "source": "Institut Montaigne",
+       "year": 2024,
+       "value": "C3S + CVAE : 7,3 à 9,1 Md€/an",
+       "low_md": -9.1,
+       "high_md": -7.3,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/baisse-des-impots-de-production-cvae-et-c3s"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "faisable",
+     "obstacle": "Coût certain, effet sur l'activité discuté",
+     "claude": {
+      "id": "production",
+      "central": -25.1,
+      "low": -40,
+      "high": -10.2,
+      "method": "médiane",
+      "formula": "Entre 51 Md€ cumulés / 5 = −10,2 et le détail en régime de croisière −40 (impôts de production 15 + coût du travail 25)",
+      "inputs": [
+       {
+        "label": "Détail du camp",
+        "value": "C3S 5,3 ; CVAE 4,3 ; forfait social 2,8 ; CFE 1,9",
+        "source": "Votons 2027",
+        "url": "https://votons-2027.fr/candidats/retailleau/programme/economie"
+       },
+       {
+        "label": "Rendement de la C3S",
+        "value": "≈5 Md€",
+        "source": "Légifiscal",
+        "url": "https://www.legifiscal.fr/actualites-fiscales/4315-plfss-2026-suppression-c3s.html"
+       }
+      ],
+      "note": "Incohérence interne du camp (51 cumulés contre 40 par an)"
+     }
+    },
+    {
+     "id": "energie",
+     "theme": "energie",
+     "title": "Fin du soutien aux ENR",
+     "proposal": "Abroger le volet électricité de la PPE, stopper solaire et éolien en mer, 8 EPR2, abroger ZFE et ZAN.",
+     "claimed": "Inclus dans un bloc de ~23 Md€",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Les Echos (chiffres CRE)",
+       "year": 2026,
+       "value": "Soutien aux ENR : 3,5 Md€ (2024), 6,9 Md€ (2025)",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.syndicat-energies-renouvelables.fr/wp-content/uploads/2026/02/Les-Echos-11-02-2026-Page-7.pdf"
+      },
+      {
+       "source": "Europe 1",
+       "year": 2026,
+       "value": "ZFE rétablies par le Conseil constitutionnel le 21/05/2026",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.europe1.fr/politique/suppression-des-zfe-par-le-conseil-constitutionnel-une-grande-partie-de-la-classe-politique-revoltee-937349"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Contrats signés maintenus ; une loi dédiée pour les ZFE",
+     "claude": {
+      "id": "energie",
+      "central": 1.5,
+      "low": 0,
+      "high": 3,
+      "method": "ascendant",
+      "formula": "Hausse évitée du soutien aux ENR ≈ 1 Md€/an sur 2028-2030",
+      "inputs": [
+       {
+        "label": "Soutien ENR",
+        "value": "9,1 Md€ (2026), 10,7 Md€ (2027)",
+        "source": "CRE (Banque des Territoires)",
+        "url": "https://www.banquedesterritoires.fr/vers-une-hausse-de-11-du-cout-du-soutien-public-aux-energies-renouvelables-en-2027"
+       }
+      ],
+      "note": "Contrats existants intangibles"
+     }
+    },
+    {
+     "id": "securite",
+     "theme": "securite",
+     "title": "Peines planchers",
+     "proposal": "Peines minimales obligatoires inscrites dans un « pacte constitutionnel », places de prison.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Terra Nova (via CNAPE)",
+       "year": 2014,
+       "value": "2007-2014 : ≈4 000 années de détention de plus par an ; effet sur la récidive non démontré",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.cnape.fr/documents/pour-en-finir-avec-les-peines-plancher"
+      },
+      {
+       "source": "Public Sénat (juristes)",
+       "year": 2026,
+       "value": "Pacte constitutionnel critiqué : conflit avec CEDH et droit UE",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-propose-une-revolution-copernicienne-dans-laquelle-la-constitution-ne-serait-plus-le-bouclier-qui-prote"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Surpopulation carcérale ; individualisation des peines",
+     "claude": {
+      "id": "securite",
+      "central": -0.45,
+      "low": -0.6,
+      "high": -0.1,
+      "method": "ascendant",
+      "formula": "10 000 places × 32 k€ + 4 000 années de détention × 32 k€ ≈ −0,45 Md€",
+      "inputs": [
+       {
+        "label": "Coût d'un détenu",
+        "value": "≈32 000 €/an",
+        "source": "Terra Nova (CNAPE)",
+        "url": "https://www.cnape.fr/documents/pour-en-finir-avec-les-peines-plancher"
+       }
+      ],
+      "note": "Construction exclue"
+     }
+    },
+    {
+     "id": "fin_maprimerenov",
+     "theme": "depense",
+     "title": "Fin de MaPrimeRénov'",
+     "proposal": "Supprimer MaPrimeRénov', dans un bloc d'≈23 Md€ avec l'aide au développement et l'audiovisuel public.",
+     "claimed": "Bloc d'≈23 Md€ cumulés, non isolé",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "LCP (Anah)",
+       "year": 2026,
+       "value": "Budget 2026 : 4,38 Md€, ramené à 4,01 après gel",
+       "low_md": 4.01,
+       "high_md": 4.38,
+       "url": "https://lcp.fr/actualites/maprimerenov-l-agence-nationale-de-l-habitat-acte-le-coup-de-rabot-de-351-millions-d"
+      },
+      {
+       "source": "Public Sénat",
+       "year": 2026,
+       "value": "Cité dans le bloc d'économies du plan",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "faisable",
+     "obstacle": "Dossiers engagés à payer ; objectifs européens de rénovation",
+     "claude": {
+      "id": "fin_maprimerenov",
+      "central": 4,
+      "low": 2,
+      "high": 4.4,
+      "method": "ascendant",
+      "formula": "Budget Anah 2026 après gel = 4,01 Md€",
+      "inputs": [
+       {
+        "label": "Budget Anah 2026",
+        "value": "4,38 puis 4,01 Md€",
+        "source": "LCP",
+        "url": "https://lcp.fr/actualites/maprimerenov-l-agence-nationale-de-l-habitat-acte-le-coup-de-rabot-de-351-millions-d"
+       }
+      ],
+      "note": "Suppression totale supposée"
+     }
+    }
+   ],
+   "total": {
+    "claimed": "197 Md€ d'économies cumulées d'ici 2032, 51 Md€ de baisses d'impôts, ≈146 Md€ nets",
+    "independent": "aucun chiffrage global ; agences 0,5 à 3 Md€ contre 12,5 annoncés ; AME 1,5 Md€/an au plus",
+    "low_md": null,
+    "high_md": null
+   },
+   "claude_total": {
+    "sum": -2.3,
+    "p10": -17.2,
+    "p50": 0.4,
+    "p90": 19.0,
+    "realsum": -2.3,
+    "r10": -17.3,
+    "r50": 0.3,
+    "r90": 18.9,
+    "missing": "assurance chômage, plafond des aides à 70 % du SMIC, capitalisation, audiovisuel public, aide au développement",
+    "n": 8,
+    "cost": -25.6,
+    "gain": 23.3
+   },
+   "short": "Retailleau",
+   "sim": {
+    "retraite": {
+     "age_legal": 63,
+     "age_taux_plein": 65,
+     "carriere_longue": "Départ possible dès 63 ans avec 7 % de décote par année manquante ; taux plein automatique à 65 ans.",
+     "regle": "Âge minimal 63 ans, taux plein à 65 ans indexé ensuite sur l'espérance de vie ; part de capitalisation pour les jeunes."
+    },
+    "smic_net": null,
+    "salaire_net": null,
+    "alloc_familiales": {
+     "1": 240,
+     "2": 480,
+     "3": 720,
+     "par_enfant_sup": 240,
+     "note": "« Revenu familial » de 240 € par enfant, remplace 12 aides (comparé ici aux seules allocations familiales)"
+    },
+    "tva_energie": null,
+    "fonctionnaires": "1 623 h/an au lieu de 1 607, trois jours de carence au lieu d'un, 400 000 départs en retraite non remplacés.",
+    "chomeurs": "Fin des droits après 3 offres refusées ; ruptures conventionnelles limitées à 6 mois ; dégressivité au-delà de 3 000 € net.",
+    "minima_sociaux": "RSA, prime d'activité et ASS fusionnés (−30 %, 15 h d'activité) ; total des aides plafonné à 70 % du SMIC.",
+    "jeunes": "Part de retraite par capitalisation (25-30 %) pour les nouveaux entrants.",
+    "retraites_actuels": "Pas d'effet de la capitalisation ; cumul emploi-retraite réformé.",
+    "independants": "Suppression de la C3S et de la part industrielle de la CFE (surtout les grandes entreprises) ; pas de mesure spécifique publiée.",
+    "etrangers": "Revenu familial, aides familiales et hébergement d'urgence soumis à 5 ans de résidence et d'activité.",
+    "patrimoine": [],
+    "heritage": [],
+    "overtime": {
+     "monthly": 230,
+     "ref": 2115,
+     "label": "Heures au-delà de 1 607 h/an sans cotisations ni impôt"
+    }
+   }
+  },
+  {
+   "id": "attal",
+   "name": "Gabriel Attal",
+   "party": "Renaissance",
+   "poll": "4-9,5 %",
+   "summary": "Veut supprimer l'âge légal de départ, geler les prestations en 2028, supprimer 100 000 postes publics et revenir à l'équilibre en 2037 sans hausse d'impôts. Son camp annonce 120 à 150 Md€ d'économies sur dix ans, sans chiffrage mesure par mesure.",
+   "measures": [
+    {
+     "id": "retraites",
+     "theme": "retraites",
+     "title": "Fin de l'âge légal",
+     "proposal": "Supprimer l'âge légal : départ libre selon la durée cotisée, avec décotes et surcotes, pension minimale et part de capitalisation. Paramètres non publiés.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Cour des comptes (via LCP)",
+       "year": 2025,
+       "value": "Repère : âge 64 → 63 ans = −5,8 Md€ en 2035",
+       "low_md": -5.8,
+       "high_md": -5.8,
+       "url": "https://lcp.fr/actualites/retraites-pierre-moscovici-avertit-les-deputes-sur-un-deficit-du-systeme-qui-pourrait"
+      },
+      {
+       "source": "Étude d'impact (via MoneyVox)",
+       "year": 2024,
+       "value": "Repère : retour à 62 ans = −14,1 Md€ en 2030",
+       "low_md": -14.1,
+       "high_md": -14.1,
+       "url": "https://www.moneyvox.fr/retraite/actualites/98707/abroger-la-reforme-des-retraites-et-le-depart-a-64-ans-combien-ca-coute"
+      },
+      {
+       "source": "iFRAP",
+       "year": 2026,
+       "value": "Idée jugée « très mauvaise » : le report d'âge rapporte plus que la durée",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.ifrap.org/retraite/supprimer-lage-legal-de-depart-la-retraite-une-tres-mauvaise-idee"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Loi votée par une majorité ; coût dépendant des décotes et de la durée, non connues.",
+     "claude": {
+      "central": -5.8,
+      "low": -14.1,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "Hypothèse : départs avancés d'un an en moyenne ≈ coût du passage de 64 à 63 ans (5,8 Md€) ; bornes : retour à 62 ans (−14,1) et décote neutre (0)",
+      "inputs": [
+       {
+        "label": "Âge 64 → 63 ans",
+        "value": "−5,8 Md€ (2035)",
+        "source": "Cour des comptes (LCP)",
+        "url": "https://lcp.fr/actualites/retraites-pierre-moscovici-avertit-les-deputes-sur-un-deficit-du-systeme-qui-pourrait"
+       },
+       {
+        "label": "Retour à 62 ans",
+        "value": "−14,1 Md€ (2030)",
+        "source": "Étude d'impact (MoneyVox)",
+        "url": "https://www.moneyvox.fr/retraite/actualites/98707/abroger-la-reforme-des-retraites-et-le-depart-a-64-ans-combien-ca-coute"
+       }
+      ],
+      "note": "Très incertain : paramètres non publiés"
+     }
+    },
+    {
+     "id": "fonctionnaires",
+     "theme": "depense",
+     "title": "100 000 postes en moins",
+     "proposal": "Supprimer 100 000 postes publics par départs volontaires et non-remplacements, hors Éducation, Armées, Justice et Intérieur.",
+     "claimed": "7 Md€ d'économies",
+     "claimed_md": 7,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2016,
+       "value": "31 000 € par poste : ≈3,1 Md€ pour 100 000 postes",
+       "low_md": 3.1,
+       "high_md": 3.1,
+       "url": "https://www.institutmontaigne.org/ressources/pdfs/Primaires-2016-2017/reduction-de-l-emploi-public-chiffrage-et-faisabilite-2pdf.pdf"
+      },
+      {
+       "source": "Cour des comptes (via Économie Matin)",
+       "year": 2024,
+       "value": "100 000 postes dans les collectivités : 4,1 Md€/an d'ici 2030",
+       "low_md": 4.1,
+       "high_md": 4.1,
+       "url": "https://www.economiematin.fr/?p=167899"
+      },
+      {
+       "source": "Fipeco",
+       "year": 2024,
+       "value": "≈67 000 € par poste : ≈6,7 Md€",
+       "low_md": 6.7,
+       "high_md": 6.7,
+       "url": "https://fipeco.fr/pdf/Nouvel%20Economiste%2012.11.2024.pdf"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Les ministères épargnés emploient plus des deux tiers des agents de l'État ; indemnités de départ.",
+     "claude": {
+      "central": 4.1,
+      "low": 3.1,
+      "high": 7,
+      "method": "médiane",
+      "formula": "Médiane de 3,1 ; 4,1 ; 6,7 Md€ = +4,1 Md€",
+      "inputs": [
+       {
+        "label": "Coût par poste",
+        "value": "31 000 €",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/ressources/pdfs/Primaires-2016-2017/reduction-de-l-emploi-public-chiffrage-et-faisabilite-2pdf.pdf"
+       },
+       {
+        "label": "Chiffre du camp",
+        "value": "7 Md€",
+        "source": "Public Sénat",
+        "url": "https://www.publicsenat.fr/actualites/politique/reduction-de-nombre-de-fonctionnaires-le-virage-a-180-degres-de-gabriel-attal"
+       }
+      ],
+      "note": "Hors coût des indemnités de départ"
+     }
+    },
+    {
+     "id": "annee_blanche",
+     "theme": "social",
+     "title": "Gel des prestations en 2028",
+     "proposal": "« Année blanche » en 2028 : toutes les prestations sociales gelées, sauf les petites retraites (seuil non défini).",
+     "claimed": "Inclus dans 120-150 Md€ sur 10 ans",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "IPP (via Journal de l'économie)",
+       "year": 2025,
+       "value": "Pensions 3 + prestations 1,3 = 4,3 Md€",
+       "low_md": 4.3,
+       "high_md": 4.3,
+       "url": "https://www.journaldeleconomie.fr/budget-une-annee-blanche-permettrait-57-milliards-deuros-deconomies-en-2026/"
+      },
+      {
+       "source": "PLFSS 2026 (via Public Sénat)",
+       "year": 2025,
+       "value": "Gel des pensions et prestations : 3,6 Md€",
+       "low_md": 3.6,
+       "high_md": 3.6,
+       "url": "https://www.publicsenat.fr/actualites/sante/securite-sociale-le-budget-plfss-2026-prevoit-un-gel-des-pensions-de-retraite-effort-depenses-de-sante"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "faisable",
+     "obstacle": "Vote en loi de finances et de financement de la Sécurité sociale.",
+     "claude": {
+      "central": 4,
+      "low": 1.3,
+      "high": 4.3,
+      "method": "médiane",
+      "formula": "Médiane de 3,6 et 4,3 ≈ +4 Md€ ; 1,3 si la plupart des pensions sont exemptées",
+      "inputs": [
+       {
+        "label": "Gel des prestations hors pensions",
+        "value": "1,3 Md€",
+        "source": "IPP",
+        "url": "https://www.journaldeleconomie.fr/budget-une-annee-blanche-permettrait-57-milliards-deuros-deconomies-en-2026/"
+       },
+       {
+        "label": "Gel des pensions",
+        "value": "3 Md€",
+        "source": "IPP",
+        "url": "https://www.journaldeleconomie.fr/budget-une-annee-blanche-permettrait-57-milliards-deuros-deconomies-en-2026/"
+       }
+      ],
+      "note": "Dépend de l'inflation en 2028 et du seuil des petites retraites"
+     }
+    },
+    {
+     "id": "bebe",
+     "theme": "retraites",
+     "title": "1 000 € à la naissance",
+     "proposal": "L'État place 1 000 € par nouveau-né sur un compte retraite par capitalisation, abondable par la famille.",
+     "claimed": "660 M€ par an",
+     "claimed_md": -0.66,
+     "estimates": [
+      {
+       "source": "Calcul (Insee, via Vidal)",
+       "year": 2026,
+       "value": "645 000 naissances × 1 000 € ≈ 0,65 Md€",
+       "low_md": -0.66,
+       "high_md": -0.64,
+       "url": "https://www.vidal.fr/actualites/37334-la-baisse-des-naissances-s-est-poursuivie-en-2025-en-france-les-deces-sont-desormais-plus-nombreux-insee.html"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "faisable",
+     "obstacle": "Une loi de finances suffit.",
+     "claude": {
+      "central": -0.65,
+      "low": -0.66,
+      "high": -0.64,
+      "method": "ascendant",
+      "formula": "645 000 naissances × 1 000 € = −0,65 Md€",
+      "inputs": [
+       {
+        "label": "Naissances 2025",
+        "value": "645 000",
+        "source": "Insee (Vidal)",
+        "url": "https://www.vidal.fr/actualites/37334-la-baisse-des-naissances-s-est-poursuivie-en-2025-en-france-les-deces-sont-desormais-plus-nombreux-insee.html"
+       },
+       {
+        "label": "Coût annoncé",
+        "value": "660 M€",
+        "source": "LCP",
+        "url": "https://lcp.fr/actualites/retraites-avant-le-debat-sur-la-suspension-de-la-reforme-gabriel-attal-prone-une"
+       }
+      ],
+      "note": "Hors abattement fiscal sur les versements des familles"
+     }
+    },
+    {
+     "id": "regle_or",
+     "theme": "institutions",
+     "title": "Règle d'or par référendum",
+     "proposal": "Référendum en début de mandat pour inscrire l'équilibre budgétaire dans la Constitution : zéro déficit en 2037.",
+     "claimed": "Équilibre en 2037",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Landot avocats",
+       "year": 2026,
+       "value": "Révision par l'article 89 ; recours à l'article 11 contesté",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://blog.landot-avocats.net/2026/10/18/reforme-de-la-constitution-art-11-devoir-de-reserve-petits-rappels-de-quelques-evidences-sur-la-polemique-du-jour-2/"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "bloque",
+     "obstacle": "Chemin : article 89, vote identique de l'Assemblée et du Sénat puis référendum ; l'article 11 est contesté.",
+     "claude": {
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "Règle de procédure, sans effet direct sur le solde",
+      "inputs": [],
+      "note": "L'effet dépend des mesures prises pour la respecter"
+     }
+    },
+    {
+     "id": "immigration",
+     "theme": "immigration",
+     "title": "Quotas et immigration de travail",
+     "proposal": "Quotas d'immigration de travail votés par le Parlement, système à points, regroupement familial plus restrictif, réforme de Schengen.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Public Sénat",
+       "year": 2024,
+       "value": "Article sur les quotas censuré par le Conseil constitutionnel en 2024",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.publicsenat.fr/actualites/projet-de-loi-immigration/loi-immigration-le-conseil-constitutionnel-censure-32-articles-du-projet-de-loi"
+      },
+      {
+       "source": "La Gazette France (AFP)",
+       "year": 2026,
+       "value": "Immigration « plus faible et axée sur le travail », sans chiffre",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.lagazettefrance.fr/article/attal-veut-une-immigration-plus-faible-et-axee-sur-le-travail"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "tres_difficile",
+     "obstacle": "Quotas déjà censurés en 2024 ; regroupement familial encadré par le droit UE ; Schengen exige un accord européen.",
+     "claude": {
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "Aucun effet budgétaire direct documenté",
+      "inputs": [],
+      "note": "Niveau des quotas non précisé"
+     }
+    },
+    {
+     "id": "travail",
+     "theme": "travail",
+     "title": "Heures sup et chômage",
+     "proposal": "Supprimer le plafond légal d'heures supplémentaires (220 h/an) et réformer l'assurance chômage pour inciter au travail.",
+     "claimed": "+100 000 emplois",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "votons-2027.fr",
+       "year": 2026,
+       "value": "Mesure décrite, sans chiffrage",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://votons-2027.fr/candidats/attal/programme/economie"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "faisable",
+     "obstacle": "Loi ordinaire ; décret possible pour l'assurance chômage.",
+     "claude": {
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "Paramètres non publiés",
+      "inputs": [],
+      "note": "Les 100 000 emplois sont annoncés sans méthode"
+     }
+    },
+    {
+     "id": "europe",
+     "theme": "europe",
+     "title": "États-Unis d'Europe",
+     "proposal": "Noyau de 8 à 10 pays, président élu au suffrage universel, budget avec ressources propres, référendum européen simultané.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Public Sénat",
+       "year": 2026,
+       "value": "Proposition présentée à Reims le 17/09/2026",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.publicsenat.fr/actualites/politique/gabriel-attal-veut-construire-les-etats-unis-deurope-proposition-choc-pour-relancer-lideal-europeen"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "bloque",
+     "obstacle": "Chemin : nouveau traité ratifié par chaque pays participant, et révision de la Constitution française.",
+     "claude": {
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "Budget commun non chiffré",
+      "inputs": [],
+      "note": "Ressources propres non chiffrées"
+     }
+    }
+   ],
+   "total": {
+    "claimed": "120 à 150 Md€ d'économies sur 10 ans, sans hausse d'impôts ; déficit à 3 % avant 2032, équilibre en 2037",
+    "independent": "aucun chiffrage global"
+   },
+   "sim": {
+    "retraite": {
+     "age_legal": null,
+     "age_taux_plein": null,
+     "carriere_longue": null,
+     "regle": "Plus d'âge légal : départ libre selon la durée cotisée, avec décote ou surcote et pension minimale. Paramètres non publiés."
+    },
+    "smic_net": null,
+    "salaire_net": null,
+    "salaire_note": "Baisse des charges salariales annoncée, sans montant.",
+    "alloc_familiales": null,
+    "tva_energie": null,
+    "fonctionnaires": "100 000 postes supprimés par départs volontaires et non-remplacements ; Éducation, Armées, Justice et Intérieur épargnés.",
+    "chomeurs": "Réforme pour inciter au travail, non détaillée ; allocations probablement gelées en 2028.",
+    "minima_sociaux": "Gelés en 2028 (année blanche).",
+    "jeunes": "1 000 € placés à la naissance sur un compte retraite ; réseaux sociaux interdits aux moins de 15 ans.",
+    "retraites_actuels": "Pensions gelées en 2028, sauf les petites retraites (seuil non défini).",
+    "independants": "Pas de mesure spécifique publiée.",
+    "etrangers": "Regroupement familial plus restrictif ; quotas et système à points pour l'immigration de travail.",
+    "patrimoine": [],
+    "heritage": [],
+    "gel_pct": 1.8,
+    "gel_note": "Pensions et allocations non revalorisées en 2028 (inflation prévue 1,8 %), sauf les petites retraites"
+   },
+   "claude_total": {
+    "sum": 1.6,
+    "p10": -7.1,
+    "p90": 7.9,
+    "realsum": 1.6,
+    "missing": "classes de moins de 20 élèves, salaires des enseignants, baisse des charges salariales, arrêts maladie, défense",
+    "n": 8,
+    "cost": -6.5,
+    "gain": 8.1
+   },
+   "short": "Attal"
+  },
+  {
+   "id": "lisnard",
+   "name": "David Lisnard",
+   "party": "Nouvelle Énergie",
+   "poll": "6,5 %",
+   "summary": "Promet 80 Md€ d'économies dès la 1re année, puis 200 Md€. Aucun chiffrage indépendant ; 80 % des économies seraient rendus en baisses d'impôts et de charges.",
+   "measures": [
+    {
+     "id": "depense",
+     "theme": "depense",
+     "title": "200 Md€ d'économies",
+     "proposal": "80 Md€ d'économies dès l'an 1, puis 200 Md€ ; 60 % aux salaires, 20 % aux impôts de production, 20 % à la dette.",
+     "claimed": "80 Md€ en an 1, 200 Md€ en fin de mandat (annuel ou cumulé selon les sources)",
+     "claimed_md": 80,
+     "estimates": [
+      {
+       "source": "L'Essentiel de l'Éco",
+       "year": 2026,
+       "value": "Aucune expertise indépendante ; ~90 Md€ jugés nécessaires pour stabiliser la dette contre 40 Md€ prévus (chiffre non vérifié à la source)",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://lessentieldeleco.fr/8893-david-lisnard-la-surprise-de-la-course-a-lelysee/"
+      },
+      {
+       "source": "OFCE (multiplicateurs)",
+       "year": 2012,
+       "value": "En basse conjoncture, 1 € de dépense coupée retire 1,6 à 2,6 € d'activité ; consolidation graduelle préférable",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://ofce.sciences-po.fr/blog/une-revue-recente-de-la-litterature-sur-les-multiplicateurs-budgetaires-la-taille-compte/?print=pdf"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "tres_difficile",
+     "obstacle": "Aucun chiffrage indépendant ; effet récessif ; 80 % restitués en baisses de prélèvements",
+     "claude": {
+      "id": "depense",
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "exclude": true,
+      "method": "ascendant",
+      "formula": "Les 80/200 Md€ ne sont pas ventilés : chaque poste identifiable est chiffré dans sa propre fiche",
+      "inputs": [
+       {
+        "label": "Économies annoncées",
+        "value": "80 Md€ en an 1, ≥200 Md€ en fin de mandat",
+        "source": "Discours de Saint-Raphaël",
+        "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
+       }
+      ],
+      "note": "Non compté dans le total pour éviter un double compte"
+     }
+    },
+    {
+     "id": "fonction",
+     "theme": "depense",
+     "title": "Fonctionnaires et agences",
+     "proposal": "Ne pas remplacer une grande part des ~500 000 départs/an ; supprimer agences, ARS et DREAL.",
+     "claimed": "Économie non ventilée",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Fipeco",
+       "year": 2024,
+       "value": "150 000 postes non remplacés sur 5 ans : ~2 Md€/an",
+       "low_md": 2,
+       "high_md": 2,
+       "url": "https://www.weka.fr/actualite/?p=186874"
+      },
+      {
+       "source": "Gouvernement et Sénat (Public Sénat)",
+       "year": 2025,
+       "value": "Agences : 2 à 3 Md€ selon le gouvernement, plutôt des « millions » selon le Sénat",
+       "low_md": 0,
+       "high_md": 3,
+       "url": "https://www.publicsenat.fr/actualites/politique/2-a-3-milliards-deconomies-sur-les-agences-de-letat-pourquoi-le-chiffre-de-la-ministre-interroge-la-commission-denquete-du-senat"
+      },
+      {
+       "source": "iFRAP",
+       "year": 2015,
+       "value": "150 000 postes supprimés depuis 2007 : masse salariale de l'État −0,2 Md€ seulement",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.ifrap.org/etat-et-collectivites/ne-pas-remplacer-un-fonctionnaire-sur-deux-ne-suffira-pas-realiser-les-economies-necessaires"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "tres_difficile",
+     "obstacle": "Gains faibles historiquement ; pas de licenciement possible",
+     "claude": {
+      "id": "fonction",
+      "central": 3.3,
+      "low": 1.7,
+      "high": 9.8,
+      "method": "ascendant",
+      "formula": "136 700 départs/an × 1/4 à 1/2 non remplacés × 4 ans × 25 k€ × 50 % net de rétrocessions + agences ≈1 Md€",
+      "inputs": [
+       {
+        "label": "Départs à la retraite fonction publique 2024",
+        "value": "136 700",
+        "source": "DGAFP",
+        "url": "https://www.fonction-publique.gouv.fr/toutes-les-publications/les-departs-la-retraite-dans-la-fonction-publique-en-2024"
+       },
+       {
+        "label": "Économie par poste non remplacé",
+        "value": "25 000 €/an",
+        "source": "Fipeco (Weka)",
+        "url": "https://www.weka.fr/actualite/?p=186874"
+       },
+       {
+        "label": "Rétrocessions historiques",
+        "value": "150 000 postes → −0,2 Md€ seulement",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/etat-et-collectivites/ne-pas-remplacer-un-fonctionnaire-sur-deux-ne-suffira-pas-realiser-les-economies-necessaires"
+       }
+      ],
+      "note": "Taux de non-remplacement non précisé par le candidat"
+     }
+    },
+    {
+     "id": "retraites",
+     "theme": "retraites",
+     "title": "65 ans et capitalisation",
+     "proposal": "Âge à 65 ans, socle par répartition (minimum 1 000 €/mois), bascule progressive vers la capitalisation.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "COR (via Previssima)",
+       "year": 2026,
+       "value": "Déficit ~6 Md€ en 2030 ; coût de transition vers la capitalisation introuvable",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.previssima.fr/actualite/retraite-a-68-ans-deficit-qui-explose-le-nouveau-rapport-alerte-sur-letat-des-retraites-francaises.html"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "tres_difficile",
+     "obstacle": "Double cotisation pendant la transition, non chiffrée",
+     "claude": {
+      "id": "retraites",
+      "central": 4,
+      "low": 0,
+      "high": 7,
+      "method": "ascendant",
+      "formula": "64 → 65 ans ≈ 6,8 Md€ par année d'âge, montée en charge partielle en 2030",
+      "inputs": [
+       {
+        "label": "Report à 64 ans en 2030",
+        "value": "+13,6 Md€",
+        "source": "CNAV (Public Sénat)",
+        "url": "https://www.publicsenat.fr/actualites/politique/reforme-des-retraites-combien-pourrait-rapporter-le-report-de-l-age-legal-a-65"
+       },
+       {
+        "label": "Minimum vieillesse 2026",
+        "value": "1 043,59 €/mois, déjà au-dessus des 1 000 € promis",
+        "source": "Moneyvox",
+        "url": "https://www.moneyvox.fr/retraite/actualites/106807/minimum-vieillesse-voici-le-montant-officiel-de-aspa-a-partir-du-1er-janvier-2026"
+       },
+       {
+        "label": "Transition vers la capitalisation",
+        "value": "+3 à 4 points de cotisation pendant 10-15 ans",
+        "source": "La Grande Conversation",
+        "url": "https://www.lagrandeconversation.com/app/uploads/2025/05/la-retraite-par-capitalisation-obligatoire-quelques-pistes-pour-gerer-la-difficile-periode-de-transition-la-grande-conversation.pdf"
+       }
+      ],
+      "note": "Coût de transition vers la capitalisation exclu : solde surestimé"
+     }
+    },
+    {
+     "id": "impots",
+     "theme": "fiscalite",
+     "title": "Fin de la C3S et de la CVAE",
+     "proposal": "Supprimer C3S et CVAE ; impôts de production de 2 % à 1 % du PIB ; IS à 20 %.",
+     "claimed": "40 Md€ de baisse d'impôts de production",
+     "claimed_md": -40,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2024,
+       "value": "C3S 5,1 Md€ + CVAE 4,0 Md€ ; 7,3 Md€ net",
+       "low_md": -9.1,
+       "high_md": -7.3,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/baisse-des-impots-de-production-cvae-et-c3s"
+      },
+      {
+       "source": "Économie Matin",
+       "year": 2025,
+       "value": "Suppression de la C3S : ~5,4 Md€/an",
+       "low_md": -5.4,
+       "high_md": -5.4,
+       "url": "https://www.economiematin.fr/plfss-2026-c3s-suppression-vote-erreur-assemblee"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Dépend entièrement de la réalité des économies",
+     "claude": {
+      "id": "impots",
+      "central": -7.3,
+      "low": -9.1,
+      "high": -5.4,
+      "method": "médiane",
+      "formula": "Médiane de 5,4 (C3S seule) ; 7,3 (C3S + CVAE net) ; 9,1 (brut)",
+      "inputs": [
+       {
+        "label": "C3S + CVAE",
+        "value": "5,1 + 4,0 Md€ ; 7,3 net",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/baisse-des-impots-de-production-cvae-et-c3s"
+       },
+       {
+        "label": "C3S",
+        "value": "≈5,4 Md€",
+        "source": "Économie Matin",
+        "url": "https://www.economiematin.fr/plfss-2026-c3s-suppression-vote-erreur-assemblee"
+       }
+      ],
+      "note": "Les 40 Md€ annoncés ne sont identifiés qu'à hauteur de C3S et CVAE"
+     }
+    },
+    {
+     "id": "allocation",
+     "theme": "social",
+     "title": "Allocation sociale unique",
+     "proposal": "Allocation unique plafonnée à un % du SMIC ; fin des aides non contributives pour les étrangers.",
+     "claimed": "Non chiffré (plafond non précisé)",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "iFRAP",
+       "year": 2024,
+       "value": "Plafond à 100 % du SMIC : ~12 Md€ ; à 70 % : ~34 Md€",
+       "low_md": 12,
+       "high_md": 34,
+       "url": "https://www.ifrap.org/emploi-et-politiques-sociales/12-34-milliards-deuros-deconomies-les-differents-scenarios-dun-plafonnement-dune-allocation-sociale-unique-par-rapport"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Plafond non défini ; égalité devant la loi pour les étrangers",
+     "claude": {
+      "id": "allocation",
+      "central": 22,
+      "low": 12,
+      "high": 34,
+      "method": "médiane",
+      "formula": "Médiane des scénarios iFRAP 12 ; 18 ; 26 ; 34 Md€ selon le plafond",
+      "inputs": [
+       {
+        "label": "Économies selon le plafond",
+        "value": "12 (100 % SMIC) à 34 Md€ (70 %)",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/emploi-et-politiques-sociales/12-34-milliards-deuros-deconomies-les-differents-scenarios-dun-plafonnement-dune-allocation-sociale-unique-par-rapport"
+       },
+       {
+        "label": "Minima sociaux",
+        "value": "30,6 Md€ en 2022",
+        "source": "DREES (Banque des Territoires)",
+        "url": "https://www.banquedesterritoires.fr/minima-sociaux-le-rsa-et-laah-ont-coute-chacun-12-milliards-deuros-en-2022"
+       }
+      ],
+      "note": "Plafond non fixé ; une seule source"
+     }
+    },
+    {
+     "id": "ame",
+     "theme": "immigration",
+     "title": "AME remplacée, titres ÷ 8",
+     "proposal": "AME remplacée par une aide d'urgence ; titres de séjour divisés par 8 ; rétention jusqu'à 24 mois.",
+     "claimed": "0,7 Md€ (AME)",
+     "claimed_md": 0.7,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2022,
+       "value": "Suppression de l'AME : 0,7 à 1 Md€/an",
+       "low_md": 0.7,
+       "high_md": 1,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/legislatives-2022/reconquete/supprimer-laide-medicale-detat-ame-2/"
+      },
+      {
+       "source": "Sénat (Public Sénat)",
+       "year": 2023,
+       "value": "Coût de l'AME ~1,2 Md€ : plafond théorique de l'économie",
+       "low_md": null,
+       "high_md": 1.2,
+       "url": "https://www.publicsenat.fr/actualites/sante/budget-un-rapport-du-senat-epingle-la-progression-du-cout-de-laide-medicale-detat"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "sous_conditions",
+     "obstacle": "Titres ÷ 8 : CEDH et droit UE ; report des soins vers les urgences",
+     "claude": {
+      "id": "ame",
+      "central": 0.7,
+      "low": 0.6,
+      "high": 1.2,
+      "method": "médiane",
+      "formula": "Central Montaigne 0,7 ; plafond = coût total de l'AME 1,2",
+      "inputs": [
+       {
+        "label": "Suppression de l'AME",
+        "value": "≈0,7 Md€",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/legislatives-2022/reconquete/supprimer-laide-medicale-detat-ame-2/"
+       }
+      ],
+      "note": "Report vers les urgences déduit"
+     }
+    },
+    {
+     "id": "referendum",
+     "theme": "institutions",
+     "title": "Référendum élargi",
+     "proposal": "Élargir l'article 11, créer un référendum d'initiative populaire, y compris sur l'immigration.",
+     "claimed": "Sans impact budgétaire",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Public Sénat",
+       "year": 2024,
+       "value": "Révision LR similaire retirée en 2023 faute d'appui au Sénat",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.publicsenat.fr/actualites/politique/loi-immigration-face-au-spectre-de-la-censure-du-conseil-constitutionnel-lr-prepare-la-riposte"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "tres_difficile",
+     "obstacle": "Révision constitutionnelle : accord des deux chambres requis",
+     "claude": {
+      "id": "referendum",
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "Sans effet budgétaire direct",
+      "inputs": [],
+      "note": ""
+     }
+    },
+    {
+     "id": "cotisations",
+     "theme": "fiscalite",
+     "title": "Baisse des cotisations",
+     "proposal": "Rendre 60 % des économies aux actifs via une baisse des cotisations : +200 € puis +400 € net par mois.",
+     "claimed": "120 Md€ en fin de mandat (48 Md€ en an 1)",
+     "claimed_md": -120,
+     "estimates": [
+      {
+       "source": "Calcul sur la trajectoire du camp",
+       "year": 2026,
+       "value": "≈84 Md€ en 2030",
+       "low_md": -120,
+       "high_md": -48,
+       "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
+      },
+      {
+       "source": "DREES (assiette)",
+       "year": 2024,
+       "value": "Cotisations effectives : 430 Md€ en 2022",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.drees.solidarites-sante.gouv.fr/sites/default/files/2024-02/PTROTSOC23MAJ130224-Fiche%2004%20-%20Le%20financement%20de%20la%20protection%20sociale%20en%202022_0.pdf"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "tres_difficile",
+     "obstacle": "Coût certain ; financement par des économies non identifiées",
+     "claude": {
+      "id": "cotisations",
+      "central": -84,
+      "low": -120,
+      "high": -48,
+      "method": "ascendant",
+      "formula": "60 % des économies rendus : 48 Md€ (2027) → 120 Md€ (2032), soit ≈84 Md€ en 2030",
+      "inputs": [
+       {
+        "label": "Trajectoire annoncée",
+        "value": "80 → 200 Md€ × 60 %",
+        "source": "Discours de Saint-Raphaël",
+        "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
+       },
+       {
+        "label": "Cotisations sociales effectives",
+        "value": "430 Md€ (2022)",
+        "source": "DREES",
+        "url": "https://www.drees.solidarites-sante.gouv.fr/sites/default/files/2024-02/PTROTSOC23MAJ130224-Fiche%2004%20-%20Le%20financement%20de%20la%20protection%20sociale%20en%202022_0.pdf"
+       }
+      ],
+      "note": "Coût certain, alors que les économies en face ne sont pas identifiées"
+     }
+    },
+    {
+     "id": "is20",
+     "theme": "fiscalite",
+     "title": "IS ramené à 20 %",
+     "proposal": "Baisser le taux normal de l'impôt sur les sociétés de 25 % à 20 %.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Fipeco",
+       "year": 2022,
+       "value": "≈1,3 Md€ par point : 5 points ≈ 6,6 Md€",
+       "low_md": -6.6,
+       "high_md": -6.6,
+       "url": "https://www.fipeco.fr/pdf/Mesures%20fiscales.pdf"
+      },
+      {
+       "source": "Sénat (rendement de l'IS)",
+       "year": 2025,
+       "value": "56,2 Md€ × 5/25 ≈ 11,2 Md€",
+       "low_md": -11.2,
+       "high_md": -11.2,
+       "url": "https://www.senat.fr/rap/l24-144-1/l24-144-110.html"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Coût de 7 à 11 Md€ sans financement identifié",
+     "claude": {
+      "id": "is20",
+      "central": -8.9,
+      "low": -11.2,
+      "high": -6.6,
+      "method": "médiane",
+      "formula": "Médiane de 6,6 (5 pts × 1,3 Md€) et 11,2 (56,2 × 5/25)",
+      "inputs": [
+       {
+        "label": "Coût par point d'IS",
+        "value": "≈1,3 Md€",
+        "source": "Fipeco",
+        "url": "https://www.fipeco.fr/pdf/Mesures%20fiscales.pdf"
+       },
+       {
+        "label": "Rendement de l'IS",
+        "value": "56,2 Md€",
+        "source": "Sénat",
+        "url": "https://www.senat.fr/rap/l24-144-1/l24-144-110.html"
+       }
+      ],
+      "note": "Pas d'effet d'assiette pris en compte"
+     }
+    }
+   ],
+   "total": {
+    "claimed": "80 Md€ d'économies en an 1, 200 Md€ en fin de mandat, dont ~40 Md€ pour la dette",
+    "independent": "aucun chiffrage global ; postes vérifiables : +6 à +35 Md€/an, hors 120 Md€ de baisses de charges non chiffrées",
+    "low_md": 5.6,
+    "high_md": 34.8
+   },
+   "claude_total": {
+    "sum": -70.2,
+    "p10": -106.8,
+    "p50": -68.0,
+    "p90": -29.7,
+    "realsum": -70.2,
+    "r10": -106.1,
+    "r50": -68.2,
+    "r90": -30.2,
+    "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation",
+    "n": 8,
+    "cost": -100.2,
+    "gain": 30.0
+   },
+   "short": "Lisnard",
+   "sim": {
+    "retraite": {
+     "age_legal": 65,
+     "age_taux_plein": null,
+     "carriere_longue": null,
+     "regle": "Âge légal 65 ans ; socle par répartition, minimum de 1 000 €/mois ; bascule progressive vers la capitalisation."
+    },
+    "smic_net": null,
+    "salaire_net": {
+     "gain_mensuel": 400,
+     "ref": 2733,
+     "prorata": true,
+     "independants": true,
+     "public": "actifs",
+     "note": "Baisse des cotisations : +400 € par mois à terme pour un salaire moyen (2 733 €), réparti ici au prorata du revenu (hypothèse)"
+    },
+    "alloc_familiales": null,
+    "tva_energie": null,
+    "fonctionnaires": "Une grande partie des ~500 000 départs annuels non remplacés ; ARS et DREAL supprimées.",
+    "chomeurs": "Contrat de travail unique fusionnant CDI et CDD.",
+    "minima_sociaux": "Allocation sociale unique plafonnée à un pourcentage du SMIC (non précisé).",
+    "jeunes": "Âge limite de l'apprentissage abaissé.",
+    "retraites_actuels": "Minimum vieillesse annoncé à 1 000 €/mois (il est déjà de 1 043,59 € en 2026).",
+    "independants": "Concernés par la baisse des cotisations ; pas d'autre mesure spécifique publiée.",
+    "etrangers": "Prestations non contributives réservées aux résidents réguliers depuis au moins 5 ans ; AME remplacée par une aide d'urgence.",
+    "patrimoine": [],
+    "heritage": []
+   }
+  },
+  {
+   "id": "zemmour",
+   "name": "Éric Zemmour",
+   "party": "Reconquête",
+   "poll": "3-4,5 %",
+   "summary": "Programme centré sur la « remigration » (expulsions, aides réservées aux Français, sortie de la CEDH) et un plan d'économies annoncé à 130 Md€, avec baisse de la CSG des actifs et abolition des droits de succession. Pas de chiffrage officiel détaillé pour 2027 ; en 2022, l'Institut Montaigne chiffrait le programme à −145,8 Md€/an.",
+   "measures": [
+    {
+     "id": "remigration",
+     "theme": "immigration",
+     "title": "Expulser les étrangers chômeurs",
+     "proposal": "Expulser les étrangers en situation régulière après un an de chômage, ainsi que délinquants et clandestins ; ministère de la Remigration.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2022,
+       "value": "+1,8 Md€/an (version à 6 mois de chômage)",
+       "low_md": 0.9,
+       "high_md": 2.4,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/renvoyer-les-etrangers-venus-travailler-au-bout-de-6-mois-sans-emploi"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "tres_difficile",
+     "obstacle": "Modifier le droit des étrangers ; vie familiale protégée par la CEDH et la Constitution ; accord des pays d'origine pour les retours.",
+     "claude": {
+      "central": 1.0,
+      "low": 0.5,
+      "high": 1.3,
+      "method": "ascendant",
+      "formula": "≈109 000 chômeurs étrangers depuis plus d'un an × 12 200 € − 0,31 Md€ de frais d'éloignement ≈ +1,0 Md€",
+      "inputs": [
+       {
+        "label": "Chômeurs étrangers de plus d'un an",
+        "value": "≈109 000 (2020)",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/renvoyer-les-etrangers-venus-travailler-au-bout-de-6-mois-sans-emploi"
+       },
+       {
+        "label": "Allocation annuelle moyenne",
+        "value": "12 200 €",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/renvoyer-les-etrangers-venus-travailler-au-bout-de-6-mois-sans-emploi"
+       }
+      ],
+      "note": "Données 2019-2020 non revalorisées"
+     }
+    },
+    {
+     "id": "aides",
+     "theme": "immigration",
+     "title": "Aides réservées aux Français",
+     "proposal": "Supprimer les prestations non contributives (RSA, allocations familiales, logement, minimum vieillesse) pour les étrangers extra-européens.",
+     "claimed": "15 à 20 Md€/an",
+     "claimed_md": 17.5,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2022,
+       "value": "+6,7 Md€/an",
+       "low_md": 6.7,
+       "high_md": 6.8,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/retirer-les-aides-sociales-non-contributives-aux-etrangers-extra-europeens"
+      },
+      {
+       "source": "Institut Montaigne (variante à 5 ans de travail)",
+       "year": 2024,
+       "value": "+2,6 Md€/an",
+       "low_md": 0.6,
+       "high_md": 3.0,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/reserver-le-benefice-du-rsa-et-des-prestations-de-solidarites-aux-etrangers-ayant-au-moins-5-ans-dequivalent-temps-plein-travaille-en-france"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "bloque",
+     "obstacle": "Chemin : révision de la Constitution (art. 89, accord du Sénat), dénonciation de la CEDH et renégociation du droit de l'UE.",
+     "claude": {
+      "central": 6.7,
+      "low": 2.6,
+      "high": 6.8,
+      "method": "médiane",
+      "formula": "Exclusion totale : estimation de 6,7 Md€ ; borne basse : variante restreinte à 2,6 Md€",
+      "inputs": [
+       {
+        "label": "Part des aides versées à des étrangers",
+        "value": "11,4 %",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/retirer-les-aides-sociales-non-contributives-aux-etrangers-extra-europeens"
+       }
+      ],
+      "note": "Facteur 3 d'écart avec le chiffre du camp"
+     }
+    },
+    {
+     "id": "cedh",
+     "theme": "institutions",
+     "title": "Fin du regroupement familial",
+     "proposal": "Supprimer le regroupement familial, sortir de la CEDH (programme 2024), référendum sur l'immigration (2022, non reconfirmé).",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2022,
+       "value": "≈12 000 titres par an au titre du regroupement familial strict ; coût public non documenté",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/mettre-fin-au-regroupement-familial/"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "bloque",
+     "obstacle": "Chemin : révision de la Constitution (Préambule de 1946), dénonciation de la CEDH (préavis de 6 mois), modification d'une directive européenne.",
+     "claude": {
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "Aucun coût public du regroupement familial documenté",
+      "inputs": [],
+      "note": "Effet budgétaire non chiffrable"
+     }
+    },
+    {
+     "id": "retraites",
+     "theme": "retraites",
+     "title": "Retraite à 64-65 ans",
+     "proposal": "Âge légal à 64 ou 65 ans (non tranché), développement progressif de la capitalisation.",
+     "claimed": "Non chiffré en 2026",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2022,
+       "value": "+10,7 Md€ en 2030 (62 → 64 ans)",
+       "low_md": 5.8,
+       "high_md": 15.9,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/augmenter-lage-legal-de-la-retraite-a-64-ans-et-aligner-les-differents-regimes-de-retraite/"
+      },
+      {
+       "source": "iFRAP (coût de la suspension)",
+       "year": 2025,
+       "value": "1,8 à 3 Md€ en 2027",
+       "low_md": 1.8,
+       "high_md": 3.0,
+       "url": "https://www.ifrap.org/retraite/retraites-la-suspension-va-couter-des-milliards"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Une loi suffit ; seuil non tranché ; transition vers la capitalisation non financée.",
+     "claude": {
+      "central": 1.8,
+      "low": 0,
+      "high": 5.8,
+      "method": "ascendant",
+      "formula": "Le droit actuel mène déjà à 64 ans : gain ≈ fin de la suspension, 1,8 Md€",
+      "inputs": [
+       {
+        "label": "Coût de la suspension en 2027",
+        "value": "1,8 Md€",
+        "source": "iFRAP",
+        "url": "https://www.ifrap.org/retraite/retraites-la-suspension-va-couter-des-milliards"
+       }
+      ],
+      "note": "Option 65 ans et capitalisation non chiffrées"
+     }
+    },
+    {
+     "id": "csg",
+     "theme": "fiscalite",
+     "title": "Baisse de la CSG des actifs",
+     "proposal": "Baisser la CSG sur les revenus d'activité (en 2022 : de 9,2 % à 2,5 % jusqu'à 2 000 € net) ; principe confirmé en 2026.",
+     "claimed": "10,8 Md€ brut (2022)",
+     "claimed_md": -10.8,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2022,
+       "value": "−18,5 Md€ brut, −15,5 Md€ net",
+       "low_md": -20.5,
+       "high_md": -13.5,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-le-taux-de-la-csg-sur-les-revenus-dactivite-de-92-a-25"
+      },
+      {
+       "source": "Institut Montaigne (synthèse)",
+       "year": 2022,
+       "value": "Mesure la plus coûteuse du programme 2022",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/synthese"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "tres_difficile",
+     "obstacle": "Égalité devant l'impôt : dispositifs proches censurés (2000, 2014, 2015) ; compensation de la Sécurité sociale.",
+     "claude": {
+      "central": -15.5,
+      "low": -17.5,
+      "high": -13.5,
+      "method": "médiane",
+      "formula": "18,5 Md€ brut − 3 Md€ d'impôt sur le revenu récupéré = −15,5 Md€",
+      "inputs": [
+       {
+        "label": "Coût brut",
+        "value": "18,5 Md€",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-le-taux-de-la-csg-sur-les-revenus-dactivite-de-92-a-25"
+       }
+      ],
+      "note": "Paramètres 2022 reconduits"
+     }
+    },
+    {
+     "id": "succession",
+     "theme": "fiscalite",
+     "title": "Fin des droits de succession",
+     "proposal": "Abolir les droits de succession (annonce 2026) ; en 2022, abattements de 200 000 € et exonération des entreprises familiales.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "iFRAP",
+       "year": 2022,
+       "value": "Version partielle 2022 : −4,4 Md€/an",
+       "low_md": -4.4,
+       "high_md": -4.4,
+       "url": "https://www.ifrap.org/budget-et-fiscalite/droits-de-succession-44-milliards-dimpots-en-moins-ou-14-milliards-de-taxes-en-plus"
+      },
+      {
+       "source": "Institut Montaigne",
+       "year": 2022,
+       "value": "Version partielle 2022 : −5,3 à −10,7 Md€",
+       "low_md": -10.65,
+       "high_md": -5.35,
+       "url": "https://www.institutmontaigne.org/blog/presidentielle-chiffrage-2022-quels-impots-pour-les-successions-et-les-donations"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "faisable",
+     "obstacle": "Une loi de finances suffit ; financement des 15 à 20 Md€ perdus non précisé.",
+     "claude": {
+      "central": -15,
+      "low": -20,
+      "high": -15,
+      "method": "ascendant",
+      "formula": "Recettes des successions 2024 : 15 Md€ ; 20 Md€ si les donations sont aussi supprimées",
+      "inputs": [
+       {
+        "label": "Droits de mutation à titre gratuit 2024",
+        "value": "≈20 Md€, dont 15 Md€ de successions",
+        "source": "Assemblée nationale",
+        "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/1906A/AN/3259.pdf"
+       }
+      ],
+      "note": "Sort des donations non précisé"
+     }
+    },
+    {
+     "id": "production",
+     "theme": "fiscalite",
+     "title": "Moins d'impôts de production",
+     "proposal": "Baisser les impôts de production de 30 Md€ (mesure 2022, non confirmée en 2026).",
+     "claimed": "30 Md€, autofinancés selon le camp",
+     "claimed_md": 0,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2022,
+       "value": "−25,2 Md€/an",
+       "low_md": -30,
+       "high_md": -23.8,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-les-impots-de-production-de-30-milliards-deuros-supplementaires/"
+      },
+      {
+       "source": "Institut Molinari",
+       "year": 2022,
+       "value": "Quasi autofinancée en 2 ans (effets macroéconomiques)",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.institutmolinari.org/wp-content/uploads/2022/04/2022-04-07-LEVENEMENT-MAGAZINE.pdf"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "sous_conditions",
+     "obstacle": "Impôts visés non désignés ; compensation des collectivités et de la Sécurité sociale.",
+     "claude": {
+      "central": -25.2,
+      "low": -30,
+      "high": -23.8,
+      "method": "médiane",
+      "formula": "30,4 Md€ d'impôts visés − 6 Md€ d'impôt sur les sociétés récupéré ≈ −25,2 Md€",
+      "inputs": [
+       {
+        "label": "Impôts visés",
+        "value": "30,4 Md€ (2022)",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-les-impots-de-production-de-30-milliards-deuros-supplementaires/"
+       }
+      ],
+      "note": "Effets macroéconomiques exclus par notre convention"
+     }
+    },
+    {
+     "id": "fonctionnaires",
+     "theme": "depense",
+     "title": "800 000 postes publics en moins",
+     "proposal": "Supprimer 800 000 postes publics en 5 ans par départs non remplacés, hors enseignants, soignants, policiers et militaires.",
+     "claimed": "Inclus dans 130 Md€ d'économies",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Cour des comptes (via Journal de l'économie)",
+       "year": 2026,
+       "value": "Masse salariale publique 362 Md€ pour 5,88 M d'agents",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.journaldeleconomie.fr/?p=49417"
+      },
+      {
+       "source": "Cour des comptes (via Acteurs publics)",
+       "year": 2010,
+       "value": "Les suppressions de postes rapportent moins que prévu",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-moins-que-prevu"
+      }
+     ],
+     "consensus": "concordant",
+     "verdict": "tres_difficile",
+     "obstacle": "≈720 000 départs à la retraite en 5 ans au total, dont une grande part dans les secteurs épargnés : objectif hors d'atteinte par la seule voie annoncée.",
+     "claude": {
+      "central": 20,
+      "low": 10,
+      "high": 37,
+      "method": "ascendant",
+      "formula": "800 000 × 61,6 k€ = 49,3 Md€, −25 % rétrocédés = 37 (si atteint) ; central à 20 car les départs hors secteurs épargnés n'y suffisent pas",
+      "inputs": [
+       {
+        "label": "Masse salariale publique 2024",
+        "value": "362,1 Md€",
+        "source": "Cour des comptes",
+        "url": "https://www.journaldeleconomie.fr/?p=49417"
+       },
+       {
+        "label": "Effectifs",
+        "value": "5,88 millions d'agents",
+        "source": "Cour des comptes",
+        "url": "https://www.journaldeleconomie.fr/?p=49417"
+       },
+       {
+        "label": "Départs à la retraite",
+        "value": "144 000 par an",
+        "source": "DGAFP",
+        "url": "https://www.fonction-publique.gouv.fr/toutes-les-publications/les-departs-la-retraite-dans-la-fonction-publique-en-2025"
+       }
+      ],
+      "note": "Valeur centrale abaissée : départs disponibles insuffisants"
+     }
+    },
+    {
+     "id": "famille",
+     "theme": "social",
+     "title": "Quotient familial doublé",
+     "proposal": "Doubler le plafond du quotient familial et rendre les allocations familiales universelles (2022, non confirmé en 2026).",
+     "claimed": "3,3 Md€/an",
+     "claimed_md": -3.3,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2022,
+       "value": "−3,3 Md€ (quotient) et −0,8 Md€ (allocations)",
+       "low_md": -4.3,
+       "high_md": -4.0,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/doubler-le-quotient-familial"
+      },
+      {
+       "source": "iFRAP",
+       "year": 2022,
+       "value": "−1 à −1,3 Md€ (quotient) et −0,8 Md€ (allocations)",
+       "low_md": -2.1,
+       "high_md": -1.8,
+       "url": "https://www.ifrap.org/budget-et-fiscalite/allocations-quotient-familial-le-cout-reel-des-propositions-des-candidats-la-presidentielle"
+      }
+     ],
+     "consensus": "divergent",
+     "verdict": "faisable",
+     "obstacle": "Loi de finances et loi de financement de la Sécurité sociale.",
+     "claude": {
+      "central": -3.0,
+      "low": -4.1,
+      "high": -1.8,
+      "method": "médiane",
+      "formula": "Entre Montaigne (−4,1) et iFRAP (−1,95) ≈ −3 Md€",
+      "inputs": [
+       {
+        "label": "Doublement du quotient familial",
+        "value": "3,3 Md€",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/doubler-le-quotient-familial"
+       }
+      ],
+      "note": "Prime de naissance rurale (≈2,1 Md€ en 2022) exclue"
+     }
+    }
+   ],
+   "total": {
+    "claimed": "130 Md€ d'économies annoncées en 2026, sans détail publié",
+    "independent": "Montaigne 2022 : −145,8 Md€/an pour le programme complet"
+   },
+   "sim": {
+    "retraite": {
+     "age_legal": 64,
+     "age_taux_plein": null,
+     "carriere_longue": null,
+     "regle": "Âge légal à 64 ou 65 ans (seuil non tranché) ; capitalisation progressive."
+    },
+    "smic_net": null,
+    "salaire_net": {
+     "gain_mensuel": 80,
+     "ref": 1477.93,
+     "prorata": true,
+     "max": 2000,
+     "independants": true,
+     "public": "actifs jusqu'à 2 000 € net",
+     "note": "Baisse de la CSG sur les revenus d'activité jusqu'à 2 000 € net (≈80 € au SMIC, paramètres 2022)"
+    },
+    "alloc_familiales": null,
+    "alloc_perte_etrangers": true,
+    "tva_energie": null,
+    "fonctionnaires": "800 000 départs non remplacés en 5 ans, hors enseignants, soignants, policiers et militaires ; trois jours de carence.",
+    "chomeurs": "Pas de mesure annoncée pour les chômeurs français ; un étranger au chômage depuis un an serait expulsé.",
+    "minima_sociaux": "RSA limité à 3 ans pour les personnes aptes au travail ; aides non contributives réservées aux Français.",
+    "jeunes": null,
+    "retraites_actuels": "Rien de confirmé en 2026 (en 2022 : réversion portée à 75 %, CSG supprimée sous 1 300 €).",
+    "independants": "Concernés par la baisse de CSG jusqu'à 2 000 € net (paramètres 2022).",
+    "etrangers": "Hors UE : perte des aides non contributives, expulsion après un an de chômage, fin du regroupement familial. Exige une révision de la Constitution.",
+    "patrimoine": [],
+    "heritage": [
+     {
+      "seuil": 0,
+      "effet": "Abolition des droits de succession annoncée ; modalités non publiées."
+     }
+    ],
+    "alloc_perte_scope": "hors"
+   },
+   "claude_total": {
+    "sum": -29.2,
+    "p10": -44.1,
+    "p90": -14.3,
+    "realsum": -35.9,
+    "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, suppression de l'aide au développement, reste du plan de 130 Md€",
+    "n": 9,
+    "cost": -58.7,
+    "gain": 29.5
+   },
+   "short": "Zemmour"
+  }
+ ],
+ "method": [
+  "<b>Notre chiffrage.</b> 69 mesures chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres 2027 (âge, montant, seuil). Sinon, calcul ascendant à partir de données publiques (bénéficiaires × montant, masse salariale × hausse…). Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
+  "<b>Fourchette probable.</b> Chaque mesure reçoit une valeur basse et haute. Le total en tire une fourchette à 80 % par simulation (20 000 tirages). Le chiffre principal est la somme des valeurs centrales.",
+  "<b>Ce que le chiffrage ne compte pas.</b> Pas d'effets macroéconomiques de bouclage (croissance, emploi induits) ; effets de comportement seulement quand ils sont documentés (exil fiscal, captation d'une baisse de TVA). Les mesures non chiffrables faute de données sont listées pour chaque candidat. Le total principal suppose que toutes les mesures passent, révisions comprises ; un second total montre le cas où elles sont bloquées.",
+  "<b>158 sources distinctes</b> : Institut Montaigne, iFRAP, Institut de l'Entreprise, Fipeco, Cour des comptes, COR, Bercy, CAE, IPP, Insee, DREES, DGAFP, Unédic, Sénat, Assemblée nationale, presse économique.",
+  "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit, possible si la Constitution ou les traités changent ; la fiche indique le chemin et qui doit dire oui.",
+  "<b>Limites.</b> Programmes encore partiels (LFI publie le sien le 6 novembre, le RN détaille ses retraites le 17 novembre). Plusieurs bases datent de 2022-2024. 1 point de PIB ≈ 30 Md€ (PIB 2025 : 2 991 Md€, Insee).",
+  "<b>Simulateur « Pour moi ».</b> Il applique les paramètres annoncés (âge de départ, SMIC, allocations, TVA) à votre situation, à terme, sans les mesures de financement. Retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC actuel 1 477,93 € net (juin 2026) ; allocations familiales au barème 2026 avant modulation selon les revenus. Les montants restent des ordres de grandeur.",
+  "<b>Quiz.</b> 16 duels : deux propositions de candidats différents sur le même thème, sans les noms, tirées au hasard. Chaque candidat apparaît le même nombre de fois (4) et aucune paire ne se répète. Le score rapporte vos choix au nombre d'apparitions.",
+  "<b>Assistant.</b> Les réponses sont générées par Claude à partir des seules données de l'app, avec la consigne de rester neutre et de citer les fiches.",
+  "<b>Sondages</b> : Ipsos-BVA, 21-22 octobre 2026. Ils seront masqués la veille et le jour de chaque tour de scrutin, comme l'exige la loi. <b>Contexte budgétaire</b> : PLF 2027, Insee, OAT du 1er octobre 2026. Ménages : 30,9 millions (Insee)."
+ ],
+ "statu_quo": {
+  "retraite": {
+   "table": [
+    [
+     1900,
+     62
+    ],
+    [
+     1961,
+     62.25
+    ],
+    [
+     1962,
+     62.5
+    ],
+    [
+     1963,
+     62.75
+    ],
+    [
+     1965,
+     63
+    ],
+    [
+     1966,
+     63.25
+    ],
+    [
+     1967,
+     63.5
+    ],
+    [
+     1968,
+     63.75
+    ],
+    [
+     1969,
+     64
+    ]
+   ],
+   "url": "https://cms.law/fr/fra/legal-updates/plfss-pour-2026-une-lettre-rectificative-pour-suspendre-la-reforme-des-retraites"
+  },
+  "smic_net": 1477.93,
+  "smic_url": "https://www.ffbatiment.fr/actualites-batiment/actualite/augmentation-smic-juin-2026",
+  "alloc_familiales": {
+   "1": 0,
+   "2": 152.25,
+   "3": 347.32,
+   "par_enfant_sup": 195.07,
+   "url": "https://www.previssima.fr/question-pratique/quel-est-le-montant-des-allocations-familiales.html"
+  },
+  "menages": 30907000,
+  "pib_2025": 2991.1,
+  "ir": {
+   "tranches": [
+    [
+     11600,
+     0.11
+    ],
+    [
+     29579,
+     0.3
+    ],
+    [
+     84577,
+     0.41
+    ],
+    [
+     181917,
+     0.45
+    ]
+   ],
+   "decote_seul": 897,
+   "decote_taux": 0.4525,
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18045?lang=fr",
+   "url_decote": "https://www.weblex.fr/chiffres-cles/impot-sur-le-revenu-et-decote-2026"
+  },
+  "salaire_moyen": 2733,
+  "salaire_moyen_url": "https://www.lafinancepourtous.com/2025/11/10/le-salaire-moyen-est-de-2-733-e-en-france-en-2024/",
+  "cfe_url": "https://moicombien.fr/blog/cfe-entreprise-2026-calcul-exoneration-base-minimum"
+ },
+ "base_url": "https://claude.ai/artifact/WJ9R1g2Hyxkmrs7YbwVRZB",
+ "blackout": [
+  "2027-04-17",
+  "2027-04-18",
+  "2027-05-01",
+  "2027-05-02"
+ ],
+ "changelog": [
+  {
+   "date": "26/10/2026",
+   "text": "Ajout de Gabriel Attal et Éric Zemmour ; simulateur « Pour moi », quiz à l'aveugle, cartes à partager, recherche, assistant et signalements."
+  },
+  {
+   "date": "26/10/2026",
+   "text": "« Bloqué juridiquement » devient « Exige une révision », avec le chemin pour débloquer chaque mesure."
+  },
+  {
+   "date": "26/10/2026",
+   "text": "Chiffrage propre de chaque mesure avec la même méthode, totaux et fourchettes par candidat."
+  },
+  {
+   "date": "26/10/2026",
+   "text": "Première version : 6 candidats, 42 mesures, sources indépendantes croisées."
+  },
+  {
+   "date": "à venir",
+   "text": "Mise à jour après le programme complet de LFI (6 novembre) et le détail des retraites du RN (17 novembre)."
+  }
+ ],
+ "opendata": "Toutes les données de l'app (mesures, calculs, données d'entrée et sources) sont dans un fichier JSON ouvert, sous licence CC BY 4.0 ; le code est sous licence MIT. Chacun peut refaire les calculs, les contester ou les réutiliser. Le lien du dépôt public sera ajouté ici à sa publication."
+}

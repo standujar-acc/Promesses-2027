@@ -1,0 +1,48 @@
+{"map":{},"costing":[
+{"id":"retraites","central":-10.4,"low":-14.1,"high":-8.2,"method":"médiane","formula":"Médiane de 8,2 (Montaigne) ; 10,4 (Cour des comptes) ; 14,1 (étude d'impact) = −10,4 Md€","inputs":[
+{"label":"Retour à 62 ans, déficit en 2035","value":"10,4 Md€","source":"Cour des comptes","url":"https://www.publicsenat.fr/actualites/emploi/retraites-si-vous-abrogez-la-reforme-de-2023-cest-10-milliards-deuros-de-plus-quil-faut-trouver-souligne-pierre-moscovici"},
+{"label":"Abrogation en 2027 / en 2030","value":"8,2 Md€ (Montaigne) ; 14,1 Md€ (gouvernement)","source":"MoneyVox / AFP","url":"https://www.moneyvox.fr/retraite/actualites/98707/abroger-la-reforme-des-retraites-et-le-depart-a-64-ans-combien-ca-coute"}],
+"note":"Départs anticipés pour pénibilité non chiffrés : coût sans doute plus élevé"},
+{"id":"zucman","central":5,"low":1.25,"high":20,"method":"médiane","formula":"Médiane de 20 (Zucman) ; 5 (sept économistes) ; 5,5 et 1,25 (Institut de l'Entreprise) ≈ +5 Md€","inputs":[
+{"label":"Rendement selon Zucman","value":"20 Md€ ± 5","source":"Public Sénat","url":"https://www.publicsenat.fr/actualites/economie/taxe-zucman-quels-sont-les-arguments-pour-et-les-arguments-contre"},
+{"label":"Estimation critique","value":"≈5 Md€","source":"Brut","url":"https://www.brut.media/fr/articles/taxe-zucman-cest-non-pour-larcher-la-base-de-tout-accord-pour-glucksmann"},
+{"label":"Net de l'IS et des comportements","value":"5,5 Md€ ; 1,25 si IS imputé en totalité","source":"Institut de l'Entreprise","url":"https://www.institut-entreprise.fr/wp-content/uploads/2026/06/TCT_Taxe-Zucman-2026.pdf"}],
+"note":"Reprise dans le programme 2027 non confirmée"},
+{"id":"heritages","central":-1.2,"low":-8,"high":0,"method":"ascendant","formula":"Recette médiane 13,8 Md€ (7 ; 9 ; 13,8 ; 15 ; 19) − 15 Md€ de baisse de CSG promise = −1,2 Md€","inputs":[
+{"label":"Rendement annoncé, redistribué","value":"15 Md€","source":"Public Sénat","url":"https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"},
+{"label":"Réforme d'assiette des successions","value":"+9 à +19 Md€","source":"CAE","url":"https://cae-eco.fr/static/pdf/cae-note069.pdf"},
+{"label":"Mesure comparable 2022","value":"13,8 à 14,3 Md€","source":"iFRAP","url":"https://www.ifrap.org/budget-et-fiscalite/droits-de-succession-44-milliards-dimpots-en-moins-ou-14-milliards-de-taxes-en-plus"},
+{"label":"Niches sur les très gros héritages","value":"≈7 Md€/an","source":"Fipeco (Alternatives Économiques)","url":"https://fipeco.fr/pdf/Alter%20Eco%2017.09.2024.pdf"}],
+"note":"Conçue neutre ; le risque est un rendement inférieur aux 15 Md€ déjà promis aux salariés"},
+{"id":"smic","central":-19,"low":-32.5,"high":-3.5,"method":"médiane","formula":"Montaigne central ≈ −19 Md€ ; bornes : allègements iFRAP (−32,5) et effet immédiat (−3,5)","inputs":[
+{"label":"Coût net public","value":"≈19 Md€ (17 à 21)","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net"},
+{"label":"Hausse des allègements","value":"+32,5 Md€","source":"iFRAP","url":"https://www.ifrap.org/emploi-et-politiques-sociales/laugmentation-du-smic-1-600-euros-detruirait-240-000-emplois"},
+{"label":"Salariés au SMIC","value":"2,7 millions (2024)","source":"Dares","url":"https://www.echodumardi.com/economie/marche-du-travail-plus-de-14-des-salaries-du-prive-touchent-le-smic/?print=pdf"}],
+"note":"Calculé sur le SMIC de 2024 ; l'indexation d'ici 2030 réduirait l'écart"},
+{"id":"defense","central":-4.4,"low":-8.75,"high":0,"method":"ascendant","formula":"500 Md€ × 17,5 % (part française) = 87,5 Md€, remboursés sur 20 ans ≈ −4,4 Md€/an","inputs":[
+{"label":"Fonds européen de défense","value":"500 Md€ d'emprunt commun","source":"Place publique, Acte I","url":"https://place-publique.eu/wp-content/uploads/2025/06/20250623_Projet_placepublique_acte1_BAT_BaDef.pdf"},
+{"label":"Contribution française au budget UE","value":"≈30,3 Md€ en 2026","source":"Public Sénat","url":"https://www.publicsenat.fr/actualites/economie/budget-2026-pourquoi-la-france-a-obtenu-une-hausse-moins-importante-de-sa-contribution-a-lunion-europeenne"}],
+"note":"Durée de remboursement supposée (10 à 20 ans)"},
+{"id":"ecole","central":-6,"low":-13.4,"high":-3,"method":"ascendant","formula":"Masse salariale ≈ 59,3 Md€ hors pensions ; +10 % ≈ −5,9 Md€","inputs":[
+{"label":"Mission Enseignement scolaire 2026","value":"64,5 Md€ hors pensions, dont 5,2 hors salaires","source":"Sénat","url":"https://www.senat.fr/rap/l25-139-313/l25-139-3131.html"},
+{"label":"Revalorisation de 30 %","value":"13,4 Md€/an","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/rattraper-le-gel-du-point-dindice-depuis-2010-et-revaloriser-les-grilles-salariales-des-enseignants/"}],
+"note":"Ampleur non annoncée : +10 % supposés"},
+{"id":"industrie","central":0,"low":0,"high":0,"method":"ascendant","formula":"Mesure réglementaire, sans dépense directe identifiée","inputs":[
+{"label":"État du projet européen","value":"Proposé en mars 2026","source":"Euronews","url":"https://fr.euronews.com/2026/09/24/que-signifie-vraiment-made-in-europe-la-france-lallemagne-et-lespagne-divisees"}],
+"note":"Surcoûts possibles des achats publics non documentés"},
+{"id":"service_civique","central":-4.8,"low":-9.8,"high":-4,"method":"ascendant","formula":"790 000 jeunes × 10 mois × 605 € ≈ −4,8 Md€","inputs":[
+{"label":"Indemnité et coût mensuels","value":"505 € + 100 €","source":"Maire-info","url":"https://www.maire-info.com/jeunesse/plus-de-80-000-jeunes-sengagent-dans-un-service-civique-chaque-annee-article-29901"},
+{"label":"Taille d'une génération","value":"≈790 000","source":"Insee","url":"https://www.insee.fr/fr/statistiques/1906667"},
+{"label":"SNU généralisé (12 jours)","value":"3,5 à 5 Md€/an","source":"Cour des comptes (Weka)","url":"https://www.weka.fr/actualite/?p=184391"}],
+"note":"Logistique d'accueil de 800 000 jeunes en sus"},
+{"id":"ukraine","central":-1.5,"low":-3,"high":0,"method":"ascendant","formula":"+3 Md€/an (doublement de 2024), financés à 50 % par les avoirs russes","inputs":[
+{"label":"Aide militaire française","value":"≈3 Md€ en 2024","source":"Revue Conflits","url":"https://www.revueconflits.com/?p=65984"}],
+"note":"Ampleur de la hausse supposée"}],
+"new_measures":[
+{"id":"service_civique","theme":"social","title":"Service civique de 10 mois","proposal":"Service obligatoire de dix mois pour chaque classe d'âge, volet militaire volontaire.","claimed":"Non chiffré","claimed_md":null,"estimates":[
+{"source":"Calcul (Maire-info + Insee)","year":2026,"value":"≈790 000 jeunes × 10 mois × 605 € ≈ 4,8 Md€","low_md":-4.8,"high_md":-4,"url":"https://www.maire-info.com/jeunesse/plus-de-80-000-jeunes-sengagent-dans-un-service-civique-chaque-annee-article-29901"},
+{"source":"Cour des comptes (SNU, via Weka)","year":2024,"value":"SNU généralisé de 12 jours : 3,5 à 5 Md€/an","low_md":-5,"high_md":-3.5,"url":"https://www.weka.fr/actualite/?p=184391"}],
+"consensus":"concordant","verdict":"sous_conditions","obstacle":"Capacités d'accueil pour environ 800 000 jeunes par an"},
+{"id":"ukraine","theme":"europe","title":"Plus d'aide à l'Ukraine","proposal":"Hausse « drastique » de l'aide militaire, financée par la saisie des avoirs russes.","claimed":"Financement par les avoirs russes","claimed_md":null,"estimates":[
+{"source":"Revue Conflits","year":2026,"value":"Aide militaire ≈3 Md€ en 2024, 0,94 Md€ livrés en 2025","low_md":-3,"high_md":-0.94,"url":"https://www.revueconflits.com/?p=65984"}],
+"consensus":"isolé","verdict":"tres_difficile","obstacle":"Saisie des avoirs russes contestée (Belgique, Euroclear)"}]}

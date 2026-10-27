@@ -1,0 +1,81 @@
+{
+ "retraite": {
+  "table": [
+   [
+    1900,
+    62
+   ],
+   [
+    1961,
+    62.25
+   ],
+   [
+    1962,
+    62.5
+   ],
+   [
+    1963,
+    62.75
+   ],
+   [
+    1965,
+    63
+   ],
+   [
+    1966,
+    63.25
+   ],
+   [
+    1967,
+    63.5
+   ],
+   [
+    1968,
+    63.75
+   ],
+   [
+    1969,
+    64
+   ]
+  ],
+  "url": "https://cms.law/fr/fra/legal-updates/plfss-pour-2026-une-lettre-rectificative-pour-suspendre-la-reforme-des-retraites"
+ },
+ "smic_net": 1477.93,
+ "smic_url": "https://www.ffbatiment.fr/actualites-batiment/actualite/augmentation-smic-juin-2026",
+ "alloc_familiales": {
+  "1": 0,
+  "2": 152.25,
+  "3": 347.32,
+  "par_enfant_sup": 195.07,
+  "url": "https://www.previssima.fr/question-pratique/quel-est-le-montant-des-allocations-familiales.html"
+ },
+ "menages": 30907000,
+ "pib_2025": 2991.1,
+ "ir": {
+  "tranches": [
+   [
+    11600,
+    0.11
+   ],
+   [
+    29579,
+    0.3
+   ],
+   [
+    84577,
+    0.41
+   ],
+   [
+    181917,
+    0.45
+   ]
+  ],
+  "decote_seul": 897,
+  "decote_taux": 0.4525,
+  "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18045?lang=fr",
+  "url_decote": "https://www.weblex.fr/chiffres-cles/impot-sur-le-revenu-et-decote-2026"
+ },
+ "salaire_moyen": 2733,
+ "salaire_moyen_url": "https://www.lafinancepourtous.com/2025/11/10/le-salaire-moyen-est-de-2-733-e-en-france-en-2024/",
+ "cfe_url": "https://moicombien.fr/blog/cfe-entreprise-2026-calcul-exoneration-base-minimum"
+}

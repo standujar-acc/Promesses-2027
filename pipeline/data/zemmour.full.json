@@ -1,0 +1,450 @@
+{
+ "candidate": "zemmour",
+ "name": "Éric Zemmour",
+ "party": "Reconquête",
+ "poll": "3-4,5 %",
+ "summary": "Programme centré sur la « remigration » (expulsions, aides réservées aux Français, sortie de la CEDH) et un plan d'économies annoncé à 130 Md€, avec baisse de la CSG des actifs et abolition des droits de succession. Pas de chiffrage officiel détaillé pour 2027 ; en 2022, l'Institut Montaigne chiffrait le programme à −145,8 Md€/an.",
+ "measures": [
+  {
+   "id": "remigration",
+   "theme": "immigration",
+   "title": "Expulser les étrangers chômeurs",
+   "proposal": "Expulser les étrangers en situation régulière après un an de chômage, ainsi que délinquants et clandestins ; ministère de la Remigration.",
+   "claimed": "Non chiffré",
+   "claimed_md": null,
+   "estimates": [
+    {
+     "source": "Institut Montaigne",
+     "year": 2022,
+     "value": "+1,8 Md€/an (version à 6 mois de chômage)",
+     "low_md": 0.9,
+     "high_md": 2.4,
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/renvoyer-les-etrangers-venus-travailler-au-bout-de-6-mois-sans-emploi"
+    }
+   ],
+   "consensus": "isolé",
+   "verdict": "tres_difficile",
+   "obstacle": "Modifier le droit des étrangers ; vie familiale protégée par la CEDH et la Constitution ; accord des pays d'origine pour les retours.",
+   "claude": {
+    "central": 1.0,
+    "low": 0.5,
+    "high": 1.3,
+    "method": "ascendant",
+    "formula": "≈109 000 chômeurs étrangers depuis plus d'un an × 12 200 € − 0,31 Md€ de frais d'éloignement ≈ +1,0 Md€",
+    "inputs": [
+     {
+      "label": "Chômeurs étrangers de plus d'un an",
+      "value": "≈109 000 (2020)",
+      "source": "Institut Montaigne",
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/renvoyer-les-etrangers-venus-travailler-au-bout-de-6-mois-sans-emploi"
+     },
+     {
+      "label": "Allocation annuelle moyenne",
+      "value": "12 200 €",
+      "source": "Institut Montaigne",
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/renvoyer-les-etrangers-venus-travailler-au-bout-de-6-mois-sans-emploi"
+     }
+    ],
+    "note": "Données 2019-2020 non revalorisées"
+   }
+  },
+  {
+   "id": "aides",
+   "theme": "immigration",
+   "title": "Aides réservées aux Français",
+   "proposal": "Supprimer les prestations non contributives (RSA, allocations familiales, logement, minimum vieillesse) pour les étrangers extra-européens.",
+   "claimed": "15 à 20 Md€/an",
+   "claimed_md": 17.5,
+   "estimates": [
+    {
+     "source": "Institut Montaigne",
+     "year": 2022,
+     "value": "+6,7 Md€/an",
+     "low_md": 6.7,
+     "high_md": 6.8,
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/retirer-les-aides-sociales-non-contributives-aux-etrangers-extra-europeens"
+    },
+    {
+     "source": "Institut Montaigne (variante à 5 ans de travail)",
+     "year": 2024,
+     "value": "+2,6 Md€/an",
+     "low_md": 0.6,
+     "high_md": 3.0,
+     "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/reserver-le-benefice-du-rsa-et-des-prestations-de-solidarites-aux-etrangers-ayant-au-moins-5-ans-dequivalent-temps-plein-travaille-en-france"
+    }
+   ],
+   "consensus": "divergent",
+   "verdict": "bloque",
+   "obstacle": "Chemin : révision de la Constitution (art. 89, accord du Sénat), dénonciation de la CEDH et renégociation du droit de l'UE.",
+   "claude": {
+    "central": 6.7,
+    "low": 2.6,
+    "high": 6.8,
+    "method": "médiane",
+    "formula": "Exclusion totale : estimation de 6,7 Md€ ; borne basse : variante restreinte à 2,6 Md€",
+    "inputs": [
+     {
+      "label": "Part des aides versées à des étrangers",
+      "value": "11,4 %",
+      "source": "Institut Montaigne",
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/retirer-les-aides-sociales-non-contributives-aux-etrangers-extra-europeens"
+     }
+    ],
+    "note": "Facteur 3 d'écart avec le chiffre du camp"
+   }
+  },
+  {
+   "id": "cedh",
+   "theme": "institutions",
+   "title": "Fin du regroupement familial",
+   "proposal": "Supprimer le regroupement familial, sortir de la CEDH (programme 2024), référendum sur l'immigration (2022, non reconfirmé).",
+   "claimed": "Non chiffré",
+   "claimed_md": null,
+   "estimates": [
+    {
+     "source": "Institut Montaigne",
+     "year": 2022,
+     "value": "≈12 000 titres par an au titre du regroupement familial strict ; coût public non documenté",
+     "low_md": null,
+     "high_md": null,
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/mettre-fin-au-regroupement-familial/"
+    }
+   ],
+   "consensus": "isolé",
+   "verdict": "bloque",
+   "obstacle": "Chemin : révision de la Constitution (Préambule de 1946), dénonciation de la CEDH (préavis de 6 mois), modification d'une directive européenne.",
+   "claude": {
+    "central": 0,
+    "low": 0,
+    "high": 0,
+    "method": "ascendant",
+    "formula": "Aucun coût public du regroupement familial documenté",
+    "inputs": [],
+    "note": "Effet budgétaire non chiffrable"
+   }
+  },
+  {
+   "id": "retraites",
+   "theme": "retraites",
+   "title": "Retraite à 64-65 ans",
+   "proposal": "Âge légal à 64 ou 65 ans (non tranché), développement progressif de la capitalisation.",
+   "claimed": "Non chiffré en 2026",
+   "claimed_md": null,
+   "estimates": [
+    {
+     "source": "Institut Montaigne",
+     "year": 2022,
+     "value": "+10,7 Md€ en 2030 (62 → 64 ans)",
+     "low_md": 5.8,
+     "high_md": 15.9,
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/augmenter-lage-legal-de-la-retraite-a-64-ans-et-aligner-les-differents-regimes-de-retraite/"
+    },
+    {
+     "source": "iFRAP (coût de la suspension)",
+     "year": 2025,
+     "value": "1,8 à 3 Md€ en 2027",
+     "low_md": 1.8,
+     "high_md": 3.0,
+     "url": "https://www.ifrap.org/retraite/retraites-la-suspension-va-couter-des-milliards"
+    }
+   ],
+   "consensus": "divergent",
+   "verdict": "sous_conditions",
+   "obstacle": "Une loi suffit ; seuil non tranché ; transition vers la capitalisation non financée.",
+   "claude": {
+    "central": 1.8,
+    "low": 0,
+    "high": 5.8,
+    "method": "ascendant",
+    "formula": "Le droit actuel mène déjà à 64 ans : gain ≈ fin de la suspension, 1,8 Md€",
+    "inputs": [
+     {
+      "label": "Coût de la suspension en 2027",
+      "value": "1,8 Md€",
+      "source": "iFRAP",
+      "url": "https://www.ifrap.org/retraite/retraites-la-suspension-va-couter-des-milliards"
+     }
+    ],
+    "note": "Option 65 ans et capitalisation non chiffrées"
+   }
+  },
+  {
+   "id": "csg",
+   "theme": "fiscalite",
+   "title": "Baisse de la CSG des actifs",
+   "proposal": "Baisser la CSG sur les revenus d'activité (en 2022 : de 9,2 % à 2,5 % jusqu'à 2 000 € net) ; principe confirmé en 2026.",
+   "claimed": "10,8 Md€ brut (2022)",
+   "claimed_md": -10.8,
+   "estimates": [
+    {
+     "source": "Institut Montaigne",
+     "year": 2022,
+     "value": "−18,5 Md€ brut, −15,5 Md€ net",
+     "low_md": -20.5,
+     "high_md": -13.5,
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-le-taux-de-la-csg-sur-les-revenus-dactivite-de-92-a-25"
+    },
+    {
+     "source": "Institut Montaigne (synthèse)",
+     "year": 2022,
+     "value": "Mesure la plus coûteuse du programme 2022",
+     "low_md": null,
+     "high_md": null,
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/synthese"
+    }
+   ],
+   "consensus": "isolé",
+   "verdict": "tres_difficile",
+   "obstacle": "Égalité devant l'impôt : dispositifs proches censurés (2000, 2014, 2015) ; compensation de la Sécurité sociale.",
+   "claude": {
+    "central": -15.5,
+    "low": -17.5,
+    "high": -13.5,
+    "method": "médiane",
+    "formula": "18,5 Md€ brut − 3 Md€ d'impôt sur le revenu récupéré = −15,5 Md€",
+    "inputs": [
+     {
+      "label": "Coût brut",
+      "value": "18,5 Md€",
+      "source": "Institut Montaigne",
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-le-taux-de-la-csg-sur-les-revenus-dactivite-de-92-a-25"
+     }
+    ],
+    "note": "Paramètres 2022 reconduits"
+   }
+  },
+  {
+   "id": "succession",
+   "theme": "fiscalite",
+   "title": "Fin des droits de succession",
+   "proposal": "Abolir les droits de succession (annonce 2026) ; en 2022, abattements de 200 000 € et exonération des entreprises familiales.",
+   "claimed": "Non chiffré",
+   "claimed_md": null,
+   "estimates": [
+    {
+     "source": "iFRAP",
+     "year": 2022,
+     "value": "Version partielle 2022 : −4,4 Md€/an",
+     "low_md": -4.4,
+     "high_md": -4.4,
+     "url": "https://www.ifrap.org/budget-et-fiscalite/droits-de-succession-44-milliards-dimpots-en-moins-ou-14-milliards-de-taxes-en-plus"
+    },
+    {
+     "source": "Institut Montaigne",
+     "year": 2022,
+     "value": "Version partielle 2022 : −5,3 à −10,7 Md€",
+     "low_md": -10.65,
+     "high_md": -5.35,
+     "url": "https://www.institutmontaigne.org/blog/presidentielle-chiffrage-2022-quels-impots-pour-les-successions-et-les-donations"
+    }
+   ],
+   "consensus": "divergent",
+   "verdict": "faisable",
+   "obstacle": "Une loi de finances suffit ; financement des 15 à 20 Md€ perdus non précisé.",
+   "claude": {
+    "central": -15,
+    "low": -20,
+    "high": -15,
+    "method": "ascendant",
+    "formula": "Recettes des successions 2024 : 15 Md€ ; 20 Md€ si les donations sont aussi supprimées",
+    "inputs": [
+     {
+      "label": "Droits de mutation à titre gratuit 2024",
+      "value": "≈20 Md€, dont 15 Md€ de successions",
+      "source": "Assemblée nationale",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/1906A/AN/3259.pdf"
+     }
+    ],
+    "note": "Sort des donations non précisé"
+   }
+  },
+  {
+   "id": "production",
+   "theme": "fiscalite",
+   "title": "Moins d'impôts de production",
+   "proposal": "Baisser les impôts de production de 30 Md€ (mesure 2022, non confirmée en 2026).",
+   "claimed": "30 Md€, autofinancés selon le camp",
+   "claimed_md": 0,
+   "estimates": [
+    {
+     "source": "Institut Montaigne",
+     "year": 2022,
+     "value": "−25,2 Md€/an",
+     "low_md": -30,
+     "high_md": -23.8,
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-les-impots-de-production-de-30-milliards-deuros-supplementaires/"
+    },
+    {
+     "source": "Institut Molinari",
+     "year": 2022,
+     "value": "Quasi autofinancée en 2 ans (effets macroéconomiques)",
+     "low_md": null,
+     "high_md": null,
+     "url": "https://www.institutmolinari.org/wp-content/uploads/2022/04/2022-04-07-LEVENEMENT-MAGAZINE.pdf"
+    }
+   ],
+   "consensus": "divergent",
+   "verdict": "sous_conditions",
+   "obstacle": "Impôts visés non désignés ; compensation des collectivités et de la Sécurité sociale.",
+   "claude": {
+    "central": -25.2,
+    "low": -30,
+    "high": -23.8,
+    "method": "médiane",
+    "formula": "30,4 Md€ d'impôts visés − 6 Md€ d'impôt sur les sociétés récupéré ≈ −25,2 Md€",
+    "inputs": [
+     {
+      "label": "Impôts visés",
+      "value": "30,4 Md€ (2022)",
+      "source": "Institut Montaigne",
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-les-impots-de-production-de-30-milliards-deuros-supplementaires/"
+     }
+    ],
+    "note": "Effets macroéconomiques exclus par notre convention"
+   }
+  },
+  {
+   "id": "fonctionnaires",
+   "theme": "depense",
+   "title": "800 000 postes publics en moins",
+   "proposal": "Supprimer 800 000 postes publics en 5 ans par départs non remplacés, hors enseignants, soignants, policiers et militaires.",
+   "claimed": "Inclus dans 130 Md€ d'économies",
+   "claimed_md": null,
+   "estimates": [
+    {
+     "source": "Cour des comptes (via Journal de l'économie)",
+     "year": 2026,
+     "value": "Masse salariale publique 362 Md€ pour 5,88 M d'agents",
+     "low_md": null,
+     "high_md": null,
+     "url": "https://www.journaldeleconomie.fr/?p=49417"
+    },
+    {
+     "source": "Cour des comptes (via Acteurs publics)",
+     "year": 2010,
+     "value": "Les suppressions de postes rapportent moins que prévu",
+     "low_md": null,
+     "high_md": null,
+     "url": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-moins-que-prevu"
+    }
+   ],
+   "consensus": "concordant",
+   "verdict": "tres_difficile",
+   "obstacle": "≈720 000 départs à la retraite en 5 ans au total, dont une grande part dans les secteurs épargnés : objectif hors d'atteinte par la seule voie annoncée.",
+   "claude": {
+    "central": 20,
+    "low": 10,
+    "high": 37,
+    "method": "ascendant",
+    "formula": "800 000 × 61,6 k€ = 49,3 Md€, −25 % rétrocédés = 37 (si atteint) ; central à 20 car les départs hors secteurs épargnés n'y suffisent pas",
+    "inputs": [
+     {
+      "label": "Masse salariale publique 2024",
+      "value": "362,1 Md€",
+      "source": "Cour des comptes",
+      "url": "https://www.journaldeleconomie.fr/?p=49417"
+     },
+     {
+      "label": "Effectifs",
+      "value": "5,88 millions d'agents",
+      "source": "Cour des comptes",
+      "url": "https://www.journaldeleconomie.fr/?p=49417"
+     },
+     {
+      "label": "Départs à la retraite",
+      "value": "144 000 par an",
+      "source": "DGAFP",
+      "url": "https://www.fonction-publique.gouv.fr/toutes-les-publications/les-departs-la-retraite-dans-la-fonction-publique-en-2025"
+     }
+    ],
+    "note": "Valeur centrale abaissée : départs disponibles insuffisants"
+   }
+  },
+  {
+   "id": "famille",
+   "theme": "social",
+   "title": "Quotient familial doublé",
+   "proposal": "Doubler le plafond du quotient familial et rendre les allocations familiales universelles (2022, non confirmé en 2026).",
+   "claimed": "3,3 Md€/an",
+   "claimed_md": -3.3,
+   "estimates": [
+    {
+     "source": "Institut Montaigne",
+     "year": 2022,
+     "value": "−3,3 Md€ (quotient) et −0,8 Md€ (allocations)",
+     "low_md": -4.3,
+     "high_md": -4.0,
+     "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/doubler-le-quotient-familial"
+    },
+    {
+     "source": "iFRAP",
+     "year": 2022,
+     "value": "−1 à −1,3 Md€ (quotient) et −0,8 Md€ (allocations)",
+     "low_md": -2.1,
+     "high_md": -1.8,
+     "url": "https://www.ifrap.org/budget-et-fiscalite/allocations-quotient-familial-le-cout-reel-des-propositions-des-candidats-la-presidentielle"
+    }
+   ],
+   "consensus": "divergent",
+   "verdict": "faisable",
+   "obstacle": "Loi de finances et loi de financement de la Sécurité sociale.",
+   "claude": {
+    "central": -3.0,
+    "low": -4.1,
+    "high": -1.8,
+    "method": "médiane",
+    "formula": "Entre Montaigne (−4,1) et iFRAP (−1,95) ≈ −3 Md€",
+    "inputs": [
+     {
+      "label": "Doublement du quotient familial",
+      "value": "3,3 Md€",
+      "source": "Institut Montaigne",
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/doubler-le-quotient-familial"
+     }
+    ],
+    "note": "Prime de naissance rurale (≈2,1 Md€ en 2022) exclue"
+   }
+  }
+ ],
+ "total": {
+  "claimed": "130 Md€ d'économies annoncées en 2026, sans détail publié",
+  "independent": "Montaigne 2022 : −145,8 Md€/an pour le programme complet"
+ },
+ "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, suppression de l'aide au développement, reste du plan de 130 Md€",
+ "sim": {
+  "retraite": {
+   "age_legal": 64,
+   "age_taux_plein": null,
+   "carriere_longue": null,
+   "regle": "Âge légal à 64 ou 65 ans (seuil non tranché) ; capitalisation progressive."
+  },
+  "smic_net": null,
+  "salaire_net": {
+   "gain_mensuel": 80,
+   "ref": 1477.93,
+   "prorata": true,
+   "max": 2000,
+   "independants": true,
+   "public": "actifs jusqu'à 2 000 € net",
+   "note": "Baisse de la CSG sur les revenus d'activité jusqu'à 2 000 € net (≈80 € au SMIC, paramètres 2022)"
+  },
+  "alloc_familiales": null,
+  "alloc_perte_etrangers": true,
+  "tva_energie": null,
+  "fonctionnaires": "800 000 départs non remplacés en 5 ans, hors enseignants, soignants, policiers et militaires ; trois jours de carence.",
+  "chomeurs": "Pas de mesure annoncée pour les chômeurs français ; un étranger au chômage depuis un an serait expulsé.",
+  "minima_sociaux": "RSA limité à 3 ans pour les personnes aptes au travail ; aides non contributives réservées aux Français.",
+  "jeunes": null,
+  "retraites_actuels": "Rien de confirmé en 2026 (en 2022 : réversion portée à 75 %, CSG supprimée sous 1 300 €).",
+  "independants": "Concernés par la baisse de CSG jusqu'à 2 000 € net (paramètres 2022).",
+  "etrangers": "Hors UE : perte des aides non contributives, expulsion après un an de chômage, fin du regroupement familial. Exige une révision de la Constitution.",
+  "patrimoine": [],
+  "heritage": [
+   {
+    "seuil": 0,
+    "effet": "Abolition des droits de succession annoncée ; modalités non publiées."
+   }
+  ],
+  "alloc_perte_scope": "hors"
+ }
+}

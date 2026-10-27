@@ -1,0 +1,14 @@
+name: Vérifier la construction
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Reconstruire le site
+        run: python3 pipeline/run.py
+      - name: Le site versionné doit être à jour
+        run: |
+          git diff --stat --exit-code -- public lib/context.js || (echo "::error::Lancez python3 pipeline/run.py et versionnez public/ et lib/context.js" && exit 1)

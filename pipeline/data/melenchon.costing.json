@@ -1,0 +1,49 @@
+{"map":{"fiscalite_patrimoine":"fiscalite","garantie_autonomie":"jeunes","blocage_prix":"prix","dette_bce":"dette"},"costing":[
+{"id":"retraites","central":-54,"low":-58,"high":-10.4,"method":"médiane","formula":"Retour à 60 ans : médiane de 50 (iFRAP) et 58 (Montaigne) = −54 Md€ ; 62 ans seul ≈ −10","inputs":[
+{"label":"Retour à 62 ans","value":"10,4 Md€ en 2035","source":"Cour des comptes","url":"https://www.publicsenat.fr/actualites/emploi/retraites-si-vous-abrogez-la-reforme-de-2023-cest-10-milliards-deuros-de-plus-quil-faut-trouver-souligne-pierre-moscovici"},
+{"label":"Retour à 60 ans","value":"≈50 Md€/an","source":"iFRAP","url":"https://www.ifrap.org/retraite/retraites-et-si-lon-arretait-de-mentir-aux-francais"},
+{"label":"Retour à 60 ans","value":"58 Md€/an","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"}],
+"note":"Suppose 60 ans en vigueur en 2030"},
+{"id":"smic","central":-23.3,"low":-25.7,"high":-4.4,"method":"ascendant","formula":"19 Md€ pour +15,1 % de brut ; 1 700 € net = +18,5 % → 19 × 18,5/15,1 = −23,3 Md€","inputs":[
+{"label":"SMIC à 1 600 € net","value":"19 Md€","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net"},
+{"label":"SMIC brut 2026","value":"1 823 €","source":"Éditions Tissot","url":"https://www.editions-tissot.fr/actualite/droit-du-travail/smic-au-1er-janvier-2026-une-hausse-de-1-18"},
+{"label":"1 600 € net = +15,1 % de brut","value":"2 034 € brut","source":"iFRAP","url":"https://www.ifrap.org/emploi-et-politiques-sociales/laugmentation-du-smic-1-600-euros-detruirait-240-000-emplois"}],
+"note":"Proportionnalité linéaire supposée"},
+{"id":"fiscalite_patrimoine","central":31.4,"low":14.3,"high":44.6,"method":"ascendant","formula":"ISF 4 + Zucman 15 (20 × 75 % après exil) + héritages 9 + flat tax 3,4 = +31,4 Md€","inputs":[
+{"label":"Rendement d'un ISF rétabli","value":"3,4 à 6 Md€","source":"Terra Nova","url":"https://tnova.fr/site/assets/files/67145/terra_nova_-_quel_rendement_peut-on_reellement_attendre_de_la_taxation_des_plus_fortunes.pdf?1kkund"},
+{"label":"Taxe Zucman : érosion par l'exil","value":"≈25 % (14 à 34 %)","source":"Institut de l'Entreprise","url":"https://www.institut-entreprise.fr/wp-content/uploads/2026/06/TCT_Taxe-Zucman-2026.pdf"},
+{"label":"Héritages","value":"9 Md€","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"},
+{"label":"Fin de la flat tax","value":"3,2 à 3,6 Md€","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/supprimer-la-flat-tax-et-retablir-lexit-tax"}],
+"note":"LFI annonce 54 Md€ ; écart surtout sur Zucman et les héritages"},
+{"id":"garantie_autonomie","central":-15.5,"low":-26.9,"high":-9.5,"method":"ascendant","formula":"12,3 Md€ (pour 1 063 €) × 1 337/1 063 = −15,5 Md€","inputs":[
+{"label":"Garantie à 1 063 €","value":"12,3 Md€ (21,4 en élargi)","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/creer-une-garantie-dautonomie-de-trois-ans-sous-reserve-dune-formation-qualifiante-et-sous-conditions-de-ressources-pour-les-18-25-ans/"}],
+"note":"Mise à l'échelle linéaire"},
+{"id":"blocage_prix","central":-16.5,"low":-24,"high":0,"method":"médiane","formula":"Médiane de 9 et 24 Md€ = −16,5 Md€","inputs":[
+{"label":"Blocage des prix (NFP)","value":"9 Md€/an","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"},
+{"label":"Variante haute","value":"≈24 Md€","source":"Le Figaro (Montaigne)","url":"https://www.ofce.sciences-po.fr/pdf-articles/actu/Le-Figaroel.pdf"}],
+"note":"Coût nul si le blocage se fait sans compensation publique"},
+{"id":"dette_bce","central":0,"low":0,"high":15,"method":"médiane","formula":"Les intérêts reviennent déjà à l'État : effet net ≈ 0","inputs":[
+{"label":"Intérêts évités, effet net","value":"12 à 15 Md€ ; net ≈ 0","source":"dettedelafrance.fr","url":"https://dettedelafrance.fr/actualites/annuler-la-dette-detenue-par-la-bce-mecanismes-ordres-de-grandeur-et"},
+{"label":"Gain réel","value":"aucun","source":"iFRAP","url":"https://www.ifrap.org/budget-et-fiscalite/annuler-la-dette-pourquoi-cest-impossible-et-dangereux"}],
+"note":"Hausse des taux possible non chiffrée"},
+{"id":"constituante","central":0,"low":0,"high":0,"method":"ascendant","formula":"Réforme institutionnelle sans coût significatif","inputs":[],"note":"Coût d'organisation négligeable"},
+{"id":"point_indice","central":-20,"low":-22,"high":-7,"method":"médiane","formula":"+1 % de point d'indice = 2,07 Md€ ; +10 % ≈ −20 Md€","inputs":[
+{"label":"Coût de +1 % (3 versants)","value":"2,07 Md€","source":"Cour des comptes (Acteurs publics)","url":"https://acteurspublics.fr/articles/1-2-ou-3-de-hausse-du-point-dindice-quel-impact-sur-les-finances-publiques"},
+{"label":"+10 %","value":"20 Md€","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"}],
+"note":"Taux de hausse non publié ; les 17 Md€ de LFI ≈ +8 %"},
+{"id":"niches","central":10,"low":5,"high":20.2,"method":"ascendant","formula":"CIR 7,65 + Dutreil ≈5,3 + emploi à domicile 6,86 ≈ 20 Md€ ; rabot de 50 % supposé = +10 Md€","inputs":[
+{"label":"Coût du CIR","value":"7,65 Md€","source":"Légifiscal","url":"https://www.legifiscal.fr/actualites-fiscales/3881-plf-2025-credit-impot-recherche-rabote.html"},
+{"label":"Coût du pacte Dutreil","value":"4,85 à 5,7 Md€","source":"IPP / Cour des comptes","url":"https://www.ipp.eu/wp-content/uploads/2025/11/Dutreil_CourDesComptes-6_compressed.pdf"},
+{"label":"Crédit d'impôt emploi à domicile","value":"6,86 Md€","source":"Moneyvox","url":"https://www.moneyvox.fr/impot/actualites/100196/impot-sur-le-revenu-le-top-5-des-niches-fiscales-les-plus-couteuses-en-2025"}],
+"note":"Ampleur du rabot non précisée"}],
+"new_measures":[
+{"id":"point_indice","theme":"depense","title":"Hausse du point d'indice","proposal":"Revaloriser le point d'indice des fonctionnaires des trois versants (taux non publié).","claimed":"17 Md€/an","claimed_md":-17,"estimates":[
+{"source":"Institut Montaigne","year":2024,"value":"+10 % : 20 Md€/an","low_md":-20,"high_md":-20,"url":"https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"},
+{"source":"Cour des comptes (Acteurs publics)","year":2022,"value":"2,07 Md€ par point de hausse","low_md":null,"high_md":null,"url":"https://acteurspublics.fr/articles/1-2-ou-3-de-hausse-du-point-dindice-quel-impact-sur-les-finances-publiques"},
+{"source":"Le Figaro (Allianz, S. Catherine)","year":2024,"value":"+10 % : 7 à 22 Md€","low_md":-22,"high_md":-7,"url":"https://www.ofce.sciences-po.fr/pdf-articles/actu/Le-Figaroel.pdf"}],
+"consensus":"concordant","verdict":"faisable","obstacle":"Décret suffit ; coût récurrent"},
+{"id":"niches","theme":"fiscalite","title":"Rabot des niches fiscales","proposal":"Raboter le crédit d'impôt recherche, le pacte Dutreil et le crédit d'impôt emploi à domicile.","claimed":"+22 Md€/an","claimed_md":22,"estimates":[
+{"source":"Légifiscal (CIR)","year":2024,"value":"CIR : 7,65 Md€","low_md":null,"high_md":null,"url":"https://www.legifiscal.fr/actualites-fiscales/3881-plf-2025-credit-impot-recherche-rabote.html"},
+{"source":"IPP / Cour des comptes","year":2025,"value":"Dutreil : 4,85 à 5,7 Md€","low_md":null,"high_md":null,"url":"https://www.ipp.eu/wp-content/uploads/2025/11/Dutreil_CourDesComptes-6_compressed.pdf"},
+{"source":"Moneyvox","year":2025,"value":"Emploi à domicile : 6,86 Md€","low_md":null,"high_md":null,"url":"https://www.moneyvox.fr/impot/actualites/100196/impot-sur-le-revenu-le-top-5-des-niches-fiscales-les-plus-couteuses-en-2025"}],
+"consensus":"concordant","verdict":"sous_conditions","obstacle":"Les trois niches pèsent ≈20 Md€ : 22 Md€ suppose de tout supprimer"}]}

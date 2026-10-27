@@ -1,0 +1,959 @@
+{
+ "life": {
+  "le-pen": [
+   {
+    "theme": "securite",
+    "proposals": [
+     {
+      "text": "Rétablir les peines planchers, supprimer les remises de peine (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Porter le parc à 85 000 places de prison (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Présomption de légitime défense pour les forces de l'ordre (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": "85 000 places de prison visées pour 2027 (programme 2022)",
+    "evidence": "Peines planchers 2007 : peines fermes allongées, effet sur la récidive non établi (Justice, 2012). Nouvelles places de prison vite comblées (Sénat, 2023).",
+    "evidence_level": "non_demontree",
+    "sources": [
+     {
+      "label": "Votons 2027, programme RN",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/le-pen/programme"
+     },
+     {
+      "label": "LCP, sécurité-justice des candidats",
+      "year": 2022,
+      "url": "https://lcp.fr/index%2Ephp/actualites/presidentielle-des-philosophies-tres-differentes-en-matiere-de-securite-et-de-justice"
+     },
+     {
+      "label": "Infostat Justice 118, peines planchers",
+      "year": 2012,
+      "url": "https://www.justice.gouv.fr/sites/default/files/migrations/portail/art_pix/stat_infostat_118_20121017.pdf"
+     },
+     {
+      "label": "Sénat, plan 15 000 places",
+      "year": 2023,
+      "url": "https://www.senat.fr/rap/r23-037/r23-0370.html"
+     }
+    ]
+   },
+   {
+    "theme": "sante",
+    "proposals": [
+     {
+      "text": "Plan d'urgence pour la santé de 20 Md€ (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Supprimer les ARS ; 10% max de postes administratifs à l'hôpital (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Aides financières à l'installation dans les déserts médicaux (non reconfirmée en 2026)",
+      "verifiable": false
+     }
+    ],
+    "indicator": "Plan d'urgence santé chiffré à 20 Md€ (programme 2022)",
+    "evidence": "Incitations financières à l'installation : effet modéré à court terme, très faible à long terme (Irdes). Aides jugées mal ciblées (Cour des comptes, 2024).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Votons 2027, programme RN",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/le-pen/programme"
+     },
+     {
+      "label": "Quotidien du Médecin, Le Pen santé",
+      "year": 2026,
+      "url": "https://www.lequotidiendumedecin.fr/sante-societe/politique-de-sante/deserts-medicaux-numerus-clausus-debureaucratisation-de-lhopital-marine-le-pen-sempare-de-la-sante"
+     },
+     {
+      "label": "Irdes QES 122",
+      "year": 2007,
+      "url": "https://www.IRDES.fr/Publications/Qes/Qes122.pdf"
+     },
+     {
+      "label": "AFP, Cour des comptes déserts médicaux",
+      "year": 2024,
+      "url": "https://www.macommune.info/deserts-medicaux-des-mesures-fragmentaires-et-pas-assez-ciblees-selon-la-cour-des-comptes"
+     }
+    ]
+   },
+   {
+    "theme": "ecole",
+    "proposals": [
+     {
+      "text": "Uniforme obligatoire du primaire à la troisième (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Dédoublement étendu à tous les CP et grandes sections (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Salaires des enseignants +3 % par an (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Salaires enseignants +3 % par an sur le quinquennat (2022)",
+    "evidence": "Uniforme : climat amélioré selon 36% des directeurs, effet quasi nul sur les résultats (ministère, 2026). Dédoublement : gains en CP disparus en 6e (DEPP, 2026).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Europe 1, Le Pen éducation",
+      "year": 2022,
+      "url": "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299"
+     },
+     {
+      "label": "Votons 2027, programme RN",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/le-pen/programme"
+     },
+     {
+      "label": "75 Secondes, évaluation uniforme",
+      "year": 2026,
+      "url": "https://www.75secondes.fr/actualites/luniforme-a-lecole-produit-des-effets-decevants-selon-une-premiere-etude"
+     },
+     {
+      "label": "AEF, note DEPP dédoublement",
+      "year": 2026,
+      "url": "https://media.ac-normandie.fr/-/communication/revue-presse/2026/02/04/AEF_nat_cri_National_Le%20d%e9doublement%20en%20%e9ducation%20prioritaire%20semble%20sans%20effet%20%e0%20long%20terme%20sur%20les%20performances%20des%20%e9l%e8ves%20(Depp).pdf"
+     }
+    ]
+   },
+   {
+    "theme": "environnement",
+    "proposals": [
+     {
+      "text": "Stopper l'éolien, démanteler progressivement les parcs existants (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Relancer nucléaire et hydroélectricité, quitter le marché européen de l'électricité (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "S'opposer à la PPE 2026, dont elle estime le coût à 300 Md€",
+      "verifiable": false
+     }
+    ],
+    "indicator": "5 Md€ de subventions rendues aux ménages (programme 2022)",
+    "evidence": "RTE : neutralité carbone « impossible sans développement significatif des renouvelables » ; de nouveaux réacteurs restent économiquement pertinents (Futurs énergétiques 2050).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Les Echos, RN et PPE",
+      "year": 2026,
+      "url": "https://www.syndicat-energies-renouvelables.fr/wp-content/uploads/2026/02/Les-Echos-11-02-2026-Page-7.pdf"
+     },
+     {
+      "label": "Votons 2027, programme RN",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/le-pen/programme"
+     },
+     {
+      "label": "AFP, RTE Futurs énergétiques",
+      "year": 2021,
+      "url": "https://www.connaissancedesenergies.org/afp/il-serait-pertinent-de-construire-de-nouveaux-reacteurs-nucleaires-dun-point-de-vue-economique-selon-rte-211025"
+     }
+    ]
+   },
+   {
+    "theme": "logement",
+    "proposals": [
+     {
+      "text": "Priorité nationale : HLM et APL réservés aux Français",
+      "verifiable": true
+     },
+     {
+      "text": "Abroger la loi SRU et supprimer le ZAN",
+      "verifiable": true
+     },
+     {
+      "text": "Remplacer MaPrimeRénov' par un prêt à taux zéro « 100 % rénov »",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Logement « revenu à la normale » en cinq ans",
+    "evidence": "Loi SRU : environ la moitié de la hausse du parc social des communes concernées (CGDD, 2014). MaPrimeRénov' seule : économies d'énergie non significatives (Insee, 2026).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Sud Radio, discours Hénin-Beaumont",
+      "year": 2026,
+      "url": "https://www.sudradio.fr/societe/le-pen-veut-mettre-la-priorite-nationale-au-centre-dun-grand-chantier-sur-le-logement"
+     },
+     {
+      "label": "Sud Radio/AFP, rentrée Le Pen",
+      "year": 2026,
+      "url": "https://www.sudradio.fr/societe/le-pen-a-henin-beaumont-pour-reprendre-le-fil-dune-campagne-a-deux-visages"
+     },
+     {
+      "label": "Banque des Territoires, étude CGDD SRU",
+      "year": 2014,
+      "url": "https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social"
+     },
+     {
+      "label": "Insee, isolation et consommation réelle",
+      "year": 2026,
+      "url": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "libertes",
+    "proposals": [
+     {
+      "text": "Instaurer le référendum d'initiative citoyenne (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Élire les députés à la proportionnelle (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "RIC : peu d'études causales. En Suisse, initiatives rarement adoptées mais qui structurent le débat ; risque d'usage restrictif des libertés signalé (AMU, 2024).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Votons 2027, programme RN",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/le-pen/programme"
+     },
+     {
+      "label": "La Croix/AMU, le référendum",
+      "year": 2024,
+      "url": "https://dice.univ-amu.fr/sites/dice.univ-amu.fr/files/article/article_marthe.pdf"
+     }
+    ]
+   }
+  ],
+  "melenchon": [
+   {
+    "theme": "securite",
+    "proposals": [
+     {
+      "text": "Rétablir la police de proximité, démanteler les BAC (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Dissoudre la BRAV-M, interdire LBD et grenades, remplacer l'IGPN",
+      "verifiable": true
+     },
+     {
+      "text": "Mécanisme contraignant de régulation carcérale contre la surpopulation (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "Police de proximité : baisse limitée de la délinquance (Gill, 2014), sentiment d'insécurité réduit. Régulation carcérale : pas d'évaluation française identifiée.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Votons 2027, sécurité LFI",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/melenchon/programme/securite"
+     },
+     {
+      "label": "AFP/La Libre, LFI et la police",
+      "year": 2026,
+      "url": "https://www.lalibre.be/dernieres-depeches/2026/10/22/reformer-la-police-de-la-cave-au-grenier-les-relations-tumultueuses-entre-lfi-et-les-policiers-HOTBLDJ2PRHHBOMOELKHZ6C3FQ/"
+     },
+     {
+      "label": "EconomiX, économie du policing",
+      "year": 2024,
+      "url": "https://economix.fr/pdf/dt/2024/WP_EcoX_2024-15.pdf"
+     },
+     {
+      "label": "Police.be, police et criminalité",
+      "year": 2022,
+      "url": "https://www.police.be/5337/node/19655"
+     }
+    ]
+   },
+   {
+    "theme": "sante",
+    "proposals": [
+     {
+      "text": "Réguler l'installation des médecins, recruter des médecins publics salariés",
+      "verifiable": true
+     },
+     {
+      "text": "Rouvrir urgences, maternités, EHPAD publics : soins à moins de 30 minutes",
+      "verifiable": true
+     },
+     {
+      "text": "« 100 % Sécu » : soins prescrits remboursés intégralement (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Soins publics à moins de 30 minutes de chaque habitant",
+    "evidence": "Restrictions d'installation des infirmières en zones sur-denses : meilleure répartition (Irdes, 2022). Régulation des médecins non évaluée en France ; la Cour des comptes la juge faisable.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Mélenchon 2027, plan ruralités",
+      "year": 2026,
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+     },
+     {
+      "label": "Repère 2027, santé",
+      "year": 2026,
+      "url": "https://repere2027.fr/programmes/sante/"
+     },
+     {
+      "label": "Votons 2027, programme LFI",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/melenchon/programme"
+     },
+     {
+      "label": "Quotidien du Médecin, Irdes zonage infirmier",
+      "year": 2022,
+      "url": "https://pediatrie.lequotidiendumedecin.fr/sante-societe/politique-de-sante/faut-il-sinspirer-du-zonage-infirmier-pour-reguler-linstallation-des-medecins-generalistes"
+     },
+     {
+      "label": "AFP, Cour des comptes déserts médicaux",
+      "year": 2024,
+      "url": "https://www.macommune.info/deserts-medicaux-des-mesures-fragmentaires-et-pas-assez-ciblees-selon-la-cour-des-comptes"
+     }
+    ]
+   },
+   {
+    "theme": "ecole",
+    "proposals": [
+     {
+      "text": "Réduire les effectifs par classe, priorité maternelle et REP (non reconfirmée en 2026)",
+      "verifiable": false
+     },
+     {
+      "text": "Transport scolaire limité à 15 minutes, écoles à classe unique maintenues",
+      "verifiable": true
+     },
+     {
+      "text": "Scolarité obligatoire jusqu'à 18 ans (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "Petites classes : effet positif en CP (REP+), disparu à l'entrée en 6e (DEPP, 2026). Une seule cohorte évaluée.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Mélenchon 2027, plan ruralités",
+      "year": 2026,
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+     },
+     {
+      "label": "Votons 2027, programme LFI",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/melenchon/programme"
+     },
+     {
+      "label": "AEF, note DEPP dédoublement",
+      "year": 2026,
+      "url": "https://media.ac-normandie.fr/-/communication/revue-presse/2026/02/04/AEF_nat_cri_National_Le%20d%e9doublement%20en%20%e9ducation%20prioritaire%20semble%20sans%20effet%20%e0%20long%20terme%20sur%20les%20performances%20des%20%e9l%e8ves%20(Depp).pdf"
+     }
+    ]
+   },
+   {
+    "theme": "environnement",
+    "proposals": [
+     {
+      "text": "−65 % d'émissions en 2030, bilan public annuel (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Sortir du nucléaire : abandon des EPR, démantèlement planifié (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Plan de 200 Md€ d'investissements écologiques et sociaux (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": "−65 % d'émissions de gaz à effet de serre en 2030",
+    "evidence": "RTE : scénarios sans nouveau nucléaire plus coûteux de 10 à 20 Md€/an. HCC 2026 : baisse requise >4 %/an, contre −2,1 % en 2025.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Votons 2027, programme LFI",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/melenchon/programme"
+     },
+     {
+      "label": "AFP, rapport HCC 2026",
+      "year": 2026,
+      "url": "https://www.connaissancedesenergies.org/afp/climat-la-france-nest-pas-prete-il-faut-changer-dechelle-juge-le-haut-conseil-pour-le-climat-260709"
+     },
+     {
+      "label": "AFP, RTE Futurs énergétiques",
+      "year": 2021,
+      "url": "https://www.connaissancedesenergies.org/afp/il-serait-pertinent-de-construire-de-nouveaux-reacteurs-nucleaires-dun-point-de-vue-economique-selon-rte-211025"
+     }
+    ]
+   },
+   {
+    "theme": "logement",
+    "proposals": [
+     {
+      "text": "Rénover au moins 700 000 logements par an",
+      "verifiable": true
+     },
+     {
+      "text": "200 000 logements publics par an pendant cinq ans (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Plafonner les meublés touristiques à 60 jours par an (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": "700 000 logements rénovés par an",
+    "evidence": "Rénovation : économies réelles d'environ 42 % des gains prévus (Insee, 2026). Cour des comptes : la crise exige d'accroître durablement l'offre.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Mélenchon 2027, plan ruralités",
+      "year": 2026,
+      "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+     },
+     {
+      "label": "Mélenchon 2027, chantier logement",
+      "year": 2025,
+      "url": "https://melenchon2027.fr/?p=17731"
+     },
+     {
+      "label": "Insee, isolation et consommation réelle",
+      "year": 2026,
+      "url": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+     },
+     {
+      "label": "Cour des comptes, encadrement des loyers",
+      "year": 2026,
+      "url": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "libertes",
+    "proposals": [
+     {
+      "text": "Convoquer une Constituante pour une 6e République",
+      "verifiable": true
+     },
+     {
+      "text": "Proportionnelle à l'Assemblée et RIC (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Abolir le 49.3 (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "RIC : peu d'études causales. En Suisse, initiatives rarement adoptées mais qui structurent le débat ; risque d'usage restrictif des libertés signalé (AMU, 2024).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Mélenchon 2027, livre-programme",
+      "year": 2026,
+      "url": "https://melenchon2027.fr/programme2025/livre/"
+     },
+     {
+      "label": "Votons 2027, programme LFI",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/melenchon/programme"
+     },
+     {
+      "label": "Mélenchon 2027, chantier institutions",
+      "year": 2025,
+      "url": "https://melenchon2027.fr/?p=17872"
+     },
+     {
+      "label": "La Croix/AMU, le référendum",
+      "year": 2024,
+      "url": "https://dice.univ-amu.fr/sites/dice.univ-amu.fr/files/article/article_marthe.pdf"
+     }
+    ]
+   }
+  ],
+  "philippe": [
+   {
+    "theme": "securite",
+    "proposals": [
+     {
+      "text": "Courtes peines de prison dès la première infraction",
+      "verifiable": true
+     },
+     {
+      "text": "Peines planchers pour violences contre dépositaires de l'autorité publique et professeurs",
+      "verifiable": true
+     },
+     {
+      "text": "Supprimer le juge d'application des peines",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "Peines planchers : peines allongées, effet sur la récidive non établi (Justice, 2012). Bracelet plutôt que courte prison : récidive −6 à 7 points (Henneguelle, 2016).",
+    "evidence_level": "non_demontree",
+    "sources": [
+     {
+      "label": "Site de campagne, France plus sûre",
+      "year": 2026,
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+     },
+     {
+      "label": "Europe 1, meeting de Marseille",
+      "year": 2025,
+      "url": "https://www.europe1.fr/politique/justice-peines-planchers-suppression-du-juge-dapplication-des-peines-edouard-philippe-formule-des-propositions-en-meeting-a-marseille-752761"
+     },
+     {
+      "label": "Infostat Justice 118, peines planchers",
+      "year": 2012,
+      "url": "https://www.justice.gouv.fr/sites/default/files/migrations/portail/art_pix/stat_infostat_118_20121017.pdf"
+     },
+     {
+      "label": "Journal of Law and Economics, bracelet",
+      "year": 2016,
+      "url": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
+     }
+    ]
+   },
+   {
+    "theme": "sante",
+    "proposals": [
+     {
+      "text": "Stabiliser les dépenses de santé en misant sur la prévention",
+      "verifiable": false
+     },
+     {
+      "text": "Investir dans la formation des médecins, la prévention et l'IA",
+      "verifiable": false
+     }
+    ],
+    "indicator": null,
+    "evidence": "Prévention : résultats français « médiocres » malgré des dépenses comparables à celles des voisins (Cour des comptes, 2021). Propositions non chiffrées.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Repère 2027, santé",
+      "year": 2026,
+      "url": "https://repere2027.fr/programmes/sante/"
+     },
+     {
+      "label": "Quotidien du Médecin, Philippe prévention",
+      "year": 2026,
+      "url": "https://www.lequotidiendumedecin.fr/sante-societe/politique-de-sante/la-prevention-le-grand-retard-francais-cingle-edouard-philippe-candidat-lelection-presidentielle"
+     },
+     {
+      "label": "Santé Mentale, Cour des comptes prévention",
+      "year": 2021,
+      "url": "https://www.santementale.fr/2021/12/politique-de-prevention-en-sante-la-cour-des-comptes-souligne-des-resultats-mediocres/"
+     }
+    ]
+   },
+   {
+    "theme": "ecole",
+    "proposals": [
+     {
+      "text": "+20 % de rémunération moyenne des enseignants sur le quinquennat",
+      "verifiable": true
+     },
+     {
+      "text": "Réduire les effectifs des classes grâce à la baisse démographique",
+      "verifiable": false
+     },
+     {
+      "text": "Amende de responsabilisation scolaire des parents, prononcée par le maire",
+      "verifiable": true
+     }
+    ],
+    "indicator": "+20 % de salaire enseignant, vers la moyenne européenne",
+    "evidence": "Baisse des effectifs : gains en CP, non visibles en 6e (DEPP, 2026). Hausse salariale et amende parentale : pas d'évaluation française identifiée.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "LCP, Philippe et l'école",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/presidentielle-salaires-des-enseignants-sanctions-pour-les-parents-ce-que-propose"
+     },
+     {
+      "label": "AFP/La Gazette, candidats et enseignants",
+      "year": 2026,
+      "url": "https://www.lagazettefrance.fr/article/presidentielle-attal-et-philippe-tentent-de-seduire-les-enseignants"
+     },
+     {
+      "label": "AEF, note DEPP dédoublement",
+      "year": 2026,
+      "url": "https://media.ac-normandie.fr/-/communication/revue-presse/2026/02/04/AEF_nat_cri_National_Le%20d%e9doublement%20en%20%e9ducation%20prioritaire%20semble%20sans%20effet%20%e0%20long%20terme%20sur%20les%20performances%20des%20%e9l%e8ves%20(Depp).pdf"
+     }
+    ]
+   },
+   {
+    "theme": "environnement",
+    "proposals": [
+     {
+      "text": "Fonds unique d'adaptation au climat de 2 Md€ par an",
+      "verifiable": true
+     },
+     {
+      "text": "Produire un « Canadair français » durant le quinquennat",
+      "verifiable": true
+     },
+     {
+      "text": "Instaurer une journée nationale d'alerte",
+      "verifiable": true
+     }
+    ],
+    "indicator": "2 Md€ par an pour l'adaptation au changement climatique",
+    "evidence": "HCC 2026 : France « pas prête », plan d'adaptation sous-financé, risque de « maladaptation ». Aucune évaluation d'un fonds unique d'adaptation.",
+    "evidence_level": "pas_d_etude",
+    "sources": [
+     {
+      "label": "My Angers, déplacement aux Ponts-de-Cé",
+      "year": 2026,
+      "url": "https://my-angers.info/09/17/edouard-philippe-aux-ponts-de-ce-le-candidat-veut-faire-du-climat-une-question-de-securite-nationale/195965"
+     },
+     {
+      "label": "Euronews, Philippe sur France 2",
+      "year": 2026,
+      "url": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ"
+     },
+     {
+      "label": "AFP, rapport HCC 2026",
+      "year": 2026,
+      "url": "https://www.connaissancedesenergies.org/afp/climat-la-france-nest-pas-prete-il-faut-changer-dechelle-juge-le-haut-conseil-pour-le-climat-260709"
+     }
+    ]
+   },
+   {
+    "theme": "logement",
+    "proposals": [
+     {
+      "text": "Prêt à taux zéro pour acheter plus grand à l'arrivée d'un enfant",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "Aides à l'accession : environ 15 % de ménages réellement déclenchés, forte aubaine ; PTZ associé à +7 % sur le prix des terrains (IPP, 2016).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Euronews, Philippe sur France 2",
+      "year": 2026,
+      "url": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ"
+     },
+     {
+      "label": "Echos Plus, projet Philippe",
+      "year": 2026,
+      "url": "https://echosplus.com/2026/10/09/edouard-philippe-ce-que-ses-propositions-changeraient-pour-les-salaries-et-les-familles/"
+     },
+     {
+      "label": "IPP, aides à l'accession",
+      "year": 2016,
+      "url": "https://www.ipp.eu/wp-content/uploads/2016/12/accession-propriete-rapport-IPP-decembre2016.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "libertes",
+    "proposals": [
+     {
+      "text": "Une vingtaine d'ordonnances, session extraordinaire en juillet 2027",
+      "verifiable": true
+     },
+     {
+      "text": "Instructions individuelles du garde des Sceaux aux procureurs",
+      "verifiable": true
+     },
+     {
+      "text": "Réviser la composition du CSM, « devoir de redevabilité » envers les victimes",
+      "verifiable": false
+     }
+    ],
+    "indicator": "Réformes par ordonnances applicables dès l'automne 2027",
+    "evidence": "Aucune évaluation empirique identifiée de l'effet des ordonnances ou du lien parquet-exécutif sur l'efficacité de l'action publique.",
+    "evidence_level": "pas_d_etude",
+    "sources": [
+     {
+      "label": "Euronews, Philippe sur France 2",
+      "year": 2026,
+      "url": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ"
+     },
+     {
+      "label": "Site de campagne, France plus sûre",
+      "year": 2026,
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+     },
+     {
+      "label": "Votons 2027, institutions Philippe",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/philippe/programme/institutions"
+     }
+    ]
+   }
+  ],
+  "glucksmann": [
+   {
+    "theme": "securite",
+    "proposals": [
+     {
+      "text": "Police de proximité modernisée, équipes mobiles de prévention (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Doubler les Maisons du droit et de la justice (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Laisser les maires décider de l'armement municipal et des caméras (non reconfirmée en 2026)",
+      "verifiable": false
+     }
+    ],
+    "indicator": "Deux fois plus de Maisons du droit et de la justice",
+    "evidence": "Police de proximité : effet limité sur la délinquance (Gill, 2014). Vidéosurveillance : utile dans 1,1 % des enquêtes (Gormand, gendarmerie).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "WikiGlucksmann (non officiel), Acte I",
+      "year": 2026,
+      "url": "https://www.wikiglucksmann.fr/programme.html"
+     },
+     {
+      "label": "Mélenchon 2027, comparateur Place publique",
+      "year": 2025,
+      "url": "https://melenchon2027.fr/?p=17734"
+     },
+     {
+      "label": "Public Sénat, Glucksmann et narcotrafic",
+      "year": 2025,
+      "url": "https://www.publicsenat.fr/actualites/politique/narcotrafic-raphael-glucksmann-defend-une-politique-sans-naivete-aucune-sur-la-securite"
+     },
+     {
+      "label": "EconomiX, économie du policing",
+      "year": 2024,
+      "url": "https://economix.fr/pdf/dt/2024/WP_EcoX_2024-15.pdf"
+     },
+     {
+      "label": "Police.be, vidéosurveillance et enquêtes",
+      "year": 2022,
+      "url": "https://www.police.be/5337/node/19373"
+     }
+    ]
+   },
+   {
+    "theme": "sante",
+    "proposals": [
+     {
+      "text": "Maisons de santé, permanences mobiles, centres de petites urgences (non reconfirmée en 2026)",
+      "verifiable": false
+     },
+     {
+      "text": "Fin de la T2A : financement hospitalier global pluriannuel (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Plan de prévention hors ONDAM : cancers, cardiovasculaire, diabète (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "Maisons de santé : +3,4 jeunes généralistes pour 100 000 habitants par rapport aux territoires témoins (Irdes, 2020). Fin de la T2A : pas d'évaluation identifiée.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "WikiGlucksmann (non officiel), Acte I",
+      "year": 2026,
+      "url": "https://www.wikiglucksmann.fr/programme.html"
+     },
+     {
+      "label": "WikiGlucksmann, synthèse PDF",
+      "year": 2026,
+      "url": "https://www.wikiglucksmann.fr/programme-raphael-glucksmann-2027.pdf"
+     },
+     {
+      "label": "Irdes QES 247, maisons de santé",
+      "year": 2020,
+      "url": "https://www.irdes.fr/recherche/questions-d-economie-de-la-sante/247-les-maisons-de-sante-attirent-elles-les-jeunes-medecins-generalistes-dans-les-zones-sous-dotees-en-offre-de-soins.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "ecole",
+    "proposals": [
+     {
+      "text": "Loi de programmation éducation sur cinq ans : bâti, salaires, effectifs",
+      "verifiable": true
+     },
+     {
+      "text": "Conditionner les aides au privé (10 Md€/an) à la mixité sociale",
+      "verifiable": true
+     },
+     {
+      "text": "Baisser le nombre d'élèves par classe en primaire",
+      "verifiable": false
+     }
+    ],
+    "indicator": null,
+    "evidence": "Petites classes : gains en CP disparus en 6e (DEPP, 2026). Mixité imposée à Paris : objectifs atteints dans 2 secteurs sur 3 (IPP, 2021).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Public Sénat, propositions Glucksmann",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"
+     },
+     {
+      "label": "WikiGlucksmann (non officiel), école",
+      "year": 2026,
+      "url": "https://www.wikiglucksmann.fr/programme.html"
+     },
+     {
+      "label": "AEF, note DEPP dédoublement",
+      "year": 2026,
+      "url": "https://media.ac-normandie.fr/-/communication/revue-presse/2026/02/04/AEF_nat_cri_National_Le%20d%e9doublement%20en%20%e9ducation%20prioritaire%20semble%20sans%20effet%20%e0%20long%20terme%20sur%20les%20performances%20des%20%e9l%e8ves%20(Depp).pdf"
+     },
+     {
+      "label": "Le Monde, mixité sociale (IPP)",
+      "year": 2022,
+      "url": "https://media.ac-normandie.fr/-/communication/revue-presse/2022/11/18/Le%20Monde_nat_actu_La%20mixit%e9%20sociale%20%e0%20l'%e9cole%20fait%20ses%20preuves.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "environnement",
+    "proposals": [
+     {
+      "text": "Leasing social : 1 million de voitures électriques à 100 €/mois",
+      "verifiable": true
+     },
+     {
+      "text": "Loi climat : −90 % d'émissions en 2040 (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Garder le nucléaire, construire de nouvelles unités, plan régional renouvelables",
+      "verifiable": false
+     }
+    ],
+    "indicator": "1 million de ménages modestes équipés, coût estimé à 6 Md€",
+    "evidence": "Leasing social 2024 : 47 000 ménages aidés, sans bilan CO₂ publié. RTE : scénarios combinant nouveaux réacteurs et renouvelables les plus compétitifs.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "AFP/La Gazette, Glucksmann à Cléon",
+      "year": 2026,
+      "url": "https://www.lagazettefrance.fr/article/en-seine-maritime-glucksmann-defend-les-voitures-electriques-et-la-transition-ecologique"
+     },
+     {
+      "label": "WikiGlucksmann (non officiel), environnement",
+      "year": 2026,
+      "url": "https://www.wikiglucksmann.fr/programme.html"
+     },
+     {
+      "label": "Public Sénat, Glucksmann et nucléaire",
+      "year": 2025,
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-pas-candidat-pour-le-moment-raphael-glucksmann-trace-son-chemin-et-defend-sa-vision-pour-le-pays"
+     },
+     {
+      "label": "Connaissance des énergies, bilan leasing",
+      "year": 2025,
+      "url": "https://www.connaissancedesenergies.org/leasing-social-un-levier-perenne-pour-aider-les-menages-les-plus-modestes"
+     },
+     {
+      "label": "AFP, RTE Futurs énergétiques",
+      "year": 2021,
+      "url": "https://www.connaissancedesenergies.org/afp/il-serait-pertinent-de-construire-de-nouveaux-reacteurs-nucleaires-dun-point-de-vue-economique-selon-rte-211025"
+     }
+    ]
+   },
+   {
+    "theme": "logement",
+    "proposals": [
+     {
+      "text": "Encadrement des loyers en zones tendues (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Fonds national d'acquisition foncière (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Fiscalité progressive sur la vacance longue (non reconfirmée en 2026)",
+      "verifiable": false
+     }
+    ],
+    "indicator": null,
+    "evidence": "Encadrement des loyers : loyers −2 à −4 %. Effet sur l'offre non documenté en France, négatif à moyen terme dans la littérature internationale (Cour des comptes, 2026).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Mélenchon 2027, comparateur Place publique",
+      "year": 2025,
+      "url": "https://melenchon2027.fr/?p=17731"
+     },
+     {
+      "label": "WikiGlucksmann (non officiel), synthèse",
+      "year": 2026,
+      "url": "https://www.wikiglucksmann.fr/contenu.html"
+     },
+     {
+      "label": "Cour des comptes, encadrement des loyers",
+      "year": 2026,
+      "url": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "libertes",
+    "proposals": [
+     {
+      "text": "Convention citoyenne sur l'immigration, propositions votées au Parlement",
+      "verifiable": true
+     },
+     {
+      "text": "Proportionnelle par circonscriptions régionales (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Fin du 49.3 : vote de confiance, censure constructive (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "Convention climat : 10 % des propositions reprises telles quelles, 53 % rejetées (Courant, 2021). Proportionnelle : pas d'évaluation française récente identifiée.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "LCP, premières lignes du programme",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+     },
+     {
+      "label": "Public Sénat, propositions Glucksmann",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"
+     },
+     {
+      "label": "Mélenchon 2027, comparateur institutions",
+      "year": 2025,
+      "url": "https://melenchon2027.fr/?p=17872"
+     },
+     {
+      "label": "Journal of Deliberative Democracy, CCC",
+      "year": 2021,
+      "url": "https://www.publicdeliberation.net/the-promises-and-disappointments-of-the-french-citizens-convention-for-climate/"
+     }
+    ]
+   }
+  ]
+ }
+}

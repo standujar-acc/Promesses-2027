@@ -1,0 +1,657 @@
+{
+ "life": {
+  "le-pen": [
+   {
+    "theme": "economie",
+    "proposals": [
+     {
+      "text": "Baisser de 16,2 Md€ les impôts de production (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Supprimer les subventions aux renouvelables : 5 Md€ dès la 1re année",
+      "verifiable": true
+     },
+     {
+      "text": "Supprimer plus de 120 taxes",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Déficit public sous 3 % du PIB en 2030",
+    "evidence": "IPP (2025) : la baisse CVAE/CFE de 2021 n'a eu aucun effet mesurable sur l'investissement et un impact limité sur la masse salariale.",
+    "evidence_level": "non_demontree",
+    "sources": [
+     {
+      "label": "PGE, contre-budget RN",
+      "year": 2026,
+      "url": "https://www.planetegrandesecoles.com/budget-marine-le-pen-2027-mesures-contre-budget-rn"
+     },
+     {
+      "label": "Europe 1, contre-budget",
+      "year": 2026,
+      "url": "https://www.europe1.fr/politique/budget-2027-marine-le-pen-promet-140-milliards-deuros-nets-deconomies-dici-2032-pour-eviter-a-la-france-le-defaut-de-paiement-1126400"
+     },
+     {
+      "label": "Public Sénat, contre-budget RN",
+      "year": 2025,
+      "url": "https://www.publicsenat.fr/actualites/economie/contre-budget-du-rn-des-propositions-qui-manquent-de-credibilite-economique-mais-trahissent-une-veritable-coherence-doctrinale"
+     },
+     {
+      "label": "IPP, impôts de production",
+      "year": 2025,
+      "url": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "rayonnement",
+    "proposals": [
+     {
+      "text": "Plafonner la contribution française au budget de l'UE à 5 Md€",
+      "verifiable": true
+     },
+     {
+      "text": "Sortir du commandement intégré de l'OTAN",
+      "verifiable": false
+     },
+     {
+      "text": "Refuser les instruments européens de défense : FED, EDIP, SAFE",
+      "verifiable": false
+     }
+    ],
+    "indicator": null,
+    "evidence": "Rapport Védrine (2012) : effets mitigés du retour dans le commandement intégré, une nouvelle sortie « pas une option ». Baisser la contribution UE demande l'unanimité.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "PGE, contre-budget RN",
+      "year": 2026,
+      "url": "https://www.planetegrandesecoles.com/budget-marine-le-pen-2027-mesures-contre-budget-rn"
+     },
+     {
+      "label": "ISS, défense du RN",
+      "year": 2026,
+      "url": "https://www.institut-sciences-strategiques.org/france/la-politique-etrangere-et-la-defense-du-rassemblement-national-avant-2027/"
+     },
+     {
+      "label": "Europe 1, contre-budget",
+      "year": 2026,
+      "url": "https://www.europe1.fr/politique/budget-2027-marine-le-pen-promet-140-milliards-deuros-nets-deconomies-dici-2032-pour-eviter-a-la-france-le-defaut-de-paiement-1126400"
+     },
+     {
+      "label": "Rapport Védrine OTAN",
+      "year": 2012,
+      "url": "https://www.vie-publique.fr/sites/default/files/rapport/pdf/124000607.pdf"
+     }
+    ]
+   }
+  ],
+  "melenchon": [
+   {
+    "theme": "economie",
+    "proposals": [
+     {
+      "text": "Porter le SMIC à 1 700 € net",
+      "verifiable": true
+     },
+     {
+      "text": "Pôle public bancaire : 100 Md€ d'investissements supplémentaires par an",
+      "verifiable": true
+     },
+     {
+      "text": "Supprimer les exonérations de cotisations au-delà de 2 SMIC",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Déficit réduit de 24,7 Md€ en 2027, comptes redressés dès 2028",
+    "evidence": "Experts SMIC (2025) : risque pour l'emploi peu qualifié, SMIC à 62,5 % du médian. Bozio-Wasmer (2024) : supprimer ces exonérations sans recyclage coûterait ~61 000 emplois.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "LFI, comptes publics 2027",
+      "year": 2026,
+      "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+     },
+     {
+      "label": "Groupe d'experts SMIC",
+      "year": 2025,
+      "url": "https://www.vie-publique.fr/files/rapport/pdf/301429_0.pdf"
+     },
+     {
+      "label": "Rapport Bozio-Wasmer",
+      "year": 2024,
+      "url": "https://vie-publique.fr/files/rapport/pdf/295596.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "rayonnement",
+    "proposals": [
+     {
+      "text": "Sortir de l'OTAN, en commençant par son commandement intégré",
+      "verifiable": false
+     },
+     {
+      "text": "Créer un pôle public de l'armement, acheter du matériel français",
+      "verifiable": false
+     },
+     {
+      "text": "Aucune intervention militaire sans mandat de l'ONU",
+      "verifiable": false
+     }
+    ],
+    "indicator": null,
+    "evidence": "Rapport Védrine (2012) : effets du retour dans l'OTAN mitigés, mais une sortie ferait perdre à la France ses leviers d'influence.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "LFI, chapitre diplomatie",
+      "year": 2026,
+      "url": "https://melenchon2027.fr/?p=23178"
+     },
+     {
+      "label": "Parlons Politique, OTAN",
+      "year": 2026,
+      "url": "https://www.parlons-politique.fr/international/faut-il-sortir-la-france-de-lotan-pour-gagner-en-autonomie-diplomatique-melenchon-pose-une-rupture-qui-divise-jusqua-lukraine_22261/"
+     },
+     {
+      "label": "Rapport Védrine OTAN",
+      "year": 2012,
+      "url": "https://www.vie-publique.fr/sites/default/files/rapport/pdf/124000607.pdf"
+     }
+    ]
+   }
+  ],
+  "philippe": [
+   {
+    "theme": "economie",
+    "proposals": [
+     {
+      "text": "Heures au-delà de 35 h défiscalisées, zéro cotisation au-delà de 37 h",
+      "verifiable": true
+     },
+     {
+      "text": "Indemnisation chômage ramenée de 18 à 12 mois avant 50 ans",
+      "verifiable": true
+     },
+     {
+      "text": "Baisser les impôts de production de 50 Md€ (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": "+1 000 €/an pour un salarié au SMIC passant à 37 h",
+    "evidence": "IPP (2012) : défiscalisation TEPA sans effet significatif sur les heures travaillées. Comité Lalive/Dares (2025) : chômage plus court de 12 %, mais emplois peu durables.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Site Édouard Philippe",
+      "year": 2026,
+      "url": "https://www.edouardphilippe.fr/actualites/trois-principales-annonces-dedouard-philippe-a-lheure-de-verite"
+     },
+     {
+      "label": "Euronews, programme",
+      "year": 2026,
+      "url": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ"
+     },
+     {
+      "label": "Orange, deal entreprises",
+      "year": 2025,
+      "url": "https://actu.orange.fr/politique/face-au-delire-fiscal-edouard-philippe-propose-un-deal-aux-entreprises-pour-2027-magic-CNT000002lBjMc.html"
+     },
+     {
+      "label": "IPP, heures sup TEPA",
+      "year": 2012,
+      "url": "https://www.ipp.eu/en/publication/tax-relief-on-overtime/"
+     },
+     {
+      "label": "Weka, évaluation Dares",
+      "year": 2025,
+      "url": "https://www.weka.fr/actualite/emploi/article/assurance-chomage-la-reforme-de-2019-a-accelere-le-retour-a-l-emploi-et-reduit-les-allocations-selon-un-rapport-198124/"
+     }
+    ]
+   },
+   {
+    "theme": "rayonnement",
+    "proposals": [
+     {
+      "text": "Dénoncer l'accord franco-algérien de 1968",
+      "verifiable": true
+     },
+     {
+      "text": "Liste européenne commune de pays sûrs, sans droit d'asile",
+      "verifiable": false
+     }
+    ],
+    "indicator": null,
+    "evidence": "Pas d'évaluation publique de l'effet d'une dénonciation de l'accord de 1968 sur les relations ou l'influence de la France.",
+    "evidence_level": "pas_d_etude",
+    "sources": [
+     {
+      "label": "Site Édouard Philippe",
+      "year": 2026,
+      "url": "https://www.edouardphilippe.fr/actualites/trois-principales-annonces-dedouard-philippe-a-lheure-de-verite"
+     },
+     {
+      "label": "Euronews, programme",
+      "year": 2026,
+      "url": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ"
+     }
+    ]
+   }
+  ],
+  "glucksmann": [
+   {
+    "theme": "economie",
+    "proposals": [
+     {
+      "text": "Taxer le 1 % des plus gros héritages pour hausser les salaires nets",
+      "verifiable": true
+     },
+     {
+      "text": "« Buy European Act » : préférence européenne dans les marchés publics (non reconfirmée en 2026)",
+      "verifiable": false
+     }
+    ],
+    "indicator": "15 Md€ reversés sur les fiches de paie",
+    "evidence": "CAE (2021) : héritage très concentré, 35-40 % échappe à l'impôt, ~12 Md€ récupérables ; effets économiques non évalués faute de données fiables.",
+    "evidence_level": "pas_d_etude",
+    "sources": [
+     {
+      "label": "Public Sénat, propositions",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"
+     },
+     {
+      "label": "VL Media, programme",
+      "year": 2026,
+      "url": "https://vl-media.fr/quel-est-le-programme-de-raphael-glucksmann/"
+     },
+     {
+      "label": "LFI, comparateur Place publique",
+      "year": 2025,
+      "url": "https://melenchon2027.fr/?p=17744"
+     },
+     {
+      "label": "CAE, fiscalité de l'héritage",
+      "year": 2021,
+      "url": "https://cae-eco.fr/static/pdf/CAE069_ComPresse.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "rayonnement",
+    "proposals": [
+     {
+      "text": "Grand emprunt européen pour un plan de souveraineté",
+      "verifiable": false
+     },
+     {
+      "text": "Supprimer le droit de veto au sein de l'UE",
+      "verifiable": false
+     }
+    ],
+    "indicator": null,
+    "evidence": "Cour des comptes européenne (2024), plan de relance commun : absorption en retard, 24 % des résultats attendus manquants ; France au-dessus de la moyenne.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "LCP, premières lignes",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+     },
+     {
+      "label": "MonVote2027, Glucksmann",
+      "year": 2026,
+      "url": "https://monvote2027.fr/candidat/glucksmann"
+     },
+     {
+      "label": "Banque des Territoires, CCE",
+      "year": 2024,
+      "url": "https://www.banquedesterritoires.fr/mise-en-oeuvre-du-plan-de-relance-europeen-post-covid-la-cour-des-comptes-europeenne-loin-de"
+     }
+    ]
+   }
+  ],
+  "retailleau": [
+   {
+    "theme": "economie",
+    "proposals": [
+     {
+      "text": "Supprimer les impôts de production, dans 30 Md€ de baisses pour les entreprises",
+      "verifiable": true
+     },
+     {
+      "text": "Exonérer de cotisations sociales les heures supplémentaires",
+      "verifiable": false
+     }
+    ],
+    "indicator": "Excédent primaire en 2030, déficit sous 3 % en 2031",
+    "evidence": "IPP (2025) : baisse des impôts de production de 2021 sans effet mesurable sur l'investissement. IPP (2012) : exonération TEPA sans hausse significative des heures travaillées.",
+    "evidence_level": "non_demontree",
+    "sources": [
+     {
+      "label": "Public Sénat, plan Retailleau",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
+     },
+     {
+      "label": "iFRAP, comparateur 2027",
+      "year": 2026,
+      "url": "https://www.ifrap.org/comparateurs/presidentielles-2027"
+     },
+     {
+      "label": "IPP, impôts de production",
+      "year": 2025,
+      "url": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+     },
+     {
+      "label": "IPP, heures sup TEPA",
+      "year": 2012,
+      "url": "https://www.ipp.eu/en/publication/tax-relief-on-overtime/"
+     }
+    ]
+   },
+   {
+    "theme": "rayonnement",
+    "proposals": [
+     {
+      "text": "Réduire la contribution française au budget de l'UE par la négociation",
+      "verifiable": false
+     },
+     {
+      "text": "Intégrer les dépenses de défense dans le calcul de cette contribution",
+      "verifiable": false
+     }
+    ],
+    "indicator": null,
+    "evidence": "Pas d'évaluation d'effet. L'Institut de l'Entreprise rappelle qu'une baisse de la contribution à l'UE exige l'unanimité des États membres.",
+    "evidence_level": "pas_d_etude",
+    "sources": [
+     {
+      "label": "Business AM, contribution UE",
+      "year": 2026,
+      "url": "https://fr.businessam.be/le-candidat-a-la-presidence-francaise-bruno-retailleau-souhaite-reduire-la-contribution-a-lue-par-la-voie-de-negociations"
+     },
+     {
+      "label": "MonVote2027, Retailleau",
+      "year": 2026,
+      "url": "https://monvote2027.fr/candidat/retailleau"
+     },
+     {
+      "label": "PGE, Institut de l'Entreprise",
+      "year": 2026,
+      "url": "https://www.planetegrandesecoles.com/budget-marine-le-pen-2027-mesures-contre-budget-rn"
+     }
+    ]
+   }
+  ],
+  "attal": [
+   {
+    "theme": "economie",
+    "proposals": [
+     {
+      "text": "Plan de 200 Md€ pour la puissance de calcul et l'IA",
+      "verifiable": true
+     },
+     {
+      "text": "Construire 14 nouveaux réacteurs nucléaires, puis un par an",
+      "verifiable": true
+     },
+     {
+      "text": "Former 20 millions de Français à l'IA d'ici 2030",
+      "verifiable": true
+     }
+    ],
+    "indicator": "France première puissance d'IA en Europe d'ici 10 ans",
+    "evidence": "DG Trésor (2024) : aucun effet macro significatif de l'IA mesuré à ce stade. Cour des comptes (2025) : coûts EPR2 inconnus, risque d'échec du programme.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Site Attal, Les Échos",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-appelle-a-une-rupture-economique-dans-les-echos"
+     },
+     {
+      "label": "LyonMag, meeting Lyon",
+      "year": 2026,
+      "url": "https://www.lyonmag.com/article/154267/presidentielle-2027-a-lyon-gabriel-attal-devoile-son-pacte-pour-la-jeunesse-et-cible-jean-luc-melenchon"
+     },
+     {
+      "label": "DG Trésor, enjeux de l'IA",
+      "year": 2024,
+      "url": "https://www.tresor.economie.gouv.fr/Articles/65035441-140e-4e2f-b1a0-2c5abceb6cc7/files/337f850a-3329-4803-b509-e5276c04ab30"
+     },
+     {
+      "label": "Cour des comptes, EPR (AFP)",
+      "year": 2025,
+      "url": "https://www.connaissancedesenergies.org/afp/programme-depr-la-cour-des-comptes-publie-un-rapport-critique-et-recalcule-le-cout-de-flamanville-3-250114"
+     }
+    ]
+   },
+   {
+    "theme": "rayonnement",
+    "proposals": [
+     {
+      "text": "Part européenne du calcul mondial : de 3 % à 20 %",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "Pas d'évaluation publique de cet objectif. La DG Trésor (2024) juge les gains macroéconomiques de l'IA encore non mesurables.",
+    "evidence_level": "pas_d_etude",
+    "sources": [
+     {
+      "label": "Site Attal, Les Échos",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-appelle-a-une-rupture-economique-dans-les-echos"
+     },
+     {
+      "label": "TIME France, plan Attal",
+      "year": 2026,
+      "url": "https://www.timefrance.fr/politique/zero-deficit-en-2037-le-pari-de-rigueur-de-gabriel-attal-avant-la-presidentielle/"
+     },
+     {
+      "label": "DG Trésor, enjeux de l'IA",
+      "year": 2024,
+      "url": "https://www.tresor.economie.gouv.fr/Articles/65035441-140e-4e2f-b1a0-2c5abceb6cc7/files/337f850a-3329-4803-b509-e5276c04ab30"
+     }
+    ]
+   }
+  ],
+  "lisnard": [
+   {
+    "theme": "economie",
+    "proposals": [
+     {
+      "text": "Baisser de 40 Md€ les impôts de production, en commençant par la C3S",
+      "verifiable": true
+     },
+     {
+      "text": "TVA unique à 25 % en douze ans pour baisser les charges",
+      "verifiable": true
+     },
+     {
+      "text": "Six nouveaux EPR, réacteurs existants prolongés jusqu'à 60 ans",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Environ +250 €/mois net pour 2 500 € de salaire (estimation du camp)",
+    "evidence": "CEPII (2007) : TVA sociale, emplois modestes si ciblée sur les bas salaires, pouvoir d'achat réduit. IPP (2025) : impôts de production, aucun effet mesurable sur l'investissement.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Lisnard, propositions",
+      "year": 2026,
+      "url": "https://lisnard.cards/cartes"
+     },
+     {
+      "label": "iFRAP, comparateur 2027",
+      "year": 2026,
+      "url": "https://www.ifrap.org/comparateurs/presidentielles-2027"
+     },
+     {
+      "label": "CEPII, TVA sociale",
+      "year": 2007,
+      "url": "https://www.cepii.fr/PDF_PUB/lettre/2007/let269.pdf"
+     },
+     {
+      "label": "IPP, impôts de production",
+      "year": 2025,
+      "url": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "rayonnement",
+    "proposals": [
+     {
+      "text": "Réviser l'article 55 de la Constitution sur la primauté du droit européen",
+      "verifiable": true
+     },
+     {
+      "text": "Hausser le budget des armées, combat aérien souverain autour du Rafale F5",
+      "verifiable": false
+     },
+     {
+      "text": "Revenir sur l'accord franco-algérien de 1968",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "Banque de Finlande (2025) : multiplicateur des dépenses de défense d'environ 0,6 à 1,0 ; effets durables surtout si investissement et R&D.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Nouvelle Énergie, armée",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-renforcer-l-armee/"
+     },
+     {
+      "label": "France-Vote, Lisnard",
+      "year": 2026,
+      "url": "https://www.france-vote.fr/actualites/programme-david-lisnard-2027"
+     },
+     {
+      "label": "Lisnard, propositions",
+      "year": 2026,
+      "url": "https://lisnard.cards/cartes"
+     },
+     {
+      "label": "Banque de Finlande, défense",
+      "year": 2025,
+      "url": "https://www.bofbulletin.fi/en/2025/5/will-higher-defence-spending-boost-euro-area-growth/"
+     }
+    ]
+   }
+  ],
+  "zemmour": [
+   {
+    "theme": "economie",
+    "proposals": [
+     {
+      "text": "Baisser de 30 Md€ supplémentaires les impôts de production (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Prime « zéro charge » jusqu'à trois mois de salaire (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Orienter 20 % du Livret A vers l'investissement stratégique (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "IPP (2025) : la baisse des impôts de production de 2021 n'a eu aucun effet mesurable sur l'investissement et un impact limité sur la masse salariale.",
+    "evidence_level": "non_demontree",
+    "sources": [
+     {
+      "label": "MonVote2027, Zemmour",
+      "year": 2026,
+      "url": "https://monvote2027.fr/candidat/zemmour"
+     },
+     {
+      "label": "IPP, impôts de production",
+      "year": 2025,
+      "url": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "rayonnement",
+    "proposals": [
+     {
+      "text": "Défense à 70 Md€ par an en 2030 (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "40 000 soldats professionnels supplémentaires (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Sortir du commandement intégré de l'OTAN (non reconfirmée en 2026)",
+      "verifiable": false
+     }
+    ],
+    "indicator": "Environ 3 % du PIB consacrés à la défense en 2030",
+    "evidence": "Banque de Finlande (2025) : multiplicateur des dépenses de défense d'environ 0,6 à 1,0 ; dette +9 points en dix ans sans consolidation.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "MonVote2027, Zemmour",
+      "year": 2026,
+      "url": "https://monvote2027.fr/candidat/zemmour"
+     },
+     {
+      "label": "Banque de Finlande, défense",
+      "year": 2025,
+      "url": "https://www.bofbulletin.fi/en/2025/5/will-higher-defence-spending-boost-euro-area-growth/"
+     },
+     {
+      "label": "Rapport Védrine OTAN",
+      "year": 2012,
+      "url": "https://www.vie-publique.fr/sites/default/files/rapport/pdf/124000607.pdf"
+     }
+    ]
+   }
+  ]
+ },
+ "baseline": {
+  "economie": [
+   {
+    "label": "Taux de chômage (BIT)",
+    "value": "8,3 %",
+    "trend": "+0,7 pt sur un an, plus haut depuis 2020",
+    "year": 2026,
+    "source": "Insee, T2 2026",
+    "url": "https://www.insee.fr/fr/statistiques/9032359"
+   },
+   {
+    "label": "Dépense de R&D en % du PIB",
+    "value": "2,18 %",
+    "trend": "Stable, sous la moyenne UE et l'objectif 3 %",
+    "year": 2024,
+    "source": "Eurostat via News Tank",
+    "url": "https://education.newstank.fr/article/view/425350/63-6-md-investis-r-france-2024-soit-2-18-pib-juste-moyenne-ue-eurostat.html"
+   }
+  ],
+  "rayonnement": [
+   {
+    "label": "Budget de la défense en % du PIB",
+    "value": "2,05 %",
+    "trend": "Juste au-dessus de 2 % ; cible OTAN 3,5 % en 2035",
+    "year": 2025,
+    "source": "OTAN via Toute l'Europe",
+    "url": "https://www.touteleurope.eu/l-ue-dans-le-monde/depenses-militaires-quels-pays-europeens-respectent-la-regle-de-l-otan-des-2-du-pib/"
+   },
+   {
+    "label": "Rang au baromètre EY de l'attractivité",
+    "value": "1er en Europe (852 projets)",
+    "trend": "7e année en tête, mais projets en baisse de 17 %",
+    "year": 2025,
+    "source": "EY 2026",
+    "url": "https://www.ey.com/fr_fr/newsroom/2026/05/barometre-ey-de-l-attractivite-de-la-france-2026"
+   }
+  ]
+ }
+}

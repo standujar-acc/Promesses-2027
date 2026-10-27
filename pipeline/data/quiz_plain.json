@@ -1,0 +1,290 @@
+{
+"le-pen.retraites": [
+"Revenir à la retraite à 62 ans, et à 60 ans pour ceux qui ont commencé à travailler avant 20 ans",
+"Vous pourriez partir plus tôt qu'aujourd'hui."
+],
+"le-pen.immigration": [
+"Réserver les allocations familiales et le RSA aux Français, ou aux étrangers après 5 ans de travail",
+"Un étranger arrivé récemment n'aurait plus droit à ces allocations."
+],
+"le-pen.tva": [
+"Baisser fortement la taxe sur l'électricité, le gaz et l'essence",
+"Vos factures d'énergie et le plein baissent d'environ 12 %, si les fournisseurs répercutent la baisse."
+],
+"le-pen.production": [
+"Supprimer trois impôts payés par les entreprises, quels que soient leurs bénéfices",
+"Les entreprises paient moins d'impôts."
+],
+"le-pen.ue": [
+"Verser moins d'argent au budget de l'Union européenne",
+"La France paierait moins à l'Europe."
+],
+"le-pen.fraude": [
+"Lutter plus durement contre la fraude fiscale et la fraude aux aides",
+"Rien ne change pour vous si vous êtes en règle."
+],
+"le-pen.etat": [
+"Supprimer la plupart des agences de l'État et beaucoup de postes publics",
+"Moins de fonctionnaires et de structures publiques."
+],
+"le-pen.tva-produits-essentiels": [
+"Supprimer la TVA sur une centaine de produits de première nécessité",
+"Certains produits du quotidien coûtent un peu moins cher."
+],
+"melenchon.retraites": [
+"Revenir à la retraite à 62 ans dès 2027, puis à 60 ans",
+"Vous pourriez partir plus tôt qu'aujourd'hui."
+],
+"melenchon.smic": [
+"Porter le salaire minimum à 1 700 € net par mois",
+"Environ +220 € par mois au niveau du SMIC."
+],
+"melenchon.fiscalite": [
+"Taxer davantage les plus grandes fortunes et les gros héritages",
+"Les très riches paient plus ; la plupart des gens ne sont pas concernés."
+],
+"melenchon.jeunes": [
+"Une allocation pouvant dépasser 1 000 € par mois pour les jeunes en études ou en formation",
+"Un revenu garanti pour les jeunes, selon leurs ressources."
+],
+"melenchon.prix": [
+"Bloquer les prix de l'alimentation et de l'énergie de base",
+"Les prix de ces produits ne montent plus, pour une durée limitée."
+],
+"melenchon.dette": [
+"Annuler la dette de la France détenue par la Banque centrale européenne",
+"L'État rembourserait moins à la banque centrale."
+],
+"melenchon.constituante": [
+"Faire écrire une nouvelle Constitution",
+"Les règles de la République changeraient : référendums citoyens, vote proportionnel."
+],
+"melenchon.point_indice": [
+"Augmenter de 10 % le salaire de base de tous les fonctionnaires",
+"Les agents publics gagnent plus."
+],
+"melenchon.niches": [
+"Supprimer une partie des avantages fiscaux, dont celui pour l'emploi à domicile",
+"Ceux qui emploient une aide à domicile ou transmettent une entreprise paient plus."
+],
+"glucksmann.heritages": [
+"Taxer les 1 % plus gros héritages pour augmenter les salaires nets",
+"Les très gros héritages sont plus taxés ; les salariés gagnent un peu plus."
+],
+"glucksmann.retraites": [
+"Revenir à la retraite à 62 ans, plus tôt pour les métiers pénibles",
+"Vous pourriez partir plus tôt qu'aujourd'hui."
+],
+"glucksmann.smic": [
+"Porter le salaire minimum à 1 600 € net en deux ans",
+"Environ +120 € par mois au niveau du SMIC."
+],
+"glucksmann.defense": [
+"Un grand fonds européen de défense financé par un emprunt commun",
+"Les pays européens s'arment ensemble."
+],
+"glucksmann.ecole": [
+"Une loi sur cinq ans pour l'école : salaires des profs, classes moins chargées, écoles rénovées",
+"Plus de moyens pour l'école."
+],
+"glucksmann.service_civique": [
+"Un service obligatoire de dix mois pour tous les jeunes",
+"Chaque jeune donne dix mois à une mission d'intérêt général, civile ou militaire."
+],
+"glucksmann.ukraine": [
+"Augmenter fortement l'aide militaire à l'Ukraine",
+"Plus d'armes livrées à l'Ukraine, financées en partie par des avoirs saisis."
+],
+"philippe.retraites": [
+"Repousser la retraite à 65 ans",
+"Vous partiriez plus tard qu'aujourd'hui."
+],
+"philippe.fonction": [
+"Ne pas remplacer un fonctionnaire sur trois partant à la retraite",
+"Moins de postes publics au fil des départs."
+],
+"philippe.production": [
+"Baisser fortement les impôts des entreprises, en échange de moins d'aides publiques",
+"Les entreprises paient moins d'impôts mais reçoivent moins de subventions."
+],
+"philippe.chomage": [
+"Limiter l'allocation chômage à 12 mois avant 50 ans",
+"Les chômeurs de moins de 50 ans sont indemnisés moins longtemps."
+],
+"philippe.famille": [
+"Une allocation familiale unique dès le premier enfant",
+"Les familles d'un ou deux enfants y gagnent ; moins pour les hauts revenus."
+],
+"philippe.profs": [
+"Augmenter fortement le salaire des enseignants en cinq ans",
+"Les profs gagnent plus."
+],
+"philippe.heures_sup": [
+"Ne plus prélever d'impôt au-delà de 35 h, ni de cotisations au-delà de 37 h",
+"Plus de salaire net si vous faites des heures en plus."
+],
+"philippe.fonds_climat": [
+"Un fonds annuel pour adapter le pays au réchauffement",
+"Plus d'argent contre les inondations, canicules et incendies."
+],
+"retailleau.etat": [
+"Ne pas remplacer une grande partie des fonctionnaires partant à la retraite, et les faire travailler plus",
+"Beaucoup moins de postes publics."
+],
+"retailleau.immigration": [
+"Un référendum sur l'immigration : fin du droit du sol, aides après 5 ans de travail",
+"Naître en France ne rendrait plus automatiquement Français."
+],
+"retailleau.retraites": [
+"Retraite possible dès 63 ans avec une pension réduite, pleine à 65 ans",
+"Vous choisissez : partir plus tôt en touchant moins, ou attendre 65 ans."
+],
+"retailleau.travail": [
+"Fusionner les aides sociales et demander 15 heures d'activité par semaine en échange",
+"Toucher le RSA impliquerait de travailler ou se former 15 heures par semaine."
+],
+"retailleau.production": [
+"Supprimer plusieurs impôts des entreprises et les cotisations sur les heures supplémentaires",
+"Les entreprises paient moins d'impôts."
+],
+"retailleau.energie": [
+"Arrêter les nouveaux parcs solaires et éoliens en mer, construire 8 réacteurs nucléaires",
+"Plus de nucléaire, moins de renouvelables ; fin des zones à faibles émissions en ville."
+],
+"retailleau.securite": [
+"Des peines de prison minimales obligatoires, inscrites dans la Constitution",
+"Le juge ne pourrait plus descendre sous un seuil pour certains délits."
+],
+"retailleau.fin_maprimerenov": [
+"Supprimer l'aide publique à la rénovation énergétique des logements",
+"Fin de l'aide de l'État pour isoler ou changer de chauffage."
+],
+"attal.retraites": [
+"Supprimer l'âge légal de la retraite : chacun part quand il veut selon ses années de travail",
+"Partir tôt réduit la pension, partir tard l'augmente."
+],
+"attal.fonctionnaires": [
+"Supprimer 100 000 postes publics, sauf à l'école, l'armée, la justice et la police",
+"Moins de fonctionnaires dans les autres services."
+],
+"attal.annee_blanche": [
+"Geler toutes les aides sociales pendant un an, sauf les petites retraites",
+"Vos allocations ne suivraient pas les prix pendant un an."
+],
+"attal.bebe": [
+"L'État place une somme pour la retraite de chaque nouveau-né",
+"Chaque bébé démarre avec une épargne retraite que la famille peut compléter."
+],
+"attal.regle_or": [
+"Inscrire dans la Constitution l'obligation d'un budget sans déficit",
+"L'État ne pourrait plus dépenser plus qu'il ne gagne, à terme."
+],
+"attal.europe": [
+"Une Europe plus unie autour de 8 à 10 pays, avec un président élu par les citoyens",
+"Plus de décisions prises au niveau européen."
+],
+"lisnard.fonction": [
+"Ne pas remplacer une grande partie des fonctionnaires partant à la retraite",
+"Beaucoup moins de postes publics."
+],
+"lisnard.retraites": [
+"Repousser la retraite à 65 ans et développer l'épargne retraite individuelle",
+"Vous partez plus tard ; une partie de votre retraite dépend de votre épargne."
+],
+"lisnard.impots": [
+"Supprimer des impôts sur la production des entreprises, dont la taxe sur le chiffre d'affaires",
+"Les entreprises paient moins d'impôts."
+],
+"lisnard.allocation": [
+"Fusionner les aides sociales en une seule, plafonnée",
+"Plus simple, mais certains toucheraient moins qu'aujourd'hui."
+],
+"lisnard.ame": [
+"Remplacer la couverture santé des sans-papiers par une aide aux seuls soins urgents",
+"Les sans-papiers ne seraient soignés qu'en cas d'urgence."
+],
+"lisnard.referendum": [
+"Permettre aux citoyens de déclencher des référendums, y compris sur l'immigration",
+"Les Français pourraient voter directement sur plus de sujets."
+],
+"lisnard.cotisations": [
+"Baisser les cotisations sur les salaires grâce aux économies de l'État",
+"Votre salaire net augmente, si les économies sont réalisées."
+],
+"lisnard.is20": [
+"Baisser l'impôt sur les bénéfices des entreprises",
+"Les entreprises rentables paient moins d'impôts."
+],
+"zemmour.remigration": [
+"Expulser les étrangers restés un an au chômage, ainsi que les délinquants et sans-papiers",
+"Un étranger en règle sans emploi depuis un an devrait quitter la France."
+],
+"zemmour.aides": [
+"Supprimer les aides sociales pour les étrangers hors Union européenne",
+"Ils n'auraient droit qu'aux aides pour lesquelles ils ont cotisé."
+],
+"zemmour.cedh": [
+"Sortir de la Convention européenne des droits de l'homme et supprimer le regroupement familial",
+"Un étranger installé ne pourrait plus faire venir sa famille."
+],
+"zemmour.retraites": [
+"Retraite maintenue à 64 ans ou portée à 65 ans, et plus d'épargne retraite",
+"Vous partiriez au même âge ou un an plus tard."
+],
+"zemmour.csg": [
+"Baisser la CSG, un prélèvement sur les salaires, pour les revenus modestes",
+"Votre salaire net augmente un peu si vous gagnez moins de 2 000 €."
+],
+"zemmour.succession": [
+"Supprimer les impôts sur l'héritage",
+"Les héritages ne sont plus taxés ; la plupart des petits ne l'étaient déjà pas."
+],
+"zemmour.fonctionnaires": [
+"Supprimer un très grand nombre de postes publics, sauf profs, soignants, policiers et militaires",
+"Beaucoup moins de fonctionnaires dans les autres services."
+],
+"glucksmann.industrie": [
+"Favoriser les produits européens dans les achats publics et taxer certaines importations",
+"Les entreprises européennes sont avantagées."
+],
+"philippe.immigration": [
+"Limiter les titres de séjour à moins de 200 000 par an et suspendre le regroupement familial",
+"Moins d'étrangers autorisés à s'installer en France."
+],
+"attal.immigration": [
+"Des quotas d'immigration de travail votés chaque année par le Parlement",
+"Le nombre d'étrangers venant travailler serait fixé selon les besoins."
+],
+"attal.travail": [
+"Supprimer la limite légale d'heures supplémentaires",
+"Vous pourriez faire plus d'heures sup si votre employeur le propose."
+],
+"philippe.jeunes_parents": [
+"Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents des classes moyennes",
+"Les nouveaux parents gardent davantage de leur salaire."
+],
+"le-pen.ame": [
+"Remplacer la couverture santé des sans-papiers par une aide aux seuls soins urgents",
+"Les sans-papiers ne seraient soignés qu'en cas d'urgence."
+],
+"retailleau.ame": [
+"Remplacer la couverture santé des sans-papiers par une aide aux seuls soins urgents",
+"Les sans-papiers ne seraient soignés qu'en cas d'urgence."
+],
+"lisnard.aides5": [
+"Réserver les aides sociales non liées aux cotisations aux étrangers résidant depuis plus de 5 ans",
+"Un étranger arrivé récemment n'aurait plus droit à ces aides."
+],
+"lisnard.profs": [
+"Augmenter fortement le salaire des enseignants en cinq ans, contre une réorganisation de leur travail",
+"Les profs gagnent plus, avec des obligations revues."
+],
+"attal.profs": [
+"Augmenter le salaire des enseignants de quelques centaines d'euros par mois",
+"Les profs gagnent plus, surtout en milieu de carrière."
+],
+"le-pen.enr": [
+"Arrêter les subventions aux éoliennes et panneaux solaires",
+"Moins de nouveaux parcs éoliens et solaires."
+]
+}

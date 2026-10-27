@@ -1,0 +1,378 @@
+{
+ "candidate": "attal",
+ "name": "Gabriel Attal",
+ "party": "Renaissance",
+ "poll": "4-9,5 %",
+ "summary": "Veut supprimer l'âge légal de départ, geler les prestations en 2028, supprimer 100 000 postes publics et revenir à l'équilibre en 2037 sans hausse d'impôts. Son camp annonce 120 à 150 Md€ d'économies sur dix ans, sans chiffrage mesure par mesure.",
+ "measures": [
+  {
+   "id": "retraites",
+   "theme": "retraites",
+   "title": "Fin de l'âge légal",
+   "proposal": "Supprimer l'âge légal : départ libre selon la durée cotisée, avec décotes et surcotes, pension minimale et part de capitalisation. Paramètres non publiés.",
+   "claimed": "Non chiffré",
+   "claimed_md": null,
+   "estimates": [
+    {
+     "source": "Cour des comptes (via LCP)",
+     "year": 2025,
+     "value": "Repère : âge 64 → 63 ans = −5,8 Md€ en 2035",
+     "low_md": -5.8,
+     "high_md": -5.8,
+     "url": "https://lcp.fr/actualites/retraites-pierre-moscovici-avertit-les-deputes-sur-un-deficit-du-systeme-qui-pourrait"
+    },
+    {
+     "source": "Étude d'impact (via MoneyVox)",
+     "year": 2024,
+     "value": "Repère : retour à 62 ans = −14,1 Md€ en 2030",
+     "low_md": -14.1,
+     "high_md": -14.1,
+     "url": "https://www.moneyvox.fr/retraite/actualites/98707/abroger-la-reforme-des-retraites-et-le-depart-a-64-ans-combien-ca-coute"
+    },
+    {
+     "source": "iFRAP",
+     "year": 2026,
+     "value": "Idée jugée « très mauvaise » : le report d'âge rapporte plus que la durée",
+     "low_md": null,
+     "high_md": null,
+     "url": "https://www.ifrap.org/retraite/supprimer-lage-legal-de-depart-la-retraite-une-tres-mauvaise-idee"
+    }
+   ],
+   "consensus": "divergent",
+   "verdict": "sous_conditions",
+   "obstacle": "Loi votée par une majorité ; coût dépendant des décotes et de la durée, non connues.",
+   "claude": {
+    "central": -5.8,
+    "low": -14.1,
+    "high": 0,
+    "method": "ascendant",
+    "formula": "Hypothèse : départs avancés d'un an en moyenne ≈ coût du passage de 64 à 63 ans (5,8 Md€) ; bornes : retour à 62 ans (−14,1) et décote neutre (0)",
+    "inputs": [
+     {
+      "label": "Âge 64 → 63 ans",
+      "value": "−5,8 Md€ (2035)",
+      "source": "Cour des comptes (LCP)",
+      "url": "https://lcp.fr/actualites/retraites-pierre-moscovici-avertit-les-deputes-sur-un-deficit-du-systeme-qui-pourrait"
+     },
+     {
+      "label": "Retour à 62 ans",
+      "value": "−14,1 Md€ (2030)",
+      "source": "Étude d'impact (MoneyVox)",
+      "url": "https://www.moneyvox.fr/retraite/actualites/98707/abroger-la-reforme-des-retraites-et-le-depart-a-64-ans-combien-ca-coute"
+     }
+    ],
+    "note": "Très incertain : paramètres non publiés"
+   }
+  },
+  {
+   "id": "fonctionnaires",
+   "theme": "depense",
+   "title": "100 000 postes en moins",
+   "proposal": "Supprimer 100 000 postes publics par départs volontaires et non-remplacements, hors Éducation, Armées, Justice et Intérieur.",
+   "claimed": "7 Md€ d'économies",
+   "claimed_md": 7,
+   "estimates": [
+    {
+     "source": "Institut Montaigne",
+     "year": 2016,
+     "value": "31 000 € par poste : ≈3,1 Md€ pour 100 000 postes",
+     "low_md": 3.1,
+     "high_md": 3.1,
+     "url": "https://www.institutmontaigne.org/ressources/pdfs/Primaires-2016-2017/reduction-de-l-emploi-public-chiffrage-et-faisabilite-2pdf.pdf"
+    },
+    {
+     "source": "Cour des comptes (via Économie Matin)",
+     "year": 2024,
+     "value": "100 000 postes dans les collectivités : 4,1 Md€/an d'ici 2030",
+     "low_md": 4.1,
+     "high_md": 4.1,
+     "url": "https://www.economiematin.fr/?p=167899"
+    },
+    {
+     "source": "Fipeco",
+     "year": 2024,
+     "value": "≈67 000 € par poste : ≈6,7 Md€",
+     "low_md": 6.7,
+     "high_md": 6.7,
+     "url": "https://fipeco.fr/pdf/Nouvel%20Economiste%2012.11.2024.pdf"
+    }
+   ],
+   "consensus": "divergent",
+   "verdict": "sous_conditions",
+   "obstacle": "Les ministères épargnés emploient plus des deux tiers des agents de l'État ; indemnités de départ.",
+   "claude": {
+    "central": 4.1,
+    "low": 3.1,
+    "high": 7,
+    "method": "médiane",
+    "formula": "Médiane de 3,1 ; 4,1 ; 6,7 Md€ = +4,1 Md€",
+    "inputs": [
+     {
+      "label": "Coût par poste",
+      "value": "31 000 €",
+      "source": "Institut Montaigne",
+      "url": "https://www.institutmontaigne.org/ressources/pdfs/Primaires-2016-2017/reduction-de-l-emploi-public-chiffrage-et-faisabilite-2pdf.pdf"
+     },
+     {
+      "label": "Chiffre du camp",
+      "value": "7 Md€",
+      "source": "Public Sénat",
+      "url": "https://www.publicsenat.fr/actualites/politique/reduction-de-nombre-de-fonctionnaires-le-virage-a-180-degres-de-gabriel-attal"
+     }
+    ],
+    "note": "Hors coût des indemnités de départ"
+   }
+  },
+  {
+   "id": "annee_blanche",
+   "theme": "social",
+   "title": "Gel des prestations en 2028",
+   "proposal": "« Année blanche » en 2028 : toutes les prestations sociales gelées, sauf les petites retraites (seuil non défini).",
+   "claimed": "Inclus dans 120-150 Md€ sur 10 ans",
+   "claimed_md": null,
+   "estimates": [
+    {
+     "source": "IPP (via Journal de l'économie)",
+     "year": 2025,
+     "value": "Pensions 3 + prestations 1,3 = 4,3 Md€",
+     "low_md": 4.3,
+     "high_md": 4.3,
+     "url": "https://www.journaldeleconomie.fr/budget-une-annee-blanche-permettrait-57-milliards-deuros-deconomies-en-2026/"
+    },
+    {
+     "source": "PLFSS 2026 (via Public Sénat)",
+     "year": 2025,
+     "value": "Gel des pensions et prestations : 3,6 Md€",
+     "low_md": 3.6,
+     "high_md": 3.6,
+     "url": "https://www.publicsenat.fr/actualites/sante/securite-sociale-le-budget-plfss-2026-prevoit-un-gel-des-pensions-de-retraite-effort-depenses-de-sante"
+    }
+   ],
+   "consensus": "concordant",
+   "verdict": "faisable",
+   "obstacle": "Vote en loi de finances et de financement de la Sécurité sociale.",
+   "claude": {
+    "central": 4,
+    "low": 1.3,
+    "high": 4.3,
+    "method": "médiane",
+    "formula": "Médiane de 3,6 et 4,3 ≈ +4 Md€ ; 1,3 si la plupart des pensions sont exemptées",
+    "inputs": [
+     {
+      "label": "Gel des prestations hors pensions",
+      "value": "1,3 Md€",
+      "source": "IPP",
+      "url": "https://www.journaldeleconomie.fr/budget-une-annee-blanche-permettrait-57-milliards-deuros-deconomies-en-2026/"
+     },
+     {
+      "label": "Gel des pensions",
+      "value": "3 Md€",
+      "source": "IPP",
+      "url": "https://www.journaldeleconomie.fr/budget-une-annee-blanche-permettrait-57-milliards-deuros-deconomies-en-2026/"
+     }
+    ],
+    "note": "Dépend de l'inflation en 2028 et du seuil des petites retraites"
+   }
+  },
+  {
+   "id": "bebe",
+   "theme": "retraites",
+   "title": "1 000 € à la naissance",
+   "proposal": "L'État place 1 000 € par nouveau-né sur un compte retraite par capitalisation, abondable par la famille.",
+   "claimed": "660 M€ par an",
+   "claimed_md": -0.66,
+   "estimates": [
+    {
+     "source": "Calcul (Insee, via Vidal)",
+     "year": 2026,
+     "value": "645 000 naissances × 1 000 € ≈ 0,65 Md€",
+     "low_md": -0.66,
+     "high_md": -0.64,
+     "url": "https://www.vidal.fr/actualites/37334-la-baisse-des-naissances-s-est-poursuivie-en-2025-en-france-les-deces-sont-desormais-plus-nombreux-insee.html"
+    }
+   ],
+   "consensus": "concordant",
+   "verdict": "faisable",
+   "obstacle": "Une loi de finances suffit.",
+   "claude": {
+    "central": -0.65,
+    "low": -0.66,
+    "high": -0.64,
+    "method": "ascendant",
+    "formula": "645 000 naissances × 1 000 € = −0,65 Md€",
+    "inputs": [
+     {
+      "label": "Naissances 2025",
+      "value": "645 000",
+      "source": "Insee (Vidal)",
+      "url": "https://www.vidal.fr/actualites/37334-la-baisse-des-naissances-s-est-poursuivie-en-2025-en-france-les-deces-sont-desormais-plus-nombreux-insee.html"
+     },
+     {
+      "label": "Coût annoncé",
+      "value": "660 M€",
+      "source": "LCP",
+      "url": "https://lcp.fr/actualites/retraites-avant-le-debat-sur-la-suspension-de-la-reforme-gabriel-attal-prone-une"
+     }
+    ],
+    "note": "Hors abattement fiscal sur les versements des familles"
+   }
+  },
+  {
+   "id": "regle_or",
+   "theme": "institutions",
+   "title": "Règle d'or par référendum",
+   "proposal": "Référendum en début de mandat pour inscrire l'équilibre budgétaire dans la Constitution : zéro déficit en 2037.",
+   "claimed": "Équilibre en 2037",
+   "claimed_md": null,
+   "estimates": [
+    {
+     "source": "Landot avocats",
+     "year": 2026,
+     "value": "Révision par l'article 89 ; recours à l'article 11 contesté",
+     "low_md": null,
+     "high_md": null,
+     "url": "https://blog.landot-avocats.net/2026/10/18/reforme-de-la-constitution-art-11-devoir-de-reserve-petits-rappels-de-quelques-evidences-sur-la-polemique-du-jour-2/"
+    }
+   ],
+   "consensus": "isolé",
+   "verdict": "bloque",
+   "obstacle": "Chemin : article 89, vote identique de l'Assemblée et du Sénat puis référendum ; l'article 11 est contesté.",
+   "claude": {
+    "central": 0,
+    "low": 0,
+    "high": 0,
+    "method": "ascendant",
+    "formula": "Règle de procédure, sans effet direct sur le solde",
+    "inputs": [],
+    "note": "L'effet dépend des mesures prises pour la respecter"
+   }
+  },
+  {
+   "id": "immigration",
+   "theme": "immigration",
+   "title": "Quotas et immigration de travail",
+   "proposal": "Quotas d'immigration de travail votés par le Parlement, système à points, regroupement familial plus restrictif, réforme de Schengen.",
+   "claimed": "Non chiffré",
+   "claimed_md": null,
+   "estimates": [
+    {
+     "source": "Public Sénat",
+     "year": 2024,
+     "value": "Article sur les quotas censuré par le Conseil constitutionnel en 2024",
+     "low_md": null,
+     "high_md": null,
+     "url": "https://www.publicsenat.fr/actualites/projet-de-loi-immigration/loi-immigration-le-conseil-constitutionnel-censure-32-articles-du-projet-de-loi"
+    },
+    {
+     "source": "La Gazette France (AFP)",
+     "year": 2026,
+     "value": "Immigration « plus faible et axée sur le travail », sans chiffre",
+     "low_md": null,
+     "high_md": null,
+     "url": "https://www.lagazettefrance.fr/article/attal-veut-une-immigration-plus-faible-et-axee-sur-le-travail"
+    }
+   ],
+   "consensus": "concordant",
+   "verdict": "tres_difficile",
+   "obstacle": "Quotas déjà censurés en 2024 ; regroupement familial encadré par le droit UE ; Schengen exige un accord européen.",
+   "claude": {
+    "central": 0,
+    "low": 0,
+    "high": 0,
+    "method": "ascendant",
+    "formula": "Aucun effet budgétaire direct documenté",
+    "inputs": [],
+    "note": "Niveau des quotas non précisé"
+   }
+  },
+  {
+   "id": "travail",
+   "theme": "travail",
+   "title": "Heures sup et chômage",
+   "proposal": "Supprimer le plafond légal d'heures supplémentaires (220 h/an) et réformer l'assurance chômage pour inciter au travail.",
+   "claimed": "+100 000 emplois",
+   "claimed_md": null,
+   "estimates": [
+    {
+     "source": "votons-2027.fr",
+     "year": 2026,
+     "value": "Mesure décrite, sans chiffrage",
+     "low_md": null,
+     "high_md": null,
+     "url": "https://votons-2027.fr/candidats/attal/programme/economie"
+    }
+   ],
+   "consensus": "isolé",
+   "verdict": "faisable",
+   "obstacle": "Loi ordinaire ; décret possible pour l'assurance chômage.",
+   "claude": {
+    "central": 0,
+    "low": 0,
+    "high": 0,
+    "method": "ascendant",
+    "formula": "Paramètres non publiés",
+    "inputs": [],
+    "note": "Les 100 000 emplois sont annoncés sans méthode"
+   }
+  },
+  {
+   "id": "europe",
+   "theme": "europe",
+   "title": "États-Unis d'Europe",
+   "proposal": "Noyau de 8 à 10 pays, président élu au suffrage universel, budget avec ressources propres, référendum européen simultané.",
+   "claimed": "Non chiffré",
+   "claimed_md": null,
+   "estimates": [
+    {
+     "source": "Public Sénat",
+     "year": 2026,
+     "value": "Proposition présentée à Reims le 17/09/2026",
+     "low_md": null,
+     "high_md": null,
+     "url": "https://www.publicsenat.fr/actualites/politique/gabriel-attal-veut-construire-les-etats-unis-deurope-proposition-choc-pour-relancer-lideal-europeen"
+    }
+   ],
+   "consensus": "isolé",
+   "verdict": "bloque",
+   "obstacle": "Chemin : nouveau traité ratifié par chaque pays participant, et révision de la Constitution française.",
+   "claude": {
+    "central": 0,
+    "low": 0,
+    "high": 0,
+    "method": "ascendant",
+    "formula": "Budget commun non chiffré",
+    "inputs": [],
+    "note": "Ressources propres non chiffrées"
+   }
+  }
+ ],
+ "total": {
+  "claimed": "120 à 150 Md€ d'économies sur 10 ans, sans hausse d'impôts ; déficit à 3 % avant 2032, équilibre en 2037",
+  "independent": "aucun chiffrage global"
+ },
+ "missing": "classes de moins de 20 élèves, salaires des enseignants, baisse des charges salariales, arrêts maladie, défense",
+ "sim": {
+  "retraite": {
+   "age_legal": null,
+   "age_taux_plein": null,
+   "carriere_longue": null,
+   "regle": "Plus d'âge légal : départ libre selon la durée cotisée, avec décote ou surcote et pension minimale. Paramètres non publiés."
+  },
+  "smic_net": null,
+  "salaire_net": null,
+  "salaire_note": "Baisse des charges salariales annoncée, sans montant.",
+  "alloc_familiales": null,
+  "tva_energie": null,
+  "fonctionnaires": "100 000 postes supprimés par départs volontaires et non-remplacements ; Éducation, Armées, Justice et Intérieur épargnés.",
+  "chomeurs": "Réforme pour inciter au travail, non détaillée ; allocations probablement gelées en 2028.",
+  "minima_sociaux": "Gelés en 2028 (année blanche).",
+  "jeunes": "1 000 € placés à la naissance sur un compte retraite ; réseaux sociaux interdits aux moins de 15 ans.",
+  "retraites_actuels": "Pensions gelées en 2028, sauf les petites retraites (seuil non défini).",
+  "independants": "Pas de mesure spécifique publiée.",
+  "etrangers": "Regroupement familial plus restrictif ; quotas et système à points pour l'immigration de travail.",
+  "patrimoine": [],
+  "heritage": [],
+  "gel_pct": 1.8,
+  "gel_note": "Pensions et allocations non revalorisées en 2028 (inflation prévue 1,8 %), sauf les petites retraites"
+ }
+}

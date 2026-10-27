@@ -1,0 +1,957 @@
+{
+ "life": {
+  "retailleau": [
+   {
+    "theme": "securite",
+    "proposals": [
+     {
+      "text": "Peines minimales obligatoires pour agressions de policiers, gendarmes et pompiers",
+      "verifiable": true
+     },
+     {
+      "text": "Majorité pénale abaissée à 15 ans, courtes peines de 15 jours en centres dédiés",
+      "verifiable": true
+     },
+     {
+      "text": "Suppression du juge d'application des peines",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Le juge « n'a pas le choix » face aux agresseurs de forces de l'ordre",
+    "evidence": "Peines planchers 2007 : aucun effet dissuasif à court terme, −13 % de récidive ciblée à quatre ans, ~4 000 détenus en plus (IPP, 2024).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Europe 1 – Objectif Élysée",
+      "year": 2026,
+      "url": "https://www.europe1.fr/politique/objectif-elysee-2027-sil-est-elu-bruno-retailleau-souhaite-instaurer-des-peines-minimales-1064336"
+     },
+     {
+      "label": "Public Sénat – meeting Vincennes",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-jirai-jusquau-bout-de-lelection-pour-remettre-la-france-a-lendroit-clame-bruno-retailleau-a-son-premier-grand-meeting"
+     },
+     {
+      "label": "Public Sénat – réforme constitutionnelle",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle"
+     },
+     {
+      "label": "IPP – Note n°105 peines planchers",
+      "year": 2024,
+      "url": "https://www.ipp.eu/wp-content/uploads/2024/03/Note_IPP_105_peines_planchers.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "sante",
+    "proposals": [
+     {
+      "text": "Jour de carence d'ordre public non remboursable dans le secteur privé",
+      "verifiable": true
+     },
+     {
+      "text": "4 Md€ d'économies sur les arrêts maladie via contrôle des prescriptions",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Gains d'efficience en santé réinvestis dans les soins (non chiffré)",
+    "evidence": "Jour de carence (fonction publique, 2012-2013) : absences de deux jours −50 %, absences d'une semaine à trois mois +25 %, total inchangé (Insee, 2017).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Public Sénat – plan d'économies",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
+     },
+     {
+      "label": "Repère 2027 – Santé",
+      "year": 2026,
+      "url": "https://repere2027.fr/programmes/sante/"
+     },
+     {
+      "label": "Insee Analyses n°36",
+      "year": 2017,
+      "url": "https://www.insee.fr/fr/statistiques/3181789"
+     }
+    ]
+   },
+   {
+    "theme": "ecole",
+    "proposals": [
+     {
+      "text": "Rétablir un examen d'entrée en sixième",
+      "verifiable": true
+     },
+     {
+      "text": "Fin du passage automatique de classe, décidé par le conseil de classe",
+      "verifiable": true
+     },
+     {
+      "text": "Créer 1 000 établissements publics « libres » autonomes",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Salaires enseignants rapprochés de la moyenne européenne (non chiffré)",
+    "evidence": "Redoublement : effet à court terme proche de zéro, négatif à long terme selon les méta-analyses, et coûteux (Cnesco, 2014).",
+    "evidence_level": "non_demontree",
+    "sources": [
+     {
+      "label": "Public Sénat – refonder l'école",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
+     },
+     {
+      "label": "Orange/AFP – internats disciplinaires",
+      "year": 2026,
+      "url": "https://actu.orange.fr/france/des-internats-disciplinaires-bruno-retailleau-devoile-sa-premiere-mesure-pour-l-ecole-en-cas-d-election-magic-CNT000002rE9Rv.html"
+     },
+     {
+      "label": "Cnesco – redoublement",
+      "year": 2014,
+      "url": "https://www.cnesco.fr/wp-content/uploads/2014/08/280814CNESCO_redoublement.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "environnement",
+    "proposals": [
+     {
+      "text": "Commander huit EPR2 supplémentaires dans les deux premières années",
+      "verifiable": true
+     },
+     {
+      "text": "Fin des subventions aux nouvelles installations éoliennes et photovoltaïques",
+      "verifiable": true
+     },
+     {
+      "text": "Mobiliser jusqu'à 4 GW de nouvelles capacités hydroélectriques",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Doubler la part de l'électricité dans le mix énergétique en 20 ans",
+    "evidence": "Cour des comptes 2025 : coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec. RTE (2021) juge le développement des renouvelables indispensable.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "SFEN – colloque UFE",
+      "year": 2026,
+      "url": "https://www.sfen.org/rgn/presidentielle-2027-au-colloque-de-lufe-les-grands-partis-listent-leurs-positions-sur-le-nucleaire/"
+     },
+     {
+      "label": "Public Sénat – plan d'économies",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
+     },
+     {
+      "label": "Votons 2027 – programme LR",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/retailleau/programme"
+     },
+     {
+      "label": "Cour des comptes via AFP – EPR",
+      "year": 2025,
+      "url": "https://www.connaissancedesenergies.org/afp/programme-depr-la-cour-des-comptes-publie-un-rapport-critique-et-recalcule-le-cout-de-flamanville-3-250114"
+     },
+     {
+      "label": "RTE Futurs énergétiques via AFP",
+      "year": 2021,
+      "url": "https://www.connaissancedesenergies.org/afp/futurs-energetiques-2050-rte-dit-navoir-aucun-parti-pris-211027"
+     }
+    ]
+   },
+   {
+    "theme": "logement",
+    "proposals": [
+     {
+      "text": "Un million de logements supplémentaires en cinq ans",
+      "verifiable": true
+     },
+     {
+      "text": "Intérêts d'emprunt déductibles à 50, 75 ou 100 % selon le nombre d'enfants",
+      "verifiable": true
+     },
+     {
+      "text": "Supprimer le ZAN et l'encadrement des loyers",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Délai d'un projet immobilier ramené de 7 à 3 ans",
+    "evidence": "Crédit d'impôt sur les intérêts d'emprunt (TEPA, 2007) : 1,1 Md€ en 2009, « peu d'effets sur l'accession à la propriété » (Sénat, 2010).",
+    "evidence_level": "non_demontree",
+    "sources": [
+     {
+      "label": "Journal de l'Agence – plan logement",
+      "year": 2026,
+      "url": "https://www.journaldelagence.com/1411841-presidentielle-2027-les-propositions-de-bruno-retailleau-pour-relancer-le-logement"
+     },
+     {
+      "label": "Votons 2027 – programme LR",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/retailleau/programme"
+     },
+     {
+      "label": "Sénat – avis PLF 2011 (TEPA)",
+      "year": 2010,
+      "url": "https://www.senat.fr/rap/a10-113-8/a10-113-81.html"
+     }
+    ]
+   },
+   {
+    "theme": "libertes",
+    "proposals": [
+     {
+      "text": "Référendum législatif étendu à tout le champ de la loi (article 11)",
+      "verifiable": true
+     },
+     {
+      "text": "Seuil du RIP abaissé à environ 2,5 millions de signatures",
+      "verifiable": true
+     },
+     {
+      "text": "Surmonter une censure du Conseil constitutionnel par référendum ou Congrès",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Révision constitutionnelle soumise à référendum dès la rentrée 2027",
+    "evidence": "RIP ADP (2019) : environ 1 million de soutiens pour 4,7 millions requis. Suisse : léger effet sur la satisfaction démocratique, aucun sur le bien-être (2012).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Public Sénat – réforme constitutionnelle",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle"
+     },
+     {
+      "label": "Parlons Politique – projet Retailleau",
+      "year": 2026,
+      "url": "https://www.parlons-politique.fr/elections/presidentielle-2027-comment-les-projets-de-retailleau-et-tondelier-changeraient-la-protection-des-francais_29545/"
+     },
+     {
+      "label": "Public Sénat – RIP ADP",
+      "year": 2019,
+      "url": "https://www.publicsenat.fr/actualites/politique/referendum-sur-adp-le-cap-du-million-de-signatures-atteint-148123"
+     },
+     {
+      "label": "Stadelmann-Steffen & Vatter, Political Behavior",
+      "year": 2012,
+      "url": "https://doc.rero.ch/record/312064?ln=fr"
+     }
+    ]
+   }
+  ],
+  "attal": [
+   {
+    "theme": "securite",
+    "proposals": [
+     {
+      "text": "Bloquer temporairement et de façon ciblée certains réseaux sociaux pendant les émeutes",
+      "verifiable": true
+     },
+     {
+      "text": "Supprimer le juge d'application des peines (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Adapter le cadre constitutionnel contre la délinquance des mineurs",
+      "verifiable": false
+     }
+    ],
+    "indicator": null,
+    "evidence": "En Inde, les coupures de réseaux vont de pair avec davantage d'actions violentes (Rydzak, 2019). Conseil d'État 2025 : le blocage de TikTok en Nouvelle-Calédonie jugé illégal.",
+    "evidence_level": "non_demontree",
+    "sources": [
+     {
+      "label": "Les Actus du Net – blocage réseaux",
+      "year": 2026,
+      "url": "https://www.lesactusdunet.com/2026/10/21/attal-veut-pouvoir-couper-certains-reseaux-sociaux-pendant-les-emeutes-le-conseil-detat-lui-a-deja-dit-non/"
+     },
+     {
+      "label": "MonVote2027 – Attal",
+      "year": 2026,
+      "url": "https://monvote2027.fr/candidat/attal"
+     },
+     {
+      "label": "Europe 1 – suppression JAP",
+      "year": 2025,
+      "url": "https://www.europe1.fr/politique/je-propose-de-supprimer-le-juge-dapplication-des-peines-assure-gabriel-attal-872862"
+     },
+     {
+      "label": "attalpresident.fr – réforme institutionnelle",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958"
+     },
+     {
+      "label": "Rydzak – shutdowns Inde (SSRN)",
+      "year": 2019,
+      "url": "https://papers.ssrn.com/abstract=3330413"
+     },
+     {
+      "label": "Next – décision Conseil d'État",
+      "year": 2025,
+      "url": "https://next.ink/178412/la-suspension-de-tiktok-en-nouvelle-caledonie-jugee-illegale-mais-pas-impossible/"
+     }
+    ]
+   },
+   {
+    "theme": "sante",
+    "proposals": [
+     {
+      "text": "Élargir les compétences des pharmaciens et autres soignants non médecins",
+      "verifiable": false
+     },
+     {
+      "text": "Assistant médical fondé sur l'IA accessible à tous les Français",
+      "verifiable": true
+     },
+     {
+      "text": "Plan massif pour la santé mentale et la psychiatrie",
+      "verifiable": false
+     }
+    ],
+    "indicator": "Comptes de la Sécurité sociale rééquilibrés en trois ans",
+    "evidence": "Coopération médecin-infirmière Asalée : patientèle +6,6 %, consultations inchangées, qualité non mesurée (Irdes, 2019). La délégation aux pharmaciens est peu évaluée.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Le Moniteur des pharmacies",
+      "year": 2026,
+      "url": "https://www.lemoniteurdespharmacies.fr/profession/socio-professionnel/presidentielle-2027-le-candidat-gabriel-attal-veut-poursuivre-lelargissement-des-competences-des-pharmaciens"
+     },
+     {
+      "label": "Votons 2027 – Attal santé",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/attal/programme/sante"
+     },
+     {
+      "label": "Irdes – QES n°241 Asalée",
+      "year": 2019,
+      "url": "https://www.IRDES.fr/recherche/questions-d-economie-de-la-sante/241-la-cooperation-avec-une-infirmiere-modifie-t-elle-l-activite-du-medecin-generaliste.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "ecole",
+    "proposals": [
+     {
+      "text": "Moins de 20 élèves par classe en primaire",
+      "verifiable": true
+     },
+     {
+      "text": "Enseignants : +200 € net par mois, jusqu'à 500 € en milieu de carrière",
+      "verifiable": true
+     },
+     {
+      "text": "Brevet obligatoire pour entrer au lycée, certificat d'études en fin de primaire",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Revalorisation chiffrée à 2,5 Md€ par son équipe",
+    "evidence": "Dédoublement des classes en REP+ : progrès nets en CP, mais plus aucune différence significative à l'entrée en sixième (DEPP, février 2026).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Public Sénat – meeting Porte de Versailles",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
+     },
+     {
+      "label": "Public Sénat – école Philippe/Attal",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-philippe-et-attal-font-de-lecole-un-nouveau-terrain-de-bataille-au-risque-dereinter-le-bilan-macron"
+     },
+     {
+      "label": "attalpresident.fr – pacte jeunesse Lyon",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-en-meeting-a-lyon-un-pacte-pour-la-jeunesse"
+     },
+     {
+      "label": "AEF/DEPP – dédoublement",
+      "year": 2026,
+      "url": "https://media.ac-normandie.fr/-/communication/revue-presse/2026/02/04/AEF_nat_cri_National_Le%20d%e9doublement%20en%20%e9ducation%20prioritaire%20semble%20sans%20effet%20%e0%20long%20terme%20sur%20les%20performances%20des%20%e9l%e8ves%20(Depp).pdf"
+     }
+    ]
+   },
+   {
+    "theme": "environnement",
+    "proposals": [
+     {
+      "text": "Sécuriser 14 EPR et viser un réacteur par an",
+      "verifiable": true
+     },
+     {
+      "text": "Tripler le rythme de baisse des émissions : 5 % par an d'ici 2030",
+      "verifiable": true
+     },
+     {
+      "text": "Leasing social étendu aux voitures électriques d'occasion",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Fossiles ramenés sous 30 % du mix énergétique en 2035",
+    "evidence": "HCC 2026 : émissions −2,1 % en 2025, un rythme qui doit au moins doubler ; leasing social et MaPrimeRénov' jugés sous-dimensionnés.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Votons 2027 – Attal climat",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/attal/programme/climat"
+     },
+     {
+      "label": "attalpresident.fr – pacte jeunesse Lyon",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-en-meeting-a-lyon-un-pacte-pour-la-jeunesse"
+     },
+     {
+      "label": "L'Info Durable – propositions Renaissance",
+      "year": 2025,
+      "url": "https://www.linfodurable.fr/politique/attal-propose-une-nouvelle-donne-ecologique-en-meme-temps-queconomique-52224"
+     },
+     {
+      "label": "HCC rapport annuel via AFP",
+      "year": 2026,
+      "url": "https://www.connaissancedesenergies.org/afp/climat-la-france-nest-pas-prete-il-faut-changer-dechelle-juge-le-haut-conseil-pour-le-climat-260709"
+     }
+    ]
+   },
+   {
+    "theme": "logement",
+    "proposals": [
+     {
+      "text": "Loi de programmation sur cinq ans pour la rénovation énergétique",
+      "verifiable": true
+     },
+     {
+      "text": "Intégrer le logement intermédiaire dans les quotas SRU des communes",
+      "verifiable": true
+     },
+     {
+      "text": "Simplifier le ZAN pour faciliter la construction",
+      "verifiable": false
+     }
+    ],
+    "indicator": "Cinq ans de visibilité sur les aides à la rénovation",
+    "evidence": "Isolation des maisons : économies réelles de 5 à 6,6 %, soit environ 42 % des gains théoriques (Insee-SDES, 2026).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Batirama – Grand oral Batimat",
+      "year": 2026,
+      "url": "https://www.batirama.com/article/112473-crise-du-btp-les-candidats-passent-leur-grand-oral-a-batimat.html"
+     },
+     {
+      "label": "Investies – Attal à Batimat",
+      "year": 2026,
+      "url": "https://www.investies.fr/crise-du-logement-attal-le-pen-et-melenchon-questionnes-sur-les-normes-la-renovation-energetique-et-linvestissement"
+     },
+     {
+      "label": "Insee-SDES – isolation et consommation",
+      "year": 2026,
+      "url": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "libertes",
+    "proposals": [
+     {
+      "text": "Journée référendaire annuelle sur les grands choix nationaux",
+      "verifiable": true
+     },
+     {
+      "text": "Délai de réponse administrative de deux mois maximum inscrit dans la Constitution",
+      "verifiable": true
+     },
+     {
+      "text": "Grande réforme institutionnelle soumise au vote des Français",
+      "verifiable": false
+     }
+    ],
+    "indicator": null,
+    "evidence": "Suisse : l'usage effectif du référendum est lié à une satisfaction démocratique un peu plus forte, sans effet sur le bien-être (Stadelmann-Steffen & Vatter, 2012).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "attalpresident.fr – réforme institutionnelle",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958"
+     },
+     {
+      "label": "Public Sénat – meeting Porte de Versailles",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
+     },
+     {
+      "label": "Stadelmann-Steffen & Vatter, Political Behavior",
+      "year": 2012,
+      "url": "https://doc.rero.ch/record/312064?ln=fr"
+     }
+    ]
+   }
+  ],
+  "lisnard": [
+   {
+    "theme": "securite",
+    "proposals": [
+     {
+      "text": "Construire 20 000 places de prison",
+      "verifiable": true
+     },
+     {
+      "text": "Perpétuité réelle et fin du non-cumul des peines pour crimes graves",
+      "verifiable": true
+     },
+     {
+      "text": "Lever l'excuse de minorité pour les crimes de sang",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Peines prononcées, même courtes, réellement exécutées",
+    "evidence": "Plan 15 000 places : seulement 2 771 livrées mi-2023. De 1990 à 2020, places et détenus ont crû de 25 000 chacun, et la surpopulation persiste (Sénat, 2023).",
+    "evidence_level": "non_demontree",
+    "sources": [
+     {
+      "label": "Discours de Saint-Raphaël (Nouvelle Énergie)",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
+     },
+     {
+      "label": "lisnard.cards – propositions",
+      "year": 2026,
+      "url": "https://lisnard.cards/cartes"
+     },
+     {
+      "label": "Sénat – rapport plan 15 000 places",
+      "year": 2023,
+      "url": "https://www.senat.fr/rap/r23-037/r23-037_mono.html"
+     }
+    ]
+   },
+   {
+    "theme": "sante",
+    "proposals": [
+     {
+      "text": "Doubler le nombre d'étudiants en médecine d'ici 2030",
+      "verifiable": true
+     },
+     {
+      "text": "Supprimer les ARS, missions confiées aux préfets et élus",
+      "verifiable": true
+     },
+     {
+      "text": "Liberté d'installation, exonération de CFE pour libéraux en zone sous-dense",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Personnel non soignant hospitalier ramené à 23-24 % des effectifs",
+    "evidence": "Aides à l'installation : au moins 15 dispositifs, 205 M€ en 2023 ; plusieurs jugées coûteuses et inefficaces, d'autres utiles (Cour des comptes, 2025).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "FHF Panorama – semaine du 4 mai",
+      "year": 2026,
+      "url": "https://www.fhf.fr/sites/default/files/2026-05/Panorama%20FHF%20-%20Semaine%20du%204%20mai.pdf"
+     },
+     {
+      "label": "Repère 2027 – Santé",
+      "year": 2026,
+      "url": "https://repere2027.fr/programmes/sante/"
+     },
+     {
+      "label": "Votons 2027 – Lisnard santé",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/lisnard/programme/sante"
+     },
+     {
+      "label": "Weka – Cour des comptes aides installation",
+      "year": 2025,
+      "url": "https://www.weka.fr/actualite/?p=206876"
+     }
+    ]
+   },
+   {
+    "theme": "ecole",
+    "proposals": [
+     {
+      "text": "Certificat de fin de primaire conditionnant l'entrée au collège",
+      "verifiable": true
+     },
+     {
+      "text": "Hausse de 20 % des salaires enseignants en cinq ans, contre réorganisation",
+      "verifiable": true
+     },
+     {
+      "text": "Supprimer la carte scolaire",
+      "verifiable": true
+     }
+    ],
+    "indicator": "« Superpuissance éducative » en cinq ans (non chiffré)",
+    "evidence": "Assouplissement de la carte scolaire (2007) : effets globaux faibles, mais fuite accélérée des collèges défavorisés et ségrégation accrue (DEPP, 2013).",
+    "evidence_level": "non_demontree",
+    "sources": [
+     {
+      "label": "Votons 2027 – programme Lisnard",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/lisnard/programme"
+     },
+     {
+      "label": "lisnard.cards – propositions",
+      "year": 2026,
+      "url": "https://lisnard.cards/cartes"
+     },
+     {
+      "label": "Discours de Saint-Raphaël",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
+     },
+     {
+      "label": "Maire-info – étude DEPP carte scolaire",
+      "year": 2013,
+      "url": "https://maire-info.com/carte-scolaire-les-effets-constrastes-de-la-reforme-de-2007-article2-16202"
+     }
+    ]
+   },
+   {
+    "theme": "environnement",
+    "proposals": [
+     {
+      "text": "Prolonger les réacteurs nucléaires jusqu'à 60 ans",
+      "verifiable": true
+     },
+     {
+      "text": "Six nouveaux EPR et développement des petits réacteurs modulaires",
+      "verifiable": true
+     },
+     {
+      "text": "Remplacer le principe de précaution par un principe de responsabilité constitutionnel",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Énergie nucléaire « abondante et bon marché » (non chiffré)",
+    "evidence": "Cour des comptes 2025 : prolonger à 60 ans (~51 €/MWh) reste plus compétitif que le neuf (EPR2 ~80 €/MWh), si la production prévue est atteinte.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "lisnard.cards – propositions",
+      "year": 2026,
+      "url": "https://lisnard.cards/cartes"
+     },
+     {
+      "label": "Votons 2027 – programme Lisnard",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/lisnard/programme"
+     },
+     {
+      "label": "Discours de Bayeux",
+      "year": 2026,
+      "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf"
+     },
+     {
+      "label": "Cour des comptes via AFP – maintenance parc",
+      "year": 2025,
+      "url": "https://www.connaissancedesenergies.org/afp/prolonger-jusqua-60-ans-le-parc-nucleaire-francais-inevitable-et-avantageux-selon-la-cour-des-comptes-251117"
+     }
+    ]
+   },
+   {
+    "theme": "logement",
+    "proposals": [
+     {
+      "text": "Supprimer l'obligation de logements sociaux de l'article 55 de la loi SRU",
+      "verifiable": true
+     },
+     {
+      "text": "Supprimer l'objectif zéro artificialisation nette (ZAN)",
+      "verifiable": true
+     },
+     {
+      "text": "Mettre en vente ou à disposition des terrains publics",
+      "verifiable": false
+     }
+    ],
+    "indicator": "Libérer du foncier constructible (non chiffré)",
+    "evidence": "Aucune évaluation d'une suppression. Selon le CGDD (2014), l'article 55 de la loi SRU explique près de la moitié des HLM construits de 2000 à 2008 dans les communes visées.",
+    "evidence_level": "pas_d_etude",
+    "sources": [
+     {
+      "label": "Discours de Saint-Raphaël",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
+     },
+     {
+      "label": "lisnard.cards – propositions",
+      "year": 2026,
+      "url": "https://lisnard.cards/cartes"
+     },
+     {
+      "label": "Banque des Territoires – étude CGDD SRU",
+      "year": 2014,
+      "url": "https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social"
+     }
+    ]
+   },
+   {
+    "theme": "libertes",
+    "proposals": [
+     {
+      "text": "Rétablir le septennat",
+      "verifiable": true
+     },
+     {
+      "text": "Article 11 sans limite thématique et référendum d'initiative populaire à seuil atteignable",
+      "verifiable": true
+     },
+     {
+      "text": "Contrôle du Conseil constitutionnel limité à la lettre de la Constitution",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "Suisse : démocratie directe sans effet net sur le bien-être, mais léger effet sur la satisfaction démocratique quand elle est utilisée (Stadelmann-Steffen & Vatter, 2012).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Discours de Bayeux",
+      "year": 2026,
+      "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf"
+     },
+     {
+      "label": "Démocratie Directe – 4 référendums",
+      "year": 2026,
+      "url": "https://www.democratie.direct/actualites/david-lisnard-propose-4-referendums/"
+     },
+     {
+      "label": "lisnard.cards – propositions",
+      "year": 2026,
+      "url": "https://lisnard.cards/cartes"
+     },
+     {
+      "label": "Stadelmann-Steffen & Vatter, Political Behavior",
+      "year": 2012,
+      "url": "https://doc.rero.ch/record/312064?ln=fr"
+     }
+    ]
+   }
+  ],
+  "zemmour": [
+   {
+    "theme": "securite",
+    "proposals": [
+     {
+      "text": "Expulser les détenus étrangers, estimés à 25 % de la population carcérale",
+      "verifiable": true
+     },
+     {
+      "text": "Expulser les délinquants étrangers purgeant leur peine hors prison (bracelet, TIG)",
+      "verifiable": true
+     },
+     {
+      "text": "Peines planchers, perpétuité réelle, 10 000 places de prison (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "États-Unis : Secure Communities (expulsions après arrestation) sans effet observable sur la criminalité (Miles & Cox, 2014). Peines planchers françaises : effet dissuasif limité (IPP, 2024).",
+    "evidence_level": "non_demontree",
+    "sources": [
+     {
+      "label": "Public Sénat – candidature Zemmour",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/politique/eric-zemmour-officialise-sa-candidature-a-la-presidentielle-2027"
+     },
+     {
+      "label": "MonVote2027 – Zemmour",
+      "year": 2026,
+      "url": "https://monvote2027.fr/candidat/zemmour"
+     },
+     {
+      "label": "Miles & Cox, Journal of Law & Economics",
+      "year": 2014,
+      "url": "https://chicagounbound.uchicago.edu/jle/vol57/iss4/3/"
+     },
+     {
+      "label": "IPP – Note n°105 peines planchers",
+      "year": 2024,
+      "url": "https://www.ipp.eu/wp-content/uploads/2024/03/Note_IPP_105_peines_planchers.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "sante",
+    "proposals": [
+     {
+      "text": "Recruter 1 000 médecins salariés par l'État dans les déserts (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Rétablir l'obligation de garde des médecins (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Supprimer l'AME, hors aide médicale d'urgence (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": null,
+    "evidence": "Médecins salariés d'État : pas d'évaluation. Espagne 2012 : après une exclusion comparable des sans-papiers, leur mortalité a augmenté de 15 % (Vall et al.).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Votons 2027 – Zemmour santé (prog. 2024)",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/zemmour/programme/sante"
+     },
+     {
+      "label": "Repère 2027 – Santé",
+      "year": 2026,
+      "url": "https://repere2027.fr/programmes/sante/"
+     },
+     {
+      "label": "Vall et al. – Espagne, via CSEM",
+      "year": 2018,
+      "url": "https://www.csem.org.br/en/?p=9257"
+     }
+    ]
+   },
+   {
+    "theme": "ecole",
+    "proposals": [
+     {
+      "text": "Certificat d'études en fin de primaire (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Classes de niveau au collège (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Interdire toute propagande idéologique à l'école (non reconfirmée en 2026)",
+      "verifiable": false
+     }
+    ],
+    "indicator": null,
+    "evidence": "Groupes de niveau : pas d'amélioration des résultats, et les élèves faibles risquent de perdre l'effet des pairs selon l'OCDE (PISA 2022).",
+    "evidence_level": "non_demontree",
+    "sources": [
+     {
+      "label": "Europe 1 – propositions éducation",
+      "year": 2022,
+      "url": "https://www.europe1.fr/politique/education-les-propositions-des-candidats-a-la-presidentielle-4101124"
+     },
+     {
+      "label": "MonVote2027 – Zemmour",
+      "year": 2026,
+      "url": "https://monvote2027.fr/candidat/zemmour"
+     },
+     {
+      "label": "L'Etudiant – groupes de niveau et recherche",
+      "year": 2024,
+      "url": "https://www.letudiant.fr/educpros/enquetes/lefficacite-des-groupes-de-niveau-contestee-par-les-chercheurs.html"
+     }
+    ]
+   },
+   {
+    "theme": "environnement",
+    "proposals": [
+     {
+      "text": "Six EPR d'ici 2035 et quatorze d'ici 2045",
+      "verifiable": true
+     },
+     {
+      "text": "Fin des financements français et européens à l'éolien (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Abroger l'interdiction des voitures thermiques neuves en 2035 (non reconfirmée en 2026)",
+      "verifiable": true
+     }
+    ],
+    "indicator": "Électricité française qui « cessera d'être bradée » (non chiffré)",
+    "evidence": "Cour des comptes 2025 : études EPR2 en retard, coût des six premiers +30 % (67,4 Md€) et une « accumulation de risques » qui pourrait conduire à l'échec.",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Europe 1 – discours de rentrée",
+      "year": 2026,
+      "url": "https://www.europe1.fr/politique/presidentielle-2027-eric-zemmour-appelle-a-un-vote-du-sursaut-lors-de-son-discours-de-rentree-1075178"
+     },
+     {
+      "label": "Votons 2027 – Zemmour (prog. 2024)",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/zemmour/programme"
+     },
+     {
+      "label": "Cour des comptes via AFP – EPR",
+      "year": 2025,
+      "url": "https://www.connaissancedesenergies.org/afp/programme-depr-la-cour-des-comptes-publie-un-rapport-critique-et-recalcule-le-cout-de-flamanville-3-250114"
+     }
+    ]
+   },
+   {
+    "theme": "logement",
+    "proposals": [
+     {
+      "text": "Supprimer la directive européenne sur la performance énergétique des bâtiments (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Vendre une partie du parc HLM, « France de propriétaires » (non reconfirmée en 2026)",
+      "verifiable": false
+     }
+    ],
+    "indicator": "7 millions de logements maintenus sur le marché locatif (selon Reconquête)",
+    "evidence": "Rénovation énergétique : économies réelles modestes (5 à 6,6 %), soit environ 42 % des gains théoriques (Insee-SDES, 2026).",
+    "evidence_level": "mitigee",
+    "sources": [
+     {
+      "label": "Votons 2027 – Zemmour (prog. 2024)",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/zemmour/programme"
+     },
+     {
+      "label": "MonVote2027 – Zemmour",
+      "year": 2026,
+      "url": "https://monvote2027.fr/candidat/zemmour"
+     },
+     {
+      "label": "Insee-SDES – isolation et consommation",
+      "year": 2026,
+      "url": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+     }
+    ]
+   },
+   {
+    "theme": "libertes",
+    "proposals": [
+     {
+      "text": "Article 55 révisé : loi nationale au-dessus du droit européen (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Sortir de la CEDH (non reconfirmée en 2026)",
+      "verifiable": true
+     },
+     {
+      "text": "Liberté d'expression non négociable, contre la loi Avia (non reconfirmée en 2026)",
+      "verifiable": false
+     }
+    ],
+    "indicator": null,
+    "evidence": "Aucune évaluation publique de l'effet d'une sortie de la CEDH ou d'une primauté constitutionnelle de la loi nationale sur le droit européen.",
+    "evidence_level": "pas_d_etude",
+    "sources": [
+     {
+      "label": "Votons 2027 – Zemmour (prog. 2024)",
+      "year": 2026,
+      "url": "https://votons-2027.fr/candidats/zemmour/programme"
+     },
+     {
+      "label": "MonVote2027 – Zemmour",
+      "year": 2026,
+      "url": "https://monvote2027.fr/candidat/zemmour"
+     }
+    ]
+   }
+  ]
+ }
+}

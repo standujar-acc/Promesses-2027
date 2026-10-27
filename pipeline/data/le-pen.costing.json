@@ -1,0 +1,44 @@
+{"map":{"tva-energie":"tva","impots-production":"production","contribution-ue":"ue","etat-agences":"etat"},
+"costing":[
+{"id":"retraites","central":-20,"low":-35,"high":-10,"method":"médiane","formula":"Annulation du report à 64 ans : −11,8 Md€ en 2030 ; départ à 60 ans pour les carrières précoces : jusqu'à −26,5 Md€, réduit car 42 annuités pour les autres ; total ≈ −20","inputs":[
+{"label":"Rendement de la réforme 2023 en 2030","value":"11,8 Md€","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/ensemble-majorite-presidentielle/repousser-lage-de-depart-a-la-retraite-a-64-ans-avec-des-exemptions-pour-les-situations-de-penibilite-et-de-carrieres-longues"},
+{"label":"Version RN 2024 (60 ans/40 annuités)","value":"34,7 Md€, dont 26,5 pour les carrières précoces","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/abroger-la-reforme-des-retraites-et-pour-ceux-ayant-commence-a-travailler-avant-20-ans-partir-a-40-annuites-de-cotisations"},
+{"label":"Retour à 62 ans","value":"10 Md€ en 2030","source":"francebudget.fr","url":"https://francebudget.fr/scenarios/rn-2027"}],
+"note":"Les 15-20 Md€ de « corrections » annoncées par le RN, non détaillées, ne sont pas comptées"},
+{"id":"immigration","central":5,"low":0,"high":8.3,"method":"médiane","formula":"Allocations familiales 3,8 + RSA 2,6 + asile 1,2 + AME 0,7 = 8,3 Md€ ; ≈ 60 % retenus vu le risque de censure","inputs":[
+{"label":"Détail par mesure (2024)","value":"3,8 / 2,6 / 1,2 / 0,7 Md€","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"},
+{"label":"Crédits AME 2026","value":"1,21 Md€","source":"Public Sénat","url":"https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-les-conditions-de-laide-medicale-detat-et-vote-une-baisse-de-ses-credits-de-200-millions"},
+{"label":"Part juridiquement fragile du montant RN","value":"92 % de 29 Md€","source":"Institut de l'Entreprise","url":"https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"}],
+"note":"Si appliquée telle quelle ; bloquée juridiquement en l'état"},
+{"id":"tva-energie","central":-14.5,"low":-17.4,"high":-11.3,"method":"médiane","formula":"Médiane de 11,3 ; 12,2 ; 16,8 ; 17,4 Md€ = 14,5 Md€","inputs":[
+{"label":"Électricité 4,5 + gaz 2,3 + carburants 10","value":"16,8 Md€","source":"Bercy (Public Sénat)","url":"https://www.publicsenat.fr/actualites/politique/baisse-de-la-tva-sur-lenergie-proposee-par-le-rn-une-mesure-chiffree-a-17-milliards-selon-bercy"},
+{"label":"Chiffrage 2024","value":"11,3 Md€","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"},
+{"label":"Chiffrage 2026","value":"12,2 Md€","source":"Institut de l'Entreprise","url":"https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"},
+{"label":"Simulateur","value":"17,4 Md€","source":"francebudget.fr","url":"https://francebudget.fr/scenarios/rn-2027"}],
+"note":"Le périmètre (avec ou sans carburants) fait varier le coût de 10 Md€"},
+{"id":"impots-production","central":-17,"low":-21,"high":-5.1,"method":"médiane","formula":"CFE + CVAE + C3S : 17,1 Md€ (Institut de l'Entreprise) ≈ 17 Md€ (francebudget)","inputs":[
+{"label":"Suppression CFE, CVAE, C3S","value":"17,1 Md€","source":"Institut de l'Entreprise","url":"https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"},
+{"label":"Suppression CFE, CVAE, C3S","value":"17 Md€","source":"francebudget.fr","url":"https://francebudget.fr/scenarios/rn-2027"},
+{"label":"CVAE + C3S seules","value":"5,1 Md€","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"}],
+"note":"Suppose la CFE incluse ; la CVAE pourrait déjà baisser d'ici 2030"},
+{"id":"contribution-ue","central":0,"low":0,"high":9,"method":"médiane","formula":"Contribution 2027 de 30,9 Md€ fixée par le cadre européen : baisse unilatérale impossible → 0","inputs":[
+{"label":"Prélèvement UE 2027","value":"30,9 Md€ ; solde net −9,5 Md€","source":"Banque des Territoires","url":"https://www.banquedesterritoires.fr/budget-2027-la-facture-europeenne-continue-de-gonfler"},
+{"label":"Part retenue","value":"0 % des 13,1 Md€","source":"Institut de l'Entreprise","url":"https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"}],
+"note":"Unanimité des 27 requise"},
+{"id":"fraude","central":4.1,"low":1.1,"high":12.1,"method":"médiane","formula":"Cinq leviers du CAE ≈ 4,1 Md€/an ; plafond = tout l'écart de TVA (12,1 Md€)","inputs":[
+{"label":"Leviers anti-fraude","value":"≈4,1 Md€/an","source":"CAE (La Grande Conversation)","url":"https://www.lagrandeconversation.com/politique/rn-les-mauvais-comptes-dun-budget-dope-a-lia/"},
+{"label":"Écart de TVA","value":"9,5 Md€ (2021)","source":"iFRAP","url":"https://www.ifrap.org/budget-et-fiscalite/le-non-respect-des-regles-de-tva-coute-95-milliards-deuros"}],
+"note":"18 Md€ visés sur la TVA, plus que toute la fraude estimée"},
+{"id":"etat-agences","central":7,"low":0.5,"high":13.5,"method":"médiane","formula":"Médiane de 0,54 ; 2,2 ; 12,2 ; 13,5 Md€ ≈ 7 Md€","inputs":[
+{"label":"Agences à missions constantes / −8 %","value":"0,54 / 2,2 Md€","source":"Sénat (commission d'enquête)","url":"https://www.senat.fr/rap/r24-807-1/r24-807-122.html"},
+{"label":"201 000 postes non renouvelés","value":"≈13,5 Md€ en 2032","source":"francebudget.fr","url":"https://francebudget.fr/scenarios/rn-2027"},
+{"label":"Part non fragile du poste","value":"42 % de 29 Md€","source":"Institut de l'Entreprise","url":"https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"}],
+"note":"Suppose une vraie baisse d'effectifs"},
+{"id":"tva-produits-essentiels","central":-6.75,"low":-8.8,"high":-4.7,"method":"médiane","formula":"Chiffrage 2024 de la mesure : 6,75 Md€ (4,7 à 8,8)","inputs":[
+{"label":"TVA 0 % sur produits essentiels","value":"6,75 Md€/an","source":"Institut Montaigne","url":"https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/supprimer-la-tva-sur-les-produits-de-premiere-necessite"}],
+"note":"Version 2022 plus large (24 Md€ selon Bercy) écartée"}],
+"new_measures":[
+{"id":"tva-produits-essentiels","theme":"fiscalite","title":"TVA 0 % produits essentiels","proposal":"Supprimer la TVA sur une centaine de produits de première nécessité (alimentation, hygiène).","claimed":"Pas de montant séparé","claimed_md":null,"estimates":[
+{"source":"Institut Montaigne","year":2024,"value":"6,75 Md€/an (4,7-8,8)","low_md":-8.8,"high_md":-4.7,"url":"https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/supprimer-la-tva-sur-les-produits-de-premiere-necessite"},
+{"source":"Bercy (via Public Sénat)","year":2024,"value":"Version 2022, plus large : 24 Md€","low_md":-24,"high_md":-24,"url":"https://www.publicsenat.fr/actualites/politique/baisse-de-la-tva-sur-lenergie-proposee-par-le-rn-une-mesure-chiffree-a-17-milliards-selon-bercy"}],
+"consensus":"divergent","verdict":"faisable","obstacle":"Coût ; baisse en partie captée par les distributeurs ; directive TVA"}]}
