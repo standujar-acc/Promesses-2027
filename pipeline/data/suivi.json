@@ -391,11 +391,11 @@
    "candidats": [],
    "mesure": null,
    "sujet": "Liens en 403 ou connexion coupée (≈ 30)",
-   "detail": "Protections anti-robots probables (connaissancedesenergies.org, fipeco.fr, police.be, interieur.gouv.fr, education.gouv.fr…) : vérifier dans un navigateur ; ne pas remplacer sans preuve qu'ils sont morts.",
+   "detail": "Protections anti-robots probables (connaissancedesenergies.org, fipeco.fr, police.be, interieur.gouv.fr, education.gouv.fr…) : vérifier dans un navigateur ; ne pas remplacer sans preuve qu'ils sont morts. Contrôle du 28/10 (653 adresses, requête simple puis navigateur Chromium) : aucune réponse 404 ou 410 ; 608 répondent ; 27 bloquées par une protection anti-robots qui arrête aussi un navigateur automatisé (Banque de France, connaissancedesenergies.org, education.gouv.fr, SSRN, Oxford Academic, medias24, maire-info, echosplus, timefrance, unenouvelleenergie.fr pour un PDF, police.be en maintenance) ; 18 inaccessibles depuis l'environnement de test (DREES, evaluation.securite-sociale.fr, fipeco.fr, ac-normandie, web.archive.org, ancols.fr, deux pages de l'iFRAP), mais ouvertes lors des vérifications précédentes. Reste à les ouvrir dans un navigateur ordinaire ; les copies d'articles hébergées par l'académie de Normandie (Le Monde, AEF) gagneraient à être remplacées par l'original.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -1091,6 +1091,19 @@
    "cree": "2026-10-27",
    "maj": "2026-10-27",
    "resolution": null
+  },
+  {
+   "id": "S073",
+   "type": "a_verifier",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Sources : consolidation après l'ajout des mesures du 27/10",
+   "detail": "Revue du 28/10/2026 : 9 mesures modifiées le 27/10 n'affichaient pas leurs nouvelles sources ; 35 mesures ajoutées affichaient « voir les données d'entrée » au lieu du montant annoncé ; plusieurs lignes reposaient sur une seule source fragile (contre-budget RN publié sur le site d'un député, article de Capital lu via un agrégateur, quotas carbone sourcés par une entreprise, montant des allocations familiales tiré d'une proposition de loi).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-28",
+   "maj": "2026-10-28",
+   "resolution": "Fait le 28/10 : sources ajoutées aux mesures modifiées (Montaigne 2022 pour les aides de Lisnard, crédits 2026 du fonds Barnier et du Fonds vert, BFMTV et budget2027.fr pour les postes de Zemmour…) ; montant annoncé affiché pour les 35 mesures ; contre-budget RN recoupé par l'Institut de l'Entreprise (« coût certain ») pour 5 lignes ; répartition 15/15 du plan Retailleau sourcée par l'iFRAP, copies d'agrégateur signalées ; Le Pen, moins de 30 ans : médiane des deux chiffrages Montaigne (3,7 en 2022, 0,7 en 2024) = −2,2 au lieu de −3,7. Reste : version du contre-budget RN sur un site officiel du RN (introuvable à ce jour), article original de Capital, quotas carbone affectés à l'Anah dans un document budgétaire, montant des seules allocations familiales (Cnaf)."
   }
  ]
 }
