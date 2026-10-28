@@ -1,5 +1,5 @@
 {
- "asof": "27 octobre 2026",
+ "asof": "28 octobre 2026",
  "context": [
   {
    "v": "5,4 %",
@@ -10578,8 +10578,8 @@
       ],
       "note": "Reconfirmée le 17/09/2026. Le plan dit « aux citoyens français » (ressortissants de l'UE compris), plus large que la version de 2022 chiffrée par l'Institut Montaigne (étrangers extra-européens) : exclure les ressortissants de l'UE exige de changer le droit de l'UE (le verdict « Exige une révision » le dit déjà)."
      },
-     "quiz_text": "Supprimer les aides sociales pour les étrangers hors Union européenne",
-     "quiz_concret": "Ils n'auraient droit qu'aux aides pour lesquelles ils ont cotisé.",
+     "quiz_text": "Réserver les aides sociales non contributives aux citoyens français",
+     "quiz_concret": "Un étranger n'aurait droit qu'aux aides pour lesquelles il a cotisé.",
      "quiz_plus": "Des aides plus dures à obtenir réduisent les arrivées ; là où l'emploi abonde, les arrivants travaillent plus.",
      "quiz_moins": "En moyenne, le gain d'emploi s'efface vite ; les enfants touchés font moins d'études et plus de délits.",
      "quiz_preuve_pour": "solide",
@@ -10871,9 +10871,9 @@
     {
      "id": "csg",
      "theme": "fiscalite",
-     "title": "Baisse de la CSG des actifs",
-     "proposal": "Baisser la CSG sur les revenus d'activité (en 2022 : de 9,2 % à 2,5 % jusqu'à 2 000 € net). Reprise en août 2026 dans un livre de Sarah Knafo (Reconquête), pas encore dans un programme du candidat.",
-     "claimed": "10,8 Md€ brut (2022)",
+     "title": "Fin de la CSG sur les salaires",
+     "proposal": "Supprimer la CSG sur les revenus d'activité (9,2 %), salariés, fonctionnaires et indépendants ; proposé en 2026 par Sarah Knafo (livre « Le Casse du siècle », entretiens), pas repris par le candidat. En 2022, le candidat proposait 9,2 % → 2,5 % jusqu'à 2 000 € net.",
+     "claimed": "87,5 Md€ de recettes sociales (livre, selon Le Diplomate) ; financée par 130 à 140 Md€ d'économies selon l'autrice",
      "claimed_md": -10.8,
      "estimates": [
       {
@@ -10905,17 +10905,23 @@
      "verdict": "tres_difficile",
      "obstacle": "Égalité devant l'impôt : dispositifs proches censurés (2000, 2014, 2015) ; compensation de la Sécurité sociale.",
      "claude": {
-      "central": -15.5,
-      "low": -17.5,
-      "high": -13.5,
-      "method": "médiane",
-      "formula": "18,5 Md€ brut − 3 Md€ d'impôt sur le revenu récupéré = −15,5 Md€",
+      "central": -101.6,
+      "low": -110.4,
+      "high": -80.6,
+      "method": "ascendant",
+      "formula": "CSG sur les revenus d'activité 2025, tous affectataires : 110,4 Md€ (DSS, PLFSS 2025, annexe 3) ; les 6,8 points déductibles (110,4 × 6,8/9,2 = 81,6 Md€) redeviennent imposables : impôt sur le revenu récupéré au même ratio que la CSG déductible de Lisnard (iFRAP 2023 : 2,0 Md€ pour 18,64 Md€, soit 10,7 %) ≈ 8,8 Md€ → −101,6 Md€ ; borne basse −110,4 (sans retour d'impôt sur le revenu) ; borne haute −80,6 (périmètre du camp, 87,5 Md€ hors parts de la Cades et de l'Unédic, même retour d'impôt)",
       "inputs": [
        {
         "label": "Coût brut",
         "value": "18,5 Md€",
         "source": "Institut Montaigne",
         "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-le-taux-de-la-csg-sur-les-revenus-dactivite-de-92-a-25"
+       },
+       {
+        "label": "Proposition de l'autrice",
+        "value": "« la suppression de la CSG sur les revenus d'activité » (CNews, 30/08/2026) ; « ces 130 milliards que j'avance pour financer la mesure majeure » (TF1, 07/09/2026)",
+        "source": "Capital",
+        "url": "https://www.capital.fr/economie-politique/130-milliards-d-economies-sarah-knafo-propose-une-reforme-choc-de-la-csg-1529910"
        }
       ],
       "note": "Paramètres 2022 reconduits"
@@ -10928,7 +10934,7 @@
      "id": "succession",
      "theme": "fiscalite",
      "title": "Fin des droits de succession",
-     "proposal": "Abolir les droits de succession ; en 2022, abattements de 200 000 € et exonération des entreprises familiales. Reprise en août 2026 dans un livre de Sarah Knafo (Reconquête), pas encore dans un programme du candidat.",
+     "proposal": "Abolir les droits de succession ; proposé en 2026 par Sarah Knafo (livre, entretiens), pas repris par le candidat ; en 2022, abattements de 200 000 € et exonération des entreprises familiales.",
      "claimed": "Non chiffré",
      "claimed_md": null,
      "estimates": [
@@ -10974,7 +10980,7 @@
         "url": "https://www.assemblee-nationale.fr/dyn/17/amendements/1906A/AN/3259.pdf"
        }
       ],
-      "note": "Sort des donations non précisé"
+      "note": "Hors total : non reprise par le candidat. Base à revoir pour Zemmour et Lisnard ensemble : la Cour des comptes donne 16,6 Md€ en 2023, l'exposé de l'amendement (DGFiP) 15 Md€ en 2024 ; avec 16,6, Zemmour −16,6 et Lisnard −10,8 (au lieu de −9,8). Rouvrir si l'article du JDD du 15/09 est lu et cite le candidat."
      },
      "a_confirmer": true,
      "quiz_text": "Supprimer les impôts sur l'héritage",
@@ -10983,8 +10989,8 @@
     {
      "id": "production",
      "theme": "fiscalite",
-     "title": "Moins d'impôts de production",
-     "proposal": "Baisser les impôts de production de 30 Md€ (mesure 2022, non confirmée en 2026).",
+     "title": "Fin des impôts de production",
+     "proposal": "Supprimer CFE, CVAE et C3S ; proposé en 2026 par Sarah Knafo (livre), pas repris par le candidat ; en 2022, baisse de 30 Md€.",
      "claimed": "30 Md€, autofinancés selon le camp",
      "claimed_md": null,
      "estimates": [
@@ -11009,11 +11015,11 @@
      "verdict": "faisable",
      "obstacle": "Impôts visés non désignés ; compensation des collectivités et de la Sécurité sociale.",
      "claude": {
-      "central": -20.4,
-      "low": -26,
-      "high": -19.8,
+      "central": -13,
+      "low": -17,
+      "high": -5.1,
       "method": "médiane",
-      "formula": "30,4 Md€ − 6 Md€ d'IS récupéré − CVAE déjà supprimée (≈4) = −20,4 Md€",
+      "formula": "Même calcul que Le Pen : CFE + CVAE + C3S ≈ 17 Md€ − CVAE déjà supprimée en 2030 (≈ 4) ≈ −13 Md€ ; borne haute : C3S seule (5,1)",
       "inputs": [
        {
         "label": "Impôts visés",
@@ -11028,10 +11034,10 @@
         "url": "https://www.legifiscal.fr/actualites-fiscales/4401-plf-2026-49-3-baisse-cvae-2026.html"
        }
       ],
-      "note": "Effets macroéconomiques exclus par notre convention"
+      "note": "Hors total. Version 2022 gardée en note ; à aligner : la formule 2022 déduit 6 Md€ d'impôt sur les sociétés récupéré, alors que Le Pen, Lisnard et Retailleau sont comptés sans ce retour : avec la même règle, la version 2022 vaudrait −26,4 (30,4 − 4)."
      },
      "a_confirmer": true,
-     "quiz_text": "Baisser les impôts de production de 30 Md€."
+     "quiz_text": "Supprimer CFE, CVAE et C3S ; proposé en 2026 par Sarah Knafo, pas repris par le candidat ; en 2022, baisse de 30 Md€."
     },
     {
      "id": "fonctionnaires",
@@ -11056,6 +11062,14 @@
        "low_md": null,
        "high_md": null,
        "url": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-moins-que-prevu"
+      },
+      {
+       "source": "Fipeco (F. Ecalle), cité par franceinfo",
+       "year": 2026,
+       "value": "Une réduction effective de 800 000 emplois rapporterait de l'ordre de 30 à 40 Md€ par an (effet complet)",
+       "low_md": 30,
+       "high_md": 40,
+       "url": "https://www.franceinfo.fr/vrai-ou-fake/vrai-ou-faux-sarah-knafo-a-t-elle-raison-de-denoncer-dans-son-livre-un-casse-du-siecle-orchestre-par-l-etat-au-detriment-des-contribuables_8175293.html"
       }
      ],
      "consensus": "concordant",
@@ -11111,7 +11125,7 @@
         "url": "https://fr.finance.yahoo.com/actualites/sarah-knafo-veut-toujours-supprimer-095021680.html"
        }
       ],
-      "note": "Reprise par le candidat le 17/09/2026 (BFMTV) ; plan publié sur budget2027.fr. La faisabilité (départs disponibles hors secteurs épargnés) relève du verdict, comme pour les autres candidats"
+      "note": "Reprise par le candidat le 17/09/2026 (BFMTV) ; plan publié sur budget2027.fr. La faisabilité (départs disponibles hors secteurs épargnés) relève du verdict, comme pour les autres candidats Fipeco (30 à 40 Md€) chiffre l'effet complet d'une réduction effective, sans part rendue aux agents ni montée en charge ; la règle commune (moitié rendue, 70 % du plan en 2030) vaut pour tous les plans de postes."
      },
      "quiz_text": "Supprimer un très grand nombre de postes publics, sauf profs, soignants, policiers et militaires",
      "quiz_concret": "Beaucoup moins de fonctionnaires dans les autres services.",
@@ -11181,7 +11195,7 @@
      "id": "famille",
      "theme": "social",
      "title": "Quotient familial doublé",
-     "proposal": "Doubler le plafond du quotient familial et rendre les allocations familiales universelles (2022, non confirmé en 2026).",
+     "proposal": "Doubler le plafond du quotient familial et rendre les allocations familiales universelles (programme 2022, non repris en 2026).",
      "claimed": "3,3 Md€/an",
      "claimed_md": -3.3,
      "estimates": [
@@ -11430,10 +11444,64 @@
       "note": "Verdict proposé : très difficile (unanimité des 27), comme Le Pen. Sans effet sur le total central ; élargit la fourchette."
      },
      "quiz_text": "Ramener le budget de l'UE à son niveau d'avant le Covid et réduire la contribution française."
+    },
+    {
+     "id": "rsa3",
+     "theme": "social",
+     "title": "RSA limité à 3 ans",
+     "proposal": "Limiter le RSA à trois ans pour les bénéficiaires en capacité de travailler (plan de 140 Md€, repris le 17/09/2026).",
+     "claimed": "4,8 Md€/an (budget2027.fr)",
+     "claimed_md": 4.8,
+     "estimates": [
+      {
+       "source": "BFMTV (17/09/2026)",
+       "year": 2026,
+       "value": "Le candidat prône « le plafonnement à trois ans du RSA »",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-immigration-voile-marine-le-pen-ce-qu-il-faut-retenir-de-l-interview-d-eric-zemmour-sur-bfmtv_AV-202609170966.html"
+      },
+      {
+       "source": "budget2027.fr (plan de S. Knafo, repris le 17/09)",
+       "year": 2026,
+       "value": "Limitation à trois ans de l'allocation RSA : 4,8 Md€",
+       "low_md": 4.8,
+       "high_md": 4.8,
+       "url": "https://www.budget2027.fr/"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Part des allocataires concernés non publiée ; droit aux minima garanti par le préambule de 1946 (accompagnement à prévoir).",
+     "claude": {
+      "id": "rsa3",
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "method": "nc",
+      "nc": true,
+      "formula": "Non chiffrable en l'état : part des allocataires « en capacité de travailler » non publiée, part au-delà de 3 ans à relever à la DREES (site inaccessible le 28/10). Indicatif, même base que Retailleau (RSA 12 Md€) : 12 × ≈ 40 % (camp, d'après la DREES) × 87 % (hors étrangers) ≈ +4,2 Md€ ; borne haute : chiffre du camp 4,8",
+      "note": "Fourchette indicative 0 à +4,8. À compter (≈ +4,2) dès que la part au-delà de 3 ans est relevée à la DREES, la condition « en capacité de travailler » étant lue comme l'obligation actuelle d'inscription à France Travail. Verdict proposé : sous conditions (loi ; droit à des « moyens convenables d'existence », alinéa 11 du Préambule de 1946, pour qui ne peut pas travailler). Retirer « RSA limité à 3 ans » de « reste du plan » et corriger le simulateur : « RSA limité à 3 ans pour les personnes aptes au travail (repris le 17/09/2026) ».",
+      "inputs": [
+       {
+        "label": "Dépense de RSA 2024",
+        "value": "12,0 Md€",
+        "source": "DREES (même base que la fiche Retailleau « Aides plafonnées »)",
+        "url": "https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-12/CPS2025%20-%20Fiche%2011%20-%20Le%20risque%20pauvret%C3%A9%20et%20exclusion%20sociale.pdf"
+       },
+       {
+        "label": "Ancienneté au RSA (cité par le camp)",
+        "value": "≈ 50 % < 2 ans, 25 % de 2 à 5 ans, 17 % ≥ 10 ans",
+        "source": "sarahknafo.fr, preuve n° 105 (d'après la DREES ; à vérifier à la source)",
+        "url": "https://sarahknafo.fr/preuves"
+       }
+      ]
+     },
+     "quiz_text": "Limiter le RSA à trois ans pour les bénéficiaires en capacité de travailler."
     }
    ],
    "total": {
-    "claimed": "140 Md€ d'économies par an (plan publié sur budget2027.fr, repris par le candidat le 17/09/2026)",
+    "claimed": "140 Md€ d'économies par an (plan de Sarah Knafo publié sur budget2027.fr, repris par le candidat le 17/09/2026) ; selon son autrice, ce plan doit financer la suppression de la CSG sur les salaires (≈ 100 Md€), que le candidat n'a pas reprise à ce jour",
     "independent": "Montaigne 2022 : −145,8 Md€/an pour le programme complet"
    },
    "sim": {
@@ -11449,7 +11517,7 @@
     "tva_energie": null,
     "fonctionnaires": "800 000 départs non remplacés en 5 ans, hors enseignants, soignants, policiers et militaires ; trois jours de carence (programme 2022, non reconfirmé).",
     "chomeurs": "Pas de mesure annoncée pour les chômeurs français ; un étranger au chômage depuis un an serait expulsé.",
-    "minima_sociaux": "RSA limité à 3 ans pour les personnes aptes au travail (programme 2022, non reconfirmé) ; aides non contributives réservées aux Français.",
+    "minima_sociaux": "RSA limité à 3 ans pour les personnes aptes au travail (repris le 17/09/2026, non chiffrable à ce jour) ; aides non contributives réservées aux Français.",
     "jeunes": null,
     "retraites_actuels": "Rien de confirmé en 2026 (en 2022 : réversion portée à 75 %, CSG supprimée sous 1 300 €).",
     "independants": "Concernés par la baisse de CSG jusqu'à 2 000 € net (programme 2022, non reconfirmée en 2026, non comptée).",
@@ -11476,14 +11544,14 @@
     "p10": 14.0,
     "p90": 34.0,
     "realsum": 14.6,
-    "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, suppression de l'aide au développement, reste du plan de 140 Md€ (budget2027.fr : lignes d'économies sans chiffrage indépendant)",
+    "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, suppression de l'aide au développement, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, étudiants étrangers 4, audiovisuel 4, Ademe 3,4, fraude 2 à 3, associations 1 à 2, ARS et autres agences 2)",
     "n": 9,
     "cost": -9.1,
     "gain": 30.4,
     "confirm": [
-     "Baisse de la CSG des actifs",
+     "Fin de la CSG sur les salaires",
      "Fin des droits de succession",
-     "Moins d'impôts de production",
+     "Fin des impôts de production",
      "Quotient familial doublé"
     ]
    },
@@ -11493,12 +11561,12 @@
   }
  ],
  "method": [
-  "<b>Notre chiffrage.</b> 125 mesures analysées, dont 98 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
+  "<b>Notre chiffrage.</b> 126 mesures analysées, dont 98 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
   "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,3 Md€ par tranche de +10 % ; AME remplacée par une aide d'urgence +0,7 Md€ ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie) ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
   "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026 (marquées « À confirmer ») et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 225 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 229 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). Ce sont des ordres de grandeur.",
@@ -11609,6 +11677,10 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "28/10/2026",
+   "text": "Zemmour : propositions de Sarah Knafo (secrétaire générale de Reconquête) vérifiées à la source. Suppression de la CSG sur les salaires, des droits de succession et des impôts de production : fiches mises à leur version 2026 (CSG −101,6 Md€, impôts de production −13 Md€, même calcul que pour Le Pen), toujours hors total tant que le candidat ne les reprend pas. RSA limité à trois ans, inscrit au plan de 140 Md€ repris le 17/09 : ajouté, non chiffrable (part des allocataires concernés non publiée). Quotient familial doublé : programme 2022 seulement. Estimation de Fipeco ajoutée pour les 800 000 postes. Lignes du plan sans chiffrage indépendant listées « non comptées ». Total inchangé (+21,3 Md€)."
+  },
   {
    "date": "27/10/2026",
    "text": "Cohérence des chiffres revue par un audit indépendant : retraites de Philippe ramenées à 5,8 Md€ (1,8 + 4, même base que Lisnard et Zemmour), total de +2,8 à +2,6 Md€ ; passage à 60 ans de Mélenchon rendu reproductible (−32,0 au lieu de −32,2) ; classes dédoublées lues de la même façon chez les cinq candidats concernés ; peines planchers : étude IPP de 2024 dans la fiche ; même formule pour toutes les mesures non chiffrables ; textes de méthode corrigés ; le fichier METHODOLOGIE.md est désormais généré à partir de l'onglet Méthode."
