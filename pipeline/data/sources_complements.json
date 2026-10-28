@@ -1,0 +1,530 @@
+[
+ {
+  "candidat": "glucksmann",
+  "mesure": "ecole",
+  "inputs": [
+   {
+    "label": "+10 % pour tous les enseignants",
+    "value": "≈3,3 Md€/an",
+    "source": "Institut Montaigne (valeur commune)",
+    "url": "https://www.institutmontaigne.org/presidentielle-2022/legislatives-2022/ensemble/revaloriser-les-salaires-des-enseignants-de-10"
+   },
+   {
+    "label": "Calendrier",
+    "value": "« planifiée sur 5 ans »",
+    "source": "Fondation iFRAP, comparateur des programmes 2027",
+    "url": "https://www.ifrap.org/comparateurs/presidentielles-2027"
+   }
+  ]
+ },
+ {
+  "candidat": "philippe",
+  "mesure": "chomage",
+  "inputs": [
+   {
+    "label": "Carence portée de 1 à 3 jours dans la fonction publique",
+    "value": "108 M€ → 216 M€, soit +0,11 Md€",
+    "source": "Public Sénat",
+    "url": "https://www.publicsenat.fr/actualites/economie/arrets-maladie-les-senateurs-augmentent-a-trois-jours-le-delai-de-carence-dans-la-fonction-publique"
+   },
+   {
+    "label": "Source de la mise à jour",
+    "value": "Lutter contre l'open bar des arrêts maladies : 3 jours de carence pour tout le monde, dans le privé comme le public.",
+    "source": "Site edouardphilippe.fr, « Pour une France plus prospère »",
+    "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+   }
+  ]
+ },
+ {
+  "candidat": "philippe",
+  "mesure": "fonds_climat",
+  "inputs": [
+   {
+    "label": "Fonds Barnier 2026",
+    "value": "287,4 M€",
+    "source": "Sénat, rapport spécial PLF 2026 (prévention des risques)",
+    "url": "https://www.senat.fr/rap/l25-139-310-1/l25-139-310-1-syn.pdf"
+   },
+   {
+    "label": "Fonds vert 2026",
+    "value": "837 M€ d'AE en loi de finances, ≈ 650 M€ après gel",
+    "source": "I4CE (juin 2026)",
+    "url": "https://www.i4ce.org/adaptation-changement-climatique-attendre-fonds-vert/"
+   },
+   {
+    "label": "Annonce",
+    "value": "fonds unique réunissant le fonds Barnier et le Fonds vert, 2 Md€ par an",
+    "source": "Site d'Édouard Philippe",
+    "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+   }
+  ]
+ },
+ {
+  "candidat": "retailleau",
+  "mesure": "fin_maprimerenov",
+  "inputs": [
+   {
+    "label": "Dotation de l'État à l'Anah (programme 135)",
+    "value": "1,450 Md€ (LFI 2026) → 1,233 Md€ (PLF 2027)",
+    "source": "MoneyVox (annexe du PLF 2027)",
+    "url": "https://www.moneyvox.fr/immobilier/actualites/110691/maprimerenov-ce-que-le-gouvernement-prevoit-de-changer-en-2027"
+   },
+   {
+    "label": "Financement de MaPrimeRénov' 2026",
+    "value": "3,6 Md€ au total ; 1,4 à 1,5 Md€ du programme 135 ; 600 M€ des quotas carbone ; au moins 1 Md€ de CEE",
+    "source": "Effy (source sectorielle, à confirmer par un document budgétaire) (entreprise du secteur ; à confirmer par un document budgétaire)",
+    "url": "https://www.effy.fr/flash-info/maprimerenov-derniere-ligne-droite-avant-reouverture"
+   },
+   {
+    "label": "CEE : financement hors budget",
+    "value": "« débudgétisation » ; dotation de l'État en baisse grâce aux CEE",
+    "source": "Sénat, avis budgétaire PLF 2026 (énergie)",
+    "url": "https://www.senat.fr/rap/a25-140-2/a25-140-21.pdf"
+   },
+   {
+    "label": "Chiffre du camp",
+    "value": "2 Md€ (suppression de MaPrimeRénov')",
+    "source": "Capital (12/10/2026), copie shango.media (copie d'agrégateur ; original non retrouvé)",
+    "url": "https://www.shango.media/capital-bruno-retailleau-devoile-son-plan-de-197-milliards-deuros-deconomies-dici-2032-11939708"
+   }
+  ]
+ },
+ {
+  "candidat": "attal",
+  "mesure": "profs",
+  "inputs": [
+   {
+    "label": "Coût annoncé",
+    "value": "entre 2,5 et 3 Md€",
+    "source": "Capital, citant l'entretien au Monde",
+    "url": "https://fr.finance.yahoo.com/actualites/salaires-enseignants-rapha%C3%ABl-glucksmann-assure-184327007.html"
+   }
+  ]
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "tva-produits-essentiels",
+  "inputs": [
+   {
+    "label": "Source de la mise à jour",
+    "value": "Suppression de la TVA sur 100 produits de première nécessité 3,500",
+    "source": "Contre-budget 2027 du groupe Rassemblement national (« Travaux parlementaires », octobre 2026), tableau « Postes d'économies et de dépenses ",
+    "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+   }
+  ]
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "ue",
+  "inputs": [
+   {
+    "label": "Source de la mise à jour",
+    "value": "Baisse de la contribution de la France à l'Union européenne 8,897 ; Rendre à la France sa part des droits de douane collectés par l'UE 2,200",
+    "source": "Contre-budget 2027 du groupe Rassemblement national (« Travaux parlementaires », octobre 2026), tableau « Postes d'économies et de dépenses ",
+    "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+   }
+  ]
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "niches",
+  "inputs": [
+   {
+    "label": "Source de la mise à jour",
+    "value": "rabotage et suppression des niches fiscales et sociales les plus injustes dont le coût a explosé (22 milliards d'euros en 2027) (...) nous proposons d'interromp",
+    "source": "La France insoumise, « Comment nous allons remettre de l'ordre dans les comptes publics » (note budgétaire pour 2027)",
+    "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+   }
+  ]
+ },
+ {
+  "candidat": "zemmour",
+  "mesure": "fonctionnaires",
+  "inputs": [
+   {
+    "label": "Ligne 1 du plan",
+    "value": "800 000 départs administratifs non remplacés sur 2,3 M de départs naturels : 40 Md€",
+    "source": "budget2027.fr (plan de S. Knafo, lié depuis parti-reconquete.fr)",
+    "url": "https://www.budget2027.fr/"
+   },
+   {
+    "label": "Secteurs épargnés",
+    "value": "enseignants, soignants, policiers et militaires",
+    "source": "AFP (La Gazette France, 02/09/2026)",
+    "url": "https://www.lagazettefrance.fr/article/en-attendant-zemmour-sarah-knafo-continue-d-ecrire-son-histoire"
+   },
+   {
+    "label": "Source de la mise à jour",
+    "value": "É. Zemmour, Face à BFM, 17/09/2026 : « Nous, avec Sarah Knafo, nous voulons faire 140 milliards d'euros de baisses » ; le compte rendu de BFMTV donne comme exem",
+    "source": "BFMTV, Face à BFM (vidéo ; compte rendu republié par Shango Media, agrégateur à signaler) ; Révolution permanente (24/09/2026) ; plan budget",
+    "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-eric-zemmour-president-de-reconquete-demande-une-reduction-massive-du-nombre-de-fonctionnaires_VN-202609170896.html"
+   },
+   {
+    "label": "Agents des secteurs épargnés",
+    "value": "2,2 M sur 5,9 M",
+    "source": "Capital (S. Knafo sur LCI, 14/10/2026)",
+    "url": "https://fr.finance.yahoo.com/actualites/sarah-knafo-veut-toujours-supprimer-095021680.html"
+   }
+  ]
+ },
+ {
+  "candidat": "zemmour",
+  "mesure": "aides",
+  "inputs": [
+   {
+    "label": "Reprise par le candidat",
+    "value": "« Je réclame la suppression des allocations non contributives aux étrangers » (17/09/2026)",
+    "source": "BFMTV",
+    "url": "https://www.bfmtv.com/politique/elections/presidentielle/video-je-reclame-la-suppression-des-allocations-non-contributives-aux-etrangers-demande-eric-zemmour-president-de-reconquete_VN-202609170901.html"
+   }
+  ]
+ },
+ {
+  "candidat": "lisnard",
+  "mesure": "is20",
+  "inputs": [
+   {
+    "label": "Source de la mise à jour",
+    "value": "« L'IS serait ramené à 20 % au niveau national, avec une liberté de taux local (entre 0 et 5%) pour les collectivités, afin que la responsabilité fiscale s'exer",
+    "source": "Tribune du 16/04/2026",
+    "url": "https://www.unenouvelleenergie.fr/changer-de-logiciel-fiscal/"
+   }
+  ]
+ },
+ {
+  "candidat": "lisnard",
+  "mesure": "aides5",
+  "inputs": [
+   {
+    "label": "5 ans de séjour pour les prestations non contributives",
+    "value": "2,1 Md€ (1,6 à 2,7)",
+    "source": "Institut Montaigne (2022, programme Pécresse)",
+    "url": "https://www.institutmontaigne.org/presidentielle-2022/valerie-pecresse/instaurer-un-minimum-de-5-ans-sur-le-territoire-pour-toucher-les-prestations-sociales-financees-en-dehors-des-cotisations-salariales"
+   },
+   {
+    "label": "Variante 5 ans de travail (RN)",
+    "value": "2,6 Md€ (0,6 à 3)",
+    "source": "Institut Montaigne (2024)",
+    "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/reserver-le-benefice-du-rsa-et-des-prestations-de-solidarites-aux-etrangers-ayant-au-moins-5-ans-dequivalent-temps-plein-travaille-en-france"
+   },
+   {
+    "label": "Chiffre du camp",
+    "value": "8 Md€/an",
+    "source": "Discours de La Gagne (site du camp)",
+    "url": "https://www.unenouvelleenergie.fr/questions/le-programme-de-david-lisnard-est-il-chiffre/"
+   },
+   {
+    "label": "Source de la mise à jour",
+    "value": "Page programme Immigration : « Conditionner les prestations sociales non contributives aux étrangers résidant régulièrement sur le territoire national depuis au",
+    "source": "unenouvelleenergie.fr (programme Immigration ; « Le programme est-il chiffré ? ») ; Institut Montaigne 2022 (mesure Pécresse)",
+    "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
+   }
+  ]
+ },
+ {
+  "candidat": "lisnard",
+  "mesure": "cotisations",
+  "inputs": [
+   {
+    "label": "Source de la mise à jour",
+    "value": "« David Lisnard annonce rendre 60 % des économies en pouvoir d'achat, soit 120 milliards sur 200, par la baisse des cotisations. »",
+    "source": "unenouvelleenergie.fr, « Le programme de David Lisnard est-il chiffré ? » (mise à jour du 16/10/2026)",
+    "url": "https://www.unenouvelleenergie.fr/questions/le-programme-de-david-lisnard-est-il-chiffre/"
+   }
+  ]
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "ticpe",
+  "claimed": "3,9 Md€ en 2027 (contre-budget 2027 du groupe RN)",
+  "claimed_md": -3.9
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "part-fiscale",
+  "claimed": "3,5 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -3.5
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "ir-moins-30-ans",
+  "claimed": "2,0 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -2.0
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "suramortissement",
+  "claimed": "2,1 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -2.1
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "octroi-de-mer",
+  "claimed": "1,8 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -1.8
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "dutreil",
+  "claimed": "1,75 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -1.75
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "successions",
+  "claimed": "1,2 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -1.2
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "donations",
+  "claimed": "0,5 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -0.5
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "pfu",
+  "claimed": "1,5 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -1.5
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "pret-3e-enfant",
+  "claimed": "1,6 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -1.6
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "recherche",
+  "claimed": "1,8 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -1.8
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "prisons",
+  "claimed": "1,0 Md€ en 2027 (contre-budget 2027 du groupe RN)",
+  "claimed_md": -1.0
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "mesures-sectorielles",
+  "claimed": "3,0 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -3.0
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "proches-aidants",
+  "claimed": "2,0 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -2.0
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "dentaire",
+  "claimed": "1,4 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": -1.4
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "iff",
+  "claimed": "+5,0 Md€ (contre-budget 2027 du groupe RN)",
+  "claimed_md": 5.0
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "logement-urgence",
+  "claimed": "3 Md€ (note LFI du 14/10/2026)",
+  "claimed_md": -3
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "cantine",
+  "claimed": "3,6 Md€ (note LFI du 14/10/2026)",
+  "claimed_md": -3.6
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "universites",
+  "claimed": "3,5 Md€ (note LFI du 14/10/2026)",
+  "claimed_md": -3.5
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "hopitaux",
+  "claimed": "3 Md€ (note LFI du 14/10/2026)",
+  "claimed_md": -3
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "vss",
+  "claimed": "2,6 Md€ de plus (note LFI du 14/10/2026)",
+  "claimed_md": -2.6
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "violences-enfants",
+  "claimed": "2 Md€ (note LFI du 14/10/2026)",
+  "claimed_md": -2
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "coupes-2026",
+  "claimed": "7 Md€ (note LFI du 14/10/2026)",
+  "claimed_md": -7
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "planification",
+  "claimed": "10 Md€ (note LFI du 14/10/2026)",
+  "claimed_md": -10
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "chomage",
+  "claimed": "3 Md€ (note LFI du 14/10/2026)",
+  "claimed_md": -3
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "af-apl",
+  "claimed": "8 Md€ avec l'indexation des pensions (note LFI du 14/10/2026)",
+  "claimed_md": -8
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "ttf",
+  "claimed": "+5 Md€ (note LFI du 14/10/2026)",
+  "claimed_md": 5
+ },
+ {
+  "candidat": "melenchon",
+  "mesure": "fraude",
+  "claimed": "+2 Md€ la première année (note LFI du 14/10/2026)",
+  "claimed_md": 2
+ },
+ {
+  "candidat": "glucksmann",
+  "mesure": "cheque_energie",
+  "claimed": "≈ 4 Md€ (candidat, BFMTV, 19/09/2026)",
+  "claimed_md": -4
+ },
+ {
+  "candidat": "philippe",
+  "mesure": "premier_contrat",
+  "claimed": "400 M€ par an (équipe du candidat, JDN)",
+  "claimed_md": -0.4
+ },
+ {
+  "candidat": "philippe",
+  "mesure": "armees",
+  "claimed": "Non chiffré",
+  "claimed_md": null
+ },
+ {
+  "candidat": "retailleau",
+  "mesure": "cotisations",
+  "claimed": "15 Md€ de cotisations patronales en moins (plan du 12/10/2026)",
+  "claimed_md": -15
+ },
+ {
+  "candidat": "retailleau",
+  "mesure": "conge_naissance",
+  "claimed": "≈ 0,7 Md€ (camp, AFP 30/04/2026)",
+  "claimed_md": -0.7
+ },
+ {
+  "candidat": "retailleau",
+  "mesure": "fraude",
+  "claimed": "+5 Md€ sur cinq ans (plan du 12/10/2026)",
+  "claimed_md": 1.2
+ },
+ {
+  "candidat": "attal",
+  "mesure": "engagement_civique",
+  "claimed": "Non chiffré",
+  "claimed_md": null
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "suramortissement",
+  "inputs": [
+   {
+    "label": "Recoupement",
+    "value": "Ligne classée « coût certain » dans l'analyse du contre-budget",
+    "source": "Institut de l'Entreprise, note de contexte (octobre 2026)",
+    "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+   }
+  ]
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "recherche",
+  "inputs": [
+   {
+    "label": "Recoupement",
+    "value": "Ligne classée « coût certain » dans l'analyse du contre-budget",
+    "source": "Institut de l'Entreprise, note de contexte (octobre 2026)",
+    "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+   }
+  ]
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "mesures-sectorielles",
+  "inputs": [
+   {
+    "label": "Recoupement",
+    "value": "Ligne classée « coût certain » dans l'analyse du contre-budget",
+    "source": "Institut de l'Entreprise, note de contexte (octobre 2026)",
+    "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+   }
+  ]
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "proches-aidants",
+  "inputs": [
+   {
+    "label": "Recoupement",
+    "value": "Ligne classée « coût certain » dans l'analyse du contre-budget",
+    "source": "Institut de l'Entreprise, note de contexte (octobre 2026)",
+    "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+   }
+  ]
+ },
+ {
+  "candidat": "le-pen",
+  "mesure": "dentaire",
+  "inputs": [
+   {
+    "label": "Recoupement",
+    "value": "Ligne classée « coût certain » dans l'analyse du contre-budget",
+    "source": "Institut de l'Entreprise, note de contexte (octobre 2026)",
+    "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+   }
+  ]
+ },
+ {
+  "candidat": "retailleau",
+  "mesure": "cotisations",
+  "inputs": [
+   {
+    "label": "Répartition des 30 Md€ « entreprises »",
+    "value": "−15 Md€ d'impôts de production et −15 Md€ de cotisations patronales",
+    "source": "Fondation iFRAP, comparateur des programmes 2027",
+    "url": "https://www.ifrap.org/comparateurs/presidentielles-2027"
+   }
+  ]
+ },
+ {
+  "candidat": "retailleau",
+  "mesure": "production",
+  "inputs": [
+   {
+    "label": "Répartition des 30 Md€ « entreprises »",
+    "value": "−15 Md€ d'impôts de production et −15 Md€ de cotisations patronales",
+    "source": "Fondation iFRAP, comparateur des programmes 2027",
+    "url": "https://www.ifrap.org/comparateurs/presidentielles-2027"
+   }
+  ]
+ }
+]

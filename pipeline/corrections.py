@@ -535,6 +535,19 @@ M('lisnard','is20')['claude']['note']="Taux local au choix des collectivités, n
 sl=C['lisnard']['sim']; sl['ir_reforme']={'ni':1.0,'noCap':True,'note':"Quotient familial sans plafond et CSG-CRDS déductibles de l'impôt sur le revenu (tribune du 16/04/2026)"}
 sl['heritage']=[{'seuil':100000,'effet':"Plus de droits de succession en ligne directe (tribune du 16/04/2026)."}]
 
+# --- review 12 : sources consolidées (28/10/2026) : sources des mesures modifiées le 27/10, montant annoncé des mesures ajoutées,
+# recoupements (Institut de l'Entreprise pour le contre-budget RN, iFRAP pour le plan Retailleau), copies d'agrégateur signalées
+for x in json.load(open('data/sources_complements.json')):
+    m=M(x['candidat'],x['mesure'])
+    if 'claimed' in x: m['claimed']=x['claimed']; m['claimed_md']=x['claimed_md']
+    have={i['url'] for i in m['claude'].get('inputs',[])}
+    m['claude']['inputs']=m['claude'].get('inputs',[])+[i for i in x.get('inputs',[]) if i['url'] not in have]
+# Le Pen, moins de 30 ans : l'Institut Montaigne a publié deux chiffrages (2022 : 3,7, « sujet à caution » ; 2024 : 0,7, en partie sur la base de 2022) → médiane
+MT24="https://institutmontaigne.org/ressources/documents/synthese-legislatives-2024-micro-chiffrages-institut-montaigne-rn.pdf"
+SET('le-pen','ir-moins-30-ans',-2.2,-3.7,-0.7,"Médiane des deux chiffrages de l'Institut Montaigne : 3,7 Md€ (2022, sans plafond, « sujet à caution ») et 0,7 Md€ (2024, « en partie » sur la base de 2022) ≈ −2,2 ; le plafond de 4 SMIC de la version 2026 réduit peu le coût ; chiffre du camp (2,0) hors médiane",method='médiane')
+m=M('le-pen','ir-moins-30-ans'); m['claude']['inputs'].append({"label":"Exonérer les moins de 30 ans d'impôt sur le revenu","value":"0,7 Md€/an","source":"Institut Montaigne, synthèse des micro-chiffrages RN (législatives 2024)","url":MT24})
+m['estimates'].append({"source":"Institut Montaigne (2024)","year":2024,"value":"Exonérer les moins de 30 ans : 0,7 Md€/an","low_md":-0.7,"high_md":-0.7,"url":MT24})
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
