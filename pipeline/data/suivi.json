@@ -1070,11 +1070,11 @@
    ],
    "mesure": null,
    "sujet": "Simulateur : mesures ajoutées le 27/10 encore en note",
-   "detail": "Taxe sur les carburants (Le Pen : niveau de 2017 ; Zemmour : −1/3) : tarifs 2017 et 2026 à relever sur la circulaire des douanes (DA 25-062, hausse au 1/1/2026 signalée) avant de calculer le prix à la pompe ; chèque énergie triplé (Glucksmann) : seuils non publiés ; part fiscale dès le 2e enfant (Le Pen) et congé de naissance (Retailleau) à calculer.",
+   "detail": "Taxe sur les carburants (Le Pen : niveau de 2017 ; Zemmour : −1/3) : tarifs 2017 et 2026 à relever sur la circulaire des douanes (DA 25-062, hausse au 1/1/2026 signalée) avant de calculer le prix à la pompe ; chèque énergie triplé (Glucksmann) : seuils non publiés ; part fiscale dès le 2e enfant (Le Pen) et congé de naissance (Retailleau) à calculer. Revue du 28/10 : baisse par litre de la TICPE de Le Pen = 6,33 c€ HT sur le gazole, 3,22 sur l'essence, 4,50 sur le fioul (circulaires des douanes 2017 et 2026), TVA en plus.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": "Calculés le 27/10 : quotient familial sans plafond et CSG déductible (Lisnard), moins de 30 ans jusqu'à 4 SMIC (Le Pen)."
   },
   {
@@ -1114,6 +1114,58 @@
    "mesure": null,
    "sujet": "Rôle de Sarah Knafo : ses propositions valent-elles programme de Zemmour ?",
    "detail": "Faits (revue du 28/10/2026) : S. Knafo est secrétaire générale de Reconquête, sans rôle de campagne officiel connu (ni directrice de campagne, ni porte-parole, ni responsable du programme). Son plan de 140 Md€ d'économies (budget2027.fr) a été repris par le candidat le 17/09 et est compté. Elle présente ce plan comme le financement de la suppression de la CSG sur les salaires (TF1 07/09, CNews 30/08, Sud Radio 16/10), et propose aussi d'abolir les droits de succession et les impôts de production ; le candidat ne les a pas repris. Règle actuelle (S070 et consignes du 28/10) : un proche sans rôle officiel ne parle pas pour le candidat sans reprise. Options : A) lecture stricte, total inchangé (+21,3), note visible dans « Le camp annonce » ; B) S. Knafo parle pour le candidat : total −108,3 (CSG −101,6, successions −15, production −13), et la même règle vaudrait pour les dirigeants des partis des 7 autres candidats ; C) intermédiaire : la CSG seule, présentée comme but du plan repris : total ≈ −80,3.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-28",
+   "maj": "2026-10-28",
+   "resolution": null
+  },
+  {
+   "id": "S075",
+   "type": "a_trancher",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "attal",
+    "philippe",
+    "retailleau"
+   ],
+   "mesure": null,
+   "sujet": "Mesures comptées au seul chiffre du camp : chiffrages indépendants et calculs ascendants",
+   "detail": "Revue du 28/10/2026 des 24 mesures comptées au chiffre du camp. Aucun chiffrage indépendant nouveau (l'Institut de l'Entreprise reprend les montants du RN sans les réévaluer ; le comparateur de l'iFRAP recopie ceux des candidats). Quand le paramètre est publié et qu'une donnée publique donne le coût unitaire, un calcul ascendant est possible : TICPE de Le Pen (tarifs 2017 et 2026 des douanes × volumes 2025 : −2,2 au lieu de −3,9), dentaire de Le Pen (0,5 Md€ par tranche de 10 points, droit de 2030 à 50 % : −2,5 au lieu de −1,4), chômage de Mélenchon (réformes abrogées, Unédic en régime de croisière : −6,5 au lieu de −3 ; borne −8 si la convention de 2024 est comprise), universités de Mélenchon (250 000 × 12 250 € : −3,1 au lieu de −3,5).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-28",
+   "maj": "2026-10-28",
+   "resolution": "Tranché le 28/10 sur délégation du porteur, par la règle commune « médiane des chiffrages crédibles, sinon calcul ascendant » appliquée aux faits : le calcul ascendant remplace le chiffre du camp quand tous ses paramètres sont publiés ou mesurés (précédent : accise de Zemmour), le chiffre du camp devient une borne ; sinon le chiffre du camp ±50 % reste (proches aidants, suramortissement, octroi de mer, congé de naissance, chèque énergie, jeunes parents : paramètre manquant, repères ajoutés en note). Situation de départ en 2030 : droit en vigueur, décrets publiés compris (dentaire). Totaux : Le Pen −65,2 → −64,6 ; Mélenchon −126,2 → −129,3. Aussi : flat tax de Le Pen désormais au chiffrage indépendant de la version votée (1,5 Md€, Légifiscal), l'estimation d'avant le vote (2,8) retirée ; borne d'Attal (enseignants) à la part explicite (+200 € = −1,5), comme Glucksmann ; source du coût d'Attal corrigée (le candidat lui-même, entretien au Monde cité par Capital, et non La Gazette) ; mécanisme des jeunes parents de Philippe précisé (exonération sous 3 000 € d'impôt, réduction de 3 000 € au-delà, sans plafond de revenus). Le porteur peut revenir sur ce choix."
+  },
+  {
+   "id": "S076",
+   "type": "a_trancher",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "retailleau"
+   ],
+   "mesure": "fraude",
+   "sujet": "Fraude : la règle des recettes s'applique-t-elle ?",
+   "detail": "Les trois mesures fraude (Le Pen, Mélenchon +2, Retailleau +1,2) sont comptées au chiffre du camp plafonné au potentiel du CAE (4,1). Appliquée strictement, la règle S070 (une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié) les sortirait toutes les trois du total. À trancher pour les trois ensemble.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-28",
+   "maj": "2026-10-28",
+   "resolution": null
+  },
+  {
+   "id": "S077",
+   "type": "a_verifier",
+   "candidats": [
+    "zemmour",
+    "le-pen"
+   ],
+   "mesure": "accise",
+   "sujet": "Carburants : même base pour l'accise de Zemmour et la TICPE de Le Pen",
+   "detail": "L'accise de Zemmour part des recettes 2025 (24,8 Md€, Cour des comptes) ; la TICPE de Le Pen part des tarifs × volumes 2025 (≈ 28 Md€ d'accise après remboursements). Vérifier l'écart (E85, Corse, Île-de-France, part des collectivités) pour que les deux mesures carburant reposent sur la même base.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-28",
