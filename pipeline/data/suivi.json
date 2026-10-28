@@ -67,11 +67,11 @@
    ],
    "mesure": "zucman",
    "sujet": "Impôt plancher sur les ultra-riches : reprise en 2027 ?",
-   "detail": "Défendu en 2025 ; reprise dans le programme 2027 non confirmée, donc hors total.",
+   "detail": "Défendu en 2025 ; reprise dans le programme 2027 non confirmée, donc hors total. Revue du 28/10 : toujours rien. Au débat de la primaire du 4/10, c'est O. Faure qui défend la taxe Zucman ; R. Glucksmann parle de « taxation des plus hauts patrimoines » sans taux ni seuil ; son site ne publie pas de programme. Les sites qui l'affirment sont non officiels (écartés).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -187,11 +187,11 @@
    ],
    "mesure": "retraites",
    "sujet": "Paramètres de la fin de l'âge légal (décotes) non publiés",
-   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp. Revue du 28/10 : rien de publié (programme, presse du 20 au 28/10).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -202,11 +202,11 @@
    ],
    "mesure": "immigration",
    "sujet": "Niveau des quotas non précisé",
-   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp. Revue du 28/10 : rien de publié (programme, presse du 20 au 28/10).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -219,10 +219,10 @@
    "sujet": "Paramètres de la réforme de l'assurance chômage non publiés",
    "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
-   "resolution": null
+   "maj": "2026-10-28",
+   "resolution": "Fait le 28/10 (S079) : la page « Dette de l'État » du programme présente la réforme du candidat comme celle de 2024 (« 100 000 emplois », « plus de 4 milliards »), empêchée par la dissolution ; même réforme, même chiffrage que Retailleau : +3,6 (gouvernement, mai 2024), borne haute 4,0 (chiffre du camp)."
   },
   {
    "id": "S016",
@@ -232,11 +232,11 @@
    ],
    "mesure": "fonction",
    "sujet": "Proportion de départs non remplacés non publiée",
-   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp. Revue du 28/10 : rien de publié (programme, presse du 20 au 28/10).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -247,11 +247,11 @@
    ],
    "mesure": "allocation",
    "sujet": "Plafond de l'allocation sociale unique non publié",
-   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp.",
+   "detail": "Mesure hors total (fourchette indicative en note) tant que le paramètre n'est pas publié par le camp. Revue du 28/10 : rien de publié (programme, presse du 20 au 28/10).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -560,10 +560,10 @@
    "sujet": "Stages rémunérés 1 000 €/mois (15/10/2026)",
    "detail": "Stages de plus de 2 mois, par décret dès 2027 ; coût non publié (franceinfo, 15/10/2026). « 100 jours de la révolution écologique » annoncés, pas encore publiés.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
-   "resolution": null
+   "maj": "2026-10-28",
+   "resolution": "Fait le 28/10 : source vérifiée (message du candidat sur X le 15/10, repris par CNews ; l'article franceinfo n'a pas été retrouvé). Coût public sous 1 Md€ (surtout à la charge des employeurs) : liste « non compté », avec le séjour collectif garanti à chaque enfant. Les « 100 jours de la révolution écologique » ne sont toujours pas publiés (veille)."
   },
   {
    "id": "S039",
@@ -575,10 +575,10 @@
    "sujet": "Site officiel mis à jour (≈ 15/10/2026) : 117 propositions",
    "detail": "Mesures chiffrées visibles : 50 Md€ de baisse des impôts de production compensée par 50 Md€ d'aides en moins ; déficit à 2 % du PIB en fin de mandat ; 3 jours de carence privé et public ; 500 € versés sur un plan d'épargne retraite au premier emploi ; zéro cotisation patronale au-delà de 37 h. Rythmes scolaires (15/10), sans chiffre. Source : edouardphilippe.fr ; le décompte des ajouts vient de prisme.vote (non officiel). 27/10 : 3 jours de carence (+0,1, même valeur que Retailleau), 500 € au premier emploi (−0,4), réservistes et volontaires (−0,8) et fonds climat net (−0,9) intégrés.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
-   "resolution": null
+   "maj": "2026-10-28",
+   "resolution": "Fait le 28/10 : 45 annuités ≈ 0 en 2030 et capitalisation alimentée par les excédents de l'Agirc-Arrco (0 si le fonds reste une administration publique) décrites dans la fiche retraites ; 100 000 ingénieurs par an ajoutés en non chiffrable (moyens non publiés, de −1,0 à −2,3 en note) ; autres propositions sans paramètre listées « non compté » (petits effectifs, soutien scolaire, prêt à taux zéro à chaque naissance, donations, EPR…)."
   },
   {
    "id": "S040",
@@ -590,10 +590,10 @@
    "sujet": "Annonces du 19/10/2026, sans chiffre",
    "detail": "État d'urgence ; déchéance de nationalité pour des binationaux condamnés pour pillage (une loi serait nécessaire) ; immigration. Pas d'effet budgétaire chiffrable ; volet vie quotidienne (sécurité).",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
-   "resolution": null
+   "maj": "2026-10-28",
+   "resolution": "Vérifié le 28/10 (AFP) : déchéance de nationalité, loi anti-casseurs, état d'urgence, majorité pénale à 15 ans : aucun effet budgétaire ; la majorité pénale figure au volet « Vie quotidienne »."
   },
   {
    "id": "S041",
@@ -620,10 +620,10 @@
    "sujet": "Page « économies » mise à jour (16/10/2026)",
    "detail": "Au moins 200 Md€ d'économies, dont 80 la 1re année ; désindexation des pensions au-dessus d'≈ 2 000 €/mois ; plafonnement de prestations. Analyse externe : Génération Libre via Atlantico (23/10), pas un institut de la liste.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
-   "resolution": null
+   "maj": "2026-10-28",
+   "resolution": "Fait le 28/10 (S079) : gel des pensions au-dessus de 2 200 € reconfirmé par le candidat le 27/10 (Europe 1), chiffré avec l'étude IPP (+2,5, un an de gel, même lecture que l'année blanche d'Attal) ; CSG des actifs 9,2 % → 6,6 % confirmée le même jour : −29,2, la fiche « baisse des cotisations » devient un doublon. Suppression de l'abattement de 10 % sur les pensions : seulement dans une copie Yahoo d'un article de Capital, non vérifiée, rien d'ajouté."
   },
   {
    "id": "S043",
@@ -676,10 +676,10 @@
    "sujet": "Réforme de l'assurance chômage non chiffrée",
    "detail": "Citée parmi les postes non chiffrés du total de Retailleau. Même traitement que le point sur Attal (S035) : chercher les paramètres et un chiffrage publié.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
-   "resolution": null
+   "maj": "2026-10-28",
+   "resolution": "Fait le 28/10 (S079) : paramètres publiés dans le livret LR « Le travail gagnant » (janvier 2026 : règles de juin 2024, 6 mois après une rupture conventionnelle, dégressivité au-dessus de 3 000 € net), reconfirmés le 12/10 ; fiche ajoutée à +3,6 (chiffrage du gouvernement de 2024 pour les mêmes règles) ; ruptures conventionnelles (≈ +4,6 par calcul) en borne haute seulement, plafonds non publiés."
   },
   {
    "id": "S047",
@@ -762,11 +762,11 @@
    ],
    "mesure": "famille",
    "sujet": "Allocation unique : seuils de dégressivité et aides remplacées non publiés",
-   "detail": "Mesure hors total (fourchette indicative en note : de 0 à environ −17,5 Md€) tant que le camp ne publie pas les seuils de revenu et la liste complète des aides fusionnées.",
+   "detail": "Mesure hors total (fourchette indicative en note : de 0 à environ −17,5 Md€) tant que le camp ne publie pas les seuils de revenu et la liste complète des aides fusionnées. Revue du 28/10 : rien de publié (programme, presse du 20 au 28/10).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -1070,7 +1070,7 @@
    ],
    "mesure": null,
    "sujet": "Simulateur : mesures ajoutées le 27/10 encore en note",
-   "detail": "Taxe sur les carburants (Le Pen : niveau de 2017 ; Zemmour : −1/3) : tarifs 2017 et 2026 à relever sur la circulaire des douanes (DA 25-062, hausse au 1/1/2026 signalée) avant de calculer le prix à la pompe ; chèque énergie triplé (Glucksmann) : seuils non publiés ; part fiscale dès le 2e enfant (Le Pen) et congé de naissance (Retailleau) à calculer. Revue du 28/10 : baisse par litre de la TICPE de Le Pen = 6,33 c€ HT sur le gazole, 3,22 sur l'essence, 4,50 sur le fioul (circulaires des douanes 2017 et 2026), TVA en plus.",
+   "detail": "Taxe sur les carburants (Le Pen : niveau de 2017 ; Zemmour : −1/3) : tarifs 2017 et 2026 à relever sur la circulaire des douanes (DA 25-062, hausse au 1/1/2026 signalée) avant de calculer le prix à la pompe ; chèque énergie triplé (Glucksmann) : seuils non publiés ; part fiscale dès le 2e enfant (Le Pen) et congé de naissance (Retailleau) à calculer. Revue du 28/10 : baisse par litre de la TICPE de Le Pen = 6,33 c€ HT sur le gazole, 3,22 sur l'essence, 4,50 sur le fioul (circulaires des douanes 2017 et 2026), TVA en plus. Revue du 28/10 : CSG de Lisnard (9,2 % → 6,6 %) désormais calculée au simulateur (≈ 89 €/mois au salaire moyen) ; le reste de la baisse des cotisations promise reste en note.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -1085,11 +1085,11 @@
    ],
    "mesure": "immigration",
    "sujet": "Retailleau : aides réservées et lecture du plan de 197 Md€",
-   "detail": "Règle (6) de S070 : chaque candidat reçoit l'étude de sa condition ; Retailleau (5 ans de résidence et de travail) est encore compté au chiffre cumulé de son camp (+1,6). Aligner sur l'étude Montaigne 2024 (condition de travail) après vérification. Par ailleurs, plusieurs montants du plan sont des niveaux annuels (postes, impôts de production) alors que les retraites (+2,8) et l'immigration sont lus comme des cumuls (3,5/15) : vérifier poste par poste.",
+   "detail": "Règle (6) de S070 : chaque candidat reçoit l'étude de sa condition ; Retailleau (5 ans de résidence et de travail) est encore compté au chiffre cumulé de son camp (+1,6). Aligner sur l'étude Montaigne 2024 (condition de travail) après vérification. Par ailleurs, plusieurs montants du plan sont des niveaux annuels (postes, impôts de production) alors que les retraites (+2,8) et l'immigration sont lus comme des cumuls (3,5/15) : vérifier poste par poste. Revue du 28/10 : le livret LR « Le travail gagnant » (janvier 2026) présente les 30 Md€ « chômage et prestations » comme un gain annuel (chômage 12,5 à 15,7 ; compte social unique et fraude 10 ; IS 4 ; RIA 2), et non comme un cumul ; la fiche chômage est désormais à part (+3,6).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -1166,6 +1166,81 @@
    "mesure": "accise",
    "sujet": "Carburants : même base pour l'accise de Zemmour et la TICPE de Le Pen",
    "detail": "L'accise de Zemmour part des recettes 2025 (24,8 Md€, Cour des comptes) ; la TICPE de Le Pen part des tarifs × volumes 2025 (≈ 28 Md€ d'accise après remboursements). Vérifier l'écart (E85, Corse, Île-de-France, part des collectivités) pour que les deux mesures carburant reposent sur la même base.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-28",
+   "maj": "2026-10-28",
+   "resolution": null
+  },
+  {
+   "id": "S078",
+   "type": "a_trancher",
+   "candidats": [
+    "le-pen",
+    "glucksmann",
+    "philippe",
+    "retailleau",
+    "attal",
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Valeurs communes et chiffrages datés remis aux données 2025-2026",
+   "detail": "Revue du 28/10/2026 des 16 fiches chiffrées avant 2025 et des mesures du même type : aucun chiffrage indépendant nouveau (Institut Montaigne : programmes 2027 au premier trimestre 2027). Écarts de moins de 5 % laissés tels quels (SMIC de Mélenchon et Glucksmann, garantie jeunes, blocage des prix, TVA 0 % de Le Pen, postes publics, chômage de Philippe, aides plafonnées de Retailleau, expulsions de Zemmour). Écarts importants : AME (crédits votés de 2024 < dépense réelle de 2025), salaires des enseignants (Montaigne 2022 sur les salaires de 2019, +19,7 % depuis), retraite à 65 ans (iFRAP 2023 supposait un calendrier lancé en 2023), part des étrangers (2020 → 2023).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-28",
+   "maj": "2026-10-28",
+   "resolution": "Tranché le 28/10 sur délégation du porteur, par les faits et la même règle pour tous : AME → aide d'urgence +0,9 (méthode Montaigne 2024 sur la dépense réelle 2025, 1 351 M€, Sénat ; part hospitalière 60,8 %) chez Le Pen, Retailleau, Lisnard et Zemmour ; enseignants 3,9 Md€ par +10 % (3,3 × 3 190/2 664 × 852 752/866 000) : Philippe et Lisnard −5,5, bornes de Glucksmann (−2,7) et d'Attal (−1,8) ; « 65 ans » : au rythme de la réforme de 2023, aucun effet avant 2032 (Cour des comptes, février 2025) : Philippe et Lisnard +1,8 comme Zemmour, borne +5,8 si le recul était accéléré ; aides réservées : part des étrangers 8,2 % (Insee 2023) : Zemmour +7,3, Lisnard +2,3. CLAUDE.md et la méthode mis à jour. Le porteur peut revenir sur ce choix."
+  },
+  {
+   "id": "S079",
+   "type": "a_trancher",
+   "candidats": [
+    "philippe",
+    "retailleau",
+    "attal",
+    "lisnard",
+    "glucksmann",
+    "melenchon",
+    "le-pen"
+   ],
+   "mesure": null,
+   "sujet": "Annonces du 20 au 28/10 et mesures publiées absentes des fiches",
+   "detail": "Revue du 28/10/2026 : quatre mesures publiées par Retailleau en 2026 n'avaient ni fiche ni ligne « non compté » (enseignants, plan IA, transmission d'entreprise, assurance chômage) ; Lisnard a confirmé le 27/10 un taux de CSG précis et le gel des pensions au-dessus de 2 200 € ; le programme d'Attal renvoie explicitement à sa réforme de l'assurance chômage de 2024 ; il a publié l'horizon de son plan IA (200 Md€ d'ici 2040, moitié publics) ; Philippe vise 100 000 ingénieurs par an.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-28",
+   "maj": "2026-10-28",
+   "resolution": "Tranché le 28/10 sur délégation du porteur, par les règles S070 et S075 : Retailleau chômage +3,6 (gouvernement 2024, mêmes règles), plan IA −2,9 (part nouvelle publiée, cumul → 3,5/15), enseignants −2,1 (chiffre du camp, 70 % en 2030), transmission −1,8 (même calcul que le pacte Dutreil de Le Pen) ; Attal chômage +3,6 (même réforme, même chiffrage) ; plan IA d'Attal toujours non chiffrable (part nouvelle des 100 Md€ publics non publiée ; de −1,7 à −7,1 en note), comme Retailleau n'est compté que pour sa part nouvelle ; Lisnard CSG −29,2 (baisse d'impôt au taux publié, comptée entière en 2030 sans déduire le financement annoncé, comme les 15 Md€ de Retailleau ; même base que la CSG de Zemmour ; la fiche « cotisations » devient un doublon), gel des pensions +2,5 (IPP, un an) ; Philippe ingénieurs non chiffrable (moyens non publiés). Totaux : Le Pen −64,5, Mélenchon −129,3, Glucksmann −44,7, Philippe −2,3, Retailleau −4,0, Attal +7,8, Lisnard −56,7, Zemmour +22,1. Le porteur peut revenir sur ce choix."
+  },
+  {
+   "id": "S080",
+   "type": "a_verifier",
+   "candidats": [
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Lisnard : 20 000 places de prison, à compter comme Le Pen et Retailleau ?",
+   "detail": "Le Pen (30 000 places) et Retailleau (10 000 places) sont comptés au coût annuel d'un détenu (32 k€) ; les 20 000 places de Lisnard sont seulement listées « non compté ». Source primaire à confirmer (discours de Saint-Raphaël, site du candidat inaccessible le 28/10 ; seul un site non officiel le rapporte) ; si confirmé : 20 000 × 32 k€ ≈ −0,6.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-28",
+   "maj": "2026-10-28",
+   "resolution": null
+  },
+  {
+   "id": "S081",
+   "type": "a_verifier",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "glucksmann",
+    "attal"
+   ],
+   "mesure": null,
+   "sujet": "Suites de la revue des chiffrages datés",
+   "detail": "(1) Priorité nationale de Le Pen (Montaigne 2024) : année de base à vérifier avant d'actualiser la part des étrangers, comme Zemmour et Lisnard. (2) Prix de référence de l'énergie (moyenne des 12 derniers mois ou dernier relevé) : même règle pour le blocage des prix de Mélenchon et la TVA énergie de Le Pen. (3) La même étude iFRAP sur le SMIC est lue différemment chez Mélenchon et chez Glucksmann (montant, consensus, méthode) : harmoniser. (4) Point d'indice de Mélenchon (2,07 Md€ par point, 2022) : actualiser. (5) Projet de loi de financement de la Sécurité sociale 2027 : désindexation des pensions au-delà de 1 260 € ; s'il est voté, la situation de départ change pour tous (gel des pensions de Lisnard, année blanche d'Attal).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-28",

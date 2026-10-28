@@ -1745,7 +1745,7 @@
 }
 ]
 },
-"lisnard.cotisations": {
+"lisnard.csg_actifs": {
 "complement": "Le même programme la finance par des économies sur l'État (postes, agences), sans toutes les détailler.",
 "complement_ref": [
 "lisnard.depense",
