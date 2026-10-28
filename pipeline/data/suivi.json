@@ -1,5 +1,5 @@
 {
- "derniere_revue": "2026-10-27",
+ "derniere_revue": "2026-10-28",
  "points": [
   {
    "id": "S001",
@@ -39,11 +39,11 @@
    ],
    "mesure": null,
    "sujet": "Programme 2026 de Reconquête",
-   "detail": "CSG, successions, impôts de production et quotient familial sont hors total faute de reconfirmation en 2026 : les réintégrer ou les retirer selon le programme.",
+   "detail": "CSG, successions, impôts de production et quotient familial sont hors total faute de reconfirmation en 2026 : les réintégrer ou les retirer selon le programme. Revue du 28/10 : CSG (suppression totale), successions et impôts de production ont été proposés en 2026 par S. Knafo (secrétaire générale de Reconquête, sans rôle de campagne officiel connu) dans son livre et ses entretiens, sans reprise par le candidat ; fiches mises à jour en version 2026, toujours hors total (voir S074). Le quotient familial ne vient que du programme 2022.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -82,11 +82,11 @@
    ],
    "mesure": "csg",
    "sujet": "Baisse de la CSG des actifs : reconfirmée en 2026 ?",
-   "detail": "Mesure de 2022 non reconfirmée en 2026, hors total (voir le point sur le programme 2026).",
+   "detail": "Revue du 28/10 : version 2026 = suppression de la CSG sur les revenus d'activité (−101,6 Md€, calcul ascendant), proposée par S. Knafo (secrétaire générale de Reconquête, sans rôle de campagne officiel connu) comme but du plan de 140 Md€ ; le candidat ne l'a pas reprise. Fiche à jour, hors total (S074).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -97,11 +97,11 @@
    ],
    "mesure": "succession",
    "sujet": "Fin des droits de succession : reconfirmée en 2026 ?",
-   "detail": "Mesure de 2022 non reconfirmée en 2026, hors total (voir le point sur le programme 2026).",
+   "detail": "Revue du 28/10 : abolition totale proposée en 2026 par S. Knafo (secrétaire générale de Reconquête, sans rôle de campagne officiel connu) (JDD, 30-31/08), sans reprise par le candidat ; base 15 Md€ (même que Lisnard). Fiche à jour, hors total (S074).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -112,11 +112,11 @@
    ],
    "mesure": "production",
    "sujet": "Baisse des impôts de production : reconfirmée en 2026 ?",
-   "detail": "Mesure de 2022 non reconfirmée en 2026, hors total (voir le point sur le programme 2026).",
+   "detail": "Revue du 28/10 : suppression proposée en 2026 par S. Knafo (secrétaire générale de Reconquête, sans rôle de campagne officiel connu) ; −13 Md€, même calcul que Le Pen. Fiche à jour, hors total (S074).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -127,11 +127,11 @@
    ],
    "mesure": "famille",
    "sujet": "Quotient familial doublé : reconfirmée en 2026 ?",
-   "detail": "Mesure de 2022 non reconfirmée en 2026, hors total (voir le point sur le programme 2026).",
+   "detail": "Revue du 28/10 : la mesure ne vient que du programme 2022 (rien dans le livre ni le plan de S. Knafo). Hors total.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -633,11 +633,11 @@
    ],
    "mesure": null,
    "sujet": "Rien de nouveau du candidat (15-27/10/2026)",
-   "detail": "Pas de programme ni de déclaration ; succession : propos prêtés à S. Knafo (16/10) non recoupés. Voir le point sur le programme 2026.",
+   "detail": "Pas de programme ni de déclaration nouvelle du candidat du 15 au 28/10. Revue du 28/10 : le plan de 140 Md€ repris le 17/09 (BFMTV) contient aussi le RSA limité à 3 ans, ajouté en non chiffrable (part des allocataires concernés non publiée ; 4,8 Md€ selon le plan, en note) ; lignes du plan sans chiffrage indépendant listées « non comptées » (IA, politique de la ville, France Travail…). Successions : propos de S. Knafo, voir S074.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-28",
    "resolution": null
   },
   {
@@ -1104,6 +1104,21 @@
    "cree": "2026-10-28",
    "maj": "2026-10-28",
    "resolution": "Fait le 28/10 : sources ajoutées aux mesures modifiées (Montaigne 2022 pour les aides de Lisnard, crédits 2026 du fonds Barnier et du Fonds vert, BFMTV et budget2027.fr pour les postes de Zemmour…) ; montant annoncé affiché pour les 35 mesures ; contre-budget RN recoupé par l'Institut de l'Entreprise (« coût certain ») pour 5 lignes ; répartition 15/15 du plan Retailleau sourcée par l'iFRAP, copies d'agrégateur signalées ; Le Pen, moins de 30 ans : médiane des deux chiffrages Montaigne (3,7 en 2022, 0,7 en 2024) = −2,2 au lieu de −3,7. Reste : version du contre-budget RN sur un site officiel du RN (introuvable à ce jour), article original de Capital, quotas carbone affectés à l'Anah dans un document budgétaire, montant des seules allocations familiales (Cnaf)."
+  },
+  {
+   "id": "S074",
+   "type": "a_trancher",
+   "candidats": [
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Rôle de Sarah Knafo : ses propositions valent-elles programme de Zemmour ?",
+   "detail": "Faits (revue du 28/10/2026) : S. Knafo est secrétaire générale de Reconquête, sans rôle de campagne officiel connu (ni directrice de campagne, ni porte-parole, ni responsable du programme). Son plan de 140 Md€ d'économies (budget2027.fr) a été repris par le candidat le 17/09 et est compté. Elle présente ce plan comme le financement de la suppression de la CSG sur les salaires (TF1 07/09, CNews 30/08, Sud Radio 16/10), et propose aussi d'abolir les droits de succession et les impôts de production ; le candidat ne les a pas repris. Règle actuelle (S070 et consignes du 28/10) : un proche sans rôle officiel ne parle pas pour le candidat sans reprise. Options : A) lecture stricte, total inchangé (+21,3), note visible dans « Le camp annonce » ; B) S. Knafo parle pour le candidat : total −108,3 (CSG −101,6, successions −15, production −13), et la même règle vaudrait pour les dirigeants des partis des 7 autres candidats ; C) intermédiaire : la CSG seule, présentée comme but du plan repris : total ≈ −80,3.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-28",
+   "maj": "2026-10-28",
+   "resolution": null
   }
  ]
 }
