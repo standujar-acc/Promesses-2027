@@ -2157,9 +2157,15 @@
         "value": "1,5 Md€",
         "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
         "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
+       },
+       {
+        "label": "CSG déductible sur les revenus du capital",
+        "value": "« une part de la CSG versée au taux de 10,6 % (ou de 9,2 %) est déductible de vos revenus. […] Cette part déductible est de 6,8 % » ; pas de CSG déductible avec le prélèvement forfaitaire unique",
+        "source": "service-public.gouv.fr, F2329 (vérifié le 30/06/2026)",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2329"
        }
       ],
-      "note": "Le chiffre de 2,8 Md€ (Légifiscal, 10/11/2025) portait sur la version avant exclusions : retiré. Le rendement réel de 2026 sera connu avec les comptes de la Sécurité sociale. Même famille de mesure que la fin de la flat tax de Mélenchon (+3,4, Montaigne), en sens inverse."
+      "note": "Le chiffre de 2,8 Md€ (Légifiscal, 10/11/2025) portait sur la version avant exclusions : retiré. Le rendement réel de 2026 sera connu avec les comptes de la Sécurité sociale. Même famille de mesure que la fin de la flat tax de Mélenchon (+3,4, Montaigne), en sens inverse. Pas d'impôt sur le revenu récupéré : la hausse de 1,4 point n'est pas déductible (part déductible de la CSG sur les revenus du capital restée à 6,8 %, et nulle sous la flat tax)."
      },
      "quiz_text": "Annuler la hausse de 2026 de la taxe sur les revenus de l'épargne",
      "quiz_concret": "Dividendes, intérêts et plus-values sont taxés à 30 % au lieu de 31,4 % ; assurance-vie et livrets ne changent pas.",
@@ -7178,7 +7184,7 @@
    "name": "Raphaël Glucksmann",
    "party": "PS-Place publique",
    "poll": "13,8 %",
-   "summary": "Promet le retour à 62 ans, un SMIC à 1 600 € net, une taxe sur les très gros héritages et une défense européenne financée par emprunt commun. Notre chiffrage : −46,1 Md€ par an en 2030, soit −1 492 € par ménage. Principal obstacle : l'accord des autres pays européens, et le rendement de la taxe sur les héritages.",
+   "summary": "Promet le retour à 62 ans, un SMIC à 1 600 € net, une taxe sur les très gros héritages et une défense européenne financée par emprunt commun. Notre chiffrage : −44,9 Md€ par an en 2030, soit −1 453 € par ménage. Principal obstacle : l'accord des autres pays européens, et le rendement de la taxe sur les héritages.",
    "measures": [
     {
      "id": "zucman",
@@ -7286,11 +7292,11 @@
      "obstacle": "Seuil >2 M€ seul insuffisant : exige une réforme d'assiette (Dutreil, assurance-vie)",
      "claude": {
       "id": "heritages",
-      "central": -3.6,
-      "low": -8,
-      "high": 0,
+      "central": -2.4,
+      "low": -8.0,
+      "high": 1.6,
       "method": "ascendant",
-      "formula": "Recette : médiane des chiffrages indépendants 7 ; 9 ; 13,8 ; 19 = 11,4 Md€ (le chiffre du camp n'entre pas dans la médiane) − 15 Md€ de baisse de CSG promise = −3,6 Md€",
+      "formula": "Recette : médiane des chiffrages indépendants 7 ; 9 ; 13,8 ; 19 = 11,4 Md€ (le chiffre du camp n'entre pas dans la médiane) − 15 Md€ de baisse de CSG promise, moins l'impôt sur le revenu récupéré (règle commune des prélèvements déductibles du revenu imposable, la même dans les deux sens : 10,7 % de la part déductible, ratio des fiches CSG de Zemmour et de Lisnard, iFRAP 2023) : la part de la baisse qui touche la CSG déductible n'étant pas publiée, on prend celle du taux actuel (6,8 points sur 9,2) : 15 × 6,8/9,2 × 10,7 % = 1,2 → −2,4 Md€ ; borne basse −8,0 (recette de 7 Md€, baisse prise sur la part non déductible : pas d'impôt récupéré) ; borne haute +1,6 (recette égale aux 15 Md€ rendus, mesure conçue neutre ; baisse prise sur la part déductible de la CSG ou sur les cotisations salariales, entièrement déductibles : 15 × 10,7 %)",
       "inputs": [
        {
         "label": "Rendement annoncé, redistribué",
@@ -7315,9 +7321,15 @@
         "value": "≈7 Md€/an",
         "source": "Fipeco (Alternatives Économiques)",
         "url": "https://fipeco.fr/pdf/Alter%20Eco%2017.09.2024.pdf"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : ratio commun (fiches CSG)",
+        "value": "rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité (18,64 Md€ en 2021) coûterait ≈ 2,0 Md€ d'impôt sur le revenu par an (2,05 avant arrondi ; 1,8 Md€ pour les 16,4 Md€ des seuls salaires) : 10,7 % de la CSG devenue déductible",
+        "source": "iFRAP (mai 2023)",
+        "url": "https://www.ifrap.org/budget-et-fiscalite/pourquoi-il-faut-rendre-la-csg-totalement-deductible-de-lir-sur-les-revenus-dactivite"
        }
       ],
-      "note": "Conçue neutre ; le risque est un rendement inférieur aux 15 Md€ déjà promis aux salariés"
+      "note": "Conçue neutre ; le risque est un rendement inférieur aux 15 Md€ déjà promis aux salariés. Instrument non précisé dans les déclarations retrouvées (« transférer directement sur la fiche de paie », Public Sénat, 24/08/2026) : lu comme une baisse de la CSG sur les salaires ; une hausse du salaire net fait remonter l'impôt sur le revenu, compté avec la même règle que la baisse des cotisations salariales de Retailleau."
      },
      "quiz_text": "Taxer les 1 % plus gros héritages pour augmenter les salaires nets",
      "quiz_concret": "Les très gros héritages sont plus taxés ; les salariés gagnent un peu plus.",
@@ -8470,13 +8482,13 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -46.1,
-    "p10": -56.3,
-    "p90": -40.0,
-    "realsum": -46.1,
+    "sum": -44.9,
+    "p10": -55.8,
+    "p90": -38.7,
+    "realsum": -44.9,
     "missing": "transition écologique, hôpital, baisse des effectifs par classe, stages payés au moins 1 000 €/mois (coût public sous 1 Md€, surtout à la charge des employeurs), séjour collectif garanti à chaque enfant (paramètres non publiés), annulation des 1 588 suppressions nettes de postes d'enseignants du projet de budget 2027 (≈ 0,1 Md€, sous 1 Md€)",
     "n": 8,
-    "cost": -46.1,
+    "cost": -44.9,
     "gain": 0,
     "confirm": [
      "Impôt plancher ultra-riches",
@@ -9795,7 +9807,7 @@
    "name": "Bruno Retailleau",
    "party": "LR",
    "poll": "7,3 %",
-   "summary": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration. Notre chiffrage : −18,3 Md€ par an en 2030, soit −592 € par ménage. Principal obstacle : la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées.",
+   "summary": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration. Notre chiffrage : −16,7 Md€ par an en 2030, soit −540 € par ménage. Principal obstacle : la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées.",
    "measures": [
     {
      "id": "etat",
@@ -11465,11 +11477,11 @@
      "obstacle": "Instruments non publiés.",
      "claude": {
       "id": "menages",
-      "central": -17.1,
+      "central": -15.5,
       "low": -17.1,
-      "high": -12.0,
+      "high": -10.8,
       "method": "camp",
-      "formula": "Budget publié ligne à ligne (fiche 14 du plan, niveaux 2032) : cotisations salariales en moins dès le premier euro −15 + relais de MaPrimeRénov' −2,1 (ligne « relais de MaPrimeRénov' et TVA sur les certificats » de 3 Md€, chiffre du camp, moins la TVA perdue avec la fin des certificats, comptée dans sa propre fiche : 3 − 0,9) = −17,1 ; comptée en entier en 2030 comme les cotisations patronales du même plan (baisse d'impôt sans calendrier par mesure, règle commune) ; borne haute : 70 % en 2030 (−12,0). La ligne « familles et transmission » (3) est couverte par les fiches revenu familial et transmission",
+      "formula": "Budget publié ligne à ligne (fiche 14 du plan, niveaux 2032) : cotisations salariales en moins dès le premier euro −15, moins l'impôt sur le revenu récupéré (règle commune des prélèvements déductibles du revenu imposable, la même dans les deux sens : 10,7 % de la part déductible, ratio des fiches CSG de Zemmour et de Lisnard, iFRAP 2023) : les cotisations salariales sont entièrement déductibles, 15 × 10,7 % = 1,6 → −13,4 ; + relais de MaPrimeRénov' −2,1 (ligne « relais de MaPrimeRénov' et TVA sur les certificats » de 3 Md€, chiffre du camp, moins la TVA perdue avec la fin des certificats, comptée dans sa propre fiche : 3 − 0,9) = −15,5 ; comptée en entier en 2030 comme les cotisations patronales du même plan (baisse d'impôt sans calendrier par mesure, règle commune) ; borne basse : sans impôt récupéré (−17,1 : barème non publié, une baisse concentrée sur des salaires non imposables ne fait pas remonter l'impôt) ; borne haute : 70 % en 2030, net de l'impôt récupéré (−10,8). La ligne « familles et transmission » (3) est couverte par les fiches revenu familial et transmission",
       "note": "Seul chiffrage : celui du camp. Si l'on retenait la trajectoire du plan (70 % en 2030), la même lecture vaudrait pour les cotisations patronales : −12,0 et −8,4 (cotisations patronales nettes de l'impôt sur les sociétés récupéré). Certificats d'économies d'énergie : le plan met fin aux certificats ; la TVA perdue avec eux est comptée dans la fiche « Fin des certificats d'économies d'énergie » (−0,9, même lecture et même valeur que Zemmour) ; le reste de la ligne de 3 Md€ (2,1) est le relais de MaPrimeRénov', au chiffre du camp.",
       "inputs": [
        {
@@ -11477,6 +11489,12 @@
         "value": "15 cotisations salariales ; 3 familles et transmission ; 3 relais MaPrimeRénov' et TVA sur les CEE",
         "source": "Fiches presse du 12/10/2026, fiche 14",
         "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : ratio commun (fiches CSG)",
+        "value": "rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité (18,64 Md€ en 2021) coûterait ≈ 2,0 Md€ d'impôt sur le revenu par an (2,05 avant arrondi ; 1,8 Md€ pour les 16,4 Md€ des seuls salaires) : 10,7 % de la CSG devenue déductible",
+        "source": "iFRAP (mai 2023)",
+        "url": "https://www.ifrap.org/budget-et-fiscalite/pourquoi-il-faut-rendre-la-csg-totalement-deductible-de-lir-sur-les-revenus-dactivite"
        }
       ]
      },
@@ -11930,7 +11948,7 @@
         "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
        }
       ],
-      "note": "Pas d'effet de comportement compté (règle commune) ; la mesure voisine de Philippe (37 h) n'a ni coût publié ni chiffrage indépendant : non chiffrable."
+      "note": "Pas d'effet de comportement compté (règle commune) ; la mesure voisine de Philippe (37 h) n'a ni coût publié ni chiffrage indépendant : non chiffrable. Impôt sur le revenu : rien à récupérer côté salarié (cotisations salariales des heures supplémentaires déjà en grande partie exonérées, et ces heures exonérées d'impôt sur le revenu jusqu'à 7 500 € par an) ; le montant compté ne porte que sur les cotisations patronales."
      },
      "quiz_text": "Exonérer de toutes les cotisations sociales les heures travaillées au-delà de 1 623 heures par an."
     },
@@ -12186,13 +12204,13 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -18.3,
-    "p10": -26.3,
-    "p90": -5.7,
-    "realsum": -21.7,
+    "sum": -16.7,
+    "p10": -25.4,
+    "p90": -4.6,
+    "realsum": -20.1,
     "missing": "capitalisation, audiovisuel public, aide au développement (« Coopération » : 3,5 Md€ en 2032 selon le camp, sans niveau publié), et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (niveaux annuels en 2032), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ en 2032, sans chiffrage indépendant), autres lignes immigration du plan, reprises de l'Observatoire de l'immigration et de la démographie et que les données officielles ne permettent pas de refaire sans ses hypothèses (niveaux 2032) : immigration familiale 1,5, étudiants au-delà des droits différenciés (preuve de ressources) 1,4, titres au coût complet 0,5, hébergement d'urgence fermé aux personnes sous OQTF 0,5, mineurs non accompagnés, soins des demandeurs d'asile et contentieux 0,8, statut du bailleur privé (amortissement du bâti à 4 % par an, option pour le prélèvement forfaitaire à 30 % ; coût statique non publié, le « gain net » de 1,9 Md€ annoncé repose sur des recettes induites), barème kilométrique réévalué (ampleur non publiée), agences et opérateurs au-delà de la valeur commune (contrats non renouvelés et départs volontaires 5, structures 4, concours recentrés 3,5 ; niveaux 2032, chiffres du camp)",
     "n": 21,
-    "cost": -49.4,
+    "cost": -47.8,
     "gain": 31.1,
     "confirm": []
    },
@@ -13135,7 +13153,7 @@
         "url": "https://www.unenouvelleenergie.fr/questions/le-programme-de-david-lisnard-est-il-chiffre/"
        }
       ],
-      "note": "Non compté dans le total pour éviter un double compte (comme la fiche « Économies ») : chaque instrument publié est chiffré dans sa propre fiche. Le gain promis (250 à 400 € net par mois) suppose les 200 Md€ d'économies réalisés.",
+      "note": "Non compté dans le total pour éviter un double compte (comme la fiche « Économies ») : chaque instrument publié est chiffré dans sa propre fiche. Le gain promis (250 à 400 € net par mois) suppose les 200 Md€ d'économies réalisés. Si le reste était paramétré, une baisse de cotisations salariales ou de CSG déductible serait comptée nette de l'impôt sur le revenu récupéré (règle commune des prélèvements déductibles du revenu imposable).",
       "exclude": true,
       "nc": true
      },
@@ -14892,6 +14910,12 @@
         "value": "« la suppression de la CSG sur les revenus d'activité » (CNews, 30/08/2026) ; « ces 130 milliards que j'avance pour financer la mesure majeure » (TF1, 07/09/2026)",
         "source": "Capital",
         "url": "https://www.capital.fr/economie-politique/130-milliards-d-economies-sarah-knafo-propose-une-reforme-choc-de-la-csg-1529910"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : ratio commun (fiches CSG)",
+        "value": "rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité (18,64 Md€ en 2021) coûterait ≈ 2,0 Md€ d'impôt sur le revenu par an (2,05 avant arrondi ; 1,8 Md€ pour les 16,4 Md€ des seuls salaires) : 10,7 % de la CSG devenue déductible",
+        "source": "iFRAP (mai 2023)",
+        "url": "https://www.ifrap.org/budget-et-fiscalite/pourquoi-il-faut-rendre-la-csg-totalement-deductible-de-lir-sur-les-revenus-dactivite"
        }
       ],
       "note": "Paramètres 2022 reconduits"
@@ -16360,12 +16384,12 @@
  ],
  "method": [
   "<b>Notre chiffrage.</b> 148 mesures analysées, dont 118 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
-  "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; un prélèvement payé par les entreprises et déductible de leur bénéfice imposable (impôts de production comme la C3S ou la CFE, cotisations patronales, forfait social, part d'une accise payée par les entreprises) est compté net de l'impôt sur les sociétés qu'il fait varier, dans les deux sens (une baisse fait remonter cet impôt, une hausse le fait baisser) : 20 % de l'écart (taux retenu par le Gouvernement, l'Institut Montaigne et le Conseil d'analyse économique ; 17,5 %, taux de la Cour des comptes, en borne), en entier en 2030, sauf si le chiffrage retenu est déjà net, comme l'impôt sur le revenu récupéré quand la CSG déductible baisse ; pas pour l'impôt sur les sociétés lui-même ni pour un impôt que les entreprises ne déduisent pas (la TVA, qu'elles récupèrent) ; la suppression ou la fusion de la plupart des agences et opérateurs de l'État, missions reprises, vaut 0,26 Md€ chez tous les candidats qui la proposent (part hors personnel de l'économie chiffrée par la commission d'enquête du Sénat en 2025 sur les fonctions support des opérateurs, 0,54 Md€ : la part de personnel est déjà dans les postes supprimés), le montant annoncé par un camp n'étant pas compté au-delà ; le prix de référence des carburants et du fioul est la moyenne des 52 dernières semaines publiées par le ministère (gazole 1,98 €/l, SP95 1,94 €/l au 23/10/2026), et non le dernier relevé hebdomadaire, dans les fiches comme dans le simulateur ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». La lutte contre la fraude est comptée avec les leviers chiffrés par le Conseil d'analyse économique qui correspondent au champ de chaque mesure, dans la limite du chiffre du camp. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie ; la TVA perçue sur cette part des factures est en revanche une recette publique, perdue si elle est supprimée) ; un transfert entre administrations (de l'État vers les communes, par exemple) sans dépense définie par la mesure est neutre pour le solde public : compté 0, avec en borne basse le montant si le bénéficiaire le dépense en entier ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
+  "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; un prélèvement payé par les entreprises et déductible de leur bénéfice imposable (impôts de production comme la C3S ou la CFE, cotisations patronales, forfait social, part d'une accise payée par les entreprises) est compté net de l'impôt sur les sociétés qu'il fait varier, dans les deux sens (une baisse fait remonter cet impôt, une hausse le fait baisser) : 20 % de l'écart (taux retenu par le Gouvernement, l'Institut Montaigne et le Conseil d'analyse économique ; 17,5 %, taux de la Cour des comptes, en borne), en entier en 2030, sauf si le chiffrage retenu est déjà net ; pas pour l'impôt sur les sociétés lui-même ni pour un impôt que les entreprises ne déduisent pas (la TVA, qu'elles récupèrent) ; de même, un prélèvement payé par les ménages et déductible de leur revenu imposable (CSG déductible sur les revenus d'activité, de remplacement ou du capital, cotisations salariales et des indépendants) est compté net de l'impôt sur le revenu qu'il fait varier, dans les deux sens : 10,7 % de la part déductible (ratio calculé par l'iFRAP en 2023 sur les revenus d'activité ; une évaluation du Gouvernement de 2017, sur une assiette plus large, donne environ 17 % : point en cours d'examen), en entier en 2030, sauf si le chiffrage retenu est déjà net ; quand la mesure ne dit pas quelle part de la CSG baisse, la part déductible est celle du taux actuel (6,8 points sur 9,2) ; rien pour la part non déductible de la CSG ni pour la CRDS ; la suppression ou la fusion de la plupart des agences et opérateurs de l'État, missions reprises, vaut 0,26 Md€ chez tous les candidats qui la proposent (part hors personnel de l'économie chiffrée par la commission d'enquête du Sénat en 2025 sur les fonctions support des opérateurs, 0,54 Md€ : la part de personnel est déjà dans les postes supprimés), le montant annoncé par un camp n'étant pas compté au-delà ; le prix de référence des carburants et du fioul est la moyenne des 52 dernières semaines publiées par le ministère (gazole 1,98 €/l, SP95 1,94 €/l au 23/10/2026), et non le dernier relevé hebdomadaire, dans les fiches comme dans le simulateur ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». La lutte contre la fraude est comptée avec les leviers chiffrés par le Conseil d'analyse économique qui correspondent au champ de chaque mesure, dans la limite du chiffre du camp. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie ; la TVA perçue sur cette part des factures est en revanche une recette publique, perdue si elle est supprimée) ; un transfert entre administrations (de l'État vers les communes, par exemple) sans dépense définie par la mesure est neutre pour le solde public : compté 0, avec en borne basse le montant si le bénéficiaire le dépense en entier ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
   "<b>Objectifs en niveau.</b> Un objectif de dépense publié sous la forme d'un niveau à une date (en part du PIB ou en euros) est compté pour l'écart, en 2030, entre ce niveau et la trajectoire du droit en vigueur (loi de programmation militaire ou de la recherche ; à défaut, part du PIB constante) ; un objectif sans date ou fixé à la fin du mandat compte pour 70 % de cet écart. Le PIB de 2030 est celui du scénario du Gouvernement (projet de loi de finances 2027), ramené en euros de 2026. Quand la définition est ambiguë (dépense exécutée ou financée, périmètre), le milieu de la fourchette est retenu. La même règle vaut dans les deux sens : un niveau publié à la baisse (suppression comprise) compte comme une économie. Une prise de position au Parlement sur un texte déjà voté ne vaut pas programme, sauf si le candidat la reprend dans sa campagne.",
   "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026, ou connues par une seule reprise de presse qui ne cite pas le candidat (marquées « À confirmer »), et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés. Un chiffrage qu'un candidat reprend comme le sien (d'un institut, d'une association ou d'un parti) compte comme chiffre de son camp, quel que soit son auteur. Le reprendre comme le sien, c'est publier ce chiffre comme son propre chiffre ; citer une étude comme une base parmi d'autres n'en fait pas un chiffre du camp. Une économie qui repose sur une baisse de flux ou un comportement supposés par une seule note n'est pas comptée, sauf si une évaluation ou une donnée officielle les établit. Un document d'un parti publié avant la désignation de son candidat (un projet de parti, par exemple) ne vaut programme que si le candidat le reprend ; un document officiel publié depuis (le contre-budget d'un groupe parlementaire, par exemple) compte. Une demande adressée au Gouvernement en place d'utiliser un outil qui existe déjà (état d'urgence, couvre-feux, drones, militaires en garde statique) n'est pas une proposition de programme.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 321 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 322 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 5 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». Quand un thème compte plus de cinq propositions, on affiche, dans le même ordre pour tous : d'abord celles de 2026 (les non reconfirmées passent après), parmi elles les précises avant les intentions, puis les plus récentes ; à égalité ou à date inconnue, l'ordre déjà affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce) ; une proposition remplacée par sa version précise n'est pas gardée en double, et une même proposition n'est affichée que dans un thème, le plus précis (l'énergie et le nucléaire dans « environnement »). Les propositions hors affichage restent notées dans le registre de suivi du projet (dépôt public). L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). Ce sont des ordres de grandeur.",
@@ -16479,6 +16503,10 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "29/10/2026",
+   "text": "Impôt sur le revenu récupéré : une baisse d'un prélèvement que les ménages déduisent de leur revenu imposable (CSG déductible, cotisations salariales) est désormais comptée nette de l'impôt sur le revenu qu'elle fait remonter (10,7 % de la part déductible), dans les deux sens et pour tous, comme l'étaient déjà les fiches CSG de Zemmour et de Lisnard. Retailleau, cotisations salariales en moins : −15,5 Md€ au lieu de −17,1 ; Glucksmann, salaires nets financés par la taxe sur les très gros héritages : −2,4 au lieu de −3,6. Autres candidats inchangés."
+  },
   {
    "date": "29/10/2026",
    "text": "Impôt sur les sociétés récupéré : un prélèvement payé par les entreprises et déductible de leur bénéfice est désormais compté net de l'impôt sur les sociétés qu'il fait varier (20 %), dans les deux sens et pour tous, comme le font le Gouvernement, la Cour des comptes et l'Institut Montaigne. Impôts de production : Le Pen −11,0 au lieu de −13,7, Retailleau −8,0 au lieu de −10,1, Lisnard −4,3 au lieu de −5,4 (Zemmour, hors total, −11,0). Cotisations patronales de Retailleau −12,0 au lieu de −15,0, seuil « zéro cotisation » −3,4 au lieu de −4,3. Taxes sur les carburants (part payée par les entreprises) : Le Pen −1,9 au lieu de −2,1, Zemmour −8,2 au lieu de −9,0. Philippe : impôts de production supprimés contre aides retirées, valeur inchangée (0), borne basse −26,0 au lieu de −31,5. Totaux avec les agences et les postes de Le Pen : Le Pen −69,3, Retailleau −18,3, Lisnard −42,3, Zemmour +19,6 Md€."
