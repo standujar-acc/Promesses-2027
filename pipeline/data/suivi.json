@@ -1363,6 +1363,28 @@
    "cree": "2026-10-29",
    "maj": "2026-10-29",
    "resolution": null
+  },
+  {
+   "id": "S090",
+   "type": "a_ajouter",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "glucksmann",
+    "philippe",
+    "retailleau",
+    "attal",
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Quiz : mesures ajoutées depuis le 27/10 absentes du quiz",
+   "detail": "55 mesures comptées n'avaient pas d'entrée au quiz (texte courant, Pour et Contre sourcés). Lot 1 (fiscalité, énergie, fraude) : 22 entrées ajoutées le 29/10, mêmes études et mêmes cas pour les mesures du même type (carburants Le Pen et Zemmour, héritages Le Pen et Lisnard, transmission d'entreprise Le Pen et Retailleau, quotient familial Le Pen et Lisnard, fraude). Lot 2 (social, travail, dépenses) en cours. Non vérifié : rapport IPP n° 47 (anti-robot), cité par deux entrées ; à harmoniser : niveau de preuve du « Contre » des jeunes parents (Philippe, faible) et du quotient familial (solide).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
   }
  ]
 }
