@@ -968,6 +968,11 @@ m=M('retailleau','chomage'); n0=len(m['estimates']); m['estimates']=[e for e in 
 k=m['claude']; n0=len(k['inputs']); k['inputs']=[UNE_IN]+[i for i in k['inputs'] if i['label']!='Règles de juin 2024 (8 mois sur 20, 15 mois)']; assert n0==len(k['inputs'])
 SET('retailleau','chomage',3.8,3.2,9.0,"Règles de juin 2024 : chiffrage indépendant de l'Unédic (juin 2024) : 4 à 5,4 Md€ en régime de croisière, 3,2 à 4,4 Md€ la troisième année ; appliquées au plus tôt en 2028, elles sont dans leur troisième année en 2030 → milieu 3,8 (même réforme, même valeur que chez Attal) ; le chiffre du gouvernement de mai 2024 (3,6), repris comme le sien par un autre candidat, et celui du camp (4 à 5) n'entrent pas dans la médiane. Ruptures conventionnelles limitées à 6 mois : dépenses de 9,1 Md€ en 2029 (Unédic) ; avec une durée moyenne d'≈ 11 mois après la réforme de 2023 (15 mois × 0,75), environ la moitié est versée après le 6e mois → ≈ +4,6 Md€ avant tout report vers les licenciements (non documenté) : en borne haute seulement (4,4 + 4,6 = +9,0). Plafonds (ruptures, hauts revenus) non publiés ; frontaliers : chiffre du camp seul (0,5-0,7), non compté. Borne basse : bas de la fourchette de l'Unédic (3,2)",note=k['note']+' '+UNE_N)
 
+# --- review 26 : registre du 29/10 au soir (S121, S124, S107, S120, S074, S126) (29/10/2026)
+k=M('retailleau','securite')['claude']; assert k['low']==-0.6
+SET('retailleau','securite',-0.45,-1.2,-0.1,k['formula']+" ; borne basse avec la construction, même gabarit que les autres fiches prisons : 370 k€ la place (Sénat, cité par Montaigne) × 10 000 sur 5 ans ≈ 0,74 → −1,2",
+    note=k['note'].replace("Construction exclue.","Construction exclue de la valeur centrale, comptée en borne basse comme dans les autres fiches prisons."))
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:

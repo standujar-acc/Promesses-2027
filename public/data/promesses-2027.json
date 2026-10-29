@@ -10598,10 +10598,10 @@
      "claude": {
       "id": "securite",
       "central": -0.45,
-      "low": -0.6,
+      "low": -1.2,
       "high": -0.1,
       "method": "ascendant",
-      "formula": "10 000 places × 32 k€ + 4 000 années de détention × 32 k€ ≈ −0,45 Md€",
+      "formula": "10 000 places × 32 k€ + 4 000 années de détention × 32 k€ ≈ −0,45 Md€ ; borne basse avec la construction, même gabarit que les autres fiches prisons : 370 k€ la place (Sénat, cité par Montaigne) × 10 000 sur 5 ans ≈ 0,74 → −1,2",
       "inputs": [
        {
         "label": "Coût d'un détenu",
@@ -10622,7 +10622,7 @@
         "url": "https://www.senat.fr/rap/a25-145-6/a25-145-6_mono.html"
        }
       ],
-      "note": "Construction exclue. Places de prison : capacités à bâtir, comme dans les autres fiches prisons : le programme de 15 000 places lancé en 2018 en a livré 7 684 brutes (5 711 nettes) ; 63 303 places opérationnelles pour 90 173 détenus au 10/09/2026. Cette partie relève de « sous conditions » ; le verdict de la fiche suit l'obstacle le plus fort, le pacte constitutionnel."
+      "note": "Construction exclue de la valeur centrale, comptée en borne basse comme dans les autres fiches prisons. Places de prison : capacités à bâtir, comme dans les autres fiches prisons : le programme de 15 000 places lancé en 2018 en a livré 7 684 brutes (5 711 nettes) ; 63 303 places opérationnelles pour 90 173 détenus au 10/09/2026. Cette partie relève de « sous conditions » ; le verdict de la fiche suit l'obstacle le plus fort, le pacte constitutionnel."
      },
      "quiz_text": "Des peines de prison minimales obligatoires, inscrites dans la Constitution",
      "quiz_concret": "Le juge ne pourrait plus descendre sous un seuil pour certains délits.",
@@ -12005,8 +12005,8 @@
    },
    "claude_total": {
     "sum": -21.9,
-    "p10": -30.4,
-    "p90": -6.6,
+    "p10": -30.5,
+    "p90": -6.8,
     "realsum": -25.3,
     "missing": "capitalisation, audiovisuel public, aide au développement (« Coopération » : 3,5 Md€ en 2032 selon le camp, sans niveau publié), et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (niveaux annuels en 2032), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ en 2032, sans chiffrage indépendant), autres lignes immigration du plan, reprises de l'Observatoire de l'immigration et de la démographie et que les données officielles ne permettent pas de refaire sans ses hypothèses (niveaux 2032) : immigration familiale 1,5, étudiants au-delà des droits différenciés (preuve de ressources) 1,4, titres au coût complet 0,5, hébergement d'urgence fermé aux personnes sous OQTF 0,5, mineurs non accompagnés, soins des demandeurs d'asile et contentieux 0,8, statut du bailleur privé (amortissement du bâti à 4 % par an, option pour le prélèvement forfaitaire à 30 % ; coût statique non publié, le « gain net » de 1,9 Md€ annoncé repose sur des recettes induites), barème kilométrique réévalué (ampleur non publiée)",
     "n": 21,
@@ -13907,7 +13907,69 @@
       ],
       "note": "Calendrier non publié. Valeur centrale au seul coût de fonctionnement (construction exclue), même règle pour les quatre candidats qui proposent des places (arbitrage du 27/10/2026) ; construction en borne basse. Verdict « sous conditions » pour toutes les fiches prisons (capacités à bâtir)."
      },
-     "quiz_text": "Construire 20 000 places de prison supplémentaires."
+     "quiz_text": "Construire beaucoup plus de places de prison",
+     "quiz_concret": "Plus de cellules pour les personnes condamnées à de la prison.",
+     "quiz_plus": "Enfermer évite des délits : chaque année de prison en évite 14 à 18, surtout des vols, selon une étude.",
+     "quiz_moins": "Les places neuves se remplissent aussitôt, et purger sa peine sous bracelet fait moins récidiver.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Après la libération d'un tiers des détenus en 2006, la délinquance a augmenté : chaque année de prison évitait 14 à 18 délits, surtout des vols (Buonanno et Raphael, Italie, 2013).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Le plan de 15 000 places de prison n'en avait livré que 2 771 à mi-2023, et la population carcérale suit le rythme des places créées (Sénat, France, 2023).",
+       "s": [
+        1
+       ]
+      },
+      {
+       "t": "Purger sa peine sous bracelet électronique plutôt qu'en prison réduit de 6 à 7 points le risque d'une nouvelle condamnation à cinq ans (Henneguelle et al., France, 2016).",
+       "s": [
+        2
+       ]
+      },
+      {
+       "t": "L'effet de la prison sur la délinquance diminue à mesure que le nombre de détenus augmente (Buonanno et Raphael, Italie, 2013).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_etudes": "Une évaluation rigoureuse (Italie) mesure un effet d'enfermement qui faiblit quand les prisons se remplissent ; en France, le bracelet fait moins récidiver que la prison et les détenus suivent les places.",
+     "quiz_src": [
+      {
+       "l": "Buonanno et Raphael, Incarceration and Incapacitation: Evidence from the 2006 Italian Collective Pardon (American Economic Review)",
+       "a": 2013,
+       "u": "https://econpapers.repec.org/RePEc:aea:aecrev:v:103:y:2013:i:6:p:2437-65"
+      },
+      {
+       "l": "Sénat, commission des finances, rapport d'information n° 37 (2023-2024), plan 15 000 places (synthèse)",
+       "a": 2023,
+       "u": "https://www.senat.fr/rap/r23-037/r23-0370.html"
+      },
+      {
+       "l": "Henneguelle, Monnery et Kensey, Better at Home than in Prison? The Effects of Electronic Monitoring on Recidivism in France (Journal of Law and Economics)",
+       "a": 2016,
+       "u": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
+      },
+      {
+       "l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er septembre 2026",
+       "a": 2026,
+       "u": "https://www.justice.gouv.fr/sites/default/files/2026-10/mesure_mensuelle_01092026.pdf"
+      }
+     ],
+     "quiz_constat": {
+      "t": "Détenus : 90 020 au 1er septembre 2026 (+6,8 % en un an) pour 63 348 places, soit 142 % d'occupation (Justice).",
+      "s": [
+       3
+      ]
+     }
     },
     {
      "id": "abattement_pensions",
@@ -15625,7 +15687,69 @@
       ],
       "note": "Calendrier non publié. Valeur centrale au seul coût de fonctionnement (construction exclue), même règle pour les quatre candidats qui proposent des places (arbitrage du 27/10/2026) ; construction en borne basse. Verdict « sous conditions » pour toutes les fiches prisons (capacités à bâtir)."
      },
-     "quiz_text": "Construire rapidement 100 000 places de prison supplémentaires, en constructions simples."
+     "quiz_text": "Construire beaucoup plus de places de prison",
+     "quiz_concret": "Plus de cellules pour les personnes condamnées à de la prison.",
+     "quiz_plus": "Enfermer évite des délits : chaque année de prison en évite 14 à 18, surtout des vols, selon une étude.",
+     "quiz_moins": "Les places neuves se remplissent aussitôt, et purger sa peine sous bracelet fait moins récidiver.",
+     "quiz_preuve_pour": "mitigé",
+     "quiz_preuve_contre": "mitigé",
+     "quiz_cas_pour": [
+      {
+       "t": "Après la libération d'un tiers des détenus en 2006, la délinquance a augmenté : chaque année de prison évitait 14 à 18 délits, surtout des vols (Buonanno et Raphael, Italie, 2013).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_cas_contre": [
+      {
+       "t": "Le plan de 15 000 places de prison n'en avait livré que 2 771 à mi-2023, et la population carcérale suit le rythme des places créées (Sénat, France, 2023).",
+       "s": [
+        1
+       ]
+      },
+      {
+       "t": "Purger sa peine sous bracelet électronique plutôt qu'en prison réduit de 6 à 7 points le risque d'une nouvelle condamnation à cinq ans (Henneguelle et al., France, 2016).",
+       "s": [
+        2
+       ]
+      },
+      {
+       "t": "L'effet de la prison sur la délinquance diminue à mesure que le nombre de détenus augmente (Buonanno et Raphael, Italie, 2013).",
+       "s": [
+        0
+       ]
+      }
+     ],
+     "quiz_etudes": "Une évaluation rigoureuse (Italie) mesure un effet d'enfermement qui faiblit quand les prisons se remplissent ; en France, le bracelet fait moins récidiver que la prison et les détenus suivent les places.",
+     "quiz_src": [
+      {
+       "l": "Buonanno et Raphael, Incarceration and Incapacitation: Evidence from the 2006 Italian Collective Pardon (American Economic Review)",
+       "a": 2013,
+       "u": "https://econpapers.repec.org/RePEc:aea:aecrev:v:103:y:2013:i:6:p:2437-65"
+      },
+      {
+       "l": "Sénat, commission des finances, rapport d'information n° 37 (2023-2024), plan 15 000 places (synthèse)",
+       "a": 2023,
+       "u": "https://www.senat.fr/rap/r23-037/r23-0370.html"
+      },
+      {
+       "l": "Henneguelle, Monnery et Kensey, Better at Home than in Prison? The Effects of Electronic Monitoring on Recidivism in France (Journal of Law and Economics)",
+       "a": 2016,
+       "u": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
+      },
+      {
+       "l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er septembre 2026",
+       "a": 2026,
+       "u": "https://www.justice.gouv.fr/sites/default/files/2026-10/mesure_mensuelle_01092026.pdf"
+      }
+     ],
+     "quiz_constat": {
+      "t": "Détenus : 90 020 au 1er septembre 2026 (+6,8 % en un an) pour 63 348 places, soit 142 % d'occupation (Justice).",
+      "s": [
+       3
+      ]
+     }
     },
     {
      "id": "aide_developpement",
@@ -15964,6 +16088,10 @@
  "changelog": [
   {
    "date": "29/10/2026",
+   "text": "Suivi du registre : les 100 000 places de prison de Zemmour entrent dans « Vie quotidienne » (même lecture des études que Le Pen et Lisnard) ; Le Pen : 30 000 places de prison et suppression de la CFE, de la CVAE et de la C3S, Philippe : « deal » de 50 Md€, désormais présentés comme leurs propositions de 2026 ; places de prison de Lisnard et Zemmour ajoutées au quiz ; fourchette des peines planchers de Retailleau avec la construction, comme les autres fiches prisons."
+  },
+  {
+   "date": "29/10/2026",
    "text": "Vie quotidienne : les propositions ajoutées le 29/10 citent les études qui portent sur elles, avec le même texte pour un même type de proposition chez tous les candidats : justice des mineurs (Attal, Lisnard, Retailleau), centres éducatifs fermés et fichier des casseurs (Lisnard), reconnaissance faciale (Attal), déchéance de nationalité (Retailleau, Zemmour), Parcoursup (Mélenchon, Glucksmann, Retailleau), internats disciplinaires (Retailleau), chèque-éducation (Lisnard), règle d'or (Le Pen, Philippe), code du travail (Attal, Retailleau), stabilité fiscale (Attal, Lisnard), contrat unique (Lisnard), droits de douane (Attal), Schengen (Retailleau), droit à la sécurité (Retailleau), discipline des magistrats (Retailleau, Philippe), vote à 16 ans (Mélenchon), voile (Lisnard), marché carbone des carburants (Zemmour), aides aux voitures électriques (Philippe, Attal, Glucksmann). Une étude déjà citée sous plusieurs formes l'est désormais avec le même texte pour tous (impôts de production, heures supplémentaires, IA, RTE, EPR, référendum, dépenses de défense, police de proximité). Texte « casseur-payeur » raccourci pour tous, même contenu. Mélenchon : l'objectif de 19 élèves par classe, repris dans sa note du 14/10, n'est plus marqué « non reconfirmé ». Quiz : 5 propositions ajoutées (Parcoursup pour trois candidats, internats disciplinaires, chèque-éducation)."
   },
   {
@@ -16209,12 +16337,12 @@
       "old": false
      },
      {
-      "text": "Rétablir les peines planchers, supprimer les remises de peine",
+      "text": "Construire 30 000 places de prison",
       "verifiable": true,
-      "old": true
+      "old": false
      },
      {
-      "text": "Porter le parc à 85 000 places de prison",
+      "text": "Rétablir les peines planchers, supprimer les remises de peine",
       "verifiable": true,
       "old": true
      },
@@ -16224,7 +16352,7 @@
       "old": true
      }
     ],
-    "indicator": "85 000 places de prison visées pour 2027 (programme 2022)",
+    "indicator": "30 000 places de prison de plus (contre-budget 2027)",
     "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Nouvelles places de prison vite comblées (Sénat, 2023). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée.",
     "evidence_level": "mitigee",
     "sources": [
@@ -16272,6 +16400,11 @@
       "label": "Capital, Le Pen et les casseurs (21/10)",
       "year": 2026,
       "url": "https://www.capital.fr/economie-politique/marine-le-pen-veut-faire-payer-a-vie-les-casseurs-et-solidairement-ceux-qui-ne-partent-pas-apres-les-sommations-1531173"
+     },
+     {
+      "label": "Contre-budget 2027 du groupe RN",
+      "year": 2026,
+      "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
      }
     ]
    },
@@ -16519,9 +16652,9 @@
       "old": false
      },
      {
-      "text": "Baisser de 16,2 Md€ les impôts de production",
+      "text": "Supprimer la CFE, la CVAE et la C3S",
       "verifiable": true,
-      "old": true
+      "old": false
      }
     ],
     "indicator": "Déficit public sous 3 % du PIB en 2030",
@@ -16552,6 +16685,11 @@
       "label": "RTE, Futurs énergétiques 2050, résumé exécutif (vie-publique.fr)",
       "year": 2021,
       "url": "https://vie-publique.fr/files/rapports/fichiers_joints/282232-resume-executif.pdf"
+     },
+     {
+      "label": "Contre-budget 2027 du groupe RN",
+      "year": 2026,
+      "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
      },
      {
       "label": "LCP, règle d'or (tribune du 1/10)",
@@ -17328,7 +17466,7 @@
     "theme": "economie",
     "proposals": [
      {
-      "text": "Heures au-delà de 35 h défiscalisées, zéro cotisation au-delà de 37 h",
+      "text": "Heures au-delà de 35 h défiscalisées, zéro cotisation patronale au-delà de 37 h",
       "verifiable": true,
       "old": false
      },
@@ -17343,9 +17481,9 @@
       "old": false
      },
      {
-      "text": "Baisser les impôts de production de 50 Md€",
+      "text": "Supprimer 50 Md€ d'impôts de production contre 50 Md€ d'aides aux entreprises en moins",
       "verifiable": true,
-      "old": true
+      "old": false
      }
     ],
     "indicator": "+1 000 €/an pour un salarié au SMIC passant à 37 h",
@@ -17386,6 +17524,11 @@
       "label": "Site Édouard Philippe, « Pour une France plus prospère »",
       "year": 2026,
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+     },
+     {
+      "label": "Public Sénat, « deal » de 50 Md€",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/economie/entreprises-un-deal-a-250-milliards-deuros-sur-un-quinquennat-que-represente-la-proposition-dedouard-philippe"
      },
      {
       "label": "Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)",
@@ -19268,6 +19411,11 @@
       "old": false
      },
      {
+      "text": "Construire très vite 100 000 places de prison",
+      "verifiable": true,
+      "old": false
+     },
+     {
       "text": "Faire payer les dégâts aux casseurs et à leurs parents, y compris sur leurs allocations ; rétablir la loi anticasseurs de 1970",
       "verifiable": true,
       "old": false
@@ -19281,15 +19429,10 @@
       "text": "Expulser les détenus étrangers, estimés à 25 % de la population carcérale",
       "verifiable": true,
       "old": false
-     },
-     {
-      "text": "Expulser les délinquants étrangers purgeant leur peine hors prison (bracelet, TIG)",
-      "verifiable": true,
-      "old": false
      }
     ],
     "indicator": null,
-    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Déchéance de nationalité : effet non évalué. Expulsions après arrestation : pas de baisse observable de la criminalité (États-Unis, 2014).",
+    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Nouvelles places de prison vite comblées (Sénat, 2023). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Déchéance de nationalité : effet non évalué. Expulsions après arrestation : pas de baisse observable de la criminalité (États-Unis, 2014).",
     "evidence_level": "non_demontree",
     "sources": [
      {
@@ -19341,6 +19484,16 @@
       "label": "Ministère de l'Intérieur, réponse à la question écrite n° 19446 sur la déchéance de nationalité (JO du 19/04/2022)",
       "year": 2022,
       "url": "https://questions.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE19446.pdf"
+     },
+     {
+      "label": "Les Incorrectibles, émission du 25/10",
+      "year": 2026,
+      "url": "https://lesincorrectibles.substack.com/p/eric-zemmour-la-france-face-au-chaos-1"
+     },
+     {
+      "label": "Sénat – rapport plan 15 000 places",
+      "year": 2023,
+      "url": "https://www.senat.fr/rap/r23-037/r23-037_mono.html"
      }
     ]
    },

@@ -14,7 +14,7 @@ Données à jour au 29 octobre 2026 : 8 candidats, 148 mesures.
 | Édouard Philippe | Horizons | 9 | −0,3 | −30,1 à +4,8 |
 | Raphaël Glucksmann | PS-Place publique | 8 | −46,1 | −56,3 à −40,0 |
 | Gabriel Attal | Renaissance | 6 | +8,0 | +2,0 à +9,5 |
-| Bruno Retailleau | LR | 21 | −21,9 | −30,4 à −6,6 |
+| Bruno Retailleau | LR | 21 | −21,9 | −30,5 à −6,8 |
 | David Lisnard | Nouvelle Énergie | 14 | −52,0 | −59,2 à −45,5 |
 | Éric Zemmour | Reconquête | 12 | +18,8 | +8,8 à +30,9 |
 <!-- totaux:fin -->

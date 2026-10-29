@@ -127,9 +127,11 @@ def _upd(cid, th, props, add=(), drop=(), **kw):
 # sécurité : casseur-payeur (même texte « évidence » pour tous, CASSE), propositions ajoutées ; lectures communes PP, PLACES, HEN
 OVR[('le-pen', 'securite')] = {'evidence': PP + " " + PLACES + " " + CASSE, 'evidence_level': 'mitigee', 'add': [IPP_PP] + CASSE_S + [
     _s('franceinfo, Le Pen et les casseurs (21/10)', 'https://www.franceinfo.fr/politique/marine-le-pen/nous-sommes-confrontes-a-un-etat-qui-s-effondre-estime-marine-le-pen_8246899.html'),
-    _s('Capital, Le Pen et les casseurs (21/10)', 'https://www.capital.fr/economie-politique/marine-le-pen-veut-faire-payer-a-vie-les-casseurs-et-solidairement-ceux-qui-ne-partent-pas-apres-les-sommations-1531173')],
+    _s('Capital, Le Pen et les casseurs (21/10)', 'https://www.capital.fr/economie-politique/marine-le-pen-veut-faire-payer-a-vie-les-casseurs-et-solidairement-ceux-qui-ne-partent-pas-apres-les-sommations-1531173'),
+    _s('Contre-budget 2027 du groupe RN', 'https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf')],
+  'indicator': '30 000 places de prison de plus (contre-budget 2027)',
   'proposals': [_p('Faire payer les dégâts aux casseurs : responsabilité solidaire, prélèvement sur allocations ou salaire, parents pour les mineurs'),
-                _p('Rétablir les peines planchers, supprimer les remises de peine', True, True), _p('Porter le parc à 85 000 places de prison', True, True),
+                _p('Construire 30 000 places de prison'), _p('Rétablir les peines planchers, supprimer les remises de peine', True, True),
                 _p("Présomption de légitime défense pour les forces de l'ordre", True, True)]}
 OVR[('philippe', 'securite')] = {'evidence': PP + HEN + " " + CASSE, 'evidence_level': 'mitigee', 'add': [IPP_PP] + CASSE_S + [
     _s('Capital, plan contre les casseurs (29/10)', 'https://www.capital.fr/economie-politique/prison-des-la-premiere-casse-et-salaire-ponctionne-le-plan-dedouard-philippe-contre-les-casseurs-1531388'),
@@ -147,11 +149,10 @@ OVR[('zemmour', 'securite')] = {'evidence': EXPUL + " " + PP + " " + CASSE, 'evi
     _s('Europe 1, Zemmour et les casseurs (7/10)', 'https://www.europe1.fr/politique/blocus-des-lycees-eric-zemmour-veut-faire-payer-les-casseurs-et-leurs-parents-jusqua-la-nuit-des-temps-1129292'),
     _s('Entrevue, déclarations sur CNews (18/10)', 'https://entrevue.fr/medias/une-horde-de-barbares-maghrebins-et-africains-eric-zemmour-provoque/'),
     _s('Entrevue, émission du 25/10', 'https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/')],
-  'proposals': [_p("Rétablir les peines planchers, supprimer le juge de l'application des peines"),
+  'proposals': [_p("Rétablir les peines planchers, supprimer le juge de l'application des peines"), _p('Construire très vite 100 000 places de prison'),
                 _p('Faire payer les dégâts aux casseurs et à leurs parents, y compris sur leurs allocations ; rétablir la loi anticasseurs de 1970'),
                 _p('Déchéance de nationalité puis départ des binationaux auteurs des violences'),
-                _p('Expulser les détenus étrangers, estimés à 25 % de la population carcérale'),
-                _p('Expulser les délinquants étrangers purgeant leur peine hors prison (bracelet, TIG)')]}
+                _p('Expulser les détenus étrangers, estimés à 25 % de la population carcérale')]}
 OVR[('attal', 'securite')] = {'evidence': RESEAUX + " " + CASSE, 'evidence_level': 'non_demontree',
   'drop': ['plus-grande-reforme-institutionnelle'], 'add': CASSE_S + [
     _s("attalpresident.fr, rétablir l'ordre (BFM TV, 19/10)", 'https://attalpresident.fr/actualites/gabriel-attal-retablir-ordre-mettre-fin-impunite'),
@@ -219,12 +220,13 @@ _upd('zemmour', 'environnement', [_p("Six EPR d'ici 2035 et quatorze d'ici 2045"
      add=[_s('Reconquête, pétition sur les carburants', 'https://www.stop-hausse-carburant.fr/')])
 # économie
 OVR[('le-pen', 'economie')] = {'evidence': "IPP (2025) : la baisse CVAE/CFE de 2021 n'a eu aucun effet mesurable sur l'investissement et un impact limité sur la masse salariale. " + RTE,
-  'evidence_level': 'mitigee', 'add': [RTE_S, _s("LCP, règle d'or (tribune du 1/10)", 'https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par')],
+  'evidence_level': 'mitigee', 'add': [RTE_S, _s('Contre-budget 2027 du groupe RN', 'https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf'), _s("LCP, règle d'or (tribune du 1/10)", 'https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par')],
   'proposals': [_p('Supprimer les subventions aux renouvelables : 5 Md€ dès la 1re année'), _p('Supprimer plus de 120 taxes'),
-                _p("Règle d'or budgétaire par référendum : déficit de 4,9 % du PIB en 2027 à 2,4 % en 2033"), _p('Baisser de 16,2 Md€ les impôts de production', True, True)]}
-_upd('philippe', 'economie', [_p('Heures au-delà de 35 h défiscalisées, zéro cotisation au-delà de 37 h'), _p('Indemnisation chômage ramenée de 18 à 12 mois avant 50 ans'),
-                              _p("Règle d'or budgétaire par référendum : déficit à 2 % du PIB en fin de quinquennat"), _p('Baisser les impôts de production de 50 Md€', True, True)],
-     add=[_s('Site Édouard Philippe, « Pour une France plus prospère »', 'https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere')])
+                _p("Règle d'or budgétaire par référendum : déficit de 4,9 % du PIB en 2027 à 2,4 % en 2033"), _p('Supprimer la CFE, la CVAE et la C3S')]}
+_upd('philippe', 'economie', [_p('Heures au-delà de 35 h défiscalisées, zéro cotisation patronale au-delà de 37 h'), _p('Indemnisation chômage ramenée de 18 à 12 mois avant 50 ans'),
+                              _p("Règle d'or budgétaire par référendum : déficit à 2 % du PIB en fin de quinquennat"), _p("Supprimer 50 Md€ d'impôts de production contre 50 Md€ d'aides aux entreprises en moins")],
+     add=[_s('Site Édouard Philippe, « Pour une France plus prospère »', 'https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere'),
+          _s('Public Sénat, « deal » de 50 Md€', 'https://www.publicsenat.fr/actualites/economie/entreprises-un-deal-a-250-milliards-deuros-sur-un-quinquennat-que-represente-la-proposition-dedouard-philippe')])
 _upd('glucksmann', 'economie', [_p('Taxer le 1 % des plus gros héritages pour hausser les salaires nets'), _p("État d'urgence industriel pour les secteurs menacés par la Chine", False),
                                 _p('« Buy European Act » : préférence européenne dans les marchés publics', False, True)],
      add=[_s('LCP, premier meeting (13/06)', 'https://lcp.fr/actualites/gagner-en-2027-raphael-glucksmann-lance-sa-campagne-et-veut-ramener-la-gauche-au-pouvoir')])
@@ -291,7 +293,8 @@ GILL = "Police de proximité : baisse limitée de la délinquance (Gill, 2014), 
 _ev('attal', 'securite', CASSE + " " + MIN + " " + RECO + " " + RESEAUX, add=[MIN_S, RECO_S])
 _ev('lisnard', 'securite', MIN + " " + CEF + " " + CASSE + " " + FICH + " " + PLACES, add=[MIN_S, CEF_S, FICH_S])
 _ev('retailleau', 'securite', CASSE + " " + MIN + " " + DECH + " " + PP, add=[MIN_S, DECH_S], drop=['chicagounbound.uchicago.edu/jle/vol59/iss3/6'])
-_ev('zemmour', 'securite', PP + " " + CASSE + " " + DECH + " " + EXPUL, add=[DECH_S])
+_ev('zemmour', 'securite', PP + " " + PLACES + " " + CASSE + " " + DECH + " " + EXPUL, add=[DECH_S, _s('Les Incorrectibles, émission du 25/10', 'https://lesincorrectibles.substack.com/p/eric-zemmour-la-france-face-au-chaos-1'),
+    {'label': 'Sénat – rapport plan 15 000 places', 'year': 2023, 'url': 'https://www.senat.fr/rap/r23-037/r23-037_mono.html'}])
 _ev('melenchon', 'securite', GILL + " Régulation carcérale : pas d'évaluation française identifiée.")
 _ev('glucksmann', 'securite', GILL + " Vidéosurveillance : utile dans 1,1 % des enquêtes (Gormand, gendarmerie).")
 # école : Parcoursup (PARC) pour Mélenchon, Glucksmann et Retailleau (suppression comme sélection portent sur l'admission dans le supérieur) ;
