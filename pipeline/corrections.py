@@ -736,6 +736,13 @@ for c0 in D['candidates']:
         if 'Effy' in (k0.get('note') or ''): k0['note']=k0['note'].replace("La source « quotas carbone 600 M€ » est sectorielle (Effy) : à remplacer par le document budgétaire de l'Anah.","Quotas carbone : plafond de 600 M€ affectés à l'Anah (projet de loi de finances pour 2027, article 42).")
 assert 'nicolasdragon' not in json.dumps(D['candidates']) and 'shango' not in json.dumps(D['candidates']) and 'Effy' not in json.dumps(D['candidates'])
 
+# --- review 18 : simulateur, précisions restantes du second audit (29/10/2026) ; registre S068
+tc=C['le-pen']['sim']['tva_courses']; tc['note']+=" ; les produits d'hygiène, taxés à 20 %, baisseraient davantage (non distingués ici)"
+for cid,txt in (('glucksmann',"Leasing social : une voiture électrique à environ 100 €/mois pour un million de ménages modestes (conditions non publiées), non calculé ici."),
+                ('attal',"Leasing social étendu aux voitures électriques d'occasion : paramètres non publiés, non calculé ici."),
+                ('lisnard',"TVA unique, « par exemple » à 25 % (taux non tranché) : hausse possible des prix des produits aujourd'hui à 5,5 % ou 10 %, non calculée ici.")):
+    sc=C[cid]['sim']; sc['tous']=(sc.get('tous') or [])+[txt]
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
