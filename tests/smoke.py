@@ -163,7 +163,9 @@ with sync_playwright() as p:
       return [quizCost({picks:[[a,b],[a]]}), (a.m.claude.central+b.m.claude.central)/2+a.m.claude.central]; }""")
     check(abs(c[0] - c[1]) < 1e-9, 'quiz résultat : « Les deux » compte la moyenne des deux effets sur le déficit')
     # fiches « à confirmer » : la raison propre à la fiche (ex. une seule reprise de presse) remplace le texte par défaut (annoncée avant 2026)
-    r = pg.evaluate("""()=>{ const all=D.candidates.flatMap(c=>c.measures.filter(m=>m.a_confirmer).map(m=>({c,m}))), w=all.filter(o=>o.m.confirm_why), d=all.filter(o=>!o.m.confirm_why);
+    # quand aucune fiche des données n'a de raison propre (elles ont toutes été confirmées), le rendu est testé sur une copie d'une fiche « à confirmer »
+    r = pg.evaluate("""()=>{ const all=D.candidates.flatMap(c=>c.measures.filter(m=>m.a_confirmer).map(m=>({c,m}))), d=all.filter(o=>!o.m.confirm_why);
+      let w=all.filter(o=>o.m.confirm_why); if(!w.length) w=d.slice(0,1).map(o=>({c:o.c,m:{...o.m,confirm_why:"Connue par une seule reprise de presse (test) : elle n'entre pas dans le total."}}));
       return [w.length>0, w.every(o=>{ const h=measureCard(o.c,o.m); return h.includes(esc(o.m.confirm_why)) && !h.includes('annoncée avant 2026'); }), d.length>0, d.every(o=>measureCard(o.c,o.m).includes('annoncée avant 2026'))]; }""")
     check(r == [True, True, True, True], f'fiches « à confirmer » : raison propre affichée quand elle existe, texte par défaut sinon {r}')
     pg.set_viewport_size({'width': 390, 'height': 844})
