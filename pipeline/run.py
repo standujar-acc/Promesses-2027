@@ -26,7 +26,7 @@ page = f'''<!doctype html>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 {head.strip()}
 <meta name="description" content="{html.escape(desc)}">
-<meta property="og:title" content="{html.escape(title)} : combien coûtent leurs promesses ?">
+<meta property="og:title" content="{html.escape(title)} : combien me coûtent leurs promesses ?">
 <meta property="og:description" content="{html.escape(desc)}">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#13203f">
