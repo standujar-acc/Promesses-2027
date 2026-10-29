@@ -928,7 +928,7 @@ function sim(){
   const age=2027-year, worker=WORKERS.includes(st), active=worker||st==='independant';
   const sqA=sqAge(year), sqAlloc=allocOf(SQ.alloc_familiales,kids), ir=active?irAnnuel(sal,kids):0;
   const warn = st==='retraite' && year>1966 ? `Né en ${year} : le simulateur vous considère comme déjà retraité. ` : (st==='etudiant' && age>25 ? 'Étudiant de plus de 25 ans : les aides jeunes ne s\'appliquent pas. ' : '');
-  g('sim-base').textContent = warn + `Aujourd'hui : départ légal à ${ageTxt(sqA)}${kids>=2?`, allocations familiales ${eur(sqAlloc,false)}/mois`:''}${active?`, impôt sur le revenu estimé ${eur(ir,false)}/an`:''}.`;
+  g('sim-base').textContent = warn + `Aujourd'hui : départ légal à ${ageTxt(sqA)}${year===1965?' (62 ans et 9 mois si vous êtes né de janvier à mars 1965)':''}${kids>=2?`, allocations familiales ${eur(sqAlloc,false)}/mois`:''}${active?`, impôt sur le revenu estimé ${eur(ir,false)}/an`:''}.`;
   const out=D.candidates.map(c=>{
     const s=c.sim||{}; let money=0; const rows=[], notes=[]; let ret=null;
     const add=(lab,desc,v)=>{ money+=v; rows.push([lab,desc,eur(v)+'/mois']); }; let cap=0;
