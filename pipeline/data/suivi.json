@@ -1272,6 +1272,19 @@
    "cree": "2026-10-29",
    "maj": "2026-10-29",
    "resolution": "Décidé par le porteur le 29/10 : site présenté comme indépendant (aucun lien avec un parti, un candidat ou une équipe de campagne, aucun financement) ; contact par le formulaire de signalement et les tickets GitHub, sans adresse e-mail ; éditeur non nommé (particulier, à titre non professionnel) ; mentions légales avec l'hébergeur (Cloudflare, Inc.). Rubriques « Qui fait ce site » et « Mentions légales » dans la méthode, rappel en bas de page."
+  },
+  {
+   "id": "S084",
+   "type": "a_corriger",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Version ordinateur trop étroite",
+   "detail": "Sur ordinateur, tout le site tenait dans une colonne de 820 px, avec de grands vides de chaque côté.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 : à partir de 1100 px, page de 1240 px en colonnes (accueil, fiches sur deux colonnes avec colonne latérale fixe, simulateur réglages/résultats, sommaire de la méthode) ; mobile inchangé ; tests à 1100, 1440 et 1920 px."
   }
  ]
 }

@@ -12222,6 +12222,10 @@
  "changelog": [
   {
    "date": "29/10/2026",
+   "text": "Version ordinateur : page plus large et en colonnes. Accueil : classement et accès au simulateur et au quiz côte à côte, repères sur quatre colonnes ; fiches d'un candidat sur deux colonnes, avec la recherche, le choix du candidat et sa présentation dans une colonne fixe ; simulateur avec les réglages à gauche et les résultats à droite ; sommaire fixe dans la méthode. Rien ne change sur téléphone."
+  },
+  {
+   "date": "29/10/2026",
    "text": "Simulateur : baisse de la taxe sur les carburants calculée pour Le Pen (tarif de 2017 : −3,22 c€ par litre d'essence, −6,33 c€ pour le gazole, hors TVA) et Zemmour (−1/3 : −23,0 et −20,3 c€), au prix à la pompe de la semaine du 23/10/2026 ; part fiscale entière dès le 2e enfant (Le Pen) calculée ; congé de naissance de Retailleau signalé en note."
   },
   {
