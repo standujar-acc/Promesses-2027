@@ -357,6 +357,7 @@ footer.foot p,footer.foot .report{flex-basis:100%;margin:0}
 .met-toc button{border:0;background:none;text-align:left;padding:8px 10px;border-radius:8px;color:var(--muted);font-weight:600;font-size:.88rem}
 .met-toc button:hover{background:var(--soft);color:var(--ink)}
 footer.foot p button{min-height:0;display:inline;font-size:inherit}
+footer.foot .fcand a{min-height:0;display:inline}
 @media(max-width:899px){input,select,textarea{font-size:16px}}
 @media(min-width:1100px){
   .wrap{max-width:1240px}
@@ -613,6 +614,8 @@ let cur = D.candidates[0].id, theme = 'all';
 const caps = {};
 const WEB = !(window.claude && window.claude.use) && /^https?:$/.test(location.protocol);
 const baseUrl = () => WEB ? location.origin + location.pathname : D.base_url;
+// site autonome : une page statique par candidat (aperçu de partage, référencement), liée depuis le bas de page
+if(WEB) document.querySelector('footer.foot')?.insertAdjacentHTML('beforeend', `<p class="fcand">Une page par candidat, à partager : ${D.candidates.map(c=>`<a href="/candidats/${c.id}/">${esc(c.short)}</a>`).join(' · ')}</p>`);
 
 document.getElementById('asof').textContent = 'À jour le ' + D.asof; document.getElementById('asof2').textContent = 'Mis à jour le ' + D.asof;
 document.getElementById('ctx').innerHTML = D.context.map(c => `<div><b>${esc(c.v)}</b><span>${esc(c.l)}</span></div>`).join('');

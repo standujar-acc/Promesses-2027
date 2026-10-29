@@ -259,5 +259,28 @@ with sync_playwright() as p:
     r = pg.evaluate("D.candidates.map(c=>[c.id, c.poll])")
     check([c for c, _ in r] == sorted(moy, key=lambda c: -moy[c]) and all(abs(float(v[:-2].replace(',', '.')) - moy[c]) <= 0.05 + 1e-9 for c, v in r),
           f'sondages : moyenne des instituts affichée, candidats rangés selon elle {r}')
+    # partage et référencement : balises d'aperçu, images 1200 × 630, une page statique par candidat, plan du site
+    import struct
+    P = os.path.join(ROOT, 'public')
+    idx = open(os.path.join(P, 'index.html')).read()
+    check(all(x in idx for x in ('property="og:image" content="https://', 'name="twitter:card" content="summary_large_image"', 'rel="canonical"', 'application/ld+json')),
+          "partage : accueil avec image d'aperçu, grande carte, adresse canonique, données structurées")
+    ids = [c['id'] for c in json.load(open(os.path.join(P, 'data', 'promesses-2027.json')))['candidates']]
+    dims = {i: struct.unpack('>II', open(os.path.join(P, 'og', i + '.png'), 'rb').read(24)[16:24]) for i in ids + ['index']}
+    check(all(d == (1200, 630) for d in dims.values()), f"partage : une image 1200 × 630 pour l'accueil et chaque candidat {set(dims.values())}")
+    bad = []
+    for i in ids + ['methode']:
+        f = os.path.join(P, 'methode' if i == 'methode' else os.path.join('candidats', i), 'index.html')
+        t = open(f).read() if os.path.exists(f) else ''
+        lds = re.findall(r'<script type="application/ld\+json">(.*?)</script>', t, re.S)
+        ok = t.count('<h1>') == 1 and 'rel="canonical"' in t and 'og:image' in t and lds and all(json.loads(x) for x in lds)
+        if i != 'methode': ok = ok and f'/og/{i}.png' in t and f'href="/#{i}"' in t
+        if not ok: bad.append(i)
+    check(not bad, f'référencement : pages statiques complètes (titre, adresse canonique, aperçu, données structurées, lien vers l\'app) {bad}')
+    sm, rb = open(os.path.join(P, 'sitemap.xml')).read(), open(os.path.join(P, 'robots.txt')).read()
+    check(sm.count('<loc>') == len(ids) + 2 and 'Sitemap: https://' in rb, 'référencement : plan du site (accueil, méthode, 8 candidats) et robots.txt')
+    pg2 = b.new_page(viewport={'width': 360, 'height': 800}); e2 = []; pg2.on('pageerror', lambda x: e2.append(str(x)))
+    pg2.goto('file://' + os.path.join(P, 'candidats', ids[0], 'index.html')); pg2.wait_for_timeout(200)
+    check(pg2.evaluate('document.documentElement.scrollWidth') <= 360 and not e2, 'page candidat statique : pas de débordement à 360 px ni d\'erreur')
     b.close()
 sys.exit(1 if fail else 0)
