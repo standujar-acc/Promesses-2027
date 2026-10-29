@@ -3794,12 +3794,12 @@
 "retailleau.production": {
 "constat": "Les impôts de production font 5 % de la valeur ajoutée des sociétés en 2024 (5,4 % en 2015 ; Allemagne 1,2 %).",
 "constat_s": [
-4,
-5
+2,
+3
 ],
-"pour": "Après la baisse de 2010, les entreprises allégées ont investi et embauché ; les heures sup paient plus.",
+"pour": "Ces impôts sont dus même sans bénéfice ; après leur baisse de 2010, les entreprises allégées ont embauché.",
 "preuve_pour": "mitigé",
-"contre": "Les baisses passées n'ont accru de façon mesurable ni l'investissement ni le temps de travail.",
+"contre": "Les baisses récentes n'ont pas eu d'effet net mesuré, et profitent surtout aux grands groupes.",
 "preuve_contre": "mitigé",
 "cas_pour": [
 {
@@ -3807,25 +3807,18 @@
 "s": [
 0
 ]
-},
-{
-"t": "Plus de 9 millions de salariés ont gagné en moyenne environ 500 € par an avec les heures sup exonérées de 2007 à 2012 (Assemblée nationale, France, 2011).",
-"s": [
-1
-]
 }
 ],
 "cas_contre": [
 {
 "t": "Après la baisse de moitié de plusieurs impôts de production en 2021, aucun effet robuste n'a été mesuré sur l'investissement (IPP, France, 2025).",
 "s": [
-2
+1
 ]
 },
 {
-"t": "Les heures sup exonérées de 2007 à 2012 n'ont pas accru le temps de travail réel, mais les heures déclarées des plus qualifiés (Cahuc et Carcillo, France, 2011).",
+"t": "La baisse de 2021 a surtout profité aux grandes entreprises et à celles qui ont beaucoup de machines et de bâtiments, dont l'industrie (IPP, France, 2025).",
 "s": [
-3,
 1
 ]
 }
@@ -3838,19 +3831,9 @@
 "u": "https://www.banque-france.fr/system/files/2023-01/bulletin-banque-de-france_238-4_taxe_professionnelle.pdf"
 },
 {
-"l": "Assemblée nationale, Comité d'évaluation et de contrôle, rapport Gorges-Mallot sur la loi TEPA (synthèse)",
-"a": 2011,
-"u": "https://www.assemblee-nationale.fr/13/controle/com_cec/cec-pdf/s3615.pdf"
-},
-{
 "l": "IPP, rapport n° 60, « La baisse des impôts de production : ciblage et évaluation » (pour France Stratégie)",
 "a": 2025,
 "u": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
-},
-{
-"l": "Cahuc, Carcillo, « The Detaxation of Overtime Hours: Lessons from the French Experiment » (IZA DP 5439 ; Journal of Labor Economics 2014)",
-"a": 2011,
-"u": "https://docs.iza.org/dp5439.pdf"
 },
 {
 "l": "Eurostat, comptes non financiers par secteur (nasa_10_nf_tr), calcul : impôts sur la production (D29) payés par les sociétés non financières / leur valeur ajoutée brute",
