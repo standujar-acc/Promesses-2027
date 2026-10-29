@@ -1268,10 +1268,10 @@
    "sujet": "Qui fait le site : auteur, mentions légales, indépendance",
    "detail": "Le site ne dit pas qui le fait. Choix du porteur : nom, pseudonyme ou anonymat ; phrase d'indépendance (aucun lien avec un parti ou un candidat, financement) ; mentions légales (pour un particulier non professionnel, le nom de l'hébergeur suffit s'il détient l'identité de l'éditeur, LCEN art. 6). Aucune donnée personnelle publiée sans accord explicite.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Décidé par le porteur le 29/10 : site présenté comme indépendant (aucun lien avec un parti, un candidat ou une équipe de campagne, aucun financement) ; contact par le formulaire de signalement et les tickets GitHub, sans adresse e-mail ; éditeur non nommé (particulier, à titre non professionnel) ; mentions légales avec l'hébergeur (Cloudflare, Inc.). Rubriques « Qui fait ce site » et « Mentions légales » dans la méthode, rappel en bas de page."
   }
  ]
 }

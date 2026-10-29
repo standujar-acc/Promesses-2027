@@ -195,8 +195,8 @@ with sync_playwright() as p:
     r = pg.evaluate("(()=>{ const d=document.createElement('div'); d.innerHTML=baseBox('securite'); return [d.querySelectorAll('.base > div').length, d.querySelectorAll('.bmore .bin > div').length, D.baseline.securite.length, /Viols/.test(d.textContent)]; })()")
     check(r[0] == 4 and r[1] == r[2] - 4 and r[3], f'repères : 4 visibles, {r[1]} dépliables, viols compris {r}')
     # signalement visible sur chaque page : bouton en bas de page, formulaire qui s'ouvre ; rubrique Contact
-    r = pg.evaluate("(()=>{ go('quiz'); const b=document.getElementById('foot-report'); const vis=b.offsetParent!==null; b.click(); const f=document.getElementById('foot-rep'); const ok=!f.hidden && !!f.querySelector('textarea'); go('accueil'); return [vis, ok, f.hidden, document.getElementById('contact').textContent.length>50]; })()")
-    check(r == [True, True, True, True], f'signalement : bouton en bas de page, formulaire, fermé au changement de page, contact {r}')
+    r = pg.evaluate("(()=>{ go('quiz'); const b=document.getElementById('foot-report'); const vis=b.offsetParent!==null; b.click(); const f=document.getElementById('foot-rep'); const ok=!f.hidden && !!f.querySelector('textarea'); go('accueil'); return [vis, ok, f.hidden, document.getElementById('contact').textContent.length>50 && /indépendant/.test(document.getElementById('about').textContent) && /Hébergeur/.test(document.getElementById('legal').textContent)]; })()")
+    check(r == [True, True, True, True], f'signalement : bouton en bas de page, formulaire, fermé au changement de page ; contact, qui fait ce site, mentions légales {r}')
     check(not errs, f'aucune erreur JS {errs[:1]}')
     b.close()
 sys.exit(1 if fail else 0)
