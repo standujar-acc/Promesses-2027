@@ -810,6 +810,12 @@
 "s": [
 1
 ]
+},
+{
+"t": "Pour leur mission d'intérêt général, les jeunes du service national universel ont eu du mal à trouver des structures d'accueil, déjà très sollicitées (Cour des comptes, France, 2024).",
+"s": [
+4
+]
 }
 ],
 "etudes": "Les études portent sur des services militaires : contact entre jeunes d'origines différentes et confiance accrue (une expérience) ; pas de gain moyen de salaire, accès au supérieur un peu réduit.",
@@ -833,6 +839,11 @@
 "l": "Cáceres-Delpiano, De Moragas, Facchini, González, Intergroup contact and nation building: military service in Spain (Journal of Public Economics), résumé J-PAL",
 "a": 2021,
 "u": "https://www.povertyactionlab.org/evaluation/encouraging-interregional-contact-foster-national-identity-spain"
+},
+{
+"l": "Cour des comptes, Le Service national universel : un premier bilan, cinq années après son lancement",
+"a": 2024,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/295374.pdf"
 }
 ]
 },
@@ -3882,6 +3893,12 @@
 "s": [
 1
 ]
+},
+{
+"t": "Après la libération d'un tiers des détenus en 2006, la délinquance a augmenté : chaque année de prison évitait 14 à 18 délits, surtout des vols (Buonanno et Raphael, Italie, 2013).",
+"s": [
+6
+]
 }
 ],
 "cas_contre": [
@@ -3935,6 +3952,11 @@
 "l": "SSMSI, Insécurité et délinquance en 2025 : bilan statistique (édition 2026)",
 "a": 2026,
 "u": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-07/Ins%C3%A9curit%C3%A9%20et%20d%C3%A9linquance%20en%202025%20-%20Bilan%20statistique%20-%20%C3%A9dition%202026%20-%20SSMSI.pdf"
+},
+{
+"l": "Buonanno et Raphael, Incarceration and Incapacitation: Evidence from the 2006 Italian Collective Pardon (American Economic Review)",
+"a": 2013,
+"u": "https://econpapers.repec.org/RePEc:aea:aecrev:v:103:y:2013:i:6:p:2437-65"
 }
 ]
 },
@@ -7060,6 +7082,1360 @@
 "l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind) : électricité, gaz et autres combustibles (CP045) et ensemble (CP00)",
 "a": 2026,
 "u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
+}
+]
+},
+"le-pen.recherche": {
+"constat": "Dépense de recherche : 2,18 % du PIB en 2023 et 2024, après 2,22 % en 2022 ; moyenne OCDE : 2,70 % (SIES).",
+"constat_s": [
+3
+],
+"pour": "Chaque hausse de 10 % de la recherche financée par l'État entraîne 5 à 6 % de recherche privée en plus.",
+"preuve_pour": "solide",
+"contre": "Une part de l'argent ajouté relève surtout le salaire des chercheurs, sans autant de recherche en plus.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Une hausse de 10 % de la recherche financée par l'État dans un secteur y a accru de 5 à 6 % la recherche privée, entreprises françaises comprises (Moretti et al., pays de l'OCDE, 2025).",
+"s": [
+0
+]
+},
+{
+"t": "10 millions de dollars de plus pour la recherche médicale publique ont produit 2,7 brevets de plus dans les entreprises privées (Azoulay et al., États-Unis, 2019).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Les crédits publics de recherche ont nettement relevé les salaires des scientifiques : leur effet sur la recherche serait surestimé de 30 à 50 % (Goolsbee, États-Unis, 1998).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les études récentes concordent : la recherche publique entraîne la recherche privée et les brevets ; une partie de l'effort passe dans les salaires quand le nombre de chercheurs ne suit pas.",
+"src": [
+{
+"l": "Moretti, Steinwender, Van Reenen, The Intellectual Spoils of War? Defense R&D, Productivity, and International Spillovers (Review of Economics and Statistics)",
+"a": 2025,
+"u": "https://econpapers.repec.org/RePEc:tpr:restat:v:107:y:2025:i:1:p:14-27"
+},
+{
+"l": "Azoulay, Graff Zivin, Li, Sampat, Public R&D Investments and Private-sector Patenting: Evidence from NIH Funding Rules (Review of Economic Studies)",
+"a": 2019,
+"u": "https://ideas.repec.org/a/oup/restud/v86y2019i1p117-152..html"
+},
+{
+"l": "Goolsbee, Does Government R&D Policy Mainly Benefit Scientists and Engineers? (NBER WP 6532 ; American Economic Review)",
+"a": 1998,
+"u": "https://www.nber.org/papers/w6532"
+},
+{
+"l": "SIES, Note d'information n° 25.12, Dépenses de recherche et développement expérimental en France (résultats 2023, estimations 2024)",
+"a": 2025,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/ni-sies-2025-12-38272.pdf"
+}
+]
+},
+"le-pen.prisons": {
+"constat": "Détenus : 90 020 au 1er septembre 2026 (+6,8 % en un an) pour 63 348 places, soit 142 % d'occupation (Justice).",
+"constat_s": [
+3
+],
+"pour": "Enfermer évite des délits : chaque année de prison en évite 14 à 18, surtout des vols, selon une étude.",
+"preuve_pour": "mitigé",
+"contre": "Les places neuves se remplissent aussitôt, et purger sa peine sous bracelet fait moins récidiver.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Après la libération d'un tiers des détenus en 2006, la délinquance a augmenté : chaque année de prison évitait 14 à 18 délits, surtout des vols (Buonanno et Raphael, Italie, 2013).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Le plan de 15 000 places de prison n'en avait livré que 2 771 à mi-2023, et la population carcérale suit le rythme des places créées (Sénat, France, 2023).",
+"s": [
+1
+]
+},
+{
+"t": "Purger sa peine sous bracelet électronique plutôt qu'en prison réduit de 6 à 7 points le risque d'une nouvelle condamnation à cinq ans (Henneguelle et al., France, 2016).",
+"s": [
+2
+]
+},
+{
+"t": "L'effet de la prison sur la délinquance diminue à mesure que le nombre de détenus augmente (Buonanno et Raphael, Italie, 2013).",
+"s": [
+0
+]
+}
+],
+"etudes": "Une évaluation rigoureuse (Italie) mesure un effet d'enfermement qui faiblit quand les prisons se remplissent ; en France, le bracelet fait moins récidiver que la prison et les détenus suivent les places.",
+"src": [
+{
+"l": "Buonanno et Raphael, Incarceration and Incapacitation: Evidence from the 2006 Italian Collective Pardon (American Economic Review)",
+"a": 2013,
+"u": "https://econpapers.repec.org/RePEc:aea:aecrev:v:103:y:2013:i:6:p:2437-65"
+},
+{
+"l": "Sénat, commission des finances, rapport d'information n° 37 (2023-2024), plan 15 000 places (synthèse)",
+"a": 2023,
+"u": "https://www.senat.fr/rap/r23-037/r23-0370.html"
+},
+{
+"l": "Henneguelle, Monnery et Kensey, Better at Home than in Prison? The Effects of Electronic Monitoring on Recidivism in France (Journal of Law and Economics)",
+"a": 2016,
+"u": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
+},
+{
+"l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er septembre 2026",
+"a": 2026,
+"u": "https://www.justice.gouv.fr/sites/default/files/2026-10/mesure_mensuelle_01092026.pdf"
+}
+]
+},
+"le-pen.proches-aidants": {
+"constat": "Allocation des proches aidants : 1 645 bénéficiaires par mois en 2024, contre 1 079 en 2021, +52 % (Caf).",
+"constat_s": [
+3
+],
+"pour": "Un congé payé pour aider un proche a réduit les entrées en maison de retraite et gardé des aidantes en emploi.",
+"preuve_pour": "mitigé",
+"contre": "Le montant n'est pas le seul frein : l'aide reste méconnue, et beaucoup d'ayants droit ne la demandent pas.",
+"preuve_contre": "faible",
+"cas_pour": [
+{
+"t": "Après la création d'un congé payé pour s'occuper d'un proche, la part des personnes âgées en maison de retraite a baissé d'environ 11 % (Arora et Wolf, Californie, 2018).",
+"s": [
+0
+]
+},
+{
+"t": "Avec ce congé payé, les femmes dont le conjoint est en mauvaise santé ont 7,4 points de plus de chances de garder un emploi tout en l'aidant (Braga et al., Californie et New Jersey, 2022).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "De septembre 2020 à février 2022, 6 626 droits ouverts pour près de 340 000 aidants jugés éligibles ; l'aide restait méconnue et ses règles mal comprises (DSS, France, 2022).",
+"s": [
+2
+]
+}
+],
+"etudes": "Peu d'évaluations : aux États-Unis, un congé payé pour aidants réduit les entrées en maison de retraite et soutient l'emploi des aidantes ; en France, le faible recours tient aussi à la méconnaissance et aux démarches.",
+"src": [
+{
+"l": "Arora et Wolf, Does Paid Family Leave Reduce Nursing Home Use? The California Experience (Journal of Policy Analysis and Management)",
+"a": 2018,
+"u": "https://pubmed.ncbi.nlm.nih.gov/29320809/"
+},
+{
+"l": "Braga, Butrica, Mudrazija, Peters, Impacts of State Paid Family Leave Policies for Older Workers with Spouses or Parents in Poor Health (IZA DP 15007)",
+"a": 2022,
+"u": "https://econpapers.repec.org/RePEc:iza:izadps:dp15007"
+},
+{
+"l": "Direction de la sécurité sociale, rapport d'évaluation 2022 de l'allocation journalière du proche aidant (résumé Previssima)",
+"a": 2022,
+"u": "https://www.previssima.fr/actualite/un-premier-bilan-mitige-pour-lallocation-journaliere-du-proche-aidant-ajpa.html"
+},
+{
+"l": "Que Choisir, « Allocation journalière du proche aidant : pourquoi l'AJPA peine toujours à séduire » (données Caf)",
+"a": 2026,
+"u": "https://www.quechoisir.org/actualite-allocation-journaliere-du-proche-aidant-pourquoi-l-ajpa-peine-toujours-a-seduire-n174098/"
+}
+]
+},
+"le-pen.dentaire": {
+"constat": "Renoncement au dentiste jugé trop cher : 5,1 % des 16 ans et plus en 2025, comme en 2022 ; 9,2 % des plus modestes (Eurostat).",
+"constat_s": [
+2
+],
+"pour": "Sans complémentaire, on renonce 2,7 fois plus souvent aux soins dentaires faute d'argent.",
+"preuve_pour": "mitigé",
+"contre": "Presque tous ont une mutuelle qui paie déjà ce reste, et supprimer un reste à payer a attiré peu de patients.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Parmi ceux qui en avaient besoin, 30,5 % des personnes sans complémentaire n'ont pas pu payer leurs soins dentaires, contre 11,2 % avec une complémentaire privée (Drees, France, 2019).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Un contrat de complémentaire « responsable » rembourse déjà 100 % de la base de la Sécurité sociale pour les soins dentaires courants ; 94,5 % des 15 ans et plus en ont un (Cnam, Cour des comptes, France, 2022).",
+"s": [
+0,
+1
+]
+},
+{
+"t": "Après la suppression du reste à payer sur une partie des prothèses, 92 % des patients avaient déjà consulté un dentiste les années précédentes : surtout plus de prothèses par patient (Cour des comptes, France, 2022).",
+"s": [
+0
+]
+}
+],
+"etudes": "Le renoncement aux soins dentaires est bien plus fréquent sans complémentaire ; supprimer le reste à payer sur les prothèses a peu changé le nombre de patients. Pas d'évaluation d'une prise en charge à 100 % de la base.",
+"src": [
+{
+"l": "Sénat, rapport d'information n° 832 (2021-2022) sur l'enquête de la Cour des comptes sur la réforme du 100 % santé",
+"a": 2022,
+"u": "https://www.senat.fr/rap/r21-832/r21-8321.pdf"
+},
+{
+"l": "Service-public.gouv.fr, Couverture maladie complémentaire (mutuelle) : ce que rembourse le contrat responsable",
+"a": 2026,
+"u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20314"
+},
+{
+"l": "Eurostat, besoins non satisfaits d'examen dentaire déclarés, raison « trop cher » (hlth_silc_09), France",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_silc_09?geo=FR&sex=T&age=Y_GE16&reason=TXP&time=2022&time=2025"
+}
+]
+},
+"melenchon.logement-urgence": {
+"constat": "Places d'hébergement pour sans-abri : 334 000 en 2023, +49 % depuis 2017 (Cour des comptes).",
+"constat_s": [
+2
+],
+"pour": "Loger tout de suite des sans-abri, avec un suivi, les stabilise et réduit de 38 % leurs jours d'hôpital.",
+"preuve_pour": "solide",
+"contre": "Les réquisitions trouvent peu de logements habitables : beaucoup sont insalubres, à démolir ou dispersés.",
+"preuve_contre": "faible",
+"cas_pour": [
+{
+"t": "Des sans-abri ayant des troubles psychiques, logés d'emblée avec un suivi, ont passé 38 % de jours en moins à l'hôpital, sans surcoût (Tinland et al., France, 2020).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Une campagne de réquisition dans quatre régions a repéré un peu plus de 250 logements à remettre en location, d'autres écartés car insalubres ou à démolir (ministère du Logement, France, 2017).",
+"s": [
+1
+]
+},
+{
+"t": "Les places d'hébergement ont crû de 49 % de 2017 à 2023, souvent sous des formes offrant moins d'accompagnement social (Cour des comptes, France, 2024).",
+"s": [
+2
+]
+}
+],
+"etudes": "Un essai français confirme les études étrangères : loger d'emblée avec un suivi stabilise les sans-abri. La réquisition est peu utilisée et peu évaluée : une seule campagne récente documentée.",
+"src": [
+{
+"l": "Tinland et al., Effectiveness of a housing support team intervention with a recovery-oriented approach on hospital and emergency department use by homeless people with severe mental illness: a randomised controlled trial (Epidemiology and Psychiatric Sciences)",
+"a": 2020,
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7576524/"
+},
+{
+"l": "Assemblée nationale, question écrite n° 33550 sur la réquisition de logements vacants, réponse du ministère du Logement",
+"a": 2017,
+"u": "https://questions.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE33550.pdf"
+},
+{
+"l": "Cour des comptes, Les relations entre l'État et les gestionnaires de structures d'hébergement",
+"a": 2024,
+"u": "https://www.ccomptes.fr/sites/default/files/2024-09/20241001-S2024-1121-Relations-entre-Etat-et-gestionnaires-structures-hebergement.pdf"
+}
+]
+},
+"melenchon.cantine": {
+"constat": "Au collège public, 40 % des élèves de milieu défavorisé ne mangent pas à la cantine, contre 17 % des très favorisés (Depp, 2016).",
+"constat_s": [
+2
+],
+"pour": "Gratuite pour tous, la cantine attire bien plus d'enfants et réduit un peu l'obésité et les absences.",
+"preuve_pour": "mitigé",
+"contre": "Une large part de l'aide va aux familles aisées qui mangeaient et payaient déjà la cantine.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Gratuite pour tous les jeunes élèves, la cantine est passée de 30-35 % à 85 % des enfants qui la payaient avant ; obésité en baisse de 0,7 point (ISER, Angleterre, 2020).",
+"s": [
+0
+]
+},
+{
+"t": "Les élèves qui ont eu un repas scolaire gratuit pendant tout le primaire ont eu 3 % de revenu en plus sur leur vie, davantage chez les plus pauvres (Lundborg et al., Suède, 2022).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Chez les élèves modestes, déjà nourris gratuitement, la part mangeant à la cantine n'est passée que de 84 % à 87 % (ISER, Angleterre, 2020).",
+"s": [
+0
+]
+},
+{
+"t": "Au collège, 83 % des élèves de milieu très favorisé mangent déjà à la cantine (Depp-Cnesco, France, 2017).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les évaluations concordent : la gratuité pour tous fait manger plus d'enfants et réduit un peu l'obésité (Angleterre), avec des effets durables en Suède ; le gain va aussi aux familles qui payaient déjà.",
+"src": [
+{
+"l": "Holford et Rabe (ISER, université d'Essex), Impact of the Universal Infant Free School Meal policy (note de synthèse)",
+"a": 2020,
+"u": "https://www.iser.essex.ac.uk/wp-content/uploads/files/projects/FSM/ISER_Impact_of_the_Universal_Infant_Free_School_Meal_policy_(policy_briefing_note).pdf"
+},
+{
+"l": "Lundborg, Rooth, Alex-Petersen, Long-Term Effects of Childhood Nutrition: Evidence from a School Lunch Reform (Review of Economic Studies)",
+"a": 2022,
+"u": "https://ideas.repec.org/a/oup/restud/v89y2022i2p876-908..html"
+},
+{
+"l": "Cnesco, Qualité de vie à l'école, dossier de synthèse (données Depp 2016)",
+"a": 2017,
+"u": "https://www.cnesco.fr/wp-content/uploads/2017/10/171002Dossier_Synthese_Qualite_de_vie.pdf"
+}
+]
+},
+"melenchon.universites": {
+"constat": "Dépense par étudiant du supérieur : 13 300 € en 2024, −8 % depuis 2009 hors inflation (Insee).",
+"constat_s": [
+2
+],
+"pour": "Être admis de justesse à l'université a accru les salaires de 22 %, huit à quatorze ans plus tard.",
+"preuve_pour": "mitigé",
+"contre": "Les moins préparés réussissent peu en licence, et le gain des admis de justesse n'est pas toujours mesuré.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Les élèves admis de justesse dans une grande université publique ont gagné 22 % de plus, 8 à 14 ans après le lycée, surtout les plus modestes (Zimmerman, Floride, 2014).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Admis de justesse à l'université en 1982, des candidats ont étudié un peu plus longtemps, sans gain de salaire mesurable ensuite (Öckert, Suède, 2010).",
+"s": [
+1
+]
+},
+{
+"t": "Parmi les bacheliers 2020 inscrits en licence, 40,3 % l'ont obtenue en 3 ou 4 ans : 14 % des bacheliers technologiques, 6,5 % des professionnels (SIES, France, 2025).",
+"s": [
+3
+]
+}
+],
+"etudes": "Les études divergent sur le gain des étudiants admis de justesse (fort en Floride, nul en Suède) ; en France, la réussite en licence dépend fortement du bac obtenu.",
+"src": [
+{
+"l": "Zimmerman, The Returns to College Admission for Academically Marginal Students (Journal of Labor Economics)",
+"a": 2014,
+"u": "https://ideas.repec.org/a/ucp/jlabec/doi10.1086-676661.html"
+},
+{
+"l": "Öckert, What's the value of an acceptance letter? Using admissions data to estimate the return to college (Economics of Education Review)",
+"a": 2010,
+"u": "https://ideas.repec.org/a/eee/ecoedu/v29y2010i4p504-516.html"
+},
+{
+"l": "Insee, France, portrait social 2025, fiche « Dépenses d'éducation » (Compte de l'éducation, Depp-SIES)",
+"a": 2025,
+"u": "https://www.insee.fr/fr/statistiques/8612572"
+},
+{
+"l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
+"a": 2025,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-29-38293.pdf"
+}
+]
+},
+"melenchon.hopitaux": {
+"constat": "Lits d'hôpital : 367 100 en 2024, −11 % depuis 2013 (Eurostat).",
+"constat_s": [
+3
+],
+"pour": "Moins de patients par infirmier, c'est moins de décès, de réhospitalisations et de jours d'hôpital.",
+"preuve_pour": "mitigé",
+"contre": "Imposer plus d'infirmiers par patient n'a pas toujours amélioré de façon mesurable la sécurité des malades.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Avec au plus 4 patients par infirmier le jour, décès à 30 jours, réhospitalisations et durée de séjour ont baissé dans les hôpitaux concernés (McHugh et al., Australie, 2021).",
+"s": [
+0
+]
+},
+{
+"t": "Chaque patient de plus par infirmier accroît de 7 % le risque de décès des opérés dans les 30 jours suivant l'admission (Aiken et al., neuf pays européens, 2014).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Une loi imposant un nombre minimal d'infirmiers a bien réduit le nombre de patients par infirmier, sans amélioration mesurable de la sécurité des patients (Cook et al., Californie, 2010).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les études d'observation lient plus d'infirmiers à moins de décès ; les évaluations de lois sur les effectifs divergent (gains au Queensland, pas d'effet mesuré en Californie).",
+"src": [
+{
+"l": "McHugh et al., Effects of nurse-to-patient ratio legislation on nurse staffing and patient mortality, readmissions, and length of stay: a prospective study in a panel of hospitals (The Lancet)",
+"a": 2021,
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8408834/"
+},
+{
+"l": "Aiken et al., Nurse staffing and education and hospital mortality in nine European countries: a retrospective observational study (The Lancet)",
+"a": 2014,
+"u": "https://pubmed.ncbi.nlm.nih.gov/24581683/"
+},
+{
+"l": "Cook, Gaynor, Stephens, Taylor, The Effect of Hospital Nurse Staffing on Patient Health Outcomes: Evidence from California's Minimum Staffing Regulation (NBER WP 16077 ; Journal of Health Economics 2012)",
+"a": 2010,
+"u": "https://www.nber.org/papers/w16077"
+},
+{
+"l": "Eurostat, lits d'hôpital (hlth_rs_bds1), France",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/hlth_rs_bds1?geo=FR&unit=NR&facility=HBEDT&hlthcare=TOTAL&time=2013&time=2024"
+}
+]
+},
+"melenchon.vss": {
+"constat": "Victimes de violences sexuelles enregistrées par police et gendarmerie : 132 100 en 2025, +8 % en un an (SSMSI).",
+"constat_s": [
+2
+],
+"pour": "Davantage d'aide juridique aux victimes va de pair avec moins de violences conjugales.",
+"preuve_pour": "faible",
+"contre": "Certaines aides, sans protection suffisante, vont de pair avec plus d'homicides, par représailles.",
+"preuve_contre": "faible",
+"cas_pour": [
+{
+"t": "La hausse des services juridiques pour les victimes compte parmi les causes de la baisse des violences conjugales déclarées dans les années 1990 (Farmer et Tiefenthaler, États-Unis, 2003).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Dans 48 grandes villes, lignes d'écoute, unités spécialisées et avocats des victimes sont allés de pair avec plus d'homicides conjugaux dans certains groupes (Dugan et al., États-Unis, 2003).",
+"s": [
+1
+]
+}
+],
+"etudes": "Peu d'évaluations, surtout américaines et d'observation : l'aide juridique va avec moins de violences, mais des dispositifs qui facilitent la séparation sans protéger assez vont avec plus d'homicides.",
+"src": [
+{
+"l": "Farmer et Tiefenthaler, Explaining the Recent Decline in Domestic Violence (Contemporary Economic Policy)",
+"a": 2003,
+"u": "https://ideas.repec.org/a/bla/coecpo/v21y2003i2p158-172.html"
+},
+{
+"l": "Dugan, Nagin, Rosenfeld, « Do Domestic Violence Services Save Lives? » (NIJ Journal n° 250, résumé de leur article de Law & Society Review)",
+"a": 2003,
+"u": "https://www.ojp.gov/pdffiles1/jr000250f.pdf"
+},
+{
+"l": "SSMSI, Insécurité et délinquance en 2025 : bilan statistique (édition 2026)",
+"a": 2026,
+"u": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-07/Ins%C3%A9curit%C3%A9%20et%20d%C3%A9linquance%20en%202025%20-%20Bilan%20statistique%20-%20%C3%A9dition%202026%20-%20SSMSI.pdf"
+}
+]
+},
+"melenchon.violences-enfants": {
+"constat": "Violences physiques dans la famille enregistrées sur des mineurs : +9 % en 2025 (SSMSI).",
+"constat_s": [
+2
+],
+"pour": "Des visites régulières d'infirmières chez de jeunes mères ont presque divisé par deux la maltraitance.",
+"preuve_pour": "mitigé",
+"contre": "Le même programme, ajouté ailleurs à des services existants, n'a pas réduit la maltraitance.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Les mères suivies par des infirmières à domicile, de la grossesse aux 2 ans de l'enfant, ont eu 0,29 signalement de maltraitance vérifié en 15 ans, contre 0,54 (Olds et al., États-Unis, 1997).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Le même suivi par des infirmières, ajouté aux services habituels, n'a pas réduit les signalements d'enfants en danger jusqu'à 7 ans (Robling et al., Angleterre, 2022).",
+"s": [
+1
+]
+}
+],
+"etudes": "Les essais divergent : les visites à domicile ont réduit la maltraitance aux États-Unis, pas en Angleterre où d'autres services existaient déjà ; les actions financées ne sont pas détaillées.",
+"src": [
+{
+"l": "Olds et al., Long-term effects of home visitation on maternal life course and child abuse and neglect. Fifteen-year follow-up of a randomized trial (JAMA)",
+"a": 1997,
+"u": "https://pubmed.ncbi.nlm.nih.gov/9272895/"
+},
+{
+"l": "Robling, Cannings-John, Lugg-Widger, Using multiple routine data sources linked to a trial cohort to establish the longer-term effectiveness of specialist home visiting in England: main results of the BB:2-6 study of the Family Nurse Partnership (International Journal of Population Data Science)",
+"a": 2022,
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9644691/"
+},
+{
+"l": "SSMSI, Insécurité et délinquance en 2025 : bilan statistique (édition 2026)",
+"a": 2026,
+"u": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-07/Ins%C3%A9curit%C3%A9%20et%20d%C3%A9linquance%20en%202025%20-%20Bilan%20statistique%20-%20%C3%A9dition%202026%20-%20SSMSI.pdf"
+}
+]
+},
+"melenchon.planification": {
+"constat": "Dégâts aux maisons dus à la sécheresse des sols : record en 2022, 2,4 à 2,9 Md€ (Cour des comptes).",
+"constat_s": [
+3
+],
+"pour": "Après le plan créé en 2003, la canicule de 2006 a fait environ 4 400 morts de moins que prévu.",
+"preuve_pour": "mitigé",
+"contre": "Ce type d'enveloppe se rabote : le fonds vert des communes a été divisé par trois en deux ans.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Après les alertes et mesures de prévention créées à la suite de 2003, la canicule de 2006 a causé environ 4 400 décès de moins que prévu (Fouillet et al., France, 2008).",
+"s": [
+0
+]
+},
+{
+"t": "Après des travaux d'isolation aidés, les maisons chauffées au gaz ont consommé 6,6 % de moins, et 12,7 % de moins pour les plus énergivores (Insee-SDES, France, 2026).",
+"s": [
+4
+]
+}
+],
+"cas_contre": [
+{
+"t": "Le Fonds vert des collectivités, qui finance aussi l'adaptation, a été divisé par trois de 2024 à 2026, raboté à chaque étape budgétaire (I4CE, France, 2026).",
+"s": [
+1
+]
+},
+{
+"t": "Les communes de montagne subventionnent surtout la neige de culture, protection « relative et transitoire » de moins en moins efficace (Cour des comptes, France, 2024).",
+"s": [
+2
+]
+},
+{
+"t": "Les économies d'énergie mesurées après isolation n'atteignent qu'environ 42 % de celles calculées sur plan (Insee-SDES, France, 2026).",
+"s": [
+4
+]
+}
+],
+"etudes": "La prévention des canicules a un effet mesuré en France ; aucune évaluation d'un plan d'adaptation d'ensemble ; les rénovations économisent de l'énergie, mais moins que prévu (environ 42 %).",
+"src": [
+{
+"l": "Fouillet et al., International Journal of Epidemiology",
+"a": 2008,
+"u": "https://doi.org/10.1093/ije/dym253"
+},
+{
+"l": "I4CE, « Qu'attendre (vraiment) du Fonds vert ? »",
+"a": 2026,
+"u": "https://www.i4ce.org/adaptation-changement-climatique-attendre-fonds-vert/"
+},
+{
+"l": "Cour des comptes, synthèses du rapport public annuel 2024, « Les stations de montagne face au changement climatique »",
+"a": 2024,
+"u": "https://www.ccomptes.fr/sites/default/files/2024-03/20240312-syntheses-RPA-2024.pdf"
+},
+{
+"l": "Cour des comptes, rapport public annuel 2024 (vol. 1), « L'adaptation des logements au changement climatique »",
+"a": 2024,
+"u": "https://www.ccomptes.fr/sites/default/files/2024-03/RPA-2024-volume-1-reduit.pdf"
+},
+{
+"l": "Insee-SDES, document de travail 2025-16, isolation et consommation réelle d'énergie",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+}
+]
+},
+"melenchon.chomage": {
+"constat": "Le taux de chômage est de 8,3 % au 2e trimestre 2026, contre 7,1 % début 2023 et 8,4 % mi-2019 (Insee).",
+"constat_s": [
+2
+],
+"pour": "Des droits plus longs évitent à plus de chômeurs d'arriver en fin de droits sans emploi, vers les minima.",
+"preuve_pour": "mitigé",
+"contre": "Des droits plus longs retardent la reprise d'un emploi : le chômage dure plus, sans meilleur emploi retrouvé.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Trois mois après la fin de leurs droits, 31 % des chômeurs étaient salariés, 18 % au RSA et 11 % à l'allocation spécifique de solidarité (Trésor, France, 2025).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Passer la durée maximale d'indemnisation de 7 à 15 mois a allongé le chômage d'environ deux mois et demi, sans meilleur emploi retrouvé (IPP, France, 2013).",
+"s": [
+0
+]
+}
+],
+"etudes": "Les évaluations concordent : des droits plus courts réduisent la durée du chômage ; l'effet sur la qualité de l'emploi retrouvé est discuté (nul en France, positif en Autriche).",
+"src": [
+{
+"l": "IPP, note n° 5 (T. Le Barbanchon), impact de la générosité de l'assurance chômage",
+"a": 2013,
+"u": "https://www.ipp.eu/wp-content/uploads/2013/04/cp-22avril2013-ipp.pdf"
+},
+{
+"l": "Trésor-Éco n° 373, Comprendre les trajectoires après la fin de droit au régime de l'assurance chômage",
+"a": 2025,
+"u": "https://www.tresor.economie.gouv.fr/Articles/2025/10/30/comprendre-les-trajectoires-apres-la-fin-de-droit-au-regime-de-l-assurance-chomage"
+},
+{
+"l": "Insee, taux de chômage au sens du BIT, France hors Mayotte, données CVS (série 001688527)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/001688527"
+}
+]
+},
+"melenchon.af-apl": {
+"constat": "Pauvreté des enfants : 22,4 % des moins de 18 ans en 2024, contre 20,6 % en 2021, +9 % (Insee).",
+"constat_s": [
+4
+],
+"pour": "Plus d'aide par enfant améliore les résultats scolaires des enfants et la santé des mères.",
+"preuve_pour": "mitigé",
+"contre": "Une large part de la hausse des aides au logement passe dans les loyers : 78 centimes par euro dans une étude.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Des allocations par enfant plus élevées ont amélioré les résultats scolaires des enfants et la santé, notamment mentale, des mères (Milligan et Stabile, Canada, 2011).",
+"s": [
+0
+]
+},
+{
+"t": "En 2023, des aides au logement revalorisées moins que les prix ont pesé sur le niveau de vie des familles monoparentales, dont la pauvreté a crû de 2,9 points (Insee, France, 2025).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Chaque euro d'aide au logement en plus a fait monter de 78 centimes le loyer des nouveaux allocataires, après l'extension des aides des années 1990 (Fack, France, 2006).",
+"s": [
+2
+]
+},
+{
+"t": "Là où le barème des aides au logement est plus favorable, les loyers privés sont 5,3 % plus élevés, sans logements de meilleure qualité ni plus nombreux (Insee, France, 2014).",
+"s": [
+3
+]
+}
+],
+"etudes": "Les études françaises concordent : une part importante des aides au logement passe dans les loyers ; les aides par enfant améliorent santé et scolarité (Canada). Pas d'évaluation d'une hausse générale de 10 %.",
+"src": [
+{
+"l": "Milligan et Stabile, Do Child Tax Benefits Affect the Well-Being of Children? Evidence from Canadian Child Benefit Expansions (AEJ: Economic Policy)",
+"a": 2011,
+"u": "https://ideas.repec.org/a/aea/aejpol/v3y2011i3p175-205.html"
+},
+{
+"l": "Insee, France, portrait social 2025, fiche « Pauvreté monétaire »",
+"a": 2025,
+"u": "https://www.insee.fr/fr/statistiques/8612540"
+},
+{
+"l": "Fack, Are housing benefit an effective way to redistribute income? Evidence from a natural experiment in France (Labour Economics)",
+"a": 2006,
+"u": "https://ideas.repec.org/a/eee/labeco/v13y2006i6p747-771.html"
+},
+{
+"l": "Insee Analyses n° 19, L'impact des aides au logement sur le secteur locatif privé (Grislain-Letrémy, Trevien)",
+"a": 2014,
+"u": "https://www.insee.fr/fr/statistiques/1521337"
+},
+{
+"l": "Insee, Pauvreté selon l'âge et le seuil (taux de pauvreté au seuil de 60 %, 2020-2024)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/3565548"
+}
+]
+},
+"philippe.premier_contrat": {
+"constat": "16 % des ménages détiennent une épargne retraite en 2021, une part stable depuis 2010 (Insee).",
+"constat_s": [
+2
+],
+"pour": "Sur trente ans, la retraite placée en fonds a rapporté 8,5 % par an, contre 3,4 % pour la répartition.",
+"preuve_pour": "solide",
+"contre": "Les marchés peuvent chuter (−34 % en 2008), et les ménages aisés ajoutent bien plus souvent leur épargne.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Le régime additionnel des fonctionnaires, placé sur les marchés depuis 2005, a rapporté 4,7 % par an en moyenne (ERAFP, France, 2026).",
+"s": [
+0
+]
+},
+{
+"t": "La part de retraite placée en fonds a rapporté 8,5 % par an de 1995 à 2025, contre 3,4 % pour la part financée par les cotisations (Pensionsmyndigheten, Suède, 2026).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Une épargne retraite est détenue par 34 % des ménages de cadres, contre 12 % des ménages d'ouvriers et 10 % des ménages d'employés (Insee, France, 2024).",
+"s": [
+2
+]
+},
+{
+"t": "La part de retraite placée en fonds a perdu 34 % en 2008 ; fin 2008, elle rapportait moins que la part financée par les cotisations (Pensionsmyndigheten, Suède, 2009).",
+"s": [
+3
+]
+}
+],
+"etudes": "Rendements de long terme bien documentés, comme les pertes certaines années ; aucune évaluation d'un versement public à l'entrée dans l'emploi.",
+"src": [
+{
+"l": "ERAFP, rapport annuel 2025 du régime de retraite additionnelle de la fonction publique",
+"a": 2026,
+"u": "https://media.rafp.fr/s3fs-public/2026-06/RAFP-RA2025-V6_0.pdf"
+},
+{
+"l": "Pensionsmyndigheten (agence suédoise des retraites), « Le système de pension par capitalisation atteint-il les objectifs du Parlement ? »",
+"a": 2026,
+"u": "https://www.pensionsmyndigheten.se/content/dam/pensionsmyndigheten/blanketter---broschyrer---faktablad/publikationer/rapporter/2026/nar_premiepensionssystemet_riksdagens_mal_2026.pdf"
+},
+{
+"l": "Insee, Revenus et patrimoine des ménages 2024, fiche taux de détention",
+"a": 2024,
+"u": "https://www.insee.fr/fr/statistiques/fichier/7941419/RPM2024-F25.pdf"
+},
+{
+"l": "Pensionsmyndigheten, Orange Report 2009 (rapport annuel du système suédois, données 2008)",
+"a": 2009,
+"u": "https://www.pensionsmyndigheten.se/content/dam/pensionsmyndigheten/blanketter---broschyrer---faktablad/publikationer/%C3%A5rsredovisningar/annual-reports-of-the-swedish-pension-system/Orange%2BReport%2B2009%2Benglish.pdf"
+}
+]
+},
+"philippe.armees": {
+"constat": "Réservistes opérationnels des armées : 39 474 fin 2021 ; objectif fixé : 80 000 en 2030 (Sénat).",
+"constat_s": [
+0
+],
+"pour": "Les réservistes apportent déjà aux armées l'équivalent de 4 000 militaires à plein temps chaque jour.",
+"preuve_pour": "pas d'étude",
+"contre": "Un réserviste sert 37 jours par an en moyenne, et des démarches lourdes freinent l'engagement et le maintien.",
+"preuve_contre": "pas d'étude",
+"cas_pour": [],
+"cas_contre": [],
+"etudes": "Pas d'évaluation trouvée de l'effet d'une réserve ou d'un volontariat militaire plus nombreux ; les études sur le service militaire portent sur des services obligatoires.",
+"src": [
+{
+"l": "Sénat, rapport d'information n° 443 (2022-2023), Transformer les ressources humaines des armées",
+"a": 2023,
+"u": "https://www.senat.fr/rap/r22-443/r22-4434.html"
+}
+]
+},
+"philippe.ingenieurs": {
+"constat": "Étudiants en cycle ingénieur : 157 600 à la rentrée 2025, −0,6 % en un an, +2 % en cinq ans (SIES).",
+"constat_s": [
+1
+],
+"pour": "Ouvrir des écoles d'ingénieurs a accru les inventions : +20 % de brevets avec trois écoles nouvelles.",
+"preuve_pour": "mitigé",
+"contre": "Le vivier d'élèves est étroit : moins de 30 % de femmes, et la moitié vient des milieux les plus favorisés.",
+"preuve_contre": "faible",
+"cas_pour": [
+{
+"t": "L'ouverture de trois universités techniques a accru d'environ 20 % les brevets déposés aux États-Unis par des inventeurs du pays (Toivanen et Väänänen, Finlande, 2016).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "À la rentrée 2025, 29,3 % des élèves ingénieurs sont des femmes, et un sur deux vient des catégories sociales les plus favorisées (SIES, France, 2026).",
+"s": [
+1
+]
+}
+],
+"etudes": "Une étude (Finlande) lie de nouvelles écoles d'ingénieurs à plus d'inventions ; en France, les effectifs progressent peu et le recrutement reste concentré. Pas d'évaluation d'un tel doublement.",
+"src": [
+{
+"l": "Toivanen et Väänänen, Education and Invention (Review of Economics and Statistics)",
+"a": 2016,
+"u": "https://ideas.repec.org/a/tpr/restat/v98y2016i2p382-396.html"
+},
+{
+"l": "SIES, Note Flash n° 12, Les effectifs inscrits en cycle ingénieur en 2025-2026",
+"a": 2026,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-06/NF_2026_Ingenieurs.pdf"
+}
+]
+},
+"retailleau.conge_naissance": {
+"constat": "Fécondité : −16 % de 2019 à 2025, à 1,53 enfant par femme (Insee, métropole).",
+"constat_s": [
+4
+],
+"pour": "Un congé payé selon le salaire a accru les naissances, jusqu'à +23 % chez les femmes diplômées.",
+"preuve_pour": "mitigé",
+"contre": "Laissé au choix du couple, le congé est pris surtout par les mères, qui reprennent le travail plus tard.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Un congé payé en proportion du salaire a accru jusqu'à 23 % la fécondité des femmes diplômées du supérieur (Raute, Allemagne, 2019).",
+"s": [
+0
+]
+},
+{
+"t": "Quatre mois de congé payé à la naissance ont réduit de 2 points le décrochage scolaire des enfants et accru de 5 % leur salaire à 30 ans (Carneiro et al., Norvège, 2015).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Le congé parental à partager n'a pas attiré les pères : 19 000 bénéficiaires en 2014, 15 000 en 2020, loin des 100 000 visés (Sénat, France, 2023).",
+"s": [
+2
+]
+},
+{
+"t": "Porter le congé parental payé d'un à deux ans a retardé le retour au travail des mères et réduit leur emploi à court terme, pas à long terme (Lalive et Zweimüller, Autriche, 2009).",
+"s": [
+3
+]
+}
+],
+"etudes": "Les études concordent : un congé mieux payé avance ou accroît un peu les naissances et aide les enfants ; il retarde un temps le retour des mères à l'emploi, sans effet durable mesuré.",
+"src": [
+{
+"l": "Raute, Can financial incentives reduce the baby gap? Evidence from a reform in maternity leave benefits (Journal of Public Economics)",
+"a": 2019,
+"u": "https://ideas.repec.org/a/eee/pubeco/v169y2019icp203-222.html"
+},
+{
+"l": "Carneiro, Løken, Salvanes, A Flying Start? Maternity Leave Benefits and Long-Run Outcomes of Children (Journal of Political Economy)",
+"a": 2015,
+"u": "https://ideas.repec.org/a/ucp/jpolec/doi10.1086-679627.html"
+},
+{
+"l": "Sénat, rapport d'information n° 761 (2022-2023), Réformer l'indemnisation des congés parentaux (L'essentiel)",
+"a": 2023,
+"u": "https://www.senat.fr/rap/r22-761/r22-761-syn.pdf"
+},
+{
+"l": "Lalive et Zweimüller, How Does Parental Leave Affect Fertility and Return to Work? Evidence from Two Natural Experiments (Quarterly Journal of Economics)",
+"a": 2009,
+"u": "https://ideas.repec.org/a/oup/qjecon/v124y2009i3p1363-1402..html"
+},
+{
+"l": "Insee, indicateur conjoncturel de fécondité, France métropolitaine (série 001686825)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/001686825"
+}
+]
+},
+"retailleau.chomage": {
+"constat": "Le taux de chômage est de 8,3 % au 2e trimestre 2026, contre 7,1 % début 2023 et 8,4 % mi-2019 (Insee).",
+"constat_s": [
+2
+],
+"pour": "Des droits plus courts font reprendre un emploi plus tôt, ce qui raccourcit le chômage.",
+"preuve_pour": "solide",
+"contre": "Plus de chômeurs arrivent en fin de droits sans emploi et passent aux minima sociaux.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Passer la durée maximale d'indemnisation de 7 à 15 mois a allongé le chômage d'environ deux mois et demi, sans meilleur emploi retrouvé (IPP, France, 2013).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Trois mois après la fin de leurs droits, 31 % des chômeurs étaient salariés, 18 % au RSA et 11 % à l'allocation spécifique de solidarité (Trésor, France, 2025).",
+"s": [
+1
+]
+}
+],
+"etudes": "Les évaluations concordent : des droits plus courts réduisent la durée du chômage ; l'effet sur la qualité de l'emploi retrouvé est discuté (nul en France, positif en Autriche).",
+"src": [
+{
+"l": "IPP, note n° 5 (T. Le Barbanchon), impact de la générosité de l'assurance chômage",
+"a": 2013,
+"u": "https://www.ipp.eu/wp-content/uploads/2013/04/cp-22avril2013-ipp.pdf"
+},
+{
+"l": "Trésor-Éco n° 373, Comprendre les trajectoires après la fin de droit au régime de l'assurance chômage",
+"a": 2025,
+"u": "https://www.tresor.economie.gouv.fr/Articles/2025/10/30/comprendre-les-trajectoires-apres-la-fin-de-droit-au-regime-de-l-assurance-chomage"
+},
+{
+"l": "Insee, taux de chômage au sens du BIT, France hors Mayotte, données CVS (série 001688527)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/001688527"
+}
+]
+},
+"retailleau.ia": {
+"constat": "Entreprises de 10 salariés ou plus utilisant l'IA : 18,2 % en 2025, contre 5,9 % en 2023 ; UE : 20 % (Eurostat).",
+"constat_s": [
+3
+],
+"pour": "Les outils d'IA accroissent la productivité au travail : +14 % en moyenne, +34 % pour les débutants.",
+"preuve_pour": "mitigé",
+"contre": "Mi-2025, le plan public en cours n'avait dépensé qu'un tiers de ses crédits, et l'IA s'était peu diffusée.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Un assistant d'IA a accru de 14 % le nombre de demandes traitées par heure par des conseillers clients, de 34 % chez les débutants (Brynjolfsson et al., États-Unis, 2025).",
+"s": [
+0
+]
+},
+{
+"t": "Avec le plan public lancé en 2018, la France est passée au 3e rang mondial en recherche et formation en IA ; plus de 1 000 start-up en 2025 (Cour des comptes, France, 2025).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Sur la phase 2023-2025 du plan national, 35 % des crédits étaient consommés mi-2025 ; la diffusion attendue de l'IA dans l'économie « n'a pas eu lieu » (Cour des comptes, France, 2025).",
+"s": [
+1
+]
+}
+],
+"etudes": "Gains de productivité mesurés sur des tâches précises ; à l'échelle du pays, une estimation (Acemoglu, 2024) les juge modestes : au plus 0,66 % de productivité en dix ans.",
+"src": [
+{
+"l": "Brynjolfsson, Li, Raymond, Generative AI at Work (Quarterly Journal of Economics ; NBER WP 31161)",
+"a": 2025,
+"u": "https://www.nber.org/papers/w31161"
+},
+{
+"l": "Cour des comptes, La stratégie nationale pour l'intelligence artificielle (synthèse du rapport public thématique)",
+"a": 2025,
+"u": "https://www.ccomptes.fr/sites/default/files/2026-01/20251119-synthese-Strategie-nationale-IA.pdf"
+},
+{
+"l": "Acemoglu, The Simple Macroeconomics of AI (NBER WP 32487)",
+"a": 2024,
+"u": "https://www.nber.org/papers/w32487"
+},
+{
+"l": "Eurostat, utilisation de l'intelligence artificielle par les entreprises de 10 salariés ou plus (isoc_eb_ai), France et UE",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/isoc_eb_ai?geo=FR&geo=EU27_2020&indic_is=E_AI_TANY&unit=PC_ENT&size_emp=GE10&time=2023&time=2025"
+}
+]
+},
+"retailleau.profs": {
+"constat": "Salaire des enseignants expérimentés de 2015 à 2024 : +1 % au plus, contre +4 à +6 % en moyenne OCDE (OCDE).",
+"constat_s": [
+3,
+4
+],
+"pour": "Mieux payer attire plus de candidats au métier et retient les professeurs en poste.",
+"preuve_pour": "mitigé",
+"contre": "Une hausse générale ne vise pas les académies et les écoles où l'on manque de professeurs.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Après le doublement de la prime en éducation prioritaire renforcée, ces collèges sont 3 points plus souvent en premier vœu de mutation (Insee, Montpellier, 2023).",
+"s": [
+0
+]
+},
+{
+"t": "Une prime d'environ 10 % dans les écoles qui manquaient de professeurs a réduit de 6 points les départs volontaires d'enseignants (Falch, Norvège, 2011).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "À salaire national identique, le concours de professeur des écoles a eu 1,2 candidat par poste à Créteil en 2021, contre 6,8 à Limoges (Cour des comptes, France, 2023).",
+"s": [
+2
+]
+}
+],
+"etudes": "L'effet du salaire sur les vœux et les départs est établi pour des primes ciblées ; aucune évaluation d'une hausse générale en France ; le manque de candidats est très localisé.",
+"src": [
+{
+"l": "Insee Analyses n° 87, L'impact du doublement de l'indemnité REP+ sur les vœux de mobilité des enseignants",
+"a": 2023,
+"u": "https://www.insee.fr/fr/statistiques/7658358"
+},
+{
+"l": "Falch, Teacher Mobility Responses to Wage Changes (American Economic Review)",
+"a": 2011,
+"u": "https://torbergf.folk.ntnu.no/Articles/aer.101.3.460.pdf"
+},
+{
+"l": "Cour des comptes, Devenir enseignant : la formation initiale et le recrutement des enseignants",
+"a": 2023,
+"u": "https://www.ccomptes.fr/system/files/2023-01/20230201-devenir-enseignant-recrutement-formation-initiale-enseignants.pdf"
+},
+{
+"l": "OCDE, Regards sur l'éducation 2025 (via L'Etudiant / Educpros)",
+"a": 2025,
+"u": "https://www.letudiant.fr/educpros/actualite/les-salaires-des-enseignants-de-locde-sont-peu-attractifs-en-particulier-en-france.html"
+},
+{
+"l": "OCDE, Regards sur l'éducation 2025 (via Acteurs publics)",
+"a": 2025,
+"u": "https://acteurspublics.fr/articles/penurie-denseignants-la-france-nest-finalement-pas-si-mal-lotie/"
+}
+]
+},
+"attal.engagement_civique": {
+"pour": "Mélanger des jeunes de tous milieux, répartis au hasard, accroît leur confiance envers les autres.",
+"preuve_pour": "mitigé",
+"contre": "Les structures prêtes à accueillir des jeunes en mission manquent déjà, et aucun effet durable n'est mesuré.",
+"preuve_contre": "faible",
+"cas_pour": [
+{
+"t": "Affectés au hasard dans une chambrée avec des soldats issus de minorités, les appelés leur ont ensuite accordé plus de confiance (Finseraas et al., Norvège, 2019).",
+"s": [
+0
+]
+},
+{
+"t": "Servir hors de sa région n'a pas changé en moyenne l'attachement au pays ; il l'a accru chez les appelés des régions les plus autonomistes (J-PAL, Espagne, 2021).",
+"s": [
+1
+]
+},
+{
+"t": "Laissé au volontariat, le séjour de cohésion a peu mélangé les milieux : 5 % de jeunes des quartiers prioritaires, contre 9 % dans la population (Cour des comptes, France, 2024).",
+"s": [
+2
+]
+}
+],
+"cas_contre": [
+{
+"t": "Pour leur mission d'intérêt général, les jeunes du service national universel ont eu du mal à trouver des structures d'accueil, déjà très sollicitées (Cour des comptes, France, 2024).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les études portent sur des services militaires de plusieurs mois (confiance accrue envers des jeunes d'autres origines) ; aucune évaluation d'un engagement d'un mois ; le séjour volontaire actuel a peu atteint ses objectifs.",
+"src": [
+{
+"l": "Finseraas, Hanson, Johnsen, Kotsadam, Torsvik, Trust, ethnic diversity, and personal contact: a field experiment (Journal of Public Economics ; CESifo WP 7515)",
+"a": 2019,
+"u": "https://www.cesifo.org/en/publications/2019/working-paper/trust-ethnic-diversity-and-personal-contact-field-experiment"
+},
+{
+"l": "Cáceres-Delpiano, De Moragas, Facchini, González, Intergroup contact and nation building: military service in Spain (Journal of Public Economics), résumé J-PAL",
+"a": 2021,
+"u": "https://www.povertyactionlab.org/evaluation/encouraging-interregional-contact-foster-national-identity-spain"
+},
+{
+"l": "Cour des comptes, Le Service national universel : un premier bilan, cinq années après son lancement",
+"a": 2024,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/295374.pdf"
+}
+]
+},
+"attal.ia": {
+"constat": "Entreprises de 10 salariés ou plus utilisant l'IA : 18,2 % en 2025, contre 5,9 % en 2023 ; UE : 20 % (Eurostat).",
+"constat_s": [
+3
+],
+"pour": "Les outils d'IA accroissent la productivité au travail : +14 % en moyenne, +34 % pour les débutants.",
+"preuve_pour": "mitigé",
+"contre": "Mi-2025, le plan public en cours n'avait dépensé qu'un tiers de ses crédits, et l'IA s'était peu diffusée.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Un assistant d'IA a accru de 14 % le nombre de demandes traitées par heure par des conseillers clients, de 34 % chez les débutants (Brynjolfsson et al., États-Unis, 2025).",
+"s": [
+0
+]
+},
+{
+"t": "Avec le plan public lancé en 2018, la France est passée au 3e rang mondial en recherche et formation en IA ; plus de 1 000 start-up en 2025 (Cour des comptes, France, 2025).",
+"s": [
+1
+]
+},
+{
+"t": "Six semaines de soutien en anglais avec une IA, après les cours, ont fait progresser des lycéens de 0,23 écart-type (Banque mondiale, Nigeria, 2025).",
+"s": [
+4
+]
+}
+],
+"cas_contre": [
+{
+"t": "Sur la phase 2023-2025 du plan national, 35 % des crédits étaient consommés mi-2025 ; la diffusion attendue de l'IA dans l'économie « n'a pas eu lieu » (Cour des comptes, France, 2025).",
+"s": [
+1
+]
+},
+{
+"t": "Des lycéens aidés par une IA conversationnelle libre ont ensuite eu, sans elle, des notes 17 % plus basses que les autres ; un tuteur bridé a évité cet effet (Bastani et al., Turquie, 2025).",
+"s": [
+5
+]
+}
+],
+"etudes": "Gains de productivité mesurés sur des tâches précises, jugés modestes à l'échelle du pays (Acemoglu, 2024) ; pour les élèves, deux essais divergent selon la conception de l'outil.",
+"src": [
+{
+"l": "Brynjolfsson, Li, Raymond, Generative AI at Work (Quarterly Journal of Economics ; NBER WP 31161)",
+"a": 2025,
+"u": "https://www.nber.org/papers/w31161"
+},
+{
+"l": "Cour des comptes, La stratégie nationale pour l'intelligence artificielle (synthèse du rapport public thématique)",
+"a": 2025,
+"u": "https://www.ccomptes.fr/sites/default/files/2026-01/20251119-synthese-Strategie-nationale-IA.pdf"
+},
+{
+"l": "Acemoglu, The Simple Macroeconomics of AI (NBER WP 32487)",
+"a": 2024,
+"u": "https://www.nber.org/papers/w32487"
+},
+{
+"l": "Eurostat, utilisation de l'intelligence artificielle par les entreprises de 10 salariés ou plus (isoc_eb_ai), France et UE",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/isoc_eb_ai?geo=FR&geo=EU27_2020&indic_is=E_AI_TANY&unit=PC_ENT&size_emp=GE10&time=2023&time=2025"
+},
+{
+"l": "De Simone et al., From Chalkboards to Chatbots: Evaluating the Impact of Generative AI on Learning Outcomes in Nigeria (Banque mondiale, Policy Research WP 11125)",
+"a": 2025,
+"u": "https://econpapers.repec.org/RePEc:wbk:wbrwps:11125"
+},
+{
+"l": "Bastani et al., Generative AI without guardrails can harm learning: Evidence from high school mathematics (PNAS)",
+"a": 2025,
+"u": "https://ideas.repec.org/a/nas/journl/v122y2025pe2422633122.html"
+}
+]
+},
+"lisnard.gel_pensions": {
+"constat": "Dette publique : de 98 % du PIB fin 2019 à 119 % mi-2026 (Insee).",
+"constat_s": [
+1
+],
+"pour": "Avec un seuil, l'effort épargne la plupart des retraités : 35 % touchent plus de 2 000 € brut par mois.",
+"preuve_pour": "mitigé",
+"contre": "Le seuil vise la pension, pas le ménage : une partie de l'effort pèse encore sur des foyers modestes.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Un gel limité aux pensions de plus de 2 000 € brut par mois toucherait 35 % des retraités ; la moitié touche moins de 1 639 € (IPP, France, 2026).",
+"s": [
+0
+]
+},
+{
+"t": "Le niveau de vie moyen des retraités est proche de celui de l'ensemble de la population, et leur taux de pauvreté est plus faible (COR, via IPP, France, 2026).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Même au-delà d'un seuil, le gel pèse en partie sur des ménages modestes : une pension élevée peut faire vivre un foyer par ailleurs modeste (IPP, France, 2026).",
+"s": [
+0
+]
+}
+],
+"etudes": "Une microsimulation (IPP, 2026) : un gel réservé aux pensions élevées épargne la plupart des retraités modestes, mais pas tous, et rapporte moins qu'un gel général. Pas d'évaluation observée.",
+"src": [
+{
+"l": "IPP, note n° 129, « Comment mettre à contribution les retraités pour le redressement des finances publiques ? » (Aubert, Duchesne, Tochev, Tô)",
+"a": 2026,
+"u": "https://www.ipp.eu/wp-content/uploads/2026/09/Note_contribution_retraites_129.pdf"
+},
+{
+"l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/010777608"
+}
+]
+},
+"zemmour.ame": {
+"constat": "Bénéficiaires de l'aide médicale d'État : +47 % de 2017 à 2024, puis −1,5 % sur un an fin septembre 2025 (Sénat).",
+"constat_s": [
+6,
+7
+],
+"pour": "Ne plus couvrir les soins réduit l'intérêt de venir pour se faire soigner.",
+"preuve_pour": "faible",
+"contre": "Les soins retardés reviennent plus tard, plus graves, aux urgences et à l'hôpital.",
+"preuve_contre": "solide",
+"cas_pour": [],
+"cas_contre": [
+{
+"t": "Dépense de soins urgents en hausse de 33 %, celle d'aide médicale d'État en recul de 2,5 % après un droit d'entrée payant instauré en 2011 (IGAS-IGF, France, 2019).",
+"s": [
+0
+]
+},
+{
+"t": "Environ 80 décès de plus par an chez les sans-papiers après la limitation de leurs soins en 2012 ; accès rétabli en 2018 (Eur. Econ. Review, Espagne, 2021).",
+"s": [
+1,
+2
+]
+},
+{
+"t": "Dépenses de santé par personne environ 40 % plus élevées chez les demandeurs d'asile limités aux soins aigus, de 1994 à 2013 (PLOS ONE, Allemagne, 2015).",
+"s": [
+3
+]
+}
+],
+"etudes": "Les études concordent : limiter les soins des sans-papiers reporte la dépense vers l'urgence et dégrade leur santé. Des venues pour soins existent, mais aucun effet d'une restriction n'est mesuré.",
+"src": [
+{
+"l": "IGAS-IGF, L'aide médicale de l'État : diagnostic et propositions",
+"a": 2019,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/271649.pdf"
+},
+{
+"l": "Juanmarti Mestres, López Casasnovas, Vall Castelló, The deadly effects of losing health insurance (European Economic Review)",
+"a": 2021,
+"u": "https://ideas.repec.org/a/eee/eecrev/v131y2021ics0014292120302385.html"
+},
+{
+"l": "Real Decreto-ley 7/2018 sobre el acceso universal al Sistema Nacional de Salud (BOE)",
+"a": 2018,
+"u": "https://www.boe.es/buscar/doc.php?id=BOE-A-2018-10752"
+},
+{
+"l": "Bozorgmehr et Razum, Effect of Restricting Access to Health Care on Health Expenditures among Asylum-Seekers and Refugees (PLOS ONE)",
+"a": 2015,
+"u": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131483"
+},
+{
+"l": "Évin et Stefanini, Rapport sur l'aide médicale de l'État",
+"a": 2023,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/292122.pdf"
+},
+{
+"l": "Cour des comptes, La politique de lutte contre l'immigration irrégulière",
+"a": 2024,
+"u": "https://www.ccomptes.fr/fr/publications/la-politique-de-lutte-contre-limmigration-irreguliere"
+},
+{
+"l": "Sénat, rapport général n° 139 (2025-2026), annexe Santé",
+"a": 2025,
+"u": "https://www.senat.fr/rap/l25-139-327/l25-139-3271.pdf"
+},
+{
+"l": "Sénat, rapport n° 736 (2025-2026), annexe Santé, et rapport général n° 139, aide médicale de l'État",
+"a": 2026,
+"u": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf"
+}
+]
+},
+"zemmour.rsa3": {
+"constat": "RSA : un allocataire sur six depuis plus de 10 ans fin 2019 ; 7 ans après l'entrée, 42 % y sont encore (Cour des comptes).",
+"constat_s": [
+2
+],
+"pour": "Une durée limitée pousse à reprendre un emploi plus tôt : une part de la hausse de l'emploi lui est due.",
+"preuve_pour": "mitigé",
+"contre": "Quand l'aide s'arrête, peu de personnes trouvent un emploi, et la plupart restent en difficulté financière.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Les limites de durée expliqueraient un huitième de la baisse du recours à l'aide et 7 % de la hausse de l'emploi des mères seules après 1993 (Grogger, États-Unis, 2003).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Dans deux expériences tirées au sort, la coupure de l'aide à la date limite n'a guère fait reprendre d'emploi (MDRC, Connecticut et Floride, 2002).",
+"s": [
+1
+]
+},
+{
+"t": "La plupart des familles privées d'aide à la date limite restaient en difficulté financière, autant que celles sorties pour d'autres raisons (MDRC, États-Unis, 2002).",
+"s": [
+1
+]
+}
+],
+"etudes": "Les études américaines concordent : une durée limitée réduit le recours et pousse un peu à l'emploi avant la date ; la coupure elle-même fait peu reprendre d'emploi, sans effet net mesuré sur les revenus.",
+"src": [
+{
+"l": "Grogger, The Effects of Time Limits, the EITC, and Other Policy Changes on Welfare Use, Work, and Income among Female-Headed Families (Review of Economics and Statistics)",
+"a": 2003,
+"u": "https://ideas.repec.org/a/tpr/restat/v85y2003i2p394-408.html"
+},
+{
+"l": "Bloom, Farrell, Fink (MDRC), Welfare Time Limits: State Policies, Implementation, and Effects on Families (rapport pour le ministère américain de la Santé)",
+"a": 2002,
+"u": "https://www.aspe.hhs.gov/sites/default/files/migrated_legacy_files/113511/welfare_timelimits.pdf"
+},
+{
+"l": "Cour des comptes, Le revenu de solidarité active, évaluation de politique publique",
+"a": 2022,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/283258.pdf"
 }
 ]
 }

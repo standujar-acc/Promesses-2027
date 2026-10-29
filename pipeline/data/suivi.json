@@ -1381,10 +1381,10 @@
    "sujet": "Quiz : mesures ajoutées depuis le 27/10 absentes du quiz",
    "detail": "55 mesures comptées n'avaient pas d'entrée au quiz (texte courant, Pour et Contre sourcés). Lot 1 (fiscalité, énergie, fraude) : 22 entrées ajoutées le 29/10, mêmes études et mêmes cas pour les mesures du même type (carburants Le Pen et Zemmour, héritages Le Pen et Lisnard, transmission d'entreprise Le Pen et Retailleau, quotient familial Le Pen et Lisnard, fraude). Lot 2 (social, travail, dépenses) en cours. Non vérifié : rapport IPP n° 47 (anti-robot), cité par deux entrées ; à harmoniser : niveau de preuve du « Contre » des jeunes parents (Philippe, faible) et du quotient familial (solide).",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 : 47 propositions ajoutées au quiz en deux lots (22 fiscalité, énergie, fraude ; 25 social, travail, dépenses), chacune avec un constat chiffré, un « Pour » et un « Contre » sourcés ; mêmes études et mêmes cas pour les mesures du même type (carburants, héritages, transmission, quotient familial, fraude, chômage, enseignants, AME, plans IA, prisons, service obligatoire). Cas harmonisés : l'étude sur la libération de détenus de 2006 aussi pour les peines planchers de Retailleau ; le manque de structures d'accueil du SNU aussi pour le service obligatoire de Glucksmann. Restent : non-vérifiés listés (rapport IPP n° 47 derrière un anti-robot ; sites de la DREES et du ministère de la Santé inaccessibles le 29/10 : proches aidants et dentaire lus via des relais) ; à harmoniser : niveau de preuve des « Contre » jeunes parents (faible) et quotient familial (solide) ; la note IPP sur le gel au-delà d'un seuil pourrait compléter l'année blanche d'Attal ; réservistes de Philippe sans étude des deux côtés (à garder ou retirer du quiz)."
   },
   {
    "id": "S091",
