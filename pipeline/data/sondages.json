@@ -1,0 +1,21 @@
+{
+"_regle": "Intentions de vote au 1er tour. Dernière vague de chaque institut dont le terrain s'est achevé dans les 15 jours précédant la date ci-dessous ; pour chaque institut, fourchette [plus bas, plus haut] des scores publiés dans les hypothèses où le candidat est testé, et on retient le milieu ; le chiffre affiché est la moyenne de ces milieux entre instituts (même poids pour chacun). L'ordre des candidats suit cette moyenne. Source : notices de la Commission des sondages.",
+"date": "29/10/2026",
+"instituts": [
+{"institut": "Cluster17", "pour": "Politico", "terrain": "19-22/10/2026", "notice": "10339", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10339-pres-iv-cluster17-politico-26-octobre.pdf",
+ "scores": {"le-pen": [30.5, 33], "melenchon": [18.5, 19.5], "glucksmann": [13, 14], "philippe": [16, 17], "retailleau": [7, 10], "attal": [12, 12], "lisnard": [8, 8], "zemmour": [3.5, 4]}},
+{"institut": "Elabe", "pour": "BFMTV et La Tribune Dimanche", "terrain": "14-16/10/2026", "notice": "10324", "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2339",
+ "scores": {"le-pen": [31, 33.5], "melenchon": [15, 16], "glucksmann": [15, 16.5], "philippe": [13.5, 16.5], "retailleau": [6.5, 9.5], "attal": [4.5, 10.5], "lisnard": [5.5, 6.5], "zemmour": [3, 3.5]}},
+{"institut": "Ifop-Fiducial", "pour": "LCI, Le Figaro et Sud Radio", "terrain": "17-19/10/2026", "notice": "10327", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10327-pres-barometre-election-v7-ifop-20-octobre.pdf",
+ "scores": {"le-pen": [34, 38], "melenchon": [15, 20], "glucksmann": [12, 16], "philippe": [12, 16], "retailleau": [5, 7.5], "attal": [4, 13], "lisnard": [5.5, 7], "zemmour": [3, 3.5]}},
+{"institut": "Ipsos BVA", "pour": "Le Parisien", "terrain": "21-22/10/2026", "notice": "10338", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10338-pres-iv-ipsos-bva-le-parisien-24-octobre.pdf",
+ "scores": {"le-pen": [32, 33.5], "melenchon": [17, 17], "glucksmann": [13, 15.5], "philippe": [13, 15], "retailleau": [5.5, 11.5], "attal": [4, 9.5], "lisnard": [6.5, 6.5], "zemmour": [4, 4.5]}},
+{"institut": "OpinionWay", "pour": "CNews", "terrain": "21-22/10/2026", "notice": "10333", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10333-pres-iv-opinionway-cnews-22-octobre.pdf",
+ "scores": {"le-pen": [36, 36], "melenchon": [16, 16], "glucksmann": [13, 13], "philippe": [12, 12], "retailleau": [6, 6], "attal": [4, 4], "lisnard": [6, 6], "zemmour": [4, 4]}},
+{"institut": "Toluna Harris Interactive", "pour": "M6 et RTL", "terrain": "19-21/10/2026", "notice": "10332", "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10332-pres-iv-toluna-harris-interactive-23-octobre.pdf",
+ "scores": {"le-pen": [33, 35], "melenchon": [17, 19], "glucksmann": [12, 14], "philippe": [13, 16], "retailleau": [4, 9], "attal": [5, 11], "lisnard": [7, 8], "zemmour": [5, 6]}},
+{"institut": "YouGov", "pour": "Le HuffPost", "terrain": "12-15/10/2026", "notice": "10323", "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2346",
+ "scores": {"le-pen": [35, 37], "melenchon": [13, 16], "glucksmann": [12, 14], "philippe": [8, 15], "retailleau": [5, 9], "attal": [6, 10], "lisnard": [4, 4], "zemmour": [3, 4]}}
+],
+"exclus": "Odoxa (terrain du 24/09 au 07/10, achevé plus de 15 jours avant) ; vagues antérieures d'OpinionWay (13-14/10), Toluna Harris Interactive (notice du 12/10) et Cluster17 pour Le Point (14-15/10, « focus droite et centre »), remplacées par la vague suivante du même institut."
+}

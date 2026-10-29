@@ -696,7 +696,7 @@ function picker(){
 }
 function head(c){
   const counts={}; Object.keys(V).forEach(k=>counts[k]=0); c.measures.forEach(m=>counts[m.verdict]++); const n=c.measures.length;
-  document.getElementById('fhead').innerHTML = `<div class="meta"><span class="eyebrow">${esc(c.party)}</span>${pollTxt(c)?`<span class="eyebrow">· ${esc(c.poll)} au 1er tour</span>`:''}</div><h2>${esc(c.name)}</h2><p>${esc(c.promise||c.summary)}</p>${c.obstacle_main?`<p class="small"><span class="tag" style="margin-right:6px">Obstacle</span>${esc(c.obstacle_main)}</p>`:''}
+  document.getElementById('fhead').innerHTML = `<div class="meta"><span class="eyebrow">${esc(c.party)}</span>${pollTxt(c)?`<span class="eyebrow">· Sondages : ${esc(c.poll)}</span>`:''}</div><h2>${esc(c.name)}</h2><p>${esc(c.promise||c.summary)}</p>${c.obstacle_main?`<p class="small"><span class="tag" style="margin-right:6px">Obstacle</span>${esc(c.obstacle_main)}</p>`:''}
     <div class="tally" aria-label="Répartition des verdicts">${Object.keys(V).map(k=>counts[k]?`<i style="width:${counts[k]/n*100}%;background:${V[k].c}"></i>`:'').join('')}</div>
     <div class="legend">${Object.keys(V).filter(k=>counts[k]).map(k=>`<span><i class="dot" style="background:${V[k].c}"></i>${V[k].l} · ${counts[k]}</span>`).join('')}</div>`;
   const t=c.claude_total, hh=perHH(t.sum);

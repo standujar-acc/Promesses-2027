@@ -743,6 +743,17 @@ for cid,txt in (('glucksmann',"Leasing social : une voiture électrique à envir
                 ('lisnard',"TVA unique, « par exemple » à 25 % (taux non tranché) : hausse possible des prix des produits aujourd'hui à 5,5 % ou 10 %, non calculée ici.")):
     sc=C[cid]['sim']; sc['tous']=(sc.get('tous') or [])+[txt]
 
+# --- review 19 : sondages = moyenne des instituts, ordre des candidats selon cette moyenne (29/10/2026) ; registre S044, S004
+from decimal import Decimal, ROUND_HALF_UP
+SG=json.load(open('data/sondages.json'))
+MOY={c0['id']:sum((i['scores'][c0['id']][0]+i['scores'][c0['id']][1])/2 for i in SG['instituts'])/len(SG['instituts']) for c0 in D['candidates']}
+for c0 in D['candidates']:
+    c0['poll']=str(Decimal(str(MOY[c0['id']])).quantize(Decimal('0.1'),rounding=ROUND_HALF_UP)).replace('.',',')+' %'
+ORD=sorted(ORD,key=lambda i:-MOY[i])
+D['candidates'].sort(key=lambda c:ORD.index(c['id']))
+D['sondages']={'regle':SG['_regle'],'date':SG['date'],'exclus':SG['exclus'],
+               'instituts':[{k:i[k] for k in ('institut','pour','terrain','url')} for i in SG['instituts']]}
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
