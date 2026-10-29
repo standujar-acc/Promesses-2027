@@ -2960,7 +2960,7 @@
    "name": "Jean-Luc Mélenchon",
    "party": "LFI",
    "poll": "16,8 %",
-   "summary": "Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines. Notre chiffrage : −132,7 Md€ par an en 2030, soit −4 294 € par ménage. Principal obstacle : le rendement réel des nouveaux impôts, et les traités européens pour l'annulation de la dette.",
+   "summary": "Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines. Notre chiffrage : −147,1 Md€ par an en 2030, soit −4 759 € par ménage. Principal obstacle : le rendement réel des nouveaux impôts, et les traités européens pour l'annulation de la dette.",
    "measures": [
     {
      "id": "retraites",
@@ -5261,32 +5261,155 @@
      "estimates": [],
      "consensus": "isolé",
      "verdict": "sous_conditions",
-     "obstacle": "Trajectoire 2027-2032 et coût non publiés.",
+     "obstacle": "Par la loi de finances ; trajectoire 2027-2032 non publiée.",
      "claude": {
       "id": "recherche",
-      "central": 0,
-      "low": 0,
-      "high": 0,
-      "method": "nc",
-      "formula": "Non chiffrable : trajectoire 2027-2032 et définition (dépense exécutée ou financée) non publiées ; aucun coût publié par le camp",
+      "central": -12.3,
+      "low": -14.5,
+      "high": -10.1,
+      "method": "ascendant",
+      "formula": "Objectif : dépense de R&D du secteur public à 1,5 % du PIB en 2032. Droit en vigueur en 2030 : niveau 2023 (SIES : 0,736 % du PIB exécutés, 20,85 Md€ ; 0,935 % financés, 26,5 Md€) + marches de la loi de programmation de la recherche de 2023 à 2030 (+3,80 Md€, soit 0,112 point du PIB 2030), le reste suivant le PIB → 0,848 % (exécution) ou 1,047 % (financement). Écart : 0,652 ou 0,453 point ; objectif fixé à 2032 → 70 % en 2030 (règle commune) : 0,457 ou 0,317 point × 3 187 Md€ (PIB 2030 en euros 2026) = −14,5 (exécution) ou −10,1 (financement) ; valeur centrale : milieu, −12,3 (en euros courants de 2030 : −13,2, de −15,5 à −10,8).",
       "inputs": [
        {
-        "label": "Effort de recherche des administrations (2023)",
-        "value": "0,74 % du PIB exécutés (DIRDA 20,9 Md€) ; 0,94 % financés (DNRDA 26,5 Md€)",
-        "source": "SIES, Note d'information 25.12",
+        "label": "Objectif publié",
+        "value": "« au moins 3 % du PIB, dont 1,5 % pour le secteur public en 2032 »",
+        "source": "LFI, plan ESR (26/10/2026)",
+        "url": "https://melenchon2027.fr/programme/plans-thematiques/esr/"
+       },
+       {
+        "label": "R&D des administrations en 2023",
+        "value": "Exécutée (DIRDA) : 20,9 Md€, 0,74 % du PIB ; financée (DNRDA) : 26,5 Md€, 0,94 % du PIB ; DIRDA 2024 estimée à 21,6 Md€",
+        "source": "SIES, Note d'information 25.12 (novembre 2025)",
         "url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/ni-sies-2025-12-38272.pdf"
        },
        {
-        "label": "Cible publiée",
-        "value": "1,5 % du PIB pour le secteur public en 2032",
-        "source": "LFI, plan ESR (26/10/2026)",
-        "url": "https://melenchon2027.fr/programme/plans-thematiques/esr/"
+        "label": "Trajectoire de la loi de programmation de la recherche",
+        "value": "+1 306 M€ en 2023 et +5 105 M€ en 2030 (programmes 172, 193, 150, écart à la LFI 2020) ; objectif non programmé : R&D des administrations « à au moins 1 % du produit intérieur brut annuel »",
+        "source": "Loi n° 2020-1674, art. 1er et 2 (Légifrance)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042738027"
+       },
+       {
+        "label": "PIB 2023",
+        "value": "2 833,8 Md€",
+        "source": "Insee, tableau 1.101",
+        "url": "https://www.insee.fr/fr/statistiques/fichier/8988797/T_1101_1103_fr.xlsx"
+       },
+       {
+        "label": "PIB 2030",
+        "value": "3 399 Md€ courants, 3 187 Md€ en euros 2026",
+        "source": "Scénario du Gouvernement (PLF 2027), avis HCFP 2026-5",
+        "url": "https://www.hcfp.fr/sites/default/files/2026-10/Avis%20HCFP%202026-5%20-%20PLF-PLFSS%202027.pdf"
+       },
+       {
+        "label": "Coût par étudiant et recherche universitaire",
+        "value": "« intégration des dépenses liées à la recherche universitaire » dans le coût moyen d'un étudiant",
+        "source": "SIES, Note d'information 21.05",
+        "url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/imported_files/documents/NI202185-_DIE-ESup.num_1407847.pdf"
        }
       ],
-      "note": "Indicatif, hors total : écart de 0,56 point (financement) à 0,76 point (exécution) de PIB, soit 17 à 23 Md€ en 2032 à 30 Md€ le point ; à mi-chemin d'une hausse linéaire 2027-2032 (4/6 en 2030) ≈ −11 à −16 Md€ en 2030, recrutements et contrats doctoraux compris. 40 000 postes seuls : 40 000 × 61,6 k€ × 70 % ≈ −1,7 Md€ en 2030 (en partie couverts par la fiche des 250 000 places). Contrats doctoraux, logements, gratuité, repas : coûts unitaires non vérifiés ici. À reprendre avec le programme du 6/11 (S001/S037).",
-      "nc": true
+      "note": "Fourchette = définition non publiée de « secteur public » : dépense exécutée par les administrations (borne basse) ou financée par elles (borne haute). Trajectoire du droit en vigueur prise sur les crédits programmés de la LPR, non sur son objectif non financé de 1 % (le même principe que la LPM, dont l'objectif de 2,5 % est financé par sa trajectoire). Si la part hors LPR de la R&D publique restait constante en euros au lieu de suivre le PIB : −17,3 (exécution). Le crédit d'impôt recherche (dépense fiscale) n'entre pas dans ces agrégats. Non compté à part : gratuité de la licence au doctorat et fin de la CVEC, repas à 1 € au CROUS, 30 000 logements étudiants par an (coûts unitaires non vérifiés) → liste « non compté ». À reprendre avec le programme du 6/11 (S001/S037). Recoupement possible, non chiffré, avec la hausse du point d'indice (salaires des chercheurs publics) et les places à l'université."
      },
      "quiz_text": "R&D publique à 1,5 % du PIB en 2032 ; 40 000 recrutements statutaires sur 5 ans ; 8 000 contrats doctoraux de plus par an, contrat porté à 4 ans ; 30 000 logements étudiants par an ; gratuité des études supérieures et fin de la CVEC ; repas à 1 € au CROUS pour tous."
+    },
+    {
+     "id": "culture",
+     "theme": "depense",
+     "title": "Culture à 1 % du PIB",
+     "proposal": "Porter le budget public consacré à l'art, à la culture et à la création à 1 % du PIB ; arrêter les coupes budgétaires dans la culture.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Institut Montaigne",
+       "year": 2022,
+       "value": "≈ 3 Md€ pour passer de 0,9 % à 1 % du PIB",
+       "low_md": -3,
+       "high_md": -3,
+       "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/porter-le-budget-consacre-a-lart-a-la-culture-et-a-la-creation-a-1-du-pib-par-an/"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Par la loi de finances ; échéance non publiée.",
+     "claude": {
+      "id": "culture",
+      "central": -2.1,
+      "low": -4.2,
+      "high": -2.1,
+      "method": "ascendant",
+      "formula": "Dépense publique de culture (Insee, fonctions 08.2 « services culturels » + 08.3 « radiodiffusion, télévision, édition », toutes administrations) : 18,96 + 7,56 = 26,5 Md€ en 2024, soit 0,904 % du PIB (2 935,2 Md€) — même périmètre que l'Institut Montaigne (État, collectivités, taxes affectées, audiovisuel public : 23,5 Md€, 0,9 % du PIB en 2022). Pas de loi de programmation : droit en vigueur = part du PIB constante. Écart à 1 % : 0,096 point ; échéance non publiée → fin du mandat, 70 % en 2030 : 0,067 point × 3 187 Md€ = −2,1. Borne basse : dépenses gelées en valeur après 2026 (PLF 2027 : ministères hors défense maintenus en valeur) → 0,811 % du PIB en 2030, −4,2.",
+      "inputs": [
+       {
+        "label": "Objectif redit en 2026",
+        "value": "« 1 % du PIB » de la France à la culture",
+        "source": "AFP, 10/07/2026 (Sceneweb ; CNews)",
+        "url": "https://sceneweb.fr/avignon-melenchon-promet-la-fin-des-coupes-budgetaires-dans-la-culture/"
+       },
+       {
+        "label": "Dépense publique de culture 2024",
+        "value": "08.2 services culturels 18,963 Md€ ; 08.3 radiodiffusion, télévision, édition 7,560 Md€ (toutes administrations)",
+        "source": "Insee, dépenses des administrations publiques par fonction, tableau 3.301 (base 2020)",
+        "url": "https://www.insee.fr/fr/statistiques/fichier/8574707/T_3301.xlsx"
+       },
+       {
+        "label": "PIB 2024",
+        "value": "2 935,2 Md€",
+        "source": "Insee, tableau 1.101",
+        "url": "https://www.insee.fr/fr/statistiques/fichier/8988797/T_1101_1103_fr.xlsx"
+       },
+       {
+        "label": "Chiffrage indépendant (2022)",
+        "value": "Hausse de l'ordre de 3 Md€ à l'horizon 2027 pour passer de 0,9 % à 1 % du PIB ; 1,7 Md€ selon le camp",
+        "source": "Institut Montaigne, présidentielle 2022",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/porter-le-budget-consacre-a-lart-a-la-culture-et-a-la-creation-a-1-du-pib-par-an/"
+       },
+       {
+        "label": "PIB 2030",
+        "value": "3 187 Md€ en euros 2026",
+        "source": "Scénario du Gouvernement (PLF 2027), avis HCFP 2026-5",
+        "url": "https://www.hcfp.fr/sites/default/files/2026-10/Avis%20HCFP%202026-5%20-%20PLF-PLFSS%202027.pdf"
+       }
+      ],
+      "note": "Recoupement : l'écart complet (0,096 point × 3 187 = 3,1 Md€) correspond au chiffrage de l'Institut Montaigne de 2022 (≈ 3 Md€). Périmètre non publié en 2026 : avec les seuls « services culturels » (0,646 % du PIB en 2024), −7,9 ; avec tous les loisirs et le sport (1,47 %), l'objectif serait déjà atteint (lecture écartée : la mesure vise « l'art, la culture et la création »). À revoir avec le programme du 6/11."
+     },
+     "quiz_text": "Porter le budget public consacré à l'art, à la culture et à la création à 1 % du PIB ; arrêter les coupes budgétaires dans la culture."
+    },
+    {
+     "id": "aide_developpement",
+     "theme": "europe",
+     "title": "Aide au développement à 0,7 % du RNB",
+     "proposal": "Porter l'aide publique au développement à 0,7 % du revenu national brut.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Par la loi de finances ; échéance non publiée.",
+     "claude": {
+      "id": "aide_developpement",
+      "central": -4.5,
+      "low": -6.3,
+      "high": -4.5,
+      "method": "ascendant",
+      "formula": "Indicatif, hors total : APD 2023 = 14,2 Md€, 0,50 % du RNB ; droit en vigueur : aucune trajectoire programmée après 2022 (la loi de 2021 visait 0,7 % « en 2025 », sans crédits au-delà de 2022) → part constante ; écart 0,20 point ; sans date → 70 % en 2030 : 0,14 point × ≈ 3 187 Md€ (RNB ≈ PIB) ≈ −4,5 ; borne basse si l'APD est tombée à 0,42 % (donnée préliminaire OCDE 2025, non ouverte) : −6,3.",
+      "inputs": [
+       {
+        "label": "APD 2023",
+        "value": "14,2 Md€, 0,50 % du RNB",
+        "source": "Assemblée nationale, avis n° 459, tome III (16/10/2024), d'après l'OCDE",
+        "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion_afetr/l17b0459-tiii_rapport-avis.pdf"
+       },
+       {
+        "label": "Loi de programmation du développement solidaire",
+        "value": "« Elle s'efforcera d'atteindre 0,7 % du revenu national brut en 2025 » ; crédits programmés jusqu'en 2022 seulement (4 800 M€)",
+        "source": "Loi n° 2021-1031, art. 2 (Légifrance)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043898536"
+       }
+      ],
+      "note": "Non reconfirmé en 2026 : hors total, comme Glucksmann (même objectif, Acte I 2025). À revoir avec le programme du 6/11. L'APD au sens de l'OCDE comprend des dépenses hors crédits budgétaires (part de la contribution à l'UE, annulations de dettes, accueil de réfugiés et d'étudiants) : ordre de grandeur seulement."
+     },
+     "a_confirmer": true,
+     "quiz_text": "Porter l'aide publique au développement à 0,7 % du revenu national brut."
     }
    ],
    "total": {
@@ -5296,15 +5419,17 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -132.7,
-    "p10": -160.3,
-    "p90": -90.7,
-    "realsum": -132.7,
+    "sum": -147.1,
+    "p10": -176.3,
+    "p90": -105.9,
+    "realsum": -147.1,
     "missing": "IS progressif, 10 000 enseignants (0,5 Md€), pension minimale au niveau du SMIC, indexation des pensions sur les salaires, minimum vieillesse au seuil de pauvreté, recettes annoncées sans paramètre publié (chiffres du camp) : CVAE des grandes entreprises 3, taxe sur les multinationales 5, taxe Gafam 3,9, superprofits 5, rachats d'actions 2,5, crypto-actifs 1, bac professionnel en quatre ans (coût non publié), suppression de Parcoursup, livret A relevé à 30 000 € et rémunéré au moins à l'inflation, « Livret B » défiscalisé (coûts non publiés)",
-    "n": 19,
-    "cost": -159.1,
+    "n": 21,
+    "cost": -173.5,
     "gain": 26.4,
-    "confirm": []
+    "confirm": [
+     "Aide au développement à 0,7 % du RNB"
+    ]
    },
    "short": "Mélenchon",
    "sim": {
@@ -8210,6 +8335,43 @@
       "note": "Seul chiffrage : celui du candidat (aucun chiffrage indépendant). Financement non publié. Version du 19/09 (100 000 auxiliaires de vie, « moins de 1 Md€/an ») présentée comme un exemple."
      },
      "quiz_text": "Mettre un million de voitures électriques en location sociale à environ 100 € par mois pour les ménages modestes."
+    },
+    {
+     "id": "aide_developpement",
+     "theme": "europe",
+     "title": "Aide au développement à 0,7 % du RNB",
+     "proposal": "Programmation budgétaire annuelle pour atteindre progressivement 0,7 % du RNB consacré à l'aide publique au développement.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Par la loi de finances ; échéance non publiée.",
+     "claude": {
+      "id": "aide_developpement",
+      "central": -4.5,
+      "low": -6.3,
+      "high": -4.5,
+      "method": "ascendant",
+      "formula": "Indicatif, hors total, même calcul que Mélenchon : écart de 0,20 point (APD 2023 : 0,50 % du RNB) ; « progressivement », sans date → 70 % en 2030 ≈ −4,5 ; −6,3 si l'APD est à 0,42 %.",
+      "inputs": [
+       {
+        "label": "APD 2023",
+        "value": "14,2 Md€, 0,50 % du RNB",
+        "source": "Assemblée nationale, avis n° 459, tome III (16/10/2024)",
+        "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion_afetr/l17b0459-tiii_rapport-avis.pdf"
+       },
+       {
+        "label": "Loi en vigueur",
+        "value": "0,7 % visé « en 2025 », crédits programmés jusqu'en 2022",
+        "source": "Loi n° 2021-1031 (Légifrance)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043898536"
+       }
+      ],
+      "note": "Document de 2025 non repris en 2026 : hors total, comme pour Mélenchon."
+     },
+     "a_confirmer": true,
+     "quiz_text": "Programmation budgétaire annuelle pour atteindre progressivement 0,7 % du RNB consacré à l'aide publique au développement."
     }
    ],
    "total": {
@@ -8228,7 +8390,8 @@
     "cost": -46.1,
     "gain": 0,
     "confirm": [
-     "Impôt plancher ultra-riches"
+     "Impôt plancher ultra-riches",
+     "Aide au développement à 0,7 % du RNB"
     ]
    },
    "short": "Glucksmann",
@@ -13653,7 +13816,7 @@
     "p10": -59.3,
     "p90": -45.5,
     "realsum": -55.5,
-    "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, TVA unique à 25 %",
+    "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, TVA unique à 25 %, défense (hausse du budget des armées, sans montant ni date)",
     "n": 14,
     "cost": -65.4,
     "gain": 13.4,
@@ -15230,12 +15393,13 @@
   }
  ],
  "method": [
-  "<b>Notre chiffrage.</b> 140 mesures analysées, dont 111 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
+  "<b>Notre chiffrage.</b> 143 mesures analysées, dont 113 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
   "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». La lutte contre la fraude est comptée avec les leviers chiffrés par le Conseil d'analyse économique qui correspondent au champ de chaque mesure, dans la limite du chiffre du camp. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie) ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
+  "<b>Objectifs en niveau.</b> Un objectif de dépense publié sous la forme d'un niveau à une date (en part du PIB ou en euros) est compté pour l'écart, en 2030, entre ce niveau et la trajectoire du droit en vigueur (loi de programmation militaire ou de la recherche ; à défaut, part du PIB constante) ; un objectif sans date ou fixé à la fin du mandat compte pour 70 % de cet écart. Le PIB de 2030 est celui du scénario du Gouvernement (projet de loi de finances 2027), ramené en euros de 2026. Quand la définition est ambiguë (dépense exécutée ou financée, périmètre), le milieu de la fourchette est retenu. La même règle vaut dans les deux sens : un niveau publié à la baisse (suppression comprise) compte comme une économie. Une prise de position au Parlement sur un texte déjà voté ne vaut pas programme, sauf si le candidat la reprend dans sa campagne.",
   "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026 (marquées « À confirmer ») et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés. Un chiffrage qu'un candidat reprend comme le sien (d'un institut, d'une association ou d'un parti) compte comme chiffre de son camp, quel que soit son auteur ; une économie qui repose sur une baisse de flux ou un comportement supposés par une seule note n'est pas comptée, sauf si une évaluation ou une donnée officielle les établit.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 286 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 294 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). Ce sont des ordres de grandeur.",
@@ -15349,6 +15513,10 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "29/10/2026",
+   "text": "Objectifs de dépense publiés en part du PIB : comptés pour l'écart avec le droit en vigueur en 2030 (70 % si l'objectif vise la fin du mandat), même règle pour tous. Mélenchon : recherche publique à 1,5 % du PIB en 2032 (plan du 26/10), −12,3 Md€ (de −14,5 à −10,1 selon que l'on compte la dépense exécutée ou financée) ; culture à 1 % du PIB (redit à Avignon le 9/07), −2,1. Aide au développement à 0,7 % du revenu national (Mélenchon, Glucksmann) : non redite en 2026, hors total. Défense : aucun candidat n'a publié en 2026 de niveau dans son programme ; les positions prises au Parlement sur la loi de programmation militaire (députés RN, Retailleau au Sénat) ne sont pas comptées. Total de Mélenchon : −147,1 Md€."
+  },
   {
    "date": "29/10/2026",
    "text": "Immigration : les lignes reprises de l'Observatoire de l'immigration et de la démographie (association qui prend position sur le sujet) sont recalculées avec les données officielles qu'il cite. Asile examiné hors des frontières : même mesure et même valeur que chez Le Pen (1,2 Md€, Institut Montaigne), désormais comptée aussi chez Retailleau et chez Lisnard, qui la propose (« si la révision passe ») ; droits d'inscription de tous les étudiants hors UE (Retailleau) : +0,07 Md€, car un décret de mai 2026 en applique déjà l'essentiel. Le reste (immigration familiale, titres, hébergement, mineurs) dépend d'hypothèses propres à cette note : listé « non compté », comme les lignes sans chiffrage du RN et de Zemmour. Règle ajoutée à la méthode : un chiffrage repris par un candidat compte comme chiffre de son camp. Totaux : Retailleau −22,1, Lisnard −52,0 Md€ (sans les mesures qui exigent une révision : inchangés)."

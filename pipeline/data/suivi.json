@@ -1296,10 +1296,10 @@
    "sujet": "Objectif de dépense en % du PIB : compter en 2030 ?",
    "detail": "Plan LFI du 26/10/2026 : R&D publique à 1,5 % du PIB en 2032 (0,74 % exécutés en 2023, SIES), 40 000 recrutements sur 5 ans, 8 000 contrats doctoraux de plus par an. Aucun coût publié. Fiche ajoutée en non chiffrable (de −11 à −16 Md€ en 2030 en note, hausse linéaire supposée), comme les objectifs sans moyens publiés (100 000 ingénieurs de Philippe, plan IA d'Attal). Question : un objectif publié en % du PIB à une date donnée doit-il être compté au prorata d'une hausse linéaire ? Même règle pour les objectifs de ce type chez les autres candidats.",
    "echeance": "2026-11-06",
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Tranché le 29/10 (porteur : « à toi de voir »). Règle écrite dans la méthode (« Objectifs en niveau ») : un niveau de dépense publié à une date est compté pour l'écart, en 2030, avec la trajectoire du droit en vigueur (LPM du 16/08/2026 : 2,5 % du PIB en 2030 ; LPR : crédits programmés ; sinon part du PIB constante) ; fin de mandat ou sans date → 70 % ; PIB 2030 du scénario du PLF 2027 (3 399 Md€ courants, 3 187 en euros 2026) ; définition ambiguë → milieu de la fourchette ; règle symétrique (un niveau à la baisse, suppression comprise, compte comme économie) ; une position prise au Parlement sur un texte déjà voté ne vaut pas programme. Inventaire des 8 : Mélenchon recherche 1,5 % du PIB en 2032 → −12,3 (de −14,5 à −10,1) et culture 1 % du PIB → −2,1 (recoupe l'Institut Montaigne 2022) ; aide au développement à 0,7 % du RNB (Mélenchon, programme 2024 ; Glucksmann, Acte I 2025) non redite en 2026 : fiches « À confirmer », hors total (−4,5 chacun s'ils la reconfirment) ; défense : aucun niveau publié en 2026 dans un programme ; amendement de 14 députés RN à 3 % (rejeté en avril, non repris par la candidate) et soutien de Retailleau à la version du Sénat (remplacée par le compromis de juillet) non comptés, même décision pour les deux ; Lisnard : défense sans montant ajoutée à la liste « non compté » comme chez Attal, Philippe et Zemmour. Total de Mélenchon −132,7 → −147,1. Recoupement possible, non chiffré, entre la recherche et la hausse du point d'indice de Mélenchon (noté dans la fiche)."
   },
   {
    "id": "S086",
@@ -1419,6 +1419,23 @@
    "mesure": null,
    "sujet": "Chiffrages d'instituts repris par un candidat comme les siens",
    "detail": "Règle ajoutée le 29/10 (S087) : un chiffrage qu'un candidat reprend comme le sien compte comme chiffre de son camp, quel que soit son auteur. Vérifier pour les 8 candidats les mesures où le site retient comme chiffrage indépendant une étude (iFRAP, Institut Montaigne, Terra Nova, Institut de l'Entreprise, Institut Molinari, Rexecode, OFCE…) que le candidat cite lui-même comme base de son chiffre ; si oui, la lire comme chiffre du camp et chercher un autre chiffrage. Option liée : actualiser la valeur de l'asile examiné hors des frontières (1,2 Md€, Institut Montaigne 2024) avec les crédits du PLF 2026 (1 379,6 M€ pour l'action 02), alors pour Le Pen, Retailleau et Lisnard en même temps.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S094",
+   "type": "a_corriger",
+   "candidats": [
+    "zemmour",
+    "le-pen",
+    "retailleau"
+   ],
+   "mesure": "aide_developpement",
+   "sujet": "Aide au développement : suppression publiée par Zemmour (règle symétrique S085)",
+   "detail": "Règle du 29/10 : un niveau publié à la baisse, suppression comprise, compte comme une économie. Zemmour (plan budget2027.fr, ligne 14) annonce la suppression de l'aide au développement (14 Md€ selon le camp, au sens de l'OCDE, qui inclut des dépenses hors budget). À chiffrer sur les seuls crédits budgétaires de la mission « Aide publique au développement » (PLF 2027, programmes 110 et 209), avec 70 % en 2030 si aucune date n'est donnée, et à vérifier que la mesure est reconfirmée en 2026 (site de campagne inaccessible le 29/10). RN (« rationalisation », 2,1 dans le bloc État) et Retailleau (« recentrer ») : sans niveau, non chiffrables. Mélenchon et Glucksmann (0,7 % du RNB) : à reconfirmer (programme LFI du 6/11).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-29",
