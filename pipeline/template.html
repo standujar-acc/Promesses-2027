@@ -344,7 +344,12 @@ footer.foot p,footer.foot .report{flex-basis:100%;margin:0}
 /* ordinateur : page plus large, colonnes */
 .home-top,.sim-grid,.sim-in,.sim-out,.cand-bar,.qgrid{display:contents}
 #v-cand > .search{order:1} #results{order:2} #picker{order:3} #fhead{order:4} #ftab{order:5} #total{order:6} #f-budget{order:7} #f-vie{order:8}
-@media(max-width:1099px){#total.m-hide{display:none}}
+@media(max-width:1099px){#total.m-hide{display:none}
+  /* téléphone et tablette : bande des candidats sur une ligne, fixe en haut au défilement (on change de candidat sans remonter) */
+  #picker{position:sticky;top:0;z-index:12;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;background:var(--bg);margin-inline:-16px;padding:8px 16px;scroll-snap-type:x proximity;scroll-padding-inline:16px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 14px,#000 calc(100% - 28px),transparent);mask-image:linear-gradient(90deg,transparent,#000 14px,#000 calc(100% - 28px),transparent)}
+  #picker::-webkit-scrollbar{display:none}
+  #picker button{flex:0 0 auto;min-width:78px;padding:6px 10px;scroll-snap-align:start}
+  #picker.stuck{box-shadow:0 8px 14px -12px rgba(18,21,33,.35);border-bottom:1px solid var(--line)}}
 .met-toc{display:none}
 .met-toc .eyebrow{padding:0 10px 6px}
 .met-toc button{border:0;background:none;text-align:left;padding:8px 10px;border-radius:8px;color:var(--muted);font-weight:600;font-size:.88rem}
@@ -687,6 +692,7 @@ const SC=60; const sx=v=>Math.max(0,Math.min(100,(v+SC)/(2*SC)*100));
 function picker(){
   document.getElementById('picker').innerHTML = D.candidates.map((c,i)=>`<button aria-pressed="${c.id===cur}" data-id="${c.id}"><span class="s">${esc(c.short)}</span><span class="t" data-s="${c.claude_total.sum<0?'neg':'pos'}" style="color:${colorOf(c.claude_total.sum)}">${md1(c.claude_total.sum)}</span></button>`).join('');
   document.querySelectorAll('#picker button').forEach(b => b.onclick = () => { cur=b.dataset.id; theme='all'; render(); setHash(cur,true); candTop(); });
+  const pk=document.getElementById('picker'), sel=pk.querySelector('[aria-pressed="true"]'); if(sel && pk.scrollWidth>pk.clientWidth) pk.scrollLeft=Math.max(0,sel.offsetLeft-pk.offsetLeft-(pk.clientWidth-sel.offsetWidth)/2);
 }
 function head(c){
   const counts={}; Object.keys(V).forEach(k=>counts[k]=0); c.measures.forEach(m=>counts[m.verdict]++); const n=c.measures.length;
@@ -788,8 +794,8 @@ function lifeHome(){
 document.querySelectorAll('#ftab button').forEach(b=>b.onclick=()=>{ ftab=b.dataset.t; applyTab(); candTop(); });
 function applyTab(){ document.querySelectorAll('#ftab button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===ftab)); document.getElementById('f-budget').hidden=ftab!=='budget'; document.getElementById('f-vie').hidden=ftab!=='vie'; document.getElementById('total').classList.toggle('m-hide',ftab!=='budget'); }
 // changer de candidat ou d'onglet depuis la barre fixe : on revient en haut de la fiche (présentation et total)
-function candTop(){ const bar=document.getElementById('cand-bar'), t=document.getElementById('total'), top=Math.min(document.getElementById('fhead').getBoundingClientRect().top, t.offsetParent?t.getBoundingClientRect().top:Infinity), lim=bar.getBoundingClientRect().bottom; if(top<lim) window.scrollTo({top:Math.max(0,window.scrollY+top-(getComputedStyle(bar).position==='sticky'?bar.offsetHeight:0)-12)}); }
-addEventListener('scroll',()=>{ const bar=document.getElementById('cand-bar'); bar.classList.toggle('stuck', view==='cand' && bar.getBoundingClientRect().top<=0 && window.scrollY>0); },{passive:true});
+function candTop(){ const st=document.getElementById(innerWidth>=1100?'cand-bar':'picker'), t=document.getElementById('total'), top=Math.min(document.getElementById('fhead').getBoundingClientRect().top, t.offsetParent?t.getBoundingClientRect().top:Infinity), lim=st.getBoundingClientRect().bottom; if(top<lim) window.scrollTo({top:Math.max(0,window.scrollY+top-st.offsetHeight-12)}); }
+addEventListener('scroll',()=>{ for(const id of ['cand-bar','picker']){ const el=document.getElementById(id), r=el.getBoundingClientRect(); el.classList.toggle('stuck', view==='cand' && r.height>0 && r.top<=0 && window.scrollY>0); } },{passive:true});
 
 /* ---------- recherche ---------- */
 const INDEX = D.candidates.flatMap(c => c.measures.map(m => ({c,m,words:norm([c.name,c.short,c.party,m.title,m.proposal,TH[m.theme],m.claimed,m.obstacle].join(' ')).split(/[^a-z0-9]+/).filter(Boolean)})));

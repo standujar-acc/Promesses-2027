@@ -45,7 +45,7 @@ with sync_playwright() as p:
           const stuck=getComputedStyle(document.getElementById('cand-bar')).position; window.scrollTo(0,0); return [v, Math.abs(a-b)<1, stuck, Math.abs(bar)<1]; })()""")
         check(r == [True, True, 'sticky', True], f'ordinateur {W} px : total affiché et immobile entre Budget et Vie quotidienne, barre des candidats fixe {r}')
         # résultat du quiz : « Par candidat » et « Par thème » côte à côte, « ce qui colle » et « ce qui colle moins » côte à côte
-        r = pg.evaluate("""(()=>{ go('quiz'); quizStart(); for(let i=0;i<20;i++) document.querySelector(`#v-quiz [data-k="${['0','1','both','0','1'][i%5]}"]`).click();
+        r = pg.evaluate("""(()=>{ go('quiz'); quizStart(); for(let i=0;i<20;i++){ const k=quizState.qs[quizState.i].opts.findIndex(o=>o.c==='le-pen'); document.querySelector(`#v-quiz [data-k="${k>=0?k:'none'}"]`).click(); }
           const g=document.querySelector('.qgrid'), n=document.querySelector('.qnear'); const out=[g?getComputedStyle(g).gridTemplateColumns.split(' ').length:0, n?getComputedStyle(n).gridTemplateColumns.split(' ').length:0, document.documentElement.scrollWidth<=innerWidth];
           quizState=null; go('accueil'); return out; })()""")
         check(r == [2, 2, True], f'ordinateur {W} px : résultat du quiz sur deux colonnes, sans débordement {r}')
@@ -59,6 +59,10 @@ with sync_playwright() as p:
     r = pg.evaluate("""(()=>{ go('cand'); const y=id=>document.getElementById(id).getBoundingClientRect().top; const ord=[y('picker')<y('fhead'), y('fhead')<y('ftab'), y('ftab')<y('total')];
       document.querySelector('#ftab [data-t="vie"]').click(); const hid=document.getElementById('total').offsetParent===null; document.querySelector('#ftab [data-t="budget"]').click(); return [...ord, hid]; })()""")
     check(r == [True, True, True, True], f'mobile : page candidat dans le même ordre (candidats, présentation, onglets, total), total masqué dans « Vie quotidienne » {r}')
+    r = pg.evaluate("""(()=>{ go('cand'); const p=document.getElementById('picker'), cs=getComputedStyle(p); window.scrollTo(0,2000);
+      const top=p.getBoundingClientRect().top, b=p.querySelector('[data-id="zemmour"]'); b.click(); const sel=p.querySelector('[aria-pressed="true"]').getBoundingClientRect(), pr=p.getBoundingClientRect();
+      const out=[cs.position, cs.flexWrap, Math.abs(top)<1, sel.left>=pr.left-1 && sel.right<=pr.right+1, window.scrollY<2000, document.documentElement.scrollWidth<=innerWidth]; window.scrollTo(0,0); return out; })()""")
+    check(r == ['sticky', 'nowrap', True, True, True, True], f'mobile : bande des candidats fixe au défilement, candidat choisi visible, retour en haut de la fiche, sans débordement {r}')
     r = pg.evaluate("[getComputedStyle(document.documentElement).touchAction, getComputedStyle(document.getElementById('q')).fontSize]")
     check(r == ['manipulation', '16px'], f'mobile : pas de zoom au double tap ni à la saisie (zoom à deux doigts conservé) {r}')
     pg.close()
