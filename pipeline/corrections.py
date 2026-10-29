@@ -905,6 +905,9 @@ for cid,txt in (('le-pen',"gel des taxes sur le tabac et fin de leur indexation 
                 ('zemmour',"suppression des certificats d'économies d'énergie (TVA perdue sur leur part des factures ; coût officiel non vérifié)")):
     t0=C[cid]['claude_total']; t0['missing']=(t0.get('missing','')+', '+txt).strip(', ')
 
+# --- review 24 : doublons entre thèmes, texte de la fiche « impôts de production » de Retailleau (29/10/2026) ; registre S117, S095
+M('retailleau','production')['proposal']="Supprimer la C3S, le forfait social et la part industrielle de la CFE (la CVAE est déjà supprimée par la loi)."
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:

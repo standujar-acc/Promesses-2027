@@ -1452,10 +1452,10 @@
    "sujet": "Retailleau : la fiche « impôts de production » cite encore les heures sup",
    "detail": "Depuis le 29/10, les heures au-delà de 1 623 h ont leur propre fiche (seuil « zéro cotisation », −4,3) et la formule de « production » ne les compte plus ; la proposition (« heures sup sans cotisations »), le texte du quiz (« et les cotisations sur les heures supplémentaires ») et le « Pour » du quiz les citent encore. Aligner proposition, quiz et « Pour / Contre » sur les seuls impôts de production, avec les mêmes études que les autres mesures du même type.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 : proposition ramenée aux seuls impôts de production (C3S, forfait social, part industrielle de la CFE ; CVAE déjà supprimée) ; quiz : même texte et mêmes « Pour / Contre », cas et études que les autres mesures sur les impôts de production (Le Pen, Lisnard) ; les heures au-delà de 1 623 h restent dans leur fiche."
   },
   {
    "id": "S096",
@@ -1809,10 +1809,10 @@
    "sujet": "Vie quotidienne : doublons d'un thème à l'autre",
    "detail": "Attal : « Construire 14 nouveaux réacteurs nucléaires, puis un par an » (économie, 10/10) double « Sécuriser 14 EPR et viser un réacteur par an » (environnement). Lisnard : « Six nouveaux EPR » en économie et en environnement. Avec le plafond de 5, aucun doublon ne prend la place d'une autre proposition. Faut-il afficher une même proposition dans deux thèmes ? Même règle pour tous.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Tranché le 29/10 (délégation du porteur) : une même proposition n'est affichée que dans un thème, le plus précis ; l'énergie et le nucléaire vont dans « environnement », comme chez Le Pen, Mélenchon, Retailleau et Zemmour. Retirés d'« économie » : les 14 réacteurs d'Attal et les six EPR de Lisnard (déjà en « environnement »). Attal, environnement : même lecture de la Cour des comptes sur les EPR que Lisnard, Zemmour et Retailleau. Règle écrite dans la méthode."
   },
   {
    "id": "S118",

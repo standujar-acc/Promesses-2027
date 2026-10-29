@@ -57,6 +57,7 @@ OVR.update({
  ('attal', 'logement'): {'evidence': RENO, 'evidence_level': 'mitigee'},
  ('zemmour', 'logement'): {'evidence': RENO, 'evidence_level': 'mitigee'},
  ('lisnard', 'environnement'): {'evidence': EPR, 'evidence_level': 'mitigee', 'add': [EPR_S]},
+ ('attal', 'environnement'): {'evidence': EPR + " HCC 2026 : émissions −2,1 % en 2025, un rythme qui doit au moins doubler ; leasing social et MaPrimeRénov' jugés sous-dimensionnés.", 'add': [EPR_S]},
  ('zemmour', 'environnement'): {'evidence': EPR + " " + RTE, 'evidence_level': 'mitigee', 'add': [MAINT_S, RTE_S]},
  # écart RTE : « de l'ordre de 10 milliards d'euros par an » (valeur de référence du résumé exécutif), 20 dans certaines variantes (registre S027)
  ('melenchon', 'environnement'): {'evidence': "RTE : scénarios sans nouveau nucléaire plus coûteux, de l'ordre de 10 Md€/an (jusqu'à 20 dans certaines variantes). HCC 2026 : baisse requise >4 %/an, contre −2,1 % en 2025."},
@@ -97,6 +98,7 @@ OVR.update({
  ('lisnard', 'ecole'): {'evidence': EXAM + " " + SAL + " Assouplissement de la carte scolaire (2007) : effets globaux faibles, mais fuite accélérée des collèges défavorisés et ségrégation accrue (DEPP, 2013).", 'evidence_level': 'mitigee', 'add': EXAM_S + SAL_S},
  ('zemmour', 'ecole'): {'evidence': EXAM + " Groupes de niveau : pas d'amélioration des résultats, et les élèves faibles risquent de perdre l'effet des pairs selon l'OCDE (PISA 2022).", 'evidence_level': 'mitigee', 'add': EXAM_S},
 })
+# S117 (29/10) : une même proposition n'est affichée que dans un thème, le plus précis (énergie et nucléaire : « environnement »)
 # --- review 23 : « casseur-payeur » et propositions oubliées (29/10/2026) ; registre S097 à S119
 # Au plus 5 propositions par thème (décision du porteur du 29/10, la même pour tous). Règle d'ordre quand un thème dépasse cinq propositions :
 # d'abord celles de 2026 (les non reconfirmées passent après), parmi elles les précises avant les intentions, puis les plus récentes ;
@@ -223,20 +225,19 @@ _upd('philippe', 'economie', [_p('Heures au-delà de 35 h défiscalisées, zéro
 _upd('glucksmann', 'economie', [_p('Taxer le 1 % des plus gros héritages pour hausser les salaires nets'), _p("État d'urgence industriel pour les secteurs menacés par la Chine", False),
                                 _p('« Buy European Act » : préférence européenne dans les marchés publics', False, True)],
      add=[_s('LCP, premier meeting (13/06)', 'https://lcp.fr/actualites/gagner-en-2027-raphael-glucksmann-lance-sa-campagne-et-veut-ramener-la-gauche-au-pouvoir')])
-OVR[('attal', 'economie')] = {'evidence': IA + " Cour des comptes (2025) : coûts EPR2 inconnus, risque d'échec du programme.", 'evidence_level': 'mitigee', 'add': [
+OVR[('attal', 'economie')] = {'evidence': IA, 'evidence_level': 'mitigee', 'add': [
     _s('attalpresident.fr, programme « Travail & salaires »', 'https://attalpresident.fr/programme/travail-salaires'),
     _s('AFP via Orange, conférence économique (28/10)', 'https://actu.orange.fr/politique/attal-veut-une-economie-quot-liberale-quot-mais-quot-planifiee-quot-pour-financer-un-quot-capitalisme-de-l-innovation-quot-CNT000002tqRW2.html'),
     _s('attalpresident.fr, lettre aux Français (15/10)', 'https://attalpresident.fr/actualites/gabriel-attal-lettre-aux-francais-plan-finances-publiques')],
   'proposals': [_p('Remplacer le Code du travail par une « Constitution du travail » de quelques principes, le reste négocié par branche et par entreprise'),
                 _p("Loi de stabilité fiscale et normative de dix ans votée dès l'été 2027 ; un quart de la charge administrative des entreprises supprimé"),
-                _p('Construire 14 nouveaux réacteurs nucléaires, puis un par an'), _p("Former 20 millions de Français à l'IA d'ici 2030"),
+                _p("Former 20 millions de Français à l'IA d'ici 2030"),
                 _p("Plan de 200 Md€ pour la puissance de calcul et l'IA")]}
 _upd('retailleau', 'economie', [_p('Supprimer les impôts de production, dans 30 Md€ de baisses pour les entreprises'),
                                 _p("Code du travail refondé sur 50 principes, le reste supplétif et renvoyé aux accords d'entreprise ou de branche"),
                                 _p('Exonérer de cotisations sociales les heures supplémentaires', False)],
      add=[_s('avecretailleau.fr, code du travail sur 50 principes', 'https://www.avecretailleau.fr/projet/mesure/refonder-le-code-du-travail-sur-50-principes-rendre-le')])
 _upd('lisnard', 'economie', [_p('Baisser de 40 Md€ les impôts de production, en commençant par la C3S'), _p('TVA unique à 25 % en douze ans pour baisser les charges'),
-                             _p("Six nouveaux EPR, réacteurs existants prolongés jusqu'à 60 ans"),
                              _p('Contrat de travail unique pour les nouveaux emplois, fusionnant CDI et CDD, indemnités de licenciement progressives'),
                              _p("Interdire de modifier un impôt à la hausse plus d'une fois par législature")],
      add=[_s('Nouvelle Énergie, programme « Réussir une nouvelle ambition française »', 'https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/'),
