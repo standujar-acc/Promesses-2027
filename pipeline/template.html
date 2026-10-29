@@ -342,7 +342,7 @@ footer.foot button{border:0;background:none;color:var(--accent);padding:0;font-w
 footer.foot a{color:var(--accent);font-weight:600;display:inline-flex;align-items:center;min-height:44px}
 footer.foot p,footer.foot .report{flex-basis:100%;margin:0}
 /* ordinateur : page plus large, colonnes */
-.home-top,.sim-grid,.sim-in,.sim-out,.cand-bar{display:contents}
+.home-top,.sim-grid,.sim-in,.sim-out,.cand-bar,.qgrid{display:contents}
 #v-cand > .search{order:1} #results{order:2} #picker{order:3} #fhead{order:4} #ftab{order:5} #total{order:6} #f-budget{order:7} #f-vie{order:8}
 @media(max-width:1099px){#total.m-hide{display:none}}
 .met-toc{display:none}
@@ -391,6 +391,9 @@ footer.foot p button{min-height:0;display:inline;font-size:inherit}
   .sim-in{display:flex;flex-direction:column;gap:12px;position:sticky;top:16px;max-height:calc(100vh - 32px);overflow-y:auto;padding:2px;scrollbar-width:thin}
   .sim-out{display:flex;flex-direction:column;gap:12px;min-width:0}
   #v-quiz{max-width:1000px;width:100%;margin-inline:auto}
+  .qgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+  .qnear{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 18px;align-items:start}
+  .qnear > :not(.qcol){grid-column:1/-1}
   .met-grid{display:grid;grid-template-columns:220px minmax(0,1fr);gap:40px;align-items:start;max-width:1080px;margin-inline:auto}
   .met-toc{display:flex;flex-direction:column;gap:2px;position:sticky;top:16px}
   .met-body{max-width:78ch}
@@ -1129,15 +1132,15 @@ function quizResult(el, s, msg){
   el.innerHTML=`<div class="qstart"><span class="eyebrow" style="color:var(--band-muted)">Votre résultat</span><h2${head.length>30?' class="long"':''}>${esc(head)}</h2>${then?`<p class="qthen">${esc(then)}</p>`:''}
     <p>Sur ${s.qs.length} duels, vous avez retenu ${pl(chosen.length,'proposition')}${vtxt?`. Selon notre analyse : ${vtxt}`:''}${nl?`${vtxt?' ; ':'. '}${nl} de la vie quotidienne, sans verdict de faisabilité`:''}.</p>
     <p>${defTxt}</p></div>
-    <div class="card"><h3>Par candidat</h3>
+    <div class="qgrid"><div class="card"><h3>Par candidat</h3>
       <p class="small muted qleg" aria-hidden="true"><span><i class="k-ret"></i>retenue (choisie ou « les deux »)</span><span><i class="k-rej">✕</i>écartée pour l'autre</span><span><i class="k-none">–</i>aucune des deux</span>${star.length?'<span><i class="k-ret x2"></i>thème ★, compte deux fois</span>':''}</p>
       <ol class="qcands">${rows.map(r=>`<li class="qc"><span class="qrk" aria-hidden="true">${r.tie?'=':''}${r.rank}</span><span>${esc(r.c.short)}</span><span class="qdots" aria-hidden="true">${dots(r)}</span><span class="num small" aria-hidden="true">${r.x.acc}/${r.x.w}</span><span class="sr">${r.tie?'ex æquo, ':''}${pl(r.x.n,'proposition retenue','propositions retenues')} sur ${r.x.a}${r.x.w>r.x.a?`, ${r.x.acc} sur ${r.x.w} en comptant deux fois les thèmes marqués`:''}</span></li>`).join('')}</ol>
       <p class="small muted">Proximité : la part des propositions de chaque candidat que vous avez retenues${star.length?' ; une proposition d\'un thème marqué ★ compte deux fois (5/6 : 5 points sur 6 possibles)':''}. « = » signale une égalité, affichée dans un ordre tiré au hasard. Le quiz ne porte que sur une partie des propositions. Il ne dit pas pour qui voter : il montre de quelles idées vous êtes proche.</p></div>
     <div class="card"><h3>Par thème</h3><p class="small muted">Touchez l'étoile des thèmes qui comptent le plus pour vous : ils compteront double dans le classement. Rien n'est enregistré.</p>
       <div>${themes.map(t=>{ const nd=duels.filter(d=>d.t===t).length; return `<div class="qtr"><button class="star" data-t="${t}" aria-pressed="${quizImp.has(t)}" aria-label="${esc(thName(t))} : compter double"><span aria-hidden="true">${quizImp.has(t)?'★':'☆'}</span></button><span><b>${esc(thName(t))}</b> <span class="small muted">· ${pl(nd,'duel')}</span><span class="who">${who(t)}</span></span></div>`; }).join('')}</div>
-      ${msg?`<p class="status">${esc(msg)}</p>`:star.length?`<p class="status">Comptent double : ${star.map(t=>esc(thName(t))).join(', ')}.</p>`:''}</div>
+      ${msg?`<p class="status">${esc(msg)}</p>`:star.length?`<p class="status">Comptent double : ${star.map(t=>esc(thName(t))).join(', ')}.</p>`:''}</div></div>
     ${near.length?`<h3>${near.length>1?'Les plus proches de vos choix':'Le plus proche de vos choix'} : ce qui colle, ce qui colle moins</h3>
-    ${near.map(r=>`<div class="card"><div class="qnh"><h4>${esc(r.c.name)}</h4><span class="small muted">${esc(r.c.party)} · ${counts(r.x)}</span></div>
+    ${near.map(r=>`<div class="card qnear"><div class="qnh"><h4>${esc(r.c.name)}</h4><span class="small muted">${esc(r.c.party)} · ${counts(r.x)}</span></div>
       <div class="qcol"><span class="eyebrow ok">Ce qui colle avec vos choix</span><div class="results">${[...r.x.ok].sort((a,b)=>order(a,b,['pick','both'])).map(({o,k,w})=>item(o,`${QM[k].slice(2)}${w>1?' · thème ★':''} · ${costTxt(o)}`)).join('')}</div></div>
       <div class="qcol"><span class="eyebrow">Ce qui colle moins</span>${r.x.ko.length?`<div class="results">${[...r.x.ko].sort((a,b)=>order(a,b,['rej','none'])).map(({o,k,alt})=>item(o,k==='rej'?`Vous avez préféré : « ${esc(alt.m.quiz_text||alt.m.title)} » (${esc(cand(alt.c).short)})`:'Aucune des deux propositions retenue')).join('')}</div>`:'<p class="small muted">Aucune de ses propositions écartée dans ce quiz.</p>'}</div>
       <p class="small muted">Le quiz n'a montré que ${r.x.a} de ses propositions.</p><div><button class="btn" data-cand="${r.c.id}">Voir toutes ses mesures</button></div></div>`).join('')}`
