@@ -5951,5 +5951,1116 @@
 "u": "https://evaluation.securite-sociale.fr/home/maladie/2-7-4-assurer-l-acces-a-un-medecin-traitant.html"
 }
 ]
+},
+"le-pen.ticpe": {
+"constat": "Prix des carburants : +12,5 % de 2019 à 2025, contre +19 % pour l'ensemble des prix (Eurostat).",
+"constat_s": [
+1
+],
+"pour": "Les ruraux dépensent près de deux fois plus en carburant que les citadins : 1 855 € contre 981 € en 2022.",
+"preuve_pour": "solide",
+"contre": "Les plus aisés y gagnent le plus en euros : 64 à 115 €, contre 29 à 48 € pour les plus modestes en 2022.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "En 2022, les ménages automobilistes ont dépensé en moyenne 1 855 € de carburant en zone rurale, 1 480 € en zone périurbaine et 981 € en ville (CAE-Insee, France, 2023).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "La remise à la pompe de 2022 a rapporté 64 à 115 € aux 25 % les plus aisés, 29 à 48 € aux plus modestes, une part plus forte de leur revenu (CAE, France, 2023).",
+"s": [
+0
+]
+},
+{
+"t": "Quand le prix du carburant monte de 1 %, les achats baissent de 0,21 à 0,40 % à court terme ; les remises de 2022 ont donc accru la consommation (CAE-Insee, France, 2023).",
+"s": [
+0
+]
+}
+],
+"etudes": "Les évaluations concordent : une baisse du prix à la pompe aide surtout les gros rouleurs, ruraux et périurbains, rapporte plus en euros aux plus aisés et fait un peu remonter la consommation.",
+"src": [
+{
+"l": "CAE Focus n° 98 / Insee Analyses n° 86, « Comment les automobilistes ajustent leur consommation de carburant aux variations de prix » (Bonnet, Loisel, Wilner, Fize)",
+"a": 2023,
+"u": "https://cae-eco.fr/static/pdf/focus-98-carburants-230706.pdf"
+},
+{
+"l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind) : carburants (CP0722) et ensemble (CP00)",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
+}
+]
+},
+"zemmour.accise": {
+"constat": "Prix des carburants : +12,5 % de 2019 à 2025, contre +19 % pour l'ensemble des prix (Eurostat).",
+"constat_s": [
+1
+],
+"pour": "Les ruraux dépensent près de deux fois plus en carburant que les citadins : 1 855 € contre 981 € en 2022.",
+"preuve_pour": "solide",
+"contre": "Les plus aisés y gagnent le plus en euros : 64 à 115 €, contre 29 à 48 € pour les plus modestes en 2022.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "En 2022, les ménages automobilistes ont dépensé en moyenne 1 855 € de carburant en zone rurale, 1 480 € en zone périurbaine et 981 € en ville (CAE-Insee, France, 2023).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "La remise à la pompe de 2022 a rapporté 64 à 115 € aux 25 % les plus aisés, 29 à 48 € aux plus modestes, une part plus forte de leur revenu (CAE, France, 2023).",
+"s": [
+0
+]
+},
+{
+"t": "Quand le prix du carburant monte de 1 %, les achats baissent de 0,21 à 0,40 % à court terme ; les remises de 2022 ont donc accru la consommation (CAE-Insee, France, 2023).",
+"s": [
+0
+]
+}
+],
+"etudes": "Les évaluations concordent : une baisse du prix à la pompe aide surtout les gros rouleurs, ruraux et périurbains, rapporte plus en euros aux plus aisés et fait un peu remonter la consommation.",
+"src": [
+{
+"l": "CAE Focus n° 98 / Insee Analyses n° 86, « Comment les automobilistes ajustent leur consommation de carburant aux variations de prix » (Bonnet, Loisel, Wilner, Fize)",
+"a": 2023,
+"u": "https://cae-eco.fr/static/pdf/focus-98-carburants-230706.pdf"
+},
+{
+"l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind) : carburants (CP0722) et ensemble (CP00)",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
+}
+]
+},
+"le-pen.successions": {
+"constat": "La part du patrimoine hérité est passée de 35 % du patrimoine total au début des années 1970 à 60 % (CAE).",
+"constat_s": [
+0
+],
+"pour": "Les héritages aisés, sans être très gros, paient la moitié du taux des plus gros, pour 24 fois moins reçu.",
+"preuve_pour": "solide",
+"contre": "La moitié des héritiers reçoit moins de 70 000 € dans sa vie, sous l'abattement de 100 000 € par parent.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Au seuil des 10 % d'héritiers les mieux dotés, le taux effectif de droits est environ moitié de celui du 0,1 % le plus riche, pour un héritage 24 fois plus petit (CAE, France, 2021).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Au sein d'une génération, la moitié des héritiers reçoit moins de 70 000 € sur toute sa vie, moins de 10 % plus de 500 000 €, le 1 % le mieux doté plus de 4,2 millions (CAE, France, 2021).",
+"s": [
+0
+]
+}
+],
+"etudes": "Les données concordent : héritages très concentrés, droits nuls sous l'abattement, poids relatif plus lourd juste sous les plus gros ; effets des droits sur l'épargne jugés faibles (CAE).",
+"src": [
+{
+"l": "CAE, note n° 69, « Repenser l'héritage » (Dherbécourt, Fack, Landais, Stantcheva)",
+"a": 2021,
+"u": "https://cae-eco.fr/static/pdf/cae-note069.pdf"
+},
+{
+"l": "Service-public.gouv.fr, Droits de succession : évaluation de la succession et calcul des droits (abattement de 100 000 € par enfant et par parent)",
+"a": 2026,
+"u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14198"
+}
+]
+},
+"lisnard.succession": {
+"constat": "La part du patrimoine hérité est passée de 35 % du patrimoine total au début des années 1970 à 60 % (CAE).",
+"constat_s": [
+0
+],
+"pour": "Les héritages aisés, sans être très gros, paient la moitié du taux des plus gros, pour 24 fois moins reçu.",
+"preuve_pour": "solide",
+"contre": "La moitié des héritiers reçoit moins de 70 000 € dans sa vie, sous l'abattement de 100 000 € par parent.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Au seuil des 10 % d'héritiers les mieux dotés, le taux effectif de droits est environ moitié de celui du 0,1 % le plus riche, pour un héritage 24 fois plus petit (CAE, France, 2021).",
+"s": [
+0
+]
+},
+{
+"t": "Les successions hors ligne directe font moins de 10 % du capital transmis mais plus de 50 % des droits, taxées fortement même petites (CAE, France, 2021).",
+"s": [
+0
+]
+},
+{
+"t": "Les entreprises transmises sans l'exonération Dutreil sont plus souvent dissoutes : 10 % au bout de 9 ans, contre 6 % avec (IPP, France, 2025).",
+"s": [
+2
+]
+}
+],
+"cas_contre": [
+{
+"t": "Au sein d'une génération, la moitié des héritiers reçoit moins de 70 000 € sur toute sa vie, moins de 10 % plus de 500 000 €, le 1 % le mieux doté plus de 4,2 millions (CAE, France, 2021).",
+"s": [
+0
+]
+},
+{
+"t": "Les entreprises transmises avec l'exonération Dutreil n'investissent pas plus et ne se développent pas plus à l'étranger que les autres (IPP, France, 2025).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les données concordent : héritages très concentrés, droits nuls sous l'abattement, poids relatif plus lourd juste sous les plus gros ; effets des droits sur l'épargne jugés faibles (CAE). Exonérer les entreprises familiales réduit les dissolutions sans accroître l'investissement (IPP, 2025).",
+"src": [
+{
+"l": "CAE, note n° 69, « Repenser l'héritage » (Dherbécourt, Fack, Landais, Stantcheva)",
+"a": 2021,
+"u": "https://cae-eco.fr/static/pdf/cae-note069.pdf"
+},
+{
+"l": "Service-public.gouv.fr, Droits de succession : évaluation de la succession et calcul des droits (abattement de 100 000 € par enfant et par parent)",
+"a": 2026,
+"u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14198"
+},
+{
+"l": "IPP, rapport n° 62, « L'impact économique des transmissions d'entreprises réalisées avec un pacte Dutreil » (pour la Cour des comptes)",
+"a": 2025,
+"u": "https://www.ipp.eu/wp-content/uploads/2025/11/Dutreil_CourDesComptes-6_compressed.pdf"
+}
+]
+},
+"le-pen.donations": {
+"constat": "Donateurs : 65 % ont 70 ans ou plus en 2018, contre 56 % en 2010 ; 80 % des bénéficiaires ont 40 ans ou plus (Insee).",
+"constat_s": [
+1
+],
+"pour": "Reçue jeune, une donation aide à acheter son logement : 69 % de propriétaires à 40 ans, contre 58 % sans.",
+"preuve_pour": "mitigé",
+"contre": "Les dons vont surtout aux familles aisées : 43 % des mieux dotées en ont reçu, contre 18 % en moyenne.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Avec une donation, la probabilité d'avoir acheté sa résidence principale à 40 ans passe de 58 % à 69 %, et celle de créer une entreprise est 1,5 fois plus élevée (Économie et Statistique, France, 2014).",
+"s": [
+0
+]
+},
+{
+"t": "Les parents dont le patrimoine serait taxé à la succession font deux fois plus souvent une donation que les autres : ils réagissent aux avantages fiscaux (Économie et Statistique, France, 2014).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Parmi les 10 % de ménages les mieux dotés en patrimoine, 43 % ont déjà reçu une donation, contre 18 % de l'ensemble des ménages (Insee, France, 2021).",
+"s": [
+1
+]
+}
+],
+"etudes": "Une étude française lie donation reçue jeune et achat du logement ou création d'entreprise ; les donations restent concentrées chez les ménages aisés, dont les héritiers cumulent plusieurs abattements (CAE).",
+"src": [
+{
+"l": "Économie et Statistique n° 472-473, « Inégalités de patrimoine entre générations : les donations aident-elles les jeunes à s'installer ? » (Arrondel, Garbinti, Masson)",
+"a": 2014,
+"u": "https://www.insee.fr/fr/statistiques/fichier/1377767/ES472D.pdf"
+},
+{
+"l": "Insee Focus n° 232, « En 2018, en France, 18 % des ménages ont déjà reçu une donation et 8 % en ont versé une » (Cazenave-Lacrouts, Hubert)",
+"a": 2021,
+"u": "https://www.insee.fr/fr/statistiques/5359234"
+},
+{
+"l": "CAE, note n° 69, « Repenser l'héritage » (Dherbécourt, Fack, Landais, Stantcheva)",
+"a": 2021,
+"u": "https://cae-eco.fr/static/pdf/cae-note069.pdf"
+}
+]
+},
+"le-pen.dutreil": {
+"constat": "La part du patrimoine hérité est passée de 35 % du patrimoine total au début des années 1970 à 60 % (CAE).",
+"constat_s": [
+1
+],
+"pour": "Sans l'allègement actuel, les entreprises familiales transmises sont plus souvent dissoutes : 10 % contre 6 %.",
+"preuve_pour": "mitigé",
+"contre": "Allégées, elles n'investissent pas plus ; 40 % des montants transmis relèvent de pactes de plus de 60 M€.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Les entreprises transmises sans l'exonération Dutreil sont plus souvent dissoutes : 10 % au bout de 9 ans, contre 6 % avec (IPP, France, 2025).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Les entreprises transmises avec l'exonération Dutreil n'investissent pas plus et ne se développent pas plus à l'étranger que les autres (IPP, France, 2025).",
+"s": [
+0
+]
+},
+{
+"t": "En 2018-2019, 8 Md€ d'actifs ont été transmis chaque année avec l'exonération Dutreil, dont 40 % dans des pactes de plus de 60 millions d'euros (CAE, France, 2021).",
+"s": [
+1
+]
+}
+],
+"etudes": "Une évaluation détaillée (IPP, 2025) : moins de dissolutions, mais pas plus d'investissement ni d'export avec l'exonération ; avantage concentré sur les plus grosses transmissions ; le CAE préfère un étalement du paiement à l'exonération.",
+"src": [
+{
+"l": "IPP, rapport n° 62, « L'impact économique des transmissions d'entreprises réalisées avec un pacte Dutreil » (pour la Cour des comptes)",
+"a": 2025,
+"u": "https://www.ipp.eu/wp-content/uploads/2025/11/Dutreil_CourDesComptes-6_compressed.pdf"
+},
+{
+"l": "CAE, note n° 69, « Repenser l'héritage » (Dherbécourt, Fack, Landais, Stantcheva)",
+"a": 2021,
+"u": "https://cae-eco.fr/static/pdf/cae-note069.pdf"
+}
+]
+},
+"retailleau.transmission": {
+"constat": "La part du patrimoine hérité est passée de 35 % du patrimoine total au début des années 1970 à 60 % (CAE).",
+"constat_s": [
+1
+],
+"pour": "Sans l'allègement actuel, les entreprises familiales transmises sont plus souvent dissoutes : 10 % contre 6 %.",
+"preuve_pour": "mitigé",
+"contre": "Allégées, elles n'investissent pas plus ; 40 % des montants transmis relèvent de pactes de plus de 60 M€.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Les entreprises transmises sans l'exonération Dutreil sont plus souvent dissoutes : 10 % au bout de 9 ans, contre 6 % avec (IPP, France, 2025).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Les entreprises transmises avec l'exonération Dutreil n'investissent pas plus et ne se développent pas plus à l'étranger que les autres (IPP, France, 2025).",
+"s": [
+0
+]
+},
+{
+"t": "En 2018-2019, 8 Md€ d'actifs ont été transmis chaque année avec l'exonération Dutreil, dont 40 % dans des pactes de plus de 60 millions d'euros (CAE, France, 2021).",
+"s": [
+1
+]
+}
+],
+"etudes": "Une évaluation détaillée (IPP, 2025) : moins de dissolutions, mais pas plus d'investissement ni d'export avec l'exonération ; avantage concentré sur les plus grosses transmissions ; le CAE préfère un étalement du paiement à l'exonération.",
+"src": [
+{
+"l": "IPP, rapport n° 62, « L'impact économique des transmissions d'entreprises réalisées avec un pacte Dutreil » (pour la Cour des comptes)",
+"a": 2025,
+"u": "https://www.ipp.eu/wp-content/uploads/2025/11/Dutreil_CourDesComptes-6_compressed.pdf"
+},
+{
+"l": "CAE, note n° 69, « Repenser l'héritage » (Dherbécourt, Fack, Landais, Stantcheva)",
+"a": 2021,
+"u": "https://cae-eco.fr/static/pdf/cae-note069.pdf"
+}
+]
+},
+"le-pen.part-fiscale": {
+"constat": "Fécondité : −16 % de 2019 à 2025, à 1,53 enfant par femme (Insee, métropole).",
+"constat_s": [
+4
+],
+"pour": "Rendre l'enfant moins coûteux accroît un peu les naissances, surtout au 1er et au 3e enfant.",
+"preuve_pour": "mitigé",
+"contre": "Le gain croît avec le revenu : les 20 % les plus aisés touchent déjà 36 % de l'avantage du quotient familial.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Une aide de 150 € par mois et par enfant ferait passer la probabilité annuelle d'une naissance de 15,5 % à 17,7 %, surtout au 1er et au 3e enfant (Laroque-Salanié, France, 2008).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "La demi-part en plus au 3e enfant (1980) et le plafonnement du quotient familial (1981) ont eu un effet positif mais très faible sur les naissances (Landais, France, 2003).",
+"s": [
+1
+]
+},
+{
+"t": "Malgré le plafond, les 20 % de ménages les plus aisés concentrent 36 % de l'avantage du quotient familial, et 86 % des foyers plafonnés en font partie (IGAS-IGF, France, 2021).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les études divergent : effet très faible des changements du quotient familial de 1980-1981 (Landais), effet notable des aides en argent simulé (Laroque-Salanié) ; les modes de garde pèseraient davantage (DG Trésor, 2025).",
+"src": [
+{
+"l": "G. Laroque et B. Salanié, « Does Fertility Respond to Financial Incentives? » (IZA DP n° 3575)",
+"a": 2008,
+"u": "https://docs.iza.org/dp3575.pdf"
+},
+{
+"l": "C. Landais, « Le quotient familial a-t-il stimulé la natalité française ? », Économie publique n° 13",
+"a": 2003,
+"u": "https://journals.openedition.org/economiepublique/279"
+},
+{
+"l": "IGAS-IGF, Revue des dépenses socio-fiscales en faveur de la politique familiale (Lavenir, Debeaupuis et al.)",
+"a": 2021,
+"u": "https://igas.gouv.fr/sites/igas/files/2024-04/Revue%20des%20d%C3%A9penses%20socio-fiscales%20en%20faveur%20de%20la%20politique%20familiale.pdf"
+},
+{
+"l": "DG Trésor, Trésor-Éco n° 359, « Les enjeux économiques de la redistribution vers les familles »",
+"a": 2025,
+"u": "https://www.tresor.economie.gouv.fr/Articles/2025/02/27/les-enjeux-economiques-de-la-redistribution-vers-les-familles"
+},
+{
+"l": "Insee, indicateur conjoncturel de fécondité, France métropolitaine (série 001686825)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/001686825"
+}
+]
+},
+"lisnard.quotient": {
+"constat": "Fécondité : −16 % de 2019 à 2025, à 1,53 enfant par femme (Insee, métropole).",
+"constat_s": [
+4
+],
+"pour": "Rendre l'enfant moins coûteux accroît un peu les naissances, surtout au 1er et au 3e enfant.",
+"preuve_pour": "mitigé",
+"contre": "Seuls les foyers aisés y gagnent : 86 % des foyers touchés par le plafond sont parmi les 20 % les plus aisés.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Une aide de 150 € par mois et par enfant ferait passer la probabilité annuelle d'une naissance de 15,5 % à 17,7 %, surtout au 1er et au 3e enfant (Laroque-Salanié, France, 2008).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "La demi-part en plus au 3e enfant (1980) et le plafonnement du quotient familial (1981) ont eu un effet positif mais très faible sur les naissances (Landais, France, 2003).",
+"s": [
+1
+]
+},
+{
+"t": "Malgré le plafond, les 20 % de ménages les plus aisés concentrent 36 % de l'avantage du quotient familial, et 86 % des foyers plafonnés en font partie (IGAS-IGF, France, 2021).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les études divergent : effet très faible des changements du quotient familial de 1980-1981 (Landais), effet notable des aides en argent simulé (Laroque-Salanié) ; les modes de garde pèseraient davantage (DG Trésor, 2025).",
+"src": [
+{
+"l": "G. Laroque et B. Salanié, « Does Fertility Respond to Financial Incentives? » (IZA DP n° 3575)",
+"a": 2008,
+"u": "https://docs.iza.org/dp3575.pdf"
+},
+{
+"l": "C. Landais, « Le quotient familial a-t-il stimulé la natalité française ? », Économie publique n° 13",
+"a": 2003,
+"u": "https://journals.openedition.org/economiepublique/279"
+},
+{
+"l": "IGAS-IGF, Revue des dépenses socio-fiscales en faveur de la politique familiale (Lavenir, Debeaupuis et al.)",
+"a": 2021,
+"u": "https://igas.gouv.fr/sites/igas/files/2024-04/Revue%20des%20d%C3%A9penses%20socio-fiscales%20en%20faveur%20de%20la%20politique%20familiale.pdf"
+},
+{
+"l": "DG Trésor, Trésor-Éco n° 359, « Les enjeux économiques de la redistribution vers les familles »",
+"a": 2025,
+"u": "https://www.tresor.economie.gouv.fr/Articles/2025/02/27/les-enjeux-economiques-de-la-redistribution-vers-les-familles"
+},
+{
+"l": "Insee, indicateur conjoncturel de fécondité, France métropolitaine (série 001686825)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/001686825"
+}
+]
+},
+"le-pen.ir-moins-30-ans": {
+"constat": "18,6 % des 18-29 ans vivaient sous le seuil de pauvreté en 2024 (17,5 % en 2023), 15,4 % au total (Insee).",
+"constat_s": [
+3
+],
+"pour": "Les actifs mobiles réagissent à l'impôt : un régime allégé a doublé les arrivées de hauts salaires étrangers.",
+"preuve_pour": "faible",
+"contre": "Plus de la moitié des foyers ne paient pas l'impôt sur le revenu : le gain va aux jeunes les mieux payés.",
+"preuve_contre": "pas d'étude",
+"cas_pour": [
+{
+"t": "Un impôt forfaitaire allégé pour les nouveaux arrivants très bien payés a doublé leur nombre par rapport à ceux juste sous le seuil (Kleven, Landais, Schultz, Danemark, 2014).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Sur les revenus de 2024, 19,6 millions de foyers sur 41,5 millions, soit 47 %, ont payé un impôt sur le revenu net (DGFiP, France, 2025).",
+"s": [
+1
+]
+}
+],
+"etudes": "Aucune évaluation d'une exonération selon l'âge ; les baisses d'impôt attirent surtout des actifs très mobiles et bien payés (Danemark) ; les salaires des apprentis sont déjà exonérés jusqu'au SMIC.",
+"src": [
+{
+"l": "Kleven, Landais, Schultz, « Migration and Wage Effects of Taxing Top Earners: Evidence from the Foreigners' Tax Scheme in Denmark », Quarterly Journal of Economics",
+"a": 2014,
+"u": "https://ideas.repec.org/a/oup/qjecon/v129y2014i1p333-378.html"
+},
+{
+"l": "DGFiP Statistiques n° 41, « L'impôt sur le revenu 2024 a été plus dynamique que les revenus »",
+"a": 2025,
+"u": "https://www.impots.gouv.fr/sites/default/files/media/9_statistiques/0_etudes_et_stats/0_publications/dgfip_statistiques/2025/num41_11/dgfip_stat_41.pdf"
+},
+{
+"l": "Service-public.gouv.fr, Comment est imposé le salaire d'un apprenti ? (exonération dans la limite du SMIC annuel)",
+"a": 2026,
+"u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11249"
+},
+{
+"l": "Insee, taux de pauvreté selon l'âge (tableau, seuil à 60 %)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/3565548"
+}
+]
+},
+"le-pen.suramortissement": {
+"constat": "Dans l'industrie, 23 % des PME utilisent des robots en 2023, contre 61 % des entreprises de taille intermédiaire (DGE).",
+"constat_s": [
+0
+],
+"pour": "Le dernier dispositif de ce type a accru de 12 à 14 % l'achat de machines par les PME industrielles.",
+"preuve_pour": "solide",
+"contre": "Son effet sur la productivité n'est pas encore mesuré, et il n'a servi qu'à 2 400 entreprises en six ans.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Le suramortissement numérique et robotique de 2019-2020 a accru de 12 à 14 % l'investissement en matériel des PME industrielles, sans simple avance des achats (DGE, France, 2026).",
+"s": [
+0
+]
+},
+{
+"t": "Un amortissement accéléré a accru l'investissement en équipements de 10,4 % en 2001-2004 et de 16,9 % en 2008-2010 ; les petites entreprises ont réagi 95 % plus fort (Zwick-Mahon, États-Unis, 2017).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "De 2019 à 2024, 2 390 entreprises ont utilisé le suramortissement numérique et robotique, pour 350 M€ d'investissements ; son effet sur la productivité reste incertain (DGE, France, 2026).",
+"s": [
+0
+]
+}
+],
+"etudes": "Les évaluations concordent : ces dispositifs accroissent l'investissement en équipements, surtout des petites entreprises (DGE 2026, Zwick-Mahon 2017) ; effet sur la productivité non établi à court terme.",
+"src": [
+{
+"l": "DGE, document de travail n° 1 (Thema), « Le suramortissement : un levier efficace pour la modernisation industrielle des PME françaises ? » (Kuyu, Toe)",
+"a": 2026,
+"u": "https://www.entreprises.gouv.fr/files/files/Publications/2026/themas/thema-40-suramortissement-document-travail.pdf"
+},
+{
+"l": "Zwick et Mahon, « Tax Policy and Heterogeneous Investment Behavior », American Economic Review",
+"a": 2017,
+"u": "https://ideas.repec.org/a/aea/aecrev/v107y2017i1p217-48.html"
+}
+]
+},
+"le-pen.pfu": {
+"pour": "Après la baisse de 2018, les créations d'entreprises ont davantage crû dans les secteurs les plus concernés.",
+"preuve_pour": "mitigé",
+"contre": "0,1 % des foyers reçoivent 62 % des dividendes, et la baisse de 2018 n'a pas accru l'investissement mesuré.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Après la baisse de la taxation des dividendes en 2018, les créations d'entreprises ont davantage augmenté dans les secteurs les plus concernés (IPP, France, 2023).",
+"s": [
+0,
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "En 2021, 0,1 % des foyers fiscaux déclaraient 62 % des dividendes, et 1 % en déclaraient 96 % (France Stratégie, France, 2023).",
+"s": [
+0
+]
+},
+{
+"t": "Aucun effet n'a été détecté sur l'investissement et les salaires des entreprises les plus exposées à la baisse de 2018 (France Stratégie, France, 2023).",
+"s": [
+0
+]
+}
+],
+"etudes": "Le comité d'évaluation (France Stratégie, 2023) : forte hausse des dividendes après 2018, très concentrés ; pas d'effet détecté sur l'investissement, effet positif mais faible sur les créations d'entreprises.",
+"src": [
+{
+"l": "France Stratégie, Comité d'évaluation des réformes de la fiscalité du capital, rapport final (avec les études de l'IPP)",
+"a": 2023,
+"u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2023-rapport-isf-quatrieme_rapport_complet_17octobre_2.pdf"
+},
+{
+"l": "IPP, rapport n° 47, « Évaluation des réformes de la fiscalité du capital » (pour France Stratégie)",
+"a": 2023,
+"u": "https://halshs.archives-ouvertes.fr/halshs-04439415v1/file/Rapport_IPP_47_ISFcrea_compressed.pdf"
+}
+]
+},
+"le-pen.iff": {
+"constat": "De 1998 à 2021, hors inflation : patrimoine moyen +94 % pour les 10 % les plus dotés, −54 % pour les 10 % les moins dotés (Insee).",
+"constat_s": [
+3
+],
+"pour": "Au sommet, les plus riches paient proportionnellement moins d'impôt que les autres ménages aisés.",
+"preuve_pour": "solide",
+"contre": "Les départs sont rares, mais quand l'actionnaire part, la masse salariale de son entreprise baisse de 25 %.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Les milliardaires paient 26 % de leur revenu en impôts directs, contre 46 % pour les 0,1 % les plus riches, leurs revenus restant dans leurs sociétés (IPP, France, 2023).",
+"s": [
+0
+]
+},
+{
+"t": "Sous l'impôt sur la fortune, à peine 0,15 à 0,2 % des grands actionnaires d'entreprises partaient chaque année à l'étranger (IPP, France, 2023).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Quand un actionnaire principal part à l'étranger, la masse salariale de son entreprise baisse de 25 % ; ces départs restent rares (IPP, France, 2023).",
+"s": [
+1
+]
+},
+{
+"t": "Sous l'impôt sur la fortune, environ 950 foyers assujettis partaient chaque année (2011-2016) ; depuis 2018, les retours dépassent les départs (France Stratégie, France, 2023).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les études concordent : au sommet, l'impôt pèse moins ; départs et effets sur l'investissement existent mais restent limités en France.",
+"src": [
+{
+"l": "IPP, note n° 92, « Quels impôts les milliardaires paient-ils ? » (Bach, Bozio, Guillouzouic, Malgouyres)",
+"a": 2023,
+"u": "https://www.ipp.eu/wp-content/uploads/2023/06/Note_IPP_Billionaires-version-actualisee.pdf"
+},
+{
+"l": "IPP, rapport n° 47, « Évaluation des réformes de la fiscalité du capital » (pour France Stratégie)",
+"a": 2023,
+"u": "https://halshs.archives-ouvertes.fr/halshs-04439415v1/file/Rapport_IPP_47_ISFcrea_compressed.pdf"
+},
+{
+"l": "France Stratégie, Comité d'évaluation des réformes de la fiscalité du capital, rapport final (avec les études de l'IPP)",
+"a": 2023,
+"u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2023-rapport-isf-quatrieme_rapport_complet_17octobre_2.pdf"
+},
+{
+"l": "Insee Références, Revenus et patrimoine des ménages 2024, « En vingt ans, les inégalités de patrimoine se sont accrues, en lien avec la hausse des prix de l'immobilier »",
+"a": 2024,
+"u": "https://www.insee.fr/fr/statistiques/7941439?sommaire=7941491"
+}
+]
+},
+"le-pen.pret-3e-enfant": {
+"constat": "Fécondité : −16 % de 2019 à 2025, à 1,53 enfant par femme (Insee, métropole).",
+"constat_s": [
+2
+],
+"pour": "Des aides en argent à la naissance ont bien accru les naissances, surtout quand elles étaient fortes.",
+"preuve_pour": "mitigé",
+"contre": "L'effet des aides en argent sur les naissances reste modeste et surtout passager.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "La prime universelle à la naissance de 2007 a accru les naissances, en partie via moins d'avortements, et retardé la reprise d'emploi des mères (González, Espagne, 2013).",
+"s": [
+0
+]
+},
+{
+"t": "L'aide versée aux familles à chaque naissance, jusqu'à 8 000 dollars par enfant, a eu un effet fort sur la fécondité (Milligan, Québec, 2005).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [],
+"etudes": "Les études quasi-expérimentales trouvent un effet positif mais modeste des aides en argent, souvent un avancement des naissances ; aucune évaluation d'un prêt effacé à la naissance.",
+"src": [
+{
+"l": "L. González, The Effect of a Universal Child Benefit on Conceptions, Abortions, and Early Maternal Labor Supply, AEJ: Economic Policy",
+"a": 2013,
+"u": "https://ideas.repec.org/a/aea/aejpol/v5y2013i3p160-88.html"
+},
+{
+"l": "K. Milligan, Subsidizing the Stork: New Evidence on Tax Incentives and Fertility, Review of Economics and Statistics",
+"a": 2005,
+"u": "https://ideas.repec.org/a/tpr/restat/v87y2005i3p539-555.html"
+},
+{
+"l": "Insee, indicateur conjoncturel de fécondité, France métropolitaine (série 001686825)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/001686825"
+}
+]
+},
+"melenchon.ttf": {
+"pour": "Les hausses de taux n'ont pas fait fuir les échanges : en 2017, taux relevé de moitié, recettes +54 %.",
+"preuve_pour": "solide",
+"contre": "Elle n'a pas calmé les fortes variations des cours, et a réduit de 10 à 20 % les échanges des titres taxés.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Quand le taux est passé de 0,2 à 0,3 % en 2017, les échanges ont baissé de 2,5 % à Paris, contre 9 % à Amsterdam, et la recette a crû de 54 % (Cour des comptes, France, 2026).",
+"s": [
+0
+]
+},
+{
+"t": "La taxe a rapporté 2,5 Md€ en 2025, après 1,9 Md€ en 2024, son taux passant de 0,3 à 0,4 % en avril 2025 (Cour des comptes, France, 2026).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "À sa création en 2012, les échanges des titres taxés ont reculé de 10 à 20 %, sans effet stabilisateur mesuré sur la volatilité des cours (Cour des comptes, France, 2026).",
+"s": [
+0,
+1
+]
+}
+],
+"etudes": "Les études sur la taxe française concordent (Cour des comptes 2026, Capelle-Blancard et Havrylchyk 2016) : recette réelle et peu de fuite des échanges, mais baisse des volumes et aucun effet sur la volatilité.",
+"src": [
+{
+"l": "Cour des comptes, rapport public thématique « La taxe sur les transactions financières : un équilibre délicat entre rendement et régulation »",
+"a": 2026,
+"u": "https://www.ccomptes.fr/sites/default/files/2026-09/20260910_Taxe-sur-les-transactions-financieres.pdf"
+},
+{
+"l": "Capelle-Blancard et Havrylchyk, « The impact of the French securities transaction tax on market liquidity and volatility », International Review of Financial Analysis",
+"a": 2016,
+"u": "https://ideas.repec.org/a/eee/finana/v47y2016icp166-178.html"
+}
+]
+},
+"melenchon.fraude": {
+"constat": "La TVA non perçue atteint 6 % du montant dû en 2023, contre plus de 7 % en 2019 (Commission européenne).",
+"constat_s": [
+0
+],
+"pour": "Les effectifs du contrôle fiscal ont baissé de 19 % en dix ans, et ses résultats n'ont pas progressé.",
+"preuve_pour": "mitigé",
+"contre": "Les contrôles rapportent moins qu'ils ne réclament : 11,4 Md€ encaissés en 2024, 20,1 Md€ réclamés.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Les effectifs du contrôle fiscal ont baissé de 19 % de 2015 à 2024, et ses résultats sont passés de 21,2 à 20,1 Md€, quand les recettes fiscales ont crû de 44 % (Cour des comptes, France, 2025).",
+"s": [
+1
+]
+},
+{
+"t": "Un dollar de plus dépensé pour contrôler les 10 % de contribuables les plus aisés rapporte plus de 12 dollars, et 5 sous le revenu médian (NBER, États-Unis, 2023).",
+"s": [
+2
+]
+}
+],
+"cas_contre": [
+{
+"t": "Les sommes encaissées après contrôle fiscal sont passées de 12,2 Md€ en 2015 à 11,4 Md€ en 2024, pour 20,1 Md€ mis en recouvrement en 2024 (Cour des comptes, France, 2025).",
+"s": [
+1
+]
+}
+],
+"etudes": "La Cour des comptes (2025) juge la performance du contrôle fiscal impossible à évaluer faute d'estimer la fraude ; une étude américaine trouve que les contrôles des hauts revenus rapportent nettement plus qu'ils ne coûtent.",
+"src": [
+{
+"l": "Conseil de l'UE / Commission européenne, « Mind the Gap » 2025, fiche France (SWD(2025) 421)",
+"a": 2025,
+"u": "https://data.consilium.europa.eu/doc/document/ST-16801-2025-ADD-10/en/pdf"
+},
+{
+"l": "Cour des comptes, rapport public thématique « La lutte contre la fraude fiscale »",
+"a": 2025,
+"u": "https://www.ccomptes.fr/sites/default/files/2025-12/20251216-Lutte-contre-la-fraude-fiscale.pdf"
+},
+{
+"l": "Boning, Hendren, Sprung-Keyser, Stuart, « A Welfare Analysis of Tax Audits Across the Income Distribution » (NBER w31376 ; Quarterly Journal of Economics 2025)",
+"a": 2023,
+"u": "https://www.nber.org/papers/w31376"
+}
+]
+},
+"retailleau.fraude": {
+"constat": "La TVA non perçue atteint 6 % du montant dû en 2023, contre plus de 7 % en 2019 (Commission européenne).",
+"constat_s": [
+0
+],
+"pour": "La fraude sociale est estimée à au moins 13 Md€ par an, mais seuls 2,9 Md€ ont été détectés en 2024.",
+"preuve_pour": "mitigé",
+"contre": "Des contrôles durcis touchent aussi la bonne foi : 25 000 parents ont dû rendre leurs aides pour des erreurs.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Selon le Haut Conseil du financement de la protection sociale, la fraude sociale représente au moins 13 Md€ par an ; 2,9 Md€ ont été détectés en 2024 (Sénat, France, 2025).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Plus de 25 000 parents ont dû rembourser en bloc leurs aides de garde d'enfants, de simples erreurs étant traitées comme des fraudes (Parlement, Pays-Bas, 2024).",
+"s": [
+2
+]
+},
+{
+"t": "De la fraude sociale détectée en 2024, les organismes n'ont recouvré qu'un montant marginal (Sénat, France, 2025).",
+"s": [
+1
+]
+}
+],
+"etudes": "La fraude sociale est estimée (HCFiPS), la fraude fiscale ne l'est pas (Cour des comptes, 2025) ; le gain de contrôles accrus reste peu mesuré, et des contrôles automatisés ont frappé des allocataires de bonne foi.",
+"src": [
+{
+"l": "Conseil de l'UE / Commission européenne, « Mind the Gap » 2025, fiche France (SWD(2025) 421)",
+"a": 2025,
+"u": "https://data.consilium.europa.eu/doc/document/ST-16801-2025-ADD-10/en/pdf"
+},
+{
+"l": "Sénat, commission des affaires sociales, « L'essentiel » du rapport n° 111 (2025-2026) sur le projet de loi de lutte contre les fraudes sociales et fiscales (estimations du HCFiPS)",
+"a": 2025,
+"u": "https://www.senat.fr/rap/l25-111/l25-111-syn.pdf"
+},
+{
+"l": "Parlementair Documentatie Centrum (université de Leyde), « Parlementaire enquête Fraudebeleid en Dienstverlening (2021-2024) »",
+"a": 2024,
+"u": "https://www.parlement.com/parlementaire-enquete-fraudebeleid-en-dienstverlening-2021-2024"
+},
+{
+"l": "Cour des comptes, rapport public thématique « La lutte contre la fraude fiscale »",
+"a": 2025,
+"u": "https://www.ccomptes.fr/sites/default/files/2025-12/20251216-Lutte-contre-la-fraude-fiscale.pdf"
+}
+]
+},
+"retailleau.cotisations": {
+"constat": "Le taux de chômage est de 8,3 % au 2e trimestre 2026, contre 7,1 % début 2023 et 8,4 % mi-2019 (Insee).",
+"constat_s": [
+1
+],
+"pour": "Ciblées sur les bas salaires, ces baisses créent des emplois : −1 % de coût, +1,7 % d'emploi industriel.",
+"preuve_pour": "solide",
+"contre": "Au-dessus de 1,6 SMIC, les baisses de charges passées n'ont pas eu d'effet mesuré sur l'emploi ni l'export.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Après les baisses de charges sur les bas salaires des années 1990, 1 % de coût du travail en moins a accru l'emploi industriel de 1,7 % (CAE, France, 2019).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Les baisses de cotisations au-delà de 1,6 SMIC n'ont pas montré d'effet positif sur les exportations, alors qu'elles visaient la compétitivité (CAE, France, 2019).",
+"s": [
+0
+]
+},
+{
+"t": "Le crédit d'impôt compétitivité, aide large jusqu'à 2,5 fois le salaire minimum, a créé peu d'emplois selon ses évaluations (CAE, France, 2019).",
+"s": [
+0
+]
+}
+],
+"etudes": "Les évaluations concordent : baisses de charges efficaces sur l'emploi près du SMIC, effet non démontré au-delà de 1,6 SMIC ; l'effet dépend donc des salaires visés.",
+"src": [
+{
+"l": "CAE, note n° 49, « Baisses de charges : stop ou encore ? » (L'Horty, Martin, Mayer)",
+"a": 2019,
+"u": "https://cae-eco.fr/static/pdf/cae-note049v4.pdf"
+},
+{
+"l": "Insee, taux de chômage au sens du BIT, France hors Mayotte, données CVS (série 001688527)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/001688527"
+}
+]
+},
+"lisnard.csg_deductible": {
+"constat": "Le salaire net au salaire moyen a augmenté de 15 % de 2019 à 2025, moins que les prix (+19 %) (Eurostat).",
+"constat_s": [
+2,
+3
+],
+"pour": "Aujourd'hui, 2,4 points de CSG sur les salaires entrent dans le revenu imposable, sans jamais être perçus.",
+"preuve_pour": "pas d'étude",
+"contre": "Le gain est nul pour les 53 % de foyers sans impôt sur le revenu, et croît avec la tranche d'impôt.",
+"preuve_contre": "pas d'étude",
+"cas_pour": [],
+"cas_contre": [
+{
+"t": "Sur les revenus de 2024, 19,6 millions de foyers sur 41,5 millions, soit 47 %, ont payé un impôt sur le revenu net (DGFiP, France, 2025).",
+"s": [
+1
+]
+}
+],
+"etudes": "Pas d'évaluation trouvée ; les règles décrites sont celles en vigueur (6,8 points de CSG déductibles sur 9,2) et la part des foyers imposés publiée par la DGFiP.",
+"src": [
+{
+"l": "Service-public.gouv.fr, CSG et CRDS sur les revenus d'activité et de remplacement (part déductible : 6,8 points sur 9,2)",
+"a": 2026,
+"u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2971"
+},
+{
+"l": "DGFiP Statistiques n° 41, « L'impôt sur le revenu 2024 a été plus dynamique que les revenus »",
+"a": 2025,
+"u": "https://www.impots.gouv.fr/sites/default/files/media/9_statistiques/0_etudes_et_stats/0_publications/dgfip_statistiques/2025/num41_11/dgfip_stat_41.pdf"
+},
+{
+"l": "Eurostat, gains nets annuels, célibataire sans enfant au salaire moyen, France (earn_nt_net)",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/databrowser/view/earn_nt_net/default/table"
+},
+{
+"l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind)",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
+}
+]
+},
+"zemmour.enr": {
+"complement": "Le même programme prévoit aussi de construire de nouveaux réacteurs nucléaires.",
+"complement_ref": [
+"zemmour.environnement.1"
+],
+"constat": "Électricité consommée : 451 TWh en 2025, environ 6 % sous 2014-2019 ; exportations record de 92,3 TWh (RTE).",
+"constat_s": [
+4
+],
+"pour": "Les aides au solaire et à l'éolien coûtent cher alors que la production dépasse déjà la demande.",
+"preuve_pour": "solide",
+"contre": "Les réacteurs neufs arriveront tard, et stopper solaire et éolien prive de production d'ici là.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Les contrats solaires signés avant 2011 pesaient 30 % des charges de soutien aux renouvelables en 2018, pour 0,7 % de l'électricité (Cour des comptes, France, 2018).",
+"s": [
+0
+]
+},
+{
+"t": "Le soutien public aux renouvelables électriques a plus que doublé de 2024 à 2025, surtout pour le solaire, avec la baisse des prix de gros (CRE, France, 2026).",
+"s": [
+1
+]
+},
+{
+"t": "Record d'exportations nettes d'électricité en 2024 (89 TWh), avec deux fois plus d'heures à prix négatifs qu'en 2023 (RTE, France, 2025).",
+"s": [
+2
+]
+}
+],
+"cas_contre": [
+{
+"t": "Après l'arrêt des tarifs garantis au solaire fin 2010, la filière a connu quatre ans d'incertitude, faillites et désinvestissements (Cour des comptes, France, 2018).",
+"s": [
+0
+]
+},
+{
+"t": "Prévu pour 2012, le réacteur de Flamanville 3 n'a été raccordé qu'en décembre 2024, pour un coût environ sept fois supérieur au devis (Cour des comptes, France, 2025).",
+"s": [
+3
+]
+},
+{
+"t": "Avec une production nucléaire au plus bas (279 TWh), le pays a importé plus d'électricité qu'il n'en a exporté en 2022, une première depuis 1980 (RTE, France, 2025).",
+"s": [
+2
+]
+}
+],
+"etudes": "Coûts du soutien bien documentés (CRE, Cour des comptes) et variables selon les prix ; pour RTE, la neutralité carbone exige un fort essor des renouvelables, même avec du nucléaire neuf.",
+"src": [
+{
+"l": "Cour des comptes, « Le soutien aux énergies renouvelables »",
+"a": 2018,
+"u": "https://www.ccomptes.fr/sites/default/files/2018-04/20180418-rapport-soutien-energies-renouvelables.pdf"
+},
+{
+"l": "CRE, délibération n° 2026-149 (charges de service public de l'énergie)",
+"a": 2026,
+"u": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-149_CSPE_2026-2027.pdf"
+},
+{
+"l": "RTE, Bilan électrique 2024 (synthèse)",
+"a": 2025,
+"u": "https://analysesetdonnees.rte-france.com/bilan-electrique-2024/synthese"
+},
+{
+"l": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
+"a": 2025,
+"u": "https://www.ccomptes.fr/sites/default/files/2025-01/20250114-La-filiere-EPR--une-dynamique-nouvelle-des-risques-persistants_0.pdf"
+},
+{
+"l": "RTE, Bilan électrique 2025 (rapport complet)",
+"a": 2026,
+"u": "https://assets.rte-france.com/analyse-et-donnees/2026-03/BE2025%20-%20Rapport%20Complet.pdf"
+}
+]
+},
+"zemmour.anah": {
+"pour": "Une part des travaux aidés se ferait sans aide, et les économies réelles restent modestes.",
+"preuve_pour": "mitigé",
+"contre": "Sans aide, moins de ménages isoleraient leur logement, et leur consommation resterait haute.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Avec le crédit d'impôt pour isoler, 40 à 85 % des ménages aidés auraient fait les travaux sans aide (Nauleau, France, 2014).",
+"s": [
+0
+]
+},
+{
+"t": "Les économies d'énergie mesurées après isolation n'atteignent qu'environ 42 % de celles calculées sur plan (Insee-SDES, France, 2026).",
+"s": [
+1
+]
+},
+{
+"t": "Début 2023, 73 % des dossiers aidés finançaient un seul geste de travaux, et 1,7 % une rénovation complète (France Stratégie, France, 2024).",
+"s": [
+2
+]
+}
+],
+"cas_contre": [
+{
+"t": "Le crédit d'impôt a fait augmenter les travaux d'isolation à partir de 2007, d'autant plus que son taux était élevé (Nauleau, France, 2014).",
+"s": [
+0
+]
+},
+{
+"t": "Après des travaux d'isolation aidés, les maisons chauffées au gaz ont consommé 6,6 % de moins, et 12,7 % de moins pour les plus énergivores (Insee-SDES, France, 2026).",
+"s": [
+1
+]
+}
+],
+"etudes": "L'aide fait réaliser des travaux qui réduisent la consommation, avec un effet d'aubaine important (mesuré sur l'ancien crédit d'impôt) et des gains inférieurs aux calculs.",
+"src": [
+{
+"l": "Nauleau, Free-riding on tax credits for home insulation in France (Energy Economics)",
+"a": 2014,
+"u": "https://ideas.repec.org/a/eee/eneeco/v46y2014icp78-92.html"
+},
+{
+"l": "Insee-SDES, document de travail 2025-16, isolation et consommation réelle d'énergie",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+},
+{
+"l": "France Stratégie, Comité d'évaluation de France Relance, MaPrimeRénov'",
+"a": 2024,
+"u": "https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2024-rapport-france_relance_vol_ii_6_maprimerenov.pdf"
+}
+]
+},
+"glucksmann.cheque_energie": {
+"constat": "Prix de l'électricité, du gaz et des combustibles des ménages : +47 % de 2019 à 2025, contre +19 % pour l'ensemble (Eurostat).",
+"constat_s": [
+1
+],
+"pour": "Versé sans démarche, il est utilisé à 84,5 % et a sorti 500 000 ménages de la précarité énergétique en 2023.",
+"preuve_pour": "solide",
+"contre": "Hors des plus modestes, son effet chute : −13 points de précarité au 1er dixième, moins d'un point au 3e.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "En 2023, le chèque énergie a fait passer la précarité énergétique de 10,8 % à 9,4 % des ménages, près de 500 000 ménages en sortant (CGDD, France, 2026).",
+"s": [
+0
+]
+},
+{
+"t": "Envoyé automatiquement, il a été utilisé dans 84,5 % des cas en 2023, contre 20 % de demandes pour les chèques fioul et bois de 2022, à demander (Assemblée nationale, France, 2026).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Le chèque a réduit la précarité énergétique de 13 points pour les 10 % les plus modestes, de 2 points au 2e dixième et de moins d'un point au 3e (CGDD, France, 2026).",
+"s": [
+0
+]
+}
+],
+"etudes": "L'évaluation parlementaire de 2026, avec les simulations du CGDD, conclut à une aide bien utilisée et efficace pour les plus modestes, d'effet faible au-delà ; elle ne traite pas l'isolation des logements.",
+"src": [
+{
+"l": "Assemblée nationale, Comité d'évaluation et de contrôle, rapport d'information n° 2932 sur l'évaluation du chèque énergie (avec simulations du CGDD)",
+"a": 2026,
+"u": "https://www.assemblee-nationale.fr/dyn/17/rapports/cec/l17b2932_rapport-information.pdf"
+},
+{
+"l": "Eurostat, indice des prix à la consommation harmonisé, France, moyennes annuelles (prc_hicp_aind) : électricité, gaz et autres combustibles (CP045) et ensemble (CP00)",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_aind/default/table"
+}
+]
 }
 }
