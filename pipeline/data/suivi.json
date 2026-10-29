@@ -2471,11 +2471,107 @@
    "type": "a_verifier",
    "candidats": [
     "retailleau",
-    "attal"
+    "attal",
+    "glucksmann",
+    "lisnard",
+    "zemmour",
+    "le-pen"
    ],
-   "mesure": "menages",
+   "mesure": [
+    "menages",
+    "heritages",
+    "csg",
+    "csg_actifs",
+    "csg_deductible",
+    "cotisations",
+    "seuil_zero_cotisation",
+    "pfu"
+   ],
    "sujet": "Cotisations salariales en moins : impôt sur le revenu récupéré, compté pour la CSG mais pas pour les cotisations",
    "detail": "Relevé en faisant l'inventaire de S139 (29/10) : les cotisations salariales sont déductibles du revenu imposable, comme la CSG déductible ; les fiches CSG de Zemmour et de Lisnard comptent l'impôt sur le revenu récupéré (ratio de 10,7 %, iFRAP 2023), la baisse de 15 Md€ des cotisations salariales de Retailleau (fiche « Baisses d'impôts des ménages ») ne le compte pas. Avec le même ratio : ≈ +1,6 Md€ sur le total de Retailleau. Barème non publié (« dès le premier euro ») : le ratio dépend des salaires visés (une baisse concentrée sur les bas salaires rapporte moins d'impôt). À trancher avec la même règle pour toute baisse de cotisations salariales (Attal : « baisse des charges salariales », non chiffrée).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 (branche revue/ir-2910) : règle commune, pendant de S139 pour les ménages, dans les deux sens et chez les 8 : un prélèvement payé par les ménages et déductible de leur revenu imposable (CSG déductible sur les revenus d'activité, de remplacement ou du capital ; cotisations salariales et des indépendants) est compté net de l'impôt sur le revenu qu'il fait varier, au taux des fiches CSG existantes, 10,7 % de la part déductible, en entier en 2030, sauf si le chiffrage retenu est déjà net ; si la part de CSG qui baisse n'est pas publiée, part déductible du taux actuel (6,8 points sur 9,2) ; rien sur la CSG non déductible, la CRDS ni l'impôt sur le revenu lui-même. Taux revérifié à la source (iFRAP, mai 2023) : 2,0 Md€ d'impôt pour 18,64 Md€ de CSG non déductible des revenus d'activité (2021), soit 10,7 % ; 2,05 avant arrondi (11,0 %) ; 1,8 Md€ pour 16,4 Md€ sur les seuls salaires (11,0 %) ; calcul par déciles de l'iFRAP (d'après le rapport du Sénat sur le PLF 2023), pas une microsimulation ; l'écart 10,7/11,0 vaut moins de 0,1 Md€ par fiche comptée (0,2 sur celle de Zemmour, hors total). Autres chiffrages publiés du même mécanisme : Institut Montaigne 2022 (CSG de Zemmour : 11 % sur la part déductible, taux de la première tranche) ; Gouvernement, évaluation préalable du PLF 2018 (article 38, d'après le rapport général de l'Assemblée nationale n° 273, tome III) : 3,9 Md€ d'impôt en 2019 pour 22,9 Md€ d'assiette en moins, soit 17 %, sur une assiette plus large (revenus d'activité, retraites au taux plein, capital au barème). Médiane des trois : 11 %, proche du taux retenu ; aucune série officielle propre aux revenus d'activité trouvée (DGFiP, IPP) : 10,7 % maintenu, choix du taux et des bornes en S154. Inventaire (chaque source comptée vérifiée) : Retailleau, cotisations salariales en moins dès le premier euro (fiche « Baisses d'impôts des ménages ») : 15 Md€ de cotisations (fiche 14 du plan, montant brut), entièrement déductibles : +1,6, fiche −17,1 → −15,5 (bornes : −17,1 sans impôt récupéré, barème non publié ; −10,8 à 70 % en 2030) ; Glucksmann, 15 Md€ « transférés directement sur la fiche de paie » (Public Sénat, 24/08/2026), financés par la taxe sur les très gros héritages, lus comme une baisse de la CSG sur les salaires (instrument non précisé) : part déductible du taux actuel, 15 × 6,8/9,2 × 10,7 % = +1,2, fiche −3,6 → −2,4 (bornes : −8,0, recette de 7 Md€ sans impôt récupéré ; +1,6, recette de 15 Md€ et baisse entièrement déductible) ; Zemmour, fin de la CSG sur les revenus d'activité (hors total, à confirmer), et Lisnard, CSG des actifs à 6,6 % : déjà nettes au même taux, inchangées (source du ratio ajoutée chez Zemmour) ; Lisnard, CSG et CRDS déductibles : c'est l'impôt sur le revenu lui-même, chiffré avec le même ratio (iFRAP), inchangé (base 2021 : S156). Règle notée, sans effet sur le total : Lisnard, baisse des cotisations (doublon hors total, non paramétrée) ; Retailleau, seuil « zéro cotisation » (montant compté = cotisations patronales seulement ; côté salarié, heures supplémentaires déjà exonérées de cotisations et d'impôt jusqu'à 7 500 €) ; Le Pen, flat tax ramenée à 30 % (la hausse de 1,4 point de CSG sur le capital n'est pas déductible : part déductible restée à 6,8 % et nulle sous la flat tax, service-public F2329). Non chiffrée : Attal, « baisse des charges salariales » sans montant (liste « non compté » ; règle applicable si elle est chiffrée). Hors champ : fin de la flat tax de Mélenchon (impôt sur le revenu lui-même, chiffré en impôt par l'Institut Montaigne), impôt sur le revenu des moins de 30 ans et part fiscale (Le Pen), jeunes parents (Philippe), quotient familial (Lisnard, Zemmour), abattement des pensions (Lisnard) : impôt sur le revenu lui-même ; SMIC, point d'indice, salaires des enseignants, pensions et allocations : salaires et prestations, pas des prélèvements (S157) ; cotisations patronales : impôt sur les sociétés (S139). Aucune hausse d'un prélèvement déductible des ménages n'est comptée chez les 8 ; Mélenchon, Philippe et Attal n'ont aucune mesure comptée concernée. Simulateur : même traitement pour les trois baisses calculées (Glucksmann, Retailleau, Lisnard : gain de salaire net avant impôt), non modifié (S155). Effet sur les totaux : Retailleau +1,6 (−18,3 → −16,7), Glucksmann +1,2 (−46,1 → −44,9) ; Le Pen, Mélenchon, Philippe, Attal, Lisnard, Zemmour inchangés. Méthode (« Règles communes ») et CLAUDE.md mis à jour."
+  },
+  {
+   "id": "S154",
+   "type": "a_verifier",
+   "candidats": [
+    "retailleau",
+    "glucksmann",
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": [
+    "menages",
+    "heritages",
+    "csg_actifs",
+    "csg_deductible",
+    "csg"
+   ],
+   "sujet": "Impôt sur le revenu récupéré : ratio commun de 10,7 % (iFRAP) ou ratio du Gouvernement (17 %) ; bornes à harmoniser",
+   "detail": "Suite de S153 (29/10). Les fiches comptent l'impôt sur le revenu récupéré à 10,7 % de la part déductible (iFRAP, mai 2023 : calcul par déciles sur les revenus d'activité). Seule évaluation officielle trouvée du même mécanisme : PLF 2018, article 38 (hausse de 1,7 point de la part déductible de la CSG) : « minoration de l'assiette de l'impôt sur le revenu à hauteur de 22,9 milliards d'euros en 2018 », « pertes de recettes évaluées à 3,9 milliards d'euros en 2019 » (rapport général de l'Assemblée nationale n° 273, tome III, d'après l'évaluation préalable : https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L15B0273-tIII.html), soit 17 % (18,9 % rapporté aux seuls revenus d'activité et de remplacement, 20,6 Md€), sur une assiette plus large que les revenus d'activité (retraites au taux plein, capital au barème). Institut Montaigne 2022 (CSG de Zemmour) : 11 % sur la part déductible (taux de la première tranche, hypothèse). À faire : lire l'évaluation préalable du PLF 2018 (article 38) pour la part des revenus d'activité ; chercher un taux marginal moyen pondéré publié par la DGFiP ou l'IPP ; si un taux officiel propre aux revenus d'activité est établi, l'appliquer ensemble aux cinq fiches (Zemmour CSG, Lisnard CSG des actifs et CSG déductible, Retailleau cotisations salariales, Glucksmann héritages). Ordres de grandeur à 17 % : Retailleau +0,9 de plus, Glucksmann +0,7, Lisnard −0,2 (deux fiches CSG ensemble), Zemmour (hors total) +5,1. Bornes à harmoniser en même temps : Lisnard (CSG des actifs) prend 16 % en borne haute (« ratio Montaigne 2022 », 3,0/18,5 : aux 11 % sur la part déductible, l'Institut ajoute un « retour d'IR » d'≈ 1 Md€ sur la hausse du salaire net, alors que le revenu imposable n'augmente que de la part déductible : à vérifier) ; Zemmour, Retailleau et Glucksmann : borne basse sans impôt récupéré.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S155",
+   "type": "a_verifier",
+   "candidats": [
+    "glucksmann",
+    "retailleau",
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Simulateur : impôt sur le revenu sur la hausse du salaire net (CSG et cotisations salariales en moins)",
+   "detail": "Suite de S153 (29/10). Le simulateur ajoute au revenu le gain de salaire net de trois baisses de prélèvements déductibles (Glucksmann : CSG, 15 Md€ ; Retailleau : cotisations salariales, 15 Md€ ; Lisnard : CSG à 6,6 %), sans retirer l'impôt sur le revenu que ce gain fait remonter, alors que les fiches comptent désormais cet impôt récupéré. Même traitement pour les trois, aucun camp avantagé : non modifié. Piste, la même pour tous : recalculer l'impôt (irAnnuel) avec un revenu imposable accru de la part déductible du gain (entière pour les cotisations, 6,8/9,2 pour une baisse de CSG sans précision ; Lisnard : selon la fiche « CSG et CRDS déductibles »), et ajouter un contrôle dans tests/smoke.py. Les autres hausses de salaire du simulateur (SMIC, point d'indice, enseignants) sont aussi calculées avant impôt : même choix à faire pour elles.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S156",
+   "type": "a_verifier",
+   "candidats": [
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": [
+    "csg_deductible",
+    "csg_actifs",
+    "csg"
+   ],
+   "sujet": "Base de la CSG sur les revenus d'activité : 2025 (DSS) dans deux fiches, 2021 (iFRAP) dans la troisième",
+   "detail": "Relevé en faisant l'inventaire de S153 (29/10). Fiches CSG de Zemmour et de Lisnard (CSG des actifs) : 110,4 Md€ en 2025 pour 9,2 points (DSS, PLFSS 2025, annexe 3), soit 12,0 Md€ par point ; fiche « CSG et CRDS déductibles » de Lisnard : chiffrage iFRAP sur 2021, 18,64 Md€ pour 2,4 points, soit 7,8 Md€ par point. Écart de 54 % en quatre ans, bien plus que la hausse de la masse salariale : vérifier le périmètre des deux chiffres (affectataires, revenus d'activité au sens large, indépendants). Si la base 2025 est confirmée, la fiche « CSG et CRDS déductibles » vaudrait ≈ −3,7 (2,9 points × 12,0 × 10,7 %) au lieu de −2,4, et la fiche « CSG des actifs » ≈ −27,9 au lieu de −29,2 : total de Lisnard inchangé (−31,6 pour les deux fiches), seules la répartition et les bornes changent.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S157",
+   "type": "a_verifier",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "philippe",
+    "glucksmann",
+    "attal",
+    "retailleau",
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Prestations et salaires publics imposables : CSG et impôt sur le revenu sur les montants versés en plus ou en moins",
+   "detail": "Relevé en faisant l'inventaire de S153 (29/10). Les règles de S139 et S153 portent sur les prélèvements. Les prestations et les salaires publics sont eux-mêmes soumis à la CSG et à l'impôt sur le revenu : une hausse (retour à 62 ou 60 ans, abrogation des réformes de l'assurance chômage, point d'indice, salaires des enseignants) en fait revenir une partie, une baisse (gel des pensions, année blanche, règles d'assurance chômage de 2024) en fait perdre une partie. Les fiches comptent ces montants tels que publiés, la même chose chez les 8 (valeurs communes comprises). À vérifier : comment les chiffrages retenus (étude d'impact des retraites, CNAV, Unédic, IPP, Institut Montaigne) présentent ces coûts (bruts ou nets de CSG et d'impôt), puis appliquer la même lecture à toutes les fiches du même type ; même question que S149 (5) pour les aides aux entreprises imposables.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-29",

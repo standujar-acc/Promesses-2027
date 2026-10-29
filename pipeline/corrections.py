@@ -1179,6 +1179,44 @@ k['note']=k['note'].replace(a0,"l'Institut Montaigne chiffre sur la TVA de 2022 
 k['inputs'].append({"label":"Prix à la pompe, moyenne des 12 derniers mois (52 semaines au 23/10/2026)","value":"gazole 1,978 €/l ; SP95-E10 1,892 (moyennes de 2022 : 1,848 et 1,765)","source":"Ministère de la Transition écologique (DGEC), prix TTC hebdomadaires des carburants depuis janvier 2020","url":PRIXCARB})
 D['asof']='29 octobre 2026'
 
+# --- review 29 : impôt sur le revenu récupéré (29/10/2026) ; registre S153
+# Pendant de S139 pour les ménages, dans les deux sens et pour les 8 : un prélèvement payé par les ménages et déductible de leur revenu imposable
+# (CSG déductible sur les revenus d'activité, de remplacement ou du capital ; cotisations salariales et des indépendants) est compté net de
+# l'impôt sur le revenu qu'il fait varier, au taux des fiches CSG de Zemmour et de Lisnard : 10,7 % de la part déductible (iFRAP 2023 : 2,0 Md€
+# d'impôt pour 18,64 Md€ de CSG rendue déductible sur les revenus d'activité), en entier en 2030, sauf si le chiffrage retenu est déjà net ; si
+# la mesure ne dit pas quelle part de la CSG baisse, la part déductible est celle du taux actuel (6,8 points sur 9,2). Pas pour la part non
+# déductible de la CSG, la CRDS ni l'impôt sur le revenu lui-même. Taux revérifié à la source ; autres chiffrages du même mécanisme (Institut
+# Montaigne 2022 : 11 % sur la part déductible ; Gouvernement, PLF 2018 : 3,9 Md€ pour 22,9 Md€, 17 %, assiette plus large) : registre S154.
+# Inventaire des fiches : registre S153 et PR.
+IFRAP_IR="https://www.ifrap.org/budget-et-fiscalite/pourquoi-il-faut-rendre-la-csg-totalement-deductible-de-lir-sur-les-revenus-dactivite"
+IN_IR={"label":"Impôt sur le revenu récupéré : ratio commun (fiches CSG)","value":"rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité (18,64 Md€ en 2021) coûterait ≈ 2,0 Md€ d'impôt sur le revenu par an (2,05 avant arrondi ; 1,8 Md€ pour les 16,4 Md€ des seuls salaires) : 10,7 % de la CSG devenue déductible","source":"iFRAP (mai 2023)","url":IFRAP_IR}
+IRR="moins l'impôt sur le revenu récupéré (règle commune des prélèvements déductibles du revenu imposable, la même dans les deux sens : 10,7 % de la part déductible, ratio des fiches CSG de Zemmour et de Lisnard, iFRAP 2023)"
+# Retailleau : 15 Md€ de cotisations salariales en moins (fiche 14 du plan : montant de cotisations, brut) ; entièrement déductibles du revenu imposable
+m=M('retailleau','menages'); k=m['claude']; f0=k['formula']; assert k['central']==-17.1 and k['low']==-17.1 and k['high']==-12.0
+a0="cotisations salariales en moins dès le premier euro −15 + relais"; a1=") = −17,1 ;"; a2="; borne haute : 70 % en 2030 (−12,0)."
+for a in (a0,a1,a2): assert f0.count(a)==1, a
+SET('retailleau','menages',-15.5,-17.1,-10.8,f0.replace(a0,"cotisations salariales en moins dès le premier euro −15, "+IRR+" : les cotisations salariales sont entièrement déductibles, 15 × 10,7 % = 1,6 → −13,4 ; + relais")
+    .replace(a1,") = −15,5 ;")
+    .replace(a2,"; borne basse : sans impôt récupéré (−17,1 : barème non publié, une baisse concentrée sur des salaires non imposables ne fait pas remonter l'impôt) ; borne haute : 70 % en 2030, net de l'impôt récupéré (−10,8)."))
+k['inputs']=k['inputs']+[IN_IR]
+# Glucksmann : 15 Md€ « transférés directement sur la fiche de paie », lus comme une baisse de la CSG (part déductible : celle du taux actuel)
+m=M('glucksmann','heritages'); k=m['claude']; f0=k['formula']; assert k['central']==-3.6 and k['low']==-8 and k['high']==0
+a0="− 15 Md€ de baisse de CSG promise = −3,6 Md€"; assert f0.endswith(a0)
+SET('glucksmann','heritages',-2.4,-8.0,1.6,f0[:-len(a0)]+"− 15 Md€ de baisse de CSG promise, "+IRR+" : la part de la baisse qui touche la CSG déductible n'étant pas publiée, on prend celle du taux actuel (6,8 points sur 9,2) : 15 × 6,8/9,2 × 10,7 % = 1,2 → −2,4 Md€ ; borne basse −8,0 (recette de 7 Md€, baisse prise sur la part non déductible : pas d'impôt récupéré) ; borne haute +1,6 (recette égale aux 15 Md€ rendus, mesure conçue neutre ; baisse prise sur la part déductible de la CSG ou sur les cotisations salariales, entièrement déductibles : 15 × 10,7 %)",
+    note=k['note']+". Instrument non précisé dans les déclarations retrouvées (« transférer directement sur la fiche de paie », Public Sénat, 24/08/2026) : lu comme une baisse de la CSG sur les salaires ; une hausse du salaire net fait remonter l'impôt sur le revenu, compté avec la même règle que la baisse des cotisations salariales de Retailleau.")
+k['inputs']=k['inputs']+[IN_IR]
+# fiches CSG déjà nettes (Zemmour, hors total ; Lisnard) : valeurs inchangées, source du ratio ajoutée chez Zemmour (déjà citée chez Lisnard)
+k=M('zemmour','csg')['claude']; assert "soit 10,7 %" in k['formula'] and k['central']==-101.6; k['inputs']=k['inputs']+[IN_IR]
+assert "ratio de 10,7 %, comme Zemmour" in M('lisnard','csg_actifs')['claude']['formula'] and M('lisnard','csg_actifs')['claude']['central']==-29.2
+# règle notée là où rien n'est chiffré ou rien n'est à récupérer
+k=M('lisnard','cotisations')['claude']; assert k['central']==k['low']==k['high']==0 and k.get('exclude')
+k['note']=k['note']+" Si le reste était paramétré, une baisse de cotisations salariales ou de CSG déductible serait comptée nette de l'impôt sur le revenu récupéré (règle commune des prélèvements déductibles du revenu imposable)."
+k=M('retailleau','seuil_zero_cotisation')['claude']; assert k['central']==-3.4
+k['note']=k['note']+" Impôt sur le revenu : rien à récupérer côté salarié (cotisations salariales des heures supplémentaires déjà en grande partie exonérées, et ces heures exonérées d'impôt sur le revenu jusqu'à 7 500 € par an) ; le montant compté ne porte que sur les cotisations patronales."
+k=M('le-pen','pfu')['claude']; assert k['central']==-1.5
+k['note']=k['note']+" Pas d'impôt sur le revenu récupéré : la hausse de 1,4 point n'est pas déductible (part déductible de la CSG sur les revenus du capital restée à 6,8 %, et nulle sous la flat tax)."
+k['inputs']=k.get('inputs',[])+[{"label":"CSG déductible sur les revenus du capital","value":"« une part de la CSG versée au taux de 10,6 % (ou de 9,2 %) est déductible de vos revenus. […] Cette part déductible est de 6,8 % » ; pas de CSG déductible avec le prélèvement forfaitaire unique","source":"service-public.gouv.fr, F2329 (vérifié le 30/06/2026)","url":"https://www.service-public.gouv.fr/particuliers/vosdroits/F2329"}]
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
