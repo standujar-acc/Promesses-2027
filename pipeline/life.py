@@ -397,6 +397,99 @@ _ev('glucksmann', 'environnement', VE + " RTE : scénarios combinant nouveaux r�
 _ev('le-pen', 'environnement', RTE)
 _ev('retailleau', 'environnement', EPR + " " + RTE)
 
+# --- review 25 : veille d'actualité du 15 au 29/10 et registre du 29/10 (29/10/2026) ; registre S106, S107, S116, S130 et suivants
+# Règles (décisions du porteur du 29/10) : seule une source qui parle pour le candidat compte (une seule reprise de presse sans citation :
+# registre) ; une demande au Gouvernement en place d'utiliser un outil existant n'est pas une proposition de programme (Attal : garde statique
+# des bâtiments publics retirée) ; au plus 5 propositions par thème, d'abord celles de 2026, puis les précises, puis les plus récentes,
+# l'ordre affiché étant gardé à égalité ou à date inconnue (une proposition ajoutée prend sa place selon la règle, sans réordonner les autres) ;
+# une proposition redite ou précisée remplace son texte. Même lecture pour un même type de proposition : voile (VOILE0), Parcoursup (PARC),
+# groupes de niveau et fin du collège unique (GN, Attal, Retailleau, Lisnard, Zemmour), peines planchers (PP), règle d'or (OR),
+# contribution à l'UE (UEU). Pas de lecture tant qu'aucune étude n'est vérifiée (exclusion d'élèves, régularisation, prix agricoles,
+# garantie des loyers, prix de l'électricité, DPE, formation des médecins, évaluation des formations) : registre.
+VOILE0 = VOILE[:VOILE.index(' ; aucune étude')]
+assert VOILE0 + " ; aucune étude sur l'université ni sur les dissolutions." == VOILE
+GN = "Groupes de niveau : pas d'amélioration des résultats, et les élèves faibles risquent de perdre l'effet des pairs selon l'OCDE (PISA 2022)."
+GN_S = {'label': "L'Etudiant – groupes de niveau et recherche", 'year': 2024, 'url': 'https://www.letudiant.fr/educpros/enquetes/lefficacite-des-groupes-de-niveau-contestee-par-les-chercheurs.html'}
+assert OVR[('zemmour', 'ecole')]['evidence'] == EXAM + " " + GN  # lecture déjà écrite chez Zemmour, reprise mot pour mot
+EU1510 = 'https://www.europe1.fr/politique/en-direct-interdiction-du-voile-ia-exclusion-des-eleves-responsables-de-degradations-ce-quil-faut-retenir-de-linterview-de-marine-le-pen-dans-objectif-elysee-2027-1151948'
+ATT_BB = 'https://attalpresident.fr/actualites/gabriel-attal-debat-avec-les-francais-a-blois-et-a-bourges'
+# Le Pen : voile (15/10), exclusion des élèves qui dégradent et réforme de Parcoursup (15/10) ; indicateur de déficit précisé (S107, point 5)
+_upd('le-pen', 'libertes', [_p('Élire les députés à la proportionnelle avec prime majoritaire'), _p('Inscrire la « communauté nationale » dans la Constitution'), _p("Interdire progressivement le voile, d'abord à l'université, dans les fédérations sportives et les bâtiments publics, par référendum"), _p("Instaurer le référendum d'initiative citoyenne", True, True)])
+_ev('le-pen', 'libertes', VOILE0 + " ; aucune étude sur l'université, le sport ni les bâtiments publics. " + RIC, add=VOILE_S + [_s('Europe 1, Objectif Élysée 2027 (15/10)', EU1510)], level='mitigee')
+_upd('le-pen', 'ecole', [_p('Exclure de leur lycée ou de leur université les élèves de plus de 16 ans qui dégradent ou menacent'), _p('Réformer Parcoursup : vœux à la fin du 2e trimestre, critères de chaque formation rendus publics'), _p('Uniforme obligatoire du primaire à la troisième', True, True), _p('Dédoublement étendu à tous les CP et grandes sections', True, True), _p('Salaires des enseignants +3 % par an', True, True)])
+_ev('le-pen', 'ecole', PARC + " " + OVR[('le-pen', 'ecole')]['evidence'], add=[PARC_S, _s('Europe 1, Objectif Élysée 2027 (15/10)', EU1510),
+    _s('CNews, Le Pen et la jeunesse (15/10)', 'https://www.cnews.fr/france/2026-10-15/parcoursup-aides-pour-les-transports-que-propose-concretement-marine-le-pen-en')])
+o = OVR[('le-pen', 'economie')]; o['indicator'] = "Déficit public sous 3 % du PIB en 2030 (objectif ; plafond de sa règle d'or : 3,9 %)"
+o['add'].append(_s('Europe 1, objectif de déficit (6/10)', 'https://www.europe1.fr/politique/budget-2027-marine-le-pen-promet-140-milliards-deuros-nets-deconomies-dici-2032-pour-eviter-a-la-france-le-defaut-de-paiement-1126400'))
+# Mélenchon : contribution à l'UE comme levier (deux médias reconnus, sans citation : intention ; les 5 Md€ restent à confirmer, S001)
+_upd('melenchon', 'rayonnement', [_p("Sortir de l'OTAN, en commençant par son commandement intégré"), _p("Créer un pôle public de l'armement, acheter du matériel français", False), _p("Aucune intervention militaire sans mandat de l'ONU", False), _p("Se servir de la contribution française au budget de l'UE comme levier de négociation", False)],
+     add=[_s("LCP, contribution de la France à l'UE (24/10)", 'https://lcp.fr/actualites/taxer-les-multinationales-pour-financer-l-europe-le-debat-est-relance-444232'),
+          _s("Toute l'Europe, futur budget de l'UE (16/10)", 'https://www.touteleurope.eu/fonctionnement-de-l-ue/chronique-radio-pourquoi-le-futur-budget-de-l-ue-suscite-t-il-autant-de-debats/')])
+_ev('melenchon', 'rayonnement', VED + " " + UEU)
+# Philippe : orientation et islamisme (site officiel) ; propositions de sécurité du 27/10 connues par une seule reprise sans citation : registre
+_upd('philippe', 'ecole', [_p('+20 % de rémunération moyenne des enseignants sur le quinquennat'), _p('Réduire les effectifs des classes grâce à la baisse démographique', False), _p('Amende de responsabilisation scolaire des parents, prononcée par le maire'), _p("Refonder l'orientation en fin de collège et au lycée", False)],
+     add=[_s('Site Édouard Philippe, « Pour une France plus attentive à ses enfants »', 'https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants')])
+_upd('philippe', 'libertes', [_p("Une vingtaine d'ordonnances, session extraordinaire en juillet 2027"), _p('Instructions individuelles du garde des Sceaux aux procureurs'), _p('Réviser la composition du CSM, « devoir de redevabilité » envers les victimes', False), _p("Combattre l'islamisme et les organisations affiliées aux Frères musulmans", False)])
+# Glucksmann : Parcoursup précisé (26/10) ; régularisation des travailleurs sans papiers des secteurs en tension (intention, sans nombre : S113)
+_upd('glucksmann', 'ecole', [_p('Loi de programmation éducation sur cinq ans : bâti, salaires, effectifs'), _p('Conditionner les aides au privé (10 Md€/an) à la mixité sociale'), _p("Supprimer Parcoursup et le remplacer après des états généraux de l'orientation"), _p("Baisser le nombre d'élèves par classe en primaire", False)],
+     add=[_s('LCP, Parcoursup et les candidats (26/10)', 'https://lcp.fr/actualites/parcoursup-suppression-remplacement-reforme-ce-que-proposent-les-candidats-a-la')])
+_upd('glucksmann', 'economie', [_p('Taxer le 1 % des plus gros héritages pour hausser les salaires nets'), _p("État d'urgence industriel pour les secteurs menacés par la Chine", False), _p("Régulariser les travailleurs sans papiers des secteurs qui manquent de main-d'œuvre", False), _p('« Buy European Act » : préférence européenne dans les marchés publics', False, True)],
+     add=[_s('France Inter, Franc-jeu (30/08)', 'https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-30-aout-2026-6196033')])
+# Attal : groupes de niveau ajoutés à la ligne du « Choc des savoirs », évaluation des formations du supérieur, Parcoursup (intention, 10/10),
+# formation des médecins, garantie des loyers, prix de l'électricité, prix agricoles ; garde statique retirée (demande au Gouvernement en place)
+_upd('attal', 'ecole', [_p('Moins de 20 élèves par classe en primaire'), _p("Enseignants : +200 € net par mois, jusqu'à 500 € en milieu de carrière"), _p("Groupes de niveau et méthode de Singapour ; certificat d'études pour entrer au collège, brevet obligatoire pour entrer au lycée"), _p('Évaluer licences et masters tous les trois ans (décrochage, insertion) ; réorienter ou fermer les filières les moins performantes'), _p('Réformer Parcoursup (mentorat, tutorat, stages), sans retour au tirage au sort', False)])
+_ev('attal', 'ecole', DD + " " + SAL + " " + GN + " " + EXAM + " " + PARC, add=[GN_S, PARC_S,
+    _s('attalpresident.fr, face aux lycéens (6/10)', 'https://attalpresident.fr/actualites/gabriel-attal-face-aux-lyceens-il-faut-un-president-qui-comprenne-la-jeunesse'),
+    _s('attalpresident.fr, mesures pour la jeunesse (10/10)', 'https://attalpresident.fr/actualites/gabriel-attal-presente-ses-mesures-pour-la-jeunesse-et-l-avenir-de-la-france'),
+    _s('attalpresident.fr, France Info (15/10)', 'https://attalpresident.fr/actualites/gabriel-attal-france-info-ecouter-la-jeunesse')])
+_upd('attal', 'sante', [_p("Porter à 20 000 le nombre de médecins formés « dans les années qui viennent », sans régulation de l'installation"), _p('Élargir les compétences des pharmaciens et autres soignants non médecins', False), _p("Assistant médical fondé sur l'IA accessible à tous les Français", False), _p('Plan massif pour la santé mentale et la psychiatrie', False)],
+     add=[_s('attalpresident.fr, Blois et Bourges (5/10)', ATT_BB)])
+_upd('attal', 'logement', [_p('Loi de programmation sur cinq ans pour la rénovation énergétique'), _p('Intégrer le logement intermédiaire dans les quotas SRU des communes'), _p('Garantie universelle des loyers et nouvelles résidences universitaires pour les étudiants et les jeunes actifs'), _p('Simplifier le ZAN pour faciliter la construction', False)],
+     add=[_s('attalpresident.fr, Blois et Bourges (5/10)', ATT_BB)])
+_upd('attal', 'environnement', [_p('Sécuriser 14 EPR et viser un réacteur par an'), _p("Tripler le rythme de baisse des émissions : 5 % par an d'ici 2030"), _p("Leasing social étendu aux voitures électriques d'occasion"), _p("Garantir la stabilité des prix de l'électricité pendant dix ans", False)],
+     add=[_s('attalpresident.fr, chez Mistral AI (28/10)', 'https://attalpresident.fr/actualites/gabriel-attal-recu-chez-mistral-ai-arthur-mensch-intelligence-artificielle')])
+_upd('attal', 'economie', [_p('Remplacer le Code du travail par une « Constitution du travail » de quelques principes, le reste négocié par branche et par entreprise'), _p("Loi de stabilité fiscale et normative de dix ans votée dès l'été 2027 ; un quart de la charge administrative des entreprises supprimé"), _p("Former 20 millions de Français à l'IA d'ici 2030"), _p("Plan de 200 Md€ pour la puissance de calcul et l'IA"), _p('Prix agricoles : coûts de production établis et indexés par filière, vente en dessous interdite')],
+     add=[_s('attalpresident.fr, Blois et Bourges (5/10)', ATT_BB)])
+_upd('attal', 'securite', [_p("Faire payer les dégâts aux casseurs (« Tu casses, tu répares ») : responsabilité automatique des deux parents d'un mineur"), _p("Comparution immédiate dès 16 ans et fin de l'excuse de minorité automatique pour les mineurs récidivistes"), _p('Reconnaissance faciale et IA pour identifier les casseurs'), _p('Bloquer temporairement et de façon ciblée certains réseaux sociaux pendant les émeutes', False), _p("Supprimer le juge d'application des peines", True, True)])
+# Retailleau : fin du collège unique (examen d'entrée et groupes de niveau, même mesure du programme), laïcité (programme constitutionnel
+# présenté le 3/09 : la cour disciplinaire de la magistrature, 6/06, la moins récente, sort de l'affichage, S106), électricité, DPE,
+# règle d'or de 2011 par référendum dans les cent jours (12/10) et négociations agricoles (11/09)
+_upd('retailleau', 'ecole', [_p("Sélection à l'entrée de l'université et nouvelle plateforme d'admission au mérite à la place de Parcoursup"), _p("Fin du collège unique : examen d'entrée en sixième et groupes de niveau"), _p('Fin du passage automatique de classe, décidé par le conseil de classe'), _p('Créer 1 000 établissements publics « libres » autonomes'), _p('Au moins un internat disciplinaire par académie, affectation décidée par le rectorat après des exclusions répétées')])
+_ev('retailleau', 'ecole', PARC + " " + EX1 + " " + GN + " " + RED + " " + AUTO + " " + INT, add=[GN_S,
+    _s('Public Sénat, HEC Débats (27/10)', 'https://www.publicsenat.fr/actualites/politique/nous-allons-vivre-un-moment-historique-bruno-retailleau-appelle-la-jeunesse-a-prendre-part-a-la-pre')])
+_upd('retailleau', 'libertes', [_p('Référendum législatif étendu à tout le champ de la loi (article 11)'), _p('Seuil du RIP abaissé à environ 2,5 millions de signatures'), _p('Surmonter une censure du Conseil constitutionnel par référendum ou Congrès'), _p('Inscrire le droit à la sécurité dans la Constitution, à égalité avec les libertés fondamentales'), _p('Laïcité définie dans la Constitution ; neutralité du service public étendue aux usagers par la loi')])
+_ev('retailleau', 'libertes', RIP + " " + SUISSE + " " + SECU, drop=[CSM_S['url'], 'republicains.fr/actualites/2026/06/06/il-faut-creer-une-cour-disciplinaire'],
+    add=[_s('avecretailleau.fr, laïcité dans la Constitution', 'https://www.avecretailleau.fr/projet/mesure/inscrire-la-laicite-et-nos-racines-dans-la-constitution')])
+_upd('retailleau', 'environnement', [_p('Commander huit EPR2 supplémentaires dans les deux premières années'), _p('Fin des subventions aux nouvelles installations éoliennes et photovoltaïques'), _p("Mobiliser jusqu'à 4 GW de nouvelles capacités hydroélectriques"), _p("Prix de l'électricité indexé sur les coûts du nucléaire : contrat pour différence entre EDF et les fournisseurs (prix fixé par la CRE)")],
+     add=[_s("avecretailleau.fr, prix de l'électricité", 'https://www.avecretailleau.fr/projet/mesure/stabiliser-le-prix-de-l-electricite')])
+_upd('retailleau', 'logement', [_p('Un million de logements supplémentaires en cinq ans'), _p("Intérêts d'emprunt déductibles à 50, 75 ou 100 % selon le nombre d'enfants"), _p("Supprimer le ZAN et l'encadrement des loyers"), _p('Supprimer les interdictions de louer liées au DPE (classes G, F puis E), le DPE devenant informatif')],
+     add=[_s('avecretailleau.fr, interdictions de louer liées au DPE', 'https://www.avecretailleau.fr/projet/mesure/lever-les-interdictions-de-louer-liees-au-dpe')])
+_upd('retailleau', 'economie', [_p('Supprimer les impôts de production, dans 30 Md€ de baisses pour les entreprises'), _p("Code du travail refondé sur 50 principes, le reste supplétif et renvoyé aux accords d'entreprise ou de branche"), _p("Référendum dans les cent jours sur la règle d'or de 2011 : plafond de dépenses annuel inscrit dans la Constitution"), _p("Négociations agricoles : part des matières premières non négociable, date butoir au 31 décembre, enseignes responsables de leurs centrales d'achat"), _p('Exonérer de cotisations sociales les heures supplémentaires', False)])
+_ev('retailleau', 'economie', IPROD + " " + CODE + " " + OR + " " + TEPA, add=OR_S + [
+    _s('Fiches presse « Rétablir l\'ordre dans les comptes publics » (12/10), fiche 15', 'https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf'),
+    _s('avecretailleau.fr, négociations commerciales agricoles', 'https://www.avecretailleau.fr/projet/mesure/encadrer-les-negociations-et-controler-les-importations')])
+# Lisnard : peines planchers (23/10 ; « Perpétuité réelle et fin du non-cumul des peines », la moins récente, sort de l'affichage, S106),
+# préambule de la Constitution (citation directe, Europe 1, 27/10 : S107, point 3), collège unique (intention, même lecture GN), Mercosur
+_upd('lisnard', 'securite', [_p('Majorité pénale à 16 ans, excuse de minorité réduite (de 50 % à 20 % de la peine), établissements disciplinaires fermés'), _p("Faire payer les dégâts aux casseurs : déduits de leurs aides sociales s'ils ne sont pas solvables"), _p('Fichier des casseurs avec obligation de pointer pendant les manifestations ; cagoule interdite, circonstance aggravante'), _p('Rétablir les peines planchers pour les récidivistes'), _p('Construire 20 000 places de prison')])
+_ev('lisnard', 'securite', MIN + " " + CEF + " " + CASSE + " " + FICH + " " + PP + " " + PLACES, add=[IPP_PP,
+    _s('Nouvelle Énergie, entretien au Figaro Magazine (23/10)', 'https://www.unenouvelleenergie.fr/stop-a-lincompetence-et-a-la-pretention-dune-technocratie-depassee')])
+_upd('lisnard', 'libertes', [_p('Rétablir le septennat'), _p("Article 11 sans limite thématique et référendum d'initiative populaire à seuil atteignable"), _p("Interdire les Frères musulmans et le voile à l'université"), _p("Le préambule de la Constitution ne pourrait plus servir à censurer une loi ; s'il est invoqué, référendum")],
+     add=[_s('Europe 1, loi « casseurs-payeurs » (27/10)', 'https://www.europe1.fr/politique/loi-casseurs-payeurs-la-societe-na-plus-a-subventionner-ceux-qui-la-detruisent-fustige-david-lisnard-1187322')])
+_upd('lisnard', 'ecole', [_p('Chèque-éducation progressif (même financement public, école publique ou privée) ; nouveaux enseignants recrutés comme contractuels'), _p("Certificat de fin de primaire conditionnant l'entrée au collège"), _p('Hausse de 20 % des salaires enseignants en cinq ans, contre réorganisation'), _p('Supprimer la carte scolaire'), _p("Revenir sur le collège unique et repenser l'orientation", False)])
+_ev('lisnard', 'ecole', CHEQ + " " + EXAM + " " + SAL + " " + CARTE + " " + GN, add=[GN_S])
+_upd('lisnard', 'rayonnement', [_p("Réviser l'article 55 de la Constitution sur la primauté du droit européen"), _p('Hausser le budget des armées, combat aérien souverain autour du Rafale F5', False), _p("Revenir sur l'accord franco-algérien de 1968"), _p("Accord UE-Mercosur : en exclure l'élevage ou imposer des clauses miroirs", False)],
+     add=[_s("Nouvelle Énergie, grand entretien de l'écologie (27/10)", 'https://www.unenouvelleenergie.fr/lenergie-doit-reconcilier-lindustrie-et-lecologie/')])
+# Zemmour : examens d'entrée en sixième et en seconde (13/10, version de 2026 du certificat de fin de primaire), exclusion des élèves violents
+_upd('zemmour', 'ecole', [_p("Examen d'entrée en sixième et en seconde ; « véritable baccalauréat »"), _p("Exclure les élèves violents, sans obligation pour l'État de les rescolariser"), _p("Retour à la dictée, au calcul mental et à la récitation ; autonomie des chefs d'établissement ; concurrence entre public et privé", False), _p('Classes de niveau au collège', True, True), _p("Interdire toute propagande idéologique à l'école", False, True)],
+     add=[_s('CNews, Zemmour et le niveau scolaire (13/10)', 'https://www.cnews.fr/france/2026-10-13/niveau-scolaire-francais-que-propose-eric-zemmour-pour-retablir-la-meilleure')])
+# S130 : leasing social, chiffre officiel du Gouvernement (« environ 50 000 commandes ») à la place des 47 000 ménages d'un site d'information,
+# même phrase pour Philippe, Attal et Glucksmann
+VE0 = VE; VE = VE.replace("47 000 ménages aidés", "environ 50 000 voitures commandées"); assert VE != VE0
+LEAS_S = _src("Assemblée nationale, question écrite n° 810, réponse du Gouvernement (JO, 15/07/2025)", 2025, 'https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE810')
+for _c in ('philippe', 'attal', 'glucksmann'):
+    _e = OVR[(_c, 'environnement')]['evidence']; assert _e.count(VE0) == 1, _c
+    _ev(_c, 'environnement', _e.replace(VE0, VE), add=[LEAS_S], drop=['connaissancedesenergies.org/leasing-social'])
+
 # même test « précis » pour une même formulation
 VFLIP = {'Bloquer temporairement': False, 'Assistant médical fondé sur l': False, 'Contrôle du Conseil constitutionnel limité': False, 'Police de proximité modernisée': False, "Fonds national d'acquisition foncière": False,
          "commandement intégré de l'OTAN": True, "Sortir de l'OTAN": True}

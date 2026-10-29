@@ -973,6 +973,86 @@ k=M('retailleau','securite')['claude']; assert k['low']==-0.6
 SET('retailleau','securite',-0.45,-1.2,-0.1,k['formula']+" ; borne basse avec la construction, même gabarit que les autres fiches prisons : 370 k€ la place (Sénat, cité par Montaigne) × 10 000 sur 5 ans ≈ 0,74 → −1,2",
     note=k['note'].replace("Construction exclue.","Construction exclue de la valeur centrale, comptée en borne basse comme dans les autres fiches prisons."))
 
+# --- review 27 : veille d'actualité du 15 au 29/10 (29/10/2026) ; registre S016, S118, S122, S123, S002 et suivants (volet « Vie quotidienne » : life.py)
+# décisions du porteur (29/10), les mêmes pour les 8 : seule compte une source qui parle pour le candidat (une seule reprise de presse qui ne
+# le cite pas : registre) ; un document de parti publié avant la désignation du candidat ne vaut programme que repris par lui ; une demande au
+# Gouvernement en place d'utiliser un outil existant (état d'urgence, couvre-feux, drones, militaires en garde statique) n'est pas une proposition
+# de programme ; une ligne de moins de 1 Md€ ou sans paramètre publié va dans la liste « non compté »
+# S016 : Lisnard, paramètre publié par son parti (28/10) : plus de 400 000 suppressions de postes ; même calcul que les 400 000 postes de Retailleau
+LIS_ET="https://www.unenouvelleenergie.fr/david-lisnard-sur-cnews-et-europe-1-je-ne-suis-pas-candidat-pour-un-poste-je-viens-pour-redresser-le-pays/"
+m=M('lisnard','fonction'); k=m['claude']; assert k.pop('nc') is True and k['central']==0
+SET('lisnard','fonction',8.6,5.2,12.3,POST+" ; 400 000 postes × 70 % × 30,8 k€ ≈ +8,6 Md€ (même calcul que les 400 000 postes de Retailleau). Borne basse : un départ à la retraite sur trois non remplacé (144 000 par an, DGAFP 2025) sur 3,5 ans ≈ +5,2 ; borne haute : plan entièrement réalisé en 2030, 400 000 × 30,8 k€ ≈ +12,3. Agences, ARS et DREAL : économie propre non publiée, non comptée en plus des postes",method='ascendant',
+    proposal="Supprimer plus de 400 000 postes publics sur le mandat (≈ 700 000 postes réorganisés, soit ≈ 12 % des effectifs, dont 200 000 à 300 000 agents redéployés vers le terrain), en commençant par les fonctions administratives, par le non-remplacement d'une partie des ≈ 500 000 départs annuels (toutes causes ; dont ≈ 144 000 départs à la retraite de fonctionnaires) ; supprimer agences, ARS et DREAL.",
+    claimed="Plus de 400 000 suppressions de postes (scénario du 27/10/2026), économie non chiffrée ; ventilation annoncée pour décembre",
+    note="Paramètre publié par le parti du candidat le 28/10/2026 (scénario présenté à la télévision le 27/10) ; à revoir avec la ventilation annoncée pour décembre. Hors coût des indemnités et des redéploiements. Les ≈ 500 000 sorties annuelles de la fonction publique (DGAFP) rendent l'objectif atteignable par les seuls départs.")
+k['inputs']=[IN_POST,{'label': 'Scénario du candidat', 'value': "« un objectif de réduction d'environ 12 % des effectifs publics, soit un ordre de grandeur de 700 000 postes concernés » ; « plus de 400 000 suppressions de postes et le redéploiement de 200 000 à 300 000 agents vers les missions de terrain »", 'source': "Nouvelle Énergie, compte rendu d'« Objectif Élysée 2027 » (CNews et Europe 1, 27/10/2026 ; publié le 28/10)", 'url': LIS_ET}]+[i for i in k['inputs'] if i['label']!=IN_POST['label']]
+sl=C['lisnard']['sim']; assert sl['fonctionnaires']=="Une partie des ≈ 500 000 départs annuels (toutes causes) non remplacés ; ARS et DREAL supprimées."
+sl['fonctionnaires']="Plus de 400 000 postes publics supprimés sur le mandat, au fil des ≈ 500 000 départs annuels (toutes causes) ; ARS et DREAL supprimées."
+# Lisnard, immigration : objectif chiffré d'entrées légales (27/10), texte seulement
+m=M('lisnard','aides5'); a0="Titres de séjour divisés par 8 ; "; assert m['proposal'].startswith(a0)
+m['proposal']="Objectif de 80 000 entrées légales par an, visas étudiants compris (27/10/2026 ; programme : titres de séjour divisés par huit) ; "+m['proposal'][len(a0):]
+m['claude']['inputs'].append({'label': 'Objectif du 27/10/2026', 'value': "« un objectif de 80 000 entrées par an, visas étudiants compris »", 'source': "Nouvelle Énergie, compte rendu d'« Objectif Élysée 2027 » (28/10/2026)", 'url': LIS_ET})
+# Le Pen, retraites : réforme présentée le 17/11 (S002), reconfirmée le 15/10 ; chiffrage inchangé
+EU1510='https://www.europe1.fr/politique/en-direct-interdiction-du-voile-ia-exclusion-des-eleves-responsables-de-degradations-ce-quil-faut-retenir-de-linterview-de-marine-le-pen-dans-objectif-elysee-2027-1151948'
+M('le-pen','retraites')['claude']['inputs'].append({'label': 'Reconfirmation (15/10/2026)', 'value': "réforme présentée le 17 novembre : « un âge légal de départ à 60 ans avec 40 annuités » pour ceux qui ont commencé avant 20 ans ; les autres « iraient progressivement jusqu'à 62 ans avec 42 annuités »", 'source': 'Europe 1, Objectif Élysée 2027 (15/10/2026)', 'url': EU1510})
+# S123 : impôts de production sur les rendements officiels (C3S 2026, CCSS ; CFE 2025, DGCL), CVAE à 0 chez tous ; un chiffrage qui reprend
+# les lignes d'un camp est un chiffre du camp (S093) ; impôt sur les sociétés récupéré : point de registre commun aux quatre candidats
+CCSS="https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/CCSS/2026/CCSS-octobre-2026_assemble_VDEF.pdf"
+IN_C3S={"label": "Rendement de la C3S (prévision 2026)", "value": "5 364 M€ en 2026 (5 337 en 2025, 5 466 prévus en 2027)", "source": "Rapport à la Commission des comptes de la Sécurité sociale, octobre 2026, fiche 1.4, tableau 2 (p. 61)", "url": CCSS}
+IN_CFE={"label": "Produit de la CFE (2025, données provisoires)", "value": "8 380,55 M€, toutes collectivités, +4,4 % sur 2024", "source": "DGCL, BIS n° 209, « La fiscalité directe locale en 2025 », tableau 1 (données DGFiP, REI) ; PDF : copie de l'AMF", "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-209-la-fiscalite-directe-locale-en-2025"}
+IN_CV={"label": "CVAE supprimée d'ici 2030 par la loi actuelle", "value": "LF 2025, confirmée en LF 2026 (règle commune : comptée chez personne)", "source": "Légifiscal", "url": CV['url']}
+PRODF="Rendements officiels : C3S 5,36 Md€ (prévision 2026, CCSS) + CFE 8,38 Md€ (produit 2025, DGCL) = −13,7 Md€ ; CVAE : 0 (déjà supprimée par la loi en 2030, règle commune). Borne basse −14,2 : C3S prévue en 2027 (5,47) + CFE 2025 accrue de sa hausse de 2025 (+4,4 %) ; borne haute −13,4 : rendements de l'année précédente (C3S 2025 5,34 + CFE 2024 8,03). Produit brut de la CFE : les dégrèvements payés par l'État (qui disparaîtraient) et les frais de gestion perçus par l'État (perdus) ne sont pas chiffrés ici et jouent en sens contraire"
+PRODN="Coût brut, comme pour toutes les fiches impôts de production (Le Pen, Zemmour, Lisnard, Retailleau) : l'impôt sur les sociétés récupéré quand la C3S et la CFE, déductibles, disparaissent n'est compté chez personne en attendant la vérification de la façon dont l'évaluation des voies et moyens, l'IPP, l'Institut Montaigne et la Cour des comptes présentent ce coût (registre)."
+m=M('le-pen','production'); k=m['claude']; assert k['central']==-13 and len(m['estimates'])==2
+m['estimates']=[e for e in m['estimates'] if 'francebudget' not in e['url']]; assert len(m['estimates'])==1
+m['estimates'][0]['source']="Institut de l'Entreprise (reprend les lignes du contre-budget : chiffre du camp)"
+SET('le-pen','production',-13.7,-14.2,-13.4,PRODF,method='ascendant',
+    note="Le contre-budget compte aussi 4,27 Md€ de « retour d'IS lié à la baisse des impôts de production » : non compté. "+PRODN,
+    inputs=[IN_C3S,IN_CFE,IN_CV,{"label": "Chiffre du camp", "value": "CFE 8,1 + C3S 5,3 + CVAE 3,7 = 17,1 Md€ (contre-budget 2027, repris par l'Institut de l'Entreprise)", "source": "Groupe RN, Contre-budget 2027 (p. 6)", "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"},
+            {"label": "Reconfirmation (15/10/2026)", "value": "« une baisse de 20 milliards d'euros des impôts de production »", "source": "Europe 1, Objectif Élysée 2027 (15/10/2026)", "url": EU1510}])
+m=M('zemmour','production'); k=m['claude']; assert m.get('a_confirmer') and k['central']==-13
+SET('zemmour','production',-13.7,-14.2,-13.4,"Même calcul que Le Pen : "+PRODF[0].lower()+PRODF[1:],method='ascendant',
+    note="Hors total. Version 2022 (baisse de 30 Md€) gardée en note : avec la même règle (CVAE retirée, sans impôt sur les sociétés récupéré), elle vaudrait −26,4 (30,4 − 4). "+PRODN,
+    inputs=[IN_C3S,IN_CFE,IN_CV]+[i for i in k['inputs'] if i['label']=='Impôts visés'])
+m=M('lisnard','impots'); k=m['claude']; assert k['central']==-5.1
+n0=len(m['estimates']); m['estimates']=[e for e in m['estimates'] if 'economiematin' not in e['url']]; assert len(m['estimates'])==n0-1
+SET('lisnard','impots',-5.4,-5.5,-5.3,"C3S : 5,36 Md€ (prévision 2026, CCSS, même base que Le Pen, Zemmour et Retailleau) → −5,4 ; borne basse : prévision 2027 (5,47) ; borne haute : 2025 (5,34). CVAE : 0 (déjà supprimée par la loi)",method='ascendant',
+    inputs=[IN_C3S]+[i for i in k['inputs'] if 'economiematin' not in i['url']],note=k['note'].rstrip('.')+". "+PRODN)
+m=M('retailleau','production'); k=m['claude']; assert k['central']==-10
+n0=len(k['inputs']); k['inputs']=[IN_C3S if i['label']=='Rendement de la C3S' else i for i in k['inputs']]; assert IN_C3S in k['inputs'] and len(k['inputs'])==n0
+SET('retailleau','production',-10.1,-16,-8,"C3S 5,36 (rendement officiel 2026, CCSS, même base que Le Pen, Zemmour et Lisnard) + forfait social 2,8 + CFE industrielle 1,9 (détail du camp) = −10,1 Md€ (CVAE retirée : déjà supprimée par la loi ; heures au-delà de 1 623 heures exonérées : fiche à part)",method='ascendant',
+    note=k['note'].rstrip('.')+". Détail du camp (forfait social, CFE industrielle) lu seulement sur un agrégateur : source officielle à trouver (registre). "+PRODN)
+k=M('retailleau','cotisations')['claude']; a0="(C3S 5,3 + CVAE 4,3 + forfait social 2,8 + CFE 1,9 = 14,3)"; assert k['note'].count(a0)==1
+k['note']=k['note'].replace(a0,"(C3S 5,4 au rendement officiel de 2026 + CVAE 4,3 + forfait social 2,8 + CFE 1,9 = 14,4)")
+# S122 : réforme de l'assurance chômage de 2024 (Attal, Retailleau), note originale de l'Unédic ouverte ; les mesures de ce projet déjà appliquées
+# par la convention de 2024 (droit en vigueur) sont retirées : 3,2-4,4 la troisième année − 1,03 = 2,2-3,4, milieu 2,8, même valeur pour les deux
+UNE_PDF="https://s3.eusc-de-east-1.amazonaws.eu/unedic-eks-prod-cms/2024/06/11/Situation-financire-Assurance-chmage-2024-2027_uid_66685e6c4612b.pdf"
+UNE_EI="https://s3.eusc-de-east-1.amazonaws.eu/unedic-eks-prod-cms/2025/02/25/Etude-d-impact-de-la-convention-d-assurance-chomage-du-15-novembre-2024_uid_67bd15ee824c1.pdf"
+UNE_IN2=[{"label": "Chiffrage indépendant de la réforme de 2024", "value": "« entre 3,2 Md€ et 4,4 Md€ en 2027 » (troisième année) ; « entre 4,0 Md€ et 5,4 Md€ » par an en régime de croisière (4 à 5 ans)", "source": "Unédic, Situation financière de l'Assurance chômage pour 2024-2027 (11/06/2024), encadré p. 11 (aussi rapporté par franceinfo avec AFP)", "url": UNE_PDF},
+         {"label": "Mesures déjà en vigueur (convention de 2024)", "value": "2027 : bornes de la filière seniors −135, maintien des droits −30, mensualisation −265, cumul avec une activité non salariée −575, second versement de l'ARCE −25 = −1 030 M€ ; 1,5 Md€ en régime de croisière pour toute la convention", "source": "Unédic, étude d'impact de la convention d'assurance chômage du 15 novembre 2024 (25/02/2025), p. 10", "url": UNE_EI}]
+UNE_E2={'source': 'Unédic (11/06/2024)', 'year': 2024, 'value': "Réforme de 2024 : 4 à 5,4 Md€ d'économies par an à quatre-cinq ans ; 3,2 à 4,4 Md€ dès 2027 ; dont 1,03 Md€ (troisième année) déjà appliqués par la convention de 2024", 'low_md': 2.2, 'high_md': 3.4, 'url': UNE_PDF}
+UNE_N2="Note de l'Unédic du 11/06/2024 ouverte ; les mesures de ce projet déjà appliquées par la convention de 2024 (bornes seniors, maintien des droits, mensualisation, cumul avec une activité non salariée, ARCE) sont retirées, à leur troisième année (1,03 Md€, étude d'impact de l'Unédic de février 2025) : ordre de grandeur, les paramètres de 2024 et ceux de la convention diffèrent un peu et les mesures interagissent. Économies sur les points de retraite complémentaire citées par l'Unédic : transfert entre administrations, non compté."
+UNE_F="Réforme de 2024 (Unédic, 11/06/2024) : 3,2 à 4,4 Md€ la troisième année ; appliquée au plus tôt en 2028, elle est dans sa troisième année en 2030. Moins les mesures de ce projet déjà en vigueur par la convention de 2024 (bornes seniors, maintien, mensualisation, cumul avec une activité non salariée, ARCE), à leur troisième année (Unédic, février 2025 : 1,03 Md€) → 2,2 à 3,4, milieu 2,8 (même réforme, même valeur chez Attal et Retailleau)"
+for cid,mid in (('attal','travail'),('retailleau','chomage')):
+    m=M(cid,mid); k=m['claude']; assert k['central']==3.8 and UNE_N in k['note'], (cid,mid)
+    n0=len(m['estimates']); m['estimates']=[e for e in m['estimates'] if e!=UNE_E]+[UNE_E2]; assert len(m['estimates'])==n0
+    n0=len(k['inputs']); k['inputs']=UNE_IN2+[i for i in k['inputs'] if i!=UNE_IN]; assert len(k['inputs'])==n0+1
+    k['note']=k['note'].replace(UNE_N,UNE_N2).replace("Estimation de l'Unédic faite avec les règles de 2024 ; les règles en vigueur ont changé depuis (convention de 2024-2025) : ordre de grandeur. ","")
+    assert 'franceinfo.fr/economie/emploi/chomage' not in json.dumps(m['estimates'])+json.dumps(k['inputs'])
+SET('attal','travail',2.8,2.2,3.4,UNE_F+". Le chiffre du gouvernement de mai 2024 (3,6), repris par le candidat dans la PPL n° 1791, est le chiffre du camp : hors médiane. Heures sup : 0.")
+SET('retailleau','chomage',2.8,2.2,8.0,UNE_F+" ; le chiffre du gouvernement de mai 2024 (3,6), repris comme le sien par un autre candidat, et celui du camp (4 à 5) n'entrent pas dans la médiane. Ruptures conventionnelles limitées à 6 mois : dépenses de 9,1 Md€ en 2029 (Unédic) ; avec une durée moyenne d'≈ 11 mois après la réforme de 2023 (15 mois × 0,75), environ la moitié est versée après le 6e mois → ≈ +4,6 Md€ avant tout report vers les licenciements (non documenté) : en borne haute seulement (3,4 + 4,6 = +8,0). Plafonds (ruptures, hauts revenus) non publiés ; frontaliers : chiffre du camp seul (0,5-0,7), non compté. Borne basse : bas de la fourchette (2,2)")
+# listes « non compté » : nouvelles mesures sans paramètre publié, transfert entre administrations, lignes sous 1 Md€ (même règle pour tous)
+for cid,txt in (('le-pen',"recentralisation de l'aide sociale à l'enfance par l'État, rebaptisée « aide sociale à la famille », et ministère de plein exercice (transfert entre administrations, sans dépense nouvelle publiée : sans effet sur le solde public), fin ou baisse de l'aide à l'Ukraine (« nous n'avons plus les moyens » d'une aide qui « nous a coûté, en engagement, 6 milliards d'euros par an » selon la candidate, 15/10/2026 ; niveau non publié, même lecture que la hausse de l'aide de Glucksmann, non chiffrable ; matériels livrés : 0,94 Md€ en 2025 selon le ministère des Armées), trains gratuits pour les 18-25 ans sur les places invendues de la SNCF (paramètres non publiés)"),
+                ('attal',"garantie universelle des loyers et nouvelles résidences universitaires pour les étudiants et les jeunes actifs (paramètres non publiés)")):
+    t0=C[cid]['claude_total']; t0['missing']=(t0.get('missing','')+', '+txt).strip(', ')
+t0=C['lisnard']['claude_total']; a0=", à confirmer en 2026 : "; assert t0['missing'].count(a0)==1
+t0['missing']=t0['missing'].replace(a0,", impôt résidentiel universel payé par tous les habitants (taux, assiette et baisses en contrepartie non publiés), réforme de l'assurance chômage pour réduire les dépenses (non détaillée), budgets revus « à partir de zéro » (montant non publié)"+a0)
+# S118 : postes d'enseignants du projet de budget 2027 (chiffre officiel : 1 588 suppressions nettes), même libellé pour Attal et Glucksmann ;
+# sous 1 Md€ et position sur le budget en discussion du Gouvernement en place : pas de fiche
+S118L="annulation des 1 588 suppressions nettes de postes d'enseignants du projet de budget 2027 (≈ 0,1 Md€, sous 1 Md€)"
+for cid,a0 in (('attal',"annulation des suppressions de postes d'enseignants du budget 2027 (sous 1 Md€)"),('glucksmann',"annulation des suppressions de postes de l'Éducation nationale du budget 2027 (sous 1 Md€)")):
+    t0=C[cid]['claude_total']; assert t0['missing'].count(a0)==1, cid; t0['missing']=t0['missing'].replace(a0,S118L)
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:

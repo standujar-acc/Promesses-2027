@@ -360,7 +360,7 @@
 "retailleau.ecole.2": [
 "Rétablir un examen d'entrée en sixième",
 "Pour entrer au collège, il faudrait réussir un examen en fin de CM2.",
-"Rétablir un examen d'entrée en sixième"
+"Fin du collège unique : examen d'entrée en sixième et groupes de niveau"
 ],
 "retailleau.ecole.3": [
 "Supprimer le passage automatique en classe supérieure : les professeurs décident",
@@ -380,7 +380,7 @@
 "attal.ecole.3": [
 "Exiger le brevet pour entrer au lycée et un certificat d'études pour entrer au collège",
 "Sans ce diplôme, l'élève suit une année de transition avant d'entrer au collège ou au lycée.",
-"Brevet obligatoire pour entrer au lycée, certificat d'études en fin de primaire"
+"Groupes de niveau et méthode de Singapour ; certificat d'études pour entrer au collège, brevet obligatoire pour entrer au lycée"
 ],
 "lisnard.ecole.2": [
 "Un certificat de fin de primaire obligatoire pour entrer au collège",
@@ -621,9 +621,9 @@
 "Supprimer Parcoursup et MonMaster"
 ],
 "glucksmann.ecole.3": [
-"Abroger Parcoursup, la plateforme d'admission dans l'enseignement supérieur",
-"Les formations ne classent plus les candidats sur Parcoursup ; le système qui le remplace n'est pas précisé.",
-"Abroger Parcoursup"
+"Supprimer Parcoursup et le remplacer après une grande concertation sur l'orientation",
+"Parcoursup disparaît ; le système qui le remplace serait défini avec les lycéens, les parents et les enseignants.",
+"Supprimer Parcoursup et le remplacer après des états généraux de l'orientation"
 ],
 "retailleau.ecole.1": [
 "Sélectionner les étudiants à l'entrée de l'université, avec une nouvelle plateforme fondée sur le mérite",
@@ -647,5 +647,47 @@
 "zemmour.prisons": [
 "Construire beaucoup plus de places de prison",
 "Plus de cellules pour les personnes condamnées à de la prison."
+],
+"retailleau.cee": [
+"Supprimer les certificats d'économies d'énergie, dont le coût est ajouté aux factures d'énergie",
+"Les fournisseurs d'énergie n'ont plus à financer des travaux d'isolation ou de chauffage ; ce coût sort des factures."
+],
+"zemmour.cee": [
+"Supprimer les certificats d'économies d'énergie, dont le coût est ajouté aux factures d'énergie",
+"Les fournisseurs d'énergie n'ont plus à financer des travaux d'isolation ou de chauffage ; ce coût sort des factures."
+],
+"zemmour.aide_developpement": [
+"Supprimer l'aide publique au développement et l'agence publique qui la gère",
+"La France cesse de financer, par dons ou prêts, des projets de santé, d'eau, d'école ou d'infrastructures dans les pays pauvres."
+],
+"melenchon.ecole.2": [
+"Se rapprocher de 19 élèves par classe, de l'école au lycée, en commençant par le collège et le lycée publics",
+"Les classes du collège public (25 élèves en moyenne) et du lycée général public (30) sont allégées en premier.",
+"Se rapprocher en un mandat de 19 élèves par classe (moyenne européenne), priorité au secondaire public"
+],
+"zemmour.ecole.1": [
+"Rétablir un examen pour entrer en sixième et en seconde, et un baccalauréat plus exigeant",
+"Pour entrer au collège puis au lycée, il faudrait réussir un examen.",
+"Examen d'entrée en sixième et en seconde ; « véritable baccalauréat »"
+],
+"attal.sante.1": [
+"Former beaucoup plus de médecins, sans imposer leur lieu d'installation",
+"Plus de places en études de médecine ; les médecins restent libres de s'installer où ils veulent.",
+"Porter à 20 000 le nombre de médecins formés « dans les années qui viennent », sans régulation de l'installation"
+],
+"le-pen.economie.3": [
+"Faire adopter par référendum une règle d'or qui abaisse chaque année le plafond du déficit public",
+"Le budget voté ne pourrait plus dépasser un déficit maximal, réduit d'année en année.",
+"Règle d'or budgétaire par référendum : déficit de 4,9 % du PIB en 2027 à 2,4 % en 2033"
+],
+"philippe.economie.3": [
+"Faire adopter par référendum une règle d'or qui limite le déficit public en fin de mandat",
+"Le déficit devrait passer sous un plafond inscrit dans la Constitution avant la fin du quinquennat.",
+"Règle d'or budgétaire par référendum : déficit à 2 % du PIB en fin de quinquennat"
+],
+"retailleau.economie.3": [
+"Soumettre au référendum une règle d'or déjà adoptée par le Parlement : un plafond de dépenses chaque année",
+"Chaque budget devrait respecter un plafond de dépenses et un minimum de recettes nouvelles, inscrits dans la Constitution.",
+"Référendum dans les cent jours sur la règle d'or de 2011 : plafond de dépenses annuel inscrit dans la Constitution"
 ]
 }

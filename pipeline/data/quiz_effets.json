@@ -9061,5 +9061,587 @@
 "u": "https://www.justice.gouv.fr/sites/default/files/2026-10/mesure_mensuelle_01092026.pdf"
 }
 ]
+},
+"retailleau.cee": {
+"constat": "Certificats d'économies d'énergie : obligation +27 % en 2026, coût de 6 à plus de 8 Md€, payé via les factures (ministère).",
+"constat_s": [
+0,
+3,
+1
+],
+"pour": "Les économies d'énergie affichées sont surévaluées d'au moins 30 %, et des fraudes sont avérées.",
+"preuve_pour": "mitigé",
+"contre": "C'est la principale aide aux travaux, et les isolations aidées font vraiment baisser la consommation.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Économies d'énergie déclarées surévaluées d'au moins 30 % en 2022-2023 ; au mieux un tiers des certificats correspondrait à des économies dues au dispositif (Cour des comptes, France, 2024).",
+"s": [
+1
+]
+},
+{
+"t": "Un tiers des opérations contrôlées sur place à la demande de l'administration présentait encore des anomalies (Cour des comptes, France, 2024).",
+"s": [
+1
+]
+},
+{
+"t": "Les économies d'énergie mesurées après isolation n'atteignent qu'environ 42 % de celles calculées sur plan (Insee-SDES, France, 2026).",
+"s": [
+2
+]
+}
+],
+"cas_contre": [
+{
+"t": "Après des travaux d'isolation aidés, les maisons chauffées au gaz ont consommé 6,6 % de moins, et 12,7 % de moins pour les plus énergivores (Insee-SDES, France, 2026).",
+"s": [
+2
+]
+},
+{
+"t": "Principale aide à la rénovation énergétique : en 2021, 87 % des logements rénovés avec une aide avaient reçu une prime financée par les certificats (Insee-SDES, France, 2026).",
+"s": [
+2
+]
+},
+{
+"t": "L'effet d'aubaine (travaux qui auraient eu lieu sans prime) est estimé à environ 20 % (Ademe 2019, cité par la Cour des comptes, France, 2024).",
+"s": [
+1
+]
+}
+],
+"etudes": "La Cour des comptes juge les économies affichées surévaluées et relève des fraudes ; mesurées sur les compteurs, les isolations aidées (certificats compris) réduisent la consommation, moins que prévu sur plan. Aucune évaluation d'une suppression.",
+"src": [
+{
+"l": "Assemblée nationale, commission du développement durable, audition de la ministre de la Transition écologique, compte rendu n° 6 (24/10/2025)",
+"a": 2025,
+"u": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2026PO419865N006.html"
+},
+{
+"l": "Cour des comptes, Les certificats d'économies d'énergie",
+"a": 2024,
+"u": "https://www.ccomptes.fr/sites/default/files/2024-09/20240917-Certificats-economie-energie_0.pdf"
+},
+{
+"l": "Insee-SDES, document de travail 2025-16, isolation et consommation réelle d'énergie",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+},
+{
+"l": "Conseil des prélèvements obligatoires, Quel avenir pour la fiscalité de l'énergie ?, encadré 7",
+"a": 2026,
+"u": "https://www.ccomptes.fr/sites/default/files/2026-06/20260603-Quel-avenir-pour-la-fiscalite-de-l-energie.pdf"
+}
+]
+},
+"zemmour.cee": {
+"constat": "Certificats d'économies d'énergie : obligation +27 % en 2026, coût de 6 à plus de 8 Md€, payé via les factures (ministère).",
+"constat_s": [
+0,
+3,
+1
+],
+"pour": "Les économies d'énergie affichées sont surévaluées d'au moins 30 %, et des fraudes sont avérées.",
+"preuve_pour": "mitigé",
+"contre": "C'est la principale aide aux travaux, et les isolations aidées font vraiment baisser la consommation.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Économies d'énergie déclarées surévaluées d'au moins 30 % en 2022-2023 ; au mieux un tiers des certificats correspondrait à des économies dues au dispositif (Cour des comptes, France, 2024).",
+"s": [
+1
+]
+},
+{
+"t": "Un tiers des opérations contrôlées sur place à la demande de l'administration présentait encore des anomalies (Cour des comptes, France, 2024).",
+"s": [
+1
+]
+},
+{
+"t": "Les économies d'énergie mesurées après isolation n'atteignent qu'environ 42 % de celles calculées sur plan (Insee-SDES, France, 2026).",
+"s": [
+2
+]
+}
+],
+"cas_contre": [
+{
+"t": "Après des travaux d'isolation aidés, les maisons chauffées au gaz ont consommé 6,6 % de moins, et 12,7 % de moins pour les plus énergivores (Insee-SDES, France, 2026).",
+"s": [
+2
+]
+},
+{
+"t": "Principale aide à la rénovation énergétique : en 2021, 87 % des logements rénovés avec une aide avaient reçu une prime financée par les certificats (Insee-SDES, France, 2026).",
+"s": [
+2
+]
+},
+{
+"t": "L'effet d'aubaine (travaux qui auraient eu lieu sans prime) est estimé à environ 20 % (Ademe 2019, cité par la Cour des comptes, France, 2024).",
+"s": [
+1
+]
+}
+],
+"etudes": "La Cour des comptes juge les économies affichées surévaluées et relève des fraudes ; mesurées sur les compteurs, les isolations aidées (certificats compris) réduisent la consommation, moins que prévu sur plan. Aucune évaluation d'une suppression.",
+"src": [
+{
+"l": "Assemblée nationale, commission du développement durable, audition de la ministre de la Transition écologique, compte rendu n° 6 (24/10/2025)",
+"a": 2025,
+"u": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2026PO419865N006.html"
+},
+{
+"l": "Cour des comptes, Les certificats d'économies d'énergie",
+"a": 2024,
+"u": "https://www.ccomptes.fr/sites/default/files/2024-09/20240917-Certificats-economie-energie_0.pdf"
+},
+{
+"l": "Insee-SDES, document de travail 2025-16, isolation et consommation réelle d'énergie",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
+},
+{
+"l": "Conseil des prélèvements obligatoires, Quel avenir pour la fiscalité de l'énergie ?, encadré 7",
+"a": 2026,
+"u": "https://www.ccomptes.fr/sites/default/files/2026-06/20260603-Quel-avenir-pour-la-fiscalite-de-l-energie.pdf"
+}
+]
+},
+"zemmour.aide_developpement": {
+"constat": "Aide publique au développement : 0,42 % du revenu national en 2025, −10,9 % en un an en volume (0,55 % en 2022) (OCDE).",
+"constat_s": [
+0
+],
+"pour": "Des décennies de mesures ne montrent pas d'effet net et durable de l'aide sur la croissance des pays aidés.",
+"preuve_pour": "mitigé",
+"contre": "Quand elle finance la santé, l'aide fait nettement reculer les décès, en particulier ceux dus au sida.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Une fois corrigé le fait que l'aide va aux pays en difficulté, aucun lien solide, positif ou négatif, entre aide reçue et croissance, même dans les pays bien gérés (Rajan et Subramanian, pays en développement, 2008).",
+"s": [
+1
+]
+},
+{
+"t": "Sur 97 études économétriques publiées jusqu'en 2004, l'essentiel des résultats conclut que l'aide n'a pas été efficace pour la croissance (Doucouliagos et Paldam, pays en développement, 2009).",
+"s": [
+2
+]
+}
+],
+"cas_contre": [
+{
+"t": "Dans les pays africains ciblés par un grand programme d'aide contre le sida, les décès liés au VIH ont reculé de 10,5 % de plus par an qu'ailleurs de 2004 à 2007 (Bendavid et Bhattacharya, Afrique, 2009).",
+"s": [
+4
+]
+},
+{
+"t": "Mortalité adulte passée de 8,3 à 4,1 pour 1 000 de 2003 à 2008 dans les pays ciblés par ce programme, contre 8,5 à 6,9 dans les autres pays africains (Bendavid et al., Afrique, 2012).",
+"s": [
+5
+]
+},
+{
+"t": "Pour 35 pays devenus trop riches pour l'aide de la Banque mondiale, l'aide reçue a chuté de 59 % ; un point de revenu national d'aide en plus relève la croissance annuelle par habitant d'environ 0,35 point (Galiani et al., 35 pays, 2017).",
+"s": [
+3
+]
+}
+],
+"etudes": "L'effet de l'aide sur la croissance est discuté depuis quarante ans : nul pour plusieurs travaux, positif pour une étude quasi expérimentale. Les programmes de santé évalués montrent un recul de la mortalité. Aucune évaluation de la suppression totale de l'aide d'un pays donateur.",
+"src": [
+{
+"l": "OCDE, Development Co-operation Profiles : France (données préliminaires 2025)",
+"a": 2026,
+"u": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/development-co-operation-profiles_02ffa45c/france_c200dc7f/b991b2e4-en.pdf"
+},
+{
+"l": "Rajan et Subramanian, Aid and Growth: What Does the Cross-Country Evidence Really Show? (Review of Economics and Statistics)",
+"a": 2008,
+"u": "https://ideas.repec.org/a/tpr/restat/v90y2008i4p643-665.html"
+},
+{
+"l": "Doucouliagos et Paldam, The Aid Effectiveness Literature: The Sad Results of 40 Years of Research (Journal of Economic Surveys)",
+"a": 2009,
+"u": "https://ideas.repec.org/a/bla/jecsur/v23y2009i3p433-461.html"
+},
+{
+"l": "Galiani, Knack, Xu, Zou, The effect of aid on growth: evidence from a quasi-experiment (Journal of Economic Growth)",
+"a": 2017,
+"u": "https://ideas.repec.org/a/kap/jecgro/v22y2017i1d10.1007_s10887-016-9137-4.html"
+},
+{
+"l": "Bendavid et Bhattacharya, PEPFAR in Africa: An Evaluation of Outcomes (Annals of Internal Medicine)",
+"a": 2009,
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2892894/"
+},
+{
+"l": "Bendavid, Holmes, Bhattacharya, Miller, HIV development assistance and adult mortality in Africa (JAMA)",
+"a": 2012,
+"u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3434229/"
+}
+]
+},
+"melenchon.ecole.2": {
+"constat": "Élèves par classe (public, 2025) : collège 24,7 et lycée général et techno 30,5 (+2 % en dix ans), école 20,9 (−13 %) (DEPP).",
+"constat_s": [
+4
+],
+"pour": "Moins d'élèves par classe améliore les résultats à l'école et au collège, surtout des élèves en difficulté.",
+"preuve_pour": "solide",
+"contre": "L'effet faiblit avec l'âge : deux fois moindre au collège qu'à l'école, presque nul au lycée.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Après deux ans en CP et CE1 dédoublés, les élèves d'éducation prioritaire renforcée ont rattrapé 38 % de leur écart en maths et 16 % en français (DEPP, France, 2021).",
+"s": [
+0
+]
+},
+{
+"t": "Un élève de moins par classe améliore les résultats en primaire, deux fois plus chez les élèves défavorisés, et dans une moindre mesure au collège (Piketty et Valdenaire, DEPP, France, 2006).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Un élève de moins par classe a un effet environ deux fois plus faible au collège qu'en primaire, et trois fois plus faible au lycée qu'au collège (Piketty et Valdenaire, DEPP, France, 2006).",
+"s": [
+1
+]
+},
+{
+"t": "En fin de collège, aucun effet de la taille des classes sur les résultats n'a été mesuré, même faible (Leuven, Oosterbeek et Rønning, Norvège, 2008).",
+"s": [
+2
+]
+},
+{
+"t": "Pour la première génération de CP-CE1 dédoublés, l'avance ne se voyait plus à l'entrée en 6e ; les suivantes gardent un petit gain en maths (DEPP, France, 2026).",
+"s": [
+0,
+3
+]
+}
+],
+"etudes": "Les travaux français concordent sur un gain des classes moins chargées à l'école et au collège, plus net pour les élèves défavorisés ; il diminue avec l'âge et devient minime au lycée (DEPP, 2006) ; une étude norvégienne ne mesure aucun effet en fin de collège.",
+"src": [
+{
+"l": "DEPP, Synthèse n° 8, Réduction de la taille de classe en éducation prioritaire",
+"a": 2026,
+"u": "https://www.education.gouv.fr/sites/default/files/document/r-duction-de-la-taille-de-classe-en-ducation-prioritaire-que-nous-apprennent-les-donn-es-de-la-depp--478949.pdf"
+},
+{
+"l": "DEPP, Les Dossiers n° 173, L'impact de la taille des classes sur la réussite scolaire dans les écoles, collèges et lycées français (Piketty, Valdenaire)",
+"a": 2006,
+"u": "https://media.education.gouv.fr/file/48/4/2484.pdf"
+},
+{
+"l": "Leuven, Oosterbeek, Rønning, Quasi-experimental Estimates of the Effect of Class Size on Achievement in Norway (Scandinavian Journal of Economics)",
+"a": 2008,
+"u": "https://ideas.repec.org/a/bla/scandj/v110y2008i4p663-693.html"
+},
+{
+"l": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+"a": 2026,
+"u": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+},
+{
+"l": "DEPP, Repères et références statistiques 2026, chapitre 2 (les établissements)",
+"a": 2026,
+"u": "https://www.education.gouv.fr/sites/default/files/document/2-les-etablissementspdf-519279.pdf"
+}
+]
+},
+"zemmour.ecole.1": {
+"constat": "Entrée en 6e en 2025 : 28 % d'élèves en difficulté en français (32 % en 2017), 33 % en maths (31 %) (DEPP).",
+"constat_s": [
+5
+],
+"pour": "Avec un examen commun en fin de cycle, les élèves gagnent environ un tiers d'année en maths.",
+"preuve_pour": "mitigé",
+"contre": "Un échec fait redoubler : une année de retard réduit les chances de diplôme et de 9 % les premiers salaires.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Les élèves soumis à un examen de fin de cycle commun gagnent environ un tiers d'année en maths (Jürges et al., Allemagne, 2005).",
+"s": [
+0,
+1
+]
+},
+{
+"t": "Les élèves faibles retenus après un test de lecture, avec soutien, ont progressé nettement, puis eu de meilleures notes au lycée (Schwerdt et al., Floride, 2017).",
+"s": [
+2
+]
+}
+],
+"cas_contre": [
+{
+"t": "Avoir redoublé sa 6e réduit les chances d'obtenir ensuite un diplôme du secondaire (Afsa, panel DEPP, via Cnesco, France, 2014).",
+"s": [
+3
+]
+},
+{
+"t": "Échouer de peu à un examen de passage en maths fait baisser de 8 points le diplôme à l'heure des élèves urbains modestes (Papay et al., Massachusetts, 2010).",
+"s": [
+4
+]
+},
+{
+"t": "Une année de retard réduit d'environ 9 % le revenu des cinq premières années de vie active (Brodaty et al., via Cnesco, France, 2014).",
+"s": [
+3
+]
+}
+],
+"etudes": "Les examens communs vont de pair avec de meilleurs acquis ; mais perdre une année après un échec n'apporte pas de gain durable, et nuit plus nettement à l'adolescence.",
+"src": [
+{
+"l": "Jürges, Schneider, Büchel, examens centraux et acquis des élèves, données TIMSS Allemagne (CESifo WP 939, JEEA 2005)",
+"a": 2005,
+"u": "https://www.ifo.de/DocDL/cesifo_wp939.pdf"
+},
+{
+"l": "Woessmann, Central exit exams improve student outcomes (IZA World of Labor)",
+"a": 2018,
+"u": "https://wol.iza.org/articles/central-exit-exams-improve-student-outcomes"
+},
+{
+"l": "Schwerdt, West, Winters, redoublement après un test de lecture en Floride (NBER w21509, Journal of Public Economics 2017)",
+"a": 2017,
+"u": "https://www.nber.org/papers/w21509"
+},
+{
+"l": "Cnesco, Lutter contre les difficultés scolaires : le redoublement et ses alternatives",
+"a": 2014,
+"u": "https://www.cnesco.fr/wp-content/uploads/2014/08/280814CNESCO_redoublement.pdf"
+},
+{
+"l": "Papay, Murnane, Willett, examens-barrières au lycée dans le Massachusetts (NBER w14186, EEPA 2010)",
+"a": 2010,
+"u": "https://www.nber.org/papers/w14186"
+},
+{
+"l": "DEPP, Note d'information n° 26.21, évaluations de début de 6e, 5e et 4e 2025",
+"a": 2026,
+"u": "https://www.education.gouv.fr/sites/default/files/document/depp-ni-2026-21evals-2dpdf-517319.pdf"
+}
+]
+},
+"attal.sante.1": {
+"constat": "Sans médecin traitant en 2025 : 11,4 % des 16 ans et plus (11,5 % en 2022), 3,9 % des malades chroniques (6 %) (Sécurité sociale).",
+"constat_s": [
+3
+],
+"pour": "Former un médecin prend dix ans : ouvrir des places aujourd'hui prépare la relève de demain.",
+"preuve_pour": "solide",
+"contre": "Former plus n'envoie pas, à lui seul, les médecins là où ils manquent.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Les places en médecine, tombées à 3 500 en 1993, remontent depuis 2000 ; les jeunes médecins issus de cette hausse arrivent en activité (Cour des comptes, France, 2025).",
+"s": [
+0,
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Dans la région la moins dotée, l'arrivée de jeunes médecins issue de la hausse des places est moins marquée qu'ailleurs (Cour des comptes, Centre-Val de Loire, 2025).",
+"s": [
+1,
+0
+]
+}
+],
+"etudes": "Les travaux concordent (DREES, Cour des comptes) : former plus accroît l'offre de médecins après une dizaine d'années, sans corriger seule leur répartition.",
+"src": [
+{
+"l": "Cour des comptes, L'accès aux études de santé, quatre ans après la réforme",
+"a": 2024,
+"u": "https://www.ccomptes.fr/sites/default/files/2024-12/20241211-Lacces-aux-%C3%A9tudes-de-sante.pdf"
+},
+{
+"l": "Cour des comptes, Les aides à l'installation des médecins libéraux",
+"a": 2025,
+"u": "https://www.ccomptes.fr/sites/default/files/2025-11/20251112-Aides-installation-des-medecins-liberaux.pdf"
+},
+{
+"l": "Cour des comptes, L'organisation territoriale des soins de premier recours (synthèse)",
+"a": 2024,
+"u": "https://www.ccomptes.fr/sites/default/files/2024-05/20240513-synthese-Organisation-territoriale-soins-premier-recours.pdf"
+},
+{
+"l": "Sécurité sociale, rapport d'évaluation (REPSS Maladie), fiche 2.7.4 « Assurer l'accès à un médecin traitant »",
+"a": 2026,
+"u": "https://evaluation.securite-sociale.fr/home/maladie/2-7-4-assurer-l-acces-a-un-medecin-traitant.html"
+}
+]
+},
+"le-pen.economie.3": {
+"constat": "Dette publique : de 98 % du PIB fin 2019 à 119 % mi-2026 (Insee) ; déficit : 5,1 % du PIB en 2025 (Eurostat).",
+"constat_s": [
+2,
+3
+],
+"pour": "Sous une règle de ce type, la dette d'un grand pays est passée de 81 % à 58 % du PIB en neuf ans.",
+"preuve_pour": "mitigé",
+"contre": "Une règle stricte freine aussi l'investissement : un juge a annulé 60 Md€ d'emprunts prévus pour le climat.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Sous le frein à l'endettement inscrit dans la Constitution allemande, la dette publique est passée de 81 % du PIB en 2010 à 58,3 % en 2019 (Eurostat, Allemagne, 2026).",
+"s": [
+0,
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Au nom du frein à l'endettement, la Cour constitutionnelle a annulé le transfert de 60 Md€ d'emprunts vers un fonds climat (Cour constitutionnelle, Allemagne, 2023).",
+"s": [
+1
+]
+}
+],
+"etudes": "Une méta-analyse de 30 études (ZEW, 2018) trouve un effet modérateur des règles budgétaires sur les déficits, qui faiblit nettement une fois corrigés les biais.",
+"src": [
+{
+"l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=DE&unit=PC_GDP&sector=S13&na_item=GD&time=2010&time=2019&time=2024"
+},
+{
+"l": "Cour constitutionnelle fédérale allemande, communiqué n° 101/2023",
+"a": 2023,
+"u": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/EN/2023/bvg23-101.html"
+},
+{
+"l": "Eurostat, dette et déficit publics (gov_10dd_edpt1), France",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=FR&unit=PC_GDP&sector=S13&na_item=GD&na_item=B9&time=2019&time=2024&time=2025"
+},
+{
+"l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/010777608"
+}
+]
+},
+"philippe.economie.3": {
+"constat": "Dette publique : de 98 % du PIB fin 2019 à 119 % mi-2026 (Insee) ; déficit : 5,1 % du PIB en 2025 (Eurostat).",
+"constat_s": [
+2,
+3
+],
+"pour": "Sous une règle de ce type, la dette d'un grand pays est passée de 81 % à 58 % du PIB en neuf ans.",
+"preuve_pour": "mitigé",
+"contre": "Une règle stricte freine aussi l'investissement : un juge a annulé 60 Md€ d'emprunts prévus pour le climat.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Sous le frein à l'endettement inscrit dans la Constitution allemande, la dette publique est passée de 81 % du PIB en 2010 à 58,3 % en 2019 (Eurostat, Allemagne, 2026).",
+"s": [
+0,
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Au nom du frein à l'endettement, la Cour constitutionnelle a annulé le transfert de 60 Md€ d'emprunts vers un fonds climat (Cour constitutionnelle, Allemagne, 2023).",
+"s": [
+1
+]
+}
+],
+"etudes": "Une méta-analyse de 30 études (ZEW, 2018) trouve un effet modérateur des règles budgétaires sur les déficits, qui faiblit nettement une fois corrigés les biais.",
+"src": [
+{
+"l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=DE&unit=PC_GDP&sector=S13&na_item=GD&time=2010&time=2019&time=2024"
+},
+{
+"l": "Cour constitutionnelle fédérale allemande, communiqué n° 101/2023",
+"a": 2023,
+"u": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/EN/2023/bvg23-101.html"
+},
+{
+"l": "Eurostat, dette et déficit publics (gov_10dd_edpt1), France",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=FR&unit=PC_GDP&sector=S13&na_item=GD&na_item=B9&time=2019&time=2024&time=2025"
+},
+{
+"l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/010777608"
+}
+]
+},
+"retailleau.economie.3": {
+"constat": "Dette publique : de 98 % du PIB fin 2019 à 119 % mi-2026 (Insee) ; déficit : 5,1 % du PIB en 2025 (Eurostat).",
+"constat_s": [
+2,
+3
+],
+"pour": "Sous une règle de ce type, la dette d'un grand pays est passée de 81 % à 58 % du PIB en neuf ans.",
+"preuve_pour": "mitigé",
+"contre": "Une règle stricte freine aussi l'investissement : un juge a annulé 60 Md€ d'emprunts prévus pour le climat.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Sous le frein à l'endettement inscrit dans la Constitution allemande, la dette publique est passée de 81 % du PIB en 2010 à 58,3 % en 2019 (Eurostat, Allemagne, 2026).",
+"s": [
+0,
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Au nom du frein à l'endettement, la Cour constitutionnelle a annulé le transfert de 60 Md€ d'emprunts vers un fonds climat (Cour constitutionnelle, Allemagne, 2023).",
+"s": [
+1
+]
+}
+],
+"etudes": "Une méta-analyse de 30 études (ZEW, 2018) trouve un effet modérateur des règles budgétaires sur les déficits, qui faiblit nettement une fois corrigés les biais.",
+"src": [
+{
+"l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=DE&unit=PC_GDP&sector=S13&na_item=GD&time=2010&time=2019&time=2024"
+},
+{
+"l": "Cour constitutionnelle fédérale allemande, communiqué n° 101/2023",
+"a": 2023,
+"u": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/EN/2023/bvg23-101.html"
+},
+{
+"l": "Eurostat, dette et déficit publics (gov_10dd_edpt1), France",
+"a": 2026,
+"u": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=FR&unit=PC_GDP&sector=S13&na_item=GD&na_item=B9&time=2019&time=2024&time=2025"
+},
+{
+"l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
+"a": 2026,
+"u": "https://www.insee.fr/fr/statistiques/serie/010777608"
+}
+]
 }
 }
