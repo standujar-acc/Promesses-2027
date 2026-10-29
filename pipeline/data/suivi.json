@@ -1070,11 +1070,11 @@
    ],
    "mesure": null,
    "sujet": "Simulateur : mesures ajoutées le 27/10 encore en note",
-   "detail": "Taxe sur les carburants (Le Pen : niveau de 2017 ; Zemmour : −1/3) : tarifs 2017 et 2026 à relever sur la circulaire des douanes (DA 25-062, hausse au 1/1/2026 signalée) avant de calculer le prix à la pompe ; chèque énergie triplé (Glucksmann) : seuils non publiés ; part fiscale dès le 2e enfant (Le Pen) et congé de naissance (Retailleau) à calculer. Revue du 28/10 : baisse par litre de la TICPE de Le Pen = 6,33 c€ HT sur le gazole, 3,22 sur l'essence, 4,50 sur le fioul (circulaires des douanes 2017 et 2026), TVA en plus. Revue du 28/10 : CSG de Lisnard (9,2 % → 6,6 %) désormais calculée au simulateur (≈ 89 €/mois au salaire moyen) ; le reste de la baisse des cotisations promise reste en note.",
+   "detail": "Taxe sur les carburants (Le Pen : niveau de 2017 ; Zemmour : −1/3) : tarifs 2017 et 2026 à relever sur la circulaire des douanes (DA 25-062, hausse au 1/1/2026 signalée) avant de calculer le prix à la pompe ; chèque énergie triplé (Glucksmann) : seuils non publiés ; part fiscale dès le 2e enfant (Le Pen) et congé de naissance (Retailleau) à calculer. Revue du 28/10 : baisse par litre de la TICPE de Le Pen = 6,33 c€ HT sur le gazole, 3,22 sur l'essence, 4,50 sur le fioul (circulaires des douanes 2017 et 2026), TVA en plus. Revue du 28/10 : CSG de Lisnard (9,2 % → 6,6 %) désormais calculée au simulateur (≈ 89 €/mois au salaire moyen) ; le reste de la baisse des cotisations promise reste en note. Revue du 29/10 : taxe sur les carburants calculée au simulateur pour Le Pen (−3,22 c€ HT par litre d'essence, −6,33 pour le gazole, avec sa TVA à 5,5 %) et Zemmour (−1/3 : −23,0 et −20,3 c€ HT, TVA à 20 %), au prix de la semaine du 23/10/2026 (ministère : SP95 2,18 €/l, gazole 2,35 €/l), montant pour l'essence et gazole en regard ; part fiscale entière dès le 2e enfant (Le Pen) calculée (sans double compte avec l'exonération des moins de 30 ans) ; congé de naissance (Retailleau) en note (choix de garde, pas un gain). Reste : chèque énergie de Glucksmann (seuils non publiés).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-28",
+   "maj": "2026-10-29",
    "resolution": "Calculés le 27/10 : quotient familial sans plafond et CSG déductible (Lisnard), moins de 30 ans jusqu'à 4 SMIC (Le Pen)."
   },
   {
