@@ -197,6 +197,16 @@ with sync_playwright() as p:
     # signalement visible sur chaque page : bouton en bas de page, formulaire qui s'ouvre ; rubrique Contact
     r = pg.evaluate("(()=>{ go('quiz'); const b=document.getElementById('foot-report'); const vis=b.offsetParent!==null; b.click(); const f=document.getElementById('foot-rep'); const ok=!f.hidden && !!f.querySelector('textarea'); go('accueil'); return [vis, ok, f.hidden, document.getElementById('contact').textContent.length>50 && /indépendant/.test(document.getElementById('about').textContent) && /Hébergeur/.test(document.getElementById('legal').textContent)]; })()")
     check(r == [True, True, True, True], f'signalement : bouton en bas de page, formulaire, fermé au changement de page ; contact, qui fait ce site, mentions légales {r}')
+    # carburant : baisse de la taxe par litre (Le Pen : tarif 2017 avec TVA à 5,5 % ; Zemmour : −1/3, TVA à 20 %) pour 300 €/mois d'essence
+    r = pg.evaluate("""(()=>{ document.getElementById('s-fuel').value=300; document.querySelector('#s-status [data-v="prive"]').click(); openSim.clear(); ['le-pen','zemmour'].forEach(i=>openSim.add(i)); sim();
+      const v=id=>{ const row=[...document.querySelectorAll(`#simres .srow[data-c="${id}"] .rw`)].find(x=>/Taxe sur les carburants/.test(x.textContent)); const m=row&&row.textContent.match(/([0-9]+) €\\/mois/); return m?+m[1]:0; };
+      const out=[v('le-pen'), v('zemmour')]; document.getElementById('s-fuel').value=100; sim(); return out; })()""")
+    check(r[0] in (4, 5) and r[1] in (37, 38, 39), f'simulateur : taxe carburant Le Pen ≈ 4,7 €, Zemmour ≈ 38 € pour 300 €/mois d\'essence {r}')
+    # part fiscale entière dès le 2e enfant (Le Pen) : gain avec 2 enfants, rien avec 1, pas de double compte avec l'exonération des moins de 30 ans
+    r = pg.evaluate("""(()=>{ const g=id=>document.getElementById(id); document.querySelector('#s-status [data-v="prive"]').click(); g('s-salary').value=3500; openSim.clear(); openSim.add('le-pen');
+      const f=(k,y)=>{ S.kids=k; g('s-year').value=y; sim(); return [...document.querySelectorAll('#simres .srow[data-c="le-pen"] .rw')].filter(x=>/^Impôt/.test(x.textContent.trim())).length; };
+      return [f(2,1985), f(1,1985), f(2,2000)]; })()""")
+    check(r == [1, 0, 1], f'simulateur : part fiscale dès le 2e enfant (1 ligne avec 2 enfants, aucune avec 1, une seule avant 30 ans) {r}')
     check(not errs, f'aucune erreur JS {errs[:1]}')
     b.close()
 sys.exit(1 if fail else 0)
