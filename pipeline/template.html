@@ -99,6 +99,7 @@ nav.bottom button[aria-current="page"]{color:var(--accent);background:var(--acce
 /* accueil : classement des programmes */
 .board{display:flex;flex-direction:column;gap:8px}
 .brow{display:grid;grid-template-columns:minmax(0,1fr);gap:4px 10px;align-items:center;border:0;background:var(--surface);border-radius:12px;padding:12px 14px;text-align:left;box-shadow:var(--shadow);border:1px solid var(--line)}
+.brow{transition:border-color .15s,box-shadow .15s}.brow:hover{border-color:var(--accent);box-shadow:0 2px 10px rgba(43,74,203,.14)}
 .brow .no{font:700 1.5rem/1 var(--f-display);color:var(--muted);grid-row:span 3}
 .brow .top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
 .brow .nm{font:700 1.25rem/1 var(--f-display);letter-spacing:.01em}
@@ -127,7 +128,9 @@ nav.bottom button[aria-current="page"]{color:var(--accent);background:var(--acce
 .chips-c .n{font:700 1rem/1 var(--f-display);color:var(--muted)}
 .chips-c .s{font:700 .92rem/1.05 var(--f-display);letter-spacing:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
 .chips-c .t{font:500 .66rem/1 var(--f-mono)}
-.chips-c button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.chips-c button[aria-pressed="true"]{border-color:var(--band);background:var(--band);color:var(--band-ink)}
+.chips-c button[aria-pressed="true"] .t[data-s="neg"]{color:#ff8a9a!important}.chips-c button[aria-pressed="true"] .t[data-s="pos"]{color:#7ee0ad!important}
+.chips-c button:not([aria-pressed="true"]):hover{border-color:var(--accent)}
 .chips-c button[aria-pressed="true"] .n{color:var(--accent)}
 
 /* fiche */
@@ -339,7 +342,9 @@ footer.foot button{border:0;background:none;color:var(--accent);padding:0;font-w
 footer.foot a{color:var(--accent);font-weight:600;display:inline-flex;align-items:center;min-height:44px}
 footer.foot p,footer.foot .report{flex-basis:100%;margin:0}
 /* ordinateur : page plus large, colonnes */
-.home-top,.sim-grid,.sim-in,.sim-out{display:contents}
+.home-top,.sim-grid,.sim-in,.sim-out,.cand-bar{display:contents}
+#v-cand > .search{order:1} #results{order:2} #picker{order:3} #fhead{order:4} #ftab{order:5} #total{order:6} #f-budget{order:7} #f-vie{order:8}
+@media(max-width:1099px){#total.m-hide{display:none}}
 .met-toc{display:none}
 .met-toc .eyebrow{padding:0 10px 6px}
 .met-toc button{border:0;background:none;text-align:left;padding:8px 10px;border-radius:8px;color:var(--muted);font-weight:600;font-size:.88rem}
@@ -359,21 +364,25 @@ footer.foot p button{min-height:0;display:inline;font-size:inherit}
   .lcmp{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:start}
   .lcmp > :not(.lrow){grid-column:1/-1}
   .base,.base .bin{grid-template-columns:repeat(4,minmax(0,1fr))}
-  /* page candidat : choix du candidat sur une ligne, présentation et total côte à côte, fiches sur trois colonnes */
-  #v-cand:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 32px;align-items:start;
-    grid-template-areas:"picker picker" "head total" "tab search" "results results" "themes themes" "measures measures" "vie vie"}
+  /* page candidat : barre fixe (8 candidats + onglets), présentation et total côte à côte (toujours affichés), fiches sur trois colonnes */
+  #v-cand:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:0 32px;align-items:start;
+    grid-template-areas:"bar bar" "head total" "themes search" "results results" "measures measures" "vie vie"}
   #v-cand > *,#f-budget > *{margin-bottom:16px}
-  #picker{grid-area:picker;grid-template-columns:repeat(8,minmax(0,1fr))}
+  .cand-bar{grid-area:bar;display:flex;gap:16px;align-items:center;position:sticky;top:0;z-index:12;background:var(--bg);padding:10px 0;transition:box-shadow .15s}
+  .cand-bar.stuck{box-shadow:0 8px 14px -12px rgba(18,21,33,.35);border-bottom:1px solid var(--line)}
+  .cand-bar #picker{flex:1;grid-template-columns:repeat(8,minmax(0,1fr));gap:8px;margin:0}
+  .cand-bar #picker button{padding:9px 4px;border-radius:12px}
+  .cand-bar #picker .s{font-size:1.02rem}
+  .cand-bar #picker .t{font-size:.74rem}
+  .cand-bar #ftab{flex:0 0 300px;margin:0}
   #fhead{grid-area:head;align-self:center}
   #total{grid-area:total}
-  #ftab{grid-area:tab}
+  #themes{grid-area:themes;align-self:center}
   #v-cand > .search{grid-area:search}
   #results{grid-area:results}
   #f-budget:not([hidden]){display:contents}
-  #themes{grid-area:themes}
   #measures{grid-area:measures}
   #f-vie{grid-area:vie}
-  #v-cand:has(#f-budget[hidden]) #fhead{grid-column:1/-1}
   .measures{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:start}
   .measures > :not(.m){grid-column:1/-1}
   .life{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:start}
@@ -453,7 +462,7 @@ table.grid td button{min-width:44px;min-height:44px;display:inline-grid;place-it
     <div class="home-top">
     <div class="stack" style="gap:10px">
       <div><span class="eyebrow">Effet sur le déficit en 2030, si tout passe</span><h2>Le prix de chaque programme</h2></div>
-      <div class="legend"><span><i class="dot" style="background:var(--bad)"></i>creuse le déficit</span><span><i class="dot" style="background:var(--ok)"></i>l'allège</span><span>trait : fourchette probable · Md€ par an</span></div>
+      <div class="legend"><span><i class="dot" style="background:var(--bad)"></i>creuse le déficit</span><span><i class="dot" style="background:var(--ok)"></i>l'allège</span><span>trait : fourchette probable · Md€ par an</span><span>· touchez un candidat pour voir ses mesures</span></div>
       <div class="board" id="board"></div>
       <div class="axis" id="axis"></div>
     </div>
@@ -479,10 +488,11 @@ table.grid td button{min-width:44px;min-height:44px;display:inline-grid;place-it
   <section class="view stack" id="v-cand" hidden>
     <div class="field search"><input type="search" id="q" placeholder="Rechercher une mesure : retraite, SMIC, TVA…" autocomplete="off" aria-label="Rechercher une mesure"></div>
     <div class="results" id="results" hidden></div>
-    <div class="chips-c" id="picker"></div>
+    <div class="cand-bar" id="cand-bar"><div class="chips-c" id="picker" role="group" aria-label="Choisir un candidat"></div>
+    <div class="segtab" id="ftab"><button data-t="budget" aria-pressed="true">Budget</button><button data-t="vie" aria-pressed="false">Vie quotidienne</button></div></div>
     <div class="fhead" id="fhead"></div>
-    <div class="segtab" id="ftab"><button data-t="budget" aria-pressed="true">Budget</button><button data-t="vie" aria-pressed="false">Vie quotidienne</button></div>
-    <div id="f-budget" class="stack"><div class="total" id="total"></div><div class="themes" id="themes"></div><div class="measures" id="measures"></div></div>
+    <div class="total" id="total"></div>
+    <div id="f-budget" class="stack"><div class="themes" id="themes"></div><div class="measures" id="measures"></div></div>
     <div id="f-vie" class="life" hidden></div>
   </section>
 
@@ -672,8 +682,8 @@ function grid(){
 /* ---------- fiche candidat ---------- */
 const SC=60; const sx=v=>Math.max(0,Math.min(100,(v+SC)/(2*SC)*100));
 function picker(){
-  document.getElementById('picker').innerHTML = D.candidates.map((c,i)=>`<button aria-pressed="${c.id===cur}" data-id="${c.id}"><span class="s">${esc(c.short)}</span><span class="t" style="color:${colorOf(c.claude_total.sum)}">${md1(c.claude_total.sum)}</span></button>`).join('');
-  document.querySelectorAll('#picker button').forEach(b => b.onclick = () => { cur=b.dataset.id; theme='all'; render(); setHash(cur,true); });
+  document.getElementById('picker').innerHTML = D.candidates.map((c,i)=>`<button aria-pressed="${c.id===cur}" data-id="${c.id}"><span class="s">${esc(c.short)}</span><span class="t" data-s="${c.claude_total.sum<0?'neg':'pos'}" style="color:${colorOf(c.claude_total.sum)}">${md1(c.claude_total.sum)}</span></button>`).join('');
+  document.querySelectorAll('#picker button').forEach(b => b.onclick = () => { cur=b.dataset.id; theme='all'; render(); setHash(cur,true); candTop(); });
 }
 function head(c){
   const counts={}; Object.keys(V).forEach(k=>counts[k]=0); c.measures.forEach(m=>counts[m.verdict]++); const n=c.measures.length;
@@ -772,8 +782,11 @@ function lifeHome(){
   document.querySelectorAll('#lcmp .lrow').forEach(r=>{ const b=r.querySelector('.lsum'); b.onclick=()=>{ r.dataset.open=r.dataset.open==='1'?'0':'1'; b.setAttribute('aria-expanded',r.dataset.open==='1'); };
     const f=r.querySelector('.tofiche'); if(f) f.onclick=()=>{ cur=r.dataset.c; ftab='vie'; go('cand'); }; });
 }
-document.querySelectorAll('#ftab button').forEach(b=>b.onclick=()=>{ ftab=b.dataset.t; applyTab(); });
-function applyTab(){ document.querySelectorAll('#ftab button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===ftab)); document.getElementById('f-budget').hidden=ftab!=='budget'; document.getElementById('f-vie').hidden=ftab!=='vie'; }
+document.querySelectorAll('#ftab button').forEach(b=>b.onclick=()=>{ ftab=b.dataset.t; applyTab(); candTop(); });
+function applyTab(){ document.querySelectorAll('#ftab button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===ftab)); document.getElementById('f-budget').hidden=ftab!=='budget'; document.getElementById('f-vie').hidden=ftab!=='vie'; document.getElementById('total').classList.toggle('m-hide',ftab!=='budget'); }
+// changer de candidat ou d'onglet depuis la barre fixe : on revient en haut de la fiche (présentation et total)
+function candTop(){ const bar=document.getElementById('cand-bar'), t=document.getElementById('total'), top=Math.min(document.getElementById('fhead').getBoundingClientRect().top, t.offsetParent?t.getBoundingClientRect().top:Infinity), lim=bar.getBoundingClientRect().bottom; if(top<lim) window.scrollTo({top:Math.max(0,window.scrollY+top-(getComputedStyle(bar).position==='sticky'?bar.offsetHeight:0)-12)}); }
+addEventListener('scroll',()=>{ const bar=document.getElementById('cand-bar'); bar.classList.toggle('stuck', view==='cand' && bar.getBoundingClientRect().top<=0 && window.scrollY>0); },{passive:true});
 
 /* ---------- recherche ---------- */
 const INDEX = D.candidates.flatMap(c => c.measures.map(m => ({c,m,words:norm([c.name,c.short,c.party,m.title,m.proposal,TH[m.theme],m.claimed,m.obstacle].join(' ')).split(/[^a-z0-9]+/).filter(Boolean)})));

@@ -38,6 +38,12 @@ with sync_playwright() as p:
           go('methode'); const toc=document.querySelector('.met-toc').offsetParent!==null; go('accueil'); const cta=getComputedStyle(document.querySelector('.home-top')).display;
           return [cols, side, sim, toc, cta]; })()""")
         check(r == [3, 8, 2, True, 'grid'], f'ordinateur {W} px : fiches sur 3 colonnes, 8 candidats sur une ligne, simulateur en 2 colonnes, sommaire, accueil en grille {r}')
+        # page candidat : le total reste à la même place quand on passe à « Vie quotidienne » ; barre (candidats + onglets) fixe en haut au défilement
+        r = pg.evaluate("""(()=>{ go('cand'); window.scrollTo(0,0); const t=()=>document.getElementById('total').getBoundingClientRect().top;
+          document.querySelector('#ftab [data-t="budget"]').click(); const a=t(); document.querySelector('#ftab [data-t="vie"]').click(); const v=document.getElementById('total').offsetParent!==null, b=t();
+          document.querySelector('#ftab [data-t="budget"]').click(); window.scrollTo(0,1500); const bar=document.getElementById('cand-bar').getBoundingClientRect().top;
+          const stuck=getComputedStyle(document.getElementById('cand-bar')).position; window.scrollTo(0,0); return [v, Math.abs(a-b)<1, stuck, Math.abs(bar)<1]; })()""")
+        check(r == [True, True, 'sticky', True], f'ordinateur {W} px : total affiché et immobile entre Budget et Vie quotidienne, barre des candidats fixe {r}')
         check(not errs, f'ordinateur {W} px : aucune erreur JS {errs[:1]}')
         pg.close()
     # mobile : les enveloppes de mise en page sont transparentes
@@ -45,6 +51,9 @@ with sync_playwright() as p:
     pg.goto(URL); pg.wait_for_timeout(300)
     r = pg.evaluate("[...document.querySelectorAll('.home-top,.sim-grid,.sim-in,.sim-out')].map(e=>getComputedStyle(e).display).every(d=>d==='contents') && getComputedStyle(document.querySelector('.met-toc')).display==='none'")
     check(r, 'mobile : mise en page en une colonne (enveloppes transparentes, pas de sommaire)')
+    r = pg.evaluate("""(()=>{ go('cand'); const y=id=>document.getElementById(id).getBoundingClientRect().top; const ord=[y('picker')<y('fhead'), y('fhead')<y('ftab'), y('ftab')<y('total')];
+      document.querySelector('#ftab [data-t="vie"]').click(); const hid=document.getElementById('total').offsetParent===null; document.querySelector('#ftab [data-t="budget"]').click(); return [...ord, hid]; })()""")
+    check(r == [True, True, True, True], f'mobile : page candidat dans le même ordre (candidats, présentation, onglets, total), total masqué dans « Vie quotidienne » {r}')
     r = pg.evaluate("[getComputedStyle(document.documentElement).touchAction, getComputedStyle(document.getElementById('q')).fontSize]")
     check(r == ['manipulation', '16px'], f'mobile : pas de zoom au double tap ni à la saisie (zoom à deux doigts conservé) {r}')
     pg.close()
