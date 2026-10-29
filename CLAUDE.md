@@ -1,6 +1,6 @@
 # Promesses 2027
 
-App de fact-checking et de chiffrage des programmes de la présidentielle 2027 (1er tour 18 avril 2027, 2d tour 2 mai 2027). 8 candidats : Le Pen, Mélenchon, Glucksmann, Philippe, Retailleau, Attal, Lisnard, Zemmour (ordre = moyenne des sondages, voir `ORD` dans `pipeline/corrections.py`). Interface et contenus en français, mobile d'abord. Le porteur du projet écrit en français familier ; répondre en français.
+App de fact-checking et de chiffrage des programmes de la présidentielle 2027 (1er tour 18 avril 2027, 2d tour 2 mai 2027). 8 candidats : Le Pen, Mélenchon, Philippe, Glucksmann, Attal, Retailleau, Lisnard, Zemmour (ordre = moyenne des sondages, calculée depuis `pipeline/data/sondages.json`). Interface et contenus en français, mobile d'abord. Le porteur du projet écrit en français familier ; répondre en français.
 
 ## Règle n°1 : neutralité
 Même traitement pour tous les candidats, toujours. Avant toute modification d'une mesure, d'un verdict, d'un texte ou d'une étude, chercher les mesures du même type chez les autres candidats et appliquer la même règle. Pas d'adjectifs de jugement, pas d'obstacle ou de formulation sévère réservé à un seul camp. Le site de campagne d'un candidat n'est jamais une source sur un autre. Agrégateurs et sites non officiels : marqués comme tels (`weak_domains`, `NOFF` dans `life.py`).
@@ -33,7 +33,7 @@ python3 tests/smoke.py      # Playwright + Chromium
 - LFI : programme « L'avenir en commun » le 6 novembre 2026, convention le 7.
 - RN : réforme des retraites détaillée le 17 novembre 2026.
 - Zemmour : programme 2026 attendu (CSG, successions aujourd'hui hors total, non reconfirmées).
-- Sondages (`poll`) : Ipsos-BVA 21-22/10/2026 ; masqués automatiquement les 17-18 avril et 1er-2 mai 2027 (`D.blackout`).
+- Sondages (`poll`) : moyenne des instituts, `pipeline/data/sondages.json` (règle dans `_regle` : dernière vague de chaque institut au terrain achevé depuis moins de 15 jours, milieu de la fourchette des hypothèses, même poids par institut ; l'ordre des candidats en découle). À la mise à jour : changer `date`, remplacer les vagues, vérifier chaque score sur la notice de la Commission des sondages. Masqués automatiquement les 17-18 avril et 1er-2 mai 2027 (`D.blackout`).
 
 ## Déploiement
 Cloudflare Pages, sortie `public/` + `functions/`, pas de build côté Cloudflare, pas de wrangler.toml (liaisons et secrets réglés dans le tableau de bord). Déploiement : `npx wrangler pages deploy public --project-name promesses-2027`, ou automatique via `.github/workflows/deploy.yml` une fois les secrets posés. Voir DEPLOY.md. Pas d'assistant IA (retiré le 27/10/2026). Secrets : `ADMIN_TOKEN`, `SALT` ; KV : `LIMITS`, `REPORTS`.
