@@ -367,6 +367,11 @@
 "Un élève au niveau jugé insuffisant peut redoubler, sur décision de ses professeurs.",
 "Fin du passage automatique de classe, décidé par le conseil de classe"
 ],
+"retailleau.ecole.4": [
+"Créer des établissements publics libres d'adapter programmes et calendrier",
+"Des écoles publiques choisies par profs et familles adaptent programmes, rythme de travail et vacances.",
+"Créer 1 000 établissements publics « libres » autonomes"
+],
 "attal.ecole.1": [
 "Moins de 20 élèves par classe en primaire",
 "Les classes d'école passent sous 20 élèves ; la moyenne est aujourd'hui de 21 (24 dans le privé).",
@@ -377,12 +382,12 @@
 "Sans ce diplôme, l'élève suit une année de transition avant d'entrer au collège ou au lycée.",
 "Brevet obligatoire pour entrer au lycée, certificat d'études en fin de primaire"
 ],
-"lisnard.ecole.1": [
+"lisnard.ecole.2": [
 "Un certificat de fin de primaire obligatoire pour entrer au collège",
 "Pour entrer en sixième, il faudrait obtenir un certificat en fin de CM2.",
 "Certificat de fin de primaire conditionnant l'entrée au collège"
 ],
-"lisnard.ecole.3": [
+"lisnard.ecole.4": [
 "Supprimer la carte scolaire, qui affecte chaque élève à l'école de son quartier",
 "L'école ou le collège ne dépend plus de l'adresse : chaque famille demande l'établissement de son choix.",
 "Supprimer la carte scolaire"

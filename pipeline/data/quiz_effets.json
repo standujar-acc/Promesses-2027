@@ -5360,6 +5360,58 @@
 }
 ]
 },
+"retailleau.ecole.4": {
+"pour": "Des collèges en difficulté rendus autonomes ont progressé, d'autant plus que leur autonomie était grande.",
+"preuve_pour": "mitigé",
+"contre": "Des écoles publiques libres de leurs programmes et horaires n'ont pas fait mieux que les écoles ordinaires.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Des collèges en difficulté devenus autonomes ont amélioré leurs résultats, d'autant plus que l'autonomie gagnée était grande (Eyles et Machin, Angleterre, 2019).",
+"s": [
+0
+]
+},
+{
+"t": "Des écoles publiques indépendantes, tirées au sort, ont fait gagner 0,4 écart-type en maths par an à leurs collégiens (Abdulkadiroglu et al., Boston, 2011).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Des écoles publiques maîtresses de leurs programmes, budgets et horaires n'ont pas fait mieux que les écoles ordinaires (Abdulkadiroglu et al., Boston, 2011).",
+"s": [
+1
+]
+},
+{
+"t": "Les premières écoles primaires devenues autonomes n'ont pas amélioré les résultats de leurs élèves (Eyles, Machin et McNally, Angleterre, 2017).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les études divergent : l'autonomie aide surtout des écoles en difficulté soumises à un contrôle des résultats ; ailleurs, elle change peu les résultats. Aucune évaluation française.",
+"src": [
+{
+"l": "Eyles, Machin, The introduction of academy schools to England's education (JEEA)",
+"a": 2019,
+"u": "https://researchonline.lse.ac.uk/id/eprint/88581/"
+},
+{
+"l": "Abdulkadiroglu, Angrist, Dynarski, Kane, Pathak, Boston's charters and pilots (NBER w15549, Quarterly Journal of Economics 2011)",
+"a": 2011,
+"u": "https://www.nber.org/papers/w15549"
+},
+{
+"l": "Eyles, Machin, McNally, Unexpected school reform: academisation of primary schools in England (CEP DP 1455, Journal of Public Economics 2017)",
+"a": 2017,
+"u": "https://researchonline.lse.ac.uk/id/eprint/69027"
+}
+]
+},
 "attal.ecole.1": {
 "constat": "Élèves par classe à l'école : −11 % de 2015 à 2025, 21,3 en moyenne (24,4 dans le privé) (DEPP).",
 "constat_s": [
@@ -5506,7 +5558,7 @@
 }
 ]
 },
-"lisnard.ecole.1": {
+"lisnard.ecole.2": {
 "constat": "Entrée en 6e en 2025 : 28 % d'élèves en difficulté en français (32 % en 2017), 33 % en maths (31 %) (DEPP).",
 "constat_s": [
 5
@@ -5584,7 +5636,7 @@
 }
 ]
 },
-"lisnard.ecole.3": {
+"lisnard.ecole.4": {
 "pour": "Avec la carte, l'accès aux collèges recherchés dépend du quartier où l'on peut se loger.",
 "preuve_pour": "mitigé",
 "contre": "Quand chacun choisit, les familles les plus à l'aise quittent les collèges défavorisés.",
