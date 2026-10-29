@@ -2394,15 +2394,15 @@
       }
      ],
      "consensus": "isolé",
-     "verdict": "faisable",
-     "obstacle": "Par la loi de finances ; financement non précisé dans la mesure.",
+     "verdict": "sous_conditions",
+     "obstacle": "Capacités à bâtir (places et surveillants) : le programme de 15 000 places lancé en 2018 en a livré 7 684 brutes (5 711 nettes) ; 63 303 places opérationnelles pour 90 173 détenus au 10/09/2026. 1,0 Md€ inscrit dès 2027 au contre-budget.",
      "claude": {
       "id": "prisons",
       "central": -1.0,
       "low": -2.7,
       "high": -0.5,
       "method": "ascendant",
-      "formula": "Même règle que les places de Retailleau (construction exclue) : 30 000 places × 32 k€ de coût annuel d'un détenu ≈ −0,96 ≈ −1,0 (le camp inscrit 1,0 en 2027) ; borne basse avec la construction : 370 k€ la place (Sénat, cité par Montaigne) × 30 000 sur 5 ans ≈ 2,2 + moitié des places ouvertes ≈ 0,5 → −2,7 ; borne haute : moitié des places ouvertes en 2030",
+      "formula": "Même règle que les places de Retailleau, Lisnard et Zemmour (construction exclue) : 30 000 places × 32 k€ de coût annuel d'un détenu ≈ −0,96 ≈ −1,0 (le camp inscrit 1,0 en 2027) ; borne basse avec la construction : 370 k€ la place (Sénat, cité par Montaigne) × 30 000 sur 5 ans ≈ 2,2 + moitié des places ouvertes ≈ 0,5 → −2,7 ; borne haute : moitié des places ouvertes en 2030",
       "inputs": [
        {
         "label": "Coût d'un détenu",
@@ -2421,9 +2421,21 @@
         "value": "1,0 Md€",
         "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
         "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
+       },
+       {
+        "label": "Parc et programme en cours",
+        "value": "« 90 173 personnes détenues […] pour 63 303 places opérationnelles » (10/09/2026) ; programme de 2018 : « À ce jour, 26 établissements ont été livrés pour un total de 7 684 places brutes » (5 711 nettes)",
+        "source": "PAP 2027, mission Justice (programme 107)",
+        "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128243/file/x.pdf"
+       },
+       {
+        "label": "Retards",
+        "value": "« Le calendrier initial est désormais largement hors d'atteinte »",
+        "source": "Sénat, avis n° 145 (2025-2026), administration pénitentiaire",
+        "url": "https://www.senat.fr/rap/a25-145-6/a25-145-6_mono.html"
        }
       ],
-      "note": "À trancher pour Le Pen et Retailleau ensemble : compter ou non la construction (Retailleau : « construction exclue »)"
+      "note": "Valeur centrale au seul coût de fonctionnement (construction exclue), même règle pour les quatre candidats qui proposent des places (arbitrage du 27/10/2026) ; construction en borne basse. Verdict « sous conditions » pour toutes les fiches prisons (capacités à bâtir)."
      },
      "quiz_text": "Construire beaucoup plus de places de prison",
      "quiz_concret": "Plus de cellules pour les personnes condamnées à de la prison.",
@@ -2875,7 +2887,7 @@
     "p10": -90.1,
     "p90": -51.1,
     "realsum": -70.0,
-    "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, prêt à taux zéro à la place de MaPrimeRénov', recettes et économies du contre-budget sans chiffrage indépendant (chiffres du camp pour 2027) : impôt sur les sociétés assis sur le chiffre d'affaires 3,75, Autorité de la concurrence 1,2, dividendes d'EDF sur les exportations 3,7, économies sur le TURPE 2, économies sur la Sécurité sociale ≈ 20, droits de douane rendus 2,2 ; dépenses de moins de 1 Md€ (AAH au-dessus du seuil de pauvreté, permis gratuit, prime d'activité étudiante, demi-part des veufs…), dispense d'impôt sur le revenu pour les entrepreneurs (public et durée non publiés), fonds souverain (opération financière), abrogation de la loi Hulot, lignes immigration du contre-budget sans chiffrage indépendant ni paramètre suffisant (chiffres du camp pour 2027) : suppression du visa pour soins 1, hausse des frais de scolarité des étudiants étrangers 1,1 (montant des droits non publié), effets indirects sur la sécurité 0,5, départ des étrangers sans emploi 0,1, timbre sur les visas touristiques 0,1 ; taxe de 1 000 € par an à l'embauche d'un salarié extra-européen 1 et taxe de 14 % sur les transferts d'argent vers les pays tiers 1,9 (à l'étude), gel des taxes sur le tabac et fin de leur indexation sur l'inflation (lettre aux buralistes du 6/09/2026 ; rendement à calculer)",
+    "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, prêt à taux zéro à la place de MaPrimeRénov', recettes et économies du contre-budget sans chiffrage indépendant (chiffres du camp pour 2027) : impôt sur les sociétés assis sur le chiffre d'affaires 3,75, Autorité de la concurrence 1,2, dividendes d'EDF sur les exportations 3,7, économies sur le TURPE 2, économies sur la Sécurité sociale ≈ 20, droits de douane rendus 2,2, rationalisation de l'aide publique au développement et de l'action extérieure de l'État 2,1 (sans niveau publié), rebudgétisation des certificats d'économies d'énergie 8 (mécanisme non publié : sans effet sur le solde si les programmes passent au budget avec une recette équivalente, perte de TVA d'environ 0,9 Md€ si la charge disparaît des factures, même lecture que Retailleau et Zemmour) ; dépenses de moins de 1 Md€ (AAH au-dessus du seuil de pauvreté, permis gratuit, prime d'activité étudiante, demi-part des veufs…), dispense d'impôt sur le revenu pour les entrepreneurs (public et durée non publiés), fonds souverain (opération financière), abrogation de la loi Hulot, lignes immigration du contre-budget sans chiffrage indépendant ni paramètre suffisant (chiffres du camp pour 2027) : suppression du visa pour soins 1, hausse des frais de scolarité des étudiants étrangers 1,1 (montant des droits non publié), effets indirects sur la sécurité 0,5, départ des étrangers sans emploi 0,1, timbre sur les visas touristiques 0,1 ; taxe de 1 000 € par an à l'embauche d'un salarié extra-européen 1 et taxe de 14 % sur les transferts d'argent vers les pays tiers 1,9 (à l'étude), gel des tarifs et minima de l'accise sur le tabac et fin de leur indexation (lettre aux buralistes du 7/09/2026 ; paramètre précisé par l'amendement I-CF1011 du groupe RN au projet de budget 2027, 4/10/2026) : ≈ −0,1 Md€ en 2030 (jusqu'à −0,5 si toute l'accise suivait l'indexation), sous le seuil de 1 Md€",
     "n": 26,
     "cost": -84.8,
     "gain": 18.1,
@@ -8477,7 +8489,7 @@
    "name": "Gabriel Attal",
    "party": "Renaissance",
    "poll": "7,8 %",
-   "summary": "Promet la fin de l'âge légal de départ, 100 000 postes publics en moins, le gel des prestations en 2028 et l'équilibre budgétaire en 2037. Notre chiffrage : +7,8 Md€ par an en 2030, soit +252 € par ménage. Principal obstacle : des paramètres non publiés, en particulier pour les retraites.",
+   "summary": "Promet la fin de l'âge légal de départ, 100 000 postes publics en moins, le gel des prestations en 2028 et l'équilibre budgétaire en 2037. Notre chiffrage : +8,0 Md€ par an en 2030, soit +259 € par ménage. Principal obstacle : des paramètres non publiés, en particulier pour les retraites.",
    "measures": [
     {
      "id": "retraites",
@@ -9109,36 +9121,42 @@
        "url": "https://attalpresident.fr/programme/travail-salaires"
       },
       {
-       "source": "Proposition de loi n° 1791 (cosignée par G. Attal)",
-       "year": 2025,
-       "value": "Affiliation 8 mois sur 20, durée maximale 15 mois : 3,6 Md€ d'économies (estimation 2024)",
+       "source": "Gouvernement de G. Attal (mai 2024), repris dans la proposition de loi n° 1791 cosignée par le candidat (chiffre du camp)",
+       "year": 2024,
+       "value": "Affiliation 8 mois sur 20, durée maximale 15 mois : 3,6 Md€ d'économies par an",
        "low_md": 3.6,
        "high_md": 3.6,
        "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b1791_proposition-loi.pdf"
       },
       {
-       "source": "Gouvernement (mai 2024), repris dans la proposition de loi n° 1791",
+       "source": "Unédic (11/06/2024), via franceinfo avec AFP",
        "year": 2024,
-       "value": "Règles de juin 2024 : 3,6 Md€ d'économies par an",
-       "low_md": 3.6,
-       "high_md": 3.6,
-       "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b1791_proposition-loi.pdf"
+       "value": "Réforme de 2024 : 4 à 5,4 Md€ d'économies par an à quatre-cinq ans ; 3,2 à 4,4 Md€ dès 2027",
+       "low_md": 3.2,
+       "high_md": 4.4,
+       "url": "https://www.franceinfo.fr/economie/emploi/chomage/la-reforme-de-l-assurance-chomage-permettrait-jusqu-a-5-4-milliards-d-euros-d-economies-par-an_6597945.html"
       }
      ],
      "consensus": "isolé",
      "verdict": "sous_conditions",
      "obstacle": "Convention d'assurance chômage et décret.",
      "claude": {
-      "central": 3.6,
-      "low": 1.8,
-      "high": 4.0,
+      "central": 3.8,
+      "low": 3.2,
+      "high": 4.4,
       "method": "médiane",
-      "formula": "Réforme de 2024 : 3,6 Md€/an (chiffrage du gouvernement de mai 2024, même entrée que chez Retailleau) ; chiffre du camp (« plus de 4 ») en borne haute, hors médiane ; borne basse −50 % (montée en charge incomplète en 2030) ; heures sup : 0",
+      "formula": "Chiffrage indépendant de la réforme de 2024 (Unédic, juin 2024) : 4 à 5,4 Md€ en régime de croisière, 3,2 à 4,4 Md€ la troisième année ; appliquée au plus tôt en 2028, la réforme est dans sa troisième année en 2030 → milieu 3,8 (3,2 à 4,4), même réforme et même valeur que chez Retailleau. Le chiffre du gouvernement de mai 2024 (3,6), repris par le candidat dans la PPL n° 1791, est le chiffre du camp : hors médiane. Heures sup : 0.",
       "inputs": [
        {
-        "label": "Réforme de 2024",
-        "value": "3,6 Md€ d'économies par an (gouvernement, mai 2024)",
-        "source": "Proposition de loi n° 1791 (cosignée par G. Attal)",
+        "label": "Chiffrage indépendant de la réforme de 2024",
+        "value": "4 à 5,4 Md€ par an à quatre-cinq ans ; « Dès 2027, les économies pourraient atteindre entre 3,2 et 4,4 milliards » (troisième année)",
+        "source": "Unédic (11/06/2024), via franceinfo avec AFP",
+        "url": "https://www.franceinfo.fr/economie/emploi/chomage/la-reforme-de-l-assurance-chomage-permettrait-jusqu-a-5-4-milliards-d-euros-d-economies-par-an_6597945.html"
+       },
+       {
+        "label": "Chiffre du camp",
+        "value": "3,6 Md€ d'économies par an (gouvernement de G. Attal, mai 2024), repris dans la proposition de loi n° 1791 cosignée par le candidat",
+        "source": "Assemblée nationale, PPL n° 1791 (16/09/2025)",
         "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b1791_proposition-loi.pdf"
        },
        {
@@ -9148,7 +9166,7 @@
         "url": "https://attalpresident.fr/programme/travail-salaires"
        }
       ],
-      "note": "Le programme renvoie à la réforme de 2024 portée par le candidat (« 100 000 emplois », « plus de 4 milliards ») sans en republier les paramètres : même réforme, même chiffrage que Retailleau."
+      "note": "Le programme renvoie à la réforme de 2024 portée par le candidat (« 100 000 emplois », « plus de 4 milliards ») sans en republier les paramètres : même réforme, même chiffrage que Retailleau. Estimation de l'Unédic faite avec les règles de 2024 ; les règles en vigueur ont changé depuis (convention de 2024-2025) : ordre de grandeur. Document original de l'Unédic non ouvert (lu via l'AFP)."
      },
      "quiz_text": "Supprimer le seuil annuel de 220 heures supplémentaires",
      "quiz_concret": "Au-delà de 220 heures sup par an, plus de repos compensateur obligatoire.",
@@ -9706,14 +9724,14 @@
     ]
    },
    "claude_total": {
-    "sum": 7.8,
-    "p10": 1.2,
-    "p90": 9.0,
-    "realsum": 7.8,
+    "sum": 8.0,
+    "p10": 2.0,
+    "p90": 9.5,
+    "realsum": 8.0,
     "missing": "classes de moins de 20 élèves, baisse des charges salariales, arrêts maladie, défense, reste du plan de 150 Md€ non ventilé, dont le frein d'urgence de 20 Md€ (contenu non publié), annulation des suppressions de postes d'enseignants du budget 2027 (sous 1 Md€), crédit d'impôt « productivité » (montant non publié), leasing social étendu aux voitures électriques d'occasion (paramètres non publiés), livret d'épargne « garde d'enfant » pour financer des places en crèche et 200 000 professionnels de la petite enfance formés d'ici 2030 (paramètres non publiés), barème kilométrique revalorisé, prime carburant exonérée portée à 1 000 €, moitié du boîtier E85 financée, aides aux gros rouleurs élargies et bonus électrique étendu aux véhicules d'occasion (paramètres non publiés), donations facilitées aux petits-enfants, petits-neveux et petites-nièces et transmission des exploitations agricoles (abattements non publiés)",
     "n": 6,
     "cost": -3.0,
-    "gain": 10.8,
+    "gain": 11.0,
     "confirm": []
    },
    "short": "Attal",
@@ -9725,7 +9743,7 @@
    "name": "Bruno Retailleau",
    "party": "LR",
    "poll": "7,3 %",
-   "summary": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration. Notre chiffrage : −22,1 Md€ par an en 2030, soit −715 € par ménage. Principal obstacle : la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées.",
+   "summary": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration. Notre chiffrage : −21,9 Md€ par an en 2030, soit −709 € par ménage. Principal obstacle : la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées.",
    "measures": [
     {
      "id": "etat",
@@ -10590,9 +10608,21 @@
         "value": "≈32 000 €/an",
         "source": "Terra Nova (CNAPE)",
         "url": "https://www.cnape.fr/documents/pour-en-finir-avec-les-peines-plancher"
+       },
+       {
+        "label": "Parc et programme en cours",
+        "value": "« 90 173 personnes détenues […] pour 63 303 places opérationnelles » (10/09/2026) ; programme de 2018 : « À ce jour, 26 établissements ont été livrés pour un total de 7 684 places brutes » (5 711 nettes)",
+        "source": "PAP 2027, mission Justice (programme 107)",
+        "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128243/file/x.pdf"
+       },
+       {
+        "label": "Retards",
+        "value": "« Le calendrier initial est désormais largement hors d'atteinte »",
+        "source": "Sénat, avis n° 145 (2025-2026), administration pénitentiaire",
+        "url": "https://www.senat.fr/rap/a25-145-6/a25-145-6_mono.html"
        }
       ],
-      "note": "Construction exclue"
+      "note": "Construction exclue. Places de prison : capacités à bâtir, comme dans les autres fiches prisons : le programme de 15 000 places lancé en 2018 en a livré 7 684 brutes (5 711 nettes) ; 63 303 places opérationnelles pour 90 173 détenus au 10/09/2026. Cette partie relève de « sous conditions » ; le verdict de la fiche suit l'obstacle le plus fort, le pacte constitutionnel."
      },
      "quiz_text": "Des peines de prison minimales obligatoires, inscrites dans la Constitution",
      "quiz_concret": "Le juge ne pourrait plus descendre sous un seuil pour certains délits.",
@@ -11329,7 +11359,7 @@
      "id": "menages",
      "theme": "fiscalite",
      "title": "Baisses d'impôts des ménages",
-     "proposal": "Baisser les cotisations salariales dès le premier euro (15 Md€), financer un relais de MaPrimeRénov' et supprimer la TVA liée aux certificats d'économies d'énergie (3 Md€).",
+     "proposal": "Baisser les cotisations salariales dès le premier euro (15 Md€) et financer un relais de MaPrimeRénov' après la fin des certificats d'économies d'énergie (avec la TVA perdue : 3 Md€).",
      "claimed": "21 Md€ (plan du 12/10/2026, annuels ou cumulés non précisés)",
      "claimed_md": null,
      "estimates": [
@@ -11347,12 +11377,12 @@
      "obstacle": "Instruments non publiés.",
      "claude": {
       "id": "menages",
-      "central": -18.0,
-      "low": -18.0,
-      "high": -12.6,
+      "central": -17.1,
+      "low": -17.1,
+      "high": -12.0,
       "method": "camp",
-      "formula": "Budget publié ligne à ligne (fiche 14 du plan, niveaux 2032) : cotisations salariales en moins dès le premier euro −15 + relais de MaPrimeRénov' et TVA sur les certificats d'économies d'énergie −3 = −18 ; comptée en entier en 2030 comme les cotisations patronales du même plan (baisse d'impôt sans calendrier par mesure, règle commune) ; borne haute : 70 % en 2030 (−12,6). La ligne « familles et transmission » (3) est couverte par les fiches revenu familial et transmission",
-      "note": "Seul chiffrage : celui du camp. Si l'on retenait la trajectoire du plan (70 % en 2030), la même lecture vaudrait pour les cotisations patronales : −12,6 et −10,5. Certificats d'économies d'énergie : la suppression de la TVA perçue sur leur part des factures est une perte de recette publique, comptée ici au chiffre du camp (dans les 3 Md€, avec le relais de MaPrimeRénov', sans détail) ; même lecture que la suppression des certificats proposée par Zemmour, non comptée chez lui faute de chiffre du camp et de coût officiel vérifié.",
+      "formula": "Budget publié ligne à ligne (fiche 14 du plan, niveaux 2032) : cotisations salariales en moins dès le premier euro −15 + relais de MaPrimeRénov' −2,1 (ligne « relais de MaPrimeRénov' et TVA sur les certificats » de 3 Md€, chiffre du camp, moins la TVA perdue avec la fin des certificats, comptée dans sa propre fiche : 3 − 0,9) = −17,1 ; comptée en entier en 2030 comme les cotisations patronales du même plan (baisse d'impôt sans calendrier par mesure, règle commune) ; borne haute : 70 % en 2030 (−12,0). La ligne « familles et transmission » (3) est couverte par les fiches revenu familial et transmission",
+      "note": "Seul chiffrage : celui du camp. Si l'on retenait la trajectoire du plan (70 % en 2030), la même lecture vaudrait pour les cotisations patronales : −12,0 et −10,5. Certificats d'économies d'énergie : le plan met fin aux certificats ; la TVA perdue avec eux est comptée dans la fiche « Fin des certificats d'économies d'énergie » (−0,9, même lecture et même valeur que Zemmour) ; le reste de la ligne de 3 Md€ (2,1) est le relais de MaPrimeRénov', au chiffre du camp.",
       "inputs": [
        {
         "label": "Ménages : 21 Md€ en 2032",
@@ -11362,7 +11392,7 @@
        }
       ]
      },
-     "quiz_text": "Baisser les cotisations salariales dès le premier euro, financer un relais de MaPrimeRénov' et supprimer la TVA liée aux certificats d'économies d'énergie."
+     "quiz_text": "Baisser les cotisations salariales dès le premier euro et financer un relais de MaPrimeRénov' après la fin des certificats d'économies d'énergie."
     },
     {
      "id": "chomage",
@@ -11373,12 +11403,12 @@
      "claimed_md": 4.5,
      "estimates": [
       {
-       "source": "Gouvernement (mai 2024), repris dans la proposition de loi n° 1791",
+       "source": "Unédic (11/06/2024), via franceinfo avec AFP",
        "year": 2024,
-       "value": "Règles de juin 2024 : 3,6 Md€ d'économies par an",
-       "low_md": 3.6,
-       "high_md": 3.6,
-       "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b1791_proposition-loi.pdf"
+       "value": "Réforme de 2024 : 4 à 5,4 Md€ d'économies par an à quatre-cinq ans ; 3,2 à 4,4 Md€ dès 2027",
+       "low_md": 3.2,
+       "high_md": 4.4,
+       "url": "https://www.franceinfo.fr/economie/emploi/chomage/la-reforme-de-l-assurance-chomage-permettrait-jusqu-a-5-4-milliards-d-euros-d-economies-par-an_6597945.html"
       }
      ],
      "consensus": "isolé",
@@ -11386,17 +11416,17 @@
      "obstacle": "Convention d'assurance chômage et décret ; risque de report des ruptures conventionnelles vers les licenciements.",
      "claude": {
       "id": "chomage",
-      "central": 3.6,
-      "low": 1.8,
-      "high": 8.2,
+      "central": 3.8,
+      "low": 3.2,
+      "high": 9.0,
       "method": "médiane",
-      "formula": "Règles de juin 2024 : 3,6 Md€/an (chiffrage du gouvernement de mai 2024, le même que celui de la proposition de loi n° 1791 cité chez Attal) ; le chiffre du camp (4 à 5) n'entre pas dans la médiane. Ruptures conventionnelles limitées à 6 mois : dépenses de 9,1 Md€ en 2029 (Unédic) ; avec une durée moyenne d'≈ 11 mois après la réforme de 2023 (15 mois × 0,75), environ la moitié est versée après le 6e mois → ≈ +4,6 Md€ avant tout report vers les licenciements (non documenté) : en borne haute seulement (+3,6 + 4,6 = +8,2). Plafonds (ruptures, hauts revenus) non publiés ; frontaliers : chiffre du camp seul (0,5-0,7), non compté. Borne basse : −50 % (montée en charge incomplète en 2030)",
+      "formula": "Règles de juin 2024 : chiffrage indépendant de l'Unédic (juin 2024) : 4 à 5,4 Md€ en régime de croisière, 3,2 à 4,4 Md€ la troisième année ; appliquées au plus tôt en 2028, elles sont dans leur troisième année en 2030 → milieu 3,8 (même réforme, même valeur que chez Attal) ; le chiffre du gouvernement de mai 2024 (3,6), repris comme le sien par un autre candidat, et celui du camp (4 à 5) n'entrent pas dans la médiane. Ruptures conventionnelles limitées à 6 mois : dépenses de 9,1 Md€ en 2029 (Unédic) ; avec une durée moyenne d'≈ 11 mois après la réforme de 2023 (15 mois × 0,75), environ la moitié est versée après le 6e mois → ≈ +4,6 Md€ avant tout report vers les licenciements (non documenté) : en borne haute seulement (4,4 + 4,6 = +9,0). Plafonds (ruptures, hauts revenus) non publiés ; frontaliers : chiffre du camp seul (0,5-0,7), non compté. Borne basse : bas de la fourchette de l'Unédic (3,2)",
       "inputs": [
        {
-        "label": "Règles de juin 2024 (8 mois sur 20, 15 mois)",
-        "value": "3,6 Md€ d'économies par an (gouvernement, mai 2024)",
-        "source": "Proposition de loi n° 1791, exposé des motifs",
-        "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b1791_proposition-loi.pdf"
+        "label": "Chiffrage indépendant de la réforme de 2024",
+        "value": "4 à 5,4 Md€ par an à quatre-cinq ans ; « Dès 2027, les économies pourraient atteindre entre 3,2 et 4,4 milliards » (troisième année)",
+        "source": "Unédic (11/06/2024), via franceinfo avec AFP",
+        "url": "https://www.franceinfo.fr/economie/emploi/chomage/la-reforme-de-l-assurance-chomage-permettrait-jusqu-a-5-4-milliards-d-euros-d-economies-par-an_6597945.html"
        },
        {
         "label": "Dépenses après rupture conventionnelle",
@@ -11417,7 +11447,7 @@
         "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
        }
       ],
-      "note": "Verdict proposé : sous conditions (convention d'assurance chômage et décret ; risque de report des ruptures conventionnelles vers les licenciements). Montée en charge : la réforme de 2024 devait produire l'essentiel de ses effets en deux à trois ans."
+      "note": "Verdict proposé : sous conditions (convention d'assurance chômage et décret ; risque de report des ruptures conventionnelles vers les licenciements). Montée en charge : la réforme de 2024 devait produire l'essentiel de ses effets en deux à trois ans. Estimation de l'Unédic faite avec les règles de 2024 ; les règles en vigueur ont changé depuis (convention de 2024-2025) : ordre de grandeur. Document original de l'Unédic non ouvert (lu via l'AFP)."
      },
      "quiz_text": "Durcir l'assurance chômage : droits plus courts, surtout après une rupture conventionnelle",
      "quiz_concret": "Il faudrait avoir travaillé plus longtemps pour être indemnisé, et moins longtemps ; six mois au plus après une rupture conventionnelle.",
@@ -11896,6 +11926,75 @@
       "note": "Règle commune : un transfert entre administrations sans dépense définie par la mesure est compté 0 ; la borne basse est le montant si le bénéficiaire le dépense en entier. Aucun chiffrage indépendant trouvé."
      },
      "quiz_text": "Verser automatiquement à la commune une fraction de TVA de 9 000 € pour chaque logement neuf, pour financer écoles, voirie et réseaux."
+    },
+    {
+     "id": "cee",
+     "theme": "energie",
+     "title": "Fin des certificats d'économies d'énergie",
+     "proposal": "Supprimer les certificats d'économies d'énergie.",
+     "claimed": "4 Md€ rendus (« effet net »), autofinancé selon le camp ; TVA perdue comptée dans la ligne « relais de MaPrimeRénov' et TVA sur les certificats » (3 Md€)",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Fiches presse du 12/10/2026, fiche 14",
+       "year": 2026,
+       "value": "« l'effet net de la fin des certificats d'économies d'énergie (4 Md€) » compté parmi les baisses « qui se financent elles-mêmes » ; « Relais de MaPrimeRénov' et TVA sur les certificats 3,0 »",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Par la loi (code de l'énergie, art. L. 221-1 et suivants) ; l'objectif d'économies d'énergie de l'article 8 de la directive (UE) 2023/1791 reste à atteindre par d'autres mesures d'effet équivalent.",
+     "claude": {
+      "id": "cee",
+      "central": -0.9,
+      "low": -1.0,
+      "high": -0.7,
+      "method": "ascendant",
+      "formula": "Même lecture et même calcul pour Retailleau et Zemmour : la TVA payée par les ménages sur la part des certificats dans leurs factures disparaît avec eux. Cour des comptes (2022-2023) : TVA ≈ 7 814,8 × 20/120 = 1 302 M€ sur deux ans, soit 0,65 Md€ par an et 10,8 % du coût total TTC des ménages et HT des entreprises. Coût 2026 : plus de 8 Md€ (Gouvernement), obligation fixée jusqu'en 2030. Si les 8 Md€ sont comptés comme la Cour : 8 × 10,8 % = 0,87 ; s'ils sont hors taxes : 8 × 60,6 % (part des ménages hors TVA) × 20 % = 0,97 → milieu ≈ −0,9 Md€. Borne basse −1,0 ; borne haute −0,7 (coût revenu au niveau de 2022-2023). Les aides financées par les certificats (y compris la part de MaPrimeRénov', du leasing social et du bonus financée ainsi) disparaissent avec eux : sans effet sur le solde public si l'État ne les reprend pas (règle « part publique seulement »).",
+      "inputs": [
+       {
+        "label": "Proposition",
+        "value": "« Je propose de supprimer les CEE, cette taxe cachée et opaque qui pèse jusqu'à 17 centimes par litre » (B. Retailleau sur X, 16/09/2026)",
+        "source": "franceinfo (18/09/2026)",
+        "url": "https://www.franceinfo.fr/vrai-ou-fake/vrai-ou-faux-supprimer-les-certificats-d-economie-d-energie-ferait-il-realiser-une-economie-de-8-5-euros-par-plein-comme-l-affirme-bruno-retailleau_8195534.html"
+       },
+       {
+        "label": "Coût du dispositif",
+        "value": "« passer de 6 milliards d'euros en 2025 à plus de 8 milliards en 2026 »",
+        "source": "Ministre de la Transition écologique, audition du 24/10/2025, compte rendu n° 6 de la commission du développement durable (Assemblée nationale)",
+        "url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2026PO419865N006.html"
+       },
+       {
+        "label": "Coût 2022-2023 et part des ménages",
+        "value": "≈ 6 Md€ par an ; contributions 2022-2023 : ménages 7 814,8 M€ (TVA comprise), entreprises et autres 4 227,6 M€ ; « les ménages supportent directement à travers leurs factures d'énergie 65 % de l'obligation des CEE (en incluant la TVA qu'ils acquittent) »",
+        "source": "Cour des comptes, Les certificats d'économies d'énergie (juillet 2024), synthèse, chapitre II et annexe 14 (tableau 37)",
+        "url": "https://www.ccomptes.fr/sites/default/files/2024-09/20240917-Certificats-economie-energie_0.pdf"
+       },
+       {
+        "label": "TVA",
+        "value": "« Les ménages acquittent une TVA de 20 % pour les produits pétroliers, l'électricité et le gaz et de 5,5 % pour le chauffage des réseaux de chaleur » ; TVA « payée par les ménages et encaissée par l'État »",
+        "source": "Cour des comptes (2024), annexe 14",
+        "url": "https://www.ccomptes.fr/sites/default/files/2024-09/20240917-Certificats-economie-energie_0.pdf"
+       },
+       {
+        "label": "Obligation 2026-2030",
+        "value": "1 050 TWh cumac par an (décret du 30/10/2025)",
+        "source": "Conseil des prélèvements obligatoires (juin 2026), encadré 7",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-06/20260603-Quel-avenir-pour-la-fiscalite-de-l-energie.pdf"
+       },
+       {
+        "label": "Plan du candidat",
+        "value": "fin des certificats (4 Md€, autofinancé) ; relais de MaPrimeRénov' et TVA : 3 Md€",
+        "source": "Fiches presse du 12/10/2026, fiche 14",
+        "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+       }
+      ],
+      "note": "Le plan compte l'« effet net » de la fin des certificats (4 Md€ rendus aux ménages) comme autofinancé, et la TVA perdue dans la ligne « relais de MaPrimeRénov' et TVA sur les certificats » (3 Md€) : cette TVA est comptée ici et retirée de la fiche « Baisses d'impôts des ménages » (−18 → −17,1, total inchangé). Projet « Électricité » (sortir l'électricité du périmètre des certificats) : compris dans cette fiche. Chiffres professionnels (Ufip : 15 à 17 c€ par litre de carburant en 2026, cités par franceinfo) non retenus : s'ils étaient confirmés par une source officielle, la perte de TVA serait plus forte."
+     },
+     "quiz_text": "Supprimer les certificats d'économies d'énergie."
     }
    ],
    "total": {
@@ -11905,14 +12004,14 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -22.1,
-    "p10": -31.2,
-    "p90": -7.5,
-    "realsum": -25.5,
-    "missing": "capitalisation, audiovisuel public, aide au développement, et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (niveaux annuels en 2032), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ en 2032, sans chiffrage indépendant), autres lignes immigration du plan, reprises de l'Observatoire de l'immigration et de la démographie et que les données officielles ne permettent pas de refaire sans ses hypothèses (niveaux 2032) : immigration familiale 1,5, étudiants au-delà des droits différenciés (preuve de ressources) 1,4, titres au coût complet 0,5, hébergement d'urgence fermé aux personnes sous OQTF 0,5, mineurs non accompagnés, soins des demandeurs d'asile et contentieux 0,8, statut du bailleur privé (amortissement du bâti à 4 % par an, option pour le prélèvement forfaitaire à 30 % ; coût statique non publié, le « gain net » de 1,9 Md€ annoncé repose sur des recettes induites), barème kilométrique réévalué (ampleur non publiée)",
-    "n": 20,
+    "sum": -21.9,
+    "p10": -30.4,
+    "p90": -6.6,
+    "realsum": -25.3,
+    "missing": "capitalisation, audiovisuel public, aide au développement (« Coopération » : 3,5 Md€ en 2032 selon le camp, sans niveau publié), et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (niveaux annuels en 2032), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ en 2032, sans chiffrage indépendant), autres lignes immigration du plan, reprises de l'Observatoire de l'immigration et de la démographie et que les données officielles ne permettent pas de refaire sans ses hypothèses (niveaux 2032) : immigration familiale 1,5, étudiants au-delà des droits différenciés (preuve de ressources) 1,4, titres au coût complet 0,5, hébergement d'urgence fermé aux personnes sous OQTF 0,5, mineurs non accompagnés, soins des demandeurs d'asile et contentieux 0,8, statut du bailleur privé (amortissement du bâti à 4 % par an, option pour le prélèvement forfaitaire à 30 % ; coût statique non publié, le « gain net » de 1,9 Md€ annoncé repose sur des recettes induites), barème kilométrique réévalué (ampleur non publiée)",
+    "n": 21,
     "cost": -55.2,
-    "gain": 33.2,
+    "gain": 33.4,
     "confirm": []
    },
    "short": "Retailleau",
@@ -13766,14 +13865,14 @@
      "estimates": [],
      "consensus": "isolé",
      "verdict": "sous_conditions",
-     "obstacle": "Construction et personnel à financer ; calendrier non publié.",
+     "obstacle": "Capacités à bâtir (places et surveillants) : le programme de 15 000 places lancé en 2018 en a livré 7 684 brutes (5 711 nettes) ; 63 303 places opérationnelles pour 90 173 détenus au 10/09/2026. Calendrier non publié.",
      "claude": {
       "id": "prisons",
       "central": -0.6,
       "low": -1.8,
       "high": -0.3,
       "method": "ascendant",
-      "formula": "Même règle que Le Pen (30 000 places) et Retailleau (10 000 places), construction exclue : 20 000 places × 32 k€ de coût annuel d'un détenu ≈ −0,64 ≈ −0,6 ; borne basse avec la construction : 370 k€ la place (Sénat, cité par Montaigne) × 20 000 sur 5 ans ≈ 1,5 + moitié des places ouvertes ≈ 0,3 → −1,8 ; borne haute : moitié des places ouvertes en 2030 (−0,3)",
+      "formula": "Même règle que Le Pen (30 000 places), Retailleau (10 000 places) et Zemmour (100 000 places), construction exclue : 20 000 places × 32 k€ de coût annuel d'un détenu ≈ −0,64 ≈ −0,6 ; borne basse avec la construction : 370 k€ la place (Sénat, cité par Montaigne) × 20 000 sur 5 ans ≈ 1,5 + moitié des places ouvertes ≈ 0,3 → −1,8 ; borne haute : moitié des places ouvertes en 2030 (−0,3)",
       "inputs": [
        {
         "label": "Coût d'un détenu",
@@ -13792,9 +13891,21 @@
         "value": "« Justice : 20 000 places de prison supplémentaires » (entretien RTL du 20/10/2026)",
         "source": "Nouvelle Énergie",
         "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-rtl-lordre-conditionne-la-liberte-la-prosperite-et-la-paix/"
+       },
+       {
+        "label": "Parc et programme en cours",
+        "value": "« 90 173 personnes détenues […] pour 63 303 places opérationnelles » (10/09/2026) ; programme de 2018 : « À ce jour, 26 établissements ont été livrés pour un total de 7 684 places brutes » (5 711 nettes)",
+        "source": "PAP 2027, mission Justice (programme 107)",
+        "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128243/file/x.pdf"
+       },
+       {
+        "label": "Retards",
+        "value": "« Le calendrier initial est désormais largement hors d'atteinte »",
+        "source": "Sénat, avis n° 145 (2025-2026), administration pénitentiaire",
+        "url": "https://www.senat.fr/rap/a25-145-6/a25-145-6_mono.html"
        }
       ],
-      "note": "Calendrier non publié. Point commun ouvert : compter ou non la construction (note de la fiche Le Pen), même décision pour les trois."
+      "note": "Calendrier non publié. Valeur centrale au seul coût de fonctionnement (construction exclue), même règle pour les quatre candidats qui proposent des places (arbitrage du 27/10/2026) ; construction en borne basse. Verdict « sous conditions » pour toutes les fiches prisons (capacités à bâtir)."
      },
      "quiz_text": "Construire 20 000 places de prison supplémentaires."
     },
@@ -14015,7 +14126,7 @@
    "name": "Éric Zemmour",
    "party": "Reconquête",
    "poll": "3,9 %",
-   "summary": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH. Notre chiffrage : +22,2 Md€ par an en 2030, soit +718 € par ménage. Principal obstacle : plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH.",
+   "summary": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH. Notre chiffrage : +18,8 Md€ par an en 2030, soit +608 € par ménage. Principal obstacle : plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH.",
    "measures": [
     {
      "id": "remigration",
@@ -14897,7 +15008,7 @@
         "url": "https://combienjegagne.fr/"
        }
       ],
-      "note": "Aucun chiffrage indépendant ; base 2025 non projetée en 2030 ; le chiffre de 24,8 Md€ (attribué à la Cour des comptes sans référence) est retiré (baisse de la consommation de carburants non comptée). La suppression des certificats d'économies d'énergie, proposée en même temps (pétition de Reconquête), fait disparaître la TVA perçue sur leur part des factures (même lecture que la ligne « ménages » de Retailleau, comptée au chiffre de son camp) : non chiffrable faute de coût officiel vérifié des certificats et de la part payée par les ménages, listée « non comptée » ; indicatif : de 0 à environ −1,6 Md€ (TVA à 20 % sur 8 Md€ si toute la charge revenait aux ménages ; coût de plus de 8 Md€ en 2026 selon le Gouvernement, chiffre relevé dans la presse et non vérifié à la source). Verdict proposé : faisable (loi de finances ; les taux restent au-dessus des minima de la directive 2003/96)."
+      "note": "Aucun chiffrage indépendant ; base 2025 non projetée en 2030 ; le chiffre de 24,8 Md€ (attribué à la Cour des comptes sans référence) est retiré (baisse de la consommation de carburants non comptée). Fin des certificats d'économies d'énergie, proposée en même temps (pétition de Reconquête) : fiche à part (−0,9). Verdict proposé : faisable (loi de finances ; les taux restent au-dessus des minima de la directive 2003/96)."
      },
      "quiz_text": "Baisser d'un tiers la taxe sur les carburants",
      "quiz_concret": "Le litre d'essence ou de gazole coûte environ 25 centimes de moins.",
@@ -15460,22 +15571,20 @@
      "id": "prisons",
      "theme": "securite",
      "title": "100 000 places de prison",
-     "proposal": "Construire rapidement 100 000 places de prison supplémentaires.",
+     "proposal": "Construire rapidement 100 000 places de prison supplémentaires, en constructions simples.",
      "claimed": "Non chiffré",
      "claimed_md": null,
      "estimates": [],
      "consensus": "isolé",
      "verdict": "sous_conditions",
-     "obstacle": "Construction et personnel à financer ; calendrier non publié.",
-     "a_confirmer": true,
-     "confirm_why": "Annoncée le 25/10/2026, mais connue par une seule reprise de presse qui ne cite pas le candidat : elle n'entre pas dans le total tant qu'une seconde source ne la confirme pas.",
+     "obstacle": "Capacités à bâtir (places et surveillants) : le programme de 15 000 places lancé en 2018 en a livré 7 684 brutes (5 711 nettes) ; 63 303 places opérationnelles pour 90 173 détenus au 10/09/2026. Calendrier non publié.",
      "claude": {
       "id": "prisons",
       "central": -3.2,
       "low": -9.0,
       "high": -1.6,
       "method": "ascendant",
-      "formula": "Indicatif, hors total, même règle que Le Pen (30 000 places), Retailleau (10 000 places) et Lisnard (20 000 places), construction exclue : 100 000 places × 32 k€ de coût annuel d'un détenu ≈ −3,2 ; borne basse avec la construction : 370 k€ la place (Sénat, cité par Montaigne) × 100 000 sur 5 ans ≈ 7,4 + moitié des places ouvertes ≈ 1,6 → −9,0 ; borne haute : moitié des places ouvertes en 2030 (−1,6)",
+      "formula": "Même règle que Le Pen (30 000 places), Retailleau (10 000 places) et Lisnard (20 000 places), construction exclue : 100 000 places × 32 k€ de coût annuel d'un détenu ≈ −3,2 ; borne basse avec la construction : 370 k€ la place (Sénat, cité par Montaigne) × 100 000 sur 5 ans ≈ 7,4 + moitié des places ouvertes ≈ 1,6 → −9,0 ; borne haute : moitié des places ouvertes en 2030 (−1,6)",
       "inputs": [
        {
         "label": "Coût d'un détenu",
@@ -15491,14 +15600,182 @@
        },
        {
         "label": "Proposition",
-        "value": "« la construction rapide de 100 000 places de prison supplémentaires » (émission « Les Incorrectibles » du 25/10/2026, rapportée par Entrevue ; vidéo non consultée)",
+        "value": "« construire 100 000 places de prison très vite » (transcription, 34:25) ; « on fait des constructions simples »",
+        "source": "Les Incorrectibles (25/10/2026), émission en accès libre et transcription de la plateforme",
+        "url": "https://lesincorrectibles.substack.com/p/eric-zemmour-la-france-face-au-chaos-1"
+       },
+       {
+        "label": "Reprise de presse",
+        "value": "« la construction rapide de 100 000 places de prison supplémentaires »",
         "source": "Entrevue (26/10/2026)",
         "url": "https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/"
+       },
+       {
+        "label": "Parc et programme en cours",
+        "value": "« 90 173 personnes détenues […] pour 63 303 places opérationnelles » (10/09/2026) ; programme de 2018 : « À ce jour, 26 établissements ont été livrés pour un total de 7 684 places brutes » (5 711 nettes)",
+        "source": "PAP 2027, mission Justice (programme 107)",
+        "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128243/file/x.pdf"
+       },
+       {
+        "label": "Retards",
+        "value": "« Le calendrier initial est désormais largement hors d'atteinte »",
+        "source": "Sénat, avis n° 145 (2025-2026), administration pénitentiaire",
+        "url": "https://www.senat.fr/rap/a25-145-6/a25-145-6_mono.html"
        }
       ],
-      "note": "Une seule source : à compter (−3,2) dès qu'une seconde source (vidéo de l'émission, site du candidat ou autre média) confirme le chiffre. Calendrier non publié. Point commun ouvert : compter ou non la construction (note de la fiche Le Pen), même décision pour les quatre."
+      "note": "Calendrier non publié. Valeur centrale au seul coût de fonctionnement (construction exclue), même règle pour les quatre candidats qui proposent des places (arbitrage du 27/10/2026) ; construction en borne basse. Verdict « sous conditions » pour toutes les fiches prisons (capacités à bâtir)."
      },
-     "quiz_text": "Construire rapidement 100 000 places de prison supplémentaires."
+     "quiz_text": "Construire rapidement 100 000 places de prison supplémentaires, en constructions simples."
+    },
+    {
+     "id": "aide_developpement",
+     "theme": "europe",
+     "title": "Suppression de l'aide au développement",
+     "proposal": "Supprimer l'aide publique au développement et l'Agence française de développement.",
+     "claimed": "14 Md€ (plan de 140 Md€ ; aide au sens de l'OCDE)",
+     "claimed_md": 14,
+     "estimates": [
+      {
+       "source": "Plan budget2027.fr",
+       "year": 2026,
+       "value": "budget2027.fr, ligne 14 : « Suppression de l'aide publique au développement et de l'Agence française de développement. 14 Md€ »",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://www.budget2027.fr/"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "tres_difficile",
+     "obstacle": "Rendement : les 14 Md€ annoncés sont l'aide au sens de l'OCDE, dont la part du budget de l'UE (unanimité des 27) et des dépenses hors crédits ; les crédits nationaux se réduisent par la loi de finances, mais les engagements multilatéraux et conventions déjà signés restent à payer.",
+     "claude": {
+      "id": "aide_developpement",
+      "central": 0.7,
+      "low": 0.5,
+      "high": 1.4,
+      "method": "ascendant",
+      "formula": "Niveau publié : zéro (suppression), sans date → 70 % de l'écart en 2030 (règle « Objectifs en niveau », appliquée à la baisse). Écart compté sur les seuls crédits de la mission « Aide publique au développement » : trajectoire du droit en vigueur = prévision indicative 2029 du PAP 2027, gelée en valeur en 2030 (110 : 1 044,0 M€ ; 209 : 1 040,3 ; 384 : 738,0). Non supprimable en 2030 : paiements dus sur engagements déjà pris (CP 2029 de l'échéancier du PAP, repris pour 2030 : 110 : 1 044,0 ; 209 : 395,5 ; 384 : 222,9), contributions au Fonds européen de développement (81,9), dotation en capital de l'AFD (programme 365, opération financière). Supprimable : 209 : 562,8 + 384 : 515,1 = 1 077,9 M€ courants, soit 1 010,7 M€ en euros 2026 (÷ 1,0665) ; × 70 % ≈ +0,7 Md€. Borne haute +1,4 : suppression dès le budget 2028 (100 %), paiements dus en 2030 extrapolés de l'échéancier au-delà de 2029 (110 : 918 ; 209 : 302 ; 384 : 125), dotation de l'AFD comprise. Borne basse +0,5 : suppression au budget 2029 (engagements de 2028 payés en 2030 selon les clés de paiement du PAP : +256 M€ dus).",
+      "inputs": [
+       {
+        "label": "Ligne du plan repris par le candidat",
+        "value": "« Suppression de l'aide publique au développement et de l'Agence française de développement. 14 Md€ » (ligne 14)",
+        "source": "budget2027.fr (plan de S. Knafo, lié depuis parti-reconquete.fr)",
+        "url": "https://www.budget2027.fr/"
+       },
+       {
+        "label": "Base des 14 Md€ du camp",
+        "value": "« aide publique au développement nette de la France à 13,9 milliards d'euros » (OCDE, 2023 ; preuve n° 70)",
+        "source": "sarahknafo.fr/preuves",
+        "url": "https://sarahknafo.fr/preuves"
+       },
+       {
+        "label": "Crédits de la mission (CP)",
+        "value": "3 569,4 M€ (LFI 2026) ; 3 170,8 (PLF 2027) ; 3 060,0 (2028) ; 2 897,3 (2029, prévision indicative)",
+        "source": "PAP 2027, mission « Aide publique au développement », récapitulation par programme et titre",
+        "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128210/file/PAP%202027%20-%20Aide%20publique%20au%20d%C3%A9veloppement.pdf"
+       },
+       {
+        "label": "Programmes en 2029 (CP, prévision indicative)",
+        "value": "110 : 1 044,0 M€ ; 209 : 1 040,3 ; 384 (Fonds de solidarité pour le développement) : 738,0 ; 365 (fonds propres de l'AFD, opérations financières) : 75,0",
+        "source": "PAP 2027, mission APD",
+        "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128210/file/PAP%202027%20-%20Aide%20publique%20au%20d%C3%A9veloppement.pdf"
+       },
+       {
+        "label": "Paiements dus sur engagements déjà pris (CP 2029 sur AE antérieures à 2028 ; au-delà de 2029)",
+        "value": "110 : 1 044,0 ; 7 629,5 — 209 : 395,5 ; 1 276,6 — 384 : 222,9 ; 286,7 (M€)",
+        "source": "PAP 2027, échéanciers des crédits de paiement des programmes 110, 209 et 384",
+        "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128210/file/PAP%202027%20-%20Aide%20publique%20au%20d%C3%A9veloppement.pdf"
+       },
+       {
+        "label": "Fonds européen de développement",
+        "value": "action 07 « Coopération communautaire » du programme 209 : 81,9 M€ en 2027 (AE = CP)",
+        "source": "PAP 2027, mission APD",
+        "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128210/file/PAP%202027%20-%20Aide%20publique%20au%20d%C3%A9veloppement.pdf"
+       },
+       {
+        "label": "Part du budget de l'UE (hors mission)",
+        "value": "tableau « Budget européen » : aide humanitaire, Facilité Ukraine, NDICI ; « taux de retour français 16,20 % » ; total 2027 : 2 600 M€ en engagements, 3 223 M€ en paiements",
+        "source": "PAP 2027, mission APD",
+        "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128210/file/PAP%202027%20-%20Aide%20publique%20au%20d%C3%A9veloppement.pdf"
+       },
+       {
+        "label": "PIB 2030",
+        "value": "3 399 Md€ courants, 3 187 Md€ en euros 2026 (rapport 1,0665)",
+        "source": "Scénario du Gouvernement (PLF 2027), avis HCFP 2026-5",
+        "url": "https://www.hcfp.fr/sites/default/files/2026-10/Avis%20HCFP%202026-5%20-%20PLF-PLFSS%202027.pdf"
+       },
+       {
+        "label": "Reprise du plan par le candidat",
+        "value": "« Nous, avec Sarah Knafo, nous voulons faire 140 milliards d'euros de baisses » sur les dépenses de l'État (entretien du 17/09/2026)",
+        "source": "BFMTV",
+        "url": "https://www.bfmtv.com/politique/elections/presidentielle/presidentielle-immigration-voile-marine-le-pen-ce-qu-il-faut-retenir-de-l-interview-d-eric-zemmour-sur-bfmtv_AV-202609170966.html"
+       }
+      ],
+      "note": "Part de l'aide européenne financée par la contribution française au budget de l'UE (3 223 M€ de paiements prévus en 2027 selon le PAP) : baisse unilatérale = 0, même règle que « Moins payer à l'UE » (Le Pen, Zemmour). Autres composantes de l'APD au sens de l'OCDE non comptées : accueil des demandeurs d'asile et frais d'écolage (autres missions), prêts de l'AFD (financés sur les marchés), annulations de dettes. Autre lecture de la règle des 70 % (70 % de l'écart total, 2 569 M€ en euros 2026, plafonné aux crédits supprimables) : +1,0, dans la fourchette. Reconfirmée comme les autres lignes du plan de 140 Md€ déjà comptées, par la reprise du plan le 17/09/2026 (site du candidat inaccessible le 29/10)."
+     },
+     "quiz_text": "Supprimer l'aide publique au développement et l'Agence française de développement."
+    },
+    {
+     "id": "cee",
+     "theme": "energie",
+     "title": "Fin des certificats d'économies d'énergie",
+     "proposal": "Supprimer les certificats d'économies d'énergie.",
+     "claimed": "Sans effet sur les comptes publics selon le camp (combienjegagne.fr)",
+     "claimed_md": 0,
+     "estimates": [
+      {
+       "source": "combienjegagne.fr (camp, lié depuis parti-reconquete.fr)",
+       "year": 2026,
+       "value": "« La suppression des CEE : sans impact sur les comptes publics. »",
+       "low_md": null,
+       "high_md": null,
+       "url": "https://combienjegagne.fr/"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Par la loi (code de l'énergie, art. L. 221-1 et suivants) ; l'objectif d'économies d'énergie de l'article 8 de la directive (UE) 2023/1791 reste à atteindre par d'autres mesures d'effet équivalent.",
+     "claude": {
+      "id": "cee",
+      "central": -0.9,
+      "low": -1.0,
+      "high": -0.7,
+      "method": "ascendant",
+      "formula": "Même lecture et même calcul pour Retailleau et Zemmour : la TVA payée par les ménages sur la part des certificats dans leurs factures disparaît avec eux. Cour des comptes (2022-2023) : TVA ≈ 7 814,8 × 20/120 = 1 302 M€ sur deux ans, soit 0,65 Md€ par an et 10,8 % du coût total TTC des ménages et HT des entreprises. Coût 2026 : plus de 8 Md€ (Gouvernement), obligation fixée jusqu'en 2030. Si les 8 Md€ sont comptés comme la Cour : 8 × 10,8 % = 0,87 ; s'ils sont hors taxes : 8 × 60,6 % (part des ménages hors TVA) × 20 % = 0,97 → milieu ≈ −0,9 Md€. Borne basse −1,0 ; borne haute −0,7 (coût revenu au niveau de 2022-2023). Les aides financées par les certificats (y compris la part de MaPrimeRénov', du leasing social et du bonus financée ainsi) disparaissent avec eux : sans effet sur le solde public si l'État ne les reprend pas (règle « part publique seulement »).",
+      "inputs": [
+       {
+        "label": "Proposition",
+        "value": "« La suppression des certificats d'économie d'énergie, cette autre taxe cachée sur votre facture. »",
+        "source": "Reconquête, pétition « NON à la nouvelle taxe sur les carburants ! » (stop-hausse-carburant.fr, lié depuis parti-reconquete.fr)",
+        "url": "https://www.stop-hausse-carburant.fr/"
+       },
+       {
+        "label": "Coût du dispositif",
+        "value": "« passer de 6 milliards d'euros en 2025 à plus de 8 milliards en 2026 »",
+        "source": "Ministre de la Transition écologique, audition du 24/10/2025, compte rendu n° 6 de la commission du développement durable (Assemblée nationale)",
+        "url": "https://www.assemblee-nationale.fr/dyn/opendata/CRCANR5L17S2026PO419865N006.html"
+       },
+       {
+        "label": "Coût 2022-2023 et part des ménages",
+        "value": "≈ 6 Md€ par an ; contributions 2022-2023 : ménages 7 814,8 M€ (TVA comprise), entreprises et autres 4 227,6 M€ ; « les ménages supportent directement à travers leurs factures d'énergie 65 % de l'obligation des CEE (en incluant la TVA qu'ils acquittent) »",
+        "source": "Cour des comptes, Les certificats d'économies d'énergie (juillet 2024), synthèse, chapitre II et annexe 14 (tableau 37)",
+        "url": "https://www.ccomptes.fr/sites/default/files/2024-09/20240917-Certificats-economie-energie_0.pdf"
+       },
+       {
+        "label": "TVA",
+        "value": "« Les ménages acquittent une TVA de 20 % pour les produits pétroliers, l'électricité et le gaz et de 5,5 % pour le chauffage des réseaux de chaleur » ; TVA « payée par les ménages et encaissée par l'État »",
+        "source": "Cour des comptes (2024), annexe 14",
+        "url": "https://www.ccomptes.fr/sites/default/files/2024-09/20240917-Certificats-economie-energie_0.pdf"
+       },
+       {
+        "label": "Obligation 2026-2030",
+        "value": "1 050 TWh cumac par an (décret du 30/10/2025)",
+        "source": "Conseil des prélèvements obligatoires (juin 2026), encadré 7",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-06/20260603-Quel-avenir-pour-la-fiscalite-de-l-energie.pdf"
+       }
+      ],
+      "note": "Proposée avec la baisse de l'accise sur les carburants (fiche à part). Chiffres professionnels (Ufip : 15 à 17 c€ par litre de carburant en 2026, cités par franceinfo) non retenus : s'ils étaient confirmés par une source officielle, la perte de TVA serait plus forte."
+     },
+     "quiz_text": "Supprimer les certificats d'économies d'énergie."
     }
    ],
    "total": {
@@ -15544,20 +15821,19 @@
     }
    },
    "claude_total": {
-    "sum": 22.2,
-    "p10": 14.5,
-    "p90": 34.9,
-    "realsum": 14.9,
-    "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, suppression de l'aide au développement, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, fin de la gratuité des études pour les étudiants étrangers 4 (montant des droits non publié), audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS et autres agences 2), lignes immigration de moins de 1 Md€ : visas plus chers 0,7, hébergement d'urgence fermé aux étrangers en situation irrégulière 0,7, aide juridictionnelle réservée aux Français 0,1, suppression des certificats d'économies d'énergie (TVA perdue sur leur part des factures ; coût officiel non vérifié)",
-    "n": 9,
-    "cost": -9.0,
-    "gain": 31.2,
+    "sum": 18.8,
+    "p10": 8.8,
+    "p90": 30.9,
+    "realsum": 11.5,
+    "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, fin de la gratuité des études pour les étudiants étrangers 4 (montant des droits non publié), audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS et autres agences 2), lignes immigration de moins de 1 Md€ : visas plus chers 0,7, hébergement d'urgence fermé aux étrangers en situation irrégulière 0,7, aide juridictionnelle réservée aux Français 0,1",
+    "n": 12,
+    "cost": -13.1,
+    "gain": 31.9,
     "confirm": [
      "Fin de la CSG sur les salaires",
      "Fin des droits de succession",
      "Fin des impôts de production",
-     "Quotient familial doublé",
-     "100 000 places de prison"
+     "Quotient familial doublé"
     ]
    },
    "short": "Zemmour",
@@ -15566,13 +15842,13 @@
   }
  ],
  "method": [
-  "<b>Notre chiffrage.</b> 145 mesures analysées, dont 113 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
+  "<b>Notre chiffrage.</b> 148 mesures analysées, dont 117 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
   "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». La lutte contre la fraude est comptée avec les leviers chiffrés par le Conseil d'analyse économique qui correspondent au champ de chaque mesure, dans la limite du chiffre du camp. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie ; la TVA perçue sur cette part des factures est en revanche une recette publique, perdue si elle est supprimée) ; un transfert entre administrations (de l'État vers les communes, par exemple) sans dépense définie par la mesure est neutre pour le solde public : compté 0, avec en borne basse le montant si le bénéficiaire le dépense en entier ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
   "<b>Objectifs en niveau.</b> Un objectif de dépense publié sous la forme d'un niveau à une date (en part du PIB ou en euros) est compté pour l'écart, en 2030, entre ce niveau et la trajectoire du droit en vigueur (loi de programmation militaire ou de la recherche ; à défaut, part du PIB constante) ; un objectif sans date ou fixé à la fin du mandat compte pour 70 % de cet écart. Le PIB de 2030 est celui du scénario du Gouvernement (projet de loi de finances 2027), ramené en euros de 2026. Quand la définition est ambiguë (dépense exécutée ou financée, périmètre), le milieu de la fourchette est retenu. La même règle vaut dans les deux sens : un niveau publié à la baisse (suppression comprise) compte comme une économie. Une prise de position au Parlement sur un texte déjà voté ne vaut pas programme, sauf si le candidat la reprend dans sa campagne.",
-  "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026, ou connues par une seule reprise de presse qui ne cite pas le candidat (marquées « À confirmer »), et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés. Un chiffrage qu'un candidat reprend comme le sien (d'un institut, d'une association ou d'un parti) compte comme chiffre de son camp, quel que soit son auteur ; une économie qui repose sur une baisse de flux ou un comportement supposés par une seule note n'est pas comptée, sauf si une évaluation ou une donnée officielle les établit.",
+  "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026, ou connues par une seule reprise de presse qui ne cite pas le candidat (marquées « À confirmer »), et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés. Un chiffrage qu'un candidat reprend comme le sien (d'un institut, d'une association ou d'un parti) compte comme chiffre de son camp, quel que soit son auteur. Le reprendre comme le sien, c'est publier ce chiffre comme son propre chiffre ; citer une étude comme une base parmi d'autres n'en fait pas un chiffre du camp. Une économie qui repose sur une baisse de flux ou un comportement supposés par une seule note n'est pas comptée, sauf si une évaluation ou une donnée officielle les établit.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 305 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 314 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 5 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». Quand un thème compte plus de cinq propositions, on affiche, dans le même ordre pour tous : d'abord celles de 2026 (les non reconfirmées passent après), parmi elles les précises avant les intentions, puis les plus récentes ; à égalité ou à date inconnue, l'ordre déjà affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce) ; une proposition remplacée par sa version précise n'est pas gardée en double, et une même proposition n'est affichée que dans un thème, le plus précis (l'énergie et le nucléaire dans « environnement »). Les propositions hors affichage restent notées dans le registre de suivi du projet (dépôt public). L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). Ce sont des ordres de grandeur.",
@@ -15686,6 +15962,10 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "29/10/2026",
+   "text": "Chiffrages vérifiés à la source. Zemmour : suppression de l'aide au développement comptée sur les seuls crédits que la France peut supprimer seule, +0,7 Md€ (les 14 Md€ annoncés comprennent la part versée par le budget européen, comptée 0 comme « Moins payer à l'UE ») ; fin des certificats d'économies d'énergie, −0,9 (TVA perdue sur leur part des factures, pour un coût officiel de plus de 8 Md€ en 2026) ; 100 000 places de prison, confirmées par l'émission du 25/10, comptées −3,2 comme les places de Le Pen, Retailleau et Lisnard. Retailleau : son plan met aussi fin aux certificats, même fiche et même valeur ; sa ligne « ménages » passe de −18 à −17,1, total inchangé. Fiches prisons « sous conditions » pour tous, Le Pen compris : le programme de 15 000 places lancé en 2018 en a livré 7 684. Assurance chômage (Attal, Retailleau) : les 3,6 Md€ du gouvernement de mai 2024, repris par Attal dans sa proposition de loi, deviennent un chiffre de camp ; le chiffrage de l'Unédic (+3,8) est retenu pour les deux. Le Pen : gel des taxes sur le tabac chiffré (≈ −0,1 Md€ en 2030, sous le seuil de 1 Md€) ; économies sur l'aide au développement du RN et de Retailleau (sans niveau publié) et rebudgétisation des certificats du RN listées « non comptées ». Totaux : Zemmour +22,2 → +18,8 ; Attal +7,8 → +8,0 ; Retailleau −22,1 → −21,9."
+  },
   {
    "date": "29/10/2026",
    "text": "Vie quotidienne : une même proposition n'est plus affichée dans deux thèmes ; l'énergie et le nucléaire restent dans « environnement » (Attal, Lisnard), avec la même lecture de la Cour des comptes sur les EPR pour tous. Retailleau : la fiche « impôts de production » ne mentionne plus les heures supplémentaires, qui ont leur propre fiche ; quiz aligné sur les autres mesures du même type."

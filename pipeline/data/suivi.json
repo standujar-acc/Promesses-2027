@@ -1420,10 +1420,10 @@
    "sujet": "Chiffrages d'instituts repris par un candidat comme les siens",
    "detail": "Règle ajoutée le 29/10 (S087) : un chiffrage qu'un candidat reprend comme le sien compte comme chiffre de son camp, quel que soit son auteur. Vérifier pour les 8 candidats les mesures où le site retient comme chiffrage indépendant une étude (iFRAP, Institut Montaigne, Terra Nova, Institut de l'Entreprise, Institut Molinari, Rexecode, OFCE…) que le candidat cite lui-même comme base de son chiffre ; si oui, la lire comme chiffre du camp et chercher un autre chiffrage. Option liée : actualiser la valeur de l'asile examiné hors des frontières (1,2 Md€, Institut Montaigne 2024) avec les crédits du PLF 2026 (1 379,6 M€ pour l'action 02), alors pour Le Pen, Retailleau et Lisnard en même temps.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 (décision du porteur). Règle précisée, écrite dans la méthode : reprendre un chiffrage comme le sien, c'est publier ce chiffre comme son propre chiffre ; citer une étude comme une base parmi d'autres n'en fait pas un chiffre du camp. Vérifié pour les 8 (contre-budget RN, note LFI du 14/10, Acte I, pages de Philippe, Nouvelle Énergie, budget2027.fr et sarahknafo.fr/preuves, attalpresident.fr, plan de Retailleau) : un seul cas. Attal : les 3,6 Md€ de la réforme de l'assurance chômage de 2024 sont le chiffre du gouvernement du candidat (mai 2024), repris dans sa proposition de loi n° 1791 : chiffre du camp, hors médiane ; chiffrage indépendant de l'Unédic (11/06/2024, lu via franceinfo avec AFP) : 3,2 à 4,4 Md€ la troisième année, soit 2030 si la réforme s'applique en 2028 → +3,8 (3,2 à 4,4), au lieu de +3,6. Même réforme, même valeur chez Retailleau : +3,6 → +3,8 (borne basse 3,2 ; borne haute 9,0 avec les ruptures conventionnelles limitées à 6 mois). Retailleau, immigration : l'Institut Montaigne est cité parmi d'autres bases (avec l'OID) pour un chiffre différent (3,6) : reste un chiffrage indépendant, +2,7 inchangé. Retailleau, « Coopération » : inchangé (non chiffrable, S094). Option liée (asile examiné hors des frontières recalculé avec les crédits du PLF 2027, 1,3) : non retenue, 1,2 (Institut Montaigne) maintenu pour Le Pen, Retailleau et Lisnard. Relevé en sens inverse : S123 ; document original de l'Unédic : S122. Totaux : Attal +7,8 → +8,0 ; Retailleau +0,2 (−22,1 → −21,9, S114 étant sans effet sur son total)."
   },
   {
    "id": "S094",
@@ -1437,10 +1437,10 @@
    "sujet": "Aide au développement : suppression publiée par Zemmour (règle symétrique S085)",
    "detail": "Règle du 29/10 : un niveau publié à la baisse, suppression comprise, compte comme une économie. Zemmour (plan budget2027.fr, ligne 14) annonce la suppression de l'aide au développement (14 Md€ selon le camp, au sens de l'OCDE, qui inclut des dépenses hors budget). À chiffrer sur les seuls crédits budgétaires de la mission « Aide publique au développement » (PLF 2027, programmes 110 et 209), avec 70 % en 2030 si aucune date n'est donnée, et à vérifier que la mesure est reconfirmée en 2026 (site de campagne inaccessible le 29/10). RN (« rationalisation », 2,1 dans le bloc État) et Retailleau (« recentrer ») : sans niveau, non chiffrables. Mélenchon et Glucksmann (0,7 % du RNB) : à reconfirmer (programme LFI du 6/11).",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 (décision du porteur). Zemmour : fiche « Suppression de l'aide au développement » ajoutée, +0,7 Md€ (de +0,5 à +1,4), « très difficile » : niveau publié zéro, sans date → 70 % de l'écart en 2030 (règle « Objectifs en niveau », appliquée à la baisse), compté sur les seuls crédits que la France peut supprimer seule (programmes 209 et 384 de la mission, PAP 2027, hors paiements dus sur engagements déjà pris, Fonds européen de développement et dotation en capital de l'AFD : 1 010,7 M€ en euros 2026 × 70 %) ; la part de l'aide versée par le budget de l'UE compte 0, comme « Moins payer à l'UE » ; les 14 Md€ du camp sont l'aide au sens de l'OCDE (accueil des demandeurs d'asile, prêts de l'AFD, annulations de dettes compris). Reconfirmée comme les autres lignes du plan de 140 Md€ déjà comptées (reprise du 17/09, BFMTV ; site du candidat inaccessible, 403). Retirée de la liste « non compté ». RN : « rationalisation de l'aide publique au développement et de l'action extérieure de l'État » (2,1 en 2027, sans niveau publié) nommée dans sa liste « non compté » ; Retailleau : « Coopération » (3,5 Md€ en 2032, sans niveau publié) nommée dans la sienne ; « recentrer » n'est pas une suppression : non chiffrable (la lecture « suppression de fait », la base citée valant à peu près le montant, est écartée). Mélenchon, Glucksmann : 0,7 % du RNB, toujours à confirmer (programme LFI du 6/11, S001 ; recoupement possible avec la fiche « coupes-2026 » de Mélenchon). Philippe, Attal, Lisnard : rien en 2026. Total de Zemmour +0,7."
   },
   {
    "id": "S095",
@@ -1728,10 +1728,10 @@
    "sujet": "Le Pen : gel des taxes sur le tabac et fin de leur indexation sur l'inflation",
    "detail": "Lettre ouverte aux buralistes publiée par le RN le 6/09/2026 (Capital, 7/09 ; lettre non ouverte) ; absente du contre-budget 2027. Paramètre publié (gel) ; calcul ascendant à faire : rendement 2026 de l'accise sur les tabacs (Voies et moyens 2027) × revalorisations évitées de 2028 à 2030 (inflation du PLF 2027), sans effet de volume non documenté ; baisse d'impôt sans calendrier, entière en 2030. Moins de 1 Md€ : reste dans la liste « non compté » ; au-delà : fiche à ajouter.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 : calcul ascendant sur données officielles. Lettre aux buralistes datée du 7/09/2026 (rassemblementnational.fr) ; paramètre précisé par l'amendement I-CF1011 d'une députée du groupe RN au PLF 2027 (4/10/2026, « conformément à la promesse de Marine Le Pen », rejeté en commission le 9/10) : tarifs et minima de perception de l'accise maintenus au 31/12/2026, sans indexation ; le taux proportionnel n'est pas indexé par la loi (circulaire des douanes du 30/07/2026). Indexations évitées de 2028 à 2030 (≈ 5,2 % cumulés) sur la part du tarif dans l'accise (17,2 % pour un paquet à 12,83 €), rendement 2027 de 10,7 Md€ (CCSS, octobre 2026) : ≈ −0,1 Md€ en 2030 avec la TVA ; jusqu'à −0,5 si toute l'accise suivait l'indexation ; effet de volume non documenté, non compté. Sous le seuil de 1 Md€ : reste dans la liste « non compté », avec le montant et la source (lecture : gel des taxes, le prix de vente étant fixé par les fabricants)."
   },
   {
    "id": "S113",
@@ -1759,10 +1759,10 @@
    "sujet": "Certificats d'économies d'énergie : coût officiel et part payée par les ménages",
    "detail": "Lecture commune (décision du porteur, 29/10) : la TVA perçue sur la part des certificats dans les factures est une recette publique. Retailleau : comptée au chiffre du camp dans la ligne « ménages » (3 Md€ avec le relais de MaPrimeRénov', sans détail). Zemmour : suppression des certificats (pétition de Reconquête) non comptée faute de coût officiel vérifié (« plus de 8 Md€ en 2026 selon le Gouvernement », relevé dans la presse) ; indicatif de 0 à −1,6 Md€ (note de la fiche accise). À chercher : coût officiel des certificats et part payée par les ménages ; si trouvés, chiffrer Zemmour avec la même lecture. Retailleau propose aussi de sortir l'électricité du périmètre des certificats (projet « Électricité », non vérifié) : même lecture.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 (décision du porteur). Coût officiel trouvé : plus de 8 Md€ en 2026 (ministre de la Transition écologique, audition à l'Assemblée du 24/10/2025, compte rendu officiel) ; part payée par les ménages et TVA : Cour des comptes (juillet 2024, contributions 2022-2023). Lecture commune : la TVA perçue sur la part des certificats dans les factures des ménages disparaît avec eux, ≈ −0,9 Md€ (de −1,0 à −0,7) ; les aides financées par les certificats disparaissent avec eux, sans effet sur le solde (part publique seulement). Zemmour (pétition de Reconquête) : fiche « Fin des certificats d'économies d'énergie » ajoutée, −0,9, retirée de la liste « non compté » ; note de la fiche accise mise à jour. Retailleau : son plan met fin aux certificats (fiche 14 du 12/10 : « effet net » de 4 Md€ autofinancé, TVA comprise dans la ligne « relais de MaPrimeRénov' et TVA sur les certificats » de 3 Md€) : même fiche, même valeur (−0,9), retirée de la ligne « ménages » (−18 → −17,1 ; borne haute −12,0), dont le texte est aligné sur la source : total inchangé ; projet « Électricité » compris. Le Pen : « rebudgétisation des certificats » du contre-budget (8 Md€, mécanisme non publié) nommée dans la liste « non compté ». Mélenchon, Glucksmann, Philippe, Attal, Lisnard : aucune proposition trouvée en 2026. Chiffres de l'Ufip (15 à 17 c€ par litre) non retenus, faute de source officielle. Quiz : S120 ; simulateur : S125."
   },
   {
    "id": "S115",
@@ -1774,10 +1774,10 @@
    "sujet": "Zemmour : 100 000 places de prison (25/10)",
    "detail": "Une seule source : Entrevue (26/10), d'après l'émission « Les Incorrectibles » du 25/10 (vidéo non consultée), sans citation du candidat. Fiche ajoutée « à confirmer » le 29/10 (décision du porteur), indicatif −3,2 Md€ (même calcul que Le Pen, Retailleau et Lisnard). À compter dès une seconde source (vidéo, site, autre média). Règle écrite dans la méthode : une mesure chiffrée connue par une seule reprise de presse qui ne cite pas le candidat reste « à confirmer » (la fin de l'abattement des pensions de Lisnard, S089, est comptée parce que Capital cite le candidat entre guillemets). Verdicts des fiches prisons à aligner : Le Pen « faisable », Lisnard et Zemmour « sous conditions ».",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 (décision du porteur) : seconde source, l'émission elle-même (« Les Incorrectibles », 25/10/2026, version en accès libre et transcription de la plateforme, 34 min 25 s : « construire 100 000 places de prison très vite […] on fait des constructions simples »). Marque « à confirmer » retirée ; comptée −3,2 (de −9,0 à −1,6), même calcul que Le Pen, Retailleau et Lisnard (coût annuel d'un détenu, construction en borne basse). Verdicts alignés : « sous conditions » pour toutes les fiches prisons, Le Pen compris (« faisable » auparavant) : capacités à bâtir, le programme de 15 000 places lancé en 2018 en a livré 7 684 brutes (5 711 nettes), 63 303 places opérationnelles pour 90 173 détenus au 10/09/2026 (PAP 2027 Justice ; Sénat, avis n° 145). Retailleau : ses 10 000 places sont dans la fiche « Peines planchers », qui reste « exige une révision » (pacte constitutionnel) ; même constat ajouté en note. Notes des fiches : la mention d'un point ouvert sur la construction est remplacée par l'arbitrage du 27/10 (S070 : fonctionnement seul en valeur centrale). Écart relevé : S121 ; quiz : S120 ; vie quotidienne : S124. Total de Zemmour −3,2."
   },
   {
    "id": "S116",
@@ -1846,6 +1846,101 @@
    "mesure": null,
    "sujet": "Projet de loi « casseurs-payeurs » à l'Assemblée",
    "detail": "Adopté par le Sénat le 28/10/2026 : responsabilité solidaire des participants jusqu'à 10 000 € chacun, saisie des allocations familiales et des APL, et, ajoutés par le Sénat, du RSA, du complément familial, de l'allocation de rentrée scolaire et de la prime d'activité ; interdictions administratives de manifester. S'il est voté, le droit existant change pour tous : revoir le texte commun (constante CASSE de life.py) et les propositions des candidats qui reprennent ses dispositions.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S120",
+   "type": "a_ajouter",
+   "candidats": [
+    "zemmour",
+    "retailleau",
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Quiz : mesures comptées sans entrée (aide au développement, certificats, prisons)",
+   "detail": "Comptées depuis le 29/10 sans entrée au quiz (texte courant, constat, « Pour » et « Contre » sourcés) : Zemmour, suppression de l'aide au développement et fin des certificats d'économies d'énergie ; Retailleau, fin des certificats ; Zemmour, 100 000 places de prison (comme les 20 000 places de Lisnard, déjà absentes). Mêmes études et mêmes cas pour les mesures du même type (prisons : ceux de la fiche Le Pen ; certificats : une seule entrée commune à Retailleau et Zemmour). À trancher avant : un duel entre deux propositions de même texte (prisons, certificats) n'apprend rien ; même règle pour tous.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S121",
+   "type": "a_corriger",
+   "candidats": [
+    "retailleau"
+   ],
+   "mesure": "securite",
+   "sujet": "Retailleau : borne basse des places de prison sans la construction",
+   "detail": "Les fiches prisons de Le Pen, Lisnard et Zemmour comptent la construction (370 k€ la place, sur 5 ans) en borne basse ; la fiche « Peines planchers » de Retailleau (10 000 places et 4 000 années de détention, −0,45) ne la compte pas (borne basse −0,6). Avec le gabarit commun : ≈ −0,45 − 0,74 (10 000 × 370 k€ / 5) ≈ −1,2. Sans effet sur la valeur centrale ni sur le total ; élargit la fourchette.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S122",
+   "type": "source_faible",
+   "candidats": [
+    "attal",
+    "retailleau"
+   ],
+   "mesure": "chomage",
+   "sujet": "Unédic, réforme de l'assurance chômage de 2024 : document original à ouvrir",
+   "detail": "Le chiffrage retenu le 29/10 pour Attal (« travail ») et Retailleau (« chomage ») : 4 à 5,4 Md€ par an à quatre-cinq ans, 3,2 à 4,4 Md€ dès 2027, lu via franceinfo avec AFP (11/06/2024). Ouvrir la note de l'Unédic de juin 2024 et remplacer la source ; vérifier la montée en charge (troisième année) et l'effet des règles changées depuis (convention de 2024-2025).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S123",
+   "type": "a_verifier",
+   "candidats": [
+    "le-pen",
+    "zemmour"
+   ],
+   "mesure": "production",
+   "sujet": "Impôts de production : l'estimation de l'Institut de l'Entreprise reprend le chiffre du camp",
+   "detail": "Relevé le 29/10 (S093, sens inverse) : l'estimation « Institut de l'Entreprise : 17,1 Md€ » de la fiche « Fin des impôts de production » de Le Pen reprend les lignes du contre-budget RN (CFE 8,1 + CVAE 3,7 + C3S 5,3) : ce n'est pas un chiffrage indépendant. La valeur retenue (−13, CFE + C3S, la CVAE étant déjà supprimée) est à refaire sur les rendements officiels : C3S 5 364 M€ en 2026 (CCSS, octobre 2026), CFE à relever ; même calcul pour la fiche de Zemmour (hors total) et la même base de C3S pour Lisnard et Retailleau.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S124",
+   "type": "a_ajouter",
+   "candidats": [
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Vie quotidienne, sécurité : 100 000 places de prison de Zemmour",
+   "detail": "Proposition confirmée le 25/10 (émission « Les Incorrectibles ») et comptée dans les fiches ; absente du thème « sécurité » de la vie quotidienne, où figurent les 20 000 places de Lisnard et le parc de 85 000 places de Le Pen. À ajouter selon la règle d'ordre du thème (S106), avec la même lecture des études que Lisnard.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S125",
+   "type": "a_verifier",
+   "candidats": [
+    "retailleau",
+    "zemmour"
+   ],
+   "mesure": "cee",
+   "sujet": "Simulateur : fin des certificats d'économies d'énergie",
+   "detail": "Mesure comptée chez Retailleau et Zemmour depuis le 29/10 ; son effet sur les factures n'est pas appliqué au simulateur, faute de chiffre officiel par litre ou par kWh (Ufip : 15 à 17 c€ par litre de carburant en 2026, chiffre professionnel ; Retailleau : « jusqu'à 17 centimes par litre »). Si un chiffre officiel est trouvé : même hypothèse pour les deux ; sinon, en note pour les deux.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-29",

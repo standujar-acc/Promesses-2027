@@ -5,7 +5,7 @@ Les programmes des candidats à la présidentielle française de 2027 (1er tour 
 **Site : [p2027.org](https://p2027.org)**
 
 <!-- totaux:debut (généré par pipeline/run.py, ne pas modifier à la main) -->
-Données à jour au 29 octobre 2026 : 8 candidats, 145 mesures.
+Données à jour au 29 octobre 2026 : 8 candidats, 148 mesures.
 
 | Candidat | Parti | Mesures chiffrées | Effet sur le déficit en 2030 (Md€/an) | Fourchette à 80 % |
 | --- | --- | --- | --- | --- |
@@ -13,10 +13,10 @@ Données à jour au 29 octobre 2026 : 8 candidats, 145 mesures.
 | Jean-Luc Mélenchon | LFI | 21 | −147,1 | −176,3 à −105,9 |
 | Édouard Philippe | Horizons | 9 | −0,3 | −30,1 à +4,8 |
 | Raphaël Glucksmann | PS-Place publique | 8 | −46,1 | −56,3 à −40,0 |
-| Gabriel Attal | Renaissance | 6 | +7,8 | +1,2 à +9,0 |
-| Bruno Retailleau | LR | 20 | −22,1 | −31,2 à −7,5 |
+| Gabriel Attal | Renaissance | 6 | +8,0 | +2,0 à +9,5 |
+| Bruno Retailleau | LR | 21 | −21,9 | −30,4 à −6,6 |
 | David Lisnard | Nouvelle Énergie | 14 | −52,0 | −59,2 à −45,5 |
-| Éric Zemmour | Reconquête | 9 | +22,2 | +14,5 à +34,9 |
+| Éric Zemmour | Reconquête | 12 | +18,8 | +8,8 à +30,9 |
 <!-- totaux:fin -->
 
 Un montant négatif creuse le déficit. Ces totaux supposent que toutes les mesures passent, y compris celles qui exigent une révision de la Constitution ou des traités. Les mesures non reconfirmées en 2026 et celles dont un paramètre clé n'est pas publié sont hors total.
