@@ -3,8 +3,7 @@ Usage : python3 pipeline/run.py
 Sorties :
   public/index.html               site autonome (Cloudflare Pages ou tout hébergeur statique)
   public/data/promesses-2027.json données ouvertes
-  public/candidats/<id>/, public/methode/  pages statiques (partage, référencement)
-  public/og/, sitemap.xml, robots.txt     images de partage (pipeline/og.py), plan du site
+  public/og.png, sitemap.xml, robots.txt  aperçu des liens partagés, référencement (pipeline/pages.py)
   pipeline/promesses-2027.html    version artifact claude.ai (non versionnée)
 """
 import json, os, runpy, re, html, shutil
@@ -21,7 +20,7 @@ head = re.sub(r'<link rel="(preconnect|stylesheet)" href="https://fonts\.(google
 head += '<link rel="preload" href="fonts/ibm-plex-sans.woff2" as="font" type="font/woff2" crossorigin>\n<style>' + open('fonts/fonts.css').read() + '</style>\n'
 # titre et balises de partage / référencement : pipeline/pages.py
 import pages
-head = re.sub(r'<title>.*?</title>', '<title>' + html.escape(pages.HOME_TITLE) + '</title>', head)
+head = re.sub(r'<title>.*?</title>', '<title>' + html.escape(pages.TITLE) + '</title>', head)
 page = f'''<!doctype html>
 <html lang="fr">
 <head>
@@ -40,7 +39,7 @@ shutil.rmtree(os.path.join(ROOT, 'public', 'fonts'), ignore_errors=True)
 shutil.copytree('fonts', os.path.join(ROOT, 'public', 'fonts'), ignore=shutil.ignore_patterns('fonts.css'))
 open(os.path.join(ROOT, 'public', 'index.html'), 'w').write(page)
 json.dump(D, open(os.path.join(ROOT, 'public', 'data', 'promesses-2027.json'), 'w'), ensure_ascii=False, indent=1)
-# pages par candidat et méthode (HTML statique), images de partage, icônes, plan du site, robots.txt, en-têtes
+# image d'aperçu des liens partagés, icônes, plan du site, robots.txt, en-têtes (pipeline/static/)
 pages.write(D, ROOT, HERE)
 
 # README : date et tableau des totaux, régénérés à chaque passage

@@ -1468,7 +1468,7 @@
    "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": "Fait le 29/10 : images d'aperçu 1200 × 630 (accueil et une par candidat, même gabarit, sans chiffre ni sondage) ; balises Open Graph et X/Twitter, adresse canonique, données structurées (site, jeu de données ouvert, pages) ; une page HTML statique par candidat (/candidats/<id>/) et pour la méthode, liées depuis le bas de l'app ; plan du site et robots.txt ; icônes. Reste au porteur : déclarer le site dans Google Search Console (validation par fichier ou balise, à lui de la créer) et y envoyer le plan du site ; un nom de domaine propre améliorerait le référencement (changer alors SITE_URL)."
+   "resolution": "Fait le 29/10 : image d'aperçu 1200 × 630 (sans chiffre ni sondage) et balises Open Graph et X/Twitter, lues par WhatsApp, les réseaux sociaux et les messageries ; adresse canonique, données structurées (site, jeu de données ouvert), plan du site et robots.txt, icônes ; nouvelle adresse du site : https://p2027.org (demande du porteur). Pages statiques par candidat retirées à la demande du porteur. Reste au porteur : déclarer p2027.org dans Google Search Console et y envoyer le plan du site ; s'il le souhaite, rediriger promesses-2027.pages.dev vers p2027.org dans Cloudflare."
   }
  ]
 }
