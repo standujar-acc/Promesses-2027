@@ -859,10 +859,10 @@
    "sujet": "Vie quotidienne, école : études de la fiche sans rapport avec certaines mesures",
    "detail": "Relevé en rédigeant le quiz (27/10/2026) : les fiches citent la note DEPP sur le dédoublement pour l'école rurale (Mélenchon), le privé (Glucksmann) et l'amende aux parents (Philippe), et l'étude sur le redoublement pour les établissements autonomes (Retailleau). Reprendre les études du quiz (regroupements d'écoles, IPP 2021 sur le privé, évaluation galloise 2018, académies anglaises) avec la même lecture pour les mesures du même type.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
-   "resolution": null
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 : les 8 fiches école reprennent les études du quiz, avec la même lecture pour un même type de mesure. Petites classes (DEPP 2026, via la Synthèse n° 8 officielle) ; salaires (hausse générale jamais évaluée, prime REP+ doublée : +3 points de premiers vœux, Insee 2023) pour Le Pen, Glucksmann, Philippe et Attal (Lisnard aussi) ; examen de fin de cycle (Allemagne 2005, redoublement Cnesco 2014) pour Retailleau, Attal, Lisnard et Zemmour ; regroupements d'écoles (Danemark 2018, Pays-Bas 2016) pour Mélenchon ; IPP 2021 sur Paris pour Glucksmann ; évaluation galloise 2018 des amendes pour Philippe ; académies anglaises (2017, 2019) pour Retailleau. Copies de presse media.ac-normandie.fr (inaccessibles) retirées. Arbitrage (même lecture d'une étude, même niveau) : Retailleau, Lisnard et Zemmour passent de « non démontrée » à « mitigée », comme Attal qui avait déjà la lecture « examen ». Textes de 259 à 406 caractères acceptés (une lecture par type de mesure)."
   },
   {
    "id": "S059",
@@ -904,11 +904,11 @@
     "lisnard.sante.2"
    ],
    "sujet": "Quiz : propositions sans constat chiffré",
-   "detail": "Mesures institutionnelles ou de principe (constat vide à juste titre) et quelques mesures pour lesquelles aucune série officielle n'a été vérifiée le 27/10/2026 (ex. surpeuplement des familles, accès à la propriété, impôt sur les sociétés). Chercher une série officielle sur 5 ans au moins ; laisser vide s'il n'y a pas de problème mesurable.",
+   "detail": "Mesures institutionnelles ou de principe (constat vide à juste titre) et quelques mesures pour lesquelles aucune série officielle n'a été vérifiée le 27/10/2026 (ex. surpeuplement des familles, accès à la propriété, impôt sur les sociétés). Chercher une série officielle sur 5 ans au moins ; laisser vide s'il n'y a pas de problème mesurable. 29/10 : 11 constats ajoutés (attal.retraites, retailleau.fin_maprimerenov, zemmour.anah, philippe.logement.1, retailleau.logement.2, lisnard.is20, le-pen.pfu, melenchon.ttf, melenchon.niches, glucksmann.defense, lisnard.ecole.3). Laissés vides avec motif : mesures institutionnelles ou d'organisation (attal.europe, lisnard.referendum, melenchon.constituante, lisnard.sante.2, retailleau.ecole.3), glucksmann.ukraine (pas de série officielle sur 5 ans), attal.travail (série Dares des heures supplémentaires inaccessible), service civique de Glucksmann et engagement civique d'Attal (la série INJEP sur le bénévolat ne mesure pas ce que visent ces mesures : vide pour les deux). Règles tranchées : mesure fiscale → constat sur l'impôt visé (poids ou rendement ; à défaut de série, son assiette) ; « passoires énergétiques » gardé pour les 5 aides à la rénovation (seule série officielle comparable, depuis 2023) ; prêts liés aux enfants : constat selon l'objet déclaré (logement pour Philippe, naissances pour Le Pen). Reste ouvert pour attal.travail.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
+   "maj": "2026-10-29",
    "resolution": null
   },
   {
@@ -919,10 +919,10 @@
    "sujet": "Quiz : côtés sans cas réel et pistes non vérifiées",
    "detail": "Côtés sans cas (preuve faible ou pas d'étude, conforme à la règle) : attal.travail (pour/contre), glucksmann.service_civique (pour), le-pen.ame (pour), lisnard.ame (pour), lisnard.referendum (pour), melenchon.constituante (pour), melenchon.jeunes (contre), philippe.famille (contre), philippe.jeunes_parents (contre), retailleau.ame (pour), zemmour.remigration (pour), attal.logement.1 (pour), attal.logement.2 (pour), philippe.ecole.3 (pour), lisnard.sante.2 (pour/contre). Pistes non vérifiées faute de recherche web (quota épuisé le 27/10/2026), à reprendre : droit du sol restreint à Mayotte (2018), quotas annuels italiens, part du regroupement familial dans les titres, évaluation du RSA de 2011, Garantie jeunes, gel des prestations au Royaume-Uni, bilan 2011 de la loi sur l'absentéisme scolaire, effet du prêt à taux zéro sur les prix (article original), série DREES sur les médecins traitants, effets à long terme des CP dédoublés (note DEPP 2026, accès refusé). Une source ne devient un cas que si elle passe les 4 critères (pertinent, observé, reconnu, non isolé).",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
-   "resolution": null
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 : 5 côtés complétés. melenchon.jeunes (Contre) : même étude Fack-Grenet que le Pour, lue de l'autre côté. philippe.famille et le-pen.pret-3e-enfant (Contre) : revue de 35 études (2021), même cas pour les deux aides en argent à la naissance. philippe.jeunes_parents (Contre) : même cas Landais (2003) que les autres avantages fiscaux aux familles. philippe.logement.1 : « 7 % » (rapport IPP inaccessible) remplacé par l'article d'origine vérifié (hausse passagère du prix des terrains, sans chiffre). Les autres côtés restent vides : aucun cas ne passe les 4 critères (pertinent, observé, source reconnue, non isolé). Mayotte (droit du sol restreint en 2018) non ajouté : fait vérifié mais sans lien avec l'argument « Contre » actuel ; il vaudrait pour toutes les mesures du même type si cet argument était réécrit. Pistes déjà notées (quotas italiens : chiffres vus seulement dans des relais) non retenues."
   },
   {
    "id": "S062",
@@ -1398,6 +1398,19 @@
    "cree": "2026-10-29",
    "maj": "2026-10-29",
    "resolution": "Fait le 29/10 : sur ordinateur, barre fixe en haut au défilement (les 8 candidats et les onglets Budget / Vie quotidienne), présentation et total toujours affichés aux mêmes places dans les deux onglets ; changer de candidat ou d'onglet depuis le bas de page ramène en haut de la fiche ; candidat choisi en plein (bleu nuit) sur ordinateur et téléphone ; téléphone : même ordre qu'avant, pas de barre fixe (place limitée). Accueil : rangées du classement visiblement cliquables. Relecture des autres pages : résultat du quiz sur deux colonnes sur ordinateur ; simulateur, méthode et accueil gardés (déjà en colonnes). Puis, à la demande du porteur : sur téléphone aussi, les 8 candidats restent accessibles au défilement (bande d'une ligne, fixe en haut, qui défile horizontalement et garde le candidat choisi visible). Puis, retour du porteur (29/10) : la bande collante ne suivait pas sur son téléphone, et en haut de fiche il préfère les deux lignes. Les 8 candidats sont de nouveau sur deux lignes en haut de la fiche ; dès qu'elles sortent de l'écran, une bande d'une ligne glisse en haut (position fixe, qui ne dépend plus du défilement collant) ; choisir un candidat dans la bande ramène en haut de la fiche."
+  },
+  {
+   "id": "S092",
+   "type": "a_verifier",
+   "candidats": [],
+   "mesure": "life:ecole",
+   "sujet": "Note DEPP 2026 sur les classes dédoublées : page officielle inaccessible",
+   "detail": "La page officielle de la DEPP (education.gouv.fr/depp/…-506212) renvoie 403 le 29/10/2026. Le contenu est lu via professeurs-des-ecoles.com, qui y renvoie, et la Synthèse DEPP n° 8 (officielle, ouverte) confirme le résultat pour la 1re cohorte. Rouvrir la page officielle pour citer la note elle-même. Autres sources inaccessibles le 29/10 : note IPP n° 62 (HAL, vérifiée via la Banque des territoires), rapport IPP n° 16 (2016), série Dares des heures supplémentaires.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
   }
  ]
 }
