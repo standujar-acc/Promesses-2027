@@ -12208,7 +12208,7 @@
  "changelog": [
   {
    "date": "29/10/2026",
-   "text": "« Signaler une erreur » en bas de chaque page (en plus du bouton de chaque fiche), y compris sur le quiz, le simulateur et la vie quotidienne ; nouvelle rubrique « Contact et signalements » dans la méthode, avec un lien vers les tickets publics du projet sur GitHub."
+   "text": "« Signaler une erreur » en bas de chaque page (en plus du bouton de chaque fiche), y compris sur le quiz, le simulateur et la vie quotidienne ; nouvelle rubrique « Contact et signalements » dans la méthode, avec un lien vers les tickets publics du projet sur GitHub. Nouvelles rubriques « Qui fait ce site » (site indépendant, sans lien avec un parti, un candidat ou une équipe de campagne, sans financement) et « Mentions légales »."
   },
   {
    "date": "28/10/2026",
@@ -12311,6 +12311,8 @@
   "wikiglucksmann"
  ],
  "repo_url": "https://github.com/standujar-acc/Promesses-2027",
+ "about": "Promesses 2027 est un site indépendant : il n'a aucun lien avec un parti, un candidat ou une équipe de campagne, et ne reçoit aucun financement. Les mêmes règles s'appliquent à tous les candidats ; la méthode, le code et les données sont publics, et chaque correction est datée dans l'historique.",
+ "legal": "Éditeur : un particulier, à titre non professionnel ; contact par le bouton « Signaler une erreur » ou les tickets publics GitHub (voir ci-dessus). Hébergeur : Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, États-Unis, tél. +1 888 993 5273. Code sous licence MIT, données sous licence CC BY 4.0.",
  "contact": "Une erreur, une source manquante, une mesure oubliée ? Le bouton « Signaler une erreur » est en bas de chaque page et dans chaque fiche (en dépliant la mesure). Chaque signalement est relu avant toute correction ; une correction est appliquée de la même façon à tous les candidats et apparaît dans l'historique. Un signalement ne contient que ce que vous écrivez. Vous pouvez aussi ouvrir un ticket public :",
  "privacy": "Pas de compte, pas de publicité, pas de mesure d'audience. Vos réponses au quiz et les informations saisies dans le simulateur restent dans votre navigateur : elles ne sont ni enregistrées ni envoyées. Seul le dernier onglet consulté est gardé sur votre appareil. Un signalement d'erreur envoie uniquement ce que vous écrivez dans le formulaire, sans votre adresse IP ; les quotas anti-abus utilisent une empreinte de l'adresse IP, effacée sous 48 heures. Le site est hébergé par Cloudflare et ne fait appel à aucun autre service : les polices de caractères sont servies par le site lui-même.",
  "life_themes": [

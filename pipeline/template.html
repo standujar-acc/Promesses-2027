@@ -481,11 +481,15 @@ table.grid td button{min-width:44px;min-height:44px;display:inline-grid;place-it
     <p class="notes" id="opendata"></p>
     <h2>Vos données</h2>
     <p class="notes" id="privacy"></p>
+    <h2>Qui fait ce site</h2>
+    <p class="notes" id="about"></p>
     <h2>Contact et signalements</h2>
     <p class="notes" id="contact"></p>
+    <h2>Mentions légales</h2>
+    <p class="notes" id="legal"></p>
   </section>
 
-  <footer class="foot"><button data-go="methode">Méthode</button><button data-go="methode" data-anchor="log">Historique des mises à jour</button><button data-go="methode" data-anchor="opendata">Open source</button><button data-go="methode" data-anchor="privacy">Vos données</button><button data-go="methode" data-anchor="contact">Contact</button><button id="foot-report">Signaler une erreur</button><a id="foot-src" target="_blank" rel="noopener" hidden>Code source sur GitHub</a><div class="report" id="foot-rep" hidden></div><p class="small muted">Projet open source. Vos réponses au quiz et au simulateur ne sont ni enregistrées ni envoyées.</p></footer>
+  <footer class="foot"><button data-go="methode">Méthode</button><button data-go="methode" data-anchor="log">Historique des mises à jour</button><button data-go="methode" data-anchor="opendata">Open source</button><button data-go="methode" data-anchor="privacy">Vos données</button><button data-go="methode" data-anchor="about">Qui fait ce site</button><button data-go="methode" data-anchor="contact">Contact</button><button id="foot-report">Signaler une erreur</button><a id="foot-src" target="_blank" rel="noopener" hidden>Code source sur GitHub</a><div class="report" id="foot-rep" hidden></div><p class="small muted">Site indépendant et open source, sans lien avec aucun parti ni candidat. Vos réponses au quiz et au simulateur ne sont ni enregistrées ni envoyées. <button data-go="methode" data-anchor="legal">Mentions légales</button></p></footer>
 </main>
 
 <nav class="bottom" id="bottomnav" aria-label="Navigation"></nav>
@@ -1086,6 +1090,8 @@ document.getElementById('notes').innerHTML = D.method.map(t=>`<p>${t}</p>`).join
 document.getElementById('log').innerHTML = (D.changelog||[]).map(l=>`<li><span class="num muted">${esc(l.date)}</span><span>${esc(l.text)}</span></li>`).join('');
 document.getElementById('opendata').innerHTML = D.opendata;
 document.getElementById('privacy').innerHTML = D.privacy;
+document.getElementById('about').innerHTML = D.about;
+document.getElementById('legal').innerHTML = D.legal;
 document.getElementById('contact').innerHTML = D.contact + (D.repo_url?` <a href="${esc(D.repo_url)}/issues" target="_blank" rel="noopener">Tickets publics sur GitHub</a>`:'');
 // signalement depuis n'importe quelle page : la fiche du candidat affiché, sinon le site
 document.getElementById('foot-report').onclick = () => reportForm(document.getElementById('foot-rep'), view==='cand'?cur:'site', view==='cand'?'page':view);
