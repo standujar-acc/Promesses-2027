@@ -15964,6 +15964,10 @@
  "changelog": [
   {
    "date": "29/10/2026",
+   "text": "Vie quotidienne : les propositions ajoutées le 29/10 citent les études qui portent sur elles, avec le même texte pour un même type de proposition chez tous les candidats : justice des mineurs (Attal, Lisnard, Retailleau), centres éducatifs fermés et fichier des casseurs (Lisnard), reconnaissance faciale (Attal), déchéance de nationalité (Retailleau, Zemmour), Parcoursup (Mélenchon, Glucksmann, Retailleau), internats disciplinaires (Retailleau), chèque-éducation (Lisnard), règle d'or (Le Pen, Philippe), code du travail (Attal, Retailleau), stabilité fiscale (Attal, Lisnard), contrat unique (Lisnard), droits de douane (Attal), Schengen (Retailleau), droit à la sécurité (Retailleau), discipline des magistrats (Retailleau, Philippe), vote à 16 ans (Mélenchon), voile (Lisnard), marché carbone des carburants (Zemmour), aides aux voitures électriques (Philippe, Attal, Glucksmann). Une étude déjà citée sous plusieurs formes l'est désormais avec le même texte pour tous (impôts de production, heures supplémentaires, IA, RTE, EPR, référendum, dépenses de défense, police de proximité). Texte « casseur-payeur » raccourci pour tous, même contenu. Mélenchon : l'objectif de 19 élèves par classe, repris dans sa note du 14/10, n'est plus marqué « non reconfirmé ». Quiz : 5 propositions ajoutées (Parcoursup pour trois candidats, internats disciplinaires, chèque-éducation)."
+  },
+  {
+   "date": "29/10/2026",
    "text": "Chiffrages vérifiés à la source. Zemmour : suppression de l'aide au développement comptée sur les seuls crédits que la France peut supprimer seule, +0,7 Md€ (les 14 Md€ annoncés comprennent la part versée par le budget européen, comptée 0 comme « Moins payer à l'UE ») ; fin des certificats d'économies d'énergie, −0,9 (TVA perdue sur leur part des factures, pour un coût officiel de plus de 8 Md€ en 2026) ; 100 000 places de prison, confirmées par l'émission du 25/10, comptées −3,2 comme les places de Le Pen, Retailleau et Lisnard. Retailleau : son plan met aussi fin aux certificats, même fiche et même valeur ; sa ligne « ménages » passe de −18 à −17,1, total inchangé. Fiches prisons « sous conditions » pour tous, Le Pen compris : le programme de 15 000 places lancé en 2018 en a livré 7 684. Assurance chômage (Attal, Retailleau) : les 3,6 Md€ du gouvernement de mai 2024, repris par Attal dans sa proposition de loi, deviennent un chiffre de camp ; le chiffrage de l'Unédic (+3,8) est retenu pour les deux. Le Pen : gel des taxes sur le tabac chiffré (≈ −0,1 Md€ en 2030, sous le seuil de 1 Md€) ; économies sur l'aide au développement du RN et de Retailleau (sans niveau publié) et rebudgétisation des certificats du RN listées « non comptées ». Totaux : Zemmour +22,2 → +18,8 ; Attal +7,8 → +8,0 ; Retailleau −22,1 → −21,9."
   },
   {
@@ -16221,7 +16225,7 @@
      }
     ],
     "indicator": "85 000 places de prison visées pour 2027 (programme 2022)",
-    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Nouvelles places de prison vite comblées (Sénat, 2023). Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué.",
+    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Nouvelles places de prison vite comblées (Sénat, 2023). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -16391,7 +16395,7 @@
      }
     ],
     "indicator": "5 Md€ de subventions rendues aux ménages (programme 2022)",
-    "evidence": "RTE : neutralité carbone « impossible sans développement significatif des renouvelables » ; de nouveaux réacteurs restent économiquement pertinents (Futurs énergétiques 2050).",
+    "evidence": "RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -16521,7 +16525,7 @@
      }
     ],
     "indicator": "Déficit public sous 3 % du PIB en 2030",
-    "evidence": "IPP (2025) : la baisse CVAE/CFE de 2021 n'a eu aucun effet mesurable sur l'investissement et un impact limité sur la masse salariale. RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents.",
+    "evidence": "RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents. Règle d'or : effet modéré sur les déficits, plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023). Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -16553,6 +16557,21 @@
       "label": "LCP, règle d'or (tribune du 1/10)",
       "year": 2026,
       "url": "https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par"
+     },
+     {
+      "label": "Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)",
+      "year": 2016,
+      "url": "https://www.zew.de/PU77836"
+     },
+     {
+      "label": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
+      "year": 2026,
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=DE&unit=PC_GDP&sector=S13&na_item=GD&time=2010&time=2019&time=2024"
+     },
+     {
+      "label": "Cour constitutionnelle fédérale allemande, communiqué n° 101/2023",
+      "year": 2023,
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/EN/2023/bvg23-101.html"
      }
     ]
    },
@@ -16707,6 +16726,11 @@
       "old": false
      },
      {
+      "text": "Se rapprocher en un mandat de 19 élèves par classe (moyenne européenne), priorité au secondaire public",
+      "verifiable": true,
+      "old": false
+     },
+     {
       "text": "Transport scolaire limité à 15 minutes, écoles à classe unique maintenues",
       "verifiable": true,
       "old": false
@@ -16715,15 +16739,10 @@
       "text": "Scolarité obligatoire jusqu'à 18 ans",
       "verifiable": true,
       "old": true
-     },
-     {
-      "text": "Réduire les effectifs par classe, priorité maternelle et REP",
-      "verifiable": false,
-      "old": true
      }
     ],
     "indicator": null,
-    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; en 6e, aucun en français, petit gain en maths après la 1re génération (DEPP, 2026). Petites écoles : regroupements suivis d'une baisse passagère des résultats (Danemark, 2018) ou d'un léger gain (Pays-Bas, 2016).",
+    "evidence": "Parcoursup : fin du tirage au sort, classements peu transparents, quotas de boursiers peu efficaces (Cour des comptes, 2020). Petites classes en CP-CE1 : gains nets en CP ; en 6e, aucun en français, petit gain en maths après la 1re génération (DEPP, 2026). Petites écoles : regroupements suivis d'une baisse passagère des résultats (Danemark, 2018) ou d'un léger gain (Pays-Bas, 2016).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -16765,6 +16784,11 @@
       "label": "L'Express via Orange, meeting de Clermont-Ferrand (11/10)",
       "year": 2026,
       "url": "https://actu.orange.fr/politique/presidentielle-2027-suppression-de-parcoursup-droit-de-vote-a-16-ans-jean-luc-melenchon-multiplie-les-propositions-pour-les-jeunes-magic-CNT000002sCYOg.html"
+     },
+     {
+      "label": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
+      "year": 2020,
+      "url": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
      }
     ]
    },
@@ -16878,7 +16902,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "RIC : peu d'études causales. En Suisse, initiatives rarement adoptées mais qui structurent le débat ; risque d'usage restrictif des libertés signalé (AMU, 2024).",
+    "evidence": "Vote à 16 ans : les 16-17 ans votent plus que les 18-20 ans en Autriche (Vienne 2010 : 64 % contre 56 %) et en Écosse (2014) ; effet durable peu mesuré. RIC : peu d'études causales. En Suisse, initiatives rarement adoptées mais qui structurent le débat ; risque d'usage restrictif des libertés signalé (AMU, 2024).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -16905,6 +16929,16 @@
       "label": "L'Express via Orange, meeting de Clermont-Ferrand (11/10)",
       "year": 2026,
       "url": "https://actu.orange.fr/politique/presidentielle-2027-suppression-de-parcoursup-droit-de-vote-a-16-ans-jean-luc-melenchon-multiplie-les-propositions-pour-les-jeunes-magic-CNT000002sCYOg.html"
+     },
+     {
+      "label": "Zeglovits, Aichholzer, vote à 16 ans en Autriche (Journal of Elections, Public Opinion and Parties)",
+      "year": 2014,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4864896/"
+     },
+     {
+      "label": "J. Curtice, What Scotland Thinks : participation des 16-17 ans au référendum de 2014 (sondage ICM pour la Commission électorale)",
+      "year": 2014,
+      "url": "https://www.whatscotlandthinks.org/2014/12/many-16-17-year-olds-voted/"
      }
     ]
    },
@@ -17015,7 +17049,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Bracelet plutôt que courte prison : récidive −6 à 7 points (Henneguelle, 2016). Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué.",
+    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Bracelet plutôt que courte prison : récidive −6 à 7 points (Henneguelle, 2016). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -17180,8 +17214,8 @@
      }
     ],
     "indicator": "2 Md€ par an pour l'adaptation au changement climatique",
-    "evidence": "HCC 2026 : France « pas prête », plan d'adaptation sous-financé, risque de « maladaptation ». Aucune évaluation d'un fonds unique d'adaptation.",
-    "evidence_level": "pas_d_etude",
+    "evidence": "HCC 2026 : France « pas prête », plan d'adaptation sous-financé, risque de « maladaptation ». Aucune évaluation d'un fonds unique d'adaptation. Leasing social 2024 : 47 000 ménages aidés, sans bilan CO₂ publié. Aide aux ménages modestes pour un véhicule électrique neuf ou d'occasion : demande très sensible au prix (Californie, 2022).",
+    "evidence_level": "mitigee",
     "sources": [
      {
       "label": "My Angers, déplacement aux Ponts-de-Cé",
@@ -17197,6 +17231,16 @@
       "label": "Site Édouard Philippe, « Pour une France plus conquérante »",
       "year": 2026,
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+     },
+     {
+      "label": "Muehlegger, Rapson, aides aux véhicules électriques des ménages modestes en Californie (NBER w25359, Journal of Public Economics 2022)",
+      "year": 2022,
+      "url": "https://www.nber.org/papers/w25359"
+     },
+     {
+      "label": "Connaissance des énergies, bilan leasing",
+      "year": 2025,
+      "url": "https://www.connaissancedesenergies.org/leasing-social-un-levier-perenne-pour-aider-les-menages-les-plus-modestes"
      },
      {
       "label": "Haut Conseil pour le climat, rapport annuel 2026",
@@ -17255,7 +17299,7 @@
      }
     ],
     "indicator": "Réformes par ordonnances applicables dès l'automne 2027",
-    "evidence": "Aucune évaluation empirique identifiée de l'effet des ordonnances ou du lien parquet-exécutif sur l'efficacité de l'action publique.",
+    "evidence": "Aucune évaluation empirique identifiée de l'effet des ordonnances ou du lien parquet-exécutif sur l'efficacité de l'action publique. Discipline des magistrats : 254 plaintes de justiciables en 2025, une seule renvoyée devant le conseil de discipline (CSM, 2026).",
     "evidence_level": "pas_d_etude",
     "sources": [
      {
@@ -17272,6 +17316,11 @@
       "label": "Votons 2027, institutions Philippe (agrégateur)",
       "year": 2026,
       "url": "https://votons-2027.fr/candidats/philippe/programme/institutions"
+     },
+     {
+      "label": "Conseil supérieur de la magistrature, rapport d'activité 2025 (chiffres clés)",
+      "year": 2026,
+      "url": "https://www.conseil-superieur-magistrature.fr/sites/default/files/pdf/CSM_RA_2025_Web_compress%C3%A9_0.pdf"
      }
     ]
    },
@@ -17300,7 +17349,7 @@
      }
     ],
     "indicator": "+1 000 €/an pour un salarié au SMIC passant à 37 h",
-    "evidence": "Heures sup défiscalisées (TEPA) : pas d'effet significatif sur les heures travaillées (IPP, 2012). Chômage plus court de 12 %, mais emplois peu durables (Dares, 2025). Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025).",
+    "evidence": "Heures sup défiscalisées (TEPA) : pas d'effet significatif sur les heures travaillées (IPP, 2012). Chômage plus court de 12 %, mais emplois peu durables (Dares, 2025). Règle d'or : effet modéré sur les déficits, plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023). Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -17337,6 +17386,21 @@
       "label": "Site Édouard Philippe, « Pour une France plus prospère »",
       "year": 2026,
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+     },
+     {
+      "label": "Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)",
+      "year": 2016,
+      "url": "https://www.zew.de/PU77836"
+     },
+     {
+      "label": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
+      "year": 2026,
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=DE&unit=PC_GDP&sector=S13&na_item=GD&time=2010&time=2019&time=2024"
+     },
+     {
+      "label": "Cour constitutionnelle fédérale allemande, communiqué n° 101/2023",
+      "year": 2023,
+      "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/EN/2023/bvg23-101.html"
      }
     ]
    },
@@ -17392,7 +17456,7 @@
      }
     ],
     "indicator": "Deux fois plus de Maisons du droit et de la justice",
-    "evidence": "Police de proximité : effet limité sur la délinquance (Gill, 2014). Vidéosurveillance : utile dans 1,1 % des enquêtes (Gormand, gendarmerie).",
+    "evidence": "Police de proximité : baisse limitée de la délinquance (Gill, 2014), sentiment d'insécurité réduit. Vidéosurveillance : utile dans 1,1 % des enquêtes (Gormand, gendarmerie).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -17482,7 +17546,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; en 6e, aucun en français, petit gain en maths après la 1re génération (DEPP, 2026). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Mixité à Paris : objectif atteint dans 2 secteurs sur 3, évitement du privé de 24 % à 16 % dans l'un (IPP, 2021) ; condition imposée au privé non évaluée.",
+    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; en 6e, aucun en français, petit gain en maths après la 1re génération (DEPP, 2026). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Mixité au privé : non évaluée ; secteurs communs à Paris : évitement du privé de 24 % à 16 % dans l'un (IPP, 2021). Parcoursup : fin du tirage au sort, classements peu transparents, quotas de boursiers peu efficaces (Cour des comptes, 2020).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -17519,6 +17583,11 @@
       "label": "franceinfo, propositions à Matignon (22/10)",
       "year": 2026,
       "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/reunion-des-partis-a-matignon-sebastien-lecornu-a-fait-perdre-du-temps-au-pays-denonce-manuel-bompard_8249335.html"
+     },
+     {
+      "label": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
+      "year": 2020,
+      "url": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
      }
     ]
    },
@@ -17542,7 +17611,7 @@
      }
     ],
     "indicator": "1 million de ménages modestes équipés, coût estimé à 6 Md€",
-    "evidence": "Leasing social 2024 : 47 000 ménages aidés, sans bilan CO₂ publié. RTE : scénarios combinant nouveaux réacteurs et renouvelables les plus compétitifs.",
+    "evidence": "Leasing social 2024 : 47 000 ménages aidés, sans bilan CO₂ publié. Aide aux ménages modestes pour un véhicule électrique neuf ou d'occasion : demande très sensible au prix (Californie, 2022). RTE : scénarios combinant nouveaux réacteurs et renouvelables les plus compétitifs.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -17564,6 +17633,11 @@
       "label": "Connaissance des énergies, bilan leasing",
       "year": 2025,
       "url": "https://www.connaissancedesenergies.org/leasing-social-un-levier-perenne-pour-aider-les-menages-les-plus-modestes"
+     },
+     {
+      "label": "Muehlegger, Rapson, aides aux véhicules électriques des ménages modestes en Californie (NBER w25359, Journal of Public Economics 2022)",
+      "year": 2022,
+      "url": "https://www.nber.org/papers/w25359"
      },
      {
       "label": "RTE, Futurs énergétiques 2050, résumé exécutif (vie-publique.fr)",
@@ -17759,7 +17833,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "En Inde, les coupures de réseaux vont de pair avec davantage d'actions violentes (Rydzak, 2019). Conseil d'État 2025 : le blocage de TikTok en Nouvelle-Calédonie jugé illégal. Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué.",
+    "evidence": "Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Mineurs jugés comme des adultes : récidive +34 % (États-Unis, 2007). Reconnaissance faciale a posteriori : ≈ 616 000 recherches en 2021 (Sénat, 2022) ; effet non évalué. Coupures de réseaux : plus d'actions violentes (Inde, 2019) ; blocage de TikTok en Nouvelle-Calédonie jugé illégal (Conseil d'État, 2025).",
     "evidence_level": "non_demontree",
     "sources": [
      {
@@ -17816,6 +17890,16 @@
       "label": "RFI, porte-parole de campagne (22/10)",
       "year": 2026,
       "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-politique/20261022-manifestations-il-faut-faire-payer-ceux-qui-cassent-soutient-c%C3%A9line-g%C3%A9raud-porte-parole-de-gabriel-attal"
+     },
+     {
+      "label": "CDC, Task Force on Community Preventive Services : transfert des mineurs vers la justice des adultes (MMWR 56, RR-9)",
+      "year": 2007,
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5609a1.htm"
+     },
+     {
+      "label": "Sénat, rapport d'information n° 627 (2021-2022), la reconnaissance biométrique dans l'espace public",
+      "year": 2022,
+      "url": "https://www.senat.fr/rap/r21-627/r21-6271.pdf"
      }
     ]
    },
@@ -17944,7 +18028,7 @@
      }
     ],
     "indicator": "Fossiles ramenés sous 30 % du mix énergétique en 2035",
-    "evidence": "Cour des comptes (2025) : prolonger les réacteurs reste moins cher que le neuf ; coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec. HCC 2026 : émissions −2,1 % en 2025, un rythme qui doit au moins doubler ; leasing social et MaPrimeRénov' jugés sous-dimensionnés.",
+    "evidence": "Cour des comptes (2025) : prolonger les réacteurs reste moins cher que le neuf ; coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec. HCC 2026 : émissions −2,1 % en 2025, un rythme qui doit au moins doubler ; leasing social et MaPrimeRénov' jugés sous-dimensionnés. Leasing social 2024 : 47 000 ménages aidés, sans bilan CO₂ publié. Aide aux ménages modestes pour un véhicule électrique neuf ou d'occasion : demande très sensible au prix (Californie, 2022).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -17966,6 +18050,16 @@
       "label": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
       "year": 2025,
       "url": "https://www.ccomptes.fr/fr/publications/la-filiere-epr-une-dynamique-nouvelle-des-risques-persistants"
+     },
+     {
+      "label": "Muehlegger, Rapson, aides aux véhicules électriques des ménages modestes en Californie (NBER w25359, Journal of Public Economics 2022)",
+      "year": 2022,
+      "url": "https://www.nber.org/papers/w25359"
+     },
+     {
+      "label": "Connaissance des énergies, bilan leasing",
+      "year": 2025,
+      "url": "https://www.connaissancedesenergies.org/leasing-social-un-levier-perenne-pour-aider-les-menages-les-plus-modestes"
      },
      {
       "label": "Haut Conseil pour le climat, rapport annuel 2026",
@@ -18034,7 +18128,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Suisse : l'usage effectif du référendum est lié à une satisfaction démocratique un peu plus forte, sans effet sur le bien-être (Stadelmann-Steffen & Vatter, 2012).",
+    "evidence": "Suisse : l'usage du référendum va de pair avec une satisfaction démocratique un peu plus forte, sans effet sur le bien-être (2012).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18079,7 +18173,7 @@
      }
     ],
     "indicator": "France première puissance d'IA en Europe d'ici 10 ans",
-    "evidence": "DG Trésor (2024) : aucun effet macroéconomique significatif de l'IA mesuré à ce stade.",
+    "evidence": "Code du travail réduit à des principes : non évalué ; ordonnances de 2017, effet sur l'emploi non mesuré (France Stratégie, 2021). Incertitude politique : moins d'investissement et d'emploi (12 pays, 2016) ; règle de stabilité fiscale non évaluée. DG Trésor (2024) : aucun effet macroéconomique significatif de l'IA mesuré à ce stade.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18113,9 +18207,19 @@
       "url": "https://attalpresident.fr/actualites/gabriel-attal-lettre-aux-francais-plan-finances-publiques"
      },
      {
-      "label": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
-      "year": 2025,
-      "url": "https://www.ccomptes.fr/fr/publications/la-filiere-epr-une-dynamique-nouvelle-des-risques-persistants"
+      "label": "France Stratégie, comité d'évaluation des ordonnances travail, rapport 2021 (présentation, via Le Monde du Droit)",
+      "year": 2021,
+      "url": "https://www.lemondedudroit.fr/publications/248-etudes-et-documents/78930-comite-evaluation-des-ordonnances-travail-publie-aujourd-hui-son-rapport-d-evaluation-2021.html"
+     },
+     {
+      "label": "France Stratégie, appel à projets de recherche pour évaluer l'effet des ordonnances travail sur l'emploi",
+      "year": 2022,
+      "url": "https://www.strategie-plan.gouv.fr/files/2025-06/apr_-_ordonnances_travail-presentation_generale.pdf"
+     },
+     {
+      "label": "Baker, Bloom, Davis, Measuring Economic Policy Uncertainty (NBER w21633, QJE 2016)",
+      "year": 2016,
+      "url": "https://www.nber.org/papers/w21633"
      }
     ]
    },
@@ -18134,8 +18238,8 @@
      }
     ],
     "indicator": null,
-    "evidence": "Pas d'évaluation publique de cet objectif. La DG Trésor (2024) juge les gains macroéconomiques de l'IA encore non mesurables.",
-    "evidence_level": "pas_d_etude",
+    "evidence": "Pas d'évaluation publique de cet objectif. DG Trésor (2024) : aucun effet macroéconomique significatif de l'IA mesuré à ce stade. Droits de douane américains de 2018 : prix des lave-linge +12 %, emploi industriel −1,4 % avec les représailles (États-Unis, 2019).",
+    "evidence_level": "mitigee",
     "sources": [
      {
       "label": "Site Attal, Les Échos",
@@ -18156,6 +18260,16 @@
       "label": "attalpresident.fr, programme « Frontières »",
       "year": 2026,
       "url": "https://attalpresident.fr/programme/frontieres"
+     },
+     {
+      "label": "Université de Chicago, sur Flaaen, Hortaçsu et Tintelnot (étude publiée dans l'American Economic Review, 2020)",
+      "year": 2019,
+      "url": "https://news.uchicago.edu/story/what-washing-machines-can-teach-us-about-cost-tariffs"
+     },
+     {
+      "label": "Flaaen et Pierce, Réserve fédérale, FEDS n° 2019-086",
+      "year": 2019,
+      "url": "https://www.federalreserve.gov/econres/feds/files/2019086pap.pdf"
      }
     ]
    }
@@ -18191,7 +18305,7 @@
      }
     ],
     "indicator": "Le juge « n'a pas le choix » face aux agresseurs de forces de l'ordre",
-    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Bracelet plutôt que courte prison : récidive −6 à 7 points (Henneguelle, 2016). Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué.",
+    "evidence": "Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Mineurs jugés comme des adultes : récidive +34 % (États-Unis, 2007). Déchéance de nationalité : effet non évalué. Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18215,11 +18329,6 @@
       "url": "https://www.ipp.eu/wp-content/uploads/2024/03/Note_IPP_105_peines_planchers.pdf"
      },
      {
-      "label": "Journal of Law and Economics, bracelet",
-      "year": 2016,
-      "url": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
-     },
-     {
       "label": "Sénat, projet de loi n° 952 sur la réparation des dommages (exposé des motifs, étude d'impact)",
       "year": 2026,
       "url": "https://www.senat.fr/leg/pjl25-952.pdf"
@@ -18238,6 +18347,16 @@
       "label": "franceinfo, déchéance de nationalité (19/10)",
       "year": 2026,
       "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/violences-du-17-octobre-bruno-retailleau-denonce-une-convergence-entre-l-extreme-gauche-et-des-racailles-issues-de-l-immigration_8245450.html"
+     },
+     {
+      "label": "CDC, Task Force on Community Preventive Services : transfert des mineurs vers la justice des adultes (MMWR 56, RR-9)",
+      "year": 2007,
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5609a1.htm"
+     },
+     {
+      "label": "Ministère de l'Intérieur, réponse à la question écrite n° 19446 sur la déchéance de nationalité (JO du 19/04/2022)",
+      "year": 2022,
+      "url": "https://questions.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE19446.pdf"
      }
     ]
    },
@@ -18306,7 +18425,7 @@
      }
     ],
     "indicator": "Salaires enseignants rapprochés de la moyenne européenne (non chiffré)",
-    "evidence": "Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005). Redoublement : effet proche de zéro à court terme, négatif à long terme, chances de diplôme réduites (Cnesco, 2014). Établissements publics autonomes : progrès de collèges en difficulté (Angleterre, 2019), aucun gain dans des écoles primaires (Angleterre, 2017).",
+    "evidence": "Parcoursup : fin du tirage au sort, classements peu transparents, quotas de boursiers peu efficaces (Cour des comptes, 2020). Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005). Redoublement : effet quasi nul, puis négatif à long terme (Cnesco, 2014). Autonomie : progrès de collèges en difficulté (Angleterre, 2019), aucun en primaire (2017). Établissements pour élèves exclus (2010) : résultats souvent décevants, abandonnés (inspection, 2012).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18348,6 +18467,16 @@
       "label": "avecretailleau.fr, internats disciplinaires",
       "year": 2026,
       "url": "https://www.avecretailleau.fr/projet/mesure/retablir-l-evaluation-qui-dit-la-verite-et-la-selection-au"
+     },
+     {
+      "label": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
+      "year": 2020,
+      "url": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
+     },
+     {
+      "label": "Ministère de l'Éducation nationale, réponse à la question écrite n° 85814 (rapport d'inspection de 2012 sur les établissements de réinsertion scolaire)",
+      "year": 2016,
+      "url": "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE85814.pdf"
      }
     ]
    },
@@ -18371,7 +18500,7 @@
      }
     ],
     "indicator": "Doubler la part de l'électricité dans le mix énergétique en 20 ans",
-    "evidence": "Cour des comptes 2025 : coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec. RTE (2021) juge le développement des renouvelables indispensable.",
+    "evidence": "Cour des comptes (2025) : prolonger les réacteurs reste moins cher que le neuf ; coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec. RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18471,7 +18600,7 @@
      }
     ],
     "indicator": "Révision constitutionnelle soumise à référendum dès la rentrée 2027",
-    "evidence": "RIP ADP (2019) : environ 1 million de soutiens pour 4,7 millions requis. Suisse : léger effet sur la satisfaction démocratique, aucun sur le bien-être (2012).",
+    "evidence": "RIP ADP (2019) : environ 1 million de soutiens pour 4,7 millions requis. Suisse : l'usage du référendum va de pair avec une satisfaction démocratique un peu plus forte, sans effet sur le bien-être (2012). Sécurité : déjà « droit fondamental » dans la loi depuis 1995 (code de la sécurité intérieure) ; effet non évalué. Discipline des magistrats : 254 plaintes de justiciables en 2025, une seule renvoyée devant le conseil de discipline (CSM, 2026).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18503,6 +18632,16 @@
       "label": "Les Républicains, cour disciplinaire de la magistrature (6/06)",
       "year": 2026,
       "url": "https://republicains.fr/actualites/2026/06/06/il-faut-creer-une-cour-disciplinaire-de-la-magistrature/"
+     },
+     {
+      "label": "Conseil constitutionnel, commentaire de la décision n° 2020-889 QPC (droit à la sécurité, loi du 21 janvier 1995)",
+      "year": 2021,
+      "url": "https://www.conseil-constitutionnel.fr/sites/default/files/as/root/bank_mm/decisions/2020889qpc/2020889qpc_ccc.pdf"
+     },
+     {
+      "label": "Conseil supérieur de la magistrature, rapport d'activité 2025 (chiffres clés)",
+      "year": 2026,
+      "url": "https://www.conseil-superieur-magistrature.fr/sites/default/files/pdf/CSM_RA_2025_Web_compress%C3%A9_0.pdf"
      }
     ]
    },
@@ -18526,7 +18665,7 @@
      }
     ],
     "indicator": "Excédent primaire en 2030, déficit sous 3 % en 2031",
-    "evidence": "IPP (2025) : baisse des impôts de production de 2021 sans effet mesurable sur l'investissement. IPP (2012) : exonération TEPA sans hausse significative des heures travaillées.",
+    "evidence": "Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025). Code du travail réduit à des principes : non évalué ; ordonnances de 2017, effet sur l'emploi non mesuré (France Stratégie, 2021). Heures sup défiscalisées (TEPA) : pas d'effet significatif sur les heures travaillées (IPP, 2012).",
     "evidence_level": "non_demontree",
     "sources": [
      {
@@ -18553,6 +18692,16 @@
       "label": "avecretailleau.fr, code du travail sur 50 principes",
       "year": 2026,
       "url": "https://www.avecretailleau.fr/projet/mesure/refonder-le-code-du-travail-sur-50-principes-rendre-le"
+     },
+     {
+      "label": "France Stratégie, comité d'évaluation des ordonnances travail, rapport 2021 (présentation, via Le Monde du Droit)",
+      "year": 2021,
+      "url": "https://www.lemondedudroit.fr/publications/248-etudes-et-documents/78930-comite-evaluation-des-ordonnances-travail-publie-aujourd-hui-son-rapport-d-evaluation-2021.html"
+     },
+     {
+      "label": "France Stratégie, appel à projets de recherche pour évaluer l'effet des ordonnances travail sur l'emploi",
+      "year": 2022,
+      "url": "https://www.strategie-plan.gouv.fr/files/2025-06/apr_-_ordonnances_travail-presentation_generale.pdf"
      }
     ]
    },
@@ -18576,7 +18725,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Pas d'évaluation d'effet. L'Institut de l'Entreprise rappelle qu'une baisse de la contribution à l'UE exige l'unanimité des États membres.",
+    "evidence": "Visa limité au pays qui le délivre : non évalué ; assouplir les visas accroît l'afflux de touristes de 5 à 25 % (France Stratégie, 2016). Baisser la contribution à l'UE demande l'unanimité.",
     "evidence_level": "pas_d_etude",
     "sources": [
      {
@@ -18598,6 +18747,11 @@
       "label": "Les Républicains, entretien au JDD (2/08)",
       "year": 2026,
       "url": "https://republicains.fr/actualites/2026/08/02/lespace-schengen-doit-etre-reserve-aux-europeens/"
+     },
+     {
+      "label": "France Stratégie, Note d'analyse n° 39, Les conséquences économiques d'un abandon des accords de Schengen",
+      "year": 2016,
+      "url": "https://www.strategie-plan.gouv.fr/files/files/Publications/2016/NA%2039/note_danalyse_ndeg39.pdf"
      }
     ]
    }
@@ -18633,7 +18787,7 @@
      }
     ],
     "indicator": "Peines prononcées, même courtes, réellement exécutées",
-    "evidence": "Nouvelles places de prison vite comblées (Sénat, 2023). Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué.",
+    "evidence": "Mineurs jugés comme des adultes : récidive +34 % (États-Unis, 2007). Centres éducatifs fermés : au moins 41 % des jeunes de nouveau poursuivis dans l'année (DPJJ, 2024) ; efficacité non évaluée (Cour des comptes, 2023). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Cagoule en manifestation : délit depuis 2019 ; pointage non évalué. Nouvelles places de prison vite comblées (Sénat, 2023).",
     "evidence_level": "non_demontree",
     "sources": [
      {
@@ -18675,6 +18829,21 @@
       "label": "Nouvelle Énergie, entretien au Point (23/10)",
       "year": 2026,
       "url": "https://www.unenouvelleenergie.fr/quand-macron-a-parle-pas-un-casseur-na-tremble/"
+     },
+     {
+      "label": "CDC, Task Force on Community Preventive Services : transfert des mineurs vers la justice des adultes (MMWR 56, RR-9)",
+      "year": 2007,
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5609a1.htm"
+     },
+     {
+      "label": "Assemblée nationale, rapport d'information n° 1566 sur les centres éducatifs fermés (Cour des comptes 2023, étude DPJJ 2024)",
+      "year": 2025,
+      "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion_fin/l17b1566_rapport-information.pdf"
+     },
+     {
+      "label": "Conseil constitutionnel, décision n° 2019-780 DC, loi « anticasseurs » (délit de dissimulation du visage)",
+      "year": 2019,
+      "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019780DC.htm"
      }
     ]
    },
@@ -18748,7 +18917,7 @@
      }
     ],
     "indicator": "« Superpuissance éducative » en cinq ans (non chiffré)",
-    "evidence": "Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005), mais redoubler après un échec réduit les chances de diplôme (Cnesco, 2014). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Assouplissement de la carte scolaire (2007) : effets globaux faibles, mais fuite accélérée des collèges défavorisés et ségrégation accrue (DEPP, 2013).",
+    "evidence": "Chèque-éducation : niveau en hausse (Suède, 2015) ou en baisse (Louisiane, 2018), tri social accru (Chili, 2006) ; contractuels non évalués. Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005), mais redoubler après un échec réduit les chances de diplôme (Cnesco, 2014). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Carte scolaire assouplie : effet global faible, fuite des collèges défavorisés (DEPP, 2013).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18795,6 +18964,21 @@
       "label": "Europe 1, Objectif Élysée 2027 (27/10)",
       "year": 2026,
       "url": "https://www.europe1.fr/politique/en-direct-emeutes-parcoursup-primaire-a-droite-ce-quil-faut-retenir-de-linterview-de-david-lisnard-dans-objectif-elysee-2027-1186743"
+     },
+     {
+      "label": "Böhlmark, Lindahl, écoles indépendantes et chèque scolaire en Suède (IZA DP 6683, Economica 2015)",
+      "year": 2015,
+      "url": "https://econpapers.repec.org/RePEc:iza:izadps:dp6683"
+     },
+     {
+      "label": "Abdulkadiroglu, Pathak, Walters, chèque scolaire en Louisiane (NBER w21839, AEJ Applied 2018)",
+      "year": 2018,
+      "url": "https://www.nber.org/papers/w21839"
+     },
+     {
+      "label": "Hsieh, Urquiola, chèque scolaire généralisé au Chili (NBER w10008, Journal of Public Economics 2006)",
+      "year": 2006,
+      "url": "https://www.nber.org/papers/w10008"
      }
     ]
    },
@@ -18913,7 +19097,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Suisse : démocratie directe sans effet net sur le bien-être, mais léger effet sur la satisfaction démocratique quand elle est utilisée (Stadelmann-Steffen & Vatter, 2012).",
+    "evidence": "RIP ADP (2019) : environ 1 million de soutiens pour 4,7 millions requis. Suisse : l'usage du référendum va de pair avec une satisfaction démocratique un peu plus forte, sans effet sur le bien-être (2012). Voile interdit à l'école : diplômes des filles de culture musulmane en hausse après 1994 (IZA, 2019) ; après 2004, effet nul ou négatif selon les études (APSR, 2020) ; aucune étude sur l'université ni sur les dissolutions.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18940,6 +19124,21 @@
       "label": "Nouvelle Énergie, programme « Sécurité »",
       "year": 2026,
       "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/"
+     },
+     {
+      "label": "Public Sénat – RIP ADP",
+      "year": 2019,
+      "url": "https://www.publicsenat.fr/actualites/politique/referendum-sur-adp-le-cap-du-million-de-signatures-atteint-148123"
+     },
+     {
+      "label": "Maurin, Navarrete, l'interdiction du voile à l'école (IZA DP 12645)",
+      "year": 2019,
+      "url": "https://docs.iza.org/dp12645.pdf"
+     },
+     {
+      "label": "Abdelgadir, Fouka, la loi de 2004 sur le voile et l'intégration (American Political Science Review)",
+      "year": 2020,
+      "url": "https://ideas.repec.org/a/cup/apsrev/v114y2020i3p707-723_10.html"
      }
     ]
    },
@@ -18968,7 +19167,7 @@
      }
     ],
     "indicator": "250 à 400 €/mois net selon les interventions (250 € pour 2 500 € de revenu), estimation du camp",
-    "evidence": "CEPII (2007) : TVA sociale, emplois modestes si ciblée sur les bas salaires, pouvoir d'achat réduit. IPP (2025) : impôts de production, aucun effet mesurable sur l'investissement.",
+    "evidence": "Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025). CEPII (2007) : TVA sociale, emplois modestes si ciblée sur les bas salaires, pouvoir d'achat réduit. CDI à indemnités progressives (Italie, 2015) : 8 % des embauches en CDI dues au licenciement moins coûteux (2018) ; contrat unique non évalué. Incertitude politique : moins d'investissement et d'emploi (12 pays, 2016) ; règle de stabilité fiscale non évaluée.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -19000,6 +19199,16 @@
       "label": "Nouvelle Énergie, « Changer de logiciel fiscal » (16/04)",
       "year": 2026,
       "url": "https://www.unenouvelleenergie.fr/changer-de-logiciel-fiscal/"
+     },
+     {
+      "label": "Sestito, Viviano, coût du licenciement et embauches : la réforme italienne de 2015 (Economic Policy)",
+      "year": 2018,
+      "url": "https://ideas.repec.org/a/oup/ecpoli/v33y2018i93p101-130..html"
+     },
+     {
+      "label": "Baker, Bloom, Davis, Measuring Economic Policy Uncertainty (NBER w21633, QJE 2016)",
+      "year": 2016,
+      "url": "https://www.nber.org/papers/w21633"
      }
     ]
    },
@@ -19080,7 +19289,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Expulsions après arrestation (États-Unis) : pas d'effet observable sur la criminalité (Miles & Cox, 2014). Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué.",
+    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Déchéance de nationalité : effet non évalué. Expulsions après arrestation : pas de baisse observable de la criminalité (États-Unis, 2014).",
     "evidence_level": "non_demontree",
     "sources": [
      {
@@ -19127,6 +19336,11 @@
       "label": "Entrevue, émission du 25/10",
       "year": 2026,
       "url": "https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/"
+     },
+     {
+      "label": "Ministère de l'Intérieur, réponse à la question écrite n° 19446 sur la déchéance de nationalité (JO du 19/04/2022)",
+      "year": 2022,
+      "url": "https://questions.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE19446.pdf"
      }
     ]
    },
@@ -19250,7 +19464,7 @@
      }
     ],
     "indicator": "Électricité française qui « cessera d'être bradée » (non chiffré)",
-    "evidence": "Cour des comptes (2025) : prolonger les réacteurs reste moins cher que le neuf ; coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec. RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents.",
+    "evidence": "Cour des comptes (2025) : prolonger les réacteurs reste moins cher que le neuf ; coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec. Marché carbone des carburants : +10 à 15 c€ par litre (Institut Montaigne, 2025) ; taxe carbone suédoise : émissions des transports −11 % (2019). RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -19277,6 +19491,16 @@
       "label": "Reconquête, pétition sur les carburants",
       "year": 2026,
       "url": "https://www.stop-hausse-carburant.fr/"
+     },
+     {
+      "label": "Institut Montaigne, Transition des mobilités : anatomie d'une impasse (note d'éclairage, octobre 2025)",
+      "year": 2025,
+      "url": "https://institutmontaigne.org/ressources/pdfs/publications/note-transition-des-mobilites-anatomie-d-une-impasse.pdf"
+     },
+     {
+      "label": "Andersson, Carbon Taxes and CO2 Emissions: Sweden as a Case Study (AEJ: Economic Policy)",
+      "year": 2019,
+      "url": "https://www.aeaweb.org/articles?id=10.1257/pol.20170144"
      },
      {
       "label": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
@@ -19380,7 +19604,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "IPP (2025) : la baisse des impôts de production de 2021 n'a eu aucun effet mesurable sur l'investissement et un impact limité sur la masse salariale. DG Trésor (2024) : aucun effet macroéconomique significatif de l'IA mesuré à ce stade.",
+    "evidence": "DG Trésor (2024) : aucun effet macroéconomique significatif de l'IA mesuré à ce stade. Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025).",
     "evidence_level": "non_demontree",
     "sources": [
      {
@@ -19425,7 +19649,7 @@
      }
     ],
     "indicator": "Environ 3 % du PIB consacrés à la défense en 2030",
-    "evidence": "Banque de Finlande (2025) : multiplicateur des dépenses de défense d'environ 0,6 à 1,0. Rapport Védrine (2012) : effets du retour dans le commandement intégré de l'OTAN mitigés ; une nouvelle sortie réduirait les leviers d'influence de la France.",
+    "evidence": "Banque de Finlande (2025) : multiplicateur des dépenses de défense d'environ 0,6 à 1,0 ; effets durables surtout si investissement et R&D. Rapport Védrine (2012) : effets du retour dans le commandement intégré de l'OTAN mitigés ; une nouvelle sortie réduirait les leviers d'influence de la France.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -21483,7 +21707,7 @@
   },
   {
    "c": "melenchon",
-   "id": "ecole.2",
+   "id": "ecole.3",
    "life": true,
    "theme": "ecole",
    "title": "Garder les écoles à classe unique et limiter le trajet scolaire à 15 minutes",
@@ -22669,6 +22893,415 @@
     "t": "Le même programme prévoit aussi de doubler le nombre d'étudiants en médecine d'ici 2030.",
     "ref": [
      "lisnard.sante.1"
+    ]
+   }
+  },
+  {
+   "c": "melenchon",
+   "id": "ecole.1",
+   "life": true,
+   "theme": "ecole",
+   "title": "Supprimer Parcoursup et MonMaster, les plateformes d'admission après le bac et en master",
+   "quiz_text": "Supprimer Parcoursup et MonMaster, les plateformes d'admission après le bac et en master",
+   "quiz_concret": "Les formations ne classent plus les candidats ; l'université ouvre des places pour accueillir ceux qui la demandent.",
+   "quiz_plus": "Les classements restent opaques : jusqu'à une licence très demandée sur cinq tient compte du lycée d'origine.",
+   "quiz_moins": "Les moins préparés réussissent peu à l'université : 6,5 % des bacheliers pro y obtiennent leur licence.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "mitigé",
+   "quiz_cas_pour": [
+    {
+     "t": "Jusqu'à 20 % des commissions des licences les plus demandées ont tenu compte du lycée d'origine des candidats en 2019 (Cour des comptes, France, 2020).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Les quotas de boursiers et de bacheliers technologiques ou professionnels n'ont eu que de faibles effets (Cour des comptes, France, 2020).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Les élèves admis de justesse dans une grande université publique ont gagné 22 % de plus, 8 à 14 ans après le lycée, surtout les plus modestes (Zimmerman, Floride, 2014).",
+     "s": [
+      3
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Avant Parcoursup, les licences plus demandées que leurs places départageaient les candidats, en dernier recours, par tirage au sort (Cour des comptes, France, 2020).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Parmi les bacheliers 2020 inscrits en licence, 40,3 % l'ont obtenue en 3 ou 4 ans : 14 % des bacheliers technologiques, 6,5 % des professionnels (SIES, France, 2025).",
+     "s": [
+      2
+     ]
+    },
+    {
+     "t": "Admis de justesse à l'université en 1982, des candidats ont étudié un peu plus longtemps, sans gain de salaire mesurable ensuite (Öckert, Suède, 2010).",
+     "s": [
+      4
+     ]
+    }
+   ],
+   "quiz_etudes": "Aucune évaluation directe d'une suppression de Parcoursup ni d'une sélection généralisée. La Cour des comptes (2020) note la fin du tirage au sort mais des critères peu transparents ; être admis de justesse aide selon une étude (Floride), pas selon une autre (Suède).",
+   "quiz_src": [
+    {
+     "l": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
+     "a": 2020,
+     "u": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
+    },
+    {
+     "l": "SIES, Note Flash n° 28, Parcoursup 2025 : les propositions d'admission dans l'enseignement supérieur",
+     "a": 2025,
+     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-28-38282.pdf"
+    },
+    {
+     "l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
+     "a": 2025,
+     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-29-38293.pdf"
+    },
+    {
+     "l": "Zimmerman, The Returns to College Admission for Academically Marginal Students (Journal of Labor Economics)",
+     "a": 2014,
+     "u": "https://ideas.repec.org/a/ucp/jlabec/doi10.1086-676661.html"
+    },
+    {
+     "l": "Öckert, What's the value of an acceptance letter? Using admissions data to estimate the return to college (Economics of Education Review)",
+     "a": 2010,
+     "u": "https://ideas.repec.org/a/eee/ecoedu/v29y2010i4p504-516.html"
+    }
+   ],
+   "quiz_constat": {
+    "t": "Néo-bacheliers : 93,5 % avec une proposition Parcoursup en 2025 (94,5 % en 2024) ; 49,1 % passent en 2e année de licence (SIES).",
+    "s": [
+     1,
+     2
+    ]
+   },
+   "quiz_complement": {
+    "t": "Le même programme prévoit aussi de créer un grand nombre de places à l'université.",
+    "ref": [
+     "melenchon.universites"
+    ]
+   }
+  },
+  {
+   "c": "glucksmann",
+   "id": "ecole.3",
+   "life": true,
+   "theme": "ecole",
+   "title": "Abroger Parcoursup, la plateforme d'admission dans l'enseignement supérieur",
+   "quiz_text": "Abroger Parcoursup, la plateforme d'admission dans l'enseignement supérieur",
+   "quiz_concret": "Les formations ne classent plus les candidats sur Parcoursup ; le système qui le remplace n'est pas précisé.",
+   "quiz_plus": "Les classements restent opaques : jusqu'à une licence très demandée sur cinq tient compte du lycée d'origine.",
+   "quiz_moins": "Sans classement, les licences pleines tiraient au sort, et les moins préparés y réussissent peu.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "mitigé",
+   "quiz_cas_pour": [
+    {
+     "t": "Jusqu'à 20 % des commissions des licences les plus demandées ont tenu compte du lycée d'origine des candidats en 2019 (Cour des comptes, France, 2020).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Les quotas de boursiers et de bacheliers technologiques ou professionnels n'ont eu que de faibles effets (Cour des comptes, France, 2020).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Les élèves admis de justesse dans une grande université publique ont gagné 22 % de plus, 8 à 14 ans après le lycée, surtout les plus modestes (Zimmerman, Floride, 2014).",
+     "s": [
+      3
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Avant Parcoursup, les licences plus demandées que leurs places départageaient les candidats, en dernier recours, par tirage au sort (Cour des comptes, France, 2020).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Parmi les bacheliers 2020 inscrits en licence, 40,3 % l'ont obtenue en 3 ou 4 ans : 14 % des bacheliers technologiques, 6,5 % des professionnels (SIES, France, 2025).",
+     "s": [
+      2
+     ]
+    },
+    {
+     "t": "Admis de justesse à l'université en 1982, des candidats ont étudié un peu plus longtemps, sans gain de salaire mesurable ensuite (Öckert, Suède, 2010).",
+     "s": [
+      4
+     ]
+    }
+   ],
+   "quiz_etudes": "Aucune évaluation directe d'une suppression de Parcoursup ni d'une sélection généralisée. La Cour des comptes (2020) note la fin du tirage au sort mais des critères peu transparents ; être admis de justesse aide selon une étude (Floride), pas selon une autre (Suède).",
+   "quiz_src": [
+    {
+     "l": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
+     "a": 2020,
+     "u": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
+    },
+    {
+     "l": "SIES, Note Flash n° 28, Parcoursup 2025 : les propositions d'admission dans l'enseignement supérieur",
+     "a": 2025,
+     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-28-38282.pdf"
+    },
+    {
+     "l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
+     "a": 2025,
+     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-29-38293.pdf"
+    },
+    {
+     "l": "Zimmerman, The Returns to College Admission for Academically Marginal Students (Journal of Labor Economics)",
+     "a": 2014,
+     "u": "https://ideas.repec.org/a/ucp/jlabec/doi10.1086-676661.html"
+    },
+    {
+     "l": "Öckert, What's the value of an acceptance letter? Using admissions data to estimate the return to college (Economics of Education Review)",
+     "a": 2010,
+     "u": "https://ideas.repec.org/a/eee/ecoedu/v29y2010i4p504-516.html"
+    }
+   ],
+   "quiz_constat": {
+    "t": "Néo-bacheliers : 93,5 % avec une proposition Parcoursup en 2025 (94,5 % en 2024) ; 49,1 % passent en 2e année de licence (SIES).",
+    "s": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "c": "retailleau",
+   "id": "ecole.1",
+   "life": true,
+   "theme": "ecole",
+   "title": "Sélectionner les étudiants à l'entrée de l'université, avec une nouvelle plateforme fondée sur le mérite",
+   "quiz_text": "Sélectionner les étudiants à l'entrée de l'université, avec une nouvelle plateforme fondée sur le mérite",
+   "quiz_concret": "Parcoursup est remplacé ; chaque licence choisit ses étudiants d'après leurs résultats scolaires.",
+   "quiz_plus": "Les moins préparés réussissent peu à l'université : 6,5 % des bacheliers pro y obtiennent leur licence.",
+   "quiz_moins": "Être admis de justesse à l'université a accru les salaires de 22 %, surtout chez les plus modestes.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "mitigé",
+   "quiz_cas_pour": [
+    {
+     "t": "Avant Parcoursup, les licences plus demandées que leurs places départageaient les candidats, en dernier recours, par tirage au sort (Cour des comptes, France, 2020).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Parmi les bacheliers 2020 inscrits en licence, 40,3 % l'ont obtenue en 3 ou 4 ans : 14 % des bacheliers technologiques, 6,5 % des professionnels (SIES, France, 2025).",
+     "s": [
+      2
+     ]
+    },
+    {
+     "t": "Admis de justesse à l'université en 1982, des candidats ont étudié un peu plus longtemps, sans gain de salaire mesurable ensuite (Öckert, Suède, 2010).",
+     "s": [
+      4
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Jusqu'à 20 % des commissions des licences les plus demandées ont tenu compte du lycée d'origine des candidats en 2019 (Cour des comptes, France, 2020).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Les quotas de boursiers et de bacheliers technologiques ou professionnels n'ont eu que de faibles effets (Cour des comptes, France, 2020).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Les élèves admis de justesse dans une grande université publique ont gagné 22 % de plus, 8 à 14 ans après le lycée, surtout les plus modestes (Zimmerman, Floride, 2014).",
+     "s": [
+      3
+     ]
+    }
+   ],
+   "quiz_etudes": "Aucune évaluation directe d'une suppression de Parcoursup ni d'une sélection généralisée. La Cour des comptes (2020) note la fin du tirage au sort mais des critères peu transparents ; être admis de justesse aide selon une étude (Floride), pas selon une autre (Suède).",
+   "quiz_src": [
+    {
+     "l": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
+     "a": 2020,
+     "u": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
+    },
+    {
+     "l": "SIES, Note Flash n° 28, Parcoursup 2025 : les propositions d'admission dans l'enseignement supérieur",
+     "a": 2025,
+     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-28-38282.pdf"
+    },
+    {
+     "l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
+     "a": 2025,
+     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-29-38293.pdf"
+    },
+    {
+     "l": "Zimmerman, The Returns to College Admission for Academically Marginal Students (Journal of Labor Economics)",
+     "a": 2014,
+     "u": "https://ideas.repec.org/a/ucp/jlabec/doi10.1086-676661.html"
+    },
+    {
+     "l": "Öckert, What's the value of an acceptance letter? Using admissions data to estimate the return to college (Economics of Education Review)",
+     "a": 2010,
+     "u": "https://ideas.repec.org/a/eee/ecoedu/v29y2010i4p504-516.html"
+    }
+   ],
+   "quiz_constat": {
+    "t": "Néo-bacheliers : 93,5 % avec une proposition Parcoursup en 2025 (94,5 % en 2024) ; 49,1 % passent en 2e année de licence (SIES).",
+    "s": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "c": "retailleau",
+   "id": "ecole.5",
+   "life": true,
+   "theme": "ecole",
+   "title": "Créer des internats disciplinaires pour les élèves exclus à plusieurs reprises",
+   "quiz_text": "Créer des internats disciplinaires pour les élèves exclus à plusieurs reprises",
+   "quiz_concret": "Au moins un par académie ; le rectorat y affecte l'élève, qui retourne en classe ordinaire selon son comportement et ses acquis.",
+   "quiz_plus": "Un camarade très perturbateur en primaire réduit de 3 à 4 % le salaire de chacun des autres à 26 ans.",
+   "quiz_moins": "Des établissements créés en 2010 pour les élèves exclus à répétition ont eu des résultats décevants.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "faible",
+   "quiz_cas_pour": [
+    {
+     "t": "Avoir eu en primaire un camarade perturbateur (enfant exposé à des violences familiales) a réduit de 3 à 4 % le salaire à 26 ans de ses camarades (Carrell et al., États-Unis, 2018).",
+     "s": [
+      1
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Les 16 établissements ouverts en 2010 pour des collégiens exclus à répétition ont eu des résultats « le plus souvent décevants » ; ils ont été abandonnés (inspections générales, France, 2012).",
+     "s": [
+      2
+     ]
+    }
+   ],
+   "quiz_etudes": "Pas d'évaluation des internats disciplinaires ; l'essai français de 2010, aux résultats souvent décevants, a été arrêté. Un élève perturbateur pèse sur ses camarades (États-Unis).",
+   "quiz_src": [
+    {
+     "l": "DEPP, Note d'information n° 26.03, Les signalements d'incidents graves en 2024-2025 (enquête Sivis)",
+     "a": 2026,
+     "u": "https://www.education.gouv.fr/sites/default/files/document/Note%20d%26%23039%3BInformation%20n%C2%B0%2026-03-479480.pdf"
+    },
+    {
+     "l": "Carrell, Hoekstra, Kuka, The Long-Run Effects of Disruptive Peers (NBER w22042, American Economic Review 2018)",
+     "a": 2018,
+     "u": "https://www.nber.org/papers/w22042"
+    },
+    {
+     "l": "Ministère de l'Éducation nationale, réponse à la question écrite n° 85814 (rapport des inspections générales de juin 2012 sur les établissements de réinsertion scolaire)",
+     "a": 2016,
+     "u": "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE85814.pdf"
+    }
+   ],
+   "quiz_constat": {
+    "t": "Incidents graves signalés en collège et lycée : 14 pour 1 000 élèves en 2024-2025, 16 l'année précédente (DEPP).",
+    "s": [
+     0
+    ]
+   }
+  },
+  {
+   "c": "lisnard",
+   "id": "ecole.1",
+   "life": true,
+   "theme": "ecole",
+   "title": "Créer un chèque-éducation valable dans le public comme dans le privé, et recruter les nouveaux enseignants sous contrat",
+   "quiz_text": "Créer un chèque-éducation valable dans le public comme dans le privé, et recruter les nouveaux enseignants sous contrat",
+   "quiz_concret": "L'école choisie par la famille reçoit le même argent public, publique ou privée ; les nouveaux professeurs ne sont plus fonctionnaires.",
+   "quiz_plus": "Là où les écoles financées par chèque se sont multipliées, le niveau moyen a progressé, par la concurrence.",
+   "quiz_moins": "Le tri social entre écoles augmente, et des élèves passés au privé avec un chèque ont reculé en maths.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "solide",
+   "quiz_cas_pour": [
+    {
+     "t": "Là où les écoles indépendantes financées par chèque se sont le plus développées, le niveau moyen a progressé, surtout par la concurrence, une dizaine d'années après (Böhlmark et Lindahl, Suède, 2015).",
+     "s": [
+      1
+     ]
+    },
+    {
+     "t": "Les élèves tirés au sort pour un chèque vers le privé ont obtenu leur diplôme du secondaire à 82 %, contre 70 % sans chèque ; scores inchangés (IES, Washington, 2010).",
+     "s": [
+      2
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Les élèves ayant obtenu par tirage au sort un chèque pour une école privée ont perdu 0,4 écart-type en maths (Abdulkadiroglu et al., Louisiane, 2018).",
+     "s": [
+      3
+     ]
+    },
+    {
+     "t": "Le chèque généralisé à tout le pays n'a pas amélioré les résultats moyens et a accru le tri des élèves, les meilleurs du public partant au privé (Hsieh et Urquiola, Chili, 2006).",
+     "s": [
+      4
+     ]
+    },
+    {
+     "t": "Là où le libre choix de l'école s'est répandu, la ségrégation entre élèves selon l'origine et le diplôme des parents a plus augmenté qu'ailleurs (IFAU, Suède, 2015).",
+     "s": [
+      5
+     ]
+    }
+   ],
+   "quiz_etudes": "Les études divergent sur le niveau (gain en Suède, perte en Louisiane, rien au Chili) mais concordent sur un tri social accru. Aucune étude française sur les enseignants contractuels.",
+   "quiz_src": [
+    {
+     "l": "DEPP, Repères et références statistiques 2026, chapitre 4 (les élèves du second degré), tableau 4.01",
+     "a": 2026,
+     "u": "https://www.education.gouv.fr/sites/default/files/document/4-les-eleves-du-second-degrepdf-521305.pdf"
+    },
+    {
+     "l": "Böhlmark, Lindahl, Independent Schools and Long-Run Educational Outcomes: Sweden's Large-Scale Voucher Reform (IZA DP 6683, Economica 2015)",
+     "a": 2015,
+     "u": "https://econpapers.repec.org/RePEc:iza:izadps:dp6683"
+    },
+    {
+     "l": "IES (NCEE 2010-4018), Evaluation of the DC Opportunity Scholarship Program: Final Report",
+     "a": 2010,
+     "u": "https://ies.ed.gov/use-work/resource-library/report/evaluation-report/evaluation-impact-dc-opportunity-scholarship-program-final-report"
+    },
+    {
+     "l": "Abdulkadiroglu, Pathak, Walters, Free to Choose: Can School Choice Reduce Student Achievement? (NBER w21839, AEJ Applied 2018)",
+     "a": 2018,
+     "u": "https://www.nber.org/papers/w21839"
+    },
+    {
+     "l": "Hsieh, Urquiola, When Schools Compete, How Do They Compete? Chile's Nationwide School Voucher Program (NBER w10008 ; Journal of Public Economics 2006)",
+     "a": 2006,
+     "u": "https://www.nber.org/papers/w10008"
+    },
+    {
+     "l": "Böhlmark, Holmlund, Lindahl, School choice and segregation: evidence from Sweden (IFAU WP 2015:8)",
+     "a": 2015,
+     "u": "https://swopec.hhs.se/ifauwp/abs/ifauwp2015_008.htm"
+    }
+   ],
+   "quiz_constat": {
+    "t": "Élèves du second degré dans le privé sous contrat : 21,2 % en 2025, contre 19,6 % en 2000 (DEPP).",
+    "s": [
+     0
     ]
    }
   }

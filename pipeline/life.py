@@ -40,6 +40,7 @@ SRU = "Loi SRU : son article 55 explique près de la moitié des logements socia
 EPR = "Cour des comptes (2025) : prolonger les réacteurs reste moins cher que le neuf ; coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec."
 RTE = "RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents."
 VED = "Rapport Védrine (2012) : effets du retour dans le commandement intégré de l'OTAN mitigés ; une nouvelle sortie réduirait les leviers d'influence de la France."
+UEU = "Baisser la contribution à l'UE demande l'unanimité."
 HEN = " Bracelet plutôt que courte prison : récidive −6 à 7 points (Henneguelle, 2016)."
 HEN_S = {'label': 'Journal of Law and Economics, bracelet', 'year': 2016, 'url': 'https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/'}
 # Reprises d'agence (AFP, via connaissancedesenergies.org) remplacées par l'original officiel, chez tous les candidats qui les citent (registre S027, 29/10/2026)
@@ -66,7 +67,7 @@ OVR.update({
      'add': [{'label': "Nouvelle Énergie, « Le programme de David Lisnard est-il chiffré ? »", 'year': 2026, 'url': 'https://www.unenouvelleenergie.fr/questions/le-programme-de-david-lisnard-est-il-chiffre/'}]},
  ('retailleau', 'securite'): {'evidence': PP + HEN, 'evidence_level': 'mitigee', 'add': [HEN_S]},
  ('zemmour', 'sante'): {'evidence': "Médecins salariés par l'État et obligation de garde : pas d'évaluation française identifiée.", 'evidence_level': 'pas_d_etude', 'drop': ['csem.org']},
- ('le-pen', 'rayonnement'): {'evidence': VED + " Baisser la contribution à l'UE demande l'unanimité.", 'evidence_level': 'mitigee'},
+ ('le-pen', 'rayonnement'): {'evidence': VED + " " + UEU, 'evidence_level': 'mitigee'},
  ('melenchon', 'rayonnement'): {'evidence': VED, 'evidence_level': 'mitigee'},
  ('zemmour', 'rayonnement'): {'evidence': "Banque de Finlande (2025) : multiplicateur des dépenses de défense d'environ 0,6 à 1,0. " + VED, 'evidence_level': 'mitigee'},
  ('philippe', 'logement'): {'evidence_level': 'non_demontree'},
@@ -105,8 +106,10 @@ OVR.update({
 # à égalité ou à date inconnue, l'ordre déjà affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce).
 # Une proposition remplacée par sa version précise (ou celle du programme) n'est pas gardée en double. Ce qui reste hors affichage : registre S106.
 # Les listes ci-dessous remplacent celles de data/life-*.json pour ces thèmes (même forme que norm_prop : text, verifiable, old).
-CASSE = ("Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (2019) jamais utilisé ; "
-         "dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué.")
+# texte raccourci le 29/10 pour tous, même contenu (décision du porteur ; avant : « l'auteur et les parents d'un mineur doivent déjà réparer ;
+# recours de l'État (2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué »)
+CASSE = ("Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; "
+         "dissuasion non évaluée.")
 CASSE_S = [{'label': "Sénat, projet de loi n° 952 sur la réparation des dommages (exposé des motifs, étude d'impact)", 'year': 2026, 'url': 'https://www.senat.fr/leg/pjl25-952.pdf'},
            {'label': 'LCP, projet de loi adopté au Sénat le 28/10', 'year': 2026, 'url': 'https://lcp.fr/actualites/projet-de-loi-casseurs-payeurs-le-texte-transmis-a-l-assemblee-apres-son-adoption-au'}]
 PLACES = "Nouvelles places de prison vite comblées (Sénat, 2023)."
@@ -254,6 +257,142 @@ _upd('attal', 'rayonnement', [_p('Part européenne du calcul mondial : de 3 % à
 _upd('retailleau', 'rayonnement', [_p('Schengen réservé aux Européens : visas limités au pays qui les délivre, comme règle de droit commun'),
                                    _p("Réduire la contribution française au budget de l'UE par la négociation", False), _p('Intégrer les dépenses de défense dans le calcul de cette contribution', False)],
      add=[_s('Les Républicains, entretien au JDD (2/08)', 'https://republicains.fr/actualites/2026/08/02/lespace-schengen-doit-etre-reserve-aux-europeens/')])
+
+# --- review 24 : études des propositions ajoutées le 29/10 (29/10/2026) ; registre S107 (2), S108, S109, S126 à S132
+# Une lecture par type de proposition, le même texte chez tous les candidats qui proposent ce type de mesure (règle n°1), dans l'ordre des
+# propositions affichées ; textes d'environ 470 caractères au plus (lecture « casseur-payeur » raccourcie pour tous : CASSE plus haut).
+# La faisabilité juridique (décision n° 2025-886 DC sur la justice des mineurs) n'entre pas dans ces textes, qui portent sur l'efficacité : S126.
+def _ev(cid, th, ev, add=(), drop=(), level=None):
+    o = OVR.setdefault((cid, th), {}); o['evidence'] = ev
+    if level: o['evidence_level'] = level
+    if drop:
+        o['drop'] = o.get('drop', []) + list(drop)
+        o['add'] = [s for s in o.get('add', []) if not any(d in s['url'] for d in drop)]
+    if add: o['add'] = o.get('add', []) + [s for s in add if s['url'] not in {x['url'] for x in o.get('add', [])}]
+def _src(label, year, url): return {'label': label, 'year': year, 'url': url}
+# sécurité
+MIN = "Mineurs jugés comme des adultes : récidive +34 % (États-Unis, 2007)."
+MIN_S = _src("CDC, Task Force on Community Preventive Services : transfert des mineurs vers la justice des adultes (MMWR 56, RR-9)", 2007, 'https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5609a1.htm')
+CEF = "Centres éducatifs fermés : au moins 41 % des jeunes de nouveau poursuivis dans l'année (DPJJ, 2024) ; efficacité non évaluée (Cour des comptes, 2023)."
+CEF_S = _src("Assemblée nationale, rapport d'information n° 1566 sur les centres éducatifs fermés (Cour des comptes 2023, étude DPJJ 2024)", 2025, 'https://www.assemblee-nationale.fr/dyn/17/rapports/cion_fin/l17b1566_rapport-information.pdf')
+DECH = "Déchéance de nationalité : effet non évalué."
+DECH_S = _src("Ministère de l'Intérieur, réponse à la question écrite n° 19446 sur la déchéance de nationalité (JO du 19/04/2022)", 2022, 'https://questions.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE19446.pdf')
+FICH = "Cagoule en manifestation : délit depuis 2019 ; pointage non évalué."
+FICH_S = _src("Conseil constitutionnel, décision n° 2019-780 DC, loi « anticasseurs » (délit de dissimulation du visage)", 2019, 'https://www.conseil-constitutionnel.fr/decision/2019/2019780DC.htm')
+RECO = "Reconnaissance faciale a posteriori : ≈ 616 000 recherches en 2021 (Sénat, 2022) ; effet non évalué."
+RECO_S = _src("Sénat, rapport d'information n° 627 (2021-2022), la reconnaissance biométrique dans l'espace public", 2022, 'https://www.senat.fr/rap/r21-627/r21-6271.pdf')
+# RESEAUX et EXPUL raccourcies, même contenu
+RESEAUX = "Coupures de réseaux : plus d'actions violentes (Inde, 2019) ; blocage de TikTok en Nouvelle-Calédonie jugé illégal (Conseil d'État, 2025)."
+EXPUL = "Expulsions après arrestation : pas de baisse observable de la criminalité (États-Unis, 2014)."
+GILL = "Police de proximité : baisse limitée de la délinquance (Gill, 2014), sentiment d'insécurité réduit."
+# justice des mineurs (MIN) : même lecture pour Attal, Lisnard et Retailleau ; HEN (courtes peines des adultes) reste chez Philippe et sort
+# de la sécurité de Retailleau, dont la proposition porte sur les mineurs ; déchéance de nationalité (DECH) : Retailleau et Zemmour ;
+# Miles et Cox vaut pour le « départ » et les expulsions de Zemmour, pas pour la déchéance elle-même
+_ev('attal', 'securite', CASSE + " " + MIN + " " + RECO + " " + RESEAUX, add=[MIN_S, RECO_S])
+_ev('lisnard', 'securite', MIN + " " + CEF + " " + CASSE + " " + FICH + " " + PLACES, add=[MIN_S, CEF_S, FICH_S])
+_ev('retailleau', 'securite', CASSE + " " + MIN + " " + DECH + " " + PP, add=[MIN_S, DECH_S], drop=['chicagounbound.uchicago.edu/jle/vol59/iss3/6'])
+_ev('zemmour', 'securite', PP + " " + CASSE + " " + DECH + " " + EXPUL, add=[DECH_S])
+_ev('melenchon', 'securite', GILL + " Régulation carcérale : pas d'évaluation française identifiée.")
+_ev('glucksmann', 'securite', GILL + " Vidéosurveillance : utile dans 1,1 % des enquêtes (Gormand, gendarmerie).")
+# école : Parcoursup (PARC) pour Mélenchon, Glucksmann et Retailleau (suppression comme sélection portent sur l'admission dans le supérieur) ;
+# internats disciplinaires (INT, Retailleau) ; chèque-éducation (CHEQ, Lisnard ; pas pour la « concurrence public-privé » de Zemmour, sans mécanisme)
+PARC = "Parcoursup : fin du tirage au sort, classements peu transparents, quotas de boursiers peu efficaces (Cour des comptes, 2020)."
+PARC_S = _src("Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE", 2020, 'https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf')
+INT = "Établissements pour élèves exclus (2010) : résultats souvent décevants, abandonnés (inspection, 2012)."
+INT_S = _src("Ministère de l'Éducation nationale, réponse à la question écrite n° 85814 (rapport d'inspection de 2012 sur les établissements de réinsertion scolaire)", 2016, 'https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE85814.pdf')
+CHEQ = "Chèque-éducation : niveau en hausse (Suède, 2015) ou en baisse (Louisiane, 2018), tri social accru (Chili, 2006) ; contractuels non évalués."
+CHEQ_S = [_src("Böhlmark, Lindahl, écoles indépendantes et chèque scolaire en Suède (IZA DP 6683, Economica 2015)", 2015, 'https://econpapers.repec.org/RePEc:iza:izadps:dp6683'),
+          _src("Abdulkadiroglu, Pathak, Walters, chèque scolaire en Louisiane (NBER w21839, AEJ Applied 2018)", 2018, 'https://www.nber.org/papers/w21839'),
+          _src("Hsieh, Urquiola, chèque scolaire généralisé au Chili (NBER w10008, Journal of Public Economics 2006)", 2006, 'https://www.nber.org/papers/w10008')]
+PETITES = "Petites écoles : regroupements suivis d'une baisse passagère des résultats (Danemark, 2018) ou d'un léger gain (Pays-Bas, 2016)."
+# lectures propres à un candidat, raccourcies sans changer leur contenu
+MIXITE = "Mixité au privé : non évaluée ; secteurs communs à Paris : évitement du privé de 24 % à 16 % dans l'un (IPP, 2021)."
+CARTE = "Carte scolaire assouplie : effet global faible, fuite des collèges défavorisés (DEPP, 2013)."
+EX1 = EXAM[:EXAM.index(', mais')] + "."  # première moitié de EXAM, à l'identique
+RED = "Redoublement : effet quasi nul, puis négatif à long terme (Cnesco, 2014)."
+AUTO = "Autonomie : progrès de collèges en difficulté (Angleterre, 2019), aucun en primaire (2017)."
+# Mélenchon : la note du 14/10 reprend la baisse des effectifs (19 élèves par classe en un mandat, « le secondaire public est prioritaire ») ;
+# précise et de 2026, elle passe devant le transport scolaire (9/10) ; même date que Parcoursup (même note), qui garde sa place (registre S107)
+OVR[('melenchon', 'ecole')]['proposals'] = [_p('Supprimer Parcoursup et MonMaster'),
+    _p('Se rapprocher en un mandat de 19 élèves par classe (moyenne européenne), priorité au secondaire public'),
+    _p('Transport scolaire limité à 15 minutes, écoles à classe unique maintenues'), _p("Scolarité obligatoire jusqu'à 18 ans", True, True)]
+_ev('melenchon', 'ecole', PARC + " " + DD + " " + PETITES, add=[PARC_S])
+_ev('glucksmann', 'ecole', DD + " " + SAL + " " + MIXITE + " " + PARC, add=[PARC_S])
+_ev('retailleau', 'ecole', PARC + " " + EX1 + " " + RED + " " + AUTO + " " + INT, add=[PARC_S, INT_S])
+_ev('lisnard', 'ecole', CHEQ + " " + EXAM + " " + SAL + " " + CARTE, add=CHEQ_S)
+# économie : règle d'or (OR, Le Pen et Philippe ; mêmes études que le quiz attal.regle_or), code du travail réduit à des principes (CODE,
+# Attal et Retailleau), stabilité fiscale (STAB, Attal et Lisnard), contrat unique (CU, Lisnard) ; impôts de production et heures sup :
+# un seul texte pour tous les candidats qui les proposent (IPROD, TEPA)
+OR = ("Règle d'or : effet modéré sur les déficits, plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; "
+      "Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023).")
+OR_S = [_src("Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)", 2016, 'https://www.zew.de/PU77836'),
+        _src("Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne", 2026, 'https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1?geo=DE&unit=PC_GDP&sector=S13&na_item=GD&time=2010&time=2019&time=2024'),
+        _src("Cour constitutionnelle fédérale allemande, communiqué n° 101/2023", 2023, 'https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/EN/2023/bvg23-101.html')]
+IPROD = "Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025)."
+TEPA = "Heures sup défiscalisées (TEPA) : pas d'effet significatif sur les heures travaillées (IPP, 2012)."
+CODE = "Code du travail réduit à des principes : non évalué ; ordonnances de 2017, effet sur l'emploi non mesuré (France Stratégie, 2021)."
+CODE_S = [_src("France Stratégie, comité d'évaluation des ordonnances travail, rapport 2021 (présentation, via Le Monde du Droit)", 2021, 'https://www.lemondedudroit.fr/publications/248-etudes-et-documents/78930-comite-evaluation-des-ordonnances-travail-publie-aujourd-hui-son-rapport-d-evaluation-2021.html'),
+          _src("France Stratégie, appel à projets de recherche pour évaluer l'effet des ordonnances travail sur l'emploi", 2022, 'https://www.strategie-plan.gouv.fr/files/2025-06/apr_-_ordonnances_travail-presentation_generale.pdf')]
+STAB = "Incertitude politique : moins d'investissement et d'emploi (12 pays, 2016) ; règle de stabilité fiscale non évaluée."
+STAB_S = _src("Baker, Bloom, Davis, Measuring Economic Policy Uncertainty (NBER w21633, QJE 2016)", 2016, 'https://www.nber.org/papers/w21633')
+CU = "CDI à indemnités progressives (Italie, 2015) : 8 % des embauches en CDI dues au licenciement moins coûteux (2018) ; contrat unique non évalué."
+CU_S = _src("Sestito, Viviano, coût du licenciement et embauches : la réforme italienne de 2015 (Economic Policy)", 2018, 'https://ideas.repec.org/a/oup/ecpoli/v33y2018i93p101-130..html')
+_ev('le-pen', 'economie', RTE + " " + OR + " " + IPROD, add=OR_S)
+_ev('philippe', 'economie', TEPA + " Chômage plus court de 12 %, mais emplois peu durables (Dares, 2025). " + OR + " " + IPROD, add=OR_S)
+_ev('attal', 'economie', CODE + " " + STAB + " " + IA, add=CODE_S + [STAB_S], drop=['connaissancedesenergies.org/afp/programme-depr-'])  # EPR en « environnement » (S117)
+_ev('retailleau', 'economie', IPROD + " " + CODE + " " + TEPA, add=CODE_S)
+_ev('lisnard', 'economie', IPROD + " CEPII (2007) : TVA sociale, emplois modestes si ciblée sur les bas salaires, pouvoir d'achat réduit. " + CU + " " + STAB, add=[CU_S, STAB_S])
+_ev('zemmour', 'economie', IA + " " + IPROD)
+# rayonnement : droits de douane ciblés (mêmes études que le quiz glucksmann.industrie) ; Schengen ; contribution à l'UE (UEU, comme Le Pen) ;
+# dépenses de défense (Banque de Finlande, même texte pour Lisnard et Zemmour)
+DOUANE = "Droits de douane américains de 2018 : prix des lave-linge +12 %, emploi industriel −1,4 % avec les représailles (États-Unis, 2019)."
+DOUANE_S = [_src("Université de Chicago, sur Flaaen, Hortaçsu et Tintelnot (étude publiée dans l'American Economic Review, 2020)", 2019, 'https://news.uchicago.edu/story/what-washing-machines-can-teach-us-about-cost-tariffs'),
+            _src("Flaaen et Pierce, Réserve fédérale, FEDS n° 2019-086", 2019, 'https://www.federalreserve.gov/econres/feds/files/2019086pap.pdf')]
+SCH = "Visa limité au pays qui le délivre : non évalué ; assouplir les visas accroît l'afflux de touristes de 5 à 25 % (France Stratégie, 2016)."
+SCH_S = _src("France Stratégie, Note d'analyse n° 39, Les conséquences économiques d'un abandon des accords de Schengen", 2016, 'https://www.strategie-plan.gouv.fr/files/files/Publications/2016/NA%2039/note_danalyse_ndeg39.pdf')
+FIN = "Banque de Finlande (2025) : multiplicateur des dépenses de défense d'environ 0,6 à 1,0 ; effets durables surtout si investissement et R&D."
+_ev('attal', 'rayonnement', "Pas d'évaluation publique de cet objectif. " + IA + " " + DOUANE, add=DOUANE_S, level='mitigee')
+_ev('retailleau', 'rayonnement', SCH + " " + UEU, add=[SCH_S])
+_ev('lisnard', 'rayonnement', FIN)
+_ev('zemmour', 'rayonnement', FIN + " " + VED)
+# libertés : référendum (même texte pour Attal, Retailleau et Lisnard), seuil du RIP (Retailleau et Lisnard), discipline des magistrats
+# (Retailleau et Philippe), droit à la sécurité (Retailleau), vote à 16 ans (Mélenchon), voile et dissolutions (Lisnard)
+RIP = "RIP ADP (2019) : environ 1 million de soutiens pour 4,7 millions requis."
+RIP_S = _src('Public Sénat – RIP ADP', 2019, 'https://www.publicsenat.fr/actualites/politique/referendum-sur-adp-le-cap-du-million-de-signatures-atteint-148123')
+SUISSE = "Suisse : l'usage du référendum va de pair avec une satisfaction démocratique un peu plus forte, sans effet sur le bien-être (2012)."
+SECU = "Sécurité : déjà « droit fondamental » dans la loi depuis 1995 (code de la sécurité intérieure) ; effet non évalué."
+SECU_S = _src("Conseil constitutionnel, commentaire de la décision n° 2020-889 QPC (droit à la sécurité, loi du 21 janvier 1995)", 2021, 'https://www.conseil-constitutionnel.fr/sites/default/files/as/root/bank_mm/decisions/2020889qpc/2020889qpc_ccc.pdf')
+CSM = "Discipline des magistrats : 254 plaintes de justiciables en 2025, une seule renvoyée devant le conseil de discipline (CSM, 2026)."
+CSM_S = _src("Conseil supérieur de la magistrature, rapport d'activité 2025 (chiffres clés)", 2026, 'https://www.conseil-superieur-magistrature.fr/sites/default/files/pdf/CSM_RA_2025_Web_compress%C3%A9_0.pdf')
+VOTE16 = "Vote à 16 ans : les 16-17 ans votent plus que les 18-20 ans en Autriche (Vienne 2010 : 64 % contre 56 %) et en Écosse (2014) ; effet durable peu mesuré."
+VOTE16_S = [_src("Zeglovits, Aichholzer, vote à 16 ans en Autriche (Journal of Elections, Public Opinion and Parties)", 2014, 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4864896/'),
+            _src("J. Curtice, What Scotland Thinks : participation des 16-17 ans au référendum de 2014 (sondage ICM pour la Commission électorale)", 2014, 'https://www.whatscotlandthinks.org/2014/12/many-16-17-year-olds-voted/')]
+VOILE = ("Voile interdit à l'école : diplômes des filles de culture musulmane en hausse après 1994 (IZA, 2019) ; après 2004, effet nul ou négatif "
+         "selon les études (APSR, 2020) ; aucune étude sur l'université ni sur les dissolutions.")
+VOILE_S = [_src("Maurin, Navarrete, l'interdiction du voile à l'école (IZA DP 12645)", 2019, 'https://docs.iza.org/dp12645.pdf'),
+           _src("Abdelgadir, Fouka, la loi de 2004 sur le voile et l'intégration (American Political Science Review)", 2020, 'https://ideas.repec.org/a/cup/apsrev/v114y2020i3p707-723_10.html')]
+RIC = "RIC : peu d'études causales. En Suisse, initiatives rarement adoptées mais qui structurent le débat ; risque d'usage restrictif des libertés signalé (AMU, 2024)."
+_ev('attal', 'libertes', SUISSE)
+_ev('retailleau', 'libertes', RIP + " " + SUISSE + " " + SECU + " " + CSM, add=[SECU_S, CSM_S])
+_ev('lisnard', 'libertes', RIP + " " + SUISSE + " " + VOILE, add=[RIP_S] + VOILE_S)
+_ev('philippe', 'libertes', "Aucune évaluation empirique identifiée de l'effet des ordonnances ou du lien parquet-exécutif sur l'efficacité de l'action publique. " + CSM, add=[CSM_S])
+_ev('melenchon', 'libertes', VOTE16 + " " + RIC, add=VOTE16_S)
+# environnement : aides aux voitures électriques des ménages modestes (VE : Philippe, Attal, Glucksmann) ; SEQE 2 (Zemmour) ;
+# lectures de la Cour des comptes (EPR) et de RTE : même texte pour tous les candidats qui proposent ce type de mesure
+SEQE = "Marché carbone des carburants : +10 à 15 c€ par litre (Institut Montaigne, 2025) ; taxe carbone suédoise : émissions des transports −11 % (2019)."
+SEQE_S = [_src("Institut Montaigne, Transition des mobilités : anatomie d'une impasse (note d'éclairage, octobre 2025)", 2025, 'https://institutmontaigne.org/ressources/pdfs/publications/note-transition-des-mobilites-anatomie-d-une-impasse.pdf'),
+          _src("Andersson, Carbon Taxes and CO2 Emissions: Sweden as a Case Study (AEJ: Economic Policy)", 2019, 'https://www.aeaweb.org/articles?id=10.1257/pol.20170144')]
+VE = ("Leasing social 2024 : 47 000 ménages aidés, sans bilan CO₂ publié. Aide aux ménages modestes pour un véhicule électrique neuf ou d'occasion : "
+      "demande très sensible au prix (Californie, 2022).")
+VE_S = [_src("Muehlegger, Rapson, aides aux véhicules électriques des ménages modestes en Californie (NBER w25359, Journal of Public Economics 2022)", 2022, 'https://www.nber.org/papers/w25359'),
+        _src('Connaissance des énergies, bilan leasing', 2025, 'https://www.connaissancedesenergies.org/leasing-social-un-levier-perenne-pour-aider-les-menages-les-plus-modestes')]
+_ev('zemmour', 'environnement', EPR + " " + SEQE + " " + RTE, add=SEQE_S)
+_ev('philippe', 'environnement', "HCC 2026 : France « pas prête », plan d'adaptation sous-financé, risque de « maladaptation ». Aucune évaluation d'un fonds unique d'adaptation. " + VE,
+    add=VE_S, level='mitigee')
+_ev('attal', 'environnement', EPR + " HCC 2026 : émissions −2,1 % en 2025, un rythme qui doit au moins doubler ; leasing social et MaPrimeRénov' jugés sous-dimensionnés. " + VE, add=VE_S)
+_ev('glucksmann', 'environnement', VE + " RTE : scénarios combinant nouveaux réacteurs et renouvelables les plus compétitifs.", add=VE_S[:1])
+_ev('le-pen', 'environnement', RTE)
+_ev('retailleau', 'environnement', EPR + " " + RTE)
 
 # même test « précis » pour une même formulation
 VFLIP = {'Bloquer temporairement': False, 'Assistant médical fondé sur l': False, 'Contrôle du Conseil constitutionnel limité': False, 'Police de proximité modernisée': False, "Fonds national d'acquisition foncière": False,
