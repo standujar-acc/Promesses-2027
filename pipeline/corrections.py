@@ -307,7 +307,7 @@ C['philippe']['sim']['chomage_duree']={"mois":12,"avant":50}
 # jeunes parents : mesure comptée dans le total (−3 Md€), absente du simulateur
 C['philippe']['sim']['ir_jeunes_parents']={"note":"Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents des classes moyennes","max":2*SQ.get('salaire_moyen',2733)}
 # simulateur, review 5 bis : audit indépendant du 27/10/2026
-D['asof']='28 octobre 2026'
+D['asof']='29 octobre 2026'
 for k,v in (('smic_url',"https://www.service-public.gouv.fr/particuliers/vosdroits/F2300"),):
     SQ[k]=v
 SQ['alloc_familiales']['url']="https://www.service-public.gouv.fr/particuliers/vosdroits/F13213"

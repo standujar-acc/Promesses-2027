@@ -1,5 +1,5 @@
 {
- "derniere_revue": "2026-10-28",
+ "derniere_revue": "2026-10-29",
  "points": [
   {
    "id": "S001",
@@ -1245,6 +1245,32 @@
    "statut": "ouvert",
    "cree": "2026-10-28",
    "maj": "2026-10-28",
+   "resolution": null
+  },
+  {
+   "id": "S082",
+   "type": "a_corriger",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Signalement peu visible",
+   "detail": "Le bouton « Signaler une erreur » n'existait que dans chaque fiche, une fois la mesure dépliée : rien sur l'accueil, le quiz, le simulateur ni la vie quotidienne, et aucune rubrique de contact.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 : bouton en bas de chaque page (signalement rattaché au candidat affiché, sinon au site), rubrique « Contact et signalements » dans la méthode avec lien vers les tickets GitHub ; test ajouté. Signalements reçus au 29/10 : aucun."
+  },
+  {
+   "id": "S083",
+   "type": "a_trancher",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Qui fait le site : auteur, mentions légales, indépendance",
+   "detail": "Le site ne dit pas qui le fait. Choix du porteur : nom, pseudonyme ou anonymat ; phrase d'indépendance (aucun lien avec un parti ou un candidat, financement) ; mentions légales (pour un particulier non professionnel, le nom de l'hébergeur suffit s'il détient l'identité de l'éditeur, LCEN art. 6). Aucune donnée personnelle publiée sans accord explicite.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
    "resolution": null
   }
  ]
