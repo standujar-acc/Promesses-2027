@@ -5210,7 +5210,7 @@
 }
 ]
 },
-"retailleau.ecole.1": {
+"retailleau.ecole.2": {
 "constat": "Entrée en 6e en 2025 : 28 % d'élèves en difficulté en français (32 % en 2017), 33 % en maths (31 %) (DEPP).",
 "constat_s": [
 5
@@ -5288,7 +5288,7 @@
 }
 ]
 },
-"retailleau.ecole.2": {
+"retailleau.ecole.3": {
 "constat": "Entrée en 6e en 2025 : 28 % d'élèves en difficulté en français (32 % en 2017), 33 % en maths (31 %) (DEPP).",
 "constat_s": [
 4
@@ -5357,58 +5357,6 @@
 "l": "DEPP, Note d'information n° 26.21, évaluations de début de 6e, 5e et 4e 2025",
 "a": 2026,
 "u": "https://www.education.gouv.fr/sites/default/files/document/depp-ni-2026-21evals-2dpdf-517319.pdf"
-}
-]
-},
-"retailleau.ecole.3": {
-"pour": "Des collèges en difficulté rendus autonomes ont progressé, d'autant plus que leur autonomie était grande.",
-"preuve_pour": "mitigé",
-"contre": "Des écoles publiques libres de leurs programmes et horaires n'ont pas fait mieux que les écoles ordinaires.",
-"preuve_contre": "mitigé",
-"cas_pour": [
-{
-"t": "Des collèges en difficulté devenus autonomes ont amélioré leurs résultats, d'autant plus que l'autonomie gagnée était grande (Eyles et Machin, Angleterre, 2019).",
-"s": [
-0
-]
-},
-{
-"t": "Des écoles publiques indépendantes, tirées au sort, ont fait gagner 0,4 écart-type en maths par an à leurs collégiens (Abdulkadiroglu et al., Boston, 2011).",
-"s": [
-1
-]
-}
-],
-"cas_contre": [
-{
-"t": "Des écoles publiques maîtresses de leurs programmes, budgets et horaires n'ont pas fait mieux que les écoles ordinaires (Abdulkadiroglu et al., Boston, 2011).",
-"s": [
-1
-]
-},
-{
-"t": "Les premières écoles primaires devenues autonomes n'ont pas amélioré les résultats de leurs élèves (Eyles, Machin et McNally, Angleterre, 2017).",
-"s": [
-2
-]
-}
-],
-"etudes": "Les études divergent : l'autonomie aide surtout des écoles en difficulté soumises à un contrôle des résultats ; ailleurs, elle change peu les résultats. Aucune évaluation française.",
-"src": [
-{
-"l": "Eyles, Machin, The introduction of academy schools to England's education (JEEA)",
-"a": 2019,
-"u": "https://researchonline.lse.ac.uk/id/eprint/88581/"
-},
-{
-"l": "Abdulkadiroglu, Angrist, Dynarski, Kane, Pathak, Boston's charters and pilots (NBER w15549, Quarterly Journal of Economics 2011)",
-"a": 2011,
-"u": "https://www.nber.org/papers/w15549"
-},
-{
-"l": "Eyles, Machin, McNally, Unexpected school reform: academisation of primary schools in England (CEP DP 1455, Journal of Public Economics 2017)",
-"a": 2017,
-"u": "https://researchonline.lse.ac.uk/id/eprint/69027"
 }
 ]
 },

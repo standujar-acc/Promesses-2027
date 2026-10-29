@@ -2875,7 +2875,7 @@
     "p10": -90.1,
     "p90": -51.1,
     "realsum": -70.0,
-    "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, prêt à taux zéro à la place de MaPrimeRénov', recettes et économies du contre-budget sans chiffrage indépendant (chiffres du camp pour 2027) : impôt sur les sociétés assis sur le chiffre d'affaires 3,75, Autorité de la concurrence 1,2, dividendes d'EDF sur les exportations 3,7, économies sur le TURPE 2, économies sur la Sécurité sociale ≈ 20, droits de douane rendus 2,2 ; dépenses de moins de 1 Md€ (AAH au-dessus du seuil de pauvreté, permis gratuit, prime d'activité étudiante, demi-part des veufs…), dispense d'impôt sur le revenu pour les entrepreneurs (public et durée non publiés), fonds souverain (opération financière), abrogation de la loi Hulot, lignes immigration du contre-budget sans chiffrage indépendant ni paramètre suffisant (chiffres du camp pour 2027) : suppression du visa pour soins 1, hausse des frais de scolarité des étudiants étrangers 1,1 (montant des droits non publié), effets indirects sur la sécurité 0,5, départ des étrangers sans emploi 0,1, timbre sur les visas touristiques 0,1 ; taxe de 1 000 € par an à l'embauche d'un salarié extra-européen 1 et taxe de 14 % sur les transferts d'argent vers les pays tiers 1,9 (à l'étude)",
+    "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, prêt à taux zéro à la place de MaPrimeRénov', recettes et économies du contre-budget sans chiffrage indépendant (chiffres du camp pour 2027) : impôt sur les sociétés assis sur le chiffre d'affaires 3,75, Autorité de la concurrence 1,2, dividendes d'EDF sur les exportations 3,7, économies sur le TURPE 2, économies sur la Sécurité sociale ≈ 20, droits de douane rendus 2,2 ; dépenses de moins de 1 Md€ (AAH au-dessus du seuil de pauvreté, permis gratuit, prime d'activité étudiante, demi-part des veufs…), dispense d'impôt sur le revenu pour les entrepreneurs (public et durée non publiés), fonds souverain (opération financière), abrogation de la loi Hulot, lignes immigration du contre-budget sans chiffrage indépendant ni paramètre suffisant (chiffres du camp pour 2027) : suppression du visa pour soins 1, hausse des frais de scolarité des étudiants étrangers 1,1 (montant des droits non publié), effets indirects sur la sécurité 0,5, départ des étrangers sans emploi 0,1, timbre sur les visas touristiques 0,1 ; taxe de 1 000 € par an à l'embauche d'un salarié extra-européen 1 et taxe de 14 % sur les transferts d'argent vers les pays tiers 1,9 (à l'étude), gel des taxes sur le tabac et fin de leur indexation sur l'inflation (lettre aux buralistes du 6/09/2026 ; rendement à calculer)",
     "n": 26,
     "cost": -84.8,
     "gain": 18.1,
@@ -3889,7 +3889,7 @@
         "url": "https://acteurspublics.fr/articles/1-2-ou-3-de-hausse-du-point-dindice-quel-impact-sur-les-finances-publiques"
        }
       ],
-      "note": "Coût brut pour les employeurs publics, comme les hausses des enseignants des autres candidats. Le camp chiffre +10 % à 17 Md€, soit ≈ +7 % au coût de 2026."
+      "note": "Coût brut pour les employeurs publics, comme les hausses des enseignants des autres candidats. Le camp chiffre +10 % à 17 Md€, soit ≈ +7 % au coût de 2026. Enseignants : la note budgétaire du candidat (14/10/2026, +10 % pour tous les fonctionnaires) prévaut sur le plan d'urgence du groupe LFI pour l'éducation (1/09/2026, +20 % pour les enseignants dès la première année) ; à revoir avec le programme du 6/11."
      },
      "quiz_text": "Augmenter de 10 % le salaire de base de tous les fonctionnaires",
      "quiz_concret": "Les agents publics gagnent plus.",
@@ -5423,7 +5423,7 @@
     "p10": -176.3,
     "p90": -105.9,
     "realsum": -147.1,
-    "missing": "IS progressif, 10 000 enseignants (0,5 Md€), pension minimale au niveau du SMIC, indexation des pensions sur les salaires, minimum vieillesse au seuil de pauvreté, recettes annoncées sans paramètre publié (chiffres du camp) : CVAE des grandes entreprises 3, taxe sur les multinationales 5, taxe Gafam 3,9, superprofits 5, rachats d'actions 2,5, crypto-actifs 1, bac professionnel en quatre ans (coût non publié), suppression de Parcoursup, livret A relevé à 30 000 € et rémunéré au moins à l'inflation, « Livret B » défiscalisé (coûts non publiés)",
+    "missing": "IS progressif, 10 000 enseignants (0,5 Md€), pension minimale au niveau du SMIC, indexation des pensions sur les salaires, minimum vieillesse au seuil de pauvreté, recettes annoncées sans paramètre publié (chiffres du camp) : CVAE des grandes entreprises 3, taxe sur les multinationales 5, taxe Gafam 3,9, superprofits 5, rachats d'actions 2,5, crypto-actifs 1, bac professionnel en quatre ans (coût non publié), suppression de Parcoursup, livret A relevé à 30 000 € et rémunéré au moins à l'inflation, « Livret B » défiscalisé (coûts non publiés), plan d'urgence du groupe LFI pour l'éducation (1/09/2026) : fournitures et manuels gratuits pour tous, transports et périscolaire gratuits en priorité pour les plus modestes (« une dizaine de milliards » selon le groupe, cantine comprise, chiffrage en cours), AESH fonctionnaires de catégorie B (coût non publié)",
     "n": 21,
     "cost": -173.5,
     "gain": 26.4,
@@ -6157,7 +6157,7 @@
      "id": "immigration",
      "theme": "immigration",
      "title": "Immigration légale ÷ 2",
-     "proposal": "Diviser par deux l'immigration légale sur le quinquennat (moins de 200 000 titres par an) : titres réservés au travail et aux études, regroupement familial restreint (moratoire annoncé le 8/10), accord de 1968 avec l'Algérie dénoncé, protocole CEDH, liste UE de pays sûrs.",
+     "proposal": "Diviser par deux l'immigration légale sur le quinquennat (moins de 200 000 titres par an) : titres réservés au travail et aux études, regroupement familial restreint (moratoire annoncé le 8/10), accord de 1968 avec l'Algérie dénoncé, protocole CEDH, liste UE de pays sûrs ; droit du sol suspendu à Mayotte.",
      "claimed": "Cible « largement inférieure à 200 000 » titres/an",
      "claimed_md": null,
      "estimates": [
@@ -6194,6 +6194,12 @@
         "value": "« diviser l'immigration légale par deux », titres réservés « aux seuls motifs professionnels et aux étudiants », « restreindre le regroupement familial » (entretien au Point, 27/10/2026)",
         "source": "L'Express via Orange Actu",
         "url": "https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html"
+       },
+       {
+        "label": "Mayotte",
+        "value": "droit du sol suspendu « totalement » à Mayotte (entretien à France Mayotte Matin, rapporté par Euronews le 21/08/2026)",
+        "source": "Euronews",
+        "url": "https://fr.euronews.com/2026/08/21/a-mayotte-edouard-philippe-place-limmigration-au-coeur-de-sa-campagne-pour-2027"
        }
       ],
       "note": "Mesure surtout juridique",
@@ -8410,7 +8416,7 @@
     "p10": -56.3,
     "p90": -40.0,
     "realsum": -46.1,
-    "missing": "transition écologique, hôpital, baisse des effectifs par classe, stages payés au moins 1 000 €/mois (coût public sous 1 Md€, surtout à la charge des employeurs), séjour collectif garanti à chaque enfant (paramètres non publiés)",
+    "missing": "transition écologique, hôpital, baisse des effectifs par classe, stages payés au moins 1 000 €/mois (coût public sous 1 Md€, surtout à la charge des employeurs), séjour collectif garanti à chaque enfant (paramètres non publiés), annulation des suppressions de postes de l'Éducation nationale du budget 2027 (sous 1 Md€)",
     "n": 8,
     "cost": -46.1,
     "gain": 0,
@@ -9704,7 +9710,7 @@
     "p10": 1.2,
     "p90": 9.0,
     "realsum": 7.8,
-    "missing": "classes de moins de 20 élèves, baisse des charges salariales, arrêts maladie, défense, reste du plan de 150 Md€ non ventilé, dont le frein d'urgence de 20 Md€ (contenu non publié), annulation des suppressions de postes d'enseignants du budget 2027 (sous 1 Md€), crédit d'impôt « productivité » (montant non publié), leasing social étendu aux voitures électriques d'occasion (paramètres non publiés)",
+    "missing": "classes de moins de 20 élèves, baisse des charges salariales, arrêts maladie, défense, reste du plan de 150 Md€ non ventilé, dont le frein d'urgence de 20 Md€ (contenu non publié), annulation des suppressions de postes d'enseignants du budget 2027 (sous 1 Md€), crédit d'impôt « productivité » (montant non publié), leasing social étendu aux voitures électriques d'occasion (paramètres non publiés), livret d'épargne « garde d'enfant » pour financer des places en crèche et 200 000 professionnels de la petite enfance formés d'ici 2030 (paramètres non publiés), barème kilométrique revalorisé, prime carburant exonérée portée à 1 000 €, moitié du boîtier E85 financée, aides aux gros rouleurs élargies et bonus électrique étendu aux véhicules d'occasion (paramètres non publiés), donations facilitées aux petits-enfants, petits-neveux et petites-nièces et transmission des exploitations agricoles (abattements non publiés)",
     "n": 6,
     "cost": -3.0,
     "gain": 10.8,
@@ -9893,7 +9899,7 @@
      "id": "immigration",
      "theme": "immigration",
      "title": "Référendum immigration",
-     "proposal": "Référendum, fin du droit du sol, regroupement familial réduit, aides sociales après cinq ans de séjour régulier et de travail, asile examiné hors des frontières.",
+     "proposal": "Référendum, fin du droit du sol, regroupement familial réduit, aides sociales après cinq ans de séjour régulier et de travail, asile examiné hors des frontières, quotas de visas et de titres de séjour fixés par la loi, expulsion obligatoire de tout étranger condamné.",
      "claimed": "10 Md€ cumulés, dont 4,5 Md€ suspendus au référendum",
      "claimed_md": null,
      "estimates": [
@@ -9974,6 +9980,12 @@
         "value": "1 379,6 M€ en CP (PLF 2026)",
         "source": "Projet annuel de performances 2026, mission Immigration, asile et intégration",
         "url": "https://www.assemblee-nationale.fr/dyn/dyn/contenu/visualisation/1087981/file/PAP2026_BG_Immigration_asile_integration_IA.pdf"
+       },
+       {
+        "label": "Projet en ligne",
+        "value": "« Faire fixer par la loi des quotas de visas et de titres de séjour » ; « Rendre obligatoire l'expulsion de tout étranger condamné pénalement ou menaçant l'ordre public » (pages mises à jour le 24/09/2026)",
+        "source": "avecretailleau.fr",
+        "url": "https://www.avecretailleau.fr/projet/mesure/faire-fixer-par-la-loi-des-quotas-migratoires"
        }
       ],
       "note": "Le plan est un niveau annuel en 2032. Statut de l'OID tranché (S087) : ses estimations ne sont pas reprises telles quelles. Asile : la note de l'OID (0,93 Md€ la 5e année) suppose une baisse de moitié des demandes ; le site retient la valeur déjà appliquée à la même mesure chez Le Pen (et Lisnard). La note de l'OID chiffre aussi à 2,9 Md€ par an les dépenses supplémentaires (contrôles, éloignements) nécessaires à ses économies (6,9 Md€ nets) ; la fiche 9 n'a pas de ligne de dépense correspondante (sans effet sur les montants comptés ici). Valeur de l'asile non actualisée, comme chez Le Pen (crédits de l'action 02 : 1 379,6 M€ en CP au PLF 2026)."
@@ -11357,7 +11369,7 @@
       "high": -12.6,
       "method": "camp",
       "formula": "Budget publié ligne à ligne (fiche 14 du plan, niveaux 2032) : cotisations salariales en moins dès le premier euro −15 + relais de MaPrimeRénov' et TVA sur les certificats d'économies d'énergie −3 = −18 ; comptée en entier en 2030 comme les cotisations patronales du même plan (baisse d'impôt sans calendrier par mesure, règle commune) ; borne haute : 70 % en 2030 (−12,6). La ligne « familles et transmission » (3) est couverte par les fiches revenu familial et transmission",
-      "note": "Seul chiffrage : celui du camp. Si l'on retenait la trajectoire du plan (70 % en 2030), la même lecture vaudrait pour les cotisations patronales : −12,6 et −10,5.",
+      "note": "Seul chiffrage : celui du camp. Si l'on retenait la trajectoire du plan (70 % en 2030), la même lecture vaudrait pour les cotisations patronales : −12,6 et −10,5. Certificats d'économies d'énergie : la suppression de la TVA perçue sur leur part des factures est une perte de recette publique, comptée ici au chiffre du camp (dans les 3 Md€, avec le relais de MaPrimeRénov', sans détail) ; même lecture que la suppression des certificats proposée par Zemmour, non comptée chez lui faute de chiffre du camp et de coût officiel vérifié.",
       "inputs": [
        {
         "label": "Ménages : 21 Md€ en 2032",
@@ -11859,6 +11871,48 @@
       "note": "La note de l'OID part de 2023, avant ce décret. Le chiffre du camp (1,5) repose sur des hypothèses propres à cette note (moins d'étudiants, coût évité par étudiant) ; non repris."
      },
      "quiz_text": "Soumettre tous les étudiants extracommunautaires aux droits d'inscription différenciés et à une preuve de ressources."
+    },
+    {
+     "id": "tva_communes",
+     "theme": "depense",
+     "title": "9 000 € de TVA aux communes par logement neuf",
+     "proposal": "Verser automatiquement à la commune une fraction de TVA de 9 000 € pour chaque logement neuf, pour financer écoles, voirie et réseaux.",
+     "claimed": "Aucun impôt ni aucune charge nouvelle selon le camp (TVA de la construction relancée)",
+     "claimed_md": null,
+     "estimates": [],
+     "consensus": "isolé",
+     "verdict": "faisable",
+     "obstacle": "Par la loi de finances.",
+     "claude": {
+      "id": "tva_communes",
+      "central": 0,
+      "low": -3.3,
+      "high": 0,
+      "method": "ascendant",
+      "formula": "Transfert de l'État vers les communes : neutre pour le solde de l'ensemble des administrations publiques (0). Si les communes dépensent tout en équipements nouveaux : 263 000 logements mis en chantier en 2025 × 9 000 € ≈ −2,4 ; 369 723 logements autorisés sur douze mois × 9 000 € ≈ −3,3 (borne basse). Les recettes de TVA « induites » invoquées par le camp sont un effet de comportement, non compté.",
+      "inputs": [
+       {
+        "label": "Montant par logement",
+        "value": "9 000 €",
+        "source": "avecretailleau.fr (page mise à jour le 11/09/2026)",
+        "url": "https://www.avecretailleau.fr/projet/mesure/verser-9-000-euros-aux-communes-par-logement-neuf-construit"
+       },
+       {
+        "label": "Logements autorisés (septembre 2025 à août 2026)",
+        "value": "369 723",
+        "source": "SDES, construction de logements, résultats à fin août 2026",
+        "url": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
+       },
+       {
+        "label": "Logements mis en chantier en 2025",
+        "value": "263 000 (repère « logement » du site)",
+        "source": "SDES, base Sitadel",
+        "url": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
+       }
+      ],
+      "note": "Règle commune : un transfert entre administrations sans dépense définie par la mesure est compté 0 ; la borne basse est le montant si le bénéficiaire le dépense en entier. Aucun chiffrage indépendant trouvé."
+     },
+     "quiz_text": "Verser automatiquement à la commune une fraction de TVA de 9 000 € pour chaque logement neuf, pour financer écoles, voirie et réseaux."
     }
    ],
    "total": {
@@ -11869,11 +11923,11 @@
    },
    "claude_total": {
     "sum": -22.1,
-    "p10": -29.9,
-    "p90": -6.6,
+    "p10": -31.2,
+    "p90": -7.5,
     "realsum": -25.5,
-    "missing": "capitalisation, audiovisuel public, aide au développement, et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (niveaux annuels en 2032), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ en 2032, sans chiffrage indépendant), autres lignes immigration du plan, reprises de l'Observatoire de l'immigration et de la démographie et que les données officielles ne permettent pas de refaire sans ses hypothèses (niveaux 2032) : immigration familiale 1,5, étudiants au-delà des droits différenciés (preuve de ressources) 1,4, titres au coût complet 0,5, hébergement d'urgence fermé aux personnes sous OQTF 0,5, mineurs non accompagnés, soins des demandeurs d'asile et contentieux 0,8",
-    "n": 19,
+    "missing": "capitalisation, audiovisuel public, aide au développement, et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (niveaux annuels en 2032), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ en 2032, sans chiffrage indépendant), autres lignes immigration du plan, reprises de l'Observatoire de l'immigration et de la démographie et que les données officielles ne permettent pas de refaire sans ses hypothèses (niveaux 2032) : immigration familiale 1,5, étudiants au-delà des droits différenciés (preuve de ressources) 1,4, titres au coût complet 0,5, hébergement d'urgence fermé aux personnes sous OQTF 0,5, mineurs non accompagnés, soins des demandeurs d'asile et contentieux 0,8, statut du bailleur privé (amortissement du bâti à 4 % par an, option pour le prélèvement forfaitaire à 30 % ; coût statique non publié, le « gain net » de 1,9 Md€ annoncé repose sur des recettes induites), barème kilométrique réévalué (ampleur non publiée)",
+    "n": 20,
     "cost": -55.2,
     "gain": 33.2,
     "confirm": []
@@ -13039,7 +13093,7 @@
      "id": "aides5",
      "theme": "immigration",
      "title": "Aides après 5 ans de résidence",
-     "proposal": "Titres de séjour divisés par 8 ; prestations non contributives réservées aux étrangers résidant régulièrement en France depuis au moins cinq ans.",
+     "proposal": "Titres de séjour divisés par 8 ; prestations non contributives réservées aux étrangers résidant régulièrement en France depuis au moins cinq ans ; fin de l'automaticité du droit du sol, quotas de main-d'œuvre qualifiée, délit de séjour irrégulier rétabli, expulsion systématique des étrangers condamnés pour délits graves et des fichés S étrangers.",
      "claimed": "8 Md€/an (discours de La Gagne, 29/08/2026)",
      "claimed_md": null,
      "estimates": [],
@@ -13083,6 +13137,12 @@
         "value": "7,6 % (2020), 8,2 % (2023), 9,1 % (2025, provisoire ; rupture de série en 2024)",
         "source": "Insee",
         "url": "https://insee.fr/fr/statistiques/3633212"
+       },
+       {
+        "label": "Programme « Immigration »",
+        "value": "« Mettre fin à l'automaticité du droit du sol » ; « Fixer des quotas de main-d'œuvre qualifiée » ; « Rétablir le délit de séjour irrégulier » ; « Expulser systématiquement les étrangers condamnés pour délits graves et les fichés S étrangers » (page mise à jour le 31/07/2026)",
+        "source": "Nouvelle Énergie",
+        "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
        }
       ],
       "note": "Montants des prestations non actualisés (allocataires 2025 : 4,7 M pour les allocations familiales, 5,6 M pour les aides au logement, en baisse ; montants unitaires revalorisés) ; part des titres de moins de 5 ans de 2020 (40 %) non actualisée, alors que les premiers titres ont atteint 384 230 en 2025 (+11,2 %). Verdict « Exige une révision » inchangé."
@@ -13901,7 +13961,7 @@
     "p10": -59.2,
     "p90": -45.5,
     "realsum": -55.5,
-    "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, TVA unique à 25 %, défense (hausse du budget des armées, sans montant ni date)",
+    "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, TVA unique à 25 %, défense (hausse du budget des armées, sans montant ni date), revenus fonciers au régime du prélèvement forfaitaire unique (taux et niches supprimées en contrepartie non publiés), plan de remise à niveau de la police sur dix ans et budget de la justice porté à la moyenne européenne (montants non publiés), nouveaux centres de rétention (places non publiées), à confirmer en 2026 : charges supprimées pour les employeurs à domicile au niveau du SMIC et charges patronales négatives pour l'embauche d'allocataires du RSA depuis plus de deux ans (page de programme sans date de rédaction)",
     "n": 14,
     "cost": -65.4,
     "gain": 13.4,
@@ -14854,7 +14914,7 @@
         "url": "https://combienjegagne.fr/"
        }
       ],
-      "note": "Aucun chiffrage indépendant ; base 2025 non projetée en 2030 ; le chiffre de 24,8 Md€ (attribué à la Cour des comptes sans référence) est retiré (baisse de la consommation de carburants non comptée). La suppression des certificats d'économies d'énergie, proposée en même temps, est sans effet sur le solde public (obligation des fournisseurs, pas une recette publique). Verdict proposé : faisable (loi de finances ; les taux restent au-dessus des minima de la directive 2003/96)."
+      "note": "Aucun chiffrage indépendant ; base 2025 non projetée en 2030 ; le chiffre de 24,8 Md€ (attribué à la Cour des comptes sans référence) est retiré (baisse de la consommation de carburants non comptée). La suppression des certificats d'économies d'énergie, proposée en même temps (pétition de Reconquête), fait disparaître la TVA perçue sur leur part des factures (même lecture que la ligne « ménages » de Retailleau, comptée au chiffre de son camp) : non chiffrable faute de coût officiel vérifié des certificats et de la part payée par les ménages, listée « non comptée » ; indicatif : de 0 à environ −1,6 Md€ (TVA à 20 % sur 8 Md€ si toute la charge revenait aux ménages ; coût de plus de 8 Md€ en 2026 selon le Gouvernement, chiffre relevé dans la presse et non vérifié à la source). Verdict proposé : faisable (loi de finances ; les taux restent au-dessus des minima de la directive 2003/96)."
      },
      "quiz_text": "Baisser d'un tiers la taxe sur les carburants",
      "quiz_concret": "Le litre d'essence ou de gazole coûte environ 25 centimes de moins.",
@@ -15412,6 +15472,50 @@
        2
       ]
      }
+    },
+    {
+     "id": "prisons",
+     "theme": "securite",
+     "title": "100 000 places de prison",
+     "proposal": "Construire rapidement 100 000 places de prison supplémentaires.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Construction et personnel à financer ; calendrier non publié.",
+     "a_confirmer": true,
+     "confirm_why": "Annoncée le 25/10/2026, mais connue par une seule reprise de presse qui ne cite pas le candidat : elle n'entre pas dans le total tant qu'une seconde source ne la confirme pas.",
+     "claude": {
+      "id": "prisons",
+      "central": -3.2,
+      "low": -9.0,
+      "high": -1.6,
+      "method": "ascendant",
+      "formula": "Indicatif, hors total, même règle que Le Pen (30 000 places), Retailleau (10 000 places) et Lisnard (20 000 places), construction exclue : 100 000 places × 32 k€ de coût annuel d'un détenu ≈ −3,2 ; borne basse avec la construction : 370 k€ la place (Sénat, cité par Montaigne) × 100 000 sur 5 ans ≈ 7,4 + moitié des places ouvertes ≈ 1,6 → −9,0 ; borne haute : moitié des places ouvertes en 2030 (−1,6)",
+      "inputs": [
+       {
+        "label": "Coût d'un détenu",
+        "value": "≈ 32 000 €/an",
+        "source": "Terra Nova (CNAPE)",
+        "url": "https://www.cnape.fr/documents/pour-en-finir-avec-les-peines-plancher"
+       },
+       {
+        "label": "Coût de construction d'une place",
+        "value": "370 000 € (Sénat, 2023)",
+        "source": "Institut Montaigne (2024)",
+        "url": "https://www.institutmontaigne.org/ressources/documents/synthese-legislatives-2024-micro-chiffrages-institut-montaigne-rn.pdf"
+       },
+       {
+        "label": "Proposition",
+        "value": "« la construction rapide de 100 000 places de prison supplémentaires » (émission « Les Incorrectibles » du 25/10/2026, rapportée par Entrevue ; vidéo non consultée)",
+        "source": "Entrevue (26/10/2026)",
+        "url": "https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/"
+       }
+      ],
+      "note": "Une seule source : à compter (−3,2) dès qu'une seconde source (vidéo de l'émission, site du candidat ou autre média) confirme le chiffre. Calendrier non publié. Point commun ouvert : compter ou non la construction (note de la fiche Le Pen), même décision pour les quatre."
+     },
+     "quiz_text": "Construire rapidement 100 000 places de prison supplémentaires."
     }
    ],
    "total": {
@@ -15461,7 +15565,7 @@
     "p10": 14.5,
     "p90": 34.9,
     "realsum": 14.9,
-    "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, suppression de l'aide au développement, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, fin de la gratuité des études pour les étudiants étrangers 4 (montant des droits non publié), audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS et autres agences 2), lignes immigration de moins de 1 Md€ : visas plus chers 0,7, hébergement d'urgence fermé aux étrangers en situation irrégulière 0,7, aide juridictionnelle réservée aux Français 0,1",
+    "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, suppression de l'aide au développement, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, fin de la gratuité des études pour les étudiants étrangers 4 (montant des droits non publié), audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS et autres agences 2), lignes immigration de moins de 1 Md€ : visas plus chers 0,7, hébergement d'urgence fermé aux étrangers en situation irrégulière 0,7, aide juridictionnelle réservée aux Français 0,1, suppression des certificats d'économies d'énergie (TVA perdue sur leur part des factures ; coût officiel non vérifié)",
     "n": 9,
     "cost": -9.0,
     "gain": 31.2,
@@ -15469,7 +15573,8 @@
      "Fin de la CSG sur les salaires",
      "Fin des droits de succession",
      "Fin des impôts de production",
-     "Quotient familial doublé"
+     "Quotient familial doublé",
+     "100 000 places de prison"
     ]
    },
    "short": "Zemmour",
@@ -15478,15 +15583,15 @@
   }
  ],
  "method": [
-  "<b>Notre chiffrage.</b> 143 mesures analysées, dont 112 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
-  "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». La lutte contre la fraude est comptée avec les leviers chiffrés par le Conseil d'analyse économique qui correspondent au champ de chaque mesure, dans la limite du chiffre du camp. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie) ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
+  "<b>Notre chiffrage.</b> 145 mesures analysées, dont 113 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
+  "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». La lutte contre la fraude est comptée avec les leviers chiffrés par le Conseil d'analyse économique qui correspondent au champ de chaque mesure, dans la limite du chiffre du camp. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie ; la TVA perçue sur cette part des factures est en revanche une recette publique, perdue si elle est supprimée) ; un transfert entre administrations (de l'État vers les communes, par exemple) sans dépense définie par la mesure est neutre pour le solde public : compté 0, avec en borne basse le montant si le bénéficiaire le dépense en entier ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
   "<b>Objectifs en niveau.</b> Un objectif de dépense publié sous la forme d'un niveau à une date (en part du PIB ou en euros) est compté pour l'écart, en 2030, entre ce niveau et la trajectoire du droit en vigueur (loi de programmation militaire ou de la recherche ; à défaut, part du PIB constante) ; un objectif sans date ou fixé à la fin du mandat compte pour 70 % de cet écart. Le PIB de 2030 est celui du scénario du Gouvernement (projet de loi de finances 2027), ramené en euros de 2026. Quand la définition est ambiguë (dépense exécutée ou financée, périmètre), le milieu de la fourchette est retenu. La même règle vaut dans les deux sens : un niveau publié à la baisse (suppression comprise) compte comme une économie. Une prise de position au Parlement sur un texte déjà voté ne vaut pas programme, sauf si le candidat la reprend dans sa campagne.",
-  "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026 (marquées « À confirmer ») et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés. Un chiffrage qu'un candidat reprend comme le sien (d'un institut, d'une association ou d'un parti) compte comme chiffre de son camp, quel que soit son auteur ; une économie qui repose sur une baisse de flux ou un comportement supposés par une seule note n'est pas comptée, sauf si une évaluation ou une donnée officielle les établit.",
+  "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026, ou connues par une seule reprise de presse qui ne cite pas le candidat (marquées « À confirmer »), et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés. Un chiffrage qu'un candidat reprend comme le sien (d'un institut, d'une association ou d'un parti) compte comme chiffre de son camp, quel que soit son auteur ; une économie qui repose sur une baisse de flux ou un comportement supposés par une seule note n'est pas comptée, sauf si une évaluation ou une donnée officielle les établit.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 300 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 305 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
-  "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
+  "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». Quand un thème compte plus de trois propositions, on affiche, dans le même ordre pour tous : d'abord celles de 2026 (les non reconfirmées passent après), parmi elles les précises avant les intentions, puis les plus récentes ; à égalité ou à date inconnue, l'ordre déjà affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce). Les propositions retirées de l'affichage restent notées dans le registre de suivi du projet (dépôt public). L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). Ce sont des ordres de grandeur.",
   "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Les duels portent sur les mesures des fiches (chiffrées ou non chiffrables) et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant. Dessous, un constat : la réalité française que la proposition veut traiter, avec le chiffre officiel (le dernier chiffre officiel et son évolution en %, même forme pour toutes ; les problèmes réels sont dits clairement, sans cause ni jugement). Puis « Pour » et « Contre » donnent en une ligne le meilleur argument réel de ceux qui la défendent et de ceux qui la critiquent : un fait que la proposition ne dit pas d'elle-même (ce qui s'est passé quand elle a été appliquée, un ordre de grandeur), jamais la proposition redite autrement ; avec la force des preuves de chacun (solides, mitigées, faibles, pas d'étude). Sous le duel, des cas réels sourcés (en France d'abord) et l'état des études. Même méthode pour toutes les mesures, sans fausse symétrie : on n'invente ni argument ni exemple pour équilibrer, et un exemple n'est retenu que s'il est pertinent, observé et de source reconnue ; on montre où penchent les faits et le lecteur juge ; les mesures du même type ont les mêmes cas et les mêmes niveaux de preuve. Le « Contre » tient compte du reste du programme : si une autre mesure du même candidat répond à la critique, elle est signalée. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit ; « Les deux » compte la moyenne des deux effets), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
   "<b>Sondages et contexte.</b> Intentions de vote au 1er tour : moyenne de 7 instituts (Cluster17 pour Politico, du 19 au 22/10 ; Elabe pour BFMTV et La Tribune Dimanche, du 14 au 16/10 ; Ifop-Fiducial pour LCI, Le Figaro et Sud Radio, du 17 au 19/10 ; Ipsos BVA pour Le Parisien, du 21 au 22/10 ; OpinionWay pour CNews, du 21 au 22/10 ; Toluna Harris Interactive pour M6 et RTL, du 19 au 21/10 ; YouGov pour Le HuffPost, du 12 au 15/10), dernière vague de chacun dont le terrain s'est achevé dans les 15 jours précédant le 29/10/2026 ; pour chaque institut, milieu de la fourchette des hypothèses où le candidat est testé, même poids pour chaque institut. L'ordre des candidats suit cette moyenne. Source : notices de la Commission des sondages ; sondages masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
@@ -15598,6 +15703,14 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "29/10/2026",
+   "text": "Propositions oubliées, vérifiées à la source, pour les 8 candidats. Vie quotidienne : règle d'or budgétaire par référendum (Le Pen, Philippe) ; « communauté nationale » dans la Constitution et proportionnelle avec prime majoritaire, de nouveau proposée (Le Pen) ; vote à 16 ans et suppression de Parcoursup (Mélenchon) ; abrogation de Parcoursup et état d'urgence industriel (Glucksmann) ; justice des mineurs, reconnaissance faciale, « Constitution du travail », loi de stabilité fiscale et droits ciblés sur les produits chinois (Attal) ; déchéance de nationalité, code du travail sur 50 principes, Schengen réservé aux Européens et sélection à l'université (Retailleau) ; justice des mineurs, fichier des casseurs, interdiction des Frères musulmans et du voile à l'université (Lisnard) ; peines planchers redites, déchéance de nationalité, marché carbone européen, IA et école (Zemmour). Quand un thème dépasse trois propositions, la même règle d'ordre vaut pour tous (2026 d'abord, puis les précises, puis les plus récentes) ; celles qui sortent de l'affichage restent notées dans le suivi du projet. Fiches : Retailleau, 9 000 € de TVA aux communes par logement neuf (transfert entre administrations : compté 0, jusqu'à −3,3 Md€ si tout est dépensé) ; Zemmour, 100 000 places de prison, à confirmer (une seule reprise de presse) ; droit du sol dans les fiches immigration de Philippe (Mayotte) et Lisnard ; même lecture des certificats d'économies d'énergie pour Retailleau et Zemmour ; nouvelles mesures non chiffrables listées pour chacun. Totaux inchangés ; la fourchette de Retailleau s'élargit (−31,2 à −7,5 Md€)."
+  },
+  {
+   "date": "29/10/2026",
+   "text": "Vie quotidienne, sécurité : les propositions « casseur-payeur » sont ajoutées pour les six candidats qui en ont fait une eux-mêmes (Le Pen, Philippe, Retailleau, Attal, Lisnard, Zemmour ; rien chez Mélenchon et Glucksmann), avec le même texte pour tous : l'auteur et les parents d'un mineur doivent déjà réparer, le recours de l'État contre les casseurs ouvert en 2019 n'a jamais servi, les dégâts d'attroupements lui coûtent 4,1 M€ par an en moyenne et l'effet dissuasif n'a pas été évalué ; projet de loi du Gouvernement adopté au Sénat le 28/10. Sans effet mesurable sur le solde public, elles ne sont pas chiffrées."
+  },
   {
    "date": "29/10/2026",
    "text": "Nouvelle adresse : p2027.org. Un lien partagé (WhatsApp, réseaux sociaux, messageries) affiche désormais une image d'aperçu, un titre et une description ; plan du site et données structurées pour les moteurs de recherche."
@@ -15820,6 +15933,11 @@
     "theme": "securite",
     "proposals": [
      {
+      "text": "Faire payer les dégâts aux casseurs : responsabilité solidaire, prélèvement sur allocations ou salaire, parents pour les mineurs",
+      "verifiable": true,
+      "old": false
+     },
+     {
       "text": "Rétablir les peines planchers, supprimer les remises de peine",
       "verifiable": true,
       "old": true
@@ -15828,15 +15946,10 @@
       "text": "Porter le parc à 85 000 places de prison",
       "verifiable": true,
       "old": true
-     },
-     {
-      "text": "Présomption de légitime défense pour les forces de l'ordre",
-      "verifiable": true,
-      "old": true
      }
     ],
     "indicator": "85 000 places de prison visées pour 2027 (programme 2022)",
-    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Nouvelles places de prison vite comblées (Sénat, 2023).",
+    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Nouvelles places de prison vite comblées (Sénat, 2023). Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (loi de 2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué ; projet de loi voté au Sénat le 28/10.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -15863,6 +15976,26 @@
       "label": "IPP – Note n°105 peines planchers",
       "year": 2024,
       "url": "https://www.ipp.eu/wp-content/uploads/2024/03/Note_IPP_105_peines_planchers.pdf"
+     },
+     {
+      "label": "Sénat, projet de loi n° 952 sur la réparation des dommages (exposé des motifs, étude d'impact)",
+      "year": 2026,
+      "url": "https://www.senat.fr/leg/pjl25-952.pdf"
+     },
+     {
+      "label": "LCP, adoption du projet de loi au Sénat",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/projet-de-loi-casseurs-payeurs-le-texte-transmis-a-l-assemblee-apres-son-adoption-au"
+     },
+     {
+      "label": "franceinfo, Le Pen et les casseurs (21/10)",
+      "year": 2026,
+      "url": "https://www.franceinfo.fr/politique/marine-le-pen/nous-sommes-confrontes-a-un-etat-qui-s-effondre-estime-marine-le-pen_8246899.html"
+     },
+     {
+      "label": "Capital, Le Pen et les casseurs (21/10)",
+      "year": 2026,
+      "url": "https://www.capital.fr/economie-politique/marine-le-pen-veut-faire-payer-a-vie-les-casseurs-et-solidairement-ceux-qui-ne-partent-pas-apres-les-sommations-1531173"
      }
     ]
    },
@@ -16055,12 +16188,17 @@
     "theme": "libertes",
     "proposals": [
      {
-      "text": "Instaurer le référendum d'initiative citoyenne",
+      "text": "Élire les députés à la proportionnelle avec prime majoritaire",
       "verifiable": true,
-      "old": true
+      "old": false
      },
      {
-      "text": "Élire les députés à la proportionnelle",
+      "text": "Inscrire la « communauté nationale » dans la Constitution",
+      "verifiable": true,
+      "old": false
+     },
+     {
+      "text": "Instaurer le référendum d'initiative citoyenne",
       "verifiable": true,
       "old": true
      }
@@ -16078,17 +16216,17 @@
       "label": "La Croix/AMU, le référendum (copie archivée)",
       "year": 2024,
       "url": "https://web.archive.org/web/20241104170231/https://dice.univ-amu.fr/sites/dice.univ-amu.fr/files/article/article_marthe.pdf"
+     },
+     {
+      "label": "Europe 1, discours d'Orléans (25/10)",
+      "year": 2026,
+      "url": "https://www.europe1.fr/politique/congres-du-rn-a-orleans-ce-quil-faut-retenir-du-premier-discours-de-campagne-de-marine-le-pen-1181118"
      }
     ]
    },
    {
     "theme": "economie",
     "proposals": [
-     {
-      "text": "Baisser de 16,2 Md€ les impôts de production",
-      "verifiable": true,
-      "old": true
-     },
      {
       "text": "Supprimer les subventions aux renouvelables : 5 Md€ dès la 1re année",
       "verifiable": true,
@@ -16098,11 +16236,16 @@
       "text": "Supprimer plus de 120 taxes",
       "verifiable": true,
       "old": false
+     },
+     {
+      "text": "Règle d'or budgétaire par référendum : déficit de 4,9 % du PIB en 2027 à 2,4 % en 2033",
+      "verifiable": true,
+      "old": false
      }
     ],
     "indicator": "Déficit public sous 3 % du PIB en 2030",
-    "evidence": "IPP (2025) : la baisse CVAE/CFE de 2021 n'a eu aucun effet mesurable sur l'investissement et un impact limité sur la masse salariale.",
-    "evidence_level": "non_demontree",
+    "evidence": "RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents.",
+    "evidence_level": "mitigee",
     "sources": [
      {
       "label": "PGE, contre-budget RN",
@@ -16120,9 +16263,14 @@
       "url": "https://www.publicsenat.fr/actualites/economie/contre-budget-du-rn-des-propositions-qui-manquent-de-credibilite-economique-mais-trahissent-une-veritable-coherence-doctrinale"
      },
      {
-      "label": "IPP, impôts de production",
-      "year": 2025,
-      "url": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+      "label": "RTE, Futurs énergétiques 2050, résumé exécutif (vie-publique.fr)",
+      "year": 2021,
+      "url": "https://vie-publique.fr/files/rapports/fichiers_joints/282232-resume-executif.pdf"
+     },
+     {
+      "label": "LCP, règle d'or (tribune du 1/10)",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par"
      }
     ]
    },
@@ -16272,9 +16420,9 @@
     "theme": "ecole",
     "proposals": [
      {
-      "text": "Réduire les effectifs par classe, priorité maternelle et REP",
-      "verifiable": false,
-      "old": true
+      "text": "Supprimer Parcoursup et MonMaster",
+      "verifiable": true,
+      "old": false
      },
      {
       "text": "Transport scolaire limité à 15 minutes, écoles à classe unique maintenues",
@@ -16288,7 +16436,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; en 6e, aucun en français, petit gain en maths après la 1re génération (DEPP, 2026). Petites écoles : regroupements suivis d'une baisse passagère des résultats (Danemark, 2018) ou d'un léger gain (Pays-Bas, 2016).",
+    "evidence": "Petites écoles : regroupements suivis d'une baisse passagère des résultats (Danemark, 2018) ou d'un léger gain (Pays-Bas, 2016).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -16312,14 +16460,14 @@
       "url": "https://dare.uva.nl/id/e4bce2db-c078-4bfc-b20d-0cf53a47b7ba"
      },
      {
-      "label": "DEPP, Synthèse n° 8, réduction de la taille de classe en éducation prioritaire",
+      "label": "LFI, note sur les comptes publics (14/10)",
       "year": 2026,
-      "url": "https://www.education.gouv.fr/sites/default/files/document/r-duction-de-la-taille-de-classe-en-ducation-prioritaire-que-nous-apprennent-les-donn-es-de-la-depp--478949.pdf"
+      "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
      },
      {
-      "label": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+      "label": "L'Express via Orange, meeting de Clermont-Ferrand (11/10)",
       "year": 2026,
-      "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+      "url": "https://actu.orange.fr/politique/presidentielle-2027-suppression-de-parcoursup-droit-de-vote-a-16-ans-jean-luc-melenchon-multiplie-les-propositions-pour-les-jeunes-magic-CNT000002sCYOg.html"
      }
     ]
    },
@@ -16417,12 +16565,12 @@
       "old": false
      },
      {
-      "text": "Proportionnelle à l'Assemblée et RIC",
+      "text": "Droit de vote à 16 ans",
       "verifiable": true,
-      "old": true
+      "old": false
      },
      {
-      "text": "Abolir le 49.3",
+      "text": "Proportionnelle à l'Assemblée et RIC",
       "verifiable": true,
       "old": true
      }
@@ -16450,6 +16598,11 @@
       "label": "La Croix/AMU, le référendum (copie archivée)",
       "year": 2024,
       "url": "https://web.archive.org/web/20241104170231/https://dice.univ-amu.fr/sites/dice.univ-amu.fr/files/article/article_marthe.pdf"
+     },
+     {
+      "label": "L'Express via Orange, meeting de Clermont-Ferrand (11/10)",
+      "year": 2026,
+      "url": "https://actu.orange.fr/politique/presidentielle-2027-suppression-de-parcoursup-droit-de-vote-a-16-ans-jean-luc-melenchon-multiplie-les-propositions-pour-les-jeunes-magic-CNT000002sCYOg.html"
      }
     ]
    },
@@ -16549,13 +16702,13 @@
       "old": false
      },
      {
-      "text": "Supprimer le juge d'application des peines",
+      "text": "Faire payer les dégâts aux casseurs : prélèvement sur leurs salaires ou prestations sociales",
       "verifiable": true,
       "old": false
      }
     ],
     "indicator": null,
-    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Bracelet plutôt que courte prison : récidive −6 à 7 points (Henneguelle, 2016).",
+    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Bracelet plutôt que courte prison : récidive −6 à 7 points (Henneguelle, 2016). Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (loi de 2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué ; projet de loi voté au Sénat le 28/10.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -16582,6 +16735,26 @@
       "label": "IPP – Note n°105 peines planchers",
       "year": 2024,
       "url": "https://www.ipp.eu/wp-content/uploads/2024/03/Note_IPP_105_peines_planchers.pdf"
+     },
+     {
+      "label": "Sénat, projet de loi n° 952 sur la réparation des dommages (exposé des motifs, étude d'impact)",
+      "year": 2026,
+      "url": "https://www.senat.fr/leg/pjl25-952.pdf"
+     },
+     {
+      "label": "LCP, adoption du projet de loi au Sénat",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/projet-de-loi-casseurs-payeurs-le-texte-transmis-a-l-assemblee-apres-son-adoption-au"
+     },
+     {
+      "label": "Capital, plan contre les casseurs (29/10)",
+      "year": 2026,
+      "url": "https://www.capital.fr/economie-politique/prison-des-la-premiere-casse-et-salaire-ponctionne-le-plan-dedouard-philippe-contre-les-casseurs-1531388"
+     },
+     {
+      "label": "L'Express via Orange, entretien au Point (27/10)",
+      "year": 2026,
+      "url": "https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html"
      }
     ]
    },
@@ -16799,13 +16972,13 @@
       "old": false
      },
      {
-      "text": "Baisser les impôts de production de 50 Md€",
+      "text": "Règle d'or budgétaire par référendum : déficit à 2 % du PIB en fin de quinquennat",
       "verifiable": true,
-      "old": true
+      "old": false
      }
     ],
     "indicator": "+1 000 €/an pour un salarié au SMIC passant à 37 h",
-    "evidence": "Heures sup défiscalisées (TEPA) : pas d'effet significatif sur les heures travaillées (IPP, 2012). Chômage plus court de 12 %, mais emplois peu durables (Dares, 2025). Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025).",
+    "evidence": "Heures sup défiscalisées (TEPA) : pas d'effet significatif sur les heures travaillées (IPP, 2012). Chômage plus court de 12 %, mais emplois peu durables (Dares, 2025).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -16819,11 +16992,6 @@
       "url": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ"
      },
      {
-      "label": "Orange, deal entreprises",
-      "year": 2025,
-      "url": "https://actu.orange.fr/politique/face-au-delire-fiscal-edouard-philippe-propose-un-deal-aux-entreprises-pour-2027-magic-CNT000002lBjMc.html"
-     },
-     {
       "label": "IPP, heures sup TEPA",
       "year": 2012,
       "url": "https://www.ipp.eu/en/publication/tax-relief-on-overtime/"
@@ -16834,9 +17002,9 @@
       "url": "https://www.weka.fr/actualite/emploi/article/assurance-chomage-la-reforme-de-2019-a-accelere-le-retour-a-l-emploi-et-reduit-les-allocations-selon-un-rapport-198124/"
      },
      {
-      "label": "IPP, impôts de production",
-      "year": 2025,
-      "url": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+      "label": "Site Édouard Philippe, « Pour une France plus prospère »",
+      "year": 2026,
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
      }
     ]
    },
@@ -16971,8 +17139,8 @@
       "old": false
      },
      {
-      "text": "Baisser le nombre d'élèves par classe en primaire",
-      "verifiable": false,
+      "text": "Abroger Parcoursup",
+      "verifiable": true,
       "old": false
      }
     ],
@@ -17009,6 +17177,11 @@
       "label": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
       "year": 2026,
       "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+     },
+     {
+      "label": "franceinfo, propositions à Matignon (22/10)",
+      "year": 2026,
+      "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/reunion-des-partis-a-matignon-sebastien-lecornu-a-fait-perdre-du-temps-au-pays-denonce-manuel-bompard_8249335.html"
      }
     ]
    },
@@ -17146,6 +17319,11 @@
       "old": false
      },
      {
+      "text": "État d'urgence industriel pour les secteurs menacés par la Chine",
+      "verifiable": false,
+      "old": false
+     },
+     {
       "text": "« Buy European Act » : préférence européenne dans les marchés publics",
       "verifiable": false,
       "old": true
@@ -17169,6 +17347,11 @@
       "label": "CAE, fiscalité de l'héritage",
       "year": 2021,
       "url": "https://cae-eco.fr/static/pdf/CAE069_ComPresse.pdf"
+     },
+     {
+      "label": "LCP, premier meeting (13/06)",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/gagner-en-2027-raphael-glucksmann-lance-sa-campagne-et-veut-ramener-la-gauche-au-pouvoir"
      }
     ]
    },
@@ -17213,54 +17396,59 @@
     "theme": "securite",
     "proposals": [
      {
-      "text": "Bloquer temporairement et de façon ciblée certains réseaux sociaux pendant les émeutes",
-      "verifiable": false,
+      "text": "Faire payer les dégâts aux casseurs (« Tu casses, tu répares ») : responsabilité automatique des deux parents d'un mineur",
+      "verifiable": true,
       "old": false
      },
      {
-      "text": "Supprimer le juge d'application des peines",
+      "text": "Comparution immédiate dès 16 ans et fin de l'excuse de minorité automatique pour les mineurs récidivistes",
       "verifiable": true,
-      "old": true
+      "old": false
      },
      {
-      "text": "Adapter le cadre constitutionnel contre la délinquance des mineurs",
-      "verifiable": false,
+      "text": "Reconnaissance faciale et IA pour identifier les casseurs ; militaires et réservistes pour la garde statique des bâtiments publics",
+      "verifiable": true,
       "old": false
      }
     ],
     "indicator": null,
-    "evidence": "En Inde, les coupures de réseaux vont de pair avec davantage d'actions violentes (Rydzak, 2019). Conseil d'État 2025 : le blocage de TikTok en Nouvelle-Calédonie jugé illégal.",
-    "evidence_level": "non_demontree",
+    "evidence": "Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (loi de 2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué ; projet de loi voté au Sénat le 28/10.",
+    "evidence_level": "pas_d_etude",
     "sources": [
-     {
-      "label": "Les Actus du Net – blocage réseaux",
-      "year": 2026,
-      "url": "https://www.lesactusdunet.com/2026/10/21/attal-veut-pouvoir-couper-certains-reseaux-sociaux-pendant-les-emeutes-le-conseil-detat-lui-a-deja-dit-non/"
-     },
      {
       "label": "MonVote2027 – Attal (agrégateur)",
       "year": 2026,
       "url": "https://monvote2027.fr/candidat/attal"
      },
      {
-      "label": "Europe 1 – suppression JAP",
-      "year": 2025,
-      "url": "https://www.europe1.fr/politique/je-propose-de-supprimer-le-juge-dapplication-des-peines-assure-gabriel-attal-872862"
-     },
-     {
-      "label": "attalpresident.fr – réforme institutionnelle",
+      "label": "Sénat, projet de loi n° 952 sur la réparation des dommages (exposé des motifs, étude d'impact)",
       "year": 2026,
-      "url": "https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958"
+      "url": "https://www.senat.fr/leg/pjl25-952.pdf"
      },
      {
-      "label": "Rydzak – shutdowns Inde (SSRN)",
-      "year": 2019,
-      "url": "https://papers.ssrn.com/abstract=3330413"
+      "label": "LCP, adoption du projet de loi au Sénat",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/projet-de-loi-casseurs-payeurs-le-texte-transmis-a-l-assemblee-apres-son-adoption-au"
      },
      {
-      "label": "Next – décision Conseil d'État",
-      "year": 2025,
-      "url": "https://next.ink/178412/la-suspension-de-tiktok-en-nouvelle-caledonie-jugee-illegale-mais-pas-impossible/"
+      "label": "attalpresident.fr, rétablir l'ordre (BFM TV, 19/10)",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-retablir-ordre-mettre-fin-impunite"
+     },
+     {
+      "label": "attalpresident.fr, entretien sur RTL (19/10)",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-rtl-retablir-ordre-jeunesse-avenir-france"
+     },
+     {
+      "label": "attalpresident.fr, France 2 (23/10)",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-retablir-ordre-pacte-avenir-jeunesse"
+     },
+     {
+      "label": "RFI, porte-parole de campagne (22/10)",
+      "year": 2026,
+      "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-politique/20261022-manifestations-il-faut-faire-payer-ceux-qui-cassent-soutient-c%C3%A9line-g%C3%A9raud-porte-parole-de-gabriel-attal"
      }
     ]
    },
@@ -17498,7 +17686,12 @@
     "theme": "economie",
     "proposals": [
      {
-      "text": "Plan de 200 Md€ pour la puissance de calcul et l'IA",
+      "text": "Remplacer le Code du travail par une « Constitution du travail » de quelques principes, le reste négocié par branche et par entreprise",
+      "verifiable": true,
+      "old": false
+     },
+     {
+      "text": "Loi de stabilité fiscale et normative de dix ans votée dès l'été 2027 ; un quart de la charge administrative des entreprises supprimé",
       "verifiable": true,
       "old": false
      },
@@ -17506,31 +17699,31 @@
       "text": "Construire 14 nouveaux réacteurs nucléaires, puis un par an",
       "verifiable": true,
       "old": false
-     },
-     {
-      "text": "Former 20 millions de Français à l'IA d'ici 2030",
-      "verifiable": true,
-      "old": false
      }
     ],
     "indicator": "France première puissance d'IA en Europe d'ici 10 ans",
-    "evidence": "DG Trésor (2024) : aucun effet macro significatif de l'IA mesuré à ce stade. Cour des comptes (2025) : coûts EPR2 inconnus, risque d'échec du programme.",
+    "evidence": "Cour des comptes (2025) : coûts EPR2 inconnus, risque d'échec du programme.",
     "evidence_level": "mitigee",
     "sources": [
-     {
-      "label": "Site Attal, Les Échos",
-      "year": 2026,
-      "url": "https://attalpresident.fr/actualites/gabriel-attal-appelle-a-une-rupture-economique-dans-les-echos"
-     },
      {
       "label": "LyonMag, meeting Lyon",
       "year": 2026,
       "url": "https://www.lyonmag.com/article/154267/presidentielle-2027-a-lyon-gabriel-attal-devoile-son-pacte-pour-la-jeunesse-et-cible-jean-luc-melenchon"
      },
      {
-      "label": "DG Trésor, enjeux de l'IA",
-      "year": 2024,
-      "url": "https://www.tresor.economie.gouv.fr/Articles/65035441-140e-4e2f-b1a0-2c5abceb6cc7/files/337f850a-3329-4803-b509-e5276c04ab30"
+      "label": "attalpresident.fr, programme « Travail & salaires »",
+      "year": 2026,
+      "url": "https://attalpresident.fr/programme/travail-salaires"
+     },
+     {
+      "label": "AFP via Orange, conférence économique (28/10)",
+      "year": 2026,
+      "url": "https://actu.orange.fr/politique/attal-veut-une-economie-quot-liberale-quot-mais-quot-planifiee-quot-pour-financer-un-quot-capitalisme-de-l-innovation-quot-CNT000002tqRW2.html"
+     },
+     {
+      "label": "attalpresident.fr, lettre aux Français (15/10)",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-lettre-aux-francais-plan-finances-publiques"
      },
      {
       "label": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
@@ -17544,6 +17737,11 @@
     "proposals": [
      {
       "text": "Part européenne du calcul mondial : de 3 % à 20 %",
+      "verifiable": true,
+      "old": false
+     },
+     {
+      "text": "Taxes ciblées sur l'acier, les voitures électriques et les panneaux solaires chinois vendus à perte ; contrôle strict des investissements chinois dans les ports, télécoms et centres de données",
       "verifiable": true,
       "old": false
      }
@@ -17566,6 +17764,11 @@
       "label": "DG Trésor, enjeux de l'IA",
       "year": 2024,
       "url": "https://www.tresor.economie.gouv.fr/Articles/65035441-140e-4e2f-b1a0-2c5abceb6cc7/files/337f850a-3329-4803-b509-e5276c04ab30"
+     },
+     {
+      "label": "attalpresident.fr, programme « Frontières »",
+      "year": 2026,
+      "url": "https://attalpresident.fr/programme/frontieres"
      }
     ]
    }
@@ -17575,7 +17778,7 @@
     "theme": "securite",
     "proposals": [
      {
-      "text": "Peines minimales obligatoires pour agressions de policiers, gendarmes et pompiers",
+      "text": "Faire payer les dégâts aux casseurs : présomption de responsabilité dans un attroupement violent, aides sociales remises en cause",
       "verifiable": true,
       "old": false
      },
@@ -17585,20 +17788,15 @@
       "old": false
      },
      {
-      "text": "Suppression du juge d'application des peines",
+      "text": "Déchéance de nationalité des binationaux auteurs de pillages ou de violences contre les forces de l'ordre",
       "verifiable": true,
       "old": false
      }
     ],
     "indicator": "Le juge « n'a pas le choix » face aux agresseurs de forces de l'ordre",
-    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Bracelet plutôt que courte prison : récidive −6 à 7 points (Henneguelle, 2016).",
+    "evidence": "Bracelet plutôt que courte prison : récidive −6 à 7 points (Henneguelle, 2016). Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (loi de 2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué ; projet de loi voté au Sénat le 28/10.",
     "evidence_level": "mitigee",
     "sources": [
-     {
-      "label": "Europe 1 – Objectif Élysée",
-      "year": 2026,
-      "url": "https://www.europe1.fr/politique/objectif-elysee-2027-sil-est-elu-bruno-retailleau-souhaite-instaurer-des-peines-minimales-1064336"
-     },
      {
       "label": "Public Sénat – meeting Vincennes",
       "year": 2026,
@@ -17610,14 +17808,29 @@
       "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle"
      },
      {
-      "label": "IPP – Note n°105 peines planchers",
-      "year": 2024,
-      "url": "https://www.ipp.eu/wp-content/uploads/2024/03/Note_IPP_105_peines_planchers.pdf"
-     },
-     {
       "label": "Journal of Law and Economics, bracelet",
       "year": 2016,
       "url": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
+     },
+     {
+      "label": "Sénat, projet de loi n° 952 sur la réparation des dommages (exposé des motifs, étude d'impact)",
+      "year": 2026,
+      "url": "https://www.senat.fr/leg/pjl25-952.pdf"
+     },
+     {
+      "label": "LCP, adoption du projet de loi au Sénat",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/projet-de-loi-casseurs-payeurs-le-texte-transmis-a-l-assemblee-apres-son-adoption-au"
+     },
+     {
+      "label": "Capital, Retailleau et les casseurs (RCF, 27/10)",
+      "year": 2026,
+      "url": "https://www.capital.fr/economie-politique/les-aides-ce-nest-pas-un-du-bruno-retailleau-veut-saisir-le-rsa-les-apl-et-les-allocations-des-casseurs-1531316"
+     },
+     {
+      "label": "franceinfo, déchéance de nationalité (19/10)",
+      "year": 2026,
+      "url": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/violences-du-17-octobre-bruno-retailleau-denonce-une-convergence-entre-l-extreme-gauche-et-des-racailles-issues-de-l-immigration_8245450.html"
      }
     ]
    },
@@ -17660,6 +17873,11 @@
     "theme": "ecole",
     "proposals": [
      {
+      "text": "Sélection à l'entrée de l'université et nouvelle plateforme d'admission au mérite à la place de Parcoursup",
+      "verifiable": true,
+      "old": false
+     },
+     {
       "text": "Rétablir un examen d'entrée en sixième",
       "verifiable": true,
       "old": false
@@ -17668,15 +17886,10 @@
       "text": "Fin du passage automatique de classe, décidé par le conseil de classe",
       "verifiable": true,
       "old": false
-     },
-     {
-      "text": "Créer 1 000 établissements publics « libres » autonomes",
-      "verifiable": true,
-      "old": false
      }
     ],
     "indicator": "Salaires enseignants rapprochés de la moyenne européenne (non chiffré)",
-    "evidence": "Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005). Redoublement : effet proche de zéro à court terme, négatif à long terme, chances de diplôme réduites (Cnesco, 2014). Établissements publics autonomes : progrès de collèges en difficulté (Angleterre, 2019), aucun gain dans des écoles primaires (Angleterre, 2017).",
+    "evidence": "Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005). Redoublement : effet proche de zéro à court terme, négatif à long terme, chances de diplôme réduites (Cnesco, 2014).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -17700,14 +17913,9 @@
       "url": "https://www.ifo.de/DocDL/cesifo_wp939.pdf"
      },
      {
-      "label": "Eyles, Machin, académies en Angleterre (JEEA)",
-      "year": 2019,
-      "url": "https://researchonline.lse.ac.uk/id/eprint/88581/"
-     },
-     {
-      "label": "Eyles, Machin, McNally, écoles primaires autonomes en Angleterre (CEP DP 1455)",
-      "year": 2017,
-      "url": "https://researchonline.lse.ac.uk/id/eprint/69027"
+      "label": "Public Sénat, sélection à l'université (14/10)",
+      "year": 2026,
+      "url": "https://www.publicsenat.fr/actualites/politique/crise-lyceenne-bruno-retailleau-veut-une-selection-a-luniversite"
      }
     ]
    },
@@ -17855,6 +18063,11 @@
       "old": false
      },
      {
+      "text": "Code du travail refondé sur 50 principes, le reste supplétif et renvoyé aux accords d'entreprise ou de branche",
+      "verifiable": true,
+      "old": false
+     },
+     {
       "text": "Exonérer de cotisations sociales les heures supplémentaires",
       "verifiable": false,
       "old": false
@@ -17883,12 +18096,22 @@
       "label": "IPP, heures sup TEPA",
       "year": 2012,
       "url": "https://www.ipp.eu/en/publication/tax-relief-on-overtime/"
+     },
+     {
+      "label": "avecretailleau.fr, code du travail sur 50 principes",
+      "year": 2026,
+      "url": "https://www.avecretailleau.fr/projet/mesure/refonder-le-code-du-travail-sur-50-principes-rendre-le"
      }
     ]
    },
    {
     "theme": "rayonnement",
     "proposals": [
+     {
+      "text": "Schengen réservé aux Européens : visas limités au pays qui les délivre, comme règle de droit commun",
+      "verifiable": true,
+      "old": false
+     },
      {
       "text": "Réduire la contribution française au budget de l'UE par la négociation",
       "verifiable": false,
@@ -17918,6 +18141,11 @@
       "label": "PGE, Institut de l'Entreprise",
       "year": 2026,
       "url": "https://www.planetegrandesecoles.com/budget-marine-le-pen-2027-mesures-contre-budget-rn"
+     },
+     {
+      "label": "Les Républicains, entretien au JDD (2/08)",
+      "year": 2026,
+      "url": "https://republicains.fr/actualites/2026/08/02/lespace-schengen-doit-etre-reserve-aux-europeens/"
      }
     ]
    }
@@ -17927,39 +18155,49 @@
     "theme": "securite",
     "proposals": [
      {
-      "text": "Construire 20 000 places de prison",
+      "text": "Majorité pénale à 16 ans, excuse de minorité réduite (de 50 % à 20 % de la peine), établissements disciplinaires fermés",
       "verifiable": true,
       "old": false
      },
      {
-      "text": "Perpétuité réelle et fin du non-cumul des peines pour crimes graves",
+      "text": "Faire payer les dégâts aux casseurs : déduits de leurs aides sociales s'ils ne sont pas solvables",
       "verifiable": true,
       "old": false
      },
      {
-      "text": "Lever l'excuse de minorité pour les crimes de sang",
+      "text": "Fichier des casseurs avec obligation de pointer pendant les manifestations ; cagoule interdite, circonstance aggravante",
       "verifiable": true,
       "old": false
      }
     ],
     "indicator": "Peines prononcées, même courtes, réellement exécutées",
-    "evidence": "Plan 15 000 places : seulement 2 771 livrées mi-2023. De 1990 à 2020, places et détenus ont crû de 25 000 chacun, et la surpopulation persiste (Sénat, 2023).",
-    "evidence_level": "non_demontree",
+    "evidence": "Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (loi de 2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué ; projet de loi voté au Sénat le 28/10.",
+    "evidence_level": "pas_d_etude",
     "sources": [
      {
-      "label": "Discours de Saint-Raphaël (Nouvelle Énergie)",
+      "label": "Sénat, projet de loi n° 952 sur la réparation des dommages (exposé des motifs, étude d'impact)",
       "year": 2026,
-      "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
+      "url": "https://www.senat.fr/leg/pjl25-952.pdf"
      },
      {
-      "label": "lisnard.cards – propositions (non officiel)",
+      "label": "LCP, adoption du projet de loi au Sénat",
       "year": 2026,
-      "url": "https://lisnard.cards/cartes"
+      "url": "https://lcp.fr/actualites/projet-de-loi-casseurs-payeurs-le-texte-transmis-a-l-assemblee-apres-son-adoption-au"
      },
      {
-      "label": "Sénat – rapport plan 15 000 places",
-      "year": 2023,
-      "url": "https://www.senat.fr/rap/r23-037/r23-037_mono.html"
+      "label": "Europe 1, Objectif Élysée 2027 (27/10)",
+      "year": 2026,
+      "url": "https://www.europe1.fr/politique/en-direct-emeutes-parcoursup-primaire-a-droite-ce-quil-faut-retenir-de-linterview-de-david-lisnard-dans-objectif-elysee-2027-1186743"
+     },
+     {
+      "label": "Nouvelle Énergie, programme « Sécurité »",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/"
+     },
+     {
+      "label": "Nouvelle Énergie, entretien au Point (23/10)",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/quand-macron-a-parle-pas-un-casseur-na-tremble/"
      }
     ]
    },
@@ -18172,8 +18410,8 @@
       "old": false
      },
      {
-      "text": "Contrôle du Conseil constitutionnel limité à la lettre de la Constitution",
-      "verifiable": false,
+      "text": "Interdire les Frères musulmans et le voile à l'université",
+      "verifiable": true,
       "old": false
      }
     ],
@@ -18200,6 +18438,11 @@
       "label": "Stadelmann-Steffen & Vatter, Political Behavior",
       "year": 2012,
       "url": "https://doi.org/10.1007/s11109-011-9164-y"
+     },
+     {
+      "label": "Nouvelle Énergie, programme « Sécurité »",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/"
      }
     ]
    },
@@ -18299,24 +18542,24 @@
     "theme": "securite",
     "proposals": [
      {
-      "text": "Expulser les détenus étrangers, estimés à 25 % de la population carcérale",
+      "text": "Rétablir les peines planchers, supprimer le juge de l'application des peines",
       "verifiable": true,
       "old": false
      },
      {
-      "text": "Expulser les délinquants étrangers purgeant leur peine hors prison (bracelet, TIG)",
+      "text": "Faire payer les dégâts aux casseurs et à leurs parents, y compris sur leurs allocations ; rétablir la loi anticasseurs de 1970",
       "verifiable": true,
       "old": false
      },
      {
-      "text": "Peines planchers, perpétuité réelle, 10 000 places de prison",
+      "text": "Déchéance de nationalité puis départ des binationaux auteurs des violences",
       "verifiable": true,
-      "old": true
+      "old": false
      }
     ],
     "indicator": null,
-    "evidence": "Expulsions après arrestation (États-Unis) : pas d'effet observable sur la criminalité (Miles & Cox, 2014). Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024).",
-    "evidence_level": "non_demontree",
+    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Casseur-payeur : l'auteur et les parents d'un mineur doivent déjà réparer ; recours de l'État (loi de 2019) jamais utilisé ; dégâts à sa charge : 4,1 M€ par an en moyenne ; effet dissuasif non évalué ; projet de loi voté au Sénat le 28/10.",
+    "evidence_level": "mitigee",
     "sources": [
      {
       "label": "Public Sénat – candidature Zemmour",
@@ -18329,14 +18572,34 @@
       "url": "https://monvote2027.fr/candidat/zemmour"
      },
      {
-      "label": "Miles & Cox, Journal of Law & Economics",
-      "year": 2014,
-      "url": "https://chicagounbound.uchicago.edu/jle/vol57/iss4/3/"
-     },
-     {
       "label": "IPP – Note n°105 peines planchers",
       "year": 2024,
       "url": "https://www.ipp.eu/wp-content/uploads/2024/03/Note_IPP_105_peines_planchers.pdf"
+     },
+     {
+      "label": "Sénat, projet de loi n° 952 sur la réparation des dommages (exposé des motifs, étude d'impact)",
+      "year": 2026,
+      "url": "https://www.senat.fr/leg/pjl25-952.pdf"
+     },
+     {
+      "label": "LCP, adoption du projet de loi au Sénat",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/projet-de-loi-casseurs-payeurs-le-texte-transmis-a-l-assemblee-apres-son-adoption-au"
+     },
+     {
+      "label": "Europe 1, Zemmour et les casseurs (7/10)",
+      "year": 2026,
+      "url": "https://www.europe1.fr/politique/blocus-des-lycees-eric-zemmour-veut-faire-payer-les-casseurs-et-leurs-parents-jusqua-la-nuit-des-temps-1129292"
+     },
+     {
+      "label": "Entrevue, déclarations sur CNews (18/10)",
+      "year": 2026,
+      "url": "https://entrevue.fr/medias/une-horde-de-barbares-maghrebins-et-africains-eric-zemmour-provoque/"
+     },
+     {
+      "label": "Entrevue, émission du 25/10",
+      "year": 2026,
+      "url": "https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/"
      }
     ]
    },
@@ -18379,6 +18642,11 @@
     "theme": "ecole",
     "proposals": [
      {
+      "text": "Retour à la dictée, au calcul mental et à la récitation ; autonomie des chefs d'établissement ; concurrence entre public et privé",
+      "verifiable": false,
+      "old": false
+     },
+     {
       "text": "Certificat d'études en fin de primaire",
       "verifiable": true,
       "old": true
@@ -18386,11 +18654,6 @@
      {
       "text": "Classes de niveau au collège",
       "verifiable": true,
-      "old": true
-     },
-     {
-      "text": "Interdire toute propagande idéologique à l'école",
-      "verifiable": false,
       "old": true
      }
     ],
@@ -18422,6 +18685,11 @@
       "label": "Cnesco – redoublement",
       "year": 2014,
       "url": "https://www.cnesco.fr/wp-content/uploads/2014/08/280814CNESCO_redoublement.pdf"
+     },
+     {
+      "label": "Entrevue, émission du 25/10",
+      "year": 2026,
+      "url": "https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/"
      }
     ]
    },
@@ -18434,12 +18702,12 @@
       "old": false
      },
      {
-      "text": "Fin des financements français et européens à l'éolien",
+      "text": "Abroger le marché carbone européen sur les carburants et le chauffage (SEQE 2) avant 2028",
       "verifiable": true,
-      "old": true
+      "old": false
      },
      {
-      "text": "Abroger l'interdiction des voitures thermiques neuves en 2035",
+      "text": "Fin des financements français et européens à l'éolien",
       "verifiable": true,
       "old": true
      }
@@ -18467,6 +18735,11 @@
       "label": "RTE, Futurs énergétiques 2050, résumé exécutif (vie-publique.fr)",
       "year": 2021,
       "url": "https://vie-publique.fr/files/rapports/fichiers_joints/282232-resume-executif.pdf"
+     },
+     {
+      "label": "Reconquête, pétition sur les carburants",
+      "year": 2026,
+      "url": "https://www.stop-hausse-carburant.fr/"
      },
      {
       "label": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
@@ -18549,6 +18822,11 @@
     "theme": "economie",
     "proposals": [
      {
+      "text": "Former à l'IA dès l'école ; faire de la France la troisième puissance mondiale de l'IA",
+      "verifiable": false,
+      "old": false
+     },
+     {
       "text": "Baisser de 30 Md€ supplémentaires les impôts de production",
       "verifiable": true,
       "old": true
@@ -18557,15 +18835,10 @@
       "text": "Prime « zéro charge » jusqu'à trois mois de salaire",
       "verifiable": true,
       "old": true
-     },
-     {
-      "text": "Orienter 20 % du Livret A vers l'investissement stratégique",
-      "verifiable": true,
-      "old": true
      }
     ],
     "indicator": null,
-    "evidence": "IPP (2025) : la baisse des impôts de production de 2021 n'a eu aucun effet mesurable sur l'investissement et un impact limité sur la masse salariale.",
+    "evidence": "IPP (2025) : la baisse des impôts de production de 2021 n'a eu aucun effet mesurable sur l'investissement et un impact limité sur la masse salariale. DG Trésor (2024) : aucun effet macroéconomique significatif de l'IA mesuré à ce stade.",
     "evidence_level": "non_demontree",
     "sources": [
      {
@@ -18577,6 +18850,16 @@
       "label": "IPP, impôts de production",
       "year": 2025,
       "url": "https://www.ipp.eu/wp-content/uploads/2025/10/FS_ImpotsProductions-9.pdf"
+     },
+     {
+      "label": "DG Trésor, enjeux de l'IA",
+      "year": 2024,
+      "url": "https://www.tresor.economie.gouv.fr/Articles/65035441-140e-4e2f-b1a0-2c5abceb6cc7/files/337f850a-3329-4803-b509-e5276c04ab30"
+     },
+     {
+      "label": "CNews, discours de rentrée (13/09)",
+      "year": 2026,
+      "url": "https://www.cnews.fr/france/2026-09-13/presidentielle-2027-remigration-intelligence-artificielle-ce-quil-faut-retenir-du"
      }
     ]
    },
@@ -20833,7 +21116,7 @@
   },
   {
    "c": "retailleau",
-   "id": "ecole.1",
+   "id": "ecole.2",
    "life": true,
    "theme": "ecole",
    "title": "Rétablir un examen d'entrée en sixième",
@@ -20920,7 +21203,7 @@
   },
   {
    "c": "retailleau",
-   "id": "ecole.2",
+   "id": "ecole.3",
    "life": true,
    "theme": "ecole",
    "title": "Supprimer le passage automatique en classe supérieure : les professeurs décident",
@@ -20998,65 +21281,6 @@
      4
     ]
    }
-  },
-  {
-   "c": "retailleau",
-   "id": "ecole.3",
-   "life": true,
-   "theme": "ecole",
-   "title": "Créer des établissements publics libres d'adapter programmes et calendrier",
-   "quiz_text": "Créer des établissements publics libres d'adapter programmes et calendrier",
-   "quiz_concret": "Des écoles publiques choisies par profs et familles adaptent programmes, rythme de travail et vacances.",
-   "quiz_plus": "Des collèges en difficulté rendus autonomes ont progressé, d'autant plus que leur autonomie était grande.",
-   "quiz_moins": "Des écoles publiques libres de leurs programmes et horaires n'ont pas fait mieux que les écoles ordinaires.",
-   "quiz_preuve_pour": "mitigé",
-   "quiz_preuve_contre": "mitigé",
-   "quiz_cas_pour": [
-    {
-     "t": "Des collèges en difficulté devenus autonomes ont amélioré leurs résultats, d'autant plus que l'autonomie gagnée était grande (Eyles et Machin, Angleterre, 2019).",
-     "s": [
-      0
-     ]
-    },
-    {
-     "t": "Des écoles publiques indépendantes, tirées au sort, ont fait gagner 0,4 écart-type en maths par an à leurs collégiens (Abdulkadiroglu et al., Boston, 2011).",
-     "s": [
-      1
-     ]
-    }
-   ],
-   "quiz_cas_contre": [
-    {
-     "t": "Des écoles publiques maîtresses de leurs programmes, budgets et horaires n'ont pas fait mieux que les écoles ordinaires (Abdulkadiroglu et al., Boston, 2011).",
-     "s": [
-      1
-     ]
-    },
-    {
-     "t": "Les premières écoles primaires devenues autonomes n'ont pas amélioré les résultats de leurs élèves (Eyles, Machin et McNally, Angleterre, 2017).",
-     "s": [
-      2
-     ]
-    }
-   ],
-   "quiz_etudes": "Les études divergent : l'autonomie aide surtout des écoles en difficulté soumises à un contrôle des résultats ; ailleurs, elle change peu les résultats. Aucune évaluation française.",
-   "quiz_src": [
-    {
-     "l": "Eyles, Machin, The introduction of academy schools to England's education (JEEA)",
-     "a": 2019,
-     "u": "https://researchonline.lse.ac.uk/id/eprint/88581/"
-    },
-    {
-     "l": "Abdulkadiroglu, Angrist, Dynarski, Kane, Pathak, Boston's charters and pilots (NBER w15549, Quarterly Journal of Economics 2011)",
-     "a": 2011,
-     "u": "https://www.nber.org/papers/w15549"
-    },
-    {
-     "l": "Eyles, Machin, McNally, Unexpected school reform: academisation of primary schools in England (CEP DP 1455, Journal of Public Economics 2017)",
-     "a": 2017,
-     "u": "https://researchonline.lse.ac.uk/id/eprint/69027"
-    }
-   ]
   },
   {
    "c": "attal",
