@@ -58,14 +58,31 @@ OVR.update({
  ('philippe', 'logement'): {'evidence_level': 'non_demontree'},
  ('philippe', 'sante'): {'evidence_level': 'pas_d_etude'},
 })
-DD = "Petites classes en CP-CE1 : gains nets en CP ; à l'entrée en 6e, plus rien pour la 1re génération, un petit gain en maths pour les suivantes, aucun en français (DEPP, 2026)."
-DD_S = {'label': 'DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com', 'year': 2026, 'url': 'https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif'}
+# école : même lecture d'une étude pour un même type de mesure (petites classes, salaires, examen de fin de cycle), études du quiz (registre S058)
+DD = "Petites classes en CP-CE1 : gains nets en CP ; en 6e, aucun en français, petit gain en maths après la 1re génération (DEPP, 2026)."
+DD_S = [{'label': 'DEPP, Synthèse n° 8, réduction de la taille de classe en éducation prioritaire', 'year': 2026, 'url': 'https://www.education.gouv.fr/sites/default/files/document/r-duction-de-la-taille-de-classe-en-ducation-prioritaire-que-nous-apprennent-les-donn-es-de-la-depp--478949.pdf'},
+        {'label': 'DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com', 'year': 2026, 'url': 'https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/'}]
+SAL = "Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023)."
+SAL_S = [{'label': 'Insee Analyses n° 87, prime REP+ et vœux de mutation des enseignants', 'year': 2023, 'url': 'https://www.insee.fr/fr/statistiques/7658358'}]
+EXAM_S = [{'label': 'Jürges, Schneider, Büchel, examens centraux et acquis des élèves (CESifo WP 939)', 'year': 2005, 'url': 'https://www.ifo.de/DocDL/cesifo_wp939.pdf'},
+          {'label': 'Cnesco – redoublement', 'year': 2014, 'url': 'https://www.cnesco.fr/wp-content/uploads/2014/08/280814CNESCO_redoublement.pdf'}]
+EXAM = "Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005), mais redoubler après un échec réduit les chances de diplôme (Cnesco, 2014)."
+NOAEF = ['media.ac-normandie.fr']  # copies de presse qui ne répondent plus : remplacées par la note DEPP officielle
 OVR.update({
- ('le-pen', 'ecole'): {'evidence': "Uniforme : climat amélioré selon 36% des directeurs, effet quasi nul sur les résultats (ministère, 2026). " + DD, 'add': [DD_S]},
- ('melenchon', 'ecole'): {'evidence': DD, 'add': [DD_S]},
- ('philippe', 'ecole'): {'evidence': DD + " Hausse salariale et amende parentale : pas d'évaluation française identifiée.", 'add': [DD_S]},
- ('glucksmann', 'ecole'): {'evidence': DD + " Mixité imposée à Paris : objectifs atteints dans 2 secteurs sur 3 (IPP, 2021).", 'add': [DD_S]},
- ('attal', 'ecole'): {'evidence': DD, 'add': [DD_S]},
+ ('le-pen', 'ecole'): {'evidence': "Uniforme : climat amélioré selon 36% des directeurs, effet quasi nul sur les résultats (ministère, 2026). " + DD + " " + SAL, 'add': SAL_S + DD_S, 'drop': NOAEF},
+ ('melenchon', 'ecole'): {'evidence': DD + " Petites écoles : regroupements suivis d'une baisse passagère des résultats (Danemark, 2018) ou d'un léger gain (Pays-Bas, 2016).",
+     'add': [{'label': "Beuchert et al., regroupements d'écoles au Danemark (CESifo WP 6082, Economics of Education Review)", 'year': 2018, 'url': 'https://www.ifo.de/en/cesifo/publications/2016/working-paper/short-term-effects-school-consolidation-student-achievement'},
+             {'label': "de Haan, Leuven, Oosterbeek, regroupements d'écoles aux Pays-Bas (JLEO)", 'year': 2016, 'url': 'https://dare.uva.nl/id/e4bce2db-c078-4bfc-b20d-0cf53a47b7ba'}] + DD_S, 'drop': NOAEF},
+ ('glucksmann', 'ecole'): {'evidence': DD + " " + SAL + " Mixité à Paris : objectif atteint dans 2 secteurs sur 3, évitement du privé de 24 % à 16 % dans l'un (IPP, 2021) ; condition imposée au privé non évaluée.",
+     'add': SAL_S + [{'label': 'IPP, évaluation des secteurs multi-collèges à Paris (via Banque des territoires)', 'year': 2021, 'url': 'https://www.banquedesterritoires.fr/bilan-mitige-pour-les-experimentations-en-faveur-de-la-mixite-sociale-dans-des-colleges-parisiens'}] + DD_S, 'drop': NOAEF},
+ ('philippe', 'ecole'): {'evidence': DD + " " + SAL + " Amendes aux parents d'absentéistes : sans lien avec le niveau d'absences (pays de Galles, 2018) ; pas d'évaluation française.",
+     'add': SAL_S + [{'label': 'Gouvernement gallois (ICF), évaluation des amendes pour absentéisme scolaire', 'year': 2018, 'url': 'https://www.gov.wales/sites/default/files/statistics-and-research/2019-06/180508-evaluation-fixed-penalty-notices-issued-regular-non-attendance-school-en.pdf'}] + DD_S, 'drop': NOAEF},
+ ('retailleau', 'ecole'): {'evidence': "Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005). Redoublement : effet proche de zéro à court terme, négatif à long terme, chances de diplôme réduites (Cnesco, 2014). Établissements publics autonomes : progrès de collèges en difficulté (Angleterre, 2019), aucun gain dans des écoles primaires (Angleterre, 2017).",
+     'evidence_level': 'mitigee', 'add': EXAM_S[:1] + [{'label': 'Eyles, Machin, académies en Angleterre (JEEA)', 'year': 2019, 'url': 'https://researchonline.lse.ac.uk/id/eprint/88581/'},
+             {'label': 'Eyles, Machin, McNally, écoles primaires autonomes en Angleterre (CEP DP 1455)', 'year': 2017, 'url': 'https://researchonline.lse.ac.uk/id/eprint/69027'}]},
+ ('attal', 'ecole'): {'evidence': DD + " " + SAL + " " + EXAM, 'add': SAL_S + EXAM_S + DD_S, 'drop': NOAEF},
+ ('lisnard', 'ecole'): {'evidence': EXAM + " " + SAL + " Assouplissement de la carte scolaire (2007) : effets globaux faibles, mais fuite accélérée des collèges défavorisés et ségrégation accrue (DEPP, 2013).", 'evidence_level': 'mitigee', 'add': EXAM_S + SAL_S},
+ ('zemmour', 'ecole'): {'evidence': EXAM + " Groupes de niveau : pas d'amélioration des résultats, et les élèves faibles risquent de perdre l'effet des pairs selon l'OCDE (PISA 2022).", 'evidence_level': 'mitigee', 'add': EXAM_S},
 })
 # même test « précis » pour une même formulation
 VFLIP = {'Bloquer temporairement': False, 'Assistant médical fondé sur l': False, 'Contrôle du Conseil constitutionnel limité': False, 'Police de proximité modernisée': False, "Fonds national d'acquisition foncière": False,
