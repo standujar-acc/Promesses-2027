@@ -42,14 +42,27 @@ RTE = "RTE (2021) : neutralité carbone impossible sans développement significa
 VED = "Rapport Védrine (2012) : effets du retour dans le commandement intégré de l'OTAN mitigés ; une nouvelle sortie réduirait les leviers d'influence de la France."
 HEN = " Bracelet plutôt que courte prison : récidive −6 à 7 points (Henneguelle, 2016)."
 HEN_S = {'label': 'Journal of Law and Economics, bracelet', 'year': 2016, 'url': 'https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/'}
+# Reprises d'agence (AFP, via connaissancedesenergies.org) remplacées par l'original officiel, chez tous les candidats qui les citent (registre S027, 29/10/2026)
+EPR_S = {'label': "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »", 'year': 2025, 'url': 'https://www.ccomptes.fr/fr/publications/la-filiere-epr-une-dynamique-nouvelle-des-risques-persistants'}
+MAINT_S = {'label': "Cour des comptes, « La maintenance du parc électronucléaire d'EDF en France »", 'year': 2025, 'url': 'https://www.ccomptes.fr/fr/publications/la-maintenance-du-parc-electronucleaire-dedf-en-france'}
+HCC_S = {'label': "Haut Conseil pour le climat, rapport annuel 2026", 'year': 2026, 'url': 'https://www.hautconseilclimat.fr/publications/dangers-climatiques-la-france-face-a-ses-responsabilites/'}
+RTE_S = {'label': "RTE, Futurs énergétiques 2050, résumé exécutif (vie-publique.fr)", 'year': 2021, 'url': 'https://vie-publique.fr/files/rapports/fichiers_joints/282232-resume-executif.pdf'}
+ORIG = {'connaissancedesenergies.org/afp/programme-depr-': EPR_S, 'connaissancedesenergies.org/afp/prolonger-jusqua-60-ans-': MAINT_S,
+        'connaissancedesenergies.org/afp/climat-la-france-nest-pas-prete-': HCC_S, 'connaissancedesenergies.org/afp/il-serait-pertinent-': RTE_S,
+        'connaissancedesenergies.org/afp/futurs-energetiques-2050-': RTE_S}
 OVR.update({
  ('le-pen', 'logement'): {'evidence': SRU + " " + RENO, 'evidence_level': 'mitigee'},
  ('lisnard', 'logement'): {'evidence': SRU, 'evidence_level': 'mitigee'},
  ('melenchon', 'logement'): {'evidence': RENO + " Cour des comptes : la crise exige d'accroître durablement l'offre.", 'evidence_level': 'mitigee'},
  ('attal', 'logement'): {'evidence': RENO, 'evidence_level': 'mitigee'},
  ('zemmour', 'logement'): {'evidence': RENO, 'evidence_level': 'mitigee'},
- ('lisnard', 'environnement'): {'evidence': EPR, 'evidence_level': 'mitigee', 'add': [{'label': 'Cour des comptes via AFP – EPR', 'year': 2025, 'url': 'https://www.connaissancedesenergies.org/afp/programme-depr-la-cour-des-comptes-publie-un-rapport-critique-et-recalcule-le-cout-de-flamanville-3-250114'}]},
- ('zemmour', 'environnement'): {'evidence': EPR + " " + RTE, 'evidence_level': 'mitigee', 'add': [{'label': 'RTE Futurs énergétiques via AFP', 'year': 2021, 'url': 'https://www.connaissancedesenergies.org/afp/il-serait-pertinent-de-construire-de-nouveaux-reacteurs-nucleaires-dun-point-de-vue-economique-selon-rte-211025'}]},
+ ('lisnard', 'environnement'): {'evidence': EPR, 'evidence_level': 'mitigee', 'add': [EPR_S]},
+ ('zemmour', 'environnement'): {'evidence': EPR + " " + RTE, 'evidence_level': 'mitigee', 'add': [MAINT_S, RTE_S]},
+ # écart RTE : « de l'ordre de 10 milliards d'euros par an » (valeur de référence du résumé exécutif), 20 dans certaines variantes (registre S027)
+ ('melenchon', 'environnement'): {'evidence': "RTE : scénarios sans nouveau nucléaire plus coûteux, de l'ordre de 10 Md€/an (jusqu'à 20 dans certaines variantes). HCC 2026 : baisse requise >4 %/an, contre −2,1 % en 2025."},
+ # gain promis cité avec ses dates (site du candidat, 16/10/2026) ; lisnard.cards, site non officiel, retiré de ce thème (registre S069)
+ ('lisnard', 'economie'): {'indicator': "250 à 400 €/mois net selon les interventions (250 € pour 2 500 € de revenu), estimation du camp", 'drop': ['lisnard.cards'],
+     'add': [{'label': "Nouvelle Énergie, « Le programme de David Lisnard est-il chiffré ? »", 'year': 2026, 'url': 'https://www.unenouvelleenergie.fr/questions/le-programme-de-david-lisnard-est-il-chiffre/'}]},
  ('retailleau', 'securite'): {'evidence': PP + HEN, 'evidence_level': 'mitigee', 'add': [HEN_S]},
  ('zemmour', 'sante'): {'evidence': "Médecins salariés par l'État et obligation de garde : pas d'évaluation française identifiée.", 'evidence_level': 'pas_d_etude', 'drop': ['csem.org']},
  ('le-pen', 'rayonnement'): {'evidence': VED + " Baisser la contribution à l'UE demande l'unanimité.", 'evidence_level': 'mitigee'},
@@ -94,7 +107,7 @@ def merge(D):
     parts = [f for f in ('life-a.json', 'life-b.json', 'life-eco.json') if os.path.exists(os.path.join(H, 'data', f))]
     if not parts: return D
     ev = J('evidence_levels.json') if os.path.exists(os.path.join(H, 'data', 'evidence_levels.json')) else {}
-    life = {}
+    life = {}; used = set()
     for f in parts:
         x = J(f)
         for cid, arr in x['life'].items():
@@ -119,8 +132,14 @@ def merge(D):
                     th.update({k: v for k, v in o.items() if k not in ('add', 'drop')})
                     th['sources'] = [x for x in th['sources'] if not any(d in x['url'] for d in o.get('drop', []))]
                     th['sources'] += [s for s in o.get('add', []) if s['url'] not in {x['url'] for x in th['sources']}]
+                olds = [d for d in ORIG if any(d in x['url'] for x in th['sources'])]
+                if olds:
+                    used.update(olds)
+                    th['sources'] = [x for x in th['sources'] if not any(d in x['url'] for d in olds)]
+                    th['sources'] += [dict(s) for s in {ORIG[d]['url']: ORIG[d] for d in olds}.values() if s['url'] not in {x['url'] for x in th['sources']}]
                 life.setdefault(cid, {})[th['theme']] = th
         if 'baseline' in x: D.setdefault('baseline', {}).update({k: [dict(i, label=html.unescape(i['label'])) for i in v] for k, v in x['baseline'].items()})
+    assert used == set(ORIG), f"ORIG sans effet : {set(ORIG) - used}"
     ids = [c['id'] for c in D['candidates']]
     themes = [t for t in THEMES if any(t in v for v in life.values())]
     D['life_themes'] = themes

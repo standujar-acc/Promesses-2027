@@ -395,8 +395,8 @@
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
-   "maj": "2026-10-28",
-   "resolution": null
+   "maj": "2026-10-29",
+   "resolution": "29/10 (en cours) : copies d'agence remplacées par l'original officiel chez tous les candidats qui les citent : Cour des comptes, filière EPR (14/01/2025) et maintenance du parc (17/11/2025) ; Haut Conseil pour le climat, rapport annuel 2026 ; RTE, Futurs énergétiques 2050, résumé exécutif (vie-publique.fr) ; Sénat, rapport n° 807 (commission d'enquête sur les agences) au lieu de medias24 (Retailleau) ; écart RTE cité chez Mélenchon reformulé (« de l'ordre de 10 Md€ par an », jusqu'à 20 dans certaines variantes). Copies de l'académie de Normandie (AEF, Le Monde) : déjà remplacées sur main. Discours de Saint-Raphaël (Lisnard) : le PDF redirige vers un stockage qui répond 403 (le discours de Bayeux, au même endroit, répond 200), déplacé ou retiré sans preuve qu'il soit mort : adresse gardée, à rouvrir dans un navigateur ordinaire ; le site du candidat (16/10/2026) en cite les passages utilisés. Contrôle du 29/10 : aucune réponse 404 ou 410. Reste à rouvrir dans un navigateur ordinaire : Banque de France (3), SSRN (Rydzak 2019), education.gouv.fr (page 505268), ancols.fr, police.be (maintenance programmée), fipeco.fr (4), DREES (3) ; sans source officielle ouverte : livraisons de carburants 2025 (Le Pen, gazole 32 Mm³) et bilan du leasing social 2024 (Glucksmann, 47 000 ménages)."
   },
   {
    "id": "S028",
@@ -1013,10 +1013,10 @@
    "sujet": "Heures sup : ce que couvrent les ≈ 2 à 3 Md€ comptés",
    "detail": "Second audit du simulateur (27/10/2026) : pour le salarié, impôt (jusqu'à 7 500 €/an) et cotisations sur les heures sup sont déjà exonérés ; Retailleau exclut la CSG et la CRDS (« zéro cotisation et zéro impôt… hormis CSG et CRDS », au-delà de 1 607 h, Public Sénat 7/01/2026), Philippe ne les mentionne pas. Le simulateur ne compte donc plus de gain pour le salarié (même règle pour les deux). Les ≈ 2 à 3 Md€ de Philippe (« extension des exonérations ») et les ≈ 2 Md€ de Retailleau (même valeur) doivent être sourcés : exonération des cotisations patronales sur les heures sup (volet S039) et fin du plafond de 7 500 €, sans CSG. 27/10 : chez Retailleau, l'exonération patronale des heures sup est comprise dans les 15 Md€ de cotisations patronales (retirée de « production ») ; reste à sourcer chez Philippe.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
-   "resolution": null
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 (décision du porteur du projet) : texte du candidat trouvé (edouardphilippe.fr, 8/10/2026 et « Pour une France plus prospère ») : dans les entreprises qui relèvent leur durée du travail par accord, heures au-delà de 35 h « défiscalisées et exonérées de cotisation », « zéro cotisation patronale au-delà de la 37ème heure » ; CSG et CRDS non mentionnées. Les ≈ 2 Md€ comptés chiffraient une exonération de CSG et de CRDS (rapporteur du PLFSS 2026), que le candidat ne propose pas ; les 3,5 Md€ (2018), la désocialisation salariale de 2019, déjà en vigueur. Ni coût publié par le camp ni chiffrage indépendant, assiette non publiée (heures au-delà de 37 h dans les entreprises signataires) : mesure passée en « non chiffrable » (même règle que les mesures sans paramètre clé ; le chiffre de Retailleau ne peut servir pour Philippe), repères officiels en entrée (PLFSS 2026, annexe 4 ; Voies et moyens). Total de Philippe −2,3 → −0,3 Md€, changement signalé dans la PR. Retailleau : seuil « zéro cotisation » toujours compté (coût statique publié par le camp, 4,3 Md€, ±50 %), note alignée. Textes alignés sur « cotisation patronale » : fiche, quiz, simulateur. Reste : point S095."
   },
   {
    "id": "S068",
@@ -1039,10 +1039,10 @@
    "sujet": "Audit de cohérence des chiffres (27/10/2026)",
    "detail": "Audit indépendant : totaux justes, mais une erreur de calcul (Philippe, retraites), des faits donnés avec des valeurs différentes d'un endroit à l'autre, des constats dépassés, des textes de méthode qui ne décrivaient plus le site et METHODOLOGIE.md désynchronisé.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
-   "resolution": "Fait le 27/10 : Philippe, retraites 6,0 → 5,8 (1,8 + 4, même base que Lisnard et Zemmour ; total +2,8 → +2,6) ; Mélenchon, retraites : passage à 60 ans rendu reproductible ((54 − 13,6) / 2 ≈ 20,2 ; −32,2 → −32,0) ; Zemmour, production (hors total) 20,4 ; classes dédoublées : même lecture de la DEPP chez les cinq candidats (petit gain en maths pour les générations suivantes, aucun en français) ; peines planchers : IPP 2024 ajouté à la fiche de Retailleau, la phrase « effet sur la récidive non démontré » retirée ; quatre mesures non chiffrables avec la même formule « Non chiffrable : paramètre non publié » ; « non compté » sans mesure comptée (Attal, Philippe) ; Le Pen : note CVAE conforme à la règle commune, proposition UE alignée sur le chiffre du camp ; constats à la forme commune (immigrés, non-recours au RSA) ; méthode du quiz et des sources ; METHODOLOGIE.md généré par run.py et vérifié par la CI. Constats et repères dépassés : faits dans les PR des repères. Reste : une année d'âge de retraite chiffrée 5,8 (Attal, indicatif) ou 6,8 (Lisnard) ; gain promis par Lisnard (+250 € pour 2 500 € dans « Vie quotidienne », +400 € au salaire moyen dans la fiche) ; service civique 605 € (coût) et 620 € (versé au jeune) à expliciter ; départs dans la fonction publique (≈ 500 000 par an chez Lisnard, ≈ 720 000 en 5 ans chez Zemmour) ; borne basse de Lisnard (−48, promesse sans les économies) à trancher. La borne haute de l'AME (1,2) n'est pas changée : l'économie maximale est le coût de l'AME moins celui de l'aide d'urgence, donc inférieure à 1,47 Md€."
+   "maj": "2026-10-29",
+   "resolution": "Fait le 27/10 : Philippe, retraites 6,0 → 5,8 (1,8 + 4, même base que Lisnard et Zemmour ; total +2,8 → +2,6) ; Mélenchon, retraites : passage à 60 ans rendu reproductible ((54 − 13,6) / 2 ≈ 20,2 ; −32,2 → −32,0) ; Zemmour, production (hors total) 20,4 ; classes dédoublées : même lecture de la DEPP chez les cinq candidats (petit gain en maths pour les générations suivantes, aucun en français) ; peines planchers : IPP 2024 ajouté à la fiche de Retailleau, la phrase « effet sur la récidive non démontré » retirée ; quatre mesures non chiffrables avec la même formule « Non chiffrable : paramètre non publié » ; « non compté » sans mesure comptée (Attal, Philippe) ; Le Pen : note CVAE conforme à la règle commune, proposition UE alignée sur le chiffre du camp ; constats à la forme commune (immigrés, non-recours au RSA) ; méthode du quiz et des sources ; METHODOLOGIE.md généré par run.py et vérifié par la CI. Constats et repères dépassés : faits dans les PR des repères. Reste : une année d'âge de retraite chiffrée 5,8 (Attal, indicatif) ou 6,8 (Lisnard) ; gain promis par Lisnard (+250 € pour 2 500 € dans « Vie quotidienne », +400 € au salaire moyen dans la fiche) ; service civique 605 € (coût) et 620 € (versé au jeune) à expliciter ; départs dans la fonction publique (≈ 500 000 par an chez Lisnard, ≈ 720 000 en 5 ans chez Zemmour) ; borne basse de Lisnard (−48, promesse sans les économies) à trancher. La borne haute de l'AME (1,2) n'est pas changée : l'économie maximale est le coût de l'AME moins celui de l'aide d'urgence, donc inférieure à 1,47 Md€. 29/10 : reste traité. (a) Une année d'âge : 5,8 Md€ en 2035 pour le système de retraites, sans effets sur l'activité (Cour des comptes, février 2025, tableau 6), ≈ 4 Md€ en 2030 (graphique 32) : chiffre daté et cité à l'original chez Attal (au lieu de LCP), mesure toujours non chiffrable ; le 6,8 de Lisnard n'est plus affiché depuis le 28/10 ; bornes hautes de Philippe, Lisnard et Zemmour (+5,8 = 1,8 + 4) inchangées. (b) Gain promis par Lisnard : « 250 à 400 € net par mois selon les interventions » (250 € pour 2 500 € de revenu, 29/08/2026 ; près de 400 €, janvier 2026 ; site du candidat, 16/10/2026) dans la fiche, la vie quotidienne (économie : lisnard.cards, non officiel, remplacé par le site du candidat) et le simulateur ; le « +200 € » n'a été retrouvé dans aucune source. (c) Service civique : 605 € = coût public mensuel (indemnité nette de l'État 504,98 € + tutorat 100 €), 620 € = montant versé au jeune (504,98 € + 114,85 € de l'organisme d'accueil) ; barème 2026 de l'Agence du service civique et PAP 2027 au lieu de Maire-info ; même calcul chez Glucksmann et Attal, chiffres inchangés ; cotisations versées par l'État à la Sécurité sociale neutres pour le solde public. (d) Départs : départs à la retraite de fonctionnaires (144 000 en 2025, DGAFP) et sorties toutes causes (≈ 500 000 par an : 481 600 en 2024 dans la fonction publique civile, DGAFP ; 499 400, Insee) distingués : fiche et simulateur de Lisnard (« une partie des ≈ 500 000 départs annuels, toutes causes » ; repère indicatif recalculé avec 144 000 : ≈ +5,2 au lieu de +4,9, hors total), texte du quiz de Lisnard, obstacle de Zemmour (≈ 720 000 départs à la retraite et ≈ 2,4 millions de sorties en 5 ans ; verdict inchangé). (e) Baisse des cotisations de Lisnard : formule à jour (48 Md€ la première année, 120 à terme ; seule la CSG des actifs est paramétrée, chiffrée à part) ; valeurs à 0, toujours exclue du total comme la fiche « Économies » (la borne −48 disparaît). Aucun total ne change."
   },
   {
    "id": "S070",
@@ -1359,10 +1359,10 @@
    "sujet": "Lisnard : fin de l'abattement de 10 % sur les pensions, source d'origine",
    "detail": "Ajouté le 29/10 (+4,7 Md€, coût officiel de la dépense fiscale 120401 en 2026) sur la foi de l'article original de Capital (28/10/2026), qui cite le candidat entre guillemets ; l'émission d'origine (Europe 1 / CNEWS, 27/10) n'a pas été retrouvée. Le projet de loi de finances 2027 (art. 3, non voté) plafonne déjà cet abattement : situation de départ à revoir s'il est voté.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 : source d'origine recherchée. La phrase n'est citée que par Capital (28/10/2026, compte rendu d'Objectif Élysée 2027, Europe 1 / CNEWS, 27/10) ; absente des comptes rendus écrits d'Europe 1 et de CNEWS, replay non retrouvé ; position déjà exprimée sur Europe 1 (23/04/2025) et reprise sur le site du candidat (16/10/2026) : mesure reconfirmée, comme toute proposition citée entre guillemets par un média d'information. Chiffrage à la médiane des chiffrages crédibles (règle commune) : IPP, note n° 129 (septembre 2026) 5,4 ; coût officiel 2026 de la dépense fiscale 120401 4,7 ; Cour des comptes citée par l'OFCE 4,5 → +4,7 (inchangé ; borne haute 5,3 → 5,4 ; total de Lisnard inchangé). Situation de départ : le plafond à 3 000 € (art. 3 du PLF 2027) a été supprimé par l'Assemblée en première lecture le 15/10/2026 (scrutin n° 8738) ; borne basse 3,6 s'il était rétabli. Simulateur : impôt des retraités non ajouté (décision du porteur du projet, 29/10) : il faudrait le calculer pour tous les candidats dont une mesure d'impôt sur le revenu touche les retraités ; la mention « non calculé ici » reste, comme pour les autres. Paramètres vérifiés pour un éventuel calcul commun : abattement de 10 %, minimum 454 € par pensionné, maximum 4 439 € par foyer (revenus 2025, service-public.gouv.fr F415)."
   },
   {
    "id": "S090",
@@ -1436,6 +1436,21 @@
    "mesure": "aide_developpement",
    "sujet": "Aide au développement : suppression publiée par Zemmour (règle symétrique S085)",
    "detail": "Règle du 29/10 : un niveau publié à la baisse, suppression comprise, compte comme une économie. Zemmour (plan budget2027.fr, ligne 14) annonce la suppression de l'aide au développement (14 Md€ selon le camp, au sens de l'OCDE, qui inclut des dépenses hors budget). À chiffrer sur les seuls crédits budgétaires de la mission « Aide publique au développement » (PLF 2027, programmes 110 et 209), avec 70 % en 2030 si aucune date n'est donnée, et à vérifier que la mesure est reconfirmée en 2026 (site de campagne inaccessible le 29/10). RN (« rationalisation », 2,1 dans le bloc État) et Retailleau (« recentrer ») : sans niveau, non chiffrables. Mélenchon et Glucksmann (0,7 % du RNB) : à reconfirmer (programme LFI du 6/11).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S095",
+   "type": "a_corriger",
+   "candidats": [
+    "retailleau"
+   ],
+   "mesure": "production",
+   "sujet": "Retailleau : la fiche « impôts de production » cite encore les heures sup",
+   "detail": "Depuis le 29/10, les heures au-delà de 1 623 h ont leur propre fiche (seuil « zéro cotisation », −4,3) et la formule de « production » ne les compte plus ; la proposition (« heures sup sans cotisations »), le texte du quiz (« et les cotisations sur les heures supplémentaires ») et le « Pour » du quiz les citent encore. Aligner proposition, quiz et « Pour / Contre » sur les seuls impôts de production, avec les mêmes études que les autres mesures du même type.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-29",

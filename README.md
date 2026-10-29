@@ -9,11 +9,11 @@ Données à jour au 29 octobre 2026 : 8 candidats, 143 mesures.
 | --- | --- | --- | --- | --- |
 | Marine Le Pen | RN | 26 | −66,8 | −90,1 à −51,1 |
 | Jean-Luc Mélenchon | LFI | 21 | −147,1 | −176,3 à −105,9 |
-| Édouard Philippe | Horizons | 10 | −2,3 | −32,6 à +2,6 |
+| Édouard Philippe | Horizons | 9 | −0,3 | −30,1 à +4,8 |
 | Raphaël Glucksmann | PS-Place publique | 8 | −46,1 | −56,3 à −40,0 |
 | Gabriel Attal | Renaissance | 6 | +7,8 | +1,2 à +9,0 |
 | Bruno Retailleau | LR | 19 | −22,1 | −29,9 à −6,6 |
-| David Lisnard | Nouvelle Énergie | 14 | −52,0 | −59,3 à −45,5 |
+| David Lisnard | Nouvelle Énergie | 14 | −52,0 | −59,2 à −45,5 |
 | Éric Zemmour | Reconquête | 9 | +22,2 | +14,5 à +34,9 |
 <!-- totaux:fin -->
 
