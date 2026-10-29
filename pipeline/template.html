@@ -1016,7 +1016,7 @@ function sim(){
     if(s.carburant && fuel>0) add('Carburant',esc(s.carburant.note),fuel*Math.max(0,1-s.carburant.prix/s.carburant.actuel));
     // taxe sur les carburants baissée : baisse par litre (hors TVA) × TVA du programme, rapportée au prix à la pompe ; montant pour l'essence, gazole en regard
     if(s.accise_carburant && fuel>0){ const a=s.accise_carburant, t=s.tva_energie!=null?1+s.tva_energie/100:1.2, gz=fuel*a.gazole*t/SQ.prix_gazole;
-      add('Carburant',`${esc(a.note)} ; calculé pour l'essence à ${String(SQ.prix_sp95).replace('.',',')} €/l (pour le même budget en gazole, à ${String(SQ.prix_gazole).replace('.',',')} €/l : ${eur(gz)}/mois)`,fuel*a.essence*t/SQ.prix_sp95); }
+      add('Carburant',`${esc(a.note)} ; calculé pour l'essence à ${String(SQ.prix_sp95).replace('.',',')} €/l, prix moyen des 12 derniers mois (pour le même budget en gazole, à ${String(SQ.prix_gazole).replace('.',',')} €/l : ${eur(gz)}/mois)`,fuel*a.essence*t/SQ.prix_sp95); }
     if(s.service_jeunes && age>=17 && age<=25) rows.push(['Service obligatoire',esc(s.service_jeunes),'≈ 620 €/mois pendant 10 mois']);
     (s.tous||[]).forEach(t=>notes.push(t));
     const q=[];
