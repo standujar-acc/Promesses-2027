@@ -59,6 +59,10 @@ with sync_playwright() as p:
     r = pg.evaluate("""(()=>{ go('cand'); const y=id=>document.getElementById(id).getBoundingClientRect().top; const ord=[y('picker')<y('fhead'), y('fhead')<y('ftab'), y('ftab')<y('total')];
       document.querySelector('#ftab [data-t="vie"]').click(); const hid=document.getElementById('total').offsetParent===null; document.querySelector('#ftab [data-t="budget"]').click(); return [...ord, hid]; })()""")
     check(r == [True, True, True, True], f'mobile : page candidat dans le même ordre (candidats, présentation, onglets, total), total masqué dans « Vie quotidienne » {r}')
+    r = pg.evaluate("""(()=>{ go('cand'); const p=document.getElementById('picker'), cs=getComputedStyle(p); window.scrollTo(0,2000);
+      const top=p.getBoundingClientRect().top, b=p.querySelector('[data-id="zemmour"]'); b.click(); const sel=p.querySelector('[aria-pressed="true"]').getBoundingClientRect(), pr=p.getBoundingClientRect();
+      const out=[cs.position, cs.flexWrap, Math.abs(top)<1, sel.left>=pr.left-1 && sel.right<=pr.right+1, window.scrollY<2000, document.documentElement.scrollWidth<=innerWidth]; window.scrollTo(0,0); return out; })()""")
+    check(r == ['sticky', 'nowrap', True, True, True, True], f'mobile : bande des candidats fixe au défilement, candidat choisi visible, retour en haut de la fiche, sans débordement {r}')
     r = pg.evaluate("[getComputedStyle(document.documentElement).touchAction, getComputedStyle(document.getElementById('q')).fontSize]")
     check(r == ['manipulation', '16px'], f'mobile : pas de zoom au double tap ni à la saisie (zoom à deux doigts conservé) {r}')
     pg.close()

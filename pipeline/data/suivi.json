@@ -1397,7 +1397,7 @@
    "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": "Fait le 29/10 : sur ordinateur, barre fixe en haut au défilement (les 8 candidats et les onglets Budget / Vie quotidienne), présentation et total toujours affichés aux mêmes places dans les deux onglets ; changer de candidat ou d'onglet depuis le bas de page ramène en haut de la fiche ; candidat choisi en plein (bleu nuit) sur ordinateur et téléphone ; téléphone : même ordre qu'avant, pas de barre fixe (place limitée). Accueil : rangées du classement visiblement cliquables. Relecture des autres pages : résultat du quiz sur deux colonnes sur ordinateur ; simulateur, méthode et accueil gardés (déjà en colonnes)."
+   "resolution": "Fait le 29/10 : sur ordinateur, barre fixe en haut au défilement (les 8 candidats et les onglets Budget / Vie quotidienne), présentation et total toujours affichés aux mêmes places dans les deux onglets ; changer de candidat ou d'onglet depuis le bas de page ramène en haut de la fiche ; candidat choisi en plein (bleu nuit) sur ordinateur et téléphone ; téléphone : même ordre qu'avant, pas de barre fixe (place limitée). Accueil : rangées du classement visiblement cliquables. Relecture des autres pages : résultat du quiz sur deux colonnes sur ordinateur ; simulateur, méthode et accueil gardés (déjà en colonnes). Puis, à la demande du porteur : sur téléphone aussi, les 8 candidats restent accessibles au défilement (bande d'une ligne, fixe en haut, qui défile horizontalement et garde le candidat choisi visible)."
   }
  ]
 }
