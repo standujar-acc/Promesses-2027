@@ -2,6 +2,8 @@
 
 Les programmes des candidats à la présidentielle française de 2027 (1er tour le 18 avril 2027), chiffrés mesure par mesure avec une méthode unique, confrontés aux estimations indépendantes publiées et aux obstacles juridiques. Simulateur personnel, quiz à l'aveugle, faisabilité, et un volet « vie quotidienne » (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement).
 
+**Site : [p2027.org](https://p2027.org)**
+
 <!-- totaux:debut (généré par pipeline/run.py, ne pas modifier à la main) -->
 Données à jour au 29 octobre 2026 : 8 candidats, 143 mesures.
 

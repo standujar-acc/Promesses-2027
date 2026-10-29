@@ -259,5 +259,16 @@ with sync_playwright() as p:
     r = pg.evaluate("D.candidates.map(c=>[c.id, c.poll])")
     check([c for c, _ in r] == sorted(moy, key=lambda c: -moy[c]) and all(abs(float(v[:-2].replace(',', '.')) - moy[c]) <= 0.05 + 1e-9 for c, v in r),
           f'sondages : moyenne des instituts affichée, candidats rangés selon elle {r}')
+    # aperçu des liens partagés (WhatsApp, réseaux sociaux) et référencement de l'accueil
+    import struct
+    P = os.path.join(ROOT, 'public')
+    idx = open(os.path.join(P, 'index.html')).read()
+    lds = re.findall(r'<script type="application/ld\+json">(.*?)</script>', idx, re.S)
+    check(all(x in idx for x in ('property="og:image" content="https://', 'name="twitter:card" content="summary_large_image"', 'rel="canonical"', 'property="og:title"', 'name="description"'))
+          and lds and all(json.loads(x) for x in lds), "partage : image d'aperçu, titre, description, adresse canonique, données structurées valides")
+    check(struct.unpack('>II', open(os.path.join(P, 'og.png'), 'rb').read(24)[16:24]) == (1200, 630) and os.path.getsize(os.path.join(P, 'og.png')) < 600_000,
+          "partage : image d'aperçu 1200 × 630, moins de 600 Ko (limite de WhatsApp)")
+    sm, rb = open(os.path.join(P, 'sitemap.xml')).read(), open(os.path.join(P, 'robots.txt')).read()
+    check('<loc>https://' in sm and 'Sitemap: https://' in rb, 'référencement : plan du site et robots.txt')
     b.close()
 sys.exit(1 if fail else 0)

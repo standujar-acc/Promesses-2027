@@ -34,7 +34,7 @@ Le workflow `.github/workflows/deploy.yml` prend alors le relais.
    - Framework : **Aucun**
    - Commande de build : *(vide)*
    - Répertoire de sortie : `public`
-4. **Enregistrer et déployer.** Le site est en ligne sur `promesses-2027.pages.dev`. Chaque push sur `main` redéploie ; chaque branche a son aperçu.
+4. **Enregistrer et déployer.** Le site est en ligne sur `p2027.org` (domaine personnalisé ; `promesses-2027.pages.dev` reste l'adresse technique du projet Cloudflare). Chaque push sur `main` redéploie ; chaque branche a son aperçu.
 
 ### 2. Activer les signalements et les quotas (recommandé)
 
@@ -49,7 +49,7 @@ Le workflow `.github/workflows/deploy.yml` prend alors le relais.
 
 Lire les signalements :
 ```
-curl -H "Authorization: Bearer <ADMIN_TOKEN>" https://promesses-2027.pages.dev/api/reports
+curl -H "Authorization: Bearer <ADMIN_TOKEN>" https://p2027.org/api/reports
 ```
 Sans la liaison `REPORTS`, l'app copie le signalement dans le presse-papiers à la place.
 

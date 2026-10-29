@@ -1456,6 +1456,19 @@
    "cree": "2026-10-29",
    "maj": "2026-10-29",
    "resolution": null
+  },
+  {
+   "id": "S096",
+   "type": "a_ajouter",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Partage des liens et référencement",
+   "detail": "Demande du porteur (29/10) : image à l'aperçu d'un lien partagé, et référencement Google.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 : image d'aperçu 1200 × 630 (sans chiffre ni sondage) et balises Open Graph et X/Twitter, lues par WhatsApp, les réseaux sociaux et les messageries ; adresse canonique, données structurées (site, jeu de données ouvert), plan du site et robots.txt, icônes ; nouvelle adresse du site : https://p2027.org (demande du porteur). Pages statiques par candidat retirées à la demande du porteur. Reste au porteur : déclarer p2027.org dans Google Search Console et y envoyer le plan du site ; s'il le souhaite, rediriger promesses-2027.pages.dev vers p2027.org dans Cloudflare."
   }
  ]
 }

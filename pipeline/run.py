@@ -3,6 +3,7 @@ Usage : python3 pipeline/run.py
 Sorties :
   public/index.html               site autonome (Cloudflare Pages ou tout hébergeur statique)
   public/data/promesses-2027.json données ouvertes
+  public/og.png, sitemap.xml, robots.txt  aperçu des liens partagés, référencement (pipeline/pages.py)
   pipeline/promesses-2027.html    version artifact claude.ai (non versionnée)
 """
 import json, os, runpy, re, html, shutil
@@ -17,20 +18,16 @@ art = open('promesses-2027.html').read()
 head, body = art.split('<style>', 1)
 head = re.sub(r'<link rel="(preconnect|stylesheet)" href="https://fonts\.(googleapis|gstatic)\.com[^>]*>\n?', '', head)
 head += '<link rel="preload" href="fonts/ibm-plex-sans.woff2" as="font" type="font/woff2" crossorigin>\n<style>' + open('fonts/fonts.css').read() + '</style>\n'
-title = re.search(r'<title>(.*?)</title>', head).group(1)
-desc = "Les programmes des candidats à la présidentielle 2027 chiffrés mesure par mesure, avec la même méthode pour tous et les sources à l'appui. Simulateur, quiz à l'aveugle, faisabilité."
+# titre et balises de partage / référencement : pipeline/pages.py
+import pages
+head = re.sub(r'<title>.*?</title>', '<title>' + html.escape(pages.TITLE) + '</title>', head)
 page = f'''<!doctype html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 {head.strip()}
-<meta name="description" content="{html.escape(desc)}">
-<meta property="og:title" content="{html.escape(title)} : combien me coûtent leurs promesses ?">
-<meta property="og:description" content="{html.escape(desc)}">
-<meta property="og:type" content="website">
-<meta name="theme-color" content="#13203f">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 20'%3E%3Crect width='10' height='20' fill='%230055a4'/%3E%3Crect x='10' width='10' height='20' fill='%23fff'/%3E%3Crect x='20' width='10' height='20' fill='%23ef4135'/%3E%3C/svg%3E">
+{pages.home_head(D)}
 </head>
 <body>
 <style>{body}
@@ -42,6 +39,8 @@ shutil.rmtree(os.path.join(ROOT, 'public', 'fonts'), ignore_errors=True)
 shutil.copytree('fonts', os.path.join(ROOT, 'public', 'fonts'), ignore=shutil.ignore_patterns('fonts.css'))
 open(os.path.join(ROOT, 'public', 'index.html'), 'w').write(page)
 json.dump(D, open(os.path.join(ROOT, 'public', 'data', 'promesses-2027.json'), 'w'), ensure_ascii=False, indent=1)
+# image d'aperçu des liens partagés, icônes, plan du site, robots.txt, en-têtes (pipeline/static/)
+pages.write(D, ROOT, HERE)
 
 # README : date et tableau des totaux, régénérés à chaque passage
 def fr(x, sign=True):
