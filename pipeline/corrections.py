@@ -774,6 +774,99 @@ ADD('melenchon',{'id': 'aide_developpement', 'theme': 'europe', 'title': 'Aide a
 ADD('glucksmann',{'id': 'aide_developpement', 'theme': 'europe', 'title': 'Aide au développement à 0,7 % du RNB', 'proposal': "Programmation budgétaire annuelle pour atteindre progressivement 0,7 % du RNB consacré à l'aide publique au développement.", 'claimed': 'Non chiffré', 'claimed_md': None, 'estimates': [], 'consensus': 'isolé', 'verdict': 'sous_conditions', 'obstacle': 'Par la loi de finances ; échéance non publiée.', 'claude': {'id': 'aide_developpement', 'central': -4.5, 'low': -6.3, 'high': -4.5, 'method': 'ascendant', 'formula': "Indicatif, hors total, même calcul que Mélenchon : écart de 0,20 point (APD 2023 : 0,50 % du RNB) ; « progressivement », sans date → 70 % en 2030 ≈ −4,5 ; −6,3 si l'APD est à 0,42 %.", 'inputs': [{'label': 'APD 2023', 'value': '14,2 Md€, 0,50 % du RNB', 'source': 'Assemblée nationale, avis n° 459, tome III (16/10/2024)', 'url': 'https://www.assemblee-nationale.fr/dyn/17/rapports/cion_afetr/l17b0459-tiii_rapport-avis.pdf'}, {'label': 'Loi en vigueur', 'value': "0,7 % visé « en 2025 », crédits programmés jusqu'en 2022", 'source': 'Loi n° 2021-1031 (Légifrance)', 'url': 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043898536'}], 'note': 'Document de 2025 non repris en 2026 : hors total, comme pour Mélenchon.'}, 'a_confirmer': True})
 t=C['lisnard']['claude_total']; t['missing']+=", défense (hausse du budget des armées, sans montant ni date)"
 
+# --- review 21 : sources d'origine vérifiées, textes alignés sur les sources (29/10/2026) ; registre S089, S067, S069, S027
+# S089 : fin de l'abattement de 10 % sur les pensions (Lisnard) à la médiane des chiffrages (IPP 2026, coût officiel 2026, Cour des comptes) ;
+# plafond à 3 000 € du PLF 2027 (art. 3) supprimé par l'Assemblée en première lecture le 15/10/2026. Simulateur inchangé : l'impôt sur le revenu
+# des retraités n'y est calculé pour aucun candidat (« non calculé ici ») ; l'ajouter supposerait de le faire pour tous
+IPP129="https://www.ipp.eu/wp-content/uploads/2026/09/Note_contribution_retraites_129.pdf"
+OFCE_AB="https://ofce.sciences-po.fr/blog2024/fr/2025/20250109_PM/abattement.fr.pdf"
+SET('lisnard','abattement_pensions',4.7,3.6,5.4,"Médiane des chiffrages : IPP 2026 (microsimulation, 2027) 5,4 ; coût officiel de la dépense fiscale 120401 en 2026 : 4,7 ; Cour des comptes (citée par l'OFCE, 2025) : 4,5 → +4,7 Md€ ; borne haute : IPP (5,4, aides au logement comprises) ; borne basse : si le plafond à 3 000 € (article 3 du PLF 2027, supprimé par l'Assemblée en première lecture le 15/10/2026) était rétabli (−1,1 Md€ à partir de 2029) : 3,6",
+    method='médiane',inputs=[
+    {"label":"Proposition du candidat","value":"« Supprimer cette niche fiscale permet de redonner de l'équité au système »","source":"Capital (28/10/2026), compte rendu d'Objectif Élysée 2027 (Europe 1 / CNEWS, 27/10)","url":"https://www.capital.fr/votre-retraite/votre-retraite-depasse-2-200-euros-david-lisnard-propose-de-la-geler-1531322"},
+    {"label":"Position sur le site du candidat","value":"abattement « qu'il juge difficile à justifier pour des personnes qui ne travaillent plus » (mise à jour du 16/10/2026)","source":"unenouvelleenergie.fr","url":"https://www.unenouvelleenergie.fr/questions/david-lisnard-est-il-favorable-a-la-retraite-par-capitalisation/"},
+    {"label":"Suppression de l'abattement (2027)","value":"+5,4 Md€ (5,0 d'impôt sur le revenu + 0,4 d'aides au logement)","source":"IPP, Note n° 129 (septembre 2026)","url":IPP129},
+    {"label":"Coût de l'abattement (120401)","value":"4 803 M€ (2024), 5 322 (2025), 4 665 (2026)","source":"Évaluation des voies et moyens, tome II, PLF 2026","url":"https://www.assemblee-nationale.fr/dyn/dyn/contenu/visualisation/1087933/file/Voies_et_moyens_Tome_2_2026.pdf"},
+    {"label":"Suppression selon la Cour des comptes","value":"+4,5 Md€ d'impôt (cité par l'OFCE)","source":"OFCE, P. Madec (9/01/2025)","url":OFCE_AB},
+    {"label":"Plafond à 3 000 € (PLF 2027, art. 3)","value":"+1,4 Md€ (2027), +1,8 (2028), +1,1 à partir de 2029","source":"PLF 2027, évaluations préalables","url":"https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128179/file/PLF%202027%20-%20Evaluations%20pr%C3%A9alables.pdf"},
+    {"label":"Article 3 du PLF 2027","value":"supprimé par l'Assemblée en première lecture le 15/10/2026 (116 voix contre 30)","source":"Assemblée nationale, scrutin n° 8738","url":"https://www.assemblee-nationale.fr/dyn/17/scrutins/8738"}],
+    note="Proposition citée entre guillemets par Capital (28/10/2026) ; absente des comptes rendus écrits d'Europe 1 et de CNEWS de l'émission du 27/10 ; position déjà exprimée sur Europe 1 le 23/04/2025 et reprise sur le site du candidat (16/10/2026). Le plafond à 3 000 € du PLF 2027 a été supprimé par l'Assemblée en première lecture : s'il était rétabli, la situation de départ changerait pour tous.")
+m=M('lisnard','abattement_pensions'); m['consensus']='concordant'
+m['estimates']=[{"source":"IPP, Note n° 129","year":2026,"value":"Suppression de l'abattement : +5,4 Md€ par an (impôt sur le revenu 5,0 ; aides au logement 0,4)","low_md":5.4,"high_md":5.4,"url":IPP129},
+                {"source":"Cour des comptes (citée par l'OFCE)","year":2025,"value":"Suppression de l'abattement : +4,5 Md€ d'impôt","low_md":4.5,"high_md":4.5,"url":OFCE_AB}]
+assert "non calculé ici" in C['lisnard']['sim']['retraites_actuels']
+# S067 : heures sup de Philippe (cotisation patronale supprimée au-delà de 37 h là où un accord allonge la durée du travail) : ni coût publié ni chiffrage
+# indépendant, assiette non publiée → non chiffrable (même règle que les mesures sans paramètre clé) ; les 2 Md€ comptés chiffraient une exonération
+# de CSG et de CRDS que le candidat ne propose pas. Le seuil de Retailleau reste compté (coût statique publié par le camp, ±50 %)
+A4_26="https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/PLFSS/2026/PLFSS2026-Annexe4-20251014-183718-59-11_avec%20couverture.pdf"
+m=M('philippe','heures_sup'); a0="plus aucune cotisation au-delà de 37 h"; assert a0 in m['proposal']
+SET('philippe','heures_sup',0,0,0,"Non chiffrable : paramètre non publié (heures au-delà de 37 h dans les entreprises qui signeraient un accord) ; repères officiels : exonération salariale existante 2,25 Md€ et déduction patronale forfaitaire 0,87 Md€ (2025, PLFSS 2026, annexe 4)",
+    method='ascendant',proposal=m['proposal'].replace(a0,"plus aucune cotisation patronale au-delà de 37 h"),inputs=[
+    {"label":"Mesure du candidat","value":"« zéro cotisation patronale au-delà de la 37ème heure »","source":"edouardphilippe.fr","url":"https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"},
+    {"label":"Exonération salariale des heures sup","value":"2 228 M€ (2024), 2 254 (2025), 2 306 (2026)","source":"PLFSS 2026, annexe 4","url":A4_26},
+    {"label":"Déduction patronale forfaitaire (moins de 250 salariés)","value":"865 M€ (2024), 868 (2025), 872 (2026)","source":"PLFSS 2026, annexe 4","url":A4_26},
+    {"label":"Exonération d'impôt des heures sup (120146)","value":"2 144 M€ (2024), 2 212 (2025), 2 250 (2026)","source":"Voies et moyens, tome II, PLF 2026","url":"https://www.assemblee-nationale.fr/dyn/dyn/contenu/visualisation/1087933/file/Voies_et_moyens_Tome_2_2026.pdf"}],
+    note="Aucun coût publié par le camp ni chiffrage indépendant ; les 2 Md€ cités jusqu'ici chiffraient une exonération de CSG et de CRDS, que le candidat ne propose pas. Le gain pour le salarié vient des heures en plus, l'exonération salariale existant déjà.")
+m['consensus']='isolé'
+for e in m['estimates']:
+    if e['source']=='Rapporteur PLFSS': e.update(value="Exonération de CSG et de CRDS sur les heures sup, que le candidat ne propose pas : ≈ 2 Md€",low_md=None,high_md=None)
+    elif e['source'].startswith('PLF 2018'): e.update(value="Désocialisation salariale de 2019, déjà en vigueur : 3,5 Md€",low_md=None,high_md=None)
+assert all(e['low_md'] is None for e in m['estimates'])
+_rp('retailleau','seuil_zero_cotisation','note',", comme les heures sup désocialisées de Philippe."," ; la mesure voisine de Philippe (37 h) n'a ni coût publié ni chiffrage indépendant : non chiffrable.")
+ot=C['philippe']['sim']['overtime']; assert ot['label']=="Heures sup sans impôt au-delà de 35 h et sans cotisation au-delà de 37 h"
+ot['label']="Heures sup sans impôt au-delà de 35 h et sans cotisation patronale au-delà de 37 h"
+# S069 (a) : une année d'âge de retraite = 5,8 Md€ en 2035 pour le système de retraites (Cour des comptes, février 2025, sans effets sur l'activité), ≈ 4 en 2030
+CC_RET="https://www.ccomptes.fr/sites/default/files/2025-03/20250220-Situation-financiere-et-perspectives-du-systeme-de%20retraites.pdf"
+LCP_RET="https://lcp.fr/actualites/retraites-pierre-moscovici-avertit-les-deputes-sur-un-deficit-du-systeme-qui-pourrait"
+m=M('attal','retraites'); k=m['claude']; assert k['central']==k['low']==k['high']==0
+for e in m['estimates']:
+    if e['url']==LCP_RET: e.update(source="Cour des comptes, situation financière du système de retraites (février 2025)",value="Repère : âge 64 → 63 ans = −5,8 Md€ en 2035 pour le système de retraites (≈ −4 en 2030)",url=CC_RET)
+k['inputs']=[{"label":"Âge 64 → 63 ans","value":"−5,8 Md€ en 2035 (système de retraites) ; −13,0 avec les autres recettes publiques","source":"Cour des comptes (février 2025), tableau 6","url":CC_RET}]+[i for i in k['inputs'] if i['url']!=LCP_RET]
+k['formula']="Hypothèse : départs avancés d'un an en moyenne ≈ coût d'un an d'âge en moins (Cour des comptes 2025 : 5,8 Md€ en 2035 pour le système de retraites, sans les effets sur l'activité ; ≈ 4 Md€ en 2030 d'après son graphique) ; bornes : retour à 62 ans (−11,8, valeur commune) et décote neutre (0)"
+k['note']="Fourchette indicative : de −11,8 (retour de fait à 62 ans) à 0 (décotes neutres) ; paramètres non publiés. Repère pour une année d'âge : 5,8 Md€ en 2035 pour le système de retraites, sans les effets sur l'activité (Cour des comptes, février 2025), ≈ 4 Md€ en 2030"
+assert LCP_RET not in json.dumps(D['candidates'])
+# S069 (b) : gain promis par Lisnard cité avec ses dates et sa source officielle (site du candidat, 16/10/2026) ; « Vie quotidienne » : voir life.py
+m=M('lisnard','cotisations'); assert '+200 € puis +400 €' in m['proposal']
+m['proposal']="Rendre 60 % des économies aux actifs par une baisse des cotisations (48 Md€ la première année, 120 Md€ à terme) : 250 à 400 € net par mois selon les interventions."
+sl=C['lisnard']['sim']; a0="Baisse des cotisations : jusqu'à +400 €/mois promis à terme pour un salaire moyen ; au-delà de la baisse de CSG, aucun paramètre publié : non calculé ici."; assert a0 in sl['tous']
+sl['tous']=[("Baisse des cotisations : 250 à 400 € net par mois promis selon les interventions ; au-delà de la baisse de CSG, aucun paramètre publié : non calculé ici." if t==a0 else t) for t in sl['tous']]
+# S069 (e) : fiche exclue du total (doublon) comme la fiche « Économies » : 0, « voir les postes » ; la promesse reste décrite, sans borne à −48
+SET('lisnard','cotisations',0,0,0,"Promesse du camp : 60 % de 80 Md€ = 48 Md€ dès la première année, puis 120 Md€ (60 % de 200). Seule la baisse de la CSG des actifs est paramétrée : chiffrée dans sa propre fiche (31,2 Md€ de CSG en moins, −29,2 sur le solde) ; le reste (≈ 17 Md€ la première année, ≈ 89 Md€ à terme) n'a pas de paramètre publié",
+    note="Non compté dans le total pour éviter un double compte (comme la fiche « Économies ») : chaque instrument publié est chiffré dans sa propre fiche. Le gain promis (250 à 400 € net par mois) suppose les 200 Md€ d'économies réalisés.")
+k=M('lisnard','cotisations')['claude']; assert k.get('exclude')
+k['inputs']=k['inputs']+[{"label":"Gain promis","value":"250 € pour 2 500 € (29/08/2026) ; près de 400 € (janvier 2026)","source":"unenouvelleenergie.fr (16/10/2026)","url":"https://www.unenouvelleenergie.fr/questions/le-programme-de-david-lisnard-est-il-chiffre/"}]
+# S069 (c) : service civique : 605 € = coût public mensuel (indemnité nette de l'État + tutorat), 620 € = montant versé au jeune ; barème officiel 2026
+# au lieu de Maire-info ; même calcul pour Glucksmann et Attal (les cotisations versées par l'État à la Sécurité sociale sont neutres pour le solde public)
+ASC26="https://www.service-civique.gouv.fr/api/media/assets/document/asc-indemnites-et-cotisations-01012026.pdf"
+SC_IN=[{"label":"Indemnité nette de l'État, tutorat, prestation de l'organisme","value":"504,98 € ; 100,00 € ; 114,85 €","source":"Agence du service civique, barème 2026","url":ASC26},
+       {"label":"Versé au jeune ; coût d'indemnisation pour l'État","value":"619,83 € ; 865 € (cotisations comprises)","source":"PAP 2027, programme 163","url":"https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128279/file/PAP%202027%20-%20Sport%20jeunesse%20et%20vie%20associative.pdf"}]
+for cid,mid in (('glucksmann','service_civique'),('attal','engagement_civique')):
+    k=M(cid,mid)['claude']; n0=len(k['inputs']); k['inputs']=SC_IN+[i for i in k['inputs'] if 'maire-info.com' not in i['url']]; assert len(k['inputs'])==n0+1
+M('glucksmann','service_civique')['claude']['formula']="790 000 jeunes × 10 mois × 605 € (indemnité nette de l'État 504,98 € + tutorat 100 €) ≈ −4,8 Md€ ; les cotisations sociales versées par l'État à la Sécurité sociale, comprises dans les 865 € du PAP 2027, sont neutres pour le solde public"
+k=M('attal','engagement_civique')['claude']; a0="790 000 jeunes × 1 mois × 605 € ≈ −0,5 Md€ (même calcul que le service de Glucksmann)"; assert k['formula'].startswith(a0) and "indemnité seule (505 €)" in k['formula']
+k['formula']=k['formula'].replace(a0,"790 000 jeunes × 1 mois × 605 € (indemnité nette de l'État 504,98 € + tutorat 100 €) ≈ −0,5 Md€ (même calcul que le service de Glucksmann ; cotisations versées par l'État à la Sécurité sociale neutres pour le solde public)").replace("indemnité seule (505 €)","indemnité seule (504,98 €)")
+for e in M('glucksmann','service_civique')['estimates']:
+    if 'maire-info.com' in e['url']: e.update(source="Calcul (barème 2026 de l'Agence du service civique + Insee)",url=ASC26)
+assert 'maire-info.com/jeunesse' not in json.dumps(D['candidates'])
+sg=C['glucksmann']['sim']; assert sg['service_jeunes']=="Service obligatoire de 10 mois : indemnité supposée égale à celle du service civique actuel"
+sg['service_jeunes']="Service obligatoire de 10 mois : indemnité supposée égale à celle du service civique actuel, soit ≈ 620 € par mois versés au jeune (504,98 € par l'État, 114,85 € par l'organisme d'accueil, barème 2026)"
+# S069 (d) : départs de la fonction publique : départs à la retraite (144 000 en 2025, DGAFP) et sorties toutes causes (≈ 500 000 par an) distingués chez tous
+m=M('lisnard','fonction'); assert m['proposal']=="Ne pas remplacer une grande part des ~500 000 départs/an ; supprimer agences, ARS et DREAL."
+m['proposal']="Ne pas remplacer une partie des ≈ 500 000 départs annuels de la fonction publique (toutes causes ; dont ≈ 144 000 départs à la retraite de fonctionnaires), en commençant par les fonctions administratives ; supprimer agences, ARS et DREAL."
+k=m['claude']; i0=[n for n,i in enumerate(k['inputs']) if i['label']=="Départs à la retraite fonction publique 2024"]; assert len(i0)==1
+k['inputs'][i0[0]:i0[0]+1]=[{"label":"Départs à la retraite fonction publique 2025","value":"144 000","source":"DGAFP","url":"https://www.fonction-publique.gouv.fr/toutes-les-publications/les-departs-la-retraite-dans-la-fonction-publique-en-2025"},
+                            {"label":"Sorties de la fonction publique civile 2024","value":"481 600 (dont 54 % de contractuels)","source":"DGAFP","url":"https://www.fonction-publique.gouv.fr/toutes-les-publications/les-personnels-entrant-et-sortant-de-la-fonction-publique-en-2024-0"}]
+assert k['note']=="Indicatif : 1 départ sur 3 non remplacé ≈ +4,9 Md€, agences ≈ +1 ; proportion non publiée"
+k['note']="Indicatif : 1 départ à la retraite sur 3 non remplacé (144 000 par an, DGAFP 2025) ≈ +5,2 Md€, agences ≈ +1 ; proportion non publiée"
+assert 'grande partie des ~500 000' in C['lisnard']['sim']['fonctionnaires']
+C['lisnard']['sim']['fonctionnaires']="Une partie des ≈ 500 000 départs annuels (toutes causes) non remplacés ; ARS et DREAL supprimées."
+m=M('zemmour','fonctionnaires'); assert m['obstacle']=="≈720 000 départs à la retraite en 5 ans au total, dont une grande part dans les secteurs épargnés : objectif hors d'atteinte par la seule voie annoncée."
+m['obstacle']="≈ 720 000 départs à la retraite en 5 ans (144 000 par an, DGAFP 2025) ; ≈ 2,4 millions de sorties toutes causes, dont une grande part dans les secteurs épargnés : objectif hors d'atteinte par les seuls départs à la retraite."
+# S027 : copie d'agence remplacée par le rapport du Sénat (n° 807, 2025) ; les autres originaux (Cour des comptes, HCC, RTE) sont dans life.py
+MED24="https://medias24.com/agence-presse/une-commission-parlementaire-deplore-labsence-de-vision-de-letat-sur-le-cout-des-agences/"
+e=next(e for e in M('retailleau','etat')['estimates'] if e['url']==MED24)
+e.update(source="Sénat, commission d'enquête sur les agences (rapport n° 807, 2025)",value="Fonctions support des opérateurs réduites de 20 % : économie « de l'ordre de 540 millions d'euros »",url="https://www.senat.fr/rap/r24-807-1/r24-807-1-syn.pdf")
+assert 'medias24' not in json.dumps(D['candidates'])
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
