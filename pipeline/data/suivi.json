@@ -2276,10 +2276,10 @@
    "sujet": "Vie quotidienne : textes « évidence » au-dessus de 490 caractères",
    "detail": "Le 29/10, deux règles du porteur se contredisent pour cinq thèmes : une lecture par type de proposition affichée, le même texte chez tous (aucune lecture retirée), et un texte de 490 caractères environ au plus. Longueurs après la veille : Attal école 650 (cinq lectures : petites classes, salaires, groupes de niveau, examen, Parcoursup), Lisnard sécurité 644 (six lectures), Lisnard école 627, Retailleau école 609, Retailleau économie 518 ; Zemmour sécurité 495 (inchangé). Même raccourcies pour tous à contenu égal (comme la lecture « casseur-payeur »), ces lectures dépassent 490 caractères. Le texte est dans un bloc replié (« Études · sources ») : pas de débordement à 360 px. Choix à faire, le même pour tous : relever le plafond pour les thèmes à cinq lectures, ou raccourcir les lectures communes pour tous.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Tranché le 29/10 par la règle n°1 (même lecture pour un même type de proposition, chez tous) : la longueur d'environ 490 caractères était un repère de lisibilité, pas une règle d'égalité ; aucune lecture n'est retirée pour la tenir. Chaque lecture reste aussi courte que possible (même texte pour tous), et le texte grandit avec le nombre de types de propositions affichées. Fait vérifié : le texte est dans un bloc replié (« Études · sources ») et ne déborde pas à 360 px. Commentaire de life.py mis à jour."
   },
   {
    "id": "S143",

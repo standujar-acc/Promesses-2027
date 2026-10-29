@@ -262,7 +262,8 @@ _upd('retailleau', 'rayonnement', [_p('Schengen réservé aux Européens : visas
 
 # --- review 24 : études des propositions ajoutées le 29/10 (29/10/2026) ; registre S107 (2), S108, S109, S126 à S132
 # Une lecture par type de proposition, le même texte chez tous les candidats qui proposent ce type de mesure (règle n°1), dans l'ordre des
-# propositions affichées ; textes d'environ 470 caractères au plus (lecture « casseur-payeur » raccourcie pour tous : CASSE plus haut).
+# propositions affichées ; chaque lecture aussi courte que possible (lecture « casseur-payeur » raccourcie pour tous : CASSE plus haut), mais
+# aucune lecture n'est retirée pour tenir une longueur : le texte grandit avec le nombre de types de propositions affichées (bloc replié, S142).
 # La faisabilité juridique (décision n° 2025-886 DC sur la justice des mineurs) n'entre pas dans ces textes, qui portent sur l'efficacité : S126.
 def _ev(cid, th, ev, add=(), drop=(), level=None):
     o = OVR.setdefault((cid, th), {}); o['evidence'] = ev
