@@ -342,7 +342,7 @@
 "Plus d'objectif national pour réduire puis stopper la construction sur les terres agricoles et naturelles.",
 "Supprimer l'objectif zéro artificialisation nette (ZAN)"
 ],
-"melenchon.ecole.2": [
+"melenchon.ecole.3": [
 "Garder les écoles à classe unique et limiter le trajet scolaire à 15 minutes",
 "Les petites écoles de village restent ouvertes ; plus d'écoles et de collèges ruraux pour des trajets courts.",
 "Transport scolaire limité à 15 minutes, écoles à classe unique maintenues"
@@ -614,5 +614,30 @@
 "zemmour.rsa3": [
 "Limiter le RSA à trois ans pour les personnes capables de travailler",
 "Au bout de trois ans, un allocataire apte au travail ne toucherait plus le RSA."
+],
+"melenchon.ecole.1": [
+"Supprimer Parcoursup et MonMaster, les plateformes d'admission après le bac et en master",
+"Les formations ne classent plus les candidats ; l'université ouvre des places pour accueillir ceux qui la demandent.",
+"Supprimer Parcoursup et MonMaster"
+],
+"glucksmann.ecole.3": [
+"Abroger Parcoursup, la plateforme d'admission dans l'enseignement supérieur",
+"Les formations ne classent plus les candidats sur Parcoursup ; le système qui le remplace n'est pas précisé.",
+"Abroger Parcoursup"
+],
+"retailleau.ecole.1": [
+"Sélectionner les étudiants à l'entrée de l'université, avec une nouvelle plateforme fondée sur le mérite",
+"Parcoursup est remplacé ; chaque licence choisit ses étudiants d'après leurs résultats scolaires.",
+"Sélection à l'entrée de l'université et nouvelle plateforme d'admission au mérite à la place de Parcoursup"
+],
+"retailleau.ecole.5": [
+"Créer des internats disciplinaires pour les élèves exclus à plusieurs reprises",
+"Au moins un par académie ; le rectorat y affecte l'élève, qui retourne en classe ordinaire selon son comportement et ses acquis.",
+"Au moins un internat disciplinaire par académie, affectation décidée par le rectorat après des exclusions répétées"
+],
+"lisnard.ecole.1": [
+"Créer un chèque-éducation valable dans le public comme dans le privé, et recruter les nouveaux enseignants sous contrat",
+"L'école choisie par la famille reçoit le même argent public, publique ou privée ; les nouveaux professeurs ne sont plus fonctionnaires.",
+"Chèque-éducation progressif (même financement public, école publique ou privée) ; nouveaux enseignants recrutés comme contractuels"
 ]
 }

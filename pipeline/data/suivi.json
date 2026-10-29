@@ -1645,7 +1645,7 @@
    "statut": "ouvert",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "En partie le 29/10 : point (2) réglé. Note LFI du 14/10 (PDF officiel, p. 9) : « Notre objectif, en un mandat, serait de nous rapprocher de la moyenne européenne (dans le primaire et le secondaire) de 19 élèves par classe […] le secondaire public est prioritaire ». La proposition devient « Se rapprocher en un mandat de 19 élèves par classe (moyenne européenne), priorité au secondaire public », précise et de 2026 (source : la note) ; règle d'ordre : elle passe devant le transport scolaire (plan ruralités, 9/10) et après la suppression de Parcoursup, de la même date (même note), qui garde sa place. Clé du quiz melenchon.ecole.2 → melenchon.ecole.3 (texte publié identique) ; entrée au quiz : S132. Lecture des petites classes (DEPP) inchangée. Restent les points (1), (3), (4) et (5)."
   },
   {
    "id": "S108",
@@ -1664,10 +1664,10 @@
    "sujet": "Vie quotidienne : études à chercher pour les propositions ajoutées le 29/10",
    "detail": "Aucune étude vérifiée n'est encore citée pour : justice des mineurs (majorité pénale, excuse de minorité, comparution immédiate : Attal, Lisnard, Retailleau), internats ou établissements disciplinaires (Retailleau, Lisnard), déchéance de nationalité (Retailleau, Zemmour ; l'étude Miles et Cox sur les expulsions vaut-elle pour le « départ » chez Zemmour ? même lecture pour les deux), reconnaissance faciale (Attal), fichier et pointage des casseurs (Lisnard), règle d'or (Le Pen, Philippe), Parcoursup (Mélenchon, Glucksmann, Retailleau), chèque-éducation (Lisnard), code du travail réduit à des principes et contrat unique (Attal, Retailleau, Lisnard), stabilité fiscale (Attal, Lisnard), droits de douane ciblés (Attal), Schengen (Retailleau), droit à la sécurité dans la Constitution et cour disciplinaire de la magistrature (Retailleau), vote à 16 ans (Mélenchon), SEQE 2 (Zemmour), aides au véhicule électrique d'occasion (Philippe ; Attal pour le leasing), dissolution d'organisations et voile à l'université (Lisnard). Même lecture pour un même type ; évidence courte (environ 450 caractères au plus).",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 (études vérifiées ; review 24 de life.py) : une lecture par type de proposition, le même texte chez tous les candidats concernés. Justice des mineurs (Attal, Lisnard, Retailleau) : mineurs jugés comme des adultes, récidive +34 % (CDC, 2007) ; la lecture du bracelet (courtes peines des adultes) reste chez Philippe et sort de la sécurité de Retailleau, dont la proposition porte sur les mineurs. Centres éducatifs fermés (Lisnard) : au moins 41 % des jeunes de nouveau poursuivis dans l'année (DPJJ, 2024), efficacité non évaluée (Cour des comptes, 2023). Internats disciplinaires (Retailleau) : établissements de réinsertion scolaire de 2010, résultats souvent décevants, abandonnés. Déchéance de nationalité (Retailleau, Zemmour) : pas d'étude ; Miles et Cox vaut pour le « départ » et les expulsions de Zemmour, pas pour la déchéance. Reconnaissance faciale (Attal), cagoule et pointage (Lisnard), règle d'or (Le Pen, Philippe ; mêmes études que le quiz attal.regle_or), Parcoursup (Mélenchon, Glucksmann, Retailleau ; Cour des comptes, 2020), chèque-éducation (Lisnard ; pas pour la « concurrence entre public et privé » de Zemmour, intention sans mécanisme, décision du porteur), code du travail (Attal, Retailleau), contrat unique (Lisnard), stabilité fiscale (Attal, Lisnard), droits de douane (Attal ; mêmes études que le quiz glucksmann.industrie), Schengen (Retailleau), droit à la sécurité (Retailleau), discipline des magistrats (Retailleau, Philippe), vote à 16 ans (Mélenchon), SEQE 2 (Zemmour), aides aux voitures électriques des ménages modestes (Philippe, Attal, Glucksmann), voile et dissolutions (Lisnard). Même texte aussi pour une même étude déjà citée sous plusieurs formes : impôts de production (Le Pen, Philippe, Retailleau, Lisnard, Zemmour), heures sup TEPA (Philippe, Retailleau), IA (Attal, Zemmour), RTE et Cour des comptes sur les EPR (Le Pen, Retailleau, Zemmour), référendum en Suisse (Attal, Retailleau, Lisnard) et seuil du RIP (Retailleau, Lisnard), Banque de Finlande (Lisnard, Zemmour), police de proximité (Mélenchon, Glucksmann). Niveaux : rayonnement d'Attal et environnement de Philippe passent de « pas d'étude » à « mitigée » (une proposition du thème a désormais des études). Longueur (décision du porteur) : lecture « casseur-payeur » raccourcie pour tous, même contenu (145 caractères au lieu de 193) ; lectures propres à un candidat raccourcies sans changer leur contenu, aucune retirée (« effet quasi nul » du redoublement, Cnesco : « proche de zéro » ; évitement du privé « dans l'un » des secteurs parisiens ; « effet global faible » de la carte scolaire, gardés) ; textes de 489 caractères au plus (sécurité et école de Lisnard, cinq et quatre lectures), 475 pour l'école de Glucksmann, 470 ou moins ailleurs. Attal, économie : la Cour des comptes sur les EPR reste en « environnement » (S117), sa source sort de l'économie. Décision n° 2025-886 DC : S126. Sources lues par une reprise ou par leur résumé : S127, S128, S130, S131 ; étude du Connecticut : S129."
   },
   {
    "id": "S109",
@@ -1682,10 +1682,10 @@
    "sujet": "Quiz : propositions « école » ajoutées le 29/10",
    "detail": "Précises et reconfirmées, donc à ajouter au quiz (texte courant, constat, Pour et Contre sourcés, mêmes études pour un même type) : melenchon.ecole.1 (Supprimer Parcoursup et MonMaster), glucksmann.ecole.3 (Abroger Parcoursup), retailleau.ecole.1 (sélection à l'université à la place de Parcoursup), retailleau.ecole.5 (internats disciplinaires), lisnard.ecole.1 (chèque-éducation et enseignants contractuels). Clés recalées le 29/10 sur les positions affichées (texte publié identique) : retailleau.ecole.1 → .2 (examen d'entrée en sixième), .2 → .3 (fin du passage automatique), .3 → .4 (1 000 établissements, toujours au quiz) ; lisnard.ecole.1 → .2 (certificat de fin de primaire), .3 → .4 (carte scolaire).",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 : quiz_plain et quiz_effets pour melenchon.ecole.1, glucksmann.ecole.3, retailleau.ecole.1 (même constat, mêmes cas, mêmes niveaux pour les trois ; complément « places à l'université » pour Mélenchon : mesure melenchon.universites), retailleau.ecole.5 (internats disciplinaires) et lisnard.ecole.1 (chèque-éducation ; cas suédois de ségrégation repris de lisnard.ecole.4). Internats disciplinaires (décision du porteur) : cas américain des exclusions (Caroline du Nord) retiré, autre type de mesure ; « Contre » : le seul cas des établissements de 2010, preuve « faible » ; « Pour » : effet d'un camarade perturbateur sur les autres élèves, le même quelle que soit la mesure qui l'éloigne de la classe, gardé. Clé melenchon.ecole.2 devenue melenchon.ecole.3 (S107). Validés par quiz_fx et par les contrôles de build.py (texte publié identique, proposition précise et reconfirmée, complément du même candidat)."
   },
   {
    "id": "S110",
@@ -1791,7 +1791,7 @@
    ],
    "mesure": null,
    "sujet": "Pistes relevées le 29/10, non intégrées",
-   "detail": "Philippe : propositions du site sans preuve d'importance (portable interdit en primaire et au collège, sanction pénale des maires, « état d'urgence narco », « fiche S financière », excuse de minorité levée pour le narcotrafic, imprescriptibilité des crimes sur mineurs, inspection nationale de l'enfance, moratoire normatif et fiscal, uniforme au choix des chefs d'établissement). Retailleau : règle d'or par référendum (résultat de recherche, non ouvert). Zemmour : effet budgétaire de l'abrogation du SEQE 2 (recettes des enchères dès 2028, Fonds social pour le climat) à chercher ; plan en quatre points du 19/10 lu seulement sur presseagence.fr (non retenu). Lisnard : « les parents doivent payer » (Le Point, 23/10, sans citation). Attal (réforme de Parcoursup, 15/10) et Lisnard (orientation à la place de Parcoursup, 15/10) : même type que Mélenchon, Glucksmann et Retailleau, à vérifier à la source. Affichées le 29/10 avec le plafond de 5 : aides au véhicule électrique d'occasion (Philippe), droit à la sécurité dans la Constitution, cour disciplinaire de la magistrature et internats disciplinaires (Retailleau) ; hors affichage : S106.",
+   "detail": "Philippe : propositions du site sans preuve d'importance (portable interdit en primaire et au collège, sanction pénale des maires, « état d'urgence narco », « fiche S financière », excuse de minorité levée pour le narcotrafic, imprescriptibilité des crimes sur mineurs, inspection nationale de l'enfance, moratoire normatif et fiscal, uniforme au choix des chefs d'établissement). Retailleau : règle d'or par référendum (résultat de recherche, non ouvert). Zemmour : effet budgétaire de l'abrogation du SEQE 2 (recettes des enchères dès 2028, Fonds social pour le climat) à chercher ; plan en quatre points du 19/10 lu seulement sur presseagence.fr (non retenu). Lisnard : « les parents doivent payer » (Le Point, 23/10, sans citation). Attal (réforme de Parcoursup, 15/10) et Lisnard (orientation à la place de Parcoursup, 15/10) : même type que Mélenchon, Glucksmann et Retailleau, à vérifier à la source. Affichées le 29/10 avec le plafond de 5 : aides au véhicule électrique d'occasion (Philippe), droit à la sécurité dans la Constitution, cour disciplinaire de la magistrature et internats disciplinaires (Retailleau) ; hors affichage : S106. Revue du 29/10 (études) : si la réforme de Parcoursup d'Attal ou l'orientation à la place de Parcoursup de Lisnard sont vérifiées et ajoutées, même lecture « Parcoursup » et mêmes cas du quiz que Mélenchon, Glucksmann et Retailleau ; si la règle d'or de Retailleau est vérifiée, même lecture que Le Pen et Philippe.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-29",
@@ -1941,6 +1941,135 @@
    "mesure": "cee",
    "sujet": "Simulateur : fin des certificats d'économies d'énergie",
    "detail": "Mesure comptée chez Retailleau et Zemmour depuis le 29/10 ; son effet sur les factures n'est pas appliqué au simulateur, faute de chiffre officiel par litre ou par kWh (Ufip : 15 à 17 c€ par litre de carburant en 2026, chiffre professionnel ; Retailleau : « jusqu'à 17 centimes par litre »). Si un chiffre officiel est trouvé : même hypothèse pour les deux ; sinon, en note pour les deux.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S126",
+   "type": "a_trancher",
+   "candidats": [
+    "attal",
+    "lisnard",
+    "retailleau"
+   ],
+   "mesure": "life:securite",
+   "sujet": "Justice des mineurs : décision n° 2025-886 DC du Conseil constitutionnel, à mentionner dans les obstacles ?",
+   "detail": "Le Conseil constitutionnel (19/06/2025, loi « visant à renforcer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents ») a censuré la comparution immédiate des mineurs d'au moins 16 ans (article 4) et la règle qui écartait l'atténuation de la peine pour certains mineurs de plus de 16 ans, notamment récidivistes (article 7), au nom du principe fondamental reconnu par les lois de la République en matière de justice des mineurs (atténuation de la responsabilité selon l'âge, relèvement éducatif). Cela vaut pour la proposition d'Attal (mêmes dispositions) et, par le même principe, pour celles de Lisnard (majorité pénale à 16 ans, excuse de minorité de 50 % à 20 %) et de Retailleau (majorité pénale à 15 ans). Décision du porteur (29/10) : c'est de la faisabilité, pas de l'efficacité, donc rien dans les textes d'évidence. À trancher : mention dans les obstacles (fiche ou résumé), la même pour les trois, par exemple « Atténuation de la peine selon l'âge : principe constitutionnel (Conseil constitutionnel, 2025) », et lecture de la faisabilité (révision de la Constitution nécessaire ?) avec la même règle que les autres mesures. Source ouverte le 29/10 : https://www.conseil-constitutionnel.fr/decision/2025/2025886DC.htm",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S127",
+   "type": "a_verifier",
+   "candidats": [
+    "retailleau",
+    "lisnard",
+    "attal"
+   ],
+   "mesure": [
+    "life:ecole",
+    "life:securite",
+    "life:economie",
+    "life:libertes"
+   ],
+   "sujet": "Vie quotidienne : sources primaires lues par une reprise officielle",
+   "detail": "Textes du 29/10 fondés sur une source officielle qui cite l'original, non ouvert. (1) Rapport des inspections générales (IGEN-IGAENR) de juin 2012 sur les établissements de réinsertion scolaire (Retailleau, école ; quiz retailleau.ecole.5) : education.gouv.fr renvoie 403 le 29/10 ; lu dans la réponse ministérielle publiée au JO du 23/02/2016 (question écrite n° 85814) : 16 établissements, « une mise en place précipitée a donné lieu à des résultats le plus souvent décevants », dispositif abandonné. (2) Cour des comptes, « Les centres éducatifs fermés et les établissements pénitentiaires pour mineurs » (octobre 2023), et étude DPJJ « Que deviennent les jeunes après un placement en CEF ? » (septembre 2024) (Lisnard, sécurité) : lus dans le rapport d'information n° 1566 de l'Assemblée nationale (11/06/2025) : efficacité impossible à évaluer faute de données ; 113 jeunes du panel (41 %) de nouveau poursuivis dans l'année, information manquante pour 33 % (d'où « au moins 41 % »). (3) France Stratégie, rapport 2021 du comité d'évaluation des ordonnances travail (Attal, Retailleau, économie) : PDF introuvable depuis la migration vers strategie-plan.gouv.fr ; lu via Le Monde du Droit, qui reprend son introduction, et recoupé par l'appel à projets de France Stratégie (PDF officiel) ; rapport final attendu en 2023, non trouvé. (4) Article L. 111-1 du code de la sécurité intérieure (Retailleau, libertés) : Légifrance non ouvert ; texte attesté par le commentaire officiel de la décision n° 2020-889 QPC. Ouvrir les originaux et remplacer les sources ; si un chiffre diffère, même correction chez tous les candidats qui ont la lecture.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S128",
+   "type": "a_verifier",
+   "candidats": [
+    "lisnard",
+    "retailleau",
+    "attal",
+    "le-pen",
+    "philippe",
+    "zemmour",
+    "glucksmann"
+   ],
+   "mesure": [
+    "life:ecole",
+    "life:libertes",
+    "life:economie",
+    "life:environnement"
+   ],
+   "sujet": "Études citées d'après leur résumé (texte intégral non lu)",
+   "detail": "Chiffres repris du seul résumé (29/10) : Böhlmark et Lindahl (Suède, pas de taille d'effet dans le résumé) et Hsieh et Urquiola (version NBER de 2003, version publiée en 2006 non ouverte) : Lisnard, école, et quiz lisnard.ecole.1 ; Abdulkadiroglu, Pathak et Walters (idem) ; Carrell, Hoekstra et Kuka (quiz retailleau.ecole.5) ; Abdelgadir et Fouka, via RePEc (Lisnard, libertés) ; Sestito et Viviano (Lisnard, économie) ; Baker, Bloom et Davis (Attal, Lisnard, économie) ; Heinemann et al. (Le Pen, Philippe, économie) ; Andersson (Zemmour, environnement) ; Muehlegger et Rapson (Philippe, Attal, Glucksmann, environnement). Lire le texte intégral ; si un chiffre change, même correction partout où l'étude est citée.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S129",
+   "type": "a_verifier",
+   "candidats": [
+    "attal",
+    "lisnard",
+    "retailleau"
+   ],
+   "mesure": "life:securite",
+   "sujet": "Justice des mineurs : étude du Connecticut à lire à la source",
+   "detail": "Loeffler et Chalfin (2017) : relèvement de l'âge de la majorité pénale au Connecticut sans hausse de la délinquance. Lu le 29/10 seulement via un blog de la faculté de droit de Marquette (le catalogue Krimdok exige une vérification de navigateur) : non utilisé. Si l'article est vérifié, l'ajouter à la lecture commune « justice des mineurs » (constante MIN de life.py), la même pour Attal, Lisnard et Retailleau, dans la limite de longueur des textes.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S130",
+   "type": "source_faible",
+   "candidats": [
+    "glucksmann",
+    "attal",
+    "philippe"
+   ],
+   "mesure": "life:environnement",
+   "sujet": "Leasing social 2024 : 47 000 ménages, bilan officiel à trouver",
+   "detail": "Lecture commune des aides aux voitures électriques des ménages modestes (constante VE de life.py) : « Leasing social 2024 : 47 000 ménages aidés, sans bilan CO₂ publié ». Source : Connaissance des énergies (site d'information, mise à jour du 14/10/2025, rouverte le 29/10 : « 47 000 ménages ont été accompagnés par le dispositif ») ; le bilan de la DGEC cité par l'article n'a pas été ouvert. Le remplacer par le bilan officiel chez les trois candidats.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S131",
+   "type": "a_verifier",
+   "candidats": [
+    "zemmour"
+   ],
+   "mesure": "life:environnement",
+   "sujet": "SEQE 2 : hausse des carburants estimée pour une entrée en vigueur en 2027",
+   "detail": "Lecture du marché carbone des carburants (Zemmour, environnement) : « +10 à 15 c€ par litre » selon l'Institut Montaigne (octobre 2025), « toutes choses égales par ailleurs », pour une entrée en vigueur en 2027 ; le report à 2028 n'est pas vérifié à une source officielle (texte européen ou Commission). Vérifier la date et, si l'estimation en dépend, mettre le texte à jour.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S132",
+   "type": "a_ajouter",
+   "candidats": [
+    "melenchon"
+   ],
+   "mesure": "life:ecole",
+   "sujet": "Quiz : 19 élèves par classe (Mélenchon), précise et reconfirmée depuis le 29/10",
+   "detail": "melenchon.ecole.2 (« Se rapprocher en un mandat de 19 élèves par classe (moyenne européenne), priorité au secondaire public », note du 14/10) est précise et de 2026 depuis le 29/10 (S107) : à ajouter au quiz avec les mêmes études et les mêmes cas que attal.ecole.1 (moins de 20 élèves par classe en primaire) ; constat à revoir, la note mettant le secondaire public en priorité (chiffre officiel de la DEPP sur les classes du second degré à trouver).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-29",

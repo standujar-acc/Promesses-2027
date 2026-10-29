@@ -5045,7 +5045,7 @@
 }
 ]
 },
-"melenchon.ecole.2": {
+"melenchon.ecole.3": {
 "constat": "Écoles publiques : −8 % de 2016 à 2025 ; 3 300 n'ont qu'une classe (DEPP).",
 "constat_s": [
 3
@@ -8575,6 +8575,368 @@
 "l": "Cour des comptes, Le revenu de solidarité active, évaluation de politique publique",
 "a": 2022,
 "u": "https://www.vie-publique.fr/files/rapport/pdf/283258.pdf"
+}
+]
+},
+"melenchon.ecole.1": {
+"constat": "Néo-bacheliers : 93,5 % avec une proposition Parcoursup en 2025 (94,5 % en 2024) ; 49,1 % passent en 2e année de licence (SIES).",
+"constat_s": [
+1,
+2
+],
+"pour": "Les classements restent opaques : jusqu'à une licence très demandée sur cinq tient compte du lycée d'origine.",
+"preuve_pour": "mitigé",
+"contre": "Les moins préparés réussissent peu à l'université : 6,5 % des bacheliers pro y obtiennent leur licence.",
+"preuve_contre": "mitigé",
+"complement": "Le même programme prévoit aussi de créer un grand nombre de places à l'université.",
+"complement_ref": [
+"melenchon.universites"
+],
+"cas_pour": [
+{
+"t": "Jusqu'à 20 % des commissions des licences les plus demandées ont tenu compte du lycée d'origine des candidats en 2019 (Cour des comptes, France, 2020).",
+"s": [
+0
+]
+},
+{
+"t": "Les quotas de boursiers et de bacheliers technologiques ou professionnels n'ont eu que de faibles effets (Cour des comptes, France, 2020).",
+"s": [
+0
+]
+},
+{
+"t": "Les élèves admis de justesse dans une grande université publique ont gagné 22 % de plus, 8 à 14 ans après le lycée, surtout les plus modestes (Zimmerman, Floride, 2014).",
+"s": [
+3
+]
+}
+],
+"cas_contre": [
+{
+"t": "Avant Parcoursup, les licences plus demandées que leurs places départageaient les candidats, en dernier recours, par tirage au sort (Cour des comptes, France, 2020).",
+"s": [
+0
+]
+},
+{
+"t": "Parmi les bacheliers 2020 inscrits en licence, 40,3 % l'ont obtenue en 3 ou 4 ans : 14 % des bacheliers technologiques, 6,5 % des professionnels (SIES, France, 2025).",
+"s": [
+2
+]
+},
+{
+"t": "Admis de justesse à l'université en 1982, des candidats ont étudié un peu plus longtemps, sans gain de salaire mesurable ensuite (Öckert, Suède, 2010).",
+"s": [
+4
+]
+}
+],
+"etudes": "Aucune évaluation directe d'une suppression de Parcoursup ni d'une sélection généralisée. La Cour des comptes (2020) note la fin du tirage au sort mais des critères peu transparents ; être admis de justesse aide selon une étude (Floride), pas selon une autre (Suède).",
+"src": [
+{
+"l": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
+"a": 2020,
+"u": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
+},
+{
+"l": "SIES, Note Flash n° 28, Parcoursup 2025 : les propositions d'admission dans l'enseignement supérieur",
+"a": 2025,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-28-38282.pdf"
+},
+{
+"l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
+"a": 2025,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-29-38293.pdf"
+},
+{
+"l": "Zimmerman, The Returns to College Admission for Academically Marginal Students (Journal of Labor Economics)",
+"a": 2014,
+"u": "https://ideas.repec.org/a/ucp/jlabec/doi10.1086-676661.html"
+},
+{
+"l": "Öckert, What's the value of an acceptance letter? Using admissions data to estimate the return to college (Economics of Education Review)",
+"a": 2010,
+"u": "https://ideas.repec.org/a/eee/ecoedu/v29y2010i4p504-516.html"
+}
+]
+},
+"glucksmann.ecole.3": {
+"constat": "Néo-bacheliers : 93,5 % avec une proposition Parcoursup en 2025 (94,5 % en 2024) ; 49,1 % passent en 2e année de licence (SIES).",
+"constat_s": [
+1,
+2
+],
+"pour": "Les classements restent opaques : jusqu'à une licence très demandée sur cinq tient compte du lycée d'origine.",
+"preuve_pour": "mitigé",
+"contre": "Sans classement, les licences pleines tiraient au sort, et les moins préparés y réussissent peu.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Jusqu'à 20 % des commissions des licences les plus demandées ont tenu compte du lycée d'origine des candidats en 2019 (Cour des comptes, France, 2020).",
+"s": [
+0
+]
+},
+{
+"t": "Les quotas de boursiers et de bacheliers technologiques ou professionnels n'ont eu que de faibles effets (Cour des comptes, France, 2020).",
+"s": [
+0
+]
+},
+{
+"t": "Les élèves admis de justesse dans une grande université publique ont gagné 22 % de plus, 8 à 14 ans après le lycée, surtout les plus modestes (Zimmerman, Floride, 2014).",
+"s": [
+3
+]
+}
+],
+"cas_contre": [
+{
+"t": "Avant Parcoursup, les licences plus demandées que leurs places départageaient les candidats, en dernier recours, par tirage au sort (Cour des comptes, France, 2020).",
+"s": [
+0
+]
+},
+{
+"t": "Parmi les bacheliers 2020 inscrits en licence, 40,3 % l'ont obtenue en 3 ou 4 ans : 14 % des bacheliers technologiques, 6,5 % des professionnels (SIES, France, 2025).",
+"s": [
+2
+]
+},
+{
+"t": "Admis de justesse à l'université en 1982, des candidats ont étudié un peu plus longtemps, sans gain de salaire mesurable ensuite (Öckert, Suède, 2010).",
+"s": [
+4
+]
+}
+],
+"etudes": "Aucune évaluation directe d'une suppression de Parcoursup ni d'une sélection généralisée. La Cour des comptes (2020) note la fin du tirage au sort mais des critères peu transparents ; être admis de justesse aide selon une étude (Floride), pas selon une autre (Suède).",
+"src": [
+{
+"l": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
+"a": 2020,
+"u": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
+},
+{
+"l": "SIES, Note Flash n° 28, Parcoursup 2025 : les propositions d'admission dans l'enseignement supérieur",
+"a": 2025,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-28-38282.pdf"
+},
+{
+"l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
+"a": 2025,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-29-38293.pdf"
+},
+{
+"l": "Zimmerman, The Returns to College Admission for Academically Marginal Students (Journal of Labor Economics)",
+"a": 2014,
+"u": "https://ideas.repec.org/a/ucp/jlabec/doi10.1086-676661.html"
+},
+{
+"l": "Öckert, What's the value of an acceptance letter? Using admissions data to estimate the return to college (Economics of Education Review)",
+"a": 2010,
+"u": "https://ideas.repec.org/a/eee/ecoedu/v29y2010i4p504-516.html"
+}
+]
+},
+"retailleau.ecole.1": {
+"constat": "Néo-bacheliers : 93,5 % avec une proposition Parcoursup en 2025 (94,5 % en 2024) ; 49,1 % passent en 2e année de licence (SIES).",
+"constat_s": [
+1,
+2
+],
+"pour": "Les moins préparés réussissent peu à l'université : 6,5 % des bacheliers pro y obtiennent leur licence.",
+"preuve_pour": "mitigé",
+"contre": "Être admis de justesse à l'université a accru les salaires de 22 %, surtout chez les plus modestes.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Avant Parcoursup, les licences plus demandées que leurs places départageaient les candidats, en dernier recours, par tirage au sort (Cour des comptes, France, 2020).",
+"s": [
+0
+]
+},
+{
+"t": "Parmi les bacheliers 2020 inscrits en licence, 40,3 % l'ont obtenue en 3 ou 4 ans : 14 % des bacheliers technologiques, 6,5 % des professionnels (SIES, France, 2025).",
+"s": [
+2
+]
+},
+{
+"t": "Admis de justesse à l'université en 1982, des candidats ont étudié un peu plus longtemps, sans gain de salaire mesurable ensuite (Öckert, Suède, 2010).",
+"s": [
+4
+]
+}
+],
+"cas_contre": [
+{
+"t": "Jusqu'à 20 % des commissions des licences les plus demandées ont tenu compte du lycée d'origine des candidats en 2019 (Cour des comptes, France, 2020).",
+"s": [
+0
+]
+},
+{
+"t": "Les quotas de boursiers et de bacheliers technologiques ou professionnels n'ont eu que de faibles effets (Cour des comptes, France, 2020).",
+"s": [
+0
+]
+},
+{
+"t": "Les élèves admis de justesse dans une grande université publique ont gagné 22 % de plus, 8 à 14 ans après le lycée, surtout les plus modestes (Zimmerman, Floride, 2014).",
+"s": [
+3
+]
+}
+],
+"etudes": "Aucune évaluation directe d'une suppression de Parcoursup ni d'une sélection généralisée. La Cour des comptes (2020) note la fin du tirage au sort mais des critères peu transparents ; être admis de justesse aide selon une étude (Floride), pas selon une autre (Suède).",
+"src": [
+{
+"l": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
+"a": 2020,
+"u": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
+},
+{
+"l": "SIES, Note Flash n° 28, Parcoursup 2025 : les propositions d'admission dans l'enseignement supérieur",
+"a": 2025,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-28-38282.pdf"
+},
+{
+"l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
+"a": 2025,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-29-38293.pdf"
+},
+{
+"l": "Zimmerman, The Returns to College Admission for Academically Marginal Students (Journal of Labor Economics)",
+"a": 2014,
+"u": "https://ideas.repec.org/a/ucp/jlabec/doi10.1086-676661.html"
+},
+{
+"l": "Öckert, What's the value of an acceptance letter? Using admissions data to estimate the return to college (Economics of Education Review)",
+"a": 2010,
+"u": "https://ideas.repec.org/a/eee/ecoedu/v29y2010i4p504-516.html"
+}
+]
+},
+"retailleau.ecole.5": {
+"constat": "Incidents graves signalés en collège et lycée : 14 pour 1 000 élèves en 2024-2025, 16 l'année précédente (DEPP).",
+"constat_s": [
+0
+],
+"pour": "Un camarade très perturbateur en primaire réduit de 3 à 4 % le salaire de chacun des autres à 26 ans.",
+"preuve_pour": "mitigé",
+"contre": "Des établissements créés en 2010 pour les élèves exclus à répétition ont eu des résultats décevants.",
+"preuve_contre": "faible",
+"cas_pour": [
+{
+"t": "Avoir eu en primaire un camarade perturbateur (enfant exposé à des violences familiales) a réduit de 3 à 4 % le salaire à 26 ans de ses camarades (Carrell et al., États-Unis, 2018).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Les 16 établissements ouverts en 2010 pour des collégiens exclus à répétition ont eu des résultats « le plus souvent décevants » ; ils ont été abandonnés (inspections générales, France, 2012).",
+"s": [
+2
+]
+}
+],
+"etudes": "Pas d'évaluation des internats disciplinaires ; l'essai français de 2010, aux résultats souvent décevants, a été arrêté. Un élève perturbateur pèse sur ses camarades (États-Unis).",
+"src": [
+{
+"l": "DEPP, Note d'information n° 26.03, Les signalements d'incidents graves en 2024-2025 (enquête Sivis)",
+"a": 2026,
+"u": "https://www.education.gouv.fr/sites/default/files/document/Note%20d%26%23039%3BInformation%20n%C2%B0%2026-03-479480.pdf"
+},
+{
+"l": "Carrell, Hoekstra, Kuka, The Long-Run Effects of Disruptive Peers (NBER w22042, American Economic Review 2018)",
+"a": 2018,
+"u": "https://www.nber.org/papers/w22042"
+},
+{
+"l": "Ministère de l'Éducation nationale, réponse à la question écrite n° 85814 (rapport des inspections générales de juin 2012 sur les établissements de réinsertion scolaire)",
+"a": 2016,
+"u": "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE85814.pdf"
+}
+]
+},
+"lisnard.ecole.1": {
+"constat": "Élèves du second degré dans le privé sous contrat : 21,2 % en 2025, contre 19,6 % en 2000 (DEPP).",
+"constat_s": [
+0
+],
+"pour": "Là où les écoles financées par chèque se sont multipliées, le niveau moyen a progressé, par la concurrence.",
+"preuve_pour": "mitigé",
+"contre": "Le tri social entre écoles augmente, et des élèves passés au privé avec un chèque ont reculé en maths.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Là où les écoles indépendantes financées par chèque se sont le plus développées, le niveau moyen a progressé, surtout par la concurrence, une dizaine d'années après (Böhlmark et Lindahl, Suède, 2015).",
+"s": [
+1
+]
+},
+{
+"t": "Les élèves tirés au sort pour un chèque vers le privé ont obtenu leur diplôme du secondaire à 82 %, contre 70 % sans chèque ; scores inchangés (IES, Washington, 2010).",
+"s": [
+2
+]
+}
+],
+"cas_contre": [
+{
+"t": "Les élèves ayant obtenu par tirage au sort un chèque pour une école privée ont perdu 0,4 écart-type en maths (Abdulkadiroglu et al., Louisiane, 2018).",
+"s": [
+3
+]
+},
+{
+"t": "Le chèque généralisé à tout le pays n'a pas amélioré les résultats moyens et a accru le tri des élèves, les meilleurs du public partant au privé (Hsieh et Urquiola, Chili, 2006).",
+"s": [
+4
+]
+},
+{
+"t": "Là où le libre choix de l'école s'est répandu, la ségrégation entre élèves selon l'origine et le diplôme des parents a plus augmenté qu'ailleurs (IFAU, Suède, 2015).",
+"s": [
+5
+]
+}
+],
+"etudes": "Les études divergent sur le niveau (gain en Suède, perte en Louisiane, rien au Chili) mais concordent sur un tri social accru. Aucune étude française sur les enseignants contractuels.",
+"src": [
+{
+"l": "DEPP, Repères et références statistiques 2026, chapitre 4 (les élèves du second degré), tableau 4.01",
+"a": 2026,
+"u": "https://www.education.gouv.fr/sites/default/files/document/4-les-eleves-du-second-degrepdf-521305.pdf"
+},
+{
+"l": "Böhlmark, Lindahl, Independent Schools and Long-Run Educational Outcomes: Sweden's Large-Scale Voucher Reform (IZA DP 6683, Economica 2015)",
+"a": 2015,
+"u": "https://econpapers.repec.org/RePEc:iza:izadps:dp6683"
+},
+{
+"l": "IES (NCEE 2010-4018), Evaluation of the DC Opportunity Scholarship Program: Final Report",
+"a": 2010,
+"u": "https://ies.ed.gov/use-work/resource-library/report/evaluation-report/evaluation-impact-dc-opportunity-scholarship-program-final-report"
+},
+{
+"l": "Abdulkadiroglu, Pathak, Walters, Free to Choose: Can School Choice Reduce Student Achievement? (NBER w21839, AEJ Applied 2018)",
+"a": 2018,
+"u": "https://www.nber.org/papers/w21839"
+},
+{
+"l": "Hsieh, Urquiola, When Schools Compete, How Do They Compete? Chile's Nationwide School Voucher Program (NBER w10008 ; Journal of Public Economics 2006)",
+"a": 2006,
+"u": "https://www.nber.org/papers/w10008"
+},
+{
+"l": "Böhlmark, Holmlund, Lindahl, School choice and segregation: evidence from Sweden (IFAU WP 2015:8)",
+"a": 2015,
+"u": "https://swopec.hhs.se/ifauwp/abs/ifauwp2015_008.htm"
 }
 ]
 }
