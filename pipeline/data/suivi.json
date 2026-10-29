@@ -1070,7 +1070,7 @@
    ],
    "mesure": null,
    "sujet": "Simulateur : mesures ajoutées le 27/10 encore en note",
-   "detail": "Taxe sur les carburants (Le Pen : niveau de 2017 ; Zemmour : −1/3) : tarifs 2017 et 2026 à relever sur la circulaire des douanes (DA 25-062, hausse au 1/1/2026 signalée) avant de calculer le prix à la pompe ; chèque énergie triplé (Glucksmann) : seuils non publiés ; part fiscale dès le 2e enfant (Le Pen) et congé de naissance (Retailleau) à calculer. Revue du 28/10 : baisse par litre de la TICPE de Le Pen = 6,33 c€ HT sur le gazole, 3,22 sur l'essence, 4,50 sur le fioul (circulaires des douanes 2017 et 2026), TVA en plus. Revue du 28/10 : CSG de Lisnard (9,2 % → 6,6 %) désormais calculée au simulateur (≈ 89 €/mois au salaire moyen) ; le reste de la baisse des cotisations promise reste en note. Revue du 29/10 : taxe sur les carburants calculée au simulateur pour Le Pen (−3,22 c€ HT par litre d'essence, −6,33 pour le gazole, avec sa TVA à 5,5 %) et Zemmour (−1/3 : −23,0 et −20,3 c€ HT, TVA à 20 %), au prix de la semaine du 23/10/2026 (ministère : SP95 2,18 €/l, gazole 2,35 €/l), montant pour l'essence et gazole en regard ; part fiscale entière dès le 2e enfant (Le Pen) calculée (sans double compte avec l'exonération des moins de 30 ans) ; congé de naissance (Retailleau) en note (choix de garde, pas un gain). Reste : chèque énergie de Glucksmann (seuils non publiés).",
+   "detail": "Taxe sur les carburants (Le Pen : niveau de 2017 ; Zemmour : −1/3) : tarifs 2017 et 2026 à relever sur la circulaire des douanes (DA 25-062, hausse au 1/1/2026 signalée) avant de calculer le prix à la pompe ; chèque énergie triplé (Glucksmann) : seuils non publiés ; part fiscale dès le 2e enfant (Le Pen) et congé de naissance (Retailleau) à calculer. Revue du 28/10 : baisse par litre de la TICPE de Le Pen = 6,33 c€ HT sur le gazole, 3,22 sur l'essence, 4,50 sur le fioul (circulaires des douanes 2017 et 2026), TVA en plus. Revue du 28/10 : CSG de Lisnard (9,2 % → 6,6 %) désormais calculée au simulateur (≈ 89 €/mois au salaire moyen) ; le reste de la baisse des cotisations promise reste en note. Revue du 29/10 : taxe sur les carburants calculée au simulateur pour Le Pen (−3,22 c€ HT par litre d'essence, −6,33 pour le gazole, avec sa TVA à 5,5 %) et Zemmour (−1/3 : −23,0 et −20,3 c€ HT, TVA à 20 %), au prix de la semaine du 23/10/2026 (ministère : SP95 2,18 €/l, gazole 2,35 €/l), montant pour l'essence et gazole en regard ; part fiscale entière dès le 2e enfant (Le Pen) calculée (sans double compte avec l'exonération des moins de 30 ans) ; congé de naissance (Retailleau) en note (choix de garde, pas un gain). Reste : chèque énergie de Glucksmann (seuils non publiés). Revue du 29/10 : gel des pensions de Lisnard calculé (au-dessus de 2 200 €, un an, 1,8 %) ; baisse des cotisations salariales de Retailleau (15 Md€) répartie au prorata des salaires, comme la baisse de CSG de Glucksmann ; fin de l'abattement de 10 % sur les pensions (Lisnard) en note : l'impôt des retraités n'est pas simulé.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -1087,10 +1087,10 @@
    "sujet": "Retailleau : aides réservées et lecture du plan de 197 Md€",
    "detail": "Règle (6) de S070 : chaque candidat reçoit l'étude de sa condition ; Retailleau (5 ans de résidence et de travail) est encore compté au chiffre cumulé de son camp (+1,6). Aligner sur l'étude Montaigne 2024 (condition de travail) après vérification. Par ailleurs, plusieurs montants du plan sont des niveaux annuels (postes, impôts de production) alors que les retraites (+2,8) et l'immigration sont lus comme des cumuls (3,5/15) : vérifier poste par poste. Revue du 28/10 : le livret LR « Le travail gagnant » (janvier 2026) présente les 30 Md€ « chômage et prestations » comme un gain annuel (chômage 12,5 à 15,7 ; compte social unique et fraude 10 ; IS 4 ; RIA 2), et non comme un cumul ; la fiche chômage est désormais à part (+3,6).",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
-   "maj": "2026-10-28",
-   "resolution": null
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 : les fiches presse du camp (12/10/2026) donnent des niveaux annuels en 2032 (« Md€ 2032 »), pas des cumuls. Immigration : étude de la même condition (Montaigne 2024, cinq ans de travail), actualisée : 1,6 → 2,7 ; retraites : 12 Md€ = niveau 2032, sans calendrier ni chiffrage indépendant, même lecture que Philippe, Lisnard et Zemmour : 2,8 → 1,8 ; fraude : 9 Md€ en 2032 (voir S076) ; ménages et seuil « zéro cotisation » : voir S088 ; textes et liste « non compté » relus en niveaux annuels. Statut de l'Observatoire de l'immigration : S087."
   },
   {
    "id": "S073",
@@ -1100,10 +1100,10 @@
    "sujet": "Sources : consolidation après l'ajout des mesures du 27/10",
    "detail": "Revue du 28/10/2026 : 9 mesures modifiées le 27/10 n'affichaient pas leurs nouvelles sources ; 35 mesures ajoutées affichaient « voir les données d'entrée » au lieu du montant annoncé ; plusieurs lignes reposaient sur une seule source fragile (contre-budget RN publié sur le site d'un député, article de Capital lu via un agrégateur, quotas carbone sourcés par une entreprise, montant des allocations familiales tiré d'une proposition de loi).",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-28",
-   "maj": "2026-10-28",
-   "resolution": "Fait le 28/10 : sources ajoutées aux mesures modifiées (Montaigne 2022 pour les aides de Lisnard, crédits 2026 du fonds Barnier et du Fonds vert, BFMTV et budget2027.fr pour les postes de Zemmour…) ; montant annoncé affiché pour les 35 mesures ; contre-budget RN recoupé par l'Institut de l'Entreprise (« coût certain ») pour 5 lignes ; répartition 15/15 du plan Retailleau sourcée par l'iFRAP, copies d'agrégateur signalées ; Le Pen, moins de 30 ans : médiane des deux chiffrages Montaigne (3,7 en 2022, 0,7 en 2024) = −2,2 au lieu de −3,7. Reste : version du contre-budget RN sur un site officiel du RN (introuvable à ce jour), article original de Capital, quotas carbone affectés à l'Anah dans un document budgétaire, montant des seules allocations familiales (Cnaf)."
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 : contre-budget RN cité dans sa copie officielle (site du groupe RN à l'Assemblée, fichier identique) ; articles originaux de Capital à la place des copies (Yahoo, shango.media) ; quotas carbone de l'Anah sourcés par le projet de loi de finances 2027 (art. 42, plafond 600 M€) ; allocations familiales : 13,80 Md€ en 2025 (Cnaf), Mélenchon −2,8 → −2,9 ; droits de succession : 16,0 Md€ exécutés en 2024 (Voies et moyens), Lisnard −9,8 → −10,4, Zemmour −15 → −16 (hors total)."
   },
   {
    "id": "S074",
@@ -1151,10 +1151,10 @@
    "sujet": "Fraude : la règle des recettes s'applique-t-elle ?",
    "detail": "Les trois mesures fraude (Le Pen, Mélenchon +2, Retailleau +1,2) sont comptées au chiffre du camp plafonné au potentiel du CAE (4,1). Appliquée strictement, la règle S070 (une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié) les sortirait toutes les trois du total. À trancher pour les trois ensemble.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-28",
-   "maj": "2026-10-28",
-   "resolution": null
+   "maj": "2026-10-29",
+   "resolution": "Tranché le 29/10 sur délégation du porteur (option C) : une recette n'est comptée qu'avec un chiffrage indépendant (règle S070) ; le Conseil d'analyse économique (Focus n° 147, 8/10/2026) chiffre cinq leviers (impôts des particuliers hors TVA 2,8 ; TVA 0,5 ; cotisations 0,36 ; prestations hors assurance maladie 0,25 ; assurance maladie 0,23 : 4,1 Md€/an). Chaque mesure reçoit les leviers de son champ, plafonnés au chiffre du camp : Le Pen 4,1 → 1,0 (TVA, prestations, assurance maladie ; marchés publics hors champ), Mélenchon 2,0 inchangé (leviers fiscaux 3,3 plafonnés au camp), Retailleau 1,2 → 4,1 (fiscal et social ; 9 Md€ par an en 2032 dans son plan), Zemmour non compté (champ non publié). Option D (agents × rendement unitaire, ≈ 1,1 M€ recouvré par agent) dès qu'un candidat publie un nombre d'agents (LFI le 6/11 ?). Le porteur peut revenir sur ce choix."
   },
   {
    "id": "S077",
@@ -1167,10 +1167,10 @@
    "sujet": "Carburants : même base pour l'accise de Zemmour et la TICPE de Le Pen",
    "detail": "L'accise de Zemmour part des recettes 2025 (24,8 Md€, Cour des comptes) ; la TICPE de Le Pen part des tarifs × volumes 2025 (≈ 28 Md€ d'accise après remboursements). Vérifier l'écart (E85, Corse, Île-de-France, part des collectivités) pour que les deux mesures carburant reposent sur la même base.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-28",
-   "maj": "2026-10-28",
-   "resolution": null
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 : le chiffre de 24,8 Md€ (attribué à la Cour des comptes sans référence) est retiré ; base commune : volumes 2025, tarifs 2026, remboursements, calage sur les recettes 2025 du Conseil des prélèvements obligatoires (gazole 17,3 + essence 9,9 = 27,2 Md€) ; Zemmour −9,1 → −9,0, Le Pen −2,2 → −2,1."
   },
   {
    "id": "S078",
@@ -1240,11 +1240,11 @@
    ],
    "mesure": null,
    "sujet": "Suites de la revue des chiffrages datés",
-   "detail": "(1) Priorité nationale de Le Pen (Montaigne 2024) : année de base à vérifier avant d'actualiser la part des étrangers, comme Zemmour et Lisnard. (2) Prix de référence de l'énergie (moyenne des 12 derniers mois ou dernier relevé) : même règle pour le blocage des prix de Mélenchon et la TVA énergie de Le Pen. (3) La même étude iFRAP sur le SMIC est lue différemment chez Mélenchon et chez Glucksmann (montant, consensus, méthode) : harmoniser. (4) Point d'indice de Mélenchon (2,07 Md€ par point, 2022) : actualiser. (5) Projet de loi de financement de la Sécurité sociale 2027 : désindexation des pensions au-delà de 1 260 € ; s'il est voté, la situation de départ change pour tous (gel des pensions de Lisnard, année blanche d'Attal).",
+   "detail": "(1) Priorité nationale de Le Pen (Montaigne 2024) : année de base à vérifier avant d'actualiser la part des étrangers, comme Zemmour et Lisnard. (2) Prix de référence de l'énergie (moyenne des 12 derniers mois ou dernier relevé) : même règle pour le blocage des prix de Mélenchon et la TVA énergie de Le Pen. (3) La même étude iFRAP sur le SMIC est lue différemment chez Mélenchon et chez Glucksmann (montant, consensus, méthode) : harmoniser. (4) Point d'indice de Mélenchon (2,07 Md€ par point, 2022) : actualiser. (5) Projet de loi de financement de la Sécurité sociale 2027 : désindexation des pensions au-delà de 1 260 € ; s'il est voté, la situation de départ change pour tous (gel des pensions de Lisnard, année blanche d'Attal). Revue du 29/10 : (1) priorité nationale de Le Pen actualisée comme Zemmour et Lisnard (naissances de deux parents étrangers 13,7 % en 2025, part des étrangers 8,2 %) : 7,6 → 8,3 ; (3) même lecture de l'iFRAP chez Mélenchon et Glucksmann (texte commun, sans borne, « concordant », « ascendant ») ; (4) point d'indice : 2,4 Md€ par +1 % (cabinet du ministre, juillet 2026), Mélenchon −20,7 → −24,0. Restent ouverts : (2) prix de référence de l'énergie (gazole 2,35 €/l au dernier relevé contre 1,98 en moyenne sur 12 mois ; même règle pour le blocage de Mélenchon et la TVA de Le Pen) ; (5) budget de la Sécurité sociale 2027.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-28",
-   "maj": "2026-10-28",
+   "maj": "2026-10-29",
    "resolution": null
   },
   {
@@ -1316,6 +1316,53 @@
    "cree": "2026-10-29",
    "maj": "2026-10-29",
    "resolution": "Tranché le 29/10 sur délégation du porteur : dernière version publiée par le candidat retenue ; les 6 Md€ pour un million de véhicules sont lus comme un coût total (6 000 € par véhicule), échéance non publiée → fin du quinquennat, règle commune des montants cumulés (3,5/15) : −1,4 ; borne −6 si le montant était annuel. Attal (leasing étendu aux voitures d'occasion, sans paramètre) : liste « non compté ». Glucksmann −44,7 → −46,1. Le porteur peut revenir sur ce choix."
+  },
+  {
+   "id": "S087",
+   "type": "a_trancher",
+   "candidats": [
+    "retailleau",
+    "le-pen",
+    "zemmour"
+   ],
+   "mesure": "immigration",
+   "sujet": "Observatoire de l'immigration et de la démographie : chiffrage indépendant ?",
+   "detail": "Le plan de Retailleau chiffre ses autres économies sur l'immigration (famille, étudiants, asile, titres, hébergement, mineurs isolés : 5,7 Md€ en 2032) avec des estimations de l'OID. Le site n'utilise l'OID pour aucun candidat ; la même décision vaudrait pour les lignes du même type chez Le Pen et Zemmour. En attendant : liste « non compté ».",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S088",
+   "type": "a_trancher",
+   "candidats": [
+    "retailleau"
+   ],
+   "mesure": "menages",
+   "sujet": "Retailleau : baisses d'impôts des ménages et seuil « zéro cotisation »",
+   "detail": "Fiche 14 du plan (12/10/2026) : cotisations salariales en moins dès le premier euro 15 Md€, relais de MaPrimeRénov' et TVA sur les certificats 3 Md€ (niveaux 2032) ; livret « Le travail gagnant » : heures au-delà de 1 623 h sans cotisations, coût statique de 4,3 Md€ selon le camp (« autofinancé » par des heures nouvelles). Changement important du total (−22,3).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Tranché le 29/10 sur délégation du porteur, par les règles des budgets ligne à ligne (S070) : baisse d'impôt au chiffre du camp, comptée en entier en 2030 comme les cotisations patronales du même plan : −18 ; seuil « zéro cotisation » au coût statique, sans effet de comportement : −4,3 (ce coût n'était compté nulle part). Retailleau −4,0 → −23,3. Variante possible pour les deux lignes de cotisations : trajectoire du plan (70 % en 2030), soit +9 Md€ ; le porteur peut revenir sur ce choix."
+  },
+  {
+   "id": "S089",
+   "type": "a_verifier",
+   "candidats": [
+    "lisnard"
+   ],
+   "mesure": "abattement_pensions",
+   "sujet": "Lisnard : fin de l'abattement de 10 % sur les pensions, source d'origine",
+   "detail": "Ajouté le 29/10 (+4,7 Md€, coût officiel de la dépense fiscale 120401 en 2026) sur la foi de l'article original de Capital (28/10/2026), qui cite le candidat entre guillemets ; l'émission d'origine (Europe 1 / CNEWS, 27/10) n'a pas été retrouvée. Le projet de loi de finances 2027 (art. 3, non voté) plafonne déjà cet abattement : situation de départ à revoir s'il est voté.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
   }
  ]
 }
