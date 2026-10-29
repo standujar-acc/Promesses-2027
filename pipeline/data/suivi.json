@@ -1329,10 +1329,10 @@
    "sujet": "Observatoire de l'immigration et de la démographie : chiffrage indépendant ?",
    "detail": "Le plan de Retailleau chiffre ses autres économies sur l'immigration (famille, étudiants, asile, titres, hébergement, mineurs isolés : 5,7 Md€ en 2032) avec des estimations de l'OID. Le site n'utilise l'OID pour aucun candidat ; la même décision vaudrait pour les lignes du même type chez Le Pen et Zemmour. En attendant : liste « non compté ».",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Tranché le 29/10 (porteur : « fiable ? si oui, go »). L'OID est une association (loi 1901, 2021) qui défend le contrôle des flux migratoires et ne publie ni comptes ni donateurs : ses faits sont repris quand ils viennent de données officielles, ses estimations ne le sont pas telles quelles. Règle écrite dans la méthode, valable pour tout organisme : un chiffrage qu'un candidat reprend comme le sien compte comme chiffre de son camp ; une économie fondée sur une baisse de flux ou un comportement supposés par une seule note n'est pas comptée. Appliqué : asile examiné hors des frontières = même mesure et même valeur que Le Pen (1,2, Institut Montaigne 2024), comptée chez Retailleau et chez Lisnard (« demandes d'asile dans nos consulats », relevée à cette occasion), « si la révision passe » ; droits d'inscription différenciés pour tous les étudiants hors UE (Retailleau) : +0,07 par calcul sur données officielles (SIES ; décret du 19 mai 2026 qui plafonne déjà les exonérations à 20 % dès 2028), au lieu de 1,5 ; immigration familiale, titres, hébergement, mineurs, soins, contentieux : non comptés (hypothèses propres à la note), listés. Le Pen : frais de scolarité (montant non publié), visa pour soins, taxes à l'embauche d'un salarié extra-européen et sur les transferts d'argent (14 %) ajoutés à la liste « non compté » : recettes sans chiffrage indépendant ; pour les transferts, l'assiette Eurostat donnerait ≈ 1,75 Md€ sans effet de comportement, effet non documenté et compatibilité avec la libre circulation des capitaux (y compris vers les pays tiers) à établir. Zemmour : « fin de la gratuité » sans montant publié et lignes de moins de 1 Md€ listées. Totaux : Retailleau −23,3 → −22,1, Lisnard −53,2 → −52,0 ; sans les mesures qui exigent une révision : Retailleau −25,5, Lisnard inchangé."
   },
   {
    "id": "S088",
@@ -1406,6 +1406,19 @@
    "mesure": "life:ecole",
    "sujet": "Note DEPP 2026 sur les classes dédoublées : page officielle inaccessible",
    "detail": "La page officielle de la DEPP (education.gouv.fr/depp/…-506212) renvoie 403 le 29/10/2026. Le contenu est lu via professeurs-des-ecoles.com, qui y renvoie, et la Synthèse DEPP n° 8 (officielle, ouverte) confirme le résultat pour la 1re cohorte. Rouvrir la page officielle pour citer la note elle-même. Autres sources inaccessibles le 29/10 : note IPP n° 62 (HAL, vérifiée via la Banque des territoires), rapport IPP n° 16 (2016), série Dares des heures supplémentaires.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S093",
+   "type": "a_verifier",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Chiffrages d'instituts repris par un candidat comme les siens",
+   "detail": "Règle ajoutée le 29/10 (S087) : un chiffrage qu'un candidat reprend comme le sien compte comme chiffre de son camp, quel que soit son auteur. Vérifier pour les 8 candidats les mesures où le site retient comme chiffrage indépendant une étude (iFRAP, Institut Montaigne, Terra Nova, Institut de l'Entreprise, Institut Molinari, Rexecode, OFCE…) que le candidat cite lui-même comme base de son chiffre ; si oui, la lire comme chiffre du camp et chercher un autre chiffrage. Option liée : actualiser la valeur de l'asile examiné hors des frontières (1,2 Md€, Institut Montaigne 2024) avec les crédits du PLF 2026 (1 379,6 M€ pour l'action 02), alors pour Le Pen, Retailleau et Lisnard en même temps.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-29",

@@ -2875,7 +2875,7 @@
     "p10": -90.1,
     "p90": -51.1,
     "realsum": -70.0,
-    "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, prêt à taux zéro à la place de MaPrimeRénov', recettes et économies du contre-budget sans chiffrage indépendant (chiffres du camp pour 2027) : impôt sur les sociétés assis sur le chiffre d'affaires 3,75, Autorité de la concurrence 1,2, dividendes d'EDF sur les exportations 3,7, économies sur le TURPE 2, économies sur la Sécurité sociale ≈ 20, droits de douane rendus 2,2 ; dépenses de moins de 1 Md€ (AAH au-dessus du seuil de pauvreté, permis gratuit, prime d'activité étudiante, demi-part des veufs…), dispense d'impôt sur le revenu pour les entrepreneurs (public et durée non publiés), fonds souverain (opération financière), abrogation de la loi Hulot",
+    "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, prêt à taux zéro à la place de MaPrimeRénov', recettes et économies du contre-budget sans chiffrage indépendant (chiffres du camp pour 2027) : impôt sur les sociétés assis sur le chiffre d'affaires 3,75, Autorité de la concurrence 1,2, dividendes d'EDF sur les exportations 3,7, économies sur le TURPE 2, économies sur la Sécurité sociale ≈ 20, droits de douane rendus 2,2 ; dépenses de moins de 1 Md€ (AAH au-dessus du seuil de pauvreté, permis gratuit, prime d'activité étudiante, demi-part des veufs…), dispense d'impôt sur le revenu pour les entrepreneurs (public et durée non publiés), fonds souverain (opération financière), abrogation de la loi Hulot, lignes immigration du contre-budget sans chiffrage indépendant ni paramètre suffisant (chiffres du camp pour 2027) : suppression du visa pour soins 1, hausse des frais de scolarité des étudiants étrangers 1,1 (montant des droits non publié), effets indirects sur la sécurité 0,5, départ des étrangers sans emploi 0,1, timbre sur les visas touristiques 0,1 ; taxe de 1 000 € par an à l'embauche d'un salarié extra-européen 1 et taxe de 14 % sur les transferts d'argent vers les pays tiers 1,9 (à l'étude)",
     "n": 26,
     "cost": -84.8,
     "gain": 18.1,
@@ -9525,7 +9525,7 @@
    "name": "Bruno Retailleau",
    "party": "LR",
    "poll": "7,3 %",
-   "summary": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration. Notre chiffrage : −23,3 Md€ par an en 2030, soit −754 € par ménage. Principal obstacle : la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées.",
+   "summary": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration. Notre chiffrage : −22,1 Md€ par an en 2030, soit −715 € par ménage. Principal obstacle : la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées.",
    "measures": [
     {
      "id": "etat",
@@ -9699,7 +9699,7 @@
      "id": "immigration",
      "theme": "immigration",
      "title": "Référendum immigration",
-     "proposal": "Référendum, fin du droit du sol, regroupement familial réduit, aides sociales après 5 ans de travail.",
+     "proposal": "Référendum, fin du droit du sol, regroupement familial réduit, aides sociales après cinq ans de séjour régulier et de travail, asile examiné hors des frontières.",
      "claimed": "10 Md€ cumulés, dont 4,5 Md€ suspendus au référendum",
      "claimed_md": null,
      "estimates": [
@@ -9730,14 +9730,14 @@
      ],
      "consensus": "concordant",
      "verdict": "bloque",
-     "obstacle": "Chemin : révision de la Constitution par l'article 89 (vote identique de l'Assemblée et du Sénat, puis référendum) ; l'article 11 ne le permet pas en l'état.",
+     "obstacle": "Chemin : révision de la Constitution par l'article 89 (vote identique de l'Assemblée et du Sénat, puis référendum) ; l'article 11 ne le permet pas en l'état. Asile hors des frontières : aussi le droit de l'Union et le principe de non-refoulement (Convention de Genève).",
      "claude": {
       "id": "immigration",
-      "central": 2.7,
-      "low": 0.6,
-      "high": 6.7,
+      "central": 3.9,
+      "low": 1.6,
+      "high": 7.6,
       "method": "médiane",
-      "formula": "Si la mesure passe : prestations réservées après cinq ans de séjour et de travail = étude de la même condition (Institut Montaigne 2024, 5 ans d'équivalent temps plein travaillé, 2,6 Md€), part des étrangers actualisée comme Le Pen (7,8 % → 8,2 %) : 2,7, comptée en entier en 2030 comme les aides réservées de Le Pen, Zemmour et Lisnard. Autres lignes du plan (famille, étudiants, asile, titres, hébergement, MNA : 5,7 Md€ en 2032) : économies sans chiffrage indépendant reconnu sur le site (bases OID), listées « non comptées » comme les lignes du RN sans chiffrage. Borne basse : Montaigne bas (0,6) ; borne haute : + ces lignes à 70 % (4,0)",
+      "formula": "Si la mesure passe : (1) prestations réservées après cinq ans de séjour et de travail = étude de la même condition (Institut Montaigne 2024, 5 ans d'équivalent temps plein travaillé, 2,6 Md€), part des étrangers actualisée comme Le Pen (7,8 % → 8,2 %) : 2,7 ; (2) asile examiné hors des frontières = même mesure que Le Pen et Lisnard (demande déposée hors du territoire), même valeur : 1,2 (Institut Montaigne 2024) ; total 3,9, compté en entier en 2030 comme chez Le Pen. Autres lignes de la fiche 9 (immigration familiale, preuve de ressources des étudiants, titres, hébergement, mineurs non accompagnés, soins des demandeurs d'asile, contentieux) : estimations de l'Observatoire de l'immigration et de la démographie refaites à partir des données officielles qu'il cite ; elles dépendent d'hypothèses propres à sa note (baisse des flux, coût net par personne) ou d'un paramètre non publié : non comptées. Droits différenciés des étudiants et AME : fiches à part. Borne basse 1,6 (0,6 + 1,0, bas des études Montaigne) ; borne haute 7,6 = montant du camp hors AME en niveau 2030 (prestations 3,6 en entier + autres lignes 5,7 × 70 %), même règle que la borne haute de Le Pen (montant du RN hors AME)",
       "inputs": [
        {
         "label": "Condition publiée",
@@ -9746,9 +9746,9 @@
         "url": "https://www.avecretailleau.fr/projet/mesure/conditionner-les-prestations-sociales-a-cinq-ans-de-sejour"
        },
        {
-        "label": "Ligne du plan",
-        "value": "3,6 Md€ en 2032 (prestations) ; 10 Md€ au total en 2032",
-        "source": "Fiches presse du 12/10/2026, fiche 9",
+        "label": "Fiche 9 du plan (niveaux 2032)",
+        "value": "prestations 3,6 ; famille 1,5 ; étudiants 1,5 ; asile 0,9 ; AME 0,7 ; titres 0,5 ; hébergement 0,5 ; MNA, soins, contentieux 0,8 ; total 10",
+        "source": "Fiches presse du 12/10/2026",
         "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
        },
        {
@@ -9762,9 +9762,27 @@
         "value": "8,2 % (2023)",
         "source": "Insee",
         "url": "https://insee.fr/fr/statistiques/3633212"
+       },
+       {
+        "label": "Même mesure chez Le Pen (2022)",
+        "value": "« les demandes d'asile seront faites depuis les ambassades de France à l'étranger » ; économie 1,6 Md€ (1 à 2,5) : crédits de l'asile (≈ 1,2 Md€) + coût des déboutés restés (≈ 1 Md€, Cour des comptes) − 0,6 Md€ pour l'accueil dans des pays tiers",
+        "source": "Institut Montaigne (présidentielle 2022)",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/marine-le-pen/reformer-la-politique-de-lasile-et-mettre-fin-a-laccueil-des-mineurs-non-accompagnes"
+       },
+       {
+        "label": "Valeur retenue chez Le Pen",
+        "value": "« Réformer la politique de l'asile : 1,2 Md€ »",
+        "source": "Institut Montaigne, Législatives 2024, synthèse RN",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"
+       },
+       {
+        "label": "Crédits de l'action 02 « Garantie de l'exercice du droit d'asile » (hébergement des demandeurs d'asile et des réfugiés, allocation, Ofpra)",
+        "value": "1 379,6 M€ en CP (PLF 2026)",
+        "source": "Projet annuel de performances 2026, mission Immigration, asile et intégration",
+        "url": "https://www.assemblee-nationale.fr/dyn/dyn/contenu/visualisation/1087981/file/PAP2026_BG_Immigration_asile_integration_IA.pdf"
        }
       ],
-      "note": "Le plan est un niveau annuel en 2032, pas un cumul. À trancher : statut des estimations de l'OID comme chiffrage indépendant (non utilisé pour les autres candidats). Asile hors des frontières : Montaigne 2024 chiffre « Réformer la politique de l'asile » du RN à 1,2 Md€ ; si les deux mesures sont jugées du même type, la même valeur s'appliquerait (non vérifié)."
+      "note": "Le plan est un niveau annuel en 2032. Statut de l'OID tranché (S087) : ses estimations ne sont pas reprises telles quelles. Asile : la note de l'OID (0,93 Md€ la 5e année) suppose une baisse de moitié des demandes ; le site retient la valeur déjà appliquée à la même mesure chez Le Pen (et Lisnard). La note de l'OID chiffre aussi à 2,9 Md€ par an les dépenses supplémentaires (contrôles, éloignements) nécessaires à ses économies (6,9 Md€ nets) ; la fiche 9 n'a pas de ligne de dépense correspondante (sans effet sur les montants comptés ici). Valeur de l'asile non actualisée, comme chez Le Pen (crédits de l'action 02 : 1 379,6 M€ en CP au PLF 2026)."
      },
      "quiz_text": "Un référendum sur l'immigration : fin du droit du sol, aides après 5 ans de travail",
      "quiz_concret": "Naître en France ne rendrait plus automatiquement Français.",
@@ -11590,6 +11608,63 @@
       "note": "Pas d'effet de comportement compté (règle commune), comme les heures sup désocialisées de Philippe."
      },
      "quiz_text": "Exonérer de toutes les cotisations sociales les heures travaillées au-delà de 1 623 heures par an."
+    },
+    {
+     "id": "etudiants_etrangers",
+     "theme": "immigration",
+     "title": "Droits d'inscription différenciés pour tous les étudiants hors UE",
+     "proposal": "Soumettre tous les étudiants extracommunautaires aux droits d'inscription différenciés (2 902 € en licence, 3 950 € en master) et à une preuve de ressources.",
+     "claimed": "1,5 Md€ en 2032 (base citée : Observatoire de l'immigration, 2,25 Md€)",
+     "claimed_md": 1.5,
+     "estimates": [
+      {
+       "source": "Plan du candidat (base : Observatoire de l'immigration)",
+       "year": 2026,
+       "value": "1,5 Md€ en 2032",
+       "low_md": 1.5,
+       "high_md": 1.5,
+       "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "faisable",
+     "obstacle": "Par décret ; le décret du 19 mai 2026 en applique déjà l'essentiel (80 % des étudiants concernés au moins à partir de 2028).",
+     "claude": {
+      "id": "etudiants_etrangers",
+      "central": 0.07,
+      "low": 0.0,
+      "high": 0.09,
+      "method": "ascendant",
+      "formula": "Droit en vigueur en 2030 : exonérations individuelles plafonnées à 20 % des étudiants concernés (décret du 19 mai 2026). La mesure les supprime : 20 % × 111 400 étudiants dans le périmètre (2024-2025) ≈ 22 300 × écart moyen 3 184 € (licence 2 902 − 178 = 2 724 € ; master 3 950 − 255 = 3 695 € ; pondéré par 57 800 / 51 400 / 2 300 inscrits) ≈ 71 M€ ≈ +0,07 Md€, en entier en 2030 ; borne haute 0,09 (plafond rapporté aux 139 200 étudiants potentiellement concernés) ; borne basse 0 (exonérations seulement partielles ou départs). Preuve de ressources : non comptée (aucun effet sans hypothèse de départs)",
+      "inputs": [
+       {
+        "label": "Étudiants dans le périmètre des droits différenciés (2024-2025)",
+        "value": "111 400 (licence 57 800, master 51 400, autres 2 300) ; 11 100 au tarif plein ; exonérations d'établissement : 78 700 partielles, 2 700 totales ; 139 200 potentiellement concernés",
+        "source": "SIES, Note flash n° 01, janvier 2026",
+        "url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-01/nf-sies-2026-01-39184.pdf"
+       },
+       {
+        "label": "Plafond des exonérations individuelles",
+        "value": "30 % (2026-2027), 25 % (2027-2028), 20 % à partir de la rentrée 2028 ; exonérations de plein droit hors plafond",
+        "source": "Réponse du ministère à la question écrite n° 16657 (JO 13/10/2026)",
+        "url": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE16657.pdf"
+       },
+       {
+        "label": "Montants 2026-2027",
+        "value": "2 902 € (licence) et 3 950 € (master), contre 178 € et 255 €",
+        "source": "Service-public.fr, 26/05/2026",
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18927"
+       },
+       {
+        "label": "Ligne du plan",
+        "value": "1,5 Md€ en 2032",
+        "source": "Fiches presse du 12/10/2026, fiche 9",
+        "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+       }
+      ],
+      "note": "La note de l'OID part de 2023, avant ce décret. Le chiffre du camp (1,5) repose sur des hypothèses propres à cette note (moins d'étudiants, coût évité par étudiant) ; non repris."
+     },
+     "quiz_text": "Soumettre tous les étudiants extracommunautaires aux droits d'inscription différenciés et à une preuve de ressources."
     }
    ],
    "total": {
@@ -11599,14 +11674,14 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -23.3,
-    "p10": -31.0,
-    "p90": -7.4,
-    "realsum": -25.6,
-    "missing": "capitalisation, audiovisuel public, aide au développement, et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (niveaux annuels en 2032), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ en 2032, sans chiffrage indépendant), autres lignes immigration du plan (famille, étudiants, asile, titres, hébergement, mineurs isolés : 5,7 Md€ en 2032, estimations de l'Observatoire de l'immigration sans chiffrage indépendant)",
-    "n": 18,
+    "sum": -22.1,
+    "p10": -29.9,
+    "p90": -6.6,
+    "realsum": -25.5,
+    "missing": "capitalisation, audiovisuel public, aide au développement, et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (niveaux annuels en 2032), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ en 2032, sans chiffrage indépendant), autres lignes immigration du plan, reprises de l'Observatoire de l'immigration et de la démographie et que les données officielles ne permettent pas de refaire sans ses hypothèses (niveaux 2032) : immigration familiale 1,5, étudiants au-delà des droits différenciés (preuve de ressources) 1,4, titres au coût complet 0,5, hébergement d'urgence fermé aux personnes sous OQTF 0,5, mineurs non accompagnés, soins des demandeurs d'asile et contentieux 0,8",
+    "n": 19,
     "cost": -55.2,
-    "gain": 31.9,
+    "gain": 33.2,
     "confirm": []
    },
    "short": "Retailleau",
@@ -11691,7 +11766,7 @@
    "name": "David Lisnard",
    "party": "Nouvelle Énergie",
    "poll": "6,3 %",
-   "summary": "Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations. Notre chiffrage : −53,2 Md€ par an en 2030, soit −1 721 € par ménage. Principal obstacle : l'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend.",
+   "summary": "Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations. Notre chiffrage : −52,0 Md€ par an en 2030, soit −1 682 € par ménage. Principal obstacle : l'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend.",
    "measures": [
     {
      "id": "depense",
@@ -13514,6 +13589,57 @@
       "note": "Proposition citée entre guillemets par Capital (28/10/2026) ; émission d'origine (Europe 1 / CNEWS, 27/10) à retrouver. Le projet de loi de finances pour 2027 plafonne déjà cet abattement (non voté) : s'il est voté, la situation de départ change pour tous."
      },
      "quiz_text": "Supprimer l'abattement fiscal de 10 % sur les pensions de retraite."
+    },
+    {
+     "id": "asile",
+     "theme": "immigration",
+     "title": "Demandes d'asile dans les consulats",
+     "proposal": "Traiter les demandes d'asile dans les consulats français à l'étranger.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [
+      {
+       "source": "Institut Montaigne (même mesure, programme RN)",
+       "year": 2024,
+       "value": "Réformer la politique de l'asile : 1,2 Md€",
+       "low_md": 1.2,
+       "high_md": 1.2,
+       "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "bloque",
+     "obstacle": "Chemin : révision de la Constitution (le droit d'asile y est reconnu) par l'article 89, renégociation du droit de l'Union ; principe de non-refoulement (Convention de Genève).",
+     "claude": {
+      "id": "asile",
+      "central": 1.2,
+      "low": 1.0,
+      "high": 2.5,
+      "method": "médiane",
+      "formula": "Si la mesure passe : même mesure que Le Pen (demandes déposées depuis les ambassades et consulats) et Retailleau (asile examiné hors des frontières), même valeur : 1,2 Md€ (Institut Montaigne 2024, « Réformer la politique de l'asile ») ; bornes de l'étude 2022 sur la même mesure (1 à 2,5 Md€ : crédits de l'asile + coût des déboutés restés − 0,6 Md€ d'accueil dans des pays tiers)",
+      "inputs": [
+       {
+        "label": "Même mesure chez Le Pen (2022)",
+        "value": "« les demandes d'asile seront faites depuis les ambassades de France à l'étranger » ; économie 1,6 Md€ (1 à 2,5) : crédits de l'asile (≈ 1,2 Md€) + coût des déboutés restés (≈ 1 Md€, Cour des comptes) − 0,6 Md€ pour l'accueil dans des pays tiers",
+        "source": "Institut Montaigne (présidentielle 2022)",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/marine-le-pen/reformer-la-politique-de-lasile-et-mettre-fin-a-laccueil-des-mineurs-non-accompagnes"
+       },
+       {
+        "label": "Valeur retenue chez Le Pen",
+        "value": "« Réformer la politique de l'asile : 1,2 Md€ »",
+        "source": "Institut Montaigne, Législatives 2024, synthèse RN",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"
+       },
+       {
+        "label": "Crédits de l'action 02 « Garantie de l'exercice du droit d'asile » (hébergement des demandeurs d'asile et des réfugiés, allocation, Ofpra)",
+        "value": "1 379,6 M€ en CP (PLF 2026)",
+        "source": "Projet annuel de performances 2026, mission Immigration, asile et intégration",
+        "url": "https://www.assemblee-nationale.fr/dyn/dyn/contenu/visualisation/1087981/file/PAP2026_BG_Immigration_asile_integration_IA.pdf"
+       }
+      ],
+      "note": "Même traitement que Le Pen et Retailleau : compté « si la révision passe » ; sans effet sur le total « si les révisions sont bloquées »."
+     },
+     "quiz_text": "Traiter les demandes d'asile dans les consulats français à l'étranger."
     }
    ],
    "total": {
@@ -13523,14 +13649,14 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -53.2,
-    "p10": -60.9,
-    "p90": -47.1,
+    "sum": -52.0,
+    "p10": -59.3,
+    "p90": -45.5,
     "realsum": -55.5,
     "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, TVA unique à 25 %",
-    "n": 13,
+    "n": 14,
     "cost": -65.4,
-    "gain": 12.2,
+    "gain": 13.4,
     "confirm": []
    },
    "short": "Lisnard",
@@ -15087,7 +15213,7 @@
     "p10": 14.5,
     "p90": 34.9,
     "realsum": 14.9,
-    "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, suppression de l'aide au développement, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, étudiants étrangers 4, audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS et autres agences 2)",
+    "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, suppression de l'aide au développement, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, fin de la gratuité des études pour les étudiants étrangers 4 (montant des droits non publié), audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS et autres agences 2), lignes immigration de moins de 1 Md€ : visas plus chers 0,7, hébergement d'urgence fermé aux étrangers en situation irrégulière 0,7, aide juridictionnelle réservée aux Français 0,1",
     "n": 9,
     "cost": -9.0,
     "gain": 31.2,
@@ -15104,12 +15230,12 @@
   }
  ],
  "method": [
-  "<b>Notre chiffrage.</b> 138 mesures analysées, dont 109 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
+  "<b>Notre chiffrage.</b> 140 mesures analysées, dont 111 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
   "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». La lutte contre la fraude est comptée avec les leviers chiffrés par le Conseil d'analyse économique qui correspondent au champ de chaque mesure, dans la limite du chiffre du camp. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie) ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
-  "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026 (marquées « À confirmer ») et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés.",
+  "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026 (marquées « À confirmer ») et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés. Un chiffrage qu'un candidat reprend comme le sien (d'un institut, d'une association ou d'un parti) compte comme chiffre de son camp, quel que soit son auteur ; une économie qui repose sur une baisse de flux ou un comportement supposés par une seule note n'est pas comptée, sauf si une évaluation ou une donnée officielle les établit.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 281 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 286 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). Ce sont des ordres de grandeur.",
@@ -15223,6 +15349,10 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "29/10/2026",
+   "text": "Immigration : les lignes reprises de l'Observatoire de l'immigration et de la démographie (association qui prend position sur le sujet) sont recalculées avec les données officielles qu'il cite. Asile examiné hors des frontières : même mesure et même valeur que chez Le Pen (1,2 Md€, Institut Montaigne), désormais comptée aussi chez Retailleau et chez Lisnard, qui la propose (« si la révision passe ») ; droits d'inscription de tous les étudiants hors UE (Retailleau) : +0,07 Md€, car un décret de mai 2026 en applique déjà l'essentiel. Le reste (immigration familiale, titres, hébergement, mineurs) dépend d'hypothèses propres à cette note : listé « non compté », comme les lignes sans chiffrage du RN et de Zemmour. Règle ajoutée à la méthode : un chiffrage repris par un candidat compte comme chiffre de son camp. Totaux : Retailleau −22,1, Lisnard −52,0 Md€ (sans les mesures qui exigent une révision : inchangés)."
+  },
   {
    "date": "29/10/2026",
    "text": "Vie quotidienne, école : les 8 fiches citent désormais les études qui portent sur leurs propositions, avec la même lecture pour un même type de mesure (petites classes, salaires des enseignants, examen de fin de cycle, regroupements d'écoles, mixité, amendes aux parents, établissements autonomes) ; Retailleau, Lisnard et Zemmour passent à « mitigée », comme Attal pour la même étude. Quiz : 11 constats chiffrés et 5 cas réels ajoutés (retraites, rénovation, logement des familles, impôts, défense, carte scolaire, aides aux familles)."
