@@ -34,17 +34,19 @@ with sync_playwright() as p:
             pg.evaluate(f"go('{v}')"); pg.wait_for_timeout(60)
             check(pg.evaluate('document.documentElement.scrollWidth') <= W, f'ordinateur {W} px · {v} : pas de débordement horizontal')
         r = pg.evaluate("""(()=>{ go('cand'); const cols=getComputedStyle(document.getElementById('measures')).gridTemplateColumns.split(' ').length;
-          const side=getComputedStyle(document.querySelector('.cand-side')).position; go('moi'); const sim=getComputedStyle(document.querySelector('.sim-grid')).gridTemplateColumns.split(' ').length;
+          const side=getComputedStyle(document.getElementById('picker')).gridTemplateColumns.split(' ').length; go('moi'); const sim=getComputedStyle(document.querySelector('.sim-grid')).gridTemplateColumns.split(' ').length;
           go('methode'); const toc=document.querySelector('.met-toc').offsetParent!==null; go('accueil'); const cta=getComputedStyle(document.querySelector('.home-top')).display;
           return [cols, side, sim, toc, cta]; })()""")
-        check(r == [2, 'sticky', 2, True, 'grid'], f'ordinateur {W} px : fiches sur 2 colonnes, colonne latérale fixe, simulateur en 2 colonnes, sommaire, accueil en grille {r}')
+        check(r == [3, 8, 2, True, 'grid'], f'ordinateur {W} px : fiches sur 3 colonnes, 8 candidats sur une ligne, simulateur en 2 colonnes, sommaire, accueil en grille {r}')
         check(not errs, f'ordinateur {W} px : aucune erreur JS {errs[:1]}')
         pg.close()
     # mobile : les enveloppes de mise en page sont transparentes
     pg = b.new_page(viewport={'width': 390, 'height': 844})
     pg.goto(URL); pg.wait_for_timeout(300)
-    r = pg.evaluate("[...document.querySelectorAll('.home-top,.cand-grid,.cand-side,.cand-main,.sim-grid,.sim-in,.sim-out')].map(e=>getComputedStyle(e).display).every(d=>d==='contents') && getComputedStyle(document.querySelector('.met-toc')).display==='none'")
+    r = pg.evaluate("[...document.querySelectorAll('.home-top,.sim-grid,.sim-in,.sim-out')].map(e=>getComputedStyle(e).display).every(d=>d==='contents') && getComputedStyle(document.querySelector('.met-toc')).display==='none'")
     check(r, 'mobile : mise en page en une colonne (enveloppes transparentes, pas de sommaire)')
+    r = pg.evaluate("[getComputedStyle(document.documentElement).touchAction, getComputedStyle(document.getElementById('q')).fontSize]")
+    check(r == ['manipulation', '16px'], f'mobile : pas de zoom au double tap ni à la saisie (zoom à deux doigts conservé) {r}')
     pg.close()
 
     pg = b.new_page(viewport={'width': 390, 'height': 844}); errs = []

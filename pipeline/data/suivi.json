@@ -1284,7 +1284,7 @@
    "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": "Fait le 29/10 : à partir de 1100 px, page de 1240 px en colonnes (accueil, fiches sur deux colonnes avec colonne latérale fixe, simulateur réglages/résultats, sommaire de la méthode) ; mobile inchangé ; tests à 1100, 1440 et 1920 px."
+   "resolution": "Fait le 29/10 : à partir de 1100 px, page de 1240 px en colonnes (accueil, page candidat avec les 8 candidats sur une ligne, présentation et total côte à côte et fiches sur trois colonnes, simulateur réglages/résultats, sommaire de la méthode) ; mobile inchangé, sans zoom au double tap ; tests à 1100, 1440 et 1920 px."
   }
  ]
 }
