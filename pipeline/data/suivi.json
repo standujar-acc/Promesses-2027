@@ -1115,10 +1115,10 @@
    "sujet": "Rôle de Sarah Knafo : ses propositions valent-elles programme de Zemmour ?",
    "detail": "Faits (revue du 28/10/2026) : S. Knafo est secrétaire générale de Reconquête, sans rôle de campagne officiel connu (ni directrice de campagne, ni porte-parole, ni responsable du programme). Son plan de 140 Md€ d'économies (budget2027.fr) a été repris par le candidat le 17/09 et est compté. Elle présente ce plan comme le financement de la suppression de la CSG sur les salaires (TF1 07/09, CNews 30/08, Sud Radio 16/10), et propose aussi d'abolir les droits de succession et les impôts de production ; le candidat ne les a pas repris. Règle actuelle (S070 et consignes du 28/10) : un proche sans rôle officiel ne parle pas pour le candidat sans reprise. Options : A) lecture stricte, total inchangé (+21,3), note visible dans « Le camp annonce » ; B) S. Knafo parle pour le candidat : total −108,3 (CSG −101,6, successions −15, production −13), et la même règle vaudrait pour les dirigeants des partis des 7 autres candidats ; C) intermédiaire : la CSG seule, présentée comme but du plan repris : total ≈ −80,3. Veille du 29/10, même question chez le RN : à Orléans (25/10), le président du RN J. Bardella, sans rôle de campagne déclaré, annonce lui aussi des mesures (allocations suspendues pour les familles de mineurs récidivistes, uniforme, portable) ; la règle retenue pour S. Knafo devra valoir pour lui.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-28",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Tranché le 29/10 (délégation du porteur ; règle S070 et consignes du 28/10, la même pour les 8) : une personne sans rôle officiel dans la campagne ne parle pas pour le candidat tant qu'il ne reprend pas ses propositions. S. Knafo (secrétaire générale de Reconquête) : CSG, successions et impôts de production restent « à confirmer », hors total ; même lecture pour les dirigeants des autres partis (J. Bardella au RN, L. Marcangeli chez Horizons). À revoir si elle reçoit un rôle officiel de campagne ou si le candidat reprend ses propositions."
   },
   {
    "id": "S075",
@@ -1622,7 +1622,7 @@
    ],
    "mesure": null,
    "sujet": "Vie quotidienne : propositions hors affichage (plafond de 5 par thème, doublons)",
-   "detail": "Règle (méthode, décisions du porteur du 29/10) : au plus 5 propositions par thème ; au-delà, d'abord celles de 2026, puis les précises, puis les plus récentes ; à égalité ou à date inconnue, l'ordre affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce) ; une proposition remplacée par sa version précise n'est pas gardée en double. Le plafond, d'abord fixé à 3, est passé à 5 le 29/10 : toutes les propositions retirées un temps ont été remises, sauf les doublons. Restent hors affichage : (1) doublons remplacés par leur version précise : Attal, sécurité, « Adapter le cadre constitutionnel contre la délinquance des mineurs » (intention du 2/08, remplacée par « Comparution immédiate dès 16 ans et fin de l'excuse de minorité automatique pour les mineurs récidivistes », 19/10) ; Lisnard, sécurité, « Lever l'excuse de minorité pour les crimes de sang » (site non officiel, remplacée par la version du programme : majorité pénale à 16 ans, excuse de minorité de 50 % à 20 %, établissements fermés, 27/10). (2) Au-delà de 5 : Retailleau, libertés, délit d'atteinte aux principes de la République, avis conforme du préfet pour un lieu de culte et motifs nouveaux de dissolution (proposition de loi contre l'entrisme adoptée par le Sénat, Public Sénat, 5/05/2026) : 6e, la moins récente des propositions précises de 2026 du thème. À chaque revue : une proposition redite reprend sa place selon la règle.",
+   "detail": "Règle (méthode, décisions du porteur du 29/10) : au plus 5 propositions par thème ; au-delà, d'abord celles de 2026, puis les précises, puis les plus récentes ; à égalité ou à date inconnue, l'ordre affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce) ; une proposition remplacée par sa version précise n'est pas gardée en double. Le plafond, d'abord fixé à 3, est passé à 5 le 29/10 : toutes les propositions retirées un temps ont été remises, sauf les doublons. Restent hors affichage : (1) doublons remplacés par leur version précise : Attal, sécurité, « Adapter le cadre constitutionnel contre la délinquance des mineurs » (intention du 2/08, remplacée par « Comparution immédiate dès 16 ans et fin de l'excuse de minorité automatique pour les mineurs récidivistes », 19/10) ; Lisnard, sécurité, « Lever l'excuse de minorité pour les crimes de sang » (site non officiel, remplacée par la version du programme : majorité pénale à 16 ans, excuse de minorité de 50 % à 20 %, établissements fermés, 27/10). (2) Au-delà de 5 : Retailleau, libertés, délit d'atteinte aux principes de la République, avis conforme du préfet pour un lieu de culte et motifs nouveaux de dissolution (proposition de loi contre l'entrisme adoptée par le Sénat, Public Sénat, 5/05/2026) : 6e, la moins récente des propositions précises de 2026 du thème. À chaque revue : une proposition redite reprend sa place selon la règle. 29/10 (soir) : Zemmour, sécurité : « Expulser les délinquants étrangers purgeant leur peine hors prison (bracelet, TIG) » (17/09) sort de l'affichage à l'entrée des 100 000 places (25/10).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-29",
@@ -1640,7 +1640,7 @@
    ],
    "mesure": null,
    "sujet": "Vie quotidienne : reconfirmations possibles, non tranchées le 29/10",
-   "detail": "(1) Impôts de production : chez Le Pen (« Baisser de 16,2 Md€ ») et Philippe (« 50 Md€ »), la proposition reste marquée non reconfirmée, alors que les fiches « production » (contre-budget 2027 du RN ; « Deal 50 Md€ ») sont comptées : si la reconfirmation en 2026 est établie, retirer la marque et mettre le texte à jour (même décision pour les deux). (2) Mélenchon : la note du 14/10 reprendrait l'objectif de 19 élèves par classe (non vérifié à la source) ; « Réduire les effectifs par classe » deviendrait précise et de 2026 et passerait devant « Scolarité obligatoire jusqu'à 18 ans ». (3) Lisnard : le 27/10 (Europe 1, CNews), le préambule de la Constitution ne pourrait plus servir à censurer une loi, sinon référendum (rapporté sans guillemets) : version précise de l'intention sur le Conseil constitutionnel ? (4) Le Pen : « Porter le parc à 85 000 places » (2022) et fiche « 30 000 places » (contre-budget 2027) : texte à mettre à jour ? (5) Le Pen : indicateur « Déficit public sous 3 % du PIB en 2030 » et règle d'or de la tribune du 1/10 (plafond de 3,9 % en 2030, 2,9 % en 2032) : vérifier la source de l'indicateur.",
+   "detail": "(1) Impôts de production : chez Le Pen (« Baisser de 16,2 Md€ ») et Philippe (« 50 Md€ »), la proposition reste marquée non reconfirmée, alors que les fiches « production » (contre-budget 2027 du RN ; « Deal 50 Md€ ») sont comptées : si la reconfirmation en 2026 est établie, retirer la marque et mettre le texte à jour (même décision pour les deux). (2) Mélenchon : la note du 14/10 reprendrait l'objectif de 19 élèves par classe (non vérifié à la source) ; « Réduire les effectifs par classe » deviendrait précise et de 2026 et passerait devant « Scolarité obligatoire jusqu'à 18 ans ». (3) Lisnard : le 27/10 (Europe 1, CNews), le préambule de la Constitution ne pourrait plus servir à censurer une loi, sinon référendum (rapporté sans guillemets) : version précise de l'intention sur le Conseil constitutionnel ? (4) Le Pen : « Porter le parc à 85 000 places » (2022) et fiche « 30 000 places » (contre-budget 2027) : texte à mettre à jour ? (5) Le Pen : indicateur « Déficit public sous 3 % du PIB en 2030 » et règle d'or de la tribune du 1/10 (plafond de 3,9 % en 2030, 2,9 % en 2032) : vérifier la source de l'indicateur. 29/10 (soir) : (1) fait, impôts de production reconfirmés chez Le Pen (« Supprimer la CFE, la CVAE et la C3S », contre-budget 2027) et Philippe (« deal » de 50 Md€), comme leurs fiches comptées ; (4) fait, Le Pen : « Construire 30 000 places de prison » (contre-budget 2027) à la place des 85 000 places de 2022, indicateur mis à jour ; Philippe, heures sup : « cotisation patronale », comme sa fiche. Restent (3) et (5).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-29",
@@ -1862,7 +1862,7 @@
    ],
    "mesure": null,
    "sujet": "Quiz : mesures comptées sans entrée (aide au développement, certificats, prisons)",
-   "detail": "Comptées depuis le 29/10 sans entrée au quiz (texte courant, constat, « Pour » et « Contre » sourcés) : Zemmour, suppression de l'aide au développement et fin des certificats d'économies d'énergie ; Retailleau, fin des certificats ; Zemmour, 100 000 places de prison (comme les 20 000 places de Lisnard, déjà absentes). Mêmes études et mêmes cas pour les mesures du même type (prisons : ceux de la fiche Le Pen ; certificats : une seule entrée commune à Retailleau et Zemmour). À trancher avant : un duel entre deux propositions de même texte (prisons, certificats) n'apprend rien ; même règle pour tous.",
+   "detail": "Comptées depuis le 29/10 sans entrée au quiz (texte courant, constat, « Pour » et « Contre » sourcés) : Zemmour, suppression de l'aide au développement et fin des certificats d'économies d'énergie ; Retailleau, fin des certificats ; Zemmour, 100 000 places de prison (comme les 20 000 places de Lisnard, déjà absentes). Mêmes études et mêmes cas pour les mesures du même type (prisons : ceux de la fiche Le Pen ; certificats : une seule entrée commune à Retailleau et Zemmour). À trancher avant : un duel entre deux propositions de même texte (prisons, certificats) n'apprend rien ; même règle pour tous. 29/10 (soir) : le quiz ne met jamais en duel deux propositions au même texte et n'en garde qu'une par partie (code du tirage) : pas de blocage. Ajoutées : places de prison de Lisnard et de Zemmour, mêmes texte, études et cas que Le Pen. Restent : certificats (Retailleau, Zemmour, une entrée commune) et aide au développement (Zemmour), à sourcer.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-29",
@@ -1879,10 +1879,10 @@
    "sujet": "Retailleau : borne basse des places de prison sans la construction",
    "detail": "Les fiches prisons de Le Pen, Lisnard et Zemmour comptent la construction (370 k€ la place, sur 5 ans) en borne basse ; la fiche « Peines planchers » de Retailleau (10 000 places et 4 000 années de détention, −0,45) ne la compte pas (borne basse −0,6). Avec le gabarit commun : ≈ −0,45 − 0,74 (10 000 × 370 k€ / 5) ≈ −1,2. Sans effet sur la valeur centrale ni sur le total ; élargit la fourchette.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 : borne basse des peines planchers de Retailleau avec la construction (370 k€ la place sur 5 ans, comme Le Pen, Lisnard et Zemmour) : −1,2 au lieu de −0,6 ; valeur centrale et total inchangés."
   },
   {
    "id": "S122",
@@ -1926,10 +1926,10 @@
    "sujet": "Vie quotidienne, sécurité : 100 000 places de prison de Zemmour",
    "detail": "Proposition confirmée le 25/10 (émission « Les Incorrectibles ») et comptée dans les fiches ; absente du thème « sécurité » de la vie quotidienne, où figurent les 20 000 places de Lisnard et le parc de 85 000 places de Le Pen. À ajouter selon la règle d'ordre du thème (S106), avec la même lecture des études que Lisnard.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 : « Construire très vite 100 000 places de prison » (25/10, émission « Les Incorrectibles ») dans « Vie quotidienne > sécurité », même lecture des études que Le Pen et Lisnard (places vite comblées, Sénat 2023) ; par la règle d'ordre (plafond de 5), la proposition la plus ancienne du thème (expulsion des délinquants étrangers purgeant leur peine hors prison, 17/09) sort de l'affichage (S106)."
   },
   {
    "id": "S125",
@@ -1959,10 +1959,10 @@
    "sujet": "Justice des mineurs : décision n° 2025-886 DC du Conseil constitutionnel, à mentionner dans les obstacles ?",
    "detail": "Le Conseil constitutionnel (19/06/2025, loi « visant à renforcer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents ») a censuré la comparution immédiate des mineurs d'au moins 16 ans (article 4) et la règle qui écartait l'atténuation de la peine pour certains mineurs de plus de 16 ans, notamment récidivistes (article 7), au nom du principe fondamental reconnu par les lois de la République en matière de justice des mineurs (atténuation de la responsabilité selon l'âge, relèvement éducatif). Cela vaut pour la proposition d'Attal (mêmes dispositions) et, par le même principe, pour celles de Lisnard (majorité pénale à 16 ans, excuse de minorité de 50 % à 20 %) et de Retailleau (majorité pénale à 15 ans). Décision du porteur (29/10) : c'est de la faisabilité, pas de l'efficacité, donc rien dans les textes d'évidence. À trancher : mention dans les obstacles (fiche ou résumé), la même pour les trois, par exemple « Atténuation de la peine selon l'âge : principe constitutionnel (Conseil constitutionnel, 2025) », et lecture de la faisabilité (révision de la Constitution nécessaire ?) avec la même règle que les autres mesures. Source ouverte le 29/10 : https://www.conseil-constitutionnel.fr/decision/2025/2025886DC.htm",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Tranché le 29/10 : le volet « Vie quotidienne » dit l'efficacité selon les études, pas la faisabilité ; la décision n° 2025-886 DC n'y est donc pas écrite, ni chez Attal, ni chez Lisnard, ni chez Retailleau. Si l'une de ces propositions devient une fiche chiffrée, son obstacle citera la décision, avec la même phrase pour les trois."
   },
   {
    "id": "S127",
