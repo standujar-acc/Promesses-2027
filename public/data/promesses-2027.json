@@ -15098,6 +15098,10 @@
  "changelog": [
   {
    "date": "29/10/2026",
+   "text": "Téléphone : en haut de la fiche, les 8 candidats sont de nouveau sur deux lignes ; en descendant, une bande d'une ligne glisse en haut de l'écran pour changer de candidat sans remonter (elle ne suivait pas le défilement sur certains téléphones)."
+  },
+  {
+   "date": "29/10/2026",
    "text": "Sondages : le chiffre affiché est désormais la moyenne des 7 instituts ayant publié une enquête dont le terrain s'est achevé dans les 15 jours (Cluster17, Elabe, Ifop-Fiducial, Ipsos BVA, OpinionWay, Toluna Harris Interactive, YouGov ; du 12 au 22 octobre), au lieu du seul Ipsos BVA ; pour chaque institut, milieu de la fourchette des hypothèses testées. L'ordre des candidats suit cette moyenne : Le Pen 34,1 %, Mélenchon 16,8 %, Philippe 13,9 %, Glucksmann 13,8 %, Attal 7,8 %, Retailleau 7,3 %, Lisnard 6,3 %, Zemmour 3,9 %. Détail par institut dans les données ouvertes."
   },
   {
