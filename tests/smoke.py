@@ -45,7 +45,7 @@ with sync_playwright() as p:
           const stuck=getComputedStyle(document.getElementById('cand-bar')).position; window.scrollTo(0,0); return [v, Math.abs(a-b)<1, stuck, Math.abs(bar)<1]; })()""")
         check(r == [True, True, 'sticky', True], f'ordinateur {W} px : total affiché et immobile entre Budget et Vie quotidienne, barre des candidats fixe {r}')
         # résultat du quiz : « Par candidat » et « Par thème » côte à côte, « ce qui colle » et « ce qui colle moins » côte à côte
-        r = pg.evaluate("""(()=>{ go('quiz'); quizStart(); for(let i=0;i<20;i++) document.querySelector(`#v-quiz [data-k="${['0','1','both','0','1'][i%5]}"]`).click();
+        r = pg.evaluate("""(()=>{ go('quiz'); quizStart(); for(let i=0;i<20;i++){ const k=quizState.qs[quizState.i].opts.findIndex(o=>o.c==='le-pen'); document.querySelector(`#v-quiz [data-k="${k>=0?k:'none'}"]`).click(); }
           const g=document.querySelector('.qgrid'), n=document.querySelector('.qnear'); const out=[g?getComputedStyle(g).gridTemplateColumns.split(' ').length:0, n?getComputedStyle(n).gridTemplateColumns.split(' ').length:0, document.documentElement.scrollWidth<=innerWidth];
           quizState=null; go('accueil'); return out; })()""")
         check(r == [2, 2, True], f'ordinateur {W} px : résultat du quiz sur deux colonnes, sans débordement {r}')
