@@ -514,5 +514,105 @@
 "glucksmann.cheque_energie": [
 "Tripler le chèque énergie et l'ouvrir aux classes moyennes",
 "Une aide plus forte pour payer l'électricité, le gaz ou le fioul, versée à plus de ménages."
+],
+"le-pen.recherche": [
+"Augmenter l'argent public consacré à la recherche",
+"Plus de moyens publics pour les laboratoires et la recherche scientifique."
+],
+"le-pen.prisons": [
+"Construire beaucoup plus de places de prison",
+"Plus de cellules pour les personnes condamnées à de la prison."
+],
+"le-pen.proches-aidants": [
+"Mieux indemniser les salariés qui s'arrêtent pour aider un proche malade ou dépendant",
+"L'allocation versée pendant le congé de proche aidant serait plus élevée."
+],
+"le-pen.dentaire": [
+"Faire rembourser entièrement les soins dentaires par la Sécurité sociale, sur la base de ses tarifs",
+"La Sécurité sociale paierait toute la part qu'elle fixe ; les dépassements resteraient à votre charge ou à celle de votre mutuelle."
+],
+"melenchon.logement-urgence": [
+"Créer des logements d'urgence et réquisitionner des logements vides",
+"Des logements vides depuis longtemps pourraient être pris par l'État pour loger des sans-abri."
+],
+"melenchon.cantine": [
+"Rendre la cantine scolaire gratuite pour tous les élèves",
+"Plus de facture de cantine pour les familles."
+],
+"melenchon.universites": [
+"Créer un grand nombre de places supplémentaires à l'université",
+"Plus de places à l'université, pour que l'offre suive la demande des bacheliers."
+],
+"melenchon.hopitaux": [
+"Augmenter le budget des hôpitaux et recruter des milliers de soignants",
+"Plus d'infirmiers et d'aides-soignants dans les hôpitaux publics."
+],
+"melenchon.vss": [
+"Multiplier les moyens contre les violences sexistes et sexuelles",
+"Beaucoup plus d'argent public contre les violences faites aux femmes et les violences sexuelles."
+],
+"melenchon.violences-enfants": [
+"Consacrer beaucoup plus d'argent à la lutte contre les violences faites aux enfants",
+"Plus de moyens publics contre la maltraitance et les violences sur les enfants."
+],
+"melenchon.planification": [
+"Un plan d'urgence pour adapter le pays au climat",
+"Écoles et hôpitaux rénovés, plus de moyens pour les pompiers et pour l'agriculture face aux sécheresses."
+],
+"melenchon.chomage": [
+"Annuler les réformes récentes qui ont réduit l'assurance chômage",
+"Retour aux règles d'avant : accès plus facile à l'indemnisation, plus longue et parfois plus élevée."
+],
+"melenchon.af-apl": [
+"Augmenter les allocations familiales et les aides au logement",
+"Ces aides augmenteraient ; pensions et prestations suivraient les prix."
+],
+"philippe.premier_contrat": [
+"L'État verse une somme sur une épargne retraite à chaque jeune dès son premier emploi",
+"Chaque jeune démarre sa vie active avec un petit capital pour sa retraite, qu'il peut compléter."
+],
+"philippe.armees": [
+"Augmenter fortement le nombre de réservistes et de jeunes volontaires dans l'armée",
+"Beaucoup plus de civils formés pour renforcer les armées, et un service militaire volontaire bien plus large."
+],
+"philippe.ingenieurs": [
+"Former beaucoup plus d'ingénieurs chaque année",
+"Le nombre d'ingénieurs diplômés chaque année serait plus que doublé en cinq ans."
+],
+"retailleau.conge_naissance": [
+"Allonger le congé de naissance jusqu'aux six mois de l'enfant, bien indemnisé",
+"L'un des parents pourrait rester à la maison jusqu'aux six mois du bébé, en gardant une grande partie de son salaire."
+],
+"retailleau.chomage": [
+"Durcir l'assurance chômage : droits plus courts, surtout après une rupture conventionnelle",
+"Il faudrait avoir travaillé plus longtemps pour être indemnisé, et moins longtemps ; six mois au plus après une rupture conventionnelle."
+],
+"retailleau.ia": [
+"Un grand plan public pour l'intelligence artificielle",
+"Investir dans les données, la formation et les entreprises de l'IA, avec un assistant IA pour les démarches avec l'État."
+],
+"retailleau.profs": [
+"Augmenter le salaire des enseignants, surtout en début et en milieu de carrière",
+"Les profs gagnent plus, pour se rapprocher de la moyenne européenne."
+],
+"attal.engagement_civique": [
+"Un mois d'engagement civique obligatoire pour chaque jeune",
+"Chaque jeune consacre un mois à une mission d'intérêt général avant 25 ans."
+],
+"attal.ia": [
+"Investir massivement dans l'intelligence artificielle, avec un assistant IA pour chaque élève et chaque patient",
+"L'État et les entreprises financent l'IA ; élèves et patients ont un assistant numérique ; les salariés sont formés."
+],
+"lisnard.gel_pensions": [
+"Geler les retraites les plus élevées, les petites restant revalorisées",
+"Les pensions au-dessus d'un certain montant ne suivraient plus la hausse des prix ; les autres, si."
+],
+"zemmour.ame": [
+"Supprimer la couverture santé des sans-papiers",
+"Les sans-papiers n'auraient plus d'aide publique pour payer leurs soins."
+],
+"zemmour.rsa3": [
+"Limiter le RSA à trois ans pour les personnes capables de travailler",
+"Au bout de trois ans, un allocataire apte au travail ne toucherait plus le RSA."
 ]
 }
