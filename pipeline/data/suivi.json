@@ -9,7 +9,7 @@
    ],
    "mesure": null,
    "sujet": "Programme « L'avenir en commun » 2027",
-   "detail": "Publication annoncée le 6 novembre 2026, convention le 7 : revoir toutes les mesures LFI (chiffres, mesures ajoutées ou abandonnées). Veille du 29/10 : dates confirmées par le site officiel (28/10) : livre-programme en librairie le 6 novembre, meeting de présentation le samedi 7 novembre à 15 h au Bourget. Plan thématique « Enseignement supérieur et recherche » publié le 26/10 (fiche « recherche », non chiffrable, voir S085).",
+   "detail": "Publication annoncée le 6 novembre 2026, convention le 7 : revoir toutes les mesures LFI (chiffres, mesures ajoutées ou abandonnées). Veille du 29/10 : dates confirmées par le site officiel (28/10) : livre-programme en librairie le 6 novembre, meeting de présentation le samedi 7 novembre à 15 h au Bourget. Plan thématique « Enseignement supérieur et recherche » publié le 26/10 (fiche « recherche », non chiffrable, voir S085). Revue du 29/10 : plan d'urgence du groupe LFI pour l'éducation (1/09) : +20 % pour les enseignants contre +10 % pour tous les fonctionnaires dans la note du 14/10 (la note prévaut, fiche point d'indice) ; gratuité scolaire et AESH titularisés en « non compté » (S099).",
    "echeance": "2026-11-06",
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -1468,7 +1468,389 @@
    "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": "Fait le 29/10 : image d'aperçu 1200 × 630 (sans chiffre ni sondage) et balises Open Graph et X/Twitter, lues par WhatsApp, les réseaux sociaux et les messageries ; adresse canonique, données structurées (site, jeu de données ouvert), plan du site et robots.txt, icônes ; nouvelle adresse du site : https://p2027.org (demande du porteur). Pages statiques par candidat retirées à la demande du porteur. Reste au porteur : déclarer p2027.org dans Google Search Console et y envoyer le plan du site ; s'il le souhaite, rediriger promesses-2027.pages.dev vers p2027.org dans Cloudflare."
+   "resolution": "Fait le 29/10 : image d'aperçu 1200 × 630 (sans chiffre ni sondage) et balises Open Graph et X/Twitter, lues par WhatsApp, les réseaux sociaux et les messageries ; adresse canonique, données structurées (site, jeu de données ouvert), plan du site et robots.txt, icônes ; nouvelle adresse du site : https://p2027.org (demande du porteur). Pages statiques par candidat retirées à la demande du porteur. Reste au porteur : déclarer p2027.org dans Google Search Console et y envoyer le plan du site ; s'il le souhaite, rediriger promesses-2027.pages.dev vers p2027.org dans Cloudflare. Pages par candidat : écartées pour le moment par le porteur (29/10)."
+  },
+  {
+   "id": "S097",
+   "type": "a_ajouter",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "glucksmann",
+    "philippe",
+    "retailleau",
+    "attal",
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Casseur-payeur : propositions des candidats (Vie quotidienne, sécurité)",
+   "detail": "Après les violences du 17/10/2026, plusieurs candidats proposent de faire payer les dégâts aux casseurs. Faits communs (projet de loi « relatif à la réparation des dommages résultant de violences ou de dégradations commises dans l'espace public », Sénat n° 952, 16/09/2026, exposé des motifs et étude d'impact) : responsabilité civile de l'auteur (art. 1240-1241 du code civil) et des parents d'un mineur (art. 1242) ; action récursoire de l'État contre les auteurs depuis la loi du 10/04/2019, jamais utilisée ; charge de l'État pour les dégâts d'attroupements (art. L. 211-10 du code de la sécurité intérieure) : 4,1 M€ par an en moyenne de 2021 à 2025 ; saisie des prestations sans effet sur le budget de la Sécurité sociale. Projet adopté par le Sénat dans la nuit du 27 au 28/10/2026 (229 voix contre 105), reste l'Assemblée (S119).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 (décisions du porteur, même règle pour les 8) : volet « Vie quotidienne », thème sécurité, sans fiche chiffrée (quelques M€ par an). Même texte d'évidence pour tous (constante CASSE de life.py : droit existant, recours de l'État jamais utilisé, 4,1 M€ par an, effet dissuasif non évalué ; le projet de loi voté au Sénat le 28/10 figure dans le libellé de la source LCP, pour garder des textes courts) ; pas d'étude pour cette lecture : l'étiquette du thème reste celle des autres propositions évaluées (Le Pen, Philippe, Retailleau : mitigée ; Attal, Lisnard, Zemmour : non démontrée). Test « précis » : un moyen juridique est donné. Le Pen (franceinfo et Capital, 21/10 : responsabilité solidaire, prélèvement sur allocations ou salaire, parents des mineurs) ; Philippe (Capital, 29/10, et L'Express, 27/10, d'après Le Point : prélèvement sur salaires ou prestations) ; Retailleau (Capital d'après RCF, 27/10 : présomption de responsabilité dans un attroupement violent, aides sociales) ; Zemmour (Europe 1, 7/10 ; Entrevue, 18 et 25/10 : parents et allocations, loi anticasseurs de 1970) ; Attal (site, 19 et 23/10 : « Tu casses, tu répares » et responsabilité automatique des deux parents, donc précis ; sa porte-parole de campagne, RFI, 22/10) ; Lisnard (Europe 1, 27/10 : dégâts déduits des aides sociales si le casseur n'est pas solvable ; son soutien au projet de loi n'est pas compté comme proposition). Mélenchon et Glucksmann : aucune proposition de ce type. Non retenus (S074, inchangé) : J. Bardella (19 et 25/10), L. Marcangeli (25/10). Jusqu'à 5 propositions par thème (décision du porteur, 29/10) : les propositions de sécurité du programme restent affichées à côté. Textes d'évidence de 404 à 455 caractères quand plusieurs lectures s'ajoutent (Le Pen, Philippe, Retailleau, Zemmour). Hors affichage : S106."
+  },
+  {
+   "id": "S098",
+   "type": "a_ajouter",
+   "candidats": [
+    "le-pen"
+   ],
+   "mesure": null,
+   "sujet": "Propositions oubliées : Le Pen (revue du 29/10)",
+   "detail": "Recherche du 29/10 : propositions publiées en 2026 absentes du site (fiches, Vie quotidienne, liste « non compté »).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10. Vie quotidienne : libertés, « communauté nationale » dans la Constitution (discours d'Orléans, 25/10, Europe 1 ; précis : révision constitutionnelle) et proportionnelle redite le même jour sous la forme « avec prime majoritaire » : marque « non reconfirmée » retirée (décision du porteur) ; économie, règle d'or budgétaire par référendum (tribune à L'Opinion du 1/10, via LCP : déficit de 4,9 % du PIB en 2027 à 2,4 % en 2033), même gabarit que Philippe. Évidence de l'économie : lecture RTE ajoutée pour la fin des subventions aux renouvelables (même lecture que Retailleau et que l'environnement de Le Pen), à côté de celle des impôts de production : étiquette « mitigée » au lieu de « non démontrée ». Liste « non compté » : gel des taxes sur le tabac (S112). Annonces de J. Bardella (école, allocations) : rien tant que S074 n'est pas tranché. Reconfirmations possibles : S107."
+  },
+  {
+   "id": "S099",
+   "type": "a_ajouter",
+   "candidats": [
+    "melenchon"
+   ],
+   "mesure": null,
+   "sujet": "Propositions oubliées : Mélenchon (revue du 29/10)",
+   "detail": "Recherche du 29/10 : propositions publiées en 2026 absentes du site ; plan d'urgence du groupe LFI pour l'éducation (1/09/2026).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10. Vie quotidienne : libertés, droit de vote à 16 ans (meeting de Clermont-Ferrand, 11/10, L'Express via Orange) ; école, suppression de Parcoursup et de MonMaster (11/10 et note budgétaire du 14/10), qui reste aussi dans la liste « non compté ». Plan d'urgence du groupe LFI pour l'éducation (LCP, 1/09) : la note budgétaire du candidat (14/10, +10 % pour tous les fonctionnaires) prévaut sur les +20 % des enseignants (note de la fiche point d'indice, décision du porteur) ; gratuité des fournitures, manuels, transports et périscolaire (« une dizaine de milliards » selon le groupe, cantine comprise, chiffrage en cours) et AESH fonctionnaires de catégorie B : liste « non compté » ; à revoir avec le programme du 6/11 (S001). Plan ruralités (9/10) : rien de plus. Reconfirmation possible (19 élèves par classe) : S107."
+  },
+  {
+   "id": "S100",
+   "type": "a_ajouter",
+   "candidats": [
+    "philippe"
+   ],
+   "mesure": null,
+   "sujet": "Propositions oubliées : Philippe (revue du 29/10)",
+   "detail": "Recherche du 29/10 : propositions publiées en 2026 absentes du site.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10. Vie quotidienne : sécurité, casseur-payeur (S097) ; économie, règle d'or par référendum et déficit ramené à 2 % du PIB en fin de quinquennat (site, « Pour une France plus prospère »), même gabarit que Le Pen ; environnement, mêmes aides pour une voiture électrique d'occasion que pour une neuve (site, « Pour une France plus conquérante »), même type que le leasing d'occasion d'Attal. Fiche immigration : droit du sol suspendu à Mayotte (France Mayotte Matin, 21/08, via Euronews), dans le texte, sans chiffrage, comme Le Pen et Retailleau (décision du porteur). Autres propositions du site, sans preuve d'importance : S116. Propos de L. Marcangeli : S074."
+  },
+  {
+   "id": "S101",
+   "type": "a_ajouter",
+   "candidats": [
+    "glucksmann"
+   ],
+   "mesure": null,
+   "sujet": "Propositions oubliées : Glucksmann (revue du 29/10)",
+   "detail": "Recherche du 29/10 : propositions publiées en 2026 absentes du site.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10. Vie quotidienne : école, abrogation de Parcoursup (réunion à Matignon, 22/10, franceinfo) ; économie, « état d'urgence industriel » pour les secteurs menacés par la Chine (premier meeting, 13/06, LCP), intention. Liste « non compté » : annulation des suppressions de postes de l'Éducation nationale du budget 2027 (sous 1 Md€, comme Attal ; S118). Régularisation de 300 000 travailleurs sans papiers : non vérifiée (S113)."
+  },
+  {
+   "id": "S102",
+   "type": "a_ajouter",
+   "candidats": [
+    "attal"
+   ],
+   "mesure": null,
+   "sujet": "Propositions oubliées : Attal (revue du 29/10)",
+   "detail": "Recherche du 29/10 : propositions publiées en 2026 absentes du site.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10. Vie quotidienne : sécurité, casseur-payeur (précis : responsabilité automatique des deux parents), comparution immédiate dès 16 ans et fin de l'excuse de minorité automatique pour les récidivistes (version précise de « Adapter le cadre constitutionnel contre la délinquance des mineurs », qui n'est pas gardée en double, S106), reconnaissance faciale et militaires ou réservistes pour la garde des bâtiments publics (site, 19 à 23/10) ; évidence : lecture des coupures de réseaux gardée, étiquette « non démontrée » inchangée ; économie, « Constitution du travail » et loi de stabilité fiscale et normative de dix ans (programme « Travail & salaires », conférence du 28/10, lettre du 15/10) ; rayonnement, droits ciblés sur l'acier, les voitures électriques et les panneaux solaires chinois et contrôle des investissements chinois (programme « Frontières »). Liste « non compté » : livret « garde d'enfant » et 200 000 professionnels de la petite enfance, mesures carburant du 23/09 (barème kilométrique, prime carburant de 1 000 €, boîtier E85, gros rouleurs, bonus électrique d'occasion), donations aux petits-enfants. Réseaux sociaux interdits aux moins de 15 ans : déjà votés en juillet 2026, non ajoutés. Hors affichage : S106 ; doublon : S117."
+  },
+  {
+   "id": "S103",
+   "type": "a_ajouter",
+   "candidats": [
+    "retailleau"
+   ],
+   "mesure": null,
+   "sujet": "Propositions oubliées : Retailleau (revue du 29/10)",
+   "detail": "Recherche du 29/10 : propositions publiées en 2026 absentes du site (projet en ligne, entretiens).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10. Vie quotidienne : sécurité, casseur-payeur (S097) et déchéance de nationalité des binationaux auteurs de pillages ou de violences (19/10, franceinfo ; S040) ; libertés, droit à la sécurité dans la Constitution (projet en ligne) et cour disciplinaire de la magistrature avec des citoyens tirés au sort (6/06, site des Républicains) ; économie, code du travail refondé sur 50 principes ; rayonnement, Schengen réservé aux Européens (JDD, 2/08, site des Républicains) ; école, sélection à l'université et plateforme au mérite à la place de Parcoursup (Public Sénat, 14/10), même type que Mélenchon et Glucksmann, et internats disciplinaires (au moins un par académie, projet en ligne). Fiche « 9 000 € de TVA aux communes par logement neuf » : transfert entre administrations, central 0, borne basse −3,3 (369 723 logements autorisés × 9 000 €), règle écrite dans la méthode (décision du porteur). Fiche immigration : quotas fixés par la loi et expulsion obligatoire des étrangers condamnés, dans le texte (contrôles aux frontières sans limite de temps : S111). Fiche « ménages » : lecture des certificats d'économies d'énergie écrite (S114). Liste « non compté » : statut du bailleur privé, barème kilométrique. Hors affichage (6e proposition des libertés, loi contre l'entrisme) : S106."
+  },
+  {
+   "id": "S104",
+   "type": "a_ajouter",
+   "candidats": [
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Propositions oubliées : Lisnard (revue du 29/10)",
+   "detail": "Recherche du 29/10 : propositions publiées en 2026 absentes du site (programme de Nouvelle Énergie, entretiens).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10. Vie quotidienne : sécurité, casseur-payeur (dégâts déduits des aides sociales, Europe 1, 27/10), justice des mineurs (majorité pénale à 16 ans, excuse de minorité de 50 % à 20 % de la peine, établissements disciplinaires fermés ; programme et Europe 1, 27/10) à la place de « Lever l'excuse de minorité pour les crimes de sang » (source non officielle), fichier des casseurs et cagoules (entretien au Point repris par Nouvelle Énergie, 23/10) ; évidence : lecture commune des places de prison (Sénat, 2023, comme Le Pen), étiquette « non démontrée » inchangée ; libertés, interdiction des Frères musulmans et du voile à l'université (programme « Sécurité ») ; école, chèque-éducation progressif et nouveaux enseignants contractuels (programme, BFMTV 15/10, Europe 1 27/10) ; économie, contrat de travail unique (programme) et interdiction de relever un impôt plus d'une fois par législature (tribune du 16/04). Fiche « Aides après 5 ans de résidence » : fin de l'automaticité du droit du sol (décision du porteur), quotas de main-d'œuvre, délit de séjour irrégulier, expulsions, dans le texte (rétention de 24 mois : S111). Liste « non compté » : revenus fonciers au prélèvement forfaitaire, police et justice, nouveaux centres de rétention, et à confirmer en 2026 : employeurs à domicile et charges patronales négatives (S068). Hors affichage (« Lever l'excuse de minorité pour les crimes de sang », remplacée) : S106 ; école et économie : S110."
+  },
+  {
+   "id": "S105",
+   "type": "a_ajouter",
+   "candidats": [
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Propositions oubliées : Zemmour (revue du 29/10)",
+   "detail": "Recherche du 29/10 : propositions publiées en 2026 absentes du site ; propositions de 2022 redites.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10. Vie quotidienne : sécurité, peines planchers et suppression du juge de l'application des peines redites (Entrevue, 18 et 25/10) : marque « non reconfirmée » retirée (décision du porteur), « perpétuité réelle » et « 10 000 places » non redites, retirées du texte ; casseur-payeur avec la loi anticasseurs de 1970 (S097) ; déchéance de nationalité puis départ des binationaux auteurs des violences (18/10, même test que Retailleau) ; les deux propositions d'expulsion restent affichées ; évidence : lectures des expulsions (Miles et Cox) et des peines planchers gardées, étiquette « non démontrée » inchangée ; école, retour à la dictée, autonomie des chefs d'établissement, concurrence public-privé (25/10, intention) ; économie, formation à l'IA dès l'école (discours de rentrée, 13/09, intention ; même lecture DG Trésor que les propositions IA d'Attal) ; environnement, abrogation du SEQE 2 avant 2028 (pétition de Reconquête). Fiche « 100 000 places de prison » : à confirmer (S115). Certificats d'économies d'énergie : TVA perdue, non chiffrable, note de la fiche accise et liste « non compté » (S114)."
+  },
+  {
+   "id": "S106",
+   "type": "a_verifier",
+   "candidats": [
+    "attal",
+    "lisnard",
+    "retailleau"
+   ],
+   "mesure": null,
+   "sujet": "Vie quotidienne : propositions hors affichage (plafond de 5 par thème, doublons)",
+   "detail": "Règle (méthode, décisions du porteur du 29/10) : au plus 5 propositions par thème ; au-delà, d'abord celles de 2026, puis les précises, puis les plus récentes ; à égalité ou à date inconnue, l'ordre affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce) ; une proposition remplacée par sa version précise n'est pas gardée en double. Le plafond, d'abord fixé à 3, est passé à 5 le 29/10 : toutes les propositions retirées un temps ont été remises, sauf les doublons. Restent hors affichage : (1) doublons remplacés par leur version précise : Attal, sécurité, « Adapter le cadre constitutionnel contre la délinquance des mineurs » (intention du 2/08, remplacée par « Comparution immédiate dès 16 ans et fin de l'excuse de minorité automatique pour les mineurs récidivistes », 19/10) ; Lisnard, sécurité, « Lever l'excuse de minorité pour les crimes de sang » (site non officiel, remplacée par la version du programme : majorité pénale à 16 ans, excuse de minorité de 50 % à 20 %, établissements fermés, 27/10). (2) Au-delà de 5 : Retailleau, libertés, délit d'atteinte aux principes de la République, avis conforme du préfet pour un lieu de culte et motifs nouveaux de dissolution (proposition de loi contre l'entrisme adoptée par le Sénat, Public Sénat, 5/05/2026) : 6e, la moins récente des propositions précises de 2026 du thème. À chaque revue : une proposition redite reprend sa place selon la règle.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S107",
+   "type": "a_verifier",
+   "candidats": [
+    "le-pen",
+    "philippe",
+    "melenchon",
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Vie quotidienne : reconfirmations possibles, non tranchées le 29/10",
+   "detail": "(1) Impôts de production : chez Le Pen (« Baisser de 16,2 Md€ ») et Philippe (« 50 Md€ »), la proposition reste marquée non reconfirmée, alors que les fiches « production » (contre-budget 2027 du RN ; « Deal 50 Md€ ») sont comptées : si la reconfirmation en 2026 est établie, retirer la marque et mettre le texte à jour (même décision pour les deux). (2) Mélenchon : la note du 14/10 reprendrait l'objectif de 19 élèves par classe (non vérifié à la source) ; « Réduire les effectifs par classe » deviendrait précise et de 2026 et passerait devant « Scolarité obligatoire jusqu'à 18 ans ». (3) Lisnard : le 27/10 (Europe 1, CNews), le préambule de la Constitution ne pourrait plus servir à censurer une loi, sinon référendum (rapporté sans guillemets) : version précise de l'intention sur le Conseil constitutionnel ? (4) Le Pen : « Porter le parc à 85 000 places » (2022) et fiche « 30 000 places » (contre-budget 2027) : texte à mettre à jour ? (5) Le Pen : indicateur « Déficit public sous 3 % du PIB en 2030 » et règle d'or de la tribune du 1/10 (plafond de 3,9 % en 2030, 2,9 % en 2032) : vérifier la source de l'indicateur.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S108",
+   "type": "a_verifier",
+   "candidats": [
+    "attal",
+    "lisnard",
+    "retailleau",
+    "zemmour",
+    "le-pen",
+    "philippe",
+    "melenchon",
+    "glucksmann"
+   ],
+   "mesure": null,
+   "sujet": "Vie quotidienne : études à chercher pour les propositions ajoutées le 29/10",
+   "detail": "Aucune étude vérifiée n'est encore citée pour : justice des mineurs (majorité pénale, excuse de minorité, comparution immédiate : Attal, Lisnard, Retailleau), internats ou établissements disciplinaires (Retailleau, Lisnard), déchéance de nationalité (Retailleau, Zemmour ; l'étude Miles et Cox sur les expulsions vaut-elle pour le « départ » chez Zemmour ? même lecture pour les deux), reconnaissance faciale (Attal), fichier et pointage des casseurs (Lisnard), règle d'or (Le Pen, Philippe), Parcoursup (Mélenchon, Glucksmann, Retailleau), chèque-éducation (Lisnard), code du travail réduit à des principes et contrat unique (Attal, Retailleau, Lisnard), stabilité fiscale (Attal, Lisnard), droits de douane ciblés (Attal), Schengen (Retailleau), droit à la sécurité dans la Constitution et cour disciplinaire de la magistrature (Retailleau), vote à 16 ans (Mélenchon), SEQE 2 (Zemmour), aides au véhicule électrique d'occasion (Philippe ; Attal pour le leasing), dissolution d'organisations et voile à l'université (Lisnard). Même lecture pour un même type ; évidence courte (environ 450 caractères au plus).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S109",
+   "type": "a_ajouter",
+   "candidats": [
+    "melenchon",
+    "glucksmann",
+    "retailleau",
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Quiz : propositions « école » ajoutées le 29/10",
+   "detail": "Précises et reconfirmées, donc à ajouter au quiz (texte courant, constat, Pour et Contre sourcés, mêmes études pour un même type) : melenchon.ecole.1 (Supprimer Parcoursup et MonMaster), glucksmann.ecole.3 (Abroger Parcoursup), retailleau.ecole.1 (sélection à l'université à la place de Parcoursup), retailleau.ecole.5 (internats disciplinaires), lisnard.ecole.1 (chèque-éducation et enseignants contractuels). Clés recalées le 29/10 sur les positions affichées (texte publié identique) : retailleau.ecole.1 → .2 (examen d'entrée en sixième), .2 → .3 (fin du passage automatique), .3 → .4 (1 000 établissements, toujours au quiz) ; lisnard.ecole.1 → .2 (certificat de fin de primaire), .3 → .4 (carte scolaire).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S110",
+   "type": "a_trancher",
+   "candidats": [
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Lisnard : propositions « école » et « économie » non intégrées",
+   "detail": "École : chèque-éducation progressif (programme « Éducation », redit le 15/10 sur BFMTV) et nouveaux enseignants recrutés comme contractuels (Europe 1, 27/10) ; le chèque prolonge « Supprimer la carte scolaire » (affichée, au quiz). Économie : contrat de travail unique (programme, page mise à jour le 28/10, date de rédaction inconnue) ; interdiction de modifier un impôt à la hausse plus d'une fois par législature (tribune du 16/04). Avec un plafond de 3, l'ajout aurait fait sortir une proposition affichée.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Réglé le 29/10 par le plafond de 5 propositions (décision du porteur, même règle pour tous) : école, chèque-éducation et enseignants contractuels en tête (27/10, le plus récent), la carte scolaire reste affichée (pas de fusion des deux textes) ; économie, contrat de travail unique et stabilité des impôts en 4e et 5e position. Quiz : clés de Lisnard recalées (S109)."
+  },
+  {
+   "id": "S111",
+   "type": "a_verifier",
+   "candidats": [
+    "retailleau",
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Immigration : verdicts à fixer pour des propositions liées au droit de l'UE",
+   "detail": "Retailleau : contrôles aux frontières intérieures sans limite de temps (projet en ligne, 24/09) ; Lisnard : rétention administrative portée à 24 mois (la directive « retour » de 2008 plafonne à 18 mois ; règlement « retour » en discussion, état d'adoption non vérifié) et nouveaux centres de rétention (coût en « non compté »). Non ajoutés au texte des fiches tant que le verdict n'est pas fixé avec la même règle que les autres mesures liées au droit de l'UE.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S112",
+   "type": "non_chiffrable",
+   "candidats": [
+    "le-pen"
+   ],
+   "mesure": "tabac",
+   "sujet": "Le Pen : gel des taxes sur le tabac et fin de leur indexation sur l'inflation",
+   "detail": "Lettre ouverte aux buralistes publiée par le RN le 6/09/2026 (Capital, 7/09 ; lettre non ouverte) ; absente du contre-budget 2027. Paramètre publié (gel) ; calcul ascendant à faire : rendement 2026 de l'accise sur les tabacs (Voies et moyens 2027) × revalorisations évitées de 2028 à 2030 (inflation du PLF 2027), sans effet de volume non documenté ; baisse d'impôt sans calendrier, entière en 2030. Moins de 1 Md€ : reste dans la liste « non compté » ; au-delà : fiche à ajouter.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S113",
+   "type": "source_faible",
+   "candidats": [
+    "glucksmann"
+   ],
+   "mesure": null,
+   "sujet": "Glucksmann : régularisation d'environ 300 000 travailleurs sans papiers (28/10)",
+   "detail": "Annonce attribuée au candidat par RTL (article non trouvé), lue seulement sur des sites non reconnus (observalgerie.com, viralmag.fr, fdesouche.com). Vérifié : proposition de loi n° 3253 du député PS P. Christophle (6/10/2026 : titre « salarié » de plein droit après six mois d'activité sur vingt-quatre), texte d'un député, pas du candidat. Rien d'ajouté sans source primaire (RTL ou le candidat) ; si elle est confirmée, même thème que les mesures de régularisation des autres candidats.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S114",
+   "type": "a_verifier",
+   "candidats": [
+    "zemmour",
+    "retailleau"
+   ],
+   "mesure": null,
+   "sujet": "Certificats d'économies d'énergie : coût officiel et part payée par les ménages",
+   "detail": "Lecture commune (décision du porteur, 29/10) : la TVA perçue sur la part des certificats dans les factures est une recette publique. Retailleau : comptée au chiffre du camp dans la ligne « ménages » (3 Md€ avec le relais de MaPrimeRénov', sans détail). Zemmour : suppression des certificats (pétition de Reconquête) non comptée faute de coût officiel vérifié (« plus de 8 Md€ en 2026 selon le Gouvernement », relevé dans la presse) ; indicatif de 0 à −1,6 Md€ (note de la fiche accise). À chercher : coût officiel des certificats et part payée par les ménages ; si trouvés, chiffrer Zemmour avec la même lecture. Retailleau propose aussi de sortir l'électricité du périmètre des certificats (projet « Électricité », non vérifié) : même lecture.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S115",
+   "type": "a_confirmer",
+   "candidats": [
+    "zemmour"
+   ],
+   "mesure": "prisons",
+   "sujet": "Zemmour : 100 000 places de prison (25/10)",
+   "detail": "Une seule source : Entrevue (26/10), d'après l'émission « Les Incorrectibles » du 25/10 (vidéo non consultée), sans citation du candidat. Fiche ajoutée « à confirmer » le 29/10 (décision du porteur), indicatif −3,2 Md€ (même calcul que Le Pen, Retailleau et Lisnard). À compter dès une seconde source (vidéo, site, autre média). Règle écrite dans la méthode : une mesure chiffrée connue par une seule reprise de presse qui ne cite pas le candidat reste « à confirmer » (la fin de l'abattement des pensions de Lisnard, S089, est comptée parce que Capital cite le candidat entre guillemets). Verdicts des fiches prisons à aligner : Le Pen « faisable », Lisnard et Zemmour « sous conditions ».",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S116",
+   "type": "a_verifier",
+   "candidats": [
+    "philippe",
+    "retailleau",
+    "zemmour",
+    "lisnard",
+    "attal"
+   ],
+   "mesure": null,
+   "sujet": "Pistes relevées le 29/10, non intégrées",
+   "detail": "Philippe : propositions du site sans preuve d'importance (portable interdit en primaire et au collège, sanction pénale des maires, « état d'urgence narco », « fiche S financière », excuse de minorité levée pour le narcotrafic, imprescriptibilité des crimes sur mineurs, inspection nationale de l'enfance, moratoire normatif et fiscal, uniforme au choix des chefs d'établissement). Retailleau : règle d'or par référendum (résultat de recherche, non ouvert). Zemmour : effet budgétaire de l'abrogation du SEQE 2 (recettes des enchères dès 2028, Fonds social pour le climat) à chercher ; plan en quatre points du 19/10 lu seulement sur presseagence.fr (non retenu). Lisnard : « les parents doivent payer » (Le Point, 23/10, sans citation). Attal (réforme de Parcoursup, 15/10) et Lisnard (orientation à la place de Parcoursup, 15/10) : même type que Mélenchon, Glucksmann et Retailleau, à vérifier à la source. Affichées le 29/10 avec le plafond de 5 : aides au véhicule électrique d'occasion (Philippe), droit à la sécurité dans la Constitution, cour disciplinaire de la magistrature et internats disciplinaires (Retailleau) ; hors affichage : S106.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S117",
+   "type": "a_trancher",
+   "candidats": [
+    "attal",
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Vie quotidienne : doublons d'un thème à l'autre",
+   "detail": "Attal : « Construire 14 nouveaux réacteurs nucléaires, puis un par an » (économie, 10/10) double « Sécuriser 14 EPR et viser un réacteur par an » (environnement). Lisnard : « Six nouveaux EPR » en économie et en environnement. Avec le plafond de 5, aucun doublon ne prend la place d'une autre proposition. Faut-il afficher une même proposition dans deux thèmes ? Même règle pour tous.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S118",
+   "type": "a_verifier",
+   "candidats": [
+    "attal",
+    "glucksmann"
+   ],
+   "mesure": null,
+   "sujet": "Postes de l'Éducation nationale supprimés au projet de budget 2027",
+   "detail": "Nombre à vérifier (projet de loi de finances 2027) pour l'annulation proposée par Attal (23/10) et Glucksmann (22/10), en « non compté » (sous 1 Md€ au coût commun de 61,6 k€ par poste si l'ordre de grandeur de 2026, environ 4 000 postes, se confirme).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S119",
+   "type": "annonce_attendue",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "glucksmann",
+    "philippe",
+    "retailleau",
+    "attal",
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Projet de loi « casseurs-payeurs » à l'Assemblée",
+   "detail": "Adopté par le Sénat le 28/10/2026 : responsabilité solidaire des participants jusqu'à 10 000 € chacun, saisie des allocations familiales et des APL, et, ajoutés par le Sénat, du RSA, du complément familial, de l'allocation de rentrée scolaire et de la prime d'activité ; interdictions administratives de manifester. S'il est voté, le droit existant change pour tous : revoir le texte commun (constante CASSE de life.py) et les propositions des candidats qui reprennent ses dispositions.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
   }
  ]
 }

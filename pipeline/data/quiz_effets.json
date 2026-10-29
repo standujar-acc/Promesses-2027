@@ -5210,7 +5210,7 @@
 }
 ]
 },
-"retailleau.ecole.1": {
+"retailleau.ecole.2": {
 "constat": "Entrée en 6e en 2025 : 28 % d'élèves en difficulté en français (32 % en 2017), 33 % en maths (31 %) (DEPP).",
 "constat_s": [
 5
@@ -5288,7 +5288,7 @@
 }
 ]
 },
-"retailleau.ecole.2": {
+"retailleau.ecole.3": {
 "constat": "Entrée en 6e en 2025 : 28 % d'élèves en difficulté en français (32 % en 2017), 33 % en maths (31 %) (DEPP).",
 "constat_s": [
 4
@@ -5360,7 +5360,7 @@
 }
 ]
 },
-"retailleau.ecole.3": {
+"retailleau.ecole.4": {
 "pour": "Des collèges en difficulté rendus autonomes ont progressé, d'autant plus que leur autonomie était grande.",
 "preuve_pour": "mitigé",
 "contre": "Des écoles publiques libres de leurs programmes et horaires n'ont pas fait mieux que les écoles ordinaires.",
@@ -5558,7 +5558,7 @@
 }
 ]
 },
-"lisnard.ecole.1": {
+"lisnard.ecole.2": {
 "constat": "Entrée en 6e en 2025 : 28 % d'élèves en difficulté en français (32 % en 2017), 33 % en maths (31 %) (DEPP).",
 "constat_s": [
 5
@@ -5636,7 +5636,7 @@
 }
 ]
 },
-"lisnard.ecole.3": {
+"lisnard.ecole.4": {
 "pour": "Avec la carte, l'accès aux collèges recherchés dépend du quartier où l'on peut se loger.",
 "preuve_pour": "mitigé",
 "contre": "Quand chacun choisit, les familles les plus à l'aise quittent les collèges défavorisés.",
