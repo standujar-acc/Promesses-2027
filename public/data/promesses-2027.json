@@ -36,7 +36,7 @@
    "name": "Marine Le Pen",
    "party": "RN",
    "poll": "32-33,5 %",
-   "summary": "Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie. Notre chiffrage : −64,5 Md€ par an en 2030, soit −2 087 € par ménage. Principal obstacle : la priorité nationale et le référendum exigent une révision de la Constitution.",
+   "summary": "Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie. Notre chiffrage : −66,8 Md€ par an en 2030, soit −2 161 € par ménage. Principal obstacle : la priorité nationale et le référendum exigent une révision de la Constitution.",
    "measures": [
     {
      "id": "retraites",
@@ -236,29 +236,35 @@
      "obstacle": "Chemin : réviser la Constitution. Par l'article 89, il faut l'accord du Sénat puis un référendum ou 3/5 du Congrès. Par l'article 11, référendum direct contesté par le Conseil constitutionnel, comme en 1962.",
      "claude": {
       "id": "immigration",
-      "central": 7.6,
+      "central": 8.3,
       "low": 1.9,
       "high": 14.3,
       "method": "médiane",
-      "formula": "Si la mesure passe : allocations familiales 3,8 + RSA 2,6 + asile 1,2 = 7,6 Md€ (Montaigne) ; AME comptée à part ; bornes 1,9 et 14,3 (montant 2027 du RN, hors AME)",
+      "formula": "Si la mesure passe : Montaigne 2024 actualisé avec la même règle que Zemmour et Lisnard (seule la part des étrangers est mise à jour, montants inchangés) : prestations familiales 3,8 × 13,7 % (naissances de deux parents étrangers, 2025) / 11,7 % (2022) = 4,4 ; RSA et prestations de solidarité 2,6 × 8,2 % / 7,8 % = 2,7 ; asile 1,2 → 8,3 Md€ ; AME comptée à part ; bornes inchangées",
       "inputs": [
        {
-        "label": "Détail par mesure (2024)",
-        "value": "3,8 / 2,6 / 1,2 / 0,7 Md€",
+        "label": "Prestations familiales réservées (2024)",
+        "value": "3,8 Md€ (2,6 à 3,9) ; base 2022 : 32,6 Md€, 11,7 % des naissances",
         "source": "Institut Montaigne",
-        "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese"
+        "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/accorder-les-prestations-familiales-aux-seuls-foyers-dont-au-moins-un-des-parents-est-francais/"
        },
        {
-        "label": "Crédits AME 2026",
-        "value": "1,21 Md€",
-        "source": "Public Sénat",
-        "url": "https://www.publicsenat.fr/actualites/sante/budget-2026-le-senat-durcit-les-conditions-de-laide-medicale-detat-et-vote-une-baisse-de-ses-credits-de-200-millions"
+        "label": "RSA et prestations de solidarité après 5 ans de travail (2024)",
+        "value": "2,6 Md€ (0,6 à 3,0) ; part des étrangers 7,8 % (2022)",
+        "source": "Institut Montaigne",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/reserver-le-benefice-du-rsa-et-des-prestations-de-solidarites-aux-etrangers-ayant-au-moins-5-ans-dequivalent-temps-plein-travaille-en-france/"
        },
        {
-        "label": "Montant RN non documenté, fragile ou sans effet",
-        "value": "92 % de 29 Md€, dont 18,1 Md€ juridiquement fragiles",
-        "source": "Institut de l'Entreprise",
-        "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+        "label": "Naissances de deux parents étrangers",
+        "value": "83 820 / 725 997 (2022) ; 86 535 / 677 803 (2023) ; 87 936 / 643 905 (2025)",
+        "source": "Insee (06/07/2026)",
+        "url": "https://www.insee.fr/fr/statistiques/2381382"
+       },
+       {
+        "label": "Part des étrangers dans la population",
+        "value": "8,2 % (2023)",
+        "source": "Insee",
+        "url": "https://insee.fr/fr/statistiques/3633212"
        }
       ],
       "note": "Même règle que pour Zemmour : comptée si elle passe ; bloquée en l'état du droit (voir le total « si les révisions sont bloquées »)"
@@ -616,7 +622,7 @@
         "label": "Source de la mise à jour",
         "value": "Baisse de la contribution de la France à l'Union européenne 8,897 ; Rendre à la France sa part des droits de douane collectés par l'UE 2,200",
         "source": "Contre-budget 2027 du groupe Rassemblement national (« Travaux parlementaires », octobre 2026), tableau « Postes d'économies et de dépenses ",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
       "note": "Unanimité des 27 requise ; la ligne « droits de douane » (2,2 Md€ en 2027) relève de la même décision sur les ressources propres : 0, comme la contribution"
@@ -701,17 +707,23 @@
      "obstacle": "Gain visé supérieur à toute la fraude à la TVA estimée",
      "claude": {
       "id": "fraude",
-      "central": 4.1,
-      "low": 1.1,
-      "high": 12.1,
+      "central": 1.0,
+      "low": 0.5,
+      "high": 1.0,
       "method": "médiane",
-      "formula": "Cinq leviers du CAE ≈ 4,1 Md€/an ; plafond = tout l'écart de TVA (12,1 Md€)",
+      "formula": "Leviers du CAE dans le champ de la mesure : TVA 0,5 + prestations hors assurance maladie 0,25 + assurance maladie 0,23 ≈ +1,0 Md€ ; fraude aux marchés publics hors du champ du CAE, non comptée (chiffre du camp : 23,8 Md€ en 2031)",
       "inputs": [
        {
-        "label": "Leviers anti-fraude",
-        "value": "≈4,1 Md€/an",
-        "source": "CAE (La Grande Conversation)",
-        "url": "https://www.lagrandeconversation.com/politique/rn-les-mauvais-comptes-dun-budget-dope-a-lia/"
+        "label": "Leviers de lutte contre la fraude",
+        "value": "impôts des particuliers hors TVA 2,8 ; TVA 0,5 ; cotisations 0,36 ; prestations hors assurance maladie 0,25 ; assurance maladie 0,23 : 4,1 Md€/an",
+        "source": "CAE, Focus n° 147 (8/10/2026)",
+        "url": "https://cae-eco.fr/static/pdf/Focus_147_Synthese_Fipu_261008.pdf"
+       },
+       {
+        "label": "Rendement du contrôle fiscal",
+        "value": "≈ 1,1 M€ recouvré par agent en 2024 (moyenne ; 11,4 Md€ recouvrés)",
+        "source": "Cour des comptes (16/12/2025)",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-12/20251216-Lutte-contre-la-fraude-fiscale.pdf"
        },
        {
         "label": "Écart de TVA",
@@ -961,7 +973,7 @@
         "label": "Source de la mise à jour",
         "value": "Suppression de la TVA sur 100 produits de première nécessité 3,500",
         "source": "Contre-budget 2027 du groupe Rassemblement national (« Travaux parlementaires », octobre 2026), tableau « Postes d'économies et de dépenses ",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
       "note": "Version 2022 plus large (24 Md€ selon Bercy) écartée ; Chiffre du camp (3,5) hors médiane, comme pour la TVA énergie ; l'Institut de l'Entreprise rappelle que l'essentiel d'une baisse de TVA peut être capté par les marges (Benzarti et Carloni, 2019)"
@@ -1298,7 +1310,7 @@
        "value": "Retour de la TICPE au niveau de 2017 3,900",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "isolé",
@@ -1306,12 +1318,24 @@
      "obstacle": "Par la loi de finances ; financement non précisé dans la mesure.",
      "claude": {
       "id": "ticpe",
-      "central": -2.2,
+      "central": -2.1,
       "low": -3.9,
-      "high": -2.0,
+      "high": -1.9,
       "method": "ascendant",
-      "formula": "Écart de tarif 2026 − 2017 (€/hl) : gazole 6,33, essences 3,22, fioul domestique 4,50 ; × volumes 2025 : gazole 32 Mm³ moins 8,4 Mm³ déjà remboursés aux poids lourds et aux autocars (1 178 M€ / 15,56 €/hl et 183 M€ / 21,56 €/hl : leur tarif réduit ne change pas) = 23,6 Mm³ → 1,49 ; essences 15,6 Mm³ → 0,50 ; fioul 4 Mm³ → 0,18 ; accise ≈ 2,18 Md€ ; + TVA sur cette part, à mi-chemin entre 0 (entreprises) et le taux du programme (5,5 %) : 0,06 → ≈ −2,2. Borne haute −2,0 : volumes 2030 si les tendances 2025 continuent (gazole −3,4 %, essence +5,7 %, fioul −3,2 % par an) ; borne basse : chiffre du camp (−3,9), hors calcul",
+      "formula": "Même base que l'accise de Zemmour : écart de tarif 2026 − 2017 × volumes 2025 (inchangé : gazole 23,6 Mm³ × 6,33 = 1,49 ; essences 15,6 Mm³ × 3,22 = 0,50) ; calage sur les recettes 2025 publiées (CPO 27,2 / 28,7 aux tarifs normaux = 0,948) : 1,99 × 0,948 = 1,89 ; + fioul domestique 4 Mm³ × 4,50 = 0,18 (hors calage, absent des chiffres du CPO) ; accise ≈ 2,07 ; + TVA à mi-chemin entre 0 et 5,5 % : 0,06 → ≈ −2,1. Borne haute : volumes 2030 si les tendances 2025 continuent (−1,9) ; borne basse : chiffre du camp (−3,9), hors calcul",
       "inputs": [
+       {
+        "label": "Accise 2025 sur le gazole et l'essence",
+        "value": "17,3 + 9,9 = 27,2 Md€",
+        "source": "Conseil des prélèvements obligatoires (Cour des comptes), juin 2026",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-06/20260603-Quel-avenir-pour-la-fiscalite-de-l-energie.pdf"
+       },
+       {
+        "label": "Ligne du contre-budget (2027)",
+        "value": "3,9 Md€",
+        "source": "Groupe RN à l'Assemblée nationale, contre-budget 2027 (dossier publié sur deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
+       },
        {
         "label": "Tarifs 2026 (gazole / SP95-E5 et SP98 / E10 / fioul domestique)",
         "value": "60,75 / 69,02 / 67,02 / 16,39 €/hl",
@@ -1331,12 +1355,6 @@
         "url": "https://www.connaissancedesenergies.org/afp/la-consommation-francaise-de-carburants-en-baisse-en-2025-le-diesel-en-recul-mais-toujours-dominant-260115"
        },
        {
-        "label": "Combustibles liquides 2025",
-        "value": "4 Mm³ ; fioul domestique −3,2 % en 2025",
-        "source": "Ufip Énergies et Mobilités ; Connaissance des énergies",
-        "url": "https://www.energiesetmobilites.fr/uploads/pdf/PRES_2026_Appro_de_la_France_en_%C3%A9nergies_liquides_DEF.pdf"
-       },
-       {
         "label": "Remboursements de gazole 2024 (poids lourds ≥ 7,5 t / transport public de voyageurs)",
         "value": "1 178 M€ / 183 M€",
         "source": "Voies et moyens tome II, PLF 2026 (800221, 800222)",
@@ -1347,12 +1365,6 @@
         "value": "15,56 €/hl (accise nationale − 45,19)",
         "source": "CNR, actualité accise, janvier 2026",
         "url": "https://cnr.fr/download/file/publications/CNR%20-%20TRM%20-%20Actualite%CC%81%20accise%20-%20Janvier%202026.pdf"
-       },
-       {
-        "label": "Ligne du contre-budget (2027)",
-        "value": "3,9 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
        }
       ],
       "note": "Le RN inscrit 3,9 Md€ en 2027 seulement ; l'Institut de l'Entreprise prolonge ce chiffre sans le réévaluer. Le gazole non routier (36,79 €/hl hors agriculture en 2026, 15,09 en 2017) n'est pas compté : sa hausse vient de la suppression progressive de son tarif réduit, une autre mesure, et ses volumes non agricoles ne sont pas publiés. En Île-de-France l'écart est plus faible (4,44 et 2,20 €/hl) : léger biais à la hausse. Simulateur (S071) : baisse par litre de 6,33 c€ HT sur le gazole, 3,22 c€ HT sur l'essence, 4,50 c€ HT sur le fioul, TVA en plus."
@@ -1373,7 +1385,7 @@
        "value": "Instaurer une part fiscale pleine dès le 2ème enfant 3,500",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "divergent",
@@ -1396,8 +1408,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "3,5 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
       "note": "Même modèle (LexImpact) que celui à utiliser pour le quotient familial de Lisnard"
@@ -1418,7 +1430,7 @@
        "value": "Exonérer d'IR tous les jeunes actifs jusqu'à 30 ans jusqu'à 4 SMIC 2,000",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       },
       {
        "source": "Institut Montaigne (2024)",
@@ -1455,8 +1467,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "2,0 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        },
        {
         "label": "Exonérer les moins de 30 ans d'impôt sur le revenu",
@@ -1483,7 +1495,7 @@
        "value": "Dispositif industriel et agricole de suramortissement (robotisation et numérique) 2,100",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "isolé",
@@ -1500,8 +1512,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "2,1 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        },
        {
         "label": "Recoupement",
@@ -1534,7 +1546,7 @@
        "value": "Réforme de l'octroi de mer 1,800",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "isolé",
@@ -1551,8 +1563,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "1,8 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
       "note": "Contenu de la réforme non publié ; l'octroi de mer finance les collectivités d'outre-mer : le coût pour l'État est la compensation"
@@ -1573,7 +1585,7 @@
        "value": "Modifier les conditions du pacte Dutreil (annulation de la taxation contre détention de 10 ans) 1,750",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "isolé",
@@ -1602,8 +1614,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "1,75 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
       "note": "À trancher : le chiffrage Montaigne 2024 de la même mesure (5,3) égale le coût total du pacte actuel, ce qui suggère un calcul sans tenir compte des 75 % déjà exonérés ; la règle « médiane ajustée aux paramètres de 2027 » conduit à 1,8. Si le porteur préfère la médiane brute : −5,3"
@@ -1624,7 +1636,7 @@
        "value": "Réformer la fiscalité des successions : exonération de l'immobilier transmis à hauteur de 300 k€ 1,200",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "divergent",
@@ -1653,8 +1665,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "1,2 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
       "note": "Base 2022 ; écart d'un facteur 3 avec le camp"
@@ -1675,7 +1687,7 @@
        "value": "Réformer la fiscalité des donations (alignement grands-parents/parents ; 100 k€/enfant tous les 10 ans) 0,500",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "divergent",
@@ -1698,8 +1710,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "0,5 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
       "note": "Retirer « donations tous les 10 ans » de la liste des manques ; simulateur : remplacer « (version 2024) » par la version 2026 (grands-parents alignés)"
@@ -1720,7 +1732,7 @@
        "value": "Revenir sur la hausse du taux PFU de 1,4 point pour le fixer à 30 % 1,500",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       },
       {
        "source": "Légifiscal (6/12/2025)",
@@ -1763,8 +1775,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "1,5 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
       "note": "Le chiffre de 2,8 Md€ (Légifiscal, 10/11/2025) portait sur la version avant exclusions : retiré. Le rendement réel de 2026 sera connu avec les comptes de la Sécurité sociale. Même famille de mesure que la fin de la flat tax de Mélenchon (+3,4, Montaigne), en sens inverse."
@@ -1785,7 +1797,7 @@
        "value": "Prêt « jeunes ménages français » transformé en subvention à la naissance du 3ème enfant 1,600",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "divergent",
@@ -1808,8 +1820,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "1,6 Md€ en 2027",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
       "note": "Montant du prêt (100 000 € en 2022) non republié dans l'annexe 2026. Prêt réservé aux ménages français : même situation juridique que la priorité nationale, donc « Exige une révision », comptée si elle passe (sort du total réel)"
@@ -1830,7 +1842,7 @@
        "value": "Investissement public dans la recherche 1,800",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "isolé",
@@ -1847,8 +1859,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "1,8 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        },
        {
         "label": "Recoupement",
@@ -1874,7 +1886,7 @@
        "value": "Construction de 30 000 places de prison 1,000",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "isolé",
@@ -1903,8 +1915,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "1,0 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
       "note": "À trancher pour Le Pen et Retailleau ensemble : compter ou non la construction (Retailleau : « construction exclue »)"
@@ -1925,7 +1937,7 @@
        "value": "Mesures sectorielles du programme présidentiel 3,000",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "isolé",
@@ -1942,8 +1954,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "3,0 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        },
        {
         "label": "Recoupement",
@@ -1970,7 +1982,7 @@
        "value": "Revaloriser le congé de proche aidant 2,000",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "isolé",
@@ -1987,8 +1999,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "2,0 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        },
        {
         "label": "« Renforcer le soutien aux proches-aidants » (programme 2024, sans montant)",
@@ -2027,7 +2039,7 @@
        "value": "Rembourser à hauteur de 100 % de la base de remboursement de la Sécurité sociale des soins dentaires 1,400",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "isolé",
@@ -2056,8 +2068,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "1,4 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
       "note": "Transfert des complémentaires santé vers l'Assurance maladie (effet sur le solde public : la part reprise par l'Assurance maladie). Patients en ALD, C2S et panier « 100 % santé » déjà hors de ces transferts. Le taux exact de 2027 (50 à 60 % à la charge de l'assuré) est fixé par l'Uncam : le chiffrage retient 50 %, comme les sources."
@@ -2078,7 +2090,7 @@
        "value": "IFF en remplacement de l'IFI 5,000",
        "low_md": null,
        "high_md": null,
-       "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
       }
      ],
      "consensus": "divergent",
@@ -2107,8 +2119,8 @@
        {
         "label": "Ligne du contre-budget (2027)",
         "value": "5,0 Md€",
-        "source": "Groupe RN, contre-budget 2027 (annexe)",
-        "url": "https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf"
+        "source": "Groupe RN, contre-budget 2027 (deputes-rn.fr)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
       "note": "Base 2022 (seuil 1,3 M€, taux 0 à 1,5 %, résidence principale et biens professionnels exclus) ; paramètres non republiés en 2026. Même source et même lecture que l'ISF de Mélenchon (Montaigne)"
@@ -2123,14 +2135,14 @@
     "high_md": 50
    },
    "claude_total": {
-    "sum": -64.5,
-    "p10": -86.5,
-    "p90": -45.6,
-    "realsum": -67.0,
+    "sum": -66.8,
+    "p10": -90.1,
+    "p90": -51.1,
+    "realsum": -70.0,
     "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, prêt à taux zéro à la place de MaPrimeRénov', recettes et économies du contre-budget sans chiffrage indépendant (chiffres du camp pour 2027) : impôt sur les sociétés assis sur le chiffre d'affaires 3,75, Autorité de la concurrence 1,2, dividendes d'EDF sur les exportations 3,7, économies sur le TURPE 2, économies sur la Sécurité sociale ≈ 20, droits de douane rendus 2,2 ; dépenses de moins de 1 Md€ (AAH au-dessus du seuil de pauvreté, permis gratuit, prime d'activité étudiante, demi-part des veufs…), dispense d'impôt sur le revenu pour les entrepreneurs (public et durée non publiés), fonds souverain (opération financière), abrogation de la loi Hulot",
     "n": 26,
-    "cost": -85.0,
-    "gain": 20.5,
+    "cost": -84.8,
+    "gain": 18.1,
     "confirm": []
    },
    "short": "Le Pen",
@@ -2212,7 +2224,7 @@
    "name": "Jean-Luc Mélenchon",
    "party": "LFI",
    "poll": "17 %",
-   "summary": "Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines. Notre chiffrage : −129,3 Md€ par an en 2030, soit −4 184 € par ménage. Principal obstacle : le rendement réel des nouveaux impôts, et les traités européens pour l'annulation de la dette.",
+   "summary": "Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines. Notre chiffrage : −132,7 Md€ par an en 2030, soit −4 294 € par ménage. Principal obstacle : le rendement réel des nouveaux impôts, et les traités européens pour l'annulation de la dette.",
    "measures": [
     {
      "id": "retraites",
@@ -2385,9 +2397,9 @@
        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net"
       },
       {
-       "source": "iFRAP (SMIC 1 600 €)",
+       "source": "iFRAP (SMIC à 1 600 € net)",
        "year": 2024,
-       "value": "+36,5 Md€ de coût employeur ; ≈236 500 emplois détruits",
+       "value": "+32,5 Md€ d'allègements de cotisations (coût brut, avant recettes induites) ; +36,5 Md€ de coût du travail pour les entreprises ; ≈ 235 000 à 240 000 emplois détruits à un an",
        "low_md": null,
        "high_md": null,
        "url": "https://www.ifrap.org/emploi-et-politiques-sociales/laugmentation-du-smic-1-600-euros-detruirait-240-000-emplois"
@@ -3115,26 +3127,26 @@
      "obstacle": "Décret suffit ; coût récurrent",
      "claude": {
       "id": "point_indice",
-      "central": -20.7,
-      "low": -23,
+      "central": -24.0,
+      "low": -24.0,
       "high": -17,
-      "method": "médiane",
-      "formula": "+1 % de point d'indice = 2,07 Md€ (Cour des comptes) ; +10 % (publié) ≈ −20,7 Md€ ; fourchette de 17 (camp) à 23 Md€ (OFCE) ; Montaigne 20",
+      "method": "ascendant",
+      "formula": "+1 % de la valeur du point = 2,4 Md€ par an (Gouvernement, juillet 2026) ; +10 % (publié, immédiat) ≈ −24,0 Md€ ; borne haute : chiffre du camp (17) ; repères plus anciens : Montaigne 2024 (20), OFCE 2024 (23), Cour des comptes 2022 (20,7)",
       "inputs": [
        {
-        "label": "Coût de +1 % (3 versants)",
+        "label": "Coût de +1 % du point",
+        "value": "2,4 Md€ par an",
+        "source": "Cabinet du ministre de l'Action et des Comptes publics, cité par Acteurs publics (8/07/2026)",
+        "url": "https://acteurspublics.fr/articles/rendez-vous-salarial-dans-la-fonction-publique-le-ministre-david-amiel-ecarte-la-hausse-du-point-dindice-et-mise-sur-des-mesures-ciblees/"
+       },
+       {
+        "label": "Coût de +1 % (2022)",
         "value": "2,07 Md€",
         "source": "Cour des comptes (Acteurs publics)",
         "url": "https://acteurspublics.fr/articles/1-2-ou-3-de-hausse-du-point-dindice-quel-impact-sur-les-finances-publiques"
-       },
-       {
-        "label": "+10 %",
-        "value": "20 Md€",
-        "source": "Institut Montaigne",
-        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/synthese"
        }
       ],
-      "note": "Le camp chiffre +10 % à 17 Md€, soit ≈ +8 % au coût de la Cour des comptes"
+      "note": "Coût brut pour les employeurs publics, comme les hausses des enseignants des autres candidats. Le camp chiffre +10 % à 17 Md€, soit ≈ +7 % au coût de 2026."
      },
      "quiz_text": "Augmenter de 10 % le salaire de base de tous les fonctionnaires",
      "quiz_concret": "Les agents publics gagnent plus.",
@@ -3767,11 +3779,11 @@
      "obstacle": "Par la loi de finances ; financement non précisé dans la mesure.",
      "claude": {
       "id": "af-apl",
-      "central": -2.8,
-      "low": -3.1,
-      "high": -2.5,
+      "central": -2.9,
+      "low": -3.2,
+      "high": -2.6,
       "method": "ascendant",
-      "formula": "APL +10 % : 1,5 Md€ (Institut Montaigne 2024, 15,4 Md€ d'APL en 2022) + allocations familiales +10 % : ≈ 1,3 (≈ 13 Md€ versés en 2024) = −2,8 ; l'indexation des pensions n'est pas un coût par rapport au droit actuel (pensions déjà indexées ; la désindexation du PLFSS 2027 n'est pas votée)",
+      "formula": "APL +10 % : 1,54 Md€ (Institut Montaigne 2024) + allocations familiales +10 % : 13,80 Md€ (Cnaf, 2025) × 10 % = 1,38 → −2,9 ; bornes ±0,3 comme avant",
       "inputs": [
        {
         "label": "Revaloriser les APL de 10 %",
@@ -3780,16 +3792,16 @@
         "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/revaloriser-les-apl-de-10/"
        },
        {
-        "label": "Allocations familiales versées en 2024",
-        "value": "≈ 13 Md€",
-        "source": "Assemblée nationale, proposition de loi n° 839 (exposé des motifs)",
-        "url": "https://questions.assemblee-nationale.fr/dyn/17/textes/l17b0839_proposition-loi.pdf"
-       },
-       {
         "label": "Note budgétaire LFI (2027)",
         "value": "8 Md€ (avec l'indexation des pensions)",
         "source": "La France insoumise (14/10/2026)",
         "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+       },
+       {
+        "label": "Allocations familiales versées en 2025 (tous régimes)",
+        "value": "13,80 Md€",
+        "source": "Cnaf, états financiers combinés 2025 de la branche Famille",
+        "url": "https://www.caf.fr/sites/default/files/medias/cnaf/Professionnels/Nous_connaitre/textes_de_reference/etats_financiers/2025/%C3%89tats%20financiers%20combin%C3%A9s%202025%20de%20la%20branche%20Famille%20-%207avril2026.pdf"
        }
       ],
       "note": "Montant des allocations familiales tiré d'un exposé des motifs : à remplacer par les comptes de la Cnaf. Une partie de la hausse des APL peut passer dans les loyers (Montaigne)"
@@ -3867,19 +3879,25 @@
       "low": 1.0,
       "high": 2.0,
       "method": "camp",
-      "formula": "Chiffre du camp (2 Md€), inférieur au potentiel réaliste estimé par le CAE (4,1 Md€/an), même source que la fiche fraude de Le Pen : retenu ; borne basse −50 %",
+      "formula": "Leviers fiscaux du CAE (impôts des particuliers 2,8 + TVA 0,5 = 3,3 Md€) plafonnés au chiffre du camp : +2,0 Md€",
       "inputs": [
+       {
+        "label": "Leviers de lutte contre la fraude",
+        "value": "impôts des particuliers hors TVA 2,8 ; TVA 0,5 ; cotisations 0,36 ; prestations hors assurance maladie 0,25 ; assurance maladie 0,23 : 4,1 Md€/an",
+        "source": "CAE, Focus n° 147 (8/10/2026)",
+        "url": "https://cae-eco.fr/static/pdf/Focus_147_Synthese_Fipu_261008.pdf"
+       },
+       {
+        "label": "Rendement du contrôle fiscal",
+        "value": "≈ 1,1 M€ recouvré par agent en 2024 (moyenne ; 11,4 Md€ recouvrés)",
+        "source": "Cour des comptes (16/12/2025)",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-12/20251216-Lutte-contre-la-fraude-fiscale.pdf"
+       },
        {
         "label": "Note budgétaire LFI (2027)",
         "value": "2 Md€",
         "source": "La France insoumise (14/10/2026)",
         "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
-       },
-       {
-        "label": "Leviers anti-fraude réalistes",
-        "value": "≈ 4,1 Md€/an",
-        "source": "CAE (La Grande Conversation)",
-        "url": "https://www.lagrandeconversation.com/politique/rn-les-mauvais-comptes-dun-budget-dope-a-lia/"
        }
       ],
       "note": "Règle commune proposée pour la fraude : chiffre du camp plafonné au potentiel indépendant (CAE, 4,1) ; Le Pen 4,1 (camp 23,8), Mélenchon 2,0, Retailleau 1,2"
@@ -3931,13 +3949,13 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -129.3,
-    "p10": -158.6,
-    "p90": -89.2,
-    "realsum": -129.3,
+    "sum": -132.7,
+    "p10": -160.3,
+    "p90": -90.7,
+    "realsum": -132.7,
     "missing": "IS progressif, 10 000 enseignants (0,5 Md€), pension minimale au niveau du SMIC, indexation des pensions sur les salaires, minimum vieillesse au seuil de pauvreté, recettes annoncées sans paramètre publié (chiffres du camp) : CVAE des grandes entreprises 3, taxe sur les multinationales 5, taxe Gafam 3,9, superprofits 5, rachats d'actions 2,5, crypto-actifs 1, bac professionnel en quatre ans (coût non publié), suppression de Parcoursup, livret A relevé à 30 000 € et rémunéré au moins à l'inflation, « Livret B » défiscalisé (coûts non publiés)",
     "n": 19,
-    "cost": -155.7,
+    "cost": -159.1,
     "gain": 26.4,
     "confirm": []
    },
@@ -4404,15 +4422,15 @@
        "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net"
       },
       {
-       "source": "iFRAP",
+       "source": "iFRAP (SMIC à 1 600 € net)",
        "year": 2024,
-       "value": "+32,5 Md€ d'allègements de charges ; ≈240 000 emplois détruits",
-       "low_md": -32.5,
-       "high_md": -32.5,
+       "value": "+32,5 Md€ d'allègements de cotisations (coût brut, avant recettes induites) ; +36,5 Md€ de coût du travail pour les entreprises ; ≈ 235 000 à 240 000 emplois détruits à un an",
+       "low_md": null,
+       "high_md": null,
        "url": "https://www.ifrap.org/emploi-et-politiques-sociales/laugmentation-du-smic-1-600-euros-detruirait-240-000-emplois"
       }
      ],
-     "consensus": "divergent",
+     "consensus": "concordant",
      "verdict": "faisable",
      "obstacle": "Un décret suffit ; coût des allègements de cotisations et effet sur l'emploi peu qualifié.",
      "claude": {
@@ -4420,7 +4438,7 @@
       "central": -11.9,
       "low": -13.1,
       "high": -10.6,
-      "method": "médiane",
+      "method": "ascendant",
       "formula": "Base SMIC juin 2026 (1 477,93 € net) : 1 600 € = +8,3 % ; Montaigne ≈ 19 Md€ pour +13,2 % → 19 × 8,3/13,2 ≈ −11,9 Md€",
       "inputs": [
        {
@@ -4662,7 +4680,7 @@
        "value": "+10 % pour tous, jusqu’à +25 % ; « près de 6 milliards » selon le candidat",
        "low_md": -6,
        "high_md": -6,
-       "url": "https://fr.finance.yahoo.com/actualites/salaires-enseignants-rapha%C3%ABl-glucksmann-assure-184327007.html"
+       "url": "https://www.capital.fr/votre-carriere/salaires-des-enseignants-raphael-glucksmann-assure-vouloir-les-augmenter-d-au-moins-10-pour-tous-1529686"
       }
      ],
      "consensus": "isolé",
@@ -4692,7 +4710,7 @@
         "label": "Hausse annoncée",
         "value": "+10 % pour tous, jusqu'à +25 % en milieu de carrière ; « près de 6 milliards »",
         "source": "Capital (France 2, 30/08/2026)",
-        "url": "https://fr.finance.yahoo.com/actualites/salaires-enseignants-rapha%C3%ABl-glucksmann-assure-184327007.html"
+        "url": "https://www.capital.fr/votre-carriere/salaires-des-enseignants-raphael-glucksmann-assure-vouloir-les-augmenter-d-au-moins-10-pour-tous-1529686"
        },
        {
         "label": "+10 % pour tous les enseignants",
@@ -6696,7 +6714,7 @@
    "name": "Bruno Retailleau",
    "party": "LR",
    "poll": "5,5-11,5 %",
-   "summary": "Promet 197 Md€ d'économies cumulées d'ici 2032, un âge minimal de 63 ans, la fusion des aides sociales et un référendum sur l'immigration. Notre chiffrage : −4,0 Md€ par an en 2030, soit −129 € par ménage. Principal obstacle : la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées.",
+   "summary": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration. Notre chiffrage : −23,3 Md€ par an en 2030, soit −754 € par ménage. Principal obstacle : la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées.",
    "measures": [
     {
      "id": "etat",
@@ -6904,20 +6922,38 @@
      "obstacle": "Chemin : révision de la Constitution par l'article 89 (vote identique de l'Assemblée et du Sénat, puis référendum) ; l'article 11 ne le permet pas en l'état.",
      "claude": {
       "id": "immigration",
-      "central": 1.6,
-      "low": 0,
-      "high": 1.6,
-      "method": "ascendant",
-      "formula": "10 Md€ cumulés, montée en charge : 3,5/15 du cumulé (règle commune, 70 % en 2030) ≈ 2,3 en 2030, comptés si la mesure passe (même règle que Le Pen et Zemmour), dont AME 0,7 comptée à part → 1,6",
+      "central": 2.7,
+      "low": 0.6,
+      "high": 6.7,
+      "method": "médiane",
+      "formula": "Si la mesure passe : prestations réservées après cinq ans de séjour et de travail = étude de la même condition (Institut Montaigne 2024, 5 ans d'équivalent temps plein travaillé, 2,6 Md€), part des étrangers actualisée comme Le Pen (7,8 % → 8,2 %) : 2,7, comptée en entier en 2030 comme les aides réservées de Le Pen, Zemmour et Lisnard. Autres lignes du plan (famille, étudiants, asile, titres, hébergement, MNA : 5,7 Md€ en 2032) : économies sans chiffrage indépendant reconnu sur le site (bases OID), listées « non comptées » comme les lignes du RN sans chiffrage. Borne basse : Montaigne bas (0,6) ; borne haute : + ces lignes à 70 % (4,0)",
       "inputs": [
        {
-        "label": "AME, coût réel 2025",
-        "value": "1,47 Md€",
-        "source": "Sénat",
-        "url": "https://www.senat.fr/rap/l25-736-228/l25-736-2281.pdf"
+        "label": "Condition publiée",
+        "value": "cinq ans de séjour régulier et de travail",
+        "source": "Bruno Retailleau 2027",
+        "url": "https://www.avecretailleau.fr/projet/mesure/conditionner-les-prestations-sociales-a-cinq-ans-de-sejour"
+       },
+       {
+        "label": "Ligne du plan",
+        "value": "3,6 Md€ en 2032 (prestations) ; 10 Md€ au total en 2032",
+        "source": "Fiches presse du 12/10/2026, fiche 9",
+        "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+       },
+       {
+        "label": "RSA et prestations de solidarité après 5 ans de travail",
+        "value": "2,6 Md€ (0,6 à 3,0) ; part des étrangers 7,8 % (2022)",
+        "source": "Institut Montaigne (2024)",
+        "url": "https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/reserver-le-benefice-du-rsa-et-des-prestations-de-solidarites-aux-etrangers-ayant-au-moins-5-ans-dequivalent-temps-plein-travaille-en-france/"
+       },
+       {
+        "label": "Part des étrangers dans la population",
+        "value": "8,2 % (2023)",
+        "source": "Insee",
+        "url": "https://insee.fr/fr/statistiques/3633212"
        }
       ],
-      "note": "Aucune donnée indépendante sur le regroupement familial"
+      "note": "Le plan est un niveau annuel en 2032, pas un cumul. À trancher : statut des estimations de l'OID comme chiffrage indépendant (non utilisé pour les autres candidats). Asile hors des frontières : Montaigne 2024 chiffre « Réformer la politique de l'asile » du RN à 1,2 Md€ ; si les deux mesures sont jugées du même type, la même valeur s'appliquerait (non vérifié)."
      },
      "quiz_text": "Un référendum sur l'immigration : fin du droit du sol, aides après 5 ans de travail",
      "quiz_concret": "Naître en France ne rendrait plus automatiquement Français.",
@@ -6996,11 +7032,11 @@
      "obstacle": "Capitalisation : coût de transition non chiffré",
      "claude": {
       "id": "retraites",
-      "central": 2.8,
+      "central": 1.8,
       "low": 0,
-      "high": 9.8,
+      "high": 8.4,
       "method": "ascendant",
-      "formula": "Décote : 12 Md€ cumulés sur 5 ans, montée en charge : 3,5/15 du cumulé (règle commune, 70 % en 2030) → +2,8 Md€ en 2030 ; plan complet 42 Md€ → 9,8 au maximum",
+      "formula": "Lecture corrigée : 12 Md€ = niveau de 2032, pas un cumul. Sans calendrier publié ni chiffrage indépendant du dispositif 63/65 avec décote, même lecture que Philippe, Lisnard et Zemmour : en 2030 seule compte la fin de la suspension de la réforme de 2023 (+1,8) ; borne haute : chiffre du camp à 70 % en 2030 (12 × 0,7 = 8,4) ; borne basse 0 (départ possible dès 63 ans, avant 64)",
       "inputs": [
        {
         "label": "Paramètres",
@@ -7013,9 +7049,15 @@
         "value": "+13,6 Md€",
         "source": "CNAV (Public Sénat)",
         "url": "https://www.publicsenat.fr/article/parlementaire/reforme-des-retraites-combien-pourrait-rapporter-le-report-de-l-age-legal-a-65"
+       },
+       {
+        "label": "Mesures d'âge (63/65 ans, carrières longues)",
+        "value": "12,0 Md€ en 2032 (niveau annuel)",
+        "source": "Fiches presse du camp (12/10/2026), fiche 6",
+        "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
        }
       ],
-      "note": "Aucune estimation indépendante publiée ; capitalisation : coût de transition non chiffré"
+      "note": "À trancher : le départ à 63 ans avec décote peut avoir un effet dès 2028 (décote sur les nouveaux retraités), dans un sens ou dans l'autre selon les générations ; seul un chiffrage indépendant permettrait de dépasser la valeur commune."
      },
      "quiz_text": "Retraite possible dès 63 ans avec une pension réduite, pleine à 65 ans",
      "quiz_concret": "Vous choisissez : partir plus tôt en touchant moins, ou attendre 65 ans.",
@@ -7153,7 +7195,7 @@
         "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
        }
       ],
-      "note": "Plafond à 70 % du SMIC non compté : son seul chiffrage (iFRAP, 12 à 34 Md€ selon le plafond) porte sur un autre dispositif, une allocation unique versée en crédit d'impôt qui s'éteint au 8e décile. Objectif du camp : 30 Md€ sur cinq ans pour le chômage et les prestations, soit ≈ 7 Md€ en 2030 selon la règle commune"
+      "note": "Plafond à 70 % du SMIC non compté : son seul chiffrage (iFRAP, 12 à 34 Md€ selon le plafond) porte sur un autre dispositif, une allocation unique versée en crédit d'impôt qui s'éteint au 8e décile. Objectif du camp : 30 Md€ par an en 2032 pour le chômage et les prestations (chômage 14, compte social unique 10, IS 4, RIA 2), soit 21 Md€ en 2030 à 70 % ; seule la part chiffrable indépendamment est comptée (assurance chômage : fiche à part)"
      },
      "quiz_text": "Fusionner les aides sociales et demander 15 heures d'activité par semaine en échange",
      "quiz_concret": "Toucher le RSA impliquerait de travailler ou se former 15 heures par semaine.",
@@ -7243,7 +7285,7 @@
       "low": -16,
       "high": -8,
       "method": "médiane",
-      "formula": "Détail du camp : C3S 5,3 + forfait social 2,8 + CFE industrielle 1,9 = −10 Md€ (CVAE retirée : déjà supprimée par la loi ; l'exonération patronale des heures sup est comptée dans la baisse de 15 Md€ de cotisations patronales)",
+      "formula": "Détail du camp : C3S 5,3 + forfait social 2,8 + CFE industrielle 1,9 = −10 Md€ (CVAE retirée : déjà supprimée par la loi ; heures au-delà de 1 623 heures exonérées : fiche à part)",
       "inputs": [
        {
         "label": "Détail du camp",
@@ -7670,10 +7712,10 @@
         "url": "https://www.moneyvox.fr/immobilier/actualites/110691/maprimerenov-ce-que-le-gouvernement-prevoit-de-changer-en-2027"
        },
        {
-        "label": "Financement de MaPrimeRénov' 2026",
-        "value": "3,6 Md€ au total ; 1,4 à 1,5 Md€ du programme 135 ; 600 M€ des quotas carbone ; au moins 1 Md€ de CEE",
-        "source": "Effy (source sectorielle, à confirmer par un document budgétaire) (entreprise du secteur ; à confirmer par un document budgétaire)",
-        "url": "https://www.effy.fr/flash-info/maprimerenov-derniere-ligne-droite-avant-reouverture"
+        "label": "Quotas carbone affectés à l'Anah",
+        "value": "plafond 2027 : 600 M€ (rendement prévisionnel 1,88 Md€, le reste au budget général)",
+        "source": "Projet de loi de finances pour 2027, article 42, ligne 17",
+        "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf"
        },
        {
         "label": "CEE : financement hors budget",
@@ -7684,11 +7726,11 @@
        {
         "label": "Chiffre du camp",
         "value": "2 Md€ (suppression de MaPrimeRénov')",
-        "source": "Capital (12/10/2026), copie shango.media (copie d'agrégateur ; original non retrouvé)",
-        "url": "https://www.shango.media/capital-bruno-retailleau-devoile-son-plan-de-197-milliards-deuros-deconomies-dici-2032-11939708"
+        "source": "Capital (12/10/2026)",
+        "url": "https://www.capital.fr/economie-politique/bruno-retailleau-devoile-son-plan-de-197-milliards-deuros-deconomies-dici-2032-1530922"
        }
       ],
-      "note": "Le chiffre du camp (2 Md€) coïncide avec la part publique annuelle : il se lit comme un montant annuel, pas comme un cumul (voir le point sur le plan de 197 Md€). La source « quotas carbone 600 M€ » est sectorielle (Effy) : à remplacer par le document budgétaire de l'Anah."
+      "note": "Le chiffre du camp (2 Md€) coïncide avec la part publique annuelle : il se lit comme un montant annuel, pas comme un cumul (voir le point sur le plan de 197 Md€). Quotas carbone : plafond de 600 M€ affectés à l'Anah (projet de loi de finances pour 2027, article 42)."
      },
      "quiz_text": "Supprimer l'aide publique à la rénovation énergétique des logements",
      "quiz_concret": "Fin de l'aide de l'État pour isoler ou changer de chauffage.",
@@ -7891,12 +7933,12 @@
      "claimed_md": -15,
      "estimates": [
       {
-       "source": "Capital, « Bruno Retailleau dévoile son plan de 197 milliards d'euros d'économies d'ici 2032 » (copie sur shango.media, ",
+       "source": "Capital, « Bruno Retailleau dévoile son plan de 197 milliards d'euros d'économies d'ici 2032 » (",
        "year": 2026,
        "value": "Capital : « Côté entreprises, il prévoit 15 milliards d'euros de cotisations patronales en moins et 15 milliards d'impôts de production supprimés. » iFRAP : « 30 Md€ de fiscalité en moins pour les ent",
        "low_md": null,
        "high_md": null,
-       "url": "https://www.shango.media/capital-bruno-retailleau-devoile-son-plan-de-197-milliards-deuros-deconomies-dici-2032-11939708"
+       "url": "https://www.capital.fr/economie-politique/bruno-retailleau-devoile-son-plan-de-197-milliards-deuros-deconomies-dici-2032-1530922"
       }
      ],
      "consensus": "isolé",
@@ -7908,13 +7950,13 @@
       "low": -15.0,
       "high": -10.5,
       "method": "camp",
-      "formula": "Baisse annoncée : 15 Md€ de cotisations patronales (plan du 12/10/2026, montants « entreprises » annuels : les 15 Md€ d'impôts de production correspondent au rendement annuel des taxes visées). Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030, comme les impôts de production du même plan et les baisses d'impôts des autres candidats ; elle comprend l'exonération patronale des heures sup, retirée de la mesure « production » ; borne haute : 70 % en 2030 (−10,5)",
+      "formula": "Baisse annoncée : 15 Md€ de cotisations patronales (plan du 12/10/2026, montants « entreprises » annuels : les 15 Md€ d'impôts de production correspondent au rendement annuel des taxes visées). Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030, comme les impôts de production du même plan et les baisses d'impôts des autres candidats ; le seuil « zéro cotisation » au-delà de 1 623 heures fait l'objet d'une fiche à part (−4,3) ; borne haute : 70 % en 2030 (−10,5)",
       "inputs": [
        {
         "label": "Ventilation des 30 Md€ « entreprises »",
         "value": "15 Md€ d'impôts de production, 15 Md€ de cotisations patronales",
-        "source": "Capital (12/10/2026), copie shango.media",
-        "url": "https://www.shango.media/capital-bruno-retailleau-devoile-son-plan-de-197-milliards-deuros-deconomies-dici-2032-11939708"
+        "source": "Capital (12/10/2026)",
+        "url": "https://www.capital.fr/economie-politique/bruno-retailleau-devoile-son-plan-de-197-milliards-deuros-deconomies-dici-2032-1530922"
        },
        {
         "label": "Même ventilation",
@@ -7929,7 +7971,7 @@
         "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
        }
       ],
-      "note": "Les « 15 Md€ d'impôts de production » correspondent au rendement annuel des taxes visées (C3S 5,3 + CVAE 4,3 + forfait social 2,8 + CFE 1,9 = 14,3) : les montants « entreprises » se lisent comme des niveaux annuels. Recoupe en partie l'exonération patronale des heures sup (≤ 2 Md€, déjà comptée)."
+      "note": "Les « 15 Md€ d'impôts de production » correspondent au rendement annuel des taxes visées (C3S 5,3 + CVAE 4,3 + forfait social 2,8 + CFE 1,9 = 14,3) : les montants « entreprises » se lisent comme des niveaux annuels."
      },
      "quiz_text": "Baisser de 15 Md€ les cotisations patronales d'ici 2032."
     },
@@ -8046,23 +8088,29 @@
      "obstacle": "Rendement incertain : dépend des contrôles effectivement menés.",
      "claude": {
       "id": "fraude",
-      "central": 1.2,
-      "low": 0.6,
-      "high": 1.2,
-      "method": "camp",
-      "formula": "5 Md€ cumulés × 3,5/15 ≈ 1,2 en 2030, sous le potentiel indépendant (CAE, 4,1) : retenu (même règle que Le Pen et Mélenchon)",
+      "central": 4.1,
+      "low": 2.0,
+      "high": 4.1,
+      "method": "médiane",
+      "formula": "Plan du camp : 9 Md€ par an en 2032 (fraude fiscale et aux aides 5, fraude sociale 4), soit 6,3 à 70 % en 2030 ; champ fiscal et social : tous les leviers du CAE, 4,1 Md€ (plafond) ; borne basse : moitié",
       "inputs": [
        {
-        "label": "Fraude",
-        "value": "5 Md€ cumulés",
-        "source": "Public Sénat (12/10/2026)",
-        "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
+        "label": "Leviers de lutte contre la fraude",
+        "value": "impôts des particuliers hors TVA 2,8 ; TVA 0,5 ; cotisations 0,36 ; prestations hors assurance maladie 0,25 ; assurance maladie 0,23 : 4,1 Md€/an",
+        "source": "CAE, Focus n° 147 (8/10/2026)",
+        "url": "https://cae-eco.fr/static/pdf/Focus_147_Synthese_Fipu_261008.pdf"
        },
        {
-        "label": "Leviers anti-fraude réalistes",
-        "value": "≈ 4,1 Md€/an",
-        "source": "CAE (La Grande Conversation)",
-        "url": "https://www.lagrandeconversation.com/politique/rn-les-mauvais-comptes-dun-budget-dope-a-lia/"
+        "label": "Rendement du contrôle fiscal",
+        "value": "≈ 1,1 M€ recouvré par agent en 2024 (moyenne ; 11,4 Md€ recouvrés)",
+        "source": "Cour des comptes (16/12/2025)",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-12/20251216-Lutte-contre-la-fraude-fiscale.pdf"
+       },
+       {
+        "label": "Fraudes (fiches 5 et 10 du plan)",
+        "value": "9 Md€ en 2032",
+        "source": "Fiches presse du camp (12/10/2026)",
+        "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
        }
       ]
      },
@@ -8072,17 +8120,17 @@
      "id": "menages",
      "theme": "fiscalite",
      "title": "Baisses d'impôts des ménages",
-     "proposal": "Rendre 21 Md€ aux ménages (heures sup mieux payées, facture d'électricité réduite, logement), sans détail publié.",
+     "proposal": "Baisser les cotisations salariales dès le premier euro (15 Md€), financer un relais de MaPrimeRénov' et supprimer la TVA liée aux certificats d'économies d'énergie (3 Md€).",
      "claimed": "21 Md€ (plan du 12/10/2026, annuels ou cumulés non précisés)",
      "claimed_md": null,
      "estimates": [
       {
-       "source": "Capital (12/10/2026, copie shango.media)",
+       "source": "Capital (12/10/2026)",
        "year": 2026,
        "value": "21 Md€ rendus aux ménages, 30 aux entreprises",
        "low_md": null,
        "high_md": null,
-       "url": "https://www.shango.media/capital-bruno-retailleau-devoile-son-plan-de-197-milliards-deuros-deconomies-dici-2032-11939708"
+       "url": "https://www.capital.fr/economie-politique/bruno-retailleau-devoile-son-plan-de-197-milliards-deuros-deconomies-dici-2032-1530922"
       }
      ],
      "consensus": "isolé",
@@ -8090,16 +8138,22 @@
      "obstacle": "Instruments non publiés.",
      "claude": {
       "id": "menages",
-      "central": 0,
-      "low": 0,
-      "high": 0,
-      "method": "nc",
-      "nc": true,
-      "formula": "Non chiffrable : instruments et calendrier non publiés (« annuels ou cumulés » non précisé)",
-      "note": "Indicatif : de −4,9 (21 Md€ cumulés, 3,5/15) à −14,7 (21 Md€ par an, 70 % en 2030), moins ≈ 2 Md€ déjà compris dans la baisse des cotisations patronales (heures sup)",
-      "inputs": []
+      "central": -18.0,
+      "low": -18.0,
+      "high": -12.6,
+      "method": "camp",
+      "formula": "Budget publié ligne à ligne (fiche 14 du plan, niveaux 2032) : cotisations salariales en moins dès le premier euro −15 + relais de MaPrimeRénov' et TVA sur les certificats d'économies d'énergie −3 = −18 ; comptée en entier en 2030 comme les cotisations patronales du même plan (baisse d'impôt sans calendrier par mesure, règle commune) ; borne haute : 70 % en 2030 (−12,6). La ligne « familles et transmission » (3) est couverte par les fiches revenu familial et transmission",
+      "note": "Seul chiffrage : celui du camp. Si l'on retenait la trajectoire du plan (70 % en 2030), la même lecture vaudrait pour les cotisations patronales : −12,6 et −10,5.",
+      "inputs": [
+       {
+        "label": "Ménages : 21 Md€ en 2032",
+        "value": "15 cotisations salariales ; 3 familles et transmission ; 3 relais MaPrimeRénov' et TVA sur les CEE",
+        "source": "Fiches presse du 12/10/2026, fiche 14",
+        "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+       }
+      ]
      },
-     "quiz_text": "Rendre 21 Md€ aux ménages, sans détail publié."
+     "quiz_text": "Baisser les cotisations salariales dès le premier euro, financer un relais de MaPrimeRénov' et supprimer la TVA liée aux certificats d'économies d'énergie."
     },
     {
      "id": "chomage",
@@ -8289,23 +8343,59 @@
       "note": "Périmètre plus large que le pacte Dutreil (toute entreprise à activité réelle, holdings au prorata) : la valeur centrale est un minimum."
      },
      "quiz_text": "Droits de succession et de donation sur les entreprises à activité réelle calculés à la transmission mais exigibles seulement en cas de cession."
+    },
+    {
+     "id": "seuil_zero_cotisation",
+     "theme": "travail",
+     "title": "Seuil « zéro cotisation » au-delà de 1 623 heures",
+     "proposal": "Exonérer de toutes les cotisations sociales les heures travaillées au-delà de 1 623 heures par an.",
+     "claimed": "4,3 Md€ rendus aux entreprises sur les heures déjà réalisées ; « autofinancé » selon le camp",
+     "claimed_md": -4.3,
+     "estimates": [],
+     "consensus": "isolé",
+     "verdict": "faisable",
+     "obstacle": "Par la loi de financement de la Sécurité sociale ; autofinancement par des heures nouvelles non démontré.",
+     "claude": {
+      "id": "seuil_zero_cotisation",
+      "central": -4.3,
+      "low": -6.5,
+      "high": -2.2,
+      "method": "camp",
+      "formula": "Coût statique annoncé par le camp sur les heures supplémentaires existantes (4,3 Md€ rendus aux entreprises) ; autofinancement par les heures nouvelles non compté (effet de comportement non documenté) ; ±50 %",
+      "inputs": [
+       {
+        "label": "Coût statique",
+        "value": "4,3 Md€ « aux entreprises sur les heures supplémentaires déjà réalisées »",
+        "source": "Livret « Le travail gagnant »",
+        "url": "https://www.avecretailleau.fr/api/media/file/Livret_Travail.pdf"
+       },
+       {
+        "label": "Seuil zéro cotisation",
+        "value": "10 Md€ en 2032, « autofinancé » selon le camp",
+        "source": "Fiches presse du 12/10/2026",
+        "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+       }
+      ],
+      "note": "Pas d'effet de comportement compté (règle commune), comme les heures sup désocialisées de Philippe."
+     },
+     "quiz_text": "Exonérer de toutes les cotisations sociales les heures travaillées au-delà de 1 623 heures par an."
     }
    ],
    "total": {
-    "claimed": "197 Md€ d'économies cumulées d'ici 2032, 51 Md€ de baisses d'impôts, ≈146 Md€ nets",
+    "claimed": "197 Md€ d'économies par an en 2032 (66,5 % atteints en 2030 selon le camp), 51 Md€ de baisses d'impôts, ≈ 146 Md€ nets",
     "independent": "aucun chiffrage global ; agences 0,5 à 3 Md€ contre 12,5 annoncés ; AME 1,5 Md€/an au plus",
     "low_md": null,
     "high_md": null
    },
    "claude_total": {
-    "sum": -4.0,
-    "p10": -13.3,
-    "p90": 8.4,
-    "realsum": -5.2,
-    "missing": "capitalisation, audiovisuel public, aide au développement, et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (cumulés), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ cumulés, sans chiffrage indépendant)",
-    "n": 16,
-    "cost": -33.0,
-    "gain": 28.9,
+    "sum": -23.3,
+    "p10": -31.0,
+    "p90": -7.4,
+    "realsum": -25.6,
+    "missing": "capitalisation, audiovisuel public, aide au développement, et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (niveaux annuels en 2032), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ en 2032, sans chiffrage indépendant), autres lignes immigration du plan (famille, étudiants, asile, titres, hébergement, mineurs isolés : 5,7 Md€ en 2032, estimations de l'Observatoire de l'immigration sans chiffrage indépendant)",
+    "n": 18,
+    "cost": -55.2,
+    "gain": 31.9,
     "confirm": []
    },
    "short": "Retailleau",
@@ -8317,7 +8407,14 @@
      "regle": "Âge minimal 63 ans, taux plein à 65 ans indexé ensuite sur l'espérance de vie ; part de capitalisation pour les jeunes."
     },
     "smic_net": null,
-    "salaire_net": null,
+    "salaire_net": {
+     "gain_mensuel": 46.4,
+     "ref": 2733,
+     "prorata": true,
+     "sans_plafond": true,
+     "public": "salariés",
+     "note": "Cotisations salariales en moins « dès le premier euro » (15 Md€) : réparties au prorata des salaires (barème non publié, notre hypothèse)"
+    },
     "alloc_familiales": null,
     "tva_energie": null,
     "fonctionnaires": "1 623 h/an au lieu de 1 607, trois jours de carence au lieu d'un, 400 000 départs en retraite non remplacés.",
@@ -8375,7 +8472,7 @@
      "rc": 6
     }
    },
-   "promise": "Promet 197 Md€ d'économies cumulées d'ici 2032, un âge minimal de 63 ans, la fusion des aides sociales et un référendum sur l'immigration.",
+   "promise": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration.",
    "obstacle_main": "La révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées."
   },
   {
@@ -9181,7 +9278,7 @@
        "value": "Coût annoncé : 2,5 à 3 Md€",
        "low_md": -3,
        "high_md": -2.5,
-       "url": "https://fr.finance.yahoo.com/actualites/salaires-enseignants-rapha%C3%ABl-glucksmann-assure-184327007.html"
+       "url": "https://www.capital.fr/votre-carriere/salaires-des-enseignants-raphael-glucksmann-assure-vouloir-les-augmenter-d-au-moins-10-pour-tous-1529686"
       }
      ],
      "consensus": "isolé",
@@ -9210,8 +9307,8 @@
        {
         "label": "Coût annoncé",
         "value": "« La mesure que je défends, elle coûte entre 2,5 et 3 milliards d'euros » (entretien au Monde)",
-        "source": "Capital, 30/08/2026 (copie Yahoo Finance)",
-        "url": "https://fr.finance.yahoo.com/actualites/salaires-enseignants-rapha%C3%ABl-glucksmann-assure-184327007.html"
+        "source": "Capital (30/08/2026)",
+        "url": "https://www.capital.fr/votre-carriere/salaires-des-enseignants-raphael-glucksmann-assure-vouloir-les-augmenter-d-au-moins-10-pour-tous-1529686"
        }
       ],
       "note": "Répartition de la hausse jusqu'à 500 € non publiée. Même règle que les autres hausses des enseignants : borne haute = part explicite au barème commun, 70 % en 2030."
@@ -9487,7 +9584,7 @@
    "name": "David Lisnard",
    "party": "Nouvelle Énergie",
    "poll": "6,5 %",
-   "summary": "Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations. Notre chiffrage : −57,3 Md€ par an en 2030, soit −1 854 € par ménage. Principal obstacle : l'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend.",
+   "summary": "Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations. Notre chiffrage : −53,2 Md€ par an en 2030, soit −1 721 € par ménage. Principal obstacle : l'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend.",
    "measures": [
     {
      "id": "depense",
@@ -10665,12 +10762,18 @@
      "obstacle": "Par la loi de finances ; financement non précisé dans la mesure.",
      "claude": {
       "id": "succession",
-      "central": -9.8,
-      "low": -15,
-      "high": -9.8,
+      "central": -10.4,
+      "low": -16.0,
+      "high": -10.4,
       "method": "ascendant",
-      "formula": "Même base que Zemmour : droits de succession 2024 = 15 Md€ ; la ligne collatérale fait ≈ 35 % des droits (Cour des comptes 2024, micro-simulation DG Trésor), donc la ligne directe ≈ 65 % → 15 × 65 % ≈ −9,8 Md€ ; borne basse −15 (= suppression totale chiffrée chez Zemmour : le taux bas en ligne collatérale et la libéralisation des donations ne sont pas paramétrés)",
+      "formula": "Droits de succession 2024 exécutés : 16,0 Md€ (Voies et moyens) ; ligne directe ≈ 65 % (Cour des comptes 2024) → 16,0 × 65 % ≈ −10,4 ; borne basse −16,0 (suppression totale, base de Zemmour)",
       "inputs": [
+       {
+        "label": "Droits de succession exécutés en 2024 (ligne 1706)",
+        "value": "16,0 Md€ ; donations 4,9 Md€",
+        "source": "Évaluation des voies et moyens, tome I, PLF 2026",
+        "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1087930/file/PLF%202026%20-%20V%26M%20TI%20-%20Evaluations%20des%20recettes.pdf"
+       },
        {
         "label": "Droits de mutation à titre gratuit 2024",
         "value": "20 Md€, dont 15 Md€ de successions",
@@ -10988,8 +11091,8 @@
        {
         "label": "Gel temporaire",
         "value": "« un gel temporaire de l'indexation uniquement sur les pensions supérieures à 2 200 euros par mois »",
-        "source": "Capital, copie Yahoo Finance (28/10/2026) ; article original de Capital non retrouvé",
-        "url": "https://fr.finance.yahoo.com/actualites/retraite-d%C3%A9passe-2-200-euros-074829095.html"
+        "source": "Capital (28/10/2026)",
+        "url": "https://www.capital.fr/votre-retraite/votre-retraite-depasse-2-200-euros-david-lisnard-propose-de-la-geler-1531322"
        }
       ],
       "note": "Durée du gel non publiée (un an retenu). Le camp affecte ces économies à la transition vers la capitalisation, dont le coût n'est pas compté. Le projet de loi de financement de la Sécurité sociale pour 2027 prévoit déjà une désindexation au-delà de 1 260 € : s'il est voté, la situation de départ change pour tous."
@@ -11037,6 +11140,48 @@
       "note": "Calendrier non publié. Point commun ouvert : compter ou non la construction (note de la fiche Le Pen), même décision pour les trois."
      },
      "quiz_text": "Construire 20 000 places de prison supplémentaires."
+    },
+    {
+     "id": "abattement_pensions",
+     "theme": "fiscalite",
+     "title": "Fin de l'abattement de 10 % sur les pensions",
+     "proposal": "Supprimer l'abattement fiscal de 10 % sur les pensions de retraite.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [],
+     "consensus": "isolé",
+     "verdict": "faisable",
+     "obstacle": "Par la loi de finances.",
+     "claude": {
+      "id": "abattement_pensions",
+      "central": 4.7,
+      "low": 3.6,
+      "high": 5.3,
+      "method": "ascendant",
+      "formula": "Paramètre publié (suppression totale) × coût officiel de l'abattement : 4 665 M€ prévus en 2026 (dépense fiscale 120401, y compris une petite part de pensions alimentaires) ≈ +4,7 Md€ ; borne basse : si l'article 3 du PLF 2027 est voté (−1,1 Md€ à partir de 2029) : 3,6 ; borne haute : prévision 2025 (5,3)",
+      "inputs": [
+       {
+        "label": "Proposition du candidat",
+        "value": "suppression de l'abattement de 10 % des retraités",
+        "source": "Capital (28/10/2026), article original",
+        "url": "https://www.capital.fr/votre-retraite/votre-retraite-depasse-2-200-euros-david-lisnard-propose-de-la-geler-1531322"
+       },
+       {
+        "label": "Coût de l'abattement (120401)",
+        "value": "4 803 M€ (2024), 5 322 (2025), 4 665 (2026)",
+        "source": "Évaluation des voies et moyens, tome II, PLF 2026",
+        "url": "https://www.assemblee-nationale.fr/dyn/dyn/contenu/visualisation/1087933/file/Voies_et_moyens_Tome_2_2026.pdf"
+       },
+       {
+        "label": "Plafond à 3 000 € (PLF 2027, art. 3, non voté)",
+        "value": "+1,4 Md€ (2027), +1,8 (2028), +1,1 à partir de 2029",
+        "source": "PLF 2027, évaluations préalables",
+        "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1128179/file/PLF%202027%20-%20Evaluations%20pr%C3%A9alables.pdf"
+       }
+      ],
+      "note": "Proposition citée entre guillemets par Capital (28/10/2026) ; émission d'origine (Europe 1 / CNEWS, 27/10) à retrouver. Le projet de loi de finances pour 2027 plafonne déjà cet abattement (non voté) : s'il est voté, la situation de départ change pour tous."
+     },
+     "quiz_text": "Supprimer l'abattement fiscal de 10 % sur les pensions de retraite."
     }
    ],
    "total": {
@@ -11046,14 +11191,14 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -57.3,
-    "p10": -64.5,
-    "p90": -51.0,
-    "realsum": -59.6,
+    "sum": -53.2,
+    "p10": -60.9,
+    "p90": -47.1,
+    "realsum": -55.5,
     "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, TVA unique à 25 %",
-    "n": 12,
-    "cost": -64.8,
-    "gain": 7.5,
+    "n": 13,
+    "cost": -65.4,
+    "gain": 12.2,
     "confirm": []
    },
    "short": "Lisnard",
@@ -11080,7 +11225,7 @@
     "chomeurs": "Contrat de travail unique fusionnant CDI et CDD.",
     "minima_sociaux": "Allocation sociale unique plafonnée à un pourcentage du SMIC : baisse possible, non chiffrée ici car le plafond n'est pas publié.",
     "jeunes": "Âge limite de l'apprentissage abaissé.",
-    "retraites_actuels": "Minimum vieillesse annoncé à 1 000 €/mois (il est déjà de 1 043,59 € en 2026).",
+    "retraites_actuels": "Pensions au-dessus de 2 200 € gelées (durée non publiée) ; abattement fiscal de 10 % sur les pensions supprimé : impôt en hausse pour les retraités imposables (non calculé ici). Minimum vieillesse annoncé à 1 000 €/mois (il est déjà de 1 043,59 € en 2026).",
     "independants": "Concernés par la baisse des cotisations ; pas d'autre mesure spécifique publiée.",
     "etrangers": "Prestations non contributives réservées aux résidents réguliers depuis au moins 5 ans ; AME remplacée par une aide d'urgence.",
     "patrimoine": [],
@@ -11104,7 +11249,13 @@
     },
     "tous": [
      "Baisse des cotisations : jusqu'à +400 €/mois promis à terme pour un salaire moyen ; au-delà de la baisse de CSG, aucun paramètre publié : non calculé ici."
-    ]
+    ],
+    "gel_pct": 1.8,
+    "gel_min": 2200,
+    "gel_status": [
+     "retraite"
+    ],
+    "gel_note": "Pensions au-dessus de 2 200 € par mois non revalorisées pendant un an (inflation prévue 1,8 % ; durée non publiée, seuil supposé en net)"
    },
    "promise": "Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations.",
    "obstacle_main": "L'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend."
@@ -11114,7 +11265,7 @@
    "name": "Éric Zemmour",
    "party": "Reconquête",
    "poll": "4-4,5 %",
-   "summary": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH. Notre chiffrage : +22,1 Md€ par an en 2030, soit +715 € par ménage. Principal obstacle : plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH.",
+   "summary": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH. Notre chiffrage : +22,2 Md€ par an en 2030, soit +718 € par ménage. Principal obstacle : plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH.",
    "measures": [
     {
      "id": "remigration",
@@ -11654,12 +11805,18 @@
      "verdict": "faisable",
      "obstacle": "Une loi de finances suffit ; financement des 15 à 20 Md€ perdus non précisé.",
      "claude": {
-      "central": -15,
-      "low": -20,
-      "high": -15,
+      "central": -16.0,
+      "low": -20.9,
+      "high": -16.0,
       "method": "ascendant",
-      "formula": "Recettes des successions 2024 : 15 Md€ ; 20 Md€ si les donations sont aussi supprimées",
+      "formula": "Droits de succession 2024 : 16,0 Md€ ; 20,9 si les donations (4,9) sont aussi supprimées",
       "inputs": [
+       {
+        "label": "Droits de succession exécutés en 2024 (ligne 1706)",
+        "value": "16,0 Md€ ; donations 4,9 Md€",
+        "source": "Évaluation des voies et moyens, tome I, PLF 2026",
+        "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1087930/file/PLF%202026%20-%20V%26M%20TI%20-%20Evaluations%20des%20recettes.pdf"
+       },
        {
         "label": "Droits de mutation à titre gratuit 2024",
         "value": "≈20 Md€, dont 15 Md€ de successions",
@@ -11809,7 +11966,7 @@
         "label": "Agents des secteurs épargnés",
         "value": "2,2 M sur 5,9 M",
         "source": "Capital (S. Knafo sur LCI, 14/10/2026)",
-        "url": "https://fr.finance.yahoo.com/actualites/sarah-knafo-veut-toujours-supprimer-095021680.html"
+        "url": "https://www.capital.fr/economie-politique/sarah-knafo-veut-toujours-supprimer-des-postes-de-fonctionnaires-mais-pas-dans-l-hopital-la-police-ou-la-gendarmerie-1531010"
        }
       ],
       "note": "Reprise par le candidat le 17/09/2026 (BFMTV) ; plan publié sur budget2027.fr. La faisabilité (départs disponibles hors secteurs épargnés) relève du verdict, comme pour les autres candidats Fipeco (30 à 40 Md€) chiffre l'effet complet d'une réduction effective, sans part rendue aux agents ni montée en charge ; la règle commune (moitié rendue, 70 % du plan en 2030) vaut pour tous les plans de postes."
@@ -11947,17 +12104,41 @@
      "obstacle": "Par la loi de finances ; financement non précisé dans la mesure.",
      "claude": {
       "id": "accise",
-      "central": -9.1,
+      "central": -9.0,
       "low": -12,
-      "high": -8.3,
+      "high": -8.2,
       "method": "ascendant",
-      "formula": "Accise sur les carburants 2025 : 24,8 Md€ (Cour des comptes) → 1/3 = 8,3 Md€ ; + TVA assise sur cette part d'accise, de 0 (entreprises qui la récupèrent) à 1,7 Md€ (20 % × 8,3) : milieu 0,8 → ≈ −9,1 Md€ ; borne basse : chiffre du camp (12)",
+      "formula": "Même base que la TICPE de Le Pen : volumes 2025 (gazole 32 Mm³, dont 7,6 Mm³ remboursés aux poids lourds et 0,8 Mm³ aux autocars ; essences 15,6 Mm³) × tarifs 2026 (gazole 60,75 €/hl ; SP95-E5 69,02 et E10 67,02, moyenne 68,02). Un tiers : gazole non remboursé 23,6 Mm³ × 20,25 €/hl = 4,78 ; poids lourds : le tarif national (40,50) passe sous leur tarif net (45,19), perte 4,69 €/hl × 7,57 Mm³ = 0,36 ; autocars : tarif net (39,19) inchangé, 0 ; essences 15,6 Mm³ × 22,67 €/hl = 3,54 ; total 8,67 aux tarifs normaux. Calage sur les recettes 2025 publiées (CPO : 17,3 + 9,9 = 27,2 Md€, contre 28,7 aux tarifs normaux pour les mêmes volumes : tarifs réduits E85, E10, B100, Corse, taxis) : × 0,948 = 8,2 ; + TVA assise sur cette part d'accise, à mi-chemin entre 0 (entreprises) et 20 % : 0,8 → ≈ −9,0. Borne haute : accise seule (−8,2) ; borne basse : chiffre du camp (−12)",
       "inputs": [
        {
-        "label": "Recettes fiscales sur les carburants 2025",
-        "value": "37,2 Md€, dont 24,8 Md€ d'accise et 12,4 Md€ de TVA",
-        "source": "Cour des comptes (via Journal de l'économie, 17/09/2026)",
-        "url": "https://www.journaldeleconomie.fr/carburants-aides-400-million-37-milliard/"
+        "label": "Accise 2025 sur le gazole et l'essence",
+        "value": "17,3 + 9,9 = 27,2 Md€ (27 Mt de gazole, 11,8 Mt d'essence)",
+        "source": "Conseil des prélèvements obligatoires (Cour des comptes), juin 2026, p. 77",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-06/20260603-Quel-avenir-pour-la-fiscalite-de-l-energie.pdf"
+       },
+       {
+        "label": "Partage de l'accise en 2025",
+        "value": "43,2 Md€ bruts toutes énergies, dont 14,4 Md€ aux collectivités",
+        "source": "Conseil des prélèvements obligatoires, juin 2026, p. 52",
+        "url": "https://www.ccomptes.fr/sites/default/files/2026-06/20260603-Quel-avenir-pour-la-fiscalite-de-l-energie.pdf"
+       },
+       {
+        "label": "Accise sur les énergies nette, part État",
+        "value": "25,2 Md€ en 2025 ; 23,5 Md€ au PLF 2027, dont « accise sur les carburants » 16,3 Md€",
+        "source": "Projet de loi de finances pour 2027 (exposé général et État A)",
+        "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf"
+       },
+       {
+        "label": "Livraisons de carburants (année mobile à septembre 2026)",
+        "value": "supercarburants (SP95-E10, SP95-E5, SP98, E85) 15 638 milliers de m³ ; gazoles routiers 30 190",
+        "source": "DGEC, Cours, prix et marges des produits pétroliers, 23/10/2026",
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/NPG-2026.10.23.pdf"
+       },
+       {
+        "label": "Tarifs 2026, remboursements, volumes 2025",
+        "value": "repris de la fiche TICPE de Le Pen (Douanes, Voies et moyens tome II, CNR, CPDP)",
+        "source": "Fiche ticpe (Le Pen)",
+        "url": "https://www.douane.gouv.fr/sites/default/files/ba_files/da/2026-02/BOD%20DetT%20mars%202026.pdf"
        },
        {
         "label": "Coût annoncé",
@@ -11966,7 +12147,7 @@
         "url": "https://combienjegagne.fr/"
        }
       ],
-      "note": "Aucun chiffrage indépendant ; base 2025 non projetée en 2030 (baisse de la consommation de carburants non comptée). La suppression des certificats d'économies d'énergie, proposée en même temps, est sans effet sur le solde public (obligation des fournisseurs, pas une recette publique). Verdict proposé : faisable (loi de finances ; les taux restent au-dessus des minima de la directive 2003/96)."
+      "note": "Aucun chiffrage indépendant ; base 2025 non projetée en 2030 ; le chiffre de 24,8 Md€ (attribué à la Cour des comptes sans référence) est retiré (baisse de la consommation de carburants non comptée). La suppression des certificats d'économies d'énergie, proposée en même temps, est sans effet sur le solde public (obligation des fournisseurs, pas une recette publique). Verdict proposé : faisable (loi de finances ; les taux restent au-dessus des minima de la directive 2003/96)."
      },
      "quiz_text": "Baisser d'un tiers l'accise sur les carburants, financée selon le candidat par des économies."
     },
@@ -12242,13 +12423,13 @@
     }
    },
    "claude_total": {
-    "sum": 22.1,
+    "sum": 22.2,
     "p10": 14.5,
-    "p90": 34.8,
-    "realsum": 14.8,
-    "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, suppression de l'aide au développement, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, étudiants étrangers 4, audiovisuel 4, Ademe 3,4, fraude 2 à 3, associations 1 à 2, ARS et autres agences 2)",
+    "p90": 34.9,
+    "realsum": 14.9,
+    "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, suppression de l'aide au développement, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, étudiants étrangers 4, audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS et autres agences 2)",
     "n": 9,
-    "cost": -9.1,
+    "cost": -9.0,
     "gain": 31.2,
     "confirm": [
      "Fin de la CSG sur les salaires",
@@ -12263,12 +12444,12 @@
   }
  ],
  "method": [
-  "<b>Notre chiffrage.</b> 136 mesures analysées, dont 106 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
-  "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie) ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
+  "<b>Notre chiffrage.</b> 138 mesures analysées, dont 109 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
+  "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». La lutte contre la fraude est comptée avec les leviers chiffrés par le Conseil d'analyse économique qui correspondent au champ de chaque mesure, dans la limite du chiffre du camp. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie) ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
   "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026 (marquées « À confirmer ») et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 272 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 281 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). Ce sont des ordres de grandeur.",
@@ -12382,6 +12563,10 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "29/10/2026",
+   "text": "Points de méthode tranchés avec les sources : taxes sur les carburants sur une même base pour Zemmour et Le Pen (recettes 2025 du Conseil des prélèvements obligatoires ; −9,0 et −2,1) ; lutte contre la fraude comptée avec les leviers chiffrés par le Conseil d'analyse économique selon le champ de chaque mesure (Le Pen +1,0 au lieu de +4,1, Retailleau +4,1 au lieu de +1,2, Mélenchon inchangé) ; plan de Retailleau lu en niveaux annuels de 2032 comme l'écrit le camp : aides réservées après cinq ans de travail +2,7 (même étude que Le Pen), retraites +1,8 (même lecture que Philippe, Lisnard et Zemmour), baisses de cotisations salariales et relais de MaPrimeRénov' −18, heures au-delà de 1 623 h sans cotisations −4,3 ; priorité nationale de Le Pen actualisée comme les autres aides réservées (+8,3) ; point d'indice au coût de 2026 (2,4 Md€ par +1 % : Mélenchon −24,0) ; Lisnard : fin de l'abattement de 10 % sur les pensions (+4,7) ; droits de succession sur le montant exécuté de 2024 (16,0 Md€) ; sources primaires à la place des copies (contre-budget du groupe RN, articles de Capital, quotas carbone, allocations familiales). Simulateur : gel des pensions de Lisnard, baisse des cotisations salariales de Retailleau. Totaux : Le Pen −66,8, Mélenchon −132,7, Retailleau −23,3, Lisnard −53,2, Zemmour +22,2 Md€."
+  },
   {
    "date": "29/10/2026",
    "text": "Veille du 27 au 29/10 (discours, entretiens, sites officiels) : Glucksmann, leasing social d'un million de voitures électriques (6 Md€ annoncés à Cléon le 2/10, lus comme un coût total) : −1,4 Md€ en 2030 ; Lisnard, 20 000 places de prison (source primaire trouvée) : −0,6, même calcul que Le Pen et Retailleau ; Mélenchon, plan pour la recherche et l'université du 26/10 (recherche publique à 1,5 % du PIB en 2032) : non chiffrable, coût non publié ; Philippe, service national obligatoire : non chiffrable, durée non publiée, et texte de la fiche immigration précisé ; sondage de Zemmour corrigé (4-4,5 %, comme la notice de référence). Programme LFI confirmé pour le 6/11. Totaux : Glucksmann −46,1, Lisnard −57,3 Md€."
