@@ -1240,7 +1240,7 @@
    ],
    "mesure": null,
    "sujet": "Suites de la revue des chiffrages datés",
-   "detail": "(1) Priorité nationale de Le Pen (Montaigne 2024) : année de base à vérifier avant d'actualiser la part des étrangers, comme Zemmour et Lisnard. (2) Prix de référence de l'énergie (moyenne des 12 derniers mois ou dernier relevé) : même règle pour le blocage des prix de Mélenchon et la TVA énergie de Le Pen. (3) La même étude iFRAP sur le SMIC est lue différemment chez Mélenchon et chez Glucksmann (montant, consensus, méthode) : harmoniser. (4) Point d'indice de Mélenchon (2,07 Md€ par point, 2022) : actualiser. (5) Projet de loi de financement de la Sécurité sociale 2027 : désindexation des pensions au-delà de 1 260 € ; s'il est voté, la situation de départ change pour tous (gel des pensions de Lisnard, année blanche d'Attal). Revue du 29/10 : (1) priorité nationale de Le Pen actualisée comme Zemmour et Lisnard (naissances de deux parents étrangers 13,7 % en 2025, part des étrangers 8,2 %) : 7,6 → 8,3 ; (3) même lecture de l'iFRAP chez Mélenchon et Glucksmann (texte commun, sans borne, « concordant », « ascendant ») ; (4) point d'indice : 2,4 Md€ par +1 % (cabinet du ministre, juillet 2026), Mélenchon −20,7 → −24,0. Restent ouverts : (2) prix de référence de l'énergie (gazole 2,35 €/l au dernier relevé contre 1,98 en moyenne sur 12 mois ; même règle pour le blocage de Mélenchon et la TVA de Le Pen) ; (5) budget de la Sécurité sociale 2027. 29/10 : (2) règle décidée par le porteur : le prix de référence des carburants et de l'énergie est la moyenne des 12 derniers mois publiés par le ministère (au lieu du dernier relevé hebdomadaire), la même pour toutes les mesures qui en dépendent (TVA de Le Pen, accise de Zemmour, blocage des prix de Mélenchon, simulateur). Pas encore appliquée : il faut la série hebdomadaire officielle du gazole et de l'essence sur douze mois (le simulateur utilise la semaine du 23/10 : SP95-E5 2,18 €/l, gazole 2,35 €/l) ; à faire avec ces données, en même temps pour tous, avec la note du simulateur et la méthode.",
+   "detail": "(1) Priorité nationale de Le Pen (Montaigne 2024) : année de base à vérifier avant d'actualiser la part des étrangers, comme Zemmour et Lisnard. (2) Prix de référence de l'énergie (moyenne des 12 derniers mois ou dernier relevé) : même règle pour le blocage des prix de Mélenchon et la TVA énergie de Le Pen. (3) La même étude iFRAP sur le SMIC est lue différemment chez Mélenchon et chez Glucksmann (montant, consensus, méthode) : harmoniser. (4) Point d'indice de Mélenchon (2,07 Md€ par point, 2022) : actualiser. (5) Projet de loi de financement de la Sécurité sociale 2027 : désindexation des pensions au-delà de 1 260 € ; s'il est voté, la situation de départ change pour tous (gel des pensions de Lisnard, année blanche d'Attal). Revue du 29/10 : (1) priorité nationale de Le Pen actualisée comme Zemmour et Lisnard (naissances de deux parents étrangers 13,7 % en 2025, part des étrangers 8,2 %) : 7,6 → 8,3 ; (3) même lecture de l'iFRAP chez Mélenchon et Glucksmann (texte commun, sans borne, « concordant », « ascendant ») ; (4) point d'indice : 2,4 Md€ par +1 % (cabinet du ministre, juillet 2026), Mélenchon −20,7 → −24,0. Restent ouverts : (2) prix de référence de l'énergie (gazole 2,35 €/l au dernier relevé contre 1,98 en moyenne sur 12 mois ; même règle pour le blocage de Mélenchon et la TVA de Le Pen) ; (5) budget de la Sécurité sociale 2027. 29/10 : (2) règle décidée par le porteur : le prix de référence des carburants et de l'énergie est la moyenne des 12 derniers mois publiés par le ministère (au lieu du dernier relevé hebdomadaire), la même pour toutes les mesures qui en dépendent (TVA de Le Pen, accise de Zemmour, blocage des prix de Mélenchon, simulateur). Pas encore appliquée : il faut la série hebdomadaire officielle du gazole et de l'essence sur douze mois (le simulateur utilise la semaine du 23/10 : SP95-E5 2,18 €/l, gazole 2,35 €/l) ; à faire avec ces données, en même temps pour tous, avec la note du simulateur et la méthode. 29/10 (branche revue/is-agences-2910) : (2) réglé pour les carburants : prix de référence = moyenne des 52 dernières semaines de la série officielle de la DGEC (« année mobile » de la note hebdomadaire du 23/10/2026, p. 6 ; fichier « Prix HTT et TTC depuis janvier 2020 ») : gazole 1,98, SP95-E5 1,94, SP95-E10 1,89, fioul domestique 1,52 €/l, au lieu du relevé du 23/10 (2,35 et 2,18), partout : simulateur (Le Pen, Zemmour, Mélenchon ; test du simulateur mis à jour, même largeur de fourchette), fiche du blocage des prix de Mélenchon (valeur inchangée : les prix moyens restent au-dessus de ceux de 2022 et de 2024), note de la TVA de Le Pen (chiffrages non réajustés : année de prix de Bercy inconnue, S151), méthode. Électricité et gaz : S152. Restent ouverts : (5) budget de la Sécurité sociale 2027.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-28",
@@ -2196,21 +2196,29 @@
    "type": "a_verifier",
    "candidats": [
     "le-pen",
-    "zemmour",
+    "melenchon",
+    "philippe",
+    "glucksmann",
+    "attal",
+    "retailleau",
     "lisnard",
-    "retailleau"
+    "zemmour"
    ],
    "mesure": [
     "production",
-    "impots"
+    "impots",
+    "cotisations",
+    "seuil_zero_cotisation",
+    "ticpe",
+    "accise"
    ],
    "sujet": "Impôts de production : compter ou non l'impôt sur les sociétés récupéré (C3S et CFE déductibles)",
    "detail": "La C3S et la CFE sont déductibles du bénéfice imposable : leur suppression accroît mécaniquement l'impôt sur les sociétés (effet fiscal statique, pas un effet de bouclage). Le site compte les quatre fiches en coût brut ; l'Institut Montaigne (2024) le déduit (C3S + CVAE : 9,1 brut, 7,3 net) ; le contre-budget du RN compte 4,27 Md€ de « retour d'IS ». Pas à trancher (décision du porteur, 29/10) : la règle est la médiane des chiffrages crédibles ; regarder comment l'évaluation des voies et moyens, l'IPP, l'Institut Montaigne et la Cour des comptes présentent ce coût (brut ou net), puis appliquer la même lecture aux quatre (et à toute suppression d'un impôt déductible). D'ici là, coût brut pour les quatre.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-29",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Fait le 29/10 (branche revue/is-agences-2910, décision du porteur du projet) : règle commune, dans les deux sens et chez les 8 : un prélèvement sur les entreprises déductible du bénéfice imposable est compté net de l'impôt sur les sociétés qu'il fait varier, à 20 % (17,5 % en borne basse), en entier en 2030, sauf si le chiffrage retenu est déjà net ; jamais sur l'impôt sur les sociétés lui-même ni sur la TVA (récupérée par les entreprises). Faits vérifiés : tous les chiffrages publiés trouvés présentent ce coût net. Gouvernement : PLF 2024, évaluations préalables, article 8, p. 196 (« taux moyen d'IR/IS de 20 % », 70 % la première année) ; PLF 2023 et voies et moyens du PLF 2021, d'après les rapports généraux du Sénat. Conseil des prélèvements obligatoires (septembre 2025), tableau 15 : C3S brute −5 361 M€, impôt sur les sociétés +938, nette −4 423 (17,5 %) ; même retour pour les cotisations patronales quand l'incidence porte sur les entreprises (p. 137-138, tableau 18). Institut Montaigne (2024) : CVAE + C3S 9,1 brut, retour +1,8 « au taux moyen effectif de 20 % », 7,3 net. CAE (note n° 53, 2019) : 20 %. Forfait social déductible (administration, selon CMS Francis Lefebvre, 2015). Inventaire et application (chaque source comptée vérifiée : toutes brutes) : Le Pen, impôts de production −13,7 → −11,0 (rendements officiels ; le « retour d'IS » de 4,27 Md€ du contre-budget, au taux de 25 %, reste un chiffre du camp), TICPE −2,1 → −1,9 (calcul tarifs × volumes ; moitié de l'accise payée par les entreprises, même hypothèse que la TVA de la fiche) ; Zemmour, impôts de production (hors total) −13,7 → −11,0, accise −9,0 → −8,2 (même calcul que Le Pen) ; Lisnard, C3S −5,4 → −4,3 ; Retailleau, impôts de production −10,1 → −8,0, cotisations patronales −15,0 → −12,0 (montant de cotisations en moins de la fiche 14 du plan, brut comme les 15 Md€ d'impôts de production du même plan), seuil « zéro cotisation » −4,3 → −3,4 (« restituer 4,3 milliards d'euros aux entreprises », livret « Le travail gagnant », p. 21) ; Philippe, « deal » de 50 Md€ : 0 inchangé (impôts déductibles et aides retirées supposées imposables, même taux des deux côtés), borne basse −31,5 → −26,0. Règle notée dans la fiche, sans effet sur le total : heures sup de Philippe (baisse) et fin d'exonérations de cotisations de Mélenchon (hausse), toutes deux non chiffrables. Non appliquée faute de base établie (S149) : octroi de mer de Le Pen, taxe sur les transactions financières de Mélenchon (seule hausse d'un prélèvement payé par les entreprises comptée dans un total), contribution patronale sur les actions gratuites de Retailleau (moins de 0,1 Md€). Hors champ : TVA (Le Pen), impôt sur les sociétés lui-même (suramortissement de Le Pen ; IS à 20 % de Lisnard, interaction en S150), SMIC (Mélenchon, Glucksmann : salaire, pas un prélèvement), certificats d'économies d'énergie (Retailleau, Zemmour : pas un prélèvement public), CSG et cotisations salariales (ménages ; impôt sur le revenu : S153). Glucksmann et Attal : aucune mesure comptée sur un prélèvement des entreprises. Effet sur les totaux : Le Pen +2,9, Retailleau +6,0, Lisnard +1,1, Zemmour +0,8 ; Mélenchon, Philippe, Glucksmann, Attal 0. Méthode (« Règles communes ») et CLAUDE.md mis à jour ; changement important signalé dans la PR."
   },
   {
    "id": "S140",
@@ -2329,6 +2337,145 @@
    ],
    "sujet": "Fonction publique : suppression des agences comptée chez Le Pen et Retailleau, pas chez Lisnard",
    "detail": "Relevé le 29/10 en chiffrant les 400 000 postes de Lisnard (S016) : les agences sont comptées +0,7 chez Le Pen et +1,6 chez Retailleau (« agences ≈ 0,7 » et « agences 1,6 » dans les formules de la règle commune du 26/10, sans source détaillée), 0 chez Lisnard (agences, ARS et DREAL supprimées, économie propre non publiée). Vérifier que la même règle s'applique aux trois (une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié) et l'aligner si besoin.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 (branche revue/is-agences-2910, décision du porteur du projet) : la suppression ou la fusion de la plupart des agences et opérateurs de l'État, missions reprises, vaut la même valeur chez les trois candidats qui la proposent, tirée du seul chiffrage indépendant de ce périmètre (commission d'enquête du Sénat, rapport n° 807, 2025, lu à la source) : fonctions support des opérateurs hors universités et recherche, 2,7 Md€ (10 % des charges de personnel, ≈ 14 Md€, et de fonctionnement, 13,2 Md€), réduites de 20 % (« très volontariste ») = 0,54 Md€. Double compte vérifié : ces 0,54 comprennent des économies de personnel, et les agents des agences sont dans les plans de postes de chaque candidat (Lisnard : 400 000 postes, « en commençant par les fonctions administratives » ; Retailleau : 400 000 départs en retraite non remplacés sur les trois versants ; Le Pen : 85 000 postes dans les agences selon le seul compte rendu trouvé) : seule la part hors personnel est gardée, la même pour les trois, 0,54 × 13,2/27,2 = 0,26 (borne basse 0 ; borne haute 1,06 = 8 % des 13,2 Md€ de fonctionnement). Origine des anciens montants : « agences ≈ 0,7 » (Le Pen) et « 1,6 » (Retailleau) n'avaient pas de calcul, 0,7 étant le reste qui menait à 5. Montants des camps non comptés au-delà (RN : 3,4 Md€ en 2027 ; Retailleau : 12,5 Md€ en 2032, dont 5 de contrats non renouvelés dans les opérateurs, listés « non comptés »). Fiches : Le Pen +0,7 → +0,26 (et partie postes non chiffrable, S146), Retailleau +10,3 → +9,0 (bornes de la partie postes alignées sur celles de Lisnard : 5,3 à 13,5 ; texte « cumulés d'ici 2032 » corrigé en niveaux annuels de 2032), Lisnard +8,6 → +8,9 (ARS, DREAL et DDTM nommées : missions reprises, pas d'économie propre). Philippe et Zemmour : rien de compté (S147, S148)."
+  },
+  {
+   "id": "S146",
+   "type": "non_chiffrable",
+   "candidats": [
+    "le-pen"
+   ],
+   "mesure": "etat",
+   "sujet": "Le Pen : nombre de postes publics supprimés non publié par une source qui parle pour la candidate",
+   "detail": "Recherche du 29/10 : le dossier du contre-budget 2027 du groupe RN (deputes-rn.fr) ne donne aucun nombre de postes (seulement « ajustement des effectifs » des collectivités, 0,8 Md€ en 2027, et les agences, 3,4 Md€) ; rien trouvé sur le site du RN ni dans les entretiens de Le Pen ou de Bardella en 2026. Seul un site (FranceTransactions, 6/10/2026) rapporte 85 000 postes non renouvelés dans les agences et organismes et 116 000 dans les collectivités d'ici 2032, d'après le député J.-P. Tanguy ; francebudget.fr (agrégateur) reprend 201 000. Appliqué : même règle que pour Lisnard avant le 28/10, partie postes non chiffrable, hors total, fourchette indicative en note (≈ +4,3 Md€ en 2030 avec la règle commune, jusqu'à +6,2) ; la partie agences garde la valeur commune (S145). Effet de ce point : −4,3 Md€ sur le total de Le Pen (la fiche passe de +5 à +0,26 avec la valeur commune des agences, S145). Texte « 20,7 Md€ dès 2027 (État) + 8,2 Md€ (collectivités) » remplacé : c'étaient les totaux des blocs du contre-budget (rationalisation des dépenses, collectivités), qui couvrent d'autres lignes. À reprendre si la candidate, son porte-parole ou un document du RN publie le nombre de postes.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S147",
+   "type": "source_faible",
+   "candidats": [
+    "philippe"
+   ],
+   "mesure": "fonction",
+   "sujet": "Philippe : « regrouper les opérateurs » sans source de 2026",
+   "detail": "La fiche « 1 fonctionnaire sur 3 » annonce « regrouper les opérateurs » depuis la revue 3 ; seule source trouvée : un agrégateur (ÉlyséeScope, « fusionner certains organismes publics »). Rien de compté (0). Si une source du candidat de 2026 confirme une suppression ou une fusion de la plupart des agences et opérateurs : même valeur commune que Le Pen, Retailleau et Lisnard (0,26 ; bornes 0 et 1,06). Sinon, retirer ces mots de la fiche.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S148",
+   "type": "a_verifier",
+   "candidats": [
+    "zemmour",
+    "retailleau",
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Agences nommées dont la mission disparaît : chiffrer ou non à partir des budgets officiels",
+   "detail": "Le plan de Zemmour (budget2027.fr) nomme des suppressions précises, sans viser « la plupart » des agences : ARS 1 Md€, « autres agences et structures publiques » (Arcom, Conseil national du bruit, Haut Conseil à l'égalité, Observatoire de la laïcité, Haut Comité pour le logement…) 1 Md€, Ademe 3,4 Md€, CESE et Ceser 66 M€ : lignes listées « non comptées » (pas de valeur commune : autre périmètre). Règle à appliquer à tous si elle est retenue : une agence nommée dont la mission est supprimée vaut la part publique de son budget officiel (jaune « Opérateurs »), sinon rien ; à appliquer de la même façon aux agences nommées par d'autres candidats (OFB chez Retailleau : « à effectifs transférés », donc 0 ; ARS, DREAL et DDTM chez Lisnard : missions reprises par les préfets, donc 0).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S149",
+   "type": "a_verifier",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "retailleau",
+    "zemmour"
+   ],
+   "mesure": [
+    "octroi-de-mer",
+    "ttf",
+    "ia",
+    "ticpe",
+    "accise"
+   ],
+   "sujet": "Impôt sur les sociétés et prélèvements déductibles : fiches où la règle n'est pas appliquée faute de base établie",
+   "detail": "Suites de S139 (29/10). (1) Octroi de mer (Le Pen, −1,8 au chiffre du camp) : contenu de la réforme non publié ; taxe sur les biens, dont une partie seulement est une charge des entreprises : appliquer la règle si la réforme est publiée et qu'elle baisse un prélèvement payé par les entreprises. (2) Taxe sur les transactions financières (Mélenchon, +3,0, seule hausse d'un prélèvement payé par des entreprises comptée dans un total) : payée par l'acheteur de titres, quel qu'il soit ; part payée par des sociétés imposables en France, et sa déductibilité, à établir avant d'appliquer la règle. (3) Contribution patronale sur les actions gratuites (Retailleau, plan IA) : non isolée dans les 2 Md€ des mesures « talents » (moins de 0,1 Md€ par an au plus). (4) Accises sur les carburants (Le Pen, Zemmour) : la part payée par les entreprises est prise à la moitié, la même hypothèse « à mi-chemin » que pour la TVA des deux fiches ; chercher une part officielle (CGDD, CPO) et l'appliquer à la TVA et à l'impôt sur les sociétés à la fois. (5) Aides aux entreprises imposables (soutien aux renouvelables, aides retirées du « deal » de Philippe) : leur suppression fait baisser l'impôt sur les sociétés ; la règle porte sur les prélèvements, à étendre ou non aux aides, la même pour tous.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S150",
+   "type": "a_verifier",
+   "candidats": [
+    "lisnard"
+   ],
+   "mesure": [
+    "is20",
+    "impots"
+   ],
+   "sujet": "Lisnard : impôt sur les sociétés à 20 % et impôt récupéré sur la C3S",
+   "detail": "Décision du porteur (29/10) : point au registre, sans changement de fiche. Fait relevé : la baisse du taux normal de l'impôt sur les sociétés de 25 % à 20 % est chiffrée et comptée dans sa propre fiche (« IS ramené à 20 % », −8,9, tribune du 16/04/2026), contrairement à ce que disait la recherche. Avec ce taux, l'impôt récupéré sur la suppression de la C3S serait d'environ 16 % (20 % × 20/25) au lieu de 20 % : −4,5 au lieu de −4,3, soit −0,2 Md€ sur le total de Lisnard. À trancher avec la même règle pour tout candidat qui change le taux de l'impôt sur les sociétés (aucun autre aujourd'hui).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S151",
+   "type": "a_verifier",
+   "candidats": [
+    "le-pen"
+   ],
+   "mesure": "tva",
+   "sujet": "TVA sur l'énergie de Le Pen : année de prix du chiffrage de Bercy",
+   "detail": "Le chiffrage de l'Institut Montaigne repose sur la TVA de 2022 (« données pour 2022 » : produits pétroliers 10,4 Md€) ; le prix de référence des carburants (moyenne de 52 semaines au 23/10/2026) est environ 7 % au-dessus des moyennes de 2022 (gazole +7,0 %, SP95-E10 +7,2 %). Bercy (14/06/2024 : électricité 4,5, gaz 2,3, carburants 10) ne publie pas son année de prix : chiffrages non réajustés. Calcul indicatif, s'ils étaient réajustés sur les prix (volumes inchangés) : Montaigne ≈ 11,8 et Bercy ≈ 17,4 à 17,9 selon l'année, médiane ≈ 14,6 à 14,9 (−0,5 à −0,8 sur le total) ; les volumes ont baissé depuis (gazoles routiers −6,2 % en année mobile, note de la DGEC du 23/10/2026), un réajustement sur les seuls prix surestimerait. Note de la fiche corrigée (elle disait « aux prix de 2024 » pour les deux).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S152",
+   "type": "a_verifier",
+   "candidats": [
+    "le-pen",
+    "melenchon"
+   ],
+   "mesure": [
+    "tva",
+    "prix"
+   ],
+   "sujet": "Prix de référence de l'électricité et du gaz",
+   "detail": "Même règle à définir que pour les carburants (S081, moyenne des 12 derniers mois d'une série officielle) : tarifs réglementés de l'électricité et prix repère du gaz (CRE) sur 12 mois, pour la TVA sur l'énergie de Le Pen et le blocage des prix de Mélenchon (« prix de l'électricité et du gaz de 2026 non relevés ici »). Aucun prix d'électricité ou de gaz n'entre aujourd'hui dans un calcul du site.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": null
+  },
+  {
+   "id": "S153",
+   "type": "a_verifier",
+   "candidats": [
+    "retailleau",
+    "attal"
+   ],
+   "mesure": "menages",
+   "sujet": "Cotisations salariales en moins : impôt sur le revenu récupéré, compté pour la CSG mais pas pour les cotisations",
+   "detail": "Relevé en faisant l'inventaire de S139 (29/10) : les cotisations salariales sont déductibles du revenu imposable, comme la CSG déductible ; les fiches CSG de Zemmour et de Lisnard comptent l'impôt sur le revenu récupéré (ratio de 10,7 %, iFRAP 2023), la baisse de 15 Md€ des cotisations salariales de Retailleau (fiche « Baisses d'impôts des ménages ») ne le compte pas. Avec le même ratio : ≈ +1,6 Md€ sur le total de Retailleau. Barème non publié (« dès le premier euro ») : le ratio dépend des salaires visés (une baisse concentrée sur les bas salaires rapporte moins d'impôt). À trancher avec la même règle pour toute baisse de cotisations salariales (Attal : « baisse des charges salariales », non chiffrée).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-29",

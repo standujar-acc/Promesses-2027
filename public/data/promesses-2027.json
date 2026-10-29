@@ -36,7 +36,7 @@
    "name": "Marine Le Pen",
    "party": "RN",
    "poll": "34,1 %",
-   "summary": "Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie. Notre chiffrage : −67,5 Md€ par an en 2030, soit −2 184 € par ménage. Principal obstacle : la priorité nationale et le référendum exigent une révision de la Constitution.",
+   "summary": "Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie. Notre chiffrage : −69,3 Md€ par an en 2030, soit −2 242 € par ménage. Principal obstacle : la priorité nationale et le référendum exigent une révision de la Constitution.",
    "measures": [
     {
      "id": "retraites",
@@ -395,9 +395,15 @@
         "value": "17,4 Md€",
         "source": "francebudget.fr",
         "url": "https://francebudget.fr/scenarios/rn-2027"
+       },
+       {
+        "label": "Prix à la pompe, moyenne des 12 derniers mois (52 semaines au 23/10/2026)",
+        "value": "gazole 1,978 €/l ; SP95-E10 1,892 (moyennes de 2022 : 1,848 et 1,765)",
+        "source": "Ministère de la Transition écologique (DGEC), prix TTC hebdomadaires des carburants depuis janvier 2020",
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Prix%20HTT%20et%20TTC%20depuis%20janvier%202020_0.xlsx"
        }
       ],
-      "note": "Le périmètre (avec ou sans carburants) fait varier le coût de 10 Md€ ; Bercy et l'Institut Montaigne chiffrent aux prix de 2024 ; le coût « progresse avec les prix » (Institut de l'Entreprise, octobre 2026, Brent au-dessus de 100 $)"
+      "note": "Le périmètre (avec ou sans carburants) fait varier le coût de 10 Md€ ; l'Institut Montaigne chiffre sur la TVA de 2022 (« données pour 2022 » : produits pétroliers 10,4 Md€) et Bercy (juin 2024) ne publie pas son année de prix ; le coût « progresse avec les prix » (Institut de l'Entreprise, octobre 2026, Brent au-dessus de 100 $). Prix de référence (moyenne des 12 derniers mois, 52 semaines au 23/10/2026) : gazole 1,98 €/l, SP95-E10 1,89 €/l, environ 7 % au-dessus des moyennes de 2022 (1,85 et 1,77 €/l) : chiffrages non réajustés tant que l'année de prix de Bercy n'est pas connue (registre)."
      },
      "quiz_text": "Baisser fortement la taxe sur l'électricité, le gaz et l'essence",
      "quiz_concret": "Vos factures d'énergie et le plein baissent d'environ 12 %, si les fournisseurs répercutent la baisse.",
@@ -468,11 +474,11 @@
      "obstacle": "Compensation des collectivités pour la CFE",
      "claude": {
       "id": "production",
-      "central": -13.7,
-      "low": -14.2,
-      "high": -13.4,
+      "central": -11.0,
+      "low": -11.7,
+      "high": -10.7,
       "method": "ascendant",
-      "formula": "Rendements officiels : C3S 5,36 Md€ (prévision 2026, CCSS) + CFE 8,38 Md€ (produit 2025, DGCL) = −13,7 Md€ ; CVAE : 0 (déjà supprimée par la loi en 2030, règle commune). Borne basse −14,2 : C3S prévue en 2027 (5,47) + CFE 2025 accrue de sa hausse de 2025 (+4,4 %) ; borne haute −13,4 : rendements de l'année précédente (C3S 2025 5,34 + CFE 2024 8,03). Produit brut de la CFE : les dégrèvements payés par l'État (qui disparaîtraient) et les frais de gestion perçus par l'État (perdus) ne sont pas chiffrés ici et jouent en sens contraire",
+      "formula": "Rendements officiels : C3S 5,36 Md€ (prévision 2026, CCSS) + CFE 8,38 Md€ (produit 2025, DGCL) = 13,74, moins l'impôt sur les sociétés récupéré (20 %, règle commune) = −11,0 Md€ ; CVAE : 0 (déjà supprimée par la loi en 2030, règle commune). Borne basse −11,7 : C3S prévue en 2027 (5,47) + CFE 2025 accrue de sa hausse de 2025 (+4,4 %) = 14,22, impôt récupéré au taux de la Cour des comptes (17,5 %) ; borne haute −10,7 : rendements de l'année précédente (C3S 2025 5,34 + CFE 2024 8,03 = 13,36), impôt récupéré à 20 %. Produit brut de la CFE : les dégrèvements payés par l'État (qui disparaîtraient) et les frais de gestion perçus par l'État (perdus) ne sont pas chiffrés ici et jouent en sens contraire",
       "inputs": [
        {
         "label": "Rendement de la C3S (prévision 2026)",
@@ -503,9 +509,21 @@
         "value": "« une baisse de 20 milliards d'euros des impôts de production »",
         "source": "Europe 1, Objectif Élysée 2027 (15/10/2026)",
         "url": "https://www.europe1.fr/politique/en-direct-interdiction-du-voile-ia-exclusion-des-eleves-responsables-de-degradations-ce-quil-faut-retenir-de-linterview-de-marine-le-pen-dans-objectif-elysee-2027-1151948"
+       },
+       {
+        "label": "Méthode du Gouvernement (étalement de la suppression de la CVAE)",
+        "value": "« Les impôts de production étant déductibles du résultat imposable, le coût net pour l'État de la présente mesure tient compte de l'impact sur les recettes d'impôt sur le revenu (IR) et d'impôt sur les sociétés (IS), via l'application d'un taux moyen d'IR/IS de 20 % » ; 70 % de l'effet dès la première année (« cinquième acompte »)",
+        "source": "Projet de loi de finances pour 2024, évaluations préalables, article 8 (p. 196)",
+        "url": "https://www.assemblee-nationale.fr/dyn/content/download/705211/file/Evaluations%20pr%C3%A9alables%20des%20articles%20du%20projet%20de%20loi.pdf"
+       },
+       {
+        "label": "Suppression de la C3S (Conseil des prélèvements obligatoires)",
+        "value": "effet brut −5 361 M€ ; retour d'impôt sur les sociétés +938 M€ (taux effectif avant crédits d'impôt de 17,5 %) ; effet net −4 423 M€",
+        "source": "Conseil des prélèvements obligatoires (Cour des comptes), « Tracer un cadre fiscal et social pluriannuel pour l'industrie française », septembre 2025, p. 134-135, tableau 15",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
        }
       ],
-      "note": "Le contre-budget compte aussi 4,27 Md€ de « retour d'IS lié à la baisse des impôts de production » : non compté. Coût brut, comme pour toutes les fiches impôts de production (Le Pen, Zemmour, Lisnard, Retailleau) : l'impôt sur les sociétés récupéré quand la C3S et la CFE, déductibles, disparaissent n'est compté chez personne en attendant la vérification de la façon dont l'évaluation des voies et moyens, l'IPP, l'Institut Montaigne et la Cour des comptes présentent ce coût (registre)."
+      "note": "Le contre-budget compte 4,27 Md€ de « retour d'IS lié à la baisse des impôts de production » (taux normal de 25 % appliqué à 17,1 Md€, CVAE comprise) : chiffre du camp, non retenu ; la fiche compte ce retour avec la règle commune. Coût net de l'impôt sur les sociétés récupéré : ces prélèvements sont déductibles du bénéfice imposable, et tous les chiffrages publiés trouvés comptent ce retour (Gouvernement, Cour des comptes, Institut Montaigne, Conseil d'analyse économique) ; règle commune, la même dans les deux sens pour tout prélèvement déductible : 20 % (taux retenu par le Gouvernement, l'Institut Montaigne et le CAE ; 17,5 %, taux de la Cour des comptes, en borne basse), en entier en 2030, comme l'impôt sur le revenu récupéré des fiches CSG."
      },
      "quiz_text": "Supprimer trois impôts payés par les entreprises, quels que soient leurs bénéfices",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
@@ -789,9 +807,9 @@
      "id": "etat",
      "theme": "depense",
      "title": "État, agences, collectivités",
-     "proposal": "Supprimer la plupart des agences, ~200 000 postes publics, fin des intercommunalités et métropoles.",
-     "claimed": "20,7 Md€ dès 2027 (État) + 8,2 Md€ (collectivités)",
-     "claimed_md": 20.7,
+     "proposal": "Supprimer la plupart des agences et opérateurs de l'État, réduire les effectifs publics par le non-remplacement de départs (nombre de postes non publié par la candidate), fin des intercommunalités et métropoles.",
+     "claimed": "Agences et opérateurs : 3,4 Md€ en 2027 ; effectifs des collectivités : 0,8 Md€ en 2027 (contre-budget 2027 du groupe RN, sans nombre de postes)",
+     "claimed_md": 4.2,
      "estimates": [
       {
        "source": "Institut de l'Entreprise",
@@ -823,11 +841,11 @@
      "obstacle": "Libre administration des collectivités ; agences sans plan précis",
      "claude": {
       "id": "etat",
-      "central": 5,
-      "low": 0.5,
-      "high": 13.5,
-      "method": "médiane",
-      "formula": "Règle commune : 61,6 k€ par poste (362,1 Md€ / 5,88 M d'agents), moitié rendue aux agents, 70 % du plan réalisé en 2030 (3,5 ans sur 5) ; 200 000 postes × 70 % × 30,8 k€ = 4,3 + agences ≈ 0,7 → +5 Md€",
+      "central": 0.26,
+      "low": 0,
+      "high": 1.06,
+      "method": "ascendant",
+      "formula": "Agences et opérateurs supprimés ou fusionnés, missions reprises : 0,26 Md€ (valeur commune : part hors personnel, 13,2 Md€ de fonctionnement sur 27,2 Md€ de charges, de l'économie chiffrée par la commission d'enquête du Sénat en 2025 sur les fonctions support des opérateurs, 2,7 Md€ réduits de 20 % = 0,54) ; borne basse 0, borne haute 1,06. Postes : non chiffrable, hors total (nombre non publié par une source qui parle pour la candidate : le contre-budget n'en donne pas et n'inscrit qu'un « ajustement des effectifs » des collectivités de 0,8 Md€ en 2027, chiffre du camp sous 1 Md€, non compté) ; fourchette indicative en note, même règle que pour Lisnard avant la publication de son nombre de postes",
       "inputs": [
        {
         "label": "Masse salariale et effectifs publics",
@@ -836,9 +854,9 @@
         "url": "https://www.journaldeleconomie.fr/?p=49417"
        },
        {
-        "label": "Agences à missions constantes / −8 %",
-        "value": "0,54 / 2,2 Md€",
-        "source": "Sénat (commission d'enquête)",
+        "label": "Agences et opérateurs : économie chiffrée par le Sénat",
+        "value": "fonctions support des opérateurs (hors universités et recherche) : 10 % des charges de personnel (≈ 14 Md€) et de fonctionnement (13,2 Md€), soit 2,7 Md€ ; « une réduction de 20 % du coût des fonctions support, ce qui paraît très volontariste […], apporterait donc une économie de l'ordre de 540 millions d'euros » ; −8 % des charges de personnel et de fonctionnement : 2,2 Md€, « pas réellement à missions constantes »",
+        "source": "Sénat, commission d'enquête sur les agences, opérateurs et organismes consultatifs de l'État, rapport n° 807 (2024-2025)",
         "url": "https://www.senat.fr/rap/r24-807-1/r24-807-122.html"
        },
        {
@@ -852,9 +870,21 @@
         "value": "42 % de 29 Md€",
         "source": "Institut de l'Entreprise",
         "url": "https://www.institut-entreprise.fr/wp-content/uploads/2026/10/Analyse-primaire-contre-budget-RN-Note-de-contexte-IDEP.pdf"
+       },
+       {
+        "label": "Lignes du contre-budget (2027)",
+        "value": "« Suppressions et réinternalisations d'agences et d'opérateurs » 3,400 Md€ ; « Ajustement des effectifs à la suite de la rationalisation des compétences des collectivités » 0,800 Md€ ; aucun nombre de postes",
+        "source": "Groupe RN à l'Assemblée nationale, contre-budget 2027 (annexe, « Postes d'économies et de dépenses »)",
+        "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
+       },
+       {
+        "label": "Nombre de postes rapporté (non retenu)",
+        "value": "« Jean-Philippe Tanguy chiffre à 85 000 le nombre de postes qui ne seraient pas renouvelés » dans les agences et organismes d'ici 2032 ; « Le parti estime pouvoir ne pas renouveler 116 000 postes dans les collectivités territoriales d'ici 2032 » ; seule source trouvée, ne cite pas la candidate",
+        "source": "FranceTransactions (6/10/2026), compte rendu de la présentation du contre-budget",
+        "url": "https://www.francetransactions.com/actus/actualites-socio-economiques/proposition-rn-budget-2027.html"
        }
       ],
-      "note": "Suppose une vraie baisse d'effectifs"
+      "note": "Postes, indicatif (hors total) : si les ≈ 201 000 postes non renouvelés d'ici 2032 (85 000 dans les agences et organismes, 116 000 dans les collectivités), rapportés par un seul site d'après le député J.-P. Tanguy lors de la présentation du contre-budget (6/10/2026), étaient repris par la candidate, la règle commune donnerait ≈ +4,3 Md€ en 2030 (200 000 × 70 % × 30,8 k€), jusqu'à +6,2 si le plan était entièrement réalisé. Agences : valeur commune de 0,26 Md€, la même chez Le Pen, Retailleau et Lisnard : part hors personnel (13,2 Md€ de fonctionnement sur 27,2 Md€ de charges) de l'économie chiffrée par la commission d'enquête du Sénat en 2025 (fonctions support des opérateurs réduites de 20 % : 0,54 Md€), la part de personnel étant déjà dans les postes supprimés ; borne basse 0 (réduction jugée « très volontariste » par le Sénat) ; borne haute 1,06 (−8 % des 13,2 Md€ de fonctionnement des opérateurs). Le montant annoncé par le camp est un chiffre de camp, non compté au-delà. Contre-budget du RN : « suppressions et réinternalisations d'agences et d'opérateurs » 3,4 Md€ en 2027, sans liste. Le simulateur francebudget.fr (13,5 Md€ en 2032) ne sert plus de borne (source faible)."
      },
      "quiz_text": "Supprimer la plupart des agences de l'État et beaucoup de postes publics",
      "quiz_concret": "Moins de fonctionnaires et de structures publiques.",
@@ -1322,11 +1352,11 @@
      "obstacle": "Par la loi de finances ; financement non précisé dans la mesure.",
      "claude": {
       "id": "ticpe",
-      "central": -2.1,
-      "low": -3.9,
-      "high": -1.9,
+      "central": -1.9,
+      "low": -3.6,
+      "high": -1.7,
       "method": "ascendant",
-      "formula": "Même base que l'accise de Zemmour : écart de tarif 2026 − 2017 × volumes 2025 (inchangé : gazole 23,6 Mm³ × 6,33 = 1,49 ; essences 15,6 Mm³ × 3,22 = 0,50) ; calage sur les recettes 2025 publiées (CPO 27,2 / 28,7 aux tarifs normaux = 0,948) : 1,99 × 0,948 = 1,89 ; + fioul domestique 4 Mm³ × 4,50 = 0,18 (hors calage, absent des chiffres du CPO) ; accise ≈ 2,07 ; + TVA à mi-chemin entre 0 et 5,5 % : 0,06 → ≈ −2,1. Borne haute : volumes 2030 si les tendances 2025 continuent (−1,9) ; borne basse : chiffre du camp (−3,9), hors calcul",
+      "formula": "Même base que l'accise de Zemmour : écart de tarif 2026 − 2017 × volumes 2025 (inchangé : gazole 23,6 Mm³ × 6,33 = 1,49 ; essences 15,6 Mm³ × 3,22 = 0,50) ; calage sur les recettes 2025 publiées (CPO 27,2 / 28,7 aux tarifs normaux = 0,948) : 1,99 × 0,948 = 1,89 ; + fioul domestique 4 Mm³ × 4,50 = 0,18 (hors calage, absent des chiffres du CPO) ; accise ≈ 2,07 ; + TVA à mi-chemin entre 0 et 5,5 % : 0,06 = 2,13 ; moins l'impôt sur les sociétés récupéré sur la part de l'accise payée par les entreprises (la moitié, comme pour la TVA ; 20 %, règle commune) : 2,07 × 50 % × 20 % = 0,21 → ≈ −1,9. Borne haute : volumes 2030 si les tendances 2025 continuent (−1,9 brut, −1,7 net) ; borne basse : chiffre du camp (−3,9), hors calcul, net au taux de 17,5 % sur la moitié (−3,6)",
       "inputs": [
        {
         "label": "Accise 2025 sur le gazole et l'essence",
@@ -1369,9 +1399,15 @@
         "value": "15,56 €/hl (accise nationale − 45,19)",
         "source": "CNR, actualité accise, janvier 2026",
         "url": "https://cnr.fr/download/file/publications/CNR%20-%20TRM%20-%20Actualite%CC%81%20accise%20-%20Janvier%202026.pdf"
+       },
+       {
+        "label": "Suppression de la C3S (Conseil des prélèvements obligatoires)",
+        "value": "effet brut −5 361 M€ ; retour d'impôt sur les sociétés +938 M€ (taux effectif avant crédits d'impôt de 17,5 %) ; effet net −4 423 M€",
+        "source": "Conseil des prélèvements obligatoires (Cour des comptes), « Tracer un cadre fiscal et social pluriannuel pour l'industrie française », septembre 2025, p. 134-135, tableau 15",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
        }
       ],
-      "note": "Le RN inscrit 3,9 Md€ en 2027 seulement ; l'Institut de l'Entreprise prolonge ce chiffre sans le réévaluer. Le gazole non routier (36,79 €/hl hors agriculture en 2026, 15,09 en 2017) n'est pas compté : sa hausse vient de la suppression progressive de son tarif réduit, une autre mesure, et ses volumes non agricoles ne sont pas publiés. En Île-de-France l'écart est plus faible (4,44 et 2,20 €/hl) : léger biais à la hausse. Simulateur (S071) : baisse par litre de 6,33 c€ HT sur le gazole, 3,22 c€ HT sur l'essence, 4,50 c€ HT sur le fioul, TVA en plus."
+      "note": "Le RN inscrit 3,9 Md€ en 2027 seulement ; l'Institut de l'Entreprise prolonge ce chiffre sans le réévaluer. Le gazole non routier (36,79 €/hl hors agriculture en 2026, 15,09 en 2017) n'est pas compté : sa hausse vient de la suppression progressive de son tarif réduit, une autre mesure, et ses volumes non agricoles ne sont pas publiés. En Île-de-France l'écart est plus faible (4,44 et 2,20 €/hl) : léger biais à la hausse. Simulateur (S071) : baisse par litre de 6,33 c€ HT sur le gazole, 3,22 c€ HT sur l'essence, 4,50 c€ HT sur le fioul, TVA en plus. Impôt sur les sociétés récupéré (règle commune des prélèvements déductibles) : l'accise payée par les entreprises est déductible de leur bénéfice ; il est compté sur la moitié de l'accise, la même hypothèse « à mi-chemin » que pour la TVA (part des entreprises non publiée par une source officielle : registre), à 20 % (17,5 % en borne basse), de la même façon chez Le Pen et Zemmour."
      },
      "quiz_text": "Ramener la taxe sur les carburants et le fioul à son niveau de 2017",
      "quiz_concret": "Le litre d'essence, de gazole et de fioul coûte quelques centimes de moins.",
@@ -1774,7 +1810,7 @@
         "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
        }
       ],
-      "note": "Contenu de la réforme non publié ; l'octroi de mer finance les collectivités d'outre-mer : le coût pour l'État est la compensation"
+      "note": "Contenu de la réforme non publié ; l'octroi de mer finance les collectivités d'outre-mer : le coût pour l'État est la compensation. Impôt sur les sociétés : contenu de la réforme et part payée par les entreprises non publiés, la règle des prélèvements déductibles n'est pas appliquée (registre)."
      },
      "quiz_text": "Réformer l'octroi de mer."
     },
@@ -2887,14 +2923,14 @@
     "high_md": 50
    },
    "claude_total": {
-    "sum": -67.5,
-    "p10": -91.5,
-    "p90": -54.0,
-    "realsum": -70.7,
-    "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, prêt à taux zéro à la place de MaPrimeRénov', recettes et économies du contre-budget sans chiffrage indépendant (chiffres du camp pour 2027) : impôt sur les sociétés assis sur le chiffre d'affaires 3,75, Autorité de la concurrence 1,2, dividendes d'EDF sur les exportations 3,7, économies sur le TURPE 2, économies sur la Sécurité sociale ≈ 20, droits de douane rendus 2,2, rationalisation de l'aide publique au développement et de l'action extérieure de l'État 2,1 (sans niveau publié), rebudgétisation des certificats d'économies d'énergie 8 (mécanisme non publié : sans effet sur le solde si les programmes passent au budget avec une recette équivalente, perte de TVA d'environ 0,9 Md€ si la charge disparaît des factures, même lecture que Retailleau et Zemmour) ; dépenses de moins de 1 Md€ (AAH au-dessus du seuil de pauvreté, permis gratuit, prime d'activité étudiante, demi-part des veufs…), dispense d'impôt sur le revenu pour les entrepreneurs (public et durée non publiés), fonds souverain (opération financière), abrogation de la loi Hulot, lignes immigration du contre-budget sans chiffrage indépendant ni paramètre suffisant (chiffres du camp pour 2027) : suppression du visa pour soins 1, hausse des frais de scolarité des étudiants étrangers 1,1 (montant des droits non publié), effets indirects sur la sécurité 0,5, départ des étrangers sans emploi 0,1, timbre sur les visas touristiques 0,1 ; taxe de 1 000 € par an à l'embauche d'un salarié extra-européen 1 et taxe de 14 % sur les transferts d'argent vers les pays tiers 1,9 (à l'étude), gel des tarifs et minima de l'accise sur le tabac et fin de leur indexation (lettre aux buralistes du 7/09/2026 ; paramètre précisé par l'amendement I-CF1011 du groupe RN au projet de budget 2027, 4/10/2026) : ≈ −0,1 Md€ en 2030 (jusqu'à −0,5 si toute l'accise suivait l'indexation), sous le seuil de 1 Md€, recentralisation de l'aide sociale à l'enfance par l'État, rebaptisée « aide sociale à la famille », et ministère de plein exercice (transfert entre administrations, sans dépense nouvelle publiée : sans effet sur le solde public), fin ou baisse de l'aide à l'Ukraine (« nous n'avons plus les moyens » d'une aide qui « nous a coûté, en engagement, 6 milliards d'euros par an » selon la candidate, 15/10/2026 ; niveau non publié, même lecture que la hausse de l'aide de Glucksmann, non chiffrable ; matériels livrés : 0,94 Md€ en 2025 selon le ministère des Armées), trains gratuits pour les 18-25 ans sur les places invendues de la SNCF (paramètres non publiés)",
+    "sum": -69.3,
+    "p10": -93.6,
+    "p90": -58.5,
+    "realsum": -72.5,
+    "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, prêt à taux zéro à la place de MaPrimeRénov', recettes et économies du contre-budget sans chiffrage indépendant (chiffres du camp pour 2027) : impôt sur les sociétés assis sur le chiffre d'affaires 3,75, Autorité de la concurrence 1,2, dividendes d'EDF sur les exportations 3,7, économies sur le TURPE 2, économies sur la Sécurité sociale ≈ 20, droits de douane rendus 2,2, rationalisation de l'aide publique au développement et de l'action extérieure de l'État 2,1 (sans niveau publié), rebudgétisation des certificats d'économies d'énergie 8 (mécanisme non publié : sans effet sur le solde si les programmes passent au budget avec une recette équivalente, perte de TVA d'environ 0,9 Md€ si la charge disparaît des factures, même lecture que Retailleau et Zemmour) ; dépenses de moins de 1 Md€ (AAH au-dessus du seuil de pauvreté, permis gratuit, prime d'activité étudiante, demi-part des veufs…), dispense d'impôt sur le revenu pour les entrepreneurs (public et durée non publiés), fonds souverain (opération financière), abrogation de la loi Hulot, lignes immigration du contre-budget sans chiffrage indépendant ni paramètre suffisant (chiffres du camp pour 2027) : suppression du visa pour soins 1, hausse des frais de scolarité des étudiants étrangers 1,1 (montant des droits non publié), effets indirects sur la sécurité 0,5, départ des étrangers sans emploi 0,1, timbre sur les visas touristiques 0,1 ; taxe de 1 000 € par an à l'embauche d'un salarié extra-européen 1 et taxe de 14 % sur les transferts d'argent vers les pays tiers 1,9 (à l'étude), gel des tarifs et minima de l'accise sur le tabac et fin de leur indexation (lettre aux buralistes du 7/09/2026 ; paramètre précisé par l'amendement I-CF1011 du groupe RN au projet de budget 2027, 4/10/2026) : ≈ −0,1 Md€ en 2030 (jusqu'à −0,5 si toute l'accise suivait l'indexation), sous le seuil de 1 Md€, recentralisation de l'aide sociale à l'enfance par l'État, rebaptisée « aide sociale à la famille », et ministère de plein exercice (transfert entre administrations, sans dépense nouvelle publiée : sans effet sur le solde public), fin ou baisse de l'aide à l'Ukraine (« nous n'avons plus les moyens » d'une aide qui « nous a coûté, en engagement, 6 milliards d'euros par an » selon la candidate, 15/10/2026 ; niveau non publié, même lecture que la hausse de l'aide de Glucksmann, non chiffrable ; matériels livrés : 0,94 Md€ en 2025 selon le ministère des Armées), trains gratuits pour les 18-25 ans sur les places invendues de la SNCF (paramètres non publiés), postes publics non remplacés (nombre non publié par la candidate ; ≈ 201 000 d'ici 2032 selon un seul site citant un député RN : fourchette indicative dans la fiche), agences et opérateurs au-delà de la valeur commune (3,4 Md€ en 2027, chiffre du camp)",
     "n": 26,
-    "cost": -85.5,
-    "gain": 18.1,
+    "cost": -82.7,
+    "gain": 13.4,
     "confirm": []
    },
    "short": "Le Pen",
@@ -2911,7 +2947,7 @@
     "alloc_familiales": null,
     "tva_energie": 5.5,
     "salaire_note": "Hausses de salaire jusqu'à 10 % exonérées de cotisations patronales (jusqu'à 3 SMIC) : gain net non chiffré.",
-    "fonctionnaires": "Au moins 200 000 postes supprimés en cinq ans (collectivités, agences, organismes).",
+    "fonctionnaires": "Suppression de la plupart des agences et non-remplacement de départs dans les agences et les collectivités (nombre de postes non publié par la candidate).",
     "chomeurs": null,
     "minima_sociaux": "Prestations réindexées ; minimum vieillesse à 1 000 €/mois (il est déjà de 1 043,59 € en 2026) ; aides de solidarité réservées en priorité aux Français.",
     "jeunes": "Moins de 30 ans exonérés d'impôt sur le revenu jusqu'à 4 SMIC (contre-budget 2027 du groupe RN).",
@@ -3562,7 +3598,7 @@
       "low": -38,
       "high": 0,
       "method": "médiane",
-      "formula": "Médiane des chiffrages publiés : Institut Montaigne (2024), médiane 24 Md€/an (moyenne des boucliers 2022-2024, « risque budgétaire en cas de résurgence d'une crise énergétique ») et Gouvernement (2024), ≈ 20 Md€/an, soit 22 ; hypothèse basse de 9 Md€ (prix en baisse) écartée, les prix pétroliers d'octobre 2026 étant au niveau de la crise de 2022 (SP95 2,18 €/l, gazole 2,35 €/l, Brent 119 $) ; borne haute 0 si le blocage se fait sans compensation publique",
+      "formula": "Médiane des chiffrages publiés : Institut Montaigne (2024), médiane 24 Md€/an (moyenne des boucliers 2022-2024, « risque budgétaire en cas de résurgence d'une crise énergétique ») et Gouvernement (2024), ≈ 20 Md€/an, soit 22 ; hypothèse basse de 9 Md€ (prix en baisse) écartée, les prix à la pompe des 12 derniers mois (moyenne publiée par le ministère sur 52 semaines au 23/10/2026 : gazole 1,98 €/l, SP95 1,94 €/l) étant au-dessus de leurs moyennes de 2022, année de crise (1,85 et 1,81 €/l), et de 2024, année de l'hypothèse basse (1,69 et 1,82 €/l) ; borne haute 0 si le blocage se fait sans compensation publique",
       "inputs": [
        {
         "label": "Blocage des prix de l'énergie, médiane 2022-2024",
@@ -3577,10 +3613,10 @@
         "url": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/bloquer-les-prix-des-produits-de-premiere-necessite/"
        },
        {
-        "label": "Prix à la pompe, semaine du 23 octobre 2026",
-        "value": "SP95-E5 2,18 €/l ; gazole 2,35 €/l ; Brent 119 $",
-        "source": "Ministère de la Transition écologique, prix et marges des produits pétroliers",
-        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/NPG-2026.10.23.pdf"
+        "label": "Prix à la pompe, moyenne des 12 derniers mois (52 semaines au 23/10/2026)",
+        "value": "gazole 1,978 €/l ; SP95-E5 1,938 ; SP95-E10 1,892 ; fioul domestique 1,517 (moyennes de 2022 : 1,848 / 1,809 / 1,765 / 1,482 ; de 2024 : 1,694 / 1,821 / 1,784 / 1,200)",
+        "source": "Ministère de la Transition écologique (DGEC), prix TTC hebdomadaires des carburants depuis janvier 2020 (même moyenne « année mobile » dans la note hebdomadaire du 23/10/2026, p. 6)",
+        "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Prix%20HTT%20et%20TTC%20depuis%20janvier%202020_0.xlsx"
        }
       ],
       "note": "Carburant à 1,70 €/l par décret (note LFI d'octobre 2026), rangé parmi les dépenses du programme ; prix de l'électricité et du gaz de 2026 non relevés ici"
@@ -4046,7 +4082,7 @@
         "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
        }
       ],
-      "note": "Paramètre publié pour une partie : fin des exonérations de cotisations au-dessus de 2 SMIC (note LFI du 14/10/2026) ; aucun chiffrage indépendant trouvé : reste non chiffrable. Indicatif : les trois niches fiscales visées pèsent ≈ 20 Md€",
+      "note": "Paramètre publié pour une partie : fin des exonérations de cotisations au-dessus de 2 SMIC (note LFI du 14/10/2026) ; aucun chiffrage indépendant trouvé : reste non chiffrable. Indicatif : les trois niches fiscales visées pèsent ≈ 20 Md€. Si elle était chiffrée, la fin des exonérations de cotisations patronales serait comptée nette de l'impôt sur les sociétés perdu (règle commune des prélèvements déductibles, dans les deux sens).",
       "nc": true
      },
      "quiz_text": "Supprimer une partie des avantages fiscaux, dont celui pour l'emploi à domicile",
@@ -5114,7 +5150,7 @@
         "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
        }
       ],
-      "note": "Taux non publié par LFI en 2026 ; vérifier le taux en vigueur en 2026 avant de retenir l'écart (base 2024 : 0,3 %)"
+      "note": "Taux non publié par LFI en 2026 ; vérifier le taux en vigueur en 2026 avant de retenir l'écart (base 2024 : 0,3 %). Pas de retour d'impôt sur les sociétés compté : la taxe est payée par l'acheteur de titres, quel qu'il soit (ménage, fonds, non-résident ou société), et la part payée par des sociétés imposables en France n'est pas établie (registre)."
      },
      "quiz_text": "Augmenter la taxe sur les achats d'actions en Bourse",
      "quiz_concret": "Acheter des actions de grandes entreprises françaises coûte un peu plus cher.",
@@ -5506,8 +5542,8 @@
     },
     "carburant": {
      "prix": 1.7,
-     "actuel": 2.18,
-     "note": "Prix du carburant bloqué à 1,70 €/l par décret, contre 2,18 €/l pour le SP95 la semaine du 23 octobre 2026 (relevé du ministère) ; blocage de 6 mois au plus par décret, supposé prolongé par la loi comme dans notre chiffrage"
+     "actuel": 1.94,
+     "note": "Prix du carburant bloqué à 1,70 €/l par décret, contre 1,94 €/l pour le SP95 en moyenne sur les 12 derniers mois (ministère, 52 semaines au 23/10/2026) ; blocage de 6 mois au plus par décret, supposé prolongé par la loi comme dans notre chiffrage"
     },
     "apl_pct": 10,
     "apl_note": "APL +10 % (note LFI d'octobre 2026)",
@@ -5847,16 +5883,22 @@
      "claude": {
       "id": "production",
       "central": 0,
-      "low": -31.5,
+      "low": -26.0,
       "high": 0,
       "method": "ascendant",
-      "formula": "−50 + 50 = 0 ; si seules 18,5 Md€ d'aides sont supprimables : −31,5",
+      "formula": "−50 + 50 = 0 ; nets de l'impôt sur les sociétés (règle commune des prélèvements déductibles : les impôts de production supprimés sont déductibles du bénéfice, les aides retirées sont supposées imposables, la liste n'étant pas publiée ; même taux des deux côtés) : −40 + 40 = 0 ; si seules 18,5 Md€ d'aides sont supprimables : −31,5 brut, −26,0 net (taux de 17,5 %, borne basse)",
       "inputs": [
        {
         "label": "Aides aux entreprises",
         "value": "18,5 Md€ (périmètre resserré) à 211 Md€ (Sénat)",
         "source": "iFRAP",
         "url": "https://www.ifrap.org/budget-et-fiscalite/aides-aux-entreprises-211-milliards-deuros-par-ou-185-milliards"
+       },
+       {
+        "label": "Suppression de la C3S (Conseil des prélèvements obligatoires)",
+        "value": "effet brut −5 361 M€ ; retour d'impôt sur les sociétés +938 M€ (taux effectif avant crédits d'impôt de 17,5 %) ; effet net −4 423 M€",
+        "source": "Conseil des prélèvements obligatoires (Cour des comptes), « Tracer un cadre fiscal et social pluriannuel pour l'industrie française », septembre 2025, p. 134-135, tableau 15",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
        }
       ],
       "note": "Neutre seulement si 50 Md€ d'aides sont identifiés"
@@ -6484,7 +6526,7 @@
         "url": "https://www.assemblee-nationale.fr/dyn/dyn/contenu/visualisation/1087933/file/Voies_et_moyens_Tome_2_2026.pdf"
        }
       ],
-      "note": "Aucun coût publié par le camp ni chiffrage indépendant ; les 2 Md€ cités jusqu'ici chiffraient une exonération de CSG et de CRDS, que le candidat ne propose pas. Le gain pour le salarié vient des heures en plus, l'exonération salariale existant déjà.",
+      "note": "Aucun coût publié par le camp ni chiffrage indépendant ; les 2 Md€ cités jusqu'ici chiffraient une exonération de CSG et de CRDS, que le candidat ne propose pas. Le gain pour le salarié vient des heures en plus, l'exonération salariale existant déjà. Si elle était chiffrée, la baisse de cotisations patronales serait comptée nette de l'impôt sur les sociétés récupéré (règle commune des prélèvements déductibles).",
       "nc": true
      },
      "quiz_text": "Heures au-delà de 35 h sans impôt ni cotisations salariales, et sans cotisations patronales au-delà de 37 h, là où un accord allonge le temps de travail",
@@ -7068,8 +7110,8 @@
    },
    "claude_total": {
     "sum": -0.3,
-    "p10": -30.1,
-    "p90": 4.8,
+    "p10": -24.8,
+    "p90": 4.9,
     "realsum": -0.3,
     "missing": "défense hors réservistes et volontaires, capitalisation collective obligatoire (classement du fonds non publié), effectifs réduits en maternelle et en primaire, soutien scolaire universel et gratuit, prêt à taux zéro à chaque naissance, plafonds de donation relevés pendant trois ans, temps partiel parental payé deux mois, aides sociales des étrangers alignées sur la moyenne européenne, capacité de calcul IA doublée, climatisation des lieux accueillant des personnes fragiles, 8 EPR supplémentaires, livret capital France (fiscalité non publiée)",
     "n": 9,
@@ -9753,14 +9795,14 @@
    "name": "Bruno Retailleau",
    "party": "LR",
    "poll": "7,3 %",
-   "summary": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration. Notre chiffrage : −23,0 Md€ par an en 2030, soit −744 € par ménage. Principal obstacle : la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées.",
+   "summary": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration. Notre chiffrage : −18,3 Md€ par an en 2030, soit −592 € par ménage. Principal obstacle : la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées.",
    "measures": [
     {
      "id": "etat",
      "theme": "depense",
      "title": "Fonctionnaires et agences",
      "proposal": "400 000 départs non remplacés, 1 623 h/an, 3 jours de carence, suppression de la quasi-totalité des agences.",
-     "claimed": "25 Md€ (400 000 départs non remplacés) + 12,5 Md€ (agences), cumulés d'ici 2032",
+     "claimed": "25 Md€ (400 000 départs non remplacés) et 12,5 Md€ (agences et opérateurs) par an en 2032",
      "claimed_md": null,
      "estimates": [
       {
@@ -9793,11 +9835,11 @@
      "obstacle": "Agences : moins de 1 à 3 Md€ réels contre 12,5 annoncés",
      "claude": {
       "id": "etat",
-      "central": 10.3,
-      "low": 5,
-      "high": 18,
+      "central": 9.0,
+      "low": 5.3,
+      "high": 13.5,
       "method": "ascendant",
-      "formula": "Règle commune : 61,6 k€ par poste (362,1 Md€ / 5,88 M d'agents), moitié rendue aux agents, 70 % du plan réalisé en 2030 (3,5 ans sur 5) ; 400 000 postes × 70 % × 30,8 k€ = 8,6 + agences 1,6 + carence 0,1 ≈ +10,3 Md€",
+      "formula": "Règle commune : 61,6 k€ par poste (362,1 Md€ / 5,88 M d'agents), moitié rendue aux agents, 70 % du plan réalisé en 2030 (3,5 ans sur 5) ; 400 000 postes × 70 % × 30,8 k€ = 8,62 + agences et opérateurs supprimés ou fusionnés, missions reprises : 0,26 (valeur commune : part hors personnel, 13,2 Md€ de fonctionnement sur 27,2 Md€ de charges, de l'économie chiffrée par la commission d'enquête du Sénat en 2025 sur les fonctions support des opérateurs, 2,7 Md€ réduits de 20 % = 0,54 ; la part de personnel est dans les postes supprimés) + 3 jours de carence 0,11 ≈ +9,0 Md€. Bornes de la partie postes comme pour les 400 000 postes de Lisnard : un départ à la retraite sur trois non remplacé sur 3,5 ans (5,17), plan entièrement réalisé en 2030 (12,3) ; agences 0 à 1,06 ; d'où 5,3 à 13,5",
       "inputs": [
        {
         "label": "Masse salariale et effectifs publics",
@@ -9818,19 +9860,25 @@
         "url": "https://www.ifrap.org/etat-et-collectivites/ne-pas-remplacer-un-fonctionnaire-sur-deux-ne-suffira-pas-realiser-les-economies-necessaires"
        },
        {
-        "label": "Agences",
-        "value": "0,54 à 3 Md€",
-        "source": "iFRAP / Sénat",
-        "url": "https://www.ifrap.org/etat-et-collectivites/rapport-de-la-commission-denquete-sur-les-operateurs-peut-aller-encore-plus-loin"
+        "label": "Agences et opérateurs : économie chiffrée par le Sénat",
+        "value": "fonctions support des opérateurs (hors universités et recherche) : 10 % des charges de personnel (≈ 14 Md€) et de fonctionnement (13,2 Md€), soit 2,7 Md€ ; « une réduction de 20 % du coût des fonctions support, ce qui paraît très volontariste […], apporterait donc une économie de l'ordre de 540 millions d'euros » ; −8 % des charges de personnel et de fonctionnement : 2,2 Md€, « pas réellement à missions constantes »",
+        "source": "Sénat, commission d'enquête sur les agences, opérateurs et organismes consultatifs de l'État, rapport n° 807 (2024-2025)",
+        "url": "https://www.senat.fr/rap/r24-807-1/r24-807-122.html"
        },
        {
         "label": "3 jours de carence",
         "value": "+0,11 Md€",
         "source": "Public Sénat",
         "url": "https://www.publicsenat.fr/actualites/economie/arrets-maladie-les-senateurs-augmentent-a-trois-jours-le-delai-de-carence-dans-la-fonction-publique"
+       },
+       {
+        "label": "Agences et opérateurs (fiche 3 du plan)",
+        "value": "« Les 1 153 agences, comités et opérateurs (Sénat, rapport n° 807, 2025) supprimés ou rapatriés » ; contrats non renouvelés et départs volontaires, hors départs en retraite (opérateurs) 5,0 + agences et opérateurs : structures (4), concours recentrés (3,5) 7,5 = 12,5 Md€ en 2032",
+        "source": "Fiches presse du camp (12/10/2026), fiche 3",
+        "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
        }
       ],
-      "note": "Camp : 8,1 Md€/an ; carence surévaluée (3 Md€ annoncés, 0,1 mesuré)"
+      "note": "Camp (fiche 3 du plan du 12/10/2026, niveaux de 2032) : postes 25 Md€ ; agences 12,5 Md€ (contrats non renouvelés et départs volontaires des opérateurs 5, structures 4, concours recentrés 3,5) ; carence surévaluée (3 Md€ annoncés, 0,1 mesuré). Agences : valeur commune de 0,26 Md€, la même chez Le Pen, Retailleau et Lisnard : part hors personnel (13,2 Md€ de fonctionnement sur 27,2 Md€ de charges) de l'économie chiffrée par la commission d'enquête du Sénat en 2025 (fonctions support des opérateurs réduites de 20 % : 0,54 Md€), la part de personnel étant déjà dans les postes supprimés ; borne basse 0 (réduction jugée « très volontariste » par le Sénat) ; borne haute 1,06 (−8 % des 13,2 Md€ de fonctionnement des opérateurs). Le montant annoncé par le camp est un chiffre de camp, non compté au-delà."
      },
      "quiz_text": "Ne pas remplacer une grande partie des fonctionnaires partant à la retraite, et les faire travailler plus",
      "quiz_concret": "Beaucoup moins de postes publics.",
@@ -10344,11 +10392,11 @@
      "obstacle": "Coût certain, effet sur l'activité discuté",
      "claude": {
       "id": "production",
-      "central": -10.1,
-      "low": -16,
-      "high": -8,
+      "central": -8.0,
+      "low": -13.2,
+      "high": -6.4,
       "method": "ascendant",
-      "formula": "C3S 5,36 (rendement officiel 2026, CCSS, même base que Le Pen, Zemmour et Lisnard) + forfait social 2,8 + CFE industrielle 1,9 (détail du camp) = −10,1 Md€ (CVAE retirée : déjà supprimée par la loi ; heures au-delà de 1 623 heures exonérées : fiche à part)",
+      "formula": "C3S 5,36 (rendement officiel 2026, CCSS, même base que Le Pen, Zemmour et Lisnard) + forfait social 2,8 + CFE industrielle 1,9 (détail du camp) = 10,06, moins l'impôt sur les sociétés récupéré (20 %, règle commune ; les trois prélèvements sont déductibles du bénéfice) = −8,0 Md€ ; bornes de la fiche (−16 et −8) nettes de la même façon (17,5 % et 20 %) : −13,2 et −6,4 (CVAE retirée : déjà supprimée par la loi ; heures au-delà de 1 623 heures exonérées : fiche à part)",
       "inputs": [
        {
         "label": "Détail du camp",
@@ -10373,9 +10421,27 @@
         "value": "−15 Md€ d'impôts de production et −15 Md€ de cotisations patronales",
         "source": "Fondation iFRAP, comparateur des programmes 2027",
         "url": "https://www.ifrap.org/comparateurs/presidentielles-2027"
+       },
+       {
+        "label": "Méthode du Gouvernement (étalement de la suppression de la CVAE)",
+        "value": "« Les impôts de production étant déductibles du résultat imposable, le coût net pour l'État de la présente mesure tient compte de l'impact sur les recettes d'impôt sur le revenu (IR) et d'impôt sur les sociétés (IS), via l'application d'un taux moyen d'IR/IS de 20 % » ; 70 % de l'effet dès la première année (« cinquième acompte »)",
+        "source": "Projet de loi de finances pour 2024, évaluations préalables, article 8 (p. 196)",
+        "url": "https://www.assemblee-nationale.fr/dyn/content/download/705211/file/Evaluations%20pr%C3%A9alables%20des%20articles%20du%20projet%20de%20loi.pdf"
+       },
+       {
+        "label": "Suppression de la C3S (Conseil des prélèvements obligatoires)",
+        "value": "effet brut −5 361 M€ ; retour d'impôt sur les sociétés +938 M€ (taux effectif avant crédits d'impôt de 17,5 %) ; effet net −4 423 M€",
+        "source": "Conseil des prélèvements obligatoires (Cour des comptes), « Tracer un cadre fiscal et social pluriannuel pour l'industrie française », septembre 2025, p. 134-135, tableau 15",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
+       },
+       {
+        "label": "Forfait social : déductible du bénéfice imposable",
+        "value": "« Au plan fiscal, l'administration a admis la déductibilité de cette contribution du résultat imposable »",
+        "source": "CMS Francis Lefebvre, « Le forfait social est exclu de l'assiette du CIR selon l'administration » (29/04/2015)",
+        "url": "https://cms.law/fr/fra/a-la-une/le-forfait-social-est-exclu-de-l-assiette-du-cir-selon-l-administration"
        }
       ],
-      "note": "Chiffres du camp différents selon les documents (51 Md€ cumulés contre 40 Md€ par an). Détail du camp (forfait social, CFE industrielle) lu seulement sur un agrégateur : source officielle à trouver (registre). Coût brut, comme pour toutes les fiches impôts de production (Le Pen, Zemmour, Lisnard, Retailleau) : l'impôt sur les sociétés récupéré quand la C3S et la CFE, déductibles, disparaissent n'est compté chez personne en attendant la vérification de la façon dont l'évaluation des voies et moyens, l'IPP, l'Institut Montaigne et la Cour des comptes présentent ce coût (registre)."
+      "note": "Chiffres du camp différents selon les documents (51 Md€ cumulés contre 40 Md€ par an). Détail du camp (forfait social, CFE industrielle) lu seulement sur un agrégateur : source officielle à trouver (registre). Coût net de l'impôt sur les sociétés récupéré : ces prélèvements sont déductibles du bénéfice imposable, et tous les chiffrages publiés trouvés comptent ce retour (Gouvernement, Cour des comptes, Institut Montaigne, Conseil d'analyse économique) ; règle commune, la même dans les deux sens pour tout prélèvement déductible : 20 % (taux retenu par le Gouvernement, l'Institut Montaigne et le CAE ; 17,5 %, taux de la Cour des comptes, en borne basse), en entier en 2030, comme l'impôt sur le revenu récupéré des fiches CSG."
      },
      "quiz_text": "Supprimer plusieurs impôts payés par les entreprises, quels que soient leurs bénéfices",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
@@ -11026,11 +11092,11 @@
      "obstacle": "Par la loi de finances ; financement non précisé dans la mesure.",
      "claude": {
       "id": "cotisations",
-      "central": -15.0,
-      "low": -15.0,
-      "high": -10.5,
+      "central": -12.0,
+      "low": -12.4,
+      "high": -8.4,
       "method": "camp",
-      "formula": "Baisse annoncée : 15 Md€ de cotisations patronales (plan du 12/10/2026, montants « entreprises » annuels : les 15 Md€ d'impôts de production correspondent au rendement annuel des taxes visées). Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030, comme les impôts de production du même plan et les baisses d'impôts des autres candidats ; le seuil « zéro cotisation » au-delà de 1 623 heures fait l'objet d'une fiche à part (−4,3) ; borne haute : 70 % en 2030 (−10,5)",
+      "formula": "Baisse annoncée : 15 Md€ de cotisations patronales (plan du 12/10/2026, fiche 14 : « Cotisations patronales sur toute l'échelle des salaires 15,0 », montant de cotisations en moins, comme les 15 Md€ d'impôts de production du même plan correspondent au rendement annuel des taxes visées), moins l'impôt sur les sociétés récupéré (les cotisations patronales sont déductibles du bénéfice ; règle commune des prélèvements déductibles : 20 %, 17,5 % en borne basse, taux retenu par le Conseil des prélèvements obligatoires quand la baisse profite aux entreprises) : −15 × 0,8 = −12,0 Md€. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030, comme les impôts de production du même plan et les baisses d'impôts des autres candidats ; le seuil « zéro cotisation » au-delà de 1 623 heures fait l'objet d'une fiche à part ; borne basse : impôt récupéré à 17,5 % (−12,4) ; borne haute : 70 % en 2030, net (−8,4)",
       "inputs": [
        {
         "label": "Ventilation des 30 Md€ « entreprises »",
@@ -11049,6 +11115,18 @@
         "value": "51 Md€ « rendus aux Français » (21 ménages, 30 entreprises) d'ici 2032",
         "source": "Public Sénat (12/10/2026)",
         "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
+       },
+       {
+        "label": "Cotisations patronales : retour d'impôt sur les sociétés (Conseil des prélèvements obligatoires)",
+        "value": "« Lorsque l'incidence porte sur les entreprises, l'effet retour sur l'impôt sur les sociétés est calculé en utilisant le taux implicite moyen de 17,5 % avant crédit d'impôts » ; tableau 18 : déduction de cotisations patronales sur les heures supplémentaires, 860 M€, retour d'impôt sur les sociétés jusqu'à 151 M€",
+        "source": "Conseil des prélèvements obligatoires (Cour des comptes), septembre 2025, p. 137-138",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
+       },
+       {
+        "label": "Plan du candidat (fiche 14)",
+        "value": "« Entreprises : 30 Md€ » : « Cotisations patronales sur toute l'échelle des salaires 15,0 » ; « Impôts de production supprimés 15,0 » (Md€ 2032)",
+        "source": "Fiches presse du camp (12/10/2026), fiche 14",
+        "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
        }
       ],
       "note": "Les « 15 Md€ d'impôts de production » correspondent au rendement annuel des taxes visées (C3S 5,4 au rendement officiel de 2026 + CVAE 4,3 + forfait social 2,8 + CFE 1,9 = 14,4) : les montants « entreprises » se lisent comme des niveaux annuels."
@@ -11392,7 +11470,7 @@
       "high": -12.0,
       "method": "camp",
       "formula": "Budget publié ligne à ligne (fiche 14 du plan, niveaux 2032) : cotisations salariales en moins dès le premier euro −15 + relais de MaPrimeRénov' −2,1 (ligne « relais de MaPrimeRénov' et TVA sur les certificats » de 3 Md€, chiffre du camp, moins la TVA perdue avec la fin des certificats, comptée dans sa propre fiche : 3 − 0,9) = −17,1 ; comptée en entier en 2030 comme les cotisations patronales du même plan (baisse d'impôt sans calendrier par mesure, règle commune) ; borne haute : 70 % en 2030 (−12,0). La ligne « familles et transmission » (3) est couverte par les fiches revenu familial et transmission",
-      "note": "Seul chiffrage : celui du camp. Si l'on retenait la trajectoire du plan (70 % en 2030), la même lecture vaudrait pour les cotisations patronales : −12,0 et −10,5. Certificats d'économies d'énergie : le plan met fin aux certificats ; la TVA perdue avec eux est comptée dans la fiche « Fin des certificats d'économies d'énergie » (−0,9, même lecture et même valeur que Zemmour) ; le reste de la ligne de 3 Md€ (2,1) est le relais de MaPrimeRénov', au chiffre du camp.",
+      "note": "Seul chiffrage : celui du camp. Si l'on retenait la trajectoire du plan (70 % en 2030), la même lecture vaudrait pour les cotisations patronales : −12,0 et −8,4 (cotisations patronales nettes de l'impôt sur les sociétés récupéré). Certificats d'économies d'énergie : le plan met fin aux certificats ; la TVA perdue avec eux est comptée dans la fiche « Fin des certificats d'économies d'énergie » (−0,9, même lecture et même valeur que Zemmour) ; le reste de la ligne de 3 Md€ (2,1) est le relais de MaPrimeRénov', au chiffre du camp.",
       "inputs": [
        {
         "label": "Ménages : 21 Md€ en 2032",
@@ -11553,7 +11631,7 @@
         "url": "https://www.maddyness.com/2026/07/07/a-station-f-bruno-retailleau-presente-son-plan-a-25-milliards-deuros-pour-lia/"
        }
       ],
-      "note": "Économies attendues de l'IA (≈ 15 Md€/an « à terme » : 7,5 de non-remplacements, déjà dans la fiche « État » ; ≈ 4 sur les achats ; 3 à 4 sur la fraude) non comptées en plus : pas de chiffrage indépendant. Suramortissement de 100 % sur trois ans (IA, robotique, calcul) : non chiffré par le camp, en note (le suramortissement du RN est compté au chiffre de son camp, 2,1). L'annonce orale du 7/07 (25 Md€, 5 Md€/an) diffère du document écrit : le document, plus précis, est retenu."
+      "note": "Économies attendues de l'IA (≈ 15 Md€/an « à terme » : 7,5 de non-remplacements, déjà dans la fiche « État » ; ≈ 4 sur les achats ; 3 à 4 sur la fraude) non comptées en plus : pas de chiffrage indépendant. Suramortissement de 100 % sur trois ans (IA, robotique, calcul) : non chiffré par le camp, en note (le suramortissement du RN est compté au chiffre de son camp, 2,1). L'annonce orale du 7/07 (25 Md€, 5 Md€/an) diffère du document écrit : le document, plus précis, est retenu. Fin de la contribution patronale sur les actions gratuites (déductible) : non isolée dans les 2 Md€ des mesures « talents » du camp, impôt sur les sociétés récupéré non compté (moins de 0,1 Md€ par an au plus)."
      },
      "quiz_text": "Un grand plan public pour l'intelligence artificielle",
      "quiz_concret": "Investir dans les données, la formation et les entreprises de l'IA, avec un assistant IA pour les démarches avec l'État.",
@@ -11821,11 +11899,11 @@
      "obstacle": "Par la loi de financement de la Sécurité sociale ; autofinancement par des heures nouvelles non démontré.",
      "claude": {
       "id": "seuil_zero_cotisation",
-      "central": -4.3,
-      "low": -6.5,
-      "high": -2.2,
+      "central": -3.4,
+      "low": -5.4,
+      "high": -1.8,
       "method": "camp",
-      "formula": "Coût statique annoncé par le camp sur les heures supplémentaires existantes (4,3 Md€ rendus aux entreprises) ; autofinancement par les heures nouvelles non compté (effet de comportement non documenté) ; ±50 %",
+      "formula": "Coût statique annoncé par le camp sur les heures supplémentaires existantes (« restituer 4,3 milliards d'euros aux entreprises » : cotisations patronales, déductibles du bénéfice ; côté salarié, les cotisations sont déjà en grande partie exonérées), moins l'impôt sur les sociétés récupéré (20 %, règle commune) = −3,4 ; autofinancement par les heures nouvelles non compté (effet de comportement non documenté) ; ±50 %, nets de l'impôt récupéré (17,5 % et 20 %) : −5,4 et −1,8",
       "inputs": [
        {
         "label": "Coût statique",
@@ -11838,6 +11916,18 @@
         "value": "10 Md€ en 2032, « autofinancé » selon le camp",
         "source": "Fiches presse du 12/10/2026",
         "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+       },
+       {
+        "label": "Ce que rend la mesure",
+        "value": "« La mesure permettrait d'abord de restituer 4,3 milliards d'euros aux entreprises sur les heures supplémentaires déjà réalisées » ; aujourd'hui, « pour le salarié : exonération de cotisations à hauteur de 11,31 % du salaire brut »",
+        "source": "Les Républicains, livret « Le travail gagnant » (janvier 2026), p. 20-21",
+        "url": "https://republicains.fr/wp-content/uploads/2026/01/51705_LesRepublicains_Brochures_A5-40P_DEF.pdf"
+       },
+       {
+        "label": "Cotisations patronales : retour d'impôt sur les sociétés (Conseil des prélèvements obligatoires)",
+        "value": "« Lorsque l'incidence porte sur les entreprises, l'effet retour sur l'impôt sur les sociétés est calculé en utilisant le taux implicite moyen de 17,5 % avant crédit d'impôts » ; tableau 18 : déduction de cotisations patronales sur les heures supplémentaires, 860 M€, retour d'impôt sur les sociétés jusqu'à 151 M€",
+        "source": "Conseil des prélèvements obligatoires (Cour des comptes), septembre 2025, p. 137-138",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
        }
       ],
       "note": "Pas d'effet de comportement compté (règle commune) ; la mesure voisine de Philippe (37 h) n'a ni coût publié ni chiffrage indépendant : non chiffrable."
@@ -12096,14 +12186,14 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -23.0,
-    "p10": -31.5,
-    "p90": -7.8,
-    "realsum": -26.4,
-    "missing": "capitalisation, audiovisuel public, aide au développement (« Coopération » : 3,5 Md€ en 2032 selon le camp, sans niveau publié), et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (niveaux annuels en 2032), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ en 2032, sans chiffrage indépendant), autres lignes immigration du plan, reprises de l'Observatoire de l'immigration et de la démographie et que les données officielles ne permettent pas de refaire sans ses hypothèses (niveaux 2032) : immigration familiale 1,5, étudiants au-delà des droits différenciés (preuve de ressources) 1,4, titres au coût complet 0,5, hébergement d'urgence fermé aux personnes sous OQTF 0,5, mineurs non accompagnés, soins des demandeurs d'asile et contentieux 0,8, statut du bailleur privé (amortissement du bâti à 4 % par an, option pour le prélèvement forfaitaire à 30 % ; coût statique non publié, le « gain net » de 1,9 Md€ annoncé repose sur des recettes induites), barème kilométrique réévalué (ampleur non publiée)",
+    "sum": -18.3,
+    "p10": -26.3,
+    "p90": -5.7,
+    "realsum": -21.7,
+    "missing": "capitalisation, audiovisuel public, aide au développement (« Coopération » : 3,5 Md€ en 2032 selon le camp, sans niveau publié), et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (niveaux annuels en 2032), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ en 2032, sans chiffrage indépendant), autres lignes immigration du plan, reprises de l'Observatoire de l'immigration et de la démographie et que les données officielles ne permettent pas de refaire sans ses hypothèses (niveaux 2032) : immigration familiale 1,5, étudiants au-delà des droits différenciés (preuve de ressources) 1,4, titres au coût complet 0,5, hébergement d'urgence fermé aux personnes sous OQTF 0,5, mineurs non accompagnés, soins des demandeurs d'asile et contentieux 0,8, statut du bailleur privé (amortissement du bâti à 4 % par an, option pour le prélèvement forfaitaire à 30 % ; coût statique non publié, le « gain net » de 1,9 Md€ annoncé repose sur des recettes induites), barème kilométrique réévalué (ampleur non publiée), agences et opérateurs au-delà de la valeur commune (contrats non renouvelés et départs volontaires 5, structures 4, concours recentrés 3,5 ; niveaux 2032, chiffres du camp)",
     "n": 21,
-    "cost": -55.4,
-    "gain": 32.4,
+    "cost": -49.4,
+    "gain": 31.1,
     "confirm": []
    },
    "short": "Retailleau",
@@ -12188,7 +12278,7 @@
    "name": "David Lisnard",
    "party": "Nouvelle Énergie",
    "poll": "6,3 %",
-   "summary": "Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations. Notre chiffrage : −43,7 Md€ par an en 2030, soit −1 414 € par ménage. Principal obstacle : l'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend.",
+   "summary": "Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations. Notre chiffrage : −42,3 Md€ par an en 2030, soit −1 369 € par ménage. Principal obstacle : l'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend.",
    "measures": [
     {
      "id": "depense",
@@ -12277,11 +12367,11 @@
      "obstacle": "Gains faibles historiquement ; pas de licenciement possible",
      "claude": {
       "id": "fonction",
-      "central": 8.6,
+      "central": 8.9,
       "low": 5.2,
-      "high": 12.3,
+      "high": 13.4,
       "method": "ascendant",
-      "formula": "Règle commune : 61,6 k€ par poste (362,1 Md€ / 5,88 M d'agents), moitié rendue aux agents, 70 % du plan réalisé en 2030 (3,5 ans sur 5) ; 400 000 postes × 70 % × 30,8 k€ ≈ +8,6 Md€ (même calcul que les 400 000 postes de Retailleau). Borne basse : un départ à la retraite sur trois non remplacé (144 000 par an, DGAFP 2025) sur 3,5 ans ≈ +5,2 ; borne haute : plan entièrement réalisé en 2030, 400 000 × 30,8 k€ ≈ +12,3. Agences, ARS et DREAL : économie propre non publiée, non comptée en plus des postes",
+      "formula": "Règle commune : 61,6 k€ par poste (362,1 Md€ / 5,88 M d'agents), moitié rendue aux agents, 70 % du plan réalisé en 2030 (3,5 ans sur 5) ; 400 000 postes × 70 % × 30,8 k€ = 8,62 (même calcul que les 400 000 postes de Retailleau) + agences et opérateurs supprimés ou fusionnés, missions reprises : 0,26 (valeur commune : part hors personnel, 13,2 Md€ de fonctionnement sur 27,2 Md€ de charges, de l'économie chiffrée par la commission d'enquête du Sénat en 2025 sur les fonctions support des opérateurs, 2,7 Md€ réduits de 20 % = 0,54 ; la part de personnel est dans les postes supprimés) ≈ +8,9 Md€. Borne basse : un départ à la retraite sur trois non remplacé (144 000 par an, DGAFP 2025) sur 3,5 ans ≈ +5,2, agences 0 ; borne haute : plan entièrement réalisé en 2030, 400 000 × 30,8 k€ ≈ +12,3, + agences 1,06 = 13,4. ARS, DREAL et DDTM nommées par le candidat : missions reprises, ni économie propre publiée ni chiffrage indépendant au-delà de la valeur commune",
       "inputs": [
        {
         "label": "Masse salariale et effectifs publics",
@@ -12318,9 +12408,21 @@
         "value": "150 000 postes → −0,2 Md€ seulement",
         "source": "iFRAP",
         "url": "https://www.ifrap.org/etat-et-collectivites/ne-pas-remplacer-un-fonctionnaire-sur-deux-ne-suffira-pas-realiser-les-economies-necessaires"
+       },
+       {
+        "label": "Agences et opérateurs : économie chiffrée par le Sénat",
+        "value": "fonctions support des opérateurs (hors universités et recherche) : 10 % des charges de personnel (≈ 14 Md€) et de fonctionnement (13,2 Md€), soit 2,7 Md€ ; « une réduction de 20 % du coût des fonctions support, ce qui paraît très volontariste […], apporterait donc une économie de l'ordre de 540 millions d'euros » ; −8 % des charges de personnel et de fonctionnement : 2,2 Md€, « pas réellement à missions constantes »",
+        "source": "Sénat, commission d'enquête sur les agences, opérateurs et organismes consultatifs de l'État, rapport n° 807 (2024-2025)",
+        "url": "https://www.senat.fr/rap/r24-807-1/r24-807-122.html"
+       },
+       {
+        "label": "Agences visées",
+        "value": "« on supprimera l'essentiel de ces machins. Il faudra garder quelques agences qui sont des garantes de l'indépendance » (Le Crayon, 11/10/2026) ; « environ 1 200 organismes publics ont été créés en vingt-cinq ans » ; sont nommées les directions régionales de l'environnement, les directions départementales des territoires et de la mer et les agences régionales de santé",
+        "source": "Nouvelle Énergie, « Quelles économies propose David Lisnard ? » (mis à jour le 16/10/2026)",
+        "url": "https://www.unenouvelleenergie.fr/questions/quelles-economies-david-lisnard-propose-t-il-et-ou-exactement/"
        }
       ],
-      "note": "Paramètre publié par le parti du candidat le 28/10/2026 (scénario présenté à la télévision le 27/10) ; à revoir avec la ventilation annoncée pour décembre. Hors coût des indemnités et des redéploiements. Les ≈ 500 000 sorties annuelles de la fonction publique (DGAFP) rendent l'objectif atteignable par les seuls départs."
+      "note": "Paramètre publié par le parti du candidat le 28/10/2026 (scénario présenté à la télévision le 27/10) ; à revoir avec la ventilation annoncée pour décembre. Hors coût des indemnités et des redéploiements. Les ≈ 500 000 sorties annuelles de la fonction publique (DGAFP) rendent l'objectif atteignable par les seuls départs. Agences : valeur commune de 0,26 Md€, la même chez Le Pen, Retailleau et Lisnard : part hors personnel (13,2 Md€ de fonctionnement sur 27,2 Md€ de charges) de l'économie chiffrée par la commission d'enquête du Sénat en 2025 (fonctions support des opérateurs réduites de 20 % : 0,54 Md€), la part de personnel étant déjà dans les postes supprimés ; borne basse 0 (réduction jugée « très volontariste » par le Sénat) ; borne haute 1,06 (−8 % des 13,2 Md€ de fonctionnement des opérateurs). Le montant annoncé par le camp est un chiffre de camp, non compté au-delà."
      },
      "quiz_text": "Ne pas remplacer une partie des fonctionnaires qui quittent leur poste, en commençant par les fonctions administratives",
      "quiz_concret": "Moins de postes publics au fil des départs.",
@@ -12561,11 +12663,11 @@
      "obstacle": "Dépend entièrement de la réalité des économies",
      "claude": {
       "id": "impots",
-      "central": -5.4,
-      "low": -5.5,
-      "high": -5.3,
+      "central": -4.3,
+      "low": -4.5,
+      "high": -4.3,
       "method": "ascendant",
-      "formula": "C3S : 5,36 Md€ (prévision 2026, CCSS, même base que Le Pen, Zemmour et Retailleau) → −5,4 ; borne basse : prévision 2027 (5,47) ; borne haute : 2025 (5,34). CVAE : 0 (déjà supprimée par la loi)",
+      "formula": "C3S : 5,36 Md€ (prévision 2026, CCSS, même base que Le Pen, Zemmour et Retailleau), moins l'impôt sur les sociétés récupéré (20 %, règle commune) → −4,3 ; borne basse : prévision 2027 (5,47), impôt récupéré à 17,5 % → −4,5 ; borne haute : 2025 (5,34) à 20 % → −4,3. CVAE : 0 (déjà supprimée par la loi)",
       "inputs": [
        {
         "label": "Rendement de la C3S (prévision 2026)",
@@ -12584,9 +12686,21 @@
         "value": "LF 2025, confirmée en LF 2026",
         "source": "Légifiscal",
         "url": "https://www.legifiscal.fr/actualites-fiscales/4401-plf-2026-49-3-baisse-cvae-2026.html"
+       },
+       {
+        "label": "Méthode du Gouvernement (étalement de la suppression de la CVAE)",
+        "value": "« Les impôts de production étant déductibles du résultat imposable, le coût net pour l'État de la présente mesure tient compte de l'impact sur les recettes d'impôt sur le revenu (IR) et d'impôt sur les sociétés (IS), via l'application d'un taux moyen d'IR/IS de 20 % » ; 70 % de l'effet dès la première année (« cinquième acompte »)",
+        "source": "Projet de loi de finances pour 2024, évaluations préalables, article 8 (p. 196)",
+        "url": "https://www.assemblee-nationale.fr/dyn/content/download/705211/file/Evaluations%20pr%C3%A9alables%20des%20articles%20du%20projet%20de%20loi.pdf"
+       },
+       {
+        "label": "Suppression de la C3S (Conseil des prélèvements obligatoires)",
+        "value": "effet brut −5 361 M€ ; retour d'impôt sur les sociétés +938 M€ (taux effectif avant crédits d'impôt de 17,5 %) ; effet net −4 423 M€",
+        "source": "Conseil des prélèvements obligatoires (Cour des comptes), « Tracer un cadre fiscal et social pluriannuel pour l'industrie française », septembre 2025, p. 134-135, tableau 15",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
        }
       ],
-      "note": "Les 40 Md€ annoncés ne sont identifiés qu'à hauteur de C3S et CVAE. Coût brut, comme pour toutes les fiches impôts de production (Le Pen, Zemmour, Lisnard, Retailleau) : l'impôt sur les sociétés récupéré quand la C3S et la CFE, déductibles, disparaissent n'est compté chez personne en attendant la vérification de la façon dont l'évaluation des voies et moyens, l'IPP, l'Institut Montaigne et la Cour des comptes présentent ce coût (registre)."
+      "note": "Les 40 Md€ annoncés ne sont identifiés qu'à hauteur de C3S et CVAE. Coût net de l'impôt sur les sociétés récupéré : ces prélèvements sont déductibles du bénéfice imposable, et tous les chiffrages publiés trouvés comptent ce retour (Gouvernement, Cour des comptes, Institut Montaigne, Conseil d'analyse économique) ; règle commune, la même dans les deux sens pour tout prélèvement déductible : 20 % (taux retenu par le Gouvernement, l'Institut Montaigne et le CAE ; 17,5 %, taux de la Cour des comptes, en borne basse), en entier en 2030, comme l'impôt sur le revenu récupéré des fiches CSG."
      },
      "quiz_text": "Supprimer des impôts sur la production des entreprises, dont la taxe sur le chiffre d'affaires",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
@@ -14208,14 +14322,14 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -43.7,
-    "p10": -52.0,
-    "p90": -36.5,
-    "realsum": -47.2,
+    "sum": -42.3,
+    "p10": -50.8,
+    "p90": -34.7,
+    "realsum": -45.8,
     "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, TVA unique à 25 %, défense (hausse du budget des armées, sans montant ni date), revenus fonciers au régime du prélèvement forfaitaire unique (taux et niches supprimées en contrepartie non publiés), plan de remise à niveau de la police sur dix ans et budget de la justice porté à la moyenne européenne (montants non publiés), nouveaux centres de rétention (places non publiées), impôt résidentiel universel payé par tous les habitants (taux, assiette et baisses en contrepartie non publiés), réforme de l'assurance chômage pour réduire les dépenses (non détaillée), budgets revus « à partir de zéro » (montant non publié), à confirmer en 2026 : charges supprimées pour les employeurs à domicile au niveau du SMIC et charges patronales négatives pour l'embauche d'allocataires du RSA depuis plus de deux ans (page de programme sans date de rédaction)",
     "n": 15,
-    "cost": -65.7,
-    "gain": 22.0,
+    "cost": -64.6,
+    "gain": 22.3,
     "confirm": []
    },
    "short": "Lisnard",
@@ -14283,7 +14397,7 @@
    "name": "Éric Zemmour",
    "party": "Reconquête",
    "poll": "3,9 %",
-   "summary": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH. Notre chiffrage : +18,8 Md€ par an en 2030, soit +608 € par ménage. Principal obstacle : plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH.",
+   "summary": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH. Notre chiffrage : +19,6 Md€ par an en 2030, soit +634 € par ménage. Principal obstacle : plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH.",
    "measures": [
     {
      "id": "remigration",
@@ -14877,11 +14991,11 @@
      "verdict": "faisable",
      "obstacle": "Impôts visés non désignés ; compensation des collectivités et de la Sécurité sociale.",
      "claude": {
-      "central": -13.7,
-      "low": -14.2,
-      "high": -13.4,
+      "central": -11.0,
+      "low": -11.7,
+      "high": -10.7,
       "method": "ascendant",
-      "formula": "Même calcul que Le Pen : rendements officiels : C3S 5,36 Md€ (prévision 2026, CCSS) + CFE 8,38 Md€ (produit 2025, DGCL) = −13,7 Md€ ; CVAE : 0 (déjà supprimée par la loi en 2030, règle commune). Borne basse −14,2 : C3S prévue en 2027 (5,47) + CFE 2025 accrue de sa hausse de 2025 (+4,4 %) ; borne haute −13,4 : rendements de l'année précédente (C3S 2025 5,34 + CFE 2024 8,03). Produit brut de la CFE : les dégrèvements payés par l'État (qui disparaîtraient) et les frais de gestion perçus par l'État (perdus) ne sont pas chiffrés ici et jouent en sens contraire",
+      "formula": "Même calcul que Le Pen : rendements officiels : C3S 5,36 Md€ (prévision 2026, CCSS) + CFE 8,38 Md€ (produit 2025, DGCL) = 13,74, moins l'impôt sur les sociétés récupéré (20 %, règle commune) = −11,0 Md€ ; CVAE : 0 (déjà supprimée par la loi en 2030, règle commune). Borne basse −11,7 : C3S prévue en 2027 (5,47) + CFE 2025 accrue de sa hausse de 2025 (+4,4 %) = 14,22, impôt récupéré au taux de la Cour des comptes (17,5 %) ; borne haute −10,7 : rendements de l'année précédente (C3S 2025 5,34 + CFE 2024 8,03 = 13,36), impôt récupéré à 20 %. Produit brut de la CFE : les dégrèvements payés par l'État (qui disparaîtraient) et les frais de gestion perçus par l'État (perdus) ne sont pas chiffrés ici et jouent en sens contraire",
       "inputs": [
        {
         "label": "Rendement de la C3S (prévision 2026)",
@@ -14906,9 +15020,21 @@
         "value": "30,4 Md€ (2022)",
         "source": "Institut Montaigne",
         "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-les-impots-de-production-de-30-milliards-deuros-supplementaires/"
+       },
+       {
+        "label": "Méthode du Gouvernement (étalement de la suppression de la CVAE)",
+        "value": "« Les impôts de production étant déductibles du résultat imposable, le coût net pour l'État de la présente mesure tient compte de l'impact sur les recettes d'impôt sur le revenu (IR) et d'impôt sur les sociétés (IS), via l'application d'un taux moyen d'IR/IS de 20 % » ; 70 % de l'effet dès la première année (« cinquième acompte »)",
+        "source": "Projet de loi de finances pour 2024, évaluations préalables, article 8 (p. 196)",
+        "url": "https://www.assemblee-nationale.fr/dyn/content/download/705211/file/Evaluations%20pr%C3%A9alables%20des%20articles%20du%20projet%20de%20loi.pdf"
+       },
+       {
+        "label": "Suppression de la C3S (Conseil des prélèvements obligatoires)",
+        "value": "effet brut −5 361 M€ ; retour d'impôt sur les sociétés +938 M€ (taux effectif avant crédits d'impôt de 17,5 %) ; effet net −4 423 M€",
+        "source": "Conseil des prélèvements obligatoires (Cour des comptes), « Tracer un cadre fiscal et social pluriannuel pour l'industrie française », septembre 2025, p. 134-135, tableau 15",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
        }
       ],
-      "note": "Hors total. Version 2022 (baisse de 30 Md€) gardée en note : avec la même règle (CVAE retirée, sans impôt sur les sociétés récupéré), elle vaudrait −26,4 (30,4 − 4). Coût brut, comme pour toutes les fiches impôts de production (Le Pen, Zemmour, Lisnard, Retailleau) : l'impôt sur les sociétés récupéré quand la C3S et la CFE, déductibles, disparaissent n'est compté chez personne en attendant la vérification de la façon dont l'évaluation des voies et moyens, l'IPP, l'Institut Montaigne et la Cour des comptes présentent ce coût (registre)."
+      "note": "Hors total. Version 2022 (baisse de 30 Md€) gardée en note : avec la même règle (CVAE retirée, impôt sur les sociétés récupéré à 20 %), elle vaudrait −21,1 ((30,4 − 4) × 0,8). Coût net de l'impôt sur les sociétés récupéré : ces prélèvements sont déductibles du bénéfice imposable, et tous les chiffrages publiés trouvés comptent ce retour (Gouvernement, Cour des comptes, Institut Montaigne, Conseil d'analyse économique) ; règle commune, la même dans les deux sens pour tout prélèvement déductible : 20 % (taux retenu par le Gouvernement, l'Institut Montaigne et le CAE ; 17,5 %, taux de la Cour des comptes, en borne basse), en entier en 2030, comme l'impôt sur le revenu récupéré des fiches CSG."
      },
      "a_confirmer": true,
      "quiz_text": "Supprimer CFE, CVAE et C3S ; proposé en 2026 par Sarah Knafo, pas repris par le candidat ; en 2022, baisse de 30 Md€."
@@ -15134,11 +15260,11 @@
      "obstacle": "Par la loi de finances ; financement non précisé dans la mesure.",
      "claude": {
       "id": "accise",
-      "central": -9.0,
-      "low": -12,
-      "high": -8.2,
+      "central": -8.2,
+      "low": -10.95,
+      "high": -7.4,
       "method": "ascendant",
-      "formula": "Même base que la TICPE de Le Pen : volumes 2025 (gazole 32 Mm³, dont 7,6 Mm³ remboursés aux poids lourds et 0,8 Mm³ aux autocars ; essences 15,6 Mm³) × tarifs 2026 (gazole 60,75 €/hl ; SP95-E5 69,02 et E10 67,02, moyenne 68,02). Un tiers : gazole non remboursé 23,6 Mm³ × 20,25 €/hl = 4,78 ; poids lourds : le tarif national (40,50) passe sous leur tarif net (45,19), perte 4,69 €/hl × 7,57 Mm³ = 0,36 ; autocars : tarif net (39,19) inchangé, 0 ; essences 15,6 Mm³ × 22,67 €/hl = 3,54 ; total 8,67 aux tarifs normaux. Calage sur les recettes 2025 publiées (CPO : 17,3 + 9,9 = 27,2 Md€, contre 28,7 aux tarifs normaux pour les mêmes volumes : tarifs réduits E85, E10, B100, Corse, taxis) : × 0,948 = 8,2 ; + TVA assise sur cette part d'accise, à mi-chemin entre 0 (entreprises) et 20 % : 0,8 → ≈ −9,0. Borne haute : accise seule (−8,2) ; borne basse : chiffre du camp (−12)",
+      "formula": "Même base que la TICPE de Le Pen : volumes 2025 (gazole 32 Mm³, dont 7,6 Mm³ remboursés aux poids lourds et 0,8 Mm³ aux autocars ; essences 15,6 Mm³) × tarifs 2026 (gazole 60,75 €/hl ; SP95-E5 69,02 et E10 67,02, moyenne 68,02). Un tiers : gazole non remboursé 23,6 Mm³ × 20,25 €/hl = 4,78 ; poids lourds : le tarif national (40,50) passe sous leur tarif net (45,19), perte 4,69 €/hl × 7,57 Mm³ = 0,36 ; autocars : tarif net (39,19) inchangé, 0 ; essences 15,6 Mm³ × 22,67 €/hl = 3,54 ; total 8,67 aux tarifs normaux. Calage sur les recettes 2025 publiées (CPO : 17,3 + 9,9 = 27,2 Md€, contre 28,7 aux tarifs normaux pour les mêmes volumes : tarifs réduits E85, E10, B100, Corse, taxis) : × 0,948 = 8,2 ; + TVA assise sur cette part d'accise, à mi-chemin entre 0 (entreprises) et 20 % : 0,8 ; moins l'impôt sur les sociétés récupéré sur la part payée par les entreprises (la moitié, comme pour la TVA ; 20 %, règle commune) : 8,2 × 50 % × 20 % = 0,8 → ≈ −8,2. Borne haute : accise seule, nette de l'impôt sur les sociétés (−7,4) ; borne basse : chiffre du camp (−12), net au taux de 17,5 % sur la moitié (−10,95)",
       "inputs": [
        {
         "label": "Accise 2025 sur le gazole et l'essence",
@@ -15175,9 +15301,15 @@
         "value": "12 Md€ de manque à gagner",
         "source": "combienjegagne.fr (camp)",
         "url": "https://combienjegagne.fr/"
+       },
+       {
+        "label": "Suppression de la C3S (Conseil des prélèvements obligatoires)",
+        "value": "effet brut −5 361 M€ ; retour d'impôt sur les sociétés +938 M€ (taux effectif avant crédits d'impôt de 17,5 %) ; effet net −4 423 M€",
+        "source": "Conseil des prélèvements obligatoires (Cour des comptes), « Tracer un cadre fiscal et social pluriannuel pour l'industrie française », septembre 2025, p. 134-135, tableau 15",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
        }
       ],
-      "note": "Aucun chiffrage indépendant ; base 2025 non projetée en 2030 ; le chiffre de 24,8 Md€ (attribué à la Cour des comptes sans référence) est retiré (baisse de la consommation de carburants non comptée). Fin des certificats d'économies d'énergie, proposée en même temps (pétition de Reconquête) : fiche à part (−0,9). Verdict proposé : faisable (loi de finances ; les taux restent au-dessus des minima de la directive 2003/96)."
+      "note": "Aucun chiffrage indépendant ; base 2025 non projetée en 2030 ; le chiffre de 24,8 Md€ (attribué à la Cour des comptes sans référence) est retiré (baisse de la consommation de carburants non comptée). Fin des certificats d'économies d'énergie, proposée en même temps (pétition de Reconquête) : fiche à part (−0,9). Verdict proposé : faisable (loi de finances ; les taux restent au-dessus des minima de la directive 2003/96). Impôt sur les sociétés récupéré (règle commune des prélèvements déductibles) : l'accise payée par les entreprises est déductible de leur bénéfice ; il est compté sur la moitié de l'accise, la même hypothèse « à mi-chemin » que pour la TVA (part des entreprises non publiée par une source officielle : registre), à 20 % (17,5 % en borne basse), de la même façon chez Le Pen et Zemmour."
      },
      "quiz_text": "Baisser d'un tiers la taxe sur les carburants",
      "quiz_concret": "Le litre d'essence ou de gazole coûte environ 25 centimes de moins.",
@@ -16206,13 +16338,13 @@
     }
    },
    "claude_total": {
-    "sum": 18.8,
-    "p10": 8.8,
-    "p90": 30.9,
-    "realsum": 11.5,
+    "sum": 19.6,
+    "p10": 9.7,
+    "p90": 31.8,
+    "realsum": 12.3,
     "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, fin de la gratuité des études pour les étudiants étrangers 4 (montant des droits non publié), audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS et autres agences 2), lignes immigration de moins de 1 Md€ : visas plus chers 0,7, hébergement d'urgence fermé aux étrangers en situation irrégulière 0,7, aide juridictionnelle réservée aux Français 0,1",
     "n": 12,
-    "cost": -13.1,
+    "cost": -12.3,
     "gain": 31.9,
     "confirm": [
      "Fin de la CSG sur les salaires",
@@ -16228,12 +16360,12 @@
  ],
  "method": [
   "<b>Notre chiffrage.</b> 148 mesures analysées, dont 118 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
-  "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». La lutte contre la fraude est comptée avec les leviers chiffrés par le Conseil d'analyse économique qui correspondent au champ de chaque mesure, dans la limite du chiffre du camp. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie ; la TVA perçue sur cette part des factures est en revanche une recette publique, perdue si elle est supprimée) ; un transfert entre administrations (de l'État vers les communes, par exemple) sans dépense définie par la mesure est neutre pour le solde public : compté 0, avec en borne basse le montant si le bénéficiaire le dépense en entier ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
+  "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; un prélèvement payé par les entreprises et déductible de leur bénéfice imposable (impôts de production comme la C3S ou la CFE, cotisations patronales, forfait social, part d'une accise payée par les entreprises) est compté net de l'impôt sur les sociétés qu'il fait varier, dans les deux sens (une baisse fait remonter cet impôt, une hausse le fait baisser) : 20 % de l'écart (taux retenu par le Gouvernement, l'Institut Montaigne et le Conseil d'analyse économique ; 17,5 %, taux de la Cour des comptes, en borne), en entier en 2030, sauf si le chiffrage retenu est déjà net, comme l'impôt sur le revenu récupéré quand la CSG déductible baisse ; pas pour l'impôt sur les sociétés lui-même ni pour un impôt que les entreprises ne déduisent pas (la TVA, qu'elles récupèrent) ; la suppression ou la fusion de la plupart des agences et opérateurs de l'État, missions reprises, vaut 0,26 Md€ chez tous les candidats qui la proposent (part hors personnel de l'économie chiffrée par la commission d'enquête du Sénat en 2025 sur les fonctions support des opérateurs, 0,54 Md€ : la part de personnel est déjà dans les postes supprimés), le montant annoncé par un camp n'étant pas compté au-delà ; le prix de référence des carburants et du fioul est la moyenne des 52 dernières semaines publiées par le ministère (gazole 1,98 €/l, SP95 1,94 €/l au 23/10/2026), et non le dernier relevé hebdomadaire, dans les fiches comme dans le simulateur ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». La lutte contre la fraude est comptée avec les leviers chiffrés par le Conseil d'analyse économique qui correspondent au champ de chaque mesure, dans la limite du chiffre du camp. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie ; la TVA perçue sur cette part des factures est en revanche une recette publique, perdue si elle est supprimée) ; un transfert entre administrations (de l'État vers les communes, par exemple) sans dépense définie par la mesure est neutre pour le solde public : compté 0, avec en borne basse le montant si le bénéficiaire le dépense en entier ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
   "<b>Objectifs en niveau.</b> Un objectif de dépense publié sous la forme d'un niveau à une date (en part du PIB ou en euros) est compté pour l'écart, en 2030, entre ce niveau et la trajectoire du droit en vigueur (loi de programmation militaire ou de la recherche ; à défaut, part du PIB constante) ; un objectif sans date ou fixé à la fin du mandat compte pour 70 % de cet écart. Le PIB de 2030 est celui du scénario du Gouvernement (projet de loi de finances 2027), ramené en euros de 2026. Quand la définition est ambiguë (dépense exécutée ou financée, périmètre), le milieu de la fourchette est retenu. La même règle vaut dans les deux sens : un niveau publié à la baisse (suppression comprise) compte comme une économie. Une prise de position au Parlement sur un texte déjà voté ne vaut pas programme, sauf si le candidat la reprend dans sa campagne.",
   "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026, ou connues par une seule reprise de presse qui ne cite pas le candidat (marquées « À confirmer »), et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés. Un chiffrage qu'un candidat reprend comme le sien (d'un institut, d'une association ou d'un parti) compte comme chiffre de son camp, quel que soit son auteur. Le reprendre comme le sien, c'est publier ce chiffre comme son propre chiffre ; citer une étude comme une base parmi d'autres n'en fait pas un chiffre du camp. Une économie qui repose sur une baisse de flux ou un comportement supposés par une seule note n'est pas comptée, sauf si une évaluation ou une donnée officielle les établit. Un document d'un parti publié avant la désignation de son candidat (un projet de parti, par exemple) ne vaut programme que si le candidat le reprend ; un document officiel publié depuis (le contre-budget d'un groupe parlementaire, par exemple) compte. Une demande adressée au Gouvernement en place d'utiliser un outil qui existe déjà (état d'urgence, couvre-feux, drones, militaires en garde statique) n'est pas une proposition de programme.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 317 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 321 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 5 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». Quand un thème compte plus de cinq propositions, on affiche, dans le même ordre pour tous : d'abord celles de 2026 (les non reconfirmées passent après), parmi elles les précises avant les intentions, puis les plus récentes ; à égalité ou à date inconnue, l'ordre déjà affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce) ; une proposition remplacée par sa version précise n'est pas gardée en double, et une même proposition n'est affichée que dans un thème, le plus précis (l'énergie et le nucléaire dans « environnement »). Les propositions hors affichage restent notées dans le registre de suivi du projet (dépôt public). L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). Ce sont des ordres de grandeur.",
@@ -16335,9 +16467,9 @@
   "rsa_etrangers_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19778",
   "salaries": 26965000,
   "salaries_url": "https://www.insee.fr/fr/statistiques/8733039?sommaire=8733125",
-  "prix_sp95": 2.18,
-  "prix_gazole": 2.35,
-  "prix_carburant_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/NPG-2026.10.23.pdf"
+  "prix_sp95": 1.94,
+  "prix_gazole": 1.98,
+  "prix_carburant_url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Prix%20HTT%20et%20TTC%20depuis%20janvier%202020_0.xlsx"
  },
  "base_url": "https://claude.ai/artifact/WJ9R1g2Hyxkmrs7YbwVRZB",
  "blackout": [
@@ -16347,6 +16479,18 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "29/10/2026",
+   "text": "Impôt sur les sociétés récupéré : un prélèvement payé par les entreprises et déductible de leur bénéfice est désormais compté net de l'impôt sur les sociétés qu'il fait varier (20 %), dans les deux sens et pour tous, comme le font le Gouvernement, la Cour des comptes et l'Institut Montaigne. Impôts de production : Le Pen −11,0 au lieu de −13,7, Retailleau −8,0 au lieu de −10,1, Lisnard −4,3 au lieu de −5,4 (Zemmour, hors total, −11,0). Cotisations patronales de Retailleau −12,0 au lieu de −15,0, seuil « zéro cotisation » −3,4 au lieu de −4,3. Taxes sur les carburants (part payée par les entreprises) : Le Pen −1,9 au lieu de −2,1, Zemmour −8,2 au lieu de −9,0. Philippe : impôts de production supprimés contre aides retirées, valeur inchangée (0), borne basse −26,0 au lieu de −31,5. Totaux avec les agences et les postes de Le Pen : Le Pen −69,3, Retailleau −18,3, Lisnard −42,3, Zemmour +19,6 Md€."
+  },
+  {
+   "date": "29/10/2026",
+   "text": "Agences et opérateurs de l'État supprimés ou fusionnés : même valeur chez les trois candidats qui le proposent (Le Pen, Retailleau, Lisnard), 0,26 Md€, la part hors personnel du seul chiffrage indépendant (commission d'enquête du Sénat, 2025), la part de personnel étant déjà comptée dans les postes supprimés ; les montants annoncés par les camps (3,4 et 12,5 Md€) ne sont pas comptés. Fiches « Fonctionnaires et agences » : Retailleau +9,0 au lieu de +10,3, Lisnard +8,9 au lieu de +8,6. Le Pen : le nombre de postes supprimés (≈ 200 000) n'est publié par aucune source qui parle pour la candidate ; comme pour Lisnard avant la publication du sien, cette partie devient non chiffrable (fourchette indicative dans la fiche), et la fiche passe de +5 à +0,26 Md€."
+  },
+  {
+   "date": "29/10/2026",
+   "text": "Prix de référence des carburants : la moyenne des 12 derniers mois publiée par le ministère (52 semaines au 23/10/2026 : gazole 1,98 €/l, SP95 1,94 €/l) remplace le dernier relevé hebdomadaire (2,35 et 2,18 €/l), dans les fiches comme dans le simulateur. Simulateur : la baisse de la taxe sur les carburants de Le Pen et de Zemmour et le carburant à 1,70 €/l de Mélenchon sont recalculés à ce prix. Totaux inchangés."
+  },
   {
    "date": "29/10/2026",
    "text": "Chiffrages revus. Lisnard : son parti publie plus de 400 000 suppressions de postes publics (28/10) ; la fiche « Fonctionnaires et agences », jusqu'ici non chiffrable, est comptée avec la règle commune, comme les 400 000 postes de Retailleau (+8,6 Md€). Impôts de production sur les rendements officiels (C3S 2026, CFE 2025) : Le Pen −13,7 au lieu de −13 (Zemmour, hors total, même valeur), Lisnard −5,4 au lieu de −5,1, Retailleau −10,1 au lieu de −10. Assurance chômage (Attal, Retailleau) : note originale de l'Unédic ; les mesures déjà appliquées depuis 2025 sont retirées, +2,8 Md€ au lieu de +3,8. Totaux : Le Pen −67,5, Attal +7,0, Retailleau −23,0, Lisnard −43,7 Md€."
@@ -16529,7 +16673,8 @@
   "economiematin.fr",
   "monvote2027",
   "politograph",
-  "wikiglucksmann"
+  "wikiglucksmann",
+  "francetransactions.com"
  ],
  "sondages": {
   "regle": "Intentions de vote au 1er tour. Dernière vague de chaque institut dont le terrain s'est achevé dans les 15 jours précédant la date ci-dessous ; pour chaque institut, fourchette [plus bas, plus haut] des scores publiés dans les hypothèses où le candidat est testé, et on retient le milieu ; le chiffre affiché est la moyenne de ces milieux entre instituts (même poids pour chacun). L'ordre des candidats suit cette moyenne. Source : notices de la Commission des sondages.",

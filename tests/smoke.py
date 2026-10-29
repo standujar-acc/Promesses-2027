@@ -251,7 +251,7 @@ with sync_playwright() as p:
     r = pg.evaluate("""(()=>{ document.getElementById('s-fuel').value=300; document.querySelector('#s-status [data-v="prive"]').click(); openSim.clear(); ['le-pen','zemmour'].forEach(i=>openSim.add(i)); sim();
       const v=id=>{ const row=[...document.querySelectorAll(`#simres .srow[data-c="${id}"] .rw`)].find(x=>/Taxe sur les carburants/.test(x.textContent)); const m=row&&row.textContent.match(/([0-9]+) €\\/mois/); return m?+m[1]:0; };
       const out=[v('le-pen'), v('zemmour')]; document.getElementById('s-fuel').value=100; sim(); return out; })()""")
-    check(r[0] in (4, 5) and r[1] in (37, 38, 39), f'simulateur : taxe carburant Le Pen ≈ 4,7 €, Zemmour ≈ 38 € pour 300 €/mois d\'essence {r}')
+    check(r[0] in (5, 6) and r[1] in (42, 43, 44), f'simulateur : taxe carburant Le Pen ≈ 5,3 €, Zemmour ≈ 43 € pour 300 €/mois d\'essence au prix moyen des 12 derniers mois {r}')
     # part fiscale entière dès le 2e enfant (Le Pen) : gain avec 2 enfants, rien avec 1, pas de double compte avec l'exonération des moins de 30 ans
     r = pg.evaluate("""(()=>{ const g=id=>document.getElementById(id); document.querySelector('#s-status [data-v="prive"]').click(); g('s-salary').value=3500; openSim.clear(); openSim.add('le-pen');
       const f=(k,y)=>{ S.kids=k; g('s-year').value=y; sim(); return [...document.querySelectorAll('#simres .srow[data-c="le-pen"] .rw')].filter(x=>/^Impôt/.test(x.textContent.trim())).length; };
