@@ -1,6 +1,6 @@
 # Méthode
 
-Texte identique à l'onglet « Méthode » de l'app, généré par `pipeline/run.py` depuis `pipeline/build.py`, à jour au 28 octobre 2026.
+Texte identique à l'onglet « Méthode » de l'app, généré par `pipeline/run.py` depuis `pipeline/build.py`, à jour au 29 octobre 2026.
 
 **Notre chiffrage.** 132 mesures analysées, dont 104 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.
 
