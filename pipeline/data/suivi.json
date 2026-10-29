@@ -1385,6 +1385,19 @@
    "cree": "2026-10-29",
    "maj": "2026-10-29",
    "resolution": null
+  },
+  {
+   "id": "S091",
+   "type": "a_corriger",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Page candidat : en-tête qui saute et sélecteur peu visible",
+   "detail": "Retour du porteur (29/10) : sur ordinateur, passer à « Vie quotidienne » faisait disparaître l'encart bleu du total et remonter toute la page ; le candidat choisi se voyait mal ; plus aucun repère en descendant dans les fiches.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-29",
+   "maj": "2026-10-29",
+   "resolution": "Fait le 29/10 : sur ordinateur, barre fixe en haut au défilement (les 8 candidats et les onglets Budget / Vie quotidienne), présentation et total toujours affichés aux mêmes places dans les deux onglets ; changer de candidat ou d'onglet depuis le bas de page ramène en haut de la fiche ; candidat choisi en plein (bleu nuit) sur ordinateur et téléphone ; téléphone : même ordre qu'avant, pas de barre fixe (place limitée). Accueil : rangées du classement visiblement cliquables."
   }
  ]
 }
