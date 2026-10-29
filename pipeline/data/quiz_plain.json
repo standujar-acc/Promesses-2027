@@ -426,5 +426,93 @@
 "Laisser les médecins s'installer librement, exonérés d'impôt local dans les déserts médicaux",
 "Aucune règle sur le lieu d'installation ; en zone qui manque de médecins, pas de taxe locale d'entreprise.",
 "Liberté d'installation, exonération de CFE pour libéraux en zone sous-dense"
+],
+"le-pen.ticpe": [
+"Ramener la taxe sur les carburants et le fioul à son niveau de 2017",
+"Le litre d'essence, de gazole et de fioul coûte quelques centimes de moins."
+],
+"zemmour.accise": [
+"Baisser d'un tiers la taxe sur les carburants",
+"Le litre d'essence ou de gazole coûte environ 25 centimes de moins."
+],
+"le-pen.successions": [
+"Ne plus taxer l'héritage d'un logement jusqu'à 300 000 €",
+"Les enfants qui héritent d'une maison ou d'un appartement paient moins de droits, ou plus du tout."
+],
+"lisnard.succession": [
+"Supprimer les droits de succession entre parents et enfants",
+"Les enfants ne paient plus d'impôt sur l'héritage de leurs parents ; la plupart des petits n'en payaient déjà pas."
+],
+"le-pen.donations": [
+"Donner sans impôt jusqu'à 100 000 € à chaque enfant ou petit-enfant tous les 10 ans",
+"Parents et grands-parents peuvent donner sans impôt plus souvent ; les grands-parents autant que les parents."
+],
+"le-pen.dutreil": [
+"Plus aucun droit de succession sur une entreprise transmise et gardée dix ans",
+"Aujourd'hui exonérés aux trois quarts, les héritiers d'une entreprise ne paient plus rien s'ils la gardent dix ans."
+],
+"retailleau.transmission": [
+"Ne payer les droits sur une entreprise héritée que si on la revend",
+"Les héritiers d'une entreprise ne paient rien tant qu'ils la gardent."
+],
+"le-pen.part-fiscale": [
+"Baisser l'impôt sur le revenu des familles dès le deuxième enfant",
+"Le 2e enfant compte comme le 3e dans le calcul de l'impôt : les familles imposables paient moins."
+],
+"lisnard.quotient": [
+"Supprimer le plafond de la réduction d'impôt liée aux enfants",
+"Les familles aux revenus élevés, aujourd'hui plafonnées, paient moins d'impôt."
+],
+"le-pen.ir-moins-30-ans": [
+"Pas d'impôt sur le revenu pour les actifs de moins de 30 ans",
+"Les jeunes qui travaillent ne paient plus d'impôt sur le revenu, jusqu'à quatre fois le SMIC."
+],
+"le-pen.suramortissement": [
+"Baisser l'impôt des entreprises qui achètent robots et équipements numériques",
+"Industrie et agriculture déduisent davantage ces achats de leurs bénéfices imposables."
+],
+"le-pen.pfu": [
+"Annuler la hausse de 2026 de la taxe sur les revenus de l'épargne",
+"Dividendes, intérêts et plus-values sont taxés à 30 % au lieu de 31,4 % ; assurance-vie et livrets ne changent pas."
+],
+"le-pen.iff": [
+"Remplacer l'impôt sur la fortune immobilière par un impôt sur la fortune financière",
+"Les grandes fortunes paient sur leurs placements financiers, et non plus sur leur immobilier."
+],
+"le-pen.pret-3e-enfant": [
+"Un prêt sans intérêt pour les jeunes couples français, effacé à la naissance du 3e enfant",
+"Les jeunes ménages français empruntent sans intérêt ; au 3e enfant, ils n'ont plus rien à rembourser."
+],
+"melenchon.ttf": [
+"Augmenter la taxe sur les achats d'actions en Bourse",
+"Acheter des actions de grandes entreprises françaises coûte un peu plus cher."
+],
+"melenchon.fraude": [
+"Recruter des agents pour lutter contre la fraude fiscale",
+"Plus de contrôleurs des impôts ; rien ne change pour vous si vous êtes en règle."
+],
+"retailleau.fraude": [
+"Renforcer la lutte contre la fraude fiscale et sociale",
+"Rien ne change pour vous si vous êtes en règle."
+],
+"retailleau.cotisations": [
+"Baisser fortement les cotisations payées par les employeurs sur les salaires",
+"Embaucher coûte moins cher aux entreprises ; votre salaire net ne change pas."
+],
+"lisnard.csg_deductible": [
+"Ne plus payer d'impôt sur la part de CSG prélevée sur votre salaire",
+"La CSG et la CRDS sortent du revenu imposable : l'impôt baisse un peu pour les foyers imposables."
+],
+"zemmour.enr": [
+"Arrêter le soutien public aux éoliennes et panneaux solaires",
+"Moins de nouveaux parcs éoliens et solaires."
+],
+"zemmour.anah": [
+"Supprimer l'agence publique de l'habitat et ses aides, dont celle pour isoler",
+"Fin des aides de l'État pour isoler, changer de chauffage ou adapter son logement."
+],
+"glucksmann.cheque_energie": [
+"Tripler le chèque énergie et l'ouvrir aux classes moyennes",
+"Une aide plus forte pour payer l'électricité, le gaz ou le fioul, versée à plus de ménages."
 ]
 }
