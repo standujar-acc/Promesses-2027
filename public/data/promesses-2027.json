@@ -3885,6 +3885,43 @@
       "note": "Règle commune proposée pour la fraude : chiffre du camp plafonné au potentiel indépendant (CAE, 4,1) ; Le Pen 4,1 (camp 23,8), Mélenchon 2,0, Retailleau 1,2"
      },
      "quiz_text": "Renforcer la lutte contre la fraude fiscale en reconstruisant les effectifs."
+    },
+    {
+     "id": "recherche",
+     "theme": "depense",
+     "title": "Recherche et université : plan de la France insoumise",
+     "proposal": "R&D publique à 1,5 % du PIB en 2032 (R&D totale ≥ 3 %) ; 40 000 recrutements statutaires sur 5 ans ; 8 000 contrats doctoraux de plus par an, contrat porté à 4 ans ; 30 000 logements étudiants par an ; gratuité des études supérieures et fin de la CVEC ; repas à 1 € au CROUS pour tous.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Trajectoire 2027-2032 et coût non publiés.",
+     "claude": {
+      "id": "recherche",
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "method": "nc",
+      "formula": "Non chiffrable : trajectoire 2027-2032 et définition (dépense exécutée ou financée) non publiées ; aucun coût publié par le camp",
+      "inputs": [
+       {
+        "label": "Effort de recherche des administrations (2023)",
+        "value": "0,74 % du PIB exécutés (DIRDA 20,9 Md€) ; 0,94 % financés (DNRDA 26,5 Md€)",
+        "source": "SIES, Note d'information 25.12",
+        "url": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/ni-sies-2025-12-38272.pdf"
+       },
+       {
+        "label": "Cible publiée",
+        "value": "1,5 % du PIB pour le secteur public en 2032",
+        "source": "LFI, plan ESR (26/10/2026)",
+        "url": "https://melenchon2027.fr/programme/plans-thematiques/esr/"
+       }
+      ],
+      "note": "Indicatif, hors total : écart de 0,56 point (financement) à 0,76 point (exécution) de PIB, soit 17 à 23 Md€ en 2032 à 30 Md€ le point ; à mi-chemin d'une hausse linéaire 2027-2032 (4/6 en 2030) ≈ −11 à −16 Md€ en 2030, recrutements et contrats doctoraux compris. 40 000 postes seuls : 40 000 × 61,6 k€ × 70 % ≈ −1,7 Md€ en 2030 (en partie couverts par la fiche des 250 000 places). Contrats doctoraux, logements, gratuité, repas : coûts unitaires non vérifiés ici. À reprendre avec le programme du 6/11 (S001/S037).",
+      "nc": true
+     },
+     "quiz_text": "R&D publique à 1,5 % du PIB en 2032 ; 40 000 recrutements statutaires sur 5 ans ; 8 000 contrats doctoraux de plus par an, contrat porté à 4 ans ; 30 000 logements étudiants par an ; gratuité des études supérieures et fin de la CVEC ; repas à 1 € au CROUS pour tous."
     }
    ],
    "total": {
@@ -3898,7 +3935,7 @@
     "p10": -158.6,
     "p90": -89.2,
     "realsum": -129.3,
-    "missing": "IS progressif, 10 000 enseignants (0,5 Md€), pension minimale au niveau du SMIC, indexation des pensions sur les salaires, minimum vieillesse au seuil de pauvreté, recettes annoncées sans paramètre publié (chiffres du camp) : CVAE des grandes entreprises 3, taxe sur les multinationales 5, taxe Gafam 3,9, superprofits 5, rachats d'actions 2,5, crypto-actifs 1, bac professionnel en quatre ans (coût non publié), suppression de Parcoursup",
+    "missing": "IS progressif, 10 000 enseignants (0,5 Md€), pension minimale au niveau du SMIC, indexation des pensions sur les salaires, minimum vieillesse au seuil de pauvreté, recettes annoncées sans paramètre publié (chiffres du camp) : CVAE des grandes entreprises 3, taxe sur les multinationales 5, taxe Gafam 3,9, superprofits 5, rachats d'actions 2,5, crypto-actifs 1, bac professionnel en quatre ans (coût non publié), suppression de Parcoursup, livret A relevé à 30 000 € et rémunéré au moins à l'inflation, « Livret B » défiscalisé (coûts non publiés)",
     "n": 19,
     "cost": -155.7,
     "gain": 26.4,
@@ -3985,7 +4022,7 @@
    "name": "Raphaël Glucksmann",
    "party": "PS-Place publique",
    "poll": "13-15,5 %",
-   "summary": "Promet le retour à 62 ans, un SMIC à 1 600 € net, une taxe sur les très gros héritages et une défense européenne financée par emprunt commun. Notre chiffrage : −44,7 Md€ par an en 2030, soit −1 446 € par ménage. Principal obstacle : l'accord des autres pays européens, et le rendement de la taxe sur les héritages.",
+   "summary": "Promet le retour à 62 ans, un SMIC à 1 600 € net, une taxe sur les très gros héritages et une défense européenne financée par emprunt commun. Notre chiffrage : −46,1 Md€ par an en 2030, soit −1 492 € par ménage. Principal obstacle : l'accord des autres pays européens, et le rendement de la taxe sur les héritages.",
    "measures": [
     {
      "id": "zucman",
@@ -5112,6 +5149,45 @@
       "note": "Aucun chiffrage indépendant publié ; seuil d'ouverture aux classes moyennes non publié. La taxe sur les superprofits qui doit financer la mesure n'est pas chiffrée par une source vérifiée : hors total. Simulateur (règle S053) : 500 € pour les foyers aujourd'hui éligibles (revenu fiscal de référence < 11 000 € par unité de consommation), note pour les classes moyennes."
      },
      "quiz_text": "Tripler le chèque énergie et l'ouvrir aux classes moyennes ; financement annoncé par une taxe sur les superprofits, non chiffrée."
+    },
+    {
+     "id": "leasing_social",
+     "theme": "energie",
+     "title": "Leasing social : un million de voitures électriques",
+     "proposal": "Mettre un million de voitures électriques en location sociale à environ 100 € par mois pour les ménages modestes.",
+     "claimed": "6 Md€ pour un million de véhicules (Cléon, 2/10/2026)",
+     "claimed_md": -6,
+     "estimates": [
+      {
+       "source": "AFP (via La Gazette France, 2/10/2026)",
+       "year": 2026,
+       "value": "Un million de véhicules, « ce qui coûterait 6 milliards d'euros »",
+       "low_md": -6,
+       "high_md": -6,
+       "url": "https://www.lagazettefrance.fr/article/en-seine-maritime-glucksmann-defend-les-voitures-electriques-et-la-transition-ecologique"
+      }
+     ],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Par la loi de finances ; financement et échéance non publiés.",
+     "claude": {
+      "id": "leasing_social",
+      "central": -1.4,
+      "low": -6.0,
+      "high": -0.7,
+      "method": "camp",
+      "formula": "Coût annoncé 6 Md€ pour un million de véhicules, échéance non publiée : fin du quinquennat supposée (même règle que les réservistes de Philippe), montant cumulé → flux 2030 = 3,5/15 × 6 ≈ −1,4 ; borne basse −6 (si les 6 Md€ sont annuels) ; borne haute −0,7 (programme étalé sur 10 ans)",
+      "inputs": [
+       {
+        "label": "Coût annoncé",
+        "value": "6 Md€ pour un million de véhicules",
+        "source": "AFP (2/10/2026)",
+        "url": "https://www.lagazettefrance.fr/article/en-seine-maritime-glucksmann-defend-les-voitures-electriques-et-la-transition-ecologique"
+       }
+      ],
+      "note": "Seul chiffrage : celui du candidat (aucun chiffrage indépendant). Financement non publié. Version du 19/09 (100 000 auxiliaires de vie, « moins de 1 Md€/an ») présentée comme un exemple."
+     },
+     "quiz_text": "Mettre un million de voitures électriques en location sociale à environ 100 € par mois pour les ménages modestes."
     }
    ],
    "total": {
@@ -5121,13 +5197,13 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -44.7,
-    "p10": -53.0,
-    "p90": -37.9,
-    "realsum": -44.7,
-    "missing": "transition écologique, hôpital, baisse des effectifs par classe, leasing social pour 100 000 auxiliaires de vie (« moins de 1 Md€ par an » selon le camp), stages payés au moins 1 000 €/mois (coût public sous 1 Md€, surtout à la charge des employeurs), séjour collectif garanti à chaque enfant (paramètres non publiés)",
-    "n": 7,
-    "cost": -44.7,
+    "sum": -46.1,
+    "p10": -56.3,
+    "p90": -40.0,
+    "realsum": -46.1,
+    "missing": "transition écologique, hôpital, baisse des effectifs par classe, stages payés au moins 1 000 €/mois (coût public sous 1 Md€, surtout à la charge des employeurs), séjour collectif garanti à chaque enfant (paramètres non publiés)",
+    "n": 8,
+    "cost": -46.1,
     "gain": 0,
     "confirm": [
      "Impôt plancher ultra-riches"
@@ -5817,7 +5893,7 @@
      "id": "immigration",
      "theme": "immigration",
      "title": "Immigration légale ÷ 2",
-     "proposal": "Moins de 200 000 titres/an, moratoire sur le regroupement familial, protocole CEDH, liste UE de pays sûrs.",
+     "proposal": "Diviser par deux l'immigration légale sur le quinquennat (moins de 200 000 titres par an) : titres réservés au travail et aux études, regroupement familial restreint (moratoire annoncé le 8/10), accord de 1968 avec l'Algérie dénoncé, protocole CEDH, liste UE de pays sûrs.",
      "claimed": "Cible « largement inférieure à 200 000 » titres/an",
      "claimed_md": null,
      "estimates": [
@@ -5848,7 +5924,14 @@
       "high": 0,
       "method": "ascendant",
       "formula": "Pas d'effet budgétaire direct chiffrable",
-      "inputs": [],
+      "inputs": [
+       {
+        "label": "Précisions",
+        "value": "« diviser l'immigration légale par deux », titres réservés « aux seuls motifs professionnels et aux étudiants », « restreindre le regroupement familial » (entretien au Point, 27/10/2026)",
+        "source": "L'Express via Orange Actu",
+        "url": "https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html"
+       }
+      ],
       "note": "Mesure surtout juridique",
       "nc": true
      },
@@ -6498,6 +6581,43 @@
       "nc": true
      },
      "quiz_text": "Porter le nombre d'ingénieurs formés de 40 000 à 100 000 par an en cinq ans."
+    },
+    {
+     "id": "service_national",
+     "theme": "depense",
+     "title": "Service national obligatoire",
+     "proposal": "Rétablir un service national obligatoire pour les jeunes, avec un volet environnemental.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Durée, forme et calendrier non publiés.",
+     "claude": {
+      "id": "service_national",
+      "central": 0,
+      "low": 0,
+      "high": 0,
+      "method": "nc",
+      "formula": "Non chiffrable : durée et forme non publiées",
+      "inputs": [
+       {
+        "label": "Annonce",
+        "value": "« rétablir un service national obligatoire » (entretien au Point, 27/10/2026, rapporté par L'Express)",
+        "source": "L'Express via Orange Actu",
+        "url": "https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html"
+       },
+       {
+        "label": "Site du candidat",
+        "value": "« futur service national », « jeunes appelés »",
+        "source": "edouardphilippe.fr",
+        "url": "https://www.edouardphilippe.fr/"
+       }
+      ],
+      "note": "Indicatif : de −0,5 (un mois) à −4,8 Md€ (dix mois) par an, mêmes calculs que pour Attal et Glucksmann ; montée en charge non publiée.",
+      "nc": true
+     },
+     "quiz_text": "Rétablir un service national obligatoire pour les jeunes, avec un volet environnemental."
     }
    ],
    "total": {
@@ -6511,7 +6631,7 @@
     "p10": -32.6,
     "p90": 2.6,
     "realsum": -2.3,
-    "missing": "défense hors réservistes et volontaires, capitalisation collective obligatoire (classement du fonds non publié), effectifs réduits en maternelle et en primaire, soutien scolaire universel et gratuit, prêt à taux zéro à chaque naissance, plafonds de donation relevés pendant trois ans, temps partiel parental payé deux mois, aides sociales des étrangers alignées sur la moyenne européenne, capacité de calcul IA doublée, climatisation des lieux accueillant des personnes fragiles, 8 EPR supplémentaires",
+    "missing": "défense hors réservistes et volontaires, capitalisation collective obligatoire (classement du fonds non publié), effectifs réduits en maternelle et en primaire, soutien scolaire universel et gratuit, prêt à taux zéro à chaque naissance, plafonds de donation relevés pendant trois ans, temps partiel parental payé deux mois, aides sociales des étrangers alignées sur la moyenne européenne, capacité de calcul IA doublée, climatisation des lieux accueillant des personnes fragiles, 8 EPR supplémentaires, livret capital France (fiscalité non publiée)",
     "n": 10,
     "cost": -12.6,
     "gain": 10.3,
@@ -9352,7 +9472,7 @@
     "p10": 1.2,
     "p90": 9.0,
     "realsum": 7.8,
-    "missing": "classes de moins de 20 élèves, baisse des charges salariales, arrêts maladie, défense, reste du plan de 150 Md€ non ventilé, dont le frein d'urgence de 20 Md€ (contenu non publié), annulation des suppressions de postes d'enseignants du budget 2027 (sous 1 Md€), crédit d'impôt « productivité » (montant non publié)",
+    "missing": "classes de moins de 20 élèves, baisse des charges salariales, arrêts maladie, défense, reste du plan de 150 Md€ non ventilé, dont le frein d'urgence de 20 Md€ (contenu non publié), annulation des suppressions de postes d'enseignants du budget 2027 (sous 1 Md€), crédit d'impôt « productivité » (montant non publié), leasing social étendu aux voitures électriques d'occasion (paramètres non publiés)",
     "n": 6,
     "cost": -3.0,
     "gain": 10.8,
@@ -9367,7 +9487,7 @@
    "name": "David Lisnard",
    "party": "Nouvelle Énergie",
    "poll": "6,5 %",
-   "summary": "Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations. Notre chiffrage : −56,7 Md€ par an en 2030, soit −1 835 € par ménage. Principal obstacle : l'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend.",
+   "summary": "Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations. Notre chiffrage : −57,3 Md€ par an en 2030, soit −1 854 € par ménage. Principal obstacle : l'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend.",
    "measures": [
     {
      "id": "depense",
@@ -10875,6 +10995,48 @@
       "note": "Durée du gel non publiée (un an retenu). Le camp affecte ces économies à la transition vers la capitalisation, dont le coût n'est pas compté. Le projet de loi de financement de la Sécurité sociale pour 2027 prévoit déjà une désindexation au-delà de 1 260 € : s'il est voté, la situation de départ change pour tous."
      },
      "quiz_text": "Geler l'indexation des pensions supérieures à 2 200 € par mois, les petites pensions restant indexées."
+    },
+    {
+     "id": "prisons",
+     "theme": "securite",
+     "title": "20 000 places de prison",
+     "proposal": "Construire 20 000 places de prison supplémentaires.",
+     "claimed": "Non chiffré",
+     "claimed_md": null,
+     "estimates": [],
+     "consensus": "isolé",
+     "verdict": "sous_conditions",
+     "obstacle": "Construction et personnel à financer ; calendrier non publié.",
+     "claude": {
+      "id": "prisons",
+      "central": -0.6,
+      "low": -1.8,
+      "high": -0.3,
+      "method": "ascendant",
+      "formula": "Même règle que Le Pen (30 000 places) et Retailleau (10 000 places), construction exclue : 20 000 places × 32 k€ de coût annuel d'un détenu ≈ −0,64 ≈ −0,6 ; borne basse avec la construction : 370 k€ la place (Sénat, cité par Montaigne) × 20 000 sur 5 ans ≈ 1,5 + moitié des places ouvertes ≈ 0,3 → −1,8 ; borne haute : moitié des places ouvertes en 2030 (−0,3)",
+      "inputs": [
+       {
+        "label": "Coût d'un détenu",
+        "value": "≈ 32 000 €/an",
+        "source": "Terra Nova (CNAPE)",
+        "url": "https://www.cnape.fr/documents/pour-en-finir-avec-les-peines-plancher"
+       },
+       {
+        "label": "Coût de construction d'une place",
+        "value": "370 000 € (Sénat, 2023)",
+        "source": "Institut Montaigne (2024)",
+        "url": "https://www.institutmontaigne.org/ressources/documents/synthese-legislatives-2024-micro-chiffrages-institut-montaigne-rn.pdf"
+       },
+       {
+        "label": "Proposition",
+        "value": "« Justice : 20 000 places de prison supplémentaires » (entretien RTL du 20/10/2026)",
+        "source": "Nouvelle Énergie",
+        "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-rtl-lordre-conditionne-la-liberte-la-prosperite-et-la-paix/"
+       }
+      ],
+      "note": "Calendrier non publié. Point commun ouvert : compter ou non la construction (note de la fiche Le Pen), même décision pour les trois."
+     },
+     "quiz_text": "Construire 20 000 places de prison supplémentaires."
     }
    ],
    "total": {
@@ -10884,13 +11046,13 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -56.7,
-    "p10": -63.6,
-    "p90": -50.2,
-    "realsum": -59.0,
-    "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, TVA unique à 25 %, 20 000 places de prison",
-    "n": 11,
-    "cost": -64.2,
+    "sum": -57.3,
+    "p10": -64.5,
+    "p90": -51.0,
+    "realsum": -59.6,
+    "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, TVA unique à 25 %",
+    "n": 12,
+    "cost": -64.8,
     "gain": 7.5,
     "confirm": []
    },
@@ -10951,7 +11113,7 @@
    "id": "zemmour",
    "name": "Éric Zemmour",
    "party": "Reconquête",
-   "poll": "3-4,5 %",
+   "poll": "4-4,5 %",
    "summary": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH. Notre chiffrage : +22,1 Md€ par an en 2030, soit +715 € par ménage. Principal obstacle : plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH.",
    "measures": [
     {
@@ -12101,12 +12263,12 @@
   }
  ],
  "method": [
-  "<b>Notre chiffrage.</b> 132 mesures analysées, dont 104 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
+  "<b>Notre chiffrage.</b> 136 mesures analysées, dont 106 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
   "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie) ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
   "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026 (marquées « À confirmer ») et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 266 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 272 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 3 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). Ce sont des ordres de grandeur.",
@@ -12220,6 +12382,10 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "29/10/2026",
+   "text": "Veille du 27 au 29/10 (discours, entretiens, sites officiels) : Glucksmann, leasing social d'un million de voitures électriques (6 Md€ annoncés à Cléon le 2/10, lus comme un coût total) : −1,4 Md€ en 2030 ; Lisnard, 20 000 places de prison (source primaire trouvée) : −0,6, même calcul que Le Pen et Retailleau ; Mélenchon, plan pour la recherche et l'université du 26/10 (recherche publique à 1,5 % du PIB en 2032) : non chiffrable, coût non publié ; Philippe, service national obligatoire : non chiffrable, durée non publiée, et texte de la fiche immigration précisé ; sondage de Zemmour corrigé (4-4,5 %, comme la notice de référence). Programme LFI confirmé pour le 6/11. Totaux : Glucksmann −46,1, Lisnard −57,3 Md€."
+  },
   {
    "date": "29/10/2026",
    "text": "Version ordinateur : page plus large et en colonnes. Accueil : classement et accès au simulateur et au quiz côte à côte, repères sur quatre colonnes ; page d'un candidat : les 8 candidats sur une ligne, présentation et total côte à côte, fiches sur trois colonnes ; simulateur avec les réglages à gauche et les résultats à droite ; sommaire fixe dans la méthode. Sur téléphone : plus de zoom au double tap ni à la saisie (le zoom à deux doigts reste possible). Titre : « Combien me coûtent leurs promesses ? »."
