@@ -52,7 +52,7 @@
    "candidats": [],
    "mesure": null,
    "sujet": "Sondages",
-   "detail": "Dernier sondage pris en compte : Ipsos-BVA des 21-22/10/2026. Mettre à jour `poll` avec institut et date à chaque nouvelle vague nationale. 29/10 : Zemmour affiché à 4-4,5 % (au lieu de 3-4,5 %), comme la notice Ipsos BVA de référence (21-22/10) ; les sept autres correspondaient déjà.",
+   "detail": "Dernier sondage pris en compte : Ipsos-BVA des 21-22/10/2026. Mettre à jour `poll` avec institut et date à chaque nouvelle vague nationale. 29/10 : Zemmour affiché à 4-4,5 % (au lieu de 3-4,5 %), comme la notice Ipsos BVA de référence (21-22/10) ; les sept autres correspondaient déjà. 29/10 : remplacé par la moyenne des instituts (S044), données dans data/sondages.json ; à chaque nouvelle vague, mettre à jour ce fichier (date, vagues retenues, scores vérifiés sur la notice).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -648,10 +648,10 @@
    "sujet": "Nouveaux sondages après le 22/10/2026",
    "detail": "Toluna Harris Interactive (terrain 19-21/10), Cluster17 pour Politico (19-22/10, publié le 26/10), OpinionWay pour CNews (21-22/10). La règle actuelle n'affiche qu'Ipsos-BVA (21-22/10) : décider si on garde un seul institut ou une moyenne, et mettre à jour l'ordre (`ORD`) en conséquence. Veille du 29/10 : quatre enquêtes d'intentions de vote publiées depuis le 22/10 (OpinionWay pour CNews, 21-22/10 ; Toluna Harris Interactive pour M6 et RTL, 19-21/10 ; Ipsos BVA pour Le Parisien, 21-22/10, référence actuelle ; Cluster17 pour Politico) ; aucune nouvelle du 27 au 29/10. Règle (un institut ou une moyenne) toujours à trancher.",
    "echeance": null,
-   "statut": "ouvert",
+   "statut": "resolu",
    "cree": "2026-10-27",
    "maj": "2026-10-29",
-   "resolution": null
+   "resolution": "Tranché le 29/10 (porteur : « une moyenne ») : chiffre affiché = moyenne des instituts, dernière vague de chacun au terrain achevé dans les 15 jours, milieu de la fourchette des hypothèses où le candidat est testé, même poids par institut ; l'ordre des candidats suit cette moyenne (calcul dans corrections.py, données dans data/sondages.json). Au 29/10, 7 instituts, notices de la Commission des sondages vérifiées une à une : Cluster17 (19-22/10), Elabe (14-16/10), Ifop-Fiducial (17-19/10), Ipsos BVA (21-22/10), OpinionWay (21-22/10), Toluna Harris Interactive (19-21/10), YouGov (12-15/10) ; Odoxa (terrain achevé le 7/10) hors fenêtre. Résultat : Le Pen 34,1 %, Mélenchon 16,8 %, Philippe 13,9 %, Glucksmann 13,8 %, Attal 7,8 %, Retailleau 7,3 %, Lisnard 6,3 %, Zemmour 3,9 %. Philippe passe devant Glucksmann (écart de 0,1 point) et Attal devant Retailleau. Le Pen, Mélenchon, Lisnard et Zemmour gardent leur rang."
   },
   {
    "id": "S045",

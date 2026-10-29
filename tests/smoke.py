@@ -250,5 +250,12 @@ with sync_playwright() as p:
       return [f(2,1985), f(1,1985), f(2,2000)]; })()""")
     check(r == [1, 0, 1], f'simulateur : part fiscale dès le 2e enfant (1 ligne avec 2 enfants, aucune avec 1, une seule avant 30 ans) {r}')
     check(not errs, f'aucune erreur JS {errs[:1]}')
+    # sondages : chiffre affiché = moyenne des milieux de fourchette par institut, candidats rangés selon cette moyenne
+    import json
+    SG = json.load(open(os.path.join(ROOT, 'pipeline', 'data', 'sondages.json')))
+    moy = {c: sum(sum(i['scores'][c]) / 2 for i in SG['instituts']) / len(SG['instituts']) for c in SG['instituts'][0]['scores']}
+    r = pg.evaluate("D.candidates.map(c=>[c.id, c.poll])")
+    check([c for c, _ in r] == sorted(moy, key=lambda c: -moy[c]) and all(abs(float(v[:-2].replace(',', '.')) - moy[c]) <= 0.05 + 1e-9 for c, v in r),
+          f'sondages : moyenne des instituts affichée, candidats rangés selon elle {r}')
     b.close()
 sys.exit(1 if fail else 0)
