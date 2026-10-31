@@ -4882,43 +4882,6 @@
 }
 ]
 },
-"attal.logement.2": {
-"constat": "Demandes de logement social actives : 4,1 millions en 2025, +18 % depuis 2019, pour 394 000 attributions (Ancols).",
-"constat_s": [
-2
-],
-"pour": "Les revenus moyens des villes chères, trop aisés pour le logement social, auraient plus d'offre.",
-"preuve_pour": "faible",
-"contre": "Les communes rempliraient le quota avec moins de logements pour les ménages les plus modestes.",
-"preuve_contre": "mitigé",
-"cas_pour": [],
-"cas_contre": [
-{
-"t": "Sous le quota, les communes ont surtout bâti des logements ouverts aux revenus moyens, et la présence des ménages pauvres a peu augmenté (Chapelle et al., France, 2025).",
-"s": [
-0
-]
-}
-],
-"etudes": "Aucune étude sur l'ajout du logement intermédiaire au quota. Le besoin des revenus moyens est estimé (IGF 2021) ; le quota a déjà surtout servi des revenus moyens.",
-"src": [
-{
-"l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE, document de travail 2025-18)",
-"a": 2025,
-"u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
-},
-{
-"l": "Cour des comptes, L'encadrement des loyers (d'après l'Union sociale pour l'habitat)",
-"a": 2026,
-"u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
-},
-{
-"l": "Ancols, les attributions de logements sociaux (tableau de bord 2025) et Panorama du logement social 2025",
-"a": 2026,
-"u": "https://www.ancols.fr/publications/statistiques-etudes/les-attributions-de-logements-sociaux1"
-}
-]
-},
 "lisnard.logement.1": {
 "constat": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
 "constat_s": [
@@ -5092,45 +5055,6 @@
 "l": "DEPP, Repères et références statistiques 2026, chapitre 2 (les établissements)",
 "a": 2026,
 "u": "https://www.education.gouv.fr/sites/default/files/document/2-les-etablissementspdf-519279.pdf"
-}
-]
-},
-"glucksmann.ecole.2": {
-"constat": "Le privé sous contrat compte 40 % d'élèves très favorisés en 2021, contre 26 % en 2000 (Cour des comptes).",
-"constat_s": [
-1
-],
-"pour": "Des règles de mixité rééquilibrent les collèges ; le privé, payé par l'État, y échappe aujourd'hui.",
-"preuve_pour": "faible",
-"contre": "Le tri social vient aussi des écarts entre collèges publics, que cette condition ne touche pas.",
-"preuve_contre": "mitigé",
-"cas_pour": [
-{
-"t": "Des secteurs communs à deux collèges ont accru la mixité dans 2 secteurs sur 3 ; dans l'un, l'évitement vers le privé est passé de 24 % à 16 % (IPP, Paris, 2021).",
-"s": [
-0
-]
-}
-],
-"cas_contre": [
-{
-"t": "Près de la moitié de la ségrégation sociale entre collèges vient des écarts entre secteurs publics, l'autre moitié des inscriptions dans le privé (IPP, Paris, 2021).",
-"s": [
-0
-]
-}
-],
-"etudes": "Aucune évaluation en France d'une condition de mixité pour le privé ; à l'étranger, une aide liée à l'accueil d'élèves pauvres a réduit des écarts, mais 40 % des écoles privées l'ont refusée.",
-"src": [
-{
-"l": "IPP, Note n° 62, Secteurs multi-collèges à Paris : quel bilan après trois ans ? (Grenet, Souidi)",
-"a": 2021,
-"u": "https://halshs.archives-ouvertes.fr/halshs-03165725v1/file/n62-notesIPP-fevrier2021.pdf"
-},
-{
-"l": "Cour des comptes, L'enseignement privé sous contrat (via Banque des territoires)",
-"a": 2023,
-"u": "https://www.banquedesterritoires.fr/enseignement-prive-la-cour-des-comptes-veut-moduler-les-moyens-selon-la-composition-sociale-des"
 }
 ]
 },

@@ -1,5 +1,6 @@
 """Fusionne la dimension « vie quotidienne » dans D (D.life, D.baseline).
-Entrées : data/life-a.json, data/life-b.json, data/life-eco.json, data/baseline.json, data/evidence_levels.json
+Entrées : data/life-a.json, data/life-b.json, data/life-eco.json, data/baseline.json, data/evidence_levels.json,
+data/life-attribution.json (pour chaque proposition affichée, les sources qui parlent pour le candidat : contrôle du bloc « review 34 »)
 Même test « vérifiable » appliqué à toutes les propositions, quel que soit le candidat."""
 import json, re, os
 H = os.path.dirname(os.path.abspath(__file__))
@@ -660,14 +661,260 @@ for _th, _add in (('securite', [STR_CR]), ('ecole', [STR_CR]), ('logement', []))
     _o['drop'] = _o.get('drop', []) + [STR_OLD]
     _o['add'] = [s for s in _o.get('add', []) if STR_OLD not in s['url']] + _add
 
+# --- review 34 : une source qui parle pour le candidat, chaque proposition (31/10/2026) ; registre S193
+# Règle d'attribution (la même pour les 8, décisions du porteur du 31/10) : une proposition affichée est attribuée au candidat par au moins une
+# source qui parle pour lui : lui-même (discours, entretien, tribune, réseau officiel) ou son site de campagne ; un document officiel de son parti
+# ou de son groupe publié après sa désignation, ou repris par lui ; une personne au rôle officiel dans sa campagne ; un média reconnu qui le cite
+# (citation, ou propos rapportés précisément et datés), ou deux médias reconnus indépendants qui rapportent la même proposition ; pour une
+# proposition de 2022, une analyse d'une institution reconnue (Institut Montaigne) ou d'un média reconnu qui décrit son programme officiel.
+# Ne suffisent pas seuls : un agrégateur, un site non officiel, une seule reprise de presse sans citation, une étude. Une source qui parle pour le
+# candidat remplace l'agrégateur ou le site non officiel qui portait la même proposition (sinon il reste, signalé) ; un lien mort est retiré.
+# Reconfirmation : une proposition est « de 2026 » si une source qui parle pour le candidat la porte en 2026 (site de campagne, document du parti
+# publié après la désignation, entretien cité) ; sinon elle est marquée « non reconfirmée », chez tous ; une page sans date ne reconfirme pas,
+# sauf sur le site de campagne du candidat, ouvert pour cette élection (pétition contre le SEQE 2 : non). Une proposition dont une partie
+# seulement est redite en 2026 est scindée (la partie de 2026, la partie non reconfirmée), et la règle d'ordre (2026 d'abord, précises, plus
+# récentes, 5 au plus) s'applique ; une proposition sans source qui parle pour le candidat sort de l'affichage (registre S106), et une lecture
+# d'étude ne sort que si plus aucune proposition de ce type n'est affichée dans le thème.
+# Contrôle (merge) : chaque proposition affichée a, dans data/life-attribution.json, au moins une source qui parle pour le candidat, affichée
+# dans le thème, qui n'est ni un agrégateur ni un site non officiel (même test de nom d'hôte que l'app) ni une étude (ATTR_OK ci-dessous).
+def _cur(cid, th):
+    """Propositions d'un thème telles qu'elles seraient affichées : liste réécrite plus haut (OVR), sinon dernier fichier data/life-*.json."""
+    o = OVR.get((cid, th))
+    if o and 'proposals' in o: return [dict(p) for p in o['proposals']]
+    ps = None
+    for f in ('life-a.json', 'life-b.json', 'life-eco.json'):
+        for t in J(f)['life'].get(cid, []):
+            if t['theme'] == th: ps = [norm_prop(p) for p in t.get('proposals', []) if (p['text'] if isinstance(p, dict) else p).strip()]
+    assert ps is not None, (cid, th); return ps
+def _put(cid, th, ps): OVR.setdefault((cid, th), {})['proposals'] = ps
+def _rem(cid, th, *texts):
+    """Retire de l'affichage (registre S106, avec la raison)."""
+    ps = _cur(cid, th); T = [p['text'] for p in ps]
+    for t in texts: assert t in T, (cid, th, t)
+    _put(cid, th, [p for p in ps if p['text'] not in texts])
+def _txt(cid, th, old, new=None, v=None, o=None):
+    """Texte corrigé à la source, test « précis » (v) ou marque « non reconfirmée » (o), à sa place."""
+    ps = _cur(cid, th); T = [p['text'] for p in ps]; assert old in T, (cid, th, old); i = T.index(old)
+    ps[i] = dict(ps[i], text=new or old, **({} if v is None else {'verifiable': v}), **({} if o is None else {'old': o}))
+    _put(cid, th, ps)
+def _so(cid, th, add=(), drop=()):
+    """Sources : retire (sous-chaîne de l'adresse, dans les données comme dans les ajouts) puis ajoute."""
+    o = OVR.setdefault((cid, th), {})
+    if drop:
+        o['drop'] = o.get('drop', []) + list(drop)
+        o['add'] = [s for s in o.get('add', []) if not any(d in s['url'] for d in drop)]
+    if add: o['add'] = o.get('add', []) + [s for s in add if s['url'] not in {x['url'] for x in o.get('add', [])}]
+AGG = ['votons-2027.fr', 'repere2027.fr', 'monvote2027.fr', 'france-vote.fr', 'planetegrandesecoles.com', 'lisnard.cards', 'wikiglucksmann.fr']
+
+# Le Pen : sources officielles du RN (22 mesures pour 2022, livret « L'école » 2022) à la place de Votons 2027 ; peines planchers redites en 2026
+# (« des peines minimales », pétition du RN d'octobre) séparées des remises de peine (2022 seulement, non reconfirmées) : la présomption de
+# légitime défense (2022), 6e et à égalité avec les remises de peine, sort de l'affichage (S106) ; montants alignés sur le contre-budget
+# (5,6 Md€ en 2027) et sur la candidate (contribution « nette », 14/10) ; FED, EDIP, SAFE : aucune source qui parle pour la candidate (S106).
+RN22 = _src('Rassemblement national, « 22 mesures pour 2022 » (programme présidentiel de 2022)', 2022, 'https://rassemblementnational.fr/22-mesures')
+RN_ECOLE = _src("Rassemblement national, livret « L'école » (programme présidentiel de 2022)", 2022, 'https://rassemblementnational.fr/documents/projet/projet-l-ecole.pdf')
+LCP2410 = _s("LCP, contribution de la France à l'UE (24/10)", 'https://lcp.fr/actualites/taxer-les-multinationales-pour-financer-l-europe-le-debat-est-relance-444232')
+assert [p['text'] for p in _cur('le-pen', 'securite')][3:] == ['Rétablir les peines planchers, supprimer les remises de peine', "Présomption de légitime défense pour les forces de l'ordre"]
+_put('le-pen', 'securite', _cur('le-pen', 'securite')[:3] + [_p('Peines minimales (peines planchers) et comparution immédiate des interpellés'),
+     _p('Supprimer les remises de peine', True, True)])
+_so('le-pen', 'securite', add=[RN22], drop=AGG)
+for _th in ('sante', 'environnement', 'libertes'): _so('le-pen', _th, add=[RN22], drop=AGG)
+_so('le-pen', 'ecole', add=[RN22, RN_ECOLE], drop=AGG)
+_so('le-pen', 'environnement', drop=['Les-Echos-11-02-2026-Page-7.pdf'], add=[_s('Les Echos, RN et PPE (11/02), copie du Syndicat des énergies renouvelables', 'https://www.syndicat-energies-renouvelables.fr/wp-content/uploads/2026/02/Les-Echos-11-02-2026-Page-7.pdf')])
+_txt('le-pen', 'economie', 'Supprimer les subventions aux renouvelables : 5 Md€ dès la 1re année', 'Supprimer les tarifs préférentiels des renouvelables intermittentes : 5,6 Md€ en 2027')
+_so('le-pen', 'economie', drop=AGG, add=[_s('Acteurs publics, contre-budget du RN (6/10)', 'https://acteurspublics.fr/articles/la-reforme-de-letat-et-des-collectivites-au-coeur-des-economies-programmees-par-le-rn/')])
+_txt('le-pen', 'rayonnement', "Plafonner la contribution française au budget de l'UE à 5 Md€", "Plafonner la contribution nette de la France au budget de l'UE à 5 Md€ par an")
+_rem('le-pen', 'rayonnement', 'Refuser les instruments européens de défense : FED, EDIP, SAFE')
+_so('le-pen', 'rayonnement', drop=AGG + ['institut-sciences-strategiques.org'], add=[
+    _s('Euronews, conférence de presse à Bruxelles (14/10)', 'https://www.euronews.com/2026/10/14/le-pen-lands-in-brussels-lashing-out-at-the-european-commission'), LCP2410,
+    _s('Reuters via The Star, entretien sur BFMTV (22/05)', 'https://www.thestar.com.my/news/world/2026/05/23/le-pen-says-france-should-quit-nato-command-structure')])
+del TITRE_S['https://www.planetegrandesecoles.com/budget-marine-le-pen-2027-mesures-contre-budget-rn']  # plus citée dans la Vie quotidienne
+
+# Mélenchon (désigné le 3/05/2026) : documents de son site de campagne publiés depuis (synthèse des contributions du 17/07, plan « BTP et
+# logement » du 24/09) → police de proximité, « sécurité sociale intégrale », 200 000 logements publics et meublés touristiques à 60 jours sont de
+# 2026 ; le démantèlement des BAC (programme de 2022) n'y est pas redit : séparé, non reconfirmé. Propositions de 2022 : fiches de l'Institut
+# Montaigne (programme officiel, « rendre public un bilan annuel » compris), profession de foi, amendement cosigné (2021). Livre-programme de 2025
+# (lien mort, renvoie à l'accueil) retiré ; scolarité obligatoire à 18 ans : rien dans le programme de 2022 consultable (S106). Police de
+# proximité seule : intention, même test que chez Glucksmann (« Police de proximité modernisée ») ; démantèlement des BAC : précis.
+MONT_JLM = _src('Institut Montaigne, propositions du candidat (présidentielle 2022)', 2022, 'https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon')
+SYN = 'https://melenchon2027.fr/programme/synthese-des-contributions/'
+_put('melenchon', 'securite', [_p('Rétablir la police de proximité', False), _p("Dissoudre la BRAV-M, interdire LBD et grenades, remplacer l'IGPN"), _p('Démanteler les BAC', True, True),
+                               _p('Mécanisme contraignant de régulation carcérale contre la surpopulation', True, True)])
+_so('melenchon', 'securite', drop=AGG, add=[_s('Mélenchon 2027, synthèse des contributions, chapitre 4 (17/07)', SYN + 'chapitre-4-etendre-le-domaine-de-la-liberte/'),
+    _s('Mélenchon 2027, synthèse des contributions, chapitre 7 (17/07)', SYN + 'chapitre-7-la-force-de-lentraide-2/'), MONT_JLM,
+    _src('Assemblée nationale, amendement n° 23 du groupe LFI cosigné par J.-L. Mélenchon (16/03/2021)', 2021, 'https://www.assemblee-nationale.fr/dyn/15/amendements/3973/AN/23.pdf')])
+_txt('melenchon', 'sante', '« 100 % Sécu » : soins prescrits remboursés intégralement', o=False)
+_so('melenchon', 'sante', drop=AGG, add=[_s('Mélenchon 2027, synthèse des contributions (17/07)', 'https://melenchon2027.fr/synthese-des-contributions/'),
+    _src('Profession de foi du candidat, version FALC (présidentielle 2022)', 2022, 'https://melenchon.fr/wp-content/uploads/2022/04/PF_Jean-Luc-Melenchon_FALC.pdf')])
+_rem('melenchon', 'ecole', "Scolarité obligatoire jusqu'à 18 ans")
+_so('melenchon', 'ecole', drop=AGG)
+_so('melenchon', 'environnement', drop=AGG, add=[MONT_JLM])
+for _t in ('200 000 logements publics par an pendant cinq ans', 'Plafonner les meublés touristiques à 60 jours par an'): _txt('melenchon', 'logement', _t, o=False)
+_so('melenchon', 'logement', add=[_s('Mélenchon 2027, plan « BTP et logement » (24/09)', 'https://melenchon2027.fr/programme/plans-investissement/btp-logement/')])
+_so('melenchon', 'libertes', drop=AGG + ['melenchon2027.fr/programme2025/livre/'], add=[_s('Mélenchon 2027, synthèse des contributions, chapitre 1 (17/07)', SYN + 'chapitre-1-le-pouvoir-au-peuple/'), MONT_JLM])
+
+# Philippe : site de campagne à la place de Repère 2027 et de Votons 2027 ; Echos Plus (site non identifié comme média) retiré ; pays sûrs : même
+# texte que ses deux sources (liste votée chaque année par le Parlement, site du candidat ; liste commune de l'UE, Euronews, 9/10).
+_so('philippe', 'sante', drop=AGG, add=[_s('Site Édouard Philippe, « Pour une France plus prospère »', 'https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere')])
+_so('philippe', 'environnement', add=[_s('Site de campagne, France plus sûre', 'https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure')])
+_so('philippe', 'logement', drop=['echosplus.com'], add=[_s('Site Édouard Philippe, « Pour une France plus attentive à ses enfants »', 'https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants')])
+_so('philippe', 'libertes', drop=AGG)
+_txt('philippe', 'rayonnement', "Liste européenne commune de pays sûrs, sans droit d'asile", "Liste de pays sûrs votée chaque année par le Parlement et liste commune de l'UE, sans droit d'asile pour leurs ressortissants", v=True)
+_so('philippe', 'rayonnement', add=[_s('Site de campagne, France plus sûre', 'https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure')])
+
+# Glucksmann (candidature déclarée le 23/08/2026) : « Acte I » de Place publique (juin 2025, co-dirigé et présenté par lui) à la place de
+# WikiGlucksmann (non officiel) ; ses propositions restent non reconfirmées, sauf l'encadrement des loyers, redit dans son plan du 22/10 ;
+# nouveau nucléaire redit en 2026 (LCP, 25/08), plans régionaux pour les renouvelables seulement dans l'Acte I : séparés, non reconfirmés.
+# Aides au privé : « 10 Md€/an » n'est attribué au candidat que par WikiGlucksmann → retiré, la proposition devient une intention.
+ACTE1 = _src('Place publique, « Acte I : notre vision pour la France » (juin 2025)', 2025, 'https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf')
+for _th in ('securite', 'sante', 'environnement', 'logement', 'libertes', 'economie'): _so('glucksmann', _th, drop=AGG, add=[ACTE1])
+_txt('glucksmann', 'ecole', 'Conditionner les aides au privé (10 Md€/an) à la mixité sociale', 'Conditionner les aides au privé sous contrat à la mixité sociale', v=False)
+_so('glucksmann', 'ecole', drop=AGG, add=[_s('LCP, premières lignes du programme', 'https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme'),
+    _s('France Inter, Franc-jeu (30/08)', 'https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-30-aout-2026-6196033'),
+    _s('LCP, dernier débat de la primaire (5/10)', 'https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat'), GPLAN_S])
+_put('glucksmann', 'environnement', [p if not p['text'].startswith('Garder le nucléaire') else _p('Garder le nucléaire, construire de nouvelles unités', False)
+                                     for p in _cur('glucksmann', 'environnement')] + [_p('Plans régionaux d\'investissement dans les renouvelables', False, True)])
+assert [p['text'] for p in OVR[('glucksmann', 'environnement')]['proposals']].count('Garder le nucléaire, construire de nouvelles unités') == 1
+_so('glucksmann', 'environnement', add=[_s('LCP, « les 100 jours de la révolution écologique » (25/08)', 'https://lcp.fr/actualites/presidentielle-2027-s-il-gagne-raphael-glucksmann-engagera-les-100-jours-de-la')])
+_txt('glucksmann', 'logement', 'Encadrement des loyers en zones tendues', o=False)
+_so('glucksmann', 'logement', add=[GPLAN_S])
+_so('glucksmann', 'rayonnement', drop=AGG)
+
+# Attal : pages de son site à la place de MonVote2027 et de Votons 2027 ; suppression du JAP redite en 2026 (JDD, 2/08) ; prix de l'électricité
+# stables cinq ans (et non dix) ; délai de deux mois pour répondre aux porteurs de projets. Logement intermédiaire dans les quotas SRU et ZAN
+# simplifié : une seule reprise sans citation (Batirama ; Investies est un blog, pas un média reconnu), rien sur son site → S106.
+_txt('attal', 'securite', "Supprimer le juge d'application des peines", o=False)
+_so('attal', 'securite', drop=AGG, add=[_s('attalpresident.fr – réforme institutionnelle', 'https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958')])
+_so('attal', 'sante', drop=AGG, add=[_s('attalpresident.fr, mesure « assistant médical IA »', 'https://attalpresident.fr/programme/mesures/assistant-medical-ia'),
+    _s('attalpresident.fr, mesures pour la jeunesse (10/10)', 'https://attalpresident.fr/actualites/gabriel-attal-presente-ses-mesures-pour-la-jeunesse-et-l-avenir-de-la-france')])
+_txt('attal', 'environnement', "Garantir la stabilité des prix de l'électricité pendant dix ans", "Garantir la stabilité des prix de l'électricité pendant cinq ans")
+_so('attal', 'environnement', drop=AGG, add=[_s('attalpresident.fr, mesure « plan Messmer II »', 'https://attalpresident.fr/programme/mesures/plan-messmer-2'),
+    _s('attalpresident.fr, chantier « Dette écologique »', 'https://attalpresident.fr/programme/dette-ecologique'),
+    _s("attalpresident.fr, prix de l'électricité stables pendant cinq ans (17/06)", 'https://attalpresident.fr/programme/mesures/stabilite-prix-electricite')])
+_rem('attal', 'logement', 'Intégrer le logement intermédiaire dans les quotas SRU des communes', 'Simplifier le ZAN pour faciliter la construction')
+_so('attal', 'logement', drop=['investies.fr'], add=[_s('attalpresident.fr, logement et bâtiment (29/09)', 'https://attalpresident.fr/actualites/gabriel-attal-veut-liberer-l-acces-au-logement-et-relancer-le-secteur-du-batiment')])
+_txt('attal', 'libertes', 'Délai de réponse administrative de deux mois maximum inscrit dans la Constitution', 'Délai maximal de deux mois pour répondre aux porteurs de projets, inscrit dans la Constitution')
+
+# Retailleau : pages de son site à la place de Repère 2027, Votons 2027 et MonVote2027 ; huit EPR2 conditionnés à l'avancement des six premiers ;
+# déchéance de nationalité pour les pilleurs (franceinfo) : « violences contre les forces de l'ordre » ne se lit que sur un site non reconnu ;
+# suppression du JAP (Public Sénat seul, sans citation) et contribution à l'UE, dépenses de défense comprises (Business AM seul, payant, sans
+# citation) : S106 ; la lecture « contribution à l'UE » (UEU) sort de son thème « rayonnement », où plus aucune proposition de ce type n'est affichée.
+FICHES_R = 'https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf'
+TITRE_S[FICHES_R] = ("avecretailleau.fr, fiches presse « Rétablir l'ordre dans les comptes publics » (12/10)", 2026)  # un titre pour les deux thèmes qui la citent
+_txt('retailleau', 'securite', "Déchéance de nationalité des binationaux auteurs de pillages ou de violences contre les forces de l'ordre", 'Déchéance de nationalité des binationaux auteurs de pillages')
+_rem('retailleau', 'securite', "Suppression du juge d'application des peines")
+_so('retailleau', 'securite', drop=['presidentielle-jirai-jusquau-bout'])
+_so('retailleau', 'sante', drop=AGG, add=[_s("avecretailleau.fr, fiches presse « Rétablir l'ordre dans les comptes publics » (12/10)", FICHES_R)])
+_txt('retailleau', 'environnement', 'Commander huit EPR2 supplémentaires dans les deux premières années', 'Commander huit EPR2 supplémentaires dans les deux premières années, si les six premiers avancent comme prévu')
+_so('retailleau', 'environnement', drop=AGG, add=[_s('avecretailleau.fr, construire les EPR2 dans les coûts et délais prévus', 'https://www.avecretailleau.fr/projet/mesure/construire-les-epr2-dans-les-couts-et-delais-prevus'),
+    _s('avecretailleau.fr, fin des subventions aux éoliennes et au solaire', 'https://www.avecretailleau.fr/projet/mesure/cesser-de-subventionner-ce-qui-fait-monter-la-facture-les'),
+    _s('avecretailleau.fr, hydroélectricité', 'https://www.avecretailleau.fr/projet/mesure/produire-et-stocker-plus-d-electricite-grace-aux-barrages')])
+_so('retailleau', 'logement', drop=AGG, add=[_s('avecretailleau.fr, thème « Logement »', 'https://www.avecretailleau.fr/projet/theme/logement'),
+    _s("avecretailleau.fr, intérêts d'emprunt déductibles", 'https://www.avecretailleau.fr/projet/mesure/reduire-le-cout-du-credit-des-familles'),
+    _s('avecretailleau.fr, abroger le ZAN', 'https://www.avecretailleau.fr/projet/mesure/abroger-le-zan')])
+_rem('retailleau', 'rayonnement', "Réduire la contribution française au budget de l'UE par la négociation", 'Intégrer les dépenses de défense dans le calcul de cette contribution')
+_rep('retailleau', 'rayonnement', " " + UEU, "")
+_so('retailleau', 'rayonnement', drop=AGG + ['businessam.be', UEU_S['url']])
+
+# Lisnard : programme et pages de Nouvelle Énergie à la place de lisnard.cards (non officiel), Votons 2027, Repère 2027 et France-Vote ; article 55
+# de la loi SRU (programme), ZAN « tel qu'il est conçu » (tribune du 9/05/2025, redit à Cannes le 29/08/2026), foncier public (seul entretien du
+# 5/12/2025) non reconfirmé ; exonération de CFE pour les médecins libéraux ; article 55 de la Constitution visant la CEDH, dérogation « à la
+# danoise » pour le droit de l'UE (Bayeux, 17/06). TVA unique à 25 % : seul lisnard.cards, son programme dit la question « pas tranchée » → S106,
+# avec la lecture « TVA sociale » (CEPII), seule proposition de ce type du thème. Rayonnement : lectures du même type que chez les autres candidats
+# (primauté de la loi nationale, comme Zemmour ; accord de 1968, comme Philippe).
+_so('lisnard', 'securite', drop=AGG)
+_txt('lisnard', 'sante', "Liberté d'installation, exonération de CFE pour libéraux en zone sous-dense", "Liberté d'installation, exonération de CFE pour les médecins libéraux en zone sous-dense")
+_so('lisnard', 'sante', drop=AGG, add=[_s('Nouvelle Énergie, programme « Santé »', 'https://www.unenouvelleenergie.fr/notre-programme/sante/'),
+    _s('Nouvelle Énergie, Livret Santé (6/05)', 'https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/05/Livret-Sante-Nouvelle-Energie.pdf')])
+_so('lisnard', 'ecole', drop=AGG)
+_so('lisnard', 'libertes', drop=AGG)
+_so('lisnard', 'environnement', drop=AGG, add=[_s("Nouvelle Énergie, grand entretien de l'écologie (27/10)", 'https://www.unenouvelleenergie.fr/lenergie-doit-reconcilier-lindustrie-et-lecologie/'),
+    _s('Nouvelle Énergie, « Quel candidat veut construire de nouveaux réacteurs nucléaires ? »', 'https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-construire-de-nouveaux-reacteurs-nucleaires/'),
+    _s('Nouvelle Énergie, « Que pense David Lisnard du réchauffement climatique ? »', 'https://www.unenouvelleenergie.fr/questions/que-pense-david-lisnard-du-rechauffement-climatique/')])
+_txt('lisnard', 'logement', "Supprimer l'objectif zéro artificialisation nette (ZAN)", "Supprimer l'objectif zéro artificialisation nette (ZAN) tel qu'il est conçu")
+_txt('lisnard', 'logement', 'Mettre en vente ou à disposition des terrains publics', o=True)
+_so('lisnard', 'logement', drop=AGG, add=[_s('Nouvelle Énergie, programme « Réussir une nouvelle ambition française »', 'https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/'),
+    _src('Nouvelle Énergie, tribune « Quand le bâtiment ne va plus, rien ne va plus » (9/05/2025)', 2025, 'https://www.unenouvelleenergie.fr/quand-le-batiment-ne-va-plus-rien-ne-va-plus/'),
+    _s('Nouvelle Énergie, « Quel candidat veut réindustrialiser la France ? » (rentrée de Cannes, 29/08)', 'https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-reindustrialiser-la-france/'),
+    _src('Nouvelle Énergie, entretien au Figaro sur le logement (5/12/2025)', 2025, 'https://www.unenouvelleenergie.fr/david-lisnard-face-a-la-crise-du-logement-il-est-temps-de-briser-cette-spirale-infernale/')])
+_rem('lisnard', 'economie', 'TVA unique à 25 % en douze ans pour baisser les charges')
+CEPII = "CEPII (2007) : TVA sociale, emplois modestes si ciblée sur les bas salaires, pouvoir d'achat réduit."
+_rep('lisnard', 'economie', " " + CEPII, "")
+_so('lisnard', 'economie', drop=['cepii.fr/PDF_PUB/lettre/2007/let269.pdf'], add=[_s('Nouvelle Énergie, « David Lisnard veut-il baisser les impôts ? »', 'https://www.unenouvelleenergie.fr/questions/david-lisnard-veut-il-baisser-les-impots/')])
+_txt('lisnard', 'rayonnement', "Réviser l'article 55 de la Constitution sur la primauté du droit européen",
+     "Réviser l'article 55 de la Constitution pour faire primer la loi sur la CEDH ; pour le droit de l'UE, une dérogation à la danoise sur l'asile et l'immigration")
+PRIM0 = "Aucune évaluation publique de l'effet d'une sortie de la CEDH ou d'une primauté constitutionnelle de la loi nationale sur le droit européen."
+PRIM = "Aucune évaluation publique de l'effet d'une primauté de la loi nationale sur la CEDH ou sur le droit européen."
+ALG = "Pas d'évaluation publique de l'effet d'une dénonciation de l'accord de 1968 sur les relations ou l'influence de la France."
+assert _jev('philippe', 'rayonnement') == ALG and _jev('zemmour', 'libertes') == PRIM0 and OVR[('lisnard', 'rayonnement')]['evidence'] == FIN
+_ev('lisnard', 'rayonnement', PRIM + " " + FIN + " " + ALG, drop=AGG, add=[_s('Discours de Bayeux', 'https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf'),
+    _s('Nouvelle Énergie, programme « Immigration »', 'https://www.unenouvelleenergie.fr/notre-programme/immigration/')])
+
+# Zemmour : entretien du 25/10 (Les Incorrectibles, vidéo du candidat ; cité sans guillemets, transcription automatique non réécoutée) pour les
+# méthodes traditionnelles ; Entrevue rapporte LCI, pas CNews. Programme des européennes de 2024 (document de parti antérieur à la désignation,
+# règle S133) : chaque proposition cherchée dans le programme de 2022 (Institut Montaigne, entretiens de 2022) ou une source de 2026 qui parle pour
+# lui. Article 55 : programme de 2022 (« toute nouvelle loi nationale »), non reconfirmé ; éolien : version de 2026 dans le plan de 140 Md€ repris
+# le 17/09 (« fin de l'engagement de soutien public aux énergies renouvelables intermittentes ») ; voitures thermiques : entretien de 2022
+# (« renégocier ce calendrier européen »), non reconfirmé ; directive sur la performance énergétique des bâtiments, sortie de la CEDH, loi Avia :
+# rien en 2022 ni en 2026 → S106, comme la vente de HLM, le Livret A à 20 % (2022 : « livret innovation ») et les 40 000 soldats (agrégateurs
+# seuls). Pétition contre le SEQE 2 sans date : non reconfirmée en 2026. Aucune proposition ne revient à leur place.
+MONT_ZEM = _src('Institut Montaigne, propositions du candidat (présidentielle 2022)', 2022, 'https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour')
+INCORR = _s('Les Incorrectibles, émission du 25/10', 'https://lesincorrectibles.substack.com/p/eric-zemmour-la-france-face-au-chaos-1')
+_so('zemmour', 'securite', drop=AGG + ['une-horde-de-barbares-maghrebins'], add=[_s('Entrevue, déclarations sur LCI (18/10)', 'https://entrevue.fr/medias/une-horde-de-barbares-maghrebins-et-africains-eric-zemmour-provoque/'),
+    _s('Europe 1, « La France en face » (19/05)', 'https://www.europe1.fr/politique/en-direct-immigration-pouvoir-dachat-narcotrafic-ce-quil-faut-retenir-de-linterview-deric-zemmour-dans-la-france-en-face-936419')])
+_so('zemmour', 'sante', drop=AGG, add=[_src('Le Quotidien du médecin, réponses écrites du candidat (1/04/2022)', 2022, 'https://www.lequotidiendumedecin.fr/actus-medicales/politique-de-sante/eric-zemmour-reconquete-un-conventionnement-preferentiel-pourra-etre-mis-en-place'), MONT_ZEM])
+_so('zemmour', 'ecole', drop=AGG, add=[INCORR])
+_ze = {p['text']: p for p in _cur('zemmour', 'environnement')}
+_put('zemmour', 'environnement', [_ze["Six EPR d'ici 2035 et quatorze d'ici 2045"], _p('Mettre fin au soutien public aux énergies renouvelables intermittentes'),
+     dict(_ze['Abroger le marché carbone européen sur les carburants et le chauffage (SEQE 2) avant 2028'], old=True),
+     _p('Renégocier le calendrier européen de fin des voitures thermiques neuves en 2035', False, True)])
+assert set(_ze) == {"Six EPR d'ici 2035 et quatorze d'ici 2045", 'Abroger le marché carbone européen sur les carburants et le chauffage (SEQE 2) avant 2028',
+                    "Fin des financements français et européens à l'éolien", "Abroger l'interdiction des voitures thermiques neuves en 2035"}
+_SQ = "Marché carbone des carburants (en place en 2028) : +10 à 15 c€ par litre à son entrée en vigueur (Institut Montaigne, 2025) ; taxe carbone suédoise : émissions des transports −11 % (2019)."
+assert OVR[('zemmour', 'environnement')]['evidence'] == EPR + " " + _SQ + " " + RTE
+_ev('zemmour', 'environnement', EPR + " " + RTE + " " + _SQ, drop=AGG, add=[_s('budget2027.fr, plan de 140 Md€ repris par le candidat (17/09)', 'https://www.budget2027.fr/'),
+    _src("Le Journal de l'Automobile, entretien avec le candidat (24/03/2022)", 2022, 'https://journalauto.com/services/presidentielle-2022-eric-zemmour-r-jai-lintime-conviction-que-la-voiture-va-evoluer-avec-son-temps-et-perdurer/')])
+OVR[('zemmour', 'logement')] = {'proposals': [], 'indicator': None, 'evidence': 'Pas de proposition publiée sur ce thème.', 'drop': ['http'], 'add': []}
+_put('zemmour', 'libertes', [_p('Article 55 révisé : toute nouvelle loi nationale au-dessus du droit européen existant', True, True)])
+_ev('zemmour', 'libertes', PRIM, drop=AGG, add=[MONT_ZEM])
+_rem('zemmour', 'economie', "Orienter 20 % du Livret A vers l'investissement stratégique")
+_so('zemmour', 'economie', drop=AGG, add=[MONT_ZEM])
+_rem('zemmour', 'rayonnement', '40 000 soldats professionnels supplémentaires')
+_so('zemmour', 'rayonnement', drop=AGG, add=[MONT_ZEM])
+
+# Contrôle d'attribution (merge) : data/life-attribution.json donne, pour chaque proposition affichée (texte exact), les adresses des sources
+# qui parlent pour le candidat ; chacune doit être affichée dans le thème et passer ATTR_OK. Une source parle pour le candidat si son adresse est
+# (1) sur un domaine du candidat, de sa campagne ou de son parti, pour ce candidat seulement (le site d'un camp n'est jamais une source sur un
+# autre) ; (2) sur un média reconnu ; (3) une fiche de programme d'une institution reconnue (Institut Montaigne, présidentielle 2022), un
+# amendement signé ou la copie d'un article de presse nommé. Les études s'en distinguent de deux façons : leurs éditeurs (Cour des comptes, Insee,
+# IPP, DEPP, Sénat et Assemblée pour leurs rapports, universités, revues, organismes internationaux) ne figurent dans aucune de ces listes, et
+# aucune adresse citée pour une lecture (constantes ci-dessous) ni dans le quiz (quiz_effets.json, où ne figurent que des études et des
+# statistiques) ne peut servir d'attribution. Agrégateurs et sites non officiels : refusés par le même test de nom d'hôte que l'app (NOFF).
+OFFICIEL = {'le-pen': ('rassemblementnational.fr', 'deputes-rn.fr'), 'melenchon': ('melenchon2027.fr', 'melenchon.fr'), 'philippe': ('edouardphilippe.fr',),
+            'glucksmann': ('place-publique.eu',), 'attal': ('attalpresident.fr',), 'retailleau': ('avecretailleau.fr', 'republicains.fr'),
+            'lisnard': ('unenouvelleenergie.fr', 'nouvelle-energie-media-prod.s3.fr-par.scw.cloud'),
+            'zemmour': ('parti-reconquete.fr', 'stop-hausse-carburant.fr', 'budget2027.fr')}
+OFFICIEL_U = {'glucksmann': ('https://bsky.app/profile/placepublique.bsky.social/',)}  # compte officiel du parti
+MEDIAS = ('franceinfo.fr', 'capital.fr', 'europe1.fr', 'lcp.fr', 'publicsenat.fr', 'cnews.fr', 'sudradio.fr', 'lalibre.be', 'actu.orange.fr', 'euronews.com',
+          'thestar.com.my', 'acteurspublics.fr', 'lequotidiendumedecin.fr', 'journaldunet.com', 'lagazettefrance.fr', 'radiofrance.fr', 'touteleurope.eu',
+          'lemoniteurdespharmacies.fr', 'batirama.com', 'journaldelagence.com', 'sfen.org', 'entrevue.fr', 'lesincorrectibles.substack.com', 'journalauto.com')
+PROGRAMME_U = ('https://www.institutmontaigne.org/presidentielle-2022/', 'https://www.assemblee-nationale.fr/dyn/15/amendements/',
+               'https://www.syndicat-energies-renouvelables.fr/wp-content/uploads/2026/02/Les-Echos-')
+ETUDES = {s['url'] for s in [IPP_PP, HEN_S, EPR_S, MAINT_S, HCC_S, RTE_S, IA_S, MIN_S, CEF_S, CEF_S2, DECH_S, FICH_S, RECO_S, PARC_S, INT_S, STAB_S, CU_S,
+                             SCH_S, RIP_S, SECU_S, CSM_S, GN_S, GN_S2, DD_DT, MED_S, ORIENT_S, SMICX_S, EGALIM_S, DSA_S, UEU_S, LEAS_S, CODE_S2, *DD_S, *SAL_S,
+                             *EXAM_S, *CASSE_S, *CHEQ_S, *OR_S, *CODE_S, *DOUANE_S, *VOTE16_S, *VOILE_S, *SEQE_S, *VE_S, *REGUL_S, *AME_S]}
+ETUDES |= {s['u'] for v in _QE.values() if isinstance(v, dict) for s in v.get('src', []) if isinstance(s, dict)}
+def ATTR_OK(cid, u):
+    return (host_in(u, OFFICIEL[cid]) or u.startswith(OFFICIEL_U.get(cid, ('\0',))) or host_in(u, MEDIAS) or u.startswith(PROGRAMME_U)) and u not in ETUDES
+
 # (30) Même test « précis » pour une même formulation, appliqué à toutes les propositions affichées (y compris celles réécrites plus haut) :
 # un changement de droit nommé (sortie du commandement intégré de l'OTAN, fin du droit de veto, mandat de l'ONU obligatoire, instrument ou
 # accord nommé et ce qui y change) est précis ; un objectif, une orientation ou une création sans paramètre (plan, pôle, fonds) reste une intention.
-VFLIP = {'Bloquer temporairement': False, 'Assistant médical fondé sur l': False, 'Contrôle du Conseil constitutionnel limité': False, 'Police de proximité modernisée': False, "Fonds national d'acquisition foncière": False,
+# Chaque entrée doit servir (merge échoue sinon) : review 34, entrées des propositions retirées ou réécrites ôtées (blocage des réseaux sociaux
+# et contrôle du Conseil constitutionnel, déjà hors affichage ; FED-EDIP-SAFE, contribution à l'UE de Retailleau : S106 ; pays sûrs : texte réécrit).
+VFLIP = {'Assistant médical fondé sur l': False, 'Police de proximité modernisée': False, "Fonds national d'acquisition foncière": False,
          "commandement intégré de l'OTAN": True, "Sortir de l'OTAN": True,
          "Supprimer le droit de veto au sein de l'UE": True, "Aucune intervention militaire sans mandat de l'ONU": True,
-         "Refuser les instruments européens de défense : FED, EDIP, SAFE": True, "Liste européenne commune de pays sûrs": True,
-         "Accord UE-Mercosur : en exclure l'élevage": True, "Intégrer les dépenses de défense dans le calcul de cette contribution": True}
+         "Accord UE-Mercosur : en exclure l'élevage": True}
 
 # (17) Étiquette d'efficacité calculée à partir des lectures : chaque lecture (texte exact, partagé par tous les candidats qui ont ce type de
 # proposition) a un niveau, au regard de l'effet recherché par ce type de proposition : « prouvee » (les évaluations montrent l'effet recherché),
@@ -724,7 +971,7 @@ NIV = {
  "Aucune évaluation empirique identifiée de l'effet des ordonnances ou du lien parquet-exécutif sur l'efficacité de l'action publique.": ABSENT,
  "Convention climat : 10 % des propositions reprises telles quelles, 53 % rejetées (Courant, 2021).": MITIG,
  "Proportionnelle : pas d'évaluation française récente identifiée.": ABSENT,
- "Aucune évaluation publique de l'effet d'une sortie de la CEDH ou d'une primauté constitutionnelle de la loi nationale sur le droit européen.": ABSENT,
+ PRIM: ABSENT,
  # économie
  IPROD: NONDEM, TEPA: NONDEM, CODE: ABSENT, CU: MITIG, IA: NONDEM,
  "Règle d'or : déficit réduit de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, effet plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023).": MITIG,
@@ -735,7 +982,6 @@ NIV = {
  "Experts SMIC (2025) : risque pour l'emploi peu qualifié, SMIC à 62,5 % du médian.": MITIG,
  "Bozio-Wasmer (2024) : supprimer ces exonérations sans recyclage coûterait ~61 000 emplois.": MITIG,
  "CAE (2021) : héritage très concentré, 35-40 % échappe à l'impôt, ~12 Md€ récupérables ; effets économiques non évalués faute de données fiables.": ABSENT,
- "CEPII (2007) : TVA sociale, emplois modestes si ciblée sur les bas salaires, pouvoir d'achat réduit.": MITIG,
  # rayonnement
  VED: MITIG, UEU: None, FIN: MITIG, DOUANE: NONDEM, SCH: NONDEM,
  "Pas d'évaluation publique de cet objectif.": ABSENT,
@@ -761,7 +1007,10 @@ def merge(D):
     if not parts: return D
     ev = J('evidence_levels.json') if os.path.exists(os.path.join(H, 'data', 'evidence_levels.json')) else {}
     WEAKD[:] = D.get('weak_domains', [])
-    life = {}; used = set()
+    # étiquetage des sites faibles (la Vie quotidienne peut ne plus en citer aucun : le mécanisme est vérifié ici, review 34)
+    assert (NOFF('https://votons-2027.fr/x', 'x'), NOFF('https://www.wikiglucksmann.fr/x', 'x'), NOFF('https://www.franceinfo.fr/x', 'x'), NOFF('https://votons-2027.fr/x', 'x (agrégateur)')) \
+        == (' (agrégateur)', ' (non officiel)', '', ''), "life.py : étiquetage des agrégateurs et des sites non officiels"
+    life = {}; used = set(); vused = set()
     for f in parts:
         x = J(f)
         for cid, arr in x['life'].items():
@@ -787,7 +1036,7 @@ def merge(D):
                 th['proposals'] = [dict(p) for p in th['proposals']]
                 for p in th['proposals']:
                     for k0, v0 in VFLIP.items():
-                        if k0 in p['text']: p['verifiable'] = v0
+                        if k0 in p['text']: p['verifiable'] = v0; vused.add(k0)
                 olds = [d for d in ORIG if any(d in x['url'] for x in th['sources'])]
                 if olds:
                     used.update(olds)
@@ -803,6 +1052,22 @@ def merge(D):
     assert used == set(ORIG), f"ORIG sans effet : {set(ORIG) - used}"
     morte = [k for k in NIV if not any(k in th['evidence'] for v in life.values() for th in v.values())]
     assert not morte, f"life.py : lecture de NIV qui ne sert plus (texte réécrit ?) : {morte[0][:80]!r}"
+    assert vused == set(VFLIP), f"life.py : entrée de VFLIP qui ne sert plus (proposition retirée ou réécrite ?) : {sorted(set(VFLIP) - vused)}"
+    # une source qui parle pour le candidat, pour chaque proposition affichée (review 34 ; règle et ATTR_OK plus haut)
+    A, vus = J('life-attribution.json'), set()
+    for cid, v in life.items():
+        for th, t in v.items():
+            aff = {x['url'] for x in t['sources']}
+            for p in t['proposals']:
+                us = A.get(cid, {}).get(th, {}).get(p['text'])
+                assert us, f"life-attribution.json : proposition sans source qui parle pour le candidat ({cid}.{th}) : {p['text']!r}"
+                vus.add((cid, th, p['text']))
+                for u in us:
+                    assert u in aff, f"life-attribution.json : source non affichée dans le thème ({cid}.{th}) : {u}"
+                    assert not host_in(u, NONOFF) and not host_in(u, WEAKD), f"life-attribution.json : agrégateur ou site non officiel ({cid}.{th}) : {u}"
+                    assert ATTR_OK(cid, u), f"life-attribution.json : ni le candidat ou son parti, ni un média reconnu, ni une fiche de programme, ou bien une étude ({cid}.{th}) : {u}"
+    reste = [f"{c}.{th} : {x!r}" for c, v in A.items() for th, w in v.items() for x in w if (c, th, x) not in vus]
+    assert not reste, f"life-attribution.json : proposition qui n'est plus affichée (texte réécrit ?) : {reste[:3]}"
     ids = [c['id'] for c in D['candidates']]
     themes = [t for t in THEMES if any(t in v for v in life.values())]
     D['life_themes'] = themes
