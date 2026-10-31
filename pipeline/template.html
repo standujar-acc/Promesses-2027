@@ -41,6 +41,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 button{cursor:pointer}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .eyebrow{font:600 .7rem/1.2 var(--f-body);text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.eyebrow .pdate{text-transform:none;letter-spacing:0;font-weight:500}
 .num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
 .muted{color:var(--muted)} .small{font-size:.84rem}
 .neg{color:var(--bad)} .pos{color:var(--ok)}
@@ -472,7 +473,7 @@ table.grid td button{min-width:44px;min-height:44px;display:inline-grid;place-it
     <div class="home-top">
     <div class="stack" style="gap:10px">
       <div><span class="eyebrow">Effet sur le déficit en 2030, si tout passe</span><h2>Le prix de chaque programme</h2></div>
-      <div class="legend"><span><i class="dot" style="background:var(--bad)"></i>creuse le déficit</span><span><i class="dot" style="background:var(--ok)"></i>l'allège</span><span>trait : fourchette probable · Md€ par an</span><span>· touchez un candidat pour voir ses mesures</span></div>
+      <div class="legend"><span><i class="dot" style="background:var(--bad)"></i>creuse le déficit</span><span><i class="dot" style="background:var(--ok)"></i>l'allège</span><span>trait : fourchette probable · Md€ par an</span><span>· touchez un candidat pour voir ses mesures</span><span id="poll-note" hidden></span></div>
       <div class="board" id="board"></div>
       <div class="axis" id="axis"></div>
     </div>
@@ -489,7 +490,7 @@ table.grid td button{min-width:44px;min-height:44px;display:inline-grid;place-it
     </div>
     <div class="stack" style="gap:10px">
       <div><span class="eyebrow">Droit et faisabilité</span><h2>Qu'est-ce qui peut passer ?</h2></div>
-      <p class="muted small">Le verdict le plus contraignant de chaque candidat par thème. Touchez un point pour ouvrir la mesure.</p>
+      <p class="muted small">Le verdict le plus contraignant de chaque candidat par thème, parmi les mesures retenues (comme pour les totaux : hors mesures non confirmées et doublons). Touchez un point pour ouvrir la mesure.</p>
       <div class="legend" id="legend-cmp"></div>
       <div class="grid-wrap"><table class="grid" id="grid"></table></div>
     </div>
@@ -605,10 +606,15 @@ const store = { get(k){try{return localStorage.getItem(k)}catch(e){return null}}
 const today = new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Paris',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const blackout = (D.blackout||[]).includes(today);
 const pollTxt = c => blackout ? '' : c.poll;
+const pollDate = (D.sondages && D.sondages.date) || '';  // date de la moyenne des instituts, affichée avec les intentions de vote
 const cand = id => D.candidates.find(c=>c.id===id);
 const colorOf = v => v<0?'var(--bad)':v>0?'var(--ok)':'var(--muted)';
 const has = m => m.claude && !m.claude.exclude && !m.claude.nc;
-const weak = url => (D.weak_domains||[]).some(d=>String(url).includes(d));
+// site faible (agrégateur) : nom d'hôte exact ou sous-domaine du domaine listé, jamais une sous-chaîne de l'adresse (franceinfo.fr ≠ info.fr)
+const hostOf = u => { try { return new URL(u).hostname.toLowerCase(); } catch(e) { return ''; } };
+const weak = url => { const h=hostOf(url); return !!h && (D.weak_domains||[]).some(d=>d.includes('.')?(h===d||h.endsWith('.'+d)):h.split('.').includes(d)); };
+// mesures retenues : mêmes que les totaux et le quiz (hors mesures non confirmées et doublons)
+const kept = m => !m.a_confirmer && !(m.claude && m.claude.exclude);
 let cur = D.candidates[0].id, theme = 'all';
 const caps = {};
 const WEB = !(window.claude && window.claude.use) && /^https?:$/.test(location.protocol);
@@ -669,17 +675,18 @@ function board(){
       <span class="top"><span class="nm">${esc(c.short)}</span><span class="val" style="color:${colorOf(t.sum)}">${md1(t.sum)}</span></span>
       <span class="track"><i class="zero" style="left:${x(0)}%"></i><i class="bar" style="left:${a}%;width:${Math.max(w,.8)}%;background:${colorOf(t.sum)};opacity:.75"></i><i class="rng" style="left:${x(t.p10)}%;width:${x(t.p90)-x(t.p10)}%"></i></span><span class="pt">${esc(c.party)}${pollTxt(c)?' · '+esc(c.poll):''} · ${eur(Math.abs(perHH(t.sum)),false)} de déficit ${t.sum<0?'en plus':'en moins'} par ménage et par an${t.confirm&&t.confirm.length?` · ${t.confirm.length} mesure${t.confirm.length>1?'s':''} non confirmée${t.confirm.length>1?'s':''} hors total`:''}</span></button>`; }).join('');
   document.querySelectorAll('#board .brow').forEach(b=>b.onclick=()=>{ cur=b.dataset.c; theme='all'; ftab='budget'; go('cand'); });
+  const pn=document.getElementById('poll-note'); pn.hidden=blackout||!pollDate; pn.textContent=pn.hidden?'':`· intentions de vote : moyenne des instituts au ${pollDate}`;
   const ticks=[]; const step=niceStep((hi-lo)/4); for(let t=Math.ceil(lo/step)*step;t<=hi;t+=step) ticks.push(t);
   document.getElementById('axis').innerHTML = `<span style="left:0">${md(Math.round(lo))} Md€</span><span style="left:calc(14px + (100% - 28px)*${x(0)/100})">0</span><span style="left:100%">${md(Math.round(hi))}</span>`;
 }
 function niceStep(r){const p=Math.pow(10,Math.floor(Math.log10(r)));const n=r/p;return (n<1.5?1:n<3?2:n<7?5:10)*p;}
 function grid(){
-  const themes = Object.keys(TH).filter(t => D.candidates.some(c=>c.measures.some(m=>m.theme===t)));
+  const themes = Object.keys(TH).filter(t => D.candidates.some(c=>c.measures.some(m=>m.theme===t&&kept(m))));
   const order = {bloque:0,tres_difficile:1,sous_conditions:2,faisable:3};
   let h = `<thead><tr><th>Candidat</th>${themes.map(t=>`<th>${esc(TH[t])}</th>`).join('')}</tr></thead><tbody>`;
   D.candidates.forEach(c => {
     h += `<tr><td><b>${esc(c.short)}</b></td>` + themes.map(t => {
-      const ms = c.measures.filter(m=>m.theme===t).sort((a,b)=>order[a.verdict]-order[b.verdict]);
+      const ms = c.measures.filter(m=>m.theme===t&&kept(m)).sort((a,b)=>order[a.verdict]-order[b.verdict]);
       if(!ms.length) return `<td><span class="empty">·</span></td>`;
       const m = ms[0];
       return `<td><button data-c="${c.id}" data-m="${m.id}" aria-label="${esc(c.name)}, ${esc(m.title)} : ${V[m.verdict].l}" title="${esc(m.title)} : ${V[m.verdict].l}"><i class="vdot" style="background:${V[m.verdict].c}" aria-hidden="true">${VS[m.verdict]}</i></button></td>`;
@@ -699,9 +706,9 @@ function picker(){
   const pk=document.getElementById('pstrip'), sel=pk.querySelector('[aria-pressed="true"]'); if(sel && pk.scrollWidth>pk.clientWidth) pk.scrollLeft=Math.max(0,sel.offsetLeft-(pk.clientWidth-sel.offsetWidth)/2);
 }
 function head(c){
-  const counts={}; Object.keys(V).forEach(k=>counts[k]=0); c.measures.forEach(m=>counts[m.verdict]++); const n=c.measures.length;
-  document.getElementById('fhead').innerHTML = `<div class="meta"><span class="eyebrow">${esc(c.party)}</span>${pollTxt(c)?`<span class="eyebrow">· Sondages : ${esc(c.poll)}</span>`:''}</div><h2>${esc(c.name)}</h2><p>${esc(c.promise||c.summary)}</p>${c.obstacle_main?`<p class="small"><span class="tag" style="margin-right:6px">Obstacle</span>${esc(c.obstacle_main)}</p>`:''}
-    <div class="tally" aria-label="Répartition des verdicts">${Object.keys(V).map(k=>counts[k]?`<i style="width:${counts[k]/n*100}%;background:${V[k].c}"></i>`:'').join('')}</div>
+  const ks=c.measures.filter(kept), counts={}; Object.keys(V).forEach(k=>counts[k]=0); ks.forEach(m=>counts[m.verdict]++); const n=ks.length;
+  document.getElementById('fhead').innerHTML = `<div class="meta"><span class="eyebrow">${esc(c.party)}</span>${pollTxt(c)?`<span class="eyebrow">· Sondages : ${esc(c.poll)} <span class="pdate">(moyenne au ${esc(pollDate)})</span></span>`:''}</div><h2>${esc(c.name)}</h2><p>${esc(c.promise||c.summary)}</p>${c.obstacle_main?`<p class="small"><span class="tag" style="margin-right:6px">Obstacle</span>${esc(c.obstacle_main)}</p>`:''}
+    <div class="tally" aria-label="Répartition des verdicts des mesures retenues (hors mesures non confirmées et doublons)">${Object.keys(V).map(k=>counts[k]?`<i style="width:${counts[k]/n*100}%;background:${V[k].c}"></i>`:'').join('')}</div>
     <div class="legend">${Object.keys(V).filter(k=>counts[k]).map(k=>`<span><i class="dot" style="background:${V[k].c}"></i>${V[k].l} · ${counts[k]}</span>`).join('')}</div>`;
   const t=c.claude_total, hh=perHH(t.sum);
   document.getElementById('total').innerHTML = `<span class="lab">Notre chiffrage, si tout passe · déficit en 2030</span>
@@ -732,7 +739,7 @@ function measureCard(c,m){
     <div class="detail" id="d-${c.id}-${m.id}" hidden>
       <p class="small"><b>${m.verdict==='bloque'?'Chemin pour la débloquer.':'Obstacle principal.'}</b> ${esc(m.obstacle)}</p>
       ${m.a_confirmer?`<p class="small muted">${esc(m.confirm_why||'Mesure annoncée avant 2026 et non reconfirmée : elle n\'entre pas dans le total.')}</p>`:''}
-      ${k?`<div class="calc"><b>Notre calcul${hc?` : ${md(k.central)} Md€/an (de ${md(k.low)} à ${md(k.high)}) · ${eur(perHH(k.central))} par ménage`:''}</b><span class="f">${esc(k.formula)}</span>${k.inputs&&k.inputs.length?`<ul>${k.inputs.map(i=>`<li>${esc(i.label)} : <b>${esc(i.value)}</b> · <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}</a></li>`).join('')}</ul>`:''}${k.note?`<span class="muted">${esc(k.note)}</span>`:''}</div>`:''}
+      ${k?`<div class="calc"><b>Notre calcul${hc?` : ${md(k.central)} Md€/an (de ${md(k.low)} à ${md(k.high)}) · ${eur(perHH(k.central))} par ménage`:''}</b><span class="f">${esc(k.formula)}</span>${k.inputs&&k.inputs.length?`<ul>${k.inputs.map(i=>`<li>${esc(i.label)} : <b>${esc(i.value)}</b> · <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}</a>${weak(i.url)?' <span class="tag">agrégateur</span>':''}</li>`).join('')}</ul>`:''}${k.note?`<span class="muted">${esc(k.note)}</span>`:''}</div>`:''}
       <span class="eyebrow">Autres estimations publiées${m.estimates.length?' · '+(C[m.consensus]||''):''}</span>
       <ul class="src">${m.estimates.map(e=>`<li><span class="s1"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.source)}</a><span class="tags">${+e.year<=2022?'<span class="tag">base '+esc(e.year)+'</span>':`<span class="tag">${esc(e.year)}</span>`}${weak(e.url)?' <span class="tag">agrégateur</span>':''}</span></span><span>${esc(e.value)}</span></li>`).join('') || '<li class="muted">Aucune estimation indépendante publiée.</li>'}</ul>
       <div class="row-btns"><button class="btn" data-act="share">Partager</button><button class="btn" data-act="report">Signaler une erreur</button></div>
@@ -773,7 +780,7 @@ function baseBox(th){ const b=(D.baseline||{})[th]; if(!b||!b.length) return '';
   // une précaution de lecture commune à plusieurs repères (ex. « délinquance enregistrée ») est dite une fois, en tête
   const ph=n=>(n||'').split('. ').map((x,k,a)=>k<a.length-1?x+'.':x).filter(Boolean), cnt={};
   b.forEach(i=>new Set(ph(i.note)).forEach(x=>cnt[x]=(cnt[x]||0)+1)); const com=Object.keys(cnt).filter(x=>cnt[x]>1);
-  const it=i=>{ const n=ph(i.note).filter(x=>!com.includes(x)).join(' '); return `<div><b>${esc(i.value)}</b><span>${esc(i.label)}${i.trend?' · '+esc(i.trend):''}</span>${n?`<small>${esc(n)}</small>`:''}<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}${i.year?' '+esc(i.year):''}</a></div>`; };
+  const it=i=>{ const n=ph(i.note).filter(x=>!com.includes(x)).join(' '); return `<div><b>${esc(i.value)}</b><span>${esc(i.label)}${i.trend?' · '+esc(i.trend):''}</span>${n?`<small>${esc(n)}</small>`:''}<a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}${i.year?', données '+esc(i.year):''}</a></div>`; };
   return `<div class="base"><span class="eyebrow">Où en est la France aujourd'hui · ${esc(LT[th]?LT[th][0]:(TH[th]||th))}</span>${com.length?`<small class="bcom">${esc(com.join(' '))}</small>`:''}${b.slice(0,BASE_N).map(it).join('')}${b.length>BASE_N?`<details class="bmore"><summary>${b.length-BASE_N} autres repères officiels</summary><div class="bin">${b.slice(BASE_N).map(it).join('')}</div></details>`:''}</div>`; }
 function lifeCard(x){ if(!x) return '';
   const bb=baseBox(x.theme);
@@ -988,8 +995,9 @@ function sim(){
     if(st==='independant' && s.cfe_suppr && cfe>0) add('CFE',esc(s.cfe_note),cfe/12);
     let afD=0; const addAF=(l,d,v)=>{ add(l,d,v); afD+=v; };
     if(s.bebe && baby) rows.push(['Naissance',esc(s.bebe),'+1 000 € une fois']);
-    if(s.gel_pct && kids>0 && sqAlloc>0) addAF('Allocations familiales',`Non revalorisées en 2028 (inflation prévue ${String(s.gel_pct).replace('.',',')} %, hypothèse du budget 2027)`,-sqAlloc*s.gel_pct/100);
-    if(s.gel_pct && (s.gel_status||['retraite','minima']).includes(st) && sal>0){ if(st==='retraite' && s.gel_min && sal<s.gel_min) notes.push(s.gel_note+' : votre pension serait épargnée.'); else add('Revalorisation',esc(s.gel_note),-sal*s.gel_pct/100); }
+    const gelS=s.gel_status||[];  // prestations gelées, nommées une à une dans les données (pensions, minima, allocations familiales, APL)
+    if(s.gel_pct && gelS.includes('af') && kids>0 && sqAlloc>0) addAF('Allocations familiales',`Non revalorisées en 2028 (inflation prévue ${String(s.gel_pct).replace('.',',')} %, hypothèse du budget 2027)`,-sqAlloc*s.gel_pct/100);
+    if(s.gel_pct && gelS.includes(st) && sal>0){ if(st==='retraite' && s.gel_min && sal<s.gel_min) notes.push(s.gel_note+' : votre pension serait épargnée.'); else add('Revalorisation',esc(s.gel_note),-sal*s.gel_pct/100); }
     if(s.alloc_familiales && s.alloc_familiales.unique && kids>0){ const af=s.alloc_familiales, k=Math.max(0,Math.min(1,(sal-af.degress_above)/1000)), f=1-(1-af.degress_factor)*k, nu=af.unique*(af.par_enfant?kids:1)*f; let a=Math.max(nu,sqAlloc); const d=a-sqAlloc; if(d>0.5) addAF('Allocations',esc(af.note)+(k>0&&k<1?' ; réduction progressive entre 3 000 et 4 000 € (hypothèse)':''),d); else notes.push(af.note+'.'); if(sqAlloc>nu) notes.push('Vos allocations actuelles sont plus élevées que l\'allocation unique : on suppose qu\'elles sont maintenues (le camp ne l\'a pas précisé).'); }
     else if(s.alloc_familiales && kids>0){ const a=allocOf(s.alloc_familiales,kids,SQ.alloc_familiales), d=a-sqAlloc; if(Math.abs(d)>0.5) addAF('Allocations',esc(s.alloc_familiales.note||''),d); else if(s.alloc_familiales.note) notes.push(s.alloc_familiales.note+'.'); }
     const etr=s.etr, hit=r=>r==='nonfr'?nat!=='fr':r==='hors'?nat==='hors':r==='lt5'?lt5:r==='lt5w'?lt5w:false, cond={nonfr:'réservées aux foyers dont au moins un parent est français',hors:'réservées aux Français et aux Européens',lt5:'réservées aux étrangers installés depuis au moins 5 ans',lt5w:'réservées aux étrangers ayant au moins 5 ans de travail en France'}, condA={...cond,nonfr:'réservées aux Français'}, rev=nat==='ue'?'(si la révision de la Constitution passe et si le droit de l\'UE change)':'(si la révision de la Constitution passe)';
@@ -1008,7 +1016,7 @@ function sim(){
     if(etr && etr.apl && apl>0 && hit(etr.apl)) add('Aide au logement',`APL ${condA[etr.apl]} ${rev}`,-apl);
     else if(s.apl_pct && apl>0) add('Aide au logement',esc(s.apl_note),apl*s.apl_pct/100);
     else if(s.apl_pct && home==='loc') notes.push(s.apl_note+' : indiquez vos APL pour le calcul.');
-    if(s.gel_pct && apl>0 && !(etr && etr.apl && hit(etr.apl))) add('Aide au logement',`APL non revalorisées en 2028 (inflation prévue ${String(s.gel_pct).replace('.',',')} %, hypothèse du budget 2027)`,-apl*s.gel_pct/100);
+    if(s.gel_pct && gelS.includes('apl') && apl>0 && !(etr && etr.apl && hit(etr.apl))) add('Aide au logement',`APL non revalorisées en 2028 (inflation prévue ${String(s.gel_pct).replace('.',',')} %, hypothèse du budget 2027)`,-apl*s.gel_pct/100);
     (s.logement||[]).forEach(n=>{ if(n.when.includes(home) && (!n.kids||kids>0)) notes.push(n.t); });
     if(s.famille && kids>0) notes.push(s.famille);
     if(s.tva_courses && food>0) add('Courses',esc(s.tva_courses.note),food*(1-1/1.055)*s.tva_courses.part);
@@ -1053,7 +1061,7 @@ function sim(){
 let quizState=null; const QN=20, quizImp=new Set();  // thèmes qui comptent pour le lecteur : plus de duels, poids double ; jamais enregistrés
 function shuffle(a){ a=a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 const thName=t=>TH[t]||(LT[t]&&LT[t][0])||t;
-function quizPool(){ const pool={}; D.candidates.forEach(c=>{ pool[c.id]=c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)).concat((D.quiz_extra||[]).filter(x=>x.c===c.id)).map(m=>({c:c.id,m})); }); return pool; }
+function quizPool(){ const pool={}; D.candidates.forEach(c=>{ pool[c.id]=c.measures.filter(m=>kept(m)&&m.quiz_concret).concat((D.quiz_extra||[]).filter(x=>x.c===c.id)).map(m=>({c:c.id,m})); }); return pool; }
 function quizThemes(){ const by={}; Object.values(quizPool()).forEach(l=>l.forEach(o=>(by[o.m.theme]=by[o.m.theme]||new Set()).add(o.c)));
   return [...new Set([...Object.keys(TH),...Object.keys(LT)])].filter(t=>by[t]&&by[t].size>1); }
 function quizBuild(){

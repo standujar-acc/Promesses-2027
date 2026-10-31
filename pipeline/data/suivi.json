@@ -161,8 +161,8 @@
    "echeance": null,
    "statut": "resolu",
    "cree": "2026-10-27",
-   "maj": "2026-10-27",
-   "resolution": "Coût publié le 30/08/2026 (+10 % pour tous, jusqu'à +25 %, « près de 6 milliards », Capital) : mesure chiffrée avec la règle commune, 70 % en 2030, −4,2 (−6 à −2,3)."
+   "maj": "2026-10-31",
+   "resolution": "Coût publié le 30/08/2026 (+10 % pour tous, jusqu'à +25 %, « près de 6 milliards », Capital) : mesure chiffrée avec la règle commune, 70 % en 2030, −4,2 (−6 à −2,3). 31/10 : le paramètre annoncé dans la note de la fiche manquait au simulateur ; ajouté (+10 % pour tous, montant minimal), S179."
   },
   {
    "id": "S012",
@@ -904,7 +904,7 @@
     "lisnard.sante.2"
    ],
    "sujet": "Quiz : propositions sans constat chiffré",
-   "detail": "Mesures institutionnelles ou de principe (constat vide à juste titre) et quelques mesures pour lesquelles aucune série officielle n'a été vérifiée le 27/10/2026 (ex. surpeuplement des familles, accès à la propriété, impôt sur les sociétés). Chercher une série officielle sur 5 ans au moins ; laisser vide s'il n'y a pas de problème mesurable. 29/10 : 11 constats ajoutés (attal.retraites, retailleau.fin_maprimerenov, zemmour.anah, philippe.logement.1, retailleau.logement.2, lisnard.is20, le-pen.pfu, melenchon.ttf, melenchon.niches, glucksmann.defense, lisnard.ecole.3). Laissés vides avec motif : mesures institutionnelles ou d'organisation (attal.europe, lisnard.referendum, melenchon.constituante, lisnard.sante.2, retailleau.ecole.3), glucksmann.ukraine (pas de série officielle sur 5 ans), attal.travail (série Dares des heures supplémentaires inaccessible), service civique de Glucksmann et engagement civique d'Attal (la série INJEP sur le bénévolat ne mesure pas ce que visent ces mesures : vide pour les deux). Règles tranchées : mesure fiscale → constat sur l'impôt visé (poids ou rendement ; à défaut de série, son assiette) ; « passoires énergétiques » gardé pour les 5 aides à la rénovation (seule série officielle comparable, depuis 2023) ; prêts liés aux enfants : constat selon l'objet déclaré (logement pour Philippe, naissances pour Le Pen). Reste ouvert pour attal.travail. Revue du 31/10 : série Dares des heures supplémentaires toujours inaccessible (page protégée ; Urssaf : connexion coupée) ; constat d'attal.travail laissé vide, motif inchangé.",
+   "detail": "Mesures institutionnelles ou de principe (constat vide à juste titre) et quelques mesures pour lesquelles aucune série officielle n'a été vérifiée le 27/10/2026 (ex. surpeuplement des familles, accès à la propriété, impôt sur les sociétés). Chercher une série officielle sur 5 ans au moins ; laisser vide s'il n'y a pas de problème mesurable. 29/10 : 11 constats ajoutés (attal.retraites, retailleau.fin_maprimerenov, zemmour.anah, philippe.logement.1, retailleau.logement.2, lisnard.is20, le-pen.pfu, melenchon.ttf, melenchon.niches, glucksmann.defense, lisnard.ecole.3). Laissés vides avec motif : mesures institutionnelles ou d'organisation (attal.europe, lisnard.referendum, melenchon.constituante, lisnard.sante.2, retailleau.ecole.3), glucksmann.ukraine (pas de série officielle sur 5 ans), attal.travail (série Dares des heures supplémentaires inaccessible), service civique de Glucksmann et engagement civique d'Attal (la série INJEP sur le bénévolat ne mesure pas ce que visent ces mesures : vide pour les deux). Règles tranchées : mesure fiscale → constat sur l'impôt visé (poids ou rendement ; à défaut de série, son assiette) ; « passoires énergétiques » gardé pour les 5 aides à la rénovation (seule série officielle comparable, depuis 2023) ; prêts liés aux enfants : constat selon l'objet déclaré (logement pour Philippe, naissances pour Le Pen). Reste ouvert pour attal.travail. Revue du 31/10 : série Dares des heures supplémentaires toujours inaccessible (page protégée ; Urssaf : connexion coupée) ; constat d'attal.travail laissé vide, motif inchangé. 31/10 : règle écrite dans la méthode (pas de constat pour une mesure institutionnelle ou d'organisation, ni sans série officielle qui mesure ce qu'elle vise), S187 ; lisnard.sante.2 sourcé. Reste à chercher une série officielle pour attal.travail (Dares, heures supplémentaires) et glucksmann.ukraine (ministère des Armées).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -2961,6 +2961,253 @@
    "cree": "2026-10-31",
    "maj": "2026-10-31",
    "resolution": null
+  },
+  {
+   "id": "S179",
+   "type": "a_corriger",
+   "candidats": [
+    "glucksmann",
+    "retailleau"
+   ],
+   "mesure": [
+    "glucksmann.ecole",
+    "retailleau.profs"
+   ],
+   "sujet": "Simulateur : salaire des enseignants absent chez Glucksmann et Retailleau",
+   "detail": "Relecture indépendante du 31/10/2026 (lot « simulateur, affichage, Vie quotidienne », branche revue/affichage-3110), constat 0. Hausse des enseignants comptée dans les fiches de Glucksmann et Retailleau, sans ligne au simulateur (un enseignant y gagnait 0 €, contre +200 à +500 €/mois chez Philippe, Lisnard, Attal).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 (review 32 de corrections.py). Règle (la même que pour Attal) : une fiche « enseignants » comptée donne sa ligne au simulateur avec le paramètre publié ; une hausse publiée en fourchette (« jusqu'à ») compte pour son montant minimal, l'autre borne en note. Glucksmann : +10 % pour tous (Capital, 30/08/2026, propos sur France 2 : « une augmentation pour tous de 10% », « pour un enseignant en milieu de carrière dans le primaire », « jusqu'à 25% », vérifié le 31/10), la borne de 25 % en note. Retailleau : +135 € net par mois (« 135 euros nets de plus par mois en début de carrière, jusqu'à 300 euros en milieu », Les Républicains, « Éducation », 31/08/2026, p. 3 et 9, vérifié le 31/10), ≈ +300 € en note. Contrôle dans corrections.py et tests/smoke.py (une ligne « Salaire enseignant » chez chaque candidat dont une fiche « enseignants » est comptée). La note de la fiche glucksmann.ecole qui annonçait ce paramètre a été réécrite par le lot V (PR #53, notes de travail retirées des textes publiés)."
+  },
+  {
+   "id": "S180",
+   "type": "a_corriger",
+   "candidats": [
+    "lisnard",
+    "attal"
+   ],
+   "mesure": [
+    "lisnard.gel_pensions",
+    "attal.annee_blanche"
+   ],
+   "sujet": "Simulateur : gel des allocations familiales et des APL appliqué à Lisnard",
+   "detail": "Relecture indépendante du 31/10/2026 (lot « simulateur, affichage, Vie quotidienne », branche revue/affichage-3110), constat 1. Le simulateur gelait allocations familiales et APL dès qu'un gel existait (gel_pct), sans lire gel_status : Lisnard, qui ne gèle que les pensions au-dessus de 2 200 €, perdait 3 €/mois d'allocations.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 (template.html, review 32). Règle : un gel ne s'applique qu'aux prestations que le programme nomme, listées une à une dans gel_status (retraite, minima, af, apl). Attal (« toutes les prestations sociales gelées, sauf les petites retraites ») : ['retraite','minima','af','apl'] ; Lisnard : ['retraite']. Méthode (simulateur) complétée. Test : aucune ligne « Non revalorisées en 2028 » chez Lisnard, allocations et APL gelées chez Attal."
+  },
+  {
+   "id": "S181",
+   "type": "source_faible",
+   "candidats": [
+    "lisnard",
+    "zemmour",
+    "le-pen",
+    "retailleau",
+    "melenchon"
+   ],
+   "mesure": null,
+   "sujet": "Sources faibles : « agrégateur » posé par sous-chaîne (franceinfo.fr) et absent des données d'entrée et de certaines sources de la Vie quotidienne",
+   "detail": "Relecture indépendante du 31/10/2026 (lot « simulateur, affichage, Vie quotidienne », branche revue/affichage-3110), constats 2 et 20. Le motif « info.fr/ » de weak_domains étiquetait deux estimations reprises de franceinfo (Lisnard, Zemmour) ; NOFF() (life.py) ne connaissait que quatre agrégateurs (PGE non signalé chez Le Pen et Retailleau) ; aucune étiquette sur les données d'entrée (Votons 2027, francebudget.fr, dettedelafrance.fr, FranceTransactions) ; chez Retailleau, la page de PGE sur le contre-budget du RN appuyait la lecture « Baisser la contribution à l'UE demande l'unanimité ».",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10. Règle : un site faible est repéré par son nom d'hôte exact ou un sous-domaine (jamais une sous-chaîne de l'adresse), avec une seule liste (weak_domains) pour l'app et la Vie quotidienne, et signalé partout où il est cité (estimations, données d'entrée, Vie quotidienne). « info.fr/ » retiré (il ne visait aucun autre site des données ; franceinfo, radio publique, n'est pas un agrégateur) ; entrées sans domaine complétées (monvote2027.fr, wikiglucksmann.fr) ; repere2027.fr et france-vote.fr ajoutés (déjà signalés en Vie quotidienne). Lecture « unanimité » : source primaire pour les trois candidats qui l'ont (Le Pen, Mélenchon, Retailleau), Assemblée nationale, rapport n° 3781 (20/01/2021) : « Aux termes de l'article 311 du traité sur le fonctionnement de l'Union européenne, la DRP est adoptée à l'unanimité par le Conseil, après consultation du Parlement européen, puis approuvée par les États membres » (https://www.assemblee-nationale.fr/dyn/15/rapports/cion_afetr/l15b3781_rapport-fond.pdf ; EUR-Lex inaccessible au robot) ; page de PGE retirée chez Retailleau. Tests : aucune adresse franceinfo.fr étiquetée, agrégateurs signalés sur les données d'entrée et en Vie quotidienne."
+  },
+  {
+   "id": "S182",
+   "type": "a_corriger",
+   "candidats": [
+    "glucksmann",
+    "zemmour",
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "« Qu'est-ce qui peut passer ? » et répartition des verdicts : mesures hors total comprises",
+   "detail": "Relecture indépendante du 31/10/2026 (lot « simulateur, affichage, Vie quotidienne », branche revue/affichage-3110), constat 3. Le tableau de l'accueil et la barre des verdicts d'une fiche candidat prenaient aussi les mesures non confirmées et les doublons : Glucksmann et Zemmour « Très difficile » en Impôts (Zucman, CSG de S. Knafo), Lisnard « Très difficile » en Dépense publique (doublon).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 (template.html). Règle : mêmes mesures que les totaux et le quiz, hors mesures non confirmées (a_confirmer) et doublons (exclude) ; les non chiffrables y restent. Fonction commune kept() ; texte de l'accueil et méthode (« Ce qui n'est pas compté ») complétés. Test : aucune case ne renvoie à une mesure hors total, chaque case donne le verdict le plus contraignant des mesures retenues, la répartition compte les mesures retenues."
+  },
+  {
+   "id": "S183",
+   "type": "a_trancher",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "philippe",
+    "glucksmann",
+    "attal",
+    "retailleau",
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Vie quotidienne : étiquette d'efficacité fixée à la main, différente pour les mêmes lectures",
+   "detail": "Relecture indépendante du 31/10/2026 (lot « simulateur, affichage, Vie quotidienne », branche revue/affichage-3110), constat 17. Mêmes lectures, étiquettes différentes (économie : Retailleau et Zemmour « non démontré », mêmes études « mitigé » ailleurs ; sécurité : Retailleau « mitigé », Lisnard « non démontré » ; santé : Zemmour « pas d'étude » malgré la suppression de l'AME ; rayonnement : Retailleau « pas d'étude » malgré France Stratégie 2016).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Tranché le 31/10 par la règle des consignes du porteur (CONSIGNES10, point 17), écrite dans la méthode : chaque lecture (texte exact, le même chez tous les candidats qui proposent ce type de mesure : constantes de life.py et lectures propres listées dans NIV) a un niveau au regard de l'effet recherché par ce type de proposition : prouvé (les évaluations montrent cet effet), mitigé (effet partiel, faible ou contrasté, obtenu avec un effet contraire notable, ou montré seulement pour une mesure voisine), non démontré (pas d'effet, effet inverse, ou seulement un coût mesuré) ; une lecture qui ne donne qu'un fait ou constate l'absence d'évaluation n'a pas de niveau. Étiquette d'un thème : aucune lecture d'étude → « pas d'étude » ; toutes au même niveau → ce niveau ; sinon « mitigée ». Le pipeline échoue si une lecture n'a pas de niveau. Lecture AME ajoutée chez Zemmour (santé) : texte de l'état des études du quiz, identique pour Le Pen, Retailleau, Lisnard et Zemmour, avec ses trois études (IGAS-IGF 2019, European Economic Review 2021, PLOS ONE 2015). Les lectures écrites ou relues par la review 30 (formation des médecins, orientation, Egalim, régularisation par le travail, pointage, plateformes, règle d'or, incertitude, voile, SEQE 2, élèves exclus) ont leur niveau ; le pipeline échoue aussi si une lecture de NIV ne sert plus. Étiquettes qui changent (par rapport à main après la PR #51) : Philippe santé pas d'étude → mitigée (formation des médecins, Cour des comptes 2024) ; Glucksmann santé mitigée → prouvée (maisons de santé, Irdes 2020) ; Attal rayonnement mitigée → non démontrée (IA, droits de douane) ; Retailleau santé mitigée → non démontrée (jour de carence, Insee 2017), économie non démontrée → mitigée (règle d'or), rayonnement pas d'étude → non démontrée (visas, France Stratégie 2016) ; Lisnard sécurité non démontrée → mitigée (peines planchers), logement mitigée → non démontrée (SRU) ; Zemmour sécurité non démontrée → mitigée (peines planchers), santé pas d'étude → non démontrée (AME). Les niveaux fixés à la main (evidence_level de OVR et des fichiers life-*.json) ne servent plus."
+  },
+  {
+   "id": "S184",
+   "type": "a_corriger",
+   "candidats": [
+    "le-pen",
+    "glucksmann",
+    "attal",
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Vie quotidienne : nucléaire neuf lu avec des études différentes selon les candidats",
+   "detail": "Relecture indépendante du 31/10/2026 (lot « simulateur, affichage, Vie quotidienne », branche revue/affichage-3110), constat 18. Le Pen n'avait que RTE, Attal et Lisnard que la Cour des comptes (EPR), Retailleau et Zemmour les deux ; Glucksmann (nouvelles unités) avait une autre formulation de RTE.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 (life.py, review 32). Règle : toute proposition de nouveaux réacteurs a les deux lectures, même texte (EPR, Cour des comptes 2025 ; RTE, Futurs énergétiques 2050, 2021), avec leurs sources officielles : Le Pen, Glucksmann, Attal, Retailleau, Lisnard, Zemmour. Mélenchon (sortie du nucléaire) garde la lecture RTE des scénarios sans nouveau nucléaire. Étiquettes inchangées (mitigée)."
+  },
+  {
+   "id": "S185",
+   "type": "a_corriger",
+   "candidats": [
+    "retailleau",
+    "zemmour",
+    "attal"
+   ],
+   "mesure": [
+    "retailleau.seuil_zero_cotisation",
+    "zemmour.succession",
+    "zemmour.csg",
+    "attal.annee_blanche"
+   ],
+   "sujet": "Textes du simulateur qui contredisent les fiches",
+   "detail": "Relecture indépendante du 31/10/2026 (lot « simulateur, affichage, Vie quotidienne », branche revue/affichage-3110), constat 29. Retailleau : seuil des heures sup à 1 607 h au simulateur, 1 623 h dans la fiche, et proposition « intention » en Vie quotidienne ; Zemmour : abolition des successions datée du « programme 2022 » ; Attal : « allocations probablement gelées ».",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10. Retailleau : seuil vérifié à la source, 1 623 h par an (livret « Le travail gagnant », p. 6, 10 et 20 : « Le seuil est fixé à 1 623 heures par an, au lieu de 1 607 heures aujourd'hui » ; https://www.avecretailleau.fr/api/media/file/Livret_Travail.pdf, vérifié le 31/10), aligné au simulateur ; en Vie quotidienne, « Seuil « zéro cotisation » : heures travaillées au-delà de 1 623 h par an exonérées de toutes les cotisations sociales », précise (chiffre). Zemmour : succession et CSG sur les revenus d'activité « proposées en 2026 par S. Knafo, non reprises par le candidat », comme les fiches (même règle que S074 pour les deux mesures). Attal : « Gel des prestations en 2028 : application aux allocations chômage non précisée »."
+  },
+  {
+   "id": "S186",
+   "type": "a_trancher",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "philippe",
+    "glucksmann",
+    "retailleau",
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Test « précis / intention » : changements de droit nommés laissés en intention",
+   "detail": "Relecture indépendante du 31/10/2026 (lot « simulateur, affichage, Vie quotidienne », branche revue/affichage-3110), constat 30. La sortie du commandement intégré de l'OTAN est précise (VFLIP), mais « Supprimer le droit de veto au sein de l'UE » (Glucksmann) et « Aucune intervention militaire sans mandat de l'ONU » (Mélenchon) restaient des intentions ; VFLIP ne s'appliquait pas aux propositions réécrites dans life.py.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Tranché le 31/10 par la règle des consignes (point 30), écrite dans la méthode : un changement de droit nommé (sortie du commandement intégré de l'OTAN, fin du droit de veto, mandat de l'ONU obligatoire, instrument ou accord nommé et ce qui y change) est un moyen juridique précis ; un objectif, une orientation ou une création sans paramètre (plan, pôle, fonds) reste une intention. VFLIP appliqué après les réécritures, à toutes les propositions affichées. Deviennent précises : Le Pen « Refuser les instruments européens de défense : FED, EDIP, SAFE » ; Mélenchon « Aucune intervention militaire sans mandat de l'ONU » ; Philippe « Liste européenne commune de pays sûrs, sans droit d'asile » ; Glucksmann « Supprimer le droit de veto au sein de l'UE » ; Retailleau « Intégrer les dépenses de défense dans le calcul de cette contribution » ; Lisnard « Accord UE-Mercosur : en exclure l'élevage ou imposer des clauses miroirs » (et Retailleau, heures supplémentaires, par son chiffre). Restent des intentions, avec la même règle : pôle public de l'armement, grand emprunt européen, réduire la contribution par la négociation, la contribution comme levier, hausser le budget des armées, réforme institutionnelle soumise au vote."
+  },
+  {
+   "id": "S187",
+   "type": "a_corriger",
+   "candidats": [
+    "lisnard",
+    "melenchon",
+    "glucksmann",
+    "attal",
+    "retailleau"
+   ],
+   "mesure": [
+    "lisnard.csg_actifs",
+    "lisnard.sante.2",
+    "retailleau.immigration"
+   ],
+   "sujet": "Quiz : constats manquants, une proposition sans source, un « Contre » sur le financement",
+   "detail": "Relecture indépendante du 31/10/2026 (lot « simulateur, affichage, Vie quotidienne », branche revue/affichage-3110), constat 31. Neuf propositions sans constat ; lisnard.sante.2 sans source ; « Contre » de la baisse de CSG de Lisnard sur le financement ; retailleau.immigration avec une preuve « mitigé » et les mêmes cas que les aides réservées (« solide »).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10. (1) Règle du constat écrite dans la méthode (quiz) : une mesure institutionnelle ou d'organisation (Constitution, référendum, organisation de l'État, des agences ou des établissements), ou une mesure dont aucune série officielle ne mesure ce qu'elle vise, n'a pas de constat, même règle pour toutes ; sans constat à ce titre : melenchon.constituante, attal.europe, lisnard.referendum, lisnard.sante.2, retailleau.ecole.4 (institution ou organisation), glucksmann.service_civique, attal.engagement_civique, glucksmann.ukraine, attal.travail (aucune série officielle vérifiée : S060, qui reste ouvert pour les deux derniers). (2) lisnard.sante.2 sourcé : Sénat, rapport d'information n° 657 (2025-2026), synthèse (« le bilan est contrasté » ; « l'éloignement du terrain […] l'articulation perfectible avec les préfets »), https://www.senat.fr/rap/r25-657/r25-657-syn.pdf ; la mention d'un rapport de la Cour des comptes, non retrouvé, est retirée. (3) lisnard.csg_actifs : « Contre » sur un effet observé de la dernière baisse du même type, même test que les autres baisses de prélèvements (à qui va le gain) : bascule de 2018, 19 € par an pour les 10 % les plus modestes, 60 à 90 € pour les 2e à 9e déciles (Insee, France portrait social 2019, Biotteau et al., https://www.insee.fr/fr/statistiques/4238451, vérifié le 31/10), preuve « solide » ; le complément sur le financement et les deux cas sur les économies de 2009-2012 (Sénat 2012), qui portaient sur le financement, sont retirés. (4) retailleau.immigration laissé « mitigé » : la mesure réunit aides et nationalité (droit du sol), et l'argument « Pour » porte aussi sur la nationalité, sans étude ; ce n'est pas le même type de mesure que les aides réservées seules."
+  },
+  {
+   "id": "S188",
+   "type": "a_corriger",
+   "candidats": [
+    "philippe",
+    "le-pen",
+    "retailleau",
+    "attal",
+    "glucksmann",
+    "lisnard"
+   ],
+   "mesure": null,
+   "sujet": "Une même source avec des années ou des attributions différentes",
+   "detail": "Relecture indépendante du 31/10/2026 (lot « simulateur, affichage, Vie quotidienne », branche revue/affichage-3110), constat 32. Public Sénat (« deal » de Philippe) en 2025 et 2026 ; commission d'enquête du Sénat sur les agences en 2026 (Le Pen, via un article) et 2025 (Retailleau) ; même article de MoneyVox attribué à « l'étude d'impact » ou à « l'Institut Montaigne / gouvernement (AFP) » ; page de PGE titrée « contre-budget RN » ou « Institut de l'Entreprise ».",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10. Règle écrite dans la méthode (sources) : une source a une seule année, celle de sa publication, et un seul titre (auteur et date), partout où elle est citée ; dans les repères, l'année affichée est celle du chiffre (« données 2025 »). Contrôle dans run.py : une adresse → une année, sur les fiches, la Vie quotidienne et le quiz (les repères, qui donnent l'année du chiffre, en sont exclus). Corrigés : Public Sénat / Rexecode, publié le 6/11/2025 (2025 partout) ; Le Pen, agences : le rapport du Sénat n° 807 (2025) lui-même, même entrée que chez Retailleau ; MoneyVox (12/07/2024) : « Étude d'impact du Gouvernement et Institut Montaigne (MoneyVox, AFP) » partout ; Public Sénat sur les agences (Retailleau, Lisnard) : un seul titre ; Capital du 30/08/2026 (Glucksmann, Attal) : « Capital (30/08/2026) » suivi de ce qui est cité ; PGE : retirée chez Retailleau, un seul titre chez Le Pen. Les autres variantes de titre relevées (51 adresses) ne changent pas l'auteur : précision de page, de date ou de ce qui est cité."
+  },
+  {
+   "id": "S189",
+   "type": "a_corriger",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "philippe",
+    "glucksmann",
+    "attal",
+    "retailleau",
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Typographie : nombres et unités coupés en fin de ligne",
+   "detail": "Relecture indépendante du 31/10/2026 (lot « simulateur, affichage, Vie quotidienne », branche revue/affichage-3110), constat 35. Espaces ordinaires dans les nombres et avant les unités : « 1 600 » et « € net » sur deux lignes dans le résumé de Glucksmann à 360 px.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 (build.py) : pour tous les textes publiés, espace fine insécable dans les groupes de chiffres et espace insécable avant les unités (€, Md€, M€, k€, c€, %, TWh, GW, km) ; adresses et identifiants non touchés ; le pipeline échoue s'il reste un nombre séparé de son unité par une espace sécable. Test à 360 px sur le résumé de Glucksmann."
+  },
+  {
+   "id": "S190",
+   "type": "a_corriger",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Sondages : date de la moyenne non affichée",
+   "detail": "Relecture indépendante du 31/10/2026 (lot « simulateur, affichage, Vie quotidienne », branche revue/affichage-3110), constat 34. Au 31/10, deux des sept vagues (YouGov, Elabe) sortent de la fenêtre de 15 jours de la règle, respectée à la date du fichier (29/10) : échéance de mise à jour (S004, autre branche).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 (template.html) : date de la moyenne affichée à côté des intentions de vote, sur l'accueil (« intentions de vote : moyenne des instituts au … ») et sur la fiche (« moyenne au … »), masquée avec les sondages la veille et le jour du scrutin ; méthode complétée. Les vagues elles-mêmes ont été mises à jour le 31/10 par le registre du 31/10 (PR #51, S004)."
+  },
+  {
+   "id": "S191",
+   "type": "a_corriger",
+   "candidats": [],
+   "mesure": null,
+   "sujet": "Historique : 25 entrées le 29/10, deux entrées contradictoires sur les carburants, une entrée du 28/10 mal rangée",
+   "detail": "Relecture indépendante du 31/10/2026, constat 33. La règle « une entrée par sujet et par jour » n'était pas respectée le 29/10 ; l'entrée « Simulateur » datait la baisse de la taxe sur les carburants au prix de la semaine du 23/10, alors que l'entrée « Prix de référence des carburants » du même jour la recalcule à la moyenne des 12 derniers mois ; l'entrée du 28/10 « Sources consolidées » était rangée parmi celles du 27/10 ; « Totaux avec les agences et les postes de Le Pen » alors que les postes de Le Pen ne sont plus comptés.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 (build.py), en dernier, sur main à jour (PR #51 et #53 fusionnées) : les 25 entrées du 29/10 fusionnées en 7, une par sujet (site et interface, sondages, simulateur, chiffrages, Vie quotidienne, quiz, règles communes : carburants, agences, impôts récupérés), phrases reprises mot pour mot dans l'ordre du jour (contrôle dans le script de fusion) ; « au prix à la pompe de la semaine du 23/10/2026 » remplacé par « au prix moyen des 12 derniers mois » ; « Totaux après ces deux changements (agences, impôt sur les sociétés) » ; entrée du 28/10 remise avec les autres du 28/10. Même règle pour le 31/10 : 14 entrées (registre du 31/10, lot V, cette relecture) regroupées en 6 (sondages, chiffrages, verdicts et textes des fiches, simulateur, Vie quotidienne et quiz, affichage et sources), textes repris mot pour mot. Les autres jours ne sont pas touchés."
   }
  ]
 }
