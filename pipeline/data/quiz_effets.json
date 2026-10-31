@@ -362,7 +362,7 @@
 ]
 }
 ],
-"etudes": "Une méta-analyse de 30 études (ZEW, 2018) trouve un effet modérateur des règles budgétaires sur les déficits, qui faiblit nettement une fois corrigés les biais.",
+"etudes": "Une méta-analyse de 30 études (ZEW, 2016) trouve que les règles budgétaires réduisent les déficits de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, un effet plus faible avec les meilleures méthodes.",
 "src": [
 {
 "l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
@@ -383,6 +383,11 @@
 "l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
 "a": 2026,
 "u": "https://www.insee.fr/fr/statistiques/serie/010777608"
+},
+{
+"l": "Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)",
+"a": 2016,
+"u": "https://www.zew.de/PU77836"
 }
 ]
 },
@@ -562,7 +567,8 @@
 "t": "En français, les gains des CP et CE1 dédoublés n'apparaissent plus à l'entrée en 6e, pour la première génération comme pour les suivantes (DEPP, France, 2026).",
 "s": [
 0,
-2
+2,
+5
 ]
 }
 ],
@@ -592,6 +598,11 @@
 "l": "OCDE, Regards sur l'éducation 2025 (via Acteurs publics)",
 "a": 2025,
 "u": "https://acteurspublics.fr/articles/penurie-denseignants-la-france-nest-finalement-pas-si-mal-lotie/"
+},
+{
+"l": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
+"a": 2026,
+"u": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
 }
 ]
 },
@@ -5424,7 +5435,8 @@
 "t": "Pour la première génération de CP-CE1 dédoublés, l'avance ne se voyait plus à l'entrée en 6e ; les suivantes gardent un petit gain en maths (DEPP, France, 2026).",
 "s": [
 0,
-3
+3,
+5
 ]
 },
 {
@@ -5460,6 +5472,11 @@
 "l": "DEPP, Repères et références statistiques 2026, chapitre 2 (les établissements)",
 "a": 2026,
 "u": "https://www.education.gouv.fr/sites/default/files/document/2-les-etablissementspdf-519279.pdf"
+},
+{
+"l": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
+"a": 2026,
+"u": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
 }
 ]
 },
@@ -8579,7 +8596,7 @@
 ]
 },
 "melenchon.ecole.1": {
-"constat": "Néo-bacheliers : 93,5 % avec une proposition Parcoursup en 2025 (94,5 % en 2024) ; 49,1 % passent en 2e année de licence (SIES).",
+"constat": "Néo-bacheliers : 93,7 % avec une proposition Parcoursup en 2026 (93,5 % en 2025) ; 49,1 % passent en 2e année de licence (SIES).",
 "constat_s": [
 1,
 2
@@ -8640,9 +8657,9 @@
 "u": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
 },
 {
-"l": "SIES, Note Flash n° 28, Parcoursup 2025 : les propositions d'admission dans l'enseignement supérieur",
-"a": 2025,
-"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-28-38282.pdf"
+"l": "SIES, Note Flash n° 26, Parcoursup 2026 : les propositions d'admission dans l'enseignement supérieur",
+"a": 2026,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-10/NF2_Admission_Parcoursup_2026_def.pdf"
 },
 {
 "l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
@@ -8662,7 +8679,7 @@
 ]
 },
 "glucksmann.ecole.3": {
-"constat": "Néo-bacheliers : 93,5 % avec une proposition Parcoursup en 2025 (94,5 % en 2024) ; 49,1 % passent en 2e année de licence (SIES).",
+"constat": "Néo-bacheliers : 93,7 % avec une proposition Parcoursup en 2026 (93,5 % en 2025) ; 49,1 % passent en 2e année de licence (SIES).",
 "constat_s": [
 1,
 2
@@ -8719,9 +8736,9 @@
 "u": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
 },
 {
-"l": "SIES, Note Flash n° 28, Parcoursup 2025 : les propositions d'admission dans l'enseignement supérieur",
-"a": 2025,
-"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-28-38282.pdf"
+"l": "SIES, Note Flash n° 26, Parcoursup 2026 : les propositions d'admission dans l'enseignement supérieur",
+"a": 2026,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-10/NF2_Admission_Parcoursup_2026_def.pdf"
 },
 {
 "l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
@@ -8741,7 +8758,7 @@
 ]
 },
 "retailleau.ecole.1": {
-"constat": "Néo-bacheliers : 93,5 % avec une proposition Parcoursup en 2025 (94,5 % en 2024) ; 49,1 % passent en 2e année de licence (SIES).",
+"constat": "Néo-bacheliers : 93,7 % avec une proposition Parcoursup en 2026 (93,5 % en 2025) ; 49,1 % passent en 2e année de licence (SIES).",
 "constat_s": [
 1,
 2
@@ -8798,9 +8815,9 @@
 "u": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
 },
 {
-"l": "SIES, Note Flash n° 28, Parcoursup 2025 : les propositions d'admission dans l'enseignement supérieur",
-"a": 2025,
-"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-28-38282.pdf"
+"l": "SIES, Note Flash n° 26, Parcoursup 2026 : les propositions d'admission dans l'enseignement supérieur",
+"a": 2026,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-10/NF2_Admission_Parcoursup_2026_def.pdf"
 },
 {
 "l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
@@ -8824,13 +8841,13 @@
 "constat_s": [
 0
 ],
-"pour": "Un camarade très perturbateur en primaire réduit de 3 à 4 % le salaire de chacun des autres à 26 ans.",
+"pour": "Un camarade très perturbateur en primaire réduit de 3 % le salaire de chacun des autres entre 24 et 28 ans.",
 "preuve_pour": "mitigé",
-"contre": "Des établissements créés en 2010 pour les élèves exclus à répétition ont eu des résultats décevants.",
+"contre": "Des établissements ouverts en 2010 pour les élèves exclus à répétition ont eu des résultats mitigés.",
 "preuve_contre": "faible",
 "cas_pour": [
 {
-"t": "Avoir eu en primaire un camarade perturbateur (enfant exposé à des violences familiales) a réduit de 3 à 4 % le salaire à 26 ans de ses camarades (Carrell et al., États-Unis, 2018).",
+"t": "Avoir eu en primaire un camarade perturbateur (enfant exposé à des violences familiales) dans une classe de 25 a réduit de 3 % le salaire entre 24 et 28 ans de ses camarades (Carrell et al., États-Unis, 2018).",
 "s": [
 1
 ]
@@ -8838,13 +8855,14 @@
 ],
 "cas_contre": [
 {
-"t": "Les 16 établissements ouverts en 2010 pour des collégiens exclus à répétition ont eu des résultats « le plus souvent décevants » ; ils ont été abandonnés (inspections générales, France, 2012).",
+"t": "Sur 120 élèves passés en 2010-2011 par ces établissements pour élèves exclus à répétition, un quart était sans solution en janvier 2012 ; résultats « mitigés », dispositif abandonné (inspections générales, France, 2012).",
 "s": [
+3,
 2
 ]
 }
 ],
-"etudes": "Pas d'évaluation des internats disciplinaires ; l'essai français de 2010, aux résultats souvent décevants, a été arrêté. Un élève perturbateur pèse sur ses camarades (États-Unis).",
+"etudes": "Pas d'évaluation des internats disciplinaires ; l'essai français de 2010, aux résultats mitigés, a été arrêté. Un élève perturbateur pèse sur ses camarades (États-Unis).",
 "src": [
 {
 "l": "DEPP, Note d'information n° 26.03, Les signalements d'incidents graves en 2024-2025 (enquête Sivis)",
@@ -8852,14 +8870,19 @@
 "u": "https://www.education.gouv.fr/sites/default/files/document/Note%20d%26%23039%3BInformation%20n%C2%B0%2026-03-479480.pdf"
 },
 {
-"l": "Carrell, Hoekstra, Kuka, The Long-Run Effects of Disruptive Peers (NBER w22042, American Economic Review 2018)",
+"l": "Carrell, Hoekstra, Kuka, The Long-Run Effects of Disruptive Peers (American Economic Review, vol. 108, n° 11)",
 "a": 2018,
-"u": "https://www.nber.org/papers/w22042"
+"u": "https://www.aeaweb.org/articles?id=10.1257/aer.20160763"
 },
 {
 "l": "Ministère de l'Éducation nationale, réponse à la question écrite n° 85814 (rapport des inspections générales de juin 2012 sur les établissements de réinsertion scolaire)",
 "a": 2016,
 "u": "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE85814.pdf"
+},
+{
+"l": "Inspections générales (IGEN-IGAENR), Rapport annuel 2012, « Les établissements de réinsertion scolaire : bilan et perspectives » (p. 41-47)",
+"a": 2012,
+"u": "https://www.vie-publique.fr/files/rapport/pdf/144000010.pdf"
 }
 ]
 },
@@ -8888,7 +8911,7 @@
 ],
 "cas_contre": [
 {
-"t": "Les élèves ayant obtenu par tirage au sort un chèque pour une école privée ont perdu 0,4 écart-type en maths (Abdulkadiroglu et al., Louisiane, 2018).",
+"t": "Les élèves entrés dans une école privée grâce à un chèque tiré au sort ont perdu 0,4 écart-type en maths en un an (Abdulkadiroglu et al., Louisiane, 2018).",
 "s": [
 3
 ]
@@ -8929,7 +8952,7 @@
 "u": "https://www.nber.org/papers/w21839"
 },
 {
-"l": "Hsieh, Urquiola, When Schools Compete, How Do They Compete? Chile's Nationwide School Voucher Program (NBER w10008 ; Journal of Public Economics 2006)",
+"l": "Hsieh, Urquiola, When Schools Compete, How Do They Compete? (NBER w10008, 2003 ; publié en 2006 dans le Journal of Public Economics sous un autre titre)",
 "a": 2006,
 "u": "https://www.nber.org/papers/w10008"
 },
@@ -9329,7 +9352,8 @@
 "t": "Pour la première génération de CP-CE1 dédoublés, l'avance ne se voyait plus à l'entrée en 6e ; les suivantes gardent un petit gain en maths (DEPP, France, 2026).",
 "s": [
 0,
-3
+3,
+5
 ]
 }
 ],
@@ -9359,6 +9383,11 @@
 "l": "DEPP, Repères et références statistiques 2026, chapitre 2 (les établissements)",
 "a": 2026,
 "u": "https://www.education.gouv.fr/sites/default/files/document/2-les-etablissementspdf-519279.pdf"
+},
+{
+"l": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
+"a": 2026,
+"u": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
 }
 ]
 },
@@ -9518,7 +9547,7 @@
 ]
 }
 ],
-"etudes": "Une méta-analyse de 30 études (ZEW, 2018) trouve un effet modérateur des règles budgétaires sur les déficits, qui faiblit nettement une fois corrigés les biais.",
+"etudes": "Une méta-analyse de 30 études (ZEW, 2016) trouve que les règles budgétaires réduisent les déficits de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, un effet plus faible avec les meilleures méthodes.",
 "src": [
 {
 "l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
@@ -9539,6 +9568,11 @@
 "l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
 "a": 2026,
 "u": "https://www.insee.fr/fr/statistiques/serie/010777608"
+},
+{
+"l": "Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)",
+"a": 2016,
+"u": "https://www.zew.de/PU77836"
 }
 ]
 },
@@ -9569,7 +9603,7 @@
 ]
 }
 ],
-"etudes": "Une méta-analyse de 30 études (ZEW, 2018) trouve un effet modérateur des règles budgétaires sur les déficits, qui faiblit nettement une fois corrigés les biais.",
+"etudes": "Une méta-analyse de 30 études (ZEW, 2016) trouve que les règles budgétaires réduisent les déficits de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, un effet plus faible avec les meilleures méthodes.",
 "src": [
 {
 "l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
@@ -9590,6 +9624,11 @@
 "l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
 "a": 2026,
 "u": "https://www.insee.fr/fr/statistiques/serie/010777608"
+},
+{
+"l": "Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)",
+"a": 2016,
+"u": "https://www.zew.de/PU77836"
 }
 ]
 },
@@ -9620,7 +9659,7 @@
 ]
 }
 ],
-"etudes": "Une méta-analyse de 30 études (ZEW, 2018) trouve un effet modérateur des règles budgétaires sur les déficits, qui faiblit nettement une fois corrigés les biais.",
+"etudes": "Une méta-analyse de 30 études (ZEW, 2016) trouve que les règles budgétaires réduisent les déficits de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, un effet plus faible avec les meilleures méthodes.",
 "src": [
 {
 "l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
@@ -9641,6 +9680,11 @@
 "l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
 "a": 2026,
 "u": "https://www.insee.fr/fr/statistiques/serie/010777608"
+},
+{
+"l": "Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)",
+"a": 2016,
+"u": "https://www.zew.de/PU77836"
 }
 ]
 }

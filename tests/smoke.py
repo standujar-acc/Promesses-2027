@@ -252,6 +252,13 @@ with sync_playwright() as p:
       const v=id=>{ const row=[...document.querySelectorAll(`#simres .srow[data-c="${id}"] .rw`)].find(x=>/Taxe sur les carburants/.test(x.textContent)); const m=row&&row.textContent.match(/([0-9]+) €\\/mois/); return m?+m[1]:0; };
       const out=[v('le-pen'), v('zemmour')]; document.getElementById('s-fuel').value=100; sim(); return out; })()""")
     check(r[0] in (5, 6) and r[1] in (42, 43, 44), f'simulateur : taxe carburant Le Pen ≈ 5,3 €, Zemmour ≈ 43 € pour 300 €/mois d\'essence au prix moyen des 12 derniers mois {r}')
+    # fin des certificats d'économies d'énergie : même hypothèse officielle (−7 c€ par litre, TTC) chez Retailleau et Zemmour, rien chez les autres
+    r = pg.evaluate("""(()=>{ document.getElementById('s-fuel').value=300; document.querySelector('#s-status [data-v="prive"]').click(); openSim.clear(); D.candidates.forEach(c=>openSim.add(c.id)); sim();
+      const v=id=>{ const row=[...document.querySelectorAll(`#simres .srow[data-c="${id}"] .rw`)].find(x=>/certificats d'économies d'énergie/.test(x.textContent)); const m=row&&row.textContent.match(/([0-9]+) €\\/mois/); return m?+m[1]:0; };
+      const out=D.candidates.map(c=>[c.id, v(c.id)]); document.getElementById('s-fuel').value=100; sim(); return out; })()""")
+    cee = dict(r)
+    check(cee['retailleau'] in (10, 11) and cee['zemmour'] in (10, 11) and all(v == 0 for c, v in cee.items() if c not in ('retailleau', 'zemmour')),
+          f'simulateur : fin des certificats d\'économies d\'énergie ≈ 11 € pour 300 €/mois d\'essence chez Retailleau et Zemmour, même hypothèse, rien ailleurs {r}')
     # part fiscale entière dès le 2e enfant (Le Pen) : gain avec 2 enfants, rien avec 1, pas de double compte avec l'exonération des moins de 30 ans
     r = pg.evaluate("""(()=>{ const g=id=>document.getElementById(id); document.querySelector('#s-status [data-v="prive"]').click(); g('s-salary').value=3500; openSim.clear(); openSim.add('le-pen');
       const f=(k,y)=>{ S.kids=k; g('s-year').value=y; sim(); return [...document.querySelectorAll('#simres .srow[data-c="le-pen"] .rw')].filter(x=>/^Impôt/.test(x.textContent.trim())).length; };
