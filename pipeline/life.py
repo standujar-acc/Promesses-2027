@@ -661,16 +661,19 @@ VFLIP = {'Bloquer temporairement': False, 'Assistant médical fondé sur l': Fal
 # (17) Étiquette d'efficacité calculée à partir des lectures : chaque lecture (texte exact, partagé par tous les candidats qui ont ce type de
 # proposition) a un niveau, au regard de l'effet recherché par ce type de proposition : « prouvee » (les évaluations montrent l'effet recherché),
 # « mitigee » (effet partiel, faible ou contrasté, obtenu avec un effet contraire notable, ou montré seulement pour une mesure voisine),
-# « non_demontree » (pas d'effet, effet inverse, ou seulement un coût mesuré), None (aucune évaluation de l'effet : un fait, un diagnostic,
-# ou « non évalué »). Étiquette d'un thème : aucune lecture d'étude → « pas d'étude » ; toutes au même niveau → ce niveau ; sinon « mitigée ».
-PROUV, MITIG, NONDEM = 'prouvee', 'mitigee', 'non_demontree'
+# « non_demontree » (pas d'effet, effet inverse, ou seulement un coût mesuré), « pas_d_etude » (ABSENT : la lecture constate l'absence
+# d'évaluation) ; None : la lecture ne donne qu'un fait (droit existant, situation de départ). Étiquette d'un thème : aucune lecture d'étude
+# ni constat d'absence → « pas d'étude » ; toutes les lectures au même niveau → ce niveau ; sinon « mitigée » (preuves partielles ou contrastées).
+# Décision du 31/10 (option b, symétrique) : une étiquette extrême, « prouvée » comme « non démontrée », ne tient pas sur une seule lecture
+# quand une autre lecture du même thème constate l'absence d'évaluation.
+PROUV, MITIG, NONDEM, ABSENT = 'prouvee', 'mitigee', 'non_demontree', 'pas_d_etude'
 NIV = {
  # sécurité
- PP: MITIG, PLACES: NONDEM, CASSE: None, HEN.strip(): NONDEM, MIN: NONDEM, CEF: None, DECH: None, RECO: None, EXPUL: NONDEM, GILL: MITIG,
- "Régulation carcérale : pas d'évaluation française identifiée.": None,
+ PP: MITIG, PLACES: NONDEM, CASSE: ABSENT, HEN.strip(): NONDEM, MIN: NONDEM, CEF: ABSENT, DECH: ABSENT, RECO: ABSENT, EXPUL: NONDEM, GILL: MITIG,
+ "Régulation carcérale : pas d'évaluation française identifiée.": ABSENT,
  "Cagoule en manifestation : délit depuis 2019.": None,
- "Pointage lors des manifestations : non évalué.": None,
- "Plateformes : amendes jusqu'à 6 % du chiffre d'affaires mondial et suspension temporaire du service déjà prévues par le règlement européen sur les services numériques ; effet non évalué.": None,
+ "Pointage lors des manifestations : non évalué.": ABSENT,
+ "Plateformes : amendes jusqu'à 6 % du chiffre d'affaires mondial et suspension temporaire du service déjà prévues par le règlement européen sur les services numériques ; effet non évalué.": ABSENT,
  # santé
  "Incitations financières à l'installation : effet modéré à court terme, très faible à long terme (Irdes). Aides jugées mal ciblées (Cour des comptes, 2024).": MITIG,
  "Restrictions d'installation des infirmières en zones sur-denses : meilleure répartition (Irdes, 2022). Régulation des médecins non évaluée en France ; la Cour des comptes la juge faisable.": MITIG,
@@ -678,11 +681,11 @@ NIV = {
  "Propositions non chiffrées.": None,
  "Former plus de médecins : des études qui durent jusqu'à 12 ans, et une hausse qui ne garantit pas leur répartition sur le territoire (Cour des comptes, 2024).": MITIG,
  "Maisons de santé : +3,4 jeunes généralistes pour 100 000 habitants par rapport aux territoires témoins (Irdes, 2020).": PROUV,
- "Fin de la T2A : pas d'évaluation identifiée.": None,
+ "Fin de la T2A : pas d'évaluation identifiée.": ABSENT,
  "Coopération médecin-infirmière Asalée : patientèle +6,6 %, consultations inchangées, qualité non mesurée (Irdes, 2019). La délégation aux pharmaciens est peu évaluée.": MITIG,
  "Jour de carence (fonction publique, 2012-2013) : absences de deux jours −50 %, absences d'une semaine à trois mois +25 %, total inchangé (Insee, 2017).": NONDEM,
  "Aides à l'installation : au moins 15 dispositifs, 205 M€ en 2023 ; plusieurs jugées coûteuses et inefficaces, d'autres utiles (Cour des comptes, 2025).": MITIG,
- "Médecins salariés par l'État et obligation de garde : pas d'évaluation française identifiée.": None,
+ "Médecins salariés par l'État et obligation de garde : pas d'évaluation française identifiée.": ABSENT,
  AME: NONDEM,
  # école
  PARC: MITIG, DD: MITIG, SAL: MITIG, EXAM: MITIG, EX1: PROUV, GN: NONDEM, RED: NONDEM, AUTO: MITIG, CHEQ: MITIG, CARTE: MITIG, MIXITE: MITIG, PETITES: MITIG,
@@ -695,7 +698,7 @@ NIV = {
  "Marché carbone des carburants (en place en 2028) : +10 à 15 c€ par litre à son entrée en vigueur (Institut Montaigne, 2025) ; taxe carbone suédoise : émissions des transports −11 % (2019).": MITIG,
  "RTE : scénarios sans nouveau nucléaire plus coûteux, de l'ordre de 10 Md€/an (jusqu'à 20 dans certaines variantes).": MITIG,
  "HCC 2026 : baisse requise >4 %/an, contre −2,1 % en 2025.": None,
- "HCC 2026 : France « pas prête », plan d'adaptation sous-financé, risque de « maladaptation ». Aucune évaluation d'un fonds unique d'adaptation.": None,
+ "HCC 2026 : France « pas prête », plan d'adaptation sous-financé, risque de « maladaptation ». Aucune évaluation d'un fonds unique d'adaptation.": ABSENT,
  "HCC 2026 : émissions −2,1 % en 2025, un rythme qui doit au moins doubler ; leasing social et MaPrimeRénov' jugés sous-dimensionnés.": None,
  # logement
  RENO: MITIG, SRU: NONDEM,
@@ -706,13 +709,13 @@ NIV = {
  # libertés
  "Voile interdit à l'école : diplômes des filles de culture musulmane en hausse après 1994 (IZA, 2019) ; après 2004, aucun gain de plus (IZA, 2019) ou scolarité des filles en baisse (APSR, 2020) ; aucune étude sur l'université, le sport ni les bâtiments publics.": MITIG,
  "Voile interdit à l'école : diplômes des filles de culture musulmane en hausse après 1994 (IZA, 2019) ; après 2004, aucun gain de plus (IZA, 2019) ou scolarité des filles en baisse (APSR, 2020) ; aucune étude sur l'université ni sur les dissolutions.": MITIG,
- RIC: MITIG, VOTE16: MITIG, SUISSE: MITIG, RIP: None, SECU: None, CSM: None,
- "Aucune évaluation empirique identifiée de l'effet des ordonnances ou du lien parquet-exécutif sur l'efficacité de l'action publique.": None,
+ RIC: MITIG, VOTE16: MITIG, SUISSE: MITIG, RIP: None, SECU: ABSENT, CSM: None,
+ "Aucune évaluation empirique identifiée de l'effet des ordonnances ou du lien parquet-exécutif sur l'efficacité de l'action publique.": ABSENT,
  "Convention climat : 10 % des propositions reprises telles quelles, 53 % rejetées (Courant, 2021).": MITIG,
- "Proportionnelle : pas d'évaluation française récente identifiée.": None,
- "Aucune évaluation publique de l'effet d'une sortie de la CEDH ou d'une primauté constitutionnelle de la loi nationale sur le droit européen.": None,
+ "Proportionnelle : pas d'évaluation française récente identifiée.": ABSENT,
+ "Aucune évaluation publique de l'effet d'une sortie de la CEDH ou d'une primauté constitutionnelle de la loi nationale sur le droit européen.": ABSENT,
  # économie
- IPROD: NONDEM, TEPA: NONDEM, CODE: None, CU: MITIG, IA: NONDEM,
+ IPROD: NONDEM, TEPA: NONDEM, CODE: ABSENT, CU: MITIG, IA: NONDEM,
  "Règle d'or : déficit réduit de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, effet plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023).": MITIG,
  "Incertitude politique : suivie de moins d'investissement (États-Unis), de production et d'emploi (12 pays), sans preuve de causalité (2016) ; règle de stabilité fiscale non évaluée.": MITIG,
  "Lois Egalim : efficacité économique difficile à établir, contrats écrits peu appliqués ; part agricole du prix au détail en hausse en 2021-2023 (Assemblée nationale, 2025).": MITIG,
@@ -720,12 +723,12 @@ NIV = {
  "Chômage plus court de 12 %, mais emplois peu durables (Dares, 2025).": MITIG,
  "Experts SMIC (2025) : risque pour l'emploi peu qualifié, SMIC à 62,5 % du médian.": MITIG,
  "Bozio-Wasmer (2024) : supprimer ces exonérations sans recyclage coûterait ~61 000 emplois.": MITIG,
- "CAE (2021) : héritage très concentré, 35-40 % échappe à l'impôt, ~12 Md€ récupérables ; effets économiques non évalués faute de données fiables.": None,
+ "CAE (2021) : héritage très concentré, 35-40 % échappe à l'impôt, ~12 Md€ récupérables ; effets économiques non évalués faute de données fiables.": ABSENT,
  "CEPII (2007) : TVA sociale, emplois modestes si ciblée sur les bas salaires, pouvoir d'achat réduit.": MITIG,
  # rayonnement
  VED: MITIG, UEU: None, FIN: MITIG, DOUANE: NONDEM, SCH: NONDEM,
- "Pas d'évaluation publique de cet objectif.": None,
- "Pas d'évaluation publique de l'effet d'une dénonciation de l'accord de 1968 sur les relations ou l'influence de la France.": None,
+ "Pas d'évaluation publique de cet objectif.": ABSENT,
+ "Pas d'évaluation publique de l'effet d'une dénonciation de l'accord de 1968 sur les relations ou l'influence de la France.": ABSENT,
  "Cour des comptes européenne (2024), plan de relance commun : absorption en retard, 24 % des résultats attendus manquants ; France au-dessus de la moyenne.": MITIG,
 }
 LECT = sorted(NIV, key=len, reverse=True)
