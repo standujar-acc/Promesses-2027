@@ -1359,6 +1359,228 @@ SET('lisnard','csg_actifs',-27.8,-31.6,-25.9,"2,6 points × 12,0 Md€ par point
 _ir11(k)
 D['asof']='31 octobre 2026'
 
+# --- review 31 : verdicts et textes, relecture du 31/10 (31/10/2026) ; registre S162 à S178
+# Relecture indépendante du 31/10 (constats 4 à 37, lot « verdicts et textes ») ; chaque constat revérifié sur les données du jour.
+# S162 et S163 : le verdict porte sur la voie juridique et pratique de la mesure, ni sur son coût ni sur l'écart entre le chiffre du camp et
+# le chiffrage (montré par le chiffrage, pour tous) : le critère « rendement surévalué » est retiré. Dépenses et baisses de prélèvements non
+# financées : une seule règle, celle qui change le moins de verdicts. Inventaire du 31/10 : 89 fiches qui coûtent (effet central négatif ou
+# coût indicatif des non chiffrables, hors « Exige une révision »), 48 « faisable », 37 « sous conditions », 4 « très difficile ». Lecture (a),
+# « faisable » par décret ou loi ordinaire avec des paramètres publiés, « financement non précisé dans la mesure » dit dans l'obstacle,
+# « sous conditions » réservé à une condition identifiée hors de la décision : 13 verdicts changent. Lecture (b), « sous conditions » pour
+# toute mesure non financée : 49 changent. Lecture (a) retenue, la même pour tous les types (enseignants, impôts et cotisations, dépenses).
+FNP="financement non précisé dans la mesure"
+def V(cid,mid,old,new,ob=None):
+    m=M(cid,mid); assert m['verdict']==old,(cid,mid,m['verdict']); m['verdict']=new
+    if ob: m['obstacle']=ob
+def OB(cid,mid,ob): M(cid,mid)['obstacle']=ob
+def NOTE(cid,mid,note): M(cid,mid)['claude']['note']=note
+def REP(cid,mid,field,a,b):
+    k=M(cid,mid)['claude']; assert k[field].count(a)==1,(cid,mid,field,a); k[field]=k[field].replace(a,b)
+# (a) dépenses et baisses de prélèvements non financées : « faisable » quand rien d'autre que le financement ne manque (S162)
+V('le-pen','retraites','sous_conditions','faisable',"Par la loi ; "+FNP+" ; détail de la réforme annoncé pour le 17/11.")
+V('glucksmann','retraites','sous_conditions','faisable',"Par la loi ; "+FNP+" ; modulation selon la pénibilité non publiée.")
+TPROF="Par la loi de finances et par décret (grilles) ; "+FNP+"."
+V('philippe','profs','sous_conditions','faisable',TPROF); V('lisnard','profs','sous_conditions','faisable',TPROF); V('glucksmann','ecole','sous_conditions','faisable',TPROF)
+OB('attal','profs',TPROF); OB('retailleau','profs',TPROF)
+NOTE('philippe','profs',"Financement annoncé par la baisse du nombre d'élèves : non compté (même règle pour toutes les hausses des enseignants).")
+NOTE('lisnard','profs',"Hausse liée par le candidat à une réorganisation et aux économies de son plan : financement non compté (même règle pour toutes les hausses des enseignants).")
+NOTE('glucksmann','ecole',"Seul chiffrage de la hausse graduée : celui du candidat (aucun chiffrage indépendant) ; la part +10 % pour tous suit la valeur commune. Baisse des effectifs par classe (à effectif enseignant constant selon le camp) et rénovation des écoles non chiffrées.")
+V('lisnard','is20','sous_conditions','faisable',"Par la loi de finances ; "+FNP+".")
+TCSG="Par la loi de financement de la Sécurité sociale ; perte de recettes de la Sécurité sociale à compenser ; "+FNP+"."
+V('lisnard','csg_actifs','sous_conditions','faisable',TCSG)
+V('retailleau','menages','sous_conditions','faisable',"Par les lois de finances et de financement de la Sécurité sociale ; barème des cotisations et forme du relais de MaPrimeRénov' non publiés ; "+FNP+".")
+# même baisse uniforme de la CSG (S167) : l'argument des dispositifs dégressifs censurés ne vaut que pour une baisse dégressive
+V('zemmour','csg','tres_difficile','faisable',TCSG)
+NOTE('zemmour','csg',"Hors total : proposée en 2026 par Sarah Knafo, non reprise par le candidat. Les dispositifs censurés en 2000, 2014 et 2015 étaient des baisses dégressives, comme la version de 2022 (9,2 % → 2,5 % jusqu'à 2 000 € net) ; la suppression uniforme chiffrée ici a le même verdict que la baisse uniforme de Lisnard.")
+# conditions identifiées hors de la décision : même verdict que les mesures de même situation juridique
+V('melenchon','chomage','faisable','sous_conditions',"Convention d'assurance chômage et décret ; "+FNP+".")
+OB('philippe','chomage',"Convention d'assurance chômage et décret ; jours de carence : par la loi.")
+V('melenchon','hopitaux','faisable','sous_conditions',"Par la loi de financement de la Sécurité sociale ; 10 000 soignants à recruter ; "+FNP+".")
+V('melenchon','cantine','faisable','sous_conditions',"Par la loi de finances ; restauration scolaire organisée par les collectivités (communes, départements, régions) : mise en œuvre avec elles ; "+FNP+".")
+V('philippe','heures_sup','faisable','sous_conditions',"Par la loi de financement de la Sécurité sociale ; heures concernées fixées par accord d'entreprise, volume non publié (mesure non chiffrable) ; recoupe l'exonération existante ; "+FNP+".")
+# obstacles des mesures « faisable » non financées : le manque de financement est dit, et seulement lui
+for cid,mid,ob in [('le-pen','tva-produits-essentiels',"Par la loi de finances, dans les limites de la directive TVA ; baisse en partie captée par les marges ; "+FNP+"."),
+                   ('melenchon','jeunes',"Par la loi de finances ; "+FNP+"."),
+                   ('melenchon','point_indice',"Un décret suffit ; "+FNP+"."),
+                   ('melenchon','smic',"Un décret suffit ; coût des allègements de cotisations et effet sur l'emploi peu qualifié ; "+FNP+"."),
+                   ('glucksmann','smic',"Un décret suffit ; coût des allègements de cotisations et effet sur l'emploi peu qualifié ; "+FNP+"."),
+                   ('philippe','fonds_climat',"Par la loi de finances ; financement par redéploiement non précisé."),
+                   ('philippe','jeunes_parents',"Par la loi de finances ; "+FNP+" ; coût non vérifié indépendamment (impôt payé par les foyers ayant un enfant de moins de 3 ans non publié)."),
+                   ('attal','bebe',"Une loi de finances suffit ; "+FNP+"."),
+                   ('retailleau','cotisations',"Par la loi de financement de la Sécurité sociale ; "+FNP+"."),
+                   ('retailleau','ia',"Par la loi de finances ; "+FNP+" ; économies attendues de l'IA non chiffrées indépendamment."),
+                   ('lisnard','impots',"Par la loi de financement de la Sécurité sociale ; "+FNP+" (le candidat lie ses baisses d'impôts aux économies de son plan)."),
+                   ('lisnard','succession',"Par la loi de finances ; baisse conditionnée par le candidat à la réduction de la dépense ; "+FNP+"."),
+                   ('zemmour','succession',"Par la loi de finances ; "+FNP+"."),
+                   ('zemmour','famille',"Par la loi de finances et la loi de financement de la Sécurité sociale ; "+FNP+".")]:
+    OB(cid,mid,ob)
+# impôts de production : même obstacle (S167), CVAE déjà supprimée par la loi (règle commune)
+TPROD="Par les lois de finances et de financement de la Sécurité sociale ; compensation des collectivités pour la CFE ; "+FNP+"."
+for cid in ('le-pen','zemmour','retailleau'): OB(cid,'production',TPROD)
+OB('philippe','production',"Aides supprimées non identifiées (liste non publiée) ; CVAE déjà supprimée d'ici 2030 par la loi.")
+# impôts nouveaux et économies : pas de « financement non précisé » (S167)
+TREND="rendement dépendant des comportements (départs, optimisation)"
+OB('le-pen','iff',"Par la loi de finances ; "+TREND+".")
+OB('melenchon','ttf',"Par la loi de finances ; rendement dépendant du volume des transactions.")
+OB('zemmour','anah',M('retailleau','fin_maprimerenov')['obstacle'])
+# taxe Zucman : mêmes éléments chez Glucksmann et Mélenchon (S167)
+OB('glucksmann','zucman',"Taxe Zucman : avis défavorable du Conseil d'État ; risque de censure pour caractère confiscatoire (Conseil constitutionnel) ; "+TREND+".")
+OB('melenchon','fiscalite',"Taxe Zucman : avis défavorable du Conseil d'État ; ISF, Zucman et héritages cumulés : risque de censure pour caractère confiscatoire (Conseil constitutionnel) ; "+TREND+".")
+# retours à 62 ans et reculs de l'âge : obstacle type, sans élément propre à un camp (S167)
+OB('melenchon','retraites',"Par la loi ; échéance du passage à 60 ans non publiée ; "+FNP+".")
+OB('philippe','retraites',"Par la loi ; capitalisation alimentée par les excédents de l'Agirc-Arrco, régime géré par les partenaires sociaux ; exemptions non chiffrées.")
+OB('lisnard','retraites',"Par la loi ; calendrier du recul et de la bascule vers la capitalisation non publié ; coût de la transition (double cotisation) non chiffré.")
+OB('zemmour','retraites',"Par la loi ; âge retenu (64 ou 65 ans) non tranché ; coût de la transition vers la capitalisation non chiffré.")
+OB('retailleau','retraites',"Par la loi ; calendrier non publié ; coût de la transition vers la capitalisation non chiffré.")
+OB('attal','retraites',"Par la loi ; décotes, surcotes et durée de cotisation non publiées.")
+# AME et renouvelables : même mesure, même obstacle, même verdict (S167) ; l'AME passe par une loi, sans condition hors de la décision
+TAME="Une loi suffit ; report de dépenses vers l'hôpital (soins urgents)."
+for cid in ('le-pen','retailleau','lisnard','zemmour'): V(cid,'ame','sous_conditions','faisable',TAME)
+OB('zemmour','enr',M('le-pen','enr')['obstacle'])
+NOTE('zemmour','enr',"Les 8 Md€ du camp ≈ tout le soutien actuel, contrats en cours compris : seuls les nouveaux soutiens peuvent être arrêtés, comme chez Le Pen et Retailleau.")
+# obstacles génériques remplacés par le paramètre qui manque
+OB('attal','ia',"Part nouvelle des 100 Md€ publics non publiée (fonds européens et crédits existants cités).")
+OB('attal','batiments_scolaires',"Périmètre, part de l'État et part déjà prévue non publiés ; bâtiments des collectivités.")
+OB('lisnard','foncier',"Taux et rendement de la fiscalité foncière de remplacement non publiés ; droits de mutation perçus par les départements.")
+OB('philippe','famille',"Seuils de dégressivité et aides remplacées non publiés.")
+OB('retailleau','travail',"Par la loi ; RSA versé par les départements ; modalités du plafond à 70 % du SMIC non publiées.")
+OB('melenchon','recherche',"Par la loi de finances ; 40 000 recrutements statutaires à bâtir ; trajectoire 2027-2032 non publiée.")
+# S163 : verdicts qui reposaient sur le rendement, revus avec la voie juridique
+V('le-pen','fraude','tres_difficile','sous_conditions',"Prélèvement de la TVA à la source : mécanisme non publié ; un paiement scindé de la TVA suppose une dérogation à la directive TVA, accordée par le Conseil de l'UE à l'unanimité (art. 395) ; pour le reste, moyens de contrôle à bâtir, rendement lié aux contrôles effectivement menés.")
+NOTE('le-pen','fraude',"Le camp compte 18 Md€ sur la TVA (Institut de l'Entreprise) ; l'écart de TVA total était estimé à 12,1 Md€ en 2023 (Commission européenne). Comme pour toutes les fiches, l'écart entre le chiffre du camp et le chiffrage est montré par le chiffrage et ne fonde pas le verdict ; si le mécanisme publié est un paiement scindé, le verdict devient « très difficile » (accord à l'unanimité).")
+M('le-pen','fraude')['claude']['inputs']+=[{"label":"Dérogation à la directive TVA","value":"« The Council, acting unanimously on a proposal from the Commission, may authorise any Member State to introduce special measures for derogation from the provisions of this Directive […] to prevent certain forms of tax evasion or avoidance » (art. 395, paragraphe 1)","source":"Directive 2006/112/CE, art. 395 (legislation.gov.uk, copie des textes de l'UE)","url":"https://www.legislation.gov.uk/eudr/2006/112/article/395/data.html"},
+    {"label":"Paiement scindé autorisé par le Conseil (Italie)","value":"TVA des fournisseurs des administrations versée sur un compte bloqué : dérogation aux articles 206 et 226 de la directive, sur la base de l'article 395, paragraphe 1","source":"Décision d'exécution (UE) 2015/1401 du Conseil, 14/07/2015","url":"https://legislation.gov.uk/eudn/2015/1401/pdfs/eudn_20151401_adopted_en.pdf"}]
+OB('melenchon','fraude',"Par la loi de finances : effectifs de contrôle à reconstituer (recrutements) ; rendement lié aux contrôles effectivement menés.")
+OB('retailleau','fraude',"Par la loi et des moyens de contrôle à bâtir ; rendement lié aux contrôles effectivement menés.")
+V('zemmour','aide_developpement','tres_difficile','sous_conditions',"Crédits nationaux : par la loi de finances ; engagements multilatéraux et conventions déjà signés restent à payer ; part de l'aide versée par le budget de l'UE : unanimité des 27, comptée 0 comme « Moins payer à l'UE ».")
+V('lisnard','depense','tres_difficile','sous_conditions',"Économies non ventilées : chaque poste identifié est chiffré dans sa propre fiche ; 80 % restitués en baisses de prélèvements.")
+# S165 : revenu familial de Retailleau, condition de 5 ans de résidence et de travail = même situation juridique que les autres aides réservées
+V('retailleau','revenu_familial','sous_conditions','bloque',"Chemin : la condition de 5 ans de résidence et de travail pour les familles étrangères suppose une révision de la Constitution (égalité devant les aides, condition censurée en 2024), par l'article 89 (vote identique de l'Assemblée et du Sénat, puis référendum), comme les autres aides réservées ; le reste (revenu familial à la place de 12 aides) relève de la loi, liste des aides remplacées non publiée.")
+NOTE('retailleau','revenu_familial',"Indicatif : de 0 à +1,5 Md€ selon le camp (41 + 0,6 à 0,8 − 40,3) ; non vérifiable sans la liste des aides. Le coût annoncé de 40,3 Md€ correspond à 240 € × 12 mois × ≈ 14 millions d'enfants, sans le doublement au 3e enfant (registre). Même situation juridique que les aides réservées après cinq ans de la fiche immigration du candidat et que celles de Lisnard : « Exige une révision ».")
+# S164 : plans de postes, même critère (toutes les sorties, hors secteurs épargnés), même obstacle type, mêmes bornes
+SORT="sorties de la fonction publique civile ≈ 2,4 millions en 5 ans (dont ≈ 720 000 départs à la retraite ; DGAFP)"
+COLL="collectivités et hôpitaux hors du contrôle direct de l'État"
+IN_SORT=next(i for i in M('lisnard','fonction')['claude']['inputs'] if i['label']=='Sorties de la fonction publique civile 2024')
+BPOST="Bornes (règle commune des plans de postes) : basse, un départ à la retraite sur trois non remplacé (144 000 par an, DGAFP 2025) sur 3,5 ans"
+OB('philippe','fonction',"Non-remplacement de départs, sans licenciement possible : plus de 250 000 postes sur le quinquennat ; "+SORT+" ; "+COLL+".")
+OB('retailleau','etat',"Non-remplacement de départs, sans licenciement possible : 400 000 postes en 5 ans ; "+SORT+" ; "+COLL+" ; agences : missions à reprendre.")
+OB('lisnard','fonction',"Non-remplacement de départs, sans licenciement possible : plus de 400 000 postes sur le mandat ; "+SORT+" ; "+COLL+" ; agences, ARS et DREAL : missions à reprendre.")
+OB('le-pen','etat',"Fin des intercommunalités et des métropoles : libre administration des collectivités ; agences : liste non publiée, missions à reprendre.")
+V('zemmour','fonctionnaires','tres_difficile','sous_conditions',"Non-remplacement de départs, sans licenciement possible : 800 000 postes en 5 ans ; "+SORT+", dont environ 37 % dans les secteurs épargnés (2,2 millions d'agents sur 5,9) ; "+COLL+".")
+m=M('attal','fonctionnaires'); assert m['proposal']=="Supprimer 100 000 postes publics par départs volontaires et non-remplacements, hors Éducation, Armées, Justice et Intérieur."
+m['proposal']="Supprimer 100 000 postes de fonctionnaires d'État par départs volontaires et non-remplacements, hors Éducation nationale, Armées, Justice et Intérieur."
+m['obstacle']="Non-remplacement de départs et départs volontaires indemnisés, sans licenciement possible : 100 000 postes de l'État, sur ≈ 800 000 agents hors ministères épargnés (Éducation nationale, Armées, Justice et Intérieur : plus des deux tiers des 2,57 millions d'agents de l'État)."
+k=m['claude']; assert k['formula']==POST+" ; 100 000 postes × 70 % × 30,8 k€ ≈ +2,2 Md€" and (k['low'],k['high'])==(1.5,4.3)
+SET('attal','fonctionnaires',2.2,0.7,3.1,POST+" ; 100 000 postes × 70 % × 30,8 k€ ≈ +2,2 Md€. "+BPOST+", rapporté aux agents visés (≈ 800 000 hors ministères épargnés, sur 5,88 millions : 13,6 %) : 168 000 × 13,6 % ≈ 22 900 postes × 30,8 k€ ≈ +0,7 ; haute, plan entièrement réalisé en 2030 : 100 000 × 30,8 k€ ≈ +3,1")
+k['inputs'].append({"label":"Postes et ministères visés","value":"100 000 postes de fonctionnaires d'État ; Éducation nationale, Armées, Justice et Intérieur épargnés (plus des deux tiers des 2,57 millions d'agents de l'État) : l'effort porte sur environ 800 000 agents","source":"Public Sénat","url":"https://www.publicsenat.fr/actualites/politique/reduction-de-nombre-de-fonctionnaires-le-virage-a-180-degres-de-gabriel-attal"})
+k=M('philippe','fonction')['claude']; assert k['formula']==POST+" ; 250 000 postes × 70 % × 30,8 k€ ≈ +5,4 Md€" and (k['low'],k['high'])==(2.7,8)
+SET('philippe','fonction',5.4,5.2,7.7,POST+" ; 250 000 postes × 70 % × 30,8 k€ ≈ +5,4 Md€. "+BPOST+" : 168 000 postes × 30,8 k€ ≈ +5,2 ; haute, plan entièrement réalisé en 2030 : 250 000 × 30,8 k€ ≈ +7,7. Opérateurs et agences (« des dizaines » fusionnés ou supprimés) : hors valeur commune des agences, qui vise la plupart d'entre elles ; rien de compté (voir la note)")
+k=M('zemmour','fonctionnaires')['claude']; assert k['central']==17.2 and (k['low'],k['high'])==(9.7,17.2)
+SET('zemmour','fonctionnaires',17.2,3.2,24.6,"Règle commune : 61,6 k€ par poste, moitié rendue aux agents, 70 % du plan en 2030 : 800 000 × 70 % × 30,8 k€ = +17,2 Md€ (même calcul que Philippe, Attal, Retailleau et Lisnard) ; le camp compte toutes les sorties (2,3 M en 5 ans), le critère retenu pour tous les plans de postes (sorties toutes causes, hors secteurs épargnés). "+BPOST+", rapporté aux agents hors secteurs épargnés ((5,9 − 2,2)/5,9 ≈ 62,7 %) : 168 000 × 62,7 % ≈ 105 400 postes × 30,8 k€ ≈ +3,2 ; haute, plan entièrement réalisé en 2030 : 800 000 × 30,8 k€ ≈ +24,6",
+    note="Reprise par le candidat le 17/09/2026 (BFMTV) ; plan publié sur budget2027.fr. Les sorties disponibles relèvent du verdict, avec le même critère pour tous les plans de postes : ≈ 2,4 millions de sorties de la fonction publique civile en 5 ans (481 600 en 2024, DGAFP), dont environ 63 % hors secteurs épargnés, pour 800 000 postes. Fipeco (30 à 40 Md€) chiffre l'effet complet d'une réduction effective, sans part rendue aux agents ni montée en charge ; la règle commune (moitié rendue, 70 % du plan en 2030) vaut pour tous les plans de postes.")
+k['inputs'].append(IN_SORT)
+for i in k['inputs']: i['source']=i['source'].replace("Shango Media, agrégateur à signaler","Shango Media, agrégateur")
+REP('retailleau','etat','formula',"Bornes de la partie postes comme pour les 400 000 postes de Lisnard :","La mesure entre dans la valeur commune des agences (suppression de la quasi-totalité des agences). Bornes de la partie postes (règle commune des plans de postes, comme Lisnard) :")
+REP('retailleau','etat','note',"carence surévaluée (3 Md€ annoncés, 0,1 mesuré)","carence : 3 Md€ annoncés, 0,11 Md€ comptés (216 − 108 M€, Public Sénat ; même valeur que Philippe)")
+REP('lisnard','fonction','formula',"Borne basse : un départ à la retraite sur trois","Bornes (règle commune des plans de postes) : basse, un départ à la retraite sur trois")
+REP('lisnard','fonction','formula',"agences 0 ; borne haute : plan entièrement réalisé en 2030,","agences 0 ; haute, plan entièrement réalisé en 2030 :")
+REP('lisnard','fonction','formula',"ARS, DREAL et DDTM nommées par le candidat : missions reprises, ni économie propre publiée ni chiffrage indépendant au-delà de la valeur commune","La mesure entre dans la valeur commune des agences (le candidat supprime « l'essentiel » des agences) ; ARS, DREAL et DDTM, nommées par le candidat, y sont comprises : missions reprises, sans économie propre publiée ni chiffrage indépendant, comme les ARS du plan de Zemmour, non comptées")
+REP('le-pen','etat','formula',"borne basse 0, borne haute 1,06.","borne basse 0 (réduction jugée « très volontariste » par le Sénat), borne haute 1,06 (−8 % des 13,2 Md€ de fonctionnement des opérateurs) ; la mesure entre dans la valeur commune des agences (suppression de la plupart des agences et opérateurs).")
+t0=C['zemmour']['claude_total']; a0="associations 1 à 2, ARS et autres agences 2)"; assert t0['missing'].count(a0)==1
+t0['missing']=t0['missing'].replace(a0,"associations 1 à 2, ARS 1 et autres agences nommées 1 : agences nommées, hors valeur commune des agences, qui vise la suppression ou la fusion de la plupart d'entre elles ; économies sans chiffrage indépendant, comme les ARS de Lisnard, sans économie propre)")
+# S169 : textes périmés. Agences : l'écart entre le montant annoncé et la valeur commune n'est écrit dans aucun obstacle ni résumé (Le Pen, Retailleau)
+assert C['retailleau']['total']['independent']=="aucun chiffrage global ; agences 0,5 à 3 Md€ contre 12,5 annoncés ; AME 1,5 Md€/an au plus"
+C['retailleau']['total']['independent']="aucun chiffrage global"
+NOTE('melenchon','fraude',"Règle commune pour la fraude : leviers du Conseil d'analyse économique correspondant au champ de la mesure, dans la limite du chiffre du camp (Le Pen 1,0 ; Mélenchon 2,0 ; Retailleau 4,1).")
+m=M('retailleau','fraude'); assert m['claimed_md']==1.2
+m.update(proposal="Lutte contre la fraude fiscale et aux aides (5 Md€) et contre la fraude sociale (4 Md€) : 9 Md€ par an en 2032 (plan du 12/10/2026).",claimed="9 Md€ par an en 2032 (plan du 12/10/2026, fiches 5 et 10)",claimed_md=9)
+m=M('retailleau','retraites'); assert m['claimed']=="42 Md€ sur 5 ans, dont 12 Md€ par la décote"
+m.update(claimed="Mesures d'âge (63/65 ans, carrières longues) : 12 Md€ par an en 2032 (plan du 12/10/2026)",claimed_md=12)
+REP('retailleau','retraites','formula',"Lecture corrigée : 12 Md€ = niveau de 2032, pas un cumul.","Plan du 12/10/2026 : 12 Md€ par an en 2032 (niveau annuel, pas un cumul).")
+NOTE('retailleau','retraites',"Le départ à 63 ans avec décote peut avoir un effet dès 2028 (décote sur les nouveaux retraités), dans un sens ou dans l'autre selon les générations ; sans chiffrage indépendant du dispositif, la valeur commune s'applique, comme pour Philippe, Lisnard et Zemmour.")
+m=M('retailleau','production'); assert m['claimed']=="51 Md€ rendus d'ici 2032 (21 ménages, 30 entreprises)"
+m['claimed']="15 Md€ d'impôts de production supprimés par an en 2032, dans 51 Md€ de baisses (21 pour les ménages, 30 pour les entreprises ; plan du 12/10/2026)"
+REP('retailleau','production','note',"Chiffres du camp différents selon les documents (51 Md€ cumulés contre 40 Md€ par an).","Montants du plan du 12/10/2026 lus comme des niveaux annuels de 2032 (fiche 14 : 51 Md€ de baisses, dont 30 pour les entreprises), la même lecture que pour les cotisations ; un autre document du camp donne 40 Md€ par an.")
+# S171 : bornes sur les rendements officiels, comme Le Pen (C3S et CFE 2027 à 17,5 %, de l'année précédente à 20 %)
+k=M('retailleau','production')['claude']; a0="bornes de la fiche (−16 et −8) nettes de la même façon (17,5 % et 20 %) : −13,2 et −6,4"; assert k['formula'].count(a0)==1 and k['central']==-8.2
+SET('retailleau','production',-8.2,-8.6,-8.1,k['formula'].replace(a0,"bornes sur les rendements officiels, comme Le Pen : basse, C3S prévue en 2027 (5,47) et CFE de 2025 accrue de sa hausse de 2025 (part industrielle : 24,4 % × 8,75 = 2,13), impôt récupéré à 17,5 % : (5,47 + 2,8 + 2,13) × 0,825 = −8,6 ; haute, rendements de l'année précédente (C3S 2025 5,34 ; part industrielle de la CFE 2024, 24,4 % × 8,03 = 1,96) à 20 % : −8,1 ; forfait social au montant du camp (registre)").replace("registre) (CVAE retirée : déjà supprimée par la loi ; heures au-delà de 1 623 heures exonérées : fiche à part)","registre). CVAE retirée : déjà supprimée par la loi ; heures au-delà de 1 623 heures exonérées : fiche à part"))
+k=M('zemmour','retraites')['claude']; assert (k['central'],k['low'],k['high'])==(1.8,0,5.8)
+SET('zemmour','retraites',1.8,1.8,5.8,"Le droit actuel mène déjà à 64 ans : en 2030, seule compte la fin de la suspension de la réforme de 2023 (+1,8 Md€), que l'âge retenu soit 64 ou 65 ans ; 65 ans après les 64 ans : effet à partir de 2032 (Cour des comptes 2025) ; borne haute +5,8 si le recul était accéléré (même règle et mêmes bornes que Philippe et Lisnard)",note="Capitalisation : coût de transition non chiffré.")
+k=M('zemmour','anah')['claude']; assert (k['central'],k['low'],k['high'])==(2.0,2.0,4.0)
+SET('zemmour','anah',2.0,1.2,2.1,"Part publique de l'Anah, même base que la fin de MaPrimeRénov' de Retailleau : dotation de l'État 1,45 + recettes des quotas carbone ≈ 0,6 ≈ +2,0 Md€ ; la part financée par les certificats d'économies d'énergie est payée par les fournisseurs, hors budget, sans effet sur le solde (règle « part publique seulement ») ; mêmes bornes que Retailleau : basse, dotation prévue au PLF 2027 seule (1,23) ; haute, dotation 2026 et plafond des quotas carbone (1,45 + 0,6 = 2,05)",
+    note="Dossiers engagés à payer. Part publique seulement, comme la fin de MaPrimeRénov' de Retailleau : le budget total de l'agence (4,01 Md€ après gel) comprend la part financée par les certificats d'économies d'énergie, hors budget.")
+REP('retailleau','fin_maprimerenov','formula',"borne basse : dotation prévue au PLF 2027 seule (1,23 Md€)","borne basse : dotation prévue au PLF 2027 seule (1,23 Md€) ; borne haute : dotation 2026 et plafond des quotas carbone (1,45 + 0,6 = 2,05)")
+# S170 : quotient familial, même décomposition et même valeur pour le doublement du plafond (médiane Institut Montaigne / iFRAP)
+k=M('lisnard','quotient')['claude']; assert (k['central'],k['low'],k['high'])==(-3.3,-6.6,-2.2)
+SET('lisnard','quotient',-2.2,-6.6,-1.0,"Aucun chiffrage publié du déplafonnement intégral ; il coûte au moins le doublement du plafond. Même décomposition que Zemmour : doublement du plafond 3,3 Md€ (Institut Montaigne 2022) ou 1,0 à 1,3 (iFRAP 2022), médiane ≈ 2,2, la valeur retenue pour la même composante chez Zemmour → central −2,2 (plancher) ; borne haute −1,0 (bas de l'iFRAP) ; borne basse −6,6 (hypothèse : deux fois le doublement de l'Institut Montaigne). Les allocations familiales universelles (0,8 chez Zemmour) ne font pas partie de la mesure",
+    note="Central = plancher (coût du seul doublement) faute de chiffrage du déplafonnement complet ; à revoir dès qu'un chiffrage DGFiP, IPP ou parlementaire est trouvé.")
+k=M('zemmour','famille')['claude']; assert (k['central'],k['low'],k['high'])==(-3.0,-4.1,-1.8)
+k['formula']="Même décomposition que Lisnard : doublement du plafond du quotient familial 3,3 Md€ (Institut Montaigne 2022) ou 1,0 à 1,3 (iFRAP 2022), médiane ≈ 2,2 ; allocations familiales universelles 0,8 (les deux sources) → ≈ −3,0 Md€ ; bornes : Institut Montaigne (−4,1) et bas de l'iFRAP (−1,8)"
+# notes de travail publiées (S168) : arbitrages tranchés par les règles communes, consignes et identifiants du registre retirés
+NOTE('le-pen','ir-moins-30-ans',"Base 2022. La fiche PDF de synthèse de l'Institut Montaigne de 2024 affiche 0,7 Md€, contre 3,7 sur sa page de synthèse et 3,65 dans le chiffrage de 2022 dont elle dit partir : les deux valeurs publiées entrent dans la médiane (écart noté au registre). L'Institut Montaigne juge la mesure « probablement inconstitutionnelle » (égalité devant l'impôt) ; l'exonération des salaires des étudiants de moins de 26 ans existe déjà (art. 81 bis du CGI) : risque de censure sur un point précis, d'où « sous conditions ».")
+NOTE('le-pen','dutreil',"Le chiffrage de l'Institut Montaigne de 2024 pour la même mesure (5,3) égale le coût total du pacte actuel, ce qui suggère un calcul qui ne tient pas compte des 75 % déjà exonérés ; la règle commune (médiane ajustée aux paramètres en vigueur) donne 1,8, la valeur de 2024 restant en borne basse.")
+NOTE('le-pen','donations',"Version 2026 : grands-parents alignés sur les parents (100 000 € tous les 10 ans).")
+REP('le-pen','ticpe','note',"Simulateur (S071) : baisse par litre","Dans le simulateur : baisse par litre")
+REP('melenchon','af-apl','note',"Montant des allocations familiales tiré d'un exposé des motifs : à remplacer par les comptes de la Cnaf. ","")
+REP('melenchon','ttf','note',"vérifier le taux en vigueur en 2026 avant de retenir l'écart (base 2024 : 0,3 %)","chiffrage de l'Institut Montaigne sur le taux de 2024 (0,3 %), taux en vigueur en 2026 à relever (registre)")
+REP('melenchon','recherche','note'," (S001/S037)","")
+REP('melenchon','recherche','note',"À reprendre avec le programme","À revoir avec le programme")
+NOTE('philippe','chomage',"Dans le privé, les 3 jours de carence existent déjà pour les indemnités de la Sécurité sociale ; le site ne dit pas que l'employeur ne pourra plus les couvrir (à la différence du jour « d'ordre public » de Retailleau) : aucun effet compté. Le simulateur applique trois jours de carence dans le public et le privé.")
+NOTE('philippe','premier_contrat',"Financement par les dividendes de l'État : recette déjà existante, donc sans effet propre sur le solde.")
+REP('philippe','armees','note',"À trancher : échéance non publiée, règle par défaut appliquée.","Échéance non publiée : règle commune par défaut (fin du quinquennat, 70 % en 2030).")
+REP('retailleau','immigration','note',"Statut de l'OID tranché (S087) : ses estimations ne sont pas reprises telles quelles.","Les estimations de l'Observatoire de l'immigration et de la démographie (association qui prend position sur le sujet) ne sont pas reprises telles quelles.")
+REP('retailleau','chomage','note',"Verdict proposé : sous conditions (convention d'assurance chômage et décret ; risque de report des ruptures conventionnelles vers les licenciements). ","")
+REP('lisnard','succession','note',"Verdict proposé : faisable (« Une loi de finances suffit ; baisse conditionnée par le candidat à la réduction de la dépense »), comme pour Zemmour. À TRANCHER (changement important du total).","La condition posée par le candidat porte sur le financement, pas sur la voie juridique : « faisable » (loi de finances), comme la même mesure chez Zemmour.")
+REP('lisnard','foncier','note'," Verdict proposé : sous conditions.","")
+REP('zemmour','accise','note',"Verdict proposé : faisable (loi de finances ; les taux restent au-dessus des minima de la directive 2003/96).","Les taux restent au-dessus des minima de la directive 2003/96 : une loi de finances suffit.")
+REP('zemmour','ue','note',"Verdict proposé : très difficile (unanimité des 27), comme Le Pen.","Unanimité des 27, comme pour Le Pen.")
+NOTE('zemmour','rsa3',"Fourchette indicative 0 à +4,8. Le paramètre du candidat est publié (3 ans, personnes aptes au travail, lues comme celles tenues de s'inscrire à France Travail) ; seule manque une donnée publique, la part des allocataires au-delà de 3 ans, que le site de la DREES (inaccessible les 28 et 31/10) doit donner : la mesure sera comptée avec la même base que le RSA de Retailleau (≈ +4,2) dès qu'elle est relevée (registre). Droit à des « moyens convenables d'existence » pour qui ne peut pas travailler (alinéa 11 du Préambule de 1946) : « sous conditions ».")
+REP('zemmour','rsa3','formula',"(site inaccessible le 28/10)","(site inaccessible les 28 et 31/10)")
+OB('zemmour','rsa3',"Par la loi ; droit à des moyens convenables d'existence pour qui ne peut pas travailler (alinéa 11 du Préambule de 1946) : aptitude au travail à définir ; RSA versé par les départements.")
+for i in M('zemmour','rsa3')['claude']['inputs']: i['source']=i['source'].replace("(d'après la DREES ; à vérifier à la source)","(d'après la DREES ; chiffre non relu à la source, site de la DREES inaccessible)")
+NOTE('zemmour','succession',"Hors total : non reprise par le candidat. Même base que Lisnard : droits de succession exécutés en 2024, 16,0 Md€ (Voies et moyens). Reprise par le candidat recherchée (registre).")
+NOTE('le-pen','part-fiscale',"Chiffrage de l'Institut Montaigne de 2024, réalisé avec le modèle LexImpact ; le quotient familial de Lisnard (déplafonnement) n'a pas de chiffrage publié et suit la même décomposition que celui de Zemmour.")
+# S172 : une valeur par référence ; même libellé que la source (Institut Montaigne : « pertes d'emploi »)
+for cid in ('melenchon','glucksmann'):
+    e=M(cid,'smic')['estimates'][0]; assert 'institutmontaigne' in e['url'] and '230 000 à 380 000' in e['value']
+    e.update(source="Institut Montaigne (SMIC à 1 600 € net)",value="19 Md€/an (17-21) ; 230 000 à 380 000 pertes d'emploi")
+REP('le-pen','tva','note',"gazole 1,98 €/l, SP95-E10 1,89 €/l, environ 7 % au-dessus des moyennes de 2022 (1,85 et 1,77 €/l)","gazole 1,98 €/l, SP95-E5 1,94 €/l, environ 7 % au-dessus des moyennes de 2022 (1,85 et 1,81 €/l)")
+for i in M('le-pen','tva')['claude']['inputs']:
+    if i['value']=="gazole 1,978 €/l ; SP95-E10 1,892 (moyennes de 2022 : 1,848 et 1,765)": i['value']="gazole 1,978 €/l ; SP95-E5 1,938 (moyennes de 2022 : 1,848 et 1,809)"
+NOTE('philippe','ingenieurs',"Indicatif : si toutes les places étaient nouvelles et publiques, 60 000 diplômés de plus par an × 3 ans × 12 250 € (dépense moyenne par étudiant à l'université, même coût que les places à l'université de Mélenchon) ≈ 2,2 Md€ à terme, ≈ −1,5 en 2030 (70 %) ; −1,0 si un tiers des places sont dans des écoles privées.")
+IN_PROF10={"label":"+10 % pour tous les enseignants (Institut Montaigne 2022, salaires de 2019 ; valeur commune remise aux salaires de 2024 : 3,9 Md€)","value":"≈ 3,3 Md€/an","source":"Institut Montaigne (2022)","url":"https://www.institutmontaigne.org/presidentielle-2022/legislatives-2022/ensemble/revaloriser-les-salaires-des-enseignants-de-10"}
+for cid,mid in (('attal','profs'),('glucksmann','ecole')):
+    k=M(cid,mid)['claude']; n0=sum(1 for i in k['inputs'] if i['source']=="Institut Montaigne (valeur commune)"); assert n0==1,(cid,mid)
+    k['inputs']=[IN_PROF10 if i['source']=="Institut Montaigne (valeur commune)" else i for i in k['inputs']]
+k=M('attal','profs')['claude']; assert k['high']==-1.8
+for i in k['inputs']:
+    if i['label']=="Salaire net moyen 2024": i.update(label="Salaire net moyen des enseignants en 2024",value="3 190 €/mois (Insee, équivalent temps plein, base de la valeur commune) ; 3 090 € selon la DEPP (salaire individuel, enseignants de l'Éducation nationale seulement)",source="DEPP, NI 2026-36 (qui cite l'Insee Première n° 2100)")
+SET('attal','profs',-1.9,-2.8,-1.7,"Chiffre du candidat : 2,5 à 3 Md€ ; 70 % en 2030 (règle commune) ≈ −1,9 ; borne haute : part explicite seule, +200 € net = +6,3 % de 3 190 € (salaire net moyen de 2024 de la valeur commune) → 2,4 Md€ au barème commun (3,9 par +10 %), 70 % = −1,7 ; borne basse : ≈ 4 Md€ si les 500 € concernent une large part des enseignants, 70 % = −2,8")
+# S173 : adjectifs de jugement et coquilles
+REP('le-pen','suramortissement','note',"Aucun chiffrage indépendant trouvé Repères :","Aucun chiffrage indépendant trouvé. Repères :")
+REP('le-pen','proches-aidants','note',"sans montant Paramètres","sans montant. Paramètres")
+REP('melenchon','hopitaux','note',"du NFP Dont ≈ 0,6 Md€ pour 10 000 soignants au coût commun d'un poste public (61,6 k€).","du NFP. Les 10 000 soignants coûtent ≈ 0,6 Md€ au coût commun d'un poste public (61,6 k€).")
+for i in M('melenchon','fiscalite')['claude']['inputs']:
+    if i['value']=="14 à 34 % (14 à 34 %)": i['value']="14 à 34 %"
+# S166 : règle d'or par référendum, même fiche que celle d'Attal pour Le Pen, Philippe et Retailleau (même voie : même verdict)
+RO=M('attal','regle_or'); assert RO['verdict']=='bloque' and RO['claude']['formula']=="Règle de procédure, sans effet direct sur le solde"
+LANDOT=RO['estimates'][0]
+CH89="Chemin : article 89, vote identique de l'Assemblée et du Sénat puis référendum ; l'article 11 est contesté."
+TA722="https://www.assemblee-nationale.fr/13/pdf/ta/ta0722.pdf"
+for cid,prop,cl,ob,ins in [
+  ('le-pen',"Inscrire dans la Constitution, par référendum, une règle d'or budgétaire : déficit ramené de 4,9 % du PIB en 2027 à 2,4 % en 2033, sous le seuil qui stabilise la dette, jusqu'au retour de la dette sous 60 % du PIB.","Déficit de 2,4 % du PIB en 2033",CH89,
+   [{"label":"Règle d'or proposée","value":"inscription dans la Constitution par référendum ; déficit de 4,9 % du PIB en 2027, 3,9 % en 2030, 2,4 % en 2033 ; exceptions votées aux trois cinquièmes","source":"LCP (2/10/2026), tribune de la candidate dans L'Opinion (1/10)","url":"https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par"}]),
+  ('philippe',"Inscrire dans la Constitution, par référendum, une règle d'or de maîtrise des déficits ; déficit ramené à 2 % du PIB à la fin du quinquennat.","Déficit de 2 % du PIB en fin de quinquennat",CH89,
+   [{"label":"Règle d'or proposée","value":"« Inscrire dans la Constitution une règle d'or de maîtrise des déficits via un référendum » ; déficit ramené « à 2 % du PIB à la fin du quinquennat »","source":"Site d'Édouard Philippe, « Pour une France plus prospère »","url":"https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"}]),
+  ('retailleau',"Soumettre au référendum, dans les cent jours, la règle d'or de 2011 (texte voté par les deux assemblées) : plafond de dépenses annuel et minimum de recettes nouvelles inscrits dans la Constitution.","Non chiffré",
+   "Chemin : article 89 ; le texte de 2011, déjà voté en termes identiques par l'Assemblée et le Sénat (13/07/2011), ne devient définitif qu'après approbation par référendum ou par le Congrès : le référendum suffit.",
+   [{"label":"Texte de 2011","value":"projet de loi constitutionnelle relatif à l'équilibre des finances publiques, « voté par les deux assemblées du Parlement en termes identiques » ; « ce projet ne deviendra définitif, en application de l'article 89 de la Constitution, qu'après avoir été approuvé par référendum ou par le Parlement réuni en Congrès » ; lois-cadres fixant « pour chaque année, un plafond de dépenses et un minimum de mesures nouvelles afférentes aux recettes »","source":"Assemblée nationale, texte adopté n° 722 (13/07/2011)","url":TA722},
+    {"label":"Proposition du candidat","value":"référendum dans les cent jours sur la règle d'or de 2011","source":"Fiches presse du camp (12/10/2026), fiche 15","url":RFP}])]:
+    est=[dict(LANDOT)]+([{"source":"Assemblée nationale, texte adopté n° 722","year":2011,"value":"Texte voté en termes identiques par les deux assemblées ; définitif après référendum ou Congrès (article 89)","low_md":None,"high_md":None,"url":TA722}] if cid=='retailleau' else [])
+    ADD(cid,{"id":"regle_or","theme":"institutions","title":"Règle d'or par référendum","proposal":prop,"claimed":cl,"claimed_md":None,"estimates":est,"consensus":"isolé","verdict":"bloque","obstacle":ob,
+      "claude":{"id":"regle_or","central":0,"low":0,"high":0,"method":"ascendant","formula":RO['claude']['formula'],"inputs":ins,"note":RO['claude']['note'],"nc":True}})
+D['asof']='31 octobre 2026'
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
@@ -1406,9 +1628,9 @@ for c0 in D['candidates']:
 # --- résumés gabarit
 P={'le-pen':("Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie.","la priorité nationale et le référendum exigent une révision de la Constitution."),
 'melenchon':("Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines.","le rendement réel des nouveaux impôts, et les traités européens pour l'annulation de la dette."),
-'philippe':("Promet la retraite à 65 ans, un départ sur trois non remplacé dans la fonction publique, une allocation familiale dès le premier enfant et zéro impôt pour les jeunes parents.","l'acceptation d'un nouveau report de l'âge, et le financement de l'allocation familiale unique."),
+'philippe':("Promet la retraite à 65 ans, un départ sur trois non remplacé dans la fonction publique, une allocation familiale dès le premier enfant et zéro impôt pour les jeunes parents.","la révision de la Constitution, pour le moratoire sur le regroupement familial et la règle d'or ; les paramètres de l'allocation familiale unique ne sont pas publiés."),
 'glucksmann':("Promet le retour à 62 ans, un SMIC à 1 700 € net, une taxe sur les très gros héritages et une défense européenne financée par emprunt commun.","l'accord des autres pays européens, et le rendement de la taxe sur les héritages."),
-'retailleau':("Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration.","la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées."),
+'retailleau':("Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration.","la révision de la Constitution, pour le référendum sur l'immigration, les aides réservées après cinq ans, les peines planchers et la règle d'or."),
 'attal':("Promet la fin de l'âge légal de départ, 100 000 postes publics en moins, le gel des prestations en 2028 et l'équilibre budgétaire en 2037.","des paramètres non publiés, en particulier pour les retraites."),
 'lisnard':("Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations.","l'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend."),
 'zemmour':("Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH.","plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH.")}

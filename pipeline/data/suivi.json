@@ -97,7 +97,7 @@
    ],
    "mesure": "succession",
    "sujet": "Fin des droits de succession : reconfirmée en 2026 ?",
-   "detail": "Revue du 28/10 : abolition totale proposée en 2026 par S. Knafo (secrétaire générale de Reconquête, sans rôle de campagne officiel connu) (JDD, 30-31/08), sans reprise par le candidat ; base 15 Md€ (même que Lisnard). Fiche à jour, hors total (S074). Revue du 31/10 : aucune reprise par le candidat en 2026 (presse, réseaux du candidat relayés par parti-reconquete.fr) ; documents de S. Knafo seuls (combienjegagne.fr, sarahknafo.fr). Fiche inchangée, hors total.",
+   "detail": "Revue du 28/10 : abolition totale proposée en 2026 par S. Knafo (secrétaire générale de Reconquête, sans rôle de campagne officiel connu) (JDD, 30-31/08), sans reprise par le candidat ; base 15 Md€ (même que Lisnard). Fiche à jour, hors total (S074). Revue du 31/10 : aucune reprise par le candidat en 2026 (presse, réseaux du candidat relayés par parti-reconquete.fr) ; documents de S. Knafo seuls (combienjegagne.fr, sarahknafo.fr). Fiche inchangée, hors total. Relecture du 31/10 : note de la fiche réécrite, base commune avec Lisnard (droits de succession exécutés en 2024, 16,0 Md€, Voies et moyens).",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-27",
@@ -2383,7 +2383,7 @@
    ],
    "mesure": null,
    "sujet": "Agences nommées dont la mission disparaît : chiffrer ou non à partir des budgets officiels",
-   "detail": "Le plan de Zemmour (budget2027.fr) nomme des suppressions précises, sans viser « la plupart » des agences : ARS 1 Md€, « autres agences et structures publiques » (Arcom, Conseil national du bruit, Haut Conseil à l'égalité, Observatoire de la laïcité, Haut Comité pour le logement…) 1 Md€, Ademe 3,4 Md€, CESE et Ceser 66 M€ : lignes listées « non comptées » (pas de valeur commune : autre périmètre). Règle à appliquer à tous si elle est retenue : une agence nommée dont la mission est supprimée vaut la part publique de son budget officiel (jaune « Opérateurs »), sinon rien ; à appliquer de la même façon aux agences nommées par d'autres candidats (OFB chez Retailleau : « à effectifs transférés », donc 0 ; ARS, DREAL et DDTM chez Lisnard : missions reprises par les préfets, donc 0). Revue du 31/10 : plan inchangé (budget2027.fr, lignes 9, 11, 12, 13). Faits utiles : la règle proposée (agence nommée dont la mission disparaît = part publique de son budget officiel) est déjà appliquée de fait chez Zemmour à l'Anah (part publique 2,0 Md€) et à l'aide au développement (crédits de la mission), et chez Retailleau à MaPrimeRénov' ; Ademe : ligne 9 « hors dispositifs de soutien aux renouvelables déjà comptabilisés à la ligne 6 » (Fonds chaleur à exclure) ; base à lire : projet annuel de performances 2027 du programme 181 (subvention à l'Ademe), non trouvé le 31/10 ; ARS : missions reprises, 0 au-delà de la valeur commune, comme chez Lisnard ; CESE : assemblée prévue par la Constitution (titre XI), sa suppression exige une révision ; Ceser : par la loi ; 66 M€ selon le camp (moins de 1 Md€) ; « autres agences » : l'Observatoire de la laïcité nommé par le plan n'existe plus (décret n° 2021-716 du 4/06/2021), l'Arcom exerce des missions imposées par le droit de l'UE. Règle à trancher par les règles communes à la prochaine revue, la même pour tous.",
+   "detail": "Le plan de Zemmour (budget2027.fr) nomme des suppressions précises, sans viser « la plupart » des agences : ARS 1 Md€, « autres agences et structures publiques » (Arcom, Conseil national du bruit, Haut Conseil à l'égalité, Observatoire de la laïcité, Haut Comité pour le logement…) 1 Md€, Ademe 3,4 Md€, CESE et Ceser 66 M€ : lignes listées « non comptées » (pas de valeur commune : autre périmètre). Règle à appliquer à tous si elle est retenue : une agence nommée dont la mission est supprimée vaut la part publique de son budget officiel (jaune « Opérateurs »), sinon rien ; à appliquer de la même façon aux agences nommées par d'autres candidats (OFB chez Retailleau : « à effectifs transférés », donc 0 ; ARS, DREAL et DDTM chez Lisnard : missions reprises par les préfets, donc 0). Revue du 31/10 : plan inchangé (budget2027.fr, lignes 9, 11, 12, 13). Faits utiles : la règle proposée (agence nommée dont la mission disparaît = part publique de son budget officiel) est déjà appliquée de fait chez Zemmour à l'Anah (part publique 2,0 Md€) et à l'aide au développement (crédits de la mission), et chez Retailleau à MaPrimeRénov' ; Ademe : ligne 9 « hors dispositifs de soutien aux renouvelables déjà comptabilisés à la ligne 6 » (Fonds chaleur à exclure) ; base à lire : projet annuel de performances 2027 du programme 181 (subvention à l'Ademe), non trouvé le 31/10 ; ARS : missions reprises, 0 au-delà de la valeur commune, comme chez Lisnard ; CESE : assemblée prévue par la Constitution (titre XI), sa suppression exige une révision ; Ceser : par la loi ; 66 M€ selon le camp (moins de 1 Md€) ; « autres agences » : l'Observatoire de la laïcité nommé par le plan n'existe plus (décret n° 2021-716 du 4/06/2021), l'Arcom exerce des missions imposées par le droit de l'UE. Règle à trancher par les règles communes à la prochaine revue, la même pour tous. Revue du 31/10 (S169) : chaque fiche dit désormais si elle entre dans la valeur commune (critère : la plupart des agences) ; les agences nommées de Zemmour (ARS, autres agences) n'y entrent pas et restent non comptées, comme les ARS de Lisnard (sans économie propre) ; la règle des agences nommées reste à trancher ici.",
    "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-29",
@@ -2641,6 +2641,322 @@
    "sujet": "Lisnard : ventilation des 400 000 suppressions de postes annoncée pour décembre",
    "detail": "Compte rendu officiel d'« Objectif Élysée 2027 » (Nouvelle Énergie, 28/10/2026) : « il présenterait en décembre une ventilation plus détaillée de sa réforme des pouvoirs publics ». La fiche « Fonctionnaires et agences » (+8,9, règle commune des postes) le note ; à revoir à la publication (bornes, part des agences).",
    "echeance": "2026-12-31",
+   "statut": "ouvert",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": null
+  },
+  {
+   "id": "S162",
+   "type": "a_trancher",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "philippe",
+    "glucksmann",
+    "attal",
+    "retailleau",
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Verdict des dépenses et baisses de prélèvements non financées",
+   "detail": "Relecture indépendante du 31/10 (constats 9 et 10) : hausses des enseignants « faisable » chez Attal et Retailleau, « sous conditions » chez Philippe, Lisnard et Glucksmann, même voie juridique ; baisses de prélèvements non financées « faisable » ou « sous conditions » selon les fiches (cotisations patronales de Retailleau, CSG et IS de Lisnard, impôts de production de Le Pen, accise de Zemmour).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Tranché le 31/10 (délégation du porteur, consignes du 31/10 : retenir la lecture qui change le moins de verdicts). Inventaire : 89 fiches qui coûtent (effet central négatif ou coût indicatif des non chiffrables, hors « Exige une révision ») : 48 « faisable », 37 « sous conditions », 4 « très difficile ». Lecture (a), « faisable » par décret ou loi ordinaire avec des paramètres publiés, « financement non précisé dans la mesure » dans l'obstacle, « sous conditions » réservé à une condition identifiée hors de la décision ou à un paramètre clé non publié : 13 verdicts changent. Lecture (b), « sous conditions » pour toute mesure non financée : 49 changent (les 48 « faisable » et la CSG de Zemmour). Lecture (a) retenue, écrite dans la méthode (« Verdicts ») et dans CLAUDE.md. Changements : vers « faisable », Le Pen retraites ; Philippe enseignants ; Glucksmann retraites, enseignants ; Retailleau baisses d'impôts des ménages ; Lisnard IS à 20 %, enseignants, CSG des actifs ; Zemmour CSG (hors total, même verdict que Lisnard, S167). Vers « sous conditions » (condition hors de la décision, même situation juridique que des fiches déjà « sous conditions ») : Mélenchon assurance chômage (convention, comme Attal, Retailleau, Philippe), hôpitaux (10 000 soignants à recruter, comme les places à l'université), cantine (service des collectivités) ; Philippe heures sup (non chiffrable, heures fixées par accord d'entreprise, seule fiche non chiffrable qui était « faisable »). Mélenchon retraites reste « sous conditions » (échéance du passage à 60 ans non publiée, comme la culture et le leasing social). Obstacles des fiches « faisable » non financées complétés par « financement non précisé dans la mesure ». Appliqué à toutes les fiches, au-delà des dépenses : aide médicale d'État « faisable » chez Le Pen, Retailleau, Lisnard et Zemmour (une loi suffit, aucune condition hors de la décision). branche revue/verdicts-3110, bloc « review 31 » de corrections.py."
+  },
+  {
+   "id": "S163",
+   "type": "a_trancher",
+   "candidats": [
+    "le-pen",
+    "zemmour",
+    "lisnard",
+    "retailleau"
+   ],
+   "mesure": [
+    "fraude",
+    "aide_developpement",
+    "depense"
+   ],
+   "sujet": "Critère « rendement surévalué » des verdicts",
+   "detail": "Relecture du 31/10 (constat 15) : critère « Très difficile : rendement surévalué » appliqué à la fraude de Le Pen et à l'aide au développement de Zemmour, pas à des écarts du même ordre (renouvelables, Anah, agences, droits des étudiants).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Tranché le 31/10 (consignes du 31/10) : critère retiré ; le verdict porte sur la voie juridique et pratique, l'écart entre le chiffre du camp et le chiffrage étant montré par le chiffrage, pour tous. Fiches revues : Le Pen, fraude « très difficile » → « sous conditions » (mécanisme de la TVA prélevée à la source non publié ; un paiement scindé exigerait une dérogation à la directive TVA accordée par le Conseil à l'unanimité, art. 395 de la directive 2006/112/CE, comme la décision d'exécution 2015/1401 pour l'Italie : S175) ; Zemmour, aide au développement « très difficile » → « sous conditions » (crédits nationaux par la loi de finances, engagements signés à payer ; part européenne comptée 0) ; Lisnard, plan de 200 Md€ (hors total) « très difficile » → « sous conditions » (économies non ventilées). Fraude de Mélenchon et de Retailleau : « sous conditions » gardé, obstacle sur la voie (contrôles à mener). Sources : legislation.gov.uk (art. 395 ; décision 2015/1401). branche revue/verdicts-3110, bloc « review 31 » de corrections.py."
+  },
+  {
+   "id": "S164",
+   "type": "a_trancher",
+   "candidats": [
+    "zemmour",
+    "philippe",
+    "attal",
+    "retailleau",
+    "lisnard",
+    "le-pen"
+   ],
+   "mesure": [
+    "fonctionnaires",
+    "fonction",
+    "etat"
+   ],
+   "sujet": "Plans de postes : critère de faisabilité, obstacle type et bornes",
+   "detail": "Relecture du 31/10 (constats 11, 16 et 21) : Zemmour seul « très difficile », jugé sur les seuls départs à la retraite alors que Lisnard l'est sur toutes les sorties ; bornes calculées autrement selon les candidats (borne haute de Zemmour égale à sa valeur centrale, celle d'Attal au-delà du plan entier, bornes de Philippe et d'Attal non expliquées) ; obstacles différents (« historiquement faibles » chez Philippe et Lisnard).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Tranché le 31/10 : même critère pour tous (sorties toutes causes de la fonction publique civile, ≈ 481 600 en 2024, DGAFP, soit ≈ 2,4 millions en 5 ans, hors secteurs épargnés) : Zemmour (800 000 postes ; ≈ 63 % des sorties hors secteurs épargnés) « très difficile » → « sous conditions », comme les autres plans. Obstacle type : non-remplacement de départs sans licenciement possible, objectif et sorties disponibles, collectivités et hôpitaux hors du contrôle direct de l'État (Attal : État seul, ≈ 800 000 agents hors ministères épargnés, Public Sénat). Bornes, règle de Retailleau et Lisnard écrite dans chaque fiche : basse, un départ à la retraite sur trois non remplacé (144 000 par an) sur 3,5 ans dans les secteurs visés, sans dépasser la valeur centrale ; haute, plan entièrement réalisé en 2030. Philippe 2,7-8 → 5,2-7,7 ; Attal 1,5-4,3 → 0,7-3,1 (100 000 postes de l'État : proposition précisée) ; Zemmour 9,7-17,2 → 3,2-24,6 ; Retailleau et Lisnard inchangés ; Le Pen, partie agences (0 et 1,06) expliquée dans la formule, postes toujours non chiffrables (S146). Valeurs centrales et totaux inchangés. branche revue/verdicts-3110, bloc « review 31 » de corrections.py."
+  },
+  {
+   "id": "S165",
+   "type": "a_trancher",
+   "candidats": [
+    "retailleau"
+   ],
+   "mesure": "revenu_familial",
+   "sujet": "Revenu familial de Retailleau : condition de 5 ans de résidence et de travail",
+   "detail": "Relecture du 31/10 (constat 13) : la condition imposée aux familles étrangères est celle de la fiche immigration du candidat et des aides après 5 ans de Lisnard (« Exige une révision »), mais la fiche restait « sous conditions » avec un obstacle générique.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Tranché le 31/10 (règle : une même situation juridique reçoit le même verdict ; une fiche qui réunit plusieurs mesures prend le verdict le plus contraignant) : « Exige une révision », chemin par l'article 89 (égalité devant les aides, condition censurée en 2024), le reste relevant de la loi. Non chiffrable, sans effet sur les totaux. branche revue/verdicts-3110, bloc « review 31 » de corrections.py."
+  },
+  {
+   "id": "S166",
+   "type": "a_trancher",
+   "candidats": [
+    "le-pen",
+    "philippe",
+    "retailleau",
+    "attal"
+   ],
+   "mesure": "regle_or",
+   "sujet": "Règle d'or par référendum : fiche pour les quatre candidats qui la proposent",
+   "detail": "Relecture du 31/10 (constat 14) : seule la règle d'or d'Attal avait une fiche (« Exige une révision ») ; celles de Le Pen, Philippe et Retailleau n'étaient que dans « Vie quotidienne » et comptaient « sans verdict » au quiz.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 : fiche non chiffrable « Règle d'or par référendum » pour Le Pen, Philippe et Retailleau, sur le modèle de celle d'Attal (même formule, même verdict « Exige une révision », même voie : inscription dans la Constitution). Sources vérifiées : LCP du 2/10/2026 (Le Pen : inscription dans la Constitution par référendum, déficit de 4,9 % en 2027 à 2,4 % en 2033) ; site d'Édouard Philippe (« Inscrire dans la Constitution une règle d'or de maîtrise des déficits via un référendum ») ; Assemblée nationale, texte adopté n° 722 du 13/07/2011 (Retailleau : texte voté en termes identiques par les deux assemblées, définitif après référendum ou Congrès, d'où un chemin plus court, même verdict). Quiz : les entrées passent sur les fiches (clés candidat.regle_or) ; le rangement spécial de build.py est retiré. Les propositions restent aussi dans « Vie quotidienne ». branche revue/verdicts-3110, bloc « review 31 » de corrections.py."
+  },
+  {
+   "id": "S167",
+   "type": "a_corriger",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "philippe",
+    "glucksmann",
+    "attal",
+    "retailleau",
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Obstacles types des mesures communes",
+   "detail": "Relecture du 31/10 (constats 12, 21, 24 et 26) : éléments à charge propres à un camp (« régime déjà déficitaire », « financement exigé par Bruxelles », « Rejet social en 2023 », vote de l'Assemblée sur la taxe Zucman chez Glucksmann seulement, « exil fiscal » chez Mélenchon seulement) ; obstacle générique chez Zemmour pour l'AME et les renouvelables ; motif des dispositifs dégressifs censurés appliqué à la suppression uniforme de la CSG de Zemmour, pas à la baisse uniforme de Lisnard ; « financement non précisé » sur des recettes (IFF, TTF, Anah) ; CVAE « reportée » chez Philippe.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 : un obstacle type par mesure commune, le même texte chez tous : retour à 62 ans (« Par la loi ; financement non précisé dans la mesure », plus le paramètre propre à chacun) ; recul de l'âge (paramètre non publié, transition vers la capitalisation) ; AME (« Une loi suffit ; report de dépenses vers l'hôpital ») ; renouvelables (contrats signés maintenus) ; baisse uniforme de la CSG (Lisnard et Zemmour : même obstacle, même verdict « faisable », l'argument des censures de 2000, 2014 et 2015 gardé pour une baisse dégressive) ; impôts de production (compensation des collectivités pour la CFE) ; taxe Zucman (avis du Conseil d'État, risque confiscatoire, comportements, chez Glucksmann et Mélenchon) ; impôts nouveaux (rendement dépendant des comportements) ; Anah = fin de MaPrimeRénov' ; CVAE « déjà supprimée d'ici 2030 par la loi » (règle commune). Obstacles génériques remplacés par le paramètre qui manque (Attal IA et écoles, Lisnard fiscalité foncière, Philippe allocation familiale). branche revue/verdicts-3110, bloc « review 31 » de corrections.py."
+  },
+  {
+   "id": "S168",
+   "type": "a_corriger",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "philippe",
+    "glucksmann",
+    "retailleau",
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Notes de travail publiées dans les fiches",
+   "detail": "Relecture du 31/10 (constat 7) : « À trancher », « Verdict proposé », consignes (« Retirer… », « corriger le simulateur », « Fermer S011 ») et numéros du registre publiés dans les notes.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 : chaque point tranché par les règles communes et réécrit au présent. Le Pen : moins de 30 ans, « sous conditions » (risque de censure précis ; valeur Montaigne de 0,7 : S177) ; Dutreil, 1,8 (médiane ajustée aux paramètres en vigueur, Montaigne 5,3 en borne) ; donations (consigne déjà appliquée). Mélenchon : allocations familiales (donnée déjà celle de la Cnaf) ; TTF (taux de 2026 : S176) ; recherche (identifiants retirés). Philippe : assurance chômage et premier emploi (consignes déjà appliquées) ; réservistes (règle par défaut). Glucksmann : enseignants et chèque énergie (consignes déjà appliquées). Retailleau : retraites (valeur commune sans chiffrage indépendant) ; assurance chômage (« sous conditions », convention) ; revenu familial (S165, S178). Lisnard : successions « faisable » (la condition du candidat porte sur le financement, pas sur la voie juridique) ; quotient, CSG déductible « faisable » ; fiscalité foncière « sous conditions » (paramètres non publiés). Zemmour : accise « faisable » ; renouvelables « sous conditions » ; Anah « faisable », part publique (S171) ; UE « très difficile » ; RSA limité à 3 ans (S174 ; consignes déjà appliquées). Contrôle ajouté à run.py : le pipeline échoue si un texte publié (fiches, notes, obstacles, résumés, simulateur, Vie quotidienne, quiz, méthode) contient « À trancher », « Verdict proposé », « Retirer « », « corriger le simulateur », « à signaler », « à aligner sur », un identifiant Sxxx ou un nom de réglage du simulateur. branche revue/verdicts-3110, bloc « review 31 » de corrections.py."
+  },
+  {
+   "id": "S169",
+   "type": "a_corriger",
+   "candidats": [
+    "melenchon",
+    "le-pen",
+    "retailleau",
+    "lisnard",
+    "zemmour",
+    "philippe"
+   ],
+   "mesure": null,
+   "sujet": "Textes périmés et mention des agences",
+   "detail": "Relecture du 31/10 (constats 4, 5, 6, 23 et 36) : note fraude de Mélenchon aux valeurs d'avant le 29/10 ; montants du camp de Retailleau (fraude, retraites, impôts de production) lus en cumul alors que la formule retient des niveaux annuels de 2032 ; agences de Retailleau « 1 à 3 Md€ réels contre 12,5 » (obstacle, chiffrage indépendant, résumé) alors que la valeur commune est 0,26 chez tous ; textes de Zemmour (successions, impôts de production, CSG, postes) et de Le Pen (part fiscale) périmés ; valeur commune des agences appliquée sans le dire (ARS de Lisnard comptées, ARS de Zemmour non comptées, opérateurs de Philippe).",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 : note fraude de Mélenchon aux valeurs actuelles (Le Pen 1,0, Mélenchon 2,0, Retailleau 4,1) ; Retailleau, fraude « 9 Md€ par an en 2032 » (fiches 5 et 10 du plan), retraites « 12 Md€ par an en 2032 » (fiche 6), impôts de production en niveaux annuels de 2032 (fiche 14) ; agences : l'écart entre le montant annoncé et la valeur commune n'est écrit dans aucun obstacle ni résumé, chez Le Pen comme chez Retailleau (règle n° 1 : même mention chez les deux ou chez aucun), le chiffrage le montre ; résumé de Retailleau (et de Philippe, même gabarit : la révision de la Constitution) réécrit. Chaque fiche agences dit si elle entre dans la valeur commune (critère : suppression ou fusion de la plupart des agences) : Le Pen, Retailleau et Lisnard oui (ARS, DREAL et DDTM de Lisnard comprises, sans économie propre) ; Zemmour non (agences nommées : ARS 1, autres agences 1, listées non comptées, sans économie propre comme celles de Lisnard ; règle des agences nommées : S148) ; Philippe non (« des dizaines » d'opérateurs et d'agences, source du candidat trouvée le 31/10 : S147). Zemmour : successions sur la base commune de 16,0 Md€ (reprise par le candidat : S007), impôts de production avec l'obstacle de Le Pen, CSG sans « paramètres 2022 », postes sans Le Pen dans la liste ; Le Pen : note LexImpact corrigée. branche revue/verdicts-3110, bloc « review 31 » de corrections.py."
+  },
+  {
+   "id": "S170",
+   "type": "a_trancher",
+   "candidats": [
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": [
+    "quotient",
+    "famille"
+   ],
+   "sujet": "Quotient familial : même décomposition et même valeur pour le doublement du plafond",
+   "detail": "Relecture du 31/10 (constat 25) : « même base que Zemmour » annoncé chez Lisnard, mais le doublement du plafond valait 3,3 (Institut Montaigne seul) chez Lisnard et ≈ 2,2 (milieu Montaigne / iFRAP) chez Zemmour.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Tranché le 31/10 (règles : même mesure, même valeur ; médiane des chiffrages crédibles) : doublement du plafond = médiane de l'Institut Montaigne (3,3) et de l'iFRAP (1,0 à 1,3), ≈ 2,2, chez les deux ; allocations universelles 0,8 chez Zemmour seulement. Lisnard (déplafonnement, au moins le doublement) : −3,3 → −2,2 (bornes −6,6 et −1,0), total −42,5 → −41,4 Md€ ; Zemmour (hors total) inchangé, formule réécrite avec la même décomposition. Sources : Institut Montaigne 2022 (doubler le quotient familial), iFRAP 2022. branche revue/verdicts-3110, bloc « review 31 » de corrections.py."
+  },
+  {
+   "id": "S171",
+   "type": "a_corriger",
+   "candidats": [
+    "zemmour",
+    "retailleau"
+   ],
+   "mesure": [
+    "retraites",
+    "anah",
+    "production"
+   ],
+   "sujet": "Bornes différentes pour des mesures identiques",
+   "detail": "Relecture du 31/10 (constat 27) : retraite à 64-65 ans, borne basse 0 chez Zemmour, 1,8 chez Philippe et Lisnard ; Anah, borne haute au budget total (part des certificats comprise) contre la part publique chez Retailleau ; impôts de production de Retailleau bornés sur d'anciens chiffres du camp.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 : Zemmour retraites [0 ; 5,8] → [1,8 ; 5,8] (64 ou 65 ans : la fin de la suspension compte dans les deux cas) ; Anah [2,0 ; 4,0] → [1,2 ; 2,1], mêmes bornes que la fin de MaPrimeRénov' (part publique seulement) ; Retailleau impôts de production [−13,2 ; −6,4] → [−8,6 ; −8,1], bornes sur les rendements officiels de la C3S et de la part industrielle de la CFE, comme Le Pen (2027 à 17,5 %, année précédente à 20 %), forfait social au montant du camp (S160). Valeurs centrales et totaux inchangés. branche revue/verdicts-3110, bloc « review 31 » de corrections.py."
+  },
+  {
+   "id": "S172",
+   "type": "a_corriger",
+   "candidats": [
+    "melenchon",
+    "glucksmann",
+    "le-pen",
+    "philippe",
+    "attal"
+   ],
+   "mesure": null,
+   "sujet": "Une valeur et un libellé par référence",
+   "detail": "Relecture du 31/10 (constats 19 et 28) : même étude de l'Institut Montaigne sur le SMIC citée « emplois perdus » chez Mélenchon et « emplois menacés » chez Glucksmann ; essence à 1,89 €/l (E10) dans la fiche TVA de Le Pen, 1,94 (SP95) ailleurs ; coût d'un étudiant 12 500 € chez Philippe, 12 250 € chez Mélenchon ; salaire net moyen des enseignants 3 190 € et 3 090 € ; valeur Montaigne de 3,3 Md€ présentée comme « valeur commune ».",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10, sources relues : Institut Montaigne, « pourrait causer des pertes d'emploi entre 230 000 et 380 000 » → « pertes d'emploi » chez les deux ; SP95-E5 1,94 €/l partout (moyennes de 2022 : 1,85 et 1,81) ; 12 250 € par étudiant (Philippe, ingénieurs, indicatif −1,5 au lieu de −1,6) ; salaire net moyen de 2024 : 3 190 € (Insee, équivalent temps plein, base de la valeur commune de 3,9 Md€), la DEPP donnant 3 090 € sur un autre champ (NI 2026-36, qui explique l'écart) ; Attal, borne haute −1,8 → −1,7 ; 3,3 Md€ libellé « Institut Montaigne 2022, salaires de 2019 ». branche revue/verdicts-3110, bloc « review 31 » de corrections.py."
+  },
+  {
+   "id": "S173",
+   "type": "a_corriger",
+   "candidats": [
+    "retailleau",
+    "philippe",
+    "le-pen",
+    "melenchon",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Adjectifs de jugement et coquilles",
+   "detail": "Relecture du 31/10 (constats 22 et 37) : « carence surévaluée » (Retailleau), « Coût inconnu, potentiellement élevé » (Philippe) ; points manquants et texte répété dans cinq notes.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": "Fait le 31/10 : « carence : 3 Md€ annoncés, 0,11 Md€ comptés » ; « Seuils de dégressivité et aides remplacées non publiés » ; points ajoutés (Le Pen suramortissement et proches aidants, Mélenchon hôpitaux, Zemmour postes) ; répétition retirée (Mélenchon, taxe Zucman). branche revue/verdicts-3110, bloc « review 31 » de corrections.py."
+  },
+  {
+   "id": "S174",
+   "type": "a_verifier",
+   "candidats": [
+    "zemmour"
+   ],
+   "mesure": "rsa3",
+   "sujet": "Zemmour, RSA limité à 3 ans : part des allocataires au-delà de 3 ans (DREES)",
+   "detail": "Relecture du 31/10 (constat 8) : le paramètre du candidat est publié (3 ans, personnes aptes au travail) ; seule manque une donnée publique, l'ancienneté au RSA, que donne la fiche 23 « Le revenu de solidarité active » du panorama « Minima sociaux et prestations sociales » de la DREES (édition 2025). Site de la DREES inaccessible le 31/10 (erreur 503), comme le 28/10. À faire : relever la part des allocataires au-delà de 3 ans, puis compter la mesure avec la même base que le RSA de Retailleau (12 Md€ × part au-delà de 3 ans × 87 % hors étrangers, ≈ +4,2 si la part est de 40 %), « sous conditions ».",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": null
+  },
+  {
+   "id": "S175",
+   "type": "a_verifier",
+   "candidats": [
+    "le-pen"
+   ],
+   "mesure": "fraude",
+   "sujet": "Le Pen : mécanisme de la TVA prélevée à la source",
+   "detail": "Suite de S163 (31/10) : le contre-budget inscrit « Mise en place du prélèvement de la TVA à la source » sans décrire le mécanisme. S'il s'agit d'un paiement scindé (TVA versée sur un compte bloqué ou directement au Trésor), il faut une dérogation à la directive TVA accordée par le Conseil à l'unanimité (art. 395, comme l'Italie en 2015) : verdict « très difficile » (accord extérieur). Sinon, « sous conditions » reste. À vérifier quand le RN publie le détail.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": null
+  },
+  {
+   "id": "S176",
+   "type": "a_verifier",
+   "candidats": [
+    "melenchon"
+   ],
+   "mesure": "ttf",
+   "sujet": "Mélenchon, taxe sur les transactions financières : taux en vigueur en 2026",
+   "detail": "Relecture du 31/10 (note de travail retirée de la fiche) : le chiffrage retenu (Institut Montaigne 2024, 3,0 Md€) part du taux de 2024 (0,3 %). Relever le taux en vigueur en 2026 sur une source officielle ; s'il a changé, refaire l'écart avec la même règle (médiane ajustée aux paramètres en vigueur).",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": null
+  },
+  {
+   "id": "S177",
+   "type": "a_verifier",
+   "candidats": [
+    "le-pen"
+   ],
+   "mesure": "ir-moins-30-ans",
+   "sujet": "Le Pen, moins de 30 ans : valeur de 0,7 Md€ de la synthèse de l'Institut Montaigne de 2024",
+   "detail": "Relecture du 31/10 (note de travail retirée de la fiche) : la fiche PDF de synthèse de 2024 affiche 0,7 Md€, contre 3,7 sur la page de synthèse et 3,65 dans le chiffrage de 2022 dont elle dit partir. La médiane des deux valeurs publiées (−2,2) est gardée. Vérifier auprès de la source si 0,7 est une coquille ; si oui, appliquer la règle de la médiane aux seules valeurs confirmées.",
+   "echeance": null,
+   "statut": "ouvert",
+   "cree": "2026-10-31",
+   "maj": "2026-10-31",
+   "resolution": null
+  },
+  {
+   "id": "S178",
+   "type": "a_verifier",
+   "candidats": [
+    "retailleau"
+   ],
+   "mesure": "revenu_familial",
+   "sujet": "Retailleau, revenu familial : coût annoncé sans le doublement au 3e enfant",
+   "detail": "Relecture du 31/10 (note de travail retirée de la fiche) : 40,3 Md€ ≈ 240 € × 12 mois × ≈ 14 millions d'enfants, ce qui ne semble pas comprendre le doublement au 3e enfant. À vérifier dans le document du camp et à rapprocher du nombre d'enfants par rang (Cnaf, Insee) ; la fiche reste non chiffrable (liste des aides remplacées non publiée).",
+   "echeance": null,
    "statut": "ouvert",
    "cree": "2026-10-31",
    "maj": "2026-10-31",

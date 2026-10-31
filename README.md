@@ -5,18 +5,18 @@ Les programmes des candidats à la présidentielle française de 2027 (1er tour 
 **Site : [p2027.org](https://p2027.org)**
 
 <!-- totaux:debut (généré par pipeline/run.py, ne pas modifier à la main) -->
-Données à jour au 31 octobre 2026 : 8 candidats, 148 mesures.
+Données à jour au 31 octobre 2026 : 8 candidats, 151 mesures.
 
 | Candidat | Parti | Mesures chiffrées | Effet sur le déficit en 2030 (Md€/an) | Fourchette à 80 % |
 | --- | --- | --- | --- | --- |
 | Marine Le Pen | RN | 26 | −69,4 | −93,7 à −58,5 |
 | Jean-Luc Mélenchon | LFI | 21 | −147,1 | −176,3 à −105,9 |
-| Édouard Philippe | Horizons | 9 | −0,3 | −24,8 à +4,9 |
+| Édouard Philippe | Horizons | 9 | −0,3 | −23,9 à +5,2 |
 | Raphaël Glucksmann | PS-Place publique | 8 | −54,8 | −65,3 à −47,4 |
-| Gabriel Attal | Renaissance | 6 | +7,0 | +1,0 à +8,5 |
-| Bruno Retailleau | LR | 21 | −16,9 | −25,4 à −4,4 |
-| David Lisnard | Nouvelle Énergie | 15 | −42,5 | −52,2 à −35,8 |
-| Éric Zemmour | Reconquête | 12 | +19,2 | +9,4 à +31,5 |
+| Gabriel Attal | Renaissance | 6 | +7,0 | +0,4 à +7,8 |
+| Bruno Retailleau | LR | 21 | −16,9 | −23,9 à −4,0 |
+| David Lisnard | Nouvelle Énergie | 15 | −41,4 | −51,7 à −34,9 |
+| Éric Zemmour | Reconquête | 12 | +19,2 | +4,8 à +34,4 |
 <!-- totaux:fin -->
 
 Un montant négatif creuse le déficit. Ces totaux supposent que toutes les mesures passent, y compris celles qui exigent une révision de la Constitution ou des traités. Les mesures non reconfirmées en 2026 et celles dont un paramètre clé n'est pas publié sont hors total.

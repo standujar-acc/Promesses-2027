@@ -9520,7 +9520,7 @@
 }
 ]
 },
-"le-pen.economie.3": {
+"le-pen.regle_or": {
 "constat": "Dette publique : de 98 % du PIB fin 2019 à 119 % mi-2026 (Insee) ; déficit : 5,1 % du PIB en 2025 (Eurostat).",
 "constat_s": [
 2,
@@ -9576,7 +9576,7 @@
 }
 ]
 },
-"philippe.economie.3": {
+"philippe.regle_or": {
 "constat": "Dette publique : de 98 % du PIB fin 2019 à 119 % mi-2026 (Insee) ; déficit : 5,1 % du PIB en 2025 (Eurostat).",
 "constat_s": [
 2,
@@ -9632,7 +9632,7 @@
 }
 ]
 },
-"retailleau.economie.3": {
+"retailleau.regle_or": {
 "constat": "Dette publique : de 98 % du PIB fin 2019 à 119 % mi-2026 (Insee) ; déficit : 5,1 % du PIB en 2025 (Eurostat).",
 "constat_s": [
 2,
