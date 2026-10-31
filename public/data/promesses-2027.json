@@ -12797,9 +12797,9 @@
       "inputs": [
        {
         "label": "Économies annoncées",
-        "value": "80 Md€ en an 1, ≥200 Md€ en fin de mandat",
-        "source": "Discours de Saint-Raphaël",
-        "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
+        "value": "80 Md€ dès la première année, 200 Md€ par an à la fin du quinquennat",
+        "source": "Nouvelle Énergie, compte rendu du meeting de Saint-Raphaël (3/07/2026)",
+        "url": "https://www.unenouvelleenergie.fr/a-saint-raphael-david-lisnard-lance-sa-campagne-pour-faire-gagner-la-france-qui-fait/"
        }
       ],
       "note": "Non compté dans le total pour éviter un double compte",
@@ -13566,7 +13566,7 @@
        "value": "≈84 Md€ en 2030",
        "low_md": -120,
        "high_md": -48,
-       "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
+       "url": "https://www.unenouvelleenergie.fr/a-saint-raphael-david-lisnard-lance-sa-campagne-pour-faire-gagner-la-france-qui-fait/"
       },
       {
        "source": "DREES (assiette)",
@@ -13591,8 +13591,8 @@
        {
         "label": "Trajectoire annoncée",
         "value": "80 → 200 Md€ × 60 %",
-        "source": "Discours de Saint-Raphaël",
-        "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
+        "source": "Nouvelle Énergie, compte rendu du meeting de Saint-Raphaël (3/07/2026)",
+        "url": "https://www.unenouvelleenergie.fr/a-saint-raphael-david-lisnard-lance-sa-campagne-pour-faire-gagner-la-france-qui-fait/"
        },
        {
         "label": "Cotisations sociales effectives",
@@ -14251,8 +14251,8 @@
        {
         "label": "CSG sur les revenus d'activité 2025",
         "value": "110,4 Md€ (9,2 points)",
-        "source": "DSS, PLFSS 2025, annexe 3 (même base que la fiche CSG de Zemmour)",
-        "url": "https://www.securite-sociale.fr/la-secu-en-detail/loi-de-financement/annexes"
+        "source": "DSS, PLFSS 2025, annexe 3, appendice p. 64 : 110 386 M€ prévus en 2025 (même base que la fiche CSG de Zemmour)",
+        "url": "https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/PLFSS/2025/PLFSS2025-Annexe03.pdf"
        },
        {
         "label": "Impôt sur le revenu récupéré : taux commun (iFRAP)",
@@ -14404,8 +14404,8 @@
        {
         "label": "CSG sur les revenus d'activité 2025",
         "value": "110,4 Md€ (9,2 points)",
-        "source": "DSS, PLFSS 2025, annexe 3 (même base que la fiche CSG de Zemmour)",
-        "url": "https://www.securite-sociale.fr/la-secu-en-detail/loi-de-financement/annexes"
+        "source": "DSS, PLFSS 2025, annexe 3, appendice p. 64 : 110 386 M€ prévus en 2025 (même base que la fiche CSG de Zemmour)",
+        "url": "https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/PLFSS/2025/PLFSS2025-Annexe03.pdf"
        },
        {
         "label": "Impôt sur le revenu récupéré : taux commun (iFRAP)",
@@ -17036,7 +17036,7 @@
  "changelog": [
   {
    "date": "31/10/2026",
-   "text": "Affichage et sources : « Qu'est-ce qui peut passer ? » et la répartition des verdicts d'un candidat portent sur les mêmes mesures que les totaux, sans les mesures non confirmées ni les doublons (Glucksmann et Zemmour en impôts, Lisnard en dépense publique). Date de la moyenne des sondages affichée avec les intentions de vote. L'étiquette « agrégateur » n'est plus posée sur franceinfo et figure aussi sur les données d'entrée des fiches ; une source a la même année et le même titre partout (Public Sénat, Sénat, MoneyVox, Capital) ; dans les repères, l'année affichée est celle du chiffre. Nombres et unités ne sont plus coupés en fin de ligne. Historique regroupé par sujet, une entrée par sujet et par jour (29 et 31/10)."
+   "text": "Affichage et sources : « Qu'est-ce qui peut passer ? » et la répartition des verdicts d'un candidat portent sur les mêmes mesures que les totaux, sans les mesures non confirmées ni les doublons (Glucksmann et Zemmour en impôts, Lisnard en dépense publique). Date de la moyenne des sondages affichée avec les intentions de vote. L'étiquette « agrégateur » n'est plus posée sur franceinfo et figure aussi sur les données d'entrée des fiches ; une source a la même année et le même titre partout (Public Sénat, Sénat, MoneyVox, Capital) ; dans les repères, l'année affichée est celle du chiffre. Nombres et unités ne sont plus coupés en fin de ligne. Historique regroupé par sujet, une entrée par sujet et par jour (29 et 31/10). Liens : les 17 adresses restées sans réponse au contrôle automatique rouvertes ; deux étaient mortes et sont remplacées (annexe 3 du PLFSS 2025 pour la base de la CSG ; pour Lisnard, compte rendu officiel du meeting de Saint-Raphaël, le PDF du discours n'étant plus en ligne)."
   },
   {
    "date": "31/10/2026",
@@ -20249,11 +20249,6 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "Discours de Saint-Raphaël (Nouvelle Énergie)",
-      "year": 2026,
-      "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
-     },
-     {
       "label": "lisnard.cards – propositions (non officiel)",
       "year": 2026,
       "url": "https://lisnard.cards/cartes"
@@ -20317,6 +20312,11 @@
       "label": "Cour des comptes, Les centres éducatifs fermés et les établissements pénitentiaires pour mineurs (observations définitives S2023-0733)",
       "year": 2023,
       "url": "https://www.ccomptes.fr/sites/default/files/2023-10/20231016-S2023-0733-Centres-educatifs-fermes-etablissements-penitentiaires-pour-mineurs.pdf"
+     },
+     {
+      "label": "Nouvelle Énergie, compte rendu du meeting de Saint-Raphaël (3/07/2026)",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/a-saint-raphael-david-lisnard-lance-sa-campagne-pour-faire-gagner-la-france-qui-fait/"
      }
     ]
    },
@@ -20414,11 +20414,6 @@
       "url": "https://lisnard.cards/cartes"
      },
      {
-      "label": "Discours de Saint-Raphaël",
-      "year": 2026,
-      "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
-     },
-     {
       "label": "Maire-info – étude DEPP carte scolaire",
       "year": 2013,
       "url": "https://maire-info.com/carte-scolaire-les-effets-constrastes-de-la-reforme-de-2007-article2-16202"
@@ -20472,6 +20467,11 @@
       "label": "OCDE, Résultats du PISA 2022 (volume II), chapitre 4, p. 158-159 : groupes de niveau",
       "year": 2023,
       "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pisa-2022-results-volume-ii_222a5ef6/a97db61c-en.pdf"
+     },
+     {
+      "label": "Nouvelle Énergie, compte rendu du meeting de Saint-Raphaël (3/07/2026)",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/a-saint-raphael-david-lisnard-lance-sa-campagne-pour-faire-gagner-la-france-qui-fait/"
      }
     ]
    },
@@ -20553,11 +20553,6 @@
     "evidence": "Loi SRU : son article 55 explique près de la moitié des logements sociaux construits dans les communes visées (CGDD, 2014) ; pas d'évaluation d'une suppression.",
     "evidence_level": "non_demontree",
     "sources": [
-     {
-      "label": "Discours de Saint-Raphaël",
-      "year": 2026,
-      "url": "https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
-     },
      {
       "label": "lisnard.cards – propositions (non officiel)",
       "year": 2026,
