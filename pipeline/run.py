@@ -12,6 +12,19 @@ os.chdir(HERE)
 runpy.run_path('corrections.py', run_name='__main__')
 runpy.run_path('build.py', run_name='__main__')
 D = json.load(open('promesses-2027-data.json'))
+# textes publiés (fiches, notes, obstacles, résumés, simulateur, Vie quotidienne, quiz, méthode) : aucune note de travail
+# (arbitrage présenté comme non tranché, consigne de correction, identifiant du registre : ils vont dans pipeline/data/suivi.json)
+NOTE_TRAVAIL = re.compile(r"[àa] trancher|verdict proposé|retirer «|corriger le simulateur|à signaler|à aligner sur|\bS\d{3}\b|\bsim\.[a-z_]+|\b[a-z]+_[a-z_]+ = \d", re.I)
+def _textes(o, chemin):
+    if isinstance(o, dict):
+        for k, v in o.items():
+            if k not in ('url', 'u'): yield from _textes(v, chemin + '.' + str(k))
+    elif isinstance(o, list):
+        for i, v in enumerate(o): yield from _textes(v, f'{chemin}[{i}]')
+    elif isinstance(o, str):
+        yield chemin, o
+_notes = [(c, m.group(0)) for cle in ('candidates', 'life', 'quiz_extra', 'method') for c, s in _textes(D[cle], cle) for m in [NOTE_TRAVAIL.search(s)] if m]
+assert not _notes, "note de travail dans un texte publié : " + " ; ".join(f"{c} ({g})" for c, g in _notes[:10])
 art = open('promesses-2027.html').read()
 
 # page web complète : <title> et polices dans <head> ; polices servies par le site (pas d'appel à Google Fonts)
