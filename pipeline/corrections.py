@@ -1674,6 +1674,17 @@ sc=C['lisnard']['sim']; n0=len(sc['tous'])
 sc['tous']=[x for x in sc['tous'] if not x.startswith('TVA unique')]; assert len(sc['tous'])==n0-1
 D['asof']='31 octobre 2026'
 
+# --- review 35 : même règle d'attribution dans les fiches (31/10/2026) ; registre S194
+# Zemmour, sortie de la CEDH : seule source, le programme des européennes de 2024 de Reconquête (document de parti antérieur à la désignation,
+# règle S133) ; rien dans le programme de 2022 ni dans une source de 2026 qui parle pour lui (S194). Retirée de la proposition de la fiche, de la
+# liste « non compté » et du résumé (bloc des résumés), comme dans la Vie quotidienne. L'obstacle garde la dénonciation de la CEDH, chemin
+# juridique de la suppression du regroupement familial (art. 8 de la Convention). Fiche non chiffrable : totaux inchangés.
+m=M('zemmour','cedh'); a0="Supprimer le regroupement familial, sortir de la CEDH (programme 2024), référendum sur l'immigration (2022, non reconfirmé)."
+assert m['proposal']==a0
+m['proposal']="Supprimer le regroupement familial ; référendum sur l'immigration (2022, non reconfirmé)."
+t=C['zemmour']['claude_total']; assert t['missing'].count('sortie de la CEDH, ')==1
+t['missing']=t['missing'].replace('sortie de la CEDH, ','')
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
@@ -1726,7 +1737,7 @@ P={'le-pen':("Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baiss
 'retailleau':("Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration.","la révision de la Constitution, pour le référendum sur l'immigration, les aides réservées après cinq ans, les peines planchers et la règle d'or."),
 'attal':("Promet la fin de l'âge légal de départ, 100 000 postes publics en moins, le gel des prestations en 2028 et l'équilibre budgétaire en 2037.","des paramètres non publiés, en particulier pour les retraites."),
 'lisnard':("Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations.","l'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend."),
-'zemmour':("Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH.","plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH.")}
+'zemmour':("Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la fin de l'aide publique au développement.","plusieurs mesures exigent une révision de la Constitution.")}
 MEN=D['statu_quo']['menages']
 def fr(x): return (('+' if x>0 else '−' if x<0 else '')+f"{abs(x):.1f}".replace('.',','))
 for c0 in D['candidates']:

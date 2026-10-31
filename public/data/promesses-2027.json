@@ -14911,7 +14911,7 @@
    "name": "Éric Zemmour",
    "party": "Reconquête",
    "poll": "4,0 %",
-   "summary": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH. Notre chiffrage : +19,2 Md€ par an en 2030, soit +621 € par ménage. Principal obstacle : plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH.",
+   "summary": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la fin de l'aide publique au développement. Notre chiffrage : +19,2 Md€ par an en 2030, soit +621 € par ménage. Principal obstacle : plusieurs mesures exigent une révision de la Constitution.",
    "measures": [
     {
      "id": "remigration",
@@ -15119,7 +15119,7 @@
      "id": "cedh",
      "theme": "institutions",
      "title": "Fin du regroupement familial",
-     "proposal": "Supprimer le regroupement familial, sortir de la CEDH (programme 2024), référendum sur l'immigration (2022, non reconfirmé).",
+     "proposal": "Supprimer le regroupement familial ; référendum sur l'immigration (2022, non reconfirmé).",
      "claimed": "Non chiffré",
      "claimed_md": null,
      "estimates": [
@@ -15145,7 +15145,7 @@
       "note": "Effet budgétaire non chiffrable",
       "nc": true
      },
-     "quiz_text": "Sortir de la Convention européenne des droits de l'homme et supprimer le regroupement familial",
+     "quiz_text": "Supprimer le regroupement familial",
      "quiz_concret": "Un étranger installé ne pourrait plus faire venir sa famille.",
      "quiz_plus": "Avec des règles plus dures sur les conjoints, les jeunes immigrées se marient moins tôt et étudient plus.",
      "quiz_moins": "Les réfugiés rejoints par leur famille vont mieux psychiquement que ceux qui en restent séparés.",
@@ -15175,7 +15175,7 @@
        ]
       }
      ],
-     "quiz_etudes": "Restreindre les venues familiales réduit les arrivées et a allongé les études de jeunes immigrées ; la séparation va avec une moins bonne santé mentale. Sortie de la Convention : pas d'étude.",
+     "quiz_etudes": "Restreindre les venues familiales réduit les arrivées et a allongé les études de jeunes immigrées ; la séparation va avec une moins bonne santé mentale.",
      "quiz_src": [
       {
        "l": "Cuzulan, Schultz-Nielsen, Fallesen, Marriage market restrictions and immigrant family change in Denmark (N-IUSSP, résumé de l'article de Demography)",
@@ -16896,7 +16896,7 @@
     "p10": 4.8,
     "p90": 34.4,
     "realsum": 11.9,
-    "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, fin de la gratuité des études pour les étudiants étrangers 4 (montant des droits non publié), audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS 1 et autres agences nommées 1 : agences nommées, hors valeur commune des agences, qui vise la suppression ou la fusion de la plupart d'entre elles ; économies sans chiffrage indépendant, comme les ARS de Lisnard, sans économie propre), lignes immigration de moins de 1 Md€ : visas plus chers 0,7, hébergement d'urgence fermé aux étrangers en situation irrégulière 0,7, aide juridictionnelle réservée aux Français 0,1",
+    "missing": "ministère de la Remigration, capitalisation, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, fin de la gratuité des études pour les étudiants étrangers 4 (montant des droits non publié), audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS 1 et autres agences nommées 1 : agences nommées, hors valeur commune des agences, qui vise la suppression ou la fusion de la plupart d'entre elles ; économies sans chiffrage indépendant, comme les ARS de Lisnard, sans économie propre), lignes immigration de moins de 1 Md€ : visas plus chers 0,7, hébergement d'urgence fermé aux étrangers en situation irrégulière 0,7, aide juridictionnelle réservée aux Français 0,1",
     "n": 12,
     "cost": -12.7,
     "gain": 31.9,
@@ -16908,8 +16908,8 @@
     ]
    },
    "short": "Zemmour",
-   "promise": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH.",
-   "obstacle_main": "Plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH."
+   "promise": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la fin de l'aide publique au développement.",
+   "obstacle_main": "Plusieurs mesures exigent une révision de la Constitution."
   }
  ],
  "method": [
@@ -17035,7 +17035,7 @@
  "changelog": [
   {
    "date": "31/10/2026",
-   "text": "Vie quotidienne : sources. Chaque proposition s'appuie désormais sur au moins une source qui parle pour le candidat (lui-même, son site, son parti, un média qui le cite), vérifiée automatiquement ; les sites de synthèse et les sites non officiels sont retirés quand une telle source existe, au profit des documents officiels (programme de 2022 du RN, « Acte I » de Place publique, sites de campagne, Nouvelle Énergie…). Retirées faute de source qui parle pour le candidat : Le Pen, instruments européens de défense ; Mélenchon, scolarité obligatoire à 18 ans ; Attal, logement intermédiaire dans les quotas et ZAN simplifié ; Retailleau, suppression du juge d'application des peines et contribution à l'UE ; Lisnard, TVA unique à 25 % (aussi retirée de la liste des mesures non comptées et du simulateur) ; Zemmour, vente de HLM, Livret A, 40 000 soldats, directive sur les bâtiments, sortie de la CEDH et loi Avia, propositions du seul programme européen de 2024 ou de sites de synthèse ; la présomption de légitime défense (Le Pen, 2022) sort de l'affichage, au-delà de cinq propositions. Quiz : les aides au privé de Glucksmann (devenues une intention) et le logement intermédiaire d'Attal n'y figurent plus. Textes alignés sur les sources : renouvelables (5,6 Md€ en 2027) et contribution nette à l'UE (Le Pen), pays sûrs (Philippe), aides au privé sans montant (Glucksmann), prix de l'électricité stables cinq ans et délai de deux mois pour les porteurs de projets (Attal), huit EPR2 si les six premiers avancent et déchéance pour les pilleurs (Retailleau), article 55 visant la CEDH, CFE des médecins libéraux et ZAN « tel qu'il est conçu » (Lisnard), éolien remplacé par la fin du soutien aux renouvelables intermittentes du plan repris en 2026 et voitures thermiques (Zemmour). Redites en 2026 : police de proximité, Sécurité sociale intégrale, logements publics et meublés touristiques (Mélenchon), encadrement des loyers (Glucksmann), suppression du juge d'application des peines (Attal), peines minimales (Le Pen) ; non reconfirmées : remises de peine (Le Pen), démantèlement des BAC (Mélenchon), plans régionaux pour les renouvelables (Glucksmann), terrains publics (Lisnard), marché carbone des carburants (Zemmour). Lectures d'études ajustées en conséquence, la même pour un même type de proposition."
+   "text": "Vie quotidienne : sources. Chaque proposition s'appuie désormais sur au moins une source qui parle pour le candidat (lui-même, son site, son parti, un média qui le cite), vérifiée automatiquement ; les sites de synthèse et les sites non officiels sont retirés quand une telle source existe, au profit des documents officiels (programme de 2022 du RN, « Acte I » de Place publique, sites de campagne, Nouvelle Énergie…). Retirées faute de source qui parle pour le candidat : Le Pen, instruments européens de défense ; Mélenchon, scolarité obligatoire à 18 ans ; Attal, logement intermédiaire dans les quotas et ZAN simplifié ; Retailleau, suppression du juge d'application des peines et contribution à l'UE ; Lisnard, TVA unique à 25 % (aussi retirée de la liste des mesures non comptées et du simulateur) ; Zemmour, vente de HLM, Livret A, 40 000 soldats, directive sur les bâtiments, sortie de la CEDH et loi Avia, propositions du seul programme européen de 2024 ou de sites de synthèse ; la présomption de légitime défense (Le Pen, 2022) sort de l'affichage, au-delà de cinq propositions. Quiz : les aides au privé de Glucksmann (devenues une intention) et le logement intermédiaire d'Attal n'y figurent plus. Textes alignés sur les sources : renouvelables (5,6 Md€ en 2027) et contribution nette à l'UE (Le Pen), pays sûrs (Philippe), aides au privé sans montant (Glucksmann), prix de l'électricité stables cinq ans et délai de deux mois pour les porteurs de projets (Attal), huit EPR2 si les six premiers avancent et déchéance pour les pilleurs (Retailleau), article 55 visant la CEDH, CFE des médecins libéraux et ZAN « tel qu'il est conçu » (Lisnard), éolien remplacé par la fin du soutien aux renouvelables intermittentes du plan repris en 2026 et voitures thermiques (Zemmour). Redites en 2026 : police de proximité, Sécurité sociale intégrale, logements publics et meublés touristiques (Mélenchon), encadrement des loyers (Glucksmann), suppression du juge d'application des peines (Attal), peines minimales (Le Pen) ; non reconfirmées : remises de peine (Le Pen), démantèlement des BAC (Mélenchon), plans régionaux pour les renouvelables (Glucksmann), terrains publics (Lisnard), marché carbone des carburants (Zemmour). Lectures d'études ajustées en conséquence, la même pour un même type de proposition. Même règle dans les fiches : la sortie de la CEDH, que seul le programme des européennes de 2024 de Reconquête attribue à Zemmour, est retirée de sa fiche « Fin du regroupement familial », de sa liste « non compté » et de son résumé (totaux inchangés)."
   },
   {
    "date": "31/10/2026",
