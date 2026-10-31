@@ -28,10 +28,18 @@ OVR = {
  ('zemmour', 'securite'): {'evidence': "Expulsions après arrestation (États-Unis) : pas d'effet observable sur la criminalité (Miles & Cox, 2014). " + PP, 'evidence_level': 'non_demontree'},
 }
 
+# Sites non officiels d'un candidat, et agrégateurs : toute la liste D['weak_domains'] (fixée par merge), testée sur le nom d'hôte exact
+# ou un sous-domaine, jamais sur une sous-chaîne de l'adresse (même test que l'app : franceinfo.fr n'est pas « info.fr ») ; review 32 (31/10/2026)
+from urllib.parse import urlparse
+NONOFF = ('wikiglucksmann.fr', 'lisnard.cards')
+WEAKD = []
+def host_in(u, doms):
+    h = (urlparse(u).hostname or '').lower()
+    return bool(h) and any((h == d or h.endswith('.' + d)) if '.' in d else d in h.split('.') for d in doms)
 def NOFF(u, lab):
     if 'non officiel' in lab or 'agrégateur' in lab: return ''
-    if any(d in u for d in ('wikiglucksmann', 'lisnard.cards')): return ' (non officiel)'
-    if any(d in u for d in ('votons-2027', 'monvote2027', 'repere2027', 'france-vote')): return ' (agrégateur)'
+    if host_in(u, NONOFF): return ' (non officiel)'
+    if host_in(u, WEAKD): return ' (agrégateur)'
     return ''
 
 
@@ -605,9 +613,135 @@ _upd('glucksmann', 'environnement', [_p('Leasing social : 1 million de voitures 
                                      _p("Loi climat : −90 % d'émissions en 2040", True, True),
                                      _p('Garder le nucléaire, construire de nouvelles unités, plan régional renouvelables', False)], add=[GPLAN_S])
 
-# même test « précis » pour une même formulation
+# --- review 32 : simulateur et affichage, relecture du 31/10 (31/10/2026)
+# (18) Nucléaire neuf : les deux lectures, Cour des comptes (EPR) et RTE, pour toute proposition de nouveaux réacteurs, chez tous (Le Pen,
+# Glucksmann, Attal, Retailleau, Lisnard, Zemmour) ; dans l'ordre des propositions affichées. Mélenchon (sortie du nucléaire) garde la lecture
+# RTE des scénarios sans nouveau nucléaire.
+_ev('le-pen', 'environnement', RTE + " " + EPR, add=[EPR_S, RTE_S])
+assert OVR[('attal', 'environnement')]['evidence'].startswith(EPR + " HCC 2026")
+_ev('attal', 'environnement', EPR + " " + RTE + OVR[('attal', 'environnement')]['evidence'][len(EPR):], add=[RTE_S])
+_ev('lisnard', 'environnement', EPR + " " + RTE, add=[RTE_S])
+GLU_RTE = "RTE : scénarios combinant nouveaux réacteurs et renouvelables les plus compétitifs."
+assert OVR[('glucksmann', 'environnement')]['evidence'] == VE + " " + GLU_RTE
+_ev('glucksmann', 'environnement', VE + " " + EPR + " " + RTE, add=[EPR_S, RTE_S])
+# (17) AME supprimée (Zemmour, santé) : même texte que l'état des études du quiz pour toutes les fiches AME (Le Pen, Retailleau, Lisnard, Zemmour)
+_QE = J('quiz_effets.json')
+AME = _QE['zemmour.ame']['etudes']
+assert all(_QE[k]['etudes'] == AME for k in ('le-pen.ame', 'retailleau.ame', 'lisnard.ame'))
+AME_S = [_src(s['l'], s['a'], s['u']) for s in _QE['zemmour.ame']['src'] if any(x in s['u'] for x in ('271649', 'eecrev', 'journal.pone'))]
+assert len(AME_S) == 3
+_ev('zemmour', 'sante', OVR[('zemmour', 'sante')]['evidence'] + " " + AME, add=AME_S)
+# (2, 20) Contribution à l'UE : la lecture UEU s'appuie sur la source primaire (art. 311 du traité sur le fonctionnement de l'UE, décrit par le
+# rapport de l'Assemblée nationale n° 3781 : décision « adoptée à l'unanimité par le Conseil […] puis approuvée par les États membres »),
+# la même chez les trois candidats qui ont cette lecture ; chez Retailleau, la page d'un agrégateur (PGE) sur le contre-budget du RN est retirée.
+UEU_S = _src("Assemblée nationale, rapport n° 3781 sur la décision relative aux ressources propres de l'UE (art. 311 du traité sur le fonctionnement de l'UE)", 2021,
+             'https://www.assemblee-nationale.fr/dyn/15/rapports/cion_afetr/l15b3781_rapport-fond.pdf')
+for _c in ('le-pen', 'melenchon', 'retailleau'):
+    assert UEU in OVR[(_c, 'rayonnement')]['evidence'], _c
+    _ev(_c, 'rayonnement', OVR[(_c, 'rayonnement')]['evidence'], add=[UEU_S], drop=(['planetegrandesecoles.com'] if _c == 'retailleau' else []))
+# (29) Retailleau : heures supplémentaires = seuil « zéro cotisation » chiffré (1 623 h par an, livret « Le travail gagnant », p. 20) : précise
+_p0 = OVR[('retailleau', 'economie')]['proposals']
+assert _p0[-1] == _p('Exonérer de cotisations sociales les heures supplémentaires', False)
+_p0[-1] = _p("Seuil « zéro cotisation » : heures travaillées au-delà de 1 623 h par an exonérées de toutes les cotisations sociales")
+OVR[('retailleau', 'economie')]['add'].append(_src("Livret « Le travail gagnant »", 2026, 'https://www.avecretailleau.fr/api/media/file/Livret_Travail.pdf'))
+# (32) Une année (de publication) et un titre par source, chez tous : article de Public Sénat du 6/11/2025 sur le « deal » de Philippe ;
+# page de PGE sur le contre-budget du RN (même titre que dans la fiche de Le Pen)
+TITRE_S = {'https://www.publicsenat.fr/actualites/economie/entreprises-un-deal-a-250-milliards-deuros-sur-un-quinquennat-que-represente-la-proposition-dedouard-philippe': ('Public Sénat / Rexecode', 2025),
+           'https://www.planetegrandesecoles.com/budget-marine-le-pen-2027-mesures-contre-budget-rn': ('Planète Grandes Écoles (contre-budget RN)', 2026)}
+
+# (30) Même test « précis » pour une même formulation, appliqué à toutes les propositions affichées (y compris celles réécrites plus haut) :
+# un changement de droit nommé (sortie du commandement intégré de l'OTAN, fin du droit de veto, mandat de l'ONU obligatoire, instrument ou
+# accord nommé et ce qui y change) est précis ; un objectif, une orientation ou une création sans paramètre (plan, pôle, fonds) reste une intention.
 VFLIP = {'Bloquer temporairement': False, 'Assistant médical fondé sur l': False, 'Contrôle du Conseil constitutionnel limité': False, 'Police de proximité modernisée': False, "Fonds national d'acquisition foncière": False,
-         "commandement intégré de l'OTAN": True, "Sortir de l'OTAN": True}
+         "commandement intégré de l'OTAN": True, "Sortir de l'OTAN": True,
+         "Supprimer le droit de veto au sein de l'UE": True, "Aucune intervention militaire sans mandat de l'ONU": True,
+         "Refuser les instruments européens de défense : FED, EDIP, SAFE": True, "Liste européenne commune de pays sûrs": True,
+         "Accord UE-Mercosur : en exclure l'élevage": True, "Intégrer les dépenses de défense dans le calcul de cette contribution": True}
+
+# (17) Étiquette d'efficacité calculée à partir des lectures : chaque lecture (texte exact, partagé par tous les candidats qui ont ce type de
+# proposition) a un niveau, au regard de l'effet recherché par ce type de proposition : « prouvee » (les évaluations montrent l'effet recherché),
+# « mitigee » (effet partiel, faible ou contrasté, obtenu avec un effet contraire notable, ou montré seulement pour une mesure voisine),
+# « non_demontree » (pas d'effet, effet inverse, ou seulement un coût mesuré), « pas_d_etude » (ABSENT : la lecture constate l'absence
+# d'évaluation) ; None : la lecture ne donne qu'un fait (droit existant, situation de départ). Étiquette d'un thème : aucune lecture d'étude
+# ni constat d'absence → « pas d'étude » ; toutes les lectures au même niveau → ce niveau ; sinon « mitigée » (preuves partielles ou contrastées).
+# Décision du 31/10 (option b, symétrique) : une étiquette extrême, « prouvée » comme « non démontrée », ne tient pas sur une seule lecture
+# quand une autre lecture du même thème constate l'absence d'évaluation.
+PROUV, MITIG, NONDEM, ABSENT = 'prouvee', 'mitigee', 'non_demontree', 'pas_d_etude'
+NIV = {
+ # sécurité
+ PP: MITIG, PLACES: NONDEM, CASSE: ABSENT, HEN.strip(): NONDEM, MIN: NONDEM, CEF: ABSENT, DECH: ABSENT, RECO: ABSENT, EXPUL: NONDEM, GILL: MITIG,
+ "Régulation carcérale : pas d'évaluation française identifiée.": ABSENT,
+ "Cagoule en manifestation : délit depuis 2019.": None,
+ "Pointage lors des manifestations : non évalué.": ABSENT,
+ "Plateformes : amendes jusqu'à 6 % du chiffre d'affaires mondial et suspension temporaire du service déjà prévues par le règlement européen sur les services numériques ; effet non évalué.": ABSENT,
+ # santé
+ "Incitations financières à l'installation : effet modéré à court terme, très faible à long terme (Irdes). Aides jugées mal ciblées (Cour des comptes, 2024).": MITIG,
+ "Restrictions d'installation des infirmières en zones sur-denses : meilleure répartition (Irdes, 2022). Régulation des médecins non évaluée en France ; la Cour des comptes la juge faisable.": MITIG,
+ "Prévention : résultats français « médiocres » malgré des dépenses comparables à celles des voisins (Cour des comptes, 2021).": None,
+ "Propositions non chiffrées.": None,
+ "Former plus de médecins : des études qui durent jusqu'à 12 ans, et une hausse qui ne garantit pas leur répartition sur le territoire (Cour des comptes, 2024).": MITIG,
+ "Maisons de santé : +3,4 jeunes généralistes pour 100 000 habitants par rapport aux territoires témoins (Irdes, 2020).": PROUV,
+ "Fin de la T2A : pas d'évaluation identifiée.": ABSENT,
+ "Coopération médecin-infirmière Asalée : patientèle +6,6 %, consultations inchangées, qualité non mesurée (Irdes, 2019). La délégation aux pharmaciens est peu évaluée.": MITIG,
+ "Jour de carence (fonction publique, 2012-2013) : absences de deux jours −50 %, absences d'une semaine à trois mois +25 %, total inchangé (Insee, 2017).": NONDEM,
+ "Aides à l'installation : au moins 15 dispositifs, 205 M€ en 2023 ; plusieurs jugées coûteuses et inefficaces, d'autres utiles (Cour des comptes, 2025).": MITIG,
+ "Médecins salariés par l'État et obligation de garde : pas d'évaluation française identifiée.": ABSENT,
+ AME: NONDEM,
+ # école
+ PARC: MITIG, DD: MITIG, SAL: MITIG, EXAM: MITIG, EX1: PROUV, GN: NONDEM, RED: NONDEM, AUTO: MITIG, CHEQ: MITIG, CARTE: MITIG, MIXITE: MITIG, PETITES: MITIG,
+ "Uniforme : climat amélioré selon 36% des directeurs, effet quasi nul sur les résultats (ministère, 2026).": MITIG,
+ "Établissements pour élèves exclus (2010) : résultats mitigés, un quart des élèves sans solution en 2012, abandonnés (inspections, 2012).": MITIG,
+ "Orientation : des réunions avec le chef d'établissement pour les élèves faibles de 3e et leurs parents ont réduit redoublement et décrochage de 25 à 40 % (essai aléatoire, France, 2017).": PROUV,
+ "Amendes aux parents d'absentéistes : sans lien avec le niveau d'absences (pays de Galles, 2018) ; pas d'évaluation française.": NONDEM,
+ # environnement
+ EPR: MITIG, RTE: MITIG, VE: MITIG,
+ "Marché carbone des carburants (en place en 2028) : +10 à 15 c€ par litre à son entrée en vigueur (Institut Montaigne, 2025) ; taxe carbone suédoise : émissions des transports −11 % (2019).": MITIG,
+ "RTE : scénarios sans nouveau nucléaire plus coûteux, de l'ordre de 10 Md€/an (jusqu'à 20 dans certaines variantes).": MITIG,
+ "HCC 2026 : baisse requise >4 %/an, contre −2,1 % en 2025.": None,
+ "HCC 2026 : France « pas prête », plan d'adaptation sous-financé, risque de « maladaptation ». Aucune évaluation d'un fonds unique d'adaptation.": ABSENT,
+ "HCC 2026 : émissions −2,1 % en 2025, un rythme qui doit au moins doubler ; leasing social et MaPrimeRénov' jugés sous-dimensionnés.": None,
+ # logement
+ RENO: MITIG, SRU: NONDEM,
+ "Cour des comptes : la crise exige d'accroître durablement l'offre.": None,
+ "Aides à l'accession : environ 15 % de ménages réellement déclenchés, forte aubaine ; PTZ associé à +7 % sur le prix des terrains (IPP, 2016).": NONDEM,
+ "Encadrement des loyers : loyers −2 à −4 %. Effet sur l'offre non documenté en France, négatif à moyen terme dans la littérature internationale (Cour des comptes, 2026).": MITIG,
+ "Crédit d'impôt sur les intérêts d'emprunt (TEPA, 2007) : 1,1 Md€ en 2009, « peu d'effets sur l'accession à la propriété » (Sénat, 2010).": NONDEM,
+ # libertés
+ "Voile interdit à l'école : diplômes des filles de culture musulmane en hausse après 1994 (IZA, 2019) ; après 2004, aucun gain de plus (IZA, 2019) ou scolarité des filles en baisse (APSR, 2020) ; aucune étude sur l'université, le sport ni les bâtiments publics.": MITIG,
+ "Voile interdit à l'école : diplômes des filles de culture musulmane en hausse après 1994 (IZA, 2019) ; après 2004, aucun gain de plus (IZA, 2019) ou scolarité des filles en baisse (APSR, 2020) ; aucune étude sur l'université ni sur les dissolutions.": MITIG,
+ RIC: MITIG, VOTE16: MITIG, SUISSE: MITIG, RIP: None, SECU: ABSENT, CSM: None,
+ "Aucune évaluation empirique identifiée de l'effet des ordonnances ou du lien parquet-exécutif sur l'efficacité de l'action publique.": ABSENT,
+ "Convention climat : 10 % des propositions reprises telles quelles, 53 % rejetées (Courant, 2021).": MITIG,
+ "Proportionnelle : pas d'évaluation française récente identifiée.": ABSENT,
+ "Aucune évaluation publique de l'effet d'une sortie de la CEDH ou d'une primauté constitutionnelle de la loi nationale sur le droit européen.": ABSENT,
+ # économie
+ IPROD: NONDEM, TEPA: NONDEM, CODE: ABSENT, CU: MITIG, IA: NONDEM,
+ "Règle d'or : déficit réduit de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, effet plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023).": MITIG,
+ "Incertitude politique : suivie de moins d'investissement (États-Unis), de production et d'emploi (12 pays), sans preuve de causalité (2016) ; règle de stabilité fiscale non évaluée.": MITIG,
+ "Lois Egalim : efficacité économique difficile à établir, contrats écrits peu appliqués ; part agricole du prix au détail en hausse en 2021-2023 (Assemblée nationale, 2025).": MITIG,
+ "Régularisation liée à un contrat de travail (Espagne, 2005, ≈ 600 000 personnes) : cotisations +4 000 € par personne et par an, salaires des natifs peu qualifiés du secteur déclaré en hausse, pas d'afflux d'immigration mesuré, retour partiel au travail non déclaré (2025) ; délinquance des régularisés −0,6 point (Italie, 2017).": MITIG,
+ "Chômage plus court de 12 %, mais emplois peu durables (Dares, 2025).": MITIG,
+ "Experts SMIC (2025) : risque pour l'emploi peu qualifié, SMIC à 62,5 % du médian.": MITIG,
+ "Bozio-Wasmer (2024) : supprimer ces exonérations sans recyclage coûterait ~61 000 emplois.": MITIG,
+ "CAE (2021) : héritage très concentré, 35-40 % échappe à l'impôt, ~12 Md€ récupérables ; effets économiques non évalués faute de données fiables.": ABSENT,
+ "CEPII (2007) : TVA sociale, emplois modestes si ciblée sur les bas salaires, pouvoir d'achat réduit.": MITIG,
+ # rayonnement
+ VED: MITIG, UEU: None, FIN: MITIG, DOUANE: NONDEM, SCH: NONDEM,
+ "Pas d'évaluation publique de cet objectif.": ABSENT,
+ "Pas d'évaluation publique de l'effet d'une dénonciation de l'accord de 1968 sur les relations ou l'influence de la France.": ABSENT,
+ "Cour des comptes européenne (2024), plan de relance commun : absorption en retard, 24 % des résultats attendus manquants ; France au-dessus de la moyenne.": MITIG,
+}
+LECT = sorted(NIV, key=len, reverse=True)
+def niveau(ev, ou):
+    """Étiquette d'un thème à partir de ses lectures : chaque morceau du texte doit être une lecture connue (sinon le pipeline échoue)."""
+    i, lv = 0, []
+    while i < len(ev):
+        if ev[i] == ' ': i += 1; continue
+        k = next((k for k in LECT if ev.startswith(k, i)), None)
+        assert k, f"life.py : lecture sans niveau ({ou}) : {ev[i:i + 90]!r}"
+        if NIV[k]: lv.append(NIV[k])
+        i += len(k)
+    return 'pas_d_etude' if not lv else lv[0] if len(set(lv)) == 1 else 'mitigee'
 
 CAMP = {'melenchon': 'melenchon2027.fr', 'philippe': 'edouardphilippe.fr', 'attal': 'attalpresident.fr', 'lisnard': 'lisnard.cards'}
 
@@ -615,6 +749,7 @@ def merge(D):
     parts = [f for f in ('life-a.json', 'life-b.json', 'life-eco.json') if os.path.exists(os.path.join(H, 'data', f))]
     if not parts: return D
     ev = J('evidence_levels.json') if os.path.exists(os.path.join(H, 'data', 'evidence_levels.json')) else {}
+    WEAKD[:] = D.get('weak_domains', [])
     life = {}; used = set()
     for f in parts:
         x = J(f)
@@ -633,21 +768,30 @@ def merge(D):
                 keep = [x for x in th['sources'] if not any(d in x['url'] for k, d in CAMP.items() if k != cid)]
                 if keep: th['sources'] = keep
                 o = OVR.get((cid, th['theme']))
-                for p in th['proposals']:
-                    for k0, v0 in VFLIP.items():
-                        if k0 in p['text']: p['verifiable'] = v0
                 if o:
                     th.update({k: v for k, v in o.items() if k not in ('add', 'drop')})
                     th['sources'] = [x for x in th['sources'] if not any(d in x['url'] for d in o.get('drop', []))]
                     th['sources'] += [s for s in o.get('add', []) if s['url'] not in {x['url'] for x in th['sources']}]
+                # test « précis » appliqué après les réécritures (review 32) : toutes les propositions affichées
+                th['proposals'] = [dict(p) for p in th['proposals']]
+                for p in th['proposals']:
+                    for k0, v0 in VFLIP.items():
+                        if k0 in p['text']: p['verifiable'] = v0
                 olds = [d for d in ORIG if any(d in x['url'] for x in th['sources'])]
                 if olds:
                     used.update(olds)
                     th['sources'] = [x for x in th['sources'] if not any(d in x['url'] for d in olds)]
                     th['sources'] += [dict(s) for s in {ORIG[d]['url']: ORIG[d] for d in olds}.values() if s['url'] not in {x['url'] for x in th['sources']}]
+                # une année et un titre par source (review 32) ; étiquette des sites non officiels et des agrégateurs sur toutes les sources
+                th['sources'] = [dict(x, label=TITRE_S[x['url']][0], year=TITRE_S[x['url']][1]) if x['url'] in TITRE_S else x for x in th['sources']]
+                th['sources'] = [dict(x, label=x['label'] + NOFF(x['url'], x['label'])) for x in th['sources']]
+                # étiquette d'efficacité calculée à partir des lectures (review 32) ; aucune proposition → pas d'étiquette
+                th['evidence_level'] = niveau(th['evidence'], f"{cid}.{th['theme']}") if th['proposals'] else None
                 life.setdefault(cid, {})[th['theme']] = th
         if 'baseline' in x: D.setdefault('baseline', {}).update({k: [dict(i, label=html.unescape(i['label'])) for i in v] for k, v in x['baseline'].items()})
     assert used == set(ORIG), f"ORIG sans effet : {set(ORIG) - used}"
+    morte = [k for k in NIV if not any(k in th['evidence'] for v in life.values() for th in v.values())]
+    assert not morte, f"life.py : lecture de NIV qui ne sert plus (texte réécrit ?) : {morte[0][:80]!r}"
     ids = [c['id'] for c in D['candidates']]
     themes = [t for t in THEMES if any(t in v for v in life.values())]
     D['life_themes'] = themes

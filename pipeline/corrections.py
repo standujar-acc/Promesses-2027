@@ -1581,6 +1581,64 @@ for cid,prop,cl,ob,ins in [
       "claude":{"id":"regle_or","central":0,"low":0,"high":0,"method":"ascendant","formula":RO['claude']['formula'],"inputs":ins,"note":RO['claude']['note'],"nc":True}})
 D['asof']='31 octobre 2026'
 
+# --- review 32 : simulateur et affichage, relecture du 31/10 (31/10/2026)
+# Relecture indépendante du 31/10, lot « simulateur, affichage, Vie quotidienne » (la Vie quotidienne est dans life.py, l'affichage dans
+# template.html, la typographie et la méthode dans build.py, le contrôle « une URL, une année » dans run.py). Totaux inchangés.
+D['asof']='31 octobre 2026'
+# (0) Salaire des enseignants : toute fiche « enseignants » comptée donne sa ligne au simulateur, avec le paramètre publié par le candidat ;
+# hausse publiée en fourchette (« jusqu'à ») : montant minimal retenu, l'autre borne en note (même règle qu'Attal, +200 € « jusqu'à 500 € »).
+# Glucksmann : « +10 % de salaire pour tous les enseignants » (Capital, 30/08/2026, propos sur France 2), jusqu'à +25 % en milieu de carrière dans le primaire.
+# Retailleau : « 135 euros nets de plus par mois en début de carrière, jusqu'à 300 euros en milieu » (Les Républicains, « Éducation », 31/08/2026, p. 3 et 9).
+sg=C['glucksmann']['sim']; assert not sg.get('enseignants_pct') and 'sans montant' in sg['fonctionnaires']
+sg['enseignants_pct']=10; sg['enseignants_note']="+10 % pour tous d'ici la fin du mandat, jusqu'à +25 % en milieu de carrière dans le primaire (montant minimal retenu)"
+sg['fonctionnaires']="Enseignants : +10 % pour tous, jusqu'à +25 % en milieu de carrière dans le primaire, sur 5 ans ; moins d'élèves par classe en primaire."
+sr=C['retailleau']['sim']; assert not sr.get('enseignants_eur') and not sr.get('enseignants_pct')
+sr['enseignants_eur']={"montant":135,"note":"+135 € net par mois en début de carrière, ≈ +300 € au cœur de la carrière (montant minimal retenu)"}
+for c0 in D['candidates']:  # contrôle : une fiche « enseignants » comptée ⇒ un paramètre au simulateur
+    for m in c0['measures']:
+        if m['id'] in ('profs','ecole') and 'nseignant' in m['title'] and m.get('claude') and not m.get('a_confirmer') and not m['claude'].get('nc'):
+            assert c0['sim'].get('enseignants_pct') or c0['sim'].get('enseignants_eur'), f"simulateur : {c0['id']}.{m['id']} sans paramètre enseignants"
+# (1) Gel des prestations : chaque prestation gelée est nommée dans gel_status (le simulateur ne gèle que celles-là) ; Attal, « toutes les
+# prestations sociales gelées, sauf les petites retraites » : pensions, minima, allocations familiales et APL ; Lisnard : pensions seules.
+C['attal']['sim']['gel_status']=['retraite','minima','af','apl']
+assert C['lisnard']['sim']['gel_status']==['retraite']
+# (29) Textes du simulateur alignés sur les fiches. Retailleau : seuil « zéro cotisation » de 1 623 heures par an (livret « Le travail
+# gagnant », p. 6, 10 et 20 : « Le seuil est fixé à 1 623 heures par an, au lieu de 1 607 heures aujourd'hui ») ; Zemmour : CSG et successions
+# = version 2026 de S. Knafo, comme les fiches ; Attal : le gel de 2028 ne dit pas si les allocations chômage sont concernées.
+assert '1 607 h' in C['retailleau']['sim']['overtime']['label']
+C['retailleau']['sim']['overtime']={"label":"Heures au-delà de 1 623 h par an sans cotisation sociale, salariale ni patronale (CSG et CRDS dues ; exonération d'impôt actuelle maintenue)"}
+sz=C['zemmour']['sim']
+assert 'programme 2022' in sz['heritage'][0]['effet'] and 'programme 2022' in sz['salaire_note'] and 'programme 2022' in sz['independants']
+sz['heritage']=[{"seuil":100000,"effet":"Abolition des droits de succession : proposée en 2026 par S. Knafo, non reprise par le candidat (en 2022 : abattements de 200 000 €), donc non comptée ici ; la plupart des héritages en ligne directe sous 100 000 € par enfant ne sont déjà pas taxés."}]
+sz['salaire_note']="Suppression de la CSG sur les revenus d'activité : proposée en 2026 par S. Knafo, non reprise par le candidat (en 2022 : baisse jusqu'à 2 000 € net), donc non comptée ici."
+sz['independants']="Concernés par la suppression de la CSG sur les revenus d'activité proposée en 2026 par S. Knafo, non reprise par le candidat (non comptée)."
+assert 'probablement' in C['attal']['sim']['chomeurs']
+C['attal']['sim']['chomeurs']="Réforme de l'assurance chômage de 2024 : 8 mois de travail sur 20 pour ouvrir des droits, 15 mois d'indemnisation au plus. Gel des prestations en 2028 : application aux allocations chômage non précisée."
+# (2, 20) Sources faibles : domaines exacts (le nom d'hôte est testé, pas une sous-chaîne : franceinfo.fr, radio publique, n'est pas un
+# agrégateur ; « info.fr/ » ne visait aucun autre site des données) ; agrégateurs de la Vie quotidienne ajoutés à la même liste.
+for d0,d1 in (('info.fr/',None),('monvote2027','monvote2027.fr'),('wikiglucksmann','wikiglucksmann.fr')):
+    WEAK.remove(d0)
+    if d1: WEAK.append(d1)
+WEAK.extend(['repere2027.fr','france-vote.fr'])
+assert D['weak_domains'] is WEAK
+# (32) Une année (de publication) et une attribution par source. Le Pen : la commission d'enquête du Sénat citée par un article de 2026 →
+# le rapport lui-même (n° 807, 2025), même entrée que chez Retailleau ; même titre pour un même document (MoneyVox, Capital, Public Sénat).
+SYN807="https://www.senat.fr/rap/r24-807-1/r24-807-1-syn.pdf"; T807="Sénat, commission d'enquête sur les agences, rapport n° 807"
+e=next(e for e in M('le-pen','etat')['estimates'] if e['source']=="Commission d'enquête du Sénat"); assert e['year']==2026
+e0=next(e for e in M('retailleau','etat')['estimates'] if e['url']==SYN807)
+e.update(source=T807,year=2025,value=e0['value'],url=SYN807); e0['source']=T807
+TITRES={"https://www.moneyvox.fr/retraite/actualites/98707/abroger-la-reforme-des-retraites-et-le-depart-a-64-ans-combien-ca-coute":"Étude d'impact du Gouvernement et Institut Montaigne (MoneyVox, AFP)",
+        "https://www.publicsenat.fr/actualites/politique/2-a-3-milliards-deconomies-sur-les-agences-de-letat-pourquoi-le-chiffre-de-la-ministre-interroge-la-commission-denquete-du-senat":"Public Sénat (Gouvernement ; commission d'enquête du Sénat)"}
+CAP="https://www.capital.fr/votre-carriere/salaires-des-enseignants-raphael-glucksmann-assure-vouloir-les-augmenter-d-au-moins-10-pour-tous-1529686"
+n0=0
+for c0 in D['candidates']:
+    for m in c0['measures']:
+        for x in m['estimates']+(m.get('claude') or {}).get('inputs',[]):
+            if x['url'] in TITRES: x['source']=TITRES[x['url']]; n0+=1
+            elif x['url']==CAP:
+                x['source']="Capital (30/08/2026)"+(", propos du candidat sur France 2" if c0['id']=='glucksmann' else ", entretien du candidat au Monde" if c0['id']=='attal' else ""); n0+=1
+assert n0==12, n0  # 2 estimations et 4 données d'entrée MoneyVox, 2 estimations Public Sénat, 2 estimations et 2 données d'entrée Capital
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:

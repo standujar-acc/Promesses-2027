@@ -1787,20 +1787,15 @@
 ]
 },
 "lisnard.csg_actifs": {
-"complement": "Le même programme la finance par des économies sur l'État (postes, agences), sans toutes les détailler.",
-"complement_ref": [
-"lisnard.depense",
-"lisnard.fonction"
-],
 "constat": "Le salaire net au salaire moyen a augmenté de 15 % de 2019 à 2025, moins que les prix (+19 %) (Eurostat).",
 "constat_s": [
-3,
-4
+2,
+3
 ],
 "pour": "Lors de la dernière baisse de ce type, en 2018, le net moyen a crû de 2,2 %, contre 1,7 % pour le brut.",
 "preuve_pour": "solide",
-"contre": "Le gain dépend d'économies à trouver ; par le passé, plus de la moitié a été rendue aux agents.",
-"preuve_contre": "mitigé",
+"contre": "Lors de la baisse de 2018, les 10 % les plus modestes n'ont gagné que 19 € par an, contre 60 à 90 € au-dessus.",
+"preuve_contre": "solide",
 "cas_pour": [
 {
 "t": "En 2018, la suppression de cotisations des salariés a fait croître le salaire net moyen du privé de 2,2 %, contre 1,7 % pour le brut (Insee, France, 2020).",
@@ -1808,23 +1803,17 @@
 0,
 1
 ]
-},
-{
-"t": "Les emplois de l'État ont baissé de 5,4 % en 2009-2012, et la revue des dépenses a dégagé près de 12 milliards d'économies estimées (Sénat, France, 2012).",
-"s": [
-2
-]
 }
 ],
 "cas_contre": [
 {
-"t": "Plus de 60 % des économies tirées des postes non remplacés en 2009-2011 ont été reversées aux agents en primes et revalorisations (Sénat, France, 2012).",
+"t": "La bascule de 2018 (cotisations des salariés supprimées, CSG relevée) a rapporté 19 € par an de niveau de vie aux 10 % les plus modestes, 60 à 90 € aux 2e à 9e déciles (Insee, France, 2019).",
 "s": [
-2
+1
 ]
 }
 ],
-"etudes": "Les données concordent : une baisse des cotisations salariales augmente le net ; les économies sur l'État ont été réelles en 2009-2012, mais en partie reversées aux agents.",
+"etudes": "Les données concordent : la baisse des cotisations des salariés de 2018 a augmenté le net moyen ; le gain est allé aux revenus d'activité, très peu aux 10 % les plus modestes.",
 "src": [
 {
 "l": "Insee Première n° 1828, « En 2018, le salaire net moyen dans le secteur privé augmente de 0,4 % en euros constants »",
@@ -1835,11 +1824,6 @@
 "l": "Insee, France portrait social 2019, dossier sur les mesures socio-fiscales de 2018 (Biotteau et al.)",
 "a": 2019,
 "u": "https://www.insee.fr/fr/statistiques/4238451"
-},
-{
-"l": "Sénat, avis sur le projet de loi de finances pour 2013, « Modernisation de l'État » (bilan de la révision générale des politiques publiques)",
-"a": 2012,
-"u": "https://www.senat.fr/rap/a12-154-15/a12-154-154.html"
 },
 {
 "l": "Eurostat, gains nets annuels, célibataire sans enfant au salaire moyen, France (earn_nt_net)",
@@ -6022,8 +6006,14 @@
 "preuve_contre": "faible",
 "cas_pour": [],
 "cas_contre": [],
-"etudes": "Pas d'évaluation : les rapports du Sénat et de la Cour des comptes décrivent les limites des agences comme celles des préfectures, sans comparer les deux organisations.",
-"src": []
+"etudes": "Pas d'évaluation comparant les deux organisations : le Sénat juge le bilan des agences « contrasté » (éloignement du terrain, articulation perfectible avec les préfets).",
+"src": [
+{
+"l": "Sénat, rapport d'information n° 657 (2025-2026), « Réforme des agences régionales de santé : construire la proximité » (synthèse)",
+"a": 2026,
+"u": "https://www.senat.fr/rap/r25-657/r25-657-syn.pdf"
+}
+]
 },
 "lisnard.sante.3": {
 "complement": "Le même programme prévoit aussi de doubler le nombre d'étudiants en médecine d'ici 2030.",

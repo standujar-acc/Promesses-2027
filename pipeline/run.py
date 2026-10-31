@@ -27,6 +27,25 @@ _notes = [(c, m.group(0)) for cle in ('candidates', 'life', 'quiz_extra', 'metho
 assert not _notes, "note de travail dans un texte publié : " + " ; ".join(f"{c} ({g})" for c, g in _notes[:10])
 art = open('promesses-2027.html').read()
 
+# une source = une année, celle de sa publication, partout où elle est citée : fiches, Vie quotidienne, quiz (relecture du 31/10/2026) ;
+# les repères « où en est la France » affichent l'année du chiffre (« données 2025 »), hors de ce contrôle
+YRS = {}
+def cite(u, y, ou):
+    if y not in (None, ''): YRS.setdefault(u, {}).setdefault(str(y), ou)
+for c in D['candidates']:
+    for m in c['measures']:
+        for e in m['estimates']: cite(e['url'], e.get('year'), f"{c['id']}.{m['id']}")
+        for s in m.get('quiz_src') or []:
+            if isinstance(s, dict): cite(s['u'], s.get('a'), f"quiz {c['id']}.{m['id']}")
+for x in D.get('quiz_extra', []):
+    for s in x.get('quiz_src') or []:
+        if isinstance(s, dict): cite(s['u'], s.get('a'), f"quiz {x['c']}.{x['id']}")
+for cid, arr in D['life'].items():
+    for th in arr:
+        for s in th['sources']: cite(s['url'], s.get('year'), f"vie quotidienne {cid}.{th['theme']}")
+bad = {u: v for u, v in YRS.items() if len(v) > 1}
+assert not bad, "une même source avec plusieurs années : " + " ; ".join(f"{u} {v}" for u, v in list(bad.items())[:3])
+
 # page web complète : <title> et polices dans <head> ; polices servies par le site (pas d'appel à Google Fonts)
 head, body = art.split('<style>', 1)
 head = re.sub(r'<link rel="(preconnect|stylesheet)" href="https://fonts\.(googleapis|gstatic)\.com[^>]*>\n?', '', head)

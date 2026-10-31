@@ -195,7 +195,7 @@ with sync_playwright() as p:
     pg.evaluate("""document.querySelector('#s-nat [data-v="fr"]').click(); document.querySelector('#s-home [data-v="loc"]').click(); document.getElementById('s-apl').value=0; sim()""")
     # paramètre publié mais hors total : appliqué (allocations familiales +10 %, 2 enfants)
     pg.evaluate("document.querySelector('#s-status [data-v=\"prive\"]').click(); S.kids=2; document.getElementById('s-salary').value=1800; openSim.add('melenchon'); sim()")
-    check(pg.evaluate("[...document.querySelectorAll('#simres .srow')].some(r=>/Allocations familiales \\+10 %/.test(r.textContent))"), 'simulateur : paramètre publié hors total appliqué (allocations familiales +10 %)')
+    check(pg.evaluate("[...document.querySelectorAll('#simres .srow')].some(r=>/Allocations familiales \\+10\\s%/.test(r.textContent))"), 'simulateur : paramètre publié hors total appliqué (allocations familiales +10 %)')
     # second audit du simulateur : heures sup sans gain fictif, hausse des allocations reprise par le RSA, durée de cotisation, APL réservées
     rows = pg.evaluate("""(()=>{ document.querySelector('#s-status [data-v="prive"]').click(); S.kids=0; document.getElementById('s-salary').value=4500; document.getElementById('s-year').value=1990; document.getElementById('s-ot').checked=true;
       D.candidates.forEach(c=>openSim.add(c.id)); sim(); const t=document.getElementById('simres').innerText.replace(/\\s+/g,' ');
@@ -264,7 +264,48 @@ with sync_playwright() as p:
       const f=(k,y)=>{ S.kids=k; g('s-year').value=y; sim(); return [...document.querySelectorAll('#simres .srow[data-c="le-pen"] .rw')].filter(x=>/^Impôt/.test(x.textContent.trim())).length; };
       return [f(2,1985), f(1,1985), f(2,2000)]; })()""")
     check(r == [1, 0, 1], f'simulateur : part fiscale dès le 2e enfant (1 ligne avec 2 enfants, aucune avec 1, une seule avant 30 ans) {r}')
+    # relecture du 31/10 : tout candidat dont une fiche « enseignants » est comptée donne une ligne « Salaire enseignant »
+    r = pg.evaluate("""(()=>{ const g=id=>document.getElementById(id); document.querySelector('#s-status [data-v="enseignant"]').click(); S.kids=0; g('s-salary').value=2500; g('s-year').value=1985;
+      openSim.clear(); D.candidates.forEach(c=>openSim.add(c.id)); sim();
+      const want=D.candidates.filter(c=>c.measures.some(m=>/nseignant/.test(m.title)&&kept(m)&&has(m))).map(c=>c.id).sort();
+      const got=[...document.querySelectorAll('#simres .srow')].filter(r=>[...r.querySelectorAll('.rw b')].some(b=>b.textContent==='Salaire enseignant')).map(r=>r.dataset.c).sort();
+      return [want, got]; })()""")
+    check(len(r[0]) >= 5 and r[0] == r[1], f'simulateur : une ligne « Salaire enseignant » chez chaque candidat dont une fiche « enseignants » est comptée {r}')
+    # gel des prestations : seulement celles que le programme nomme (Lisnard : pensions seules ; Attal : allocations familiales et APL comprises)
+    r = pg.evaluate("""(()=>{ const g=id=>document.getElementById(id); document.querySelector('#s-status [data-v="prive"]').click(); document.querySelector('#s-home [data-v="loc"]').click();
+      S.kids=2; g('s-salary').value=1800; g('s-apl').value=200; openSim.clear(); ['lisnard','attal'].forEach(i=>openSim.add(i)); sim();
+      const t=id=>document.querySelector(`#simres .srow[data-c="${id}"]`).innerText, out=[/revalorisées en 2028/.test(t('lisnard')), /Non revalorisées en 2028/.test(t('attal')), /APL non revalorisées en 2028/.test(t('attal'))];
+      g('s-apl').value=0; S.kids=0; sim(); return out; })()""")
+    check(r == [False, True, True], f'simulateur : aucune ligne « Non revalorisées en 2028 » chez Lisnard (gel des seules pensions), allocations et APL gelées chez Attal {r}')
     check(not errs, f'aucune erreur JS {errs[:1]}')
+    # sources faibles : nom d'hôte exact (aucune adresse franceinfo.fr étiquetée « agrégateur »), étiquette aussi sur les données d'entrée et en Vie quotidienne
+    r = pg.evaluate("""(()=>{ const d=document.createElement('div'); d.innerHTML=D.candidates.flatMap(c=>c.measures.map(m=>measureCard(c,m))).join('');
+      const tagged=li=>[...li.querySelectorAll('.tag')].some(t=>t.textContent==='agrégateur'), lis=[...d.querySelectorAll('li')].filter(li=>li.querySelector('a'));
+      const fi=lis.filter(li=>hostOf(li.querySelector('a').href).endsWith('franceinfo.fr')), inW=[...d.querySelectorAll('.calc li')].filter(li=>li.querySelector('a')&&weak(li.querySelector('a').href));
+      const life=Object.values(D.life).flat().flatMap(x=>x.sources), lfi=life.filter(s=>hostOf(s.url).endsWith('franceinfo.fr')), lw=life.filter(s=>weak(s.url)&&!/non officiel/.test(s.label));
+      return [fi.length>0, fi.filter(tagged).length, inW.length>0 && inW.every(tagged), lfi.length>0 && lfi.every(s=>!/agrégateur/.test(s.label)), lw.length>0 && lw.every(s=>/agrégateur/.test(s.label))]; })()""")
+    check(r == [True, 0, True, True, True], f'sources : aucune adresse franceinfo.fr étiquetée « agrégateur » ; agrégateurs signalés sur les données d\'entrée et en Vie quotidienne {r}')
+    # « Qu'est-ce qui peut passer ? » et répartition des verdicts : mêmes mesures que les totaux (hors mesures non confirmées et doublons)
+    r = pg.evaluate("""(()=>{ go('accueil'); const O={bloque:0,tres_difficile:1,sous_conditions:2,faisable:3};
+      const cells=[...document.querySelectorAll('#grid td button')].map(b=>{ const c=cand(b.dataset.c), m=c.measures.find(x=>x.id===b.dataset.m);
+        return kept(m) && c.measures.filter(x=>x.theme===m.theme&&kept(x)).every(x=>O[x.verdict]>=O[m.verdict]); });
+      const tally=D.candidates.map(c=>{ cur=c.id; go('cand'); return [...document.querySelectorAll('#fhead .legend span')].reduce((a,s)=>a+ +s.textContent.split('·').pop(),0)===c.measures.filter(kept).length; });
+      cur=D.candidates[0].id; go('accueil'); return [cells.length>0 && cells.every(Boolean), tally.every(Boolean), D.candidates.some(c=>c.measures.some(m=>!kept(m)))]; })()""")
+    check(r == [True, True, True], f'« Qu\'est-ce qui peut passer ? » et répartition des verdicts sans les mesures hors total {r}')
+    # sondages : date de la moyenne affichée à côté des intentions de vote (accueil et fiche), masquée avec les sondages
+    r = pg.evaluate("""(()=>{ go('accueil'); const a=document.getElementById('poll-note'); go('cand'); const b=document.querySelector('#fhead .pdate'); go('accueil');
+      return blackout ? a.hidden && !b : (!a.hidden && a.textContent.includes(D.sondages.date) && !!b && b.textContent.includes(D.sondages.date)); })()""")
+    check(r, 'sondages : date de la moyenne affichée avec les intentions de vote')
+    # Vie quotidienne : chaque thème avec des propositions a son étiquette d'efficacité (calculée à partir des lectures)
+    check(pg.evaluate("Object.values(D.life).flat().every(x=>!x.proposals.length||!!EVL[x.evidence_level])"), "Vie quotidienne : une étiquette d'efficacité par thème avec propositions")
+    # typographie : un nombre et son unité ne sont jamais coupés (résumé de Glucksmann à 360 px : le montant du SMIC, « 1 700 € », sur une ligne)
+    pg.set_viewport_size({'width': 360, 'height': 800})
+    r = pg.evaluate("""(()=>{ cur='glucksmann'; go('cand'); const p=document.querySelector('#fhead p'), n=[...p.childNodes].find(x=>x.nodeType===3&&/\\d\\u202f\\d{3}\\u00a0€/.test(x.textContent));
+      if(!n) return [false]; const mt=n.textContent.match(/\\d{1,3}(?:\\u202f\\d{3})+\\u00a0€/), i=mt.index, rg=document.createRange(); rg.setStart(n,i); rg.setEnd(n,i+mt[0].length);
+      const tops=new Set([...rg.getClientRects()].map(x=>Math.round(x.top))); cur=D.candidates[0].id; go('accueil');
+      return [true, tops.size===1, !/\\d (?:Md€|€|%)/.test(JSON.stringify(D))]; })()""")
+    check(r == [True, True, True], f'typographie : nombres et unités insécables (résumé de Glucksmann à 360 px) {r}')
+    pg.set_viewport_size({'width': 390, 'height': 844})
     # sondages : chiffre affiché = moyenne des milieux de fourchette par institut, candidats rangés selon cette moyenne
     import json
     SG = json.load(open(os.path.join(ROOT, 'pipeline', 'data', 'sondages.json')))
