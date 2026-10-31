@@ -491,6 +491,120 @@ for _c in ('philippe', 'attal', 'glucksmann'):
     _e = OVR[(_c, 'environnement')]['evidence']; assert _e.count(VE0) == 1, _c
     _ev(_c, 'environnement', _e.replace(VE0, VE), add=[LEAS_S], drop=['connaissancedesenergies.org/leasing-social'])
 
+# --- review 30 : registre du 31/10 (31/10/2026) ; décisions du porteur du 31/10, chaque étude et chaque citation relues à la source le 31/10
+# Propositions ajoutées (règle d'ordre : celles de 2026 d'abord, les précises avant les intentions, puis les plus récentes ; 5 au plus par thème ;
+# ce qui sort : registre S106) : Glucksmann, plan de sortie de crise du 22/10 (document du candidat publié par le compte officiel de Place
+# publique) ; Philippe, interdiction de paraître et pointage, reconnaissance faciale (deux sources chacune, S136) ; Le Pen, allocations familiales
+# des familles de délinquants récidivistes (pétition du RN, octobre 2026). Attal : blocage des réseaux sociaux retiré (demande d'utiliser un outil
+# présenté par le camp comme existant, règle S134 ; S135) ; la reconnaissance faciale, qui exige une loi nouvelle, reste, avec la même lecture que
+# chez Philippe. Lectures nouvelles, le même texte pour toutes les propositions du même type : Egalim (Attal, Retailleau), formation des médecins
+# (Attal, Lisnard, Philippe), orientation (Philippe, Lisnard), régularisation par le travail (Glucksmann), SMIC (Glucksmann, comme Mélenchon),
+# pointage (Philippe, Lisnard), services numériques (Glucksmann). Lectures corrigées après lecture du texte intégral (S128 : STAB, OR, VOILE ;
+# S127 : INT « mitigés »), sources primaires (GN : OCDE ; CODE : rapport de France Stratégie ; DD : document de travail de la DEPP ; CEF, SECU).
+def _jev(cid, th):
+    """Texte « évidence » d'un thème tel que lu dans data/life-*.json (dernier fichier qui le contient, comme merge)."""
+    ev = None
+    for f in ('life-a.json', 'life-b.json', 'life-eco.json'):
+        for t in J(f)['life'].get(cid, []):
+            if t['theme'] == th: ev = html.unescape(t.get('evidence') or '')
+    assert ev, (cid, th); return ev
+def _rep(cid, th, old, new):
+    o = OVR[(cid, th)]; assert o['evidence'].count(old) == 1, (cid, th, old); o['evidence'] = o['evidence'].replace(old, new)
+GPLAN_S = _s('Place publique, plan de sortie de crise du candidat (22/10)', 'https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k')
+# sécurité
+POINT = "Pointage lors des manifestations : non évalué."
+FICH2 = "Cagoule en manifestation : délit depuis 2019. " + POINT  # FICH coupée en deux phrases, même contenu ; la seconde vaut aussi pour Philippe
+assert FICH == "Cagoule en manifestation : délit depuis 2019 ; pointage non évalué."
+_rep('lisnard', 'securite', FICH, FICH2)
+CEF_S2 = _src("Cour des comptes, Les centres éducatifs fermés et les établissements pénitentiaires pour mineurs (observations définitives S2023-0733)", 2023, 'https://www.ccomptes.fr/sites/default/files/2023-10/20231016-S2023-0733-Centres-educatifs-fermes-etablissements-penitentiaires-pour-mineurs.pdf')
+_ev('lisnard', 'securite', OVR[('lisnard', 'securite')]['evidence'], add=[CEF_S2])
+o = OVR[('philippe', 'securite')]; assert [p['text'] for p in o['proposals']][-1] == "Supprimer le juge d'application des peines"
+o['proposals'] = o['proposals'][:-1] + [_p("Interdire à des casseurs de paraître dans certains lieux et les obliger à pointer au commissariat avant les manifestations"),
+                                        _p("Autoriser la reconnaissance faciale et des techniques de marquage pour identifier les casseurs")]
+_ev('philippe', 'securite', o['evidence'] + " " + POINT + " " + RECO, add=[RECO_S,
+    _s("Site Édouard Philippe, réaction aux émeutes (BFMTV-Le Figaro, 19/10)", 'https://www.edouardphilippe.fr/actualites/edouard-philippe-reagit-aux-emeutes-sur-bfmtv'),
+    _s('Journal du Net, Philippe à Charleville-Mézières (22/10)', 'https://www.journaldunet.com/business/action-publique/1557005-edouard-philippe-presente-ses-propositions-pour-les-familles-et-defend-ses-positions-securitaires/')])
+o = OVR[('attal', 'securite')]; t0 = [p['text'] for p in o['proposals']]
+assert t0[3] == 'Bloquer temporairement et de façon ciblée certains réseaux sociaux pendant les émeutes' and t0[2] == 'Reconnaissance faciale et IA pour identifier les casseurs'
+o['proposals'] = o['proposals'][:3] + o['proposals'][4:]
+_rep('attal', 'securite', " " + RESEAUX, "")
+_ev('attal', 'securite', o['evidence'], drop=['lesactusdunet.com', 'papers.ssrn.com/abstract=3330413', 'next.ink/178412'])
+o = OVR[('le-pen', 'securite')]; assert len(o['proposals']) == 4 and o['proposals'][2]['old'] and not o['proposals'][1]['old']
+o['proposals'] = o['proposals'][:2] + [_p('Suspendre les allocations familiales des familles de délinquants récidivistes')] + o['proposals'][2:]
+o['add'].append(_s('Rassemblement national, pétition « Face au chaos, la France en ordre » (octobre)', 'https://rassemblementnational.fr/petition/face-au-chaos-la-france-en-ordre'))
+DSA = "Plateformes : amendes jusqu'à 6 % du chiffre d'affaires mondial et suspension temporaire du service déjà prévues par le règlement européen sur les services numériques ; effet non évalué."
+DSA_S = _src("Commission européenne, le cadre d'application de la législation sur les services numériques (règlement de 2022)", 2022, 'https://digital-strategy.ec.europa.eu/fr/policies/dsa-enforcement')
+assert OVR[('glucksmann', 'securite')]['evidence'] == GILL + " Vidéosurveillance : utile dans 1,1 % des enquêtes (Gormand, gendarmerie)."
+_upd('glucksmann', 'securite', [_p("Mettre fin aux armes mutilantes dans les manifestations et réformer la doctrine du maintien de l'ordre"),
+                                _p("Plateformes : retrait en temps réel des contenus appelant à la destruction, sous peine d'amendes jusqu'à 6 % du chiffre d'affaires ou de suspension"),
+                                _p("Responsabilité de l'État pour les dégâts, avec recours contre les auteurs ; indemnisation accélérée des commerçants, artisans et particuliers"),
+                                _p('Police de proximité modernisée, équipes mobiles de prévention', False, True), _p('Doubler les Maisons du droit et de la justice', True, True)])
+_ev('glucksmann', 'securite', DSA + " " + CASSE + " " + GILL, add=[GPLAN_S, DSA_S] + CASSE_S, drop=['police.be/5337/node/19373'])
+# santé : formation des médecins (MED) ; Glucksmann, dépistage (plan du 22/10, sans étude)
+MED = "Former plus de médecins : des études qui durent jusqu'à 12 ans, et une hausse qui ne garantit pas leur répartition sur le territoire (Cour des comptes, 2024)."
+MED_S = _src("Cour des comptes, L'accès aux études de santé, quatre ans après la réforme", 2024, 'https://www.ccomptes.fr/sites/default/files/2024-12/20241211-Lacces-aux-%C3%A9tudes-de-sante.pdf')
+_ev('attal', 'sante', MED + " " + _jev('attal', 'sante'), add=[MED_S])
+_ev('lisnard', 'sante', MED + " " + _jev('lisnard', 'sante'), add=[MED_S])
+_ev('philippe', 'sante', _jev('philippe', 'sante').replace(" Propositions non chiffrées.", " " + MED + " Propositions non chiffrées."), add=[MED_S])
+assert MED in OVR[('philippe', 'sante')]['evidence']
+_upd('glucksmann', 'sante', [_p('Consultations gratuites de dépistage en santé à 16 et à 20 ans'),
+                             _p('Maisons de santé, permanences mobiles, centres de petites urgences', False, True),
+                             _p('Fin de la T2A : financement hospitalier global pluriannuel', True, True),
+                             _p('Plan de prévention hors ONDAM : cancers, cardiovasculaire, diabète', True, True)], add=[GPLAN_S])
+# école : orientation (ORIENT, Philippe et Lisnard) ; groupes de niveau (GN) : source primaire de l'OCDE à la place de la reprise de presse ;
+# classes dédoublées (DD) : document de travail officiel de la DEPP ajouté ; internats disciplinaires (INT) : « mitigés », texte des inspections
+ORIENT = "Orientation : des réunions avec le chef d'établissement pour les élèves faibles de 3e et leurs parents ont réduit redoublement et décrochage de 25 à 40 % (essai aléatoire, France, 2017)."
+ORIENT_S = _src("Goux, Gurgand, Maurin, réunions d'orientation en fin de collège, essai aléatoire dans l'académie de Versailles (Economic Journal)", 2017, 'https://www.parisschoolofeconomics.eu/publications-hal/adjusting-your-dreams-high-school-plans-and-dropout-behaviour')
+_ev('philippe', 'ecole', OVR[('philippe', 'ecole')]['evidence'] + " " + ORIENT, add=[ORIENT_S])
+_ev('lisnard', 'ecole', OVR[('lisnard', 'ecole')]['evidence'] + " " + ORIENT, add=[ORIENT_S])
+GN_S2 = _src("OCDE, Résultats du PISA 2022 (volume II), chapitre 4, p. 158-159 : groupes de niveau", 2023, 'https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pisa-2022-results-volume-ii_222a5ef6/a97db61c-en.pdf')
+for _c in ('attal', 'retailleau', 'lisnard', 'zemmour'):
+    assert GN in OVR[(_c, 'ecole')]['evidence'], _c
+    _ev(_c, 'ecole', OVR[(_c, 'ecole')]['evidence'], add=[GN_S2], drop=['letudiant.fr/educpros/enquetes/lefficacite-des-groupes-de-niveau'])
+DD_DT = _src("DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)", 2026, 'https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf')
+_dd = [c for (c, th), o in OVR.items() if th == 'ecole' and DD in o.get('evidence', '')]
+assert sorted(_dd) == ['attal', 'glucksmann', 'le-pen', 'melenchon', 'philippe'], _dd
+for _c in _dd: _ev(_c, 'ecole', OVR[(_c, 'ecole')]['evidence'], add=[DD_DT])
+INT2 = "Établissements pour élèves exclus (2010) : résultats mitigés, un quart des élèves sans solution en 2012, abandonnés (inspections, 2012)."
+_rep('retailleau', 'ecole', INT, INT2)
+_ev('retailleau', 'ecole', OVR[('retailleau', 'ecole')]['evidence'], add=[_src("Inspections générales (IGEN-IGAENR), Rapport annuel 2012, « Les établissements de réinsertion scolaire : bilan et perspectives » (p. 41-47)", 2012, 'https://www.vie-publique.fr/files/rapport/pdf/144000010.pdf')])
+# économie : SMIC (même lecture que Mélenchon) et régularisation par le travail (Glucksmann) ; Egalim (Attal, Retailleau) ;
+# règle d'or (OR : chiffre au lieu de « modéré ») ; incertitude politique (STAB : 12 pays, production et chômage, sans preuve causale)
+SMICX = "Experts SMIC (2025) : risque pour l'emploi peu qualifié, SMIC à 62,5 % du médian."
+assert _jev('melenchon', 'economie').startswith(SMICX)
+SMICX_S = _src("Groupe d'experts sur le SMIC, rapport 2025", 2025, 'https://www.vie-publique.fr/files/rapport/pdf/301429_0.pdf')
+REGUL = ("Régularisation liée à un contrat de travail (Espagne, 2005, ≈ 600 000 personnes) : cotisations +4 000 € par personne et par an, salaires des natifs "
+         "peu qualifiés du secteur déclaré en hausse, pas d'afflux d'immigration mesuré, retour partiel au travail non déclaré (2025) ; délinquance des régularisés −0,6 point (Italie, 2017).")
+REGUL_S = [_src("Elias, Monras, Vázquez-Grenno, titres de travail accordés aux sans-papiers en Espagne en 2005 (Journal of Labor Economics ; présentation de l'université de Barcelone)", 2025, 'https://www.ub.edu/school-economics/news/understanding-the-effects-of-granting-work-permits-to-undocumented-immigrants/'),
+           _src("Pinotti, régularisation des immigrés et délinquance en Italie (American Economic Review ; présentation de l'université Bocconi)", 2017, 'https://clean.unibocconi.eu/research/criminal-and-illegal-behavior/clicking-on-heaven-door.-the-effect-of-immigrant-legalization-on-crime')]
+o = OVR[('glucksmann', 'economie')]; assert [p['text'] for p in o['proposals']][0] == 'Taxer le 1 % des plus gros héritages pour hausser les salaires nets' and len(o['proposals']) == 4
+o['proposals'] = [_p('Porter le SMIC à 1 700 € net')] + o['proposals']
+_ev('glucksmann', 'economie', SMICX + " " + _jev('glucksmann', 'economie') + " " + REGUL, add=[GPLAN_S, SMICX_S] + REGUL_S, level='mitigee')
+EGALIM = "Lois Egalim : efficacité économique difficile à établir, contrats écrits peu appliqués ; part agricole du prix au détail en hausse en 2021-2023 (Assemblée nationale, 2025)."
+EGALIM_S = _src("Assemblée nationale, rapport d'information n° 1014 sur l'évaluation de la loi Egalim 2 (commission des affaires économiques)", 2025, 'https://www.assemblee-nationale.fr/dyn/17/rapports/cion-eco/l17b1014_rapport-information.pdf')
+OR2 = ("Règle d'or : déficit réduit de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, effet plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; "
+       "Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023).")
+STAB2 = "Incertitude politique : suivie de moins d'investissement (États-Unis), de production et d'emploi (12 pays), sans preuve de causalité (2016) ; règle de stabilité fiscale non évaluée."
+for _c in ('le-pen', 'philippe', 'retailleau'): _rep(_c, 'economie', OR, OR2)
+for _c in ('attal', 'lisnard'): _rep(_c, 'economie', STAB, STAB2)
+_rep('retailleau', 'economie', OR2 + " " + TEPA, OR2 + " " + EGALIM + " " + TEPA)
+_ev('retailleau', 'economie', OVR[('retailleau', 'economie')]['evidence'], add=[EGALIM_S])
+_ev('attal', 'economie', OVR[('attal', 'economie')]['evidence'] + " " + EGALIM, add=[EGALIM_S])
+CODE_S2 = _src("France Stratégie, comité d'évaluation des ordonnances travail, rapport 2021 (p. 17 et 24)", 2021, 'https://www.vie-publique.fr/files/rapport/pdf/283002.pdf')
+for _c in ('attal', 'retailleau'):
+    _ev(_c, 'economie', OVR[(_c, 'economie')]['evidence'], add=[CODE_S2], drop=['lemondedudroit.fr/publications/248-etudes-et-documents/78930'])
+# libertés : voile (« nul » : IZA 2019 ; « négatif » : APSR 2020) ; droit à la sécurité : texte de l'article L. 111-1 attesté par le dossier officiel
+_vo, _vn = "après 2004, effet nul ou négatif selon les études (APSR, 2020)", "après 2004, aucun gain de plus (IZA, 2019) ou scolarité des filles en baisse (APSR, 2020)"
+for _c in ('lisnard', 'le-pen'): _rep(_c, 'libertes', _vo, _vn)
+_ev('retailleau', 'libertes', OVR[('retailleau', 'libertes')]['evidence'], add=[_src("Conseil constitutionnel, dossier documentaire de la décision n° 2020-889 QPC (texte de l'article L. 111-1 du code de la sécurité intérieure)", 2021, 'https://www.conseil-constitutionnel.fr/sites/default/files/as/root/bank_mm/decisions/2020889qpc/2020889qpc_doc.pdf')])
+# environnement : SEQE 2 en place en 2028 (Commission européenne) ; Glucksmann, marges des carburants (plan du 22/10, sans coût public direct)
+_rep('zemmour', 'environnement', SEQE, "Marché carbone des carburants (en place en 2028) : +10 à 15 c€ par litre à son entrée en vigueur (Institut Montaigne, 2025) ; taxe carbone suédoise : émissions des transports −11 % (2019).")
+_ev('zemmour', 'environnement', OVR[('zemmour', 'environnement')]['evidence'], add=[_src("Commission européenne, ETS2 : bâtiments, transport routier et autres secteurs (en place en 2028)", 2026, 'https://climate.ec.europa.eu/eu-action/carbon-markets/ets2-buildings-road-transport-and-additional-sectors_en')])
+_upd('glucksmann', 'environnement', [_p('Leasing social : 1 million de voitures électriques à 100 €/mois'),
+                                     _p('Encadrer les marges de raffinage et de distribution des carburants pour baisser de 20 centimes le prix à la pompe'),
+                                     _p("Loi climat : −90 % d'émissions en 2040", True, True),
+                                     _p('Garder le nucléaire, construire de nouvelles unités, plan régional renouvelables', False)], add=[GPLAN_S])
+
 # même test « précis » pour une même formulation
 VFLIP = {'Bloquer temporairement': False, 'Assistant médical fondé sur l': False, 'Contrôle du Conseil constitutionnel limité': False, 'Police de proximité modernisée': False, "Fonds national d'acquisition foncière": False,
          "commandement intégré de l'OTAN": True, "Sortir de l'OTAN": True}

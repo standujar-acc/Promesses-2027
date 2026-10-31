@@ -1,5 +1,5 @@
 {
- "asof": "29 octobre 2026",
+ "asof": "31 octobre 2026",
  "context": [
   {
    "v": "5,4 %",
@@ -35,8 +35,8 @@
    "id": "le-pen",
    "name": "Marine Le Pen",
    "party": "RN",
-   "poll": "34,1 %",
-   "summary": "Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie. Notre chiffrage : −69,3 Md€ par an en 2030, soit −2 242 € par ménage. Principal obstacle : la priorité nationale et le référendum exigent une révision de la Constitution.",
+   "poll": "33,8 %",
+   "summary": "Promet 140 Md€ d'économies nettes d'ici 2032, 30 Md€ de baisses d'impôts, la retraite à 62 ans et la TVA à 5,5 % sur l'énergie. Notre chiffrage : −69,4 Md€ par an en 2030, soit −2 245 € par ménage. Principal obstacle : la priorité nationale et le référendum exigent une révision de la Constitution.",
    "measures": [
     {
      "id": "retraites",
@@ -401,9 +401,27 @@
         "value": "gazole 1,978 €/l ; SP95-E10 1,892 (moyennes de 2022 : 1,848 et 1,765)",
         "source": "Ministère de la Transition écologique (DGEC), prix TTC hebdomadaires des carburants depuis janvier 2020",
         "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Prix%20HTT%20et%20TTC%20depuis%20janvier%202020_0.xlsx"
+       },
+       {
+        "label": "Électricité, prix de référence (moyenne des 12 derniers mois)",
+        "value": "tarif réglementé Bleu résidentiel, option Base 6 kVA : 0,196 €/kWh TTC du 1/11/2025 au 31/10/2026, part variable pondérée par les jours de chaque tarif (moyennes annuelles : 0,173 en 2022, 0,212 en 2023, 0,250 en 2024) ; abonnement 188 €/an TTC",
+        "source": "Commission de régulation de l'énergie, historique des tarifs réglementés de vente d'électricité (données ouvertes, option Base)",
+        "url": "https://www.cre.fr/fileadmin/Documents/Open_data/Marches_de_detail/Option_Base.csv"
+       },
+       {
+        "label": "Gaz, prix de référence (moyenne des 12 derniers mois)",
+        "value": "prix repère de vente de gaz moyen, tous consommateurs : 151,7 €/MWh TTC de novembre 2025 à octobre 2026 (126,5 en 2024, 141,4 en 2025 ; 194,9 pour novembre 2026) ; série publiée depuis janvier 2024",
+        "source": "Commission de régulation de l'énergie, prix repère de vente de gaz naturel, « Historique PRVG moyen » (données ouvertes)",
+        "url": "https://www.cre.fr/fileadmin/Documents/Open_data/Marches_de_detail/OPEN_DATA_GRDF.xlsx"
+       },
+       {
+        "label": "TVA des abonnements d'électricité et de gaz",
+        "value": "à compter du 1er août 2025, la TVA « passera intégralement à 20 %, aussi bien sur l'abonnement que sur la consommation » (loi de finances pour 2025)",
+        "source": "CCI Paris Île-de-France (5/09/2025)",
+        "url": "https://www.entreprises.cci-paris-idf.fr/actualites/tva-electricite-et-gaz-passage-de-55-20-au-1er-aout-2025"
        }
       ],
-      "note": "Le périmètre (avec ou sans carburants) fait varier le coût de 10 Md€ ; l'Institut Montaigne chiffre sur la TVA de 2022 (« données pour 2022 » : produits pétroliers 10,4 Md€) et Bercy (juin 2024) ne publie pas son année de prix ; le coût « progresse avec les prix » (Institut de l'Entreprise, octobre 2026, Brent au-dessus de 100 $). Prix de référence (moyenne des 12 derniers mois, 52 semaines au 23/10/2026) : gazole 1,98 €/l, SP95-E10 1,89 €/l, environ 7 % au-dessus des moyennes de 2022 (1,85 et 1,77 €/l) : chiffrages non réajustés tant que l'année de prix de Bercy n'est pas connue (registre)."
+      "note": "Le périmètre (avec ou sans carburants) fait varier le coût de 10 Md€ ; l'Institut Montaigne chiffre sur la TVA de 2022 (« données pour 2022 » : produits pétroliers 10,4 Md€) et Bercy (juin 2024) ne publie pas son année de prix ; le coût « progresse avec les prix » (Institut de l'Entreprise, octobre 2026, Brent au-dessus de 100 $). Prix de référence (moyenne des 12 derniers mois, 52 semaines au 23/10/2026) : gazole 1,98 €/l, SP95-E10 1,89 €/l, environ 7 % au-dessus des moyennes de 2022 (1,85 et 1,77 €/l) : chiffrages non réajustés tant que l'année de prix de Bercy n'est pas connue (registre). Électricité et gaz, prix de référence (moyenne des 12 derniers mois, CRE) : tarif réglementé Base 6 kVA 0,196 €/kWh TTC, 13,6 % au-dessus de sa moyenne de 2022 (0,173) ; prix repère du gaz 151,7 €/MWh TTC (série publiée depuis 2024 seulement). Depuis le 1/08/2025, les abonnements d'électricité et de gaz sont taxés à 20 % (5,5 % auparavant, loi de finances pour 2025) : la baisse à 5,5 % les toucherait aussi, alors que l'Institut Montaigne les excluait (« Cette assiette, déjà taxée à 5,5 %, n'est pas concernée ») ; chiffrages non réajustés tant que la méthode de Bercy n'est pas connue (registre)."
      },
      "quiz_text": "Baisser fortement la taxe sur l'électricité, le gaz et l'essence",
      "quiz_concret": "Vos factures d'énergie et le plein baissent d'environ 12 %, si les fournisseurs répercutent la baisse.",
@@ -1352,11 +1370,11 @@
      "obstacle": "Par la loi de finances ; financement non précisé dans la mesure.",
      "claude": {
       "id": "ticpe",
-      "central": -1.9,
+      "central": -2.0,
       "low": -3.6,
-      "high": -1.7,
+      "high": -1.8,
       "method": "ascendant",
-      "formula": "Même base que l'accise de Zemmour : écart de tarif 2026 − 2017 × volumes 2025 (inchangé : gazole 23,6 Mm³ × 6,33 = 1,49 ; essences 15,6 Mm³ × 3,22 = 0,50) ; calage sur les recettes 2025 publiées (CPO 27,2 / 28,7 aux tarifs normaux = 0,948) : 1,99 × 0,948 = 1,89 ; + fioul domestique 4 Mm³ × 4,50 = 0,18 (hors calage, absent des chiffres du CPO) ; accise ≈ 2,07 ; + TVA à mi-chemin entre 0 et 5,5 % : 0,06 = 2,13 ; moins l'impôt sur les sociétés récupéré sur la part de l'accise payée par les entreprises (la moitié, comme pour la TVA ; 20 %, règle commune) : 2,07 × 50 % × 20 % = 0,21 → ≈ −1,9. Borne haute : volumes 2030 si les tendances 2025 continuent (−1,9 brut, −1,7 net) ; borne basse : chiffre du camp (−3,9), hors calcul, net au taux de 17,5 % sur la moitié (−3,6)",
+      "formula": "Même base que l'accise de Zemmour : écart de tarif 2026 − 2017 × volumes 2025 (inchangé : gazole 23,6 Mm³ × 6,33 = 1,49 ; essences 15,6 Mm³ × 3,22 = 0,50) ; calage sur les recettes 2025 publiées (CPO 27,2 / 28,7 aux tarifs normaux = 0,948) : 1,99 × 0,948 = 1,89 ; + fioul domestique 4 Mm³ × 4,50 = 0,18 (hors calage, absent des chiffres du CPO) ; accise ≈ 2,07 ; + TVA sur la part qui n'est pas payée par les entreprises (63 %), au taux de 5,5 % du programme : 2,07 × 63 % × 5,5 % = 0,07 → 2,14 ; moins l'impôt sur les sociétés récupéré sur la part de l'accise payée par les entreprises (37 %, SDES ; 20 %, règle commune) : 2,07 × 37 % × 20 % = 0,15 → ≈ −2,0. Borne haute : volumes 2030 si les tendances 2025 continuent (−1,9 brut, −1,8 net) ; borne basse : chiffre du camp (−3,9), hors calcul, net au taux de 17,5 % sur 37 % (−3,6)",
       "inputs": [
        {
         "label": "Accise 2025 sur le gazole et l'essence",
@@ -1405,9 +1423,15 @@
         "value": "effet brut −5 361 M€ ; retour d'impôt sur les sociétés +938 M€ (taux effectif avant crédits d'impôt de 17,5 %) ; effet net −4 423 M€",
         "source": "Conseil des prélèvements obligatoires (Cour des comptes), « Tracer un cadre fiscal et social pluriannuel pour l'industrie française », septembre 2025, p. 134-135, tableau 15",
         "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
+       },
+       {
+        "label": "Taxes sur l'énergie : qui les paie (2023)",
+        "value": "« Sur les 37 Md€ de recettes fiscales environnementales dans le domaine de l'énergie, les ménages sont de loin les principaux contributeurs (59 %) contre 15 % pour les activités des services, 10 % pour la branche des transports, 5 % pour le commerce, 4 % pour l'industrie manufacturière et la construction et 3 % pour les autres branches » (branches d'activité : 37 %) ; « Cette répartition est stable sur la période 2018-2023 » ; pas de répartition propre aux carburants",
+        "source": "SDES (ministère de la Transition écologique), « La fiscalité environnementale en France : état des connaissances en 2025 » (1/02/2026)",
+        "url": "https://www.statistiques.developpement-durable.gouv.fr/la-fiscalite-environnementale-en-france-etat-des-connaissances-en-2025"
        }
       ],
-      "note": "Le RN inscrit 3,9 Md€ en 2027 seulement ; l'Institut de l'Entreprise prolonge ce chiffre sans le réévaluer. Le gazole non routier (36,79 €/hl hors agriculture en 2026, 15,09 en 2017) n'est pas compté : sa hausse vient de la suppression progressive de son tarif réduit, une autre mesure, et ses volumes non agricoles ne sont pas publiés. En Île-de-France l'écart est plus faible (4,44 et 2,20 €/hl) : léger biais à la hausse. Simulateur (S071) : baisse par litre de 6,33 c€ HT sur le gazole, 3,22 c€ HT sur l'essence, 4,50 c€ HT sur le fioul, TVA en plus. Impôt sur les sociétés récupéré (règle commune des prélèvements déductibles) : l'accise payée par les entreprises est déductible de leur bénéfice ; il est compté sur la moitié de l'accise, la même hypothèse « à mi-chemin » que pour la TVA (part des entreprises non publiée par une source officielle : registre), à 20 % (17,5 % en borne basse), de la même façon chez Le Pen et Zemmour."
+      "note": "Le RN inscrit 3,9 Md€ en 2027 seulement ; l'Institut de l'Entreprise prolonge ce chiffre sans le réévaluer. Le gazole non routier (36,79 €/hl hors agriculture en 2026, 15,09 en 2017) n'est pas compté : sa hausse vient de la suppression progressive de son tarif réduit, une autre mesure, et ses volumes non agricoles ne sont pas publiés. En Île-de-France l'écart est plus faible (4,44 et 2,20 €/hl) : léger biais à la hausse. Simulateur (S071) : baisse par litre de 6,33 c€ HT sur le gazole, 3,22 c€ HT sur l'essence, 4,50 c€ HT sur le fioul, TVA en plus. Impôt sur les sociétés récupéré et TVA (règle commune des prélèvements déductibles) : l'accise payée par les entreprises est déductible de leur bénéfice, et la TVA qui s'y ajoute est récupérée par elles ; leur part est prise à 37 %, part des taxes sur l'énergie payée par les branches d'activité en 2023 (SDES, répartition stable depuis 2018), aucune part propre aux carburants n'étant publiée ; la même chez Le Pen et Zemmour, pour la TVA comme pour l'impôt sur les sociétés."
      },
      "quiz_text": "Ramener la taxe sur les carburants et le fioul à son niveau de 2017",
      "quiz_concret": "Le litre d'essence, de gazole et de fioul coûte quelques centimes de moins.",
@@ -2929,13 +2953,13 @@
     "high_md": 50
    },
    "claude_total": {
-    "sum": -69.3,
-    "p10": -93.6,
+    "sum": -69.4,
+    "p10": -93.7,
     "p90": -58.5,
-    "realsum": -72.5,
+    "realsum": -72.6,
     "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, prêt à taux zéro à la place de MaPrimeRénov', recettes et économies du contre-budget sans chiffrage indépendant (chiffres du camp pour 2027) : impôt sur les sociétés assis sur le chiffre d'affaires 3,75, Autorité de la concurrence 1,2, dividendes d'EDF sur les exportations 3,7, économies sur le TURPE 2, économies sur la Sécurité sociale ≈ 20, droits de douane rendus 2,2, rationalisation de l'aide publique au développement et de l'action extérieure de l'État 2,1 (sans niveau publié), rebudgétisation des certificats d'économies d'énergie 8 (mécanisme non publié : sans effet sur le solde si les programmes passent au budget avec une recette équivalente, perte de TVA d'environ 0,9 Md€ si la charge disparaît des factures, même lecture que Retailleau et Zemmour) ; dépenses de moins de 1 Md€ (AAH au-dessus du seuil de pauvreté, permis gratuit, prime d'activité étudiante, demi-part des veufs…), dispense d'impôt sur le revenu pour les entrepreneurs (public et durée non publiés), fonds souverain (opération financière), abrogation de la loi Hulot, lignes immigration du contre-budget sans chiffrage indépendant ni paramètre suffisant (chiffres du camp pour 2027) : suppression du visa pour soins 1, hausse des frais de scolarité des étudiants étrangers 1,1 (montant des droits non publié), effets indirects sur la sécurité 0,5, départ des étrangers sans emploi 0,1, timbre sur les visas touristiques 0,1 ; taxe de 1 000 € par an à l'embauche d'un salarié extra-européen 1 et taxe de 14 % sur les transferts d'argent vers les pays tiers 1,9 (à l'étude), gel des tarifs et minima de l'accise sur le tabac et fin de leur indexation (lettre aux buralistes du 7/09/2026 ; paramètre précisé par l'amendement I-CF1011 du groupe RN au projet de budget 2027, 4/10/2026) : ≈ −0,1 Md€ en 2030 (jusqu'à −0,5 si toute l'accise suivait l'indexation), sous le seuil de 1 Md€, recentralisation de l'aide sociale à l'enfance par l'État, rebaptisée « aide sociale à la famille », et ministère de plein exercice (transfert entre administrations, sans dépense nouvelle publiée : sans effet sur le solde public), fin ou baisse de l'aide à l'Ukraine (« nous n'avons plus les moyens » d'une aide qui « nous a coûté, en engagement, 6 milliards d'euros par an » selon la candidate, 15/10/2026 ; niveau non publié, même lecture que la hausse de l'aide de Glucksmann, non chiffrable ; matériels livrés : 0,94 Md€ en 2025 selon le ministère des Armées), trains gratuits pour les 18-25 ans sur les places invendues de la SNCF (paramètres non publiés), postes publics non remplacés (nombre non publié par la candidate ; ≈ 201 000 d'ici 2032 selon un seul site citant un député RN : fourchette indicative dans la fiche), agences et opérateurs au-delà de la valeur commune (3,4 Md€ en 2027, chiffre du camp)",
     "n": 26,
-    "cost": -82.7,
+    "cost": -82.8,
     "gain": 13.4,
     "confirm": []
    },
@@ -3017,7 +3041,7 @@
    "id": "melenchon",
    "name": "Jean-Luc Mélenchon",
    "party": "LFI",
-   "poll": "16,8 %",
+   "poll": "17,2 %",
    "summary": "Promet la retraite à 60 ans, un SMIC à 1 700 € net et 106 Md€ de recettes nouvelles, surtout sur les hauts patrimoines. Notre chiffrage : −147,1 Md€ par an en 2030, soit −4 759 € par ménage. Principal obstacle : le rendement réel des nouveaux impôts, et les traités européens pour l'annulation de la dette.",
    "measures": [
     {
@@ -3623,9 +3647,21 @@
         "value": "gazole 1,978 €/l ; SP95-E5 1,938 ; SP95-E10 1,892 ; fioul domestique 1,517 (moyennes de 2022 : 1,848 / 1,809 / 1,765 / 1,482 ; de 2024 : 1,694 / 1,821 / 1,784 / 1,200)",
         "source": "Ministère de la Transition écologique (DGEC), prix TTC hebdomadaires des carburants depuis janvier 2020 (même moyenne « année mobile » dans la note hebdomadaire du 23/10/2026, p. 6)",
         "url": "https://www.ecologie.gouv.fr/sites/default/files/documents/Prix%20HTT%20et%20TTC%20depuis%20janvier%202020_0.xlsx"
+       },
+       {
+        "label": "Électricité, prix de référence (moyenne des 12 derniers mois)",
+        "value": "tarif réglementé Bleu résidentiel, option Base 6 kVA : 0,196 €/kWh TTC du 1/11/2025 au 31/10/2026, part variable pondérée par les jours de chaque tarif (moyennes annuelles : 0,173 en 2022, 0,212 en 2023, 0,250 en 2024) ; abonnement 188 €/an TTC",
+        "source": "Commission de régulation de l'énergie, historique des tarifs réglementés de vente d'électricité (données ouvertes, option Base)",
+        "url": "https://www.cre.fr/fileadmin/Documents/Open_data/Marches_de_detail/Option_Base.csv"
+       },
+       {
+        "label": "Gaz, prix de référence (moyenne des 12 derniers mois)",
+        "value": "prix repère de vente de gaz moyen, tous consommateurs : 151,7 €/MWh TTC de novembre 2025 à octobre 2026 (126,5 en 2024, 141,4 en 2025 ; 194,9 pour novembre 2026) ; série publiée depuis janvier 2024",
+        "source": "Commission de régulation de l'énergie, prix repère de vente de gaz naturel, « Historique PRVG moyen » (données ouvertes)",
+        "url": "https://www.cre.fr/fileadmin/Documents/Open_data/Marches_de_detail/OPEN_DATA_GRDF.xlsx"
        }
       ],
-      "note": "Carburant à 1,70 €/l par décret (note LFI d'octobre 2026), rangé parmi les dépenses du programme ; prix de l'électricité et du gaz de 2026 non relevés ici"
+      "note": "Carburant à 1,70 €/l par décret (note LFI d'octobre 2026), rangé parmi les dépenses du programme ; prix de référence de l'électricité et du gaz (moyenne des 12 derniers mois des séries officielles de la CRE, même règle que les carburants) : tarif réglementé Base 6 kVA 0,196 €/kWh TTC (0,173 en moyenne en 2022, 0,250 en 2024), prix repère du gaz 151,7 €/MWh TTC (126,5 en 2024) ; l'hypothèse basse de 9 Md€ supposait des prix en baisse"
      },
      "quiz_text": "Bloquer les prix de l'alimentation et de l'énergie de base",
      "quiz_concret": "Les prix de ces produits ne montent plus, pour une durée limitée.",
@@ -5569,7 +5605,7 @@
    "id": "philippe",
    "name": "Édouard Philippe",
    "party": "Horizons",
-   "poll": "13,9 %",
+   "poll": "14,3 %",
    "summary": "Promet la retraite à 65 ans, un départ sur trois non remplacé dans la fonction publique, une allocation familiale dès le premier enfant et zéro impôt pour les jeunes parents. Notre chiffrage : −0,3 Md€ par an en 2030, soit −10 € par ménage. Principal obstacle : l'acceptation d'un nouveau report de l'âge, et le financement de l'allocation familiale unique.",
    "measures": [
     {
@@ -5730,7 +5766,7 @@
      "id": "fonction",
      "theme": "depense",
      "title": "1 fonctionnaire sur 3",
-     "proposal": "Ne pas remplacer un départ à la retraite sur trois, ≈250 000 postes en moins sur 5 ans ; regrouper les opérateurs.",
+     "proposal": "Ne pas remplacer un départ à la retraite sur trois, plus de 250 000 postes en moins sur le quinquennat ; fusionner et supprimer des dizaines d'opérateurs, d'agences et de comités publics.",
      "claimed": "Aucun montant annoncé",
      "claimed_md": null,
      "estimates": [
@@ -5785,9 +5821,15 @@
         "value": "0,8 Md€ brut, 0,7 reversés",
         "source": "Cour des comptes (Acteurs publics)",
         "url": "https://acteurspublics.fr/articles/les-suppressions-de-postes-rapportent-peu/"
+       },
+       {
+        "label": "Proposition du candidat (site de campagne)",
+        "value": "« Supprimer un tiers des fonctionnaires partant à la retraite, soit plus de 250 000 postes sur le quinquennat » ; « Fusionner et supprimer des dizaines d'opérateurs, d'agences et de comités publics » ; « regroupant ou privatisant les agences et opérateurs enchevêtrés »",
+        "source": "Site de campagne d'Édouard Philippe, « Pour une France plus prospère »",
+        "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
        }
       ],
-      "note": "Collectivités et hôpitaux hors contrôle de l'État"
+      "note": "Collectivités et hôpitaux hors contrôle de l'État. Opérateurs et agences : « des dizaines » fusionnés ou supprimés (site de campagne), liste non publiée, périmètre plus étroit que la suppression de la plupart des agences (valeur commune de 0,26 Md€ chez Le Pen, Retailleau et Lisnard) : rien de compté, comme les agences nommées de Zemmour ; les privatisations sont des opérations financières, sans effet sur le solde."
      },
      "quiz_text": "Ne pas remplacer un fonctionnaire sur trois partant à la retraite",
      "quiz_concret": "Moins de postes publics au fil des départs.",
@@ -7183,8 +7225,8 @@
    "id": "glucksmann",
    "name": "Raphaël Glucksmann",
    "party": "PS-Place publique",
-   "poll": "13,8 %",
-   "summary": "Promet le retour à 62 ans, un SMIC à 1 600 € net, une taxe sur les très gros héritages et une défense européenne financée par emprunt commun. Notre chiffrage : −44,9 Md€ par an en 2030, soit −1 453 € par ménage. Principal obstacle : l'accord des autres pays européens, et le rendement de la taxe sur les héritages.",
+   "poll": "13,9 %",
+   "summary": "Promet le retour à 62 ans, un SMIC à 1 700 € net, une taxe sur les très gros héritages et une défense européenne financée par emprunt commun. Notre chiffrage : −54,8 Md€ par an en 2030, soit −1 773 € par ménage. Principal obstacle : l'accord des autres pays européens, et le rendement de la taxe sur les héritages.",
    "measures": [
     {
      "id": "zucman",
@@ -7294,9 +7336,9 @@
       "id": "heritages",
       "central": -2.4,
       "low": -8.0,
-      "high": 1.6,
+      "high": 2.6,
       "method": "ascendant",
-      "formula": "Recette : médiane des chiffrages indépendants 7 ; 9 ; 13,8 ; 19 = 11,4 Md€ (le chiffre du camp n'entre pas dans la médiane) − 15 Md€ de baisse de CSG promise, moins l'impôt sur le revenu récupéré (règle commune des prélèvements déductibles du revenu imposable, la même dans les deux sens : 10,7 % de la part déductible, ratio des fiches CSG de Zemmour et de Lisnard, iFRAP 2023) : la part de la baisse qui touche la CSG déductible n'étant pas publiée, on prend celle du taux actuel (6,8 points sur 9,2) : 15 × 6,8/9,2 × 10,7 % = 1,2 → −2,4 Md€ ; borne basse −8,0 (recette de 7 Md€, baisse prise sur la part non déductible : pas d'impôt récupéré) ; borne haute +1,6 (recette égale aux 15 Md€ rendus, mesure conçue neutre ; baisse prise sur la part déductible de la CSG ou sur les cotisations salariales, entièrement déductibles : 15 × 10,7 %)",
+      "formula": "Recette : médiane des chiffrages indépendants 7 ; 9 ; 13,8 ; 19 = 11,4 Md€ (le chiffre du camp n'entre pas dans la médiane) − 15 Md€ de baisse de CSG promise, moins l'impôt sur le revenu récupéré (règle commune des prélèvements déductibles du revenu imposable, la même dans les deux sens : 11,0 % de la part déductible, médiane des chiffrages publiés : iFRAP 2023, 11,0 % ; Institut Montaigne 2022, 11 % ; évaluation préalable du PLF 2018, 17,1 % pour les salariés du privé, barème de 2018, retenu en borne) : la part de la baisse qui touche la CSG déductible n'étant pas publiée, on prend celle du taux actuel (6,8 points sur 9,2) : 15 × 6,8/9,2 × 11,0 % = 1,2 → −2,4 Md€ ; borne basse −8,0 (recette de 7 Md€, baisse prise sur la part non déductible : pas d'impôt récupéré) ; borne haute +2,6 (recette égale aux 15 Md€ rendus, mesure conçue neutre ; baisse prise sur la part déductible de la CSG ou sur les cotisations salariales, entièrement déductibles, impôt récupéré au taux de 17,1 % : 15 × 17,1 %)",
       "inputs": [
        {
         "label": "Rendement annoncé, redistribué",
@@ -7323,13 +7365,31 @@
         "url": "https://fipeco.fr/pdf/Alter%20Eco%2017.09.2024.pdf"
        },
        {
-        "label": "Impôt sur le revenu récupéré : ratio commun (fiches CSG)",
-        "value": "rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité (18,64 Md€ en 2021) coûterait ≈ 2,0 Md€ d'impôt sur le revenu par an (2,05 avant arrondi ; 1,8 Md€ pour les 16,4 Md€ des seuls salaires) : 10,7 % de la CSG devenue déductible",
+        "label": "Impôt sur le revenu récupéré : taux commun (iFRAP)",
+        "value": "rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité (18,64 Md€ en 2021) coûterait « probablement » 2,05 Md€ d'impôt sur le revenu par an (≈ 2,0 ; 1,8 Md€ pour les 16,4 Md€ des seuls salaires) : 11,0 % de la CSG devenue déductible",
         "source": "iFRAP (mai 2023)",
         "url": "https://www.ifrap.org/budget-et-fiscalite/pourquoi-il-faut-rendre-la-csg-totalement-deductible-de-lir-sur-les-revenus-dactivite"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : taux commun (Gouvernement)",
+        "value": "hausse de la CSG déductible de 2018 : « a été appliqué le taux marginal d'imposition moyen constaté pour les contribuables déclarant les revenus correspondants » : actifs privés 17,1 % (11 Md€ → 1,9 Md€), agents publics 17,9 %, indépendants 15,8 %, revenus de remplacement 20,9 % (barème de 2018, avant la baisse de la tranche à 14 % à 11 %)",
+        "source": "Assemblée nationale, rapport général n° 273, tome III, article 38 du PLF 2018 (tableau « Source : évaluation préalable »)",
+        "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L15B0273-tIII.html"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : taux commun (Institut Montaigne)",
+        "value": "« il faut tenir compte de la hausse de l'IR pour les revenus imposés au taux marginal de 11 % » sur les 6,8 points déductibles",
+        "source": "Institut Montaigne (présidentielle 2022, CSG de Zemmour)",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-le-taux-de-la-csg-sur-les-revenus-dactivite-de-92-a-25"
+       },
+       {
+        "label": "Instrument (plan du 22/10/2026, n° 5)",
+        "value": "« une augmentation immédiate du pouvoir d'achat des salariés par la mise en place d'une CSG progressive » ; barème non publié",
+        "source": "Place publique (compte officiel), « Plan de sortie de crise » du candidat (« Mes 10 propositions »), remis à Matignon et publié le 22/10/2026",
+        "url": "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
        }
       ],
-      "note": "Conçue neutre ; le risque est un rendement inférieur aux 15 Md€ déjà promis aux salariés. Instrument non précisé dans les déclarations retrouvées (« transférer directement sur la fiche de paie », Public Sénat, 24/08/2026) : lu comme une baisse de la CSG sur les salaires ; une hausse du salaire net fait remonter l'impôt sur le revenu, compté avec la même règle que la baisse des cotisations salariales de Retailleau."
+      "note": "Conçue neutre ; le risque est un rendement inférieur aux 15 Md€ déjà promis aux salariés. Instrument : « CSG progressive » (plan de sortie de crise du 22/10/2026), barème non publié : lu comme une baisse de la CSG sur les salaires ; une hausse du salaire net fait remonter l'impôt sur le revenu, compté avec la même règle que la baisse des cotisations salariales de Retailleau."
      },
      "quiz_text": "Taxer les 1 % plus gros héritages pour augmenter les salaires nets",
      "quiz_concret": "Les très gros héritages sont plus taxés ; les salariés gagnent un peu plus.",
@@ -7558,8 +7618,8 @@
     {
      "id": "smic",
      "theme": "travail",
-     "title": "SMIC à 1 600 € net",
-     "proposal": "Porter le SMIC à 1 600 € net en deux ans, conférences salariales.",
+     "title": "SMIC à 1 700 € net",
+     "proposal": "Porter le SMIC à 1 700 € net par mois, conférence salariale, CSG progressive (plan de sortie de crise du 22/10/2026).",
      "claimed": "Non chiffré par le camp",
      "claimed_md": null,
      "estimates": [
@@ -7585,11 +7645,11 @@
      "obstacle": "Un décret suffit ; coût des allègements de cotisations et effet sur l'emploi peu qualifié.",
      "claude": {
       "id": "smic",
-      "central": -11.9,
-      "low": -13.1,
-      "high": -10.6,
+      "central": -21.6,
+      "low": -23.9,
+      "high": -19.4,
       "method": "ascendant",
-      "formula": "Base SMIC juin 2026 (1 477,93 € net) : 1 600 € = +8,3 % ; Montaigne ≈ 19 Md€ pour +13,2 % → 19 × 8,3/13,2 ≈ −11,9 Md€",
+      "formula": "Base SMIC juin 2026 (1 477,93 € net) : 1 700 € = +15,0 % ; Montaigne ≈ 19 Md€ pour +13,2 % → 19 × 15,0/13,2 ≈ −21,6 Md€",
       "inputs": [
        {
         "label": "SMIC à 1 600 € net (base 2024)",
@@ -7602,12 +7662,24 @@
         "value": "1 867,02 € brut",
         "source": "FFB",
         "url": "https://www.ffbatiment.fr/actualites-batiment/actualite/augmentation-smic-juin-2026"
+       },
+       {
+        "label": "Proposition du candidat (plan du 22/10/2026, n° 5)",
+        "value": "« Porter le SMIC à 1 700 euros net par mois et conférence salariale telle que demandée par les syndicats, avec une augmentation immédiate du pouvoir d'achat des salariés par la mise en place d'une CSG progressive »",
+        "source": "Place publique (compte officiel), « Plan de sortie de crise » du candidat (« Mes 10 propositions »), remis à Matignon et publié le 22/10/2026",
+        "url": "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
+       },
+       {
+        "label": "Confirmation (30/10/2026)",
+        "value": "« Raphaël Glucksmann promet lui aussi une revalorisation du SMIC à 1 700 euros net par mois », et non de « 100 euros par an » comme l'avait dit son porte-parole",
+        "source": "Public Sénat (30/10/2026)",
+        "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-que-proposent-les-candidats-pour-augmenter-les-salaires"
        }
       ],
-      "note": "Étalement sur deux ans : effet en 2030 à pleine charge"
+      "note": "Même montant et même calcul que Mélenchon (proportionnalité linéaire supposée). Le plan du 22/10/2026 (1 700 €) remplace le texte de juin 2025 (1 600 € en deux ans) ; aucun délai publié : effet en 2030 à pleine charge."
      },
-     "quiz_text": "Porter le salaire minimum à 1 600 € net en deux ans",
-     "quiz_concret": "Environ +120 € par mois au niveau du SMIC.",
+     "quiz_text": "Porter le salaire minimum à 1 700 € net par mois",
+     "quiz_concret": "Environ +220 € par mois au niveau du SMIC.",
      "quiz_plus": "La hausse se diffuse au-dessus : presque entière jusqu'à 1,1 SMIC, pour moitié vers 1,5 SMIC.",
      "quiz_moins": "Avec un SMIC déjà élevé, une forte hausse peut coûter des emplois aux salariés peu qualifiés.",
      "quiz_preuve_pour": "solide",
@@ -7919,7 +7991,8 @@
        "t": "En français, les gains des CP et CE1 dédoublés n'apparaissent plus à l'entrée en 6e, pour la première génération comme pour les suivantes (DEPP, France, 2026).",
        "s": [
         0,
-        2
+        2,
+        5
        ]
       }
      ],
@@ -7949,6 +8022,11 @@
        "l": "OCDE, Regards sur l'éducation 2025 (via Acteurs publics)",
        "a": 2025,
        "u": "https://acteurspublics.fr/articles/penurie-denseignants-la-france-nest-finalement-pas-si-mal-lotie/"
+      },
+      {
+       "l": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
+       "a": 2026,
+       "u": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
       }
      ],
      "quiz_constat": {
@@ -8311,7 +8389,7 @@
      "id": "cheque_energie",
      "theme": "energie",
      "title": "Chèque énergie triplé",
-     "proposal": "Tripler le chèque énergie (de 150 à 500 € par an) et l'ouvrir aux classes moyennes ; financement annoncé par une taxe sur les superprofits, non chiffrée.",
+     "proposal": "Chèque énergie de 500 € pour six millions de familles et de 200 € pour dix millions de ménages (le triple du montant moyen actuel, ouvert aux classes moyennes) ; financement annoncé par une taxe sur les superprofits, non chiffrée.",
      "claimed": "≈ 4 Md€ (candidat, BFMTV, 19/09/2026)",
      "claimed_md": -4,
      "estimates": [
@@ -8329,11 +8407,11 @@
      "obstacle": "Par la loi de finances ; financement non précisé dans la mesure.",
      "claude": {
       "id": "cheque_energie",
-      "central": -4.0,
-      "low": -6.0,
+      "central": -4.2,
+      "low": -5.0,
       "high": -1.9,
-      "method": "camp",
-      "formula": "Seul chiffrage disponible : ≈ 4 Md€/an (candidat) ; borne haute : triplement à périmètre constant, 5,5 M de foyers × (500 − 150 €) ≈ 1,9 Md€ ; borne basse +50 % faute de seuil publié pour les classes moyennes (même fourchette que les jeunes parents de Philippe)",
+      "method": "ascendant",
+      "formula": "Paramètres publiés par le candidat (plan de sortie de crise du 22/10/2026) : 500 € pour six millions de familles et 200 € pour dix millions de ménages = 3,0 + 2,0 = 5,0 Md€, moins le chèque énergie actuel, que la mesure remplace (5,5 M de foyers × 150 € ≈ 0,8 Md€, Sénat) ≈ −4,2 Md€ ; borne basse −5,0 (sans déduire le chèque actuel) ; borne haute −1,9 (triplement à périmètre constant : 5,5 M de foyers × (500 − 150 €))",
       "inputs": [
        {
         "label": "Coût annoncé",
@@ -8346,9 +8424,15 @@
         "value": "montant moyen 150 € ; 5,5 M de foyers bénéficiaires automatiques en 2024 (3,8 M en 2025)",
         "source": "Sénat, avis budgétaire PLF 2026 (énergie)",
         "url": "https://www.senat.fr/rap/a25-140-2/a25-140-21.pdf"
+       },
+       {
+        "label": "Paramètres publiés (plan du 22/10/2026, n° 6)",
+        "value": "« Des chèques énergie, financés par une taxation des superprofits, avec 500 euros pour six millions de familles, et 200 euros pour dix millions de ménages. Un encadrement des marges de raffinage et de distribution pour réduire immédiatement de 20 centimes les prix à la pompe »",
+        "source": "Place publique (compte officiel), « Plan de sortie de crise » du candidat (« Mes 10 propositions »), remis à Matignon et publié le 22/10/2026",
+        "url": "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
        }
       ],
-      "note": "Aucun chiffrage indépendant publié ; seuil d'ouverture aux classes moyennes non publié. La taxe sur les superprofits qui doit financer la mesure n'est pas chiffrée par une source vérifiée : hors total. Simulateur (règle S053) : 500 € pour les foyers aujourd'hui éligibles (revenu fiscal de référence < 11 000 € par unité de consommation), note pour les classes moyennes."
+      "note": "Calcul ascendant depuis la publication des paramètres (22/10/2026), à la place du chiffre du camp (≈ 4 Md€, 19/09/2026) : même mesure (même montant de 500 €), présentée dans le plan comme « aide d'urgence ». Seuils de revenu non publiés. La taxe sur les superprofits qui doit financer la mesure n'est pas chiffrée par une source vérifiée : hors total. Le même plan propose d'encadrer les marges de raffinage et de distribution des carburants (« réduire immédiatement de 20 centimes les prix à la pompe ») : sans coût public direct, en « Vie quotidienne ». Simulateur : seuils non publiés, non calculé (note)."
      },
      "quiz_text": "Tripler le chèque énergie et l'ouvrir aux classes moyennes",
      "quiz_concret": "Une aide plus forte pour payer l'électricité, le gaz ou le fioul, versée à plus de ménages.",
@@ -8482,13 +8566,13 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -44.9,
-    "p10": -55.8,
-    "p90": -38.7,
-    "realsum": -44.9,
+    "sum": -54.8,
+    "p10": -65.3,
+    "p90": -47.4,
+    "realsum": -54.8,
     "missing": "transition écologique, hôpital, baisse des effectifs par classe, stages payés au moins 1 000 €/mois (coût public sous 1 Md€, surtout à la charge des employeurs), séjour collectif garanti à chaque enfant (paramètres non publiés), annulation des 1 588 suppressions nettes de postes d'enseignants du projet de budget 2027 (≈ 0,1 Md€, sous 1 Md€)",
     "n": 8,
-    "cost": -44.9,
+    "cost": -54.8,
     "gain": 0,
     "confirm": [
      "Impôt plancher ultra-riches",
@@ -8503,7 +8587,7 @@
      "carriere_longue": "Départ plus tôt, jusqu'à 60 ans, pour les carrières hachées et métiers pénibles ; plus tard pour les cadres.",
      "regle": "Abrogation de la réforme 2023, retour à 62 ans, modulé selon l'espérance de vie en bonne santé."
     },
-    "smic_net": 1600,
+    "smic_net": 1700,
     "salaire_net": {
      "gain_mensuel": 46.4,
      "ref": 2733,
@@ -8535,11 +8619,11 @@
     ],
     "service_jeunes": "Service obligatoire de 10 mois : indemnité supposée égale à celle du service civique actuel, soit ≈ 620 € par mois versés au jeune (504,98 € par l'État, 114,85 € par l'organisme d'accueil, barème 2026)",
     "tous": [
-     "Chèque énergie triplé (500 € par an) et ouvert aux classes moyennes : seuils non publiés, non calculé ici.",
+     "Chèque énergie : 500 € par an pour six millions de familles et 200 € pour dix millions d'autres ménages (plan du 22/10/2026) ; seuils de revenu non publiés, non calculé ici.",
      "Leasing social : une voiture électrique à environ 100 €/mois pour un million de ménages modestes (conditions non publiées), non calculé ici."
     ]
    },
-   "promise": "Promet le retour à 62 ans, un SMIC à 1 600 € net, une taxe sur les très gros héritages et une défense européenne financée par emprunt commun.",
+   "promise": "Promet le retour à 62 ans, un SMIC à 1 700 € net, une taxe sur les très gros héritages et une défense européenne financée par emprunt commun.",
    "obstacle_main": "L'accord des autres pays européens, et le rendement de la taxe sur les héritages."
   },
   {
@@ -9046,7 +9130,7 @@
        ]
       }
      ],
-     "quiz_etudes": "Une méta-analyse de 30 études (ZEW, 2018) trouve un effet modérateur des règles budgétaires sur les déficits, qui faiblit nettement une fois corrigés les biais.",
+     "quiz_etudes": "Une méta-analyse de 30 études (ZEW, 2016) trouve que les règles budgétaires réduisent les déficits de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, un effet plus faible avec les meilleures méthodes.",
      "quiz_src": [
       {
        "l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
@@ -9067,6 +9151,11 @@
        "l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
        "a": 2026,
        "u": "https://www.insee.fr/fr/statistiques/serie/010777608"
+      },
+      {
+       "l": "Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)",
+       "a": 2016,
+       "u": "https://www.zew.de/PU77836"
       }
      ],
      "quiz_constat": {
@@ -9807,7 +9896,7 @@
    "name": "Bruno Retailleau",
    "party": "LR",
    "poll": "7,3 %",
-   "summary": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration. Notre chiffrage : −16,7 Md€ par an en 2030, soit −540 € par ménage. Principal obstacle : la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées.",
+   "summary": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration. Notre chiffrage : −16,9 Md€ par an en 2030, soit −547 € par ménage. Principal obstacle : la révision de la Constitution, et des économies sur les agences plus faibles que celles annoncées.",
    "measures": [
     {
      "id": "etat",
@@ -9987,7 +10076,7 @@
      "id": "immigration",
      "theme": "immigration",
      "title": "Référendum immigration",
-     "proposal": "Référendum, fin du droit du sol, regroupement familial réduit, aides sociales après cinq ans de séjour régulier et de travail, asile examiné hors des frontières, quotas de visas et de titres de séjour fixés par la loi, expulsion obligatoire de tout étranger condamné.",
+     "proposal": "Référendum, fin du droit du sol, regroupement familial réduit, aides sociales après cinq ans de séjour régulier et de travail, asile examiné hors des frontières, quotas de visas et de titres de séjour fixés par la loi, expulsion obligatoire de tout étranger condamné, contrôles aux frontières intérieures sans limitation de temps.",
      "claimed": "10 Md€ cumulés, dont 4,5 Md€ suspendus au référendum",
      "claimed_md": null,
      "estimates": [
@@ -10018,7 +10107,7 @@
      ],
      "consensus": "concordant",
      "verdict": "bloque",
-     "obstacle": "Chemin : révision de la Constitution par l'article 89 (vote identique de l'Assemblée et du Sénat, puis référendum) ; l'article 11 ne le permet pas en l'état. Asile hors des frontières : aussi le droit de l'Union et le principe de non-refoulement (Convention de Genève).",
+     "obstacle": "Chemin : révision de la Constitution par l'article 89 (vote identique de l'Assemblée et du Sénat, puis référendum) ; l'article 11 ne le permet pas en l'état. Asile hors des frontières : aussi le droit de l'Union et le principe de non-refoulement (Convention de Genève). Contrôles aux frontières intérieures sans limite de temps : le code frontières Schengen les limite à deux ans, trois au plus (règlement (UE) 2016/399, art. 25 bis) : il faut un accord européen pour Schengen, comme chez Attal.",
      "claude": {
       "id": "immigration",
       "central": 3.9,
@@ -10074,6 +10163,12 @@
         "value": "« Faire fixer par la loi des quotas de visas et de titres de séjour » ; « Rendre obligatoire l'expulsion de tout étranger condamné pénalement ou menaçant l'ordre public » (pages mises à jour le 24/09/2026)",
         "source": "avecretailleau.fr",
         "url": "https://www.avecretailleau.fr/projet/mesure/faire-fixer-par-la-loi-des-quotas-migratoires"
+       },
+       {
+        "label": "Contrôles aux frontières intérieures : durée maximale",
+        "value": "« le contrôle aux frontières peut, sous certaines conditions, être prolongé pour deux périodes supplémentaires successives ne pouvant chacune excéder six mois et atteindre ainsi une durée maximale de trois ans » (règlement (UE) 2016/399 modifié, art. 25 bis)",
+        "source": "Conseil d'État, décision n° 499702 du 7/03/2025",
+        "url": "https://conseil-etat.fr/Media/actualites/documents/2025/mars-2025/499702.pdf"
        }
       ],
       "note": "Le plan est un niveau annuel en 2032. Statut de l'OID tranché (S087) : ses estimations ne sont pas reprises telles quelles. Asile : la note de l'OID (0,93 Md€ la 5e année) suppose une baisse de moitié des demandes ; le site retient la valeur déjà appliquée à la même mesure chez Le Pen (et Lisnard). La note de l'OID chiffre aussi à 2,9 Md€ par an les dépenses supplémentaires (contrôles, éloignements) nécessaires à ses économies (6,9 Md€ nets) ; la fiche 9 n'a pas de ligne de dépense correspondante (sans effet sur les montants comptés ici). Valeur de l'asile non actualisée, comme chez Le Pen (crédits de l'action 02 : 1 379,6 M€ en CP au PLF 2026)."
@@ -10378,7 +10473,7 @@
      "id": "production",
      "theme": "fiscalite",
      "title": "Moins d'impôts de production",
-     "proposal": "Supprimer la C3S, le forfait social et la part industrielle de la CFE (la CVAE est déjà supprimée par la loi).",
+     "proposal": "Supprimer la C3S, refondre le forfait social (exonérer l'intéressement, la participation supra-légale et l'épargne retraite individuelle ; 20 % maintenus sur la participation légale) et exonérer la part industrielle de la CFE (la CVAE est déjà supprimée par la loi).",
      "claimed": "51 Md€ rendus d'ici 2032 (21 ménages, 30 entreprises)",
      "claimed_md": null,
      "estimates": [
@@ -10404,17 +10499,17 @@
      "obstacle": "Coût certain, effet sur l'activité discuté",
      "claude": {
       "id": "production",
-      "central": -8.0,
+      "central": -8.2,
       "low": -13.2,
       "high": -6.4,
       "method": "ascendant",
-      "formula": "C3S 5,36 (rendement officiel 2026, CCSS, même base que Le Pen, Zemmour et Lisnard) + forfait social 2,8 + CFE industrielle 1,9 (détail du camp) = 10,06, moins l'impôt sur les sociétés récupéré (20 %, règle commune ; les trois prélèvements sont déductibles du bénéfice) = −8,0 Md€ ; bornes de la fiche (−16 et −8) nettes de la même façon (17,5 % et 20 %) : −13,2 et −6,4 (CVAE retirée : déjà supprimée par la loi ; heures au-delà de 1 623 heures exonérées : fiche à part)",
+      "formula": "C3S 5,36 (rendement officiel 2026, CCSS, même base que Le Pen, Zemmour et Lisnard) + forfait social 2,8 (refonte : intéressement, participation supra-légale et épargne retraite individuelle exonérées ; montant du camp, sans chiffrage indépendant de cette part) + part industrielle de la CFE 2,04 (rendement officiel : 24,4 % du produit de la CFE payés par les entreprises industrielles en 2023, Conseil des prélèvements obligatoires, appliqués au produit 2025 de 8,38 Md€, DGCL, même base que Le Pen et Zemmour ; le camp annonce 1,9) = 10,20, moins l'impôt sur les sociétés récupéré (20 %, règle commune ; les trois prélèvements sont déductibles du bénéfice) = −8,2 Md€ ; bornes de la fiche (−16 et −8) nettes de la même façon (17,5 % et 20 %) : −13,2 et −6,4 (CVAE retirée : déjà supprimée par la loi ; heures au-delà de 1 623 heures exonérées : fiche à part)",
       "inputs": [
        {
-        "label": "Détail du camp",
-        "value": "C3S 5,3 ; CVAE 4,3 ; forfait social 2,8 ; CFE 1,9",
-        "source": "Votons 2027",
-        "url": "https://votons-2027.fr/candidats/retailleau/programme/economie"
+        "label": "Détail du camp (mesure n° 34, mise à jour du 11/09/2026)",
+        "value": "« suppression intégrale de la C3S (5,3 milliards), suppression définitive de la CVAE (4,3 milliards), refonte du forfait social (2,8 milliards), exonération de la part industrielle de la CFE (1,9 milliard) » ; « Le forfait social resterait à 20 % sur la participation légale obligatoire, mais l'intéressement, la part supra-légale et l'épargne retraite individuelle en seraient exonérés »",
+        "source": "Bruno Retailleau 2027, projet en ligne, mesure n° 34 « Réduire de 60 % le handicap fiscal de nos entreprises »",
+        "url": "https://www.avecretailleau.fr/projet/mesure/reduire-de-60-le-handicap-fiscal-de-nos-entreprises-par"
        },
        {
         "label": "Rendement de la C3S (prévision 2026)",
@@ -10451,9 +10546,21 @@
         "value": "« Au plan fiscal, l'administration a admis la déductibilité de cette contribution du résultat imposable »",
         "source": "CMS Francis Lefebvre, « Le forfait social est exclu de l'assiette du CIR selon l'administration » (29/04/2015)",
         "url": "https://cms.law/fr/fra/a-la-une/le-forfait-social-est-exclu-de-l-assiette-du-cir-selon-l-administration"
+       },
+       {
+        "label": "CFE payée par les entreprises industrielles (2023)",
+        "value": "« Le produit prélevé sur les entreprises industrielles était de 2,1 Md€ en 2023 » (2 145 M€) ; « elles versent 24,4 % du produit de la CFE en 2023 »",
+        "source": "Conseil des prélèvements obligatoires (Cour des comptes), « Tracer un cadre fiscal et social pluriannuel pour l'industrie française », septembre 2025, p. 16 et 84",
+        "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
+       },
+       {
+        "label": "Produit de la CFE (2025, données provisoires)",
+        "value": "8 380,55 M€, toutes collectivités, +4,4 % sur 2024",
+        "source": "DGCL, BIS n° 209, « La fiscalité directe locale en 2025 », tableau 1 (données DGFiP, REI) ; PDF : copie de l'AMF",
+        "url": "https://www.collectivites-locales.gouv.fr/actualites/bis-209-la-fiscalite-directe-locale-en-2025"
        }
       ],
-      "note": "Chiffres du camp différents selon les documents (51 Md€ cumulés contre 40 Md€ par an). Détail du camp (forfait social, CFE industrielle) lu seulement sur un agrégateur : source officielle à trouver (registre). Coût net de l'impôt sur les sociétés récupéré : ces prélèvements sont déductibles du bénéfice imposable, et tous les chiffrages publiés trouvés comptent ce retour (Gouvernement, Cour des comptes, Institut Montaigne, Conseil d'analyse économique) ; règle commune, la même dans les deux sens pour tout prélèvement déductible : 20 % (taux retenu par le Gouvernement, l'Institut Montaigne et le CAE ; 17,5 %, taux de la Cour des comptes, en borne basse), en entier en 2030, comme l'impôt sur le revenu récupéré des fiches CSG."
+      "note": "Chiffres du camp différents selon les documents (51 Md€ cumulés contre 40 Md€ par an). Détail du camp : mesure n° 34 du projet en ligne (mise à jour du 11/09/2026) ; part du forfait social visée (2,8 Md€ sur 6,6) : montant du camp, sans ventilation officielle par assiette (registre). Coût net de l'impôt sur les sociétés récupéré : ces prélèvements sont déductibles du bénéfice imposable, et tous les chiffrages publiés trouvés comptent ce retour (Gouvernement, Cour des comptes, Institut Montaigne, Conseil d'analyse économique) ; règle commune, la même dans les deux sens pour tout prélèvement déductible : 20 % (taux retenu par le Gouvernement, l'Institut Montaigne et le CAE ; 17,5 %, taux de la Cour des comptes, en borne basse), en entier en 2030, comme l'impôt sur le revenu récupéré des fiches CSG."
      },
      "quiz_text": "Supprimer plusieurs impôts payés par les entreprises, quels que soient leurs bénéfices",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
@@ -11479,9 +11586,9 @@
       "id": "menages",
       "central": -15.5,
       "low": -17.1,
-      "high": -10.8,
+      "high": -10.2,
       "method": "camp",
-      "formula": "Budget publié ligne à ligne (fiche 14 du plan, niveaux 2032) : cotisations salariales en moins dès le premier euro −15, moins l'impôt sur le revenu récupéré (règle commune des prélèvements déductibles du revenu imposable, la même dans les deux sens : 10,7 % de la part déductible, ratio des fiches CSG de Zemmour et de Lisnard, iFRAP 2023) : les cotisations salariales sont entièrement déductibles, 15 × 10,7 % = 1,6 → −13,4 ; + relais de MaPrimeRénov' −2,1 (ligne « relais de MaPrimeRénov' et TVA sur les certificats » de 3 Md€, chiffre du camp, moins la TVA perdue avec la fin des certificats, comptée dans sa propre fiche : 3 − 0,9) = −15,5 ; comptée en entier en 2030 comme les cotisations patronales du même plan (baisse d'impôt sans calendrier par mesure, règle commune) ; borne basse : sans impôt récupéré (−17,1 : barème non publié, une baisse concentrée sur des salaires non imposables ne fait pas remonter l'impôt) ; borne haute : 70 % en 2030, net de l'impôt récupéré (−10,8). La ligne « familles et transmission » (3) est couverte par les fiches revenu familial et transmission",
+      "formula": "Budget publié ligne à ligne (fiche 14 du plan, niveaux 2032) : cotisations salariales en moins dès le premier euro −15, moins l'impôt sur le revenu récupéré (règle commune des prélèvements déductibles du revenu imposable, la même dans les deux sens : 11,0 % de la part déductible, médiane des chiffrages publiés : iFRAP 2023, 11,0 % ; Institut Montaigne 2022, 11 % ; évaluation préalable du PLF 2018, 17,1 % pour les salariés du privé, barème de 2018, retenu en borne) : les cotisations salariales sont entièrement déductibles, 15 × 11,0 % = 1,65 → −13,35 ; + relais de MaPrimeRénov' −2,1 (ligne « relais de MaPrimeRénov' et TVA sur les certificats » de 3 Md€, chiffre du camp, moins la TVA perdue avec la fin des certificats, comptée dans sa propre fiche : 3 − 0,9) = −15,5 ; comptée en entier en 2030 comme les cotisations patronales du même plan (baisse d'impôt sans calendrier par mesure, règle commune) ; borne basse : sans impôt récupéré (−17,1 : barème non publié, une baisse concentrée sur des salaires non imposables ne fait pas remonter l'impôt) ; borne haute : 70 % en 2030, impôt récupéré au taux de 17,1 % : 0,7 × (−15 × 0,829 − 2,1) = −10,2. La ligne « familles et transmission » (3) est couverte par les fiches revenu familial et transmission",
       "note": "Seul chiffrage : celui du camp. Si l'on retenait la trajectoire du plan (70 % en 2030), la même lecture vaudrait pour les cotisations patronales : −12,0 et −8,4 (cotisations patronales nettes de l'impôt sur les sociétés récupéré). Certificats d'économies d'énergie : le plan met fin aux certificats ; la TVA perdue avec eux est comptée dans la fiche « Fin des certificats d'économies d'énergie » (−0,9, même lecture et même valeur que Zemmour) ; le reste de la ligne de 3 Md€ (2,1) est le relais de MaPrimeRénov', au chiffre du camp.",
       "inputs": [
        {
@@ -11491,10 +11598,22 @@
         "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
        },
        {
-        "label": "Impôt sur le revenu récupéré : ratio commun (fiches CSG)",
-        "value": "rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité (18,64 Md€ en 2021) coûterait ≈ 2,0 Md€ d'impôt sur le revenu par an (2,05 avant arrondi ; 1,8 Md€ pour les 16,4 Md€ des seuls salaires) : 10,7 % de la CSG devenue déductible",
+        "label": "Impôt sur le revenu récupéré : taux commun (iFRAP)",
+        "value": "rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité (18,64 Md€ en 2021) coûterait « probablement » 2,05 Md€ d'impôt sur le revenu par an (≈ 2,0 ; 1,8 Md€ pour les 16,4 Md€ des seuls salaires) : 11,0 % de la CSG devenue déductible",
         "source": "iFRAP (mai 2023)",
         "url": "https://www.ifrap.org/budget-et-fiscalite/pourquoi-il-faut-rendre-la-csg-totalement-deductible-de-lir-sur-les-revenus-dactivite"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : taux commun (Gouvernement)",
+        "value": "hausse de la CSG déductible de 2018 : « a été appliqué le taux marginal d'imposition moyen constaté pour les contribuables déclarant les revenus correspondants » : actifs privés 17,1 % (11 Md€ → 1,9 Md€), agents publics 17,9 %, indépendants 15,8 %, revenus de remplacement 20,9 % (barème de 2018, avant la baisse de la tranche à 14 % à 11 %)",
+        "source": "Assemblée nationale, rapport général n° 273, tome III, article 38 du PLF 2018 (tableau « Source : évaluation préalable »)",
+        "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L15B0273-tIII.html"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : taux commun (Institut Montaigne)",
+        "value": "« il faut tenir compte de la hausse de l'IR pour les revenus imposés au taux marginal de 11 % » sur les 6,8 points déductibles",
+        "source": "Institut Montaigne (présidentielle 2022, CSG de Zemmour)",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-le-taux-de-la-csg-sur-les-revenus-dactivite-de-92-a-25"
        }
       ]
      },
@@ -12114,9 +12233,15 @@
         "value": "fin des certificats (4 Md€, autofinancé) ; relais de MaPrimeRénov' et TVA : 3 Md€",
         "source": "Fiches presse du 12/10/2026, fiche 14",
         "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+       },
+       {
+        "label": "Coût des certificats sur le litre de carburant",
+        "value": "« En moyenne sur la 5ème période des CEE, les CEE ont représenté 7c€/TTC sur le litre de carburant » (2022-2025)",
+        "source": "Réponse du Gouvernement à la question écrite n° 14453 (JO du 30/06/2026, p. 6057)",
+        "url": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14453.pdf"
        }
       ],
-      "note": "Le plan compte l'« effet net » de la fin des certificats (4 Md€ rendus aux ménages) comme autofinancé, et la TVA perdue dans la ligne « relais de MaPrimeRénov' et TVA sur les certificats » (3 Md€) : cette TVA est comptée ici et retirée de la fiche « Baisses d'impôts des ménages » (−18 → −17,1, total inchangé). Projet « Électricité » (sortir l'électricité du périmètre des certificats) : compris dans cette fiche. Chiffres professionnels (Ufip : 15 à 17 c€ par litre de carburant en 2026, cités par franceinfo) non retenus : s'ils étaient confirmés par une source officielle, la perte de TVA serait plus forte."
+      "note": "Le plan compte l'« effet net » de la fin des certificats (4 Md€ rendus aux ménages) comme autofinancé, et la TVA perdue dans la ligne « relais de MaPrimeRénov' et TVA sur les certificats » (3 Md€) : cette TVA est comptée ici et retirée de la fiche « Baisses d'impôts des ménages » (−18 → −17,1, total inchangé). Projet « Électricité » (sortir l'électricité du périmètre des certificats) : compris dans cette fiche. Coût moyen officiel sur 2022-2025 : 7 c€ TTC par litre de carburant (réponse du Gouvernement publiée au JO le 30/06/2026) ; plus élevé en 2026 (obligation relevée), sans chiffre officiel par litre (15 à 17 c€ selon l'Ufip, chiffre professionnel). Simulateur : −7 c€ par litre, la même hypothèse chez Retailleau et Zemmour."
      },
      "quiz_text": "Supprimer les certificats d'économies d'énergie, dont le coût est ajouté aux factures d'énergie",
      "quiz_concret": "Les fournisseurs d'énergie n'ont plus à financer des travaux d'isolation ou de chauffage ; ce coût sort des factures.",
@@ -12204,13 +12329,13 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -16.7,
+    "sum": -16.9,
     "p10": -25.4,
-    "p90": -4.6,
-    "realsum": -20.1,
+    "p90": -4.4,
+    "realsum": -20.3,
     "missing": "capitalisation, audiovisuel public, aide au développement (« Coopération » : 3,5 Md€ en 2032 selon le camp, sans niveau publié), et des postes du plan non vérifiés : collectivités 10, budget base zéro 11,5, santé 4, formation professionnelle 6 Md€ (niveaux annuels en 2032), intérêts d'emprunt déductibles, baisse des droits de succession « au maximum du possible », donations de 150 000 € par parent aux moins de 30 ans pendant trois ans, cumul emploi-retraite exonéré, Fonds France Production (0,6 Md€/an), suramortissement IA et robotique, arrêt de subventions à des associations (3 Md€ en 2032, sans chiffrage indépendant), autres lignes immigration du plan, reprises de l'Observatoire de l'immigration et de la démographie et que les données officielles ne permettent pas de refaire sans ses hypothèses (niveaux 2032) : immigration familiale 1,5, étudiants au-delà des droits différenciés (preuve de ressources) 1,4, titres au coût complet 0,5, hébergement d'urgence fermé aux personnes sous OQTF 0,5, mineurs non accompagnés, soins des demandeurs d'asile et contentieux 0,8, statut du bailleur privé (amortissement du bâti à 4 % par an, option pour le prélèvement forfaitaire à 30 % ; coût statique non publié, le « gain net » de 1,9 Md€ annoncé repose sur des recettes induites), barème kilométrique réévalué (ampleur non publiée), agences et opérateurs au-delà de la valeur commune (contrats non renouvelés et départs volontaires 5, structures 4, concours recentrés 3,5 ; niveaux 2032, chiffres du camp)",
     "n": 21,
-    "cost": -47.8,
+    "cost": -47.9,
     "gain": 31.1,
     "confirm": []
    },
@@ -12286,6 +12411,10 @@
      "avant": 55,
      "seuil": 57,
      "rc": 6
+    },
+    "cee_carburant": {
+     "litre": 0.07,
+     "note": "Fin des certificats d'économies d'énergie : −7 c€ par litre de carburant, TTC (coût moyen 2022-2025 selon le Gouvernement ; plus élevé en 2026, sans chiffre officiel) ; gaz et électricité non chiffrés"
     }
    },
    "promise": "Promet 197 Md€ d'économies par an en 2032, 51 Md€ de baisses d'impôts, un âge minimal de 63 ans et un référendum sur l'immigration.",
@@ -12295,8 +12424,8 @@
    "id": "lisnard",
    "name": "David Lisnard",
    "party": "Nouvelle Énergie",
-   "poll": "6,3 %",
-   "summary": "Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations. Notre chiffrage : −42,3 Md€ par an en 2030, soit −1 369 € par ménage. Principal obstacle : l'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend.",
+   "poll": "6,7 %",
+   "summary": "Promet 80 Md€ d'économies la première année puis 200 Md€ par an, dont 60 % rendus en baisses de cotisations. Notre chiffrage : −42,5 Md€ par an en 2030, soit −1 375 € par ménage. Principal obstacle : l'identification des économies : une partie seulement l'est, et la baisse des cotisations en dépend.",
    "measures": [
     {
      "id": "depense",
@@ -12681,11 +12810,11 @@
      "obstacle": "Dépend entièrement de la réalité des économies",
      "claude": {
       "id": "impots",
-      "central": -4.3,
-      "low": -4.5,
-      "high": -4.3,
+      "central": -4.5,
+      "low": -4.7,
+      "high": -4.5,
       "method": "ascendant",
-      "formula": "C3S : 5,36 Md€ (prévision 2026, CCSS, même base que Le Pen, Zemmour et Retailleau), moins l'impôt sur les sociétés récupéré (20 %, règle commune) → −4,3 ; borne basse : prévision 2027 (5,47), impôt récupéré à 17,5 % → −4,5 ; borne haute : 2025 (5,34) à 20 % → −4,3. CVAE : 0 (déjà supprimée par la loi)",
+      "formula": "C3S : 5,36 Md€ (prévision 2026, CCSS, même base que Le Pen, Zemmour et Retailleau), moins l'impôt sur les sociétés récupéré au taux commun ajusté au taux du programme (règle commune : 20 % pour un taux normal de 25 % ; le candidat ramène ce taux à 20 %, fiche « IS ramené à 20 % », comptée : 20 % × 20/25 = 16 %) → −4,5 ; borne basse : prévision 2027 (5,47), impôt récupéré à 14 % (17,5 % × 20/25) → −4,7 ; borne haute : 2025 (5,34) à 16 % → −4,5. CVAE : 0 (déjà supprimée par la loi)",
       "inputs": [
        {
         "label": "Rendement de la C3S (prévision 2026)",
@@ -12718,7 +12847,7 @@
         "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
        }
       ],
-      "note": "Les 40 Md€ annoncés ne sont identifiés qu'à hauteur de C3S et CVAE. Coût net de l'impôt sur les sociétés récupéré : ces prélèvements sont déductibles du bénéfice imposable, et tous les chiffrages publiés trouvés comptent ce retour (Gouvernement, Cour des comptes, Institut Montaigne, Conseil d'analyse économique) ; règle commune, la même dans les deux sens pour tout prélèvement déductible : 20 % (taux retenu par le Gouvernement, l'Institut Montaigne et le CAE ; 17,5 %, taux de la Cour des comptes, en borne basse), en entier en 2030, comme l'impôt sur le revenu récupéré des fiches CSG."
+      "note": "Les 40 Md€ annoncés ne sont identifiés qu'à hauteur de C3S et CVAE. Coût net de l'impôt sur les sociétés récupéré : ces prélèvements sont déductibles du bénéfice imposable, et tous les chiffrages publiés trouvés comptent ce retour (Gouvernement, Cour des comptes, Institut Montaigne, Conseil d'analyse économique) ; règle commune, la même dans les deux sens pour tout prélèvement déductible : 20 % (taux retenu par le Gouvernement, l'Institut Montaigne et le CAE ; 17,5 %, taux de la Cour des comptes, en borne basse), en entier en 2030, comme l'impôt sur le revenu récupéré des fiches CSG. Taux ajusté : le programme baisse aussi le taux normal de l'impôt sur les sociétés de 25 % à 20 %, ce qui réduit d'autant l'impôt récupéré quand un prélèvement déductible disparaît (règle commune)."
      },
      "quiz_text": "Supprimer des impôts sur la production des entreprises, dont la taxe sur le chiffre d'affaires",
      "quiz_concret": "Les entreprises paient moins d'impôts.",
@@ -13396,13 +13525,13 @@
      "id": "aides5",
      "theme": "immigration",
      "title": "Aides après 5 ans de résidence",
-     "proposal": "Objectif de 80 000 entrées légales par an, visas étudiants compris (27/10/2026 ; programme : titres de séjour divisés par huit) ; prestations non contributives réservées aux étrangers résidant régulièrement en France depuis au moins cinq ans ; fin de l'automaticité du droit du sol, quotas de main-d'œuvre qualifiée, délit de séjour irrégulier rétabli, expulsion systématique des étrangers condamnés pour délits graves et des fichés S étrangers.",
+     "proposal": "Objectif de 80 000 entrées légales par an, visas étudiants compris (27/10/2026 ; programme : titres de séjour divisés par huit) ; prestations non contributives réservées aux étrangers résidant régulièrement en France depuis au moins cinq ans ; fin de l'automaticité du droit du sol, quotas de main-d'œuvre qualifiée, délit de séjour irrégulier rétabli, expulsion systématique des étrangers condamnés pour délits graves et des fichés S étrangers ; rétention administrative portée à 24 mois et nouveaux centres de rétention.",
      "claimed": "8 Md€/an (discours de La Gagne, 29/08/2026)",
      "claimed_md": null,
      "estimates": [],
      "consensus": "isolé",
      "verdict": "bloque",
-     "obstacle": "Chemin : révision de la Constitution (égalité devant les aides, censurée en 2024) et renégociation de la CEDH et du droit de l'UE.",
+     "obstacle": "Chemin : révision de la Constitution (égalité devant les aides, censurée en 2024) et renégociation de la CEDH et du droit de l'UE. Rétention de 24 mois : permise par le règlement européen « retour » de 2026 (règlement (UE) 2026/2280), mais au-delà de ce qu'admet le Conseil constitutionnel (prolongation à 18 mois censurée en 2011, 6 à 7 mois censurés en 2025, article 66 de la Constitution) : révision de la Constitution.",
      "claude": {
       "id": "aides5",
       "central": 2.3,
@@ -13452,6 +13581,30 @@
         "value": "« un objectif de 80 000 entrées par an, visas étudiants compris »",
         "source": "Nouvelle Énergie, compte rendu d'« Objectif Élysée 2027 » (28/10/2026)",
         "url": "https://www.unenouvelleenergie.fr/david-lisnard-sur-cnews-et-europe-1-je-ne-suis-pas-candidat-pour-un-poste-je-viens-pour-redresser-le-pays/"
+       },
+       {
+        "label": "Rétention administrative : proposition du candidat",
+        "value": "« Construire plus de centres de rétention administrative et allonger la durée de la rétention administrative à 24 mois »",
+        "source": "Nouvelle Énergie, programme « Immigration »",
+        "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
+       },
+       {
+        "label": "Règlement européen « retour »",
+        "value": "« La détention [...] pourra durer jusqu'à 24 mois. Une prolongation pouvant aller jusqu'à six mois au total sera possible » ; adopté par le Conseil le 1/10/2026, publié au JO de l'UE le 15/10/2026 (règlement (UE) 2026/2280)",
+        "source": "Parlement européen, Observatoire législatif, procédure 2025/0059(COD)",
+        "url": "https://oeil.europarl.europa.eu/oeil/fr/procedure-file?reference=2025/0059(COD)"
+       },
+       {
+        "label": "Rétention de 18 mois censurée (2011)",
+        "value": "« ces dispositions apportent à la liberté individuelle une atteinte contraire à l'article 66 de la Constitution » (cons. 76)",
+        "source": "Conseil constitutionnel, décision n° 2011-631 DC",
+        "url": "https://www.conseil-constitutionnel.fr/decision/2011/2011631DC.htm"
+       },
+       {
+        "label": "Rétention de 6 à 7 mois censurée (2025)",
+        "value": "« en permettant de porter jusqu'à six mois, voire sept mois, la durée de la rétention administrative [...] le législateur n'a pas assuré une conciliation équilibrée » (§ 13)",
+        "source": "Conseil constitutionnel, décision n° 2025-895 DC du 7/08/2025",
+        "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025895DC.htm"
        }
       ],
       "note": "Montants des prestations non actualisés (allocataires 2025 : 4,7 M pour les allocations familiales, 5,6 M pour les aides au logement, en baisse ; montants unitaires revalorisés) ; part des titres de moins de 5 ans de 2020 (40 %) non actualisée, alors que les premiers titres ont atteint 384 230 en 2025 (+11,2 %). Verdict « Exige une révision » inchangé."
@@ -13757,20 +13910,38 @@
      "obstacle": "Par la loi de finances ; financement non précisé dans la mesure.",
      "claude": {
       "id": "csg_deductible",
-      "central": -2.4,
-      "low": -3.5,
-      "high": -2.0,
+      "central": -3.8,
+      "low": -6.0,
+      "high": -3.2,
       "method": "ascendant",
-      "formula": "iFRAP (2023) : rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité ≈ 2,0 Md€/an (millésime 2021) ; CRDS (0,5 point) ajoutée au prorata : 2,0 × 2,9/2,4 ≈ −2,4 Md€ ; borne haute −2,0 (CSG seule) ; borne basse −3,5 (hypothèse : extension aux pensions et autres revenus de remplacement)",
+      "formula": "Base 2025 : CSG sur les revenus d'activité 110,4 Md€ pour 9,2 points, soit 12,0 Md€ par point (DSS, chiffre officiel le plus récent, même base que la fiche « CSG des actifs » et la fiche CSG de Zemmour) ; 2,4 points de CSG non déductible + 0,5 point de CRDS = 2,9 points × 12,0 = 34,8 Md€ rendus déductibles ; impôt sur le revenu perdu au taux commun de 11,0 % (règle commune des prélèvements déductibles du revenu imposable, médiane des chiffrages publiés : iFRAP 2023, Institut Montaigne 2022, évaluation préalable du PLF 2018) → −3,8 Md€ ; borne basse −6,0 (taux de 17,1 %, évaluation préalable du PLF 2018 pour les salariés du privé, barème de 2018) ; borne haute −3,2 (CSG seule, 2,4 points, à 11,0 %). Le chiffrage de l'iFRAP (2,05 Md€ pour 18,64 Md€ en 2021, salaires déclarés à l'impôt) donne le taux, pas la base",
       "inputs": [
        {
-        "label": "Déductibilité des 2,4 points de CSG (revenus d'activité)",
-        "value": "≈ 2,0 Md€/an (2021)",
+        "label": "CSG sur les revenus d'activité 2025",
+        "value": "110,4 Md€ (9,2 points)",
+        "source": "DSS, PLFSS 2025, annexe 3 (même base que la fiche CSG de Zemmour)",
+        "url": "https://www.securite-sociale.fr/la-secu-en-detail/loi-de-financement/annexes"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : taux commun (iFRAP)",
+        "value": "rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité (18,64 Md€ en 2021) coûterait « probablement » 2,05 Md€ d'impôt sur le revenu par an (≈ 2,0 ; 1,8 Md€ pour les 16,4 Md€ des seuls salaires) : 11,0 % de la CSG devenue déductible",
         "source": "iFRAP (mai 2023)",
         "url": "https://www.ifrap.org/budget-et-fiscalite/pourquoi-il-faut-rendre-la-csg-totalement-deductible-de-lir-sur-les-revenus-dactivite"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : taux commun (Gouvernement)",
+        "value": "hausse de la CSG déductible de 2018 : « a été appliqué le taux marginal d'imposition moyen constaté pour les contribuables déclarant les revenus correspondants » : actifs privés 17,1 % (11 Md€ → 1,9 Md€), agents publics 17,9 %, indépendants 15,8 %, revenus de remplacement 20,9 % (barème de 2018, avant la baisse de la tranche à 14 % à 11 %)",
+        "source": "Assemblée nationale, rapport général n° 273, tome III, article 38 du PLF 2018 (tableau « Source : évaluation préalable »)",
+        "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L15B0273-tIII.html"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : taux commun (Institut Montaigne)",
+        "value": "« il faut tenir compte de la hausse de l'IR pour les revenus imposés au taux marginal de 11 % » sur les 6,8 points déductibles",
+        "source": "Institut Montaigne (présidentielle 2022, CSG de Zemmour)",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-le-taux-de-la-csg-sur-les-revenus-dactivite-de-92-a-25"
        }
       ],
-      "note": "Base 2021 non revalorisée ; revenus de remplacement non chiffrés au central. Verdict proposé : faisable (loi de finances)."
+      "note": "Revenus de remplacement (pensions, allocations) non chiffrés : base non relevée. Une loi de finances suffit."
      },
      "quiz_text": "Ne plus payer d'impôt sur la part de CSG prélevée sur votre salaire",
      "quiz_concret": "La CSG et la CRDS sortent du revenu imposable : l'impôt baisse un peu pour les foyers imposables.",
@@ -13886,11 +14057,11 @@
      "obstacle": "Compensation de la Sécurité sociale ; financement par des économies sans chiffrage indépendant.",
      "claude": {
       "id": "csg_actifs",
-      "central": -29.2,
+      "central": -27.8,
       "low": -31.6,
-      "high": -26.2,
+      "high": -25.9,
       "method": "ascendant",
-      "formula": "2,6 points × 12,0 Md€ par point (CSG sur les revenus d'activité 2025 : 110,4 Md€ pour 9,2 points, DSS, même base que la fiche CSG de Zemmour) = 31,2 Md€ ; avec la déductibilité de toute la CSG et de la CRDS (fiche « CSG et CRDS déductibles », −2,4, comptée à part), la part déductible passe de 6,8 à 7,1 points : impôt sur le revenu −0,4 (ratio de 10,7 %, comme Zemmour) ; total des deux mesures −31,6, dont −2,4 déjà comptés → −29,2 ; borne basse −31,6 (baisse prise sur la part déductible, sans déductibilité étendue) ; borne haute −26,2 (impôt récupéré au ratio Montaigne 2022 de la mesure CSG de Zemmour, 16 %)",
+      "formula": "2,6 points × 12,0 Md€ par point (CSG sur les revenus d'activité 2025 : 110,4 Md€ pour 9,2 points, DSS, même base que la fiche CSG de Zemmour et la fiche « CSG et CRDS déductibles ») = 31,2 Md€ ; avec la déductibilité de toute la CSG et de la CRDS (fiche « CSG et CRDS déductibles », −3,8, comptée à part), la part déductible passe de 6,8 à 7,1 points : impôt sur le revenu −0,4 (0,3 point × 12,0 × 11,0 %, taux commun) ; total des deux mesures −31,6, dont −3,8 comptés dans l'autre fiche → −27,8 (soit −31,2 + 2,6 × 12,0 × 11,0 % : la baisse est prise sur la part déductible) ; borne basse −31,6 (inchangée : baisse sans impôt récupéré, déductibilité étendue comptée ici) ; borne haute −25,9 (impôt récupéré au taux de 17,1 %, évaluation préalable du PLF 2018 : −31,2 + 2,6 × 12,0 × 17,1 %)",
       "inputs": [
        {
         "label": "Taux cible",
@@ -13905,10 +14076,22 @@
         "url": "https://www.securite-sociale.fr/la-secu-en-detail/loi-de-financement/annexes"
        },
        {
-        "label": "CSG non déductible des revenus d'activité",
-        "value": "18,64 Md€ pour 2,4 points (2021) ; déductibilité ≈ 2,0 Md€ d'impôt",
-        "source": "iFRAP (2023)",
+        "label": "Impôt sur le revenu récupéré : taux commun (iFRAP)",
+        "value": "rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité (18,64 Md€ en 2021) coûterait « probablement » 2,05 Md€ d'impôt sur le revenu par an (≈ 2,0 ; 1,8 Md€ pour les 16,4 Md€ des seuls salaires) : 11,0 % de la CSG devenue déductible",
+        "source": "iFRAP (mai 2023)",
         "url": "https://www.ifrap.org/budget-et-fiscalite/pourquoi-il-faut-rendre-la-csg-totalement-deductible-de-lir-sur-les-revenus-dactivite"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : taux commun (Gouvernement)",
+        "value": "hausse de la CSG déductible de 2018 : « a été appliqué le taux marginal d'imposition moyen constaté pour les contribuables déclarant les revenus correspondants » : actifs privés 17,1 % (11 Md€ → 1,9 Md€), agents publics 17,9 %, indépendants 15,8 %, revenus de remplacement 20,9 % (barème de 2018, avant la baisse de la tranche à 14 % à 11 %)",
+        "source": "Assemblée nationale, rapport général n° 273, tome III, article 38 du PLF 2018 (tableau « Source : évaluation préalable »)",
+        "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L15B0273-tIII.html"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : taux commun (Institut Montaigne)",
+        "value": "« il faut tenir compte de la hausse de l'IR pour les revenus imposés au taux marginal de 11 % » sur les 6,8 points déductibles",
+        "source": "Institut Montaigne (présidentielle 2022, CSG de Zemmour)",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-le-taux-de-la-csg-sur-les-revenus-dactivite-de-92-a-25"
        }
       ],
       "note": "Taux confirmé par le candidat le 27/10/2026 (Europe 1), après la tribune du 16/04 et l'entretien du 29/08. Baisse d'impôt sans calendrier : comptée entière en 2030 (règle commune), sans déduire le financement annoncé, comme la baisse de cotisations de Retailleau. Base 2025 non projetée en 2030."
@@ -14340,13 +14523,13 @@
     "high_md": null
    },
    "claude_total": {
-    "sum": -42.3,
-    "p10": -50.8,
-    "p90": -34.7,
-    "realsum": -45.8,
+    "sum": -42.5,
+    "p10": -52.2,
+    "p90": -35.8,
+    "realsum": -46.0,
     "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, TVA unique à 25 %, défense (hausse du budget des armées, sans montant ni date), revenus fonciers au régime du prélèvement forfaitaire unique (taux et niches supprimées en contrepartie non publiés), plan de remise à niveau de la police sur dix ans et budget de la justice porté à la moyenne européenne (montants non publiés), nouveaux centres de rétention (places non publiées), impôt résidentiel universel payé par tous les habitants (taux, assiette et baisses en contrepartie non publiés), réforme de l'assurance chômage pour réduire les dépenses (non détaillée), budgets revus « à partir de zéro » (montant non publié), à confirmer en 2026 : charges supprimées pour les employeurs à domicile au niveau du SMIC et charges patronales négatives pour l'embauche d'allocataires du RSA depuis plus de deux ans (page de programme sans date de rédaction)",
     "n": 15,
-    "cost": -64.6,
+    "cost": -64.8,
     "gain": 22.3,
     "confirm": []
    },
@@ -14414,8 +14597,8 @@
    "id": "zemmour",
    "name": "Éric Zemmour",
    "party": "Reconquête",
-   "poll": "3,9 %",
-   "summary": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH. Notre chiffrage : +19,6 Md€ par an en 2030, soit +634 € par ménage. Principal obstacle : plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH.",
+   "poll": "4,0 %",
+   "summary": "Promet l'expulsion des étrangers restés un an au chômage, des aides réservées aux Français, 800 000 postes publics en moins et la sortie de la CEDH. Notre chiffrage : +19,2 Md€ par an en 2030, soit +621 € par ménage. Principal obstacle : plusieurs mesures exigent une révision de la Constitution et la sortie de la CEDH.",
    "measures": [
     {
      "id": "remigration",
@@ -14893,11 +15076,11 @@
      "verdict": "tres_difficile",
      "obstacle": "Égalité devant l'impôt : dispositifs proches censurés (2000, 2014, 2015) ; compensation de la Sécurité sociale.",
      "claude": {
-      "central": -101.6,
+      "central": -101.4,
       "low": -110.4,
-      "high": -80.6,
+      "high": -76.4,
       "method": "ascendant",
-      "formula": "CSG sur les revenus d'activité 2025, tous affectataires : 110,4 Md€ (DSS, PLFSS 2025, annexe 3) ; les 6,8 points déductibles (110,4 × 6,8/9,2 = 81,6 Md€) redeviennent imposables : impôt sur le revenu récupéré au même ratio que la CSG déductible de Lisnard (iFRAP 2023 : 2,0 Md€ pour 18,64 Md€, soit 10,7 %) ≈ 8,8 Md€ → −101,6 Md€ ; borne basse −110,4 (sans retour d'impôt sur le revenu) ; borne haute −80,6 (périmètre du camp, 87,5 Md€ hors parts de la Cades et de l'Unédic, même retour d'impôt)",
+      "formula": "CSG sur les revenus d'activité 2025, tous affectataires : 110,4 Md€ (DSS, PLFSS 2025, annexe 3) ; les 6,8 points déductibles (110,4 × 6,8/9,2 = 81,6 Md€) redeviennent imposables : impôt sur le revenu récupéré au taux commun de 11,0 % (règle commune des prélèvements déductibles du revenu imposable, médiane des chiffrages publiés : iFRAP 2023, 11,0 % ; Institut Montaigne 2022, 11 % ; évaluation préalable du PLF 2018, 17,1 %) ≈ 9,0 Md€ → −101,4 Md€ ; borne basse −110,4 (sans retour d'impôt sur le revenu) ; borne haute −76,4 (périmètre du camp, 87,5 Md€ hors parts de la Cades et de l'Unédic, impôt récupéré au taux de 17,1 % : 87,5 × 6,8/9,2 × 17,1 % = 11,1)",
       "inputs": [
        {
         "label": "Coût brut",
@@ -14912,10 +15095,22 @@
         "url": "https://www.capital.fr/economie-politique/130-milliards-d-economies-sarah-knafo-propose-une-reforme-choc-de-la-csg-1529910"
        },
        {
-        "label": "Impôt sur le revenu récupéré : ratio commun (fiches CSG)",
-        "value": "rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité (18,64 Md€ en 2021) coûterait ≈ 2,0 Md€ d'impôt sur le revenu par an (2,05 avant arrondi ; 1,8 Md€ pour les 16,4 Md€ des seuls salaires) : 10,7 % de la CSG devenue déductible",
+        "label": "Impôt sur le revenu récupéré : taux commun (iFRAP)",
+        "value": "rendre déductibles les 2,4 points de CSG non déductibles des revenus d'activité (18,64 Md€ en 2021) coûterait « probablement » 2,05 Md€ d'impôt sur le revenu par an (≈ 2,0 ; 1,8 Md€ pour les 16,4 Md€ des seuls salaires) : 11,0 % de la CSG devenue déductible",
         "source": "iFRAP (mai 2023)",
         "url": "https://www.ifrap.org/budget-et-fiscalite/pourquoi-il-faut-rendre-la-csg-totalement-deductible-de-lir-sur-les-revenus-dactivite"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : taux commun (Gouvernement)",
+        "value": "hausse de la CSG déductible de 2018 : « a été appliqué le taux marginal d'imposition moyen constaté pour les contribuables déclarant les revenus correspondants » : actifs privés 17,1 % (11 Md€ → 1,9 Md€), agents publics 17,9 %, indépendants 15,8 %, revenus de remplacement 20,9 % (barème de 2018, avant la baisse de la tranche à 14 % à 11 %)",
+        "source": "Assemblée nationale, rapport général n° 273, tome III, article 38 du PLF 2018 (tableau « Source : évaluation préalable »)",
+        "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L15B0273-tIII.html"
+       },
+       {
+        "label": "Impôt sur le revenu récupéré : taux commun (Institut Montaigne)",
+        "value": "« il faut tenir compte de la hausse de l'IR pour les revenus imposés au taux marginal de 11 % » sur les 6,8 points déductibles",
+        "source": "Institut Montaigne (présidentielle 2022, CSG de Zemmour)",
+        "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour/baisser-le-taux-de-la-csg-sur-les-revenus-dactivite-de-92-a-25"
        }
       ],
       "note": "Paramètres 2022 reconduits"
@@ -15284,11 +15479,11 @@
      "obstacle": "Par la loi de finances ; financement non précisé dans la mesure.",
      "claude": {
       "id": "accise",
-      "central": -8.2,
-      "low": -10.95,
-      "high": -7.4,
+      "central": -8.6,
+      "low": -11.2,
+      "high": -7.6,
       "method": "ascendant",
-      "formula": "Même base que la TICPE de Le Pen : volumes 2025 (gazole 32 Mm³, dont 7,6 Mm³ remboursés aux poids lourds et 0,8 Mm³ aux autocars ; essences 15,6 Mm³) × tarifs 2026 (gazole 60,75 €/hl ; SP95-E5 69,02 et E10 67,02, moyenne 68,02). Un tiers : gazole non remboursé 23,6 Mm³ × 20,25 €/hl = 4,78 ; poids lourds : le tarif national (40,50) passe sous leur tarif net (45,19), perte 4,69 €/hl × 7,57 Mm³ = 0,36 ; autocars : tarif net (39,19) inchangé, 0 ; essences 15,6 Mm³ × 22,67 €/hl = 3,54 ; total 8,67 aux tarifs normaux. Calage sur les recettes 2025 publiées (CPO : 17,3 + 9,9 = 27,2 Md€, contre 28,7 aux tarifs normaux pour les mêmes volumes : tarifs réduits E85, E10, B100, Corse, taxis) : × 0,948 = 8,2 ; + TVA assise sur cette part d'accise, à mi-chemin entre 0 (entreprises) et 20 % : 0,8 ; moins l'impôt sur les sociétés récupéré sur la part payée par les entreprises (la moitié, comme pour la TVA ; 20 %, règle commune) : 8,2 × 50 % × 20 % = 0,8 → ≈ −8,2. Borne haute : accise seule, nette de l'impôt sur les sociétés (−7,4) ; borne basse : chiffre du camp (−12), net au taux de 17,5 % sur la moitié (−10,95)",
+      "formula": "Même base que la TICPE de Le Pen : volumes 2025 (gazole 32 Mm³, dont 7,6 Mm³ remboursés aux poids lourds et 0,8 Mm³ aux autocars ; essences 15,6 Mm³) × tarifs 2026 (gazole 60,75 €/hl ; SP95-E5 69,02 et E10 67,02, moyenne 68,02). Un tiers : gazole non remboursé 23,6 Mm³ × 20,25 €/hl = 4,78 ; poids lourds : le tarif national (40,50) passe sous leur tarif net (45,19), perte 4,69 €/hl × 7,57 Mm³ = 0,36 ; autocars : tarif net (39,19) inchangé, 0 ; essences 15,6 Mm³ × 22,67 €/hl = 3,54 ; total 8,67 aux tarifs normaux. Calage sur les recettes 2025 publiées (CPO : 17,3 + 9,9 = 27,2 Md€, contre 28,7 aux tarifs normaux pour les mêmes volumes : tarifs réduits E85, E10, B100, Corse, taxis) : × 0,948 = 8,2 ; + TVA assise sur cette part d'accise, sur la part qui n'est pas payée par les entreprises (63 %), à 20 % : 8,2 × 63 % × 20 % = 1,0 ; moins l'impôt sur les sociétés récupéré sur la part payée par les entreprises (37 %, SDES ; 20 %, règle commune) : 8,2 × 37 % × 20 % = 0,6 → ≈ −8,6. Borne haute : accise seule, nette de l'impôt sur les sociétés (−7,6) ; borne basse : chiffre du camp (−12), net au taux de 17,5 % sur 37 % (−11,2)",
       "inputs": [
        {
         "label": "Accise 2025 sur le gazole et l'essence",
@@ -15331,9 +15526,15 @@
         "value": "effet brut −5 361 M€ ; retour d'impôt sur les sociétés +938 M€ (taux effectif avant crédits d'impôt de 17,5 %) ; effet net −4 423 M€",
         "source": "Conseil des prélèvements obligatoires (Cour des comptes), « Tracer un cadre fiscal et social pluriannuel pour l'industrie française », septembre 2025, p. 134-135, tableau 15",
         "url": "https://www.ccomptes.fr/sites/default/files/2025-09/20250922-Tracer-cadre-fiscal-et-social-pluriannuel%20pour-industrie-francaise.pdf"
+       },
+       {
+        "label": "Taxes sur l'énergie : qui les paie (2023)",
+        "value": "« Sur les 37 Md€ de recettes fiscales environnementales dans le domaine de l'énergie, les ménages sont de loin les principaux contributeurs (59 %) contre 15 % pour les activités des services, 10 % pour la branche des transports, 5 % pour le commerce, 4 % pour l'industrie manufacturière et la construction et 3 % pour les autres branches » (branches d'activité : 37 %) ; « Cette répartition est stable sur la période 2018-2023 » ; pas de répartition propre aux carburants",
+        "source": "SDES (ministère de la Transition écologique), « La fiscalité environnementale en France : état des connaissances en 2025 » (1/02/2026)",
+        "url": "https://www.statistiques.developpement-durable.gouv.fr/la-fiscalite-environnementale-en-france-etat-des-connaissances-en-2025"
        }
       ],
-      "note": "Aucun chiffrage indépendant ; base 2025 non projetée en 2030 ; le chiffre de 24,8 Md€ (attribué à la Cour des comptes sans référence) est retiré (baisse de la consommation de carburants non comptée). Fin des certificats d'économies d'énergie, proposée en même temps (pétition de Reconquête) : fiche à part (−0,9). Verdict proposé : faisable (loi de finances ; les taux restent au-dessus des minima de la directive 2003/96). Impôt sur les sociétés récupéré (règle commune des prélèvements déductibles) : l'accise payée par les entreprises est déductible de leur bénéfice ; il est compté sur la moitié de l'accise, la même hypothèse « à mi-chemin » que pour la TVA (part des entreprises non publiée par une source officielle : registre), à 20 % (17,5 % en borne basse), de la même façon chez Le Pen et Zemmour."
+      "note": "Aucun chiffrage indépendant ; base 2025 non projetée en 2030 ; le chiffre de 24,8 Md€ (attribué à la Cour des comptes sans référence) est retiré (baisse de la consommation de carburants non comptée). Fin des certificats d'économies d'énergie, proposée en même temps (pétition de Reconquête) : fiche à part (−0,9). Verdict proposé : faisable (loi de finances ; les taux restent au-dessus des minima de la directive 2003/96). Impôt sur les sociétés récupéré et TVA (règle commune des prélèvements déductibles) : l'accise payée par les entreprises est déductible de leur bénéfice, et la TVA qui s'y ajoute est récupérée par elles ; leur part est prise à 37 %, part des taxes sur l'énergie payée par les branches d'activité en 2023 (SDES, répartition stable depuis 2018), aucune part propre aux carburants n'étant publiée ; la même chez Le Pen et Zemmour, pour la TVA comme pour l'impôt sur les sociétés."
      },
      "quiz_text": "Baisser d'un tiers la taxe sur les carburants",
      "quiz_concret": "Le litre d'essence ou de gazole coûte environ 25 centimes de moins.",
@@ -16236,9 +16437,15 @@
         "value": "1 050 TWh cumac par an (décret du 30/10/2025)",
         "source": "Conseil des prélèvements obligatoires (juin 2026), encadré 7",
         "url": "https://www.ccomptes.fr/sites/default/files/2026-06/20260603-Quel-avenir-pour-la-fiscalite-de-l-energie.pdf"
+       },
+       {
+        "label": "Coût des certificats sur le litre de carburant",
+        "value": "« En moyenne sur la 5ème période des CEE, les CEE ont représenté 7c€/TTC sur le litre de carburant » (2022-2025)",
+        "source": "Réponse du Gouvernement à la question écrite n° 14453 (JO du 30/06/2026, p. 6057)",
+        "url": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14453.pdf"
        }
       ],
-      "note": "Proposée avec la baisse de l'accise sur les carburants (fiche à part). Chiffres professionnels (Ufip : 15 à 17 c€ par litre de carburant en 2026, cités par franceinfo) non retenus : s'ils étaient confirmés par une source officielle, la perte de TVA serait plus forte."
+      "note": "Proposée avec la baisse de l'accise sur les carburants (fiche à part). Coût moyen officiel sur 2022-2025 : 7 c€ TTC par litre de carburant (réponse du Gouvernement publiée au JO le 30/06/2026) ; plus élevé en 2026 (obligation relevée), sans chiffre officiel par litre (15 à 17 c€ selon l'Ufip, chiffre professionnel). Simulateur : −7 c€ par litre, la même hypothèse chez Retailleau et Zemmour."
      },
      "quiz_text": "Supprimer les certificats d'économies d'énergie, dont le coût est ajouté aux factures d'énergie",
      "quiz_concret": "Les fournisseurs d'énergie n'ont plus à financer des travaux d'isolation ou de chauffage ; ce coût sort des factures.",
@@ -16359,16 +16566,20 @@
      "essence": 0.2301,
      "gazole": 0.2025,
      "note": "Taxe sur les carburants baissée d'un tiers : −23,0 c€ par litre d'essence et −20,3 c€ par litre de gazole, hors TVA (tarifs 2026 des douanes)"
+    },
+    "cee_carburant": {
+     "litre": 0.07,
+     "note": "Fin des certificats d'économies d'énergie : −7 c€ par litre de carburant, TTC (coût moyen 2022-2025 selon le Gouvernement ; plus élevé en 2026, sans chiffre officiel) ; gaz et électricité non chiffrés"
     }
    },
    "claude_total": {
-    "sum": 19.6,
-    "p10": 9.7,
-    "p90": 31.8,
-    "realsum": 12.3,
+    "sum": 19.2,
+    "p10": 9.4,
+    "p90": 31.5,
+    "realsum": 11.9,
     "missing": "ministère de la Remigration, sortie de la CEDH, capitalisation, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, fin de la gratuité des études pour les étudiants étrangers 4 (montant des droits non publié), audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS et autres agences 2), lignes immigration de moins de 1 Md€ : visas plus chers 0,7, hébergement d'urgence fermé aux étrangers en situation irrégulière 0,7, aide juridictionnelle réservée aux Français 0,1",
     "n": 12,
-    "cost": -12.3,
+    "cost": -12.7,
     "gain": 31.9,
     "confirm": [
      "Fin de la CSG sur les salaires",
@@ -16384,17 +16595,17 @@
  ],
  "method": [
   "<b>Notre chiffrage.</b> 148 mesures analysées, dont 118 chiffrées avec la même règle pour tous : effet sur le solde public en Md€ par an, en année pleine à l'horizon 2030, en euros de 2026. Quand plusieurs chiffrages publiés existent, on retient leur médiane ajustée aux paramètres de 2027 ; sinon, un calcul ascendant à partir de données publiques. Chaque calcul et chaque donnée d'entrée sont affichés dans la fiche.",
-  "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; un prélèvement payé par les entreprises et déductible de leur bénéfice imposable (impôts de production comme la C3S ou la CFE, cotisations patronales, forfait social, part d'une accise payée par les entreprises) est compté net de l'impôt sur les sociétés qu'il fait varier, dans les deux sens (une baisse fait remonter cet impôt, une hausse le fait baisser) : 20 % de l'écart (taux retenu par le Gouvernement, l'Institut Montaigne et le Conseil d'analyse économique ; 17,5 %, taux de la Cour des comptes, en borne), en entier en 2030, sauf si le chiffrage retenu est déjà net ; pas pour l'impôt sur les sociétés lui-même ni pour un impôt que les entreprises ne déduisent pas (la TVA, qu'elles récupèrent) ; de même, un prélèvement payé par les ménages et déductible de leur revenu imposable (CSG déductible sur les revenus d'activité, de remplacement ou du capital, cotisations salariales et des indépendants) est compté net de l'impôt sur le revenu qu'il fait varier, dans les deux sens : 10,7 % de la part déductible (ratio calculé par l'iFRAP en 2023 sur les revenus d'activité ; une évaluation du Gouvernement de 2017, sur une assiette plus large, donne environ 17 % : point en cours d'examen), en entier en 2030, sauf si le chiffrage retenu est déjà net ; quand la mesure ne dit pas quelle part de la CSG baisse, la part déductible est celle du taux actuel (6,8 points sur 9,2) ; rien pour la part non déductible de la CSG ni pour la CRDS ; la suppression ou la fusion de la plupart des agences et opérateurs de l'État, missions reprises, vaut 0,26 Md€ chez tous les candidats qui la proposent (part hors personnel de l'économie chiffrée par la commission d'enquête du Sénat en 2025 sur les fonctions support des opérateurs, 0,54 Md€ : la part de personnel est déjà dans les postes supprimés), le montant annoncé par un camp n'étant pas compté au-delà ; le prix de référence des carburants et du fioul est la moyenne des 52 dernières semaines publiées par le ministère (gazole 1,98 €/l, SP95 1,94 €/l au 23/10/2026), et non le dernier relevé hebdomadaire, dans les fiches comme dans le simulateur ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». La lutte contre la fraude est comptée avec les leviers chiffrés par le Conseil d'analyse économique qui correspondent au champ de chaque mesure, dans la limite du chiffre du camp. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie ; la TVA perçue sur cette part des factures est en revanche une recette publique, perdue si elle est supprimée) ; un transfert entre administrations (de l'État vers les communes, par exemple) sans dépense définie par la mesure est neutre pour le solde public : compté 0, avec en borne basse le montant si le bénéficiaire le dépense en entier ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
+  "<b>Règles communes.</b> Une même mesure vaut le même montant chez tous les candidats : retour à 62 ans 11,8 Md€ en 2030 (rendement de la réforme 2023, moins la part déjà perdue par la suspension) ; salaires des enseignants 3,9 Md€ par tranche de +10 % (chiffrage de l'Institut Montaigne remis aux salaires de 2024) ; AME remplacée par une aide d'urgence +0,9 Md€ (même méthode, appliquée à la dépense réelle de 2025) ; un recul de l'âge de départ au-delà de 64 ans, au rythme prévu par la réforme de 2023, n'a pas d'effet avant 2032 : seule compte en 2030 la fin de la suspension de cette réforme (+1,8 Md€) ; taxe Zucman +5 Md€ ; poste public supprimé 61,6 k€, dont la moitié rendue aux agents, avec 70 % du plan réalisé en 2030 ; chaque mesure est comptée à son état prévu en 2030 (montée en charge comprise) ; un montant cumulé sur le quinquennat est converti en flux de 2030 (3,5/15 du cumul, soit 70 % du rythme final) ; la CVAE, déjà supprimée par la loi d'ici 2030, n'est comptée chez personne ; un prélèvement payé par les entreprises et déductible de leur bénéfice imposable (impôts de production comme la C3S ou la CFE, cotisations patronales, forfait social, part d'une accise payée par les entreprises) est compté net de l'impôt sur les sociétés qu'il fait varier, dans les deux sens (une baisse fait remonter cet impôt, une hausse le fait baisser) : 20 % de l'écart (taux retenu par le Gouvernement, l'Institut Montaigne et le Conseil d'analyse économique ; 17,5 %, taux de la Cour des comptes, en borne), en entier en 2030, sauf si le chiffrage retenu est déjà net ; quand le programme du candidat change le taux normal de l'impôt sur les sociétés et que ce changement est compté, ces taux sont ajustés dans la même proportion (20 % × 20/25 = 16 % pour un taux normal ramené de 25 % à 20 %) ; la part d'une taxe sur l'énergie payée par les entreprises est celle publiée par le service statistique du ministère de la Transition écologique (37 % des taxes sur l'énergie en 2023, répartition stable depuis 2018 ; aucune part propre aux carburants n'est publiée), pour l'impôt sur les sociétés comme pour la TVA, que les entreprises récupèrent ; pas pour l'impôt sur les sociétés lui-même ni pour un impôt que les entreprises ne déduisent pas (la TVA, qu'elles récupèrent) ; de même, un prélèvement payé par les ménages et déductible de leur revenu imposable (CSG déductible sur les revenus d'activité, de remplacement ou du capital, cotisations salariales et des indépendants) est compté net de l'impôt sur le revenu qu'il fait varier, dans les deux sens : 11,0 % de la part déductible (médiane des chiffrages publiés du même mécanisme : iFRAP 2023, 11,0 % ; Institut Montaigne 2022, 11 % ; évaluation préalable du projet de loi de finances pour 2018, 17,1 % pour les salariés du privé avec le barème de 2018, retenu pour la borne où l'impôt récupéré est le plus fort), appliqué à la base officielle la plus récente (CSG sur les revenus d'activité de 2025 : 12,0 Md€ par point), en entier en 2030, sauf si le chiffrage retenu est déjà net ; quand la mesure ne dit pas quelle part de la CSG baisse, la part déductible est celle du taux actuel (6,8 points sur 9,2) ; rien pour la part non déductible de la CSG ni pour la CRDS ; la suppression ou la fusion de la plupart des agences et opérateurs de l'État, missions reprises, vaut 0,26 Md€ chez tous les candidats qui la proposent (part hors personnel de l'économie chiffrée par la commission d'enquête du Sénat en 2025 sur les fonctions support des opérateurs, 0,54 Md€ : la part de personnel est déjà dans les postes supprimés), le montant annoncé par un camp n'étant pas compté au-delà ; le prix de référence des carburants et du fioul est la moyenne des 52 dernières semaines publiées par le ministère (gazole 1,98 €/l, SP95 1,94 €/l au 23/10/2026), et non le dernier relevé hebdomadaire, dans les fiches comme dans le simulateur ; de même, le prix de référence de l'électricité et du gaz est la moyenne des 12 derniers mois des séries officielles de la Commission de régulation de l'énergie (tarif réglementé option Base 6 kVA : 0,196 €/kWh TTC ; prix repère de vente du gaz : 151,7 €/MWh TTC, de novembre 2025 à octobre 2026), deux repères officiels, le tarif réglementé ne valant que pour les clients qui l'ont gardé et le prix repère du gaz étant indicatif ; le SMIC de référence est celui de juin 2026. Une mesure se juge reconfirmée mesure par mesure, quel que soit le document d'origine. Quand un candidat publie un budget ligne à ligne (RN, LFI, Retailleau, Zemmour), toute ligne d'au moins 1 Md€ qu'aucune fiche ne couvre est ajoutée : une dépense ou une baisse d'impôt vaut la médiane des chiffrages indépendants, à défaut le chiffre du camp (signalé, fourchette de ±50 %), une enveloppe vaut son montant ; une recette ou une économie n'est comptée qu'avec un chiffrage indépendant ou un paramètre publié (taux, assiette), sinon elle est listée « non comptée ». La lutte contre la fraude est comptée avec les leviers chiffrés par le Conseil d'analyse économique qui correspondent au champ de chaque mesure, dans la limite du chiffre du camp. Une baisse d'impôt annoncée sans calendrier est comptée en entier en 2030 ; une suppression d'aide compte pour sa seule part publique (pas la part payée hors budget, comme les certificats d'économies d'énergie ; la TVA perçue sur cette part des factures est en revanche une recette publique, perdue si elle est supprimée) ; un transfert entre administrations (de l'État vers les communes, par exemple) sans dépense définie par la mesure est neutre pour le solde public : compté 0, avec en borne basse le montant si le bénéficiaire le dépense en entier ; des aides réservées selon la nationalité ou la durée de séjour sont chiffrées avec l'étude qui correspond à la condition de chaque candidat.",
   "<b>Objectifs en niveau.</b> Un objectif de dépense publié sous la forme d'un niveau à une date (en part du PIB ou en euros) est compté pour l'écart, en 2030, entre ce niveau et la trajectoire du droit en vigueur (loi de programmation militaire ou de la recherche ; à défaut, part du PIB constante) ; un objectif sans date ou fixé à la fin du mandat compte pour 70 % de cet écart. Le PIB de 2030 est celui du scénario du Gouvernement (projet de loi de finances 2027), ramené en euros de 2026. Quand la définition est ambiguë (dépense exécutée ou financée, périmètre), le milieu de la fourchette est retenu. La même règle vaut dans les deux sens : un niveau publié à la baisse (suppression comprise) compte comme une économie. Une prise de position au Parlement sur un texte déjà voté ne vaut pas programme, sauf si le candidat la reprend dans sa campagne.",
   "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026, ou connues par une seule reprise de presse qui ne cite pas le candidat (marquées « À confirmer »), et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés. Un chiffrage qu'un candidat reprend comme le sien (d'un institut, d'une association ou d'un parti) compte comme chiffre de son camp, quel que soit son auteur. Le reprendre comme le sien, c'est publier ce chiffre comme son propre chiffre ; citer une étude comme une base parmi d'autres n'en fait pas un chiffre du camp. Une économie qui repose sur une baisse de flux ou un comportement supposés par une seule note n'est pas comptée, sauf si une évaluation ou une donnée officielle les établit. Un document d'un parti publié avant la désignation de son candidat (un projet de parti, par exemple) ne vaut programme que si le candidat le reprend ; un document officiel publié depuis (le contre-budget d'un groupe parlementaire, par exemple) compte. Une demande adressée au Gouvernement en place d'utiliser un outil qui existe déjà (état d'urgence, couvre-feux, drones, militaires en garde statique) n'est pas une proposition de programme.",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Faisable : par décret ou par la loi avec une majorité. Sous conditions : coût, majorité ou financement incertains. Très difficile : rendement surévalué ou accord extérieur nécessaire. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats.",
-  "<b>Sources.</b> 322 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
+  "<b>Sources.</b> 334 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire.",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 5 propositions publiées par candidat. Une proposition est « vérifiable » si elle donne un chiffre, une échéance ou un moyen juridique précis ; sinon c'est une « intention ». La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». Quand un thème compte plus de cinq propositions, on affiche, dans le même ordre pour tous : d'abord celles de 2026 (les non reconfirmées passent après), parmi elles les précises avant les intentions, puis les plus récentes ; à égalité ou à date inconnue, l'ordre déjà affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce) ; une proposition remplacée par sa version précise n'est pas gardée en double, et une même proposition n'est affichée que dans un thème, le plus précis (l'énergie et le nucléaire dans « environnement »). Les propositions hors affichage restent notées dans le registre de suivi du projet (dépôt public). L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
-  "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). Ce sont des ordres de grandeur.",
+  "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). La fin des certificats d'économies d'énergie compte −7 c€ par litre de carburant, TTC (coût moyen officiel de 2022 à 2025), la même hypothèse pour tous les candidats qui la proposent. Ce sont des ordres de grandeur.",
   "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Les duels portent sur les mesures des fiches (chiffrées ou non chiffrables) et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement ; les règles d'or budgétaires sont rangées avec la mesure du même type, dans les institutions) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant. Dessous, un constat : la réalité française que la proposition veut traiter, avec le chiffre officiel (le dernier chiffre officiel et son évolution en %, même forme pour toutes ; les problèmes réels sont dits clairement, sans cause ni jugement). Puis « Pour » et « Contre » donnent en une ligne le meilleur argument réel de ceux qui la défendent et de ceux qui la critiquent : un fait que la proposition ne dit pas d'elle-même (ce qui s'est passé quand elle a été appliquée, un ordre de grandeur), jamais la proposition redite autrement ; avec la force des preuves de chacun (solides, mitigées, faibles, pas d'étude). Sous le duel, des cas réels sourcés (en France d'abord) et l'état des études. Même méthode pour toutes les mesures, sans fausse symétrie : on n'invente ni argument ni exemple pour équilibrer, et un exemple n'est retenu que s'il est pertinent, observé et de source reconnue ; on montre où penchent les faits et le lecteur juge ; les mesures du même type ont les mêmes cas et les mêmes niveaux de preuve. Le « Contre » tient compte du reste du programme : si une autre mesure du même candidat répond à la critique, elle est signalée. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit ; « Les deux » compte la moyenne des deux effets), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
-  "<b>Sondages et contexte.</b> Intentions de vote au 1er tour : moyenne de 7 instituts (Cluster17 pour Politico, du 19 au 22/10 ; Elabe pour BFMTV et La Tribune Dimanche, du 14 au 16/10 ; Ifop-Fiducial pour LCI, Le Figaro et Sud Radio, du 17 au 19/10 ; Ipsos BVA pour Le Parisien, du 21 au 22/10 ; OpinionWay pour CNews, du 21 au 22/10 ; Toluna Harris Interactive pour M6 et RTL, du 19 au 21/10 ; YouGov pour Le HuffPost, du 12 au 15/10), dernière vague de chacun dont le terrain s'est achevé dans les 15 jours précédant le 29/10/2026 ; pour chaque institut, milieu de la fourchette des hypothèses où le candidat est testé, même poids pour chaque institut. L'ordre des candidats suit cette moyenne. Source : notices de la Commission des sondages ; sondages masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
+  "<b>Sondages et contexte.</b> Intentions de vote au 1er tour : moyenne de 6 instituts (Cluster17 pour Politico, du 19 au 22/10 ; Elabe pour BFMTV et La Tribune Dimanche, du 14 au 16/10 ; Ifop-Fiducial pour LCI, Le Figaro et Sud Radio, du 17 au 19/10 ; Ipsos BVA pour Le Parisien, du 21 au 22/10 ; OpinionWay pour CNews, du 21 au 22/10 ; Toluna Harris Interactive pour M6 et RTL, du 19 au 21/10), dernière vague de chacun dont le terrain s'est achevé dans les 15 jours précédant le 31/10/2026, 15e jour compris ; pour chaque institut, milieu de la fourchette des hypothèses où le candidat est testé, même poids pour chaque institut. L'ordre des candidats suit cette moyenne. Source : notices de la Commission des sondages ; sondages masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
  ],
  "statu_quo": {
   "retraite": {
@@ -16503,6 +16714,34 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "31/10/2026",
+   "text": "Glucksmann : son plan de sortie de crise du 22/10 (document du candidat) remplace le texte de 2025. SMIC à 1 700 € net (même calcul que Mélenchon : −21,6 Md€ au lieu de −11,9), aussi au simulateur et au quiz ; chèque énergie calculé avec les paramètres publiés (500 € pour six millions de familles, 200 € pour dix millions de ménages : −4,2 Md€ au lieu de −4,0) ; CSG progressive pour la baisse de CSG. Vie quotidienne : armes mutilantes et maintien de l'ordre, retrait des contenus par les plateformes, responsabilité de l'État pour les dégâts, dépistage gratuit à 16 et 20 ans, marges des carburants, SMIC."
+  },
+  {
+   "date": "31/10/2026",
+   "text": "Vie quotidienne, sécurité : Philippe, interdiction de paraître et pointage avant les manifestations, reconnaissance faciale pour identifier les casseurs (deux sources chacune ; la suppression du juge d'application des peines sort, 5 propositions au plus par thème) ; Le Pen, suspension des allocations familiales des familles de délinquants récidivistes (pétition du RN) ; Attal, blocage des réseaux sociaux retiré (demande d'utiliser un outil présenté par son camp comme déjà possible), la reconnaissance faciale, qui demande une loi nouvelle, reste, avec la même lecture que chez Philippe."
+  },
+  {
+   "date": "31/10/2026",
+   "text": "Vie quotidienne et quiz, études relues à la source. Lectures nouvelles, le même texte pour toutes les propositions du même type : lois Egalim (Attal, Retailleau), formation des médecins (Attal, Lisnard, Philippe), orientation en fin de collège (Philippe, Lisnard), régularisation par le travail (Glucksmann). Lectures précisées après lecture du texte intégral : règle d'or (déficit réduit de 1,2 à 1,5 point de PIB), incertitude politique, voile, chèque scolaire en Louisiane, camarade perturbateur (−3 % de salaire entre 24 et 28 ans), établissements pour élèves exclus (résultats « mitigés »), marché carbone des carburants (en place en 2028). Sources officielles ajoutées : OCDE (groupes de niveau), DEPP (classes dédoublées), France Stratégie, Cour des comptes, inspections générales. Quiz : Parcoursup au chiffre de 2026 (93,7 % des néo-bacheliers avec une proposition)."
+  },
+  {
+   "date": "31/10/2026",
+   "text": "Simulateur : fin des certificats d'économies d'énergie comptée à −7 c€ par litre de carburant (coût moyen officiel de 2022 à 2025), la même hypothèse chez Retailleau et Zemmour."
+  },
+  {
+   "date": "31/10/2026",
+   "text": "Chiffrages revus avec les règles communes. Impôt sur le revenu récupéré quand un prélèvement déductible baisse : 11,0 % (médiane des chiffrages publiés ; 17,1 %, taux du Gouvernement de 2018, en borne), sur la base officielle de 2025 pour les trois fiches CSG (Lisnard : total inchangé, répartition entre ses deux fiches ; Glucksmann et Retailleau : bornes revues). Impôt sur les sociétés récupéré ajusté au taux d'impôt sur les sociétés du programme (Lisnard, qui le ramène à 20 % : −4,5 au lieu de −4,3). Part des taxes sur l'énergie payée par les entreprises : 37 % (statistique officielle) au lieu de la moitié (Le Pen, taxe sur les carburants −2,0 au lieu de −1,9 ; Zemmour, accise −8,6 au lieu de −8,2). Retailleau, impôts de production : détail repris de son site et part industrielle de la CFE à son rendement officiel (−8,2 au lieu de −8,0). Chemins complétés, verdicts inchangés : Retailleau, contrôles aux frontières intérieures sans limite de temps (accord européen pour Schengen, comme chez Attal) ; Lisnard, rétention portée à 24 mois (permise par le règlement européen de 2026, au-delà de ce qu'admet le Conseil constitutionnel). Philippe : fusion et suppression de « dizaines » d'opérateurs (son site), rien de compté, comme les agences nommées de Zemmour."
+  },
+  {
+   "date": "31/10/2026",
+   "text": "Prix de référence de l'électricité et du gaz : moyenne des 12 derniers mois des séries officielles de la Commission de régulation de l'énergie (tarif réglementé 0,196 €/kWh, prix repère du gaz 151,7 €/MWh), même règle que les carburants ; citée dans les fiches de Le Pen (TVA sur l'énergie) et de Mélenchon (blocage des prix), valeurs inchangées. TVA des abonnements d'électricité et de gaz passée à 20 % en août 2025 : signalée dans la fiche de Le Pen."
+  },
+  {
+   "date": "31/10/2026",
+   "text": "Sondages : moyenne au 31/10 de 6 instituts (Cluster17, Elabe, Ifop-Fiducial, Ipsos BVA, OpinionWay, Toluna Harris Interactive) ; YouGov, dont le terrain s'est achevé le 15/10, sort de la fenêtre de 15 jours (15e jour compris, libellé unique de la règle). Le Pen 33,8 %, Mélenchon 17,2 %, Philippe 14,3 %, Glucksmann 13,9 %, Attal 7,8 %, Retailleau 7,3 %, Lisnard 6,7 %, Zemmour 4,0 % ; ordre des candidats inchangé."
+  },
   {
    "date": "29/10/2026",
    "text": "Impôt sur le revenu récupéré : une baisse d'un prélèvement que les ménages déduisent de leur revenu imposable (CSG déductible, cotisations salariales) est désormais comptée nette de l'impôt sur le revenu qu'elle fait remonter (10,7 % de la part déductible), dans les deux sens et pour tous, comme l'étaient déjà les fiches CSG de Zemmour et de Lisnard. Retailleau, cotisations salariales en moins : −15,5 Md€ au lieu de −17,1 ; Glucksmann, salaires nets financés par la taxe sur les très gros héritages : −2,4 au lieu de −3,6. Autres candidats inchangés."
@@ -16705,9 +16944,9 @@
   "francetransactions.com"
  ],
  "sondages": {
-  "regle": "Intentions de vote au 1er tour. Dernière vague de chaque institut dont le terrain s'est achevé dans les 15 jours précédant la date ci-dessous ; pour chaque institut, fourchette [plus bas, plus haut] des scores publiés dans les hypothèses où le candidat est testé, et on retient le milieu ; le chiffre affiché est la moyenne de ces milieux entre instituts (même poids pour chacun). L'ordre des candidats suit cette moyenne. Source : notices de la Commission des sondages.",
-  "date": "29/10/2026",
-  "exclus": "Odoxa (terrain du 24/09 au 07/10, achevé plus de 15 jours avant) ; vagues antérieures d'OpinionWay (13-14/10), Toluna Harris Interactive (notice du 12/10) et Cluster17 pour Le Point (14-15/10, « focus droite et centre »), remplacées par la vague suivante du même institut.",
+  "regle": "Intentions de vote au 1er tour. Dernière vague de chaque institut dont le terrain s'est achevé dans les 15 jours précédant la date ci-dessous, 15e jour compris ; pour chaque institut, fourchette [plus bas, plus haut] des scores publiés dans les hypothèses où le candidat est testé, et on retient le milieu ; le chiffre affiché est la moyenne de ces milieux entre instituts (même poids pour chacun). L'ordre des candidats suit cette moyenne. Source : notices de la Commission des sondages.",
+  "date": "31/10/2026",
+  "exclus": "YouGov pour Le HuffPost (terrain du 12 au 15/10, achevé 16 jours avant le 31/10) ; Odoxa (terrain du 24/09 au 07/10, achevé plus de 15 jours avant) ; vagues antérieures d'OpinionWay (13-14/10), Toluna Harris Interactive (notice du 12/10) et Cluster17 pour Le Point (14-15/10, « focus droite et centre »), remplacées par la vague suivante du même institut.",
   "instituts": [
    {
     "institut": "Cluster17",
@@ -16744,12 +16983,6 @@
     "pour": "M6 et RTL",
     "terrain": "19-21/10/2026",
     "url": "https://www.commission-des-sondages.fr/notices/files/notices/2026/octobre/10332-pres-iv-toluna-harris-interactive-23-octobre.pdf"
-   },
-   {
-    "institut": "YouGov",
-    "pour": "Le HuffPost",
-    "terrain": "12-15/10/2026",
-    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2346"
    }
   ]
  },
@@ -16780,6 +17013,11 @@
      },
      {
       "text": "Construire 30 000 places de prison",
+      "verifiable": true,
+      "old": false
+     },
+     {
+      "text": "Suspendre les allocations familiales des familles de délinquants récidivistes",
       "verifiable": true,
       "old": false
      },
@@ -16847,6 +17085,11 @@
       "label": "Contre-budget 2027 du groupe RN",
       "year": 2026,
       "url": "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
+     },
+     {
+      "label": "Rassemblement national, pétition « Face au chaos, la France en ordre » (octobre)",
+      "year": 2026,
+      "url": "https://rassemblementnational.fr/petition/face-au-chaos-la-france-en-ordre"
      }
     ]
    },
@@ -16972,6 +17215,11 @@
       "label": "CNews, Le Pen et la jeunesse (15/10)",
       "year": 2026,
       "url": "https://www.cnews.fr/france/2026-10-15/parcoursup-aides-pour-les-transports-que-propose-concretement-marine-le-pen-en"
+     },
+     {
+      "label": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
+      "year": 2026,
+      "url": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
      }
     ]
    },
@@ -17085,7 +17333,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Voile interdit à l'école : diplômes des filles de culture musulmane en hausse après 1994 (IZA, 2019) ; après 2004, effet nul ou négatif selon les études (APSR, 2020) ; aucune étude sur l'université, le sport ni les bâtiments publics. RIC : peu d'études causales. En Suisse, initiatives rarement adoptées mais qui structurent le débat ; risque d'usage restrictif des libertés signalé (AMU, 2024).",
+    "evidence": "Voile interdit à l'école : diplômes des filles de culture musulmane en hausse après 1994 (IZA, 2019) ; après 2004, aucun gain de plus (IZA, 2019) ou scolarité des filles en baisse (APSR, 2020) ; aucune étude sur l'université, le sport ni les bâtiments publics. RIC : peu d'études causales. En Suisse, initiatives rarement adoptées mais qui structurent le débat ; risque d'usage restrictif des libertés signalé (AMU, 2024).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -17145,7 +17393,7 @@
      }
     ],
     "indicator": "Déficit public sous 3 % du PIB en 2030 (objectif ; plafond de sa règle d'or : 3,9 %)",
-    "evidence": "RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents. Règle d'or : effet modéré sur les déficits, plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023). Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025).",
+    "evidence": "RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents. Règle d'or : déficit réduit de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, effet plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023). Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -17414,6 +17662,11 @@
       "label": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
       "year": 2020,
       "url": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
+     },
+     {
+      "label": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
+      "year": 2026,
+      "url": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
      }
     ]
    },
@@ -17683,13 +17936,18 @@
       "old": false
      },
      {
-      "text": "Supprimer le juge d'application des peines",
+      "text": "Interdire à des casseurs de paraître dans certains lieux et les obliger à pointer au commissariat avant les manifestations",
+      "verifiable": true,
+      "old": false
+     },
+     {
+      "text": "Autoriser la reconnaissance faciale et des techniques de marquage pour identifier les casseurs",
       "verifiable": true,
       "old": false
      }
     ],
     "indicator": null,
-    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Bracelet plutôt que courte prison : récidive −6 à 7 points (Henneguelle, 2016). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée.",
+    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Bracelet plutôt que courte prison : récidive −6 à 7 points (Henneguelle, 2016). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Pointage lors des manifestations : non évalué. Reconnaissance faciale a posteriori : ≈ 616 000 recherches en 2021 (Sénat, 2022) ; effet non évalué.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -17736,6 +17994,21 @@
       "label": "L'Express via Orange, entretien au Point (27/10)",
       "year": 2026,
       "url": "https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html"
+     },
+     {
+      "label": "Sénat, rapport d'information n° 627 (2021-2022), la reconnaissance biométrique dans l'espace public",
+      "year": 2022,
+      "url": "https://www.senat.fr/rap/r21-627/r21-6271.pdf"
+     },
+     {
+      "label": "Site Édouard Philippe, réaction aux émeutes (BFMTV-Le Figaro, 19/10)",
+      "year": 2026,
+      "url": "https://www.edouardphilippe.fr/actualites/edouard-philippe-reagit-aux-emeutes-sur-bfmtv"
+     },
+     {
+      "label": "Journal du Net, Philippe à Charleville-Mézières (22/10)",
+      "year": 2026,
+      "url": "https://www.journaldunet.com/business/action-publique/1557005-edouard-philippe-presente-ses-propositions-pour-les-familles-et-defend-ses-positions-securitaires/"
      }
     ]
    },
@@ -17754,7 +18027,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Prévention : résultats français « médiocres » malgré des dépenses comparables à celles des voisins (Cour des comptes, 2021). Propositions non chiffrées.",
+    "evidence": "Prévention : résultats français « médiocres » malgré des dépenses comparables à celles des voisins (Cour des comptes, 2021). Former plus de médecins : des études qui durent jusqu'à 12 ans, et une hausse qui ne garantit pas leur répartition sur le territoire (Cour des comptes, 2024). Propositions non chiffrées.",
     "evidence_level": "pas_d_etude",
     "sources": [
      {
@@ -17771,6 +18044,11 @@
       "label": "Santé Mentale, Cour des comptes prévention",
       "year": 2021,
       "url": "https://www.santementale.fr/2021/12/politique-de-prevention-en-sante-la-cour-des-comptes-souligne-des-resultats-mediocres/"
+     },
+     {
+      "label": "Cour des comptes, L'accès aux études de santé, quatre ans après la réforme",
+      "year": 2024,
+      "url": "https://www.ccomptes.fr/sites/default/files/2024-12/20241211-Lacces-aux-%C3%A9tudes-de-sante.pdf"
      }
     ]
    },
@@ -17799,7 +18077,7 @@
      }
     ],
     "indicator": "+20 % de salaire enseignant, vers la moyenne européenne",
-    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; en 6e, aucun en français, petit gain en maths après la 1re génération (DEPP, 2026). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Amendes aux parents d'absentéistes : sans lien avec le niveau d'absences (pays de Galles, 2018) ; pas d'évaluation française.",
+    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; en 6e, aucun en français, petit gain en maths après la 1re génération (DEPP, 2026). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Amendes aux parents d'absentéistes : sans lien avec le niveau d'absences (pays de Galles, 2018) ; pas d'évaluation française. Orientation : des réunions avec le chef d'établissement pour les élèves faibles de 3e et leurs parents ont réduit redoublement et décrochage de 25 à 40 % (essai aléatoire, France, 2017).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -17836,6 +18114,16 @@
       "label": "Site Édouard Philippe, « Pour une France plus attentive à ses enfants »",
       "year": 2026,
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+     },
+     {
+      "label": "Goux, Gurgand, Maurin, réunions d'orientation en fin de collège, essai aléatoire dans l'académie de Versailles (Economic Journal)",
+      "year": 2017,
+      "url": "https://www.parisschoolofeconomics.eu/publications-hal/adjusting-your-dreams-high-school-plans-and-dropout-behaviour"
+     },
+     {
+      "label": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
+      "year": 2026,
+      "url": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
      }
     ]
    },
@@ -18004,7 +18292,7 @@
      }
     ],
     "indicator": "+1 000 €/an pour un salarié au SMIC passant à 37 h",
-    "evidence": "Heures sup défiscalisées (TEPA) : pas d'effet significatif sur les heures travaillées (IPP, 2012). Chômage plus court de 12 %, mais emplois peu durables (Dares, 2025). Règle d'or : effet modéré sur les déficits, plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023). Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025).",
+    "evidence": "Heures sup défiscalisées (TEPA) : pas d'effet significatif sur les heures travaillées (IPP, 2012). Chômage plus court de 12 %, mais emplois peu durables (Dares, 2025). Règle d'or : déficit réduit de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, effet plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023). Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18100,6 +18388,21 @@
     "theme": "securite",
     "proposals": [
      {
+      "text": "Mettre fin aux armes mutilantes dans les manifestations et réformer la doctrine du maintien de l'ordre",
+      "verifiable": true,
+      "old": false
+     },
+     {
+      "text": "Plateformes : retrait en temps réel des contenus appelant à la destruction, sous peine d'amendes jusqu'à 6 % du chiffre d'affaires ou de suspension",
+      "verifiable": true,
+      "old": false
+     },
+     {
+      "text": "Responsabilité de l'État pour les dégâts, avec recours contre les auteurs ; indemnisation accélérée des commerçants, artisans et particuliers",
+      "verifiable": true,
+      "old": false
+     },
+     {
       "text": "Police de proximité modernisée, équipes mobiles de prévention",
       "verifiable": false,
       "old": true
@@ -18108,15 +18411,10 @@
       "text": "Doubler les Maisons du droit et de la justice",
       "verifiable": true,
       "old": true
-     },
-     {
-      "text": "Laisser les maires décider de l'armement municipal et des caméras",
-      "verifiable": false,
-      "old": true
      }
     ],
     "indicator": "Deux fois plus de Maisons du droit et de la justice",
-    "evidence": "Police de proximité : baisse limitée de la délinquance (Gill, 2014), sentiment d'insécurité réduit. Vidéosurveillance : utile dans 1,1 % des enquêtes (Gormand, gendarmerie).",
+    "evidence": "Plateformes : amendes jusqu'à 6 % du chiffre d'affaires mondial et suspension temporaire du service déjà prévues par le règlement européen sur les services numériques ; effet non évalué. Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Police de proximité : baisse limitée de la délinquance (Gill, 2014), sentiment d'insécurité réduit.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18135,15 +18433,35 @@
       "url": "https://economix.fr/pdf/dt/2024/WP_EcoX_2024-15.pdf"
      },
      {
-      "label": "Police.be, vidéosurveillance et enquêtes",
+      "label": "Place publique, plan de sortie de crise du candidat (22/10)",
+      "year": 2026,
+      "url": "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
+     },
+     {
+      "label": "Commission européenne, le cadre d'application de la législation sur les services numériques (règlement de 2022)",
       "year": 2022,
-      "url": "https://www.police.be/5337/node/19373"
+      "url": "https://digital-strategy.ec.europa.eu/fr/policies/dsa-enforcement"
+     },
+     {
+      "label": "Sénat, projet de loi n° 952 sur la réparation des dommages (exposé des motifs, étude d'impact)",
+      "year": 2026,
+      "url": "https://www.senat.fr/leg/pjl25-952.pdf"
+     },
+     {
+      "label": "LCP, projet de loi adopté au Sénat le 28/10",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/projet-de-loi-casseurs-payeurs-le-texte-transmis-a-l-assemblee-apres-son-adoption-au"
      }
     ]
    },
    {
     "theme": "sante",
     "proposals": [
+     {
+      "text": "Consultations gratuites de dépistage en santé à 16 et à 20 ans",
+      "verifiable": true,
+      "old": false
+     },
      {
       "text": "Maisons de santé, permanences mobiles, centres de petites urgences",
       "verifiable": false,
@@ -18178,6 +18496,11 @@
       "label": "Irdes QES 247, maisons de santé",
       "year": 2020,
       "url": "https://www.irdes.fr/recherche/questions-d-economie-de-la-sante/247-les-maisons-de-sante-attirent-elles-les-jeunes-medecins-generalistes-dans-les-zones-sous-dotees-en-offre-de-soins.pdf"
+     },
+     {
+      "label": "Place publique, plan de sortie de crise du candidat (22/10)",
+      "year": 2026,
+      "url": "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
      }
     ]
    },
@@ -18253,6 +18576,11 @@
       "label": "LCP, Parcoursup et les candidats (26/10)",
       "year": 2026,
       "url": "https://lcp.fr/actualites/parcoursup-suppression-remplacement-reforme-ce-que-proposent-les-candidats-a-la"
+     },
+     {
+      "label": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
+      "year": 2026,
+      "url": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
      }
     ]
    },
@@ -18261,6 +18589,11 @@
     "proposals": [
      {
       "text": "Leasing social : 1 million de voitures électriques à 100 €/mois",
+      "verifiable": true,
+      "old": false
+     },
+     {
+      "text": "Encadrer les marges de raffinage et de distribution des carburants pour baisser de 20 centimes le prix à la pompe",
       "verifiable": true,
       "old": false
      },
@@ -18303,6 +18636,11 @@
       "label": "Assemblée nationale, question écrite n° 810, réponse du Gouvernement (JO, 15/07/2025)",
       "year": 2025,
       "url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE810"
+     },
+     {
+      "label": "Place publique, plan de sortie de crise du candidat (22/10)",
+      "year": 2026,
+      "url": "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
      },
      {
       "label": "RTE, Futurs énergétiques 2050, résumé exécutif (vie-publique.fr)",
@@ -18390,6 +18728,11 @@
     "theme": "economie",
     "proposals": [
      {
+      "text": "Porter le SMIC à 1 700 € net",
+      "verifiable": true,
+      "old": false
+     },
+     {
       "text": "Taxer le 1 % des plus gros héritages pour hausser les salaires nets",
       "verifiable": true,
       "old": false
@@ -18411,8 +18754,8 @@
      }
     ],
     "indicator": "15 Md€ reversés sur les fiches de paie",
-    "evidence": "CAE (2021) : héritage très concentré, 35-40 % échappe à l'impôt, ~12 Md€ récupérables ; effets économiques non évalués faute de données fiables.",
-    "evidence_level": "pas_d_etude",
+    "evidence": "Experts SMIC (2025) : risque pour l'emploi peu qualifié, SMIC à 62,5 % du médian. CAE (2021) : héritage très concentré, 35-40 % échappe à l'impôt, ~12 Md€ récupérables ; effets économiques non évalués faute de données fiables. Régularisation liée à un contrat de travail (Espagne, 2005, ≈ 600 000 personnes) : cotisations +4 000 € par personne et par an, salaires des natifs peu qualifiés du secteur déclaré en hausse, pas d'afflux d'immigration mesuré, retour partiel au travail non déclaré (2025) ; délinquance des régularisés −0,6 point (Italie, 2017).",
+    "evidence_level": "mitigee",
     "sources": [
      {
       "label": "Public Sénat, propositions",
@@ -18438,6 +18781,26 @@
       "label": "France Inter, Franc-jeu (30/08)",
       "year": 2026,
       "url": "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-30-aout-2026-6196033"
+     },
+     {
+      "label": "Place publique, plan de sortie de crise du candidat (22/10)",
+      "year": 2026,
+      "url": "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
+     },
+     {
+      "label": "Groupe d'experts sur le SMIC, rapport 2025",
+      "year": 2025,
+      "url": "https://www.vie-publique.fr/files/rapport/pdf/301429_0.pdf"
+     },
+     {
+      "label": "Elias, Monras, Vázquez-Grenno, titres de travail accordés aux sans-papiers en Espagne en 2005 (Journal of Labor Economics ; présentation de l'université de Barcelone)",
+      "year": 2025,
+      "url": "https://www.ub.edu/school-economics/news/understanding-the-effects-of-granting-work-permits-to-undocumented-immigrants/"
+     },
+     {
+      "label": "Pinotti, régularisation des immigrés et délinquance en Italie (American Economic Review ; présentation de l'université Bocconi)",
+      "year": 2017,
+      "url": "https://clean.unibocconi.eu/research/criminal-and-illegal-behavior/clicking-on-heaven-door.-the-effect-of-immigrant-legalization-on-crime"
      }
     ]
    },
@@ -18497,25 +18860,15 @@
       "old": false
      },
      {
-      "text": "Bloquer temporairement et de façon ciblée certains réseaux sociaux pendant les émeutes",
-      "verifiable": false,
-      "old": false
-     },
-     {
       "text": "Supprimer le juge d'application des peines",
       "verifiable": true,
       "old": true
      }
     ],
     "indicator": null,
-    "evidence": "Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Mineurs jugés comme des adultes : récidive +34 % (États-Unis, 2007). Reconnaissance faciale a posteriori : ≈ 616 000 recherches en 2021 (Sénat, 2022) ; effet non évalué. Coupures de réseaux : plus d'actions violentes (Inde, 2019) ; blocage de TikTok en Nouvelle-Calédonie jugé illégal (Conseil d'État, 2025).",
+    "evidence": "Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Mineurs jugés comme des adultes : récidive +34 % (États-Unis, 2007). Reconnaissance faciale a posteriori : ≈ 616 000 recherches en 2021 (Sénat, 2022) ; effet non évalué.",
     "evidence_level": "non_demontree",
     "sources": [
-     {
-      "label": "Les Actus du Net – blocage réseaux",
-      "year": 2026,
-      "url": "https://www.lesactusdunet.com/2026/10/21/attal-veut-pouvoir-couper-certains-reseaux-sociaux-pendant-les-emeutes-le-conseil-detat-lui-a-deja-dit-non/"
-     },
      {
       "label": "MonVote2027 – Attal (agrégateur)",
       "year": 2026,
@@ -18525,16 +18878,6 @@
       "label": "Europe 1 – suppression JAP",
       "year": 2025,
       "url": "https://www.europe1.fr/politique/je-propose-de-supprimer-le-juge-dapplication-des-peines-assure-gabriel-attal-872862"
-     },
-     {
-      "label": "Rydzak – shutdowns Inde (SSRN)",
-      "year": 2019,
-      "url": "https://papers.ssrn.com/abstract=3330413"
-     },
-     {
-      "label": "Next – décision Conseil d'État",
-      "year": 2025,
-      "url": "https://next.ink/178412/la-suspension-de-tiktok-en-nouvelle-caledonie-jugee-illegale-mais-pas-impossible/"
      },
      {
       "label": "Sénat, projet de loi n° 952 sur la réparation des dommages (exposé des motifs, étude d'impact)",
@@ -18603,7 +18946,7 @@
      }
     ],
     "indicator": "Comptes de la Sécurité sociale rééquilibrés en trois ans",
-    "evidence": "Coopération médecin-infirmière Asalée : patientèle +6,6 %, consultations inchangées, qualité non mesurée (Irdes, 2019). La délégation aux pharmaciens est peu évaluée.",
+    "evidence": "Former plus de médecins : des études qui durent jusqu'à 12 ans, et une hausse qui ne garantit pas leur répartition sur le territoire (Cour des comptes, 2024). Coopération médecin-infirmière Asalée : patientèle +6,6 %, consultations inchangées, qualité non mesurée (Irdes, 2019). La délégation aux pharmaciens est peu évaluée.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18625,6 +18968,11 @@
       "label": "attalpresident.fr, Blois et Bourges (5/10)",
       "year": 2026,
       "url": "https://attalpresident.fr/actualites/gabriel-attal-debat-avec-les-francais-a-blois-et-a-bourges"
+     },
+     {
+      "label": "Cour des comptes, L'accès aux études de santé, quatre ans après la réforme",
+      "year": 2024,
+      "url": "https://www.ccomptes.fr/sites/default/files/2024-12/20241211-Lacces-aux-%C3%A9tudes-de-sante.pdf"
      }
     ]
    },
@@ -18702,11 +19050,6 @@
       "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
      },
      {
-      "label": "L'Etudiant – groupes de niveau et recherche",
-      "year": 2024,
-      "url": "https://www.letudiant.fr/educpros/enquetes/lefficacite-des-groupes-de-niveau-contestee-par-les-chercheurs.html"
-     },
-     {
       "label": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
       "year": 2020,
       "url": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
@@ -18725,6 +19068,16 @@
       "label": "attalpresident.fr, France Info (15/10)",
       "year": 2026,
       "url": "https://attalpresident.fr/actualites/gabriel-attal-france-info-ecouter-la-jeunesse"
+     },
+     {
+      "label": "OCDE, Résultats du PISA 2022 (volume II), chapitre 4, p. 158-159 : groupes de niveau",
+      "year": 2023,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pisa-2022-results-volume-ii_222a5ef6/a97db61c-en.pdf"
+     },
+     {
+      "label": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
+      "year": 2026,
+      "url": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
      }
     ]
    },
@@ -18918,7 +19271,7 @@
      }
     ],
     "indicator": "France première puissance d'IA en Europe d'ici 10 ans",
-    "evidence": "Code du travail réduit à des principes : non évalué ; ordonnances de 2017, effet sur l'emploi non mesuré (France Stratégie, 2021). Incertitude politique : moins d'investissement et d'emploi (12 pays, 2016) ; règle de stabilité fiscale non évaluée. DG Trésor (2024) : aucun effet macroéconomique significatif de l'IA mesuré à ce stade.",
+    "evidence": "Code du travail réduit à des principes : non évalué ; ordonnances de 2017, effet sur l'emploi non mesuré (France Stratégie, 2021). Incertitude politique : suivie de moins d'investissement (États-Unis), de production et d'emploi (12 pays), sans preuve de causalité (2016) ; règle de stabilité fiscale non évaluée. DG Trésor (2024) : aucun effet macroéconomique significatif de l'IA mesuré à ce stade. Lois Egalim : efficacité économique difficile à établir, contrats écrits peu appliqués ; part agricole du prix au détail en hausse en 2021-2023 (Assemblée nationale, 2025).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18952,11 +19305,6 @@
       "url": "https://attalpresident.fr/actualites/gabriel-attal-lettre-aux-francais-plan-finances-publiques"
      },
      {
-      "label": "France Stratégie, comité d'évaluation des ordonnances travail, rapport 2021 (présentation, via Le Monde du Droit)",
-      "year": 2021,
-      "url": "https://www.lemondedudroit.fr/publications/248-etudes-et-documents/78930-comite-evaluation-des-ordonnances-travail-publie-aujourd-hui-son-rapport-d-evaluation-2021.html"
-     },
-     {
       "label": "France Stratégie, appel à projets de recherche pour évaluer l'effet des ordonnances travail sur l'emploi",
       "year": 2022,
       "url": "https://www.strategie-plan.gouv.fr/files/2025-06/apr_-_ordonnances_travail-presentation_generale.pdf"
@@ -18970,6 +19318,16 @@
       "label": "attalpresident.fr, Blois et Bourges (5/10)",
       "year": 2026,
       "url": "https://attalpresident.fr/actualites/gabriel-attal-debat-avec-les-francais-a-blois-et-a-bourges"
+     },
+     {
+      "label": "Assemblée nationale, rapport d'information n° 1014 sur l'évaluation de la loi Egalim 2 (commission des affaires économiques)",
+      "year": 2025,
+      "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-eco/l17b1014_rapport-information.pdf"
+     },
+     {
+      "label": "France Stratégie, comité d'évaluation des ordonnances travail, rapport 2021 (p. 17 et 24)",
+      "year": 2021,
+      "url": "https://www.vie-publique.fr/files/rapport/pdf/283002.pdf"
      }
     ]
    },
@@ -19175,7 +19533,7 @@
      }
     ],
     "indicator": "Salaires enseignants rapprochés de la moyenne européenne (non chiffré)",
-    "evidence": "Parcoursup : fin du tirage au sort, classements peu transparents, quotas de boursiers peu efficaces (Cour des comptes, 2020). Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005). Groupes de niveau : pas d'amélioration des résultats, et les élèves faibles risquent de perdre l'effet des pairs selon l'OCDE (PISA 2022). Redoublement : effet quasi nul, puis négatif à long terme (Cnesco, 2014). Autonomie : progrès de collèges en difficulté (Angleterre, 2019), aucun en primaire (2017). Établissements pour élèves exclus (2010) : résultats souvent décevants, abandonnés (inspection, 2012).",
+    "evidence": "Parcoursup : fin du tirage au sort, classements peu transparents, quotas de boursiers peu efficaces (Cour des comptes, 2020). Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005). Groupes de niveau : pas d'amélioration des résultats, et les élèves faibles risquent de perdre l'effet des pairs selon l'OCDE (PISA 2022). Redoublement : effet quasi nul, puis négatif à long terme (Cnesco, 2014). Autonomie : progrès de collèges en difficulté (Angleterre, 2019), aucun en primaire (2017). Établissements pour élèves exclus (2010) : résultats mitigés, un quart des élèves sans solution en 2012, abandonnés (inspections, 2012).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -19229,14 +19587,19 @@
       "url": "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE85814.pdf"
      },
      {
-      "label": "L'Etudiant – groupes de niveau et recherche",
-      "year": 2024,
-      "url": "https://www.letudiant.fr/educpros/enquetes/lefficacite-des-groupes-de-niveau-contestee-par-les-chercheurs.html"
-     },
-     {
       "label": "Public Sénat, HEC Débats (27/10)",
       "year": 2026,
       "url": "https://www.publicsenat.fr/actualites/politique/nous-allons-vivre-un-moment-historique-bruno-retailleau-appelle-la-jeunesse-a-prendre-part-a-la-pre"
+     },
+     {
+      "label": "OCDE, Résultats du PISA 2022 (volume II), chapitre 4, p. 158-159 : groupes de niveau",
+      "year": 2023,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pisa-2022-results-volume-ii_222a5ef6/a97db61c-en.pdf"
+     },
+     {
+      "label": "Inspections générales (IGEN-IGAENR), Rapport annuel 2012, « Les établissements de réinsertion scolaire : bilan et perspectives » (p. 41-47)",
+      "year": 2012,
+      "url": "https://www.vie-publique.fr/files/rapport/pdf/144000010.pdf"
      }
     ]
    },
@@ -19417,6 +19780,11 @@
       "label": "avecretailleau.fr, laïcité dans la Constitution",
       "year": 2026,
       "url": "https://www.avecretailleau.fr/projet/mesure/inscrire-la-laicite-et-nos-racines-dans-la-constitution"
+     },
+     {
+      "label": "Conseil constitutionnel, dossier documentaire de la décision n° 2020-889 QPC (texte de l'article L. 111-1 du code de la sécurité intérieure)",
+      "year": 2021,
+      "url": "https://www.conseil-constitutionnel.fr/sites/default/files/as/root/bank_mm/decisions/2020889qpc/2020889qpc_doc.pdf"
      }
     ]
    },
@@ -19450,7 +19818,7 @@
      }
     ],
     "indicator": "Excédent primaire en 2030, déficit sous 3 % en 2031",
-    "evidence": "Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025). Code du travail réduit à des principes : non évalué ; ordonnances de 2017, effet sur l'emploi non mesuré (France Stratégie, 2021). Règle d'or : effet modéré sur les déficits, plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023). Heures sup défiscalisées (TEPA) : pas d'effet significatif sur les heures travaillées (IPP, 2012).",
+    "evidence": "Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025). Code du travail réduit à des principes : non évalué ; ordonnances de 2017, effet sur l'emploi non mesuré (France Stratégie, 2021). Règle d'or : déficit réduit de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, effet plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023). Lois Egalim : efficacité économique difficile à établir, contrats écrits peu appliqués ; part agricole du prix au détail en hausse en 2021-2023 (Assemblée nationale, 2025). Heures sup défiscalisées (TEPA) : pas d'effet significatif sur les heures travaillées (IPP, 2012).",
     "evidence_level": "non_demontree",
     "sources": [
      {
@@ -19477,11 +19845,6 @@
       "label": "avecretailleau.fr, code du travail sur 50 principes",
       "year": 2026,
       "url": "https://www.avecretailleau.fr/projet/mesure/refonder-le-code-du-travail-sur-50-principes-rendre-le"
-     },
-     {
-      "label": "France Stratégie, comité d'évaluation des ordonnances travail, rapport 2021 (présentation, via Le Monde du Droit)",
-      "year": 2021,
-      "url": "https://www.lemondedudroit.fr/publications/248-etudes-et-documents/78930-comite-evaluation-des-ordonnances-travail-publie-aujourd-hui-son-rapport-d-evaluation-2021.html"
      },
      {
       "label": "France Stratégie, appel à projets de recherche pour évaluer l'effet des ordonnances travail sur l'emploi",
@@ -19512,6 +19875,16 @@
       "label": "avecretailleau.fr, négociations commerciales agricoles",
       "year": 2026,
       "url": "https://www.avecretailleau.fr/projet/mesure/encadrer-les-negociations-et-controler-les-importations"
+     },
+     {
+      "label": "Assemblée nationale, rapport d'information n° 1014 sur l'évaluation de la loi Egalim 2 (commission des affaires économiques)",
+      "year": 2025,
+      "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-eco/l17b1014_rapport-information.pdf"
+     },
+     {
+      "label": "France Stratégie, comité d'évaluation des ordonnances travail, rapport 2021 (p. 17 et 24)",
+      "year": 2021,
+      "url": "https://www.vie-publique.fr/files/rapport/pdf/283002.pdf"
      }
     ]
    },
@@ -19597,7 +19970,7 @@
      }
     ],
     "indicator": "Peines prononcées, même courtes, réellement exécutées",
-    "evidence": "Mineurs jugés comme des adultes : récidive +34 % (États-Unis, 2007). Centres éducatifs fermés : au moins 41 % des jeunes de nouveau poursuivis dans l'année (DPJJ, 2024) ; efficacité non évaluée (Cour des comptes, 2023). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Cagoule en manifestation : délit depuis 2019 ; pointage non évalué. Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Nouvelles places de prison vite comblées (Sénat, 2023).",
+    "evidence": "Mineurs jugés comme des adultes : récidive +34 % (États-Unis, 2007). Centres éducatifs fermés : au moins 41 % des jeunes de nouveau poursuivis dans l'année (DPJJ, 2024) ; efficacité non évaluée (Cour des comptes, 2023). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Cagoule en manifestation : délit depuis 2019. Pointage lors des manifestations : non évalué. Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Nouvelles places de prison vite comblées (Sénat, 2023).",
     "evidence_level": "non_demontree",
     "sources": [
      {
@@ -19664,6 +20037,11 @@
       "label": "Nouvelle Énergie, entretien au Figaro Magazine (23/10)",
       "year": 2026,
       "url": "https://www.unenouvelleenergie.fr/stop-a-lincompetence-et-a-la-pretention-dune-technocratie-depassee"
+     },
+     {
+      "label": "Cour des comptes, Les centres éducatifs fermés et les établissements pénitentiaires pour mineurs (observations définitives S2023-0733)",
+      "year": 2023,
+      "url": "https://www.ccomptes.fr/sites/default/files/2023-10/20231016-S2023-0733-Centres-educatifs-fermes-etablissements-penitentiaires-pour-mineurs.pdf"
      }
     ]
    },
@@ -19687,7 +20065,7 @@
      }
     ],
     "indicator": "Personnel non soignant hospitalier ramené à 23-24 % des effectifs",
-    "evidence": "Aides à l'installation : au moins 15 dispositifs, 205 M€ en 2023 ; plusieurs jugées coûteuses et inefficaces, d'autres utiles (Cour des comptes, 2025).",
+    "evidence": "Former plus de médecins : des études qui durent jusqu'à 12 ans, et une hausse qui ne garantit pas leur répartition sur le territoire (Cour des comptes, 2024). Aides à l'installation : au moins 15 dispositifs, 205 M€ en 2023 ; plusieurs jugées coûteuses et inefficaces, d'autres utiles (Cour des comptes, 2025).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -19709,6 +20087,11 @@
       "label": "Weka – Cour des comptes aides installation",
       "year": 2025,
       "url": "https://www.weka.fr/actualite/?p=206876"
+     },
+     {
+      "label": "Cour des comptes, L'accès aux études de santé, quatre ans après la réforme",
+      "year": 2024,
+      "url": "https://www.ccomptes.fr/sites/default/files/2024-12/20241211-Lacces-aux-%C3%A9tudes-de-sante.pdf"
      }
     ]
    },
@@ -19742,7 +20125,7 @@
      }
     ],
     "indicator": "« Superpuissance éducative » en cinq ans (non chiffré)",
-    "evidence": "Chèque-éducation : niveau en hausse (Suède, 2015) ou en baisse (Louisiane, 2018), tri social accru (Chili, 2006) ; contractuels non évalués. Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005), mais redoubler après un échec réduit les chances de diplôme (Cnesco, 2014). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Carte scolaire assouplie : effet global faible, fuite des collèges défavorisés (DEPP, 2013). Groupes de niveau : pas d'amélioration des résultats, et les élèves faibles risquent de perdre l'effet des pairs selon l'OCDE (PISA 2022).",
+    "evidence": "Chèque-éducation : niveau en hausse (Suède, 2015) ou en baisse (Louisiane, 2018), tri social accru (Chili, 2006) ; contractuels non évalués. Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005), mais redoubler après un échec réduit les chances de diplôme (Cnesco, 2014). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Carte scolaire assouplie : effet global faible, fuite des collèges défavorisés (DEPP, 2013). Groupes de niveau : pas d'amélioration des résultats, et les élèves faibles risquent de perdre l'effet des pairs selon l'OCDE (PISA 2022). Orientation : des réunions avec le chef d'établissement pour les élèves faibles de 3e et leurs parents ont réduit redoublement et décrochage de 25 à 40 % (essai aléatoire, France, 2017).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -19806,9 +20189,14 @@
       "url": "https://www.nber.org/papers/w10008"
      },
      {
-      "label": "L'Etudiant – groupes de niveau et recherche",
-      "year": 2024,
-      "url": "https://www.letudiant.fr/educpros/enquetes/lefficacite-des-groupes-de-niveau-contestee-par-les-chercheurs.html"
+      "label": "Goux, Gurgand, Maurin, réunions d'orientation en fin de collège, essai aléatoire dans l'académie de Versailles (Economic Journal)",
+      "year": 2017,
+      "url": "https://www.parisschoolofeconomics.eu/publications-hal/adjusting-your-dreams-high-school-plans-and-dropout-behaviour"
+     },
+     {
+      "label": "OCDE, Résultats du PISA 2022 (volume II), chapitre 4, p. 158-159 : groupes de niveau",
+      "year": 2023,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pisa-2022-results-volume-ii_222a5ef6/a97db61c-en.pdf"
      }
     ]
    },
@@ -19927,7 +20315,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "RIP ADP (2019) : environ 1 million de soutiens pour 4,7 millions requis. Suisse : l'usage du référendum va de pair avec une satisfaction démocratique un peu plus forte, sans effet sur le bien-être (2012). Voile interdit à l'école : diplômes des filles de culture musulmane en hausse après 1994 (IZA, 2019) ; après 2004, effet nul ou négatif selon les études (APSR, 2020) ; aucune étude sur l'université ni sur les dissolutions.",
+    "evidence": "RIP ADP (2019) : environ 1 million de soutiens pour 4,7 millions requis. Suisse : l'usage du référendum va de pair avec une satisfaction démocratique un peu plus forte, sans effet sur le bien-être (2012). Voile interdit à l'école : diplômes des filles de culture musulmane en hausse après 1994 (IZA, 2019) ; après 2004, aucun gain de plus (IZA, 2019) ou scolarité des filles en baisse (APSR, 2020) ; aucune étude sur l'université ni sur les dissolutions.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -20002,7 +20390,7 @@
      }
     ],
     "indicator": "250 à 400 €/mois net selon les interventions (250 € pour 2 500 € de revenu), estimation du camp",
-    "evidence": "Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025). CEPII (2007) : TVA sociale, emplois modestes si ciblée sur les bas salaires, pouvoir d'achat réduit. CDI à indemnités progressives (Italie, 2015) : 8 % des embauches en CDI dues au licenciement moins coûteux (2018) ; contrat unique non évalué. Incertitude politique : moins d'investissement et d'emploi (12 pays, 2016) ; règle de stabilité fiscale non évaluée.",
+    "evidence": "Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025). CEPII (2007) : TVA sociale, emplois modestes si ciblée sur les bas salaires, pouvoir d'achat réduit. CDI à indemnités progressives (Italie, 2015) : 8 % des embauches en CDI dues au licenciement moins coûteux (2018) ; contrat unique non évalué. Incertitude politique : suivie de moins d'investissement (États-Unis), de production et d'emploi (12 pays), sans preuve de causalité (2016) ; règle de stabilité fiscale non évaluée.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -20278,11 +20666,6 @@
       "url": "https://monvote2027.fr/candidat/zemmour"
      },
      {
-      "label": "L'Etudiant – groupes de niveau et recherche",
-      "year": 2024,
-      "url": "https://www.letudiant.fr/educpros/enquetes/lefficacite-des-groupes-de-niveau-contestee-par-les-chercheurs.html"
-     },
-     {
       "label": "Jürges, Schneider, Büchel, examens centraux et acquis des élèves (CESifo WP 939)",
       "year": 2005,
       "url": "https://www.ifo.de/DocDL/cesifo_wp939.pdf"
@@ -20301,6 +20684,11 @@
       "label": "CNews, Zemmour et le niveau scolaire (13/10)",
       "year": 2026,
       "url": "https://www.cnews.fr/france/2026-10-13/niveau-scolaire-francais-que-propose-eric-zemmour-pour-retablir-la-meilleure"
+     },
+     {
+      "label": "OCDE, Résultats du PISA 2022 (volume II), chapitre 4, p. 158-159 : groupes de niveau",
+      "year": 2023,
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pisa-2022-results-volume-ii_222a5ef6/a97db61c-en.pdf"
      }
     ]
    },
@@ -20329,7 +20717,7 @@
      }
     ],
     "indicator": "Électricité française qui « cessera d'être bradée » (non chiffré)",
-    "evidence": "Cour des comptes (2025) : prolonger les réacteurs reste moins cher que le neuf ; coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec. Marché carbone des carburants : +10 à 15 c€ par litre (Institut Montaigne, 2025) ; taxe carbone suédoise : émissions des transports −11 % (2019). RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents.",
+    "evidence": "Cour des comptes (2025) : prolonger les réacteurs reste moins cher que le neuf ; coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec. Marché carbone des carburants (en place en 2028) : +10 à 15 c€ par litre à son entrée en vigueur (Institut Montaigne, 2025) ; taxe carbone suédoise : émissions des transports −11 % (2019). RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -20366,6 +20754,11 @@
       "label": "Andersson, Carbon Taxes and CO2 Emissions: Sweden as a Case Study (AEJ: Economic Policy)",
       "year": 2019,
       "url": "https://www.aeaweb.org/articles?id=10.1257/pol.20170144"
+     },
+     {
+      "label": "Commission européenne, ETS2 : bâtiments, transport routier et autres secteurs (en place en 2028)",
+      "year": 2026,
+      "url": "https://climate.ec.europa.eu/eu-action/carbon-markets/ets2-buildings-road-transport-and-additional-sectors_en"
      },
      {
       "label": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
@@ -23004,7 +23397,8 @@
      "t": "Pour la première génération de CP-CE1 dédoublés, l'avance ne se voyait plus à l'entrée en 6e ; les suivantes gardent un petit gain en maths (DEPP, France, 2026).",
      "s": [
       0,
-      3
+      3,
+      5
      ]
     },
     {
@@ -23040,6 +23434,11 @@
      "l": "DEPP, Repères et références statistiques 2026, chapitre 2 (les établissements)",
      "a": 2026,
      "u": "https://www.education.gouv.fr/sites/default/files/document/2-les-etablissementspdf-519279.pdf"
+    },
+    {
+     "l": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
+     "a": 2026,
+     "u": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
     }
    ],
    "quiz_constat": {
@@ -23821,9 +24220,9 @@
      "u": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
     },
     {
-     "l": "SIES, Note Flash n° 28, Parcoursup 2025 : les propositions d'admission dans l'enseignement supérieur",
-     "a": 2025,
-     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-28-38282.pdf"
+     "l": "SIES, Note Flash n° 26, Parcoursup 2026 : les propositions d'admission dans l'enseignement supérieur",
+     "a": 2026,
+     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-10/NF2_Admission_Parcoursup_2026_def.pdf"
     },
     {
      "l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
@@ -23842,7 +24241,7 @@
     }
    ],
    "quiz_constat": {
-    "t": "Néo-bacheliers : 93,5 % avec une proposition Parcoursup en 2025 (94,5 % en 2024) ; 49,1 % passent en 2e année de licence (SIES).",
+    "t": "Néo-bacheliers : 93,7 % avec une proposition Parcoursup en 2026 (93,5 % en 2025) ; 49,1 % passent en 2e année de licence (SIES).",
     "s": [
      1,
      2
@@ -23915,9 +24314,9 @@
      "u": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
     },
     {
-     "l": "SIES, Note Flash n° 28, Parcoursup 2025 : les propositions d'admission dans l'enseignement supérieur",
-     "a": 2025,
-     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-28-38282.pdf"
+     "l": "SIES, Note Flash n° 26, Parcoursup 2026 : les propositions d'admission dans l'enseignement supérieur",
+     "a": 2026,
+     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-10/NF2_Admission_Parcoursup_2026_def.pdf"
     },
     {
      "l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
@@ -23936,7 +24335,7 @@
     }
    ],
    "quiz_constat": {
-    "t": "Néo-bacheliers : 93,5 % avec une proposition Parcoursup en 2025 (94,5 % en 2024) ; 49,1 % passent en 2e année de licence (SIES).",
+    "t": "Néo-bacheliers : 93,7 % avec une proposition Parcoursup en 2026 (93,5 % en 2025) ; 49,1 % passent en 2e année de licence (SIES).",
     "s": [
      1,
      2
@@ -24003,9 +24402,9 @@
      "u": "https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf"
     },
     {
-     "l": "SIES, Note Flash n° 28, Parcoursup 2025 : les propositions d'admission dans l'enseignement supérieur",
-     "a": 2025,
-     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-28-38282.pdf"
+     "l": "SIES, Note Flash n° 26, Parcoursup 2026 : les propositions d'admission dans l'enseignement supérieur",
+     "a": 2026,
+     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-10/NF2_Admission_Parcoursup_2026_def.pdf"
     },
     {
      "l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
@@ -24024,7 +24423,7 @@
     }
    ],
    "quiz_constat": {
-    "t": "Néo-bacheliers : 93,5 % avec une proposition Parcoursup en 2025 (94,5 % en 2024) ; 49,1 % passent en 2e année de licence (SIES).",
+    "t": "Néo-bacheliers : 93,7 % avec une proposition Parcoursup en 2026 (93,5 % en 2025) ; 49,1 % passent en 2e année de licence (SIES).",
     "s": [
      1,
      2
@@ -24039,13 +24438,13 @@
    "title": "Créer des internats disciplinaires pour les élèves exclus à plusieurs reprises",
    "quiz_text": "Créer des internats disciplinaires pour les élèves exclus à plusieurs reprises",
    "quiz_concret": "Au moins un par académie ; le rectorat y affecte l'élève, qui retourne en classe ordinaire selon son comportement et ses acquis.",
-   "quiz_plus": "Un camarade très perturbateur en primaire réduit de 3 à 4 % le salaire de chacun des autres à 26 ans.",
-   "quiz_moins": "Des établissements créés en 2010 pour les élèves exclus à répétition ont eu des résultats décevants.",
+   "quiz_plus": "Un camarade très perturbateur en primaire réduit de 3 % le salaire de chacun des autres entre 24 et 28 ans.",
+   "quiz_moins": "Des établissements ouverts en 2010 pour les élèves exclus à répétition ont eu des résultats mitigés.",
    "quiz_preuve_pour": "mitigé",
    "quiz_preuve_contre": "faible",
    "quiz_cas_pour": [
     {
-     "t": "Avoir eu en primaire un camarade perturbateur (enfant exposé à des violences familiales) a réduit de 3 à 4 % le salaire à 26 ans de ses camarades (Carrell et al., États-Unis, 2018).",
+     "t": "Avoir eu en primaire un camarade perturbateur (enfant exposé à des violences familiales) dans une classe de 25 a réduit de 3 % le salaire entre 24 et 28 ans de ses camarades (Carrell et al., États-Unis, 2018).",
      "s": [
       1
      ]
@@ -24053,13 +24452,14 @@
    ],
    "quiz_cas_contre": [
     {
-     "t": "Les 16 établissements ouverts en 2010 pour des collégiens exclus à répétition ont eu des résultats « le plus souvent décevants » ; ils ont été abandonnés (inspections générales, France, 2012).",
+     "t": "Sur 120 élèves passés en 2010-2011 par ces établissements pour élèves exclus à répétition, un quart était sans solution en janvier 2012 ; résultats « mitigés », dispositif abandonné (inspections générales, France, 2012).",
      "s": [
+      3,
       2
      ]
     }
    ],
-   "quiz_etudes": "Pas d'évaluation des internats disciplinaires ; l'essai français de 2010, aux résultats souvent décevants, a été arrêté. Un élève perturbateur pèse sur ses camarades (États-Unis).",
+   "quiz_etudes": "Pas d'évaluation des internats disciplinaires ; l'essai français de 2010, aux résultats mitigés, a été arrêté. Un élève perturbateur pèse sur ses camarades (États-Unis).",
    "quiz_src": [
     {
      "l": "DEPP, Note d'information n° 26.03, Les signalements d'incidents graves en 2024-2025 (enquête Sivis)",
@@ -24067,14 +24467,19 @@
      "u": "https://www.education.gouv.fr/sites/default/files/document/Note%20d%26%23039%3BInformation%20n%C2%B0%2026-03-479480.pdf"
     },
     {
-     "l": "Carrell, Hoekstra, Kuka, The Long-Run Effects of Disruptive Peers (NBER w22042, American Economic Review 2018)",
+     "l": "Carrell, Hoekstra, Kuka, The Long-Run Effects of Disruptive Peers (American Economic Review, vol. 108, n° 11)",
      "a": 2018,
-     "u": "https://www.nber.org/papers/w22042"
+     "u": "https://www.aeaweb.org/articles?id=10.1257/aer.20160763"
     },
     {
      "l": "Ministère de l'Éducation nationale, réponse à la question écrite n° 85814 (rapport des inspections générales de juin 2012 sur les établissements de réinsertion scolaire)",
      "a": 2016,
      "u": "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE85814.pdf"
+    },
+    {
+     "l": "Inspections générales (IGEN-IGAENR), Rapport annuel 2012, « Les établissements de réinsertion scolaire : bilan et perspectives » (p. 41-47)",
+     "a": 2012,
+     "u": "https://www.vie-publique.fr/files/rapport/pdf/144000010.pdf"
     }
    ],
    "quiz_constat": {
@@ -24112,7 +24517,7 @@
    ],
    "quiz_cas_contre": [
     {
-     "t": "Les élèves ayant obtenu par tirage au sort un chèque pour une école privée ont perdu 0,4 écart-type en maths (Abdulkadiroglu et al., Louisiane, 2018).",
+     "t": "Les élèves entrés dans une école privée grâce à un chèque tiré au sort ont perdu 0,4 écart-type en maths en un an (Abdulkadiroglu et al., Louisiane, 2018).",
      "s": [
       3
      ]
@@ -24153,7 +24558,7 @@
      "u": "https://www.nber.org/papers/w21839"
     },
     {
-     "l": "Hsieh, Urquiola, When Schools Compete, How Do They Compete? Chile's Nationwide School Voucher Program (NBER w10008 ; Journal of Public Economics 2006)",
+     "l": "Hsieh, Urquiola, When Schools Compete, How Do They Compete? (NBER w10008, 2003 ; publié en 2006 dans le Journal of Public Economics sous un autre titre)",
      "a": 2006,
      "u": "https://www.nber.org/papers/w10008"
     },
@@ -24213,7 +24618,8 @@
      "t": "Pour la première génération de CP-CE1 dédoublés, l'avance ne se voyait plus à l'entrée en 6e ; les suivantes gardent un petit gain en maths (DEPP, France, 2026).",
      "s": [
       0,
-      3
+      3,
+      5
      ]
     }
    ],
@@ -24243,6 +24649,11 @@
      "l": "DEPP, Repères et références statistiques 2026, chapitre 2 (les établissements)",
      "a": 2026,
      "u": "https://www.education.gouv.fr/sites/default/files/document/2-les-etablissementspdf-519279.pdf"
+    },
+    {
+     "l": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
+     "a": 2026,
+     "u": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
     }
    ],
    "quiz_constat": {
@@ -24428,7 +24839,7 @@
      ]
     }
    ],
-   "quiz_etudes": "Une méta-analyse de 30 études (ZEW, 2018) trouve un effet modérateur des règles budgétaires sur les déficits, qui faiblit nettement une fois corrigés les biais.",
+   "quiz_etudes": "Une méta-analyse de 30 études (ZEW, 2016) trouve que les règles budgétaires réduisent les déficits de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, un effet plus faible avec les meilleures méthodes.",
    "quiz_src": [
     {
      "l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
@@ -24449,6 +24860,11 @@
      "l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
      "a": 2026,
      "u": "https://www.insee.fr/fr/statistiques/serie/010777608"
+    },
+    {
+     "l": "Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)",
+     "a": 2016,
+     "u": "https://www.zew.de/PU77836"
     }
    ],
    "quiz_constat": {
@@ -24488,7 +24904,7 @@
      ]
     }
    ],
-   "quiz_etudes": "Une méta-analyse de 30 études (ZEW, 2018) trouve un effet modérateur des règles budgétaires sur les déficits, qui faiblit nettement une fois corrigés les biais.",
+   "quiz_etudes": "Une méta-analyse de 30 études (ZEW, 2016) trouve que les règles budgétaires réduisent les déficits de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, un effet plus faible avec les meilleures méthodes.",
    "quiz_src": [
     {
      "l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
@@ -24509,6 +24925,11 @@
      "l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
      "a": 2026,
      "u": "https://www.insee.fr/fr/statistiques/serie/010777608"
+    },
+    {
+     "l": "Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)",
+     "a": 2016,
+     "u": "https://www.zew.de/PU77836"
     }
    ],
    "quiz_constat": {
@@ -24548,7 +24969,7 @@
      ]
     }
    ],
-   "quiz_etudes": "Une méta-analyse de 30 études (ZEW, 2018) trouve un effet modérateur des règles budgétaires sur les déficits, qui faiblit nettement une fois corrigés les biais.",
+   "quiz_etudes": "Une méta-analyse de 30 études (ZEW, 2016) trouve que les règles budgétaires réduisent les déficits de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, un effet plus faible avec les meilleures méthodes.",
    "quiz_src": [
     {
      "l": "Eurostat, dette publique en % du PIB (gov_10dd_edpt1), Allemagne",
@@ -24569,6 +24990,11 @@
      "l": "Insee, dette trimestrielle des administrations publiques au sens de Maastricht, en points de PIB (série 010777608)",
      "a": 2026,
      "u": "https://www.insee.fr/fr/statistiques/serie/010777608"
+    },
+    {
+     "l": "Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)",
+     "a": 2016,
+     "u": "https://www.zew.de/PU77836"
     }
    ],
    "quiz_constat": {
