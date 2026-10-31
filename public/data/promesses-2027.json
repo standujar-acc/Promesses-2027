@@ -14841,7 +14841,7 @@
     "p10": -51.7,
     "p90": -34.9,
     "realsum": -44.9,
-    "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, TVA unique à 25 %, défense (hausse du budget des armées, sans montant ni date), revenus fonciers au régime du prélèvement forfaitaire unique (taux et niches supprimées en contrepartie non publiés), plan de remise à niveau de la police sur dix ans et budget de la justice porté à la moyenne européenne (montants non publiés), nouveaux centres de rétention (places non publiées), impôt résidentiel universel payé par tous les habitants (taux, assiette et baisses en contrepartie non publiés), réforme de l'assurance chômage pour réduire les dépenses (non détaillée), budgets revus « à partir de zéro » (montant non publié), à confirmer en 2026 : charges supprimées pour les employeurs à domicile au niveau du SMIC et charges patronales négatives pour l'embauche d'allocataires du RSA depuis plus de deux ans (page de programme sans date de rédaction)",
+    "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, défense (hausse du budget des armées, sans montant ni date), revenus fonciers au régime du prélèvement forfaitaire unique (taux et niches supprimées en contrepartie non publiés), plan de remise à niveau de la police sur dix ans et budget de la justice porté à la moyenne européenne (montants non publiés), nouveaux centres de rétention (places non publiées), impôt résidentiel universel payé par tous les habitants (taux, assiette et baisses en contrepartie non publiés), réforme de l'assurance chômage pour réduire les dépenses (non détaillée), budgets revus « à partir de zéro » (montant non publié), à confirmer en 2026 : charges supprimées pour les employeurs à domicile au niveau du SMIC et charges patronales négatives pour l'embauche d'allocataires du RSA depuis plus de deux ans (page de programme sans date de rédaction)",
     "n": 15,
     "cost": -63.7,
     "gain": 22.3,
@@ -14894,8 +14894,7 @@
      "note": "Quotient familial sans plafond et CSG-CRDS déductibles de l'impôt sur le revenu (tribune du 16/04/2026)"
     },
     "tous": [
-     "Baisse des cotisations : 250 à 400 € net par mois promis selon les interventions ; au-delà de la baisse de CSG, aucun paramètre publié : non calculé ici.",
-     "TVA unique, « par exemple » à 25 % (taux non tranché) : hausse possible des prix des produits aujourd'hui à 5,5 % ou 10 %, non calculée ici."
+     "Baisse des cotisations : 250 à 400 € net par mois promis selon les interventions ; au-delà de la baisse de CSG, aucun paramètre publié : non calculé ici."
     ],
     "gel_pct": 1.8,
     "gel_min": 2200,
@@ -16922,7 +16921,7 @@
   "<b>Verdicts.</b> Le verdict porte sur la voie juridique et pratique de la mesure, ni sur son coût ni sur l'écart entre le chiffre annoncé par le camp et notre chiffrage, que le chiffrage montre déjà, pour tous. Faisable : par décret ou par une loi ordinaire (lois de finances et de financement de la Sécurité sociale comprises), avec des paramètres publiés ; une dépense ou une baisse d'impôt ou de cotisations non financée reste faisable, et l'obstacle le dit (« financement non précisé dans la mesure »). Sous conditions : la mesure dépend d'une condition identifiée hors de cette décision (négociation ou accord de tiers : partenaires sociaux, collectivités, contrats en cours ; obligation européenne à remplir par d'autres moyens ; capacités à bâtir : recrutements, places, constructions, moyens de contrôle ; rendement ou contenu d'une autre mesure ; risque de censure sur un point précis), ou d'un paramètre clé non publié (mesure non chiffrable, objectif sans échéance). Très difficile : accord extérieur nécessaire, à l'unanimité des États de l'UE ou d'autres États, ou censure probable au vu de décisions ou d'avis sur des dispositifs proches. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats ; une fiche qui réunit plusieurs mesures prend le verdict de la plus contraignante.",
   "<b>Sources.</b> 337 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire (repéré par son nom de domaine exact, et signalé partout où il est cité : estimations, données d'entrée, Vie quotidienne). Une source a une seule année, celle de sa publication, et un seul titre (son auteur et sa date), partout où elle est citée ; dans les repères « où en est la France », l'année indiquée est celle du chiffre (« données 2025 »).",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
-  "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 5 propositions publiées par candidat. Une proposition est « vérifiable » (précise) si elle donne un chiffre, une échéance ou un moyen juridique précis, c'est-à-dire un changement de droit nommé (sortie du commandement intégré de l'OTAN, fin du droit de veto, mandat de l'ONU obligatoire, instrument ou accord nommé et ce qui y change) ; sinon c'est une « intention » (un objectif, une orientation, ou une création sans paramètre : plan, pôle, fonds). La même règle s'applique à tous ; une proposition de 2022 que le camp n'a pas reprise en 2026 est signalée « non reconfirmée ». Quand un thème compte plus de cinq propositions, on affiche, dans le même ordre pour tous : d'abord celles de 2026 (les non reconfirmées passent après), parmi elles les précises avant les intentions, puis les plus récentes ; à égalité ou à date inconnue, l'ordre déjà affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce) ; une proposition remplacée par sa version précise n'est pas gardée en double, et une même proposition n'est affichée que dans un thème, le plus précis (l'énergie et le nucléaire dans « environnement »). Les propositions hors affichage restent notées dans le registre de suivi du projet (dépôt public). L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Elle est calculée à partir des lectures affichées : chaque lecture d'étude, la même pour tous les candidats qui proposent ce type de mesure, a un niveau au regard de l'effet recherché (prouvé : les évaluations montrent cet effet ; mitigé : effet partiel, faible ou contrasté, obtenu avec un effet contraire notable, ou montré seulement pour une mesure voisine ; non démontré : pas d'effet, effet inverse, ou seulement un coût mesuré) ; une lecture qui constate l'absence d'évaluation compte « pas d'étude » ; une lecture qui ne donne qu'un fait (droit existant, situation de départ) n'a pas de niveau. Aucune lecture d'étude ni constat : « pas d'étude » ; toutes les lectures au même niveau : ce niveau ; sinon : « mitigée » (preuves partielles ou contrastées). Ainsi, une étiquette extrême, « prouvée » comme « non démontrée », ne tient pas sur une seule lecture quand une autre lecture du même thème constate l'absence d'évaluation. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
+  "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 5 propositions publiées par candidat. Une proposition est « vérifiable » (précise) si elle donne un chiffre, une échéance ou un moyen juridique précis, c'est-à-dire un changement de droit nommé (sortie du commandement intégré de l'OTAN, fin du droit de veto, mandat de l'ONU obligatoire, instrument ou accord nommé et ce qui y change) ; sinon c'est une « intention » (un objectif, une orientation, ou une création sans paramètre : plan, pôle, fonds). La même règle s'applique à tous. Chaque proposition affichée est attribuée au candidat par au moins une source qui parle pour lui : le candidat lui-même (discours, entretien, tribune, réseau officiel) ou son site de campagne ; un document officiel de son parti ou de son groupe publié après sa désignation, ou repris par lui ; une personne au rôle officiel dans sa campagne ; un média reconnu qui le cite ou rapporte précisément ses propos, datés, ou deux médias reconnus indépendants qui rapportent la même proposition ; pour une proposition de 2022, une analyse d'une institution reconnue ou d'un média reconnu qui décrit son programme officiel. Un agrégateur, un site non officiel, une seule reprise de presse sans citation ou une étude ne suffisent pas : sans autre source, la proposition n'est pas affichée (le contrôle est automatique, proposition par proposition), et une source qui parle pour le candidat remplace l'agrégateur ou le site non officiel qui portait la même proposition. Une proposition est de 2026 si une telle source la porte en 2026 (site de campagne, document du parti publié depuis la désignation, entretien) ; sinon elle est signalée « non reconfirmée », chez tous ; une page sans date ne reconfirme pas, sauf sur le site de campagne du candidat, ouvert pour cette élection, et quand une partie seulement d'une proposition est redite en 2026, les deux parties sont affichées séparément.Quand un thème compte plus de cinq propositions, on affiche, dans le même ordre pour tous : d'abord celles de 2026 (les non reconfirmées passent après), parmi elles les précises avant les intentions, puis les plus récentes ; à égalité ou à date inconnue, l'ordre déjà affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce) ; une proposition remplacée par sa version précise n'est pas gardée en double, et une même proposition n'est affichée que dans un thème, le plus précis (l'énergie et le nucléaire dans « environnement »). Les propositions hors affichage restent notées dans le registre de suivi du projet (dépôt public). L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Elle est calculée à partir des lectures affichées : chaque lecture d'étude, la même pour tous les candidats qui proposent ce type de mesure, a un niveau au regard de l'effet recherché (prouvé : les évaluations montrent cet effet ; mitigé : effet partiel, faible ou contrasté, obtenu avec un effet contraire notable, ou montré seulement pour une mesure voisine ; non démontré : pas d'effet, effet inverse, ou seulement un coût mesuré) ; une lecture qui constate l'absence d'évaluation compte « pas d'étude » ; une lecture qui ne donne qu'un fait (droit existant, situation de départ) n'a pas de niveau. Aucune lecture d'étude ni constat : « pas d'étude » ; toutes les lectures au même niveau : ce niveau ; sinon : « mitigée » (preuves partielles ou contrastées). Ainsi, une étiquette extrême, « prouvée » comme « non démontrée », ne tient pas sur une seule lecture quand une autre lecture du même thème constate l'absence d'évaluation. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). La fin des certificats d'économies d'énergie compte −7 c€ par litre de carburant, TTC (coût moyen officiel de 2022 à 2025), la même hypothèse pour tous les candidats qui la proposent. Une hausse publiée en fourchette (« jusqu'à ») compte pour son montant minimal, l'autre borne étant donnée en note (salaires des enseignants, la même règle pour tous les candidats qui en proposent) ; un gel ne s'applique qu'aux prestations que le programme nomme. Ce sont des ordres de grandeur.",
   "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Les duels portent sur les mesures des fiches (chiffrées ou non chiffrables) et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant. Dessous, un constat : la réalité française que la proposition veut traiter, avec le chiffre officiel (le dernier chiffre officiel et son évolution en %, même forme pour toutes ; les problèmes réels sont dits clairement, sans cause ni jugement) ; une mesure institutionnelle ou d'organisation (Constitution, référendum, organisation de l'État, des agences ou des établissements), ou une mesure dont aucune série officielle ne mesure ce qu'elle vise, n'a pas de constat, avec la même règle pour toutes. Puis « Pour » et « Contre » donnent en une ligne le meilleur argument réel de ceux qui la défendent et de ceux qui la critiquent : un fait que la proposition ne dit pas d'elle-même (ce qui s'est passé quand elle a été appliquée, un ordre de grandeur), jamais la proposition redite autrement ; avec la force des preuves de chacun (solides, mitigées, faibles, pas d'étude). Sous le duel, des cas réels sourcés (en France d'abord) et l'état des études. Même méthode pour toutes les mesures, sans fausse symétrie : on n'invente ni argument ni exemple pour équilibrer, et un exemple n'est retenu que s'il est pertinent, observé et de source reconnue ; on montre où penchent les faits et le lecteur juge ; les mesures du même type ont les mêmes cas et les mêmes niveaux de preuve. Le « Contre » tient compte du reste du programme : si une autre mesure du même candidat répond à la critique, elle est signalée. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit ; « Les deux » compte la moyenne des deux effets), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
   "<b>Sondages et contexte.</b> Intentions de vote au 1er tour : moyenne de 6 instituts (Cluster17 pour Politico, du 19 au 22/10 ; Elabe pour BFMTV et La Tribune Dimanche, du 14 au 16/10 ; Ifop-Fiducial pour LCI, Le Figaro et Sud Radio, du 17 au 19/10 ; Ipsos BVA pour Le Parisien, du 21 au 22/10 ; OpinionWay pour CNews, du 21 au 22/10 ; Toluna Harris Interactive pour M6 et RTL, du 19 au 21/10), dernière vague de chacun dont le terrain s'est achevé dans les 15 jours précédant le 31/10/2026, 15e jour compris ; pour chaque institut, milieu de la fourchette des hypothèses où le candidat est testé, même poids pour chaque institut. L'ordre des candidats suit cette moyenne, et la date de la moyenne est affichée à côté des intentions de vote. Source : notices de la Commission des sondages ; sondages masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
@@ -17034,6 +17033,10 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "31/10/2026",
+   "text": "Vie quotidienne : sources. Chaque proposition s'appuie désormais sur au moins une source qui parle pour le candidat (lui-même, son site, son parti, un média qui le cite), vérifiée automatiquement ; les sites de synthèse et les sites non officiels sont retirés quand une telle source existe, au profit des documents officiels (programme de 2022 du RN, « Acte I » de Place publique, sites de campagne, Nouvelle Énergie…). Retirées faute de source qui parle pour le candidat : Le Pen, instruments européens de défense ; Mélenchon, scolarité obligatoire à 18 ans ; Attal, logement intermédiaire dans les quotas et ZAN simplifié ; Retailleau, suppression du juge d'application des peines et contribution à l'UE ; Lisnard, TVA unique à 25 % (aussi retirée de la liste des mesures non comptées et du simulateur) ; Zemmour, vente de HLM, Livret A, 40 000 soldats, directive sur les bâtiments, sortie de la CEDH et loi Avia, propositions du seul programme européen de 2024 ou de sites de synthèse ; la présomption de légitime défense (Le Pen, 2022) sort de l'affichage, au-delà de cinq propositions. Quiz : les aides au privé de Glucksmann (devenues une intention) et le logement intermédiaire d'Attal n'y figurent plus. Textes alignés sur les sources : renouvelables (5,6 Md€ en 2027) et contribution nette à l'UE (Le Pen), pays sûrs (Philippe), aides au privé sans montant (Glucksmann), prix de l'électricité stables cinq ans et délai de deux mois pour les porteurs de projets (Attal), huit EPR2 si les six premiers avancent et déchéance pour les pilleurs (Retailleau), article 55 visant la CEDH, CFE des médecins libéraux et ZAN « tel qu'il est conçu » (Lisnard), éolien remplacé par la fin du soutien aux renouvelables intermittentes du plan repris en 2026 et voitures thermiques (Zemmour). Redites en 2026 : police de proximité, Sécurité sociale intégrale, logements publics et meublés touristiques (Mélenchon), encadrement des loyers (Glucksmann), suppression du juge d'application des peines (Attal), peines minimales (Le Pen) ; non reconfirmées : remises de peine (Le Pen), démantèlement des BAC (Mélenchon), plans régionaux pour les renouvelables (Glucksmann), terrains publics (Lisnard), marché carbone des carburants (Zemmour). Lectures d'études ajustées en conséquence, la même pour un même type de proposition."
+  },
   {
    "date": "31/10/2026",
    "text": "Affichage et sources : « Qu'est-ce qui peut passer ? » et la répartition des verdicts d'un candidat portent sur les mêmes mesures que les totaux, sans les mesures non confirmées ni les doublons (Glucksmann et Zemmour en impôts, Lisnard en dépense publique). Date de la moyenne des sondages affichée avec les intentions de vote. L'étiquette « agrégateur » n'est plus posée sur franceinfo et figure aussi sur les données d'entrée des fiches ; une source a la même année et le même titre partout (Public Sénat, Sénat, MoneyVox, Capital) ; dans les repères, l'année affichée est celle du chiffre. Nombres et unités ne sont plus coupés en fin de ligne. Historique regroupé par sujet, une entrée par sujet et par jour (29 et 31/10). Liens : les 17 adresses restées sans réponse au contrôle automatique rouvertes ; deux étaient mortes et sont remplacées (annexe 3 du PLFSS 2025 pour la base de la CSG ; pour Lisnard, compte rendu officiel du meeting de Saint-Raphaël, le PDF du discours n'étant plus en ligne)."
@@ -17267,12 +17270,12 @@
       "old": false
      },
      {
-      "text": "Rétablir les peines planchers, supprimer les remises de peine",
+      "text": "Peines minimales (peines planchers) et comparution immédiate des interpellés",
       "verifiable": true,
-      "old": true
+      "old": false
      },
      {
-      "text": "Présomption de légitime défense pour les forces de l'ordre",
+      "text": "Supprimer les remises de peine",
       "verifiable": true,
       "old": true
      }
@@ -17281,11 +17284,6 @@
     "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Nouvelles places de prison vite comblées (Sénat, 2023). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée.",
     "evidence_level": "mitigee",
     "sources": [
-     {
-      "label": "Votons 2027, programme RN (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/le-pen/programme"
-     },
      {
       "label": "LCP, sécurité-justice des candidats",
       "year": 2022,
@@ -17335,6 +17333,11 @@
       "label": "Rassemblement national, pétition « Face au chaos, la France en ordre » (octobre)",
       "year": 2026,
       "url": "https://rassemblementnational.fr/petition/face-au-chaos-la-france-en-ordre"
+     },
+     {
+      "label": "Rassemblement national, « 22 mesures pour 2022 » (programme présidentiel de 2022)",
+      "year": 2022,
+      "url": "https://rassemblementnational.fr/22-mesures"
      }
     ]
    },
@@ -17362,11 +17365,6 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "Votons 2027, programme RN (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/le-pen/programme"
-     },
-     {
       "label": "Quotidien du Médecin, Le Pen santé",
       "year": 2026,
       "url": "https://www.lequotidiendumedecin.fr/sante-societe/politique-de-sante/deserts-medicaux-numerus-clausus-debureaucratisation-de-lhopital-marine-le-pen-sempare-de-la-sante"
@@ -17380,6 +17378,11 @@
       "label": "AFP, Cour des comptes déserts médicaux",
       "year": 2024,
       "url": "https://www.macommune.info/deserts-medicaux-des-mesures-fragmentaires-et-pas-assez-ciblees-selon-la-cour-des-comptes"
+     },
+     {
+      "label": "Rassemblement national, « 22 mesures pour 2022 » (programme présidentiel de 2022)",
+      "year": 2022,
+      "url": "https://rassemblementnational.fr/22-mesures"
      }
     ]
    },
@@ -17422,11 +17425,6 @@
       "url": "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299"
      },
      {
-      "label": "Votons 2027, programme RN (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/le-pen/programme"
-     },
-     {
       "label": "75 Secondes, évaluation uniforme",
       "year": 2026,
       "url": "https://www.75secondes.fr/actualites/luniforme-a-lecole-produit-des-effets-decevants-selon-une-premiere-etude"
@@ -17465,6 +17463,16 @@
       "label": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
       "year": 2026,
       "url": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
+     },
+     {
+      "label": "Rassemblement national, « 22 mesures pour 2022 » (programme présidentiel de 2022)",
+      "year": 2022,
+      "url": "https://rassemblementnational.fr/22-mesures"
+     },
+     {
+      "label": "Rassemblement national, livret « L'école » (programme présidentiel de 2022)",
+      "year": 2022,
+      "url": "https://rassemblementnational.fr/documents/projet/projet-l-ecole.pdf"
      }
     ]
    },
@@ -17492,16 +17500,6 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "Les Echos, RN et PPE",
-      "year": 2026,
-      "url": "https://www.syndicat-energies-renouvelables.fr/wp-content/uploads/2026/02/Les-Echos-11-02-2026-Page-7.pdf"
-     },
-     {
-      "label": "Votons 2027, programme RN (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/le-pen/programme"
-     },
-     {
       "label": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
       "year": 2025,
       "url": "https://www.ccomptes.fr/fr/publications/la-filiere-epr-une-dynamique-nouvelle-des-risques-persistants"
@@ -17510,6 +17508,16 @@
       "label": "RTE, Futurs énergétiques 2050, résumé exécutif (vie-publique.fr)",
       "year": 2021,
       "url": "https://vie-publique.fr/files/rapports/fichiers_joints/282232-resume-executif.pdf"
+     },
+     {
+      "label": "Rassemblement national, « 22 mesures pour 2022 » (programme présidentiel de 2022)",
+      "year": 2022,
+      "url": "https://rassemblementnational.fr/22-mesures"
+     },
+     {
+      "label": "Les Echos, RN et PPE (11/02), copie du Syndicat des énergies renouvelables",
+      "year": 2026,
+      "url": "https://www.syndicat-energies-renouvelables.fr/wp-content/uploads/2026/02/Les-Echos-11-02-2026-Page-7.pdf"
      }
     ]
    },
@@ -17587,11 +17595,6 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "Votons 2027, programme RN (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/le-pen/programme"
-     },
-     {
       "label": "La Croix/AMU, le référendum (copie archivée)",
       "year": 2024,
       "url": "https://web.archive.org/web/20241104170231/https://dice.univ-amu.fr/sites/dice.univ-amu.fr/files/article/article_marthe.pdf"
@@ -17615,6 +17618,11 @@
       "label": "Europe 1, Objectif Élysée 2027 (15/10)",
       "year": 2026,
       "url": "https://www.europe1.fr/politique/en-direct-interdiction-du-voile-ia-exclusion-des-eleves-responsables-de-degradations-ce-quil-faut-retenir-de-linterview-de-marine-le-pen-dans-objectif-elysee-2027-1151948"
+     },
+     {
+      "label": "Rassemblement national, « 22 mesures pour 2022 » (programme présidentiel de 2022)",
+      "year": 2022,
+      "url": "https://rassemblementnational.fr/22-mesures"
      }
     ]
    },
@@ -17622,7 +17630,7 @@
     "theme": "economie",
     "proposals": [
      {
-      "text": "Supprimer les subventions aux renouvelables : 5 Md€ dès la 1re année",
+      "text": "Supprimer les tarifs préférentiels des renouvelables intermittentes : 5,6 Md€ en 2027",
       "verifiable": true,
       "old": false
      },
@@ -17646,11 +17654,6 @@
     "evidence": "RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents. Règle d'or : déficit réduit de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, effet plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023). Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025).",
     "evidence_level": "mitigee",
     "sources": [
-     {
-      "label": "Planète Grandes Écoles (contre-budget RN) (agrégateur)",
-      "year": 2026,
-      "url": "https://www.planetegrandesecoles.com/budget-marine-le-pen-2027-mesures-contre-budget-rn"
-     },
      {
       "label": "Europe 1, contre-budget",
       "year": 2026,
@@ -17695,6 +17698,11 @@
       "label": "Cour constitutionnelle fédérale allemande, communiqué n° 101/2023",
       "year": 2023,
       "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/EN/2023/bvg23-101.html"
+     },
+     {
+      "label": "Acteurs publics, contre-budget du RN (6/10)",
+      "year": 2026,
+      "url": "https://acteurspublics.fr/articles/la-reforme-de-letat-et-des-collectivites-au-coeur-des-economies-programmees-par-le-rn/"
      }
     ]
    },
@@ -17702,17 +17710,12 @@
     "theme": "rayonnement",
     "proposals": [
      {
-      "text": "Plafonner la contribution française au budget de l'UE à 5 Md€",
+      "text": "Plafonner la contribution nette de la France au budget de l'UE à 5 Md€ par an",
       "verifiable": true,
       "old": false
      },
      {
       "text": "Sortir du commandement intégré de l'OTAN",
-      "verifiable": true,
-      "old": false
-     },
-     {
-      "text": "Refuser les instruments européens de défense : FED, EDIP, SAFE",
       "verifiable": true,
       "old": false
      }
@@ -17721,16 +17724,6 @@
     "evidence": "Rapport Védrine (2012) : effets du retour dans le commandement intégré de l'OTAN mitigés ; une nouvelle sortie réduirait les leviers d'influence de la France. Baisser la contribution à l'UE demande l'unanimité.",
     "evidence_level": "mitigee",
     "sources": [
-     {
-      "label": "Planète Grandes Écoles (contre-budget RN) (agrégateur)",
-      "year": 2026,
-      "url": "https://www.planetegrandesecoles.com/budget-marine-le-pen-2027-mesures-contre-budget-rn"
-     },
-     {
-      "label": "ISS, défense du RN",
-      "year": 2026,
-      "url": "https://www.institut-sciences-strategiques.org/france/la-politique-etrangere-et-la-defense-du-rassemblement-national-avant-2027/"
-     },
      {
       "label": "Europe 1, contre-budget",
       "year": 2026,
@@ -17745,6 +17738,21 @@
       "label": "Assemblée nationale, rapport n° 3781 sur la décision relative aux ressources propres de l'UE (art. 311 du traité sur le fonctionnement de l'UE)",
       "year": 2021,
       "url": "https://www.assemblee-nationale.fr/dyn/15/rapports/cion_afetr/l15b3781_rapport-fond.pdf"
+     },
+     {
+      "label": "Euronews, conférence de presse à Bruxelles (14/10)",
+      "year": 2026,
+      "url": "https://www.euronews.com/2026/10/14/le-pen-lands-in-brussels-lashing-out-at-the-european-commission"
+     },
+     {
+      "label": "LCP, contribution de la France à l'UE (24/10)",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/taxer-les-multinationales-pour-financer-l-europe-le-debat-est-relance-444232"
+     },
+     {
+      "label": "Reuters via The Star, entretien sur BFMTV (22/05)",
+      "year": 2026,
+      "url": "https://www.thestar.com.my/news/world/2026/05/23/le-pen-says-france-should-quit-nato-command-structure"
      }
     ]
    }
@@ -17754,14 +17762,19 @@
     "theme": "securite",
     "proposals": [
      {
-      "text": "Rétablir la police de proximité, démanteler les BAC",
-      "verifiable": true,
-      "old": true
+      "text": "Rétablir la police de proximité",
+      "verifiable": false,
+      "old": false
      },
      {
       "text": "Dissoudre la BRAV-M, interdire LBD et grenades, remplacer l'IGPN",
       "verifiable": true,
       "old": false
+     },
+     {
+      "text": "Démanteler les BAC",
+      "verifiable": true,
+      "old": true
      },
      {
       "text": "Mécanisme contraignant de régulation carcérale contre la surpopulation",
@@ -17773,11 +17786,6 @@
     "evidence": "Police de proximité : baisse limitée de la délinquance (Gill, 2014), sentiment d'insécurité réduit. Régulation carcérale : pas d'évaluation française identifiée.",
     "evidence_level": "mitigee",
     "sources": [
-     {
-      "label": "Votons 2027, sécurité LFI (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/melenchon/programme/securite"
-     },
      {
       "label": "AFP/La Libre, LFI et la police",
       "year": 2026,
@@ -17792,6 +17800,26 @@
       "label": "Police.be, police et criminalité",
       "year": 2022,
       "url": "https://www.police.be/5337/node/19655"
+     },
+     {
+      "label": "Mélenchon 2027, synthèse des contributions, chapitre 4 (17/07)",
+      "year": 2026,
+      "url": "https://melenchon2027.fr/programme/synthese-des-contributions/chapitre-4-etendre-le-domaine-de-la-liberte/"
+     },
+     {
+      "label": "Mélenchon 2027, synthèse des contributions, chapitre 7 (17/07)",
+      "year": 2026,
+      "url": "https://melenchon2027.fr/programme/synthese-des-contributions/chapitre-7-la-force-de-lentraide-2/"
+     },
+     {
+      "label": "Institut Montaigne, propositions du candidat (présidentielle 2022)",
+      "year": 2022,
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon"
+     },
+     {
+      "label": "Assemblée nationale, amendement n° 23 du groupe LFI cosigné par J.-L. Mélenchon (16/03/2021)",
+      "year": 2021,
+      "url": "https://www.assemblee-nationale.fr/dyn/15/amendements/3973/AN/23.pdf"
      }
     ]
    },
@@ -17811,7 +17839,7 @@
      {
       "text": "« 100 % Sécu » : soins prescrits remboursés intégralement",
       "verifiable": true,
-      "old": true
+      "old": false
      }
     ],
     "indicator": "Soins publics à moins de 30 minutes de chaque habitant",
@@ -17824,16 +17852,6 @@
       "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
      },
      {
-      "label": "Repère 2027, santé (agrégateur)",
-      "year": 2026,
-      "url": "https://repere2027.fr/programmes/sante/"
-     },
-     {
-      "label": "Votons 2027, programme LFI (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/melenchon/programme"
-     },
-     {
       "label": "Quotidien du Médecin, Irdes zonage infirmier",
       "year": 2022,
       "url": "https://pediatrie.lequotidiendumedecin.fr/sante-societe/politique-de-sante/faut-il-sinspirer-du-zonage-infirmier-pour-reguler-linstallation-des-medecins-generalistes"
@@ -17842,6 +17860,16 @@
       "label": "AFP, Cour des comptes déserts médicaux",
       "year": 2024,
       "url": "https://www.macommune.info/deserts-medicaux-des-mesures-fragmentaires-et-pas-assez-ciblees-selon-la-cour-des-comptes"
+     },
+     {
+      "label": "Mélenchon 2027, synthèse des contributions (17/07)",
+      "year": 2026,
+      "url": "https://melenchon2027.fr/synthese-des-contributions/"
+     },
+     {
+      "label": "Profession de foi du candidat, version FALC (présidentielle 2022)",
+      "year": 2022,
+      "url": "https://melenchon.fr/wp-content/uploads/2022/04/PF_Jean-Luc-Melenchon_FALC.pdf"
      }
     ]
    },
@@ -17862,11 +17890,6 @@
       "text": "Transport scolaire limité à 15 minutes, écoles à classe unique maintenues",
       "verifiable": true,
       "old": false
-     },
-     {
-      "text": "Scolarité obligatoire jusqu'à 18 ans",
-      "verifiable": true,
-      "old": true
      }
     ],
     "indicator": null,
@@ -17877,11 +17900,6 @@
       "label": "Mélenchon 2027, plan ruralités",
       "year": 2026,
       "url": "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
-     },
-     {
-      "label": "Votons 2027, programme LFI (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/melenchon/programme"
      },
      {
       "label": "Beuchert et al., regroupements d'écoles au Danemark (CESifo WP 6082, Economics of Education Review)",
@@ -17949,9 +17967,9 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "Votons 2027, programme LFI (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/melenchon/programme"
+      "label": "Institut Montaigne, propositions du candidat (présidentielle 2022)",
+      "year": 2022,
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon"
      },
      {
       "label": "Haut Conseil pour le climat, rapport annuel 2026",
@@ -17976,12 +17994,12 @@
      {
       "text": "200 000 logements publics par an pendant cinq ans",
       "verifiable": true,
-      "old": true
+      "old": false
      },
      {
       "text": "Plafonner les meublés touristiques à 60 jours par an",
       "verifiable": true,
-      "old": true
+      "old": false
      }
     ],
     "indicator": "700 000 logements rénovés par an",
@@ -18007,6 +18025,11 @@
       "label": "Cour des comptes, encadrement des loyers",
       "year": 2026,
       "url": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+     },
+     {
+      "label": "Mélenchon 2027, plan « BTP et logement » (24/09)",
+      "year": 2026,
+      "url": "https://melenchon2027.fr/programme/plans-investissement/btp-logement/"
      }
     ]
    },
@@ -18039,16 +18062,6 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "Mélenchon 2027, livre-programme",
-      "year": 2026,
-      "url": "https://melenchon2027.fr/programme2025/livre/"
-     },
-     {
-      "label": "Votons 2027, programme LFI (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/melenchon/programme"
-     },
-     {
       "label": "Mélenchon 2027, chantier institutions",
       "year": 2025,
       "url": "https://melenchon2027.fr/?p=17872"
@@ -18072,6 +18085,16 @@
       "label": "J. Curtice, What Scotland Thinks : participation des 16-17 ans au référendum de 2014 (sondage ICM pour la Commission électorale)",
       "year": 2014,
       "url": "https://www.whatscotlandthinks.org/2014/12/many-16-17-year-olds-voted/"
+     },
+     {
+      "label": "Mélenchon 2027, synthèse des contributions, chapitre 1 (17/07)",
+      "year": 2026,
+      "url": "https://melenchon2027.fr/programme/synthese-des-contributions/chapitre-1-le-pouvoir-au-peuple/"
+     },
+     {
+      "label": "Institut Montaigne, propositions du candidat (présidentielle 2022)",
+      "year": 2022,
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon"
      }
     ]
    },
@@ -18291,11 +18314,6 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "Repère 2027, santé (agrégateur)",
-      "year": 2026,
-      "url": "https://repere2027.fr/programmes/sante/"
-     },
-     {
       "label": "Quotidien du Médecin, Philippe prévention",
       "year": 2026,
       "url": "https://www.lequotidiendumedecin.fr/sante-societe/politique-de-sante/la-prevention-le-grand-retard-francais-cingle-edouard-philippe-candidat-lelection-presidentielle"
@@ -18309,6 +18327,11 @@
       "label": "Cour des comptes, L'accès aux études de santé, quatre ans après la réforme",
       "year": 2024,
       "url": "https://www.ccomptes.fr/sites/default/files/2024-12/20241211-Lacces-aux-%C3%A9tudes-de-sante.pdf"
+     },
+     {
+      "label": "Site Édouard Philippe, « Pour une France plus prospère »",
+      "year": 2026,
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
      }
     ]
    },
@@ -18441,6 +18464,11 @@
       "url": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE810"
      },
      {
+      "label": "Site de campagne, France plus sûre",
+      "year": 2026,
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+     },
+     {
       "label": "Haut Conseil pour le climat, rapport annuel 2026",
       "year": 2026,
       "url": "https://www.hautconseilclimat.fr/publications/dangers-climatiques-la-france-face-a-ses-responsabilites/"
@@ -18466,14 +18494,14 @@
       "url": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ"
      },
      {
-      "label": "Echos Plus, projet Philippe",
-      "year": 2026,
-      "url": "https://echosplus.com/2026/10/09/edouard-philippe-ce-que-ses-propositions-changeraient-pour-les-salaries-et-les-familles/"
-     },
-     {
       "label": "IPP, aides à l'accession",
       "year": 2016,
       "url": "https://shs.hal.science/halshs-02514699v1/file/R16-accession-propriete-rapport-IPP-decembre2016.pdf"
+     },
+     {
+      "label": "Site Édouard Philippe, « Pour une France plus attentive à ses enfants »",
+      "year": 2026,
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
      }
     ]
    },
@@ -18514,11 +18542,6 @@
       "label": "Site de campagne, France plus sûre",
       "year": 2026,
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
-     },
-     {
-      "label": "Votons 2027, institutions Philippe (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/philippe/programme/institutions"
      },
      {
       "label": "Conseil supérieur de la magistrature, rapport d'activité 2025 (chiffres clés)",
@@ -18621,7 +18644,7 @@
       "old": false
      },
      {
-      "text": "Liste européenne commune de pays sûrs, sans droit d'asile",
+      "text": "Liste de pays sûrs votée chaque année par le Parlement et liste commune de l'UE, sans droit d'asile pour leurs ressortissants",
       "verifiable": true,
       "old": false
      }
@@ -18639,6 +18662,11 @@
       "label": "Euronews, programme",
       "year": 2026,
       "url": "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ"
+     },
+     {
+      "label": "Site de campagne, France plus sûre",
+      "year": 2026,
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
      }
     ]
    }
@@ -18678,11 +18706,6 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "WikiGlucksmann (non officiel), Acte I",
-      "year": 2026,
-      "url": "https://www.wikiglucksmann.fr/programme.html"
-     },
-     {
       "label": "Public Sénat, Glucksmann et narcotrafic",
       "year": 2025,
       "url": "https://www.publicsenat.fr/actualites/politique/narcotrafic-raphael-glucksmann-defend-une-politique-sans-naivete-aucune-sur-la-securite"
@@ -18711,6 +18734,11 @@
       "label": "LCP, projet de loi adopté au Sénat le 28/10",
       "year": 2026,
       "url": "https://lcp.fr/actualites/projet-de-loi-casseurs-payeurs-le-texte-transmis-a-l-assemblee-apres-son-adoption-au"
+     },
+     {
+      "label": "Place publique, « Acte I : notre vision pour la France » (juin 2025)",
+      "year": 2025,
+      "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
      }
     ]
    },
@@ -18743,16 +18771,6 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "WikiGlucksmann (non officiel), Acte I",
-      "year": 2026,
-      "url": "https://www.wikiglucksmann.fr/programme.html"
-     },
-     {
-      "label": "WikiGlucksmann, synthèse PDF (non officiel)",
-      "year": 2026,
-      "url": "https://www.wikiglucksmann.fr/programme-raphael-glucksmann-2027.pdf"
-     },
-     {
       "label": "Irdes QES 247, maisons de santé",
       "year": 2020,
       "url": "https://www.irdes.fr/recherche/questions-d-economie-de-la-sante/247-les-maisons-de-sante-attirent-elles-les-jeunes-medecins-generalistes-dans-les-zones-sous-dotees-en-offre-de-soins.pdf"
@@ -18761,6 +18779,11 @@
       "label": "Place publique, plan de sortie de crise du candidat (22/10)",
       "year": 2026,
       "url": "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
+     },
+     {
+      "label": "Place publique, « Acte I : notre vision pour la France » (juin 2025)",
+      "year": 2025,
+      "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
      }
     ]
    },
@@ -18773,8 +18796,8 @@
       "old": false
      },
      {
-      "text": "Conditionner les aides au privé (10 Md€/an) à la mixité sociale",
-      "verifiable": true,
+      "text": "Conditionner les aides au privé sous contrat à la mixité sociale",
+      "verifiable": false,
       "old": false
      },
      {
@@ -18796,11 +18819,6 @@
       "label": "Public Sénat, propositions Glucksmann",
       "year": 2026,
       "url": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"
-     },
-     {
-      "label": "WikiGlucksmann (non officiel), école",
-      "year": 2026,
-      "url": "https://www.wikiglucksmann.fr/programme.html"
      },
      {
       "label": "Insee Analyses n° 87, prime REP+ et vœux de mutation des enseignants",
@@ -18841,6 +18859,26 @@
       "label": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
       "year": 2026,
       "url": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
+     },
+     {
+      "label": "LCP, premières lignes du programme",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+     },
+     {
+      "label": "France Inter, Franc-jeu (30/08)",
+      "year": 2026,
+      "url": "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-30-aout-2026-6196033"
+     },
+     {
+      "label": "LCP, dernier débat de la primaire (5/10)",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat"
+     },
+     {
+      "label": "Place publique, plan de sortie de crise du candidat (22/10)",
+      "year": 2026,
+      "url": "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
      }
     ]
    },
@@ -18863,9 +18901,14 @@
       "old": true
      },
      {
-      "text": "Garder le nucléaire, construire de nouvelles unités, plan régional renouvelables",
+      "text": "Garder le nucléaire, construire de nouvelles unités",
       "verifiable": false,
       "old": false
+     },
+     {
+      "text": "Plans régionaux d'investissement dans les renouvelables",
+      "verifiable": false,
+      "old": true
      }
     ],
     "indicator": "1 million de ménages modestes équipés, coût estimé à 6 Md€",
@@ -18876,11 +18919,6 @@
       "label": "AFP/La Gazette, Glucksmann à Cléon",
       "year": 2026,
       "url": "https://www.lagazettefrance.fr/article/en-seine-maritime-glucksmann-defend-les-voitures-electriques-et-la-transition-ecologique"
-     },
-     {
-      "label": "WikiGlucksmann (non officiel), environnement",
-      "year": 2026,
-      "url": "https://www.wikiglucksmann.fr/programme.html"
      },
      {
       "label": "Public Sénat, Glucksmann et nucléaire",
@@ -18911,6 +18949,16 @@
       "label": "RTE, Futurs énergétiques 2050, résumé exécutif (vie-publique.fr)",
       "year": 2021,
       "url": "https://vie-publique.fr/files/rapports/fichiers_joints/282232-resume-executif.pdf"
+     },
+     {
+      "label": "Place publique, « Acte I : notre vision pour la France » (juin 2025)",
+      "year": 2025,
+      "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+     },
+     {
+      "label": "LCP, « les 100 jours de la révolution écologique » (25/08)",
+      "year": 2026,
+      "url": "https://lcp.fr/actualites/presidentielle-2027-s-il-gagne-raphael-glucksmann-engagera-les-100-jours-de-la"
      }
     ]
    },
@@ -18920,7 +18968,7 @@
      {
       "text": "Encadrement des loyers en zones tendues",
       "verifiable": true,
-      "old": true
+      "old": false
      },
      {
       "text": "Fonds national d'acquisition foncière",
@@ -18938,14 +18986,19 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "WikiGlucksmann (non officiel), synthèse",
-      "year": 2026,
-      "url": "https://www.wikiglucksmann.fr/contenu.html"
-     },
-     {
       "label": "Cour des comptes, encadrement des loyers",
       "year": 2026,
       "url": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+     },
+     {
+      "label": "Place publique, « Acte I : notre vision pour la France » (juin 2025)",
+      "year": 2025,
+      "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+     },
+     {
+      "label": "Place publique, plan de sortie de crise du candidat (22/10)",
+      "year": 2026,
+      "url": "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
      }
     ]
    },
@@ -18986,6 +19039,11 @@
       "label": "Journal of Deliberative Democracy, CCC",
       "year": 2021,
       "url": "https://www.publicdeliberation.net/the-promises-and-disappointments-of-the-french-citizens-convention-for-climate/"
+     },
+     {
+      "label": "Place publique, « Acte I : notre vision pour la France » (juin 2025)",
+      "year": 2025,
+      "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
      }
     ]
    },
@@ -19066,6 +19124,11 @@
       "label": "Pinotti, régularisation des immigrés et délinquance en Italie (American Economic Review ; présentation de l'université Bocconi)",
       "year": 2017,
       "url": "https://clean.unibocconi.eu/research/criminal-and-illegal-behavior/clicking-on-heaven-door.-the-effect-of-immigrant-legalization-on-crime"
+     },
+     {
+      "label": "Place publique, « Acte I : notre vision pour la France » (juin 2025)",
+      "year": 2025,
+      "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
      }
     ]
    },
@@ -19091,11 +19154,6 @@
       "label": "LCP, premières lignes",
       "year": 2026,
       "url": "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
-     },
-     {
-      "label": "MonVote2027, Glucksmann (agrégateur)",
-      "year": 2026,
-      "url": "https://monvote2027.fr/candidat/glucksmann"
      },
      {
       "label": "Banque des Territoires, CCE",
@@ -19127,18 +19185,13 @@
      {
       "text": "Supprimer le juge d'application des peines",
       "verifiable": true,
-      "old": true
+      "old": false
      }
     ],
     "indicator": null,
     "evidence": "Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Mineurs jugés comme des adultes : récidive +34 % (États-Unis, 2007). Reconnaissance faciale a posteriori : ≈ 616 000 recherches en 2021 (Sénat, 2022) ; effet non évalué.",
     "evidence_level": "mitigee",
     "sources": [
-     {
-      "label": "MonVote2027 – Attal (agrégateur)",
-      "year": 2026,
-      "url": "https://monvote2027.fr/candidat/attal"
-     },
      {
       "label": "Europe 1 – suppression JAP",
       "year": 2025,
@@ -19183,6 +19236,11 @@
       "label": "Sénat, rapport d'information n° 627 (2021-2022), la reconnaissance biométrique dans l'espace public",
       "year": 2022,
       "url": "https://www.senat.fr/rap/r21-627/r21-6271.pdf"
+     },
+     {
+      "label": "attalpresident.fr – réforme institutionnelle",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958"
      }
     ]
    },
@@ -19220,11 +19278,6 @@
       "url": "https://www.lemoniteurdespharmacies.fr/profession/socio-professionnel/presidentielle-2027-le-candidat-gabriel-attal-veut-poursuivre-lelargissement-des-competences-des-pharmaciens"
      },
      {
-      "label": "Votons 2027 – Attal santé (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/attal/programme/sante"
-     },
-     {
       "label": "Irdes – QES n°241 Asalée",
       "year": 2019,
       "url": "https://www.IRDES.fr/recherche/questions-d-economie-de-la-sante/241-la-cooperation-avec-une-infirmiere-modifie-t-elle-l-activite-du-medecin-generaliste.pdf"
@@ -19238,6 +19291,16 @@
       "label": "Cour des comptes, L'accès aux études de santé, quatre ans après la réforme",
       "year": 2024,
       "url": "https://www.ccomptes.fr/sites/default/files/2024-12/20241211-Lacces-aux-%C3%A9tudes-de-sante.pdf"
+     },
+     {
+      "label": "attalpresident.fr, mesure « assistant médical IA »",
+      "year": 2026,
+      "url": "https://attalpresident.fr/programme/mesures/assistant-medical-ia"
+     },
+     {
+      "label": "attalpresident.fr, mesures pour la jeunesse (10/10)",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-presente-ses-mesures-pour-la-jeunesse-et-l-avenir-de-la-france"
      }
     ]
    },
@@ -19365,7 +19428,7 @@
       "old": false
      },
      {
-      "text": "Garantir la stabilité des prix de l'électricité pendant dix ans",
+      "text": "Garantir la stabilité des prix de l'électricité pendant cinq ans",
       "verifiable": false,
       "old": false
      }
@@ -19374,11 +19437,6 @@
     "evidence": "Cour des comptes (2025) : prolonger les réacteurs reste moins cher que le neuf ; coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec. RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents. HCC 2026 : émissions −2,1 % en 2025, un rythme qui doit au moins doubler ; leasing social et MaPrimeRénov' jugés sous-dimensionnés. Leasing social 2024 : environ 50 000 voitures commandées, sans bilan CO₂ publié. Aide aux ménages modestes pour un véhicule électrique neuf ou d'occasion : demande très sensible au prix (Californie, 2022).",
     "evidence_level": "mitigee",
     "sources": [
-     {
-      "label": "Votons 2027 – Attal climat (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/attal/programme/climat"
-     },
      {
       "label": "attalpresident.fr – pacte jeunesse Lyon",
       "year": 2026,
@@ -19415,6 +19473,21 @@
       "url": "https://vie-publique.fr/files/rapports/fichiers_joints/282232-resume-executif.pdf"
      },
      {
+      "label": "attalpresident.fr, mesure « plan Messmer II »",
+      "year": 2026,
+      "url": "https://attalpresident.fr/programme/mesures/plan-messmer-2"
+     },
+     {
+      "label": "attalpresident.fr, chantier « Dette écologique »",
+      "year": 2026,
+      "url": "https://attalpresident.fr/programme/dette-ecologique"
+     },
+     {
+      "label": "attalpresident.fr, prix de l'électricité stables pendant cinq ans (17/06)",
+      "year": 2026,
+      "url": "https://attalpresident.fr/programme/mesures/stabilite-prix-electricite"
+     },
+     {
       "label": "Haut Conseil pour le climat, rapport annuel 2026",
       "year": 2026,
       "url": "https://www.hautconseilclimat.fr/publications/dangers-climatiques-la-france-face-a-ses-responsabilites/"
@@ -19430,18 +19503,8 @@
       "old": false
      },
      {
-      "text": "Intégrer le logement intermédiaire dans les quotas SRU des communes",
-      "verifiable": true,
-      "old": false
-     },
-     {
       "text": "Garantie universelle des loyers et nouvelles résidences universitaires pour les étudiants et les jeunes actifs",
       "verifiable": true,
-      "old": false
-     },
-     {
-      "text": "Simplifier le ZAN pour faciliter la construction",
-      "verifiable": false,
       "old": false
      }
     ],
@@ -19455,11 +19518,6 @@
       "url": "https://www.batirama.com/article/112473-crise-du-btp-les-candidats-passent-leur-grand-oral-a-batimat.html"
      },
      {
-      "label": "Investies – Attal à Batimat",
-      "year": 2026,
-      "url": "https://www.investies.fr/crise-du-logement-attal-le-pen-et-melenchon-questionnes-sur-les-normes-la-renovation-energetique-et-linvestissement"
-     },
-     {
       "label": "Insee-SDES – isolation et consommation",
       "year": 2026,
       "url": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
@@ -19468,6 +19526,11 @@
       "label": "attalpresident.fr, Blois et Bourges (5/10)",
       "year": 2026,
       "url": "https://attalpresident.fr/actualites/gabriel-attal-debat-avec-les-francais-a-blois-et-a-bourges"
+     },
+     {
+      "label": "attalpresident.fr, logement et bâtiment (29/09)",
+      "year": 2026,
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-veut-liberer-l-acces-au-logement-et-relancer-le-secteur-du-batiment"
      }
     ]
    },
@@ -19480,7 +19543,7 @@
       "old": false
      },
      {
-      "text": "Délai de réponse administrative de deux mois maximum inscrit dans la Constitution",
+      "text": "Délai maximal de deux mois pour répondre aux porteurs de projets, inscrit dans la Constitution",
       "verifiable": true,
       "old": false
      },
@@ -19667,17 +19730,12 @@
       "old": false
      },
      {
-      "text": "Déchéance de nationalité des binationaux auteurs de pillages ou de violences contre les forces de l'ordre",
+      "text": "Déchéance de nationalité des binationaux auteurs de pillages",
       "verifiable": true,
       "old": false
      },
      {
       "text": "Peines minimales obligatoires pour agressions de policiers, gendarmes et pompiers",
-      "verifiable": true,
-      "old": false
-     },
-     {
-      "text": "Suppression du juge d'application des peines",
       "verifiable": true,
       "old": false
      }
@@ -19690,11 +19748,6 @@
       "label": "Europe 1 – Objectif Élysée",
       "year": 2026,
       "url": "https://www.europe1.fr/politique/objectif-elysee-2027-sil-est-elu-bruno-retailleau-souhaite-instaurer-des-peines-minimales-1064336"
-     },
-     {
-      "label": "Public Sénat – meeting Vincennes",
-      "year": 2026,
-      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-jirai-jusquau-bout-de-lelection-pour-remettre-la-france-a-lendroit-clame-bruno-retailleau-a-son-premier-grand-meeting"
      },
      {
       "label": "Public Sénat – réforme constitutionnelle",
@@ -19762,14 +19815,14 @@
       "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
      },
      {
-      "label": "Repère 2027 – Santé (agrégateur)",
-      "year": 2026,
-      "url": "https://repere2027.fr/programmes/sante/"
-     },
-     {
       "label": "Insee Analyses n°36",
       "year": 2017,
       "url": "https://www.insee.fr/fr/statistiques/3181789"
+     },
+     {
+      "label": "avecretailleau.fr, fiches presse « Rétablir l'ordre dans les comptes publics » (12/10)",
+      "year": 2026,
+      "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
      }
     ]
    },
@@ -19877,7 +19930,7 @@
     "theme": "environnement",
     "proposals": [
      {
-      "text": "Commander huit EPR2 supplémentaires dans les deux premières années",
+      "text": "Commander huit EPR2 supplémentaires dans les deux premières années, si les six premiers avancent comme prévu",
       "verifiable": true,
       "old": false
      },
@@ -19912,14 +19965,24 @@
       "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
      },
      {
-      "label": "Votons 2027 – programme LR (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/retailleau/programme"
-     },
-     {
       "label": "avecretailleau.fr, prix de l'électricité",
       "year": 2026,
       "url": "https://www.avecretailleau.fr/projet/mesure/stabiliser-le-prix-de-l-electricite"
+     },
+     {
+      "label": "avecretailleau.fr, construire les EPR2 dans les coûts et délais prévus",
+      "year": 2026,
+      "url": "https://www.avecretailleau.fr/projet/mesure/construire-les-epr2-dans-les-couts-et-delais-prevus"
+     },
+     {
+      "label": "avecretailleau.fr, fin des subventions aux éoliennes et au solaire",
+      "year": 2026,
+      "url": "https://www.avecretailleau.fr/projet/mesure/cesser-de-subventionner-ce-qui-fait-monter-la-facture-les"
+     },
+     {
+      "label": "avecretailleau.fr, hydroélectricité",
+      "year": 2026,
+      "url": "https://www.avecretailleau.fr/projet/mesure/produire-et-stocker-plus-d-electricite-grace-aux-barrages"
      },
      {
       "label": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
@@ -19967,11 +20030,6 @@
       "url": "https://www.journaldelagence.com/1411841-presidentielle-2027-les-propositions-de-bruno-retailleau-pour-relancer-le-logement"
      },
      {
-      "label": "Votons 2027 – programme LR (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/retailleau/programme"
-     },
-     {
       "label": "Sénat – avis PLF 2011 (TEPA)",
       "year": 2010,
       "url": "https://www.senat.fr/rap/a10-113-8/a10-113-81.html"
@@ -19980,6 +20038,21 @@
       "label": "avecretailleau.fr, interdictions de louer liées au DPE",
       "year": 2026,
       "url": "https://www.avecretailleau.fr/projet/mesure/lever-les-interdictions-de-louer-liees-au-dpe"
+     },
+     {
+      "label": "avecretailleau.fr, thème « Logement »",
+      "year": 2026,
+      "url": "https://www.avecretailleau.fr/projet/theme/logement"
+     },
+     {
+      "label": "avecretailleau.fr, intérêts d'emprunt déductibles",
+      "year": 2026,
+      "url": "https://www.avecretailleau.fr/projet/mesure/reduire-le-cout-du-credit-des-familles"
+     },
+     {
+      "label": "avecretailleau.fr, abroger le ZAN",
+      "year": 2026,
+      "url": "https://www.avecretailleau.fr/projet/mesure/abroger-le-zan"
      }
     ]
    },
@@ -20137,7 +20210,7 @@
       "url": "https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/EN/2023/bvg23-101.html"
      },
      {
-      "label": "Fiches presse « Rétablir l'ordre dans les comptes publics » (12/10), fiche 15",
+      "label": "avecretailleau.fr, fiches presse « Rétablir l'ordre dans les comptes publics » (12/10)",
       "year": 2026,
       "url": "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
      },
@@ -20170,32 +20243,12 @@
       "text": "Schengen réservé aux Européens : visas limités au pays qui les délivre, comme règle de droit commun",
       "verifiable": true,
       "old": false
-     },
-     {
-      "text": "Réduire la contribution française au budget de l'UE par la négociation",
-      "verifiable": false,
-      "old": false
-     },
-     {
-      "text": "Intégrer les dépenses de défense dans le calcul de cette contribution",
-      "verifiable": true,
-      "old": false
      }
     ],
     "indicator": null,
-    "evidence": "Visa limité au pays qui le délivre : non évalué ; assouplir les visas accroît l'afflux de touristes de 5 à 25 % (France Stratégie, 2016). Baisser la contribution à l'UE demande l'unanimité.",
+    "evidence": "Visa limité au pays qui le délivre : non évalué ; assouplir les visas accroît l'afflux de touristes de 5 à 25 % (France Stratégie, 2016).",
     "evidence_level": "non_demontree",
     "sources": [
-     {
-      "label": "Business AM, contribution UE",
-      "year": 2026,
-      "url": "https://fr.businessam.be/le-candidat-a-la-presidence-francaise-bruno-retailleau-souhaite-reduire-la-contribution-a-lue-par-la-voie-de-negociations"
-     },
-     {
-      "label": "MonVote2027, Retailleau (agrégateur)",
-      "year": 2026,
-      "url": "https://monvote2027.fr/candidat/retailleau"
-     },
      {
       "label": "Les Républicains, entretien au JDD (2/08)",
       "year": 2026,
@@ -20205,11 +20258,6 @@
       "label": "France Stratégie, Note d'analyse n° 39, Les conséquences économiques d'un abandon des accords de Schengen",
       "year": 2016,
       "url": "https://www.strategie-plan.gouv.fr/files/files/Publications/2016/NA%2039/note_danalyse_ndeg39.pdf"
-     },
-     {
-      "label": "Assemblée nationale, rapport n° 3781 sur la décision relative aux ressources propres de l'UE (art. 311 du traité sur le fonctionnement de l'UE)",
-      "year": 2021,
-      "url": "https://www.assemblee-nationale.fr/dyn/15/rapports/cion_afetr/l15b3781_rapport-fond.pdf"
      }
     ]
    }
@@ -20248,11 +20296,6 @@
     "evidence": "Mineurs jugés comme des adultes : récidive +34 % (États-Unis, 2007). Centres éducatifs fermés : au moins 41 % des jeunes de nouveau poursuivis dans l'année (DPJJ, 2024) ; efficacité non évaluée (Cour des comptes, 2023). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Cagoule en manifestation : délit depuis 2019. Pointage lors des manifestations : non évalué. Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Nouvelles places de prison vite comblées (Sénat, 2023).",
     "evidence_level": "mitigee",
     "sources": [
-     {
-      "label": "lisnard.cards – propositions (non officiel)",
-      "year": 2026,
-      "url": "https://lisnard.cards/cartes"
-     },
      {
       "label": "Sénat – rapport plan 15 000 places",
       "year": 2023,
@@ -20334,7 +20377,7 @@
       "old": false
      },
      {
-      "text": "Liberté d'installation, exonération de CFE pour libéraux en zone sous-dense",
+      "text": "Liberté d'installation, exonération de CFE pour les médecins libéraux en zone sous-dense",
       "verifiable": true,
       "old": false
      }
@@ -20349,16 +20392,6 @@
       "url": "https://www.fhf.fr/sites/default/files/2026-05/Panorama%20FHF%20-%20Semaine%20du%204%20mai.pdf"
      },
      {
-      "label": "Repère 2027 – Santé (agrégateur)",
-      "year": 2026,
-      "url": "https://repere2027.fr/programmes/sante/"
-     },
-     {
-      "label": "Votons 2027 – Lisnard santé (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/lisnard/programme/sante"
-     },
-     {
       "label": "Weka – Cour des comptes aides installation",
       "year": 2025,
       "url": "https://www.weka.fr/actualite/?p=206876"
@@ -20367,6 +20400,16 @@
       "label": "Cour des comptes, L'accès aux études de santé, quatre ans après la réforme",
       "year": 2024,
       "url": "https://www.ccomptes.fr/sites/default/files/2024-12/20241211-Lacces-aux-%C3%A9tudes-de-sante.pdf"
+     },
+     {
+      "label": "Nouvelle Énergie, programme « Santé »",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/"
+     },
+     {
+      "label": "Nouvelle Énergie, Livret Santé (6/05)",
+      "year": 2026,
+      "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/05/Livret-Sante-Nouvelle-Energie.pdf"
      }
     ]
    },
@@ -20403,16 +20446,6 @@
     "evidence": "Chèque-éducation : niveau en hausse (Suède, 2015) ou en baisse (Louisiane, 2018), tri social accru (Chili, 2006) ; contractuels non évalués. Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005), mais redoubler après un échec réduit les chances de diplôme (Cnesco, 2014). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Carte scolaire assouplie : effet global faible, fuite des collèges défavorisés (DEPP, 2013). Groupes de niveau : pas d'amélioration des résultats, et les élèves faibles risquent de perdre l'effet des pairs selon l'OCDE (PISA 2022). Orientation : des réunions avec le chef d'établissement pour les élèves faibles de 3e et leurs parents ont réduit redoublement et décrochage de 25 à 40 % (essai aléatoire, France, 2017).",
     "evidence_level": "mitigee",
     "sources": [
-     {
-      "label": "Votons 2027 – programme Lisnard (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/lisnard/programme"
-     },
-     {
-      "label": "lisnard.cards – propositions (non officiel)",
-      "year": 2026,
-      "url": "https://lisnard.cards/cartes"
-     },
      {
       "label": "Maire-info – étude DEPP carte scolaire",
       "year": 2013,
@@ -20499,16 +20532,6 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "lisnard.cards – propositions (non officiel)",
-      "year": 2026,
-      "url": "https://lisnard.cards/cartes"
-     },
-     {
-      "label": "Votons 2027 – programme Lisnard (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/lisnard/programme"
-     },
-     {
       "label": "Discours de Bayeux",
       "year": 2026,
       "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf"
@@ -20522,6 +20545,21 @@
       "label": "RTE, Futurs énergétiques 2050, résumé exécutif (vie-publique.fr)",
       "year": 2021,
       "url": "https://vie-publique.fr/files/rapports/fichiers_joints/282232-resume-executif.pdf"
+     },
+     {
+      "label": "Nouvelle Énergie, grand entretien de l'écologie (27/10)",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/lenergie-doit-reconcilier-lindustrie-et-lecologie/"
+     },
+     {
+      "label": "Nouvelle Énergie, « Quel candidat veut construire de nouveaux réacteurs nucléaires ? »",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-construire-de-nouveaux-reacteurs-nucleaires/"
+     },
+     {
+      "label": "Nouvelle Énergie, « Que pense David Lisnard du réchauffement climatique ? »",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/questions/que-pense-david-lisnard-du-rechauffement-climatique/"
      },
      {
       "label": "Cour des comptes, « La maintenance du parc électronucléaire d'EDF en France »",
@@ -20539,14 +20577,14 @@
       "old": false
      },
      {
-      "text": "Supprimer l'objectif zéro artificialisation nette (ZAN)",
+      "text": "Supprimer l'objectif zéro artificialisation nette (ZAN) tel qu'il est conçu",
       "verifiable": true,
       "old": false
      },
      {
       "text": "Mettre en vente ou à disposition des terrains publics",
       "verifiable": false,
-      "old": false
+      "old": true
      }
     ],
     "indicator": "Libérer du foncier constructible (non chiffré)",
@@ -20554,14 +20592,29 @@
     "evidence_level": "non_demontree",
     "sources": [
      {
-      "label": "lisnard.cards – propositions (non officiel)",
-      "year": 2026,
-      "url": "https://lisnard.cards/cartes"
-     },
-     {
       "label": "Banque des Territoires – étude CGDD SRU",
       "year": 2014,
       "url": "https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social"
+     },
+     {
+      "label": "Nouvelle Énergie, programme « Réussir une nouvelle ambition française »",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
+     },
+     {
+      "label": "Nouvelle Énergie, tribune « Quand le bâtiment ne va plus, rien ne va plus » (9/05/2025)",
+      "year": 2025,
+      "url": "https://www.unenouvelleenergie.fr/quand-le-batiment-ne-va-plus-rien-ne-va-plus/"
+     },
+     {
+      "label": "Nouvelle Énergie, « Quel candidat veut réindustrialiser la France ? » (rentrée de Cannes, 29/08)",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-reindustrialiser-la-france/"
+     },
+     {
+      "label": "Nouvelle Énergie, entretien au Figaro sur le logement (5/12/2025)",
+      "year": 2025,
+      "url": "https://www.unenouvelleenergie.fr/david-lisnard-face-a-la-crise-du-logement-il-est-temps-de-briser-cette-spirale-infernale/"
      }
     ]
    },
@@ -20604,11 +20657,6 @@
       "url": "https://www.democratie.direct/actualites/david-lisnard-propose-4-referendums/"
      },
      {
-      "label": "lisnard.cards – propositions (non officiel)",
-      "year": 2026,
-      "url": "https://lisnard.cards/cartes"
-     },
-     {
       "label": "Stadelmann-Steffen & Vatter, Political Behavior",
       "year": 2012,
       "url": "https://doi.org/10.1007/s11109-011-9164-y"
@@ -20649,11 +20697,6 @@
       "old": false
      },
      {
-      "text": "TVA unique à 25 % en douze ans pour baisser les charges",
-      "verifiable": true,
-      "old": false
-     },
-     {
       "text": "Contrat de travail unique pour les nouveaux emplois, fusionnant CDI et CDD, indemnités de licenciement progressives",
       "verifiable": true,
       "old": false
@@ -20665,18 +20708,13 @@
      }
     ],
     "indicator": "250 à 400 €/mois net selon les interventions (250 € pour 2 500 € de revenu), estimation du camp",
-    "evidence": "Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025). CEPII (2007) : TVA sociale, emplois modestes si ciblée sur les bas salaires, pouvoir d'achat réduit. CDI à indemnités progressives (Italie, 2015) : 8 % des embauches en CDI dues au licenciement moins coûteux (2018) ; contrat unique non évalué. Incertitude politique : suivie de moins d'investissement (États-Unis), de production et d'emploi (12 pays), sans preuve de causalité (2016) ; règle de stabilité fiscale non évaluée.",
+    "evidence": "Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025). CDI à indemnités progressives (Italie, 2015) : 8 % des embauches en CDI dues au licenciement moins coûteux (2018) ; contrat unique non évalué. Incertitude politique : suivie de moins d'investissement (États-Unis), de production et d'emploi (12 pays), sans preuve de causalité (2016) ; règle de stabilité fiscale non évaluée.",
     "evidence_level": "mitigee",
     "sources": [
      {
       "label": "iFRAP, comparateur 2027",
       "year": 2026,
       "url": "https://www.ifrap.org/comparateurs/presidentielles-2027"
-     },
-     {
-      "label": "CEPII, TVA sociale",
-      "year": 2007,
-      "url": "https://www.cepii.fr/PDF_PUB/lettre/2007/let269.pdf"
      },
      {
       "label": "IPP, impôts de production",
@@ -20707,6 +20745,11 @@
       "label": "Baker, Bloom, Davis, Measuring Economic Policy Uncertainty (NBER w21633, QJE 2016)",
       "year": 2016,
       "url": "https://www.nber.org/papers/w21633"
+     },
+     {
+      "label": "Nouvelle Énergie, « David Lisnard veut-il baisser les impôts ? »",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/questions/david-lisnard-veut-il-baisser-les-impots/"
      }
     ]
    },
@@ -20714,7 +20757,7 @@
     "theme": "rayonnement",
     "proposals": [
      {
-      "text": "Réviser l'article 55 de la Constitution sur la primauté du droit européen",
+      "text": "Réviser l'article 55 de la Constitution pour faire primer la loi sur la CEDH ; pour le droit de l'UE, une dérogation à la danoise sur l'asile et l'immigration",
       "verifiable": true,
       "old": false
      },
@@ -20735,23 +20778,13 @@
      }
     ],
     "indicator": null,
-    "evidence": "Banque de Finlande (2025) : multiplicateur des dépenses de défense d'environ 0,6 à 1,0 ; effets durables surtout si investissement et R&D.",
+    "evidence": "Aucune évaluation publique de l'effet d'une primauté de la loi nationale sur la CEDH ou sur le droit européen. Banque de Finlande (2025) : multiplicateur des dépenses de défense d'environ 0,6 à 1,0 ; effets durables surtout si investissement et R&D. Pas d'évaluation publique de l'effet d'une dénonciation de l'accord de 1968 sur les relations ou l'influence de la France.",
     "evidence_level": "mitigee",
     "sources": [
      {
       "label": "Nouvelle Énergie, armée",
       "year": 2026,
       "url": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-renforcer-l-armee/"
-     },
-     {
-      "label": "France-Vote, Lisnard (agrégateur)",
-      "year": 2026,
-      "url": "https://www.france-vote.fr/actualites/programme-david-lisnard-2027"
-     },
-     {
-      "label": "Lisnard, propositions (non officiel)",
-      "year": 2026,
-      "url": "https://lisnard.cards/cartes"
      },
      {
       "label": "Banque de Finlande, défense",
@@ -20762,6 +20795,16 @@
       "label": "Nouvelle Énergie, grand entretien de l'écologie (27/10)",
       "year": 2026,
       "url": "https://www.unenouvelleenergie.fr/lenergie-doit-reconcilier-lindustrie-et-lecologie/"
+     },
+     {
+      "label": "Discours de Bayeux",
+      "year": 2026,
+      "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf"
+     },
+     {
+      "label": "Nouvelle Énergie, programme « Immigration »",
+      "year": 2026,
+      "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
      }
     ]
    }
@@ -20806,11 +20849,6 @@
       "url": "https://www.publicsenat.fr/actualites/politique/eric-zemmour-officialise-sa-candidature-a-la-presidentielle-2027"
      },
      {
-      "label": "MonVote2027 – Zemmour (agrégateur)",
-      "year": 2026,
-      "url": "https://monvote2027.fr/candidat/zemmour"
-     },
-     {
       "label": "Miles & Cox, Journal of Law & Economics",
       "year": 2014,
       "url": "https://chicagounbound.uchicago.edu/jle/vol57/iss4/3/"
@@ -20836,11 +20874,6 @@
       "url": "https://www.europe1.fr/politique/blocus-des-lycees-eric-zemmour-veut-faire-payer-les-casseurs-et-leurs-parents-jusqua-la-nuit-des-temps-1129292"
      },
      {
-      "label": "Entrevue, déclarations sur CNews (18/10)",
-      "year": 2026,
-      "url": "https://entrevue.fr/medias/une-horde-de-barbares-maghrebins-et-africains-eric-zemmour-provoque/"
-     },
-     {
       "label": "Entrevue, émission du 25/10",
       "year": 2026,
       "url": "https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/"
@@ -20859,6 +20892,16 @@
       "label": "Sénat – rapport plan 15 000 places",
       "year": 2023,
       "url": "https://www.senat.fr/rap/r23-037/r23-037_mono.html"
+     },
+     {
+      "label": "Entrevue, déclarations sur LCI (18/10)",
+      "year": 2026,
+      "url": "https://entrevue.fr/medias/une-horde-de-barbares-maghrebins-et-africains-eric-zemmour-provoque/"
+     },
+     {
+      "label": "Europe 1, « La France en face » (19/05)",
+      "year": 2026,
+      "url": "https://www.europe1.fr/politique/en-direct-immigration-pouvoir-dachat-narcotrafic-ce-quil-faut-retenir-de-linterview-deric-zemmour-dans-la-france-en-face-936419"
      }
     ]
    },
@@ -20886,16 +20929,6 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "Votons 2027 – Zemmour santé (prog. 2024) (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/zemmour/programme/sante"
-     },
-     {
-      "label": "Repère 2027 – Santé (agrégateur)",
-      "year": 2026,
-      "url": "https://repere2027.fr/programmes/sante/"
-     },
-     {
       "label": "IGAS-IGF, L'aide médicale de l'État : diagnostic et propositions",
       "year": 2019,
       "url": "https://www.vie-publique.fr/files/rapport/pdf/271649.pdf"
@@ -20909,6 +20942,16 @@
       "label": "Bozorgmehr et Razum, Effect of Restricting Access to Health Care on Health Expenditures among Asylum-Seekers and Refugees (PLOS ONE)",
       "year": 2015,
       "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131483"
+     },
+     {
+      "label": "Le Quotidien du médecin, réponses écrites du candidat (1/04/2022)",
+      "year": 2022,
+      "url": "https://www.lequotidiendumedecin.fr/actus-medicales/politique-de-sante/eric-zemmour-reconquete-un-conventionnement-preferentiel-pourra-etre-mis-en-place"
+     },
+     {
+      "label": "Institut Montaigne, propositions du candidat (présidentielle 2022)",
+      "year": 2022,
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
      }
     ]
    },
@@ -20951,11 +20994,6 @@
       "url": "https://www.europe1.fr/politique/education-les-propositions-des-candidats-a-la-presidentielle-4101124"
      },
      {
-      "label": "MonVote2027 – Zemmour (agrégateur)",
-      "year": 2026,
-      "url": "https://monvote2027.fr/candidat/zemmour"
-     },
-     {
       "label": "Jürges, Schneider, Büchel, examens centraux et acquis des élèves (CESifo WP 939)",
       "year": 2005,
       "url": "https://www.ifo.de/DocDL/cesifo_wp939.pdf"
@@ -20979,6 +21017,11 @@
       "label": "OCDE, Résultats du PISA 2022 (volume II), chapitre 4, p. 158-159 : groupes de niveau",
       "year": 2023,
       "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/12/pisa-2022-results-volume-ii_222a5ef6/a97db61c-en.pdf"
+     },
+     {
+      "label": "Les Incorrectibles, émission du 25/10",
+      "year": 2026,
+      "url": "https://lesincorrectibles.substack.com/p/eric-zemmour-la-france-face-au-chaos-1"
      }
     ]
    },
@@ -20991,34 +21034,29 @@
       "old": false
      },
      {
-      "text": "Abroger le marché carbone européen sur les carburants et le chauffage (SEQE 2) avant 2028",
+      "text": "Mettre fin au soutien public aux énergies renouvelables intermittentes",
       "verifiable": true,
       "old": false
      },
      {
-      "text": "Fin des financements français et européens à l'éolien",
+      "text": "Abroger le marché carbone européen sur les carburants et le chauffage (SEQE 2) avant 2028",
       "verifiable": true,
       "old": true
      },
      {
-      "text": "Abroger l'interdiction des voitures thermiques neuves en 2035",
-      "verifiable": true,
+      "text": "Renégocier le calendrier européen de fin des voitures thermiques neuves en 2035",
+      "verifiable": false,
       "old": true
      }
     ],
     "indicator": "Électricité française qui « cessera d'être bradée » (non chiffré)",
-    "evidence": "Cour des comptes (2025) : prolonger les réacteurs reste moins cher que le neuf ; coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec. Marché carbone des carburants (en place en 2028) : +10 à 15 c€ par litre à son entrée en vigueur (Institut Montaigne, 2025) ; taxe carbone suédoise : émissions des transports −11 % (2019). RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents.",
+    "evidence": "Cour des comptes (2025) : prolonger les réacteurs reste moins cher que le neuf ; coût des six premiers EPR2 +30 % (67,4 Md€), risque d'échec. RTE (2021) : neutralité carbone impossible sans développement significatif des renouvelables ; nouveaux réacteurs économiquement pertinents. Marché carbone des carburants (en place en 2028) : +10 à 15 c€ par litre à son entrée en vigueur (Institut Montaigne, 2025) ; taxe carbone suédoise : émissions des transports −11 % (2019).",
     "evidence_level": "mitigee",
     "sources": [
      {
       "label": "Europe 1 – discours de rentrée",
       "year": 2026,
       "url": "https://www.europe1.fr/politique/presidentielle-2027-eric-zemmour-appelle-a-un-vote-du-sursaut-lors-de-son-discours-de-rentree-1075178"
-     },
-     {
-      "label": "Votons 2027 – Zemmour (prog. 2024) (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/zemmour/programme"
      },
      {
       "label": "Cour des comptes, « La maintenance du parc électronucléaire d'EDF en France »",
@@ -21051,6 +21089,16 @@
       "url": "https://climate.ec.europa.eu/eu-action/carbon-markets/ets2-buildings-road-transport-and-additional-sectors_en"
      },
      {
+      "label": "budget2027.fr, plan de 140 Md€ repris par le candidat (17/09)",
+      "year": 2026,
+      "url": "https://www.budget2027.fr/"
+     },
+     {
+      "label": "Le Journal de l'Automobile, entretien avec le candidat (24/03/2022)",
+      "year": 2022,
+      "url": "https://journalauto.com/services/presidentielle-2022-eric-zemmour-r-jai-lintime-conviction-que-la-voiture-va-evoluer-avec-son-temps-et-perdurer/"
+     },
+     {
       "label": "Cour des comptes, « La filière EPR : une dynamique nouvelle, des risques persistants »",
       "year": 2025,
       "url": "https://www.ccomptes.fr/fr/publications/la-filiere-epr-une-dynamique-nouvelle-des-risques-persistants"
@@ -21059,71 +21107,29 @@
    },
    {
     "theme": "logement",
-    "proposals": [
-     {
-      "text": "Supprimer la directive européenne sur la performance énergétique des bâtiments",
-      "verifiable": true,
-      "old": true
-     },
-     {
-      "text": "Vendre une partie du parc HLM, « France de propriétaires »",
-      "verifiable": false,
-      "old": true
-     }
-    ],
-    "indicator": "7 millions de logements maintenus sur le marché locatif (selon Reconquête)",
-    "evidence": "Rénovation énergétique : économies réelles de 5 à 6,6 %, environ 42 % des gains théoriques (Insee-SDES, 2026).",
-    "evidence_level": "mitigee",
-    "sources": [
-     {
-      "label": "Votons 2027 – Zemmour (prog. 2024) (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/zemmour/programme"
-     },
-     {
-      "label": "MonVote2027 – Zemmour (agrégateur)",
-      "year": 2026,
-      "url": "https://monvote2027.fr/candidat/zemmour"
-     },
-     {
-      "label": "Insee-SDES – isolation et consommation",
-      "year": 2026,
-      "url": "https://www.insee.fr/fr/statistiques/fichier/version-html/8607754/DT2025-16.pdf"
-     }
-    ]
+    "proposals": [],
+    "indicator": null,
+    "evidence": "Pas de proposition publiée sur ce thème.",
+    "evidence_level": null,
+    "sources": []
    },
    {
     "theme": "libertes",
     "proposals": [
      {
-      "text": "Article 55 révisé : loi nationale au-dessus du droit européen",
+      "text": "Article 55 révisé : toute nouvelle loi nationale au-dessus du droit européen existant",
       "verifiable": true,
-      "old": true
-     },
-     {
-      "text": "Sortir de la CEDH",
-      "verifiable": true,
-      "old": true
-     },
-     {
-      "text": "Liberté d'expression non négociable, contre la loi Avia",
-      "verifiable": false,
       "old": true
      }
     ],
     "indicator": null,
-    "evidence": "Aucune évaluation publique de l'effet d'une sortie de la CEDH ou d'une primauté constitutionnelle de la loi nationale sur le droit européen.",
+    "evidence": "Aucune évaluation publique de l'effet d'une primauté de la loi nationale sur la CEDH ou sur le droit européen.",
     "evidence_level": "pas_d_etude",
     "sources": [
      {
-      "label": "Votons 2027 – Zemmour (prog. 2024) (agrégateur)",
-      "year": 2026,
-      "url": "https://votons-2027.fr/candidats/zemmour/programme"
-     },
-     {
-      "label": "MonVote2027 – Zemmour (agrégateur)",
-      "year": 2026,
-      "url": "https://monvote2027.fr/candidat/zemmour"
+      "label": "Institut Montaigne, propositions du candidat (présidentielle 2022)",
+      "year": 2022,
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
      }
     ]
    },
@@ -21144,22 +21150,12 @@
       "text": "Prime « zéro charge » jusqu'à trois mois de salaire",
       "verifiable": true,
       "old": true
-     },
-     {
-      "text": "Orienter 20 % du Livret A vers l'investissement stratégique",
-      "verifiable": true,
-      "old": true
      }
     ],
     "indicator": null,
     "evidence": "DG Trésor (2024) : aucun effet macroéconomique significatif de l'IA mesuré à ce stade. Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025).",
     "evidence_level": "non_demontree",
     "sources": [
-     {
-      "label": "MonVote2027, Zemmour (agrégateur)",
-      "year": 2026,
-      "url": "https://monvote2027.fr/candidat/zemmour"
-     },
      {
       "label": "IPP, impôts de production",
       "year": 2025,
@@ -21174,6 +21170,11 @@
       "label": "CNews, discours de rentrée (13/09)",
       "year": 2026,
       "url": "https://www.cnews.fr/france/2026-09-13/presidentielle-2027-remigration-intelligence-artificielle-ce-quil-faut-retenir-du"
+     },
+     {
+      "label": "Institut Montaigne, propositions du candidat (présidentielle 2022)",
+      "year": 2022,
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
      }
     ]
    },
@@ -21182,11 +21183,6 @@
     "proposals": [
      {
       "text": "Défense à 70 Md€ par an en 2030",
-      "verifiable": true,
-      "old": true
-     },
-     {
-      "text": "40 000 soldats professionnels supplémentaires",
       "verifiable": true,
       "old": true
      },
@@ -21201,11 +21197,6 @@
     "evidence_level": "mitigee",
     "sources": [
      {
-      "label": "MonVote2027, Zemmour (agrégateur)",
-      "year": 2026,
-      "url": "https://monvote2027.fr/candidat/zemmour"
-     },
-     {
       "label": "Banque de Finlande, défense",
       "year": 2025,
       "url": "https://www.bofbulletin.fi/en/2025/5/will-higher-defence-spending-boost-euro-area-growth/"
@@ -21214,6 +21205,11 @@
       "label": "Rapport Védrine OTAN",
       "year": 2012,
       "url": "https://www.vie-publique.fr/sites/default/files/rapport/pdf/124000607.pdf"
+     },
+     {
+      "label": "Institut Montaigne, propositions du candidat (présidentielle 2022)",
+      "year": 2022,
+      "url": "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
      }
     ]
    }
@@ -23069,52 +23065,6 @@
    }
   },
   {
-   "c": "attal",
-   "id": "logement.2",
-   "life": true,
-   "theme": "logement",
-   "title": "Compter les logements à loyer intermédiaire dans les quotas de logements sociaux",
-   "quiz_text": "Compter les logements à loyer intermédiaire dans les quotas de logements sociaux",
-   "quiz_concret": "Des logements aux loyers entre social et marché comptent pour atteindre les 20 à 25 % de logements sociaux.",
-   "quiz_plus": "Les revenus moyens des villes chères, trop aisés pour le logement social, auraient plus d'offre.",
-   "quiz_moins": "Les communes rempliraient le quota avec moins de logements pour les ménages les plus modestes.",
-   "quiz_preuve_pour": "faible",
-   "quiz_preuve_contre": "mitigé",
-   "quiz_cas_pour": [],
-   "quiz_cas_contre": [
-    {
-     "t": "Sous le quota, les communes ont surtout bâti des logements ouverts aux revenus moyens, et la présence des ménages pauvres a peu augmenté (Chapelle et al., France, 2025).",
-     "s": [
-      0
-     ]
-    }
-   ],
-   "quiz_etudes": "Aucune étude sur l'ajout du logement intermédiaire au quota. Le besoin des revenus moyens est estimé (IGF 2021) ; le quota a déjà surtout servi des revenus moyens.",
-   "quiz_src": [
-    {
-     "l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE, document de travail 2025-18)",
-     "a": 2025,
-     "u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
-    },
-    {
-     "l": "Cour des comptes, L'encadrement des loyers (d'après l'Union sociale pour l'habitat)",
-     "a": 2026,
-     "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
-    },
-    {
-     "l": "Ancols, les attributions de logements sociaux (tableau de bord 2025) et Panorama du logement social 2025",
-     "a": 2026,
-     "u": "https://www.ancols.fr/publications/statistiques-etudes/les-attributions-de-logements-sociaux1"
-    }
-   ],
-   "quiz_constat": {
-    "t": "Demandes de logement social actives : 4,1 millions en 2025, +18 % depuis 2019, pour 394 000 attributions (Ancols).",
-    "s": [
-     2
-    ]
-   }
-  },
-  {
    "c": "lisnard",
    "id": "logement.1",
    "life": true,
@@ -23194,8 +23144,8 @@
    "id": "logement.2",
    "life": true,
    "theme": "logement",
-   "title": "Supprimer l'objectif de zéro artificialisation des sols",
-   "quiz_text": "Supprimer l'objectif de zéro artificialisation des sols",
+   "title": "Supprimer l'objectif de zéro artificialisation des sols tel qu'il est conçu",
+   "quiz_text": "Supprimer l'objectif de zéro artificialisation des sols tel qu'il est conçu",
    "quiz_concret": "Plus d'objectif national pour réduire puis stopper la construction sur les terres agricoles et naturelles.",
    "quiz_plus": "Limiter les terrains à bâtir rend le foncier plus rare et fait monter le prix des logements.",
    "quiz_moins": "Une règle de ce type a porté de 56 % à 80 % la part des logements neufs bâtis sur des terrains déjà urbanisés.",
@@ -23314,54 +23264,6 @@
     "t": "Écoles publiques : −8 % de 2016 à 2025 ; 3 300 n'ont qu'une classe (DEPP).",
     "s": [
      3
-    ]
-   }
-  },
-  {
-   "c": "glucksmann",
-   "id": "ecole.2",
-   "life": true,
-   "theme": "ecole",
-   "title": "Conditionner l'argent public versé aux écoles privées à la mixité sociale",
-   "quiz_text": "Conditionner l'argent public versé aux écoles privées à la mixité sociale",
-   "quiz_concret": "Les écoles privées sous contrat devraient accueillir plus d'élèves modestes pour garder leurs financements.",
-   "quiz_plus": "Des règles de mixité rééquilibrent les collèges ; le privé, payé par l'État, y échappe aujourd'hui.",
-   "quiz_moins": "Le tri social vient aussi des écarts entre collèges publics, que cette condition ne touche pas.",
-   "quiz_preuve_pour": "faible",
-   "quiz_preuve_contre": "mitigé",
-   "quiz_cas_pour": [
-    {
-     "t": "Des secteurs communs à deux collèges ont accru la mixité dans 2 secteurs sur 3 ; dans l'un, l'évitement vers le privé est passé de 24 % à 16 % (IPP, Paris, 2021).",
-     "s": [
-      0
-     ]
-    }
-   ],
-   "quiz_cas_contre": [
-    {
-     "t": "Près de la moitié de la ségrégation sociale entre collèges vient des écarts entre secteurs publics, l'autre moitié des inscriptions dans le privé (IPP, Paris, 2021).",
-     "s": [
-      0
-     ]
-    }
-   ],
-   "quiz_etudes": "Aucune évaluation en France d'une condition de mixité pour le privé ; à l'étranger, une aide liée à l'accueil d'élèves pauvres a réduit des écarts, mais 40 % des écoles privées l'ont refusée.",
-   "quiz_src": [
-    {
-     "l": "IPP, Note n° 62, Secteurs multi-collèges à Paris : quel bilan après trois ans ? (Grenet, Souidi)",
-     "a": 2021,
-     "u": "https://halshs.archives-ouvertes.fr/halshs-03165725v1/file/n62-notesIPP-fevrier2021.pdf"
-    },
-    {
-     "l": "Cour des comptes, L'enseignement privé sous contrat (via Banque des territoires)",
-     "a": 2023,
-     "u": "https://www.banquedesterritoires.fr/enseignement-prive-la-cour-des-comptes-veut-moduler-les-moyens-selon-la-composition-sociale-des"
-    }
-   ],
-   "quiz_constat": {
-    "t": "Le privé sous contrat compte 40 % d'élèves très favorisés en 2021, contre 26 % en 2000 (Cour des comptes).",
-    "s": [
-     1
     ]
    }
   },

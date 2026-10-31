@@ -1,0 +1,862 @@
+{
+ "le-pen": {
+  "securite": {
+   "Faire payer les dégâts aux casseurs : responsabilité solidaire, prélèvement sur allocations ou salaire, parents pour les mineurs": [
+    "https://www.franceinfo.fr/politique/marine-le-pen/nous-sommes-confrontes-a-un-etat-qui-s-effondre-estime-marine-le-pen_8246899.html",
+    "https://www.capital.fr/economie-politique/marine-le-pen-veut-faire-payer-a-vie-les-casseurs-et-solidairement-ceux-qui-ne-partent-pas-apres-les-sommations-1531173"
+   ],
+   "Construire 30 000 places de prison": [
+    "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
+   ],
+   "Suspendre les allocations familiales des familles de délinquants récidivistes": [
+    "https://rassemblementnational.fr/petition/face-au-chaos-la-france-en-ordre"
+   ],
+   "Peines minimales (peines planchers) et comparution immédiate des interpellés": [
+    "https://rassemblementnational.fr/petition/face-au-chaos-la-france-en-ordre"
+   ],
+   "Supprimer les remises de peine": [
+    "https://rassemblementnational.fr/22-mesures"
+   ]
+  },
+  "sante": {
+   "Plan d'urgence pour la santé de 20 Md€": [
+    "https://rassemblementnational.fr/22-mesures"
+   ],
+   "Supprimer les ARS ; 10% max de postes administratifs à l'hôpital": [
+    "https://rassemblementnational.fr/22-mesures"
+   ],
+   "Aides financières à l'installation dans les déserts médicaux": [
+    "https://rassemblementnational.fr/22-mesures"
+   ]
+  },
+  "ecole": {
+   "Exclure de leur lycée ou de leur université les élèves de plus de 16 ans qui dégradent ou menacent": [
+    "https://www.cnews.fr/france/2026-10-15/parcoursup-aides-pour-les-transports-que-propose-concretement-marine-le-pen-en",
+    "https://www.europe1.fr/politique/en-direct-interdiction-du-voile-ia-exclusion-des-eleves-responsables-de-degradations-ce-quil-faut-retenir-de-linterview-de-marine-le-pen-dans-objectif-elysee-2027-1151948"
+   ],
+   "Réformer Parcoursup : vœux à la fin du 2e trimestre, critères de chaque formation rendus publics": [
+    "https://www.cnews.fr/france/2026-10-15/parcoursup-aides-pour-les-transports-que-propose-concretement-marine-le-pen-en"
+   ],
+   "Uniforme obligatoire du primaire à la troisième": [
+    "https://rassemblementnational.fr/22-mesures",
+    "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299"
+   ],
+   "Dédoublement étendu à tous les CP et grandes sections": [
+    "https://rassemblementnational.fr/documents/projet/projet-l-ecole.pdf",
+    "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299"
+   ],
+   "Salaires des enseignants +3 % par an": [
+    "https://rassemblementnational.fr/documents/projet/projet-l-ecole.pdf",
+    "https://www.europe1.fr/politique/presidentielle-que-propose-marine-le-pen-pour-leducation-nationale-4106299"
+   ]
+  },
+  "environnement": {
+   "Stopper l'éolien, démanteler progressivement les parcs existants": [
+    "https://rassemblementnational.fr/22-mesures"
+   ],
+   "Relancer nucléaire et hydroélectricité, quitter le marché européen de l'électricité": [
+    "https://rassemblementnational.fr/22-mesures"
+   ],
+   "S'opposer à la PPE 2026, dont elle estime le coût à 300 Md€": [
+    "https://www.syndicat-energies-renouvelables.fr/wp-content/uploads/2026/02/Les-Echos-11-02-2026-Page-7.pdf"
+   ]
+  },
+  "logement": {
+   "Priorité nationale : HLM et APL réservés aux Français": [
+    "https://www.sudradio.fr/societe/le-pen-veut-mettre-la-priorite-nationale-au-centre-dun-grand-chantier-sur-le-logement"
+   ],
+   "Abroger la loi SRU et supprimer le ZAN": [
+    "https://www.sudradio.fr/societe/le-pen-veut-mettre-la-priorite-nationale-au-centre-dun-grand-chantier-sur-le-logement"
+   ],
+   "Remplacer MaPrimeRénov' par un prêt à taux zéro « 100 % rénov »": [
+    "https://www.sudradio.fr/societe/le-pen-veut-mettre-la-priorite-nationale-au-centre-dun-grand-chantier-sur-le-logement"
+   ]
+  },
+  "libertes": {
+   "Élire les députés à la proportionnelle avec prime majoritaire": [
+    "https://www.europe1.fr/politique/congres-du-rn-a-orleans-ce-quil-faut-retenir-du-premier-discours-de-campagne-de-marine-le-pen-1181118"
+   ],
+   "Inscrire la « communauté nationale » dans la Constitution": [
+    "https://www.europe1.fr/politique/congres-du-rn-a-orleans-ce-quil-faut-retenir-du-premier-discours-de-campagne-de-marine-le-pen-1181118"
+   ],
+   "Interdire progressivement le voile, d'abord à l'université, dans les fédérations sportives et les bâtiments publics, par référendum": [
+    "https://www.europe1.fr/politique/en-direct-interdiction-du-voile-ia-exclusion-des-eleves-responsables-de-degradations-ce-quil-faut-retenir-de-linterview-de-marine-le-pen-dans-objectif-elysee-2027-1151948"
+   ],
+   "Instaurer le référendum d'initiative citoyenne": [
+    "https://rassemblementnational.fr/22-mesures"
+   ]
+  },
+  "economie": {
+   "Supprimer les tarifs préférentiels des renouvelables intermittentes : 5,6 Md€ en 2027": [
+    "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
+   ],
+   "Supprimer plus de 120 taxes": [
+    "https://acteurspublics.fr/articles/la-reforme-de-letat-et-des-collectivites-au-coeur-des-economies-programmees-par-le-rn/"
+   ],
+   "Règle d'or budgétaire par référendum : déficit de 4,9 % du PIB en 2027 à 2,4 % en 2033": [
+    "https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par"
+   ],
+   "Supprimer la CFE, la CVAE et la C3S": [
+    "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
+   ]
+  },
+  "rayonnement": {
+   "Plafonner la contribution nette de la France au budget de l'UE à 5 Md€ par an": [
+    "https://www.euronews.com/2026/10/14/le-pen-lands-in-brussels-lashing-out-at-the-european-commission",
+    "https://lcp.fr/actualites/taxer-les-multinationales-pour-financer-l-europe-le-debat-est-relance-444232"
+   ],
+   "Sortir du commandement intégré de l'OTAN": [
+    "https://www.thestar.com.my/news/world/2026/05/23/le-pen-says-france-should-quit-nato-command-structure"
+   ]
+  }
+ },
+ "melenchon": {
+  "securite": {
+   "Rétablir la police de proximité": [
+    "https://melenchon2027.fr/programme/synthese-des-contributions/chapitre-4-etendre-le-domaine-de-la-liberte/",
+    "https://melenchon2027.fr/programme/synthese-des-contributions/chapitre-7-la-force-de-lentraide-2/"
+   ],
+   "Dissoudre la BRAV-M, interdire LBD et grenades, remplacer l'IGPN": [
+    "https://melenchon2027.fr/programme/synthese-des-contributions/chapitre-4-etendre-le-domaine-de-la-liberte/",
+    "https://www.lalibre.be/dernieres-depeches/2026/10/22/reformer-la-police-de-la-cave-au-grenier-les-relations-tumultueuses-entre-lfi-et-les-policiers-HOTBLDJ2PRHHBOMOELKHZ6C3FQ/"
+   ],
+   "Démanteler les BAC": [
+    "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon"
+   ],
+   "Mécanisme contraignant de régulation carcérale contre la surpopulation": [
+    "https://www.assemblee-nationale.fr/dyn/15/amendements/3973/AN/23.pdf"
+   ]
+  },
+  "sante": {
+   "Réguler l'installation des médecins, recruter des médecins publics salariés": [
+    "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+   ],
+   "Rouvrir urgences, maternités, EHPAD publics : soins à moins de 30 minutes": [
+    "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+   ],
+   "« 100 % Sécu » : soins prescrits remboursés intégralement": [
+    "https://melenchon2027.fr/synthese-des-contributions/",
+    "https://melenchon.fr/wp-content/uploads/2022/04/PF_Jean-Luc-Melenchon_FALC.pdf"
+   ]
+  },
+  "ecole": {
+   "Supprimer Parcoursup et MonMaster": [
+    "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf",
+    "https://actu.orange.fr/politique/presidentielle-2027-suppression-de-parcoursup-droit-de-vote-a-16-ans-jean-luc-melenchon-multiplie-les-propositions-pour-les-jeunes-magic-CNT000002sCYOg.html"
+   ],
+   "Se rapprocher en un mandat de 19 élèves par classe (moyenne européenne), priorité au secondaire public": [
+    "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+   ],
+   "Transport scolaire limité à 15 minutes, écoles à classe unique maintenues": [
+    "https://melenchon2027.fr/programme/plans-thematiques/ruralite/"
+   ]
+  },
+  "environnement": {
+   "−65 % d'émissions en 2030, bilan public annuel": [
+    "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon"
+   ],
+   "Sortir du nucléaire : abandon des EPR, démantèlement planifié": [
+    "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon"
+   ],
+   "Plan de 200 Md€ d'investissements écologiques et sociaux": [
+    "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon"
+   ]
+  },
+  "logement": {
+   "Rénover au moins 700 000 logements par an": [
+    "https://melenchon2027.fr/programme/plans-thematiques/ruralite/",
+    "https://melenchon2027.fr/programme/plans-investissement/btp-logement/"
+   ],
+   "200 000 logements publics par an pendant cinq ans": [
+    "https://melenchon2027.fr/programme/plans-investissement/btp-logement/"
+   ],
+   "Plafonner les meublés touristiques à 60 jours par an": [
+    "https://melenchon2027.fr/programme/plans-investissement/btp-logement/"
+   ]
+  },
+  "libertes": {
+   "Convoquer une Constituante pour une 6e République": [
+    "https://melenchon2027.fr/programme/synthese-des-contributions/chapitre-1-le-pouvoir-au-peuple/"
+   ],
+   "Droit de vote à 16 ans": [
+    "https://actu.orange.fr/politique/presidentielle-2027-suppression-de-parcoursup-droit-de-vote-a-16-ans-jean-luc-melenchon-multiplie-les-propositions-pour-les-jeunes-magic-CNT000002sCYOg.html"
+   ],
+   "Proportionnelle à l'Assemblée et RIC": [
+    "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon"
+   ],
+   "Abolir le 49.3": [
+    "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon"
+   ]
+  },
+  "economie": {
+   "Porter le SMIC à 1 700 € net": [
+    "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+   ],
+   "Pôle public bancaire : 100 Md€ d'investissements supplémentaires par an": [
+    "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+   ],
+   "Supprimer les exonérations de cotisations au-delà de 2 SMIC": [
+    "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+   ]
+  },
+  "rayonnement": {
+   "Sortir de l'OTAN, en commençant par son commandement intégré": [
+    "https://melenchon2027.fr/?p=23178"
+   ],
+   "Créer un pôle public de l'armement, acheter du matériel français": [
+    "https://melenchon2027.fr/?p=23178"
+   ],
+   "Aucune intervention militaire sans mandat de l'ONU": [
+    "https://melenchon2027.fr/?p=23178"
+   ],
+   "Se servir de la contribution française au budget de l'UE comme levier de négociation": [
+    "https://lcp.fr/actualites/taxer-les-multinationales-pour-financer-l-europe-le-debat-est-relance-444232",
+    "https://www.touteleurope.eu/fonctionnement-de-l-ue/chronique-radio-pourquoi-le-futur-budget-de-l-ue-suscite-t-il-autant-de-debats/"
+   ]
+  }
+ },
+ "philippe": {
+  "securite": {
+   "Courtes peines de prison dès la première infraction": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+    "https://www.capital.fr/economie-politique/prison-des-la-premiere-casse-et-salaire-ponctionne-le-plan-dedouard-philippe-contre-les-casseurs-1531388"
+   ],
+   "Peines planchers pour violences contre dépositaires de l'autorité publique et professeurs": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+   ],
+   "Faire payer les dégâts aux casseurs : prélèvement sur leurs salaires ou prestations sociales": [
+    "https://www.capital.fr/economie-politique/prison-des-la-premiere-casse-et-salaire-ponctionne-le-plan-dedouard-philippe-contre-les-casseurs-1531388"
+   ],
+   "Interdire à des casseurs de paraître dans certains lieux et les obliger à pointer au commissariat avant les manifestations": [
+    "https://www.capital.fr/economie-politique/prison-des-la-premiere-casse-et-salaire-ponctionne-le-plan-dedouard-philippe-contre-les-casseurs-1531388",
+    "https://actu.orange.fr/politique/presidentielle-2027-edouard-philippe-veut-diviser-l-immigration-legale-par-deux-face-a-l-echec-de-l-integration-l-express-via-6medias-CNT000002tpDKM.html"
+   ],
+   "Autoriser la reconnaissance faciale et des techniques de marquage pour identifier les casseurs": [
+    "https://www.journaldunet.com/business/action-publique/1557005-edouard-philippe-presente-ses-propositions-pour-les-familles-et-defend-ses-positions-securitaires/"
+   ]
+  },
+  "sante": {
+   "Stabiliser les dépenses de santé en misant sur la prévention": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+   ],
+   "Investir dans la formation des médecins, la prévention et l'IA": [
+    "https://www.lequotidiendumedecin.fr/sante-societe/politique-de-sante/la-prevention-le-grand-retard-francais-cingle-edouard-philippe-candidat-lelection-presidentielle"
+   ]
+  },
+  "ecole": {
+   "+20 % de rémunération moyenne des enseignants sur le quinquennat": [
+    "https://lcp.fr/actualites/presidentielle-salaires-des-enseignants-sanctions-pour-les-parents-ce-que-propose",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+   ],
+   "Réduire les effectifs des classes grâce à la baisse démographique": [
+    "https://lcp.fr/actualites/presidentielle-salaires-des-enseignants-sanctions-pour-les-parents-ce-que-propose"
+   ],
+   "Amende de responsabilisation scolaire des parents, prononcée par le maire": [
+    "https://lcp.fr/actualites/presidentielle-salaires-des-enseignants-sanctions-pour-les-parents-ce-que-propose"
+   ],
+   "Refonder l'orientation en fin de collège et au lycée": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+   ]
+  },
+  "environnement": {
+   "Fonds unique d'adaptation au climat de 2 Md€ par an": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+   ],
+   "Produire un « Canadair français » durant le quinquennat": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+   ],
+   "Instaurer une journée nationale d'alerte": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+   ],
+   "Mêmes aides pour une voiture électrique d'occasion que pour une neuve": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+   ]
+  },
+  "logement": {
+   "Prêt à taux zéro pour acheter plus grand à l'arrivée d'un enfant": [
+    "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ",
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants"
+   ]
+  },
+  "libertes": {
+   "Une vingtaine d'ordonnances, session extraordinaire en juillet 2027": [
+    "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ"
+   ],
+   "Instructions individuelles du garde des Sceaux aux procureurs": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+   ],
+   "Réviser la composition du CSM, « devoir de redevabilité » envers les victimes": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+   ],
+   "Combattre l'islamisme et les organisations affiliées aux Frères musulmans": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+   ]
+  },
+  "economie": {
+   "Heures au-delà de 35 h défiscalisées, zéro cotisation patronale au-delà de 37 h": [
+    "https://www.edouardphilippe.fr/actualites/trois-principales-annonces-dedouard-philippe-a-lheure-de-verite"
+   ],
+   "Indemnisation chômage ramenée de 18 à 12 mois avant 50 ans": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+   ],
+   "Règle d'or budgétaire par référendum : déficit à 2 % du PIB en fin de quinquennat": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+   ],
+   "Supprimer 50 Md€ d'impôts de production contre 50 Md€ d'aides aux entreprises en moins": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+   ]
+  },
+  "rayonnement": {
+   "Dénoncer l'accord franco-algérien de 1968": [
+    "https://www.edouardphilippe.fr/actualites/trois-principales-annonces-dedouard-philippe-a-lheure-de-verite"
+   ],
+   "Liste de pays sûrs votée chaque année par le Parlement et liste commune de l'UE, sans droit d'asile pour leurs ressortissants": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+    "https://fr.euronews.com/2026/10/09/presidentielle-2027-edouard-philippe-mise-sur-le-travail-et-la-reduction-des-depenses-publ"
+   ]
+  }
+ },
+ "glucksmann": {
+  "securite": {
+   "Mettre fin aux armes mutilantes dans les manifestations et réformer la doctrine du maintien de l'ordre": [
+    "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
+   ],
+   "Plateformes : retrait en temps réel des contenus appelant à la destruction, sous peine d'amendes jusqu'à 6 % du chiffre d'affaires ou de suspension": [
+    "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
+   ],
+   "Responsabilité de l'État pour les dégâts, avec recours contre les auteurs ; indemnisation accélérée des commerçants, artisans et particuliers": [
+    "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
+   ],
+   "Police de proximité modernisée, équipes mobiles de prévention": [
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ],
+   "Doubler les Maisons du droit et de la justice": [
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ]
+  },
+  "sante": {
+   "Consultations gratuites de dépistage en santé à 16 et à 20 ans": [
+    "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
+   ],
+   "Maisons de santé, permanences mobiles, centres de petites urgences": [
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ],
+   "Fin de la T2A : financement hospitalier global pluriannuel": [
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ],
+   "Plan de prévention hors ONDAM : cancers, cardiovasculaire, diabète": [
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ]
+  },
+  "ecole": {
+   "Loi de programmation éducation sur cinq ans : bâti, salaires, effectifs": [
+    "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann",
+    "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat"
+   ],
+   "Conditionner les aides au privé sous contrat à la mixité sociale": [
+    "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme",
+    "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-30-aout-2026-6196033"
+   ],
+   "Supprimer Parcoursup et le remplacer après des états généraux de l'orientation": [
+    "https://lcp.fr/actualites/parcoursup-suppression-remplacement-reforme-ce-que-proposent-les-candidats-a-la",
+    "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
+   ],
+   "Baisser le nombre d'élèves par classe en primaire": [
+    "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"
+   ]
+  },
+  "environnement": {
+   "Leasing social : 1 million de voitures électriques à 100 €/mois": [
+    "https://www.lagazettefrance.fr/article/en-seine-maritime-glucksmann-defend-les-voitures-electriques-et-la-transition-ecologique"
+   ],
+   "Encadrer les marges de raffinage et de distribution des carburants pour baisser de 20 centimes le prix à la pompe": [
+    "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
+   ],
+   "Loi climat : −90 % d'émissions en 2040": [
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ],
+   "Garder le nucléaire, construire de nouvelles unités": [
+    "https://lcp.fr/actualites/presidentielle-2027-s-il-gagne-raphael-glucksmann-engagera-les-100-jours-de-la"
+   ],
+   "Plans régionaux d'investissement dans les renouvelables": [
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ]
+  },
+  "logement": {
+   "Encadrement des loyers en zones tendues": [
+    "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k",
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ],
+   "Fonds national d'acquisition foncière": [
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ],
+   "Fiscalité progressive sur la vacance longue": [
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ]
+  },
+  "libertes": {
+   "Convention citoyenne sur l'immigration, propositions votées au Parlement": [
+    "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme",
+    "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"
+   ],
+   "Proportionnelle par circonscriptions régionales": [
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ],
+   "Fin du 49.3 : vote de confiance, censure constructive": [
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ]
+  },
+  "economie": {
+   "Porter le SMIC à 1 700 € net": [
+    "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
+   ],
+   "Taxer le 1 % des plus gros héritages pour hausser les salaires nets": [
+    "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"
+   ],
+   "État d'urgence industriel pour les secteurs menacés par la Chine": [
+    "https://lcp.fr/actualites/gagner-en-2027-raphael-glucksmann-lance-sa-campagne-et-veut-ramener-la-gauche-au-pouvoir"
+   ],
+   "Régulariser les travailleurs sans papiers des secteurs qui manquent de main-d'œuvre": [
+    "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-30-aout-2026-6196033"
+   ],
+   "« Buy European Act » : préférence européenne dans les marchés publics": [
+    "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+   ]
+  },
+  "rayonnement": {
+   "Grand emprunt européen pour un plan de souveraineté": [
+    "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+   ],
+   "Supprimer le droit de veto au sein de l'UE": [
+    "https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"
+   ]
+  }
+ },
+ "attal": {
+  "securite": {
+   "Faire payer les dégâts aux casseurs (« Tu casses, tu répares ») : responsabilité automatique des deux parents d'un mineur": [
+    "https://attalpresident.fr/actualites/gabriel-attal-retablir-ordre-mettre-fin-impunite"
+   ],
+   "Comparution immédiate dès 16 ans et fin de l'excuse de minorité automatique pour les mineurs récidivistes": [
+    "https://attalpresident.fr/actualites/gabriel-attal-rtl-retablir-ordre-jeunesse-avenir-france"
+   ],
+   "Reconnaissance faciale et IA pour identifier les casseurs": [
+    "https://attalpresident.fr/actualites/gabriel-attal-rtl-retablir-ordre-jeunesse-avenir-france"
+   ],
+   "Supprimer le juge d'application des peines": [
+    "https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958"
+   ]
+  },
+  "sante": {
+   "Porter à 20 000 le nombre de médecins formés « dans les années qui viennent », sans régulation de l'installation": [
+    "https://attalpresident.fr/actualites/gabriel-attal-debat-avec-les-francais-a-blois-et-a-bourges"
+   ],
+   "Élargir les compétences des pharmaciens et autres soignants non médecins": [
+    "https://www.lemoniteurdespharmacies.fr/profession/socio-professionnel/presidentielle-2027-le-candidat-gabriel-attal-veut-poursuivre-lelargissement-des-competences-des-pharmaciens",
+    "https://attalpresident.fr/actualites/gabriel-attal-debat-avec-les-francais-a-blois-et-a-bourges"
+   ],
+   "Assistant médical fondé sur l'IA accessible à tous les Français": [
+    "https://attalpresident.fr/programme/mesures/assistant-medical-ia",
+    "https://www.lemoniteurdespharmacies.fr/profession/socio-professionnel/presidentielle-2027-le-candidat-gabriel-attal-veut-poursuivre-lelargissement-des-competences-des-pharmaciens"
+   ],
+   "Plan massif pour la santé mentale et la psychiatrie": [
+    "https://attalpresident.fr/actualites/gabriel-attal-presente-ses-mesures-pour-la-jeunesse-et-l-avenir-de-la-france"
+   ]
+  },
+  "ecole": {
+   "Moins de 20 élèves par classe en primaire": [
+    "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
+   ],
+   "Enseignants : +200 € net par mois, jusqu'à 500 € en milieu de carrière": [
+    "https://attalpresident.fr/actualites/gabriel-attal-en-meeting-a-lyon-un-pacte-pour-la-jeunesse"
+   ],
+   "Groupes de niveau et méthode de Singapour ; certificat d'études pour entrer au collège, brevet obligatoire pour entrer au lycée": [
+    "https://attalpresident.fr/actualites/gabriel-attal-face-aux-lyceens-il-faut-un-president-qui-comprenne-la-jeunesse"
+   ],
+   "Évaluer licences et masters tous les trois ans (décrochage, insertion) ; réorienter ou fermer les filières les moins performantes": [
+    "https://attalpresident.fr/actualites/gabriel-attal-france-info-ecouter-la-jeunesse"
+   ],
+   "Réformer Parcoursup (mentorat, tutorat, stages), sans retour au tirage au sort": [
+    "https://attalpresident.fr/actualites/gabriel-attal-france-info-ecouter-la-jeunesse",
+    "https://attalpresident.fr/actualites/gabriel-attal-presente-ses-mesures-pour-la-jeunesse-et-l-avenir-de-la-france"
+   ]
+  },
+  "environnement": {
+   "Sécuriser 14 EPR et viser un réacteur par an": [
+    "https://attalpresident.fr/programme/mesures/plan-messmer-2"
+   ],
+   "Tripler le rythme de baisse des émissions : 5 % par an d'ici 2030": [
+    "https://attalpresident.fr/programme/dette-ecologique"
+   ],
+   "Leasing social étendu aux voitures électriques d'occasion": [
+    "https://attalpresident.fr/programme/mesures/plan-messmer-2"
+   ],
+   "Garantir la stabilité des prix de l'électricité pendant cinq ans": [
+    "https://attalpresident.fr/programme/mesures/stabilite-prix-electricite"
+   ]
+  },
+  "logement": {
+   "Loi de programmation sur cinq ans pour la rénovation énergétique": [
+    "https://attalpresident.fr/actualites/gabriel-attal-veut-liberer-l-acces-au-logement-et-relancer-le-secteur-du-batiment",
+    "https://www.batirama.com/article/112473-crise-du-btp-les-candidats-passent-leur-grand-oral-a-batimat.html"
+   ],
+   "Garantie universelle des loyers et nouvelles résidences universitaires pour les étudiants et les jeunes actifs": [
+    "https://attalpresident.fr/actualites/gabriel-attal-debat-avec-les-francais-a-blois-et-a-bourges"
+   ]
+  },
+  "libertes": {
+   "Journée référendaire annuelle sur les grands choix nationaux": [
+    "https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958"
+   ],
+   "Délai maximal de deux mois pour répondre aux porteurs de projets, inscrit dans la Constitution": [
+    "https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958"
+   ],
+   "Grande réforme institutionnelle soumise au vote des Français": [
+    "https://attalpresident.fr/actualites/dans-le-jdd-gabriel-attal-veut-proposer-la-plus-grande-reforme-institutionnelle-depuis-1958"
+   ]
+  },
+  "economie": {
+   "Remplacer le Code du travail par une « Constitution du travail » de quelques principes, le reste négocié par branche et par entreprise": [
+    "https://attalpresident.fr/programme/travail-salaires"
+   ],
+   "Loi de stabilité fiscale et normative de dix ans votée dès l'été 2027 ; un quart de la charge administrative des entreprises supprimé": [
+    "https://actu.orange.fr/politique/attal-veut-une-economie-quot-liberale-quot-mais-quot-planifiee-quot-pour-financer-un-quot-capitalisme-de-l-innovation-quot-CNT000002tqRW2.html"
+   ],
+   "Former 20 millions de Français à l'IA d'ici 2030": [
+    "https://attalpresident.fr/actualites/gabriel-attal-debat-avec-les-francais-a-blois-et-a-bourges"
+   ],
+   "Plan de 200 Md€ pour la puissance de calcul et l'IA": [
+    "https://attalpresident.fr/actualites/gabriel-attal-appelle-a-une-rupture-economique-dans-les-echos"
+   ],
+   "Prix agricoles : coûts de production établis et indexés par filière, vente en dessous interdite": [
+    "https://attalpresident.fr/actualites/gabriel-attal-debat-avec-les-francais-a-blois-et-a-bourges"
+   ]
+  },
+  "rayonnement": {
+   "Part européenne du calcul mondial : de 3 % à 20 %": [
+    "https://attalpresident.fr/actualites/gabriel-attal-appelle-a-une-rupture-economique-dans-les-echos"
+   ],
+   "Taxes ciblées sur l'acier, les voitures électriques et les panneaux solaires chinois vendus à perte ; contrôle strict des investissements chinois dans les ports, télécoms et centres de données": [
+    "https://attalpresident.fr/programme/frontieres"
+   ]
+  }
+ },
+ "retailleau": {
+  "securite": {
+   "Faire payer les dégâts aux casseurs : présomption de responsabilité dans un attroupement violent, aides sociales remises en cause": [
+    "https://www.capital.fr/economie-politique/les-aides-ce-nest-pas-un-du-bruno-retailleau-veut-saisir-le-rsa-les-apl-et-les-allocations-des-casseurs-1531316"
+   ],
+   "Majorité pénale abaissée à 15 ans, courtes peines de 15 jours en centres dédiés": [
+    "https://www.europe1.fr/politique/objectif-elysee-2027-sil-est-elu-bruno-retailleau-souhaite-instaurer-des-peines-minimales-1064336"
+   ],
+   "Déchéance de nationalité des binationaux auteurs de pillages": [
+    "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/violences-du-17-octobre-bruno-retailleau-denonce-une-convergence-entre-l-extreme-gauche-et-des-racailles-issues-de-l-immigration_8245450.html"
+   ],
+   "Peines minimales obligatoires pour agressions de policiers, gendarmes et pompiers": [
+    "https://www.europe1.fr/politique/objectif-elysee-2027-sil-est-elu-bruno-retailleau-souhaite-instaurer-des-peines-minimales-1064336"
+   ]
+  },
+  "sante": {
+   "Jour de carence d'ordre public non remboursable dans le secteur privé": [
+    "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu",
+    "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+   ],
+   "4 Md€ d'économies sur les arrêts maladie via contrôle des prescriptions": [
+    "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu",
+    "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+   ]
+  },
+  "ecole": {
+   "Sélection à l'entrée de l'université et nouvelle plateforme d'admission au mérite à la place de Parcoursup": [
+    "https://www.publicsenat.fr/actualites/politique/crise-lyceenne-bruno-retailleau-veut-une-selection-a-luniversite"
+   ],
+   "Fin du collège unique : examen d'entrée en sixième et groupes de niveau": [
+    "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux",
+    "https://www.publicsenat.fr/actualites/politique/nous-allons-vivre-un-moment-historique-bruno-retailleau-appelle-la-jeunesse-a-prendre-part-a-la-pre"
+   ],
+   "Fin du passage automatique de classe, décidé par le conseil de classe": [
+    "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
+   ],
+   "Créer 1 000 établissements publics « libres » autonomes": [
+    "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
+   ],
+   "Au moins un internat disciplinaire par académie, affectation décidée par le rectorat après des exclusions répétées": [
+    "https://www.avecretailleau.fr/projet/mesure/retablir-l-evaluation-qui-dit-la-verite-et-la-selection-au"
+   ]
+  },
+  "environnement": {
+   "Commander huit EPR2 supplémentaires dans les deux premières années, si les six premiers avancent comme prévu": [
+    "https://www.avecretailleau.fr/projet/mesure/construire-les-epr2-dans-les-couts-et-delais-prevus"
+   ],
+   "Fin des subventions aux nouvelles installations éoliennes et photovoltaïques": [
+    "https://www.avecretailleau.fr/projet/mesure/cesser-de-subventionner-ce-qui-fait-monter-la-facture-les",
+    "https://www.sfen.org/rgn/presidentielle-2027-au-colloque-de-lufe-les-grands-partis-listent-leurs-positions-sur-le-nucleaire/"
+   ],
+   "Mobiliser jusqu'à 4 GW de nouvelles capacités hydroélectriques": [
+    "https://www.avecretailleau.fr/projet/mesure/produire-et-stocker-plus-d-electricite-grace-aux-barrages",
+    "https://www.sfen.org/rgn/presidentielle-2027-au-colloque-de-lufe-les-grands-partis-listent-leurs-positions-sur-le-nucleaire/"
+   ],
+   "Prix de l'électricité indexé sur les coûts du nucléaire : contrat pour différence entre EDF et les fournisseurs (prix fixé par la CRE)": [
+    "https://www.avecretailleau.fr/projet/mesure/stabiliser-le-prix-de-l-electricite"
+   ]
+  },
+  "logement": {
+   "Un million de logements supplémentaires en cinq ans": [
+    "https://www.avecretailleau.fr/projet/theme/logement",
+    "https://www.journaldelagence.com/1411841-presidentielle-2027-les-propositions-de-bruno-retailleau-pour-relancer-le-logement"
+   ],
+   "Intérêts d'emprunt déductibles à 50, 75 ou 100 % selon le nombre d'enfants": [
+    "https://www.avecretailleau.fr/projet/mesure/reduire-le-cout-du-credit-des-familles"
+   ],
+   "Supprimer le ZAN et l'encadrement des loyers": [
+    "https://www.avecretailleau.fr/projet/mesure/abroger-le-zan",
+    "https://www.journaldelagence.com/1411841-presidentielle-2027-les-propositions-de-bruno-retailleau-pour-relancer-le-logement"
+   ],
+   "Supprimer les interdictions de louer liées au DPE (classes G, F puis E), le DPE devenant informatif": [
+    "https://www.avecretailleau.fr/projet/mesure/lever-les-interdictions-de-louer-liees-au-dpe"
+   ]
+  },
+  "libertes": {
+   "Référendum législatif étendu à tout le champ de la loi (article 11)": [
+    "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle"
+   ],
+   "Seuil du RIP abaissé à environ 2,5 millions de signatures": [
+    "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle"
+   ],
+   "Surmonter une censure du Conseil constitutionnel par référendum ou Congrès": [
+    "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-renverser-la-table-avec-une-profonde-reforme-constitutionnelle"
+   ],
+   "Inscrire le droit à la sécurité dans la Constitution, à égalité avec les libertés fondamentales": [
+    "https://www.avecretailleau.fr/projet/mesure/inscrire-le-droit-a-la-securite-dans-la-constitution"
+   ],
+   "Laïcité définie dans la Constitution ; neutralité du service public étendue aux usagers par la loi": [
+    "https://www.avecretailleau.fr/projet/mesure/inscrire-la-laicite-et-nos-racines-dans-la-constitution"
+   ]
+  },
+  "economie": {
+   "Supprimer les impôts de production, dans 30 Md€ de baisses pour les entreprises": [
+    "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+   ],
+   "Code du travail refondé sur 50 principes, le reste supplétif et renvoyé aux accords d'entreprise ou de branche": [
+    "https://www.avecretailleau.fr/projet/mesure/refonder-le-code-du-travail-sur-50-principes-rendre-le"
+   ],
+   "Référendum dans les cent jours sur la règle d'or de 2011 : plafond de dépenses annuel inscrit dans la Constitution": [
+    "https://www.avecretailleau.fr/api/media/file/20261011_Fiches_presse_comptes_publics_mise_en_page%20(1).pdf"
+   ],
+   "Négociations agricoles : part des matières premières non négociable, date butoir au 31 décembre, enseignes responsables de leurs centrales d'achat": [
+    "https://www.avecretailleau.fr/projet/mesure/encadrer-les-negociations-et-controler-les-importations"
+   ],
+   "Seuil « zéro cotisation » : heures travaillées au-delà de 1 623 h par an exonérées de toutes les cotisations sociales": [
+    "https://www.avecretailleau.fr/api/media/file/Livret_Travail.pdf"
+   ]
+  },
+  "rayonnement": {
+   "Schengen réservé aux Européens : visas limités au pays qui les délivre, comme règle de droit commun": [
+    "https://republicains.fr/actualites/2026/08/02/lespace-schengen-doit-etre-reserve-aux-europeens/"
+   ]
+  }
+ },
+ "lisnard": {
+  "securite": {
+   "Majorité pénale à 16 ans, excuse de minorité réduite (de 50 % à 20 % de la peine), établissements disciplinaires fermés": [
+    "https://www.europe1.fr/politique/en-direct-emeutes-parcoursup-primaire-a-droite-ce-quil-faut-retenir-de-linterview-de-david-lisnard-dans-objectif-elysee-2027-1186743"
+   ],
+   "Faire payer les dégâts aux casseurs : déduits de leurs aides sociales s'ils ne sont pas solvables": [
+    "https://www.unenouvelleenergie.fr/stop-a-lincompetence-et-a-la-pretention-dune-technocratie-depassee"
+   ],
+   "Fichier des casseurs avec obligation de pointer pendant les manifestations ; cagoule interdite, circonstance aggravante": [
+    "https://www.unenouvelleenergie.fr/quand-macron-a-parle-pas-un-casseur-na-tremble/"
+   ],
+   "Rétablir les peines planchers pour les récidivistes": [
+    "https://www.unenouvelleenergie.fr/notre-programme/securite/",
+    "https://www.unenouvelleenergie.fr/stop-a-lincompetence-et-a-la-pretention-dune-technocratie-depassee"
+   ],
+   "Construire 20 000 places de prison": [
+    "https://www.unenouvelleenergie.fr/a-saint-raphael-david-lisnard-lance-sa-campagne-pour-faire-gagner-la-france-qui-fait/"
+   ]
+  },
+  "sante": {
+   "Doubler le nombre d'étudiants en médecine d'ici 2030": [
+    "https://www.unenouvelleenergie.fr/notre-programme/sante/",
+    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/05/Livret-Sante-Nouvelle-Energie.pdf"
+   ],
+   "Supprimer les ARS, missions confiées aux préfets et élus": [
+    "https://www.unenouvelleenergie.fr/notre-programme/sante/",
+    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/05/Livret-Sante-Nouvelle-Energie.pdf"
+   ],
+   "Liberté d'installation, exonération de CFE pour les médecins libéraux en zone sous-dense": [
+    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/05/Livret-Sante-Nouvelle-Energie.pdf"
+   ]
+  },
+  "ecole": {
+   "Chèque-éducation progressif (même financement public, école publique ou privée) ; nouveaux enseignants recrutés comme contractuels": [
+    "https://www.unenouvelleenergie.fr/notre-programme/education/",
+    "https://www.europe1.fr/politique/en-direct-emeutes-parcoursup-primaire-a-droite-ce-quil-faut-retenir-de-linterview-de-david-lisnard-dans-objectif-elysee-2027-1186743"
+   ],
+   "Certificat de fin de primaire conditionnant l'entrée au collège": [
+    "https://www.unenouvelleenergie.fr/notre-programme/education/"
+   ],
+   "Hausse de 20 % des salaires enseignants en cinq ans, contre réorganisation": [
+    "https://www.unenouvelleenergie.fr/notre-programme/education/"
+   ],
+   "Supprimer la carte scolaire": [
+    "https://www.unenouvelleenergie.fr/notre-programme/education/"
+   ],
+   "Revenir sur le collège unique et repenser l'orientation": [
+    "https://www.europe1.fr/politique/en-direct-emeutes-parcoursup-primaire-a-droite-ce-quil-faut-retenir-de-linterview-de-david-lisnard-dans-objectif-elysee-2027-1186743"
+   ]
+  },
+  "environnement": {
+   "Prolonger les réacteurs nucléaires jusqu'à 60 ans": [
+    "https://www.unenouvelleenergie.fr/lenergie-doit-reconcilier-lindustrie-et-lecologie/"
+   ],
+   "Six nouveaux EPR et développement des petits réacteurs modulaires": [
+    "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-construire-de-nouveaux-reacteurs-nucleaires/"
+   ],
+   "Remplacer le principe de précaution par un principe de responsabilité constitutionnel": [
+    "https://www.unenouvelleenergie.fr/questions/que-pense-david-lisnard-du-rechauffement-climatique/"
+   ]
+  },
+  "logement": {
+   "Supprimer l'obligation de logements sociaux de l'article 55 de la loi SRU": [
+    "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
+   ],
+   "Supprimer l'objectif zéro artificialisation nette (ZAN) tel qu'il est conçu": [
+    "https://www.unenouvelleenergie.fr/quand-le-batiment-ne-va-plus-rien-ne-va-plus/",
+    "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-reindustrialiser-la-france/"
+   ],
+   "Mettre en vente ou à disposition des terrains publics": [
+    "https://www.unenouvelleenergie.fr/david-lisnard-face-a-la-crise-du-logement-il-est-temps-de-briser-cette-spirale-infernale/"
+   ]
+  },
+  "libertes": {
+   "Rétablir le septennat": [
+    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf"
+   ],
+   "Article 11 sans limite thématique et référendum d'initiative populaire à seuil atteignable": [
+    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf"
+   ],
+   "Interdire les Frères musulmans et le voile à l'université": [
+    "https://www.unenouvelleenergie.fr/notre-programme/securite/"
+   ],
+   "Le préambule de la Constitution ne pourrait plus servir à censurer une loi ; s'il est invoqué, référendum": [
+    "https://www.europe1.fr/politique/loi-casseurs-payeurs-la-societe-na-plus-a-subventionner-ceux-qui-la-detruisent-fustige-david-lisnard-1187322"
+   ]
+  },
+  "economie": {
+   "Baisser de 40 Md€ les impôts de production, en commençant par la C3S": [
+    "https://www.unenouvelleenergie.fr/questions/david-lisnard-veut-il-baisser-les-impots/"
+   ],
+   "Contrat de travail unique pour les nouveaux emplois, fusionnant CDI et CDD, indemnités de licenciement progressives": [
+    "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"
+   ],
+   "Interdire de modifier un impôt à la hausse plus d'une fois par législature": [
+    "https://www.unenouvelleenergie.fr/changer-de-logiciel-fiscal/"
+   ]
+  },
+  "rayonnement": {
+   "Réviser l'article 55 de la Constitution pour faire primer la loi sur la CEDH ; pour le droit de l'UE, une dérogation à la danoise sur l'asile et l'immigration": [
+    "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/Discours-de-David-Lisnard-a-Bayeux-17062026.pdf"
+   ],
+   "Hausser le budget des armées, combat aérien souverain autour du Rafale F5": [
+    "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-renforcer-l-armee/"
+   ],
+   "Revenir sur l'accord franco-algérien de 1968": [
+    "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
+   ],
+   "Accord UE-Mercosur : en exclure l'élevage ou imposer des clauses miroirs": [
+    "https://www.unenouvelleenergie.fr/lenergie-doit-reconcilier-lindustrie-et-lecologie/"
+   ]
+  }
+ },
+ "zemmour": {
+  "securite": {
+   "Rétablir les peines planchers, supprimer le juge de l'application des peines": [
+    "https://lesincorrectibles.substack.com/p/eric-zemmour-la-france-face-au-chaos-1"
+   ],
+   "Construire très vite 100 000 places de prison": [
+    "https://lesincorrectibles.substack.com/p/eric-zemmour-la-france-face-au-chaos-1"
+   ],
+   "Faire payer les dégâts aux casseurs et à leurs parents, y compris sur leurs allocations ; rétablir la loi anticasseurs de 1970": [
+    "https://www.europe1.fr/politique/blocus-des-lycees-eric-zemmour-veut-faire-payer-les-casseurs-et-leurs-parents-jusqua-la-nuit-des-temps-1129292",
+    "https://lesincorrectibles.substack.com/p/eric-zemmour-la-france-face-au-chaos-1"
+   ],
+   "Déchéance de nationalité puis départ des binationaux auteurs des violences": [
+    "https://entrevue.fr/medias/une-horde-de-barbares-maghrebins-et-africains-eric-zemmour-provoque/",
+    "https://www.europe1.fr/politique/en-direct-immigration-pouvoir-dachat-narcotrafic-ce-quil-faut-retenir-de-linterview-deric-zemmour-dans-la-france-en-face-936419"
+   ],
+   "Expulser les détenus étrangers, estimés à 25 % de la population carcérale": [
+    "https://www.publicsenat.fr/actualites/politique/eric-zemmour-officialise-sa-candidature-a-la-presidentielle-2027"
+   ]
+  },
+  "sante": {
+   "Recruter 1 000 médecins salariés par l'État dans les déserts": [
+    "https://www.lequotidiendumedecin.fr/actus-medicales/politique-de-sante/eric-zemmour-reconquete-un-conventionnement-preferentiel-pourra-etre-mis-en-place"
+   ],
+   "Rétablir l'obligation de garde des médecins": [
+    "https://www.lequotidiendumedecin.fr/actus-medicales/politique-de-sante/eric-zemmour-reconquete-un-conventionnement-preferentiel-pourra-etre-mis-en-place",
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+   ],
+   "Supprimer l'AME, hors aide médicale d'urgence": [
+    "https://www.lequotidiendumedecin.fr/actus-medicales/politique-de-sante/eric-zemmour-reconquete-un-conventionnement-preferentiel-pourra-etre-mis-en-place",
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+   ]
+  },
+  "ecole": {
+   "Examen d'entrée en sixième et en seconde ; « véritable baccalauréat »": [
+    "https://www.cnews.fr/france/2026-10-13/niveau-scolaire-francais-que-propose-eric-zemmour-pour-retablir-la-meilleure"
+   ],
+   "Exclure les élèves violents, sans obligation pour l'État de les rescolariser": [
+    "https://www.cnews.fr/france/2026-10-13/niveau-scolaire-francais-que-propose-eric-zemmour-pour-retablir-la-meilleure"
+   ],
+   "Retour à la dictée, au calcul mental et à la récitation ; autonomie des chefs d'établissement ; concurrence entre public et privé": [
+    "https://lesincorrectibles.substack.com/p/eric-zemmour-la-france-face-au-chaos-1",
+    "https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/"
+   ],
+   "Classes de niveau au collège": [
+    "https://www.europe1.fr/politique/education-les-propositions-des-candidats-a-la-presidentielle-4101124"
+   ],
+   "Interdire toute propagande idéologique à l'école": [
+    "https://www.europe1.fr/politique/education-les-propositions-des-candidats-a-la-presidentielle-4101124"
+   ]
+  },
+  "environnement": {
+   "Six EPR d'ici 2035 et quatorze d'ici 2045": [
+    "https://www.europe1.fr/politique/presidentielle-2027-eric-zemmour-appelle-a-un-vote-du-sursaut-lors-de-son-discours-de-rentree-1075178"
+   ],
+   "Mettre fin au soutien public aux énergies renouvelables intermittentes": [
+    "https://www.budget2027.fr/"
+   ],
+   "Abroger le marché carbone européen sur les carburants et le chauffage (SEQE 2) avant 2028": [
+    "https://www.stop-hausse-carburant.fr/"
+   ],
+   "Renégocier le calendrier européen de fin des voitures thermiques neuves en 2035": [
+    "https://journalauto.com/services/presidentielle-2022-eric-zemmour-r-jai-lintime-conviction-que-la-voiture-va-evoluer-avec-son-temps-et-perdurer/"
+   ]
+  },
+  "libertes": {
+   "Article 55 révisé : toute nouvelle loi nationale au-dessus du droit européen existant": [
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+   ]
+  },
+  "economie": {
+   "Former à l'IA dès l'école ; faire de la France la troisième puissance mondiale de l'IA": [
+    "https://www.cnews.fr/france/2026-09-13/presidentielle-2027-remigration-intelligence-artificielle-ce-quil-faut-retenir-du"
+   ],
+   "Baisser de 30 Md€ supplémentaires les impôts de production": [
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+   ],
+   "Prime « zéro charge » jusqu'à trois mois de salaire": [
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+   ]
+  },
+  "rayonnement": {
+   "Défense à 70 Md€ par an en 2030": [
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+   ],
+   "Sortir du commandement intégré de l'OTAN": [
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+   ]
+  }
+ }
+}

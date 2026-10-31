@@ -327,30 +327,20 @@
 "Ménages et artisans connaissent à l'avance les aides à la rénovation des cinq années suivantes.",
 "Loi de programmation sur cinq ans pour la rénovation énergétique"
 ],
-"attal.logement.2": [
-"Compter les logements à loyer intermédiaire dans les quotas de logements sociaux",
-"Des logements aux loyers entre social et marché comptent pour atteindre les 20 à 25 % de logements sociaux.",
-"Intégrer le logement intermédiaire dans les quotas SRU des communes"
-],
 "lisnard.logement.1": [
 "Supprimer l'obligation pour les communes d'avoir un quota de logements sociaux",
 "Les maires ne sont plus tenus d'avoir 20 à 25 % de logements sociaux dans leur commune.",
 "Supprimer l'obligation de logements sociaux de l'article 55 de la loi SRU"
 ],
 "lisnard.logement.2": [
-"Supprimer l'objectif de zéro artificialisation des sols",
+"Supprimer l'objectif de zéro artificialisation des sols tel qu'il est conçu",
 "Plus d'objectif national pour réduire puis stopper la construction sur les terres agricoles et naturelles.",
-"Supprimer l'objectif zéro artificialisation nette (ZAN)"
+"Supprimer l'objectif zéro artificialisation nette (ZAN) tel qu'il est conçu"
 ],
 "melenchon.ecole.3": [
 "Garder les écoles à classe unique et limiter le trajet scolaire à 15 minutes",
 "Les petites écoles de village restent ouvertes ; plus d'écoles et de collèges ruraux pour des trajets courts.",
 "Transport scolaire limité à 15 minutes, écoles à classe unique maintenues"
-],
-"glucksmann.ecole.2": [
-"Conditionner l'argent public versé aux écoles privées à la mixité sociale",
-"Les écoles privées sous contrat devraient accueillir plus d'élèves modestes pour garder leurs financements.",
-"Conditionner les aides au privé (10 Md€/an) à la mixité sociale"
 ],
 "philippe.ecole.3": [
 "Permettre au maire de mettre à l'amende les parents d'élèves absentéistes ou perturbateurs",
@@ -425,7 +415,7 @@
 "lisnard.sante.3": [
 "Laisser les médecins s'installer librement, exonérés d'impôt local dans les déserts médicaux",
 "Aucune règle sur le lieu d'installation ; en zone qui manque de médecins, pas de taxe locale d'entreprise.",
-"Liberté d'installation, exonération de CFE pour libéraux en zone sous-dense"
+"Liberté d'installation, exonération de CFE pour les médecins libéraux en zone sous-dense"
 ],
 "le-pen.ticpe": [
 "Ramener la taxe sur les carburants et le fioul à son niveau de 2017",

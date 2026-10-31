@@ -1664,6 +1664,16 @@ for mid in ('depense','cotisations'):
 assert n0==3, n0
 assert ANX3_OLD not in json.dumps(D) and STR_OLD not in json.dumps(D)
 
+# --- review 34 : une source qui parle pour le candidat, chaque proposition (31/10/2026) ; registre S193, S106 (volet « Vie quotidienne » : life.py)
+# Lisnard, TVA unique à 25 % : seul un site non officiel (lisnard.cards) la lui attribue ; son programme dit la question de la TVA « pas
+# tranchée » et sa tribune du 16/04/2026 parle seulement de simplifier les taux. Même règle que la Vie quotidienne (une proposition sans source
+# qui parle pour le candidat n'est pas affichée) : retirée de la liste « non compté » et de la note du simulateur. Sans effet sur les totaux.
+t=C['lisnard']['claude_total']; assert t['missing'].count('TVA unique à 25 %, ')==1
+t['missing']=t['missing'].replace('TVA unique à 25 %, ','')
+sc=C['lisnard']['sim']; n0=len(sc['tous'])
+sc['tous']=[x for x in sc['tous'] if not x.startswith('TVA unique')]; assert len(sc['tous'])==n0-1
+D['asof']='31 octobre 2026'
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:

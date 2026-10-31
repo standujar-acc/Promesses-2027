@@ -278,13 +278,16 @@ with sync_playwright() as p:
       g('s-apl').value=0; S.kids=0; sim(); return out; })()""")
     check(r == [False, True, True], f'simulateur : aucune ligne « Non revalorisées en 2028 » chez Lisnard (gel des seules pensions), allocations et APL gelées chez Attal {r}')
     check(not errs, f'aucune erreur JS {errs[:1]}')
-    # sources faibles : nom d'hôte exact (aucune adresse franceinfo.fr étiquetée « agrégateur »), étiquette aussi sur les données d'entrée et en Vie quotidienne
+    # sources faibles : nom d'hôte exact (aucune adresse franceinfo.fr étiquetée « agrégateur »), étiquette aussi sur les données d'entrée et en Vie quotidienne ;
+    # depuis le 31/10, la Vie quotidienne ne cite plus d'agrégateur quand une source qui parle pour le candidat existe (il peut n'en rester aucun) : tout agrégateur
+    # cité y reste étiqueté, et chaque thème avec des propositions a au moins une source qui n'est pas un site faible (l'étiquetage lui-même est vérifié par life.py)
     r = pg.evaluate("""(()=>{ const d=document.createElement('div'); d.innerHTML=D.candidates.flatMap(c=>c.measures.map(m=>measureCard(c,m))).join('');
       const tagged=li=>[...li.querySelectorAll('.tag')].some(t=>t.textContent==='agrégateur'), lis=[...d.querySelectorAll('li')].filter(li=>li.querySelector('a'));
       const fi=lis.filter(li=>hostOf(li.querySelector('a').href).endsWith('franceinfo.fr')), inW=[...d.querySelectorAll('.calc li')].filter(li=>li.querySelector('a')&&weak(li.querySelector('a').href));
       const life=Object.values(D.life).flat().flatMap(x=>x.sources), lfi=life.filter(s=>hostOf(s.url).endsWith('franceinfo.fr')), lw=life.filter(s=>weak(s.url)&&!/non officiel/.test(s.label));
-      return [fi.length>0, fi.filter(tagged).length, inW.length>0 && inW.every(tagged), lfi.length>0 && lfi.every(s=>!/agrégateur/.test(s.label)), lw.length>0 && lw.every(s=>/agrégateur/.test(s.label))]; })()""")
-    check(r == [True, 0, True, True, True], f'sources : aucune adresse franceinfo.fr étiquetée « agrégateur » ; agrégateurs signalés sur les données d\'entrée et en Vie quotidienne {r}')
+      const fort=Object.values(D.life).flat().filter(x=>x.proposals.length).every(x=>x.sources.some(s=>!weak(s.url)&&!/non officiel/.test(s.label)));
+      return [fi.length>0, fi.filter(tagged).length, inW.length>0 && inW.every(tagged), lfi.length>0 && lfi.every(s=>!/agrégateur/.test(s.label)), lw.every(s=>/agrégateur/.test(s.label)), fort]; })()""")
+    check(r == [True, 0, True, True, True, True], f'sources : aucune adresse franceinfo.fr étiquetée « agrégateur » ; agrégateurs signalés sur les données d\'entrée et en Vie quotidienne ; chaque thème a une source qui n\'est pas un site faible {r}')
     # « Qu'est-ce qui peut passer ? » et répartition des verdicts : mêmes mesures que les totaux (hors mesures non confirmées et doublons)
     r = pg.evaluate("""(()=>{ go('accueil'); const O={bloque:0,tres_difficile:1,sous_conditions:2,faisable:3};
       const cells=[...document.querySelectorAll('#grid td button')].map(b=>{ const c=cand(b.dataset.c), m=c.measures.find(x=>x.id===b.dataset.m);
