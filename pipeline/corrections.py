@@ -1639,6 +1639,31 @@ for c0 in D['candidates']:
                 x['source']="Capital (30/08/2026)"+(", propos du candidat sur France 2" if c0['id']=='glucksmann' else ", entretien du candidat au Monde" if c0['id']=='attal' else ""); n0+=1
 assert n0==12, n0  # 2 estimations et 4 données d'entrée MoneyVox, 2 estimations Public Sénat, 2 estimations et 2 données d'entrée Capital
 
+# --- review 33 : liens rouverts le 31/10 (31/10/2026) ; registre S027, S193
+# Les 17 adresses restées sans réponse au contrôle du 31/10 rouvertes avec Chromium, curl et un second accès au web : deux sont mortes.
+# (1) Page des annexes du PLFSS sur securite-sociale.fr : 404 (site réorganisé) → l'annexe 3 du PLFSS 2025 elle-même, appendice p. 64 :
+# « CSG sur les revenus d'activité » 110 386 M€ prévus en 2025 (vérifié le 31/10). (2) PDF du discours de Saint-Raphaël de D. Lisnard :
+# le fichier n'est plus sur le stockage du parti (accès refusé, alors que les autres fichiers du même dossier répondent ; déjà le cas le 27/10)
+# → compte rendu officiel du meeting par Nouvelle Énergie (3/07/2026), qui reprend les mêmes chiffres : « 80 milliards d'euros d'économies
+# dès la première année, puis 200 milliards d'euros par an à la fin du quinquennat ».
+ANX3_OLD="https://www.securite-sociale.fr/la-secu-en-detail/loi-de-financement/annexes"
+ANX3="https://www.securite-sociale.fr/files/live/sites/SSFR/files/medias/PLFSS/2025/PLFSS2025-Annexe03.pdf"
+STR_OLD="https://www.unenouvelleenergie.fr/app/uploads/2026/07/Discours-de-David-Lisnard-a-Saint-Raphael.pdf"
+STR_CR="https://www.unenouvelleenergie.fr/a-saint-raphael-david-lisnard-lance-sa-campagne-pour-faire-gagner-la-france-qui-fait/"
+STR_L="Nouvelle Énergie, compte rendu du meeting de Saint-Raphaël (3/07/2026)"
+x=next(i for i in M('lisnard','csg_actifs')['claude']['inputs'] if i['url']==ANX3_OLD)
+x.update(url=ANX3,source="DSS, PLFSS 2025, annexe 3, appendice p. 64 : 110 386 M€ prévus en 2025 (même base que la fiche CSG de Zemmour)")
+n0=0
+for mid in ('depense','cotisations'):
+    m=M('lisnard',mid)
+    for x in m['estimates']+m['claude']['inputs']:
+        if x['url']==STR_OLD:
+            x['url']=STR_CR; n0+=1
+            if x.get('source')=="Discours de Saint-Raphaël": x['source']=STR_L
+            if x.get('value')=="80 Md€ en an 1, ≥200 Md€ en fin de mandat": x['value']="80 Md€ dès la première année, 200 Md€ par an à la fin du quinquennat"
+assert n0==3, n0
+assert ANX3_OLD not in json.dumps(D) and STR_OLD not in json.dumps(D)
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:

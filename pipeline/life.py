@@ -649,6 +649,17 @@ OVR[('retailleau', 'economie')]['add'].append(_src("Livret « Le travail gagnant
 TITRE_S = {'https://www.publicsenat.fr/actualites/economie/entreprises-un-deal-a-250-milliards-deuros-sur-un-quinquennat-que-represente-la-proposition-dedouard-philippe': ('Public Sénat / Rexecode', 2025),
            'https://www.planetegrandesecoles.com/budget-marine-le-pen-2027-mesures-contre-budget-rn': ('Planète Grandes Écoles (contre-budget RN)', 2026)}
 
+# --- review 33 : liens rouverts le 31/10 (31/10/2026) ; registre S027, S193
+# PDF du discours de Saint-Raphaël de D. Lisnard : fichier retiré du stockage du parti → compte rendu officiel du meeting là où il dit la même
+# chose (20 000 places de prison ; collège unique et carte scolaire) ; logement : le compte rendu ne détaille pas l'article 55 de la loi SRU,
+# le ZAN ni les terrains publics, le lien mort est seulement retiré (source officielle à retrouver, S193).
+STR_OLD = 'Discours-de-David-Lisnard-a-Saint-Raphael.pdf'
+STR_CR = _src('Nouvelle Énergie, compte rendu du meeting de Saint-Raphaël (3/07/2026)', 2026, 'https://www.unenouvelleenergie.fr/a-saint-raphael-david-lisnard-lance-sa-campagne-pour-faire-gagner-la-france-qui-fait/')
+for _th, _add in (('securite', [STR_CR]), ('ecole', [STR_CR]), ('logement', [])):
+    _o = OVR.setdefault(('lisnard', _th), {})
+    _o['drop'] = _o.get('drop', []) + [STR_OLD]
+    _o['add'] = [s for s in _o.get('add', []) if STR_OLD not in s['url']] + _add
+
 # (30) Même test « précis » pour une même formulation, appliqué à toutes les propositions affichées (y compris celles réécrites plus haut) :
 # un changement de droit nommé (sortie du commandement intégré de l'OTAN, fin du droit de veto, mandat de l'ONU obligatoire, instrument ou
 # accord nommé et ce qui y change) est précis ; un objectif, une orientation ou une création sans paramètre (plan, pôle, fonds) reste une intention.
