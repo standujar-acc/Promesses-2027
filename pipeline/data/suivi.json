@@ -3359,6 +3359,28 @@
    "cree": "2026-10-31",
    "maj": "2026-10-31",
    "resolution": null
+  },
+  {
+   "id": "S199",
+   "type": "a_corriger",
+   "candidats": [
+    "le-pen",
+    "melenchon",
+    "philippe",
+    "glucksmann",
+    "attal",
+    "retailleau",
+    "lisnard",
+    "zemmour"
+   ],
+   "mesure": null,
+   "sujet": "Quiz : propositions semblables en duel et types qui reviennent plusieurs fois dans une partie",
+   "detail": "Signalé par le porteur du projet le 1/11. Contrôle sur 300 parties simulées : le tirage n'écartait que les textes identiques ; 305 duels opposaient deux propositions du même type (mêmes « Pour » et « Contre » : retour à 62 ans, règle d'or, examens d'entrée, postes publics…), et 296 parties sur 300 faisaient revenir un même type au moins deux fois (865 répétitions). 22 groupes de propositions partagent déjà leurs explications ; 18 familles de même sens et même instrument dont les explications diffèrent un peu (postes publics, salaire des enseignants, recul de l'âge, AME, zéro artificialisation, fraude, impôts de production…) relevées en comparant les textes.",
+   "echeance": null,
+   "statut": "resolu",
+   "cree": "2026-11-01",
+   "maj": "2026-11-01",
+   "resolution": "Règle écrite dans la méthode (paragraphe « Quiz ») : deux propositions de la même famille ne s'affrontent jamais et une famille ne revient qu'une fois par partie. Familles : mêmes « Pour » et « Contre », plus la liste data/quiz_familles.json (même sens et même instrument, ou même objectif direct ; le pipeline échoue si une clé n'est plus au quiz). Famille calculée au build (quiz_fam), utilisée par le tirage ; test : aucune famille répétée sur 50 parties, équilibre des 20 duels et des 5 apparitions par candidat gardé. Les oppositions sur un même sujet (retour à 62 ans contre recul à 65 ans) restent possibles : ce sont des familles différentes."
   }
  ]
 }

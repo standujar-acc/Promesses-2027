@@ -75,13 +75,20 @@ with sync_playwright() as p:
     pg.click('nav.bottom [data-go="moi"]'); pg.click('nav.bottom [data-go="quiz"]'); pg.go_back(); pg.wait_for_timeout(150)
     check(pg.evaluate('view') == 'moi', 'retour arrière : revient à la vue précédente')
 
-    pg.evaluate("go('quiz')"); bad = 0; rep = 0
+    pg.evaluate("go('quiz')"); bad = 0; rep = 0; fam_rep = 0
     for _ in range(50):
         pg.evaluate('quizStart()')
         qs = pg.evaluate('quizState.qs.map(q=>q.opts.map(o=>o.c))'); c = Counter(x for q in qs for x in q)
         if len(qs) != 20 or set(c.values()) != {5}: bad += 1
         txts = pg.evaluate('quizState.qs.flatMap(q=>q.opts.map(o=>(o.m.quiz_text||o.m.proposal).trim().toLowerCase()))')
         if len(set(txts)) < len(txts): rep += 1
+        # une famille de propositions (même sens, même instrument) au plus une fois par partie, donc jamais deux en duel
+        fams = pg.evaluate('quizState.qs.flatMap(q=>q.opts.map(o=>o.m.quiz_fam))')
+        if None in fams or len(set(fams)) < len(fams): fam_rep += 1
+    check(fam_rep == 0, f'quiz : aucune famille de propositions répétée ni en duel dans une partie ({fam_rep} parties sur 50)')
+    n_fam = pg.evaluate("new Set(Object.values(quizPool()).flat().map(o=>o.m.quiz_fam)).size")
+    check(pg.evaluate("Object.values(quizPool()).flat().filter(o=>o.m.quiz_fam==='attal.fonctionnaires'||o.m.quiz_fam==='le-pen.etat').length") >= 2 and n_fam >= 60,
+          f'quiz : familles calculées au build (postes publics regroupés ; {n_fam} familles)')
     sans_effets = pg.evaluate("D.candidates.flatMap(c=>c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)&&!(m.quiz_plus&&m.quiz_moins)).map(m=>c.id+'.'+m.id)).concat((D.quiz_extra||[]).filter(m=>!(m.quiz_plus&&m.quiz_moins&&m.quiz_concret)).map(m=>m.c+'.'+m.id))")
     check(not sans_effets, f'quiz : chaque proposition a ses deux effets {sans_effets[:3]}')
     sans_preuve = pg.evaluate("D.candidates.flatMap(c=>c.measures.filter(m=>!m.a_confirmer&&m.quiz_concret&&!(m.claude&&m.claude.exclude)).map(m=>({k:c.id+'.'+m.id,m}))).concat((D.quiz_extra||[]).map(m=>({k:m.c+'.'+m.id,m}))).filter(({m})=>!(m.quiz_preuve_pour&&m.quiz_preuve_contre&&m.quiz_cas_pour&&m.quiz_cas_contre)).map(x=>x.k)")

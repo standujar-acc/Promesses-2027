@@ -1,0 +1,23 @@
+{
+ "_regle": "Familles de propositions du quiz : deux propositions de la même famille (même sens et même instrument, ou même objectif direct) ne s'affrontent jamais, et une famille ne revient qu'une fois par partie. Les propositions qui partagent le même « Pour » et le même « Contre » sont de la même famille sans être listées ici ; cette liste ajoute les familles dont les explications diffèrent un peu (texte adapté au reste du programme). Clés : candidat.mesure (fiches) ou candidat.thème.n (Vie quotidienne) ; le pipeline échoue si une clé n'est plus au quiz.",
+ "familles": {
+  "Moins de postes publics": ["le-pen.etat", "philippe.fonction", "retailleau.etat", "lisnard.fonction", "attal.fonctionnaires", "zemmour.fonctionnaires"],
+  "Salaire des enseignants": ["philippe.profs", "attal.profs", "retailleau.profs", "lisnard.profs"],
+  "Recul de l'âge de la retraite": ["philippe.retraites", "lisnard.retraites", "zemmour.retraites", "retailleau.retraites"],
+  "Épargne retraite versée par l'État aux jeunes": ["philippe.premier_contrat", "attal.bebe"],
+  "Couverture santé des sans-papiers réduite ou supprimée": ["le-pen.ame", "retailleau.ame", "lisnard.ame", "zemmour.ame"],
+  "Objectif de zéro artificialisation et quotas de logements sociaux": ["le-pen.logement.2", "retailleau.logement.3", "lisnard.logement.2", "lisnard.logement.1"],
+  "Lutte contre la fraude": ["le-pen.fraude", "melenchon.fraude", "retailleau.fraude"],
+  "Impôts de production en baisse": ["le-pen.production", "retailleau.production", "lisnard.impots", "philippe.production"],
+  "Former plus de médecins": ["attal.sante.1", "lisnard.sante.1"],
+  "Service ou engagement obligatoire des jeunes": ["glucksmann.service_civique", "attal.engagement_civique"],
+  "Fusion des aides sociales": ["lisnard.allocation", "retailleau.travail"],
+  "Suppression de Parcoursup": ["melenchon.ecole.1", "glucksmann.ecole.3"],
+  "Moins d'élèves par classe": ["melenchon.ecole.2", "attal.ecole.1"],
+  "Moins d'éolien et de solaire": ["le-pen.enr", "zemmour.enr", "retailleau.energie"],
+  "Taxes sur l'énergie et les carburants en baisse": ["le-pen.tva", "le-pen.ticpe", "zemmour.accise"],
+  "CSG sur les salaires en baisse": ["lisnard.csg_deductible", "lisnard.csg_actifs"],
+  "Impôt sur le revenu des familles en baisse": ["le-pen.part-fiscale", "philippe.jeunes_parents", "lisnard.quotient"],
+  "Gel des prestations": ["attal.annee_blanche", "lisnard.gel_pensions"]
+ }
+}

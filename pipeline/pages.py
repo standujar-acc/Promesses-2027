@@ -13,7 +13,7 @@ e = lambda s: html.escape(str(s), quote=True)
 
 def iso(asof):
     d, m, y = asof.split()
-    return f"{y}-{MOIS[m]:02d}-{int(d):02d}"
+    return f"{y}-{MOIS[m]:02d}-{int(d.removesuffix('er')):02d}"  # « 1er novembre 2026 »
 
 def jsonld(obj):
     return '<script type="application/ld+json">' + json.dumps(obj, ensure_ascii=False).replace('</', '<\\/') + '</script>'
