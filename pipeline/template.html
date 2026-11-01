@@ -1066,7 +1066,8 @@ function quizThemes(){ const by={}; Object.values(quizPool()).forEach(l=>l.forEa
   return [...new Set([...Object.keys(TH),...Object.keys(LT)])].filter(t=>by[t]&&by[t].size>1); }
 function quizBuild(){
   const pool=quizPool(), pri=o=>quizImp.has(o.m.theme)?0:1;
-  const cnt=Object.fromEntries(D.candidates.map(c=>[c.id,0])), used=new Set(), pairs=new Set(), qs=[], seen=new Set(), txt=o=>(o.m.quiz_text||o.m.proposal).trim().toLowerCase();
+  // une famille de propositions (même sens, même instrument : quiz_fam, calculée au build) au plus une fois par partie, jamais deux en duel
+  const cnt=Object.fromEntries(D.candidates.map(c=>[c.id,0])), used=new Set(), pairs=new Set(), qs=[], seen=new Set(), txt=o=>o.m.quiz_fam||(o.m.quiz_text||o.m.proposal).trim().toLowerCase();
   for(let k=0;k<QN*4&&qs.length<QN;k++){
     const order=shuffle(D.candidates.map(c=>c.id)).sort((x,y)=>cnt[x]-cnt[y]); let done=false;
     for(const a of order){ for(const oa of shuffle(pool[a].filter(o=>!used.has(a+o.m.id)&&!seen.has(txt(o)))).sort((x,y)=>pri(x)-pri(y))){

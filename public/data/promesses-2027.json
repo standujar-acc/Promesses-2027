@@ -1,5 +1,5 @@
 {
- "asof": "31 octobre 2026",
+ "asof": "1er novembre 2026",
  "context": [
   {
    "v": "5,4 %",
@@ -202,7 +202,8 @@
       "ref": [
        "le-pen.retraites"
       ]
-     }
+     },
+     "quiz_fam": "le-pen.retraites"
     },
     {
      "id": "immigration",
@@ -326,7 +327,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "le-pen.immigration"
     },
     {
      "id": "tva",
@@ -468,7 +470,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "le-pen.tva"
     },
     {
      "id": "production",
@@ -600,7 +603,8 @@
        2,
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.production"
     },
     {
      "id": "ue",
@@ -707,7 +711,8 @@
       "s": [
        1
       ]
-     }
+     },
+     "quiz_fam": "le-pen.ue"
     },
     {
      "id": "fraude",
@@ -831,7 +836,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "le-pen.fraude"
     },
     {
      "id": "etat",
@@ -989,7 +995,8 @@
       "s": [
        4
       ]
-     }
+     },
+     "quiz_fam": "le-pen.etat"
     },
     {
      "id": "tva-produits-essentiels",
@@ -1093,7 +1100,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.tva-produits-essentiels"
     },
     {
      "id": "ame",
@@ -1226,7 +1234,8 @@
        6,
        7
       ]
-     }
+     },
+     "quiz_fam": "le-pen.ame"
     },
     {
      "id": "enr",
@@ -1358,7 +1367,8 @@
       "ref": [
        "le-pen.environnement.2"
       ]
-     }
+     },
+     "quiz_fam": "le-pen.enr"
     },
     {
      "id": "ticpe",
@@ -1491,7 +1501,8 @@
       "s": [
        1
       ]
-     }
+     },
+     "quiz_fam": "le-pen.tva"
     },
     {
      "id": "part-fiscale",
@@ -1597,7 +1608,8 @@
       "s": [
        4
       ]
-     }
+     },
+     "quiz_fam": "le-pen.part-fiscale"
     },
     {
      "id": "ir-moins-30-ans",
@@ -1712,7 +1724,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.ir-moins-30-ans"
     },
     {
      "id": "suramortissement",
@@ -1809,7 +1822,8 @@
       "s": [
        0
       ]
-     }
+     },
+     "quiz_fam": "le-pen.suramortissement"
     },
     {
      "id": "octroi-de-mer",
@@ -1945,7 +1959,8 @@
       "s": [
        1
       ]
-     }
+     },
+     "quiz_fam": "le-pen.dutreil"
     },
     {
      "id": "successions",
@@ -2036,7 +2051,8 @@
       "s": [
        0
       ]
-     }
+     },
+     "quiz_fam": "le-pen.successions"
     },
     {
      "id": "donations",
@@ -2132,7 +2148,8 @@
       "s": [
        1
       ]
-     }
+     },
+     "quiz_fam": "le-pen.donations"
     },
     {
      "id": "pfu",
@@ -2255,7 +2272,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "le-pen.pfu"
     },
     {
      "id": "pret-3e-enfant",
@@ -2356,7 +2374,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "le-pen.pret-3e-enfant"
     },
     {
      "id": "recherche",
@@ -2456,7 +2475,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.recherche"
     },
     {
      "id": "prisons",
@@ -2581,7 +2601,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.prisons"
     },
     {
      "id": "mesures-sectorielles",
@@ -2739,7 +2760,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.proches-aidants"
     },
     {
      "id": "dentaire",
@@ -2842,7 +2864,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "le-pen.dentaire"
     },
     {
      "id": "iff",
@@ -2955,7 +2978,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.iff"
     },
     {
      "id": "regle_or",
@@ -3052,7 +3076,8 @@
        2,
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.regle_or"
     }
    ],
    "total": {
@@ -3305,7 +3330,8 @@
       "s": [
        4
       ]
-     }
+     },
+     "quiz_fam": "le-pen.retraites"
     },
     {
      "id": "smic",
@@ -3449,7 +3475,8 @@
        7,
        6
       ]
-     }
+     },
+     "quiz_fam": "melenchon.smic"
     },
     {
      "id": "fiscalite",
@@ -3596,7 +3623,8 @@
       "s": [
        1
       ]
-     }
+     },
+     "quiz_fam": "le-pen.iff"
     },
     {
      "id": "jeunes",
@@ -3693,7 +3721,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "melenchon.jeunes"
     },
     {
      "id": "prix",
@@ -3817,7 +3846,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "melenchon.prix"
     },
     {
      "id": "dette",
@@ -3952,7 +3982,8 @@
        5,
        6
       ]
-     }
+     },
+     "quiz_fam": "melenchon.dette"
     },
     {
      "id": "constituante",
@@ -4025,7 +4056,8 @@
        "a": 2015,
        "u": "https://carllevan.com/wp-content/uploads/2010/01/Eisenstadt-LeVan-Maboudi-on-constitutions-APSR-2015-accepted.pdf"
       }
-     ]
+     ],
+     "quiz_fam": "melenchon.constituante"
     },
     {
      "id": "point_indice",
@@ -4162,7 +4194,8 @@
       "s": [
        0
       ]
-     }
+     },
+     "quiz_fam": "melenchon.point_indice"
     },
     {
      "id": "niches",
@@ -4310,7 +4343,8 @@
       "s": [
        4
       ]
-     }
+     },
+     "quiz_fam": "melenchon.niches"
     },
     {
      "id": "logement-urgence",
@@ -4400,7 +4434,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "melenchon.logement-urgence"
     },
     {
      "id": "cantine",
@@ -4502,7 +4537,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "melenchon.cantine"
     },
     {
      "id": "universites",
@@ -4615,7 +4651,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "melenchon.universites"
     },
     {
      "id": "hopitaux",
@@ -4710,7 +4747,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "melenchon.hopitaux"
     },
     {
      "id": "vss",
@@ -4799,7 +4837,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "melenchon.vss"
     },
     {
      "id": "violences-enfants",
@@ -4882,7 +4921,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "melenchon.violences-enfants"
     },
     {
      "id": "coupes-2026",
@@ -5032,7 +5072,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "melenchon.planification"
     },
     {
      "id": "chomage",
@@ -5140,7 +5181,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "melenchon.chomage"
     },
     {
      "id": "af-apl",
@@ -5258,7 +5300,8 @@
       "s": [
        4
       ]
-     }
+     },
+     "quiz_fam": "melenchon.af-apl"
     },
     {
      "id": "ttf",
@@ -5350,7 +5393,8 @@
       "s": [
        0
       ]
-     }
+     },
+     "quiz_fam": "melenchon.ttf"
     },
     {
      "id": "fraude",
@@ -5452,7 +5496,8 @@
       "s": [
        0
       ]
-     }
+     },
+     "quiz_fam": "le-pen.fraude"
     },
     {
      "id": "recherche",
@@ -5869,7 +5914,8 @@
       "ref": [
        "philippe.retraites"
       ]
-     }
+     },
+     "quiz_fam": "philippe.retraites"
     },
     {
      "id": "fonction",
@@ -6007,7 +6053,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.etat"
     },
     {
      "id": "production",
@@ -6128,7 +6175,8 @@
        3,
        4
       ]
-     }
+     },
+     "quiz_fam": "le-pen.production"
     },
     {
      "id": "chomage",
@@ -6244,7 +6292,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "philippe.chomage"
     },
     {
      "id": "famille",
@@ -6366,7 +6415,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "le-pen.pret-3e-enfant"
     },
     {
      "id": "immigration",
@@ -6499,7 +6549,8 @@
       "s": [
        6
       ]
-     }
+     },
+     "quiz_fam": "philippe.immigration"
     },
     {
      "id": "profs",
@@ -6620,7 +6671,8 @@
        3,
        4
       ]
-     }
+     },
+     "quiz_fam": "philippe.profs"
     },
     {
      "id": "heures_sup",
@@ -6748,7 +6800,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "philippe.heures_sup"
     },
     {
      "id": "fonds_climat",
@@ -6861,7 +6914,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "melenchon.planification"
     },
     {
      "id": "jeunes_parents",
@@ -6951,7 +7005,8 @@
       "ref": [
        "philippe.famille"
       ]
-     }
+     },
+     "quiz_fam": "le-pen.part-fiscale"
     },
     {
      "id": "premier_contrat",
@@ -7064,7 +7119,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "philippe.premier_contrat"
     },
     {
      "id": "armees",
@@ -7142,7 +7198,8 @@
       "s": [
        0
       ]
-     }
+     },
+     "quiz_fam": "philippe.armees"
     },
     {
      "id": "ingenieurs",
@@ -7219,7 +7276,8 @@
       "s": [
        1
       ]
-     }
+     },
+     "quiz_fam": "philippe.ingenieurs"
     },
     {
      "id": "service_national",
@@ -7353,7 +7411,8 @@
        2,
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.regle_or"
     }
    ],
    "total": {
@@ -7671,7 +7730,8 @@
       "s": [
        0
       ]
-     }
+     },
+     "quiz_fam": "glucksmann.heritages"
     },
     {
      "id": "retraites",
@@ -7819,7 +7879,8 @@
       "s": [
        4
       ]
-     }
+     },
+     "quiz_fam": "le-pen.retraites"
     },
     {
      "id": "smic",
@@ -7975,7 +8036,8 @@
        7,
        6
       ]
-     }
+     },
+     "quiz_fam": "melenchon.smic"
     },
     {
      "id": "defense",
@@ -8101,7 +8163,8 @@
        4,
        5
       ]
-     }
+     },
+     "quiz_fam": "glucksmann.defense"
     },
     {
      "id": "ecole",
@@ -8248,7 +8311,8 @@
        "glucksmann.ecole",
        "glucksmann.ecole.1"
       ]
-     }
+     },
+     "quiz_fam": "glucksmann.ecole"
     },
     {
      "id": "industrie",
@@ -8347,7 +8411,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "glucksmann.industrie"
     },
     {
      "id": "service_civique",
@@ -8479,7 +8544,8 @@
        "a": 2024,
        "u": "https://www.vie-publique.fr/files/rapport/pdf/295374.pdf"
       }
-     ]
+     ],
+     "quiz_fam": "glucksmann.service_civique"
     },
     {
      "id": "ukraine",
@@ -8589,7 +8655,8 @@
       "ref": [
        "glucksmann.defense"
       ]
-     }
+     },
+     "quiz_fam": "glucksmann.ukraine"
     },
     {
      "id": "cheque_energie",
@@ -8686,7 +8753,8 @@
       "s": [
        1
       ]
-     }
+     },
+     "quiz_fam": "glucksmann.cheque_energie"
     },
     {
      "id": "leasing_social",
@@ -8957,7 +9025,8 @@
       "ref": [
        "attal.retraites"
       ]
-     }
+     },
+     "quiz_fam": "attal.retraites"
     },
     {
      "id": "fonctionnaires",
@@ -9091,7 +9160,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.etat"
     },
     {
      "id": "annee_blanche",
@@ -9183,7 +9253,8 @@
       "s": [
        1
       ]
-     }
+     },
+     "quiz_fam": "attal.annee_blanche"
     },
     {
      "id": "bebe",
@@ -9289,7 +9360,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "philippe.premier_contrat"
     },
     {
      "id": "regle_or",
@@ -9378,7 +9450,8 @@
        2,
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.regle_or"
     },
     {
      "id": "immigration",
@@ -9463,7 +9536,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "attal.immigration"
     },
     {
      "id": "travail",
@@ -9550,7 +9624,8 @@
        "a": 2026,
        "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"
       }
-     ]
+     ],
+     "quiz_fam": "attal.travail"
     },
     {
      "id": "europe",
@@ -9650,7 +9725,8 @@
        "a": 2008,
        "u": "https://www.senat.fr/rap/r07-188/r07-1881.html"
       }
-     ]
+     ],
+     "quiz_fam": "attal.europe"
     },
     {
      "id": "profs",
@@ -9763,7 +9839,8 @@
        3,
        4
       ]
-     }
+     },
+     "quiz_fam": "philippe.profs"
     },
     {
      "id": "engagement_civique",
@@ -9871,7 +9948,8 @@
        "a": 2024,
        "u": "https://www.vie-publique.fr/files/rapport/pdf/295374.pdf"
       }
-     ]
+     ],
+     "quiz_fam": "glucksmann.service_civique"
     },
     {
      "id": "ia",
@@ -10001,7 +10079,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "attal.ia"
     },
     {
      "id": "batiments_scolaires",
@@ -10286,7 +10365,8 @@
       "ref": [
        "retailleau.etat"
       ]
-     }
+     },
+     "quiz_fam": "le-pen.etat"
     },
     {
      "id": "immigration",
@@ -10451,7 +10531,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "retailleau.immigration"
     },
     {
      "id": "retraites",
@@ -10574,7 +10655,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "philippe.retraites"
     },
     {
      "id": "travail",
@@ -10683,7 +10765,8 @@
        2,
        1
       ]
-     }
+     },
+     "quiz_fam": "lisnard.allocation"
     },
     {
      "id": "production",
@@ -10835,7 +10918,8 @@
        2,
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.production"
     },
     {
      "id": "energie",
@@ -10968,7 +11052,8 @@
       "ref": [
        "retailleau.environnement.3"
       ]
-     }
+     },
+     "quiz_fam": "le-pen.enr"
     },
     {
      "id": "securite",
@@ -11131,7 +11216,8 @@
        "retailleau.securite",
        "retailleau.securite.2"
       ]
-     }
+     },
+     "quiz_fam": "retailleau.securite"
     },
     {
      "id": "fin_maprimerenov",
@@ -11270,7 +11356,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "retailleau.fin_maprimerenov"
     },
     {
      "id": "ame",
@@ -11403,7 +11490,8 @@
        6,
        7
       ]
-     }
+     },
+     "quiz_fam": "le-pen.ame"
     },
     {
      "id": "cotisations",
@@ -11512,7 +11600,8 @@
       "s": [
        1
       ]
-     }
+     },
+     "quiz_fam": "retailleau.cotisations"
     },
     {
      "id": "conge_naissance",
@@ -11624,7 +11713,8 @@
       "s": [
        4
       ]
-     }
+     },
+     "quiz_fam": "retailleau.conge_naissance"
     },
     {
      "id": "revenu_familial",
@@ -11776,7 +11866,8 @@
       "s": [
        0
       ]
-     }
+     },
+     "quiz_fam": "le-pen.fraude"
     },
     {
      "id": "menages",
@@ -11941,7 +12032,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "philippe.chomage"
     },
     {
      "id": "ia",
@@ -12042,7 +12134,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "attal.ia"
     },
     {
      "id": "profs",
@@ -12149,7 +12242,8 @@
        3,
        4
       ]
-     }
+     },
+     "quiz_fam": "philippe.profs"
     },
     {
      "id": "transmission",
@@ -12237,7 +12331,8 @@
       "s": [
        1
       ]
-     }
+     },
+     "quiz_fam": "le-pen.dutreil"
     },
     {
      "id": "seuil_zero_cotisation",
@@ -12535,7 +12630,8 @@
        3,
        1
       ]
-     }
+     },
+     "quiz_fam": "retailleau.cee"
     },
     {
      "id": "regle_or",
@@ -12646,7 +12742,8 @@
        2,
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.regle_or"
     }
    ],
    "total": {
@@ -12969,7 +13066,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.etat"
     },
     {
      "id": "retraites",
@@ -13117,7 +13215,8 @@
       "ref": [
        "lisnard.retraites"
       ]
-     }
+     },
+     "quiz_fam": "philippe.retraites"
     },
     {
      "id": "impots",
@@ -13237,7 +13336,8 @@
        2,
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.production"
     },
     {
      "id": "allocation",
@@ -13341,7 +13441,8 @@
        3,
        0
       ]
-     }
+     },
+     "quiz_fam": "lisnard.allocation"
     },
     {
      "id": "ame",
@@ -13483,7 +13584,8 @@
        6,
        7
       ]
-     }
+     },
+     "quiz_fam": "le-pen.ame"
     },
     {
      "id": "referendum",
@@ -13550,7 +13652,8 @@
        "a": 2010,
        "u": "https://gould.usc.edu/assets/docs/Matsusaka_Popular_Control.pdf"
       }
-     ]
+     ],
+     "quiz_fam": "lisnard.referendum"
     },
     {
      "id": "cotisations",
@@ -13738,7 +13841,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "lisnard.is20"
     },
     {
      "id": "profs",
@@ -13851,7 +13955,8 @@
        3,
        4
       ]
-     }
+     },
+     "quiz_fam": "philippe.profs"
     },
     {
      "id": "aides5",
@@ -13992,7 +14097,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "le-pen.immigration"
     },
     {
      "id": "succession",
@@ -14106,7 +14212,8 @@
       "s": [
        0
       ]
-     }
+     },
+     "quiz_fam": "le-pen.successions"
     },
     {
      "id": "quotient",
@@ -14218,7 +14325,8 @@
       "s": [
        4
       ]
-     }
+     },
+     "quiz_fam": "le-pen.part-fiscale"
     },
     {
      "id": "csg_deductible",
@@ -14319,7 +14427,8 @@
        2,
        3
       ]
-     }
+     },
+     "quiz_fam": "lisnard.csg_deductible"
     },
     {
      "id": "foncier",
@@ -14480,7 +14589,8 @@
        2,
        3
       ]
-     }
+     },
+     "quiz_fam": "lisnard.csg_deductible"
     },
     {
      "id": "gel_pensions",
@@ -14577,7 +14687,8 @@
       "s": [
        1
       ]
-     }
+     },
+     "quiz_fam": "attal.annee_blanche"
     },
     {
      "id": "prisons",
@@ -14693,7 +14804,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.prisons"
     },
     {
      "id": "abattement_pensions",
@@ -15004,7 +15116,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "zemmour.remigration"
     },
     {
      "id": "aides",
@@ -15113,7 +15226,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "le-pen.immigration"
     },
     {
      "id": "cedh",
@@ -15213,7 +15327,8 @@
       "s": [
        5
       ]
-     }
+     },
+     "quiz_fam": "zemmour.cedh"
     },
     {
      "id": "retraites",
@@ -15350,7 +15465,8 @@
       "s": [
        6
       ]
-     }
+     },
+     "quiz_fam": "philippe.retraites"
     },
     {
      "id": "csg",
@@ -15727,7 +15843,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.etat"
     },
     {
      "id": "famille",
@@ -15901,7 +16018,8 @@
       "s": [
        1
       ]
-     }
+     },
+     "quiz_fam": "le-pen.tva"
     },
     {
      "id": "ame",
@@ -16035,7 +16153,8 @@
        6,
        7
       ]
-     }
+     },
+     "quiz_fam": "le-pen.ame"
     },
     {
      "id": "enr",
@@ -16159,7 +16278,8 @@
       "ref": [
        "zemmour.environnement.1"
       ]
-     }
+     },
+     "quiz_fam": "le-pen.enr"
     },
     {
      "id": "anah",
@@ -16266,7 +16386,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "retailleau.fin_maprimerenov"
     },
     {
      "id": "ue",
@@ -16410,7 +16531,8 @@
       "s": [
        2
       ]
-     }
+     },
+     "quiz_fam": "zemmour.rsa3"
     },
     {
      "id": "prisons",
@@ -16532,7 +16654,8 @@
       "s": [
        3
       ]
-     }
+     },
+     "quiz_fam": "le-pen.prisons"
     },
     {
      "id": "aide_developpement",
@@ -16697,7 +16820,8 @@
       "s": [
        0
       ]
-     }
+     },
+     "quiz_fam": "zemmour.aide_developpement"
     },
     {
      "id": "cee",
@@ -16842,7 +16966,8 @@
        3,
        1
       ]
-     }
+     },
+     "quiz_fam": "retailleau.cee"
     }
    ],
    "total": {
@@ -16923,7 +17048,7 @@
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 5 propositions publiées par candidat. Une proposition est « vérifiable » (précise) si elle donne un chiffre, une échéance ou un moyen juridique précis, c'est-à-dire un changement de droit nommé (sortie du commandement intégré de l'OTAN, fin du droit de veto, mandat de l'ONU obligatoire, instrument ou accord nommé et ce qui y change) ; sinon c'est une « intention » (un objectif, une orientation, ou une création sans paramètre : plan, pôle, fonds). La même règle s'applique à tous. Chaque proposition affichée est attribuée au candidat par au moins une source qui parle pour lui : le candidat lui-même (discours, entretien, tribune, réseau officiel) ou son site de campagne ; un document officiel de son parti ou de son groupe publié après sa désignation, ou repris par lui ; une personne au rôle officiel dans sa campagne ; un média reconnu qui le cite ou rapporte précisément ses propos, datés, ou deux médias reconnus indépendants qui rapportent la même proposition ; pour une proposition de 2022, une analyse d'une institution reconnue ou d'un média reconnu qui décrit son programme officiel. Un agrégateur, un site non officiel, une seule reprise de presse sans citation ou une étude ne suffisent pas : sans autre source, la proposition n'est pas affichée (le contrôle est automatique, proposition par proposition), et une source qui parle pour le candidat remplace l'agrégateur ou le site non officiel qui portait la même proposition. Une proposition est de 2026 si une telle source la porte en 2026 (site de campagne, document du parti publié depuis la désignation, entretien) ; sinon elle est signalée « non reconfirmée », chez tous ; une page sans date ne reconfirme pas, sauf sur le site de campagne du candidat, ouvert pour cette élection, et quand une partie seulement d'une proposition est redite en 2026, les deux parties sont affichées séparément.Quand un thème compte plus de cinq propositions, on affiche, dans le même ordre pour tous : d'abord celles de 2026 (les non reconfirmées passent après), parmi elles les précises avant les intentions, puis les plus récentes ; à égalité ou à date inconnue, l'ordre déjà affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce) ; une proposition remplacée par sa version précise n'est pas gardée en double, et une même proposition n'est affichée que dans un thème, le plus précis (l'énergie et le nucléaire dans « environnement »). Les propositions hors affichage restent notées dans le registre de suivi du projet (dépôt public). L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Elle est calculée à partir des lectures affichées : chaque lecture d'étude, la même pour tous les candidats qui proposent ce type de mesure, a un niveau au regard de l'effet recherché (prouvé : les évaluations montrent cet effet ; mitigé : effet partiel, faible ou contrasté, obtenu avec un effet contraire notable, ou montré seulement pour une mesure voisine ; non démontré : pas d'effet, effet inverse, ou seulement un coût mesuré) ; une lecture qui constate l'absence d'évaluation compte « pas d'étude » ; une lecture qui ne donne qu'un fait (droit existant, situation de départ) n'a pas de niveau. Aucune lecture d'étude ni constat : « pas d'étude » ; toutes les lectures au même niveau : ce niveau ; sinon : « mitigée » (preuves partielles ou contrastées). Ainsi, une étiquette extrême, « prouvée » comme « non démontrée », ne tient pas sur une seule lecture quand une autre lecture du même thème constate l'absence d'évaluation. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
   "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). La fin des certificats d'économies d'énergie compte −7 c€ par litre de carburant, TTC (coût moyen officiel de 2022 à 2025), la même hypothèse pour tous les candidats qui la proposent. Une hausse publiée en fourchette (« jusqu'à ») compte pour son montant minimal, l'autre borne étant donnée en note (salaires des enseignants, la même règle pour tous les candidats qui en proposent) ; un gel ne s'applique qu'aux prestations que le programme nomme. Ce sont des ordres de grandeur.",
-  "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Les duels portent sur les mesures des fiches (chiffrées ou non chiffrables) et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant. Dessous, un constat : la réalité française que la proposition veut traiter, avec le chiffre officiel (le dernier chiffre officiel et son évolution en %, même forme pour toutes ; les problèmes réels sont dits clairement, sans cause ni jugement) ; une mesure institutionnelle ou d'organisation (Constitution, référendum, organisation de l'État, des agences ou des établissements), ou une mesure dont aucune série officielle ne mesure ce qu'elle vise, n'a pas de constat, avec la même règle pour toutes. Puis « Pour » et « Contre » donnent en une ligne le meilleur argument réel de ceux qui la défendent et de ceux qui la critiquent : un fait que la proposition ne dit pas d'elle-même (ce qui s'est passé quand elle a été appliquée, un ordre de grandeur), jamais la proposition redite autrement ; avec la force des preuves de chacun (solides, mitigées, faibles, pas d'étude). Sous le duel, des cas réels sourcés (en France d'abord) et l'état des études. Même méthode pour toutes les mesures, sans fausse symétrie : on n'invente ni argument ni exemple pour équilibrer, et un exemple n'est retenu que s'il est pertinent, observé et de source reconnue ; on montre où penchent les faits et le lecteur juge ; les mesures du même type ont les mêmes cas et les mêmes niveaux de preuve. Le « Contre » tient compte du reste du programme : si une autre mesure du même candidat répond à la critique, elle est signalée. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit ; « Les deux » compte la moyenne des deux effets), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
+  "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Deux propositions de la même famille (même sens et même instrument : deux retours à 62 ans, deux plans de suppression de postes, deux hausses du salaire des enseignants…) ne s'affrontent jamais, et une famille ne revient qu'une fois par partie : sont de la même famille les propositions qui ont le même « Pour » et le même « Contre », et celles d'une liste publiée avec les données. Les duels portent sur les mesures des fiches (chiffrées ou non chiffrables) et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant. Dessous, un constat : la réalité française que la proposition veut traiter, avec le chiffre officiel (le dernier chiffre officiel et son évolution en %, même forme pour toutes ; les problèmes réels sont dits clairement, sans cause ni jugement) ; une mesure institutionnelle ou d'organisation (Constitution, référendum, organisation de l'État, des agences ou des établissements), ou une mesure dont aucune série officielle ne mesure ce qu'elle vise, n'a pas de constat, avec la même règle pour toutes. Puis « Pour » et « Contre » donnent en une ligne le meilleur argument réel de ceux qui la défendent et de ceux qui la critiquent : un fait que la proposition ne dit pas d'elle-même (ce qui s'est passé quand elle a été appliquée, un ordre de grandeur), jamais la proposition redite autrement ; avec la force des preuves de chacun (solides, mitigées, faibles, pas d'étude). Sous le duel, des cas réels sourcés (en France d'abord) et l'état des études. Même méthode pour toutes les mesures, sans fausse symétrie : on n'invente ni argument ni exemple pour équilibrer, et un exemple n'est retenu que s'il est pertinent, observé et de source reconnue ; on montre où penchent les faits et le lecteur juge ; les mesures du même type ont les mêmes cas et les mêmes niveaux de preuve. Le « Contre » tient compte du reste du programme : si une autre mesure du même candidat répond à la critique, elle est signalée. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit ; « Les deux » compte la moyenne des deux effets), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
   "<b>Sondages et contexte.</b> Intentions de vote au 1er tour : moyenne de 6 instituts (Cluster17 pour Politico, du 19 au 22/10 ; Elabe pour BFMTV et La Tribune Dimanche, du 14 au 16/10 ; Ifop-Fiducial pour LCI, Le Figaro et Sud Radio, du 17 au 19/10 ; Ipsos BVA pour Le Parisien, du 21 au 22/10 ; OpinionWay pour CNews, du 21 au 22/10 ; Toluna Harris Interactive pour M6 et RTL, du 19 au 21/10), dernière vague de chacun dont le terrain s'est achevé dans les 15 jours précédant le 31/10/2026, 15e jour compris ; pour chaque institut, milieu de la fourchette des hypothèses où le candidat est testé, même poids pour chaque institut. L'ordre des candidats suit cette moyenne, et la date de la moyenne est affichée à côté des intentions de vote. Source : notices de la Commission des sondages ; sondages masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
  ],
  "statu_quo": {
@@ -17033,6 +17158,10 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "01/11/2026",
+   "text": "Quiz : deux propositions de la même famille (même sens et même instrument, par exemple deux retours à 62 ans, deux plans de suppression de postes, deux hausses du salaire des enseignants, deux examens d'entrée en sixième) ne s'affrontent plus, et une famille ne revient qu'une fois par partie. Avant, près d'un duel par partie opposait deux propositions semblables, et presque chaque partie faisait revenir un même type de proposition deux ou trois fois."
+  },
   {
    "date": "31/10/2026",
    "text": "Vie quotidienne : sources. Chaque proposition s'appuie désormais sur au moins une source qui parle pour le candidat (lui-même, son site, son parti, un média qui le cite), vérifiée automatiquement ; les sites de synthèse et les sites non officiels sont retirés quand une telle source existe, au profit des documents officiels (programme de 2022 du RN, « Acte I » de Place publique, sites de campagne, Nouvelle Énergie…). Retirées faute de source qui parle pour le candidat : Le Pen, instruments européens de défense ; Mélenchon, scolarité obligatoire à 18 ans ; Attal, logement intermédiaire dans les quotas et ZAN simplifié ; Retailleau, suppression du juge d'application des peines et contribution à l'UE ; Lisnard, TVA unique à 25 % (aussi retirée de la liste des mesures non comptées et du simulateur) ; Zemmour, vente de HLM, Livret A, 40 000 soldats, directive sur les bâtiments, sortie de la CEDH et loi Avia, propositions du seul programme européen de 2024 ou de sites de synthèse ; la présomption de légitime défense (Le Pen, 2022) sort de l'affichage, au-delà de cinq propositions. Quiz : les aides au privé de Glucksmann (devenues une intention) et le logement intermédiaire d'Attal n'y figurent plus. Textes alignés sur les sources : renouvelables (5,6 Md€ en 2027) et contribution nette à l'UE (Le Pen), pays sûrs (Philippe), aides au privé sans montant (Glucksmann), prix de l'électricité stables cinq ans et délai de deux mois pour les porteurs de projets (Attal), huit EPR2 si les six premiers avancent et déchéance pour les pilleurs (Retailleau), article 55 visant la CEDH, CFE des médecins libéraux et ZAN « tel qu'il est conçu » (Lisnard), éolien remplacé par la fin du soutien aux renouvelables intermittentes du plan repris en 2026 et voitures thermiques (Zemmour). Redites en 2026 : police de proximité, Sécurité sociale intégrale, logements publics et meublés touristiques (Mélenchon), encadrement des loyers (Glucksmann), suppression du juge d'application des peines (Attal), peines minimales (Le Pen) ; non reconfirmées : remises de peine (Le Pen), démantèlement des BAC (Mélenchon), plans régionaux pour les renouvelables (Glucksmann), terrains publics (Lisnard), marché carbone des carburants (Zemmour). Lectures d'études ajustées en conséquence, la même pour un même type de proposition. Même règle dans les fiches : la sortie de la CEDH, que seul le programme des européennes de 2024 de Reconquête attribue à Zemmour, est retirée de sa fiche « Fin du regroupement familial », de sa liste « non compté » et de son résumé (totaux inchangés)."
@@ -22589,7 +22718,8 @@
     "s": [
      7
     ]
-   }
+   },
+   "quiz_fam": "le-pen.logement.2"
   },
   {
    "c": "le-pen",
@@ -22664,7 +22794,8 @@
     "s": [
      4
     ]
-   }
+   },
+   "quiz_fam": "le-pen.logement.3"
   },
   {
    "c": "melenchon",
@@ -22723,7 +22854,8 @@
     "s": [
      2
     ]
-   }
+   },
+   "quiz_fam": "melenchon.logement.1"
   },
   {
    "c": "philippe",
@@ -22794,7 +22926,8 @@
      3,
      4
     ]
-   }
+   },
+   "quiz_fam": "philippe.logement.1"
   },
   {
    "c": "retailleau",
@@ -22853,7 +22986,8 @@
     "ref": [
      "retailleau.logement.2"
     ]
-   }
+   },
+   "quiz_fam": "retailleau.logement.1"
   },
   {
    "c": "retailleau",
@@ -22918,7 +23052,8 @@
      2,
      3
     ]
-   }
+   },
+   "quiz_fam": "retailleau.logement.2"
   },
   {
    "c": "retailleau",
@@ -23016,7 +23151,8 @@
     "ref": [
      "retailleau.logement.1"
     ]
-   }
+   },
+   "quiz_fam": "le-pen.logement.2"
   },
   {
    "c": "attal",
@@ -23062,7 +23198,8 @@
     "s": [
      2
     ]
-   }
+   },
+   "quiz_fam": "attal.logement.1"
   },
   {
    "c": "lisnard",
@@ -23137,7 +23274,8 @@
     "s": [
      4
     ]
-   }
+   },
+   "quiz_fam": "le-pen.logement.2"
   },
   {
    "c": "lisnard",
@@ -23201,7 +23339,8 @@
     "s": [
      4
     ]
-   }
+   },
+   "quiz_fam": "le-pen.logement.2"
   },
   {
    "c": "melenchon",
@@ -23265,7 +23404,8 @@
     "s": [
      3
     ]
-   }
+   },
+   "quiz_fam": "melenchon.ecole.3"
   },
   {
    "c": "philippe",
@@ -23328,7 +23468,8 @@
     "s": [
      3
     ]
-   }
+   },
+   "quiz_fam": "philippe.ecole.3"
   },
   {
    "c": "retailleau",
@@ -23415,7 +23556,8 @@
     "s": [
      5
     ]
-   }
+   },
+   "quiz_fam": "retailleau.ecole.2"
   },
   {
    "c": "retailleau",
@@ -23496,7 +23638,8 @@
     "s": [
      4
     ]
-   }
+   },
+   "quiz_fam": "retailleau.ecole.3"
   },
   {
    "c": "retailleau",
@@ -23555,7 +23698,8 @@
      "a": 2017,
      "u": "https://researchonline.lse.ac.uk/id/eprint/69027"
     }
-   ]
+   ],
+   "quiz_fam": "retailleau.ecole.4"
   },
   {
    "c": "attal",
@@ -23638,7 +23782,8 @@
     "s": [
      4
     ]
-   }
+   },
+   "quiz_fam": "melenchon.ecole.2"
   },
   {
    "c": "attal",
@@ -23725,7 +23870,8 @@
     "s": [
      5
     ]
-   }
+   },
+   "quiz_fam": "retailleau.ecole.2"
   },
   {
    "c": "lisnard",
@@ -23812,7 +23958,8 @@
     "s": [
      5
     ]
-   }
+   },
+   "quiz_fam": "retailleau.ecole.2"
   },
   {
    "c": "lisnard",
@@ -23899,7 +24046,8 @@
      4,
      5
     ]
-   }
+   },
+   "quiz_fam": "lisnard.ecole.4"
   },
   {
    "c": "melenchon",
@@ -23957,7 +24105,8 @@
     "s": [
      3
     ]
-   }
+   },
+   "quiz_fam": "melenchon.sante.1"
   },
   {
    "c": "melenchon",
@@ -24022,7 +24171,8 @@
     "ref": [
      "melenchon.sante.1"
     ]
-   }
+   },
+   "quiz_fam": "melenchon.sante.2"
   },
   {
    "c": "retailleau",
@@ -24104,7 +24254,8 @@
     "ref": [
      "retailleau.sante.2"
     ]
-   }
+   },
+   "quiz_fam": "retailleau.sante.1"
   },
   {
    "c": "retailleau",
@@ -24179,7 +24330,8 @@
     "s": [
      4
     ]
-   }
+   },
+   "quiz_fam": "retailleau.sante.2"
   },
   {
    "c": "lisnard",
@@ -24251,7 +24403,8 @@
     "ref": [
      "lisnard.sante.3"
     ]
-   }
+   },
+   "quiz_fam": "attal.sante.1"
   },
   {
    "c": "lisnard",
@@ -24274,7 +24427,8 @@
      "a": 2026,
      "u": "https://www.senat.fr/rap/r25-657/r25-657-syn.pdf"
     }
-   ]
+   ],
+   "quiz_fam": "lisnard.sante.2"
   },
   {
    "c": "lisnard",
@@ -24356,7 +24510,8 @@
     "ref": [
      "lisnard.sante.1"
     ]
-   }
+   },
+   "quiz_fam": "lisnard.sante.3"
   },
   {
    "c": "melenchon",
@@ -24450,7 +24605,8 @@
     "ref": [
      "melenchon.universites"
     ]
-   }
+   },
+   "quiz_fam": "melenchon.ecole.1"
   },
   {
    "c": "glucksmann",
@@ -24538,7 +24694,8 @@
      1,
      2
     ]
-   }
+   },
+   "quiz_fam": "melenchon.ecole.1"
   },
   {
    "c": "retailleau",
@@ -24626,7 +24783,8 @@
      1,
      2
     ]
-   }
+   },
+   "quiz_fam": "retailleau.ecole.1"
   },
   {
    "c": "retailleau",
@@ -24685,7 +24843,8 @@
     "s": [
      0
     ]
-   }
+   },
+   "quiz_fam": "retailleau.ecole.5"
   },
   {
    "c": "lisnard",
@@ -24771,7 +24930,8 @@
     "s": [
      0
     ]
-   }
+   },
+   "quiz_fam": "lisnard.ecole.1"
   },
   {
    "c": "melenchon",
@@ -24859,7 +25019,8 @@
     "s": [
      4
     ]
-   }
+   },
+   "quiz_fam": "melenchon.ecole.2"
   },
   {
    "c": "zemmour",
@@ -24946,7 +25107,8 @@
     "s": [
      5
     ]
-   }
+   },
+   "quiz_fam": "retailleau.ecole.2"
   },
   {
    "c": "attal",
@@ -25006,7 +25168,8 @@
     "s": [
      3
     ]
-   }
+   },
+   "quiz_fam": "attal.sante.1"
   }
  ]
 }

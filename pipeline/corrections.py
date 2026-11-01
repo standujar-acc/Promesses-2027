@@ -1685,6 +1685,11 @@ m['proposal']="Supprimer le regroupement familial ; référendum sur l'immigrati
 t=C['zemmour']['claude_total']; assert t['missing'].count('sortie de la CEDH, ')==1
 t['missing']=t['missing'].replace('sortie de la CEDH, ','')
 
+# --- review 36 : quiz, familles de propositions (01/11/2026) ; registre S199
+# Deux propositions de la même famille ne s'affrontent plus et une famille ne revient qu'une fois par partie : data/quiz_familles.json,
+# calcul des familles dans build.py, tirage dans template.html. Aucune donnée de fiche ne change.
+D['asof']='1er novembre 2026'
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
