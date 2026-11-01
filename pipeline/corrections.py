@@ -1690,6 +1690,30 @@ t['missing']=t['missing'].replace('sortie de la CEDH, ','')
 # calcul des familles dans build.py, tirage dans template.html. Aucune donnée de fiche ne change.
 D['asof']='1er novembre 2026'
 
+# --- review 37 : veille du 31/10 au 1/11 et propositions non affichées (01/11/2026) ; registre S195, S113 (volet « Vie quotidienne » : life.py)
+# Décisions du porteur du 1/11, même règle pour les 8 ; chaque source rouverte le 1/11. Aucun total ne change (listes « non compté », sources).
+# (1) Régularisation des sans-papiers : aucun coût public direct publié ; l'effet sur les cotisations n'est chiffré pour la France par aucune
+# source vérifiée (paramètres de rendement non publiés ; l'étude espagnole de 2005 n'est pas transposée) → liste « non compté », dans les deux
+# sens et chez tous ceux qui en publient une : Glucksmann (≈ 300 000, RTL 28/10, franceinfo 29/10), Le Pen (« zéro régularisation », porte-parole
+# de campagne, RTL 28/10), Mélenchon (synthèse des contributions de son site, 17/07/2026). Philippe (« verrou Schengen ») : règle européenne qui
+# soumet toute régularisation massive d'un État membre à l'accord des autres, sans effet direct sur les comptes publics français : rien.
+# (2) Le Pen, « imposer les surprofits » tirés des crises (compte X officiel, 29/10/2026) : ni taux, ni assiette, ni rendement → « non compté »,
+# même règle que la taxe sur les superprofits de Glucksmann (hors total, fiche « chèque énergie ») et les « superprofits » de Mélenchon.
+# (3) Lisnard, « simplifier les taux de TVA » (tribune du 16/04/2026) : taux non publiés → « non compté » (même règle que l'impôt résidentiel).
+# (4) Le Pen, retraites : franceinfo (14/10/2026, citation de la candidate) ajouté comme source de la date du 17/11 ; chiffrage inchangé.
+t=C['le-pen']['claude_total']; assert 'surprofits' not in t['missing'] and 'régularisation' not in t['missing']
+t['missing']+=(", imposition des « surprofits » des multinationales tirés des crises (message de la candidate du 29/10/2026 : ni taux, ni assiette, ni rendement publiés)"
+               ", fin des régularisations d'étrangers en situation irrégulière (« zéro régularisation », porte-parole de campagne, 28/10/2026 : effet sur les cotisations non chiffré, paramètres non publiés)")
+t=C['glucksmann']['claude_total']; assert 'régularisation' not in t['missing']
+t['missing']+=", régularisation d'environ 300 000 travailleurs sans papiers (28/10/2026 : effet sur les cotisations non chiffré, paramètres non publiés)"
+t=C['melenchon']['claude_total']; assert 'régularisation' not in t['missing']
+t['missing']+=", régularisation des travailleurs, étudiants et parents d'enfants scolarisés sans papiers (nombre non publié ; effet sur les cotisations non chiffré)"
+t=C['lisnard']['claude_total']; assert t['missing'].count(', à confirmer en 2026 :')==1 and 'TVA' not in t['missing']
+t['missing']=t['missing'].replace(', à confirmer en 2026 :',", simplification des taux de TVA (tribune du 16/04/2026 : taux non publiés), à confirmer en 2026 :")
+M('le-pen','retraites')['claude']['inputs'].append({'label':'Date de présentation (14/10/2026)','value':"réforme présentée « de manière extrêmement précise » le 17 novembre : « Nous la présenterons de manière chiffrée »",
+    'source':'franceinfo (14/10/2026)','url':'https://www.franceinfo.fr/elections/presidentielle/marine-le-pen-presentera-de-maniere-extremement-precise-sa-reforme-des-retraites-le-17-novembre_8237821.html'})
+D['asof']='1er novembre 2026'
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:

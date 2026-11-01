@@ -19,6 +19,9 @@
    ]
   },
   "sante": {
+   "Rembourser à 100 % les soins dentaires, sur la base de la Sécurité sociale": [
+    "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
+   ],
    "Plan d'urgence pour la santé de 20 Md€": [
     "https://rassemblementnational.fr/22-mesures"
    ],
@@ -51,14 +54,17 @@
    ]
   },
   "environnement": {
+   "Abroger la loi Hulot de 2017, qui interdit la recherche d'hydrocarbures en France": [
+    "https://www.europe1.fr/politique/congres-du-rn-a-orleans-ce-quil-faut-retenir-du-premier-discours-de-campagne-de-marine-le-pen-1181118"
+   ],
+   "S'opposer à la PPE 2026, dont elle estime le coût à 300 Md€": [
+    "https://www.syndicat-energies-renouvelables.fr/wp-content/uploads/2026/02/Les-Echos-11-02-2026-Page-7.pdf"
+   ],
    "Stopper l'éolien, démanteler progressivement les parcs existants": [
     "https://rassemblementnational.fr/22-mesures"
    ],
    "Relancer nucléaire et hydroélectricité, quitter le marché européen de l'électricité": [
     "https://rassemblementnational.fr/22-mesures"
-   ],
-   "S'opposer à la PPE 2026, dont elle estime le coût à 300 Md€": [
-    "https://www.syndicat-energies-renouvelables.fr/wp-content/uploads/2026/02/Les-Echos-11-02-2026-Page-7.pdf"
    ]
   },
   "logement": {
@@ -87,6 +93,9 @@
    ]
   },
   "economie": {
+   "Zéro régularisation d'étrangers en situation irrégulière": [
+    "https://www.rtl.fr/actu/politique/presidentielle-2027-raphael-glucksmann-promet-de-regulariser-300-000-sans-papiers-s-il-est-elu-le-ps-pousse-la-mesure-a-l-assemblee-7900690049"
+   ],
    "Supprimer les tarifs préférentiels des renouvelables intermittentes : 5,6 Md€ en 2027": [
     "https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"
    ],
@@ -197,6 +206,9 @@
    ],
    "Supprimer les exonérations de cotisations au-delà de 2 SMIC": [
     "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+   ],
+   "Régulariser les travailleurs, les étudiants et les parents d'enfants scolarisés sans papiers": [
+    "https://melenchon2027.fr/synthese-des-contributions/"
    ]
   },
   "rayonnement": {
@@ -304,6 +316,9 @@
    ],
    "Supprimer 50 Md€ d'impôts de production contre 50 Md€ d'aides aux entreprises en moins": [
     "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+   ],
+   "« Verrou Schengen » : aucun État européen ne régularise massivement seul au-delà d'un seuil commun, sans l'accord de ses partenaires": [
+    "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
    ]
   },
   "rayonnement": {
@@ -407,6 +422,10 @@
    ]
   },
   "economie": {
+   "Régulariser environ 300 000 travailleurs sans papiers : titre de séjour après six mois de travail sur les deux dernières années": [
+    "https://www.rtl.fr/actu/politique/presidentielle-2027-raphael-glucksmann-promet-de-regulariser-300-000-sans-papiers-s-il-est-elu-le-ps-pousse-la-mesure-a-l-assemblee-7900690049",
+    "https://www.franceinfo.fr/politique/raphael-glucksmann/on-est-obliges-de-faire-attention-comment-raphael-glucksmann-cherche-la-parade-face-a-l-hostilite-des-insoumis-sur-le-terrain_8257408.html"
+   ],
    "Porter le SMIC à 1 700 € net": [
     "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
    ],
@@ -415,9 +434,6 @@
    ],
    "État d'urgence industriel pour les secteurs menacés par la Chine": [
     "https://lcp.fr/actualites/gagner-en-2027-raphael-glucksmann-lance-sa-campagne-et-veut-ramener-la-gauche-au-pouvoir"
-   ],
-   "Régulariser les travailleurs sans papiers des secteurs qui manquent de main-d'œuvre": [
-    "https://www.radiofrance.fr/franceinter/podcasts/franc-jeu/franc-jeu-du-dimanche-30-aout-2026-6196033"
    ],
    "« Buy European Act » : préférence européenne dans les marchés publics": [
     "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
@@ -614,6 +630,9 @@
    ],
    "Supprimer les interdictions de louer liées au DPE (classes G, F puis E), le DPE devenant informatif": [
     "https://www.avecretailleau.fr/projet/mesure/lever-les-interdictions-de-louer-liees-au-dpe"
+   ],
+   "Mettre fin aux quotas SRU : objectifs de logements sociaux en volume, fixés par contrat entre le préfet et l'intercommunalité, aucun en zone non tendue ; plus d'aides publiques au-delà de 30 % de logements sociaux": [
+    "https://www.avecretailleau.fr/projet/mesure/construire-des-logements-sociaux-selon-les-besoins-locaux"
    ]
   },
   "libertes": {
@@ -752,6 +771,9 @@
    ],
    "Interdire de modifier un impôt à la hausse plus d'une fois par législature": [
     "https://www.unenouvelleenergie.fr/changer-de-logiciel-fiscal/"
+   ],
+   "Simplifier les taux de TVA": [
+    "https://www.unenouvelleenergie.fr/changer-de-logiciel-fiscal/"
    ]
   },
   "rayonnement": {
@@ -791,7 +813,8 @@
   },
   "sante": {
    "Recruter 1 000 médecins salariés par l'État dans les déserts": [
-    "https://www.lequotidiendumedecin.fr/actus-medicales/politique-de-sante/eric-zemmour-reconquete-un-conventionnement-preferentiel-pourra-etre-mis-en-place"
+    "https://www.lequotidiendumedecin.fr/actus-medicales/politique-de-sante/eric-zemmour-reconquete-un-conventionnement-preferentiel-pourra-etre-mis-en-place",
+    "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
    ],
    "Rétablir l'obligation de garde des médecins": [
     "https://www.lequotidiendumedecin.fr/actus-medicales/politique-de-sante/eric-zemmour-reconquete-un-conventionnement-preferentiel-pourra-etre-mis-en-place",
@@ -799,7 +822,8 @@
    ],
    "Supprimer l'AME, hors aide médicale d'urgence": [
     "https://www.lequotidiendumedecin.fr/actus-medicales/politique-de-sante/eric-zemmour-reconquete-un-conventionnement-preferentiel-pourra-etre-mis-en-place",
-    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour",
+    "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
    ]
   },
   "ecole": {
@@ -814,10 +838,12 @@
     "https://entrevue.fr/politique/on-va-vers-une-guerre-civile-eric-zemmour-alerte-sur-le-chaos-en-france/"
    ],
    "Classes de niveau au collège": [
-    "https://www.europe1.fr/politique/education-les-propositions-des-candidats-a-la-presidentielle-4101124"
+    "https://www.europe1.fr/politique/education-les-propositions-des-candidats-a-la-presidentielle-4101124",
+    "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
    ],
    "Interdire toute propagande idéologique à l'école": [
-    "https://www.europe1.fr/politique/education-les-propositions-des-candidats-a-la-presidentielle-4101124"
+    "https://www.europe1.fr/politique/education-les-propositions-des-candidats-a-la-presidentielle-4101124",
+    "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
    ]
   },
   "environnement": {
@@ -834,9 +860,18 @@
     "https://journalauto.com/services/presidentielle-2022-eric-zemmour-r-jai-lintime-conviction-que-la-voiture-va-evoluer-avec-son-temps-et-perdurer/"
    ]
   },
+  "logement": {
+   "Abroger la loi SRU, qui impose aux communes un quota de logements sociaux": [
+    "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
+   ]
+  },
   "libertes": {
    "Article 55 révisé : toute nouvelle loi nationale au-dessus du droit européen existant": [
-    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour",
+    "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
+   ],
+   "Abroger la loi Pleven de 1972 et revenir à la loi de 1881 sur la liberté de la presse": [
+    "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
    ]
   },
   "economie": {
@@ -844,18 +879,25 @@
     "https://www.cnews.fr/france/2026-09-13/presidentielle-2027-remigration-intelligence-artificielle-ce-quil-faut-retenir-du"
    ],
    "Baisser de 30 Md€ supplémentaires les impôts de production": [
-    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour",
+    "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
    ],
    "Prime « zéro charge » jusqu'à trois mois de salaire": [
-    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour",
+    "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
+   ],
+   "Créer un Livret Innovation : épargne investie sans impôt dans les start-ups et entreprises innovantes": [
+    "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
    ]
   },
   "rayonnement": {
    "Défense à 70 Md€ par an en 2030": [
-    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour",
+    "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
    ],
    "Sortir du commandement intégré de l'OTAN": [
-    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour"
+    "https://www.institutmontaigne.org/presidentielle-2022/eric-zemmour",
+    "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
    ]
   }
  }
