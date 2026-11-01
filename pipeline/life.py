@@ -906,6 +906,100 @@ ETUDES |= {s['u'] for v in _QE.values() if isinstance(v, dict) for s in v.get('s
 def ATTR_OK(cid, u):
     return (host_in(u, OFFICIEL[cid]) or u.startswith(OFFICIEL_U.get(cid, ('\0',))) or host_in(u, MEDIAS) or u.startswith(PROGRAMME_U)) and u not in ETUDES
 
+# --- review 37 : veille du 31/10 au 1/11 et propositions non affichées (01/11/2026) ; registre S195, S113
+# Décisions du porteur du 1/11 ; chaque citation relue à la source le 1/11. Règle d'ordre commune (2026 d'abord, précises avant intentions, puis
+# les plus récentes ; à égalité ou à date inconnue, ordre affiché gardé ; 5 au plus) : aucune proposition ne sort (S106).
+# (1) Régularisation (S113) : chez Glucksmann, la version précise (≈ 300 000 ; titre de séjour après six mois de travail sur les deux dernières
+# années), rapportée par deux médias reconnus indépendants (RTL, 28/10 ; franceinfo, 29/10 ; règle S136), remplace l'intention du 30/08 ; la
+# réserve de RTL (« avant même une éventuelle intégration au programme ») est dans le titre de la source. La proposition de loi n° 3253 (déposée le
+# 6/10, avant la désignation du candidat) ne vaut pas source seule (règle S133).
+# (2) Même recherche chez les 8 (sources de 2026 qui parlent pour le candidat), même thème (économie) et même lecture (REGUL) : Le Pen, « zéro
+# régularisation » (L. Jacobelli, l'un des porte-parole de campagne nommés les 3/07 et 14/09, cité par RTL le 28/10 ; précise : cible chiffrée) ;
+# Mélenchon, « régulariser les travailleurs, étudiants, parents d'enfants scolarisés », déjà dans son programme selon la synthèse des contributions
+# de son site (17/07/2026 ; intention : ni nombre ni critère) ; Philippe, « verrou Schengen » (site de campagne : aucun État européen ne doit
+# pouvoir engager seul une régularisation massive au-delà d'un seuil défini collectivement ; intention : seuil non défini). Attal, Retailleau,
+# Lisnard, Zemmour : aucune position de 2026 trouvée (sites de campagne et presse, 1/11 ; registre).
+# (3) Le Pen : loi Hulot (Europe 1, 25/10, discours d'Orléans, sans l'adjectif de la candidate ; précise : loi nommée), sans étude vérifiée
+# (S141) ; soins dentaires à 100 % de la base (contre-budget du groupe RN, 13/10 ; fiche « dentaire » déjà comptée), avec la même lecture que le
+# « 100 % Sécu » de Mélenchon (une lecture par type : remboursement intégral par la Sécurité sociale ; rapport du Sénat sur l'enquête de la Cour
+# des comptes, mêmes faits que le quiz de la fiche).
+# (4) Zemmour : programme présidentiel de 2022 (PDF du candidat, 25/03/2022, 73 p.) = source de ses propositions de 2022 (non reconfirmées) :
+# loi SRU abrogée (p. 44 ; logement, précise, lecture SRU comme Le Pen et Lisnard), loi Pleven abrogée et retour à la loi de 1881 (p. 62 ;
+# libertés, précise), Livret Innovation (p. 37 ; économie, précise : avantage fiscal et usage publiés, « sans aucune fiscalité » dans « les
+# start-ups et entreprises innovantes »), et source ajoutée aux propositions de 2022 déjà affichées qu'il contient (article 55 p. 6, impôts de
+# production p. 25, prime « zéro charges » p. 28, 1 000 médecins salariés p. 53, AME p. 8, classes de niveau p. 22, propagande à l'école p. 21,
+# défense à 70 Md€ p. 17, OTAN p. 16). Pleven et Livret Innovation : pas d'étude vérifiée (S141).
+# (5) Retailleau : mesure n° 71 « Mettre fin aux quotas SRU » (site de campagne, mise à jour le 12/09/2026 ; précise), 5e (date non plus récente
+# que les autres), lecture SRU (même type : fin du quota de l'article 55 ; objectifs gardés en volume en zone tendue, dit dans le texte).
+# (6) Lisnard : « Simplifier les taux de TVA » (tribune du 16/04/2026 ; intention), 4e ; pas d'étude du même type (la lecture « TVA sociale »
+# portait sur la TVA unique à 25 %, retirée le 31/10).
+def _evc(cid, th):
+    """Texte « évidence » courant d'un thème : réécrit plus haut (OVR), sinon celui de data/life-*.json."""
+    return OVR.get((cid, th), {}).get('evidence') or _jev(cid, th)
+MEDIAS += ('rtl.fr',)
+RTL2810 = _s("RTL, régularisation de 300 000 travailleurs sans papiers par R. Glucksmann, « avant même une éventuelle intégration au programme » ; "
+             "réponse de L. Jacobelli, porte-parole de campagne de M. Le Pen (28/10)",
+             'https://www.rtl.fr/actu/politique/presidentielle-2027-raphael-glucksmann-promet-de-regulariser-300-000-sans-papiers-s-il-est-elu-le-ps-pousse-la-mesure-a-l-assemblee-7900690049')
+FI2910 = _s('franceinfo, la campagne de R. Glucksmann et la régularisation de 300 000 travailleurs sans papiers (29/10)',
+            'https://www.franceinfo.fr/politique/raphael-glucksmann/on-est-obliges-de-faire-attention-comment-raphael-glucksmann-cherche-la-parade-face-a-l-hostilite-des-insoumis-sur-le-terrain_8257408.html')
+SYN_JLM = _s('Mélenchon 2027, synthèse des contributions (17/07)', 'https://melenchon2027.fr/synthese-des-contributions/')
+SURE_EP = _s('Site de campagne, France plus sûre', 'https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure')
+CB_RN = _s('Contre-budget 2027 du groupe RN', 'https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf')
+E1_2510 = _s("Europe 1, premier discours de campagne à Orléans (25/10)", 'https://www.europe1.fr/politique/congres-du-rn-a-orleans-ce-quil-faut-retenir-du-premier-discours-de-campagne-de-marine-le-pen-1181118')
+SRU_S = _src('Banque des Territoires – étude CGDD SRU', 2014, 'https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social')
+R71 = _s('avecretailleau.fr, mesure n° 71 « Mettre fin aux quotas SRU » (12/09)', 'https://www.avecretailleau.fr/projet/mesure/construire-des-logements-sociaux-selon-les-besoins-locaux')
+Z22 = _src("Programme présidentiel d'Éric Zemmour, « Pour que la France reste la France » (25/03/2022)", 2022,
+           'https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf')
+OFFICIEL_U['zemmour'] = (Z22['url'],)  # document du candidat, pour lui seul
+DENT = ("Soins dentaires : 30,5 % des personnes sans complémentaire qui en avaient besoin n'ont pas pu les payer, 11,2 % avec (Drees, 2019) ; reste à charge "
+        "supprimé sur une partie des prothèses : 92 % des patients avaient déjà consulté un dentiste, surtout plus de prothèses par patient (Cour des comptes, 2022) ; "
+        "prise en charge intégrale par la Sécurité sociale non évaluée.")
+DENT_S = _src("Sénat, rapport d'information n° 832 (2021-2022) sur l'enquête de la Cour des comptes sur la réforme du 100 % santé", 2022, 'https://www.senat.fr/rap/r21-832/r21-8321.pdf')
+assert DENT_S['url'] in ETUDES  # étude (quiz de la fiche « dentaire »), jamais une attribution
+# (1) Glucksmann : version précise en tête (2026, précise, la plus récente), lecture REGUL en premier (ordre des propositions)
+_GR0 = "Régulariser les travailleurs sans papiers des secteurs qui manquent de main-d'œuvre"
+_ps = _cur('glucksmann', 'economie'); assert [p['text'] for p in _ps].count(_GR0) == 1 and len(_ps) == 5
+_put('glucksmann', 'economie', [_p("Régulariser environ 300 000 travailleurs sans papiers : titre de séjour après six mois de travail sur les deux dernières années")]
+     + [p for p in _ps if p['text'] != _GR0])
+_e = _evc('glucksmann', 'economie'); assert _e.endswith(" " + REGUL), _e
+_ev('glucksmann', 'economie', REGUL + " " + _e[:-len(REGUL) - 1], add=[RTL2810, FI2910])
+# (2) Le Pen (en tête : 2026, précise, la plus récente), Mélenchon (4e, intention), Philippe (5e, intention) : même lecture REGUL
+_ps = _cur('le-pen', 'economie'); assert len(_ps) == 4 and not any(p['old'] for p in _ps)
+_put('le-pen', 'economie', [_p("Zéro régularisation d'étrangers en situation irrégulière")] + _ps)
+_ev('le-pen', 'economie', REGUL + " " + _evc('le-pen', 'economie'), add=[RTL2810, _s("Rassemblement national, nominations dans l'équipe de campagne (porte-parole, 27/10)",
+    'https://rassemblementnational.fr/communiques/communique-de-presse-de-julien-sanchezdirecteur-de-campagne-de-marine-le-pen')] + REGUL_S)
+_ps = _cur('melenchon', 'economie'); assert len(_ps) == 3 and all(p['verifiable'] and not p['old'] for p in _ps)
+_put('melenchon', 'economie', _ps + [_p("Régulariser les travailleurs, les étudiants et les parents d'enfants scolarisés sans papiers", False)])
+_ev('melenchon', 'economie', _evc('melenchon', 'economie') + " " + REGUL, add=[SYN_JLM] + REGUL_S)
+_ps = _cur('philippe', 'economie'); assert len(_ps) == 4 and all(p['verifiable'] and not p['old'] for p in _ps)
+_put('philippe', 'economie', _ps + [_p("« Verrou Schengen » : aucun État européen ne régularise massivement seul au-delà d'un seuil commun, sans l'accord de ses partenaires", False)])
+_ev('philippe', 'economie', _evc('philippe', 'economie') + " " + REGUL, add=[SURE_EP] + REGUL_S)
+# (3) Le Pen : environnement (loi Hulot en tête, puis la PPE de 2026, puis les propositions de 2022), santé (soins dentaires en tête)
+_ps = _cur('le-pen', 'environnement')
+assert [p['old'] for p in _ps] == [True, True, False] and _ps[2]['text'].startswith("S'opposer à la PPE 2026"), _ps
+_put('le-pen', 'environnement', [_p("Abroger la loi Hulot de 2017, qui interdit la recherche d'hydrocarbures en France"), _ps[2], _ps[0], _ps[1]])
+_so('le-pen', 'environnement', add=[E1_2510])
+_ps = _cur('le-pen', 'sante'); assert len(_ps) == 3 and all(p['old'] for p in _ps)
+_put('le-pen', 'sante', [_p('Rembourser à 100 % les soins dentaires, sur la base de la Sécurité sociale')] + _ps)
+_ev('le-pen', 'sante', DENT + " " + _evc('le-pen', 'sante'), add=[CB_RN, DENT_S])
+assert [p['text'] for p in _cur('melenchon', 'sante')][2] == '« 100 % Sécu » : soins prescrits remboursés intégralement'
+_ev('melenchon', 'sante', _evc('melenchon', 'sante') + " " + DENT, add=[DENT_S])
+# (4) Zemmour : propositions de 2022 (non reconfirmées), programme du candidat
+OVR[('zemmour', 'logement')].update(proposals=[_p('Abroger la loi SRU, qui impose aux communes un quota de logements sociaux', True, True)], evidence=SRU, add=[Z22, SRU_S])
+_ps = _cur('zemmour', 'libertes'); assert len(_ps) == 1
+_put('zemmour', 'libertes', _ps + [_p('Abroger la loi Pleven de 1972 et revenir à la loi de 1881 sur la liberté de la presse', True, True)])
+_ps = _cur('zemmour', 'economie'); assert len(_ps) == 3 and [p['old'] for p in _ps] == [False, True, True]
+_put('zemmour', 'economie', _ps + [_p('Créer un Livret Innovation : épargne investie sans impôt dans les start-ups et entreprises innovantes', True, True)])
+for _th in ('sante', 'ecole', 'libertes', 'economie', 'rayonnement'): _so('zemmour', _th, add=[Z22])
+# (5) Retailleau : fin des quotas SRU, 5e ; lecture SRU après celle des intérêts d'emprunt (ordre des propositions)
+_ps = _cur('retailleau', 'logement'); assert len(_ps) == 4 and all(p['verifiable'] and not p['old'] for p in _ps)
+_put('retailleau', 'logement', _ps + [_p("Mettre fin aux quotas SRU : objectifs de logements sociaux en volume, fixés par contrat entre le préfet et l'intercommunalité, "
+                                          "aucun en zone non tendue ; plus d'aides publiques au-delà de 30 % de logements sociaux")])
+_ev('retailleau', 'logement', _evc('retailleau', 'logement') + " " + SRU, add=[R71, SRU_S])
+# (6) Lisnard : simplification des taux de TVA, 4e (2026, intention) ; source déjà affichée dans le thème (tribune du 16/04)
+_ps = _cur('lisnard', 'economie'); assert len(_ps) == 3 and all(p['verifiable'] and not p['old'] for p in _ps)
+_put('lisnard', 'economie', _ps + [_p('Simplifier les taux de TVA', False)])
+
 # (30) Même test « précis » pour une même formulation, appliqué à toutes les propositions affichées (y compris celles réécrites plus haut) :
 # un changement de droit nommé (sortie du commandement intégré de l'OTAN, fin du droit de veto, mandat de l'ONU obligatoire, instrument ou
 # accord nommé et ce qui y change) est précis ; un objectif, une orientation ou une création sans paramètre (plan, pôle, fonds) reste une intention.
@@ -945,6 +1039,7 @@ NIV = {
  "Aides à l'installation : au moins 15 dispositifs, 205 M€ en 2023 ; plusieurs jugées coûteuses et inefficaces, d'autres utiles (Cour des comptes, 2025).": MITIG,
  "Médecins salariés par l'État et obligation de garde : pas d'évaluation française identifiée.": ABSENT,
  AME: NONDEM,
+ DENT: MITIG,  # review 37 : renoncement plus fréquent sans complémentaire, peu de nouveaux patients quand le reste à charge disparaît
  # école
  PARC: MITIG, DD: MITIG, SAL: MITIG, EXAM: MITIG, EX1: PROUV, GN: NONDEM, RED: NONDEM, AUTO: MITIG, CHEQ: MITIG, CARTE: MITIG, MIXITE: MITIG, PETITES: MITIG,
  "Uniforme : climat amélioré selon 36% des directeurs, effet quasi nul sur les résultats (ministère, 2026).": MITIG,
