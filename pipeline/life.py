@@ -1000,6 +1000,111 @@ _ev('retailleau', 'logement', _evc('retailleau', 'logement') + " " + SRU, add=[R
 _ps = _cur('lisnard', 'economie'); assert len(_ps) == 3 and all(p['verifiable'] and not p['old'] for p in _ps)
 _put('lisnard', 'economie', _ps + [_p('Simplifier les taux de TVA', False)])
 
+# --- review 38 : revue du 2/11 (02/11/2026) ; registre S140, S141, S201, S092
+# Décisions du porteur du 2/11 ; chaque citation et chaque étude relues à la source le 2/11. Même règle d'ordre (2026 d'abord, précises avant
+# intentions, puis les plus récentes ; à égalité ou à date inconnue, ordre affiché gardé ; 5 au plus) et même règle d'attribution pour les 8.
+# (1) Glucksmann, libertés : « rendre inéligibles » les personnes condamnées pour injure raciale, incitation à la haine raciale ou antisémitisme
+# (Face-à-Face BFMTV-RMC du 2/11, citation écrite de BFMTV ; précise : infractions et sanction nommées), en tête (2026, précise, la plus
+# récente). Fait de départ, sans niveau : inéligibilité obligatoire pour des délits de presse censurée en 2017 (décision n° 2017-752 DC,
+# cons. 13) ; projet de loi du Gouvernement déposé au Sénat le 9/07/2026 (n° 890, art. 6), non examiné. Aucune étude d'effet trouvée.
+# Même recherche chez les 8 : aucune autre proposition d'inéligibilité de ce type dans les données.
+# (2) Glucksmann, économie : stages de plus de deux mois payés au moins 1 000 € par mois (message du candidat du 15/10, cité par CNews ; plan
+# du 22/10) : précise, 4e (2026, précise ; plan du 22/10, comme le SMIC à 1 700 €) ; le « Buy European Act » (non reconfirmé, intention)
+# devient 6e et sort de l'affichage (S106 ; la fiche « industrie » le garde). Aucune proposition sur la gratification des stages chez les 7 autres.
+# (3) Lectures (S141), constantes partagées, niveau selon les définitions de NIV ; une lecture qui porte sur une mesure voisine est « mitigée »
+# (décision du porteur du 2/11) : suspension des allocations familiales pour absentéisme (loi de 2010, abrogée en 2013 ; Sénat, rapport n° 56,
+# 2012) chez Le Pen (motif voisin : délinquance) et, même règle pour une même mesure, chez Philippe (amende des parents d'absentéistes : même
+# motif, instrument voisin) ; bilans de santé (Glucksmann : bilan gratuit des 18-25 ans déjà ouvert = fait sans niveau ; revue Cochrane de 2019
+# sur les adultes = mesure voisine) ; Mercosur (Lisnard : évaluation avant signature, projection) ; caution Visale (Attal) ; formations du
+# supérieur (Attal : écoles privées américaines, mesure voisine ; le quiz n'en garde pas le cas, contexte non comparable) ; interdictions de
+# louer liées au DPE (Retailleau : constat d'absence de données de l'étude d'impact du projet de loi n° 801, et fait de la CAE sans niveau) ;
+# Livret Innovation (Zemmour : réduction d'impôt pour l'investissement dans les PME, même type d'instrument) ; loi Pleven (Zemmour : fait
+# chiffré et constat d'absence d'évaluation). Pas de repère nucléaire de plus pour Retailleau (lectures EPR et RTE déjà communes).
+# (4) S092 : la note de la DEPP d'octobre 2026 est le document de travail n° 2026-E18 (portail des publications de la DEPP, lu en entier) :
+# il remplace le relais professeurs-des-ecoles.com partout où la lecture des classes dédoublées est citée ; lecture DD inchangée.
+MEDIAS += ('bfmtv.com',)
+BFM0211 = _s("BFMTV, Face-à-Face BFMTV-RMC : inéligibilité des personnes condamnées pour injure raciale, incitation à la haine raciale ou antisémitisme (2/11)",
+             'https://www.bfmtv.com/politique/il-n-y-avait-que-des-dirigeants-de-gauche-raphael-glucksmann-deplore-qu-il-n-y-ait-pas-eu-de-moment-d-unite-nationale-lors-de-l-hommage-aux-victimes-de-l-attentat-a-trappes_AV-202611020342.html')
+CC2017 = _src("Conseil constitutionnel, décision n° 2017-752 DC du 8 septembre 2017 (loi pour la confiance dans la vie politique), cons. 13", 2017,
+              'https://www.conseil-constitutionnel.fr/decision/2017/2017752DC.htm')
+PJL890 = _src("Sénat, projet de loi n° 890 (2025-2026) de cohésion républicaine par la lutte contre le racisme et l'antisémitisme, art. 6 (déposé le 9/07/2026)", 2026,
+              'https://www.senat.fr/leg/pjl25-890.html')
+INELIG = ("Inéligibilité obligatoire pour des délits de presse : censurée en 2017 au nom de la liberté d'expression (Conseil constitutionnel) ; "
+          "projet de loi du Gouvernement déposé au Sénat en juillet 2026, non examiné, qui la rend obligatoire pour les délits du code pénal à caractère raciste punis d'au moins trois ans.")
+CNEWS1510 = _s("CNews, stages payés au moins 1 000 € par mois, message du candidat (15/10)",
+               'https://www.cnews.fr/france/2026-10-15/des-stages-remuneres-1000-euros-par-mois-raphael-glucksmann-promet-que-cette')
+CIOTTI = ("Suspension des allocations familiales pour absentéisme scolaire (2011-2013) : 472 familles touchées de février 2011 à mars 2012, "
+          "absentéisme inchangé, effet non mesurable avec les données disponibles (Sénat, 2012).")
+CIOTTI_S = _src("Sénat, rapport n° 56 (2012-2013) de D. Assouline sur la proposition de loi abrogeant la suspension des allocations familiales pour absentéisme", 2012,
+                'https://www.senat.fr/rap/l12-056/l12-0562.html')
+BILAN = "Bilan de prévention gratuit déjà ouvert aux 18-25 ans depuis 2024 (« Mon bilan prévention ») ; aucun à 16 ans (Service public, 2026)."
+BILAN_S = _src("Service-public.fr, « Mon bilan prévention » : rendez-vous gratuits des 18-25, 45-50, 60-65 et 70-75 ans (5/10/2026)", 2026,
+               'https://www.service-public.gouv.fr/particuliers/actualites/A17677')
+COCH = "Bilans de santé généraux proposés à des adultes : peu ou pas d'effet sur la mortalité (17 essais, Cochrane, 2019)."
+COCH_S = _src("Krogsbøll, Jørgensen, Gøtzsche, bilans de santé généraux chez l'adulte (revue Cochrane CD009009)", 2019,
+              'https://www.cochrane.org/evidence/CD009009_general-health-checks-reducing-illness-and-mortality')
+MERCO = ("Projet d'accord UE-Mercosur de 2019 (évaluation avant signature) : part du Mercosur dans les aloyaux de bœuf vendus en Europe de 12 % à 21-24 % "
+         "en 2030, déforestation annuelle accélérée d'environ 5 % pendant six ans ; aucune exigence sur les modes de production (commission d'évaluation, 2020).")
+MERCO_S = _src("Rapport au Premier ministre de la commission d'évaluation du projet d'accord UE-Mercosur (présidée par S. Ambec)", 2020,
+               'https://www.info.gouv.fr/upload/media/default/0001/01/2020_09_rapport_de_la_commission_devaluation_du_projet_daccord_ue_mercosur.pdf')
+VISALE = ("Caution gratuite Visale : 318 000 baux en 2023, 8 % des locations ; 79 % n'auraient pas été signés sans elle selon une évaluation de 2020 ; "
+          "14,9 % des impayés des jeunes récupérés (Cour des comptes, 2025).")
+VISALE_S = _src("Cour des comptes, Rapport public annuel 2025, « L'accès des jeunes au logement »", 2025,
+                'https://www.ccomptes.fr/sites/default/files/2025-03/20250319-RPA2025-volume1-acces-des-jeunes-au-logement.pdf')
+FORM = ("Écoles privées à but lucratif privées d'aides fédérales pour trop d'impayés de prêts : inscriptions −40 %, mais −3 % au total, "
+        "les étudiants allant ailleurs (États-Unis, 2020).")
+FORM_S = _src("Cellini, Darolia, Turner, Where Do Students Go when For-Profit Colleges Lose Federal Aid? (NBER w22967 ; AEJ: Economic Policy, 2020)", 2020,
+              'https://www.nber.org/papers/w22967')
+DPE_ABS = "Interdiction de louer les passoires énergétiques : l'État n'a pas les données pour chiffrer l'effet d'un assouplissement (étude d'impact, 2026)."
+DPE_CAE = "Consommation réelle : écart entre logements classés A-B et G six fois plus faible que selon le DPE (CAE, 2024)."
+DPE_S = [_src("Sénat, étude d'impact du projet de loi visant la relance et la décentralisation du logement (n° 801), article 6", 2026,
+              'https://www.senat.fr/leg/etudes-impact/pjl25-801-ei/pjl25-801-ei.pdf'),
+         _src("Astier, Salem, Fack, Fournel, Maisonneuve, Performance énergétique du logement et consommation d'énergie : les enseignements des données bancaires (CAE, Focus n° 103)", 2024,
+              'https://cae-eco.fr/static/pdf/focus-103-dpe-230110.pdf')]
+LIVRET = ("Réduction d'impôt pour l'épargne investie dans les PME : aucune hausse des investissements décelée quand le taux est passé de 18 % à 25 % ; "
+          "fonds pour l'innovation devenus marginaux (IGF, 2023).")
+LIVRET_S = _src("Inspection générale des finances, évaluation des réductions d'impôt sur le revenu Madelin pour l'investissement des particuliers dans les PME (rapport au Parlement)", 2023,
+                'https://www.vie-publique.fr/files/rapport/pdf/293818.pdf')
+PLEVEN = ("Injures, diffamations et provocations à caractère raciste (loi de 1881 modifiée en 1972) : 1 056 infractions sanctionnées en 2024, +16 % sur un an ; "
+          "effet d'une abrogation non évalué (ministère de la Justice, 2025).")
+PLEVEN_S = _src("Ministère de la Justice (DACG, BEPP), bilan statistique des infractions à caractère raciste, contribution au rapport 2025 de la CNCDH", 2025,
+                'https://www.cncdh.fr/sites/default/files/2026-06/Note%20statistique%20traitement%20judiciaire%20des%20infractions%20%C3%A0%20caract%C3%A8re%20raciste%20-%20BEPP%20oct%202025%20%28002%29.pdf')
+DEPP_E18 = _src("DEPP, document de travail n° 2026-E18, effets à long terme des classes réduites en éducation prioritaire, trois premières cohortes (p. 14)", 2026,
+                'https://archives-statistiques-depp.education.gouv.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=57771&documentId=57772&skipWatermark=true&skipCopyright=true')
+ETUDES |= {s['url'] for s in [CC2017, PJL890, CIOTTI_S, BILAN_S, COCH_S, MERCO_S, VISALE_S, FORM_S, *DPE_S, LIVRET_S, PLEVEN_S, DEPP_E18]}
+# (1) Glucksmann, libertés
+_ps = _cur('glucksmann', 'libertes'); assert len(_ps) == 3 and _ps[0]['text'].startswith('Convention citoyenne')
+_put('glucksmann', 'libertes', [_p("Rendre inéligibles les personnes condamnées pour injure raciale, incitation à la haine raciale ou antisémitisme")] + _ps)
+_ev('glucksmann', 'libertes', INELIG + " " + _evc('glucksmann', 'libertes'), add=[BFM0211, CC2017, PJL890])
+# (2) Glucksmann, économie
+_BEA = "« Buy European Act » : préférence européenne dans les marchés publics"
+_ps = _cur('glucksmann', 'economie'); assert [p['text'] for p in _ps][4] == _BEA and [p['verifiable'] for p in _ps] == [True, True, True, False, False]
+_put('glucksmann', 'economie', _ps[:3] + [_p("Rémunérer au moins 1 000 € par mois tout stage de plus de deux mois")] + [_ps[3]])
+_so('glucksmann', 'economie', add=[CNEWS1510])
+# (3) Lectures
+_ev('le-pen', 'securite', _evc('le-pen', 'securite') + " " + CIOTTI, add=[CIOTTI_S])
+_AMP = "Amendes aux parents d'absentéistes : sans lien avec le niveau d'absences (pays de Galles, 2018) ; pas d'évaluation française."
+_rep('philippe', 'ecole', _AMP, _AMP + " " + CIOTTI); _ev('philippe', 'ecole', OVR[('philippe', 'ecole')]['evidence'], add=[CIOTTI_S])
+_e = _evc('glucksmann', 'sante'); assert _e.startswith('Maisons de santé'), _e
+_ev('glucksmann', 'sante', BILAN + " " + COCH + " " + _e, add=[BILAN_S, COCH_S])
+assert [p['text'] for p in _cur('lisnard', 'rayonnement')][-1].startswith('Accord UE-Mercosur')
+_ev('lisnard', 'rayonnement', _evc('lisnard', 'rayonnement') + " " + MERCO, add=[MERCO_S])
+assert [p['text'] for p in _cur('attal', 'logement')][-1].startswith('Garantie universelle des loyers')
+_ev('attal', 'logement', _evc('attal', 'logement') + " " + VISALE, add=[VISALE_S])
+assert [p['text'] for p in _cur('attal', 'ecole')][3].startswith('Évaluer licences et masters')
+_ev('attal', 'ecole', _evc('attal', 'ecole') + " " + FORM, add=[FORM_S])
+_e = _evc('retailleau', 'logement'); assert _e.endswith(" " + SRU), _e
+_ev('retailleau', 'logement', _e[:-len(SRU) - 1] + " " + DPE_ABS + " " + DPE_CAE + " " + SRU, add=DPE_S)
+_ev('zemmour', 'economie', _evc('zemmour', 'economie') + " " + LIVRET, add=[LIVRET_S])
+_ev('zemmour', 'libertes', _evc('zemmour', 'libertes') + " " + PLEVEN, add=[PLEVEN_S])
+# (4) S092 : document de travail de la DEPP à la place du relais, chez tous les candidats qui ont la lecture des classes dédoublées
+_RELAIS = 'professeurs-des-ecoles.com'; _n = 0
+for _o in OVR.values():
+    if any(_RELAIS in s['url'] for s in _o.get('add', [])):
+        _o['add'] = [DEPP_E18 if _RELAIS in s['url'] else s for s in _o['add']]; _n += 1
+assert _n == 5, _n
+DD_S[1] = DEPP_E18
+
 # (30) Même test « précis » pour une même formulation, appliqué à toutes les propositions affichées (y compris celles réécrites plus haut) :
 # un changement de droit nommé (sortie du commandement intégré de l'OTAN, fin du droit de veto, mandat de l'ONU obligatoire, instrument ou
 # accord nommé et ce qui y change) est précis ; un objectif, une orientation ou une création sans paramètre (plan, pôle, fonds) reste une intention.
@@ -1026,6 +1131,7 @@ NIV = {
  "Cagoule en manifestation : délit depuis 2019.": None,
  "Pointage lors des manifestations : non évalué.": ABSENT,
  "Plateformes : amendes jusqu'à 6 % du chiffre d'affaires mondial et suspension temporaire du service déjà prévues par le règlement européen sur les services numériques ; effet non évalué.": ABSENT,
+ CIOTTI: MITIG,  # review 38 : mesure voisine (Le Pen : autre motif ; Philippe : autre instrument)
  # santé
  "Incitations financières à l'installation : effet modéré à court terme, très faible à long terme (Irdes). Aides jugées mal ciblées (Cour des comptes, 2024).": MITIG,
  "Restrictions d'installation des infirmières en zones sur-denses : meilleure répartition (Irdes, 2022). Régulation des médecins non évaluée en France ; la Cour des comptes la juge faisable.": MITIG,
@@ -1040,12 +1146,14 @@ NIV = {
  "Médecins salariés par l'État et obligation de garde : pas d'évaluation française identifiée.": ABSENT,
  AME: NONDEM,
  DENT: MITIG,  # review 37 : renoncement plus fréquent sans complémentaire, peu de nouveaux patients quand le reste à charge disparaît
+ BILAN: None, COCH: MITIG,  # review 38 : bilan des 18-25 ans = situation de départ ; Cochrane = adultes, mesure voisine
  # école
  PARC: MITIG, DD: MITIG, SAL: MITIG, EXAM: MITIG, EX1: PROUV, GN: NONDEM, RED: NONDEM, AUTO: MITIG, CHEQ: MITIG, CARTE: MITIG, MIXITE: MITIG, PETITES: MITIG,
  "Uniforme : climat amélioré selon 36% des directeurs, effet quasi nul sur les résultats (ministère, 2026).": MITIG,
  "Établissements pour élèves exclus (2010) : résultats mitigés, un quart des élèves sans solution en 2012, abandonnés (inspections, 2012).": MITIG,
  "Orientation : des réunions avec le chef d'établissement pour les élèves faibles de 3e et leurs parents ont réduit redoublement et décrochage de 25 à 40 % (essai aléatoire, France, 2017).": PROUV,
  "Amendes aux parents d'absentéistes : sans lien avec le niveau d'absences (pays de Galles, 2018) ; pas d'évaluation française.": NONDEM,
+ FORM: MITIG,  # review 38 : écoles privées américaines, mesure voisine
  # environnement
  EPR: MITIG, RTE: MITIG, VE: MITIG,
  "Marché carbone des carburants (en place en 2028) : +10 à 15 c€ par litre à son entrée en vigueur (Institut Montaigne, 2025) ; taxe carbone suédoise : émissions des transports −11 % (2019).": MITIG,
@@ -1055,6 +1163,7 @@ NIV = {
  "HCC 2026 : émissions −2,1 % en 2025, un rythme qui doit au moins doubler ; leasing social et MaPrimeRénov' jugés sous-dimensionnés.": None,
  # logement
  RENO: MITIG, SRU: NONDEM,
+ VISALE: MITIG, DPE_ABS: ABSENT, DPE_CAE: None,  # review 38
  "Cour des comptes : la crise exige d'accroître durablement l'offre.": None,
  "Aides à l'accession : environ 15 % de ménages réellement déclenchés, forte aubaine ; PTZ associé à +7 % sur le prix des terrains (IPP, 2016).": NONDEM,
  "Encadrement des loyers : loyers −2 à −4 %. Effet sur l'offre non documenté en France, négatif à moyen terme dans la littérature internationale (Cour des comptes, 2026).": MITIG,
@@ -1067,8 +1176,10 @@ NIV = {
  "Convention climat : 10 % des propositions reprises telles quelles, 53 % rejetées (Courant, 2021).": MITIG,
  "Proportionnelle : pas d'évaluation française récente identifiée.": ABSENT,
  PRIM: ABSENT,
+ INELIG: None, PLEVEN: ABSENT,  # review 38 : droit existant et projet de loi (fait) ; fait chiffré et constat d'absence d'évaluation
  # économie
  IPROD: NONDEM, TEPA: NONDEM, CODE: ABSENT, CU: MITIG, IA: NONDEM,
+ LIVRET: NONDEM,  # review 38 : même type d'instrument (avantage fiscal à l'épargne investie dans les jeunes entreprises)
  "Règle d'or : déficit réduit de 1,2 à 1,5 point de PIB selon un sous-groupe d'études, effet plus faible avec les meilleures méthodes (30 études, ZEW, 2016) ; Allemagne, dette de 81 % à 58 % du PIB (2010-2019), 60 Md€ d'emprunts annulés (2023).": MITIG,
  "Incertitude politique : suivie de moins d'investissement (États-Unis), de production et d'emploi (12 pays), sans preuve de causalité (2016) ; règle de stabilité fiscale non évaluée.": MITIG,
  "Lois Egalim : efficacité économique difficile à établir, contrats écrits peu appliqués ; part agricole du prix au détail en hausse en 2021-2023 (Assemblée nationale, 2025).": MITIG,
@@ -1079,6 +1190,7 @@ NIV = {
  "CAE (2021) : héritage très concentré, 35-40 % échappe à l'impôt, ~12 Md€ récupérables ; effets économiques non évalués faute de données fiables.": ABSENT,
  # rayonnement
  VED: MITIG, UEU: None, FIN: MITIG, DOUANE: NONDEM, SCH: NONDEM,
+ MERCO: MITIG,  # review 38 : projection avant signature
  "Pas d'évaluation publique de cet objectif.": ABSENT,
  "Pas d'évaluation publique de l'effet d'une dénonciation de l'accord de 1968 sur les relations ou l'influence de la France.": ABSENT,
  "Cour des comptes européenne (2024), plan de relance commun : absorption en retard, 24 % des résultats attendus manquants ; France au-dessus de la moyenne.": MITIG,

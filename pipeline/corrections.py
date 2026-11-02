@@ -1714,6 +1714,38 @@ M('le-pen','retraites')['claude']['inputs'].append({'label':'Date de présentati
     'source':'franceinfo (14/10/2026)','url':'https://www.franceinfo.fr/elections/presidentielle/marine-le-pen-presentera-de-maniere-extremement-precise-sa-reforme-des-retraites-le-17-novembre_8237821.html'})
 D['asof']='1er novembre 2026'
 
+# --- review 38 : revue du 2/11 (02/11/2026) ; registre S140, S141, S201, S092, S155 (volet « Vie quotidienne » : life.py)
+# Décisions du porteur du 2/11, même règle pour les 8 ; chaque source rouverte le 2/11. Aucun total ne change.
+# (1) Glucksmann, baisse de la CSG : deux montants publiés (Face-à-Face BFMTV-RMC du 2/11, cités par écrit par BFMTV le même jour : « 100 euros
+# par mois pour un salarié au salaire médian » et « 83 euros pour un salarié au Smic »). Règle du simulateur (tout paramètre annoncé et confirmé
+# s'applique) : ces deux montants remplacent la répartition des 15 Md€ au prorata des salaires ; entre le SMIC et le salaire médian (2 238 € net,
+# Insee Première n° 2132, 22/10/2026), interpolation linéaire (notre calcul) ; en dessous du SMIC, au prorata (temps partiel) ; au-dessus du
+# salaire médian, rien, faute de barème publié (note). Fiche « héritages » inchangée en valeur (enveloppe de 15 Md€ du camp) ; note ajoutée.
+# Même règle chez les autres : Lisnard publie un taux (appliqué), Retailleau aucun barème (répartition au prorata, signalée comme hypothèse).
+# (2) Loi SRU, article 55 (S201) : le chiffrage de l'Institut Montaigne (≈ 1,1 Md€, programme Zemmour de 2022) repose sur une baisse de 20 % de
+# la production de logements sociaux supposée par cette seule fiche ; règle écrite (une économie qui repose sur un comportement supposé par une
+# seule note n'est pas comptée) → 0 chez Le Pen, Lisnard et Zemmour, même ligne dans leurs listes « non compté » ; le prélèvement sur les
+# communes carencées (≈ 83 M€) est un transfert entre administrations, neutre selon la même fiche. Retailleau (objectifs gardés en volume en zone
+# tendue) : mesure différente, rien.
+BFM0211_CSG='https://www.bfmtv.com/politique/elections/presidentielle/manifestation-du-5-novembre-raphael-glucksmann-affirme-qu-il-sera-dans-la-rue-ce-jeudi-malgre-les-campagnes-de-harcelement_AV-202611020336.html'
+INSEE_MED='https://www.insee.fr/fr/statistiques/9087193'
+m=M('glucksmann','heritages'); k=m['claude']; assert (k['central'],k['low'],k['high'])==(-2.4,-8.0,2.6) and not any(i['url']==BFM0211_CSG for i in k['inputs'])
+k['inputs']+=[{'label':'Barème partiel (2/11/2026)','value':"« 100 euros par mois pour un salarié au salaire médian » et « 83 euros pour un salarié au Smic » ; montant non publié au-dessus du salaire médian",
+               'source':'BFMTV, Face-à-Face BFMTV-RMC (2/11/2026)','url':BFM0211_CSG},
+              {'label':'Salaire net médian du secteur privé (2025)','value':"2 238 € par mois en équivalent temps plein",'source':'Insee Première n° 2132 (22/10/2026)','url':INSEE_MED}]
+k['note']+=(" Barème partiel publié le 2/11/2026 (83 €/mois au SMIC, 100 €/mois au salaire médian, appliqué au simulateur) : les 15 Md€ ne tiennent que si"
+            " la baisse décroît vite au-dessus du salaire médian, ce que le barème publié ne dit pas.")
+sg=C['glucksmann']['sim']; assert sg['salaire_net']['prorata'] and sg['salaire_net']['gain_mensuel']==round(15e9/SQ['salaries']/12,1)
+sg['salaire_net']={"points":[[SQ['smic_net'],83],[2238,100]],"public":"salariés",
+ "note":"Baisse de la CSG sur les salaires annoncée le 2/11/2026 : 83 €/mois au SMIC, 100 €/mois au salaire médian (2 238 € net, Insee) ; entre les deux, interpolation (notre calcul) ; en dessous du SMIC, au prorata du salaire",
+ "au_dela":"Baisse de la CSG au-delà du salaire médian (2 238 € net) : montant non publié, pas de gain calculé"}
+SRU_NC="fin des quotas de logements sociaux (article 55 de la loi SRU) : économie qui dépend d'une baisse supposée de la construction, non comptée"
+t=C['le-pen']['claude_total']; assert 'SRU' not in t['missing']; t['missing']+=", "+SRU_NC
+t=C['lisnard']['claude_total']; assert 'SRU' not in t['missing'] and t['missing'].count(', à confirmer en 2026 :')==1
+t['missing']=t['missing'].replace(', à confirmer en 2026 :',", "+SRU_NC+", à confirmer en 2026 :")
+t=C['zemmour']['claude_total']; assert 'SRU' not in t['missing']; t['missing']+=", "+SRU_NC+" (programme de 2022, non reconfirmée)"
+D['asof']='2 novembre 2026'
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:

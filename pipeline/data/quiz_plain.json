@@ -676,5 +676,35 @@
 "retailleau.regle_or": [
 "Soumettre au référendum une règle d'or déjà adoptée par le Parlement : un plafond de dépenses chaque année",
 "Chaque budget devrait respecter un plafond de dépenses et un minimum de recettes nouvelles, inscrits dans la Constitution."
+],
+"glucksmann.economie.1": [
+"Donner un titre de séjour aux travailleurs sans papiers qui ont travaillé au moins six mois sur les deux dernières années",
+"Les étrangers sans papiers qui ont travaillé au moins six mois au cours des deux dernières années obtiendraient un titre de séjour.",
+"Régulariser environ 300 000 travailleurs sans papiers : titre de séjour après six mois de travail sur les deux dernières années"
+],
+"le-pen.economie.1": [
+"Ne plus régulariser aucun étranger en situation irrégulière",
+"Les étrangers sans papiers ne pourraient plus obtenir de titre de séjour, quelle que soit leur situation.",
+"Zéro régularisation d'étrangers en situation irrégulière"
+],
+"retailleau.logement.4": [
+"Supprimer l'interdiction de louer les logements mal isolés",
+"Un logement classé G, F ou E au diagnostic énergétique pourrait toujours être loué ; l'étiquette ne servirait qu'à informer.",
+"Supprimer les interdictions de louer liées au DPE (classes G, F puis E), le DPE devenant informatif"
+],
+"retailleau.logement.5": [
+"Remplacer le quota de logements sociaux par commune par des objectifs négociés localement",
+"Fini les 20 à 25 % de logements sociaux exigés de chaque commune : des objectifs en nombre fixés avec l'intercommunalité là où les logements manquent, aucun ailleurs, et plus d'aides au-delà de 30 % de logements sociaux.",
+"Mettre fin aux quotas SRU : objectifs de logements sociaux en volume, fixés par contrat entre le préfet et l'intercommunalité, aucun en zone non tendue ; plus d'aides publiques au-delà de 30 % de logements sociaux"
+],
+"attal.logement.2": [
+"Créer une garantie publique des loyers pour les étudiants et jeunes actifs, et construire des résidences universitaires",
+"Un garant public paie le loyer en cas d'impayé, pour que les jeunes trouvent plus facilement un logement ; de nouvelles résidences étudiantes sont bâties.",
+"Garantie universelle des loyers et nouvelles résidences universitaires pour les étudiants et les jeunes actifs"
+],
+"attal.ecole.4": [
+"Évaluer les licences et masters tous les trois ans et fermer les filières aux moins bons résultats",
+"Les formations où beaucoup d'étudiants abandonnent ou trouvent mal un emploi seraient réorientées ou fermées.",
+"Évaluer licences et masters tous les trois ans (décrochage, insertion) ; réorienter ou fermer les filières les moins performantes"
 ]
 }

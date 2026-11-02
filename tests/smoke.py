@@ -266,6 +266,15 @@ with sync_playwright() as p:
     cee = dict(r)
     check(cee['retailleau'] in (10, 11) and cee['zemmour'] in (10, 11) and all(v == 0 for c, v in cee.items() if c not in ('retailleau', 'zemmour')),
           f'simulateur : fin des certificats d\'économies d\'énergie ≈ 11 € pour 300 €/mois d\'essence chez Retailleau et Zemmour, même hypothèse, rien ailleurs {r}')
+    # montants publiés en quelques points du salaire (Glucksmann, baisse de CSG du 2/11/2026 : 83 € au SMIC, 100 € au salaire médian) :
+    # interpolation entre les points, rien au-delà du dernier (barème non publié), avec une note
+    r = pg.evaluate("""(()=>{ const g=id=>document.getElementById(id); document.querySelector('#s-status [data-v="prive"]').click(); S.kids=0; openSim.clear(); openSim.add('glucksmann');
+      const f=v=>{ presetVal=v; g('s-salary').value=v; sim(); const t=document.querySelector('#simres .srow[data-c="glucksmann"]').innerText.replace(/\\s+/g,' ');
+        const row=[...document.querySelectorAll('#simres .srow[data-c="glucksmann"] .rw')].find(x=>/^Revenu net/.test(x.textContent.trim())); const m=row&&row.textContent.replace(/\\s+/g,' ').match(/([0-9]+) €\\/mois/);
+        return [m?+m[1]:0, /montant non publié, pas de gain calculé/.test(t)]; };
+      const out=[f(SQ.smic_net), f(2238), f(1900), f(3000)]; presetVal=null; return out; })()""")
+    check(r[0] == [83, False] and r[1] == [100, False] and 83 < r[2][0] < 100 and r[3] == [0, True],
+          f'simulateur : baisse de CSG publiée en deux points (83 € au SMIC, 100 € au salaire médian, interpolation, rien au-delà avec une note) {r}')
     # part fiscale entière dès le 2e enfant (Le Pen) : gain avec 2 enfants, rien avec 1, pas de double compte avec l'exonération des moins de 30 ans
     r = pg.evaluate("""(()=>{ const g=id=>document.getElementById(id); document.querySelector('#s-status [data-v="prive"]').click(); g('s-salary').value=3500; openSim.clear(); openSim.add('le-pen');
       const f=(k,y)=>{ S.kids=k; g('s-year').value=y; sim(); return [...document.querySelectorAll('#simres .srow[data-c="le-pen"] .rw')].filter(x=>/^Impôt/.test(x.textContent.trim())).length; };

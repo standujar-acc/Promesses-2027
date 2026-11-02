@@ -1,5 +1,5 @@
 {
- "asof": "1er novembre 2026",
+ "asof": "2 novembre 2026",
  "context": [
   {
    "v": "5,4 %",
@@ -2597,13 +2597,13 @@
        "u": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
       },
       {
-       "l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er septembre 2026",
+       "l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er octobre 2026",
        "a": 2026,
-       "u": "https://www.justice.gouv.fr/sites/default/files/2026-10/mesure_mensuelle_01092026.pdf"
+       "u": "https://www.justice.gouv.fr/sites/default/files/2026-11/mesure_mensuelle_01102026.pdf"
       }
      ],
      "quiz_constat": {
-      "t": "Détenus : 90 020 au 1er septembre 2026 (+6,8 % en un an) pour 63 348 places, soit 142 % d'occupation (Justice).",
+      "t": "Détenus : 90 937 au 1er octobre 2026 (+7,2 % en un an) pour 63 452 places, soit 143 % d'occupation (Justice).",
       "s": [
        3
       ]
@@ -3097,7 +3097,7 @@
     "p10": -93.7,
     "p90": -58.5,
     "realsum": -72.6,
-    "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, prêt à taux zéro à la place de MaPrimeRénov', recettes et économies du contre-budget sans chiffrage indépendant (chiffres du camp pour 2027) : impôt sur les sociétés assis sur le chiffre d'affaires 3,75, Autorité de la concurrence 1,2, dividendes d'EDF sur les exportations 3,7, économies sur le TURPE 2, économies sur la Sécurité sociale ≈ 20, droits de douane rendus 2,2, rationalisation de l'aide publique au développement et de l'action extérieure de l'État 2,1 (sans niveau publié), rebudgétisation des certificats d'économies d'énergie 8 (mécanisme non publié : sans effet sur le solde si les programmes passent au budget avec une recette équivalente, perte de TVA d'environ 0,9 Md€ si la charge disparaît des factures, même lecture que Retailleau et Zemmour) ; dépenses de moins de 1 Md€ (AAH au-dessus du seuil de pauvreté, permis gratuit, prime d'activité étudiante, demi-part des veufs…), dispense d'impôt sur le revenu pour les entrepreneurs (public et durée non publiés), fonds souverain (opération financière), abrogation de la loi Hulot, lignes immigration du contre-budget sans chiffrage indépendant ni paramètre suffisant (chiffres du camp pour 2027) : suppression du visa pour soins 1, hausse des frais de scolarité des étudiants étrangers 1,1 (montant des droits non publié), effets indirects sur la sécurité 0,5, départ des étrangers sans emploi 0,1, timbre sur les visas touristiques 0,1 ; taxe de 1 000 € par an à l'embauche d'un salarié extra-européen 1 et taxe de 14 % sur les transferts d'argent vers les pays tiers 1,9 (à l'étude), gel des tarifs et minima de l'accise sur le tabac et fin de leur indexation (lettre aux buralistes du 7/09/2026 ; paramètre précisé par l'amendement I-CF1011 du groupe RN au projet de budget 2027, 4/10/2026) : ≈ −0,1 Md€ en 2030 (jusqu'à −0,5 si toute l'accise suivait l'indexation), sous le seuil de 1 Md€, recentralisation de l'aide sociale à l'enfance par l'État, rebaptisée « aide sociale à la famille », et ministère de plein exercice (transfert entre administrations, sans dépense nouvelle publiée : sans effet sur le solde public), fin ou baisse de l'aide à l'Ukraine (« nous n'avons plus les moyens » d'une aide qui « nous a coûté, en engagement, 6 milliards d'euros par an » selon la candidate, 15/10/2026 ; niveau non publié, même lecture que la hausse de l'aide de Glucksmann, non chiffrable ; matériels livrés : 0,94 Md€ en 2025 selon le ministère des Armées), trains gratuits pour les 18-25 ans sur les places invendues de la SNCF (paramètres non publiés), postes publics non remplacés (nombre non publié par la candidate ; ≈ 201 000 d'ici 2032 selon un seul site citant un député RN : fourchette indicative dans la fiche), agences et opérateurs au-delà de la valeur commune (3,4 Md€ en 2027, chiffre du camp), imposition des « surprofits » des multinationales tirés des crises (message de la candidate du 29/10/2026 : ni taux, ni assiette, ni rendement publiés), fin des régularisations d'étrangers en situation irrégulière (« zéro régularisation », porte-parole de campagne, 28/10/2026 : effet sur les cotisations non chiffré, paramètres non publiés)",
+    "missing": "« corrections » retraites (15-20 Md€) non détaillées, sortie du marché européen de l'électricité, taxe sur les rachats d'actions, exonération des hausses de salaire jusqu'à 10 %, prêt à taux zéro à la place de MaPrimeRénov', recettes et économies du contre-budget sans chiffrage indépendant (chiffres du camp pour 2027) : impôt sur les sociétés assis sur le chiffre d'affaires 3,75, Autorité de la concurrence 1,2, dividendes d'EDF sur les exportations 3,7, économies sur le TURPE 2, économies sur la Sécurité sociale ≈ 20, droits de douane rendus 2,2, rationalisation de l'aide publique au développement et de l'action extérieure de l'État 2,1 (sans niveau publié), rebudgétisation des certificats d'économies d'énergie 8 (mécanisme non publié : sans effet sur le solde si les programmes passent au budget avec une recette équivalente, perte de TVA d'environ 0,9 Md€ si la charge disparaît des factures, même lecture que Retailleau et Zemmour) ; dépenses de moins de 1 Md€ (AAH au-dessus du seuil de pauvreté, permis gratuit, prime d'activité étudiante, demi-part des veufs…), dispense d'impôt sur le revenu pour les entrepreneurs (public et durée non publiés), fonds souverain (opération financière), abrogation de la loi Hulot, lignes immigration du contre-budget sans chiffrage indépendant ni paramètre suffisant (chiffres du camp pour 2027) : suppression du visa pour soins 1, hausse des frais de scolarité des étudiants étrangers 1,1 (montant des droits non publié), effets indirects sur la sécurité 0,5, départ des étrangers sans emploi 0,1, timbre sur les visas touristiques 0,1 ; taxe de 1 000 € par an à l'embauche d'un salarié extra-européen 1 et taxe de 14 % sur les transferts d'argent vers les pays tiers 1,9 (à l'étude), gel des tarifs et minima de l'accise sur le tabac et fin de leur indexation (lettre aux buralistes du 7/09/2026 ; paramètre précisé par l'amendement I-CF1011 du groupe RN au projet de budget 2027, 4/10/2026) : ≈ −0,1 Md€ en 2030 (jusqu'à −0,5 si toute l'accise suivait l'indexation), sous le seuil de 1 Md€, recentralisation de l'aide sociale à l'enfance par l'État, rebaptisée « aide sociale à la famille », et ministère de plein exercice (transfert entre administrations, sans dépense nouvelle publiée : sans effet sur le solde public), fin ou baisse de l'aide à l'Ukraine (« nous n'avons plus les moyens » d'une aide qui « nous a coûté, en engagement, 6 milliards d'euros par an » selon la candidate, 15/10/2026 ; niveau non publié, même lecture que la hausse de l'aide de Glucksmann, non chiffrable ; matériels livrés : 0,94 Md€ en 2025 selon le ministère des Armées), trains gratuits pour les 18-25 ans sur les places invendues de la SNCF (paramètres non publiés), postes publics non remplacés (nombre non publié par la candidate ; ≈ 201 000 d'ici 2032 selon un seul site citant un député RN : fourchette indicative dans la fiche), agences et opérateurs au-delà de la valeur commune (3,4 Md€ en 2027, chiffre du camp), imposition des « surprofits » des multinationales tirés des crises (message de la candidate du 29/10/2026 : ni taux, ni assiette, ni rendement publiés), fin des régularisations d'étrangers en situation irrégulière (« zéro régularisation », porte-parole de campagne, 28/10/2026 : effet sur les cotisations non chiffré, paramètres non publiés), fin des quotas de logements sociaux (article 55 de la loi SRU) : économie qui dépend d'une baisse supposée de la construction, non comptée",
     "n": 26,
     "cost": -82.8,
     "gain": 13.4,
@@ -7658,9 +7658,21 @@
         "value": "« une augmentation immédiate du pouvoir d'achat des salariés par la mise en place d'une CSG progressive » ; barème non publié",
         "source": "Place publique (compte officiel), « Plan de sortie de crise » du candidat (« Mes 10 propositions »), remis à Matignon et publié le 22/10/2026",
         "url": "https://bsky.app/profile/placepublique.bsky.social/post/3myhxt47cic2k"
+       },
+       {
+        "label": "Barème partiel (2/11/2026)",
+        "value": "« 100 euros par mois pour un salarié au salaire médian » et « 83 euros pour un salarié au Smic » ; montant non publié au-dessus du salaire médian",
+        "source": "BFMTV, Face-à-Face BFMTV-RMC (2/11/2026)",
+        "url": "https://www.bfmtv.com/politique/elections/presidentielle/manifestation-du-5-novembre-raphael-glucksmann-affirme-qu-il-sera-dans-la-rue-ce-jeudi-malgre-les-campagnes-de-harcelement_AV-202611020336.html"
+       },
+       {
+        "label": "Salaire net médian du secteur privé (2025)",
+        "value": "2 238 € par mois en équivalent temps plein",
+        "source": "Insee Première n° 2132 (22/10/2026)",
+        "url": "https://www.insee.fr/fr/statistiques/9087193"
        }
       ],
-      "note": "Conçue neutre ; le risque est un rendement inférieur aux 15 Md€ déjà promis aux salariés. Instrument : « CSG progressive » (plan de sortie de crise du 22/10/2026), barème non publié : lu comme une baisse de la CSG sur les salaires ; une hausse du salaire net fait remonter l'impôt sur le revenu, compté avec la même règle que la baisse des cotisations salariales de Retailleau."
+      "note": "Conçue neutre ; le risque est un rendement inférieur aux 15 Md€ déjà promis aux salariés. Instrument : « CSG progressive » (plan de sortie de crise du 22/10/2026), barème non publié : lu comme une baisse de la CSG sur les salaires ; une hausse du salaire net fait remonter l'impôt sur le revenu, compté avec la même règle que la baisse des cotisations salariales de Retailleau. Barème partiel publié le 2/11/2026 (83 €/mois au SMIC, 100 €/mois au salaire médian, appliqué au simulateur) : les 15 Md€ ne tiennent que si la baisse décroît vite au-dessus du salaire médian, ce que le barème publié ne dit pas."
      },
      "quiz_text": "Taxer les 1 % plus gros héritages pour augmenter les salaires nets",
      "quiz_concret": "Les très gros héritages sont plus taxés ; les salariés gagnent un peu plus.",
@@ -8284,9 +8296,9 @@
        "u": "https://www.insee.fr/fr/statistiques/7658358"
       },
       {
-       "l": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+       "l": "DEPP, document de travail n° 2026-E18, effets à long terme des classes réduites en éducation prioritaire, trois premières cohortes (p. 14)",
        "a": 2026,
-       "u": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+       "u": "https://archives-statistiques-depp.education.gouv.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=57771&documentId=57772&skipWatermark=true&skipCopyright=true"
       },
       {
        "l": "OCDE, Regards sur l'éducation 2025 (via L'Etudiant / Educpros)",
@@ -8869,12 +8881,19 @@
     },
     "smic_net": 1700,
     "salaire_net": {
-     "gain_mensuel": 46.4,
-     "ref": 2733,
-     "prorata": true,
-     "sans_plafond": true,
+     "points": [
+      [
+       1477.93,
+       83
+      ],
+      [
+       2238,
+       100
+      ]
+     ],
      "public": "salariés",
-     "note": "Baisse de la CSG sur les salaires : 15 Md€ répartis au prorata des salaires (27 millions de salariés, Insee), soit ≈ 46 €/mois au salaire moyen (notre calcul)"
+     "note": "Baisse de la CSG sur les salaires annoncée le 2/11/2026 : 83 €/mois au SMIC, 100 €/mois au salaire médian (2 238 € net, Insee) ; entre les deux, interpolation (notre calcul) ; en dessous du SMIC, au prorata du salaire",
+     "au_dela": "Baisse de la CSG au-delà du salaire médian (2 238 € net) : montant non publié, pas de gain calculé"
     },
     "alloc_familiales": null,
     "tva_energie": null,
@@ -9629,8 +9648,19 @@
        "l": "Service-public.gouv.fr, Heures supplémentaires d'un salarié du secteur privé (contingent annuel et contrepartie en repos)",
        "a": 2026,
        "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"
+      },
+      {
+       "l": "Dares, Les heures supplémentaires, données trimestrielles (9/10/2026)",
+       "a": 2026,
+       "u": "https://dares.travail-emploi.gouv.fr/donnees/les-heures-supplementaires"
       }
      ],
+     "quiz_constat": {
+      "t": "Heures supplémentaires : 16,5 h par salarié à temps complet au 2e trimestre 2026, +0,6 % en un an (Dares).",
+      "s": [
+       1
+      ]
+     },
      "quiz_fam": "attal.travail"
     },
     {
@@ -14800,13 +14830,13 @@
        "u": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
       },
       {
-       "l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er septembre 2026",
+       "l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er octobre 2026",
        "a": 2026,
-       "u": "https://www.justice.gouv.fr/sites/default/files/2026-10/mesure_mensuelle_01092026.pdf"
+       "u": "https://www.justice.gouv.fr/sites/default/files/2026-11/mesure_mensuelle_01102026.pdf"
       }
      ],
      "quiz_constat": {
-      "t": "Détenus : 90 020 au 1er septembre 2026 (+6,8 % en un an) pour 63 348 places, soit 142 % d'occupation (Justice).",
+      "t": "Détenus : 90 937 au 1er octobre 2026 (+7,2 % en un an) pour 63 452 places, soit 143 % d'occupation (Justice).",
       "s": [
        3
       ]
@@ -14959,7 +14989,7 @@
     "p10": -51.7,
     "p90": -34.9,
     "realsum": -44.9,
-    "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, défense (hausse du budget des armées, sans montant ni date), revenus fonciers au régime du prélèvement forfaitaire unique (taux et niches supprimées en contrepartie non publiés), plan de remise à niveau de la police sur dix ans et budget de la justice porté à la moyenne européenne (montants non publiés), nouveaux centres de rétention (places non publiées), impôt résidentiel universel payé par tous les habitants (taux, assiette et baisses en contrepartie non publiés), réforme de l'assurance chômage pour réduire les dépenses (non détaillée), budgets revus « à partir de zéro » (montant non publié), simplification des taux de TVA (tribune du 16/04/2026 : taux non publiés), à confirmer en 2026 : charges supprimées pour les employeurs à domicile au niveau du SMIC et charges patronales négatives pour l'embauche d'allocataires du RSA depuis plus de deux ans (page de programme sans date de rédaction)",
+    "missing": "reste du plan de 200 Md€ non ventilé, transition vers la capitalisation, décentralisation, défense (hausse du budget des armées, sans montant ni date), revenus fonciers au régime du prélèvement forfaitaire unique (taux et niches supprimées en contrepartie non publiés), plan de remise à niveau de la police sur dix ans et budget de la justice porté à la moyenne européenne (montants non publiés), nouveaux centres de rétention (places non publiées), impôt résidentiel universel payé par tous les habitants (taux, assiette et baisses en contrepartie non publiés), réforme de l'assurance chômage pour réduire les dépenses (non détaillée), budgets revus « à partir de zéro » (montant non publié), simplification des taux de TVA (tribune du 16/04/2026 : taux non publiés), fin des quotas de logements sociaux (article 55 de la loi SRU) : économie qui dépend d'une baisse supposée de la construction, non comptée, à confirmer en 2026 : charges supprimées pour les employeurs à domicile au niveau du SMIC et charges patronales négatives pour l'embauche d'allocataires du RSA depuis plus de deux ans (page de programme sans date de rédaction)",
     "n": 15,
     "cost": -63.7,
     "gain": 22.3,
@@ -16650,13 +16680,13 @@
        "u": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
       },
       {
-       "l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er septembre 2026",
+       "l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er octobre 2026",
        "a": 2026,
-       "u": "https://www.justice.gouv.fr/sites/default/files/2026-10/mesure_mensuelle_01092026.pdf"
+       "u": "https://www.justice.gouv.fr/sites/default/files/2026-11/mesure_mensuelle_01102026.pdf"
       }
      ],
      "quiz_constat": {
-      "t": "Détenus : 90 020 au 1er septembre 2026 (+6,8 % en un an) pour 63 348 places, soit 142 % d'occupation (Justice).",
+      "t": "Détenus : 90 937 au 1er octobre 2026 (+7,2 % en un an) pour 63 452 places, soit 143 % d'occupation (Justice).",
       "s": [
        3
       ]
@@ -17027,7 +17057,7 @@
     "p10": 4.8,
     "p90": 34.4,
     "realsum": 11.9,
-    "missing": "ministère de la Remigration, capitalisation, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, fin de la gratuité des études pour les étudiants étrangers 4 (montant des droits non publié), audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS 1 et autres agences nommées 1 : agences nommées, hors valeur commune des agences, qui vise la suppression ou la fusion de la plupart d'entre elles ; économies sans chiffrage indépendant, comme les ARS de Lisnard, sans économie propre), lignes immigration de moins de 1 Md€ : visas plus chers 0,7, hébergement d'urgence fermé aux étrangers en situation irrégulière 0,7, aide juridictionnelle réservée aux Français 0,1",
+    "missing": "ministère de la Remigration, capitalisation, renforcement des armées (sans montant), réforme des allocations chômage (non détaillée), reste du plan de 140 Md€ (budget2027.fr, économies sans chiffrage indépendant : intelligence artificielle 5, politique de la ville 8, France Travail 4, fin de la gratuité des études pour les étudiants étrangers 4 (montant des droits non publié), audiovisuel 4, Ademe 3,4, fraude 2 à 3 (champ non publié : leviers du CAE impossibles à rapporter à la mesure), associations 1 à 2, ARS 1 et autres agences nommées 1 : agences nommées, hors valeur commune des agences, qui vise la suppression ou la fusion de la plupart d'entre elles ; économies sans chiffrage indépendant, comme les ARS de Lisnard, sans économie propre), lignes immigration de moins de 1 Md€ : visas plus chers 0,7, hébergement d'urgence fermé aux étrangers en situation irrégulière 0,7, aide juridictionnelle réservée aux Français 0,1, fin des quotas de logements sociaux (article 55 de la loi SRU) : économie qui dépend d'une baisse supposée de la construction, non comptée (programme de 2022, non reconfirmée)",
     "n": 12,
     "cost": -12.7,
     "gain": 31.9,
@@ -17050,12 +17080,12 @@
   "<b>Ce qui n'est pas compté.</b> Les mesures non reconfirmées en 2026, ou connues par une seule reprise de presse qui ne cite pas le candidat (marquées « À confirmer »), et les mesures dont un paramètre clé n'est pas publié (ampleur, taux, plafond) : elles sont « non chiffrables », avec une fourchette indicative dans la fiche. Une mesure qui exige une révision est comptée « si elle passe », chez tous les candidats. Pas d'effets macroéconomiques de bouclage ; effets de comportement seulement quand ils sont documentés. Un chiffrage qu'un candidat reprend comme le sien (d'un institut, d'une association ou d'un parti) compte comme chiffre de son camp, quel que soit son auteur. Le reprendre comme le sien, c'est publier ce chiffre comme son propre chiffre ; citer une étude comme une base parmi d'autres n'en fait pas un chiffre du camp. Une économie qui repose sur une baisse de flux ou un comportement supposés par une seule note n'est pas comptée, sauf si une évaluation ou une donnée officielle les établit. Un document d'un parti publié avant la désignation de son candidat (un projet de parti, par exemple) ne vaut programme que si le candidat le reprend ; un document officiel publié depuis (le contre-budget d'un groupe parlementaire, par exemple) compte. Une demande adressée au Gouvernement en place d'utiliser un outil qui existe déjà (état d'urgence, couvre-feux, drones, militaires en garde statique) n'est pas une proposition de programme. Le tableau « Qu'est-ce qui peut passer ? » et la répartition des verdicts d'un candidat portent sur les mêmes mesures que les totaux et le quiz : hors mesures non confirmées et doublons (les mesures non chiffrables y sont).",
   "<b>Fourchette probable.</b> Chaque mesure a une valeur basse et une valeur haute ; le total en tire une fourchette à 80 % par simulation (20 000 tirages, propres à chaque candidat).",
   "<b>Verdicts.</b> Le verdict porte sur la voie juridique et pratique de la mesure, ni sur son coût ni sur l'écart entre le chiffre annoncé par le camp et notre chiffrage, que le chiffrage montre déjà, pour tous. Faisable : par décret ou par une loi ordinaire (lois de finances et de financement de la Sécurité sociale comprises), avec des paramètres publiés ; une dépense ou une baisse d'impôt ou de cotisations non financée reste faisable, et l'obstacle le dit (« financement non précisé dans la mesure »). Sous conditions : la mesure dépend d'une condition identifiée hors de cette décision (négociation ou accord de tiers : partenaires sociaux, collectivités, contrats en cours ; obligation européenne à remplir par d'autres moyens ; capacités à bâtir : recrutements, places, constructions, moyens de contrôle ; rendement ou contenu d'une autre mesure ; risque de censure sur un point précis), ou d'un paramètre clé non publié (mesure non chiffrable, objectif sans échéance). Très difficile : accord extérieur nécessaire, à l'unanimité des États de l'UE ou d'autres États, ou censure probable au vu de décisions ou d'avis sur des dispositifs proches. Exige une révision : impossible en l'état du droit sans réviser la Constitution ou les traités ; la fiche indique le chemin et qui doit dire oui. Une même situation juridique reçoit le même verdict chez tous les candidats ; une fiche qui réunit plusieurs mesures prend le verdict de la plus contraignante.",
-  "<b>Sources.</b> 338 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire (repéré par son nom de domaine exact, et signalé partout où il est cité : estimations, données d'entrée, Vie quotidienne). Une source a une seule année, celle de sa publication, et un seul titre (son auteur et sa date), partout où elle est citée ; dans les repères « où en est la France », l'année indiquée est celle du chiffre (« données 2025 »).",
+  "<b>Sources.</b> 340 sources distinctes pour les chiffrages des fiches, sans compter celles du quiz, des repères et du volet « Vie quotidienne ». L'année des chiffrages publiés est affichée ; « base 2022 » signale une estimation antérieure au programme 2027, « agrégateur » un site de synthèse à confirmer par une source primaire (repéré par son nom de domaine exact, et signalé partout où il est cité : estimations, données d'entrée, Vie quotidienne). Une source a une seule année, celle de sa publication, et un seul titre (son auteur et sa date), partout où elle est citée ; dans les repères « où en est la France », l'année indiquée est celle du chiffre (« données 2025 »).",
   "<b>Résumés.</b> Même gabarit pour tous : ce que le candidat promet, notre chiffrage, le principal obstacle.",
   "<b>Vie quotidienne.</b> Pour huit thèmes (sécurité, santé, école, environnement, logement, libertés, économie, rayonnement), on liste 1 à 5 propositions publiées par candidat. Une proposition est « vérifiable » (précise) si elle donne un chiffre, une échéance ou un moyen juridique précis, c'est-à-dire un changement de droit nommé (sortie du commandement intégré de l'OTAN, fin du droit de veto, mandat de l'ONU obligatoire, instrument ou accord nommé et ce qui y change) ; sinon c'est une « intention » (un objectif, une orientation, ou une création sans paramètre : plan, pôle, fonds). La même règle s'applique à tous. Chaque proposition affichée est attribuée au candidat par au moins une source qui parle pour lui : le candidat lui-même (discours, entretien, tribune, réseau officiel) ou son site de campagne ; un document officiel de son parti ou de son groupe publié après sa désignation, ou repris par lui ; une personne au rôle officiel dans sa campagne ; un média reconnu qui le cite ou rapporte précisément ses propos, datés, ou deux médias reconnus indépendants qui rapportent la même proposition ; pour une proposition de 2022, une analyse d'une institution reconnue ou d'un média reconnu qui décrit son programme officiel. Un agrégateur, un site non officiel, une seule reprise de presse sans citation ou une étude ne suffisent pas : sans autre source, la proposition n'est pas affichée (le contrôle est automatique, proposition par proposition), et une source qui parle pour le candidat remplace l'agrégateur ou le site non officiel qui portait la même proposition. Une proposition est de 2026 si une telle source la porte en 2026 (site de campagne, document du parti publié depuis la désignation, entretien) ; sinon elle est signalée « non reconfirmée », chez tous ; une page sans date ne reconfirme pas, sauf sur le site de campagne du candidat, ouvert pour cette élection, et quand une partie seulement d'une proposition est redite en 2026, les deux parties sont affichées séparément.Quand un thème compte plus de cinq propositions, on affiche, dans le même ordre pour tous : d'abord celles de 2026 (les non reconfirmées passent après), parmi elles les précises avant les intentions, puis les plus récentes ; à égalité ou à date inconnue, l'ordre déjà affiché est gardé (une page de programme mise à jour n'est pas une nouvelle annonce) ; une proposition remplacée par sa version précise n'est pas gardée en double, et une même proposition n'est affichée que dans un thème, le plus précis (l'énergie et le nucléaire dans « environnement »). Les propositions hors affichage restent notées dans le registre de suivi du projet (dépôt public). L'étiquette d'efficacité dit ce que montrent les évaluations sur ce type de mesure (prouvée, mitigée, non démontrée, pas d'étude), jamais si l'objectif est bon. Elle est calculée à partir des lectures affichées : chaque lecture d'étude, la même pour tous les candidats qui proposent ce type de mesure, a un niveau au regard de l'effet recherché (prouvé : les évaluations montrent cet effet ; mitigé : effet partiel, faible ou contrasté, obtenu avec un effet contraire notable, ou montré seulement pour une mesure voisine ; non démontré : pas d'effet, effet inverse, ou seulement un coût mesuré) ; une lecture qui constate l'absence d'évaluation compte « pas d'étude » ; une lecture qui ne donne qu'un fait (droit existant, situation de départ) n'a pas de niveau. Aucune lecture d'étude ni constat : « pas d'étude » ; toutes les lectures au même niveau : ce niveau ; sinon : « mitigée » (preuves partielles ou contrastées). Ainsi, une étiquette extrême, « prouvée » comme « non démontrée », ne tient pas sur une seule lecture quand une autre lecture du même thème constate l'absence d'évaluation. Les repères « où en est la France » sont les mêmes pour tous les candidats : pour chaque thème, 7 à 14 chiffres officiels (SSMSI, Insee, DREES, DEPP, Dares, COR, Ofpra, Ancols, Eurostat, OCDE, OTAN, RTE, SDES, Citepa, Banque de France, Cour des comptes, Sénat, etc. ; seul le classement de la liberté de la presse vient d'une ONG, RSF, et il est signalé comme tel), choisis parmi ceux que les bilans officiels mettent en avant, problèmes comme progrès, y compris les faits sensibles (violences sexuelles, part des étrangers parmi les mis en cause) avec leur définition exacte. Chacun donne le dernier chiffre publié, de préférence son évolution sur au moins cinq ans (jamais depuis une année choisie pour son creux ou son pic), et la précaution de lecture donnée par la source (par exemple : délinquance enregistrée, pas commise ; « mis en cause » n'est pas « condamné »). Quatre sont affichés, les autres se déplient. Une même étude est lue de la même façon pour tous les candidats qui proposent ce type de mesure ; le site de campagne d'un candidat n'est jamais utilisé comme source sur un autre.",
-  "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). La fin des certificats d'économies d'énergie compte −7 c€ par litre de carburant, TTC (coût moyen officiel de 2022 à 2025), la même hypothèse pour tous les candidats qui la proposent. Une hausse publiée en fourchette (« jusqu'à ») compte pour son montant minimal, l'autre borne étant donnée en note (salaires des enseignants, la même règle pour tous les candidats qui en proposent) ; un gel ne s'applique qu'aux prestations que le programme nomme. Ce sont des ordres de grandeur.",
-  "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Deux propositions de la même famille (même sens et même instrument : deux retours à 62 ans, deux plans de suppression de postes, deux hausses du salaire des enseignants…) ne s'affrontent jamais, et une famille ne revient qu'une fois par partie : sont de la même famille les propositions qui ont le même « Pour » et le même « Contre », et celles d'une liste publiée avec les données. Les duels portent sur les mesures des fiches (chiffrées ou non chiffrables) et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant. Dessous, un constat : la réalité française que la proposition veut traiter, avec le chiffre officiel (le dernier chiffre officiel et son évolution en %, même forme pour toutes ; les problèmes réels sont dits clairement, sans cause ni jugement) ; une mesure institutionnelle ou d'organisation (Constitution, référendum, organisation de l'État, des agences ou des établissements), ou une mesure dont aucune série officielle ne mesure ce qu'elle vise, n'a pas de constat, avec la même règle pour toutes. Puis « Pour » et « Contre » donnent en une ligne le meilleur argument réel de ceux qui la défendent et de ceux qui la critiquent : un fait que la proposition ne dit pas d'elle-même (ce qui s'est passé quand elle a été appliquée, un ordre de grandeur), jamais la proposition redite autrement ; avec la force des preuves de chacun (solides, mitigées, faibles, pas d'étude). Sous le duel, des cas réels sourcés (en France d'abord) et l'état des études. Même méthode pour toutes les mesures, sans fausse symétrie : on n'invente ni argument ni exemple pour équilibrer, et un exemple n'est retenu que s'il est pertinent, observé et de source reconnue ; on montre où penchent les faits et le lecteur juge ; les mesures du même type ont les mêmes cas et les mêmes niveaux de preuve. Le « Contre » tient compte du reste du programme : si une autre mesure du même candidat répond à la critique, elle est signalée. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit ; « Les deux » compte la moyenne des deux effets), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
-  "<b>Sondages et contexte.</b> Intentions de vote au 1er tour : moyenne de 5 instituts (Cluster17 pour Politico, du 19 au 22/10 ; Ifop-Fiducial pour LCI, Le Figaro et Sud Radio, du 17 au 19/10 ; Ipsos BVA pour Le Parisien, du 21 au 22/10 ; OpinionWay pour CNews, du 21 au 22/10 ; Toluna Harris Interactive pour M6 et RTL, du 19 au 21/10), dernière vague de chacun dont le terrain s'est achevé dans les 15 jours précédant le 01/11/2026, 15e jour compris ; pour chaque institut, milieu de la fourchette des hypothèses où le candidat est testé, même poids pour chaque institut. L'ordre des candidats suit cette moyenne, et la date de la moyenne est affichée à côté des intentions de vote. Source : notices de la Commission des sondages ; sondages masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
+  "<b>Simulateur.</b> Il applique à votre situation tout paramètre annoncé et confirmé, qu'il soit compté ou non dans notre total (si un paramètre clé manque, une note le dit), à terme, sans les mesures de financement : retraite comparée au droit actuel après la suspension de la réforme 2023 ; SMIC 1 477,93 € net (juin 2026) ; barème 2026 de l'impôt sur le revenu avec décote, sur le net imposable, pour une personne seule (parent isolé si elle a des enfants) ; allocations familiales 2026 avant modulation. Les pertes sont comptées comme les gains : aides réservées selon la nationalité ou la durée de séjour (même calcul pour les quatre candidats qui en proposent, chacun avec sa condition, « si la révision de la Constitution passe », et pour un ressortissant de l'UE « si le droit de l'UE change »), gel des prestations, baisse des minima ; le logement compte aussi (APL réservées selon la nationalité, relevées de 10 % ou gelées, à partir du montant que vous indiquez ; les mesures sans paramètre publié, comme la déduction des intérêts d'emprunt ou les prêts à taux zéro, sont signalées en note) ; les jours de carence et la durée du chômage sont affichés à part, car ils ne jouent qu'en cas d'arrêt ou de chômage long. Le report de l'âge de la retraite est exprimé en années, avec la durée de cotisation pour le taux plein quand elle est publiée. Un avantage déjà acquis aujourd'hui n'est pas compté comme un gain (heures sup : impôt et cotisations du salarié déjà exonérés). La fin des certificats d'économies d'énergie compte −7 c€ par litre de carburant, TTC (coût moyen officiel de 2022 à 2025), la même hypothèse pour tous les candidats qui la proposent. Une hausse publiée en fourchette (« jusqu'à ») compte pour son montant minimal, l'autre borne étant donnée en note (salaires des enseignants, la même règle pour tous les candidats qui en proposent) ; un gel ne s'applique qu'aux prestations que le programme nomme. Un gain publié pour quelques niveaux de salaire seulement (au SMIC et au salaire médian, par exemple) est appliqué entre ces niveaux par interpolation (notre calcul), au prorata du salaire en dessous du premier, et rien n'est calculé au-dessus du dernier tant que le barème n'est pas publié (une note le dit). Ce sont des ordres de grandeur.",
+  "<b>Quiz.</b> 20 duels tirés au hasard entre deux candidats sur un même thème ; chaque candidat apparaît 5 fois et aucune paire ne se répète. Deux propositions de la même famille (même sens et même instrument : deux retours à 62 ans, deux plans de suppression de postes, deux hausses du salaire des enseignants…) ne s'affrontent jamais, et une famille ne revient qu'une fois par partie : sont de la même famille les propositions qui ont le même « Pour » et le même « Contre », et celles d'une liste publiée avec les données. Les duels portent sur les mesures des fiches (chiffrées ou non chiffrables) et sur les propositions précises et reconfirmées du volet « Vie quotidienne » (école, santé, logement, économie) ; un candidat sans proposition de ce type sur un thème n'y apparaît pas. À l'accueil, on peut choisir les thèmes qui comptent pour soi : ils reviennent plus souvent et comptent double dans le résultat. Chaque proposition est reformulée en langage courant. Dessous, un constat : la réalité française que la proposition veut traiter, avec le chiffre officiel (le dernier chiffre officiel et son évolution en %, même forme pour toutes ; les problèmes réels sont dits clairement, sans cause ni jugement) ; une mesure institutionnelle ou d'organisation (Constitution, référendum, organisation de l'État, des agences ou des établissements), ou une mesure dont aucune série officielle ne mesure ce qu'elle vise, n'a pas de constat, avec la même règle pour toutes. Puis « Pour » et « Contre » donnent en une ligne le meilleur argument réel de ceux qui la défendent et de ceux qui la critiquent : un fait que la proposition ne dit pas d'elle-même (ce qui s'est passé quand elle a été appliquée, un ordre de grandeur), jamais la proposition redite autrement ; avec la force des preuves de chacun (solides, mitigées, faibles, pas d'étude). Sous le duel, des cas réels sourcés (en France d'abord) et l'état des études. Même méthode pour toutes les mesures, sans fausse symétrie : on n'invente ni argument ni exemple pour équilibrer, et un exemple n'est retenu que s'il est pertinent, observé et de source reconnue ; on montre où penchent les faits et le lecteur juge ; les mesures du même type ont les mêmes cas et les mêmes niveaux de preuve. Le « Contre » tient compte du reste du programme : si une autre mesure du même candidat répond à la critique, elle est signalée. Pas de nom de candidat, pas de coût de la mesure, pas de faisabilité juridique, pas de jugement. Le résultat montre d'abord le ou les candidats les plus proches et ce qu'impliquent les propositions retenues (faisabilité, déficit ; « Les deux » compte la moyenne des deux effets), puis une pastille par proposition vue. La proximité est la part des propositions d'un candidat que vous avez retenues (choisie ou « Les deux ») ; une proposition d'un thème que vous marquez compte deux fois. Les égalités ne sont jamais départagées : les ex æquo sont signalés et affichés dans un ordre tiré au hasard. Suivent la tendance par thème, ce qui colle et ce qui colle moins chez les plus proches, et le détail des duels.",
+  "<b>Sondages et contexte.</b> Intentions de vote au 1er tour : moyenne de 5 instituts (Cluster17 pour Politico, du 19 au 22/10 ; Ifop-Fiducial pour LCI, Le Figaro et Sud Radio, du 17 au 19/10 ; Ipsos BVA pour Le Parisien, du 21 au 22/10 ; OpinionWay pour CNews, du 21 au 22/10 ; Toluna Harris Interactive pour M6 et RTL, du 19 au 21/10), dernière vague de chacun dont le terrain s'est achevé dans les 15 jours précédant le 02/11/2026, 15e jour compris ; pour chaque institut, milieu de la fourchette des hypothèses où le candidat est testé, même poids pour chaque institut. L'ordre des candidats suit cette moyenne, et la date de la moyenne est affichée à côté des intentions de vote. Source : notices de la Commission des sondages ; sondages masqués la veille et le jour de chaque tour. PLF 2027, Insee, taux à 10 ans d'octobre 2026. Ménages : 30,9 millions (Insee). 1 point de PIB ≈ 30 Md€."
  ],
  "statu_quo": {
   "retraite": {
@@ -17164,6 +17194,22 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "02/11/2026",
+   "text": "Sondages : moyenne au 2/11, inchangée (5 instituts ; aucune nouvelle enquête publiée)."
+  },
+  {
+   "date": "02/11/2026",
+   "text": "Quiz : six propositions précises y entrent, avec constat, « Pour », « Contre » et cas sourcés : régularisation des travailleurs sans papiers et « zéro régularisation » (mêmes cas, côtés inversés, dans un nouveau thème « Économie »), fin des quotas de logements sociaux et des interdictions de louer liées au DPE, garantie des loyers des jeunes, évaluation des licences et masters. Constats mis au dernier chiffre officiel : prisons (90 937 détenus au 1/10/2026, 143 % d'occupation), logements mis en chantier (série révisée du SDES : 262 000 en 2025, +25 % sur un an à fin septembre 2026), heures supplémentaires (Dares, 2e trimestre 2026)."
+  },
+  {
+   "date": "02/11/2026",
+   "text": "Vie quotidienne, études relues à la source, le même texte pour toutes les propositions du même type : suspension des allocations familiales pour absentéisme (Le Pen, Philippe), bilans de santé (Glucksmann), accord UE-Mercosur (Lisnard), caution des loyers Visale et formations du supérieur (Attal), interdictions de louer liées au DPE (Retailleau : le thème logement passe de « non démontrée » à « mitigée », une lecture constatant l'absence de données), Livret Innovation et loi Pleven (Zemmour). Classes dédoublées : le document de travail de la DEPP d'octobre 2026 remplace le site qui le relayait, chez les cinq candidats concernés et dans le quiz."
+  },
+  {
+   "date": "02/11/2026",
+   "text": "Veille du 2/11, même règle pour les 8 ; aucun total ne change. Glucksmann : la baisse de la CSG sur les salaires est publiée en deux montants (83 €/mois au SMIC, 100 €/mois au salaire médian) ; le simulateur les applique (entre les deux par interpolation, rien au-delà du salaire médian faute de barème publié) et la fiche « héritages » note que les 15 Md€ ne tiennent que si la baisse décroît vite au-dessus du salaire médian. Vie quotidienne : inéligibilité des personnes condamnées pour injure raciale, incitation à la haine raciale ou antisémitisme (libertés) ; stages de plus de deux mois payés au moins 1 000 € par mois (économie), le « Buy European Act », non reconfirmé, sortant de l'affichage. Loi SRU : l'économie chiffrée par l'Institut Montaigne repose sur une baisse supposée de la construction de logements sociaux ; non comptée, elle est ajoutée aux listes « non compté » de Le Pen, Lisnard et Zemmour."
+  },
   {
    "date": "01/11/2026",
    "text": "Veille du 31/10 au 1/11 et propositions publiées pas encore affichées, même règle pour les 8 ; aucun total ne change. Régularisation des sans-papiers : chez Glucksmann, la proposition précise (environ 300 000 travailleurs, titre de séjour après six mois de travail sur deux ans, rapportée par RTL et franceinfo) remplace l'intention d'août ; même recherche chez les autres candidats, affichée dans le même thème avec la même lecture des études : Le Pen (« zéro régularisation », porte-parole de campagne), Mélenchon (travailleurs, étudiants et parents d'élèves, synthèse de son site), Philippe (« verrou Schengen » européen sur les régularisations massives) ; rien en 2026 chez Attal, Retailleau, Lisnard et Zemmour. Vie quotidienne : Le Pen, abrogation de la loi Hulot (environnement) et soins dentaires remboursés à 100 % (santé, avec la même lecture des études que le « 100 % Sécu » de Mélenchon) ; Retailleau, fin des quotas SRU (logement, même lecture que Le Pen et Lisnard) ; Lisnard, simplification des taux de TVA (économie) ; Zemmour, son programme de 2022 désormais cité comme source, avec trois propositions ajoutées (loi SRU, loi Pleven, Livret Innovation), toujours marquées non reconfirmées. Fiches : régularisations (Glucksmann, Le Pen, Mélenchon), imposition des surprofits (Le Pen) et simplification de la TVA (Lisnard) listées « non comptées », faute de paramètres publiés ; date de la réforme des retraites du RN (17/11) sourcée par une citation de la candidate (franceinfo)."
@@ -17336,8 +17382,8 @@
  ],
  "sondages": {
   "regle": "Intentions de vote au 1er tour. Dernière vague de chaque institut dont le terrain s'est achevé dans les 15 jours précédant la date ci-dessous, 15e jour compris ; pour chaque institut, fourchette [plus bas, plus haut] des scores publiés dans les hypothèses où le candidat est testé, et on retient le milieu ; le chiffre affiché est la moyenne de ces milieux entre instituts (même poids pour chacun). L'ordre des candidats suit cette moyenne. Source : notices de la Commission des sondages.",
-  "date": "01/11/2026",
-  "exclus": "Elabe pour BFMTV et La Tribune Dimanche (terrain du 14 au 16/10, achevé 16 jours avant le 1/11) ; YouGov pour Le HuffPost (terrain du 12 au 15/10, achevé 17 jours avant le 1/11) ; Odoxa (terrain du 24/09 au 07/10, achevé plus de 15 jours avant) ; vagues antérieures d'OpinionWay (13-14/10), Toluna Harris Interactive (notice du 12/10) et Cluster17 pour Le Point (14-15/10, « focus droite et centre »), remplacées par la vague suivante du même institut.",
+  "date": "02/11/2026",
+  "exclus": "Elabe pour BFMTV et La Tribune Dimanche (terrain du 14 au 16/10, achevé 17 jours avant le 2/11) ; YouGov pour Le HuffPost (terrain du 12 au 15/10, achevé 18 jours avant le 2/11) ; Odoxa (terrain du 24/09 au 07/10, achevé plus de 15 jours avant) ; vagues antérieures d'OpinionWay (13-14/10), Toluna Harris Interactive (notice du 12/10) et Cluster17 pour Le Point (14-15/10, « focus droite et centre »), remplacées par la vague suivante du même institut.",
   "instituts": [
    {
     "institut": "Cluster17",
@@ -17418,7 +17464,7 @@
      }
     ],
     "indicator": "30 000 places de prison de plus (contre-budget 2027)",
-    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Nouvelles places de prison vite comblées (Sénat, 2023). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée.",
+    "evidence": "Peines planchers (2007-2014) : pas d'effet dissuasif immédiat, récidive ciblée −13 % à quatre ans, ≈ 4 000 années de détention en plus par an (IPP, 2024). Nouvelles places de prison vite comblées (Sénat, 2023). Casseur-payeur : réparation déjà due (auteur, parents d'un mineur) ; l'État en paie 4,1 M€/an, recours (2019) inutilisé ; dissuasion non évaluée. Suspension des allocations familiales pour absentéisme scolaire (2011-2013) : 472 familles touchées de février 2011 à mars 2012, absentéisme inchangé, effet non mesurable avec les données disponibles (Sénat, 2012).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -17475,6 +17521,11 @@
       "label": "Rassemblement national, « 22 mesures pour 2022 » (programme présidentiel de 2022)",
       "year": 2022,
       "url": "https://rassemblementnational.fr/22-mesures"
+     },
+     {
+      "label": "Sénat, rapport n° 56 (2012-2013) de D. Assouline sur la proposition de loi abrogeant la suspension des allocations familiales pour absentéisme",
+      "year": 2012,
+      "url": "https://www.senat.fr/rap/l12-056/l12-0562.html"
      }
     ]
    },
@@ -17592,9 +17643,9 @@
       "url": "https://www.education.gouv.fr/sites/default/files/document/r-duction-de-la-taille-de-classe-en-ducation-prioritaire-que-nous-apprennent-les-donn-es-de-la-depp--478949.pdf"
      },
      {
-      "label": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+      "label": "DEPP, document de travail n° 2026-E18, effets à long terme des classes réduites en éducation prioritaire, trois premières cohortes (p. 14)",
       "year": 2026,
-      "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+      "url": "https://archives-statistiques-depp.education.gouv.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=57771&documentId=57772&skipWatermark=true&skipCopyright=true"
      },
      {
       "label": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
@@ -18109,9 +18160,9 @@
       "url": "https://www.education.gouv.fr/sites/default/files/document/r-duction-de-la-taille-de-classe-en-ducation-prioritaire-que-nous-apprennent-les-donn-es-de-la-depp--478949.pdf"
      },
      {
-      "label": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+      "label": "DEPP, document de travail n° 2026-E18, effets à long terme des classes réduites en éducation prioritaire, trois premières cohortes (p. 14)",
       "year": 2026,
-      "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+      "url": "https://archives-statistiques-depp.education.gouv.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=57771&documentId=57772&skipWatermark=true&skipCopyright=true"
      },
      {
       "label": "LFI, note sur les comptes publics (14/10)",
@@ -18572,7 +18623,7 @@
      }
     ],
     "indicator": "+20 % de salaire enseignant, vers la moyenne européenne",
-    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; en 6e, aucun en français, petit gain en maths après la 1re génération (DEPP, 2026). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Amendes aux parents d'absentéistes : sans lien avec le niveau d'absences (pays de Galles, 2018) ; pas d'évaluation française. Orientation : des réunions avec le chef d'établissement pour les élèves faibles de 3e et leurs parents ont réduit redoublement et décrochage de 25 à 40 % (essai aléatoire, France, 2017).",
+    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; en 6e, aucun en français, petit gain en maths après la 1re génération (DEPP, 2026). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Amendes aux parents d'absentéistes : sans lien avec le niveau d'absences (pays de Galles, 2018) ; pas d'évaluation française. Suspension des allocations familiales pour absentéisme scolaire (2011-2013) : 472 familles touchées de février 2011 à mars 2012, absentéisme inchangé, effet non mesurable avec les données disponibles (Sénat, 2012). Orientation : des réunions avec le chef d'établissement pour les élèves faibles de 3e et leurs parents ont réduit redoublement et décrochage de 25 à 40 % (essai aléatoire, France, 2017).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -18601,9 +18652,9 @@
       "url": "https://www.education.gouv.fr/sites/default/files/document/r-duction-de-la-taille-de-classe-en-ducation-prioritaire-que-nous-apprennent-les-donn-es-de-la-depp--478949.pdf"
      },
      {
-      "label": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+      "label": "DEPP, document de travail n° 2026-E18, effets à long terme des classes réduites en éducation prioritaire, trois premières cohortes (p. 14)",
       "year": 2026,
-      "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+      "url": "https://archives-statistiques-depp.education.gouv.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=57771&documentId=57772&skipWatermark=true&skipCopyright=true"
      },
      {
       "label": "Site Édouard Philippe, « Pour une France plus attentive à ses enfants »",
@@ -18619,6 +18670,11 @@
       "label": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
       "year": 2026,
       "url": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
+     },
+     {
+      "label": "Sénat, rapport n° 56 (2012-2013) de D. Assouline sur la proposition de loi abrogeant la suspension des allocations familiales pour absentéisme",
+      "year": 2012,
+      "url": "https://www.senat.fr/rap/l12-056/l12-0562.html"
      }
     ]
    },
@@ -18999,7 +19055,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Maisons de santé : +3,4 jeunes généralistes pour 100 000 habitants par rapport aux territoires témoins (Irdes, 2020). Fin de la T2A : pas d'évaluation identifiée.",
+    "evidence": "Bilan de prévention gratuit déjà ouvert aux 18-25 ans depuis 2024 (« Mon bilan prévention ») ; aucun à 16 ans (Service public, 2026). Bilans de santé généraux proposés à des adultes : peu ou pas d'effet sur la mortalité (17 essais, Cochrane, 2019). Maisons de santé : +3,4 jeunes généralistes pour 100 000 habitants par rapport aux territoires témoins (Irdes, 2020). Fin de la T2A : pas d'évaluation identifiée.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -19016,6 +19072,16 @@
       "label": "Place publique, « Acte I : notre vision pour la France » (juin 2025)",
       "year": 2025,
       "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+     },
+     {
+      "label": "Service-public.fr, « Mon bilan prévention » : rendez-vous gratuits des 18-25, 45-50, 60-65 et 70-75 ans (5/10/2026)",
+      "year": 2026,
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17677"
+     },
+     {
+      "label": "Krogsbøll, Jørgensen, Gøtzsche, bilans de santé généraux chez l'adulte (revue Cochrane CD009009)",
+      "year": 2019,
+      "url": "https://www.cochrane.org/evidence/CD009009_general-health-checks-reducing-illness-and-mortality"
      }
     ]
    },
@@ -19068,9 +19134,9 @@
       "url": "https://www.education.gouv.fr/sites/default/files/document/r-duction-de-la-taille-de-classe-en-ducation-prioritaire-que-nous-apprennent-les-donn-es-de-la-depp--478949.pdf"
      },
      {
-      "label": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+      "label": "DEPP, document de travail n° 2026-E18, effets à long terme des classes réduites en éducation prioritaire, trois premières cohortes (p. 14)",
       "year": 2026,
-      "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+      "url": "https://archives-statistiques-depp.education.gouv.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=57771&documentId=57772&skipWatermark=true&skipCopyright=true"
      },
      {
       "label": "franceinfo, propositions à Matignon (22/10)",
@@ -19238,6 +19304,11 @@
     "theme": "libertes",
     "proposals": [
      {
+      "text": "Rendre inéligibles les personnes condamnées pour injure raciale, incitation à la haine raciale ou antisémitisme",
+      "verifiable": true,
+      "old": false
+     },
+     {
       "text": "Convention citoyenne sur l'immigration, propositions votées au Parlement",
       "verifiable": true,
       "old": false
@@ -19254,7 +19325,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Convention climat : 10 % des propositions reprises telles quelles, 53 % rejetées (Courant, 2021). Proportionnelle : pas d'évaluation française récente identifiée.",
+    "evidence": "Inéligibilité obligatoire pour des délits de presse : censurée en 2017 au nom de la liberté d'expression (Conseil constitutionnel) ; projet de loi du Gouvernement déposé au Sénat en juillet 2026, non examiné, qui la rend obligatoire pour les délits du code pénal à caractère raciste punis d'au moins trois ans. Convention climat : 10 % des propositions reprises telles quelles, 53 % rejetées (Courant, 2021). Proportionnelle : pas d'évaluation française récente identifiée.",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -19276,6 +19347,21 @@
       "label": "Place publique, « Acte I : notre vision pour la France » (juin 2025)",
       "year": 2025,
       "url": "https://place-publique.eu/document/6J8wjk3EW8dBCLwKxa7J96/projet-placepublique-acte1.pdf"
+     },
+     {
+      "label": "BFMTV, Face-à-Face BFMTV-RMC : inéligibilité des personnes condamnées pour injure raciale, incitation à la haine raciale ou antisémitisme (2/11)",
+      "year": 2026,
+      "url": "https://www.bfmtv.com/politique/il-n-y-avait-que-des-dirigeants-de-gauche-raphael-glucksmann-deplore-qu-il-n-y-ait-pas-eu-de-moment-d-unite-nationale-lors-de-l-hommage-aux-victimes-de-l-attentat-a-trappes_AV-202611020342.html"
+     },
+     {
+      "label": "Conseil constitutionnel, décision n° 2017-752 DC du 8 septembre 2017 (loi pour la confiance dans la vie politique), cons. 13",
+      "year": 2017,
+      "url": "https://www.conseil-constitutionnel.fr/decision/2017/2017752DC.htm"
+     },
+     {
+      "label": "Sénat, projet de loi n° 890 (2025-2026) de cohésion républicaine par la lutte contre le racisme et l'antisémitisme, art. 6 (déposé le 9/07/2026)",
+      "year": 2026,
+      "url": "https://www.senat.fr/leg/pjl25-890.html"
      }
     ]
    },
@@ -19298,14 +19384,14 @@
       "old": false
      },
      {
-      "text": "État d'urgence industriel pour les secteurs menacés par la Chine",
-      "verifiable": false,
+      "text": "Rémunérer au moins 1 000 € par mois tout stage de plus de deux mois",
+      "verifiable": true,
       "old": false
      },
      {
-      "text": "« Buy European Act » : préférence européenne dans les marchés publics",
+      "text": "État d'urgence industriel pour les secteurs menacés par la Chine",
       "verifiable": false,
-      "old": true
+      "old": false
      }
     ],
     "indicator": "15 Md€ reversés sur les fiches de paie",
@@ -19371,6 +19457,11 @@
       "label": "franceinfo, la campagne de R. Glucksmann et la régularisation de 300 000 travailleurs sans papiers (29/10)",
       "year": 2026,
       "url": "https://www.franceinfo.fr/politique/raphael-glucksmann/on-est-obliges-de-faire-attention-comment-raphael-glucksmann-cherche-la-parade-face-a-l-hostilite-des-insoumis-sur-le-terrain_8257408.html"
+     },
+     {
+      "label": "CNews, stages payés au moins 1 000 € par mois, message du candidat (15/10)",
+      "year": 2026,
+      "url": "https://www.cnews.fr/france/2026-10-15/des-stages-remuneres-1000-euros-par-mois-raphael-glucksmann-promet-que-cette"
      }
     ]
    },
@@ -19576,7 +19667,7 @@
      }
     ],
     "indicator": "Revalorisation chiffrée à 2,5 Md€ par son équipe",
-    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; en 6e, aucun en français, petit gain en maths après la 1re génération (DEPP, 2026). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Groupes de niveau : pas d'amélioration des résultats, et les élèves faibles risquent de perdre l'effet des pairs selon l'OCDE (PISA 2022). Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005), mais redoubler après un échec réduit les chances de diplôme (Cnesco, 2014). Parcoursup : fin du tirage au sort, classements peu transparents, quotas de boursiers peu efficaces (Cour des comptes, 2020).",
+    "evidence": "Petites classes en CP-CE1 : gains nets en CP ; en 6e, aucun en français, petit gain en maths après la 1re génération (DEPP, 2026). Salaires : hausse générale non évaluée ; prime REP+ doublée, +3 points de premiers vœux (Insee, 2023). Groupes de niveau : pas d'amélioration des résultats, et les élèves faibles risquent de perdre l'effet des pairs selon l'OCDE (PISA 2022). Examen de fin de cycle : un tiers d'année gagné en maths (Allemagne, 2005), mais redoubler après un échec réduit les chances de diplôme (Cnesco, 2014). Parcoursup : fin du tirage au sort, classements peu transparents, quotas de boursiers peu efficaces (Cour des comptes, 2020). Écoles privées à but lucratif privées d'aides fédérales pour trop d'impayés de prêts : inscriptions −40 %, mais −3 % au total, les étudiants allant ailleurs (États-Unis, 2020).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -19615,9 +19706,9 @@
       "url": "https://www.education.gouv.fr/sites/default/files/document/r-duction-de-la-taille-de-classe-en-ducation-prioritaire-que-nous-apprennent-les-donn-es-de-la-depp--478949.pdf"
      },
      {
-      "label": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+      "label": "DEPP, document de travail n° 2026-E18, effets à long terme des classes réduites en éducation prioritaire, trois premières cohortes (p. 14)",
       "year": 2026,
-      "url": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+      "url": "https://archives-statistiques-depp.education.gouv.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=57771&documentId=57772&skipWatermark=true&skipCopyright=true"
      },
      {
       "label": "Cour des comptes, Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE",
@@ -19648,6 +19739,11 @@
       "label": "DEPP, document de travail n° 2026-E01, effets à long terme des classes réduites, première cohorte (p. 9)",
       "year": 2026,
       "url": "https://www.education.gouv.fr/sites/default/files/document/les-effets-long-terme-de-la-r-duction-de-la-taille-de-classe-en-ducation-prioritaire-sur-les-performances-des-l-ves-478865.pdf"
+     },
+     {
+      "label": "Cellini, Darolia, Turner, Where Do Students Go when For-Profit Colleges Lose Federal Aid? (NBER w22967 ; AEJ: Economic Policy, 2020)",
+      "year": 2020,
+      "url": "https://www.nber.org/papers/w22967"
      }
     ]
    },
@@ -19751,7 +19847,7 @@
      }
     ],
     "indicator": "Cinq ans de visibilité sur les aides à la rénovation",
-    "evidence": "Rénovation énergétique : économies réelles de 5 à 6,6 %, environ 42 % des gains théoriques (Insee-SDES, 2026).",
+    "evidence": "Rénovation énergétique : économies réelles de 5 à 6,6 %, environ 42 % des gains théoriques (Insee-SDES, 2026). Caution gratuite Visale : 318 000 baux en 2023, 8 % des locations ; 79 % n'auraient pas été signés sans elle selon une évaluation de 2020 ; 14,9 % des impayés des jeunes récupérés (Cour des comptes, 2025).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -19773,6 +19869,11 @@
       "label": "attalpresident.fr, logement et bâtiment (29/09)",
       "year": 2026,
       "url": "https://attalpresident.fr/actualites/gabriel-attal-veut-liberer-l-acces-au-logement-et-relancer-le-secteur-du-batiment"
+     },
+     {
+      "label": "Cour des comptes, Rapport public annuel 2025, « L'accès des jeunes au logement »",
+      "year": 2025,
+      "url": "https://www.ccomptes.fr/sites/default/files/2025-03/20250319-RPA2025-volume1-acces-des-jeunes-au-logement.pdf"
      }
     ]
    },
@@ -20268,8 +20369,8 @@
      }
     ],
     "indicator": "Délai d'un projet immobilier ramené de 7 à 3 ans",
-    "evidence": "Crédit d'impôt sur les intérêts d'emprunt (TEPA, 2007) : 1,1 Md€ en 2009, « peu d'effets sur l'accession à la propriété » (Sénat, 2010). Loi SRU : son article 55 explique près de la moitié des logements sociaux construits dans les communes visées (CGDD, 2014) ; pas d'évaluation d'une suppression.",
-    "evidence_level": "non_demontree",
+    "evidence": "Crédit d'impôt sur les intérêts d'emprunt (TEPA, 2007) : 1,1 Md€ en 2009, « peu d'effets sur l'accession à la propriété » (Sénat, 2010). Interdiction de louer les passoires énergétiques : l'État n'a pas les données pour chiffrer l'effet d'un assouplissement (étude d'impact, 2026). Consommation réelle : écart entre logements classés A-B et G six fois plus faible que selon le DPE (CAE, 2024). Loi SRU : son article 55 explique près de la moitié des logements sociaux construits dans les communes visées (CGDD, 2014) ; pas d'évaluation d'une suppression.",
+    "evidence_level": "mitigee",
     "sources": [
      {
       "label": "Journal de l'Agence – plan logement",
@@ -20310,6 +20411,16 @@
       "label": "Banque des Territoires – étude CGDD SRU",
       "year": 2014,
       "url": "https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social"
+     },
+     {
+      "label": "Sénat, étude d'impact du projet de loi visant la relance et la décentralisation du logement (n° 801), article 6",
+      "year": 2026,
+      "url": "https://www.senat.fr/leg/etudes-impact/pjl25-801-ei/pjl25-801-ei.pdf"
+     },
+     {
+      "label": "Astier, Salem, Fack, Fournel, Maisonneuve, Performance énergétique du logement et consommation d'énergie : les enseignements des données bancaires (CAE, Focus n° 103)",
+      "year": 2024,
+      "url": "https://cae-eco.fr/static/pdf/focus-103-dpe-230110.pdf"
      }
     ]
    },
@@ -21040,7 +21151,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Aucune évaluation publique de l'effet d'une primauté de la loi nationale sur la CEDH ou sur le droit européen. Banque de Finlande (2025) : multiplicateur des dépenses de défense d'environ 0,6 à 1,0 ; effets durables surtout si investissement et R&D. Pas d'évaluation publique de l'effet d'une dénonciation de l'accord de 1968 sur les relations ou l'influence de la France.",
+    "evidence": "Aucune évaluation publique de l'effet d'une primauté de la loi nationale sur la CEDH ou sur le droit européen. Banque de Finlande (2025) : multiplicateur des dépenses de défense d'environ 0,6 à 1,0 ; effets durables surtout si investissement et R&D. Pas d'évaluation publique de l'effet d'une dénonciation de l'accord de 1968 sur les relations ou l'influence de la France. Projet d'accord UE-Mercosur de 2019 (évaluation avant signature) : part du Mercosur dans les aloyaux de bœuf vendus en Europe de 12 % à 21-24 % en 2030, déforestation annuelle accélérée d'environ 5 % pendant six ans ; aucune exigence sur les modes de production (commission d'évaluation, 2020).",
     "evidence_level": "mitigee",
     "sources": [
      {
@@ -21067,6 +21178,11 @@
       "label": "Nouvelle Énergie, programme « Immigration »",
       "year": 2026,
       "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
+     },
+     {
+      "label": "Rapport au Premier ministre de la commission d'évaluation du projet d'accord UE-Mercosur (présidée par S. Ambec)",
+      "year": 2020,
+      "url": "https://www.info.gouv.fr/upload/media/default/0001/01/2020_09_rapport_de_la_commission_devaluation_du_projet_daccord_ue_mercosur.pdf"
      }
     ]
    }
@@ -21417,7 +21533,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "Aucune évaluation publique de l'effet d'une primauté de la loi nationale sur la CEDH ou sur le droit européen.",
+    "evidence": "Aucune évaluation publique de l'effet d'une primauté de la loi nationale sur la CEDH ou sur le droit européen. Injures, diffamations et provocations à caractère raciste (loi de 1881 modifiée en 1972) : 1 056 infractions sanctionnées en 2024, +16 % sur un an ; effet d'une abrogation non évalué (ministère de la Justice, 2025).",
     "evidence_level": "pas_d_etude",
     "sources": [
      {
@@ -21429,6 +21545,11 @@
       "label": "Programme présidentiel d'Éric Zemmour, « Pour que la France reste la France » (25/03/2022)",
       "year": 2022,
       "url": "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
+     },
+     {
+      "label": "Ministère de la Justice (DACG, BEPP), bilan statistique des infractions à caractère raciste, contribution au rapport 2025 de la CNCDH",
+      "year": 2025,
+      "url": "https://www.cncdh.fr/sites/default/files/2026-06/Note%20statistique%20traitement%20judiciaire%20des%20infractions%20%C3%A0%20caract%C3%A8re%20raciste%20-%20BEPP%20oct%202025%20%28002%29.pdf"
      }
     ]
    },
@@ -21457,7 +21578,7 @@
      }
     ],
     "indicator": null,
-    "evidence": "DG Trésor (2024) : aucun effet macroéconomique significatif de l'IA mesuré à ce stade. Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025).",
+    "evidence": "DG Trésor (2024) : aucun effet macroéconomique significatif de l'IA mesuré à ce stade. Impôts de production : baisse de 2021 sans effet mesurable sur l'investissement (IPP, 2025). Réduction d'impôt pour l'épargne investie dans les PME : aucune hausse des investissements décelée quand le taux est passé de 18 % à 25 % ; fonds pour l'innovation devenus marginaux (IGF, 2023).",
     "evidence_level": "non_demontree",
     "sources": [
      {
@@ -21484,6 +21605,11 @@
       "label": "Programme présidentiel d'Éric Zemmour, « Pour que la France reste la France » (25/03/2022)",
       "year": 2022,
       "url": "https://assets.nationbuilder.com/themes/61c071ce4764e8b1483d1a8c/attachments/original/1648220408/programme_eric_zemmour_presidentielle_2022.pdf"
+     },
+     {
+      "label": "Inspection générale des finances, évaluation des réductions d'impôt sur le revenu Madelin pour l'investissement des particuliers dans les PME (rapport au Parlement)",
+      "year": 2023,
+      "url": "https://www.vie-publique.fr/files/rapport/pdf/293818.pdf"
      }
     ]
    },
@@ -22893,15 +23019,21 @@
      "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
     },
     {
-     "l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+     "l": "SDES, Construction de logements : résultats à fin septembre 2026 (France entière)",
      "a": 2026,
-     "u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere"
+    },
+    {
+     "l": "SDES, DiDo, « Logements autorisés et commencés, nombre et surfaces, séries mensuelles (données estimées) », millésime 2026-10",
+     "a": 2026,
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513eed03b05e5cd969c2710"
     }
    ],
    "quiz_constat": {
-    "t": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
+    "t": "Logements mis en chantier : 262 000 en 2025, −29 % depuis 2016 ; +25 % sur un an à fin septembre 2026 (SDES).",
     "s": [
-     7
+     7,
+     8
     ]
    },
    "quiz_fam": "le-pen.logement.2"
@@ -23155,15 +23287,21 @@
      "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
     },
     {
-     "l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+     "l": "SDES, Construction de logements : résultats à fin septembre 2026 (France entière)",
      "a": 2026,
-     "u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere"
+    },
+    {
+     "l": "SDES, DiDo, « Logements autorisés et commencés, nombre et surfaces, séries mensuelles (données estimées) », millésime 2026-10",
+     "a": 2026,
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513eed03b05e5cd969c2710"
     }
    ],
    "quiz_constat": {
-    "t": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
+    "t": "Logements mis en chantier : 262 000 en 2025, −29 % depuis 2016 ; +25 % sur un an à fin septembre 2026 (SDES).",
     "s": [
-     2
+     2,
+     3
     ]
    },
    "quiz_complement": {
@@ -23320,15 +23458,21 @@
      "u": "https://assets.publishing.service.gov.uk/media/5a79bbbced915d042206aa45/1558850.pdf"
     },
     {
-     "l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+     "l": "SDES, Construction de logements : résultats à fin septembre 2026 (France entière)",
      "a": 2026,
-     "u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere"
+    },
+    {
+     "l": "SDES, DiDo, « Logements autorisés et commencés, nombre et surfaces, séries mensuelles (données estimées) », millésime 2026-10",
+     "a": 2026,
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513eed03b05e5cd969c2710"
     }
    ],
    "quiz_constat": {
-    "t": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
+    "t": "Logements mis en chantier : 262 000 en 2025, −29 % depuis 2016 ; +25 % sur un an à fin septembre 2026 (SDES).",
     "s": [
-     6
+     6,
+     7
     ]
    },
    "quiz_complement": {
@@ -23449,15 +23593,21 @@
      "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
     },
     {
-     "l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+     "l": "SDES, Construction de logements : résultats à fin septembre 2026 (France entière)",
      "a": 2026,
-     "u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere"
+    },
+    {
+     "l": "SDES, DiDo, « Logements autorisés et commencés, nombre et surfaces, séries mensuelles (données estimées) », millésime 2026-10",
+     "a": 2026,
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513eed03b05e5cd969c2710"
     }
    ],
    "quiz_constat": {
-    "t": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
+    "t": "Logements mis en chantier : 262 000 en 2025, −29 % depuis 2016 ; +25 % sur un an à fin septembre 2026 (SDES).",
     "s": [
-     4
+     4,
+     5
     ]
    },
    "quiz_fam": "le-pen.logement.2"
@@ -23514,15 +23664,21 @@
      "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
     },
     {
-     "l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+     "l": "SDES, Construction de logements : résultats à fin septembre 2026 (France entière)",
      "a": 2026,
-     "u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere"
+    },
+    {
+     "l": "SDES, DiDo, « Logements autorisés et commencés, nombre et surfaces, séries mensuelles (données estimées) », millésime 2026-10",
+     "a": 2026,
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513eed03b05e5cd969c2710"
     }
    ],
    "quiz_constat": {
-    "t": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
+    "t": "Logements mis en chantier : 262 000 en 2025, −29 % depuis 2016 ; +25 % sur un an à fin septembre 2026 (SDES).",
     "s": [
-     4
+     4,
+     5
     ]
    },
    "quiz_fam": "le-pen.logement.2"
@@ -23947,9 +24103,9 @@
      "u": "https://media.education.gouv.fr/file/48/4/2484.pdf"
     },
     {
-     "l": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+     "l": "DEPP, document de travail n° 2026-E18, effets à long terme des classes réduites en éducation prioritaire, trois premières cohortes (p. 14)",
      "a": 2026,
-     "u": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+     "u": "https://archives-statistiques-depp.education.gouv.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=57771&documentId=57772&skipWatermark=true&skipCopyright=true"
     },
     {
      "l": "DEPP, Repères et références statistiques 2026, chapitre 2 (les établissements)",
@@ -25184,9 +25340,9 @@
      "u": "https://ideas.repec.org/a/bla/scandj/v110y2008i4p663-693.html"
     },
     {
-     "l": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+     "l": "DEPP, document de travail n° 2026-E18, effets à long terme des classes réduites en éducation prioritaire, trois premières cohortes (p. 14)",
      "a": 2026,
-     "u": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+     "u": "https://archives-statistiques-depp.education.gouv.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=57771&documentId=57772&skipWatermark=true&skipCopyright=true"
     },
     {
      "l": "DEPP, Repères et références statistiques 2026, chapitre 2 (les établissements)",
@@ -25355,6 +25511,323 @@
     ]
    },
    "quiz_fam": "attal.sante.1"
+  },
+  {
+   "c": "glucksmann",
+   "id": "economie.1",
+   "life": true,
+   "theme": "economie",
+   "title": "Donner un titre de séjour aux travailleurs sans papiers qui ont travaillé au moins six mois sur les deux dernières années",
+   "quiz_text": "Donner un titre de séjour aux travailleurs sans papiers qui ont travaillé au moins six mois sur les deux dernières années",
+   "quiz_concret": "Les étrangers sans papiers qui ont travaillé au moins six mois au cours des deux dernières années obtiendraient un titre de séjour.",
+   "quiz_plus": "Régulariser par le travail a rapporté 4 000 € de cotisations par personne et par an, sans afflux mesuré.",
+   "quiz_moins": "Une partie des régularisés est retournée ensuite au travail non déclaré.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "faible",
+   "quiz_cas_pour": [
+    {
+     "t": "Après la régularisation de près de 600 000 travailleurs avec contrat en 2005, les cotisations ont augmenté d'au moins 4 000 € par régularisé et par an, sans hausse mesurée de l'immigration (Elias, Monras et Vázquez-Grenno, Espagne, 2025).",
+     "s": [
+      1
+     ]
+    },
+    {
+     "t": "Les immigrés régularisés ont commis moins de délits : −0,6 point, pour un taux de départ de 1,1 % (Pinotti, Italie, 2017).",
+     "s": [
+      2
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Après la régularisation de 2005, tous les régularisés ne sont pas restés dans l'emploi déclaré : une partie est retournée au travail non déclaré (Elias, Monras et Vázquez-Grenno, Espagne, 2025).",
+     "s": [
+      1
+     ]
+    }
+   ],
+   "quiz_etudes": "Une étude en Espagne (régularisation de 2005 liée à un contrat de travail) : plus de cotisations, pas d'afflux d'immigration mesuré, retour partiel au travail non déclaré ; une en Italie : moins de délits chez les régularisés. Pas d'évaluation en France.",
+   "quiz_src": [
+    {
+     "l": "DGEF, statistiques annuelles de l'immigration 2025 (27/01/2026), via InfoMigrants (France Médias Monde)",
+     "a": 2026,
+     "u": "https://www.infomigrants.net/fr/post/69470/immigration-en-france--les-expulsions-en-hausse-de-15--en-2025-les-regularisations-en-baisse"
+    },
+    {
+     "l": "Elias, Monras, Vázquez-Grenno, titres de travail accordés aux sans-papiers en Espagne en 2005 (Journal of Labor Economics ; présentation de l'université de Barcelone)",
+     "a": 2025,
+     "u": "https://www.ub.edu/school-economics/news/understanding-the-effects-of-granting-work-permits-to-undocumented-immigrants/"
+    },
+    {
+     "l": "Pinotti, régularisation des immigrés et délinquance en Italie (American Economic Review ; présentation de l'université Bocconi)",
+     "a": 2017,
+     "u": "https://clean.unibocconi.eu/research/criminal-and-illegal-behavior/clicking-on-heaven-door.-the-effect-of-immigrant-legalization-on-crime"
+    }
+   ],
+   "quiz_constat": {
+    "t": "Régularisations (admissions exceptionnelles au séjour) : 28 610 en 2025, −10 % sur un an (DGEF).",
+    "s": [
+     0
+    ]
+   },
+   "quiz_fam": "glucksmann.economie.1"
+  },
+  {
+   "c": "le-pen",
+   "id": "economie.1",
+   "life": true,
+   "theme": "economie",
+   "title": "Ne plus régulariser aucun étranger en situation irrégulière",
+   "quiz_text": "Ne plus régulariser aucun étranger en situation irrégulière",
+   "quiz_concret": "Les étrangers sans papiers ne pourraient plus obtenir de titre de séjour, quelle que soit leur situation.",
+   "quiz_plus": "Une partie des régularisés est retournée ensuite au travail non déclaré.",
+   "quiz_moins": "Régulariser par le travail a rapporté 4 000 € de cotisations par personne et par an, sans afflux mesuré.",
+   "quiz_preuve_pour": "faible",
+   "quiz_preuve_contre": "mitigé",
+   "quiz_cas_pour": [
+    {
+     "t": "Après la régularisation de 2005, tous les régularisés ne sont pas restés dans l'emploi déclaré : une partie est retournée au travail non déclaré (Elias, Monras et Vázquez-Grenno, Espagne, 2025).",
+     "s": [
+      1
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Après la régularisation de près de 600 000 travailleurs avec contrat en 2005, les cotisations ont augmenté d'au moins 4 000 € par régularisé et par an, sans hausse mesurée de l'immigration (Elias, Monras et Vázquez-Grenno, Espagne, 2025).",
+     "s": [
+      1
+     ]
+    },
+    {
+     "t": "Les immigrés régularisés ont commis moins de délits : −0,6 point, pour un taux de départ de 1,1 % (Pinotti, Italie, 2017).",
+     "s": [
+      2
+     ]
+    }
+   ],
+   "quiz_etudes": "Une étude en Espagne (régularisation de 2005 liée à un contrat de travail) : plus de cotisations, pas d'afflux d'immigration mesuré, retour partiel au travail non déclaré ; une en Italie : moins de délits chez les régularisés. Pas d'évaluation en France.",
+   "quiz_src": [
+    {
+     "l": "DGEF, statistiques annuelles de l'immigration 2025 (27/01/2026), via InfoMigrants (France Médias Monde)",
+     "a": 2026,
+     "u": "https://www.infomigrants.net/fr/post/69470/immigration-en-france--les-expulsions-en-hausse-de-15--en-2025-les-regularisations-en-baisse"
+    },
+    {
+     "l": "Elias, Monras, Vázquez-Grenno, titres de travail accordés aux sans-papiers en Espagne en 2005 (Journal of Labor Economics ; présentation de l'université de Barcelone)",
+     "a": 2025,
+     "u": "https://www.ub.edu/school-economics/news/understanding-the-effects-of-granting-work-permits-to-undocumented-immigrants/"
+    },
+    {
+     "l": "Pinotti, régularisation des immigrés et délinquance en Italie (American Economic Review ; présentation de l'université Bocconi)",
+     "a": 2017,
+     "u": "https://clean.unibocconi.eu/research/criminal-and-illegal-behavior/clicking-on-heaven-door.-the-effect-of-immigrant-legalization-on-crime"
+    }
+   ],
+   "quiz_constat": {
+    "t": "Régularisations (admissions exceptionnelles au séjour) : 28 610 en 2025, −10 % sur un an (DGEF).",
+    "s": [
+     0
+    ]
+   },
+   "quiz_fam": "le-pen.economie.1"
+  },
+  {
+   "c": "retailleau",
+   "id": "logement.4",
+   "life": true,
+   "theme": "logement",
+   "title": "Supprimer l'interdiction de louer les logements mal isolés",
+   "quiz_text": "Supprimer l'interdiction de louer les logements mal isolés",
+   "quiz_concret": "Un logement classé G, F ou E au diagnostic énergétique pourrait toujours être loué ; l'étiquette ne servirait qu'à informer.",
+   "quiz_plus": "Les passoires consomment bien moins qu'affiché : écart réel avec les logements sobres six fois plus faible.",
+   "quiz_moins": "1,1 million de logements du parc locatif privé sont des passoires énergétiques : 13,8 % de ce parc.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "pas d'étude",
+   "quiz_cas_pour": [
+    {
+     "t": "Consommation d'énergie par m² : +86 % entre logements classés A-B et G, contre +560 % selon le DPE (CAE, France, 2024).",
+     "s": [
+      0
+     ]
+    }
+   ],
+   "quiz_cas_contre": [],
+   "quiz_etudes": "Aucune mesure de l'effet des interdictions de louer : l'administration n'a pas les données pour chiffrer un assouplissement (2026) ; le DPE surestime les écarts de consommation réelle.",
+   "quiz_src": [
+    {
+     "l": "Astier, Salem, Fack, Fournel, Maisonneuve, Performance énergétique du logement et consommation d'énergie : les enseignements des données bancaires (CAE, Focus n° 103)",
+     "a": 2024,
+     "u": "https://cae-eco.fr/static/pdf/focus-103-dpe-230110.pdf"
+    },
+    {
+     "l": "SDES, Le parc de logements par classe de performance énergétique au 1er janvier 2025",
+     "a": 2025,
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025"
+    },
+    {
+     "l": "Sénat, étude d'impact du projet de loi visant la relance et la décentralisation du logement (n° 801), article 6",
+     "a": 2026,
+     "u": "https://www.senat.fr/leg/etudes-impact/pjl25-801-ei/pjl25-801-ei.pdf"
+    }
+   ],
+   "quiz_constat": {
+    "t": "Passoires énergétiques : 12,7 % des résidences principales au 1/1/2025 (15,7 % en 2023), baisse en partie due au calcul (SDES).",
+    "s": [
+     1
+    ]
+   },
+   "quiz_fam": "retailleau.logement.4"
+  },
+  {
+   "c": "retailleau",
+   "id": "logement.5",
+   "life": true,
+   "theme": "logement",
+   "title": "Remplacer le quota de logements sociaux par commune par des objectifs négociés localement",
+   "quiz_text": "Remplacer le quota de logements sociaux par commune par des objectifs négociés localement",
+   "quiz_concret": "Fini les 20 à 25 % de logements sociaux exigés de chaque commune : des objectifs en nombre fixés avec l'intercommunalité là où les logements manquent, aucun ailleurs, et plus d'aides au-delà de 30 % de logements sociaux.",
+   "quiz_plus": "Imposer un quota change peu la part de ménages modestes dans les communes visées.",
+   "quiz_moins": "Sans quota par commune, celles qui en ont peu construiraient moins de logements sociaux.",
+   "quiz_preuve_pour": "solide",
+   "quiz_preuve_contre": "solide",
+   "quiz_cas_pour": [
+    {
+     "t": "Le quota a fait monter la part de logements sociaux des communes visées, mais à peine celle des ménages pauvres qui y vivent (Chapelle et al., France, 2025).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "Les logements sociaux sont mieux répartis, mais les 20 % de ménages les plus modestes restent aussi concentrés par quartier depuis 2012 (France Stratégie, France, 2021).",
+     "s": [
+      1
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Le quota explique 61 % de la hausse du nombre de logements sociaux dans les communes visées entre 2000 et 2008 (Chapelle et al., France, 2025).",
+     "s": [
+      0
+     ]
+    },
+    {
+     "t": "De 1999 à 2011, le parc social a crû de 12,7 % dans les communes en retard sur le quota, contre 6 % dans les communes non concernées (CGDD, France, 2014).",
+     "s": [
+      2
+     ]
+    }
+   ],
+   "quiz_etudes": "Les évaluations concordent : le quota a nettement accru le logement social dans les communes visées, mais a peu changé la place des ménages modestes.",
+   "quiz_src": [
+    {
+     "l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE, document de travail 2025-18)",
+     "a": 2025,
+     "u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
+    },
+    {
+     "l": "France Stratégie, La meilleure répartition des logements sociaux a-t-elle fait progresser la mixité sociale ? (via Banque des Territoires)",
+     "a": 2021,
+     "u": "https://www.banquedesterritoires.fr/des-logements-sociaux-mieux-repartis-sur-le-territoire-mais-sans-effet-sur-la-mixite-sociale"
+    },
+    {
+     "l": "CGDD, Le Point sur n° 195, les dynamiques locales du logement social 1999-2011 : l'effet de la loi SRU (via Banque des Territoires)",
+     "a": 2014,
+     "u": "https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social"
+    },
+    {
+     "l": "Cour des comptes, L'encadrement des loyers",
+     "a": 2026,
+     "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+    },
+    {
+     "l": "SDES, Construction de logements : résultats à fin septembre 2026 (France entière)",
+     "a": 2026,
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere"
+    },
+    {
+     "l": "SDES, DiDo, « Logements autorisés et commencés, nombre et surfaces, séries mensuelles (données estimées) », millésime 2026-10",
+     "a": 2026,
+     "u": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513eed03b05e5cd969c2710"
+    }
+   ],
+   "quiz_constat": {
+    "t": "Logements mis en chantier : 262 000 en 2025, −29 % depuis 2016 ; +25 % sur un an à fin septembre 2026 (SDES).",
+    "s": [
+     4,
+     5
+    ]
+   },
+   "quiz_fam": "le-pen.logement.2"
+  },
+  {
+   "c": "attal",
+   "id": "logement.2",
+   "life": true,
+   "theme": "logement",
+   "title": "Créer une garantie publique des loyers pour les étudiants et jeunes actifs, et construire des résidences universitaires",
+   "quiz_text": "Créer une garantie publique des loyers pour les étudiants et jeunes actifs, et construire des résidences universitaires",
+   "quiz_concret": "Un garant public paie le loyer en cas d'impayé, pour que les jeunes trouvent plus facilement un logement ; de nouvelles résidences étudiantes sont bâties.",
+   "quiz_plus": "Une caution gratuite fait signer des baux : 8 sur 10 ne l'auraient pas été sans elle, selon une évaluation.",
+   "quiz_moins": "Les loyers impayés avancés pour les jeunes sont peu remboursés : 15 % seulement.",
+   "quiz_preuve_pour": "mitigé",
+   "quiz_preuve_contre": "solide",
+   "quiz_cas_pour": [
+    {
+     "t": "En 2023, 318 000 baux couverts par la caution gratuite Visale, 8 % des locations de l'année ; 79 % n'auraient pas été signés sans elle selon une évaluation de 2020 (Cour des comptes, France, 2025).",
+     "s": [
+      0
+     ]
+    }
+   ],
+   "quiz_cas_contre": [
+    {
+     "t": "Caution Visale : impayés sur 6 % des contrats des jeunes, et 14,9 % seulement des sommes avancées récupérées (Cour des comptes, France, 2025).",
+     "s": [
+      0
+     ]
+    }
+   ],
+   "quiz_etudes": "Une évaluation (2020) attribue à la caution Visale la plupart des baux qu'elle couvre ; certains bailleurs la refusent ; son évaluation complète était attendue en 2024.",
+   "quiz_src": [
+    {
+     "l": "Cour des comptes, Rapport public annuel 2025, « L'accès des jeunes au logement »",
+     "a": 2025,
+     "u": "https://www.ccomptes.fr/sites/default/files/2025-03/20250319-RPA2025-volume1-acces-des-jeunes-au-logement.pdf"
+    }
+   ],
+   "quiz_fam": "attal.logement.2"
+  },
+  {
+   "c": "attal",
+   "id": "ecole.4",
+   "life": true,
+   "theme": "ecole",
+   "title": "Évaluer les licences et masters tous les trois ans et fermer les filières aux moins bons résultats",
+   "quiz_text": "Évaluer les licences et masters tous les trois ans et fermer les filières aux moins bons résultats",
+   "quiz_concret": "Les formations où beaucoup d'étudiants abandonnent ou trouvent mal un emploi seraient réorientées ou fermées.",
+   "quiz_plus": "Après la 1re année de licence, plus d'un néo-bachelier sur quatre change de formation ou quitte le supérieur.",
+   "quiz_moins": "La réussite dépend d'abord du profil d'entrée : 70 % avec mention très bien au bac, 7 % après un bac pro.",
+   "quiz_preuve_pour": "pas d'étude",
+   "quiz_preuve_contre": "solide",
+   "quiz_cas_pour": [],
+   "quiz_cas_contre": [],
+   "quiz_etudes": "Pas d'évaluation en France de la fermeture de formations selon leurs résultats ; les taux de réussite par université corrigés du profil des étudiants, déjà publiés, ne disent pas d'où viennent les écarts (SIES).",
+   "quiz_src": [
+    {
+     "l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
+     "a": 2025,
+     "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-29-38293.pdf"
+    }
+   ],
+   "quiz_constat": {
+    "t": "Licence obtenue en 3 ou 4 ans : 40,3 % des bacheliers 2020 inscrits en L1, −14 % en deux promotions (SIES).",
+    "s": [
+     0
+    ]
+   },
+   "quiz_fam": "attal.ecole.4"
   }
  ]
 }
