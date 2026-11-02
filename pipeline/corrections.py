@@ -107,6 +107,10 @@ C['melenchon']['sim']['extra_min']=4000
 for c0 in D['candidates']:
     if c0['id']=='le-pen': c0['poll']='32-33,5 %'
 D['statu_quo']['smic_url']="https://www.legisocial.fr/reperes-sociaux/montant-smic-2026-taux-horaire-net-brut.html"
+# salaire net moyen de référence, valeur commune lue par le simulateur et par les répartitions au prorata plus bas : placée ici, avant ses
+# usages (registre S206, 02/11/2026) ; Insee Première n° 2132 (22/10/2026), secteur privé, 2025, en EQTP, au lieu de 2 733 € (2024, relais)
+assert D['statu_quo']['salaire_moyen']==2733
+D['statu_quo'].update(salaire_moyen=2797,salaire_moyen_url="https://www.insee.fr/fr/statistiques/9087193")
 # nouvelle mesure annoncée le 8 octobre 2026
 if not any(m['id']=='jeunes_parents' for m in C['philippe']['measures']):
     C['philippe']['measures'].append({"id":"jeunes_parents","theme":"fiscalite","title":"Zéro impôt pour les jeunes parents","proposal":"Pas d'impôt sur le revenu pendant 3 ans pour les jeunes parents des classes moyennes.","claimed":"3 Md€/an","claimed_md":-3,
