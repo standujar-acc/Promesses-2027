@@ -12810,7 +12810,7 @@
     "smic_net": null,
     "salaire_net": {
      "gain_mensuel": 46.4,
-     "ref": 2733,
+     "ref": 2797,
      "prorata": true,
      "sans_plafond": true,
      "public": "salariés",
@@ -15005,8 +15005,8 @@
     },
     "smic_net": null,
     "salaire_net": {
-     "gain_mensuel": 89.5,
-     "ref": 2733,
+     "gain_mensuel": 91.6,
+     "ref": 2797,
      "prorata": true,
      "sans_plafond": true,
      "independants": true,
@@ -17171,8 +17171,8 @@
    "plafond_demi_part": 1807,
    "plafond_parent_isole": 4262
   },
-  "salaire_moyen": 2733,
-  "salaire_moyen_url": "https://www.lafinancepourtous.com/2025/11/10/le-salaire-moyen-est-de-2-733-e-en-france-en-2024/",
+  "salaire_moyen": 2797,
+  "salaire_moyen_url": "https://www.insee.fr/fr/statistiques/9087193",
   "cfe_url": "https://moicombien.fr/blog/cfe-entreprise-2026-calcul-exoneration-base-minimum",
   "carence_public": 1,
   "carence_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13861",
@@ -17194,6 +17194,10 @@
   "2027-05-02"
  ],
  "changelog": [
+  {
+   "date": "02/11/2026",
+   "text": "Repères « où en est la France » alignés sur les derniers chiffres officiels, comme les constats du quiz : prisons au 1er octobre 2026 (90 937 détenus, +33 % depuis octobre 2016 ; occupation 143,3 %, contre 117,2 %) et logements mis en chantier sur la série révisée du SDES (262 000 en 2025, −29 % depuis 2016 ; autorisés −19 %). Simulateur : salaire moyen de référence porté à 2 797 € net (Insee, salaires du secteur privé en 2025, publié le 22/10), la même valeur pour tous les candidats."
+  },
   {
    "date": "02/11/2026",
    "text": "Sondages : moyenne au 2/11, inchangée (5 instituts ; aucune nouvelle enquête publiée)."
@@ -21758,11 +21762,11 @@
    },
    {
     "label": "Personnes détenues en prison",
-    "value": "+32 %",
-    "trend": "de sept. 2016 à sept. 2026 ; 90 020 détenus ; densité 142 % (116 % en 2016)",
+    "value": "+33 %",
+    "trend": "d'oct. 2016 à oct. 2026 ; 90 937 détenus ; densité 143 % (117 % en 2016)",
     "year": 2026,
     "source": "Ministère de la Justice (DGAP)",
-    "url": "https://www.justice.gouv.fr/sites/default/files/2026-10/statistique_etablissements_personnes_ecrouees_01092026.pdf"
+    "url": "https://www.justice.gouv.fr/sites/default/files/2026-11/mesure_mensuelle_01102026.pdf"
    },
    {
     "label": "Étrangers parmi les mis en cause, selon l'infraction",
@@ -22000,10 +22004,10 @@
    {
     "label": "Logements mis en chantier",
     "value": "−29 %",
-    "trend": "de 2016 à 2025 ; 263 000 en 2025 ; logements autorisés : −19 %",
+    "trend": "de 2016 à 2025 ; 262 000 en 2025 ; logements autorisés : −19 %",
     "year": 2025,
     "source": "SDES (service statistique du ministère chargé du Logement), base Sitadel",
-    "url": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere",
+    "url": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere",
     "note": "Données estimées en date réelle, révisées chaque mois ; le passage à Sitadel3 en mars 2026 « a conduit à réviser légèrement les données publiées »."
    },
    {
@@ -22125,11 +22129,11 @@
    },
    {
     "label": "Taux d'occupation des prisons (densité carcérale)",
-    "value": "142,1 %",
-    "trend": "au 1/9/2026 ; 116,5 % en sept. 2016 ; 8 347 matelas au sol",
+    "value": "143,3 %",
+    "trend": "au 1/10/2026 ; 117,2 % en oct. 2016 ; 8 959 matelas au sol",
     "year": 2026,
     "source": "Ministère de la Justice (statistique pénitentiaire)",
-    "url": "https://www.justice.gouv.fr/sites/default/files/2026-10/mesure_mensuelle_01092026.pdf"
+    "url": "https://www.justice.gouv.fr/sites/default/files/2026-11/mesure_mensuelle_01102026.pdf"
    },
    {
     "label": "Inscrits n'ayant voté à aucun tour (présid. et législ.)",
