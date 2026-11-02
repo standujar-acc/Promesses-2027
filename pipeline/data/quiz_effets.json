@@ -446,6 +446,10 @@
 ]
 },
 "attal.travail": {
+"constat": "Heures supplémentaires : 16,5 h par salarié à temps complet au 2e trimestre 2026, +0,6 % en un an (Dares).",
+"constat_s": [
+1
+],
 "pour": "Par accord, une entreprise peut déjà fixer un seuil plus haut : la règle pèse surtout sur celles sans accord.",
 "preuve_pour": "pas d'étude",
 "contre": "Au-delà du seuil, chaque heure sup donne droit à 30 à 60 minutes de repos en plus : ce droit disparaîtrait.",
@@ -458,6 +462,11 @@
 "l": "Service-public.gouv.fr, Heures supplémentaires d'un salarié du secteur privé (contingent annuel et contrepartie en repos)",
 "a": 2026,
 "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"
+},
+{
+"l": "Dares, Les heures supplémentaires, données trimestrielles (9/10/2026)",
+"a": 2026,
+"u": "https://dares.travail-emploi.gouv.fr/donnees/les-heures-supplementaires"
 }
 ]
 },
@@ -585,9 +594,9 @@
 "u": "https://www.insee.fr/fr/statistiques/7658358"
 },
 {
-"l": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+"l": "DEPP, document de travail n° 2026-E18, effets à long terme des classes réduites en éducation prioritaire, trois premières cohortes (p. 14)",
 "a": 2026,
-"u": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+"u": "https://archives-statistiques-depp.education.gouv.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=57771&documentId=57772&skipWatermark=true&skipCopyright=true"
 },
 {
 "l": "OCDE, Regards sur l'éducation 2025 (via L'Etudiant / Educpros)",
@@ -4383,9 +4392,10 @@
 ]
 },
 "le-pen.logement.2": {
-"constat": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
+"constat": "Logements mis en chantier : 262 000 en 2025, −29 % depuis 2016 ; +25 % sur un an à fin septembre 2026 (SDES).",
 "constat_s": [
-7
+7,
+8
 ],
 "pour": "Le quota change peu la mixité, et limiter les terrains à bâtir fait monter les prix.",
 "preuve_pour": "mitigé",
@@ -4470,9 +4480,14 @@
 "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
 },
 {
-"l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+"l": "SDES, Construction de logements : résultats à fin septembre 2026 (France entière)",
 "a": 2026,
-"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
+"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere"
+},
+{
+"l": "SDES, DiDo, « Logements autorisés et commencés, nombre et surfaces, séries mensuelles (données estimées) », millésime 2026-10",
+"a": 2026,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513eed03b05e5cd969c2710"
 }
 ]
 },
@@ -4659,9 +4674,10 @@
 "complement_ref": [
 "retailleau.logement.2"
 ],
-"constat": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
+"constat": "Logements mis en chantier : 262 000 en 2025, −29 % depuis 2016 ; +25 % sur un an à fin septembre 2026 (SDES).",
 "constat_s": [
-2
+2,
+3
 ],
 "pour": "Construire davantage de logements augmente l'offre et freine la hausse des loyers.",
 "preuve_pour": "solide",
@@ -4696,9 +4712,14 @@
 "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
 },
 {
-"l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+"l": "SDES, Construction de logements : résultats à fin septembre 2026 (France entière)",
 "a": 2026,
-"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
+"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere"
+},
+{
+"l": "SDES, DiDo, « Logements autorisés et commencés, nombre et surfaces, séries mensuelles (données estimées) », millésime 2026-10",
+"a": 2026,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513eed03b05e5cd969c2710"
 }
 ]
 },
@@ -4763,9 +4784,10 @@
 "complement_ref": [
 "retailleau.logement.1"
 ],
-"constat": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
+"constat": "Logements mis en chantier : 262 000 en 2025, −29 % depuis 2016 ; +25 % sur un an à fin septembre 2026 (SDES).",
 "constat_s": [
-6
+6,
+7
 ],
 "pour": "Plafonner les loyers et limiter les terrains découragent de louer et de construire.",
 "preuve_pour": "mitigé",
@@ -4839,9 +4861,14 @@
 "u": "https://assets.publishing.service.gov.uk/media/5a79bbbced915d042206aa45/1558850.pdf"
 },
 {
-"l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+"l": "SDES, Construction de logements : résultats à fin septembre 2026 (France entière)",
 "a": 2026,
-"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
+"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere"
+},
+{
+"l": "SDES, DiDo, « Logements autorisés et commencés, nombre et surfaces, séries mensuelles (données estimées) », millésime 2026-10",
+"a": 2026,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513eed03b05e5cd969c2710"
 }
 ]
 },
@@ -4883,9 +4910,10 @@
 ]
 },
 "lisnard.logement.1": {
-"constat": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
+"constat": "Logements mis en chantier : 262 000 en 2025, −29 % depuis 2016 ; +25 % sur un an à fin septembre 2026 (SDES).",
 "constat_s": [
-4
+4,
+5
 ],
 "pour": "Imposer un quota change peu la part de ménages modestes dans les communes visées.",
 "preuve_pour": "solide",
@@ -4942,16 +4970,22 @@
 "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
 },
 {
-"l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+"l": "SDES, Construction de logements : résultats à fin septembre 2026 (France entière)",
 "a": 2026,
-"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
+"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere"
+},
+{
+"l": "SDES, DiDo, « Logements autorisés et commencés, nombre et surfaces, séries mensuelles (données estimées) », millésime 2026-10",
+"a": 2026,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513eed03b05e5cd969c2710"
 }
 ]
 },
 "lisnard.logement.2": {
-"constat": "Logements mis en chantier : 263 000 en 2025, −29 % depuis 2016 ; +20 % sur un an à fin août 2026 (SDES).",
+"constat": "Logements mis en chantier : 262 000 en 2025, −29 % depuis 2016 ; +25 % sur un an à fin septembre 2026 (SDES).",
 "constat_s": [
-4
+4,
+5
 ],
 "pour": "Limiter les terrains à bâtir rend le foncier plus rare et fait monter le prix des logements.",
 "preuve_pour": "mitigé",
@@ -4997,9 +5031,14 @@
 "u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
 },
 {
-"l": "SDES, Construction de logements : résultats à fin août 2026 (France entière)",
+"l": "SDES, Construction de logements : résultats à fin septembre 2026 (France entière)",
 "a": 2026,
-"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-aout-2026-france-entiere"
+"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere"
+},
+{
+"l": "SDES, DiDo, « Logements autorisés et commencés, nombre et surfaces, séries mensuelles (données estimées) », millésime 2026-10",
+"a": 2026,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513eed03b05e5cd969c2710"
 }
 ]
 },
@@ -5372,9 +5411,9 @@
 "u": "https://media.education.gouv.fr/file/48/4/2484.pdf"
 },
 {
-"l": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+"l": "DEPP, document de travail n° 2026-E18, effets à long terme des classes réduites en éducation prioritaire, trois premières cohortes (p. 14)",
 "a": 2026,
-"u": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+"u": "https://archives-statistiques-depp.education.gouv.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=57771&documentId=57772&skipWatermark=true&skipCopyright=true"
 },
 {
 "l": "DEPP, Repères et références statistiques 2026, chapitre 2 (les établissements)",
@@ -7211,7 +7250,7 @@
 ]
 },
 "le-pen.prisons": {
-"constat": "Détenus : 90 020 au 1er septembre 2026 (+6,8 % en un an) pour 63 348 places, soit 142 % d'occupation (Justice).",
+"constat": "Détenus : 90 937 au 1er octobre 2026 (+7,2 % en un an) pour 63 452 places, soit 143 % d'occupation (Justice).",
 "constat_s": [
 3
 ],
@@ -7265,9 +7304,9 @@
 "u": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
 },
 {
-"l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er septembre 2026",
+"l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er octobre 2026",
 "a": 2026,
-"u": "https://www.justice.gouv.fr/sites/default/files/2026-10/mesure_mensuelle_01092026.pdf"
+"u": "https://www.justice.gouv.fr/sites/default/files/2026-11/mesure_mensuelle_01102026.pdf"
 }
 ]
 },
@@ -8878,7 +8917,7 @@
 ]
 },
 "lisnard.prisons": {
-"constat": "Détenus : 90 020 au 1er septembre 2026 (+6,8 % en un an) pour 63 348 places, soit 142 % d'occupation (Justice).",
+"constat": "Détenus : 90 937 au 1er octobre 2026 (+7,2 % en un an) pour 63 452 places, soit 143 % d'occupation (Justice).",
 "constat_s": [
 3
 ],
@@ -8932,14 +8971,14 @@
 "u": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
 },
 {
-"l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er septembre 2026",
+"l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er octobre 2026",
 "a": 2026,
-"u": "https://www.justice.gouv.fr/sites/default/files/2026-10/mesure_mensuelle_01092026.pdf"
+"u": "https://www.justice.gouv.fr/sites/default/files/2026-11/mesure_mensuelle_01102026.pdf"
 }
 ]
 },
 "zemmour.prisons": {
-"constat": "Détenus : 90 020 au 1er septembre 2026 (+6,8 % en un an) pour 63 348 places, soit 142 % d'occupation (Justice).",
+"constat": "Détenus : 90 937 au 1er octobre 2026 (+7,2 % en un an) pour 63 452 places, soit 143 % d'occupation (Justice).",
 "constat_s": [
 3
 ],
@@ -8993,9 +9032,9 @@
 "u": "https://chicagounbound.uchicago.edu/jle/vol59/iss3/6/"
 },
 {
-"l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er septembre 2026",
+"l": "Ministère de la Justice, Mesure de l'incarcération, indicateurs clés au 1er octobre 2026",
 "a": 2026,
-"u": "https://www.justice.gouv.fr/sites/default/files/2026-10/mesure_mensuelle_01092026.pdf"
+"u": "https://www.justice.gouv.fr/sites/default/files/2026-11/mesure_mensuelle_01102026.pdf"
 }
 ]
 },
@@ -9289,9 +9328,9 @@
 "u": "https://ideas.repec.org/a/bla/scandj/v110y2008i4p663-693.html"
 },
 {
-"l": "DEPP, effets à long terme des classes réduites (cohortes 2023-2024), via professeurs-des-ecoles.com",
+"l": "DEPP, document de travail n° 2026-E18, effets à long terme des classes réduites en éducation prioritaire, trois premières cohortes (p. 14)",
 "a": 2026,
-"u": "https://www.professeurs-des-ecoles.com/2026/10/14/classes-reduites-en-rep-un-effet-positif-en-maths-encore-visible-en-6e-selon-la-depp/"
+"u": "https://archives-statistiques-depp.education.gouv.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=57771&documentId=57772&skipWatermark=true&skipCopyright=true"
 },
 {
 "l": "DEPP, Repères et références statistiques 2026, chapitre 2 (les établissements)",
@@ -9599,6 +9638,265 @@
 "l": "Heinemann, Moessinger, Yeter, règles budgétaires : méta-analyse de 30 études (ZEW DP 16-027)",
 "a": 2016,
 "u": "https://www.zew.de/PU77836"
+}
+]
+},
+"glucksmann.economie.1": {
+"constat": "Régularisations (admissions exceptionnelles au séjour) : 28 610 en 2025, −10 % sur un an (DGEF).",
+"constat_s": [
+0
+],
+"pour": "Régulariser par le travail a rapporté 4 000 € de cotisations par personne et par an, sans afflux mesuré.",
+"preuve_pour": "mitigé",
+"contre": "Une partie des régularisés est retournée ensuite au travail non déclaré.",
+"preuve_contre": "faible",
+"cas_pour": [
+{
+"t": "Après la régularisation de près de 600 000 travailleurs avec contrat en 2005, les cotisations ont augmenté d'au moins 4 000 € par régularisé et par an, sans hausse mesurée de l'immigration (Elias, Monras et Vázquez-Grenno, Espagne, 2025).",
+"s": [
+1
+]
+},
+{
+"t": "Les immigrés régularisés ont commis moins de délits : −0,6 point, pour un taux de départ de 1,1 % (Pinotti, Italie, 2017).",
+"s": [
+2
+]
+}
+],
+"cas_contre": [
+{
+"t": "Après la régularisation de 2005, tous les régularisés ne sont pas restés dans l'emploi déclaré : une partie est retournée au travail non déclaré (Elias, Monras et Vázquez-Grenno, Espagne, 2025).",
+"s": [
+1
+]
+}
+],
+"etudes": "Une étude en Espagne (régularisation de 2005 liée à un contrat de travail) : plus de cotisations, pas d'afflux d'immigration mesuré, retour partiel au travail non déclaré ; une en Italie : moins de délits chez les régularisés. Pas d'évaluation en France.",
+"src": [
+{
+"l": "DGEF, statistiques annuelles de l'immigration 2025 (27/01/2026), via InfoMigrants (France Médias Monde)",
+"a": 2026,
+"u": "https://www.infomigrants.net/fr/post/69470/immigration-en-france--les-expulsions-en-hausse-de-15--en-2025-les-regularisations-en-baisse"
+},
+{
+"l": "Elias, Monras, Vázquez-Grenno, titres de travail accordés aux sans-papiers en Espagne en 2005 (Journal of Labor Economics ; présentation de l'université de Barcelone)",
+"a": 2025,
+"u": "https://www.ub.edu/school-economics/news/understanding-the-effects-of-granting-work-permits-to-undocumented-immigrants/"
+},
+{
+"l": "Pinotti, régularisation des immigrés et délinquance en Italie (American Economic Review ; présentation de l'université Bocconi)",
+"a": 2017,
+"u": "https://clean.unibocconi.eu/research/criminal-and-illegal-behavior/clicking-on-heaven-door.-the-effect-of-immigrant-legalization-on-crime"
+}
+]
+},
+"le-pen.economie.1": {
+"constat": "Régularisations (admissions exceptionnelles au séjour) : 28 610 en 2025, −10 % sur un an (DGEF).",
+"constat_s": [
+0
+],
+"pour": "Une partie des régularisés est retournée ensuite au travail non déclaré.",
+"preuve_pour": "faible",
+"contre": "Régulariser par le travail a rapporté 4 000 € de cotisations par personne et par an, sans afflux mesuré.",
+"preuve_contre": "mitigé",
+"cas_pour": [
+{
+"t": "Après la régularisation de 2005, tous les régularisés ne sont pas restés dans l'emploi déclaré : une partie est retournée au travail non déclaré (Elias, Monras et Vázquez-Grenno, Espagne, 2025).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Après la régularisation de près de 600 000 travailleurs avec contrat en 2005, les cotisations ont augmenté d'au moins 4 000 € par régularisé et par an, sans hausse mesurée de l'immigration (Elias, Monras et Vázquez-Grenno, Espagne, 2025).",
+"s": [
+1
+]
+},
+{
+"t": "Les immigrés régularisés ont commis moins de délits : −0,6 point, pour un taux de départ de 1,1 % (Pinotti, Italie, 2017).",
+"s": [
+2
+]
+}
+],
+"etudes": "Une étude en Espagne (régularisation de 2005 liée à un contrat de travail) : plus de cotisations, pas d'afflux d'immigration mesuré, retour partiel au travail non déclaré ; une en Italie : moins de délits chez les régularisés. Pas d'évaluation en France.",
+"src": [
+{
+"l": "DGEF, statistiques annuelles de l'immigration 2025 (27/01/2026), via InfoMigrants (France Médias Monde)",
+"a": 2026,
+"u": "https://www.infomigrants.net/fr/post/69470/immigration-en-france--les-expulsions-en-hausse-de-15--en-2025-les-regularisations-en-baisse"
+},
+{
+"l": "Elias, Monras, Vázquez-Grenno, titres de travail accordés aux sans-papiers en Espagne en 2005 (Journal of Labor Economics ; présentation de l'université de Barcelone)",
+"a": 2025,
+"u": "https://www.ub.edu/school-economics/news/understanding-the-effects-of-granting-work-permits-to-undocumented-immigrants/"
+},
+{
+"l": "Pinotti, régularisation des immigrés et délinquance en Italie (American Economic Review ; présentation de l'université Bocconi)",
+"a": 2017,
+"u": "https://clean.unibocconi.eu/research/criminal-and-illegal-behavior/clicking-on-heaven-door.-the-effect-of-immigrant-legalization-on-crime"
+}
+]
+},
+"retailleau.logement.4": {
+"constat": "Passoires énergétiques : 12,7 % des résidences principales au 1/1/2025 (15,7 % en 2023), baisse en partie due au calcul (SDES).",
+"constat_s": [
+1
+],
+"pour": "Les passoires consomment bien moins qu'affiché : écart réel avec les logements sobres six fois plus faible.",
+"preuve_pour": "mitigé",
+"contre": "1,1 million de logements du parc locatif privé sont des passoires énergétiques : 13,8 % de ce parc.",
+"preuve_contre": "pas d'étude",
+"cas_pour": [
+{
+"t": "Consommation d'énergie par m² : +86 % entre logements classés A-B et G, contre +560 % selon le DPE (CAE, France, 2024).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [],
+"etudes": "Aucune mesure de l'effet des interdictions de louer : l'administration n'a pas les données pour chiffrer un assouplissement (2026) ; le DPE surestime les écarts de consommation réelle.",
+"src": [
+{
+"l": "Astier, Salem, Fack, Fournel, Maisonneuve, Performance énergétique du logement et consommation d'énergie : les enseignements des données bancaires (CAE, Focus n° 103)",
+"a": 2024,
+"u": "https://cae-eco.fr/static/pdf/focus-103-dpe-230110.pdf"
+},
+{
+"l": "SDES, Le parc de logements par classe de performance énergétique au 1er janvier 2025",
+"a": 2025,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025"
+},
+{
+"l": "Sénat, étude d'impact du projet de loi visant la relance et la décentralisation du logement (n° 801), article 6",
+"a": 2026,
+"u": "https://www.senat.fr/leg/etudes-impact/pjl25-801-ei/pjl25-801-ei.pdf"
+}
+]
+},
+"attal.logement.2": {
+"pour": "Une caution gratuite fait signer des baux : 8 sur 10 ne l'auraient pas été sans elle, selon une évaluation.",
+"preuve_pour": "mitigé",
+"contre": "Les loyers impayés avancés pour les jeunes sont peu remboursés : 15 % seulement.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "En 2023, 318 000 baux couverts par la caution gratuite Visale, 8 % des locations de l'année ; 79 % n'auraient pas été signés sans elle selon une évaluation de 2020 (Cour des comptes, France, 2025).",
+"s": [
+0
+]
+}
+],
+"cas_contre": [
+{
+"t": "Caution Visale : impayés sur 6 % des contrats des jeunes, et 14,9 % seulement des sommes avancées récupérées (Cour des comptes, France, 2025).",
+"s": [
+0
+]
+}
+],
+"etudes": "Une évaluation (2020) attribue à la caution Visale la plupart des baux qu'elle couvre ; certains bailleurs la refusent ; son évaluation complète était attendue en 2024.",
+"src": [
+{
+"l": "Cour des comptes, Rapport public annuel 2025, « L'accès des jeunes au logement »",
+"a": 2025,
+"u": "https://www.ccomptes.fr/sites/default/files/2025-03/20250319-RPA2025-volume1-acces-des-jeunes-au-logement.pdf"
+}
+]
+},
+"attal.ecole.4": {
+"constat": "Licence obtenue en 3 ou 4 ans : 40,3 % des bacheliers 2020 inscrits en L1, −14 % en deux promotions (SIES).",
+"constat_s": [
+0
+],
+"pour": "Après la 1re année de licence, plus d'un néo-bachelier sur quatre change de formation ou quitte le supérieur.",
+"preuve_pour": "pas d'étude",
+"contre": "La réussite dépend d'abord du profil d'entrée : 70 % avec mention très bien au bac, 7 % après un bac pro.",
+"preuve_contre": "solide",
+"cas_pour": [],
+"cas_contre": [],
+"etudes": "Pas d'évaluation en France de la fermeture de formations selon leurs résultats ; les taux de réussite par université corrigés du profil des étudiants, déjà publiés, ne disent pas d'où viennent les écarts (SIES).",
+"src": [
+{
+"l": "SIES, Note Flash n° 29, Parcours et réussite en licence : les résultats de la session 2024",
+"a": 2025,
+"u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-29-38293.pdf"
+}
+]
+},
+"retailleau.logement.5": {
+"constat": "Logements mis en chantier : 262 000 en 2025, −29 % depuis 2016 ; +25 % sur un an à fin septembre 2026 (SDES).",
+"constat_s": [
+4,
+5
+],
+"pour": "Imposer un quota change peu la part de ménages modestes dans les communes visées.",
+"preuve_pour": "solide",
+"contre": "Sans quota par commune, celles qui en ont peu construiraient moins de logements sociaux.",
+"preuve_contre": "solide",
+"cas_pour": [
+{
+"t": "Le quota a fait monter la part de logements sociaux des communes visées, mais à peine celle des ménages pauvres qui y vivent (Chapelle et al., France, 2025).",
+"s": [
+0
+]
+},
+{
+"t": "Les logements sociaux sont mieux répartis, mais les 20 % de ménages les plus modestes restent aussi concentrés par quartier depuis 2012 (France Stratégie, France, 2021).",
+"s": [
+1
+]
+}
+],
+"cas_contre": [
+{
+"t": "Le quota explique 61 % de la hausse du nombre de logements sociaux dans les communes visées entre 2000 et 2008 (Chapelle et al., France, 2025).",
+"s": [
+0
+]
+},
+{
+"t": "De 1999 à 2011, le parc social a crû de 12,7 % dans les communes en retard sur le quota, contre 6 % dans les communes non concernées (CGDD, France, 2014).",
+"s": [
+2
+]
+}
+],
+"etudes": "Les évaluations concordent : le quota a nettement accru le logement social dans les communes visées, mais a peu changé la place des ménages modestes.",
+"src": [
+{
+"l": "Chapelle, Gobillon, Vignolles, Building without income mixing: Public housing quotas in France (PSE, document de travail 2025-18)",
+"a": 2025,
+"u": "https://shs.hal.science/halshs-05039367/file/WP_2025-18_.pdf"
+},
+{
+"l": "France Stratégie, La meilleure répartition des logements sociaux a-t-elle fait progresser la mixité sociale ? (via Banque des Territoires)",
+"a": 2021,
+"u": "https://www.banquedesterritoires.fr/des-logements-sociaux-mieux-repartis-sur-le-territoire-mais-sans-effet-sur-la-mixite-sociale"
+},
+{
+"l": "CGDD, Le Point sur n° 195, les dynamiques locales du logement social 1999-2011 : l'effet de la loi SRU (via Banque des Territoires)",
+"a": 2014,
+"u": "https://www.banquedesterritoires.fr/la-loi-sru-ca-sert-creer-du-logement-social"
+},
+{
+"l": "Cour des comptes, L'encadrement des loyers",
+"a": 2026,
+"u": "https://www.ccomptes.fr/sites/default/files/2026-10/20261014-Encadrement-des-loyers.pdf"
+},
+{
+"l": "SDES, Construction de logements : résultats à fin septembre 2026 (France entière)",
+"a": 2026,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-septembre-2026-france-entiere"
+},
+{
+"l": "SDES, DiDo, « Logements autorisés et commencés, nombre et surfaces, séries mensuelles (données estimées) », millésime 2026-10",
+"a": 2026,
+"u": "https://www.statistiques.developpement-durable.gouv.fr/catalogue?page=dataset&datasetId=6513eed03b05e5cd969c2710"
 }
 ]
 }

@@ -972,7 +972,11 @@ function sim(){
     }
     if((st==='prive'||st==='public') && s.smic_net && sal>0 && sal < s.smic_net){ const v = sal < SQ.smic_net ? sal*(s.smic_net/SQ.smic_net-1) : s.smic_net-sal; if(v>0) add('SMIC', sal < SQ.smic_net ? `SMIC net porté à ${eur(s.smic_net,false)} (hausse au prorata de votre temps partiel)` : `SMIC net porté à ${eur(s.smic_net,false)}`, v); }
     const sn=s.salaire_net;
-    if(sn && sn.gain_mensuel && (worker||(st==='independant'&&sn.independants)) && (!sn.max||sal<=sn.max) && sal>0){
+    // montants publiés en quelques points du salaire (points : [[salaire net, gain mensuel]…]) : au prorata sous le 1er point, interpolation entre deux points, rien au-delà du dernier (barème non publié)
+    if(sn && sn.points && worker && sal>0){ const p=sn.points;
+      if(sal>p[p.length-1][0]) notes.push(sn.au_dela);
+      else { let v=p[0][1]*Math.min(sal,p[0][0])/p[0][0]; for(let i=1;i<p.length;i++) if(sal>p[i-1][0]) v=p[i-1][1]+(p[i][1]-p[i-1][1])*(Math.min(sal,p[i][0])-p[i-1][0])/(p[i][0]-p[i-1][0]); add('Revenu net', esc(sn.note), v); } }
+    else if(sn && sn.gain_mensuel &&(worker||(st==='independant'&&sn.independants)) && (!sn.max||sal<=sn.max) && sal>0){
       const promised = sn.prorata?sn.gain_mensuel*sal/sn.ref:sn.gain_mensuel;
       if(sn.promised_md && sn.measure){ const mm=c.measures.find(z=>z.id===sn.measure), ratio=mm&&has(mm)?Math.min(1,Math.abs(mm.claude.central)/sn.promised_md):1;
         add('Revenu net', `${esc(sn.note)}. Promesse du camp : ${eur(sn.gain_mensuel)}/mois pour ${eur(sn.ref,false)}${sal!==sn.ref?`, soit ${eur(promised)} pour vous au prorata (notre extrapolation)`:''}. Seule la part financée par des économies identifiées est comptée : ${Math.round(ratio*100)} %`, promised*ratio); }
