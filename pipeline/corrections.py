@@ -1750,6 +1750,117 @@ t['missing']=t['missing'].replace(', à confirmer en 2026 :',", "+SRU_NC+", à c
 t=C['zemmour']['claude_total']; assert 'SRU' not in t['missing']; t['missing']+=", "+SRU_NC+" (programme de 2022, non reconfirmée)"
 D['asof']='2 novembre 2026'
 
+# --- review 39 : revue du 3/11 (03/11/2026) ; registre S148, S155, S176 à S178
+# Décisions du porteur du 3/11, même règle pour les 8 ; chaque source rouverte le 3/11.
+# (1) S176, Mélenchon, taxe sur les transactions financières : taux de 0,4 % en vigueur depuis le 1/04/2025 (Cour des comptes, rapport délibéré
+# le 18/05/2026, p. 24 ; PLF 2026, Voies et moyens, p. 37) : droit en vigueur = situation de départ. Le chiffrage de l'Institut Montaigne (3,0,
+# droit de 2024, taux de 0,3 %) comprend la hausse à « au moins 0,4 % » du programme de 2022 : elle est retirée, mesurée sur la même année que le
+# chiffrage (rendement officiel de 2023, 1 605 M€, Cour p. 34) : 1,605 × 0,1/0,3 ≈ 0,5 → +2,5 (bornes +1,2 / +5,0). Aucun autre candidat n'a de
+# mesure sur cette taxe.
+# (2) S177, Le Pen, impôt sur le revenu des moins de 30 ans : la valeur de 0,7 Md€ ne figure que sur la carte de la fiche PDF de synthèse et égale
+# celle de la carte voisine (impôt sur les sociétés des entreprises créées par un moins de 30 ans) ; la page de synthèse du même travail donne 3,7,
+# comme le calcul de 2022 qu'elle reprend : seul chiffrage indépendant confirmé → −3,7 (bornes −3,7 / −2,0, chiffre du camp hors médiane).
+# (3) S148, agences nommées, la même règle chez les 8 (méthode et CLAUDE.md) : missions reprises (par l'État, une autre structure, ou imposées
+# par le droit) → valeur commune de 0,26 si le plan vise la plupart des agences, sinon 0 ; mission qui disparaît → part publique de son budget
+# officiel (hors part payée hors budget, dispositifs exclus par la mesure ou déjà comptés ailleurs ; restes à payer non économisés) ; une ligne de
+# 1 Md€ ou plus d'un budget publié donne une fiche, comptée sur le budget officiel. Zemmour, Ademe (ligne 9, 3,4 Md€, « hors dispositifs de soutien
+# aux renouvelables déjà comptabilisés à la ligne 6 ») : +0,4 (bornes +0,3 / +0,4), Fonds chaleur exclu (la fiche « enr » ne compte que
+# l'électricité : compté nulle part, pas de double compte). ARS et autres agences nommées (Zemmour), OFB (Retailleau, « à effectifs transférés »),
+# ARS, DREAL et DDTM (Lisnard) : missions reprises, 0.
+# (4) S178 : revenu familial de Retailleau et allocation de Philippe, notes indicatives sur les mêmes effectifs (Insee : 13,855 M de mineurs au
+# 1/01/2026 ; familles selon le nombre d'enfants mineurs, recensement de 2023) ; mesures non chiffrables, hors total.
+# (5) S151 : Le Pen, TVA sur l'énergie : le bois, visé par la ligne du contre-budget 2027, ajouté au texte ; chiffrage inchangé.
+# (6) S155 : simulateur, impôt sur le revenu sur tous les gains de salaire, au barème du simulateur (template.html) ; ici, la part imposable des
+# gains dus à une baisse de prélèvement (cotisations : 1 ; CSG non précisée : 6,8/9,2 ; Lisnard, CSG et CRDS rendues déductibles : 1).
+# (7) Attal, « droit au brut » (site du candidat, depuis juillet 2026) : 250 € nets de plus par mois au salaire médian (2 238 €, Insee), même règle
+# que Glucksmann le 2/11 (au prorata sous le point publié, rien au-delà, avec une note) ; la mesure reste hors total (barème et coût non publiés).
+# (8) Veille : Retailleau, prêt à taux zéro pour tous les primo-accédants listé « non compté », comme celui de Le Pen ; (9) Le Pen, hausse de 10 %
+# exonérée « jusqu'à 3 fois le SMIC » (porte-parole de campagne, BFMTV 2/11) précisée dans la liste « non compté » (la note du simulateur le dit déjà).
+CC_TTF="https://www.ccomptes.fr/sites/default/files/2026-09/20260910_Taxe-sur-les-transactions-financieres.pdf"
+VM26="https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1087930/file/PLF%202026%20-%20V%26M%20TI%20-%20Evaluations%20des%20recettes.pdf"
+k=M('melenchon','ttf')['claude']; assert (k['central'],k['low'],k['high'])==(3.0,1.5,5.0)
+SET('melenchon','ttf',2.5,1.2,5.0,"Institut Montaigne (2024, même mesure du programme NFP) : 3,0 Md€ retenus dans la synthèse, calculés sur le droit de 2024 (taux de 0,3 %) avec la hausse du taux « pour atteindre au moins 0,4 % » du programme de 2022 ; ce taux est en vigueur depuis le 1er avril 2025 (situation de départ) : sa part est retirée, mesurée sur la même année que le chiffrage avec le rendement officiel de 2023 (1 605 M€ au taux de 0,3 %, Cour des comptes) : 1,605 × 0,1/0,3 ≈ 0,5 ; 3,0 − 0,5 ≈ +2,5 Md€ (la fiche de l'Institut donne 9,3 en estimation haute : taux de 0,5 % étendu à l'intrajournalier, appliqué partout dans le monde) ; chiffre du camp (5) hors médiane, en borne haute ; borne basse −50 % (1,2)",
+    note="Taux en vigueur : 0,4 % depuis le 1er avril 2025 (Cour des comptes, rapport délibéré le 18/05/2026) ; recette de 2,5 Md€ en 2025 et de 2,63 Md€ prévus en 2026 (projet de loi de finances pour 2026). Le chiffrage de l'Institut Montaigne part du taux de 2024 (0,3 %) et comprend la hausse à 0,4 % du programme de 2022, déjà votée : 0,5 Md€ retirés (rendement de 2023, 1,6 Md€, × 0,1/0,3). Taux et assiette non publiés par LFI en 2026. Pas de retour d'impôt sur les sociétés compté : la taxe est payée par l'acheteur de titres, quel qu'il soit (ménage, fonds, non-résident ou société) ; environ trois quarts sont payés par des investisseurs non-résidents (Cour des comptes, 2026), et la part payée par des sociétés imposables en France n'est pas établie.")
+k['inputs']+=[{'label':'Taux en vigueur','value':"« Depuis son entrée en vigueur, ses principaux paramètres n'ont pas varié, à l'exception de son taux qui a été relevé à 0,3 % au 1er janvier 2017 puis à 0,4 % au 1er avril 2025 » (p. 24) ; « Environ trois quarts de la taxe sont acquittés par des investisseurs non-résidents » (p. 65)",
+               'source':"Cour des comptes, « La taxe sur les transactions financières : un équilibre délicat entre rendement et régulation » (2026)",'url':CC_TTF},
+              {'label':'Rendement de la taxe','value':"2023 : 1 605 M€ ; 2024 : 1 860 M€ ; 2025 : 2 526 M€ (tableau n° 3, p. 34)",'source':"Cour des comptes (2026)",'url':CC_TTF},
+              {'label':'Prévision 2026','value':"« La prévision s'établit à 2 630 M€ en 2026, soit une hausse de +244 M€ par rapport à 2025 en raison de l'application en année pleine du taux relevé à 0,4 %. » (p. 37)",
+               'source':"Annexe au projet de loi de finances pour 2026, « Évaluation des voies et moyens », tome I",'url':VM26}]
+# (2) S177
+MT24SYN="https://www.institutmontaigne.org/legislatives-2024/rassemblement-national/synthese/"
+m=M('le-pen','ir-moins-30-ans'); k=m['claude']; assert (k['central'],k['low'],k['high'])==(-2.2,-3.7,-0.7)
+SET('le-pen','ir-moins-30-ans',-3.7,-3.7,-2.0,"Seul chiffrage indépendant confirmé : Institut Montaigne, 3,7 Md€ (page de synthèse de 2024, qui reprend le calcul de 2022 : 3,65 Md€, sans plafond, « sujet à caution ») ; la carte de la fiche PDF de synthèse de 2024 affiche 0,7 Md€, valeur contredite par la page de synthèse du même travail et par le calcul de 2022 dont elle dit partir, et identique à celle de la carte voisine (impôt sur les sociétés des entreprises créées par un moins de 30 ans) : non retenue ; le plafond de 4 SMIC de la version 2026 réduit peu le coût ; chiffre du camp (2,0) hors médiane, en borne haute",
+    note="Base 2022 (données de 2019), sans plafond. La fiche PDF de synthèse de l'Institut Montaigne de 2024 affiche 0,7 Md€ ; la page de synthèse du même travail donne 3,7 Md€, comme le chiffrage de 2022 dont la fiche dit partir, et 0,7 Md€ est la valeur de la mesure voisine (impôt sur les sociétés des entreprises créées par un moins de 30 ans) : seule la valeur de 3,7 est retenue. L'Institut Montaigne juge la mesure « probablement inconstitutionnelle » (égalité devant l'impôt) ; l'exonération des salaires des étudiants de moins de 26 ans existe déjà (art. 81 bis du CGI) : risque de censure sur un point précis, d'où « sous conditions ».")
+es=[e for e in m['estimates'] if e['url']==MT24]; assert len(es)==1 and es[0]['low_md']==-0.7
+es[0].update(source="Institut Montaigne (2024), page de synthèse",value="Exonérer les jeunes de moins de 30 ans d'impôt sur le revenu : 3,7 Md€ (la carte de la fiche PDF, 0,7 Md€, reprend la valeur de la mesure voisine)",low_md=-3.7,high_md=-3.7,url=MT24SYN)
+ins=[i for i in k['inputs'] if i['url']==MT24]; assert len(ins)==1
+ins[0].update(label="Carte de la fiche PDF de synthèse (valeur non retenue)",value="0,7 Md€/an (p. 2), identique à la carte voisine sur l'impôt sur les sociétés des entreprises créées par un moins de 30 ans (p. 4) ; la page de synthèse du même travail donne 3,7 Md€")
+# (3) S148
+B27="https://www.budget2027.fr/"
+SENRG26="https://www.senat.fr/rap/l25-139-310-1/l25-139-310-111.html"
+SEN807T1="https://www.senat.fr/rap/r24-807-1/r24-807-11.pdf"
+MI27="https://www.maire-info.com/budget-de-la%C2%A9tat/transition-a%C2%A9cologique-logement-outre-mera%E2%82%AC%C2%A6-ce-quil-faut-retenir-du-budget-2027-article-31139"
+assert not any(x['id']=='ademe' for x in C['zemmour']['measures'])
+ADD('zemmour',{"id":"ademe","theme":"depense","title":"Suppression de l'Ademe","proposal":"Supprimer l'Agence de l'environnement et de la maîtrise de l'énergie (Ademe), hors soutien aux énergies renouvelables.",
+  "claimed":"3,4 Md€ (plan de 140 Md€)","claimed_md":None,
+  "estimates":[{"source":"Plan budget2027.fr","year":2026,"value":"budget2027.fr, ligne 9 : « Suppression de l'Agence de l'environnement et de la maîtrise de l'énergie (Ademe), hors dispositifs de soutien aux renouvelables déjà comptabilisés à la ligne 6. 3,4 Md€ »","low_md":None,"high_md":None,"url":B27}],
+  "consensus":"isolé","verdict":"faisable","obstacle":"Aides déjà accordées à payer (2,9 Md€ d'engagements fin 2023, surtout des restes à payer).",
+  "claude":{"id":"ademe","central":0.4,"low":0.3,"high":0.4,"method":"ascendant",
+    "formula":"Agence nommée dont la mission disparaît : part publique de son budget officiel (même règle que l'Anah), hors Fonds chaleur (soutien à la chaleur renouvelable, exclu par la ligne 9 elle-même) : budget de moyens 153 M€ + Fonds économie circulaire 95 + autres politiques 131 = 379 M€ (autorisations d'engagement de 2026, Sénat) ≈ +0,4 Md€ ; borne basse au projet de loi de finances pour 2027 (budget d'intervention réduit de 350 M€, dont 300 sur le Fonds chaleur) : 379 − 50 = 329 M€ ≈ +0,3 ; borne haute : valeur de 2026",
+    "inputs":[{"label":"Budget de l'Ademe en 2026","value":"subvention de 2,09 Md€ en autorisations d'engagement (dont 856 M€ pour payer des engagements passés) et de 1,06 Md€ en crédits de paiement ; budget de moyens 153 M€ ; budget incitatif (autorisations d'engagement) : Fonds chaleur 800, Fonds économie circulaire 95, autres politiques 131, total 1 026 M€",
+               "source":"Sénat, rapport général sur le projet de loi de finances pour 2026, Écologie, développement et mobilité durables (C. Lavarde, 24/11/2025)","url":SENRG26},
+              {"label":"Projet de loi de finances pour 2027","value":"budget d'intervention de l'Ademe réduit de 350 M€, « entraînant une baisse de 300 millions d'euros sur le Fonds chaleur »","source":"Maire-info (2/10/2026)","url":MI27},
+              {"label":"Agence supprimée, aides maintenues","value":"« si l'Ademe ou l'ANAH étaient supprimées, mais que les aides qu'elles apportent à des particuliers ou à des entreprises étaient maintenues, leur coût pèserait tout autant sur le budget de l'État » (p. 89) ; engagements hors bilan de l'Ademe fin 2023 : 2,9 Md€, « principalement des restes à payer » (p. 86)",
+               "source":"Sénat, commission d'enquête sur les agences, rapport n° 807 (2025), tome I","url":SEN807T1},
+              {"label":"Ligne 9 du plan","value":"« Suppression de l'Agence de l'environnement et de la maîtrise de l'énergie (Ademe), hors dispositifs de soutien aux renouvelables déjà comptabilisés à la ligne 6. » 3,4 Md€","source":"Plan budget2027.fr","url":B27}],
+    "note":"Fonds chaleur (800 M€ en 2026, réduit de 300 M€ au projet de loi de finances pour 2027) : exclu par la ligne 9 du plan ; la fiche « Fin du soutien aux renouvelables » ne compte que le soutien à l'électricité (charges de service public de l'énergie) : il n'est compté dans aucune des deux fiches, sans double compte. Les aides déjà accordées restent à payer (2,9 Md€ d'engagements fin 2023) : aucune économie sur elles. Les « autres politiques » de l'agence (131 M€) sont comptées en entier : la part qui relèverait d'obligations de l'État n'est pas isolée. Le chiffre du camp (3,4 Md€) n'est pas compté au-delà du budget officiel : la subvention de l'État à l'agence est de 2,09 Md€ en autorisations d'engagement en 2026, dont 856 M€ pour payer des engagements passés, et de 1,06 Md€ en crédits de paiement."}})
+t=C['zemmour']['claude_total']
+a0="audiovisuel 4, Ademe 3,4, fraude"; assert t['missing'].count(a0)==1; t['missing']=t['missing'].replace(a0,"audiovisuel 4, fraude")
+a0="associations 1 à 2, ARS 1 et autres agences nommées 1 : agences nommées, hors valeur commune des agences, qui vise la suppression ou la fusion de la plupart d'entre elles ; économies sans chiffrage indépendant, comme les ARS de Lisnard, sans économie propre)"
+assert t['missing'].count(a0)==1
+t['missing']=t['missing'].replace(a0,"associations 1 à 2), ARS 1 et autres agences nommées 1 du même plan (Arcom, Conseil national du bruit, Haut Conseil à l'égalité, Observatoire de la laïcité, Haut Comité pour le logement…) : agences nommées, hors valeur commune des agences, qui vise la suppression ou la fusion de la plupart d'entre elles ; missions reprises, valeur propre 0, comme les ARS, DREAL et DDTM de Lisnard et l'Office français de la biodiversité de Retailleau (ARS : missions de santé que le plan ne supprime pas ; Arcom : missions imposées par le droit de l'UE ; autres instances : budgets non isolés, liste ouverte)")
+a0="ARS, DREAL et DDTM, nommées par le candidat, y sont comprises : missions reprises, sans économie propre publiée ni chiffrage indépendant, comme les ARS du plan de Zemmour, non comptées"
+REP('lisnard','fonction','formula',a0,"ARS, DREAL et DDTM, nommées par le candidat, y sont comprises : missions reprises, valeur propre 0 (règle des agences nommées), comme les ARS du plan de Zemmour")
+a0="La mesure entre dans la valeur commune des agences (suppression de la quasi-totalité des agences)."
+REP('retailleau','etat','formula',a0,"La mesure entre dans la valeur commune des agences (suppression de la quasi-totalité des agences) ; l'Office français de la biodiversité, nommé par le candidat, est supprimé « à effectifs transférés » : missions reprises, valeur propre 0 (règle des agences nommées).")
+M('retailleau','etat')['claude']['inputs'].append({"label":"Agence nommée","value":"Supprimer l'Office français de la biodiversité : « Le retour à l'organisation antérieure se fait à effectifs transférés, sans création de structure. »",
+    "source":"Site de Bruno Retailleau, « Supprimer l'OFB »","url":"https://www.avecretailleau.fr/projet/mesure/supprimer-l-ofb-et-accelerer-les-autorisations-sanitaires"})
+# (4) S178 : mêmes effectifs pour toutes les allocations par enfant
+IN_MIN26={"label":"Mineurs au 1er janvier 2026","value":"13 855 milliers (0 à 17 ans, France, données provisoires ; somme de la pyramide des âges)","source":"Insee Première n° 2087, Bilan démographique 2025, figure 6a","url":"https://www.insee.fr/fr/statistiques/fichier/8719824/ip2087.xlsx"}
+IN_FAM23={"label":"Familles selon le nombre d'enfants mineurs (2023)","value":"1 enfant : 3 578,3 ; 2 enfants : 3 039,0 ; 3 enfants : 956,2 ; 4 enfants ou plus : 308,4 (milliers ; France hors Mayotte, recensement)","source":"Insee, « Familles selon le nombre d'enfants mineurs » (25/06/2026)","url":"https://www.insee.fr/fr/statistiques/2381506"}
+k=M('retailleau','revenu_familial')['claude']; assert k.get('nc') and k['note'].startswith("Indicatif : de 0 à +1,5 Md€")
+NOTE('retailleau','revenu_familial',"Indicatif : de −2,8 à +1,5 Md€. Le coût annoncé (40,3 Md€) correspond à 240 € × 12 mois pour chaque mineur (13,9 millions au 1er janvier 2026, Insee : 39,9 Md€), sans le doublement au 3e enfant. Ce doublement coûte 3,6 Md€ (1,26 million de familles avec au moins 3 enfants mineurs, Insee, recensement de 2023), au moins 4,5 Md€ s'il vaut pour chaque enfant à partir du 3e. Avec les 41,6 à 41,8 Md€ d'économies annoncées par le camp (41 Md€ d'aides supprimées, 0,6 à 0,8 de gestion), le solde serait de −1,9 à −1,7 Md€ (de −2,8 à −2,6 dans le second cas), contre +1,3 à +1,5 selon le camp ; non vérifiable sans la liste des 12 aides remplacées. Même situation juridique que les aides réservées après cinq ans de la fiche immigration du candidat et que celles de Lisnard : « Exige une révision ».")
+k['inputs']+=[IN_MIN26,IN_FAM23]
+k=M('philippe','famille')['claude']; assert (k['central'],k['low'],k['high'])==(0,0,0) and k['note'].startswith("Indicatif : de 0 (coût constant annoncé par le camp) à environ −17,5 Md€")
+AF=SQ['alloc_familiales']; assert (AF['2'],AF['3'],AF['par_enfant_sup'])==(152.25,347.32,195.07)
+af=(3.039*AF['2']+0.9562*AF['3']+0.3084*(AF['3']+AF['par_enfant_sup']))*12/1e3; brut=13.855*350*12/1e3; assert round(af,1)==11.5 and round(brut,1)==58.2 and round((brut-af)/2,1)==23.3
+NOTE('philippe','famille',"Indicatif : de 0 (coût constant annoncé par le camp) à environ −23,3 Md€ : 350 € × 12 mois pour chaque mineur (13,9 millions au 1er janvier 2026, Insee) = 58,2 Md€, moins les allocations familiales actuelles (montants de 2026 appliqués aux familles de 2 enfants mineurs ou plus du recensement de 2023, celles de 4 enfants ou plus comptées pour 4 : ≈ 11,5 Md€), divisé par 2 pour la dégressivité (hypothèse) ; autres aides fusionnées non comptées. Mêmes effectifs que le revenu familial de Retailleau.")
+n0=len(k['inputs']); k['inputs']=[i for i in k['inputs'] if i['label'] not in ("Familles par nombre d'enfants","Allocations actuelles")]; assert len(k['inputs'])==n0-2
+k['inputs']=[IN_MIN26,IN_FAM23,{"label":"Allocations familiales 2026","value":"2 enfants : 152,25 €/mois ; 3 enfants : 347,32 € ; par enfant en plus : 195,07 € (avant modulation selon les revenus)","source":"Service-public.gouv.fr","url":AF['url']}]+k['inputs']
+# (5) S151 : le bois, visé par la ligne du contre-budget 2027
+m=M('le-pen','tva'); assert m['proposal']=="TVA de 20 % à 5,5 % sur électricité, gaz, fioul et carburants."
+m['proposal']="TVA à 5,5 % sur l'électricité, le gaz, le fioul et les carburants (au lieu de 20 %), ainsi que sur le bois."
+m['claude']['note']+=" La ligne du contre-budget 2027 vise aussi le bois (« gaz, électricité, carburants, bois, fioul »), que les chiffrages de Bercy et de l'Institut Montaigne ne comptent pas : les ménages y consacrent 66 € par an en moyenne, contre 1 337 € pour l'électricité (SDES, 2024)."
+m['claude']['inputs']+=[{"label":"Ligne du contre-budget 2027","value":"« Baisse de la TVA sur les énergies (gaz, électricité, carburants, bois, fioul) 12,200 »","source":"Groupe RN, contre-budget 2027 (annexe)","url":"https://back.deputes-rn.fr/wp-content/uploads/2026/10/GRN-CONTRE-BUDGET-2027-DOSSIER.pdf"},
+    {"label":"Dépenses d'énergie des ménages (2024)","value":"2 071 € par ménage pour le logement, dont 1 337 € d'électricité, 442 € de gaz naturel, 170 € de produits pétroliers et 66 € de bois ; 52,8 Md€ de carburants","source":"SDES, Chiffres clés de l'énergie, édition 2026","url":"https://www.statistiques.developpement-durable.gouv.fr/edition-numerique/chiffres-cles-energie/4-depenses-en-energie"}]
+# (6) S155 et (7) : part imposable des gains de salaire dus à une baisse de prélèvement (le simulateur recalcule l'impôt pour tous les gains)
+sa=C['attal']['sim']; assert sa['salaire_net'] is None and sa['salaire_note']=="Baisse des charges salariales annoncée, sans montant."
+sa['salaire_net']={"points":[[2238,250]],"public":"salariés",
+ "note":"Baisse des cotisations salariales (« droit au brut ») dès 2027 : 250 €/mois nets de plus au salaire médian (2 238 € net, Insee ; 2 200 € selon le candidat) ; en dessous, au prorata du salaire (notre calcul)",
+ "au_dela":"Baisse des cotisations salariales au-delà du salaire médian (2 238 € net) : montant non publié, pas de gain calculé"}
+sa['salaire_note']=None
+for cid,imp in (('glucksmann',round(6.8/9.2,3)),('retailleau',1),('lisnard',1),('attal',1)):
+    sn=C[cid]['sim']['salaire_net']; assert sn and 'imposable' not in sn, cid; sn['imposable']=imp
+assert [c0['id'] for c0 in D['candidates'] if (c0['sim'].get('salaire_net') or {}).get('imposable') is None and c0['sim'].get('salaire_net')]==[]
+t=C['attal']['claude_total']; a0="baisse des charges salariales, "; assert t['missing'].count(a0)==1
+t['missing']=t['missing'].replace(a0,"baisse des cotisations salariales (« droit au brut » : 250 € nets de plus par mois au salaire médian dès 2027, financés par des économies sur l'assurance chômage et les indemnités journalières ; barème, coût et économies non publiés), ")
+# (8) et (9) : veille
+t=C['retailleau']['claude_total']; a0="intérêts d'emprunt déductibles, "; assert t['missing'].count(a0)==1 and 'taux zéro' not in t['missing']
+t['missing']=t['missing'].replace(a0,a0+"prêt à taux zéro pour tous les primo-accédants (neuf et ancien, sans zonage), ")
+t=C['le-pen']['claude_total']; a0="exonération des hausses de salaire jusqu'à 10 %, "; assert t['missing'].count(a0)==1
+t['missing']=t['missing'].replace(a0,"exonération des hausses de salaire jusqu'à 10 % (salaires jusqu'à 3 fois le SMIC, porte-parole de campagne, 2/11/2026), ")
+D['asof']='3 novembre 2026'
+
 # --- quiz : texte en langage courant, appliqué après toutes les corrections (mesures ajoutées comprises)
 for c0 in D['candidates']:
     for m in c0['measures']:
