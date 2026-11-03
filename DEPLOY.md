@@ -1,68 +1,68 @@
-# Déployer sur Cloudflare Pages
+# Déployer sur le projet Cloudflare Pages existant
 
-Le site est statique (`public/`), avec deux petites fonctions (`functions/api/`). Aucun build côté Cloudflare : le site est déjà construit et versionné.
+Site : https://p2027.org. Projet Pages : `promesses-2027`, adresse technique : https://promesses-2027.pages.dev.
 
-## Option A : tout en ligne de commande (Claude Code peut le faire seul)
+Le site statique (`public/`) et les deux fonctions (`functions/api/`) sont publiés ensemble. Le pipeline Python construit les fichiers avant leur envoi : aucun build côté Cloudflare. Le retour du dépôt vers `standujar/Promesses-2027` conserve ce projet, ses domaines, ses liaisons KV et ses secrets. **Ne pas recréer le projet ni les espaces KV pour ce transfert.**
+
+## Publication par GitHub Actions
+
+Le circuit de publication est `.github/workflows/deploy.yml` → Wrangler Direct Upload → projet Pages `promesses-2027`. Ne pas ajouter d'intégration Git native Cloudflare en parallèle.
+
+Dans les paramètres GitHub du dépôt transféré, vérifier ces noms, sans exposer leurs valeurs secrètes :
+
+| Type | Nom | Usage |
+| --- | --- | --- |
+| Variable du dépôt | `CF_PAGES_PROJECT` | `promesses-2027` ; sa présence active le job de déploiement |
+| Secret GitHub Actions | `CLOUDFLARE_API_TOKEN` | Publication dans le projet Pages existant |
+| Secret GitHub Actions | `CLOUDFLARE_ACCOUNT_ID` | Compte Cloudflare qui contient ce projet |
+
+Un push sur `main` déclenche la reconstruction avec Python 3.12 et vérifie que `public/`, `README.md` et `METHODOLOGIE.md` sont à jour, puis publie avec `--branch=main`. Une exécution manuelle de ce workflow publie également en production : sélectionner `main` et vérifier le SHA avant de la lancer.
+
+Le workflow `.github/workflows/build.yml` vérifie la construction sur les pushes et les PR ; il ne publie pas. Conserver les protections de branche et les contrôles requis après le transfert.
+
+## Liaisons et secrets conservés dans Cloudflare
+
+Les réglages sont portés par le projet Pages, sans `wrangler.toml` dans ce dépôt :
+
+| Type | Nom de liaison ou secret | Ressource ou rôle |
+| --- | --- | --- |
+| KV | `LIMITS` | Espace existant `promesses-limits`, quotas |
+| KV | `REPORTS` | Espace existant `promesses-reports`, signalements |
+| Secret | `ADMIN_TOKEN` | Lecture administrative des signalements |
+| Secret | `SALT` | Hachage des IP pour les quotas |
+
+Vérifier les liaisons de production et leurs identifiants dans le tableau de bord. Ne pas recréer les espaces, vider leurs données ou renouveler les secrets pour un simple changement de propriétaire GitHub. Aucun assistant IA n'est déployé.
+
+## Transfert du dépôt et vérifications
+
+1. Transférer le dépôt GitHub lui-même pour préserver historique, branches, PR et issues. Un push seul ne transfère pas ces métadonnées. En cas de collision de nom, conserver le dépôt existant : aucun écrasement ni suppression.
+2. Vérifier le SHA de `main`, toutes les branches et les tags avant et après. Actualiser les remotes locaux et les liens du site depuis `pipeline/build.py`, puis reconstruire ; ne pas modifier les fichiers générés à la main.
+3. Vérifier les variables et noms de secrets GitHub Actions, les protections, ainsi que la branche de production `main`. Ce circuit Direct Upload ne demande aucune nouvelle connexion Git du projet Pages ni nouvelle installation Cloudflare GitHub App.
+4. Avant la première publication, relever le déploiement de production actuel et son SHA, présenter l'impact et le retour arrière. Si nécessaire, revenir à ce déploiement dans Cloudflare Pages ; les données KV restent indépendantes des déploiements.
+5. Après publication, vérifier l'URL du déploiement, le domaine et les liaisons. Ne pas envoyer de faux signalements en production pour tester.
+
+## Vérifier en local
+
+Avec Python 3.12 et Playwright/Chromium installés :
 
 ```
-npx wrangler login                                   # une fois, ouvre le navigateur
-npx wrangler pages project create promesses-2027 --production-branch main
-npx wrangler kv namespace create promesses-limits    # noter l'id
-npx wrangler kv namespace create promesses-reports   # noter l'id
-npx wrangler pages deploy public --project-name promesses-2027 --branch main
+python3.12 pipeline/run.py
+git diff --exit-code -- public README.md METHODOLOGIE.md
+python3.12 tests/smoke.py
 ```
-Puis, dans le tableau de bord du projet (Paramètres → Liaisons), lier `LIMITS` et `REPORTS` aux deux espaces KV, et ajouter les secrets :
+
+Pour développer les fonctions avec des données locales uniquement :
+
 ```
-npx wrangler pages secret put ADMIN_TOKEN --project-name promesses-2027
-npx wrangler pages secret put SALT --project-name promesses-2027
+npx wrangler pages dev public --kv LIMITS --kv REPORTS --binding ADMIN_TOKEN=test
 ```
-Déploiement automatique à chaque push : créer un jeton API Cloudflare (modèle « Cloudflare Pages : modifier »), puis
-```
-gh secret set CLOUDFLARE_API_TOKEN
-gh secret set CLOUDFLARE_ACCOUNT_ID
-gh variable set CF_PAGES_PROJECT --body promesses-2027
-```
-Le workflow `.github/workflows/deploy.yml` prend alors le relais.
 
-## Option B : depuis le tableau de bord
+Lecture administrative en production, uniquement lorsqu'elle est nécessaire et avec le secret existant :
 
-### 1. Créer le projet (une fois)
-
-1. Cloudflare → **Workers & Pages** → **Créer** → onglet **Pages** → **Connecter à Git**.
-2. Choisir le dépôt `promesses-2027`.
-3. Réglages de build :
-   - Framework : **Aucun**
-   - Commande de build : *(vide)*
-   - Répertoire de sortie : `public`
-4. **Enregistrer et déployer.** Le site est en ligne sur `p2027.org` (domaine personnalisé ; `promesses-2027.pages.dev` reste l'adresse technique du projet Cloudflare). Chaque push sur `main` redéploie ; chaque branche a son aperçu.
-
-### 2. Activer les signalements et les quotas (recommandé)
-
-1. **Workers & Pages → KV** → créer deux espaces : `promesses-limits` et `promesses-reports`.
-2. Projet Pages → **Paramètres → Liaisons** → ajouter :
-   - KV `LIMITS` → `promesses-limits`
-   - KV `REPORTS` → `promesses-reports`
-3. **Paramètres → Variables et secrets** → ajouter :
-   - `ADMIN_TOKEN` (secret) : une longue chaîne aléatoire, pour lire les signalements.
-   - `SALT` (secret) : une autre chaîne aléatoire (hachage des IP pour les quotas, jamais stockées en clair).
-4. Redéployer (onglet Déploiements → Réessayer).
-
-Lire les signalements :
 ```
 curl -H "Authorization: Bearer <ADMIN_TOKEN>" https://p2027.org/api/reports
 ```
-Sans la liaison `REPORTS`, l'app copie le signalement dans le presse-papiers à la place.
 
-### 3. Nom de domaine (facultatif)
-
-Projet Pages → **Domaines personnalisés** → ajouter le domaine. Les liens de partage s'adaptent tout seuls au domaine.
-
-## Tester en local
-
-```
-python3 pipeline/run.py
-npx wrangler pages dev public --kv LIMITS --kv REPORTS --binding ADMIN_TOKEN=test
-```
 ## Rappel légal
 
 La loi interdit la publication de sondages la veille et le jour de chaque tour : l'app les masque automatiquement les 17-18 avril et 1er-2 mai 2027 (heure de Paris).

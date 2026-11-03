@@ -1,7 +1,7 @@
 import json,re
 D=json.load(open('promesses-2027-data.json'))
 import os
-D['repo_url']=os.environ.get('REPO_URL','https://github.com/standujar-acc/Promesses-2027')
+D['repo_url']=os.environ.get('REPO_URL','https://github.com/standujar/Promesses-2027')
 D['opendata']="Le projet est open source : le code est public sous licence MIT, et toutes les données de l'app (mesures, calculs, données d'entrée et sources) sont dans un fichier JSON ouvert, sous licence CC BY 4.0. Chacun peut refaire les calculs, les contester, proposer une correction ou les réutiliser."
 D['about']="Promesses 2027 est un site indépendant : il n'a aucun lien avec un parti, un candidat ou une équipe de campagne, et ne reçoit aucun financement. Les mêmes règles s'appliquent à tous les candidats ; la méthode, le code et les données sont publics, et chaque correction est datée dans l'historique."
 D['legal']="Éditeur : un particulier, à titre non professionnel ; contact par le bouton « Signaler une erreur » ou les tickets publics GitHub (voir ci-dessus). Hébergeur : Cloudflare, Inc., 101 Townsend Street, San Francisco, CA 94107, États-Unis, tél. +1 888 993 5273. Code sous licence MIT, données sous licence CC BY 4.0."
